@@ -1,0 +1,63 @@
+{
+  "id": "enderkits",
+  "name": "EnderKits",
+  "author": "Terpz710",
+  "description": "Description",
+  "readme_markdown": "<p align=\"center\">\n    <a href=\"https://github.com/Terpz710/EnderKits\"><img src=\"https://github.com/Terpz710/EnderKits/blob/main/icon.PNG\"></img></a><br>\n\n# Description\n\nA simple kits plugin for Pocketmine-MP. This plugin will allow you to create unlimited kits with easy to use permission and cool down sytsem. Very easy configurable kits.yml.\n\n- Custom permission support\n\n- Added bank notes to the kit(MUST USE MY BANK NOTES PLUGIN CALLED \"BankNotesPlus\")\n\n- Configurable messages\n\n- BankNotesPlus: [BankNotesPlus](https://poggit.pmmp.io/p/BankNotesPlus/1.0.5)\n  \n# Permissions\n\n```\npermissions:\n  enderkits.kit:\n    description: \"Enderkits Perm\"\n    default: tru\n```\n\n# CONFIG\n\n**kits.yml**\n\n```php\n# Made by Terpz710 :p\n\n# To create a kit follow the preset kit down below!\n# Name, enchantment and banknotes are optional!\n\n# You may use '&' for color coding in the 'name' key\n\nkits:\n  test:\n    kit_name: \"Test\"\n    permissions: \"enderkits.kit.test\"\n    armor:\n      helmet:\n        item: \"diamond_helmet\"\n        name: \"Test Helmet\"\n        enchantments:\n          protection: 2\n      chestplate:\n        item: \"diamond_chestplate\"\n        name: \"Test Chestplate\"\n        enchantments:\n          protection: 2\n      leggings:\n        item: \"diamond_leggings\"\n        name: \"Test Leggings\"\n        enchantments:\n          protection: 2\n      boots:\n        item: \"diamond_boots\"\n        name: \"Test Boots\"\n        enchantments:\n          protection: 2\n    items:\n      - item: \"diamond_sword\"\n        name: \"&4Test Sword\"\n        enchantments:\n          sharpness: 2\n        quantity: 1\n      - item: \"diamond_pickaxe\"\n        name: \"Test Pickaxe\"\n        enchantments:\n          efficiency: 5\n        quantity: 1\n      - item: \"golden_apple\"\n        quantity: 5\n      - item: \"steak\"\n        quantity: 32\n    cooldown: 60\n    banknotes:\n      - 1000\n      - 5000\n      - 20000\n\n  starter:\n    kit_name: \"Starter\"\n    permissions: \"enderkits.kit.starter\"\n    armor:\n      helmet:\n        item: \"iron_helmet\"\n        enchantments:\n          protection: 1\n      chestplate:\n        item: \"iron_chestplate\"\n        enchantments:\n          protection: 1\n      leggings:\n        item: \"iron_leggings\"\n        enchantments:\n          protection: 1\n      boots:\n        item: \"iron_boots\"\n        enchantments:\n          protection: 1\n    items:\n      - item: \"stone_sword\"\n        enchantments:\n          sharpness: 1\n        quantity: 1\n      - item: \"stone_pickaxe\"\n        quantity: 1\n      - item: \"bread\"\n        quantity: 32\n      - item: \"apple\"\n        quantity: 10\n    cooldown: 10\n\n  vip:\n    kit_name: \"VIP\"\n    permissions: \"enderkits.kit.vip\"\n    armor:\n      helmet:\n        item: \"chainmail_helmet\"\n        enchantments:\n          protection: 3\n      chestplate:\n        item: \"chainmail_chestplate\"\n        enchantments:\n          protection: 3\n      leggings:\n        item: \"chainmail_leggings\"\n        enchantments:\n          protection: 3\n      boots:\n        item: \"chainmail_boots\"\n        enchantments:\n          protection: 3\n    items:\n      - item: \"iron_sword\"\n        enchantments:\n          sharpness: 3\n        quantity: 1\n      - item: \"carrot\"\n        quantity: 8\n      - item: \"cooked_chicken\"\n        quantity: 16\n      - item: \"potion\"\n        name: \"Swiftness Potion\"\n        quantity: 2\n    cooldown: 10\n```\n\n# TODO\n\n- [x] Make a messages.yml to handle messages\n- [ ] Add an ecomony system\n- [x] Add UI support(Will make it an off/on)",
+  "readme_source_url": "https://github.com/Terpz710/EnderKits",
+  "icon_url": "https://raw.githubusercontent.com/Terpz710/EnderKits/cbd8fc271d4cd105eae634e2e63e036f668d60f1/icon.PNG",
+  "featured": false,
+  "repo": "https://github.com/Terpz710/EnderKits",
+  "archive_repo": null,
+  "approved_release_tag": "r-13913",
+  "stars": 0,
+  "total_downloads": 177,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "BankNotesPlus"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Terpz710"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/254091",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13913",
+      "published_at": null,
+      "downloads": 177,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13913/enderkits-1.0.0-r13913.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13913",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13913/enderkits-1.0.0-r13913.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EnderKits",
+    "stable_release_id": 13913
+  }
+}

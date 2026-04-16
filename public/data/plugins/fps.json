@@ -1,0 +1,63 @@
+{
+  "id": "fps",
+  "name": "FPS",
+  "author": "usy4",
+  "description": "A simple FPS display plugin for PocketMine-MP servers.",
+  "readme_markdown": "# FPS\nA simple FPS display plugin for PocketMine-MP servers.\n\n## Features\n\n- Real-time FPS display for players\n- Multiple display modes (popup, tip, jukebox, scoreboard)\n- Color customization\n- ScoreHUD integration\n- Resource pack support\n- Per-player settings\n\n## Requirements\n\n- PocketMine-MP 5.0+\n- FormAPI plugin (Will automatically download the UI)\n- libCustomPack plugin (Will automatically download for the resource pack)\n- ScoreHud plugin (optional, for scoreboard display)\n\n## Installation\n\n1. Download the plugin `.phar` file\n2. Place it in your server's `plugins/` folder\n3. Install required dependencies:\n   - ScoreHud.phar (optional)\n4. Restart your server\n\n## Usage\n\n### For Players\n1. Enable \"Client Diagnostics\" in Minecraft settings:\n   - Settings → Creator Settings → Enable Client Diagnostics\n2. Use `/fps` command to configure display options\n\n### For Server Owners\n- The plugin works out of the box with default settings\n- Players can customize their own display preferences\n- Resource pack is automatically generated if libCustomPack is installed\n\n## Commands\n\n| Command | Permission | Description |\n|---------|------------|-------------|\n| `/fps` | `fps.command.fps` | Open FPS settings menu |\n\n## Permissions\n\n| Permission | Default | Description |\n|------------|---------|-------------|\n| `fps.command.fps` | `true` | Use the /fps command |\n\n## ScoreHUD Integration\n\nAdd this tag to your ScoreHUD scoreboards:\n```yaml\nlines:\n  - \"{fps.display}\"\n```\n\nThe tag will show \"FPS: 60\" with colors when enabled, or hide completely when disabled.\n\n## Configuration\n\nThe plugin creates a simple config file with basic settings. Most configuration is done through the in-game `/fps` menu.\n\n## Support\n\n- Create an issue on GitHub for bugs or feature requests\n- Make sure you have the required dependencies installed\n- Check console logs for error messages\n\n## License\n\nMIT License",
+  "readme_source_url": "https://github.com/usy4/FPS",
+  "icon_url": "https://raw.githubusercontent.com/usy4/FPS/09e63204987de445347e245a1d2d5308e60bd3a6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/usy4/FPS",
+  "archive_repo": null,
+  "approved_release_tag": "r-14072",
+  "stars": 0,
+  "total_downloads": 317,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "ScoreHud"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "usy4"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-14072",
+      "published_at": null,
+      "downloads": 317,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14072/fps-1.0.0-r14072.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14072",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14072/fps-1.0.0-r14072.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FPS",
+    "stable_release_id": 14072
+  }
+}

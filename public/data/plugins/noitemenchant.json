@@ -1,0 +1,61 @@
+{
+  "id": "noitemenchant",
+  "name": "NoItemEnchant",
+  "author": "WavyCraft",
+  "description": "Description",
+  "readme_markdown": "# Description\nWith this plugin you may disable the enchanting process within the enchantment table for a specific item.\n\nYou may add items within `config.yml` to disable the enchanting.",
+  "readme_source_url": "https://github.com/WavyCraft/NoItemEnchant",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/WavyCraft/NoItemEnchant",
+  "archive_repo": null,
+  "approved_release_tag": "r-14062",
+  "stars": 0,
+  "total_downloads": 37,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "WavyCraft"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-14062",
+      "published_at": null,
+      "downloads": 37,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14062/noitemenchant-1.0.0-r14062.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14062",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14062/noitemenchant-1.0.0-r14062.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NoItemEnchant",
+    "stable_release_id": 14062
+  }
+}

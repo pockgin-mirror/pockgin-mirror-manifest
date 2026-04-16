@@ -1,0 +1,61 @@
+{
+  "id": "itemeditor",
+  "name": "ItemEditor",
+  "author": "FrostCheat",
+  "description": "🛠️ ItemEditor",
+  "readme_markdown": "<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/plugin-ItemEditor-blueviolet?style=for-the-badge\">\n  <br><br>\n  <a href=\"https://paypal.me/FrostCheatMC?country.x=CO&locale.x=es_XC\">\n    <img src=\"https://img.shields.io/badge/donate-paypal-ff69b4?style=for-the-badge&logo=paypal\">\n  </a>\n  <a href=\"https://discord.gg/k8X7CG2kFv\">\n    <img src=\"https://img.shields.io/discord/1384337463971020911?style=for-the-badge&logo=discord&logoColor=white\">\n  </a>\n  <a href=\"https://poggit.pmmp.io/ci/FrostCheat/ItemEditor/ItemEditor\">\n    <img src=\"https://poggit.pmmp.io/ci.shield/FrostCheat/ItemEditor/ItemEditor?style=for-the-badge\">\n  </a>\n  <a href=\"https://poggit.pmmp.io/p/ItemEditor\">\n    <img src=\"https://poggit.pmmp.io/shield.downloads/ItemEditor?style=for-the-badge\">\n  </a>\n</p>\n\n<h1 align=\"center\">🛠️ ItemEditor</h1>\n<p align=\"center\">Edit any item in-game with a user-friendly GUI. Modify names, lore, NBT data, attributes, and more!</p>\n\n---\n\n## ✨ Features\n\n- ✅ Edit item enchantments\n- ✅ Edit item names & lore with color codes\n- ✅ Toggle unbreakable state\n- ✅ Repair the item in hand\n- ✅ Edit Amount of the item\n- ✅ Fast and intuitive UI with Inventory Forms\n- ✅ Permission-based access\n\n---\n\n## 📥 Installation\n\n1. 📦 Download from [Poggit](https://poggit.pmmp.io/p/ItemEditor)\n2. 📁 Put the `.phar` file in your `/plugins` folder\n3. 🔁 Restart your server\n\n---\n\n## 📚 Commands & Permissions\n\n| Command           | Description                          | Permission                       |\n| ----------------- | ------------------------------------ | -------------------------------- |\n| `/ie help`        | Shows the command list               | `itemeditor.command.help`        |\n| `/ie edit`        | Opens the item edit menu             | `itemeditor.command.edit`        |\n| `/ie amount`      | Edits the amount of the item in hand | `itemeditor.command.amount`      |\n| `/ie rename`      | Renames the item in hand             | `itemeditor.command.rename`      |\n| `/ie reopen`      | Reopens the edit menu                | `itemeditor.command.reopen`      |\n| `/ie repair`      | Repairs the item in hand             | `itemeditor.command.repair`      |\n| `/ie unbreakable` | Sets the item's unbreakable state    | `itemeditor.command.unbreakable` |\n\n🔐 All commands require operator permission by default (`default: op`).\n\n---\n\n## 📜 License\n\nThis project is licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE](LICENSE).  \nFeel free to fork, modify, or contribute.\n\n---\n\n## ☕ Support\n\nIf you like this plugin, consider donating or giving it a ⭐ on [GitHub](https://github.com/FrostCheat/ItemEditor)!\n\n> 💖 [Donate via PayPal](https://paypal.me/FrostCheatMC?country.x=CO&locale.x=es_XC)\n\n---\n\n<p align=\"center\"><b>Made with ❤️ by FrostCheat</b></p>",
+  "readme_source_url": "https://github.com/FrostCheat/ItemEditor",
+  "icon_url": "https://raw.githubusercontent.com/FrostCheat/ItemEditor/cf61a0ec3837075125bb86fe672fc4b6c2eaac6c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/FrostCheat/ItemEditor",
+  "archive_repo": null,
+  "approved_release_tag": "r-14076",
+  "stars": 0,
+  "total_downloads": 201,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "FrostCheat"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/262437",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-14076",
+      "published_at": null,
+      "downloads": 201,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14076/itemeditor-1.0.0-r14076.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14076",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14076/itemeditor-1.0.0-r14076.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemEditor",
+    "stable_release_id": 14076
+  }
+}

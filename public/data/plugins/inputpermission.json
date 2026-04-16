@@ -1,0 +1,61 @@
+{
+  "id": "inputpermission",
+  "name": "InputPermission",
+  "author": "DavyCraft648",
+  "description": "InputPermission is a PocketMine-MP plugin that implements the functionality of the command from",
+  "readme_markdown": "# InputPermission\n\nhttps://youtu.be/7pi1HXQzUpM\n\nInputPermission is a PocketMine-MP plugin that implements the functionality of the `/inputpermission` command from\nMinecraft Bedrock Edition into your server. This plugin allows server administrators to control whether a player's input\ncan affect their character in the game, providing granular control over various aspects of player movement and\ninteraction.\n\nWith this plugin, you can control specific inputs like jumping, sneaking, moving, or even camera interaction.\n\n## Key Features\n\n* **`/inputpermission` Command:** Full functionality of the Minecraft Bedrock Edition `/inputpermission` command is\n  implemented.\n* **Granular Control:** Allow or restrict specific inputs through various permission categories:\n    * `camera`: Controls player input relating to camera movement.\n    * `movement`: Controls all player movement. Disabling this is equivalent to disabling `jump`, `sneak`,\n      `lateral_movement`, `mount`, and `dismount`.\n    * `lateral_movement`: Controls player input for moving laterally in the world. This would be WASD on a keyboard or\n      the movement joystick on gamepad or touch.\n    * `sneak`: Controls player input relating to sneak. This also affects flying down.\n    * `jump`: Controls player input relating to jumping. This also affects flying up.\n    * `mount`: Controls player input relating to mounting vehicles.\n    * `dismount`: Controls player input relating to dismounting.\n    * `move_forward`: Controls player input relating to moving the player forward.\n    * `move_backward`: Controls player input relating to moving the player backward.\n    * `move_left`: Controls player input relating to moving the player left.\n    * `move_right`: Controls player input relating to moving the player right.\n* **Flexible Permission System:** Control who can use the commands and manage permissions with a comprehensive\n  permission system.\n* **Form UI Support:** The plugin provides an intuitive Form UI interface for managing input permissions, making it\n  easier for administrators unfamiliar with console commands.\n\n## Commands\n\nThis plugin adds the `/inputpermission` command to your server.\n\n**Syntax:**\n`/inputpermission <option> [target] [permission] [state]`\n\n* `<option>`: The operation to perform (`query` or `set`).\n* `[target]`: The name of the player you wish to affect.\n* `[permission]`: The input permission category you wish to configure (e.g., `jump`, `movement`, `camera`).\n* `[state]`: The state you wish to set (`enabled` or `disabled`). Only relevant for the `set` option.\n\n**Usage Examples:**\n\n* `/inputpermission query DavyCraft648 movement`: Queries the `movement` permission status for player DavyCraft648.\n* `/inputpermission set DavyCraft648 jump disabled`: Disables the jumping ability for player DavyCraft648.\n\n## Permissions\n\nThe plugin provides the following permissions for granular control:\n\n**Command Permissions:**\n\n* `inputpermission.command` (default: `op`): Allows basic usage of the `/inputpermission` command.\n* `inputpermission.command.query.self` (default: `op`): Allows players to query their own input permissions.\n* `inputpermission.command.query.other` (default: `op`): Allows players to query other players' input permissions.\n* `inputpermission.command.set.self` (default: `op`): Allows players to set their own input permissions.\n* `inputpermission.command.set.other` (default: `op`): Allows players to set other players' input permissions.\n* `inputpermission.command.admin` (default: `op`): Grants full access to all `inputpermission` command functionalities,\n  including plugin configuration.\n\n**Input Category Permissions:**\n\nEach input category has an associated permission that can be managed by external permission plugins to control default\nplayer input. If a player **does not have** this permission, the related input will be **disabled**. By default, all\nthese input permissions are set to `true` for all players.\n\n* `inputpermission.permission.camera` (default: `true`)\n* `inputpermission.permission.dismount` (default: `true`)\n* `inputpermission.permission.jump` (default: `true`)\n* `inputpermission.permission.lateral_movement` (default: `true`)\n* `inputpermission.permission.mount` (default: `true`)\n* `inputpermission.permission.move_backward` (default: `true`)\n* `inputpermission.permission.move_forward` (default: `true`)\n* `inputpermission.permission.move_left` (default: `true`)\n* `inputpermission.permission.move_right` (default: `true`)\n* `inputpermission.permission.movement` (default: `true`)\n* `inputpermission.permission.sneak` (default: `true`)\n\n**Permission Mechanism:**\nThe plugin actively checks for these input category permissions for each player. If a player has the\n`inputpermission.permission.<category>` permission, then the input for that category is enabled. Otherwise, the input is\ndisabled. This means you can use external permission plugins to grant or revoke these permissions from specific groups\nor players, and the InputPermission plugin will automatically apply those changes.\n\n## Configuration\n\nThe plugin has a `config.yml` file that allows you to set the default status for each input permission category. This is\nuseful for defining whether a certain permission should be enabled by default for all players or only for operators,\netc.\n\nExample `config.yml`:\n\n```yaml\n# Default input permission for players\ndefault:\n  camera: \"true\" # Permission is granted by default to everyone\n  movement: \"true\"\n  lateral_movement: \"true\"\n  sneak: \"true\"\n  jump: \"true\"\n  mount: \"true\"\n  dismount: \"true\"\n  move_forward: \"true\"\n  move_backward: \"true\"\n  move_left: \"true\"\n  move_right: \"true\"\n```\n\n**Default Value Options:**\n\n* `true`: Permission is granted by default to everyone.\n* `false`: Permission is not granted by default.\n* `op`: Permission is granted by default only to operators.\n* `notop`: Permission is granted by default to all players who are NOT operators.\n\nYou can modify these values directly in `config.yml` or via the \"Plugin Config\" Form UI accessible with the\n`/inputpermission` command.\n\n## Installation\n\n1. Download the latest release from\n   the [GitHub releases page](https://github.com/DavyCraft648/InputPermission/releases).\n2. Move the downloaded `.phar` file into your PocketMine-MP server's `plugins/` folder.\n3. Restart or reload your server.\n\n## Dependencies\n\nThis plugin requires the following virions:\n\n* **PMInputAPI**: Used to manage player input states.\n* **PMServerUI**: Used to provide the interactive Form UI.\n\n## Support\n\nIf you encounter any bugs or have feature suggestions, please open a new issue on\nthe [GitHub repository](https://github.com/DavyCraft648/InputPermission/issues).\n\n## License\n\nThis plugin is licensed under the MIT License. See the `LICENSE` file for more details.",
+  "readme_source_url": "https://github.com/DavyCraft648/InputPermission",
+  "icon_url": "https://raw.githubusercontent.com/DavyCraft648/InputPermission/70140420fad6100eea7022f3c3ae08ac80447a53/icon.png",
+  "featured": false,
+  "repo": "https://github.com/DavyCraft648/InputPermission",
+  "archive_repo": null,
+  "approved_release_tag": "r-14077",
+  "stars": 4,
+  "total_downloads": 63,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.22.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DavyCraft648"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-14077",
+      "published_at": null,
+      "downloads": 63,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14077/inputpermission-1.0.0-r14077.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14077",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14077/inputpermission-1.0.0-r14077.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "InputPermission",
+    "stable_release_id": 14077
+  }
+}

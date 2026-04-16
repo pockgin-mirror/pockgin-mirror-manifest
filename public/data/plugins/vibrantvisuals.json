@@ -1,0 +1,61 @@
+{
+  "id": "vibrantvisuals",
+  "name": "VibrantVisuals",
+  "author": "inotflying",
+  "description": "Vibrant Visuals",
+  "readme_markdown": "# Vibrant Visuals\n\nA PocketMine-MP plugin to allow Vibrant Visuals\n\n![Screenshot.png](.github/Screenshot.png)",
+  "readme_source_url": "https://github.com/inotflying/VibrantVisuals",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/inotflying/VibrantVisuals",
+  "archive_repo": null,
+  "approved_release_tag": "r-14005",
+  "stars": 0,
+  "total_downloads": 356,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "inotflying"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-14005",
+      "published_at": null,
+      "downloads": 356,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14005/vibrantvisuals-1.0.0-r14005.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14005",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14005/vibrantvisuals-1.0.0-r14005.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VibrantVisuals",
+    "stable_release_id": 14005
+  }
+}

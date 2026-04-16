@@ -1,0 +1,61 @@
+{
+  "id": "banknotesplus",
+  "name": "BankNotesPlus",
+  "author": "Terpz710",
+  "description": "Allows the creation of bank notes using either Mineconomy, BedrockEcomony or EcomonyAPI. This plugin is mostly designed so other plugins can use this as a dependency to add bank...",
+  "readme_markdown": "# BankNotesPlus\nAllows the creation of bank notes using either Mineconomy, BedrockEcomony or EcomonyAPI. This plugin is mostly designed so other plugins can use this as a dependency to add bank notes to your specifed plugin of choice.\nOf course this plugin works as a normal bank notes plugin so do as you will. \n\n# Features\n- Configurable messages\n- Customizable BankNote item\n- Not broken unlike other banknote plugins ;)\n\n**Plugins that support BankNotesPlus**\n\n- EnderKits\n\n# API\n**Get the banknote instance**\n```php\n/* Import this class **/\nuse terpz710\\banknotesplus\\BankNotesPlus;\n\n$bankNotesPlus = BankNotesPlus::getInstance();\n```\n**How to get the bank note**\n```php\n$player is an instance of Player::class\n\n$amount = 100;\n\n$bankNoteItem = $bankNotesPlus->convertToBankNote($player, $amount);\n```\n# Report a bug\n\nNeed to report a bug?\n\nPlease provide any error logs from the crash dump or console or type a clear way to reproduce it.\n\n[Click me!](https://github.com/Terpz710/AntiAltAccounts/issues/new)\n\n# Want to contribute?\n\nNote: I will not be merging any request! If the change is too small then it wont be accepted, dm me the issue instead.\n\n[click me!](https://github.com/Terpz710/AntiAltAccounts/pulls)",
+  "readme_source_url": "https://github.com/Terpz710/BankNotesPlus",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Terpz710/BankNotesPlus",
+  "archive_repo": null,
+  "approved_release_tag": "r-13870",
+  "stars": 0,
+  "total_downloads": 128,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Terpz710"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/253410",
+  "versions": {
+    "stable": {
+      "version": "1.0.5",
+      "tag": "r-13870",
+      "published_at": null,
+      "downloads": 128,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13870/banknotesplus-1.0.5-r13870.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13870",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13870/banknotesplus-1.0.5-r13870.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BankNotesPlus",
+    "stable_release_id": 13870
+  }
+}

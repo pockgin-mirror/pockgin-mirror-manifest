@@ -1,0 +1,61 @@
+{
+  "id": "macepm",
+  "name": "MacePM",
+  "author": "Jasson44",
+  "description": "This plugin is for adding mace and wind charge items in Pocketmine, this plugin is still being developed so it hasn't been fully released yet, while using v1 first, when I have...",
+  "readme_markdown": "## MacePM\n![Mace_Logo](https://i.ibb.co.com/R3VbVjv/download-1-removebg-preview-1.png)\n\n\n[![](https://poggit.pmmp.io/shield.dl.total/MacePM)](https://poggit.pmmp.io/p/MacePM)\n\n\nThis plugin is for adding mace and wind charge items in Pocketmine, this plugin is still being developed so it hasn't been fully released yet, while using v1 first, when I have time I will update it, or later Pocketmine will add it myself, IDK, you can download \n[here](https://github.com/Jasson44/MacePM/releases/tag/V1)\n\n## UPDATE\n- [2.0.0](changelog/V2.0.md)",
+  "readme_source_url": "https://github.com/Jasson44/MacePM",
+  "icon_url": "https://raw.githubusercontent.com/Jasson44/MacePM/2fbbc754d9bfb2721e87501138c027029f8dc037/icon.gif",
+  "featured": false,
+  "repo": "https://github.com/Jasson44/MacePM",
+  "archive_repo": null,
+  "approved_release_tag": "r-13972",
+  "stars": 4,
+  "total_downloads": 317,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Jasson44"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/255389",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-13972",
+      "published_at": null,
+      "downloads": 317,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13972/macepm-2.0.0-r13972.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13972",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13972/macepm-2.0.0-r13972.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MacePM",
+    "stable_release_id": 13972
+  }
+}

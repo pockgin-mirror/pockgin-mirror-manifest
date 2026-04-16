@@ -1,0 +1,61 @@
+{
+  "id": "welcomemessages",
+  "name": "WelcomeMessages",
+  "author": "tstarkdev",
+  "description": "Description",
+  "readme_markdown": "<h1>WelcomeMessages<img src=\"icon.png\" height=\"64\" width=\"64\" align=\"left\"></img></h1><br/>\r\n\r\n<table border=\"1\">\r\n  <tr>\r\n    <th>Description</th>\r\n    <th>Link</th>\r\n  </tr>\r\n  <tr>\r\n    <td>API</td>\r\n    <td><a href=\"https://poggit.pmmp.io/p/WelcomeMessages\"><img src=\"https://poggit.pmmp.io/shield.api/WelcomeMessages\" alt=\"Version\"></a></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Version</td>\r\n    <td><a href=\"https://poggit.pmmp.io/p/WelcomeMessages\"><img src=\"https://poggit.pmmp.io/shield.state/WelcomeMessages\" alt=\"API\"></a></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Downloads</td>\r\n    <td><a href=\"https://poggit.pmmp.io/p/WelcomeMessages\"><img src=\"https://poggit.pmmp.io/shield.dl.total/WelcomeMessages\" alt=\"Downloads\"></a></td>\r\n  </tr>\r\n</table>\r\n\r\nWelcome to **WelcomeMessages**, a PocketMine-MP plugin that enhances the player experience by displaying customizable messages when they join the server, change worlds, die, or are killed.\r\n\r\n## **Features**\r\n- **Welcome Message**: Displays a customizable message when a player joins the server.\r\n- **ActionBar Messages**: Shows a message in the ActionBar when a player teleports to a specific world.\r\n- **Death Messages**: Notifies the cause of a player's death (falling, drowning, starvation, etc.).\r\n- **Kill Messages**: Displays a message when a player is killed by another, including the weapon used.\r\n- **Customizable Configuration**: All messages can be modified in the `config.yml` file.\r\n\r\n\r\n## **Installation**\r\n1. Download the `.phar` file from [Poggit](https://poggit.pmmp.io) or compile the plugin yourself.\r\n2. Place the `.phar` file in your PocketMine-MP server's `plugins` folder.\r\n3. Restart the server.\r\n4. Done! The plugin will be enabled automatically.\r\n\r\n## **Configuration**\r\nThe plugin automatically generates a `config.yml` file in the `plugins/WelcomeMessages/` folder. You can customize the messages by editing this file.\r\n\r\n### **Example `config.yml`**\r\n```yaml\r\n# Welcome message when a player joins the server\r\nwelcome_message: \"§aWelcome, {player}, to the server!\"\r\n\r\n# World messages\r\nworld_messages:\r\n  parcels: \"§eYou are in §bParcels\"\r\n  mines: \"§eYou are in §bMines\"\r\n  pvp: \"§eYou are in §bPvP\"\r\n  survival: \"§eYou are in §bSurvival\"\r\n\r\n# Death messages\r\ndeath_messages:\r\n  fall: \"§c{player} died from falling.\"\r\n  drowning: \"§c{player} drowned.\"\r\n  hunger: \"§c{player} died of hunger.\"\r\n  default: \"§c{player} died.\"\r\n\r\n# Kill messages\r\nkill_messages:\r\n  default: \"§c{player} was killed by {killer} using {weapon}.\"\r\n```\r\n\r\n### **Available Variables**\r\n- `{player}`: Player's name.\r\n- `{killer}`: Killer's name.\r\n- `{weapon}`: Weapon used for the kill.\r\n\r\n## **Commands**\r\n- **/wmreload**: Reloads the plugin configuration without restarting the server.\r\n\r\n## **Permissions**\r\n- `welcomemessages.reload`: Allows the use of the `/wmreload` command.\r\n\r\n## **Contributions**\r\nContributions are welcome! If you find a bug or have an idea to improve the plugin, open an **issue** or submit a **pull request** on [GitHub](https://github.com/t-starks/WelcomeMessages).\r\n\r\n---\r\n\r\n## **Credits**\r\n- **Developer**: [T. Stark](https://github.com/t-starks)\r\n- **Version**: 1.0.0\r\n- **PocketMine-MP API**: 5.0.0\r\n\r\n## 💰 Donations\r\n[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/tstark)  \r\n[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/tstark)\r\n\r\nThank you for using **WelcomeMessages**! If you have any questions or need help, feel free to contact me. 😊",
+  "readme_source_url": "https://github.com/tstarkdev/WelcomeMessages",
+  "icon_url": "https://raw.githubusercontent.com/t-starks/WelcomeMessages/2a7216fac043579f6696edf226053a77786a749e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/tstarkdev/WelcomeMessages",
+  "archive_repo": null,
+  "approved_release_tag": "r-13930",
+  "stars": 0,
+  "total_downloads": 343,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "tstarkdev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13930",
+      "published_at": null,
+      "downloads": 343,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13930/welcomemessages-1.0.0-r13930.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13930",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13930/welcomemessages-1.0.0-r13930.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WelcomeMessages",
+    "stable_release_id": 13930
+  }
+}

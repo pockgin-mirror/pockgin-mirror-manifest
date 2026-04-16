@@ -1,0 +1,63 @@
+{
+  "id": "actionhouse",
+  "name": "ActionHouse",
+  "author": "FrostCheat",
+  "description": "📦 ActionHouse",
+  "readme_markdown": "<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/plugin-ActionHouse-blueviolet?style=for-the-badge\">\n  <br><br>\n  <a href=\"https://paypal.me/FrostCheatMC?country.x=CO&locale.x=es_XC\">\n    <img src=\"https://img.shields.io/badge/donate-paypal-ff69b4?style=for-the-badge&logo=paypal\">\n  </a>\n  <a href=\"https://discord.gg/k8X7CG2kFv\">\n    <img src=\"https://img.shields.io/discord/1384337463971020911?style=for-the-badge&logo=discord&logoColor=white&logoSize=12&color=blue\">  \n  </a>\n  <a href=\"https://poggit.pmmp.io/ci/FrostCheat/ActionHouse/ActionHouse\">\n    <img src=\"https://poggit.pmmp.io/ci.shield/FrostCheat/ActionHouse/ActionHouse?style=for-the-badge\">\n  </a>\n  <a href=\"https://poggit.pmmp.io/p/ActionHouse\">\n    <img src=\"https://poggit.pmmp.io/shield.downloads/ActionHouse?style=for-the-badge\">\n  </a>\n</p>\n\n<h1 align=\"center\">📦 ActionHouse</h1>\n<p align=\"center\">A powerful Auction House plugin for PocketMine-MP, ShulkerBox Viewer support, multi-language, NPC interaction, and lag-free performance!</p>\n\n---\n\n## ✨ Features\n\n- ✅ Fully customizable messages via `language` files\n- 💸 Economy support with **BedrockEconomy**\n- 🧪 Compatible with latest **PocketMine-MP API**\n- 🌍 Multi-language system (es-ES, en-US, fr-FR, etc.)\n- 📦 Support for **ShulkerBox item content viewer**\n- 💰 Min & Max price configuration per item\n- 🎯 Limit max items per player\n- ⏱️ Configurable item expiration/duration\n- ⚡ Optimized for performance — no lag, even with large data\n- 📚 Paginated inventory menus\n- ✅ Confirm Buy system\n- 👤 NPC support to open `/ah` menu\n- 🔒 Permission-based control\n\n---\n\n## 🧱 Supported Software\n\n> ✅ This plugin is only compatible with **PocketMine-MP**  \n> ❌ It will NOT work on Nukkit, Altay, or other forks\n\n---\n\n## 📥 Installation\n\n1. 📦 [Download ActionHouse](https://poggit.pmmp.io/p/ActionHouse) from Poggit\n2. 💰 [Download BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy/)\n3. 📁 Place both `.phar` files inside your `/plugins/` directory\n4. 🔁 Restart your server\n5. ✅ Ready to go! Use `/ah` to open the auction menu\n\n---\n\n## 📜 Commands\n\n| Command                                                       | Description                                    |\n|---------------------------------------------------------------|------------------------------------------------|\n| `/actionhouse` or `/ah`                                       | Open the main auction house menu               |\n| `/actionhouse sell [price]` or `/ah sell [price]`             | Sell the item in hand for the given price      |\n| `/actionhouse setlanguage [lang]` or `/ah setlanguage [lang]` | Change the plugin language (e.g., `en-US`)     |\n| `/actionhouse npc` or `/ah npc`                               | Spawn a custom NPC that opens the auction menu |\n\n---\n\n## ⚙️ Configuration\n\nOnce installed, the plugin generates the following files:\n\n- `config.yml` – General configuration (max items, min/max prices, etc.)\n- `items.yml` – Auctioned item data (auto-managed)\n- `/language/` – Translatable strings (`en-US.yml`, `es-ES.yml`, etc.)\n\nYou can edit `lang` files to fully customize messages and colors.\n\n---\n\n## 👤 NPC System\n\nSpawn an NPC using:\n\n```\n/ah npc\n```\n\nThis NPC allows players to open the auction menu just by clicking it.\nTo **remove the NPC**, hit it with a **Bedrock block**\n(Requires permission: `actionhouse.command.npc`)\n\n---\n\n## 🌍 Supported Languages\n\nYou can switch the plugin language at any time:\n\n```\n/ah setlanguage en-US\n```\n\nSupported languages:\n\n* 🇺🇸 English (`en-US`)\n* 🇪🇸 Español (`es-ES`)\n* 🇫🇷 Français (`fr-FR`)\n* 🇧🇷 Português (`pr-BR`)\n* 🇩🇪 Deutsch (`de-DE`)\n* 🇷🇺 Русский (`ru-RU`)\n\nFeel free to contribute more in `/language/`.\n\n---\n\n## 🧑‍💻 Developer Notes\n\n* Uses [InvMenu](https://github.com/Muqsit/InvMenu) for inventory GUIs\n* All data is serialized/deserialized and saved using optimized logic\n* Supports **ShulkerBox viewing** directly from confirm menu inventory\n* Saves data **asynchronously** to avoid lag on high-load servers\n\n---\n\n## 📖 License\n\nLicensed under the [MIT License](https://github.com/FrostCheatMC/ActionHouse/blob/master/LICENSE)\nYou are free to fork, contribute, or suggest changes.\n\n---\n\n## ☕ Support & Donate\n\nIf this plugin helped you, or you want to support future updates:\n\n> 💖 [Donate via PayPal](https://paypal.me/FrostCheatMC?country.x=CO&locale.x=es_XC)\n\nAny support is greatly appreciated!\n\n---\n\n<p align=\"center\"><b>Made with 💙 by FrostCheatMC</b></p>",
+  "readme_source_url": "https://github.com/FrostCheat/ActionHouse",
+  "icon_url": "https://raw.githubusercontent.com/FrostCheatMC/ActionHouse/879ce502e9badd2b5d12ee3af02b13c17af0962c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/FrostCheat/ActionHouse",
+  "archive_repo": null,
+  "approved_release_tag": "r-14070",
+  "stars": 3,
+  "total_downloads": 390,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "FrostCheat"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-14070",
+      "published_at": null,
+      "downloads": 390,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14070/actionhouse-1.0.0-r14070.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14070",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14070/actionhouse-1.0.0-r14070.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ActionHouse",
+    "stable_release_id": 14070
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14257",
   "stars": 0,
-  "total_downloads": 138,
+  "total_downloads": 320,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.1.0",
       "tag": "r-14257",
       "published_at": null,
-      "downloads": 138,
+      "downloads": 139,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14257/smaccer-1.1.0-r14257.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-14257",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14257/smaccer-1.1.0-r14257.phar"
+    },
+    {
+      "tag": "r-13927",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13927/smaccer-1.0.7-r13927.phar"
     }
   ],
   "comments": {

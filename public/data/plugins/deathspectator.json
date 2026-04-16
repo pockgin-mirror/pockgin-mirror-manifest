@@ -1,0 +1,61 @@
+{
+  "id": "deathspectator",
+  "name": "DeathSpectator",
+  "author": "DerEpikYT",
+  "description": "SpectatorDeath",
+  "readme_markdown": "# SpectatorDeath\nA PocketMine-MP plugin that adds a System when a player dies — complete with sounds, messages, and configurable gamemode!\n\n🔧 Features\n⏱️ Respawn Countdown – Shows a countdown every second after death (e.g. You will respawn in 5...)\n\n🔊 Synchronized Sound – Plays a \"ding\" sound each second to match the countdown\n\n🛠️ Configurable Respawn Gamemode – Choose which gamemode players respawn in (survival, creative, spectator, etc.)\n\n⚙️ Easy Configuration – All options are editable in config.yml\n\n⚙️ config.yml\nrespawn-gamemode: survival\nMore options coming soon:\n\nSupport for ActionBar / Title display\n\n📥 Installation\nDownload the plugin from Poggit(If it gets on Poggit) or build it yourself.\n\nPlace the .phar file into your server’s plugins/ folder.\n\nRestart the server — done!\n\n✅ Compatibility\nTested with PocketMine-MP API 5.x\n\nWorks with all Minecraft clients compatible with PocketMine\n\n💡 Use Case\nPerfect for minigames, PvP, or survival servers where you want players to have a short delay before respawning — with clean feedback through messages and sounds.\n\n🧪 Example\nWhen a player dies:\nYou will respawn in 5...\n*ding*\nYou will respawn in 4...\n*ding*\n...\nRespawning...\n💬 Feedback & Contributions\nHave ideas for improvements? Found a bug? Open an issue or submit a pull request! Feedback is always welcome.\n\nLet me know if you want a shorter version too (for the Poggit plugin listing), or maybe some keywords/tags!",
+  "readme_source_url": "https://github.com/DerEpikYT/SpectatorDeath",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/DerEpikYT/SpectatorDeath",
+  "archive_repo": null,
+  "approved_release_tag": "r-13958",
+  "stars": 0,
+  "total_downloads": 66,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DerEpikYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13958",
+      "published_at": null,
+      "downloads": 66,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13958/deathspectator-1.0.0-r13958.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13958",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13958/deathspectator-1.0.0-r13958.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DeathSpectator",
+    "stable_release_id": 13958
+  }
+}

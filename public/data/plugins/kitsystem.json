@@ -1,0 +1,66 @@
+{
+  "id": "kitsystem",
+  "name": "KitSystem",
+  "author": "Jorgebyte",
+  "description": "🌟 KitSystem",
+  "readme_markdown": "---\n\n# 🌟 KitSystem\n[![](https://poggit.pmmp.io/shield.api/KitSystem)](https://poggit.pmmp.io/p/KitSystem)\n\n**KitSystem** is a powerful and user-friendly PocketMine-MP plugin that allows you to manage kits with ease using intuitive form-based interfaces.\nInspired by the [EasyKits](https://github.com/AndreasHGK/EasyKits) plugin, but rebuilt from scratch with performance and scalability in mind.\n\n---\n\n## ✨ Features\n\n* 🔹 Easy-to-use and intuitive UI for creating and managing kits\n* 💾 Support for **SQLite** and **MySQL** via `libasynql`\n* 📂 Kits organized by **categories**\n* 🛠️ Advanced editing system for kits and categories\n* 🌐 Multi-language support\n* 🎁 Starter kit support\n* 💰 Compatible with **multiple economies** via `libPiggyEconomy`\n* 📝 Fully customizable messages\n* 🧼 Code quality verified at **PHPStan max level**\n* 🧩 Modular and scalable design\n* 🔜 More features coming soon!\n\n---\n\n## 📜 Commands\n\n| Command               | Description                                             |\n| --------------------- | ------------------------------------------------------- |\n| `/kit`                | Opens the main form with available kits                 |\n| `/kit create`         | Opens the form to create a new kit                      |\n| `/kit delete`         | Opens the form to delete an existing kit                |\n| `/kit give`           | Opens a form to select a kit and player to give it to   |\n| `/kit giveall`        | Opens a form to select a kit and give it to all players |\n| `/kit createcategory` | Opens a form to create a new kit category               |\n| `/kit deletecategory` | Opens a form to delete a kit category                   |\n| `/kit edit`           | Opens a form to select and edit a kit                   |\n| `/kit editcategory`   | Opens a form to select and edit a category              |\n| `/kit preview`        | Opens a form to preview the items of a kit              |\n\n---\n\n## 🧱 Dependencies\n\nThis plugin uses several open-source libraries to ensure flexibility and scalability:\n\n* 📦 Command Framework: [`Commando`](https://github.com/LatamPMDevs/Commando)\n* 🖼️ Form API: [`EasyUI`](https://github.com/Jorgebyte/easyui)\n* 🧪 Item Serialization: [`item-serialize-utils`](https://github.com/presentkim-pm/item-serialize-utils)\n* 💰 Economy Support: [`libPiggyEconomy`](https://github.com/DaPigGuy/libPiggyEconomy)\n* 🗃️ Inventory Menus: [`InvMenu`](https://github.com/Muqsit/InvMenu)\n* 🧵 Async Database Queries: [`libasynql`](https://github.com/poggit/libasynql)\n* 🌍 Multi-language Support: [`Languages`](https://github.com/IvanCraft623/languages)\n\n---\n\n## 🛡️ Permissions\n\n```yaml\nkitsystem.command:\n  default: true\nkitsystem.command.create:\n  default: op\nkitsystem.command.delete:\n  default: op\nkitsystem.command.give:\n  default: op\nkitsystem.command.giveall:\n  default: op\nkitsystem.command.createcategory:\n  default: op\nkitsystem.command.deletecategory:\n  default: op\nkitsystem.command.editkit:\n  default: op\nkitsystem.command.editcategory:\n  default: op\nkitsystem.command.previewkit:\n  default: true\n```\n\n---\n\n## 🎥 Preview\n\n[![KitSystem Preview](https://img.youtube.com/vi/f-7IVLkiZFQ/0.jpg)](https://www.youtube.com/watch?v=f-7IVLkiZFQ)\n\n---\n\n## 📞 Contact\n\nNeed help or have suggestions?\n\n[![Discord Presence](https://lanyard.cnrad.dev/api/1165097093480853634?theme=dark\\&bg=005cff\\&animated=false\\&hideDiscrim=true\\&borderRadius=30px\\&idleMessage=Hello)](https://discord.com/users/1165097093480853634)",
+  "readme_source_url": "https://github.com/Jorgebyte/KitSystem",
+  "icon_url": "https://raw.githubusercontent.com/Jorgebyte/KitSystem/f1f28863af81890405e375073837c8c34e3d4ed2/Icon.png",
+  "featured": false,
+  "repo": "https://github.com/Jorgebyte/KitSystem",
+  "archive_repo": null,
+  "approved_release_tag": "r-14015",
+  "stars": 0,
+  "total_downloads": 788,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Jorgebyte"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/256056",
+  "versions": {
+    "stable": {
+      "version": "1.0.4",
+      "tag": "r-14015",
+      "published_at": null,
+      "downloads": 567,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14015/kitsystem-1.0.4-r14015.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14015",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14015/kitsystem-1.0.4-r14015.phar"
+    },
+    {
+      "tag": "r-13923",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13923/kitsystem-1.0.3-r13923.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KitSystem",
+    "stable_release_id": 14015
+  }
+}

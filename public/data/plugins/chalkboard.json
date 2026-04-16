@@ -1,0 +1,61 @@
+{
+  "id": "chalkboard",
+  "name": "Chalkboard",
+  "author": "GameParrot",
+  "description": "Pocketmine plugin that adds the chalkboards from education edition (all 3 sizes)",
+  "readme_markdown": "# Chalkboard\nPocketmine plugin that adds the chalkboards from education edition (all 3 sizes)\n\n# Usage\nThe chalkboards will be added to your creative inventory in items. Slate is the smallest (1x1), poster is the second smallest (2x1), and board is the biggest(3x2).\n\n# Features\n- Includes event for modifying and cancelling chalkboard updates\n- Supports owners (stored as player uuid in custom tag, as PM does not support entity unique ids (players with operator in creative have access to all chalkboards)",
+  "readme_source_url": "https://github.com/GameParrot/Chalkboard",
+  "icon_url": "https://raw.githubusercontent.com/GameParrot/Chalkboard/b363bb686edc45afba83564f0765b272b86e3899/icon.png",
+  "featured": false,
+  "repo": "https://github.com/GameParrot/Chalkboard",
+  "archive_repo": null,
+  "approved_release_tag": "r-13949",
+  "stars": 0,
+  "total_downloads": 67,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.16.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "GameParrot"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13949",
+      "published_at": null,
+      "downloads": 67,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13949/chalkboard-1.0.0-r13949.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13949",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13949/chalkboard-1.0.0-r13949.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Chalkboard",
+    "stable_release_id": 13949
+  }
+}

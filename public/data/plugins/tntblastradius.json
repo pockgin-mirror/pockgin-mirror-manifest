@@ -1,0 +1,61 @@
+{
+  "id": "tntblastradius",
+  "name": "TNTBlastRadius",
+  "author": "Terpz710",
+  "description": "TNTBlastRadius plugin for Pocketmine-MP",
+  "readme_markdown": "<p align=\"center\">\n    <a href=\"https://github.com/Terpz710/TNTBlastRadius\"><img src=\"https://github.com/Terpz710/TNTBlastRadius/blob/main/icon.png\"></img></a><br>\n    <b>TNTBlastRadius plugin for Pocketmine-MP</b>\n<a href=\"https://poggit.pmmp.io/p/TNTBlastRadius\"><img src=\"https://poggit.pmmp.io/shield.api/TNTBlastRadius\"></a>\n<a href=\"https://poggit.pmmp.io/p/TNTBlastRadius\"><img src=\"https://poggit.pmmp.io/shield.state/TNTBlastRadius\"></a>\n<a href=\"https://poggit.pmmp.io/p/TNTBlastRadius\"><img src=\"https://poggit.pmmp.io/shield.dl.total/TNTBlastRadius\"></a>\n<a href=\"https://poggit.pmmp.io/p/TNTBlastRadius\"><img src=\"https://poggit.pmmp.io/shield.dl/TNTBlastRadius\"></a>\n\n# Description\nA Pocketmine-MP plugin that allows the user to change the blast radius in-game using a command. When the player runs the command it will send a UI. If you have any questions please feel free to DM me via discord.\n\nAll messages/FormMenus are customizable via 'config.yml'\n\nEnjoy! :)\n\n# Permissions/Commands\n```\n/tntradius\n\ntntradius.command\n\ndefualt: op\n\n/tntedit\n\ntntradius.command\n\ndefault:op\n```\n\n# Screenshots:\n\n**RadiusUI**\n<img src=\"https://github.com/Terpz710/TNTBlastRadius/blob/main/screenshots/RadiusUI.png\">\n\n**ConfirmationUI**\n<img src=\"https://github.com/Terpz710/TNTBlastRadius/blob/main/screenshots/ConfirmationUI.png\">\n\n**SuccessMessages/Title**\n<img src=\"https://github.com/Terpz710/TNTBlastRadius/blob/main/screenshots/SuccessMessages.png\">\n\n**BlastRadiusLevelOne**\n<img src=\"https://github.com/Terpz710/TNTBlastRadius/blob/main/screenshots/BlastRadiusLevelOne.png\">\n\n**BlastRadiusLevelTwentyFive**\n<img src=\"https://github.com/Terpz710/TNTBlastRadius/blob/main/screenshots/BlastRadiusLevelTwentyFive.png\">",
+  "readme_source_url": "https://github.com/Terpz710/TNTBlastRadius",
+  "icon_url": "https://raw.githubusercontent.com/Terpz710/TNTBlastRadius/d81143920a45e64a3a84de05cf2da597737a0236/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Terpz710/TNTBlastRadius",
+  "archive_repo": null,
+  "approved_release_tag": "r-13902",
+  "stars": 0,
+  "total_downloads": 67,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Terpz710"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/253874",
+  "versions": {
+    "stable": {
+      "version": "1.0.5",
+      "tag": "r-13902",
+      "published_at": null,
+      "downloads": 67,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13902/tntblastradius-1.0.5-r13902.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13902",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13902/tntblastradius-1.0.5-r13902.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TNTBlastRadius",
+    "stable_release_id": 13902
+  }
+}

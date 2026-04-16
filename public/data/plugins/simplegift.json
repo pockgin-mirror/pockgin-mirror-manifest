@@ -1,0 +1,61 @@
+{
+  "id": "simplegift",
+  "name": "SimpleGift",
+  "author": "Jasson44",
+  "description": "A lightweight PocketMine-MP plugin that allows players to gift items to other players with a simple command.",
+  "readme_markdown": "# SimpleGift\n\nA lightweight PocketMine-MP plugin that allows players to gift items to other players with a simple command.\n\n## Features\n\n- Gift items to online players with a simple command\n- Blacklist specific items from being gifted\n- Fully customizable messages with color codes\n- Permission-based access\n- Clean and intuitive user experience\n\n## Installation\n\n1. Download the latest version of SimpleGift from [Poggit](https://poggit.pmmp.io/p/SimpleGift)\n2. Place the `.phar` file in your server's `plugins` folder\n3. Restart your server\n4. Configure the plugin in the `config.yml` file (optional)\n\n## Commands\n\n| Command                | Description                                        | Permission           |\n|------------------------|----------------------------------------------------|----------------------|\n| `/simplegift <player>` | Gift the item in your hand to the specified player | `simplegift.command` |\n| `/gift <player>`       | Gift the item in your hand to the specified player | `simplegift.command` |\n\n## Permissions\n\n| Permission           | Description                                          | Default |\n|----------------------|------------------------------------------------------|---------|\n| `simplegift.command` | Allows the use of the `/simplegift or /gift` command | true    |\n\n## Configuration\n\nThe plugin is highly configurable. You can edit the `config.yml` file to customize messages, blacklist items, and more.\n\n```yaml\n# PREFIX MESSAGE\nprefix: \"&7[&aGIFT&7] &8»&r \"\n\n# BLACKLIST ITEM CONFIGURATION\n# Items in this list cannot be gifted to other players\n# Item names should match Minecraft vanilla names (case insensitive)\nblacklist-item:\n  - \"tnt\"\n  - \"bedrock\"\n  - \"end_portal_frame\"\n  - \"command_block\"\n  - \"barrier\"\n  - \"structure_block\"\n  - \"structure_void\"\n\n# MESSAGE CONFIGURATION\n# Use these placeholders in your messages:\n# @TARGET@ - Recipient player's name\n# @SENDER@ - Sender player's name\n\n# Error messages\nitem:\n  invalid: \"&cYou need to hold an item in your hand to gift it.\"\n  blacklist: \"&cThis item is blacklisted and cannot be given as a gift.\"\n\n# Player not found message\ntarget:\n  not_found: \"&cPlayer &e@TARGET@&c could not be found.\"\n\n# Inventory messages\ninventory:\n  target_full: \"&cCannot give item to &e@TARGET@&c because their inventory is full.\"\n\n# Success messages\ngift:\n  sender_success: \"&aYou have successfully gifted an item to &e@TARGET@&a!\"\n  target_received: \"&aYou received a gift from &e@SENDER@&a!\"\n```\n\n## Placeholders\n\nThe following placeholders can be used in the messages:\n\n- `@TARGET@` - The name of the player receiving the gift\n- `@SENDER@` - The name of the player sending the gift\n\n## Examples\n\n1. Basic usage:\n   ```\n   /simplegift Steve or /gift Steve\n   ```\n   This will gift the item in your hand to the player named Steve.\n\n## Dependencies\n\n- [Commando](https://github.com/ACM-PocketMine-MP/Commando) - Command framework\n\n## Support\n\nIf you encounter any issues or have suggestions for improvements, please create an issue on\nthe [GitHub repository](https://github.com/Jasson44/SimpleGift/issues).\n\n## License\n\nThis plugin is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.\n\n## Credits\n\n- Created by XeonCh (Jasson44)",
+  "readme_source_url": "https://github.com/Jasson44/SimpleGift",
+  "icon_url": "https://raw.githubusercontent.com/Jasson44/SimpleGift/b66eb23631883431b1314a5123cb349bf903a76e/resources/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Jasson44/SimpleGift",
+  "archive_repo": null,
+  "approved_release_tag": "r-14010",
+  "stars": 0,
+  "total_downloads": 84,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Jasson44"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-14010",
+      "published_at": null,
+      "downloads": 84,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14010/simplegift-1.0.0-r14010.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14010",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14010/simplegift-1.0.0-r14010.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleGift",
+    "stable_release_id": 14010
+  }
+}

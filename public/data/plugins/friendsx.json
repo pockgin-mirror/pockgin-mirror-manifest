@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14374",
   "stars": 0,
-  "total_downloads": 72,
+  "total_downloads": 176,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-14300",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14300/friendsx-1.1.0-r14300.phar"
+    },
+    {
+      "tag": "r-13999",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13999/friendsx-1.0.0-r13999.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,63 @@
+{
+  "id": "chunkborders",
+  "name": "ChunkBorders",
+  "author": "fadijalal07",
+  "description": "ChunkBorders Plugin for PocketMine-MP",
+  "readme_markdown": "# ChunkBorders Plugin for PocketMine-MP\n\nThe **ChunkBorders** plugin for PocketMine-MP adds a feature where players can visualize the chunk borders in the world through the use of the structure block outline. It provides a simple command to toggle the display of chunk borders for players.\n\n## Features\n\n- View chunk borders as you move through the world.\n- Toggle the chunk borders display with a simple command.\n- Lightweight and easy to use.\n\n## Installation\n\n1. Download the `ChunkBorders` plugin.\n2. Place the `.phar` or the plugin folder in the `plugins/` directory of your PocketMine-MP server.\n3. Restart the server or reload the plugin.\n\n## Commands\n\n- `/chunkborders` - Toggles the display of chunk borders for the player executing the command.\n\n## Permissions\n\n- `chunkborders.command` - Allows a player to toggle chunk borders visibility (default: true).\n\n## Configuration\n\nThere are no configuration settings for this plugin. All features are enabled by default.\n\n## Requirements\n\n- PocketMine-MP version 5.0.0 or higher.\n- DummyItemsBlocks, version must work with the PocketMine-MP version\n\n## License\n\nThis project is licensed under the MIT License.",
+  "readme_source_url": "https://github.com/fadijalal07/ChunkBorders",
+  "icon_url": "https://raw.githubusercontent.com/fadijalal07/ChunkBorders/7281b9fc603d941b531679189e2a703f020295dd/icon.png",
+  "featured": false,
+  "repo": "https://github.com/fadijalal07/ChunkBorders",
+  "archive_repo": null,
+  "approved_release_tag": "r-13906",
+  "stars": 5,
+  "total_downloads": 168,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "DummyItemsBlocks"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "fadijalal07"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13906",
+      "published_at": null,
+      "downloads": 168,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13906/chunkborders-1.0.0-r13906.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13906",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13906/chunkborders-1.0.0-r13906.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChunkBorders",
+    "stable_release_id": 13906
+  }
+}

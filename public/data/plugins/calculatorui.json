@@ -1,0 +1,61 @@
+{
+  "id": "calculatorui",
+  "name": "CalculatorUI",
+  "author": "KumaaDeveloper",
+  "description": "General",
+  "readme_markdown": "## General\nCalculatorUI is a Pocketmine plugin that works to calculate simple math operating systems\n\n## Features\n- Using UI form view\n- Can edit forms and messages in `config.yml`\n- Adding addition calculation operation\n- Adding subtraction calculation operations\n- Adding multiplication calculation operation\n- Added division calculation operation\n  \n## Configuration\n```yaml\n# Configuration for CalculatorUI Plugin\n\nform:\n  # Title for input number forms\n  input_title: \"CalculatorUI\"\n  \n  # Prompt for entering a number\n  input_content: \"Enter a number:\"\n  \n  operation:\n    # Title for operation selection form\n    title: \"CalculatorUI\"\n    \n    # Instructions for selecting an operation\n    content: \"Select a mathematical operation:\"\n    \n    # Buttons for mathematical operations\n    button_increase: \"[+] Increase\"\n    button_reduction: \"[-] Reduction\"\n    button_multiplication: \"[x] Multiplication\"\n    button_distribution: \"[÷] Distribution\"\n\n  result:\n    # Title for the result form\n    title: \"CalculatorUI\"\n    \n    # Content showing the detailed calculation result\n    content: |\n      First Number: {number1}\n      Math Operation: {operation}\n      Second Number: {number2}\n      \n      Result of mathematical operations = {result}\n    \n    # Example:\n    # If number1 = 10, operation = +, number2 = 5, and result = 15\n    # This will display:\n    # First Number: 10\n    # Math Operation: +\n    # Second Number: 5\n    # \n    # Result of mathematical operations = 15\n    \n    # Exit button text\n    exit_button: \"Exit\"\n\nmessages:\n  # Error message for invalid input\n  invalid_input: \"§cPlease input a valid number only.\"\n```\n\n## Installation\n1. Download the plugin.\n2. Place the plugin's `.phar` file in the `plugins` folder of your PocketMine-MP server.\n3. Start or restart the server to load the plugin.",
+  "readme_source_url": "https://github.com/KumaaDeveloper/CalculatorUI",
+  "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/CalculatorUI/3b1dfff1bce02b6d0527b09ed72bf460387a9271/icon.png",
+  "featured": false,
+  "repo": "https://github.com/KumaaDeveloper/CalculatorUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-13848",
+  "stars": 1,
+  "total_downloads": 55,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KumaaDeveloper"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13848",
+      "published_at": null,
+      "downloads": 55,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13848/calculatorui-1.0.0-r13848.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13848",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13848/calculatorui-1.0.0-r13848.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CalculatorUI",
+    "stable_release_id": 13848
+  }
+}

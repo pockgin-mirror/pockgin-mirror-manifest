@@ -1,0 +1,61 @@
+{
+  "id": "surrealffa",
+  "name": "SurrealFFA",
+  "author": "NathaLMV",
+  "description": "SurrealFFA is a professional plugin for PocketMine-MP that offers a competitive and fun Free-For-All (FFA) mode, fully integrated with the API LibSurrealDB para el manejo avanza...",
+  "readme_markdown": "# SurrealFFA\n\nSurrealFFA is a professional plugin for PocketMine-MP that offers a competitive and fun Free-For-All (FFA) mode, fully integrated with the API [LibSurrealDB](https://github.com/NathaLMV/LibSurrealDB) para el manejo avanzado de estadísticas y almacenamiento persistente.\n\n---\n\n## Characteristics\n- Fast and fluid FFA system.\n- Statistics registration in SurrealDB (kills, deaths).\n- Full integration with the LibSurrealDB API for asynchronous queries.\n- Standings and real-time statistics.\n- Modular design and easy to extend.\n\n---\n\n## Requirements\n\n- PocketMine-MP version 5.0 or higher.\n- [LibSurrealDB](https://github.com/NathaLMV/LibSurrealDB) installed and working properly.\n- Accessible SurrealDB server.\n\n---\n\n## Installation\n\n1. Download the SurrealFFA plugin and the LibSurrealDB api.\n2. Place both `.phar` files in the `plugins` folder on your PocketMine-MP server.\n3. Make sure SurrealDB is running and configured.\n4. Configure `config.yml` to connect to your SurrealDB database.\n5. Restart your PocketMine-MP server.\n\n---\n\n## Configuration\n\nExample `config.yml`:\n\n```yaml\nffa-world: world\n```",
+  "readme_source_url": "https://github.com/NathaLMV/SurrealFFA",
+  "icon_url": "https://raw.githubusercontent.com/NathaLMV/SurrealFFA/8de3d6636fcc9a47657e5d0e0c530fef469df1a3/icon.png",
+  "featured": false,
+  "repo": "https://github.com/NathaLMV/SurrealFFA",
+  "archive_repo": null,
+  "approved_release_tag": "r-14008",
+  "stars": 0,
+  "total_downloads": 83,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "NathaLMV"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-14008",
+      "published_at": null,
+      "downloads": 83,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14008/surrealffa-1.0.0-r14008.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14008",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14008/surrealffa-1.0.0-r14008.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SurrealFFA",
+    "stable_release_id": 14008
+  }
+}

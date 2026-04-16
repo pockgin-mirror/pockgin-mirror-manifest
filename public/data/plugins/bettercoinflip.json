@@ -1,0 +1,61 @@
+{
+  "id": "bettercoinflip",
+  "name": "BetterCoinFlip",
+  "author": "DaDevGuy",
+  "description": "A simple and interactive coin flipping plugin for PocketMine-MP 5.x servers.",
+  "readme_markdown": "# BetterCoinFlip\n\nA simple and interactive coin flipping plugin for PocketMine-MP 5.x servers.\n\n## Description\n\nBetterCoinFlip is a lightweight plugin that adds a fun coin flip command to your PocketMine-MP server. When a player uses the command, they'll see an animated coin flip with sound effects (if supported) and receive the result (Heads or Tails).\n\n## Features\n\n- Interactive coin flip animation\n- Sound effects (on supported versions)\n- Title and message displays\n- Simple permission system\n- Works on PocketMine-MP 5.3.0+\n\n## Installation\n\n1. Download the latest release from [GitHub](https://github.com/DaDevGuy/CoinFlip/releases) or Poggit\n2. Place the downloaded `.phar` file into your server's `plugins` folder\n3. Restart your server or use the `load` command to load the plugin\n\n## Commands\n\n| Command | Description | Permission |\n|---------|-------------|------------|\n| `/flip` | Flip a coin and get Heads or Tails | `flip.coin` |\n\n## Permissions\n\n| Permission | Description | Default |\n|------------|-------------|---------|\n| `flip.coin` | Allows the player to use the flip command | `true` |\n\n## Usage\n\nSimply type `/flip` in the chat to flip a coin. You will see an animated sequence and then the final result (Heads or Tails).\n\n## Requirements\n\n- PocketMine-MP API 5.3.0+\n- PHP 7.4 or newer\n\n## License\n\nThis project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.\n\n## Credits\n\n- Developed by DaDevGuy\n- Coin icon provided by [Flaticon](https://www.flaticon.com/)\n\n## Planned Features\n\n- Economy support for betting on coin flips\n\n## Support\n\nIf you encounter any issues or have suggestions, please create an issue on the [GitHub repository](https://github.com/DaDevGuy/CoinFlip/issues).",
+  "readme_source_url": "https://github.com/DaDevGuy/BetterCoinFlip",
+  "icon_url": "https://raw.githubusercontent.com/DaDevGuy/BetterCoinFlip/5d0bf549033959a5973df2cc6e998a8e3383a693/assets/images/coin.png",
+  "featured": false,
+  "repo": "https://github.com/DaDevGuy/BetterCoinFlip",
+  "archive_repo": null,
+  "approved_release_tag": "r-14060",
+  "stars": 0,
+  "total_downloads": 94,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaDevGuy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-14060",
+      "published_at": null,
+      "downloads": 94,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14060/bettercoinflip-1.0.0-r14060.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14060",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14060/bettercoinflip-1.0.0-r14060.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterCoinFlip",
+    "stable_release_id": 14060
+  }
+}

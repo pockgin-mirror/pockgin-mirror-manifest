@@ -1,0 +1,66 @@
+{
+  "id": "afksystem",
+  "name": "AfkSystem",
+  "author": "Jasson44",
+  "description": "Afk System",
+  "readme_markdown": "<br />\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Jasson44/AfkSystem/refs/heads/master/assets/icon.png\" alt=\"Logo\" width=\"80\" height=\"80\">\n  <h1>Afk System</h1>\n  <p align=\"center\">\n   AFKSystem is a lightweight and customizable plugin designed to manage and handle players who are AFK (Away From\nKeyboard)\non your server. With various configurable options, it ensures a smooth gaming experience while addressing AFK-related\nissues effectively.\n  </p>\n</div>\n\n\n---\n\n## Feature\n\n- **AFK Timer:** `Automatically detects` players who are AFK after a configurable duration.\n- **Floating Text:** Displays a `custom tag` above the player’s head when they are AFK, including the reason and\n  duration.\n- **Broadcast Messages:** Notifies other players when someone goes AFK or returns from being AFK.\n- **Auto-Kick:** Optionally removes players who are AFK for too long.\n- **Custom Notifications:** Supports `multiple notification` types such as titles, tips, action bars, and popups.\n- **Reason Limitation:** Allows players to provide a reason for being AFK with `character limits` to prevent abuse.\n- **Form UI Support:** Includes an intuitive `UI Form` for setting AFK reasons.\n- **History** add player afk history to `history.log` file\n\n---\n\n## Commands & Permission\n\n| Command            | Argument        | Permission            |\n|--------------------|-----------------|-----------------------|\n| /afk or /afksystem | <string;reason> | afksystem.command.afk |\n\nExample: /afk 'have lunch'\n\n**Note:** If no argument is provided, the plugin will automatically open the UI Form for the player to set their AFK\nreason.\n\n---\n\n## Requirements\n\n- **Commando:** [Download](https://github.com/ACM-PocketMine-MP/Commando/tree/PM5) this version\n- **Forms UI** [Download](https://github.com/Vecnavium/FormsUI) this version\n\n---\n\n## Support\n\nIf you encounter any errors or have suggestions, please feel free to submit an [Issues](https://github.com/Jasson44/AfkSystem/issues). We’re\nhappy to assist and improve the plugin based on your feedback!\n\n---\n\n## Update Information\n\n- [1.5.0](changelog/1.5.0.MD)\n## Licence\n\nThis project is licensed under the `MIT License` - see the [LICENSE](LICENSE) file for details.\n\n---\n\n## TODO\nIf you have any feature suggestions, open issues\n- [X] History player\n- [X] Discord Webhook Support\n- [ ] Leaderboard ?",
+  "readme_source_url": "https://github.com/Jasson44/AfkSystem",
+  "icon_url": "https://raw.githubusercontent.com/Jasson44/AfkSystem/80991dfef000a576c271f5ad9b1487cceb171e93/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Jasson44/AfkSystem",
+  "archive_repo": null,
+  "approved_release_tag": "r-13852",
+  "stars": 1,
+  "total_downloads": 398,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Jasson44"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/253077",
+  "versions": {
+    "stable": {
+      "version": "1.5.0",
+      "tag": "r-13852",
+      "published_at": null,
+      "downloads": 354,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13852/afksystem-1.5.0-r13852.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13852",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13852/afksystem-1.5.0-r13852.phar"
+    },
+    {
+      "tag": "r-13842",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13842/afksystem-1.0.0-r13842.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AfkSystem",
+    "stable_release_id": 13852
+  }
+}

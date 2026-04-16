@@ -1,0 +1,61 @@
+{
+  "id": "announcer",
+  "name": "Announcer",
+  "author": "tstarkdev",
+  "description": "Announcer is a PocketMine-MP plugin developed by T. Stark to display ads in the ActionBar. This plugin allows server administrators to create, delete and list ads that will be d...",
+  "readme_markdown": "<h1><img src=\"https://github.com/t-starks/Announcer/blob/main/icon.png\" height=\"64\" width=\"64\" align=\"left\"></img>Announcer</h1><br/>\n<p><img src=\"https://github.com/t-starks/Announcer/blob/main/assets/img/screenshot.png\" height=\"100\" width=\"200\" align=\"left\"></img>Announcer is a PocketMine-MP plugin developed by T. Stark to display ads in the ActionBar. This plugin allows server administrators to create, delete and list ads that will be displayed at regular intervals on the players' screen.</p><br/>\n\n</br>\n\n<table border=\"1\">\n  <tr>\n    <th>Description</th>\n    <th>Link</th>\n  </tr>\n  <tr>\n    <td>API</td>\n    <td><a href=\"https://poggit.pmmp.io/p/Announcer\"><img src=\"https://poggit.pmmp.io/shield.api/Announcer\" alt=\"API\"></a></td>\n  </tr>\n  <tr>\n    <td>Version</td>\n    <td><a href=\"https://poggit.pmmp.io/p/Announcer\"><img src=\"https://poggit.pmmp.io/shield.state/Announcer\" alt=\"Version\"></a></td>\n  </tr>\n  <tr>\n    <td>Downloads</td>\n    <td><a href=\"https://poggit.pmmp.io/p/Announcer\"><img src=\"https://poggit.pmmp.io/shield.dl.total/Announcer\" alt=\"Downloads\"></a></td>\n  </tr>\n</table>\n\n<h2>Usage</h2>\n\n**Installation**\n\n- Download the plugin: Get the `.phar` file of the plugin you want to install from Poggit.\n- File Location: Place the `.phar` file in the `plugins` folder of your PocketMine server.\n- Restart server: Restart your server so that the plugin is loaded and active.\n\n**Commands**\n\n- `/newad <id> <message> <interval>`:\n  - **Description**: Create a new ad.\n  - **Example**: `/newad A1 \"Developed by T.Stark\" 60`\n  - **Explanation**: The command creates a new advertisement with ID `A1`, message `\"Developed by T.Stark\"` and displays it every 60 seconds.\n\n- `/deletad <id>`:\n  - **Description**: Delete an existing ad.\n  - **Example**: `/deletad A1`\n  - **Explanation**: The command deletes the announcement with ID `A1`.\n\n- `/ads`:\n  - **Description**: Shows the list of ads.\n  - **Example**: `/ads`\n  - **Explanation**: The command displays a list of all the ads created, along with their IDs and messages.\n\n**Permissions**\n\nTo manage plugin commands and actions, the following permissions are required:\n\n- `announcer.admin`:\n  - **Description**: Permiso para gestionar anuncios.\n  - **Default**: Op\n\n</br>\n\n**🌐 Web Sites:**\n\n- [<img src=\"https://pocketmineschool.netlify.app/favicon.ico\" alt=\"Pocket Mine School\" width=\"40\" height=\"40\"/> Pocket Mine School](https://pocketmineschool.netlify.app/)\n- [<img src=\"https://mcpetools.surge.sh/favicon.ico\" alt=\"MCPETools\" width=\"40\" height=\"40\"/> MCPETools](https://mcpetools.surge.sh/)\n\n**Connect with me:**\n\n- [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sr_shelby02)\n[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@t-starks)\n[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@t.starkofc)\n- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/t-stark)\n[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/t-starks)\n\n**💰 You can help me by Donating**\n\n[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/t.stark)\n[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/tstark)",
+  "readme_source_url": "https://github.com/tstarkdev/Announcer",
+  "icon_url": "https://raw.githubusercontent.com/t-starks/Announcer/6f5d65662257aa7a12a11f70cdf1a90c2cba7fc5/icon.png",
+  "featured": false,
+  "repo": "https://github.com/tstarkdev/Announcer",
+  "archive_repo": null,
+  "approved_release_tag": "r-13875",
+  "stars": 0,
+  "total_downloads": 206,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "tstarkdev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13875",
+      "published_at": null,
+      "downloads": 206,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13875/announcer-1.0.0-r13875.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13875",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13875/announcer-1.0.0-r13875.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Announcer",
+    "stable_release_id": 13875
+  }
+}

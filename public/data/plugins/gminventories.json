@@ -1,0 +1,61 @@
+{
+  "id": "gminventories",
+  "name": "GmInventories",
+  "author": "Taskov1ch",
+  "description": "🎒 GmInventories",
+  "readme_markdown": "<div align=\"center\">\n\n  <img src = \"icon.png\" width = \"30%\">\n\n  # 🎒 GmInventories</h1>\n  **Separate inventories for each gamemode**\n\n  [![Poggit](https://poggit.pmmp.io/shield.state/GmInventories?style=for-the-badge)](https://poggit.pmmp.io/p/GmInventories)\n\n  ___\n\n  ## 🧾 Description\n  A simple plugin to divide inventories into different game modes. Creative mode has its own inventory, and survival mode has its own.\n\n  ## 💡 How it works?\n  Whenever a game mode is changed, the player’s current inventory is saved, and after the mode change, the inventory of the mode to which the player switched is loaded.\n\n  ## ⚠️ Warning\n  No bugs or shortcomings were noticed during testing, but this does not mean that the plugin is completely stable.\n\n</div>",
+  "readme_source_url": "https://github.com/Taskov1ch/GmInventories",
+  "icon_url": "https://raw.githubusercontent.com/Taskov1ch/GmInventories/4f5a1ec9be1057275c1681d1e55fd8f8df98b216/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Taskov1ch/GmInventories",
+  "archive_repo": null,
+  "approved_release_tag": "r-13910",
+  "stars": 0,
+  "total_downloads": 121,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taskov1ch"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/254028",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-13910",
+      "published_at": null,
+      "downloads": 121,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13910/gminventories-1.0.2-r13910.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13910",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13910/gminventories-1.0.2-r13910.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GmInventories",
+    "stable_release_id": 13910
+  }
+}

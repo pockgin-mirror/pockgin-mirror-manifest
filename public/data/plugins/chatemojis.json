@@ -1,0 +1,61 @@
+{
+  "id": "chatemojis",
+  "name": "ChatEmojis",
+  "author": "xRookieFight",
+  "description": "Implemented chat emojis for colorful PM chats.",
+  "readme_markdown": "<div class=\"markdown-heading\"><h1 class=\"heading-element\">ChatEmojis</h1><a id=\"user-content-chatemojis\" class=\"anchor\" aria-label=\"Permalink: ChatEmojis\" href=\"#chatemojis\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a></div>\n<p>Implemented chat emojis for colorful PM chats.\nChat emojis add fun, emotion, and clarity to messages, enhancing digital communication with ease!</p>",
+  "readme_source_url": "https://poggit.pmmp.io/r/252903",
+  "icon_url": "https://raw.githubusercontent.com/xRookieFight/ChatEmojis/9ef4351bff9ee92dc783139adab3a322bba217c5/icon.png",
+  "featured": false,
+  "repo": "https://github.com/xRookieFight/ChatEmojis",
+  "archive_repo": null,
+  "approved_release_tag": "r-13844",
+  "stars": 0,
+  "total_downloads": 412,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "xRookieFight"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-13844",
+      "published_at": null,
+      "downloads": 412,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13844/chatemojis-1.0.3-r13844.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13844",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13844/chatemojis-1.0.3-r13844.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatEmojis",
+    "stable_release_id": 13844
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "claimandprotect",
+  "name": "ClaimAndProtect",
+  "author": "Jasson44",
+  "description": "ClaimAndProtect Plugin 🏰",
+  "readme_markdown": "# ClaimAndProtect Plugin 🏰\n\nA powerful land claiming and `protection` plugin for [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) that gives players complete control over their territory.\n\n## ✨ Key Features\n\n### 🛡️ Advanced Protection\n- Full `protection` against griefing, building, and breaking\n- Customizable permissions for every action\n- Flag system to control PvP, explosions, and more\n- `Protect` your builds, farms, and valuables\n\n### 👥 Social Features \n- Add friends to your land with custom permissions\n- Transfer `land` ownership\n- Easy-to-use [Forms UI](https://github.com/jojoe77777/FormAPI) for management\n\n### 💎 Economy Integration\n- Flexible `pricing system`\n- Supports [BedrockEconomy](https://github.com/cooldogepm/BedrockEconomy), [EconomyAPI](https://github.com/poggit-orphanage/EconomyS/tree/master/EconomyAPI), and XP\n- Pay-per-block claiming\n- `Refunds` on unclaiming\n\n### 🎮 User Experience\n- Visual selection tools for claiming\n- `Form-based` interface for all features\n- Intuitive command system\n\n### 🌍 Multi-Language\n- Has language features that match the player's `minecraft language`\n- support 2 `languages` ​​for now `(english, indonesian)`\n- Message content and form content `can be changed` according to `language`\n  \n## 🎯 Perfect For\n- Survival servers\n- Towny servers\n- RPG servers\n- Creative servers\n- Any server needing land protection\n\n## 📝 Commands and Permissions\n**Main Command: `/claimandprotect` or `/cnp`**\n\n| Subcommand | Description                                     |            Permission             | Default | Aliases            |\n| ---------- | ----------------------------------------------- | :-------------------------------: | :-----: | ------------------ |\n| setfirst   | Set the first position for claiming land        | claimandprotect.command.setfirst  |  true   | first, f           |\n| setsecond  | Set the second position for claiming land       | claimandprotect.command.setsecond |  true   | second, sec, s     |\n| claim      | Claim your land after setup                     |   claimandprotect.command.claim   |  true   | -                  |\n| settings   | Settings your land                              | claimandprotect.command.settings  |  true   | setting            |\n| here       | Whose land is in this area?                     |   claimandprotect.command.here    |  true   | -                  |\n| myland     | View all owned land                             |  claimandprotect.command.myland   |  true   | -                  |\n| info       | Information of land with id                     | claimandprotect.command.infoland  |  true   | -                  |\n| remove     | Remove/sell your land                           |  claimandprotect.command.remove   |  true   | sell, rm, delete   |\n| tp         | Teleport to land with id                        |    claimandprotect.command.tp     |  true   | move, teleport, mv |\n| admin      | Admin feature                                   |   claimandprotect.command.admin   |   op    | -                  |\n| migration  | Migration plugin EconomyLand to ClaimAndProtect | claimandprotect.command.migration |   op    | migrate            |\n\n### Admin Permissions\n| Permission                     | Description                | Default |\n| ------------------------------ | -------------------------- | :-----: |\n| claimandprotect.bypass         | Bypass all protections     |   op    |\n| claimandprotect.admin.settings | Admin manage settings land |   op    |\n| claimandprotect.admin.tp       | Teleport to any land       |   op    |\n| claimandprotect.admin.myland   | See any player's land      |   op    |\n| claimandprotect.admin.remove   | Remove any player's land   |   op    |\n\n### 📑 How to migrate EconomyLand plugin to ClaimAndProtect\n\n1. Step one\n   move the Land.yml file to the `migrate` ClaimAndProtect folder\n\n    >Path Land.yml\n    ```\n    plugin_data 📁\n      │\n      ├── EconomyLand 📁\n      │    └── Land.yml 📄 (copy this)\n    ```\n    \n    >Path Migrate Plugin\n    ```\n    plugin_data 📁\n      │\n      ├── ClaimAndProtect 📁\n      │    └── migration 📁\n      │        └──Land.yml 📄 (paste here)\n    ```\n2. Step two\n   run command in console (console only)\n   ```bash\n   /claimandprotect migration\n   ```\n   if successful it will be like this\n   ![migrate_succes](assets/migrate_succes.png)\n\n## ⚙️ Configuration\n```yaml\n# DO NOT EDIT THIS VALUE, INTERNAL USE ONLY.\nconfig-version: 5\n\n# Sets the prefix for this plugin.\nprefix: \"[&bClaim And Protect&r]\"\n\n# Sets the default language for the plugin, you can edit text and messages in this file.\ndefault-language: en_US\n\n# multi-economy setting\neconomy:\n  # bedrockeconomy = BedrockEconomy\n  # economys, economyapi = EconomyAPI\n  # experience, exp, xp = Exp Minecraft\n  provider: economyapi\n\n# all settings of this plugin are here\ncnp-settings:\n  # players limit land\n  # infinity for infinity limit\n  player-limit-land: infinity\n  # to maximize friends in your land\n  # 'infinity' for infinite max friend\n  max-friends: 5\n  # price per block, ex 6 block 6 * price\n  price-per-block: 100\n  # Worlds to blacklist players to buy\n  # ex, blacklist-world: [\"lobby\", \"world\"]\n  blacklist-world: []\n  # This is the percentage of the discount you get when selling land.\n  # For example, if a player buys land for a price of '1000', if the value is filled in as '10'\n  # it means he gets '900' because it is cut by 10%.\n  percent-sold: 10\n  # if 'true' will allow explosion on land\n  # if 'false' then explosions are not allowed on land\n  explosion: false\n\nsession-timer:\n  first-session: false\n    # If true, this will enable the first session timer.\n  first-timer: 15 # Timer duration in seconds.\n\n  second-session: false\n    # If true, this will enable the second session timer.\n  second-timer: 15 # Timer duration in seconds.\n```\n\n## 👨🏻‍💻 For Developer\n### 🔧 Import LandManager Namespace \n```php\nuse xeonch\\ClaimAndProtect\\manager\\LandManager;\n```\n\n### 🔍 Check if the Player is in a Land Area\nthe first parameter is the `position` in `pocketmine\\world\\Position;`\n```php\n$landManager = new LandManager();\nif ($landManager->isInArea(Position)){\n  // in area\n} else {\n  // not in area\n```\n\n### 📜 Check Data in Land Area\n`Get the land data for the area the player` is in. The first parameter is the `position` from `pocketmine\\world\\Position;`.\n```php\n$landManager = new LandManager();\n$landsInArea = $landManager->getLandsIn($position);\n\nforeach ($landsInArea as $landId => $landData) {\n  // Get Land ID\n  echo $landId; // e.x: 4\n\n  // Get Owner Name\n  echo $landData['owner']; // e.x: ItsMeLordzy\n\n  // Get World Name\n  echo $landData['world']; // e.x: lobby\n\n  // Get Position Coordinates\n  echo $landData['pos']['first']; // e.x: 20, 55, 222, world\n  echo $landData['pos']['second']; // e.x: 69, 55, 262, world\n\n  // Get Land Price 💰\n  echo $landData['price']; // e.x: 1200\n\n  // Get Width of the Land 📏\n  echo $landData['wide'] . \" Block\"; // e.x: 90 Block\n\n  // Get Land Members 👥\n  foreach ($landData['member'] as $member) {\n    echo $member . \"\\n\"; // e.x: Luqman\n  }\n}\n```\n### 👤 Check Data Using Owner Land\n`Get all the land data` owned by the specified player.\n```php\n$name = 'ItsMeLordzy';\n$landManager = new LandManager();\n$lands = $landManager->getLandsByOwner($name);\n\nif (empty($lands)) {\n  echo \"$name doesn't own any land yet\";\n  // Output: ItsMeLordzy doesn't own any land yet\n}\n\nforeach ($lands as $landId => $landData) {\n  // Display all land IDs owned by the owner\n  echo $landId . \", \";\n  // e.x: 1, 4, 7\n}\n\n```\n### 🆔 Check Data Using Land Id\nGet the land data for a specific land `by ID`.\n```php\n$id = 1;\n$landManager = new LandManager();\n$landData = $landManager->getLand($id);\n\n// Get Owner Name\necho $landData['owner']; // e.x: ItsMeLordzy\n// ur code\n```\n### 🚶‍♂️ Example: Player Interaction with Land\nAn example where the player’s position is checked to see if they are within a land area. `Displays land ID and owner name` upon movement.\n```php\nuse xeonch\\ClaimAndProtect\\manager\\LandManager;\nuse pocketmine\\event\\player\\PlayerMoveEvent;\n\n    public function onPlayerMove(PlayerMoveEvent $event): void\n    {\n        $player = $event->getPlayer();\n        $landManager = new LandManager();\n        $landsInArea = $landManager->getLandsIn($player->getPosition());\n\n        // Check if there is no land in the area 🛑\n        if (empty($landsInArea)){\n            $player->sendTip(\"There is no land here\");\n        }\n\n        foreach ($landsInArea as $landId => $landData) {\n            $player->sendTip(\"You are in land with ID: \" . $landId . \", Owner: \" . $landData['owner']);\n            //output: You are in land with ID: 7, Owner: ItsMeLordzy\n        }\n    }\n```\n## 🏆 Contribution:\n- **Bug Testing**: A special thanks to **LuqmanDv** for identifying and reporting critical issues that helped improve the stability and performance of this project.\n- **Feedback**: Your invaluable suggestions played a key role in enhancing the project.\n\n## 🚀 Thanks for Reading!\nWe appreciate your time spent reading this documentation. If you have any questions or suggestions, feel free to open an [issue](https://github.com/Jasson44/ClaimAndProtect/issues/new) or contribute to the repository.\n\nHappy coding! 👨‍💻👩‍💻\n\n## 📬 Contact Us\n\nFor further inquiries, please contact us at:\n\n- Email: jassonmaulana447@gmail.com\n- Discord Community: [Cl Community](https://discord.gg/Dt7hbgABSr) \n- WhatsApp: [Jasson](wa.me/62895366371823)\n- Youtube: [XeonCh](https://www.youtube.com/@xeonch9888)\n  \n## 📝 License\n\nThis project is licensed under the `MIT License` - see the [LICENSE](LICENSE) file for details.",
+  "readme_source_url": "https://github.com/Jasson44/ClaimAndProtect",
+  "icon_url": "https://raw.githubusercontent.com/Jasson44/ClaimAndProtect/ff4abbb2a64868f348d50c8b718aa553ae6213d4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Jasson44/ClaimAndProtect",
+  "archive_repo": null,
+  "approved_release_tag": "r-13851",
+  "stars": 5,
+  "total_downloads": 840,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Jasson44"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/253065",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-13851",
+      "published_at": null,
+      "downloads": 840,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13851/claimandprotect-1.0.1-r13851.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13851",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13851/claimandprotect-1.0.1-r13851.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ClaimAndProtect",
+    "stable_release_id": 13851
+  }
+}

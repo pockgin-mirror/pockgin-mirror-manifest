@@ -1,0 +1,61 @@
+{
+  "id": "worldtimes",
+  "name": "WorldTimes",
+  "author": "JonyGamesYT9",
+  "description": "WorldTimes » 1.0.0",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/WorldTimes)]\n\n<div align=\"center\">\n<h1>WorldTimes » 1.0.0</h1>\n<p>World Time system for PocketMine-MP, written in PHP-8 and only supports PocketMine-MP 5.0.0</p>\n</div>\n\n<h3>⚡ Features:</h3>\n<ul>\n<li>Loads registered worlds on startup.</li>\n<li>Automatically sets the time.</li>\n<li>For the time of the world to never change.</li>\n</ul>\n\n### 📋 Icon:\n<p>Icon Credits: https://www.flaticon.es/icono-gratis/sol_1742823?term=sun&page=1&position=44&origin=search&related_id=1742823</p>\n\n### 📖 Project information:\n| Version | Pocketmine API | Status   |\n|---------|----------------|----------|\n| 1.0.0   | 5.0.0          | Verified |",
+  "readme_source_url": "https://github.com/JonyGamesYT9/WorldTimes",
+  "icon_url": "https://raw.githubusercontent.com/JonyGamesYT9/WorldTimes/cf914efd5ef1742cc864f8145f0184424facf291/icon.png",
+  "featured": false,
+  "repo": "https://github.com/JonyGamesYT9/WorldTimes",
+  "archive_repo": null,
+  "approved_release_tag": "r-13825",
+  "stars": 0,
+  "total_downloads": 124,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JonyGamesYT9"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13825",
+      "published_at": null,
+      "downloads": 124,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13825/worldtimes-1.0.0-r13825.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13825",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13825/worldtimes-1.0.0-r13825.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorldTimes",
+    "stable_release_id": 13825
+  }
+}

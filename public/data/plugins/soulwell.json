@@ -1,0 +1,61 @@
+{
+  "id": "soulwell",
+  "name": "SoulWell",
+  "author": "ZulfahmiFjr",
+  "description": "🔮 SoulWell 🔮",
+  "readme_markdown": "<h1 align=\"center\">🔮 SoulWell 🔮</h1>\n\n<p align=\"center\">\n  <b>Lucky Draw Plugin inspired by Hypixel's Soul Well</b><br>\n  <i>Supports PMMP API 5.0.0+</i>\n</p>\n\n<table> <tr> <td><img src=\"https://1.bp.blogspot.com/-olWvczoyzGc/XvgRyuHRH9I/AAAAAAAAAC8/yVPSF1naxAAWVzvuxGslbDrKUceYKiqGgCK4BGAsYHg/s1920/Screenshot_2020-06-28-10-35-27-306_com.mojang.png\" width=\"600\"/></td> <td><img src=\"https://1.bp.blogspot.com/-QkEkQaUq5cY/XvgRyak50TI/AAAAAAAAAC4/x-64flc0ptkAwM-fPSd-tGJbyNMcX1FWwCK4BGAsYHg/s1920/Screenshot_2020-06-28-10-35-35-368_com.mojang.png\" width=\"600\"/></td> <td><img src=\"https://i.imgur.com/olhFvPl.png\" width=\"600\"/></td> </tr> </table>\n\n---\n\n## 📥 Download\n\n🔗 [**Download Latest .phar**](https://poggit.pmmp.io/r/256010/SoulWell.phar)  \n🔧 Compatible with **PocketMine-MP API 5.0.0**\n\n---\n\n## 🧿 Features\n\n- 🎮 Inspired by Hypixel’s Soul Well system\n- 🪙 Requires Soul Keys for access\n- 📦 Randomized reward system\n- 🖼 Modern popup UI with confirmation\n- ⚙️ Easy to configure and customize\n- 📊 ScoreHud integration with `{soulwell.soulkey}` tag to display Soul Key count\n- 🖥️ Custom Soulwell Chest UI for all devices (Pocket & Windows)  \n  - Enable via config: `classic-chest-rp: true`  \n  - When enabled, players must **download the resource pack** before joining \n\n---\n\n## ▶️ Demo Videos\n\nCheck out SoulWell in action on YouTube:\n\n- [SoulWell Preview by ZulfahmiFjr](https://www.youtube.com/watch?v=4cFAz_Sn1Eo)\n- [SoulWell Preview by AmlxP Modz シ](https://www.youtube.com/watch?v=JBJBAauGoG4)\n- [SoulWell Preview by FIO](https://www.youtube.com/watch?v=BdTHKTVP434)\n- [SoulWell Preview by Fredy Ma'ruf](https://www.youtube.com/watch?v=R4vB_SDOgz0)\n- [SoulWell Preview by Yusril 9F](https://www.youtube.com/watch?v=x550VlR_Q5s)\n- [SoulWell Preview by ModdingTwinzツ](https://www.youtube.com/watch?v=2OWY2O6lcms)\n\n---\n\n## 🧾 How to Use\n\n1. 🔧 Run /addwell to mark a SoulWell spot (admin only).\n2. ⛏ Break a block where the SoulWell should appear (admin setup).\n3. ✋ Punch the SoulWell block to interact with it.\n4. 🗝 Make sure you've got at least **10 Soul Keys** before trying to open.\n5. 🎉 Hit \"Open SoulWell\", cross your fingers, and wait for your random loot!\n\n---\n\n## 📸 Preview\n\n<p align=\"center\">\n  <img src=\"https://github.com/ZulfahmiFjr/SoulWell/blob/master/icon.png?raw=true\" width=\"400\"/>\n  <br><i>SoulWell block design with floating label!</i>\n</p>\n\n--- \nMaintained by [ZulfahmiFjr](https://github.com/ZulfahmiFjr)",
+  "readme_source_url": "https://github.com/ZulfahmiFjr/SoulWell",
+  "icon_url": "https://raw.githubusercontent.com/ZulfahmiFjr/SoulWell/e2fa9fe4779d698e68dafa9958984d9f83565105/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ZulfahmiFjr/SoulWell",
+  "archive_repo": null,
+  "approved_release_tag": "r-14061",
+  "stars": 0,
+  "total_downloads": 115,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.27.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ZulfahmiFjr"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.5",
+      "tag": "r-14061",
+      "published_at": null,
+      "downloads": 115,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14061/soulwell-1.5-r14061.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14061",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14061/soulwell-1.5-r14061.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SoulWell",
+    "stable_release_id": 14061
+  }
+}

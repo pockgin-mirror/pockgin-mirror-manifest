@@ -1,0 +1,64 @@
+{
+  "id": "mineralgui",
+  "name": "MineralGUI",
+  "author": "ClickedTran",
+  "description": "🖼️ ICON",
+  "readme_markdown": "## 🖼️ ICON\n<img src=\"https://github.com/ClickedTran/MineralGUI/blob/Master/icon.gif\">\n<img src=\"https://github.com/ClickedTran/MineralGUI/blob/Master/icon.jpg\">\n<img src=\"https://github.com/ClickedTran/MineralGUI/blob/Master/icon.gif\">\n\n## 📖 Feature\n- [x] mineral storage\n- [x] false/true automatic mode\n- [x] sell ore\n- [x] custom withdraw/deposit ore\n- [x] sell all ore\n- [x] multi language\n\n## 💬 Command\n| **COMMAND** | **SUBCOMMAND** | **DESCRIPTION** |**ALIASES**|\n| -- | -- | -- | -- |\n| `/mineral`  |                | `MineralGUI Command` | `/mineral` |\n\n## 📝 Permission\n| **PERMISSION** | **DEFAULT** |\n| --- | --- |\n| `mineralgui.command` | **`true`** |\n| `mineralgui.command.automatic` | **`OP`** |\n\n## 💾 Config  \n```yaml\n---\neconomy:\n provider: bedrockeconomy\n\nlanguage: en-US\n...\n```\n\n## 📑 Language Supported!\n- [x] English (Default in config)\n- [x] Vietnamese [Click To Download](https://github.com/ClickedTran/MineralGUI/blob/Master/resources/language/vi-VN.yml)\n\n*NOTE:* After downloading `Vietnamese (vi-VN.yml` file, please copy and paste it into `plugin_data/MineralGUI/language` and set `language` in **config.yml** to `vi-VN`, same for other languages!\n\n**NEW:** There is a new improvement compared to [BankGUI](https://poggit.pmmp.io/p/BankGUI) is that you can paste the language you want into `plugin_data/MineralGUI/language` without having to go into the custom file, of course it has to rely on the `English (en-US.yml) file`\n<br>\n\n## Virion and Plugin Support\n- **INTEGRATED INTO THE PLUGIN IN CASE OF ERRORS FROM OLD VIRIONS VERSION**\n\n## Contact\n- [Facebook](https://facebook.com/clickedtran.vn)\n- [Telegram](https:/t.me/clickedtran_vn)\n- Discord: **clickedtran_vn**\n\n## Install\n>- Step 1: Click the `Direct Download` button to download the plugin\n>- Step 2: move the file `MineralGUI.phar` into the file `plugins`\n>- Step 3: Restart server",
+  "readme_source_url": "https://github.com/ClickedTran/MineralGUI",
+  "icon_url": "https://raw.githubusercontent.com/ClickedTran/MineralGUI/0de2a32f0454d9de7cb40f16d1bfc27fa6743453/icon.jpg",
+  "featured": false,
+  "repo": "https://github.com/ClickedTran/MineralGUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-13945",
+  "stars": 5,
+  "total_downloads": 132,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ClickedTran"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/254746",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-13945",
+      "published_at": null,
+      "downloads": 132,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13945/mineralgui-2.0.0-r13945.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13945",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13945/mineralgui-2.0.0-r13945.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MineralGUI",
+    "stable_release_id": 13945
+  }
+}

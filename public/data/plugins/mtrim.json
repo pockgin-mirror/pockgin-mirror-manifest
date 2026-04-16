@@ -1,0 +1,61 @@
+{
+  "id": "mtrim",
+  "name": "MTrim",
+  "author": "MagmaZ3637",
+  "description": "🧥 MTrim",
+  "readme_markdown": "# 🧥 MTrim\r\n\r\nA PocketMine-MP plugin that allows players to add trims to their armor using a UI.\r\n\r\n## 📷 Pictures!\r\n![pictures\\1.png](https://github.com/MagmaZ3637/MTrim/blob/main/pictures/1.png?raw=true)\r\n\r\n![pictures\\2.png](https://github.com/MagmaZ3637/MTrim/blob/main/pictures/2.png?raw=true)\r\n\r\n![pictures\\3.png](https://github.com/MagmaZ3637/MTrim/blob/main/pictures/3.png?raw=true)\r\n\r\n![pictures\\4.png](https://github.com/MagmaZ3637/MTrim/blob/main/pictures/4.png?raw=true)\r\n\r\n## 🎮 Features\r\n1. [x] Easily add trims to armor via UI.\r\n\r\n2. [x] Compatible with all materials.\r\n \r\n3. [x] Supports a variety of trim types.\r\n \r\n4. [x] Uses player XP as currency for applying trims.\r\n\r\n5. [x] Interact with the Smithing Table to access the trim UI.\r\n\r\n## 📥 Installation\r\n1. Download the `.phar` file from poggit.\r\n2. Place the `MTrim.phar` file in the `plugins` folder of your server.\r\n3. Restart the server, and the plugin is ready to use!\r\n\r\n## 🔧 Commands\r\n| Command  | Description |\r\n|------------|-----------|\r\n| `/trim` | Opens the armor trim UI for customization. |\r\n\r\n## 🔑 Permissions\r\n| Permission  | Default | Description |\r\n|------------|---------|-----------|\r\n| `mtrim.command` | true    | Allow player to use the /trim command. |\r\n\r\n## ⚙️ Requirements\r\n- [FormAPI](https://github.com/jojoe77777/FormAPI)\r\n- [LibTrimArmor](https://github.com/KRUNCHSHooT/LibTrimArmor)\r\n\r\n## 💾 Config\r\n**config.yml**\r\n```yaml\r\n#\r\n#  ███╗░░░███╗████████╗██████╗░██╗███╗░░░███╗\r\n#  ████╗░████║╚══██╔══╝██╔══██╗██║████╗░████║\r\n#  ██╔████╔██║░░░██║░░░██████╔╝██║██╔████╔██║\r\n#  ██║╚██╔╝██║░░░██║░░░██╔══██╗██║██║╚██╔╝██║\r\n#  ██║░╚═╝░██║░░░██║░░░██║░░██║██║██║░╚═╝░██║\r\n#  ╚═╝░░░░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝╚═╝░░░░░╚═╝\r\n#  Mtrim | Config file | MagmaZ3637\r\n\r\n# Formats:\r\n#  {player} = player name\r\n#  {xp} = player xp\r\n#  {prefix} = prefix\r\n#  & = §\r\n\r\n# The prefix that will appear in every plugin message.\r\nprefix: \"&e[ MTrim ] &r\"\r\n\r\n# The default price for trimming armor (you can change it as needed).\r\n# If you want the price to be free, change it to 0.\r\nprice: 3\r\n\r\n# The type of message used to notify the player.\r\n# TOAST = small popup above the hotbar.\r\n# MESSAGE = chat message.\r\nmessage-type: \"TOAST\"\r\n\r\n\r\n# FORM AREA\r\n# The title displayed in the armor trim form.\r\ntitle-form: \"Trim Armor\"\r\n\r\n# Label for selecting the armor trim pattern.\r\nlabel-pattern: \"Choose Trim Pattern\"\r\n\r\n# Label for selecting the armor trim material.\r\nlabel-material: \"Choose Trim Material\"\r\n\r\n\r\n# MESSAGE AREA\r\n# Message shown when the player tries to trim a non-armor item.\r\nitem-is-not-armor: \"&cThis item is not an armor!\"\r\n\r\n# Message shown when the armor trim is successfully applied.\r\narmor-trim-success: \"&aArmor trimmed successfully!\"\r\n\r\n# Message shown when the player does not have enough XP to trim armor.\r\nnot-enough-xp: \"&cYou don't have enough XP!\"\r\n\r\n\r\n```\r\n\r\n## 📜 License\r\n[Apache License 2.0](https://github.com/MagmaZ3637/MTrim/blob/main/LICENSE)",
+  "readme_source_url": "https://github.com/MagmaZ3637/MTrim",
+  "icon_url": "https://raw.githubusercontent.com/MagmaZ3637/MTrim/8047a09568e6e4a00ed610400c9fe7d68793d790/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MagmaZ3637/MTrim",
+  "archive_repo": null,
+  "approved_release_tag": "r-13956",
+  "stars": 0,
+  "total_downloads": 168,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MagmaZ3637"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13956",
+      "published_at": null,
+      "downloads": 168,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13956/mtrim-1.0.0-r13956.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13956",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13956/mtrim-1.0.0-r13956.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MTrim",
+    "stable_release_id": 13956
+  }
+}

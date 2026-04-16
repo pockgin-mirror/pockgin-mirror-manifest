@@ -1,0 +1,61 @@
+{
+  "id": "betternick",
+  "name": "BetterNick",
+  "author": "LuthMC",
+  "description": "💡 Feature",
+  "readme_markdown": "# BetterNick\n[![](https://poggit.pmmp.io/shield.state/BetterNick)](https://poggit.pmmp.io/p/BetterNick)\n### 💡 Feature\n• Set/Unset Nickname                                    \n• Reset Nickname                                    \n• Cooldown Nickname                                    \n• Random Nickname                                    \n• Temporary Nickname                                    \n• Per-world Nickname                              \n• Auto-Nick on Join                                    \n• Blacklist Words                                    \n• Nickname Maximum Length Limit                                    \n• Sound                                    \n• Similarity Check            \n- Block nickname too similar to existing player names                                    \n### ⚙️ Commands\n| Commands | Description |\n|---------|-------------|\n| ```/nick <nick>``` | Set your nickname |\n| ```/unnick``` | Unnick your nickname to default |\n| ```/randomnick``` | Get a random nickname |\n| ```/nick list``` | List all active nickname |\n| ```/nick <nick> <player>``` | Set player nickname (admin only) |\n| ```/nick reset <player>``` | Reset player nickname (admin only) |\n| ```/nick resetall``` | Reset all player nickname (admin only) |\n| ```/nick history <player>``` | Check Player History (admin only) |\n\n### 🔒 Permission\n| Permission | Description |\n|---------|-------------|\n| ```betternick.use``` | Allow use nick command |\n| ```betternick.admin``` | Allow managing other player nicknames |\n\n### 🔗 Download\n[Release (soon)](https://poggit.pmmp.io/ci/LuthMC/BetterNick/BetterNick)                                                                              \n[Dev Builds](https://poggit.pmmp.io/ci/LuthMC/BetterNick/BetterNick)\n\n### 📢 Found Bugs\nIf you found any bugs, feel free to use [this](https://github.com/LuthMC/BetterNick/issues)!\n\n### 📍 Changelog\n• Add more feature                                    \n• Fix links                                    \n• Fix sound",
+  "readme_source_url": "https://github.com/LuthMC/BetterNick",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/LuthMC/BetterNick",
+  "archive_repo": null,
+  "approved_release_tag": "r-13833",
+  "stars": 0,
+  "total_downloads": 200,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "LuthMC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13833",
+      "published_at": null,
+      "downloads": 200,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13833/betternick-1.0.0-r13833.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13833",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13833/betternick-1.0.0-r13833.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterNick",
+    "stable_release_id": 13833
+  }
+}

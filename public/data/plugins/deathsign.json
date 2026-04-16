@@ -1,0 +1,61 @@
+{
+  "id": "deathsign",
+  "name": "DeathSign",
+  "author": "Terpz710",
+  "description": "Description",
+  "readme_markdown": "# Description\n\nA [Pocketmine-MP](https://pmmp.io) plugin that creates a sign with customizable text at the players death location.\n\nA plugin inspired by [Death Signs](https://dev.bukkit.org/projects/death-signs#:~:text=Death%20signs%20is%20a%20simple,with%20archery%20and%20melee%20attacks.) on bukkit!\n\n# Features \n\n* Customizable messages\n* MultiWorld (can be disabled via `config.yml`)",
+  "readme_source_url": "https://github.com/Terpz710/DeathSigns",
+  "icon_url": "https://raw.githubusercontent.com/Terpz710/DeathSigns/98862fb199f73726e3fac3f4c1d102c9e09a08fa/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Terpz710/DeathSigns",
+  "archive_repo": null,
+  "approved_release_tag": "r-13955",
+  "stars": 0,
+  "total_downloads": 74,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Terpz710"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/254984",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-13955",
+      "published_at": null,
+      "downloads": 74,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13955/deathsign-1.0.3-r13955.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13955",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13955/deathsign-1.0.3-r13955.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DeathSign",
+    "stable_release_id": 13955
+  }
+}

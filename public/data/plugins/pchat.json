@@ -1,0 +1,61 @@
+{
+  "id": "pchat",
+  "name": "PChat",
+  "author": "TaqdeesHigh",
+  "description": "A feature-rich chat management plugin for PocketMine-MP servers with channels, colors, and cooldown control.",
+  "readme_markdown": "# PChat\n\nA feature-rich chat management plugin for PocketMine-MP servers with channels, colors, and cooldown control.\n\n## Features\n- Multiple chat channels (Global, Ranked, Staff)\n- 16 customizable chat colors\n- Configurable chat cooldown\n- Form-based settings\n\n## Commands\n- `/chat` (alias: `/c`) - Chat settings\n- `/pchat cooldown` - Cooldown settings (admin)\n\n## Permissions\n```yaml\nCommands and other perms: \n\n  pchat.admin.cooldown:\n    description: \"Allows changing the chat cooldown\"\n    default: op\n\n  pchat.command.chat:\n    description: \"Allows using the chat command\"\n    default: true\n    \n  pchat.channel.ranked:\n    description: \"Allows using ranked chat\"\n    default: false\n    \n  pchat.channel.staff:\n    description: \"Allows using staff chat\"\n    default: false\n\n  pchat.channel.ranked.view:\n    description: \"Allows viewing ranked chat messages\"\n    default: false\n    \n  pchat.channel.staff.view:\n    description: \"Allows viewing staff chat messages\"\n    default: false\n\n# Color Perms:\n\n  pchat.color.white:\n    description: \"Allows using white color in chat\"\n    default: true\n  pchat.color.black:\n    description: \"Allows using black color in chat\"\n    default: false\n  pchat.color.darkblue:\n    description: \"Allows using dark blue color in chat\"\n    default: false\n  pchat.color.darkgreen:\n    description: \"Allows using dark green color in chat\"\n    default: false\n  pchat.color.darkaqua:\n    description: \"Allows using dark aqua color in chat\"\n    default: false\n  pchat.color.darkred:\n    description: \"Allows using dark red color in chat\"\n    default: false\n  pchat.color.darkpurple:\n    description: \"Allows using dark purple color in chat\"\n    default: false\n  pchat.color.gold:\n    description: \"Allows using gold color in chat\"\n    default: false\n  pchat.color.gray:\n    description: \"Allows using gray color in chat\"\n    default: false\n  pchat.color.darkgray:\n    description: \"Allows using dark gray color in chat\"\n    default: false\n  pchat.color.blue:\n    description: \"Allows using blue color in chat\"\n    default: false\n  pchat.color.green:\n    description: \"Allows using green color in chat\"\n    default: false\n  pchat.color.aqua:\n    description: \"Allows using aqua color in chat\"\n    default: false\n  pchat.color.red:\n    description: \"Allows using red color in chat\"\n    default: false\n  pchat.color.lightpurple:\n    description: \"Allows using light purple color in chat\"\n    default: false\n  pchat.color.yellow:\n    description: \"Allows using yellow color in chat\"\n    default: false\n```\n## Support\nIf you encounter any issues or have suggestions, please create an issue.\n\n## Library Used\nFormAPI",
+  "readme_source_url": "https://github.com/TaqdeesHigh/PChat",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/TaqdeesHigh/PChat",
+  "archive_repo": null,
+  "approved_release_tag": "r-13888",
+  "stars": 0,
+  "total_downloads": 75,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TaqdeesHigh"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-13888",
+      "published_at": null,
+      "downloads": 75,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13888/pchat-1.0.1-r13888.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13888",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13888/pchat-1.0.1-r13888.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PChat",
+    "stable_release_id": 13888
+  }
+}

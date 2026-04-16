@@ -1,0 +1,61 @@
+{
+  "id": "wdinventories",
+  "name": "WDInventories",
+  "author": "TaqdeesHigh",
+  "description": "WDInventories is a PocketMine-MP plugin that separates player inventories per world. This ensures that players have different inventories in different worlds, making it ideal fo...",
+  "readme_markdown": "# WDInventories\n\nWDInventories is a PocketMine-MP plugin that separates player inventories per world. This ensures that players have different inventories in different worlds, making it ideal for multi-world servers.\n\n## API\nIf you're a developer, you can interact with WDInventories using:\n\n```php\n/** @var InventoryManager */\n$inventoryManager = $plugin->getInventoryManager();\n\n// Save a player's inventory manually\n$inventoryManager->saveInventory($player, $worldName);\n\n// Load a player's inventory manually\n$inventoryManager->loadInventory($player, $worldName);\n```\n\n## License\nThis project is licensed under the MIT License.\n\n## Developer\n- **Taqdees**",
+  "readme_source_url": "https://github.com/TaqdeesHigh/WDInventories",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/TaqdeesHigh/WDInventories",
+  "archive_repo": null,
+  "approved_release_tag": "r-13915",
+  "stars": 0,
+  "total_downloads": 56,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TaqdeesHigh"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13915",
+      "published_at": null,
+      "downloads": 56,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13915/wdinventories-1.0.0-r13915.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13915",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13915/wdinventories-1.0.0-r13915.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WDInventories",
+    "stable_release_id": 13915
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "chattags",
+  "name": "ChatTags",
+  "author": "Pupggerss",
+  "description": "ChatTags Plugin",
+  "readme_markdown": "# ChatTags Plugin\n\nA lightweight PocketMine plugin that allows players to use customizable chat tags with color formatting.\n\n## Features\n\n- Customizable tags with color formatting\n- In-game commands\n- Full support for all TextFormat colors using `{colorcode}` syntax\n- Menu interface for tag selection\n- SQLite database support\n- MYSQL database support\n\n## Commands\n\n- `/tags add {name}` - Add a new tag (OP)\n- `/tags remove {name}` - Remove a tag (OP)\n- `/tags menu` - Open tag selection menu\n- `/tags give {player} [tag]` - Give tag(s) to player (OP)\n\n\n## Tag Formatting\n\nUse any TextFormat color in tags:\n```json\n[\"{red}VIP\", \"{gold}M{bold}EMBER\", \"{obfuscated}!!{reset}{blue}MYSTIC\"]\n```\n\n## Permissions\n- 'chattags.command.use' - Default /tags command permission\n- 'chattags.command.menu' - Permission to open chattags tags menu\n- 'chattags.admin.add' - Permission to add a new chattag\n- 'chattags.admin.remove' - Permission to remove a chattag\n- 'chattags.admin.give' - Permission to give players chattags\n\n\n## TODO:\n- [ ] Add UI for tag removal\n- [ ] Add UI for tag addition\n- [ ] Add UI for tag edits\n- [ ] Add tag items for better access\n- [ ] Add RankSystem chat format support (IDK?)",
+  "readme_source_url": "https://github.com/Pupggerss/ChatTags",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Pupggerss/ChatTags",
+  "archive_repo": null,
+  "approved_release_tag": "r-14068",
+  "stars": 0,
+  "total_downloads": 199,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Pupggerss"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/256716",
+  "versions": {
+    "stable": {
+      "version": "1.3.0",
+      "tag": "r-14068",
+      "published_at": null,
+      "downloads": 161,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14068/chattags-1.3.0-r14068.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14068",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14068/chattags-1.3.0-r14068.phar"
+    },
+    {
+      "tag": "r-14014",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14014/chattags-1.2.1-r14014.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatTags",
+    "stable_release_id": 14068
+  }
+}

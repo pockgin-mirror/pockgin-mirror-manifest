@@ -1,0 +1,61 @@
+{
+  "id": "martianlootbox",
+  "name": "MartianLootbox",
+  "author": "MrEcstsy",
+  "description": "MartianLootbox** is a powerful, customizable lootbox plugin for PocketMine, designed to offer a variety of animations, customizable rewards, and advanced features to enhance the...",
+  "readme_markdown": "# MartianLootbox\n\n[![](https://poggit.pmmp.io/shield.state/MartianLootbox)](https://poggit.pmmp.io/p/MartianLootbox)\n<a href=\"https://poggit.pmmp.io/p/MartianLootbox\"><img src=\"https://poggit.pmmp.io/shield.state/MartianLootbox\"></a> [![](https://poggit.pmmp.io/shield.api/MartianLootbox)](https://poggit.pmmp.io/p/MartianLootbox)\n<a href=\"https://poggit.pmmp.io/p/MartianLootbox\"><img src=\"https://poggit.pmmp.io/shield.api/MartianLootbox\"></a>\n\n**MartianLootbox** is a powerful, customizable lootbox plugin for PocketMine, designed to offer a variety of animations, customizable rewards, and advanced features to enhance the player's experience on your server. With this plugin, players can enjoy visually stunning lootbox animations like shuffle effects or even no-animation modes for a more straightforward claim experience.\n\n## Features\n\n- **Customizable Lootboxes**: Create unique lootboxes with various rewards and effects.\n- **Animations**: Includes multiple animations like shuffle, no-animation (plain claim), and more. (Easy to add custom animations later.)\n- **Rewards System**: Set up configurable reward chances and item setups.\n- **Lootbox Previews**: Players can preview lootboxes before claiming.\n- **Lootbox Command**: The `/martianlootbox give` command lets admins distribute lootboxes.\n  \n## Animations\n\nMartianLootbox comes with two animations by default:\n\n### Shuffle Animation (Animation ID: `1`)\nThe shuffle animation creates an exciting experience where the lootboxes are shuffled before revealing the rewards.\n\n### No Animation (Animation ID: `0`)\nThis animation is more straightforward, where players simply click to claim a lootbox without any special effects.\n\n### How to Create Lootboxes\n\n1. Navigate to the `lootboxes` directory inside the plugin's data folder.\n2. Create a `.yml` file (e.g., `example.yml`).\n3. Define your lootbox's rewards, animations, and settings in the `.yml` file.\n\n## Commands\n\n### `/martianlootbox give <lootbox_id> <player> [amount]`\nGive a specific lootbox to a player.\n\n### `/martianlootbox list`\nDisplays all available lootboxes on the server.\n\n### `/martianlootbox info`\nDisplays plugin information.\n\n## Previews\n\n### Animation Previews\n\n**Shuffle Animation (ID: 1)**  \nhttps://github.com/user-attachments/assets/4342b118-708d-46ba-a0fb-7c203dfbaae3\n\n**No Animation (ID: 0)**  \nThis animation simply displays the lootbox with no shuffle effects. Players can click to claim their lootboxes directly without any visual effects.\n\n## TODO\n\n- [ ] Implement chances on lootbox rewards for better randomization.\n- [ ] More animations coming soon!",
+  "readme_source_url": "https://github.com/MrEcstsy/MartianLootbox",
+  "icon_url": "https://raw.githubusercontent.com/MrEcstsy/MartianLootbox/7cda8c0ac35bfebec39d6cee417137742d7a096e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MrEcstsy/MartianLootbox",
+  "archive_repo": null,
+  "approved_release_tag": "r-13926",
+  "stars": 0,
+  "total_downloads": 124,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MrEcstsy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13926",
+      "published_at": null,
+      "downloads": 124,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13926/martianlootbox-1.0.0-r13926.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13926",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13926/martianlootbox-1.0.0-r13926.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MartianLootbox",
+    "stable_release_id": 13926
+  }
+}

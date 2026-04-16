@@ -1,0 +1,61 @@
+{
+  "id": "itemstacker",
+  "name": "ItemStacker",
+  "author": "Terpz710",
+  "description": "A plugin stacks items when they spawn.",
+  "readme_markdown": "# ItemStacker\r\nA plugin stacks items when they spawn.\r\n\r\n# Credits\r\n\r\nThis plugin isnt created by me(Terpz710) instead by DavidGamingzz. Im updating/adding new features since the dev went offline.\r\n\r\nYouTube: https://www.youtube.com/channel/UCvg3acev601KJwv7j4EpbSg/featured\r\n\r\n# FUTURE UPDATES\r\n\r\nTodo:\r\n\r\n- [X] Update to pocketmine 5.0.0.\r\n\r\n- [x] Add item stack count.\r\n\r\n- [ ] Make the stack size configurable through the config.yml.\r\n\r\nif you have any questions please let me know. discord: ace873056",
+  "readme_source_url": "https://github.com/Terpz710/ItemStacker",
+  "icon_url": "https://raw.githubusercontent.com/Terpz710/ItemStacker/aef4226b634054e5f840f476336e95cb57e71072/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Terpz710/ItemStacker",
+  "archive_repo": null,
+  "approved_release_tag": "r-13934",
+  "stars": 0,
+  "total_downloads": 108,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Terpz710"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/254532",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-13934",
+      "published_at": null,
+      "downloads": 108,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13934/itemstacker-1.0.3-r13934.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13934",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13934/itemstacker-1.0.3-r13934.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemStacker",
+    "stable_release_id": 13934
+  }
+}

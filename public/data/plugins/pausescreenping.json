@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14136",
   "stars": 0,
-  "total_downloads": 144,
+  "total_downloads": 283,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.2.0",
       "tag": "r-14136",
       "published_at": null,
-      "downloads": 104,
+      "downloads": 105,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14136/pausescreenping-1.2.0-r14136.phar"
     },
     "dev": null
@@ -49,6 +49,11 @@
       "tag": "r-14121",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14121/pausescreenping-1.1.0-r14121.phar"
+    },
+    {
+      "tag": "r-13816",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13816/pausescreenping-1.0.0-r13816.phar"
     }
   ],
   "comments": {

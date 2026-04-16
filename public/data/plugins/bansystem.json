@@ -1,0 +1,63 @@
+{
+  "id": "bansystem",
+  "name": "BanSystem",
+  "author": "r3pt1s",
+  "description": "A ban system for pocketmine servers.",
+  "readme_markdown": "# [BanSystem](https://poggit.pmmp.io/p/BanSystem/) [![](https://poggit.pmmp.io/shield.state/BanSystem)](https://poggit.pmmp.io/p/BanSystem)\r\nA ban system for pocketmine servers.\r\n\r\n## Integrated systems\r\n| System               | Description           |\r\n|----------------------|-----------------------|\r\n| BanSystem            | Manage bans           |\r\n| MuteSystem           | Manage mutes          |\r\n| WarnSystem           | Manage warns          |\r\n| NotificationSystem   | Receive notifications |\r\n\r\n## Features\r\n- Ban or mute players temporarily \r\n- Warn or kick players with a reason\r\n- MySQL Support\r\n- MultiServer support (WaterdogPE)\r\n- Notifications for team members\r\n- Multi language support (english & german, can add custom ones by creating a corresponding file in plugin_data/BanSystem/lang/ and putting only the file name as a language in the config.yml)\r\n- StaffTools (/vanish, /freeze, /spectate, /chatmute)\r\n- Enable or disable integrated systems (except NotificationSystem)\r\n\r\n## If you are using WaterdogPE\r\nIf you use WaterdogPE, you need to install 3 plugins to sync the bans and mutes on the different servers.\r\n1. [BanSystem-Proxy](https://github.com/r3pt1s/BanSystem-Proxy/releases/tag/1.0) (WaterdogPE Plugin)\r\n2. [StarGate-Atlantis](https://github.com/Alemiz112/StarGate-Atlantis) (PocketMine-Plugin / On every PocketMine sub server)\r\n3. [StarGate](https://github.com/Alemiz112/StarGate/releases/tag/latest) (WaterdogPE Plugin)\r\n\r\n## Commands\r\n| Command                                  | Description                                             | Permission                    |\r\n|------------------------------------------|---------------------------------------------------------|-------------------------------|\r\n| `/ban <player> <banId>`                  | Ban a player                                            | bansystem.command.ban         |\r\n| `/tempban <player> <reason> <time>`      | Ban a player temporarily                                | bansystem.command.tempban     |\r\n| `/baninfo <player>`                      | Get information about a player                          | bansystem.command.baninfo     | \r\n| `/banlog <player>`                       | See a list of every ban from a player                   | bansystem.command.banlog      |\r\n| `/editban <player> <add OR sub> <time>`  | Edit a ban                                              | bansystem.command.editban     |\r\n| `/unban <player> [mistake: false]`       | Unban a player and decide if the ban was a mistake      | bansystem.command.unban       |\r\n| `/banids`                                | See a list of all banids                                | bansystem.command.banids      |\r\n| `/banlist`                               | See a list of all bans                                  | bansystem.command.banlist     |\r\n| `/mute <player> <muteId>`                | Mute a player                                           | bansystem.command.mute        |\r\n| `/tempmute <player> <reason> <time>`     | Mute a player temporarily                               | bansystem.command.tempmute    |\r\n| `/muteinfo <player>`                     | Get information about a player                          | bansystem.command.muteinfo    | \r\n| `/mutelog <player>`                      | See a list of every mute from a player                  | bansystem.command.mutelog     |\r\n| `/editmute <player> <add OR sub> <time>` | Edit a mute                                             | bansystem.command.editmute    |\r\n| `/unmute <player> [mistake: false]`      | Unmute a player and decide if the mute was a mistake    | bansystem.command.unmute      |\r\n| `/muteids`                               | See a list of all muteids                               | bansystem.command.muteids     |\r\n| `/mutelist`                              | See a list of all mutes                                 | bansystem.command.mutelist    |\r\n| `/warn <player> [reason]`                | Warn a player                                           | bansystem.command.warn        |\r\n| `/warns <player>`                        | See a list of all warns from a player                   | bansystem.command.warns       |\r\n| `/clearwarns <player>`                   | Clear all warns from a player                           | bansystem.command.clearwarns  |\r\n| `/kick <player> [reason]`                | Kick a player                                           | bansystem.command.kick        |\r\n| `/freeze <player>`                       | Freeze or unfreeze a player                             | bansystem.command.freeze      |\r\n| `/spectate <player>`                     | Spectate a player                                       | bansystem.command.spectate    |\r\n| `/chatmute`                              | Mute the entire chat                                    | bansystem.command.chat_mute   |\r\n| `/vanish`                                | Vanish yourself                                         | bansystem.command.vanish      |\r\n\r\n## Permissions\r\n| Permission                 | Description                   |\r\n|----------------------------|-------------------------------|\r\n| bansystem.bypass.ban       | Bypass a ban                  |\r\n| bansystem.bypass.mute      | Bypass a mute                 |\r\n| bansystem.bypass.kick      | Bypass a kick                 |\r\n| bansystem.bypass.freeze    | Bypass the freeze             |\r\n| bansystem.bypass.chat_mute | Bypass the mute of the chat   |\r\n| bansystem.vanish.see       | See other vanished people     |\r\n| bansystem.receive.notify   | Receive notifications         |\r\n\r\n## Configurable \r\n- Max warnings\r\n- Action when max warnings reached\r\n- Custom action reason and duration when max warnings reached\r\n- Blocked commands for muted players\r\n- Enable or disable banlogs and mutelogs\r\n- Custom banids and muteids\r\n- Custom prefix\r\n- Custom paths\r\n- Which features to use\r\n\r\n**Made with 💓 by r3pt1s**",
+  "readme_source_url": "https://github.com/r3pt1s/BanSystem",
+  "icon_url": "https://raw.githubusercontent.com/r3pt1s/BanSystem/375fa286d63872d4b7acfaa960ceb6b01268ebda/icon.png",
+  "featured": false,
+  "repo": "https://github.com/r3pt1s/BanSystem",
+  "archive_repo": null,
+  "approved_release_tag": "r-13963",
+  "stars": 0,
+  "total_downloads": 611,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "StarGate-Atlantis"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "r3pt1s"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/255122",
+  "versions": {
+    "stable": {
+      "version": "3.2.0",
+      "tag": "r-13963",
+      "published_at": null,
+      "downloads": 611,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13963/bansystem-3.2.0-r13963.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13963",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13963/bansystem-3.2.0-r13963.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BanSystem",
+    "stable_release_id": 13963
+  }
+}

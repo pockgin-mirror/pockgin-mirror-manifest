@@ -1,0 +1,69 @@
+{
+  "id": "simpleclothes",
+  "name": "SimpleClothes",
+  "author": "VsrStudio",
+  "description": "SimpleClothes 1.2.0",
+  "readme_markdown": "### SimpleClothes 1.2.0\nThis plugin is a clothing plugin like cosmetics, you could say it's more perfect.\n- This plugin will continue to be developed.\n- Not for sale\n\n### Feature\n- Add Shop\n- Add Mystery Crate\n- Add Scorehud Score `{simpleclothes.crate}` Show Key\n- Add Command rca and permission simpleclothes\n\n- **ClothesForm**\n- Wings Form - Have 8 Skin\n- Combo Wings Form - Have 3 Skin\n- Genshin Impact Skin Form - Have 2 Skin\n- Capes Form - Have 25 Skin\n- Hats Form - Have 3 Skin\n- Particle Form - Have 10 Particle\n\n### Dependencies\n- [InvMenu](https://github.com/Muqsit/InvMenu)\n- [ScoreHud](https://github.com/Ifera/ScoreHud)\n- [EconomyApi](https://github.com/ACM-PocketMine-MP/EconomyAPI)\n\n### Commands\n- **/sccrate help**\n- -----[ SimpleClothes ]-----\n- /simpleclothes - Open the clothes menu\";\n- /clothes - Alias command clothes menu\";\n- /sc - Alias command clothes menu\";\n- -----[ More Command ]-----\n- /scmenu - Show basic menu\";\n- /scshop - Open shop menu simpleclothes\";\n- /sccrate - Open crate menu simpleclothes\";\n- /scrca - Rca Simpleclothes\";\n- /permission - Permission Simpleclothes\";\n- -----[ Crate ]-----\n- /sccrate help - show help command simpleclothes\";\n- /sccrate setkey - setkey crate simpleclothes\";\n- /sccrate givekey - givekey crate simpleclothes\";\n- /sccrate takekey - takekey crate simpleclothes\";\n- /sccrate spawncrate - spawn crate simpleclothes\";\n- /sccrate removecrate - remove crate simpleclothes\";\n\n### Configuration\n**Crate**\n```yaml\n# to add clothes gift\n# permission add {player} kagune.wing\n# or\n# scrca {player} permission add {player} kagune.wing\nreward:\n  - name: \"§l§e1000 Money\"\n    commands:\n      - \"givemoney {player} 1000\"\n  - name: \"§l§e20 Diamonds\"\n    commands:\n      - \"give {player} diamond 20\"\n  - name: \"§l§e32 Iron Ingot\"\n    commands:\n      - \"give {player} iron_ingot 32\"\n  - name: \"§l§e10 Emerald\"\n    commands:\n      - \"give {player} emerald 10\"\n```\n**Shop**\n```yaml\n# Paste Permission Here And The Price\n# Customize Format\n# Shop\nshop:\n  wings:\n    \"demon.wing\": 1000\n    \"kagune.wing\": 1500\n  capes:\n    \"Aceee.cape\": 5000\n    \"CawPe.cape\": 10000\n  hats:\n    \"tv.hats\": 2000\n    \"frog.hats\": 2500\n  particles:\n    \"particle.flame\": 1200\n    \"particle.lava\": 1800\n```\n### Video Review\n[Watch the video on YouTube](https://youtu.be/VhpFutHtjFI?si=klDZlk9MRQF5Jk_d)",
+  "readme_source_url": "https://github.com/VsrStudio/SimpleClothes",
+  "icon_url": "https://raw.githubusercontent.com/VsrStudio/SimpleClothes/04c6e8469a9c2b6c7511d073f012f08d91a3d155/icon.png",
+  "featured": false,
+  "repo": "https://github.com/VsrStudio/SimpleClothes",
+  "archive_repo": null,
+  "approved_release_tag": "r-13909",
+  "stars": 0,
+  "total_downloads": 297,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "ScoreHud"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "VsrStudio"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/254010",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-13909",
+      "published_at": null,
+      "downloads": 188,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13909/simpleclothes-1.2.0-r13909.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13909",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13909/simpleclothes-1.2.0-r13909.phar"
+    },
+    {
+      "tag": "r-13841",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13841/simpleclothes-1.1.0-r13841.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleClothes",
+    "stable_release_id": 13909
+  }
+}

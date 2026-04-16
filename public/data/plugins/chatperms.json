@@ -1,0 +1,64 @@
+{
+  "id": "chatperms",
+  "name": "ChatPerms",
+  "author": "MilkAndCookiz",
+  "description": "A comprehensive chat and permissions management plugin for PocketMine-MP servers with advanced moderation tools, analytics, and faction support.",
+  "readme_markdown": "# ChatPerms [![](https://poggit.pmmp.io/shield.state/ChatPerms)](https://poggit.pmmp.io/p/ChatPerms)\r\n\r\nA comprehensive chat and permissions management plugin for PocketMine-MP servers with advanced moderation tools, analytics, and faction support.\r\n\r\n## Features\r\n\r\n- Custom chat formats for different groups\r\n- Customizable nametags with health display and faction tags\r\n- Dynamic permission management with group inheritance\r\n- Faction integration (supports FactionsPro, PiggyFactions, SimpleFaction, and Factions)\r\n- Automatic detection of compatible faction plugins\r\n- Real-time nametag updates reflecting health changes\r\n- Mute system with temporary and permanent muting\r\n- Chat cooldowns per group\r\n- Chat statistics and analytics\r\n- Temporary group assignments\r\n- Permission debugging tools\r\n- Easy-to-use commands for group and permission management\r\n\r\n## Commands\r\n\r\n### Group Management\r\n- `/cp setgroup <player> <group>` - Assign a player to a group\r\n- `/cp creategroup <group> <chat_format> <nametag_format> [permissions...]` - Create a new group\r\n- `/cp removegroup <group>` - Delete a group\r\n- `/cp listgroups` - List all groups with details\r\n\r\n### Permission Management\r\n- `/cp addgroupperm <group> <permission>` - Add a permission to a group\r\n- `/cp removegroupperm <group> <permission>` - Remove a permission from a group\r\n- `/cp checkplayer <player>` - Check player permissions and group info\r\n\r\n### Moderation\r\n- `/cp mute <player> [duration] [reason]` - Mute a player\r\n- `/cp unmute <player>` - Unmute a player\r\n- `/cp mutelist` - List all muted players\r\n\r\n### Temporary Groups\r\n- `/cp tempgroup <player> <group> <duration> [reason]` - Assign temporary group\r\n- `/cp tempgroupcheck <player>` - Check temporary group status\r\n\r\n### Statistics\r\n- `/cp stats` - Show server chat statistics\r\n- `/cp stats <player>` - Show player chat statistics\r\n\r\n### Utility\r\n- `/cp help` - Display all available commands\r\n\r\n## Placeholders\r\n\r\n### Chat Format\r\n- `{PLAYER}` - Player's username\r\n- `{MESSAGE}` - Chat message\r\n- `{WORLD}` - Current world name\r\n- `{FACTION}` - Player's faction (if detected)\r\n\r\n### Nametag Format\r\n- `{PLAYER}` - Player's username\r\n- `{HEALTH}` - Color-coded health display\r\n- `{WORLD}` - Current world name\r\n- `{FACTION}` - Player's faction (if detected)\r\n\r\n## Duration Formats\r\n\r\n- `s` = seconds (30s = 30 seconds)\r\n- `m` = minutes (15m = 15 minutes)\r\n- `h` = hours (2h = 2 hours)\r\n- `d` = days (1d = 1 day)\r\n- `w` = weeks (1w = 1 week)\r\n- `permanent` = never expires\r\n\r\n## Group Inheritance\r\n\r\nGroups can inherit permissions from parent groups using the `inherits` property in config.yml:\r\n\r\n```yaml\r\ngroups:\r\n  default:\r\n    permissions:\r\n      - chatperms.basic\r\n  vip:\r\n    inherits: default\r\n    permissions:\r\n      - chatperms.vip\r\n  admin:\r\n    inherits: vip\r\n    permissions:\r\n      - chatperms.admin\r\n```\r\n\r\n## Installation\r\n\r\n1. Download the plugin from Poggit\r\n2. Place the plugin file in your server's `plugins` folder\r\n3. Restart your server\r\n4. Configure the plugin in `plugins/ChatPerms/config.yml`\r\n\r\n## Configuration Files\r\n\r\n- `config.yml` - Main configuration\r\n- `players.yml` - Player group assignments\r\n- `mutes.yml` - Mute data\r\n- `chat_stats.yml` - Chat statistics\r\n- `temp_groups.yml` - Temporary group assignments\r\n\r\n## Permissions\r\n\r\n- `chatperms.command.*` - All command access\r\n- `chatperms.command.setgroup` - Set player groups\r\n- `chatperms.command.creategroup` - Create groups\r\n- `chatperms.command.removegroup` - Remove groups\r\n- `chatperms.command.addgroupperm` - Add group permissions\r\n- `chatperms.command.removegroupperm` - Remove group permissions\r\n- `chatperms.command.listgroups` - List groups\r\n- `chatperms.command.checkplayer` - Check player info\r\n- `chatperms.command.mute` - Mute players\r\n- `chatperms.command.unmute` - Unmute players\r\n- `chatperms.command.mutelist` - List muted players\r\n- `chatperms.command.stats` - View statistics\r\n- `chatperms.command.tempgroup` - Assign temporary groups\r\n- `chatperms.command.tempgroupcheck` - Check temp group status\r\n\r\n## Supported Faction Plugins\r\n\r\n- FactionsPro\r\n- PiggyFactions\r\n- SimpleFaction\r\n- Factions\r\n\r\n## Support\r\n\r\nFor issues, feature requests, or contributions, please visit the GitHub repository.",
+  "readme_source_url": "https://github.com/MilkAndCookiz/ChatPerms",
+  "icon_url": "https://raw.githubusercontent.com/MilkAndCookiz/ChatPerms/c94ce5e1008d209ef42f7a2a1ac62a8acf235370/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MilkAndCookiz/ChatPerms",
+  "archive_repo": null,
+  "approved_release_tag": "r-14044",
+  "stars": 0,
+  "total_downloads": 219,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "SimpleFaction",
+      "PiggyFactions"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MilkAndCookiz"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/256430",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-14044",
+      "published_at": null,
+      "downloads": 219,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14044/chatperms-1.2.0-r14044.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14044",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14044/chatperms-1.2.0-r14044.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatPerms",
+    "stable_release_id": 14044
+  }
+}

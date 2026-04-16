@@ -1,0 +1,61 @@
+{
+  "id": "customsetting",
+  "name": "CustomSetting",
+  "author": "nikipuh",
+  "description": "CustomSetting Plugin",
+  "readme_markdown": "# CustomSetting Plugin [![](https://poggit.pmmp.io/shield.dl.total/CustomSetting)](https://poggit.pmmp.io/p/CustomSetting)\nCustomSetting is a PocketMine-MP plugin that provides a persistent custom form for server settings, allowing you to create a customizable information page for your Minecraft Bedrock server.\n[![](https://poggit.pmmp.io/shield.state/CustomSetting)](https://poggit.pmmp.io/p/CustomSetting)\n[![](https://poggit.pmmp.io/shield.api/CustomSetting)](https://poggit.pmmp.io/p/CustomSetting)\n![image](https://i.imgur.com/cEkzx5h.png)\n\n## Features\n- Settings form for all players\n- Customizable form content via `form.json`\n- Rich text formatting support\n\n### How It Works:\n1. **Player Opens Settings**:\n   - The player accesses the settings menu on their device.\n\n2. **Plugin Detects and Sends Forms**:\n   - The plugin detects when the player opens the settings and immediately sends a series of **5 forms** (pre-configured settings pages) to the player.\n   - This ensures the player receives the forms, even if the initial form was sent before they opened the settings.\n\n3. **Handling Early Closure**:\n   - If the player closes the settings before all 5 forms are sent, the plugin detects this and **automatically stops sending forms**.\n\n### Key Points:\n- **Guaranteed Delivery**: Sending multiple forms ensures the player receives the settings, even if they experience a delay in opening the settings menu.\n- **Efficient Handling**: The plugin stops sending forms if the player closes the settings early, avoiding unnecessary actions.\n- **Fast Detection**: The plugin actively monitors the player's actions to ensure timely and efficient form delivery.\n\n## Installation\n1. Download the plugin\n2. Place in your server's `plugins/` directory\n3. Restart the server\n\nTo edit the settings page, check the rest of my documentation. You can use color codes and set custom icons (such as your server logo).\nIf you encounter any issues, feel free to post them on the GitHub repository.\n\n(!) If you want to create your own plugin or use another plugin that displays settings pages to clients (players), they may interfere with CustomSetting.\n\n## Form Customization\n\n### Text Formatting Codes\n\n#### Color Codes\n| Code | Color | Code | Color |\n|------|-------|------|-------|\n| `§0` | Black | `§1` | Dark Blue |\n| `§2` | Dark Green | `§3` | Dark Aqua |\n| `§4` | Dark Red | `§5` | Dark Purple |\n| `§6` | Gold | `§7` | Gray |\n| `§8` | Dark Gray | `§9` | Blue |\n| `§a` | Green | `§b` | Aqua |\n| `§c` | Red | `§d` | Light Purple |\n| `§e` | Yellow | `§f` | White |\n\n#### Formatting Styles\n| Code | Effect | \n|------|--------|\n| `§l` | Bold |\n| `§o` | Italic |\n| `§k` | Obfuscated (random characters) |\n| `§r` | Reset formatting |\n\n#### Combining Formatting\nYou can combine multiple formatting codes for creative text styling:\n- `§l§9Bold Blue Text`\n- `§c§oRed Italic Text`\n- `§6Gold Text`\n\n## Icon Configuration\n\n### Icon Types\nThe plugin supports three ways to set the form icon:\n\n1. **Minecraft Default Textures**\n```json\n\"icon\": {\n  \"type\": \"path\",\n  \"data\": \"textures/items/cookie\"\n}\n```\nSome popular texture paths:\n- `textures/items/cookie`\n- `textures/items/diamond`\n- `textures/items/book_written`\n- `textures/items/paper`\n- `textures/items/compass`\n\n2. **Base64 Encoded Image**\n```json\n\"icon\": {\n  \"type\": \"url\",\n  \"data\": \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUg...\"\n}\n```\nTo create a base64 icon:\n- Use an image editing tool\n- Resize to 64x64 pixels\n- Convert to PNG\n- Use an online base64 encoder\n\n3. **URL Image** (not recommended due to potential loading issues)\n```json\n\"icon\": {\n  \"type\": \"url\",\n  \"data\": \"https://example.com/icon.png\"\n}\n```\n\n## Example form.json\n```json\n{\n  \"type\": \"custom_form\",\n  \"title\": \"§eServer Info\",\n  \"icon\": {\n    \"type\": \"path\",\n    \"data\": \"textures/items/diamond\"\n  },\n  \"content\": [\n    {\n      \"type\": \"label\",\n      \"text\": \"§l§6Welcome to Our Server!§r\"\n    },\n    {\n      \"type\": \"label\",\n      \"text\": \"§bRules:§r\\n§a1.§f Be respectful\\n§a2.§f No griefing\"\n    }\n  ]\n}\n```\n\n## Configuration Location\nThe plugin configuration is stored at:\n`plugin_data/CustomSetting/form.json`\n\n## Troubleshooting\n- Ensure `form.json` is valid JSON\n- Check server logs for any error messages\n- Verify file permissions\n- The plugin will generate a default form if `form.json` is missing or invalid\n\n### Contributing\nContributions are welcome! Open an issue or submit a pull request.\n\n## License\nCopyright 2025 @nikipuh\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nMIT License: https://opensource.org/license/mit",
+  "readme_source_url": "https://github.com/nikipuh/CustomSetting",
+  "icon_url": "https://raw.githubusercontent.com/nikipuh/CustomSetting/848501ecfdfa6aa3cc5d7d10b83226c92bf7f3fc/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nikipuh/CustomSetting",
+  "archive_repo": null,
+  "approved_release_tag": "r-13931",
+  "stars": 5,
+  "total_downloads": 249,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nikipuh"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.4",
+      "tag": "r-13931",
+      "published_at": null,
+      "downloads": 249,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13931/customsetting-1.4-r13931.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13931",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13931/customsetting-1.4-r13931.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomSetting",
+    "stable_release_id": 13931
+  }
+}

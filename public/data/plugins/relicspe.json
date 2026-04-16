@@ -1,0 +1,61 @@
+{
+  "id": "relicspe",
+  "name": "RelicsPE",
+  "author": "Terpz710",
+  "description": "RelicsPE for Pocketmine-MP",
+  "readme_markdown": "<p align=\"center\">\n    <a href=\"https://github.com/Terpz710/RelicsPE\"><img src=\"https://github.com/Terpz710/RelicsPE/blob/main/pic.gif\"></img></a><br>\n    <b>RelicsPE for Pocketmine-MP</b>\n\n# Description\n\nA [Pocketmine-MP](https://pmmp.io) plugin that adds relics into your server, Players who are mining are given the chance to uncover relics with raritys and rarity based rewards!\n\n# Features\n\n* Players who are mining are given the chance to recieve a relic.\n* Cool sound when a player uncovers a relic (customizable).\n* Customizable messages.\n* Muli-Language (English, Spanish, French, German and Simplified/Traditional Chinese.\n* You can claim the relic to recieve rarity based rewards. Each relic claimed will give the player 1 random reward.\n* Spawn in relics using a command.\n* Customizable relics.\n* Customizable chances. (Chances for each relic and drop chance to actually recieve a relic when mining a block).\n\n**Upcoming features**\n\n* Configurable chances for rewards.\n\nGot an idea? DM me via Discord:\n\n* Ace873056\n\n# Commands/Permissions\n```php\n/relics <player_name> <rarity>\n\nrelicspe.cmd\n\ndefualt: op\n```",
+  "readme_source_url": "https://github.com/Terpz710/RelicsPE",
+  "icon_url": "https://raw.githubusercontent.com/Terpz710/RelicsPE/877f6d2d909a97d9e049d9da3b2eec105c6cd6a4/pic.gif",
+  "featured": false,
+  "repo": "https://github.com/Terpz710/RelicsPE",
+  "archive_repo": null,
+  "approved_release_tag": "r-13884",
+  "stars": 0,
+  "total_downloads": 153,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Terpz710"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/253560",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13884",
+      "published_at": null,
+      "downloads": 153,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13884/relicspe-1.0.0-r13884.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13884",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13884/relicspe-1.0.0-r13884.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RelicsPE",
+    "stable_release_id": 13884
+  }
+}

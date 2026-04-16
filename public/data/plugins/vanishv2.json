@@ -1,0 +1,61 @@
+{
+  "id": "vanishv2",
+  "name": "VanishV2",
+  "author": "sqrrrrl",
+  "description": "VanishV2** is an advanced vanish plugin packed with powerful and customizable features.",
+  "readme_markdown": "# Overview\n\n**VanishV2** is an advanced vanish plugin packed with powerful and customizable features.\n\n[![](https://poggit.pmmp.io/shield.state/VanishV2)](https://poggit.pmmp.io/p/VanishV2)\n\n[![](https://poggit.pmmp.io/shield.dl.total/VanishV2)](https://poggit.pmmp.io/p/VanishV2)\n\n## Features\n\n- Highly configurable  \n- Hides held items and worn armor  \n- Hides potion effect particles while vanished  \n- Mutes player sounds while vanished  \n- Prevents item and XP orb pickup  \n- Removes vanished players from the tab/query list  \n- Hides vanished players from the in-game player list  \n- Blocks private messages to vanished players  \n- Fake join/leave messages (configurable)  \n- Persist vanish status on logout/restart (configurable)  \n- Enables god mode while vanished (configurable)  \n- Allows flying in survival while vanished (configurable)  \n- Silent join/leave (configurable)  \n- Permission support for staff to see vanished players  \n- ScoreHud and PlaceholderAPI support  \n\n# Commands\n\n| Command   | Description            |\n|-----------|------------------------|\n| `/vanish` | Toggle vanish mode     |\n| `/v`      | Shortcut for `/vanish` |\n\n# Permissions\n\n| Permission           | Description                          |\n|----------------------|--------------------------------------|\n| `vanish.use`         | Use the `/vanish` command            |\n| `vanish.see`         | See other vanished players           |\n| `vanish.use.other`   | Vanish other players                 |\n\n# ScoreHud\n\nIf you're using **ScoreHud v6.0.0+**, use the following tag:\n\n```\n{VanishV2.fake_count}\n```",
+  "readme_source_url": "https://github.com/sqrrrrl/VanishV2",
+  "icon_url": "https://raw.githubusercontent.com/sqrrrrl/VanishV2/85499a050307e90bd5109326f5aaeb18856650b7/icon.png",
+  "featured": false,
+  "repo": "https://github.com/sqrrrrl/VanishV2",
+  "archive_repo": null,
+  "approved_release_tag": "r-14006",
+  "stars": 0,
+  "total_downloads": 961,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "sqrrrrl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/255939",
+  "versions": {
+    "stable": {
+      "version": "4.0.4",
+      "tag": "r-14006",
+      "published_at": null,
+      "downloads": 961,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14006/vanishv2-4.0.4-r14006.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14006",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14006/vanishv2-4.0.4-r14006.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VanishV2",
+    "stable_release_id": 14006
+  }
+}

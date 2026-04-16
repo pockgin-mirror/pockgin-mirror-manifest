@@ -1,0 +1,61 @@
+{
+  "id": "pets",
+  "name": "Pets",
+  "author": "TaqdeesHigh",
+  "description": "Pets Plugin for PocketMine-MP",
+  "readme_markdown": "# Pets Plugin for PocketMine-MP\n\nA feature-rich pets plugin that allows players to spawn and manage various mobs as pets that follow them around.\n\n## Features\n\n- **Multiple Pet Types**: Supports various mobs including:\n  - (Zombie, Skeleton, Creeper, Spider, Blaze, Enderman, Ghast, Slime, Magma Cube, Witch)\n  - (Cow, Pig, Sheep, Chicken, Wolf, Villager, Squid)\n- **Custom Pet Names**: Players can give their pets custom names\n- **Permission-Based System**: Control which players can spawn specific pet types\n- **Pet Management**: Easy-to-use commands and forms interface\n- **Automatic Following**: Pets automatically follow their owners\n- **Persistent Pets**: Pets are saved and respawn when players rejoin\n- **World Blacklisting**: Disable pets in specific worlds\n\n## Usage\n\n### Commands\n\n- `/pets` or `/pet` - Opens the pet management menu\n  - Select a pet type to spawn\n  - Name your pet\n  - Remove current pet\n\n### Permissions\n\n- `pets.command` - Allows usage of the /pets command (default: true)\n- `pets.type.<mobname>` - Allows spawning specific pet types (default: op)\n  - Example: `pets.type.zombie`, `pets.type.cow`, etc.\n\n### Pet Types Available\n\n- Zombie\n- Skeleton\n- Creeper\n- Spider\n- Blaze\n- Enderman\n- Ghast\n- Slime\n- Magma Cube\n- Witch\n- Cow\n- Pig\n- Sheep\n- Chicken\n- Wolf\n- Villager\n- Squid\n\n(I'll add more when i feel like it.)\n\n## Configuration\n\nPlugin configuration is handled through the `config.yml` file and permissions.\n\n### config.yml\n\nA `config.yml` file is now included to allow blacklisting worlds where pets are disabled.  Add the folder names of the worlds to the `blacklisted-worlds` list.\n\n```yaml\n# List of worlds where pets are disabled\n# Add world folder names to this list to blacklist them\nblacklisted-worlds:\n  - \"world1\"\n```\n\n### Permissions\n\nAdjust the permissions in your server's permission manager or `permissions.yml` to control which players can access specific pet types. By default, pet types are set to `default=false`.\n\n## Features In Detail\n\n- **Smart Following**: Pets will intelligently follow players, including climbing blocks and avoiding obstacles\n- **World Management**: Pets will teleport to players when changing worlds. Pets are automatically removed in blacklisted worlds.\n- **Distance Management**: Pets automatically teleport to players if they get too far away\n- **Form Interface**: User-friendly form interface for pet management\n- **Name Customization**: Optional custom naming for pets\n- **Persistence**: Pets are saved between server restarts\n- **Cleanup System**: Automatic cleanup of old pet entities\n- **World Blacklisting**: Pets can be disabled in specific worlds by adding the world's folder name to the `blacklisted-worlds` list in the `config.yml` file. Players will receive a message when entering a blacklisted world.\n\n## Support\n\nFor support, please create an issue on the plugin's GitHub repository.\n\n## Contributing\n\nContributions are welcome! Please feel free to submit a Pull Request.\n\n## License\n\nThis project is licensed under the MIT License - see the LICENSE file for details.\n\n## Credits\n\nCreated by Taqdees\n\n(I Stole the icon file from here\nhttps://icons8.com/icons/set/minecraft--animated\n</3\n)\n\n## Dependencies\n\nFormAPI",
+  "readme_source_url": "https://github.com/TaqdeesHigh/Pets",
+  "icon_url": "https://raw.githubusercontent.com/TaqdeesHigh/Pets/fe74ced2470032f543b9575633b1ecd87043ff73/icon.png",
+  "featured": false,
+  "repo": "https://github.com/TaqdeesHigh/Pets",
+  "archive_repo": null,
+  "approved_release_tag": "r-13993",
+  "stars": 0,
+  "total_downloads": 336,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TaqdeesHigh"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13993",
+      "published_at": null,
+      "downloads": 336,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13993/pets-1.0.0-r13993.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13993",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13993/pets-1.0.0-r13993.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Pets",
+    "stable_release_id": 13993
+  }
+}

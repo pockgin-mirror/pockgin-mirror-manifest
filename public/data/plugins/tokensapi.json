@@ -1,0 +1,61 @@
+{
+  "id": "tokensapi",
+  "name": "TokensAPI",
+  "author": "Terpz710",
+  "description": "Tokens system for Pocketmine-MP",
+  "readme_markdown": "<p align=\"center\">\n    <a href=\"https://github.com/Terpz710/TokensAPI\"><img src=\"https://github.com/Terpz710/TokensAPI/blob/stable/icon.png\"></img></a><br>\n    <b>Tokens system for Pocketmine-MP</b>\n\n# Description\n\nAlways wanted to add a token system to your [Pocketmine-MP](https://github.com/pmmp/PocketMine-MP) server? Look no more, with this plugin you can now give players token balances! Players can pay eachother and much more!\n\nThis plugin also supports multi-language support, The only downside is that I used Google translate so some messages may appear out of placed/unright. Sorry if Google butchered your language! Help is always wanted so if you want to contribute please open a pull request thank you!\n\nScoreHud is supported scroll down to the `Addon` section to download!\n\n**Easy to use API for developers! ❤️**\n\n**TokensAPI** had a huge code rewrite on January 24, 2025\n\n***This rewrite introduced new features aswell as fixes/improvements. Configurable messages, added multiple storage types for storing token balances and rewrote 99% of the code.***\n\n# Features\n* Configurable messages\n* Multi-language support (English, Spanish, German, French, Traditional Chinese, Simplified Chinese and more to come!)\n* 2 storage types (MySQL and SQLite)\n* Easy to use API\n* ScoreHud support (See `Addon` section)\n\n# Commands\n| Command                                   | Description                                                                   | Permission                                    | Default    |\n|-------------------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------|------------|\n| ```/addtokens <player> <amount>```         | ```Allows the op-player to add tokens from another player token balance.```   | ```tokensapi.addtoken```                  | ```op```   |\n| ```/settokens <player> <amount>```         | ```Allows the op-player to set another from anothet player token balance.```  | ```tokensapi.settoken```                  | ```op```   |\n| ```/removetokens <player> <amount>```      | ```Allows the op-player to remove tokens another player token balance.```     | ```tokensapi.removetoken```               | ```op```   |\n| ```/paytokens <player> <amount>```         | ```Allows the player to pay tokens to another player token balance.```        | ```tokensapi.paytoken```                  | ```true``` |\n| ```/seetokens <player>```                  | ```Allows the player to see another players token balance.```                 | ```tokensapi.seetoken```                  | ```true``` |\n| ```/mytokens```                            | ```Allows the player to see their token balance.```                           | ```tokensapi.mytoken```                   | ```true``` |\n| ```/toptokens```                           | ```Allows the player to see the top token balances on the server.```          | ```tokensapi.topbalances```                  | ```true``` |\n\n# Config\n\n```php\n# Terpz710\n\n# NOTE: All translations were done via Google translate, Sorry if Google butchered your language!\n# Choose the language for all the messages:\n# Options:\n# - \"en\": English (default)\n# - \"es\": Spanish\n# - \"fr\": French\n# - \"de\": German\n# - \"zh-t\": Traditional Chinese\n# - \"zh-s\": Simplified Chinese\nlanguage: \"en\"\n\n# Choose the storage type for player token balances:\ndatabase:\n  # The database type. \"sqlite\" and \"mysql\" are supported.\n  type: sqlite\n\n  # Edit these settings only if you choose \"sqlite\".\n  sqlite:\n    # The file name of the database in the plugin data folder.\n    # You can also put an absolute path here.\n    file: tokens.db\n\n  # Edit these settings only if you choose \"mysql\".\n  mysql:\n    host: 127.0.0.1\n    # Avoid using the \"root\" user for security reasons.\n    username: root\n    password: \"\"\n    schema: your_schema\n\n  # The maximum number of simultaneous SQL queries\n  # Recommended: 1 for sqlite, 2 for MySQL. You may want to further increase this value if your MySQL connection is very slow.\n  worker-limit: 1\n\n# Starting amount for new player accounts\nstarting-amount: 1000\n```\n\n# API for Developers ❤️\n\n**How to get the token instance:**\n```php\n/** Import this class */\nuse terpz710\\tokensapi\\TokensAPI;\n\n$api = TokensAPI::getInstance();\n```\n\n**How to retrieve a players token balance:**\n```php\n/** $player can be either an instance of Player::class or PlayerName (e.g. Steve) */\n\n$api = TokensAPI::getInstance();\n\n$api->getTokens($player);\n\nor\n\n$name = \"Steve\";\n\n$api->getTokens($name);\n```\n\n**How to add tokens to a player:**\n```php\n/** $player can be either an instance of Player::class or PlayerName (e.g. Steve) */\n\n$amount = 100;\n\n$api = TokensAPI::getInstance();\n\n$api->addTokens($player, $amount);\n\nor\n\n$name = \"Steve\";\n\n$amount = 100;\n\n$api->addTokens($name, $amount);\n```\n\n**How to remove tokens from a player:**\n```php\n/** $player can be either an instance of Player::class or PlayerName (e.g. Steve) */\n\n$amount = 100;\n\n$api = TokensAPI::getInstance();\n\n$api->removeTokens($player, $amount);\n\nor\n\n$name = \"Steve\";\n\n$amount = 100;\n\n$api->removeTokens($name, $amount);\n```\n\n**How to set a players token balance:**\n```php\n/** $player can be either an instance of Player::class or PlayerName (e.g. Steve) */\n\n$amount = 100;\n\n$api = TokensAPI::getInstance();\n\n$api->setTokens($player, $amount);\n\nor\n\n$name = \"Steve\";\n\n$amount = 100;\n\n$api->setTokens($name, $amount);\n```\n\n**How to check if a player has a token balance before adding tokens:**\n```php\n/** $player can be either an instance of Player::class or PlayerName (e.g. Steve) */\n\n$amount = 100;\n\n$api = TokensAPI::getInstance();\n\n/**\n * Call this before attempting to add/remove/set tokens\n * Take a look at AddTokensCommand.php for a refrence\n */\nif (!$api->hasTokenBalance($player)) {\n    $player->sendMessage(\"Steve does not have a token balance\");\n    return;\n}\n\n$api->setTokens($player, $amount);\n\nor\n\n$name = \"Steve\";\n\n$amount = 100;\n\n/**\n * Call this before attempting to add/remove/set tokens\n * Take a look at AddTokensCommand.php for a refrence\n */\nif (!$api->hasTokenBalance($name)) {\n    $player->sendMessage($name . \" does not have a token balance\");\n    return;\n}\n\n$api->setTokens($name, $amount);\n```\n\n# Open a pull request\n\nMake sure to make a fork before creating a pull request.\n\nNote I dont accept any pull request!\n\nI wont accept request IF the following change isnt major.\n\nClick below to open a pull request:\n\n[Click me](https://github.com/Terpz710/TokensAPI/pulls)\n\n# Open a bug report here\n\nI appreciate your help and support to make sure this project is bug/error free!\n\nClick below to sumbit a bug report:\n\n[Click me](https://github.com/Terpz710/TokensAPI/issues/new)\n\n# Addon\n\nThis plugin supports ScoreHud!\n\nLink to addon: [TokensAPIScoreTag](https://github.com/Terpz710/TokensAPIScoreTag/tree/main)\n\n# TODO\n\n- [x] Configurable messages (completed)\n- [x] MySQL and MySQL Lite (completed)\n- [x] Multi-language support (completed)\n\n  Got any ideas? DM me via [discord](https://discord.gg/eQpvm8Zj) Ace873056",
+  "readme_source_url": "https://github.com/Terpz710/TokensAPI",
+  "icon_url": "https://raw.githubusercontent.com/Terpz710/TokensAPI/212434fb7917732ef5e08e1a6867e5652c9bff41/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Terpz710/TokensAPI",
+  "archive_repo": null,
+  "approved_release_tag": "r-13869",
+  "stars": 0,
+  "total_downloads": 263,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Terpz710"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/253392",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13869",
+      "published_at": null,
+      "downloads": 263,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13869/tokensapi-1.0.0-r13869.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13869",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13869/tokensapi-1.0.0-r13869.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TokensAPI",
+    "stable_release_id": 13869
+  }
+}

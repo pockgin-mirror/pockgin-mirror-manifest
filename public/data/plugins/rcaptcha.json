@@ -1,0 +1,63 @@
+{
+  "id": "rcaptcha",
+  "name": "RCaptcha",
+  "author": "xRookieFight",
+  "description": "🛡️ RCaptcha - PocketMine Map Captcha Verification Plugin",
+  "readme_markdown": "# 🛡️ RCaptcha - PocketMine Map Captcha Verification Plugin\n\n![PocketMine-MP API 5](https://img.shields.io/badge/PocketMine--MP-API%205-blue)\n![Captcha Protection](https://img.shields.io/badge/Captcha-Enabled-green)\n![Status](https://img.shields.io/badge/Status-Stable-brightgreen)\n\n## 📌 Overview\n\n**RCaptcha** is a plugin for PocketMine-MP (API 5) that enhances server security by requiring players to complete a **map captcha** when joining the server. It’s especially useful for preventing bots by ensuring only human players can interact or use protected commands.\n\n---\n\n## ⚙️ Installation\n\n1. Download and place the plugin `.phar` file into your `plugins/` directory from [releases](https://github.com/xRookieFight/RCaptcha/releases).\n2. Restart your server.\n3. The plugin will automatically generate `config.yml` and `messages.yml`.\n4. Customize the configuration as needed and restart the server again.\n\n---\n\n## ⚙️ Dependencies\n- [ImageOnMap](https://github.com/CzechPMDevs/ImageOnMap/tree/main) by [CzechPMDevs](https://github.com/CzechPMDevs)\n---\n\n## 🛠️ Configuration Files\n\n### `config.yml`\n\n```yaml\ncaptcha-settings:\n  captcha-protected-commands:\n    - 'op'\n  held-slot: 1 # 1 = first hotbar slot, -1 = offhand\n  mode: FIRSTJOIN # FIRSTJOIN, ALL, NONE\n  op-override: false\n  permission-override: false\n  disable-damage: true\n  disable-interact: true\n  blindness-effect: true\n```\n\n### `messages.yml`\n\n```yaml\nfail: '§7You failed the Captcha'\njoin: '§7Please type the text on the map in order to verify you''re a human being'\nsuccess: '§7You completed the Captcha'\nblocked: '§cYou cannot do that operation.'",
+  "readme_source_url": "https://github.com/xRookieFight/RCaptcha",
+  "icon_url": "https://raw.githubusercontent.com/xRookieFight/RCaptcha/7378c0e1cda24ca6ecc8949f403247b12417134a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/xRookieFight/RCaptcha",
+  "archive_repo": null,
+  "approved_release_tag": "r-13980",
+  "stars": 0,
+  "total_downloads": 72,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "ImageOnMap"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "xRookieFight"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13980",
+      "published_at": null,
+      "downloads": 72,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13980/rcaptcha-1.0.0-r13980.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13980",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13980/rcaptcha-1.0.0-r13980.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RCaptcha",
+    "stable_release_id": 13980
+  }
+}

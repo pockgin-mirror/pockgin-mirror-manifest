@@ -1,0 +1,63 @@
+{
+  "id": "prefixes",
+  "name": "Prefixes",
+  "author": "FrostCheat",
+  "description": "✨ Prefixes",
+  "readme_markdown": "---\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/plugin-Prefixes-blueviolet?style=for-the-badge\">\n  <br><br>\n  <a href=\"https://paypal.me/FrostCheatMC?country.x=CO&locale.x=es_XC\">\n    <img src=\"https://img.shields.io/badge/donate-paypal-ff69b4?style=for-the-badge&logo=paypal\">\n  </a>\n  <a href=\"https://discord.gg/k8X7CG2kFv\">\n    <img src=\"https://img.shields.io/discord/1384337463971020911?style=for-the-badge&logo=discord&logoColor=white\">\n  </a>\n  <a href=\"https://poggit.pmmp.io/ci/FrostCheat/Prefixes/Prefixes\">\n    <img src=\"https://poggit.pmmp.io/ci.shield/FrostCheat/Prefixes/Prefixes?style=for-the-badge\">\n  </a>\n  <a href=\"https://poggit.pmmp.io/p/Prefixes\">\n    <img src=\"https://poggit.pmmp.io/shield.downloads/Prefixes?style=for-the-badge\">\n  </a>\n</p>\n\n<h1 align=\"center\">✨ Prefixes</h1>\n<p align=\"center\">Customize and manage player prefixes with ease. Supports permissions, sessions, RankSystem integration, GUI menus, and more!</p>\n\n---\n\n## 💡 Features\n\n- ✅ Prefixes with color & formatting support\n- 🛡️ Permission-based access to prefixes\n- 🧠 Player session management\n- 📦 Full GUI interface with clickable prefix selection\n- 🧩 Integration with [RankSystem](https://github.com/Falkirks/RankSystem) for chat placeholders\n- 🌐 Multi-language support (EN, ES, FR, PT, etc.)\n- 🔁 Async saving for better performance\n- ⚡ Lightweight and optimized for PocketMine-MP\n\n---\n\n## 🛠️ Installation\n\n1. 📥 [Download Prefixes from Poggit](https://poggit.pmmp.io/p/Prefixes)\n2. 🔌 Drag the `.phar` file into your server's `/plugins/` folder\n3. 🚀 Restart your server\n4. ✅ Use `/prefixes` in-game to open the menu\n\n---\n\n## 🌍 Supported Languages\n\nChange the language via the config file.\n\nAvailable languages:\n- 🇺🇸 English (`en_us`)\n- 🇪🇸 Español (`es_es`)\n- 🇫🇷 Français (`fr_fr`)\n- 🇵🇹 Português (`pr_br`)\n- 🇩🇪 Deutsch (`gr_gr`)\n- 🇷🇺 Русский (`rs_rs`)\n\nHelp us translate more in [`/resources/languages/`](resources/languages/)\n\n---\n\n## 📚 Commands\n\n| Command                                       | Description                                            | Permission                     |\n| --------------------------------------------- | ------------------------------------------------------ | ------------------------------ |\n| `/prefixes`                                   | Opens the prefix GUI menu                              | `prefixes.command`             |\n| `/prefix set <player> <prefix>`               | Assigns a prefix to a player manually                  | `prefixes.command.set`         |\n| `/prefix remove <player>`                     | Removes the prefix from a player                       | `prefixes.command.remove`      |\n| `/prefix delete <prefix>`                     | Deletes a prefix completely                            | `prefixes.command.delete`      |\n| `/prefix create <name> <format> <permission>` | Creates a new prefix with name, format, and permission | `prefixes.command.create`      |\n| `/prefix save`                                | Saves all prefix and session data manually             | `prefixes.command.save`        |\n| `/prefix reload`                              | Reloads config, prefixes, sessions, and language files | `prefixes.command.reload`      |\n| `/prefix setlanguage <language>`              | Sets the plugin's default language                     | `prefixes.command.setlanguage` |\n| `/prefix help`                                | Shows the list of available commands                   | `prefixes.command.help`        |\n\n> 💡 You can also use `/prefixes` as the main command to open the GUI.\n\n---\n\n## 🔌 RankSystem Integration\n\nIf [RankSystem](https://poggit.pmmp.io/p/RankSystem/) is installed and enabled in config, this plugin automatically registers a chat tag (e.g., `{prefix}`) to display the user's selected prefix in chat.\n\nEnable via config:\n\n```yaml\nrank-system-chat: true\nrank-system-prefix-placeholder: \"prefix\"\n````\n\n---\n\n## 🔄 Saving System\n\nThis plugin uses asynchronous tasks to save player sessions and prefixes without causing lag. All session and prefix data is stored in `plugin_data/Prefixes/`:\n\n* `prefixes/` → each prefix config\n* `sessions/` → each player's selected prefix\n* `languages/` → translation files\n\n---\n\n## 📁 File Structure\n\n```\nplugin_data/\n└── Prefixes/\n    ├── prefixes/\n    │   └── <prefix>.yml\n    ├── sessions/\n    │   └── <uuid>.yml\n    ├── languages/\n    │   ├── en_us.yml\n    │   └── es_es.yml\n    └── config.yml\n```\n\n---\n\n## 📖 License\n\nThis plugin is open source and licensed under the [MIT License](LICENSE).\nFeel free to fork, contribute, or open issues and pull requests.\n\n---\n\n## ☕ Support the Developer\n\nIf you find this project useful, consider supporting me:\n\n> 💖 [Donate via PayPal](https://paypal.me/FrostCheatMC?country.x=CO&locale.x=es_XC)\n\nAny help is appreciated and motivates future updates!\n\n---\n\n<p align=\"center\"><b>Made with ❤️ by FrostCheatMC</b></p>\n\n---",
+  "readme_source_url": "https://github.com/FrostCheat/Prefixes",
+  "icon_url": "https://raw.githubusercontent.com/FrostCheatMC/Prefixes/81838b6327b7ff789ee5573ba29ee74d6ea83c3a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/FrostCheat/Prefixes",
+  "archive_repo": null,
+  "approved_release_tag": "r-14074",
+  "stars": 0,
+  "total_downloads": 204,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "RankSystem"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "FrostCheat"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/262431",
+  "versions": {
+    "stable": {
+      "version": "1.4.0",
+      "tag": "r-14074",
+      "published_at": null,
+      "downloads": 204,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14074/prefixes-1.4.0-r14074.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14074",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14074/prefixes-1.4.0-r14074.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Prefixes",
+    "stable_release_id": 14074
+  }
+}

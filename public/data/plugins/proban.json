@@ -1,0 +1,61 @@
+{
+  "id": "proban",
+  "name": "ProBan",
+  "author": "RajadorDev",
+  "description": "ProBan Plugin",
+  "readme_markdown": "# ProBan Plugin \n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/RajadorDev/ProBan/c1fe4f9bc6a26a530a213abdb6ca85ef8479def5/img/balance.png\">\n</p>\n\n## About:\n\nThis plugin can **ban** and **expel** players, with personalized texts and **discord webhook and UI support**.\n\n## How to use?\n\n\nJust add the plugin and it will replace PocketMine's standard ban and expulsion commands.\n\nTo configure the webhook for your desired **Discord** channel, simply use:\n\n- `/pb webhook <url: string>`\n\nWhere `url` should be the url of your webhook.\n\nYou can Edit the messages in the file `config.yml` and use `/pb realod`after or restarting after too.\n\n## Commands:\n\n- `/pb`:\n  - `info`: Show information about the plugin\n  - `webhook <url: string>`: Set your discord webhook link.\n  - `reload`: Reload your plugin settings (the **config.yml**)\n  - `deletehook`: Will delete the current webhook saved\n\n<br>\n\n- `/ban <player: string> <reason: string>`: Will ban the player by his username\n\n<br>\n\n- `/kick <player: string> <reason: string>`: Will look for a player with the prefix given and kick him. \n\nIf you are using the command in game, and you is not give none args to these commands: `/kick`, `/ban`, `/unban` will open a **UI**",
+  "readme_source_url": "https://github.com/RajadorDev/ProBan",
+  "icon_url": "https://raw.githubusercontent.com/RajadorDev/ProBan/24180a68afca72a90af91515b128623db5ceb7cf/icon.png",
+  "featured": false,
+  "repo": "https://github.com/RajadorDev/ProBan",
+  "archive_repo": null,
+  "approved_release_tag": "r-13815",
+  "stars": 0,
+  "total_downloads": 213,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "RajadorDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-13815",
+      "published_at": null,
+      "downloads": 213,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13815/proban-2.0.0-r13815.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13815",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13815/proban-2.0.0-r13815.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ProBan",
+    "stable_release_id": 13815
+  }
+}

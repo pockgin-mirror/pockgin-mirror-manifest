@@ -1,0 +1,61 @@
+{
+  "id": "betterhub",
+  "name": "BetterHub",
+  "author": "Terpz710",
+  "description": "Description",
+  "readme_markdown": "# Description\nAs the name suggest **BetterHub** is simply a better hub. We offer customizable features such as commands, messages, where to set the hub, timer and a easy to understand API!\n\nThis plugin also has a timer + blindness effect to make the proccess much more appealing than just sitting there waiting for a timer to finish, The blindness effect also brings a mysterious vibe, You may edit the timer within the 'config.yml'!\n\nUnlike other hub plugins on the market, this one allows you to set the hub anywhere rather than relying on default world spawn.\n\n# Features\n- SQLite and MySQL database are supported!\n- Customizable messages + commands\n- Countdown timer + blindness effect\n- Instead of relying on default world spawn you may set the hub anywhere!",
+  "readme_source_url": "https://github.com/Terpz710/BetterHub",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Terpz710/BetterHub",
+  "archive_repo": null,
+  "approved_release_tag": "r-13868",
+  "stars": 0,
+  "total_downloads": 181,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Terpz710"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13868",
+      "published_at": null,
+      "downloads": 181,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13868/betterhub-1.0.0-r13868.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13868",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13868/betterhub-1.0.0-r13868.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterHub",
+    "stable_release_id": 13868
+  }
+}

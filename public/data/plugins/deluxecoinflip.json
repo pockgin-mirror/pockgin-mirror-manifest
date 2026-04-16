@@ -1,0 +1,63 @@
+{
+  "id": "deluxecoinflip",
+  "name": "DeluxeCoinFlip",
+  "author": "FrostCheat",
+  "description": "🎰 DeluxeCoinFlip",
+  "readme_markdown": "<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/plugin-DeluxeCoinFlip-blueviolet?style=for-the-badge\">\n  <br><br>\n  <a href=\"https://paypal.me/FrostCheatMC?country.x=CO&locale.x=es_XC\">\n    <img src=\"https://img.shields.io/badge/donate-paypal-ff69b4?style=for-the-badge&logo=paypal\">\n  </a>\n  <a href=\"https://discord.gg/k8X7CG2kFv\">\n    <img src=\"https://img.shields.io/discord/1384337463971020911?style=for-the-badge&logo=discord&color=5865F2\">\n  </a>\n  <a href=\"https://poggit.pmmp.io/ci/FrostCheat/DeluxeCoinFlip/DeluxeCoinFlip\">\n    <img src=\"https://poggit.pmmp.io/ci.shield/FrostCheat/DeluxeCoinFlip/DeluxeCoinFlip?style=for-the-badge\">\n  </a>\n  <a href=\"https://poggit.pmmp.io/p/DeluxeCoinFlip\">\n    <img src=\"https://poggit.pmmp.io/shield.downloads/DeluxeCoinFlip?style=for-the-badge\">\n  </a>\n</p>\n\n<h1 align=\"center\">🎰 DeluxeCoinFlip</h1>\n<p align=\"center\"><b>A powerful and modern CoinFlip plugin for PocketMine-MP.</b></p>\n<p align=\"center\">Features NPC interaction, multi-language support, animated GUI, tax system, and smooth performance with no lag.</p>\n\n---\n\n## ✨ Features\n\n- 🎲 CoinFlip system with custom items\n- 💸 Win double or lose it all — includes a configurable tax!\n- 📦 Fully animated GUI menu\n- 🧠 Intelligent page system (for multiple CoinFlips)\n- 🌍 Multi-language support (6+ languages included)\n- 👤 NPC integration with skin support\n- 🧾 Configurable permissions and messages\n- 🔧 No-lag async economy integration (BedrockEconomy)\n- ⚡ Compatible with latest PocketMine API versions\n\n---\n\n## 🔧 Installation Guide\n\n1. 📥 [Download DeluxeCoinFlip](https://poggit.pmmp.io/p/DeluxeCoinFlip) from Poggit\n2. 💰 [Download BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy)\n3. 📁 Move both `.phar` files into your `/plugins/` folder\n4. 🔄 Restart your server\n5. ✅ Use `/cf` to start flipping coins!\n\n---\n\n## 💬 Commands\n\n| Command                  | Description                                                |\n|--------------------------|------------------------------------------------------------|\n| `/cf`                    | Open the main CoinFlip menu                                |\n| `/cf create <amount>`    | Create a new CoinFlip with the item in your hand           |\n| `/cf delete`             | Delete your active CoinFlip and get refunded               |\n| `/cf setlanguage <lang>` | Change plugin language (`en-US`, `es-ES`, etc.)            |\n| `/cf reload`             | Reload the plugin configuration                            |\n\n---\n\n## 🌍 Supported Languages\n\nYou can change the plugin's language via command:\n\n```bash\n/cf setlanguage <lang>\n````\n\nAvailable languages:\n\n* 🇺🇸 English (`en-US`)\n* 🇪🇸 Español (`es-ES`)\n* 🇫🇷 Français (`fr-FR`)\n* 🇧🇷 Português (`pr-BR`)\n* 🇩🇪 Deutsch (`de-DE`)\n* 🇷🇺 Русский (`ru-RU`)\n\nWant to help with more? Contribute to `/resources/languages/`.\n\n---\n\n## 👤 NPC Support\n\n* Run `/cf npc` to spawn a CoinFlip NPC.\n* Hit it with bedrock to remove.\n* NPCs open the menu and show animated nametags.\n\n---\n\n## ⚙️ Configuration\n\nThe `config.yml` lets you customize:\n\n* Tax percentage\n* Minimum and maximum bet\n* Item display\n* NPC options\n* And more...\n\n---\n\n## 🧾 License\n\nThis plugin is open-sourced under the [MIT License](https://github.com/FrostCheatMC/DeluxeCoinFlip/blob/master/LICENSE).\nFeel free to fork, contribute, and improve it.\n\n---\n\n## ☕ Support the Developer\n\nIf you enjoy this plugin and want to support future development:\n\n> 💖 [Donate via PayPal](https://paypal.me/FrostCheatMC?country.x=CO&locale.x=es_XC)\n\nEvery contribution counts — thank you!\n\n---\n\n<p align=\"center\"><b>Made with 💙 by FrostCheatMC</b></p>",
+  "readme_source_url": "https://github.com/FrostCheat/DeluxeCoinFlip",
+  "icon_url": "https://raw.githubusercontent.com/FrostCheatMC/DeluxeCoinFlip/96f5cf841f8250e9e141f94831b4ed31f37a01bf/icon.png",
+  "featured": false,
+  "repo": "https://github.com/FrostCheat/DeluxeCoinFlip",
+  "archive_repo": null,
+  "approved_release_tag": "r-14073",
+  "stars": 0,
+  "total_downloads": 119,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "FrostCheat"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-14073",
+      "published_at": null,
+      "downloads": 119,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14073/deluxecoinflip-1.0.0-r14073.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14073",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14073/deluxecoinflip-1.0.0-r14073.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DeluxeCoinFlip",
+    "stable_release_id": 14073
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "economyenchant",
+  "name": "EconomyEnchant",
+  "author": "XanderID-MC",
+  "description": "General",
+  "readme_markdown": "# General\n\nEconomyEnchant Shop For Pocketmine 5.0.0, With Many features\n\n## Commands\n\nCommands | Default\n--- | ---\n`/eshop` | True\n\n## Feature\n\n* Support Multiple Economys\n* Support Multiple CustomEnchant\n* Support EnchantTable Direct\n* Support Sound When Enchant Success\n* Auto Check Enchant Available in Hand\n* Blacklist System\n* Customable Message\n* Customable Form (GUI / UI)\n* Form\n  * Configurable Form\n  * Slide for Level\n* GUI\n  * Configurable GUI\n  * If the enchant exceeds 26 Will be Divided into Pages\n  * Confirmation GUI\n\n## How to Registering Enchantment\n\nDo you want to register your enchant Into this EnchantShop, Please follow this [Wiki](https://github.com/XanderID-MC/EconomyEnchant/wiki/Registering-Enchantment)\n\n## API\n\nFirst Import Class MulqiGaming64\\EconomyEnchant\\Manager\\EnchantManager</br>\n\n* Checking if Enchant Blacklisted\n  * EnchantManager::isEnchantBlacklisted(/** Name the enchantment with Lower */);\n* Checking if Enchant blacklisted in Item\n  * EnchantManager::isItemBlacklisted(/** The Item */, /** Name Enchantment with Lower */);\n\n## Screenshot\n\n* Form ( UI )\n  * Selecting Form\n    ![Screenshot](https://github.com/XanderID-MC/EconomyEnchant/blob/main/.screenshot/Form1.jpg)\n  * Confirmation Form\n    ![Screenshot](https://github.com/XanderID-MC/EconomyEnchant/blob/main/.screenshot/Form2.jpg)\n* InvMenu ( GUI )\n  * Selecting GUI ( Page )\n    ![Screenshot](https://github.com/XanderID-MC/EconomyEnchant/blob/main/.screenshot/GUI1.jpg)\n  * Confirmation GUI\n    ![Screenshot](https://github.com/XanderID-MC/EconomyEnchant/blob/main/.screenshot/GUI2.jpg)\n\n## Supported Custom Enchant Plugin\n\n* Empty, You can add your own by clicking [this link](https://github.com/XanderID-MC/EconomyEnchant/wiki/Registering-Enchantment)\n\n## Supported Economy Providers\n\n* [BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy) by cooldogedev\n* [XP](https://github.com/pmmp/PocketMine-MP) By PocketMine-MP\n\n## Config\n\n``` YAML\n\n---\n# Please don't edit this, only for internal use\nconfig-version: 4\n\n# Your Economy plugin name\n# Available: BedrockEconomy, XP, Auto\n# If you select auto but there is no Economy Plugin it will automatically use XP\neconomy: \"Auto\"\n\n# Can EnchantTable Redirect to EconomyEnchant\nenchant-table: true\n\n# Add Anvil Sound to Player if Enchant is Successful\nsound: true\n\n# Form Type\n# Can use UI or GUI\nform-type: \"UI\"\n\n# Form\nform:\n # Buy Menu\n buy-shop:\n  # Title for BuyShop\n  title: \"EnchantShop\"\n  # Content for BuyShop\n  content: \"Select Enchantment:\"\n  # Tag: {price} Price Enchantment, {enchant} Name Of Enchantment\n  button:\n   # Only can 0-1\n   0: \"{enchant}\"\n   1: \"{price}\"\n # Submit Menu\n submit:\n  # Title for SubmitMenu\n  title: \"EnchantShop\"\n  # Content\n  # Tag: {price} Price of Enchantment\n  content: \"§aYou will pay {price} Per Level\"\n  # Max Content\n  max-content: \"§aYour item has reached the level limit!\"\n  # Slider Content\n  slider: \"Level\"\n  # Button\n  button: \"Enchant Item\"\n\n# GUI\ngui:\n # Buy Menu\n buy-shop:\n  # Title for BuyShop\n  title: \"EnchantShop\"\n  # Tag: {level} Level Enchantment, {enchant} Name Of Enchantment\n  name: \"§f{enchant} §b{level}\"\n  # Tag: {price} Price Enchantment\n  # if you want to empty lore just put value []\n  lore:\n   - \"Price for This Enchant {price}\"\n # Submit Menu\n submit:\n  # Title for SubmitMenu\n  title: \"EnchantShop\"\n  # Buy Item\n  buy:\n   # Buy Item Name\n   # Tag: {level} Level Enchantment, {enchant} Name Of Enchantment\n   name: \"Buy §f{enchant} §b{level}\"\n   # Buy Item Lore\n   # Tag: {price} Price Enchantment\n   # if you want to empty lore just put value []\n   lore:\n    - \"Are you sure to buy\"\n    - \"This Enchant With price {price}\"\n   # Cancel Item\n  cancel:\n   # Cancel Item Name\n   name: \"§cCancel\"\n   # Cancel Item Lore\n   # if you want to empty lore just put value []\n   lore:\n    - \"Cancel buying Enchantment\"\n\n# Message\nmessage:\n # Cannot Enchant On This Item\n err-item: \"§cYou cannot add Enchantment to This Item!\"\n # Enchantment doesn't Exists\n err-enchant: \"§cThis enchantment is not available!\"\n # Exit Message\n exit: \"§aThank you for visiting!\"\n # Successfully Buy Enchant\n # Tag: {enchant} Name Enchantment, {item} Name Item, {price} Price Enchantment\n success: \"§aSuccessfully Enchant {enchant} to {item}, with Price {price}\"\n # Error Money not Enough\n # Tag: {need} Needed Money\n enough: \"§cYour money is not enough need {need}\"\n\n# Mode\n# If false Enchantment those that are not set will not be in the shop\n# If true Enchantment Auto added and price will be to Default ( Not Setted )\nmode: true\n\n# Enchantment\nenchantment:\n # Name Enchantment\n sharpness:\n  # Price\n  price: 1000\n # Default, If the enchantment is not set above\n # it will be redirected here\n default:\n  # Price\n  price: 10000\n  \n# Blacklist Enchantment from Shop\n# if you want blacklist just add\n# example: [\"sharpness\", \"silk_touch\"] or [\"sharpness\"]\nblacklist: []\n\n# Blacklist Enchantment from Item\n# if you want blacklist just add\n# example: \n# blacklist:\n#  sharpness: [\"diamond_sword\"]\nblacklist-item: []\n...\n\n```\n\n## What's New\n\n* Update\n* Remove Item Flags\n\n## Additional Notes\n\n* If you find bugs or want to give suggestions, please visit [here](https://github.com/XanderID-MC/EconomyEnchant/issues)",
+  "readme_source_url": "https://github.com/XanderID-MC/EconomyEnchant",
+  "icon_url": "https://raw.githubusercontent.com/XanderID-MC/EconomyEnchant/d421fd91b149995057e233327f18cc2c324cf9b9/icon.png",
+  "featured": false,
+  "repo": "https://github.com/XanderID-MC/EconomyEnchant",
+  "archive_repo": null,
+  "approved_release_tag": "r-13925",
+  "stars": 0,
+  "total_downloads": 439,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "XanderID-MC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/254450",
+  "versions": {
+    "stable": {
+      "version": "1.0.5",
+      "tag": "r-13925",
+      "published_at": null,
+      "downloads": 439,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13925/economyenchant-1.0.5-r13925.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13925",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13925/economyenchant-1.0.5-r13925.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EconomyEnchant",
+    "stable_release_id": 13925
+  }
+}
