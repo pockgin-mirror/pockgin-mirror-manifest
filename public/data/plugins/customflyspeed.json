@@ -1,0 +1,61 @@
+{
+  "id": "customflyspeed",
+  "name": "CustomFlySpeed",
+  "author": "GameParrot",
+  "description": "Pocketmine plugin that allows for changing a players fly speed",
+  "readme_markdown": "# CustomFlySpeed\nPocketmine plugin that allows for changing a players fly speed\n\n# Usage\nUse /flyspeed <speed> [player] to set a player's fly speed. The default speed is 0.05 (vanilla default), which can be changed in the config. Fly speeds over 0.8 can result in position desync in some cases.\n\n# Config\n`default-fly-speed` - Default fly speed. Default: 0.05\n\n# Permissions\n`customflyspeed.command.self` - Change your own fly speed (default: op)  \n`customflyspeed.command.others` - Change others fly speed (default: op)",
+  "readme_source_url": "https://github.com/GameParrot/CustomFlySpeed",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/GameParrot/CustomFlySpeed",
+  "archive_repo": null,
+  "approved_release_tag": "r-13593",
+  "stars": 0,
+  "total_downloads": 203,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "GameParrot"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13593",
+      "published_at": null,
+      "downloads": 203,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13593/customflyspeed-1.0.0-r13593.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13593",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13593/customflyspeed-1.0.0-r13593.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomFlySpeed",
+    "stable_release_id": 13593
+  }
+}

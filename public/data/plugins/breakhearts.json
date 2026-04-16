@@ -1,0 +1,61 @@
+{
+  "id": "breakhearts",
+  "name": "BreakHearts",
+  "author": "SoyDavs",
+  "description": "BreakHearts Plugin",
+  "readme_markdown": "# BreakHearts Plugin\n\n**BreakHearts** is a PocketMine-MP plugin that enhances the experience of breaking certain blocks, granting players hearts and applying special abilities. When players break designated blocks, they gain health and unique effects based on the type of block broken.\n\n## Features\n- Players gain extra health when breaking specific blocks.\n- Special effects are applied depending on the type of block broken.\n- Configurable blocks and effects through a YAML configuration file.\n- The ability to reward players with bonus items such as diamonds.\n\n## Installation\n1. Download the plugin and place it in your `plugins/` folder.\n2. Restart the server to load the plugin.\n\n## Configuration\nThe plugin uses a configuration file `config.yml` to define which blocks grant hearts and the corresponding effects. Below is the structure and an example configuration.\n\n### Example `config.yml`:\n```yaml\nenabled: true\nheart-gained-message: \"You gained a {heart} heart!\"\nblocks:\n  \"Diamond Ore\": \"Diamond\"\n  \"Gold Ore\": \"Gold\"\n  \"Iron Ore\": \"Iron\"\n  \"Coal Ore\": \"Coal\"\neffects:\n  Diamond:\n    LEVITATION:\n      duration: 600\n      amplifier: 2\n  Gold:\n    REGENERATION:\n      duration: 600\n      amplifier: 2\n  Iron:\n    RESISTANCE:\n      duration: 600\n      amplifier: 2\n    STRENGTH:\n      duration: 600\n      amplifier: 1\n  Coal:\n    NIGHT_VISION:\n      duration: 1200\n      amplifier: 1\n    SPEED:\n      duration: 600\n      amplifier: 2\n```\n\n### Configuration Breakdown:\n- `enabled`: Whether the plugin is enabled (default: true).\n- `heart-gained-message`: Message sent to the player when they gain a heart. The `{heart}` placeholder is replaced with the block type.\n- `blocks`: A mapping of block names to heart types. When a block is broken, the corresponding heart type is granted.\n- `effects`: A list of effects that will be applied based on the heart type. Effects are specified by name, with `duration` and `amplifier` options.\n\n## How It Works\n1. The plugin listens for `BlockBreakEvent`.\n2. When a player breaks a block listed in the configuration, the plugin grants the player a heart and applies the relevant effects.\n3. Special items (e.g., diamonds) are also given if defined.\n\n## Supported Blocks and Effects\nThe plugin allows customization of which blocks grant which hearts and the associated effects. Below are the default effects tied to each heart type:\n\n- **Diamond Heart**: Grants **Levitation** for 600 ticks with an amplifier of 2.\n- **Gold Heart**: Grants **Regeneration** for 600 ticks with an amplifier of 2.\n- **Iron Heart**: Grants **Resistance** for 600 ticks with an amplifier of 2, and **Strength** for 600 ticks with an amplifier of 1.\n- **Coal Heart**: Grants **Night Vision** for 1200 ticks with an amplifier of 1, and **Speed** for 600 ticks with an amplifier of 2.\n\n## Commands\n- Currently, there are no commands for this plugin. All functionality is based on block breaking.\n\n## Permissions\n- No permissions are required for basic functionality.\n\n## Troubleshooting\n- **Plugin not working**: Ensure that the plugin is enabled in `config.yml` and that the blocks listed in `blocks:` are correct.\n- **Effects not applying**: Double-check that the effects are properly defined in `config.yml` under `effects:`, and ensure that the player is breaking the correct type of block.\n\n## License\nThis plugin is licensed under [MIT License](https://opensource.org/licenses/MIT).",
+  "readme_source_url": "https://github.com/SoyDavs/BlockHearts",
+  "icon_url": "https://raw.githubusercontent.com/SoyDavs/BlockHearts/5ed38e0cbbab8d56c8aba8d63818e149cbf3ef75/icon.png",
+  "featured": false,
+  "repo": "https://github.com/SoyDavs/BlockHearts",
+  "archive_repo": null,
+  "approved_release_tag": "r-13734",
+  "stars": 0,
+  "total_downloads": 76,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SoyDavs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13734",
+      "published_at": null,
+      "downloads": 76,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13734/breakhearts-1.0.0-r13734.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13734",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13734/breakhearts-1.0.0-r13734.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BreakHearts",
+    "stable_release_id": 13734
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "playertitles",
+  "name": "PlayerTitles",
+  "author": "MrEcstsy",
+  "description": "PlayerTitles Plugin",
+  "readme_markdown": "# PlayerTitles Plugin\n[![](https://poggit.pmmp.io/shield.state/PlayerTitles)](https://poggit.pmmp.io/p/PlayerTitles)\n<a href=\"https://poggit.pmmp.io/p/PlayerTitles\"><img src=\"https://poggit.pmmp.io/shield.state/PlayerTitles\"></a>\n[![](https://poggit.pmmp.io/shield.api/PlayerTitles)](https://poggit.pmmp.io/p/PlayerTitles)\n<a href=\"https://poggit.pmmp.io/p/PlayerTitles\"><img src=\"https://poggit.pmmp.io/shield.api/PlayerTitles\"></a>\n## Overview\n\nThe PlayerTitles plugin for PocketMine-MP allows players to view and manage their titles through a user-friendly UI. Server admins can create new titles either through the configuration file or by using in-game commands. Each player's currently equipped title is stored in an SQLite database, ensuring persistent title management.\n\n## Features\n\n- **UI for Title Management**: Players can view their unlocked and locked titles via an intuitive UI.\n- **Title Creation**: Admins can create new titles through the configuration file or by using in-game commands.\n- **SQLite Storage**: The currently equipped title for each player is stored in an SQLite database.\n- **Integration with RankSystem**: Requires the RankSystem plugin for title management.\n\n## Installation\n\n1. Download the PlayerTitles plugin.\n2. Place the plugin `.phar` file into the `plugins` directory of your PocketMine-MP server.\n3. Restart your server to load the plugin.\n\n## Configuration\n\nThe plugin uses a `config.yml` file for configuration. You can define titles and their display formats in this file. Example configuration:\n\n```yml\n# (!) DO NOT CHANGE (!)\nversion: 2\n\n# (!) NOTICE (!)\n# You can use '&' for color codes.\n# use {title} in RankSystems config.yml to replace it with player's title\n# e.g: \"{chat_ranks_prefix}{chat_name-color}{display_name}{title}{chat_format}{message}\"\n#\n# Permissions will be automatically applied. e.g:\n# playertitles.title.example\n\n# Configurable information for the plugin.\nsettings:\n  titles-per-page: 5 # How many titles to show per page\n  message:\n    - \"&r&aSelected Title: '{title}&a'\"\n  no-title-perm: \"&r&cYou don't have access to this title!\"\n  # Both the name and lore support the {title} placeholder.\n  item:\n    type: \"paper\"\n    name: \"&r&l&eTITLE '&r&f{title}&l&e'&r\"\n    lore: \n      - \"&r&7Right Click (in your hand) to unlock\"\n      - \"&r&7the &f{title} &7on this server.\"\n    title-type: \"display\" # Either \"display\" or \"identifier\", this will show the titles identifier, or the display (Identifier will autocapitalize the first letter)\n  claim-message: \"&r&aYou have unlocked the '&f{title}&a' title!\"\n  claim-sound: \"random.levelup\"\n\ntitles:\n  example: # Identifier \n    display: \"&r&8[&cExample&8]&r\"\n  test:\n    display: \"&r&5Test&r\"\n\n# If the command exists, e.g \"titles\", the plugin will automatically unregister the vanilla command.\n# IF renaming it to a vanilla command, make sure you wont need to use the command as it will no longer be available unless the\n# command name is changed.\ncommands:\n  titles:\n    name: \"title\" # Main command\n    description: \"Open titles menu\"\n    aliases:\n      - titles\n\n# Configurable information for the forms available by the plugin.\nforms:\n  titles:\n    name: \"&r&8Titles\"\n    back: \"&r&8Previous Page\"\n    next: \"&r&8Next Page\"\n```\n## Icon\n<a href=\"https://www.flaticon.com/free-icons/title\" title=\"title icons\">Title icons created by Akalidz - Flaticon</a>\n\n## TODO\n- [x] Redeemable title vouchers",
+  "readme_source_url": "https://github.com/MrEcstsy/PlayerTitles",
+  "icon_url": "https://raw.githubusercontent.com/MrEcstsy/PlayerTitles/50b5e4ff6f873dc819f01b64844a69c2c296bd03/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MrEcstsy/PlayerTitles",
+  "archive_repo": null,
+  "approved_release_tag": "r-13569",
+  "stars": 0,
+  "total_downloads": 328,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "RankSystem"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MrEcstsy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/248380",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-13569",
+      "published_at": null,
+      "downloads": 289,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13569/playertitles-1.1.1-r13569.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13569",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13569/playertitles-1.1.1-r13569.phar"
+    },
+    {
+      "tag": "r-13562",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13562/playertitles-1.1.0-r13562.phar"
+    },
+    {
+      "tag": "r-13529",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13529/playertitles-1.0.0-r13529.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerTitles",
+    "stable_release_id": 13569
+  }
+}

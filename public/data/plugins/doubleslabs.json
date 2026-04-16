@@ -1,0 +1,61 @@
+{
+  "id": "doubleslabs",
+  "name": "DoubleSlabs",
+  "author": "GameParrot",
+  "description": "Pocketmine plugin that allows for a different top half and bottom half of a slab (BETA)",
+  "readme_markdown": "# DoubleSlabs\nPocketmine plugin that allows for a different top half and bottom half of a slab (BETA)\n\n# Usage\nPlace a slab while sneaking where another slab is. The slabs will combine to form a double slab of 2 different slab types.\n![Screenshot 2024-11-05 20:48:11](https://github.com/user-attachments/assets/47058f29-07cd-4bf4-82f5-fe84827cc331)\n\n# Limitations\nThis plugin uses block layers which are meant for waterlogging to store multiple blocks in a single position. Because of this, the second slab will not have a collision box and will not be selectable. Destroying the main slab will also destroy the other slab in the same block if present.",
+  "readme_source_url": "https://github.com/GameParrot/DoubleSlabs",
+  "icon_url": "https://raw.githubusercontent.com/GameParrot/DoubleSlabs/203fcce2a75e2a9b061c9a236c5f3c837c542255/icon.png",
+  "featured": false,
+  "repo": "https://github.com/GameParrot/DoubleSlabs",
+  "archive_repo": null,
+  "approved_release_tag": "r-13618",
+  "stars": 5,
+  "total_downloads": 299,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.8.1-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "GameParrot"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-13618",
+      "published_at": null,
+      "downloads": 299,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13618/doubleslabs-0.0.1-r13618.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13618",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13618/doubleslabs-0.0.1-r13618.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DoubleSlabs",
+    "stable_release_id": 13618
+  }
+}

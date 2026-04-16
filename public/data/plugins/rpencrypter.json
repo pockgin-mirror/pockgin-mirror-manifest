@@ -1,0 +1,61 @@
+{
+  "id": "rpencrypter",
+  "name": "RPEncrypter",
+  "author": "Muqsit",
+  "description": "A PocketMine-MP plugin that automatically encrypts all loaded resource packs.",
+  "readme_markdown": "# RPEncrypter\nA PocketMine-MP plugin that automatically encrypts all loaded resource packs.\n\n[![](https://poggit.pmmp.io/shield.state/RPEncrypter)](https://poggit.pmmp.io/p/RPEncrypter)\n[![](https://poggit.pmmp.io/shield.api/RPEncrypter)](https://poggit.pmmp.io/p/RPEncrypter)\n[![](https://poggit.pmmp.io/shield.dl.total/RPEncrypter)](https://poggit.pmmp.io/p/RPEncrypter)\n\nJust install the plugin and restart your server. All loaded resource packs (such as ones defined in your `resource_packs/resource_packs.yml`) will automatically be encrypted. This plugin uses your machine ID as the encryption key.\n\n## API\n[`ResourcePackEncrypter::encrypt()`](https://github.com/Muqsit/RPEncrypter/blob/master/src/muqsit/rpencrypter/ResourcePackEncrypter.php) encrypts resource packs with the supplied encryption-key.\n\n```php\n/** @var PluginBase $plugin */\n\n// encrypt MyResourcePack.zip\n$rp_path = $plugin->getDataFolder() . DIRECTORY_SEPARATOR . \"MyResourcePack.zip\";\n$encryption_key = openssl_random_pseudo_bytes(32, $strong_result);\n$file_encryption_keygen = fn(string $path, string $contents) => md5($path . $contents);\n\n$encrypter = new ResourcePackEncrypter($plugin->getDataFolder());\n$info = $encrypter->encryptZip(new ZipArchive($rp_path), $encryption_key, $file_encryption_keygen);\n\n// register encrypted resource pack\n$manager = $plugin->getServer()->getResourcePackManager();\n$stack = $manager->getResourceStack();\n$stack[] = $info->pack;\n$manager->setResourceStack($stack);\n$manager->setPackEncryptionKey($info->pack->getPackId(), $encryption_key);\n```\n\nTo generate static encryption keys (instead of random keys), consider using your machine ID.\n```php\nuse pocketmine\\utils\\Utils;\n\n$machine_id = Utils::getMachineUniqueId()->getBytes();\n$encryption_key = md5($machine_id); // 32-byte encryption key\n```\n\nAlternatively, generate a 32-length random string via [1Password](https://1password.com/password-generator/) and store it on your server somewhere.\n```php\n$encryption_key = \"6]xFaeMs9b)UnybZ?raH]*)PJ.Jx!3:0\";\n```",
+  "readme_source_url": "https://github.com/Muqsit/RPEncrypter",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Muqsit/RPEncrypter",
+  "archive_repo": null,
+  "approved_release_tag": "r-13559",
+  "stars": 0,
+  "total_downloads": 161,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Muqsit"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/248074",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-13559",
+      "published_at": null,
+      "downloads": 161,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13559/rpencrypter-0.0.2-r13559.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13559",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13559/rpencrypter-0.0.2-r13559.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RPEncrypter",
+    "stable_release_id": 13559
+  }
+}

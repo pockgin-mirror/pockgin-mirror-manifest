@@ -1,0 +1,61 @@
+{
+  "id": "systemcps",
+  "name": "SystemCps",
+  "author": "Jorgebyte",
+  "description": "SystemCps is a user click per second counter system, which also includes a cps limiter, meaning you can configure the cps limit and maximum alerts.",
+  "readme_markdown": "# SystemCps\r\nSystemCps is a user click per second counter system, which also includes a cps limiter, meaning you can configure the cps limit and maximum alerts.\r\n[![](https://poggit.pmmp.io/shield.state/SystemCps)](https://poggit.pmmp.io/p/SystemCps)\r\n\r\n#\r\n\r\n# Config\r\n```YAML\r\n# CPS Limit Configuration\r\ncps_limit: 20 # The maximum CPS allowed before a warning is issued\r\n\r\n# Warning Settings\r\nmax_warnings: 4 # The maximum number of warnings a player can receive before being banned\r\n```\r\n# Features\r\n* Count the clicks on the air\r\n* system that expels if the allowed clicks are exceeded\r\n* easy to set up\r\n# Form\r\n```YAML\r\n# Form to be sent when the CPS limit is exceeded #\r\ntitle_warning: \"Warning\"\r\ncontent_warning: \"It is forbidden to exceed the CPS limit, avoid doing so to avoid being expelled\"\r\n```\r\n\r\n# Messages\r\n```YAML\r\nmsg_kick: \"§cYou have been expelled for exceeding the cps limit\"\r\nbroadcast_msg_kick: \"§e{NAME} §cWas expelled for exceeding the cps limit\"\r\n```\r\n\r\n# Contact\r\n[![Discord Presence](https://lanyard.cnrad.dev/api/1165097093480853634?theme=dark&bg=005cff&animated=false&hideDiscrim=true&borderRadius=30px&idleMessage=Hello)](https://discord.com/users/1165097093480853634)",
+  "readme_source_url": "https://github.com/Jorgebyte/SystemCps",
+  "icon_url": "https://raw.githubusercontent.com/Jorgebyte/SystemCps/daa7e9181cf9fb48f894d630cbbb731bd2c2ec56/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Jorgebyte/SystemCps",
+  "archive_repo": null,
+  "approved_release_tag": "r-13784",
+  "stars": 0,
+  "total_downloads": 312,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Jorgebyte"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/251846",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-13784",
+      "published_at": null,
+      "downloads": 312,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13784/systemcps-1.0.1-r13784.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13784",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13784/systemcps-1.0.1-r13784.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SystemCps",
+    "stable_release_id": 13784
+  }
+}

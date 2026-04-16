@@ -1,0 +1,63 @@
+{
+  "id": "kingofthehill",
+  "name": "KingOfTheHill",
+  "author": "ItsMax123",
+  "description": "KingOfTheHill is an open source PocketMine-MP plugin that adds **King of the Hill** events to your server.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/KingOfTheHill)](https://poggit.pmmp.io/p/KingOfTheHill)\n[![](https://poggit.pmmp.io/shield.api/KingOfTheHill)](https://poggit.pmmp.io/p/KingOfTheHill)\n[![](https://poggit.pmmp.io/shield.dl.total/KingOfTheHill)](https://poggit.pmmp.io/p/KingOfTheHill)\n\n# KingOfTheHill\nKingOfTheHill is an open source [PocketMine-MP](https://pmmp.io/) plugin that adds **King of the Hill** events to your server.\n\n## Features\n- Configurable **Auto Start** feature to automatically start the KOTH Event at specific times of day.\n- Configurable **Boss Bar** showing the health as the timer of the hill being captured.\n- Configurable **Discord Webhook** to notify your community of when an event starts and ends.\n- Optional **ScoreHud** support using the `kingofthehill.hill`, `kingofthehill.king` and `kingofthehill.time` tags.\n- In-Game **Commands** to create and setup hills easily.\n- Configurable **Rewards** for the winner of the event.",
+  "readme_source_url": "https://github.com/ItsMax123/KingOfTheHill",
+  "icon_url": "https://raw.githubusercontent.com/ItsMax123/KingOfTheHill/17c13ccdbb4d69c699cbcf57a34671af7de576b9/KingOfTheHill.png",
+  "featured": false,
+  "repo": "https://github.com/ItsMax123/KingOfTheHill",
+  "archive_repo": null,
+  "approved_release_tag": "r-13803",
+  "stars": 0,
+  "total_downloads": 225,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "ScoreHud"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ItsMax123"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/252155",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-13803",
+      "published_at": null,
+      "downloads": 225,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13803/kingofthehill-1.1.0-r13803.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13803",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13803/kingofthehill-1.1.0-r13803.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KingOfTheHill",
+    "stable_release_id": 13803
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "advancedcombat",
+  "name": "AdvancedCombat",
+  "author": "AEDXDEV",
+  "description": "Combat Plugin",
+  "readme_markdown": "# Combat Plugin\nThis plugin prevents players from escaping during combat, manages combat interactions, and handles penalties for leaving combat.\n\n## Features\n- **Combat Management**: Automatically adds players to combat when they attack each other and removes them after a certain time.\n- **Combat Penalty**: Penalties for players leaving combat include health reduction or item loss.\n- **Same Combat Enforcement**: Optionally cancel interactions if players aren't engaged with the same opponent.\n- **Messages**: Sends customizable messages during combat events.\n- **Combat Events**: Custom events for when combat starts, attacks happen during combat, and when combat ends.\n\n## API\n\n### Checking Combat Status\n```php\nuse AEDXDEV\\Combat\\Main as Combat;\n\n// Check if a player is in combat\n// Returns true if the player is in combat, false otherwise\nCombat::getInstance()->isInCombat($player);\n```\n\n### Adding Players to Combat\n```php\nuse AEDXDEV\\Combat\\Main as Combat;\n\n// Add two players to combat\nCombat::getInstance()->addCombat($player1, $player2);\n\n```\n\n### Retrieving Combat Information\n```php\nuse AEDXDEV\\Combat\\Main as Combat;\n\n// Get the player who is in combat with the specified player\n// Returns the opponent player or null if not found\nCombat::getInstance()->getPlayerCombat($player);\n```\n\n### Removing Players from Combat\n```php\nuse AEDXDEV\\Combat\\Main as Combat;\n\n// Remove a player from combat\nCombat::getInstance()->removeCombat($player);\n```\n\n### Handling Combat Events\nCustom combat events are fired during combat interactions:\n- CombatStartEvent: When combat begins between two players.\n- CombatAttackEvent: When one player attacks another during combat.\n- CombatEndEvent: When combat ends between two players.\n\n### Penalty System\nIf a player leaves combat, they may be penalized based on the configuration:\n- Health Reduction: Reduces player health by a specified amount.\n- Item Loss: Clears the player's inventory if enabled.\n\n### How to use Events\n```php\nuse AEDXDEV\\Combat\\Main as Combat;\nuse AEDXDEV\\Combat\\event\\CombatStartEvent;\nuse AEDXDEV\\Combat\\event\\CombatAttackEvent;\nuse AEDXDEV\\Combat\\event\\CombatEndEvent;\n// Called a player attack a player\npublic function onCombatStart(CombatStartEvent $event): void{\n  $player1 = $event->getPlayer1(); // damager\n  $player2 = $event->getPlayer2(); // victim\n  $time = $event->getTime();\n  // change the time\n  $event->setTime(10); // 10 seconds\n  // use penalty\n  if (!$event->getPenalty()){\n    $event->setPenalty(true);\n  }\n  // for 1vs1\n  if (!$event->getHidePlayers()){\n    $event->setHidePlayers(true);\n  }\n}\n// Called when a player is in combat attacked\npublic function onCombatAttack(CombatAttackEvent $event): void{\n  $damager = $event->getDamager();\n  $entity = $event->getEntity(); // victim\n  if (!$event->inInSameCombat()){ // attack a player not \n    $event->cancel();\n  }\n}\n// Called when the combat time ends\npublic function onCombatEnd(CombatEndEvent $event): void{\n  $player1 = $event->getPlayer1();\n  $player2 = $event->getPlayer2();\n}\n```\n\n## Configuration\nConfigure the plugin through `config.yml`:\n\n```yaml\nEnable: true # Enables or disables the plugin.\nCancelIfNotInSameCombat: false # Cancels actions if players are not engaged in the same combat.\nPenalty: false # Enables or disables penalties for leaving combat.\nPenalties:\n  Health: 5 # The amount of health to reduce when penalizing a player.\n  ItemLoss: true # Whether the player will lose their items upon leaving combat.\nsendMessages: true # Enables or disables messages during combat events.\nMessages:\n  Start: \"§eYou are now in combat with {PLAYER}\" # When combat begins.\n  InSameCombat: \"§cYou cannot proceed because you are not fighting the same opponent!\" # When a player tries to attack a different opponent.\n  End: \"§eYou are no longer in combat.\" # When combat ends.\n  QuitPenalty: \"§cYou have been penalized for leaving combat.\" # When a player is penalized for leaving combat.\nTime: 10 # Duration of the combat period (in seconds).\n```\n\n## Other\n- [YouTube Channel](https://youtube.com/@AEDXDEV)",
+  "readme_source_url": "https://github.com/AEDXDEV/AdvancedCombat",
+  "icon_url": "https://raw.githubusercontent.com/AEDXDEV/AdvancedCombat/dcc93bd5127a4861b2b5b7e4533b8d4966b7676f/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AEDXDEV/AdvancedCombat",
+  "archive_repo": null,
+  "approved_release_tag": "r-13532",
+  "stars": 5,
+  "total_downloads": 969,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AEDXDEV"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/247704",
+  "versions": {
+    "stable": {
+      "version": "1.1.2",
+      "tag": "r-13532",
+      "published_at": null,
+      "downloads": 969,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13532/advancedcombat-1.1.2-r13532.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13532",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13532/advancedcombat-1.1.2-r13532.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdvancedCombat",
+    "stable_release_id": 13532
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "anvils",
+  "name": "Anvils",
+  "author": "AmmyRQ",
+  "description": "A PocketMine-MP plugin that allows you to use the Anvil.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/Anvils)](https://poggit.pmmp.io/p/Anvils)\n\n# Anvils\nA PocketMine-MP plugin that allows you to use the Anvil.\n\n# 🌟 Features\n<div align=\"center\">\n  <br>\n  <img src=\"https://github.com/AmmyRQ/Anvils/blob/main/window.png\"/>\n</div>\n\nIncludes all anvil vanilla functions:\n<ul>\n  <li><b>Renaming:</b> Allows you to change the name of the items to a customized one.</li>\n  <li><b>Repair:</b> Repairs tools by sacrificing items or materials of the same type.</li>\n  <li><b>Enchantments:</b> Enchant books to be able to apply enchantments to different tools, as well as transfer enchantments from one tool to another.</li>\n  <li><b>XP consumption:</b> Consumes the player's XP based on the modifications made to the object.</li>\n  <li><b>Dynamic damage:</b> The anvil will suffer damage with each use, breaking when it reaches its minimum durability.</li>\n</ul>\n\n# 🐛 Known bugs\nSometimes when modifying the object name it is not recognized by the server side. It is easier to happen when modifying only a few letters of the name.",
+  "readme_source_url": "https://github.com/AmmyRQ/Anvils",
+  "icon_url": "https://raw.githubusercontent.com/AmmyRQ/Anvils/4c832c1ab8999bd19dc025ce40cd4e11f644307e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AmmyRQ/Anvils",
+  "archive_repo": null,
+  "approved_release_tag": "r-13670",
+  "stars": 0,
+  "total_downloads": 397,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AmmyRQ"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/250414",
+  "versions": {
+    "stable": {
+      "version": "1.1",
+      "tag": "r-13670",
+      "published_at": null,
+      "downloads": 397,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13670/anvils-1.1-r13670.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13670",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13670/anvils-1.1-r13670.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Anvils",
+    "stable_release_id": 13670
+  }
+}

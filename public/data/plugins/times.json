@@ -1,0 +1,66 @@
+{
+  "id": "times",
+  "name": "Times",
+  "author": "pixelwhiz",
+  "description": "Description",
+  "readme_markdown": "# Description\n[![](https://poggit.pmmp.io/shield.state/Times)](https://poggit.pmmp.io/p/Times)\n[![](https://poggit.pmmp.io/shield.dl/Times)](https://poggit.pmmp.io/p/Times)\n[![](https://poggit.pmmp.io/shield.api/Times)](https://poggit.pmmp.io/p/Times)\n\n**Times** plugin that can display the clock on minecraft server world such as /time query `2000` to `Sunday, 08:00 AM`\n\n## Steps To Use\n1. **Add clock**: Use `/gamemode c` and take Clock item to Inventory.\n2. **Held clock in hand**: Held Clock item in your inventory\n3. **Done**: The time will be display on the tip\n\n# Command & Permission\n\n| Command                                   | Description                                                                                                                  | Permission  |\n|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|-------------|\n| **/times help**                           | Showing all commands.                                                                                                        | `times.cmd` |\n| **/times days**                           | Showing all days.                                                                                                            | `times.cmd` |\n| **/times list**                           | Showing all times.                                                                                                           | `times.cmd` |\n| **/times set [time:string] [day:string]** | Set the time and day on the world.                                                                                                                        | `times.cmd` |\n\n# Issues\n\nIf you have any issues, please report them [here](https://github.com/pixelwhiz/Times/issues/new).\n\n# Preview\n\n![Preview 1](https://github.com/pixelwhiz/Times/blob/master/assets/prev1.png)\n![Preview 2](https://github.com/pixelwhiz/Times/blob/master/assets/prev2.png)\n![Preview 3](https://github.com/pixelwhiz/Times/blob/master/assets/prev3.png)",
+  "readme_source_url": "https://github.com/pixelwhiz/Times",
+  "icon_url": "https://raw.githubusercontent.com/pixelwhiz/Times/12d730d20ed14e23d14477512738809c6456bdfa/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/pixelwhiz/Times",
+  "archive_repo": null,
+  "approved_release_tag": "r-13772",
+  "stars": 0,
+  "total_downloads": 132,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "pixelwhiz"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/251717",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-13772",
+      "published_at": null,
+      "downloads": 87,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13772/times-2.0.1-r13772.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13772",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13772/times-2.0.1-r13772.phar"
+    },
+    {
+      "tag": "r-13603",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13603/times-1.0-r13603.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Times",
+    "stable_release_id": 13772
+  }
+}

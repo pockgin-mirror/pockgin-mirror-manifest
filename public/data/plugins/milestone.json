@@ -1,0 +1,63 @@
+{
+  "id": "milestone",
+  "name": "Milestone",
+  "author": "SoyDavs",
+  "description": "Milestones Plugin",
+  "readme_markdown": "# Milestones Plugin\n\n![Milestones Plugin Icon](icon.png)\n\n## Overview\n\n**Milestones Plugin** is a feature-rich Minecraft PocketMine plugin that rewards players upon reaching predefined financial Milestoness. It integrates seamlessly with the [BedrockEconomy](https://github.com/cooldogedev/BedrockEconomy) API, allowing server owners to create engaging, event-driven gameplay experiences.\n\n## Features\n\n- **Automatic Milestones Detection**: Tracks player balances in real-time.\n- **Customizable Rewards**: Configure rewards through commands and broadcast messages.\n- **Player-Specific Milestoness**: Each player has their unique progress tracking.\n- **Lightweight and Efficient**: Designed to run smoothly without impacting server performance.\n\n## Installation\n\n1. Download the plugin's `.phar` file from the [Releases](https://github.com/SoyDavs/Milestones/releases) section.\n2. Place the `.phar` file in your server's `plugins` directory.\n3. Restart your server to load the plugin.\n\n## Configuration\n\nThe plugin uses a YAML configuration file (`config.yml`) to define Milestoness. Example structure:\n\n```yaml\nMilestoness:\n  - amount: 1000\n    commands:\n      - \"give {player} diamond 5\"\n    broadcast: \"{player} has reached a balance Milestones of {amount}!\"\n  - amount: 5000\n    commands:\n      - \"give {player} emerald 10\"\n    broadcast: \"{player} is now a financial wizard with {amount} coins!\"\n```\n\n- `amount`: The balance a player must reach to unlock this Milestones.\n- `commands`: A list of server commands executed upon Milestones completion.\n- `broadcast`: (Optional) A message broadcasted to all players.\n\n## Requirements\n\n- PocketMine-MP server\n- [BedrockEconomy](https://github.com/cooldogedev/BedrockEconomy) plugin\n\n## Usage\n\n1. Edit the `config.yml` file to define Milestoness and rewards.\n2. Reload the plugin using `/reload`.\n3. Players will automatically receive rewards when they meet the Milestones conditions.\n\n## License\n\nThis project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.\n\n## Support\n\nFor questions, issues, or feature requests, open an issue on the [GitHub Issue Tracker](https://github.com/SoyDavs/Milestones/issues).",
+  "readme_source_url": "https://github.com/SoyDavs/Milestones",
+  "icon_url": "https://raw.githubusercontent.com/SoyDavs/Milestones/6783dcfcda72eb6f6f412b891916b8c06e0aaddf/icon.png",
+  "featured": false,
+  "repo": "https://github.com/SoyDavs/Milestones",
+  "archive_repo": null,
+  "approved_release_tag": "r-13732",
+  "stars": 0,
+  "total_downloads": 69,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SoyDavs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13732",
+      "published_at": null,
+      "downloads": 69,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13732/milestone-1.0.0-r13732.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13732",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13732/milestone-1.0.0-r13732.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Milestone",
+    "stable_release_id": 13732
+  }
+}

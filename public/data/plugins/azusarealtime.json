@@ -1,0 +1,61 @@
+{
+  "id": "azusarealtime",
+  "name": "AzusaRealTime",
+  "author": "KumaaDeveloper",
+  "description": "General",
+  "readme_markdown": "## General\nAzusaRealTime is a Pocketmine plug-in that works to always display real-world time on your server.\n\n## Features\n- Can set a country time of interest\n- can change the popup text as desired\n- There are 5 countries available. i.e. Indonesia, Malaysia, Singapore, India, and England.\n  \n## Configuration\n```yaml\n# Configuration for RealTime plugin\n\ntime: idn\npopup-text: \"§eTime: §f{hours}:{minute}:{second}\"\n\n# List of time for each country\n# 'idn' for indonesian\n# 'eng' for England\n# 'ind' for India\n# 'sgp' for Singapore\n# 'mys' for Malaysia\n```",
+  "readme_source_url": "https://github.com/KumaaDeveloper/AzusaRealTime",
+  "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AzusaRealTime/711408535ca6adb596b2742cc3be70719c2fc335/icon.png",
+  "featured": false,
+  "repo": "https://github.com/KumaaDeveloper/AzusaRealTime",
+  "archive_repo": null,
+  "approved_release_tag": "r-13709",
+  "stars": 0,
+  "total_downloads": 72,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KumaaDeveloper"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13709",
+      "published_at": null,
+      "downloads": 72,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13709/azusarealtime-1.0.0-r13709.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13709",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13709/azusarealtime-1.0.0-r13709.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AzusaRealTime",
+    "stable_release_id": 13709
+  }
+}

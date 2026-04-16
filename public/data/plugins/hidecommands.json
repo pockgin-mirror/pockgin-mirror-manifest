@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14169",
   "stars": 0,
-  "total_downloads": 436,
+  "total_downloads": 653,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-13891",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13891/hidecommands-3.0.13-r13891.phar"
+    },
+    {
+      "tag": "r-13661",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13661/hidecommands-3.0.12-r13661.phar"
     }
   ],
   "comments": {

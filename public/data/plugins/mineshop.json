@@ -1,0 +1,61 @@
+{
+  "id": "mineshop",
+  "name": "MineShop",
+  "author": "angga7togk",
+  "description": "MineShop plugin for Pocketmine, this plugin functions to sell rare items in MineShop, and can be purchased with ore",
+  "readme_markdown": "# MineShop\n\nMineShop plugin for Pocketmine, this plugin functions to sell rare items in MineShop, and can be purchased with ore\n\n**Custom Ore Economies:**\nYou can freely add economy by ore in MineShop<br>\n**SellItems Tutorial:**\nJust hold items in your hand and then run the command `/mineshop sell` to sell them.<br>\n\n## ✈️ Commands\n\n| Command            | Description       | Permission                     |\n| ------------------ | ----------------- | ------------------------------ |\n| `/mineshop`        | Open MineShop GUI | `mineshop.command`             |\n| `/mineshop add`    | Open Sell UI      | `mineshop.command.add` (OP)    |\n| `/mineshop delete` | Open Unsell GUI   | `mineshop.command.delete` (OP) |\n| `/mineshop edit`   | Open Edit GUI     | `mineshop.command.edit` (OP)   |\n\n## ⚙️ Config\n\ncustom your config.yml\n\n```yaml\nprefix: \"&7[&aMineShop&7]\"\n\n# you can create new gui schema in folder gui/\ngui-schema: \"default\" # input filename without extension\n\n# Ore economy supported\neconomies:\n  - \"minecraft:emerald\"\n  - \"minecraft:diamond\"\n  - \"minecraft:gold_ingot\"\n\nconfig-version: 1.0\n```\n\n## 🖼️ Preview\n\n**MineShop**\n\n<p align=\"left\">\n  <img src=\"https://github.com/angga7togk/MineShop/blob/main/img/gui.png?raw=true\" width=\"30%\">\n  <img src=\"https://github.com/angga7togk/MineShop/blob/main/img/gui_with.png?raw=true\" width=\"30%\">\n</p>\n\n**Deleting Mode Menu**\n\n<p align=\"left\">\n  <img src=\"https://github.com/angga7togk/MineShop/blob/main/img/gui_unsell.png?raw=true\" width=\"30%\">\n</p>\n\n**Editing Mode Menu**\n\n<p align=\"left\">\n  <img src=\"https://github.com/angga7togk/MineShop/blob/main/img/edit_ui.png?raw=true\" width=\"30%\">\n  <img src=\"https://github.com/angga7togk/MineShop/blob/main/img/edit_gui.png?raw=true\" width=\"30%\">\n</p>\n\n**Sell Item UI**\n\n<p align=\"left\">\n  <img src=\"https://github.com/angga7togk/MineShop/blob/main/img/ui_sell.png?raw=true\" width=\"70%\">\n</p>\n\n## 💻 Custom GUI\n\nHere I have provided an example json for the custom GUI<br>\n\n**1. Find Folder GUI:**\nlook for the gui folder in the MineShop plugin data plugin.<br>\n**2. Create your GUI:**\ncreate your gui schema with the following example `custom.json`, free file name!<br>\n**3. Please look at the title `Default GUI`**<br>\n**4. Change GUI Schema:** open config.yml, then change the gui schema you have created.\n\n```yaml\n# you can create new gui schema in folder gui/\ngui-schema: \"default\" # input filename without extension\n```\n\n<br>\n<br>\n\nThe following is an example for the `custom.json` that you created earlier\n\n**Default GUI**\n\n```json\n{\n  \"name\": \"&lMine Shop\",\n  \"type\": \"DOUBLE_CHEST\",\n  \"max_slot\": 13, // max slot for item selling\n  \"slots\": [\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"mineshop:slot\",\n    \"mineshop:slot\",\n    \"mineshop:slot\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"mineshop:slot\",\n    \"mineshop:slot\",\n    \"mineshop:slot\",\n    \"mineshop:slot\",\n    \"mineshop:slot\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"mineshop:slot\",\n    \"mineshop:slot\",\n    \"mineshop:slot\",\n    \"mineshop:slot\",\n    \"mineshop:slot\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"minecraft:vines\",\n    \"mineshop:previous\",\n    \"minecraft:vines\",\n    \"mineshop:info\",\n    \"minecraft:vines\",\n    \"mineshop:next\",\n    \"minecraft:vines\",\n    \"minecraft:vines\"\n  ]\n}\n```\n\n## 📜 Credits\n\nIcon by [Flaticon](https://www.flaticon.com/)",
+  "readme_source_url": "https://github.com/angga7togk/MineShop",
+  "icon_url": "https://raw.githubusercontent.com/angga7togk/MineShop/b856e77e8673847304e4b39ccd2ece4191620541/icon.png",
+  "featured": false,
+  "repo": "https://github.com/angga7togk/MineShop",
+  "archive_repo": null,
+  "approved_release_tag": "r-13744",
+  "stars": 5,
+  "total_downloads": 338,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "angga7togk"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13744",
+      "published_at": null,
+      "downloads": 338,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13744/mineshop-1.0.0-r13744.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13744",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13744/mineshop-1.0.0-r13744.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MineShop",
+    "stable_release_id": 13744
+  }
+}

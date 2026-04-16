@@ -1,0 +1,63 @@
+{
+  "id": "lavasell",
+  "name": "LavaSell",
+  "author": "antbag-pm-pl",
+  "description": "This the sell plugin used by LavaSky but now i have made it public.",
+  "readme_markdown": "# LavaSell\n\nThis the sell plugin used by LavaSky but now i have made it public.\n\n# Features\n- Sell Inventory\n- Sell Hand\n- Bedrock Economy Support\n\n# How to use?\n\nDownload this from poggit and place in your plugin directory. Edit sell.yml to edit sell prices",
+  "readme_source_url": "https://github.com/antbag-pm-pl/LavaSell",
+  "icon_url": "https://raw.githubusercontent.com/antbag-pm-pl/LavaSell/d767c2bacbbd357653f2dea5d22fe7552b52f845/icon.png",
+  "featured": false,
+  "repo": "https://github.com/antbag-pm-pl/LavaSell",
+  "archive_repo": null,
+  "approved_release_tag": "r-13490",
+  "stars": 0,
+  "total_downloads": 135,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "antbag-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13490",
+      "published_at": null,
+      "downloads": 135,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13490/lavasell-1.0.0-r13490.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13490",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13490/lavasell-1.0.0-r13490.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LavaSell",
+    "stable_release_id": 13490
+  }
+}

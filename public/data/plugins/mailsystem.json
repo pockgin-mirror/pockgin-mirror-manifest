@@ -1,0 +1,77 @@
+{
+  "id": "mailsystem",
+  "name": "MailSystem",
+  "author": "SoyDavs",
+  "description": "MailSystem Plugin for PocketMine",
+  "readme_markdown": "# MailSystem Plugin for PocketMine\n\nMailSystem is a feature-rich PocketMine plugin that allows players to create and manage a virtual mail system in-game. Players can register custom email-like addresses, send messages to other players, and manage their inboxes.\n\n## Features\n\n- **Custom Email Registration:** Players can register unique email-like addresses with a customizable suffix.\n- **Mail Sending:** Send messages to other players via their registered email addresses.\n- **Inbox Management:** Players can view their inbox, read messages, and see notifications for unread mail.\n- **Persistent Storage:** Mails and user data are stored in YAML files.\n- **Localization Support:** Easily customizable messages using `languages.yml`.\n\n## Commands\n\n### `/mail`\n- **Usage:** `/mail <signup|send|inbox>`\n- **Description:** Main command to interact with the mail system.\n\n#### Subcommands:\n1. **`signup`**\n   - **Usage:** `/mail signup <username>`\n   - **Description:** Register a unique email-like address.\n\n2. **`send`**\n   - **Usage:** `/mail send <recipient> <message>`\n   - **Description:** Send a message to another registered player.\n\n3. **`inbox`**\n   - **Usage:** `/mail inbox`\n   - **Description:** View your inbox and read messages.\n\n## Configuration\n\n### `config.yml`\nCustomize the plugin's behavior by modifying the configuration file:\n\n```yaml\n# Mail System Configuration\n\n# Suffix that will be appended to all mail addresses\nmail-suffix: \"mcpe@server\"\n\n# Maximum number of mails in inbox\nmax-inbox-size: 50\n\n# Maximum number of mails in sent folder\nmax-sent-size: 30\n\n# Maximum number of drafts\nmax-drafts: 10\n\n# Time in seconds before marking a mail as \"old\" (for cleanup purposes)\nmail-expiry: 604800  # 7 days\n```\n\n## Permissions\n\n### `mailsystem.command.mail`\n- **Default:** `true`\n- **Description:** Allows players to use mail system commands.\n\n## Installation\n\n1. Place the plugin `.phar` file into your PocketMine `plugins` folder.\n2. Start your server to generate the configuration and language files.\n3. Edit `config.yml` and `languages.yml` as needed.\n4. Restart your server.\n\n## TODO\n\n| Feature                | Description                                                                 |\n|------------------------|-----------------------------------------------------------------------------|\n| **Implement UI**       | Add an interactive menu-based UI for easier mail management.               |\n|                        | Integrate PocketMine's forms API to provide graphical interfaces.          |\n| **Add SQL Support**    | Migrate data storage from YAML to SQL for improved scalability and speed.  |\n|                        | Ensure compatibility with both MySQL and SQLite.                          |\n\n## Contributing\n\nFeel free to submit issues or pull requests to improve the plugin. Contributions to implement features from the TODO list are especially welcome!\n\n---",
+  "readme_source_url": "https://github.com/SoyDavs/MailSystem",
+  "icon_url": "https://raw.githubusercontent.com/SoyDavs/MailSystem/43dee0b91f11e6c15818201be576937fedf64a1e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/SoyDavs/MailSystem",
+  "archive_repo": null,
+  "approved_release_tag": "r-13728",
+  "stars": 0,
+  "total_downloads": 181,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SoyDavs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13728",
+      "published_at": null,
+      "downloads": 21,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13728/mailsystem-1.0.0-r13728.phar"
+    },
+    "dev": {
+      "version": "1.0.1",
+      "tag": "r-13782",
+      "published_at": null,
+      "downloads": 151,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13782/mailsystem-1.0.1-r13782.phar"
+    }
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13782",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13782/mailsystem-1.0.1-r13782.phar"
+    },
+    {
+      "tag": "r-13780",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13780/mailsystem-1.0.0-r13780.phar"
+    },
+    {
+      "tag": "r-13728",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13728/mailsystem-1.0.0-r13728.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MailSystem",
+    "stable_release_id": 13728
+  }
+}

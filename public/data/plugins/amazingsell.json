@@ -1,0 +1,64 @@
+{
+  "id": "amazingsell",
+  "name": "AmazingSell",
+  "author": "CosmicDevTeam",
+  "description": "",
+  "readme_markdown": "# AmazingSell",
+  "readme_source_url": "https://github.com/CosmicDevTeam/AmazingSell",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/CosmicDevTeam/AmazingSell",
+  "archive_repo": null,
+  "approved_release_tag": "r-13525",
+  "stars": 0,
+  "total_downloads": 194,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "CosmicDevTeam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13525",
+      "published_at": null,
+      "downloads": 194,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13525/amazingsell-1.0.0-r13525.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13525",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13525/amazingsell-1.0.0-r13525.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AmazingSell",
+    "stable_release_id": 13525
+  }
+}

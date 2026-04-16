@@ -1,0 +1,61 @@
+{
+  "id": "crashannouncer",
+  "name": "CrashAnnouncer",
+  "author": "SoyDavs",
+  "description": "Crash Announcer Plugin",
+  "readme_markdown": "# Crash Announcer Plugin\n\n**Crash Announcer** is a PocketMine-MP plugin that automatically sends detailed crash reports to a specified Discord channel through a webhook when an error or crash occurs on your server. This helps server administrators quickly identify and resolve issues.\n\n---\n\n## Features\n\n- **Automatic crash detection**: Detects and reports both runtime errors and fatal errors.\n- **Detailed crash reports**: Reports include error message, file, line number, and server information.\n- **Customizable Discord embed**: You can fully customize the appearance of the embed message sent to your Discord webhook.\n- **Lightweight and easy to use**: Minimal setup required, designed for efficient performance.\n\n---\n\n## Installation\n\n1. Download the plugin's `.phar` file and place it in the `plugins` folder of your PocketMine-MP server.\n2. Start the server to generate the configuration file.\n3. Open the `config.yml` file located in the `plugins/CrashAnnouncer` folder and configure it according to your preferences.\n\n---\n\n## Configuration (`config.yml`)\n\n```yaml\n# Discord webhook URL where crash reports will be sent\nwebhook-url: \"YOUR_DISCORD_WEBHOOK_URL\"\n\n# Embed message customization\nembed-title: \"Server Crash Report\"\nembed-description: \"A crash occurred on your server. Details are provided below.\"\nembed-color: \"#FF0000\"  # Hexadecimal color code for embed\n\n# Plugin messages\nmessages:\n  plugin-enabled: \"Crash Announcer enabled.\"\n  error-webhook: \"Failed to send crash report to the webhook.\"\n```\n\n---\n\n## How It Works\n\n1. **Error Handling**  \n   The plugin uses `set_error_handler` and `register_shutdown_function` to detect errors and crashes:\n   - `handleCrash`: Captures non-fatal errors and sends a report.\n   - `handleFatalError`: Captures fatal errors and sends a report before the server shuts down.\n\n2. **Sending Reports**  \n   When an error or crash is detected, the plugin sends a detailed report to the configured Discord webhook. The report includes:\n   - Error message, file, and line number\n   - Server information (OS, PocketMine version, and number of online players)\n   - Timestamp of the crash\n\n---\n\n## Example Crash Report\n\n**Embed Title:**  \n`Server Crash Report`\n\n**Embed Description:**  \n`A crash occurred on your server. Details are provided below.`\n\n**Fields:**\n- **Error:**  \n  ```\n  Example error message\n  ```\n- **File:**  \n  `plugins/MyPlugin/Main.php`\n- **Line:**  \n  `42`\n- **Server Info:**  \n  `OS: Linux`  \n  `PM Version: 5.0.0`  \n  `Players Online: 3`\n\n---\n\n## Requirements\n\n- PocketMine-MP version **5.0.0** or higher\n- PHP **8.0** or higher\n- A valid Discord webhook URL\n\n---\n\n## License\n\nThis plugin is released under the **MIT License**. Feel free to use, modify, and distribute it as long as you include the original license.\n\n---\n\n## Support\n\nIf you encounter any issues or have suggestions, feel free to open an issue or contribute to the plugin’s development.\n\n--- \n\n**Author:** SoyDavs  \n**Version:** 1.0.0",
+  "readme_source_url": "https://github.com/SoyDavs/CrashAnnouncer",
+  "icon_url": "https://raw.githubusercontent.com/SoyDavs/CrashAnnouncer/3525d8148e25040c221422096c87761d27405be6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/SoyDavs/CrashAnnouncer",
+  "archive_repo": null,
+  "approved_release_tag": "r-13759",
+  "stars": 0,
+  "total_downloads": 123,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SoyDavs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13759",
+      "published_at": null,
+      "downloads": 123,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13759/crashannouncer-1.0.0-r13759.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13759",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13759/crashannouncer-1.0.0-r13759.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CrashAnnouncer",
+    "stable_release_id": 13759
+  }
+}

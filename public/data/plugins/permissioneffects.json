@@ -1,0 +1,61 @@
+{
+  "id": "permissioneffects",
+  "name": "PermissionEffects",
+  "author": "ImAMadDev",
+  "description": "Give players potion effects based on their permissions",
+  "readme_markdown": "# PermissionEffects\n\n> Give players potion effects based on their permissions <br>\n> Per world customization<br>\n> You can add/edit or remove effects on [config.json](resources/config.json)\n\n> Global permission: permissionEffects.*<br>\n\n![Icon](assets/icon.png)\n\n# [Push your ideas here](https://github.com/ImAMadDev/PermissionEffects/issues/new)",
+  "readme_source_url": "https://github.com/ImAMadDev/PermissionEffects",
+  "icon_url": "https://raw.githubusercontent.com/ImAMadDev/PermissionEffects/3a1c0d076f7dcfa3dba52101185b51b6a028bbc6/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ImAMadDev/PermissionEffects",
+  "archive_repo": null,
+  "approved_release_tag": "r-13590",
+  "stars": 0,
+  "total_downloads": 104,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ImAMadDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-13590",
+      "published_at": null,
+      "downloads": 104,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13590/permissioneffects-1.0-r13590.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13590",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13590/permissioneffects-1.0-r13590.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PermissionEffects",
+    "stable_release_id": 13590
+  }
+}

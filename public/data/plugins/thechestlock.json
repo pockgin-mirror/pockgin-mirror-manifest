@@ -1,0 +1,61 @@
+{
+  "id": "thechestlock",
+  "name": "TheChestLock",
+  "author": "BedrockFusion",
+  "description": "Want to lock your chests?",
+  "readme_markdown": "# TheChestLock\nWant to lock your chests?",
+  "readme_source_url": "https://github.com/BedrockFusion/TheChestLock",
+  "icon_url": "https://raw.githubusercontent.com/BedrockFusion/TheChestLock/a765a19f0e4233a81bdd89a166e4812969cbba2c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BedrockFusion/TheChestLock",
+  "archive_repo": null,
+  "approved_release_tag": "r-13630",
+  "stars": 0,
+  "total_downloads": 235,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BedrockFusion"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13630",
+      "published_at": null,
+      "downloads": 235,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13630/thechestlock-1.0.0-r13630.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13630",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13630/thechestlock-1.0.0-r13630.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TheChestLock",
+    "stable_release_id": 13630
+  }
+}

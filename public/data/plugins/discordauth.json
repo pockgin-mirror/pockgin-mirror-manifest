@@ -1,0 +1,61 @@
+{
+  "id": "discordauth",
+  "name": "DiscordAuth",
+  "author": "SoyDavs",
+  "description": "DiscordAuth Plugin for PocketMine-MP",
+  "readme_markdown": "# DiscordAuth Plugin for PocketMine-MP\n\nA PocketMine-MP plugin that allows players to register their Discord accounts and link them with in-game usernames. The plugin sends a verification code to a configured Discord webhook, which can then be used by players to verify their accounts in-game.\n\n## Features\n\n- Players can link their Discord accounts to their Minecraft usernames.\n- Sends a verification message to a Discord channel with a unique verification code.\n- Players can use the verification code to complete registration.\n- Supports a role command that can be executed in Discord upon successful registration.\n\n## Installation\n\n1. Download the plugin files.\n2. Place the `DiscordAuth` folder inside the `plugins` directory of your PocketMine-MP server.\n3. Restart the server to allow the plugin to generate its configuration files.\n\n## Configuration\n\nThe plugin uses two configuration files:\n- `config.yml`: Stores general configuration settings like messages and webhook URL.\n- `users.yml`: Stores the registered user data, including their Minecraft usernames and associated Discord IDs.\n\n### Example `config.yml`:\n\n```yaml\n# Webhook URL for sending verification messages.\nwebhook-url: \"https://discord.com/api/webhooks/your-webhook-url\"\n\n# Messages used throughout the plugin.\nverification-title: \"Discord Verification\"\nverification-message: \"Player {player_name} is trying to verify their Discord account. Verification code: {verification_code}\"\ndiscord-verification-message: \"Player {discord_id} is requesting verification with code {verification_code}\"\nverification-sent: \"A verification message has been sent to Discord. Please check your channel.\"\nregister-usage: \"Usage: /register <verification_code>\"\ninvalid-code: \"Invalid verification code.\"\nregistration-success: \"Your Discord account has been successfully linked!\"\nalready-registered: \"This Discord account is already linked to a player.\"\ninvalid-discord-id: \"Please provide a valid Discord ID.\"\ndiscord-usage: \"Usage: /discord <discord_id>\"\ncode-not-for-player: \"The verification code is not for you.\"\nrole-command: \"/give {player} discord_role\"\n```\n\n### Example `users.yml`:\n\n```yaml\n123456789012345678:\n  player: \"player_name\"\n  discord_id: \"123456789012345678\"\n```\n\n## Commands\n\n- `/discord <discord_id>`: Starts the registration process by sending a verification message to the configured Discord webhook.\n- `/register <verification_code>`: Completes the registration using the verification code received in Discord.\n\n## How it Works\n\n1. The player uses `/discord <discord_id>` to start the registration process.\n2. The plugin generates a random 6-digit verification code and sends it to the Discord webhook.\n3. The player receives the code in Discord and uses `/register <verification_code>` to link their Discord account to their Minecraft username.\n4. Upon successful registration, the plugin executes a role command (if configured) and stores the Discord ID and player name in the `users.yml` file.\n\n\n## License\n\nThis plugin is released under the MIT License. See the LICENSE file for more details.",
+  "readme_source_url": "https://github.com/SoyDavs/DiscordAuth",
+  "icon_url": "https://raw.githubusercontent.com/SoyDavs/DiscordAuth/97fed512b00b142df80a08edfb8a64791138d321/icon.png",
+  "featured": false,
+  "repo": "https://github.com/SoyDavs/DiscordAuth",
+  "archive_repo": null,
+  "approved_release_tag": "r-13733",
+  "stars": 5,
+  "total_downloads": 240,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SoyDavs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13733",
+      "published_at": null,
+      "downloads": 240,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13733/discordauth-1.0.0-r13733.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13733",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13733/discordauth-1.0.0-r13733.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DiscordAuth",
+    "stable_release_id": 13733
+  }
+}

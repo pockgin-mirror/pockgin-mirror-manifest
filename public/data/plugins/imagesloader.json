@@ -1,0 +1,61 @@
+{
+  "id": "imagesloader",
+  "name": "ImagesLoader",
+  "author": "GabBiswajit",
+  "description": "ImageLoader",
+  "readme_markdown": "# ImageLoader\nFixes button icon type: \"url\" images taking too long to load up.\n\n# Configuration\nDon't Need to Setup Any Type Of Config Just **Download** The Plugin **Upload In Plugins Fills** And Its Work.",
+  "readme_source_url": "https://github.com/GabBiswajit/ImageLoader",
+  "icon_url": "https://raw.githubusercontent.com/GabBiswajit/ImageLoader/539b3e2b60bc2ac9f59d4e3268c012f4f8812a9b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/GabBiswajit/ImageLoader",
+  "archive_repo": null,
+  "approved_release_tag": "r-13577",
+  "stars": 0,
+  "total_downloads": 70,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "GabBiswajit"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/260036",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-13577",
+      "published_at": null,
+      "downloads": 70,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13577/imagesloader-1.1.0-r13577.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13577",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13577/imagesloader-1.1.0-r13577.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ImagesLoader",
+    "stable_release_id": 13577
+  }
+}

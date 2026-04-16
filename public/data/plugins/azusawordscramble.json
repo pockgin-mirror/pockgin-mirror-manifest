@@ -1,0 +1,64 @@
+{
+  "id": "azusawordscramble",
+  "name": "AzusaWordScramble",
+  "author": "KumaaDeveloper",
+  "description": "General",
+  "readme_markdown": "## General\nAzusaWordScramble is a Pocketmine plug-in that works to provide word stacking questions and if players answer, they will get random money.\n\n## Features\n- The question will be broadcast and the player must correctly answer the word stacking question\n- There are already 300+ words about minecraft, can be set in word.yml\n- Custom message\n- Custom prize\n- Custom economy\n- Added a sound when a question appears, answers the question, and no one answers the question.\n\n## Command\nCommands | Default | Permission\n--- | --- | ---\n`/wordscramble` | Op | azusawordscramble.command\n\n## Configuration\n```yaml\n# Configuration for WordScramble plugin\n\nscramble_interval: 60\n\n# Message when the player successfully answers the wordscramble\nscramble_completion_message: \"§e{player} §fanswers §a\\\"{answer}\\\" §fand gets a prize of §6{money} §fMoney\"\n\n# Message when no one answers the wordscramble\nno_answer_message: \"§cNo one answered wordscramble, move on to the next wordscramble...\"\n\n# Delay when scramble is missed or answered\nscramble_delay_solved: 5\n\n# Rewards when players successfully answer wordscramble\nprize_min: 1000\nprize_max: 10000\n\n# Economy you are using (Must use LibPiggyEconomy)\nEconomy:\n  type: \"bedrockeconomy\" # Change this to your specific economy provider if needed (bedrockeconomy/economyapi)\n```\n\n## Depend\n| Authors | Github | Lib |\n|---------|--------|-----|\n| Cooldogepm | [Cooldogepm](https://github.com/cooldogepm) | [BedrockEconomy](https://github.com/cooldogepm/BedrockEconomy) |\n| Mathchat900 | [Mathchat900](https://github.com/mathchat900) | [EconomyAPI](https://github.com/mathchat900/EconomyAPI-PM5) |",
+  "readme_source_url": "https://github.com/KumaaDeveloper/AzusaWordScramble",
+  "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AzusaWordScramble/c3b283f1d54d705565b2c74123f3bb266d52df62/icon.png",
+  "featured": false,
+  "repo": "https://github.com/KumaaDeveloper/AzusaWordScramble",
+  "archive_repo": null,
+  "approved_release_tag": "r-13629",
+  "stars": 3,
+  "total_downloads": 106,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KumaaDeveloper"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-13629",
+      "published_at": null,
+      "downloads": 106,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13629/azusawordscramble-1.0.2-r13629.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13629",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13629/azusawordscramble-1.0.2-r13629.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AzusaWordScramble",
+    "stable_release_id": 13629
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "chatpm-gpt",
+  "name": "ChatPM_GPT",
+  "author": "HBIDamian",
+  "description": "A Highly customisable ChatGPT Chat Bot for your minecraft world!",
+  "readme_markdown": "# ChatPM_GPT\nA Highly customisable ChatGPT Chat Bot for your minecraft world!\n\n## Finally, a worthy successor!\nWas going through the poggit new-builds channel on discord, and I came across this! [PMMP-AI](https://github.com/RenzMc/PMMP-AI) plugin, developed by [RenzMC](https://github.com/RenzMc). The mad-lad has only gone and done it! Built a far superior plugin, better than I could with my concept! Give that plugin a bash! :D\n\n\n### How to use\n> [!NOTE]  \n> You will need an OpenAI API key to use this plugin. You can get one from [OpenAI Platform](https://platform.openai.com/account/api-keys).\n1. Copy your OpenAI API key and paste it in the `config.yml` file.\n2. Run the server\n3. Trigger the chatbot by typing `@Botty` in the chat, followed by your message.\n\n### Permission\n- `chatpm_gpt.use` - Allows the player to use the chatbot. Default: true.\n\n### Config\n```yaml\n# This is the configuration file for ChatPM_GPT.\n# You can modify the settings here to customize the plugin to your liking.\n\n# --- OpenAI API Settings ---\nApiUrl: \"https://api.openai.com/v1/chat/completions\" # The URL for OpenAI API.\nApiKey: \"sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\" # Your OpenAI API key.\n\n# --- Chat Settings ---\nChatModel: \"gpt-4o-mini\" # For a list of available models, see https://platform.openai.com/docs/models\nMaxTokens: 70 # Max tokens per response. 1 token is roughly 4 characters.\nTemperature: 1.25 # Higher temperature means more randomness in responses.\nTopP: 1.0 # Controls the diversity of responses.\nFrequencyPenalty: 0.75 # Penalizes new tokens based on their existing frequency.\nPresencePenalty: 0.25 # Penalizes new tokens based on their existing presence.\n\n# --- Bot Settings ---\nBotName: \"Botty McBotface\" # The name of the AI bot.\nBotTrigger: \"@Botty\" # The text that the player will need to type to trigger the AI.\n\n# --- System Prompt ---\n# This is the prompt that the AI will use to generate responses.\n# Available placeholders:\n# - {BOT_NAME}    - Bot's name\n# - {PLAYER_NAME} - Player's name\nSystemPrompt: |\n  You are a AI chat bot that's taking place in a PocketMine Minecraft Bedrock Edition server.\n  Your name is '{BOT_NAME}', and you're currently speaking to '{PLAYER_NAME}'. \n  '{BOT_NAME}' is witty, clever, and very friendly. '{BOT_NAME}' is here to have fun conversations in the Minecraft Chat.\n  Don't ask if you can help. Just be yourself and have fun! \n  Minecraft doesn't support Unicode emotes, so you can't use emojis! You can use :), :(, :D type emotes though. \n  Just don't overdo it. Limit your character count to 160 characters or less.\n  Keep your responses friendly and appropriate for all ages. You can't physically interact with the world,\n  but you can interact with players through chat. You can't give out personal information or ask for personal information.\n  You can't swear, bully, or be mean. You can't advertise or promote anything. You can't spam. \n  You can't impersonate staff or other players. You can't share links or URLs of any kind.\n\n# --- Bot Output Format ---\n# How the bot's response will be formatted in the chat.\n# Available placeholders: \n# - {BOT_NAME} - Bot's name\n# - {RESPONSE} - Bot's response\nBotOutputFormat: \"<&g{BOT_NAME}§r> {RESPONSE}\"\n```",
+  "readme_source_url": "https://github.com/HBIDamian/ChatPM_GPT",
+  "icon_url": "https://raw.githubusercontent.com/HBIDamian/ChatPM_GPT/54e9ce99647712383f106e204b448edaf58cfdd7/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HBIDamian/ChatPM_GPT",
+  "archive_repo": null,
+  "approved_release_tag": "r-13616",
+  "stars": 5,
+  "total_downloads": 451,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HBIDamian"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/249416",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-13616",
+      "published_at": null,
+      "downloads": 412,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13616/chatpm_gpt-1.1.0-r13616.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13616",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13616/chatpm_gpt-1.1.0-r13616.phar"
+    },
+    {
+      "tag": "r-13602",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13602/chatpm_gpt-1.0.0-r13602.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatPM_GPT",
+    "stable_release_id": 13616
+  }
+}

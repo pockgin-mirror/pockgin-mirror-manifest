@@ -1,0 +1,61 @@
+{
+  "id": "betterwardrobe",
+  "name": "BetterWardrobe",
+  "author": "snarerectify",
+  "description": "Advanced wardrobe plugin for Pocketmine-MP.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/BetterWardrobe)](https://poggit.pmmp.io/p/BetterWardrobe)\n\n# BetterWardrobe\n\nAdvanced wardrobe plugin for Pocketmine-MP.\n\n## Features\n - Ability to store up to 9 full or partial armor sets.\n - Ability to manipulate and equip sets via a GUI or command.\n - Option to view the wardrobe of other players.\n - Customisable messages and permissions for each armor slot.\n\n## Installation\n 1. Download plugin phar from [here](https://poggit.pmmp.io/ci/snarerectify/BetterWardrobe/~)\n 2. Add to your servers' plugin folder.\n 3. Restart server.\n\n## Commands\n| Command         | Description                   | Permission                   |\n|-----------------|-------------------------------|------------------------------|\n|/wardrobe manage | Access your wardrobe.         | betterwardrobe.manage.command|\n|/wardrobe equip  | Equip a set.                  | betterwardrobe.equip.command |\n|/wardrobe view   | View another players wardrobe.| betterwardrobe.view.command  |\n\n## Set permissions\nThere are 9 sets, use betterwardrobe.slot.{setnumber}, so if I wanted a player to have access to the 5th slot, I'd \ngrant the player the betterwardrobe.slot.5 permission, all players defaultly have access to the first slot.\n\n## API\n```php\nuse snare\\BetterWardrobe\\BetterWardrobe;\n\n$instance = BetterWardrobe::getInstance();\n```\n\nVarious methods can be found below:\n```php\n$manager = $instance->getSessionManager();\n\n$session = $manager->getSession(string $name);\n\n$wardrobe = $session->getUsableWardrobe(); // returns a complex array, see code for details.\n\n$wardrobe->addItem(int $setId, int $slot, Item $item, bool $swap = false); // again, confusing function, check session class.\n```\n\n## Support\nReach out on discord `snare_gale` if having any issues or if you need help with configuration.",
+  "readme_source_url": "https://github.com/snarerectify/BetterWardrobe",
+  "icon_url": "https://raw.githubusercontent.com/snarerectify/BetterWardrobe/4fc1f75ab8696731f7bf82bcd65eeee7347f4a8a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/snarerectify/BetterWardrobe",
+  "archive_repo": null,
+  "approved_release_tag": "r-13514",
+  "stars": 0,
+  "total_downloads": 94,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "snarerectify"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13514",
+      "published_at": null,
+      "downloads": 94,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13514/betterwardrobe-1.0.0-r13514.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13514",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13514/betterwardrobe-1.0.0-r13514.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterWardrobe",
+    "stable_release_id": 13514
+  }
+}

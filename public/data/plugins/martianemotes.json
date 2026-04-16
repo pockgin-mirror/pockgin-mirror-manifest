@@ -1,0 +1,61 @@
+{
+  "id": "martianemotes",
+  "name": "MartianEmotes",
+  "author": "MrEcstsy",
+  "description": "The MartianEmotes plugin adds a fun way for players to use custom emotes in chat on your Minecraft server. With this plugin, players can trigger emotes by typing specific phrase...",
+  "readme_markdown": "# MartianEmotes\n[![](https://poggit.pmmp.io/shield.state/MartianEmotes)](https://poggit.pmmp.io/p/MartianEmotes)\n<a href=\"https://poggit.pmmp.io/p/MartianEmotes\"><img src=\"https://poggit.pmmp.io/shield.state/MartianEmotes\"></a> [![](https://poggit.pmmp.io/shield.api/MartianEmotes)](https://poggit.pmmp.io/p/MartianEmotes)\n<a href=\"https://poggit.pmmp.io/p/MartianEmotes\"><img src=\"https://poggit.pmmp.io/shield.api/MartianEmotes\"></a> \\\nThe MartianEmotes plugin adds a fun way for players to use custom emotes in chat on your Minecraft server. With this plugin, players can trigger emotes by typing specific phrases in chat, which are replaced with emote outputs.\n\n# Features\n* Customizable emotes that players can trigger using specific phrases.\n* Permissions-based emote usage control.\n* Emote listing via a paginated command.\n* Fully configurable through a config.yml file.\n* Color support in messages and emotes.\n\n# Usage\n## In Chat\nPlayers can use emotes by typing the associated phrases in the chat. For example:\n\nTyping `:wave:` will be replaced by `(•◡•)/`.\\\nTyping `:heart:` will be replaced by `❤`.\n\n# Support\nIf you encounter any issues or have questions, feel free to open an issue on the repository\n\n# Icon Credits\n<a href=\"https://www.freepik.com/search\">Icon by NajmunNahar</a>",
+  "readme_source_url": "https://github.com/MrEcstsy/MartianEmotes",
+  "icon_url": "https://raw.githubusercontent.com/MrEcstsy/MartianEmotes/1de7c612a767e432843297e1cb7e71970f14ddd1/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MrEcstsy/MartianEmotes",
+  "archive_repo": null,
+  "approved_release_tag": "r-13668",
+  "stars": 5,
+  "total_downloads": 100,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MrEcstsy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13668",
+      "published_at": null,
+      "downloads": 100,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13668/martianemotes-1.0.0-r13668.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13668",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13668/martianemotes-1.0.0-r13668.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MartianEmotes",
+    "stable_release_id": 13668
+  }
+}

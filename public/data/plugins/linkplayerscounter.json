@@ -1,0 +1,61 @@
+{
+  "id": "linkplayerscounter",
+  "name": "LinkPlayersCounter",
+  "author": "RemBog",
+  "description": "PocketMine-MP 4 and 5 plugin that links the number of players on several servers and displays them on a single server in the minecraft menu.",
+  "readme_markdown": "<p>PocketMine-MP 4 and 5 plugin that links the number of players on several servers and displays them on a single server in the minecraft menu.</p>",
+  "readme_source_url": "https://poggit.pmmp.io/r/247956",
+  "icon_url": "https://raw.githubusercontent.com/RemBog/LinkPlayersCounter/f5d1ea311ff424ad76f7a011f5b6963a54a41cc9/icon.png",
+  "featured": false,
+  "repo": "https://github.com/RemBog/LinkPlayersCounter",
+  "archive_repo": null,
+  "approved_release_tag": "r-13548",
+  "stars": 0,
+  "total_downloads": 224,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "RemBog"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/247958",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-13548",
+      "published_at": null,
+      "downloads": 224,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13548/linkplayerscounter-1.0.1-r13548.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13548",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13548/linkplayerscounter-1.0.1-r13548.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LinkPlayersCounter",
+    "stable_release_id": 13548
+  }
+}

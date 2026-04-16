@@ -1,0 +1,61 @@
+{
+  "id": "advancedareas",
+  "name": "AdvancedAreas",
+  "author": "Its123Miguel321",
+  "description": "General",
+  "readme_markdown": "## General\nA PocketMine-MP plugin which lets you create advanced areas!\n\n## Features\n### Priority\nEvery area has its own priority, so you can have overlapping areas.\n### Control Events\nYou can disable/enable events for each area!\n- Block Breaking\n- Block Placing\n- Item Drop\n- Item Pickup\n- Entity Damage\n- Entity Regain Health\n- Entity Teleport (advancedarea.bypass.teleport permission so staff can bypass)\n- Much more events...!\n\n### Effects\nEffects are given when entering the area and cleared when they leave! You can also set it so it applies to the whitelisted player's!\n\n### Banned Items\nIf an item is banned in the area, they can not be used! You can also set it so it applies to the whitelisted player's!\n\n### Whitelist\nEvery area has its own whitelist!\n\n## Config\n```yml\n# Configuration file for AdvancedAreas by Its123Miguel321\n\n# Config file version (Do not edit this!)\nconfig-version: 1.0\n\n\n# The data provider is where the area data is stored.\n# Accepted types of data providers: yaml, json, and sqlite\ndata-provider: json\n\n\n# The AdvancedAreas wand item.\n# Default wand item: feather\nwand-item: feather\n\n\n# When entering an area, the name will be shown\nshow-area-name: true\n# How the area name will be shown\n# Accepted types: title, popup, message\narea-name-type: popup\n\n\n# These are the default settings for areas!\n# DO NOT remove any of the events!\ndefault-area-settings:\n priority: 5\n banned-items: []\n events:\n  block.break: true\n  block.decay: true\n  block.grow: true\n  block.place: true\n  block.update: true\n  entity.damage: true\n  entity.explosion: true\n  entity.regain-health: true\n  entity.teleport: true\n  player.craft: true\n  player.flight: true\n  player.interact: true\n  player.item-drop: true\n  player.item-pickup: true\n  player.sprint: true\n  player.hunger: true\n effects: []\n whitelist: []\n```\n\n## For Developers\nThese are the most used parts of the API!\n\nChecks if a position is inside an area!\n```php\nAreasAPI::isInside(Position $pos);\n```\n\nChecks if a position is in an area by name!\n```php\nAreasAPI::inAreaByName(Position $pos, string $name);\n```\n\nChecks if the current position is still in the same area!\n```php\nAreasAPI::inSameArea(Position $current, Area $previous);\n```\n\nGet the areas the position is in!\n```php\n$areas = AreasAPI::getAreasIn(Position $pos);\n```\n\nHow to create areas!\n```php\nAdvancedAreas::getInstance()->getProvider()->create(\n\tstring $displayName, \n\tSelections $selections, \n\tint $priority = -100, \n\tarray $whitelist = [], \n\tarray $events = [], \n\tarray $effects = [], \n\tarray $items = [], \n\tbool $itemsForWhitelist = false, \n\tbool $effectsForWhitelist = false\n);\n```\n\nHow to delete areas!\n```php\nAdvancedAreas::getInstance()->getProvider()->delete(Area $area);\n```\n\nHow to get all areas!\n```php\nAdvancedAreas::getInstance()->getProvider()->getAll();\n```\n\n## Suggestions\nIf you have any suggestions, contact me on discord! **(Its123Miguel321)**\n\n## Bug Report\nIf you have found a bug, please create an [Issue](https://github.com/Its123Miguel321/AdvancedAreas/issues/new)!",
+  "readme_source_url": "https://github.com/Its123Miguel321/AdvancedAreas",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Its123Miguel321/AdvancedAreas",
+  "archive_repo": null,
+  "approved_release_tag": "r-13646",
+  "stars": 3,
+  "total_downloads": 322,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Its123Miguel321"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/249962",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-13646",
+      "published_at": null,
+      "downloads": 322,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13646/advancedareas-1.0.2-r13646.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13646",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13646/advancedareas-1.0.2-r13646.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdvancedAreas",
+    "stable_release_id": 13646
+  }
+}

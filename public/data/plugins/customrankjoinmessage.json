@@ -1,0 +1,63 @@
+{
+  "id": "customrankjoinmessage",
+  "name": "CustomRankJoinMessage",
+  "author": "AkmalKhair",
+  "description": "✨ A lightweight and customizable plugin to display rank-based join and leave messages on your PocketMine-MP server.",
+  "readme_markdown": "# CustomRankJoinMessage\n\n<a href=\"https://poggit.pmmp.io/p/CustomRankJoinMessage\">\n  <img src=\"https://poggit.pmmp.io/shield.state/CustomRankJoinMessage\">\n</a>\n<a href=\"https://poggit.pmmp.io/p/CustomRankJoinMessage\">\n  <img src=\"https://poggit.pmmp.io/shield.api/CustomRankJoinMessage\">\n</a>\n<a href=\"https://poggit.pmmp.io/p/CustomRankJoinMessage\">\n  <img src=\"https://poggit.pmmp.io/shield.dl.total/CustomRankJoinMessage\">\n</a>\n<a href=\"https://poggit.pmmp.io/p/CustomRankJoinMessage\">\n  <img src=\"https://poggit.pmmp.io/shield.dl/CustomRankJoinMessage\">\n</a>\n\n> ✨ A lightweight and customizable plugin to display rank-based join and leave messages on your PocketMine-MP server.\n\n---\n\n## 🚀 Overview\n\n**CustomRankJoinMessage** enhances your Minecraft: Bedrock Edition server by showing **personalized join and leave messages** based on player ranks. Designed to work seamlessly with the [RankSystem](https://poggit.pmmp.io/p/RankSystem) plugin, it offers full customization and top performance — all without bloating your server.\n\n---\n\n## 🔥 Features\n\n✅ **Rank-Specific Join Messages**  \nDisplay unique messages when players join your server, tailored to their rank (e.g., VIP, Admin, Member).\n\n🎨 **Full Customization**  \nCustomize the content, formatting, and color codes of your messages using Minecraft-style (§) formatting. Personalize messages to match your server's theme.\n\n🔗 **RankSystem Integration**  \nDefine ranks and their corresponding messages in `config.yml`. When a player joins or leaves:\n- If their rank matches one in the config, the corresponding message is shown.\n- If no match is found, the default message will be displayed.\n\n⚡ **Lightweight and Fast**  \nOptimized for performance — no unnecessary processing, ensuring your server stays fast and responsive.\n\n---\n\n## 🛠️ Example Configuration\n\nHere's how you can configure your join and leave messages in `config.yml`:\n\n```yaml\njoin-messages:\n  Admin: \"§c[ADMIN] §fWelcome back, {player}!\"\n  VIP: \"§e[VIP] §fThanks for your support, {player}!\"\n  Member: \"§a[Member] §fGlad to see you, {player}!\"\n  default: \"§7[+] Welcome to the server, {player}!\"\n\nleave-messages:\n  Admin: \"§c[ADMIN] §f{player} has left the realm.\"\n  VIP: \"§e[VIP] §f{player} has left the server.\"\n  Member: \"§a[Member] §f{player} just logged out.\"\n  default: \"§7[-] {player} left the game.\"",
+  "readme_source_url": "https://github.com/AkmalKhair/CustomRankJoinMessage",
+  "icon_url": "https://raw.githubusercontent.com/AkmalKhair/CustomRankJoinMessage/01a7a2996ad7672a10ab745a789e928a14240539/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AkmalKhair/CustomRankJoinMessage",
+  "archive_repo": null,
+  "approved_release_tag": "r-13773",
+  "stars": 0,
+  "total_downloads": 261,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "RankSystem"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AkmalKhair"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "3.1.0",
+      "tag": "r-13773",
+      "published_at": null,
+      "downloads": 261,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13773/customrankjoinmessage-3.1.0-r13773.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13773",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13773/customrankjoinmessage-3.1.0-r13773.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomRankJoinMessage",
+    "stable_release_id": 13773
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "doubledoors",
+  "name": "DoubleDoors",
+  "author": "SoyDavs",
+  "description": "DoubleDoors Plugin",
+  "readme_markdown": "# DoubleDoors Plugin\n\nDoubleDoors is a PocketMine-MP plugin that enhances the behavior of interactive blocks like doors, trapdoors, and fence gates. With this plugin, players can seamlessly open or close connected blocks of the same type, mimicking double-door mechanics and recursive opening for nearby structures.\n\n## Features\n\n- Automatically open or close connected blocks of the same type.\n- Supports recursive opening for blocks within a configurable distance.\n- Works with:\n  - Doors\n  - Fence Gates\n  - Trapdoors\n- Configurable options to enable or disable specific block types and recursive behavior.\n\n## Installation\n\n1. Download the latest release of the plugin.\n2. Place the `.phar` file in the `plugins` folder of your PocketMine-MP server.\n3. Start or restart your server.\n4. A default configuration file will be generated automatically.\n\n## Configuration\n\nThe plugin generates a `config.yml` file with the following options:\n\n```yaml\nenableRecursiveOpening: true\nrecursiveOpeningMaxBlocksDistance: 10\nenableDoors: true\nenableFenceGates: true\nenableTrapdoors: true\n```\n\n- **enableRecursiveOpening**: Enable or disable recursive opening for nearby blocks.\n- **recursiveOpeningMaxBlocksDistance**: Maximum distance (in blocks) for recursive opening.\n- **enableDoors**: Enable or disable double-door functionality for doors.\n- **enableFenceGates**: Enable or disable functionality for fence gates.\n- **enableTrapdoors**: Enable or disable functionality for trapdoors.\n\n## Usage\n\n- Interact with a block (door, trapdoor, or fence gate) to open or close it.\n- If recursive opening is enabled, nearby connected blocks of the same type will also open or close.\n- Sneaking while interacting will bypass the plugin's functionality, allowing you to interact with a single block.\n\n## Developer Notes\n\nThe plugin listens to the `PlayerInteractEvent` to detect interactions with supported blocks. It processes connected blocks recursively, ensuring only the allowed distance and block types are affected.\n\n### Supported Block Types\n\n- `Door`\n- `FenceGate`\n- `TrapDoor`\n\n### Recursive Opening Logic\n\nThe plugin checks for nearby blocks of the same type in a 3x3x3 area around the interacted block. If recursive opening is enabled, it will continue to process connected blocks within the configured distance limit.\n\n## Contributing\n\nWe welcome contributions! If you encounter bugs or have suggestions, feel free to open an issue or submit a pull request on GitHub.\n\n##",
+  "readme_source_url": "https://github.com/SoyDavs/DoubleDoors",
+  "icon_url": "https://raw.githubusercontent.com/SoyDavs/DoubleDoors/6e3e316e0811bb66127b9167418be47b64438f94/icon.png",
+  "featured": false,
+  "repo": "https://github.com/SoyDavs/DoubleDoors",
+  "archive_repo": null,
+  "approved_release_tag": "r-13730",
+  "stars": 0,
+  "total_downloads": 186,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SoyDavs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13730",
+      "published_at": null,
+      "downloads": 186,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13730/doubledoors-1.0.0-r13730.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13730",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13730/doubledoors-1.0.0-r13730.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DoubleDoors",
+    "stable_release_id": 13730
+  }
+}

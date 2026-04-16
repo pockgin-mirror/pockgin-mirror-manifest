@@ -1,0 +1,61 @@
+{
+  "id": "skinguard",
+  "name": "SkinGuard",
+  "author": "Kronnosy",
+  "description": "🛡️ SkinGuard",
+  "readme_markdown": "# 🛡️ SkinGuard\n\n**SkinGuard** is a plugin designed for **PocketMine-MP** servers that ensures fair play by preventing players from using invalid skins and 4D skins.\n\n## ✨ Features\n\n- **Invalid Skin Protection**  \n  Blocks the use of skins that do not meet the server’s skin standards, ensuring a uniform and fair experience.\n\n- **4D Skin Blocker**  \n  Prevents players from using 4D skins, which can give unfair advantages by altering hitboxes or providing other unintended benefits.\n\n## 📬 Support & Feedback\n\nYour feedback helps us improve! If you encounter any issues or have suggestions, please open an issue on our [GitHub repository](https://github.com/kronnosy/skinguard/issues). We’d love to hear from you!",
+  "readme_source_url": "https://github.com/Kronnosy/SkinGuard",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Kronnosy/SkinGuard",
+  "archive_repo": null,
+  "approved_release_tag": "r-13596",
+  "stars": 0,
+  "total_downloads": 180,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Kronnosy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13596",
+      "published_at": null,
+      "downloads": 180,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13596/skinguard-1.0.0-r13596.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13596",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13596/skinguard-1.0.0-r13596.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SkinGuard",
+    "stable_release_id": 13596
+  }
+}

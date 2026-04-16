@@ -1,0 +1,63 @@
+{
+  "id": "chestkitpro",
+  "name": "ChestKitPro",
+  "author": "WavyCraft",
+  "description": "Description",
+  "readme_markdown": "# Description\nChest Kits is a plugin that gives your PMMP server kits. These aren't your normal kits oh no they're a special type of kits. The items aren't given directly but stored in a chest until you interact with the chest kit. It will automatically add the items within the players inventory.\n\nAll permission based, no economy plugins needed!\n\nRequired plugin: Any Ranks Plugin...\n\n# Features\n- Chest are used as kits\n- Form menu displaying the kits/confirmation menu\n- Permission based (Head over to the 'kits.yml' to get started)\n- Cooldowns with a formatted message and easy to understand\n- Create unlimited kits\n\n# TODO\n- [ ] Customizable messages/UI\n- [ ] A way to enable/disable chest kits (automatically adds the items within the players inventory without the use of a chest)\n- [ ] A way to enable/disable UIs (Chat based kit claim)\n\nGot an idea please open a pull request or bug report!\n\n# Required plugin/extension\nThis plugin requires a virion called [FormAPI](https://poggit.pmmp.io/ci/jojoe77777/FormAPI/libFormAPI)\n\nMake sure you have it in the same folder.\n\n**Do not open a issue saying that it's broken because I can guarantee 100% that the plugin works with no bugs/issues. Make sure you download the FormAPI along with the ChestKitPro**",
+  "readme_source_url": "https://github.com/WavyCraft/ChestKitPro",
+  "icon_url": "https://raw.githubusercontent.com/WavyCraft/ChestKitPro/c75929a3a1e046aeb1764bd55dd9c8a48f5c9e26/icon.png",
+  "featured": false,
+  "repo": "https://github.com/WavyCraft/ChestKitPro",
+  "archive_repo": null,
+  "approved_release_tag": "r-13735",
+  "stars": 0,
+  "total_downloads": 234,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "PiggyCustomEnchants"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "WavyCraft"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13735",
+      "published_at": null,
+      "downloads": 234,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13735/chestkitpro-1.0.0-r13735.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13735",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13735/chestkitpro-1.0.0-r13735.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChestKitPro",
+    "stable_release_id": 13735
+  }
+}

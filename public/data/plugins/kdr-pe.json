@@ -1,0 +1,61 @@
+{
+  "id": "kdr-pe",
+  "name": "KDR-PE",
+  "author": "Terpz710",
+  "description": "KDR system for Pocketmine-MP",
+  "readme_markdown": "<p align=\"center\">\n    <a href=\"https://github.com/Terpz710/KDR-PE\"><img src=\"https://github.com/Terpz710/KDR-PE/blob/stable/icon.png\"></img></a><br>\n    <b>KDR system for Pocketmine-MP</b>\n\n# Description\n\nA [Pocketmine-MP](https://pmmp.io) plugin that adds a KDR managment system, See all the features below!\n\nThis plugin also creates a floating text leaderboards that shows off the top kills, deaths and killstreaks on the server as well!\n\n~~KDR-PE had a huge code rewrite on January 7, 2025 - **OLD**~~\n\n~~This rewrite fixes 99% of the bugs from v1.0.5 rewrite.... **OLD**~~\n\nKDR-PE had a huge code rewrite on September 11, 2025.\n\nThis rewrite fixes 99.99% of the bugs from v1.0.6 rewrite...\n\n**Note:**\nTheres a bug where the floatingtext leaderboard shows an empty leaderboard, to fix this just type the command again.\n\n# Features \n\n* Kill tracker\n* Death tracker\n* Killstreak system\n* KDR system\n* Topkill system\n* TopDeath system\n* TopKillStreak system\n* See other players kills, deaths, killstreak and KDRS\n* Built in [Scorehud](https://github.com/Ifera/ScoreHud) support!\n* CREATE A TOP KILL/DEATH/KILLSTREAK LEADERBOARD (Floating Text)!\n\n## ScoreHud Tags\n\n* Kills: {kdrpe.kills}\n* Deaths: {kdrpe.deaths}\n* KDR: {kdrpe.kdr}\n* KillStreak: {kdrpe.killstreak}\n\n# Permissions/Commands\n\n**KDR Command**\n```\nCommand: /kdr\n\nAliases: NONE\n\nPermission: kdrpe.kdr\n\ndefualt: true\n```\n\n**SeeKDR Command**\n```\nCommand: /seekdr\n\nAliases: NONE\n\nPermission: kdrpe.seekdr\n\ndefault: true\n```\n\n**TopKill Command**\n```\nCommand: /topkill\n\nAliases: /topkills, /tk\n\nPermission: kdrpe.topkill\n\ndefault: true\n```\n\n**TopDeath Command**\n```\nCommand: /topdeath\n\nAliases: /topdeaths, /td\n\nPermission: kdrpe.topdeath\n\ndefault: true\n```\n\n**TopKillStreak Command**\n```\nCommand: /topkillstreak\n\nAliases: /topkillstreaks, /tks\n\nPermission: kdrpe.topkillstreak\n\ndefault: true\n```\n\n**KillLeaderboard Command**\n```\nCommand: /killleaderboard\n\nAliases: /killlb, /klb\n\nPermission: kdrpe.killleaderboard\n\ndefault: op\n```\n\n**DeathLeaderboard Command**\n```\nCommand: /deathleaderboard\n\nAliases: /deathlb, /dlb\n\nPermission: kdrpe.deathleaderboard\n\ndefault: op\n```\n\n**KillStreakLeaderboard Command**\n```\nCommand: /killstreakleaderboard\n\nAliases: /killstreaklb, /kslb\n\nPermission: kdrpe.killstreakleaderboard\n\ndefault: op\n```",
+  "readme_source_url": "https://github.com/Terpz710/KDR-PE",
+  "icon_url": "https://raw.githubusercontent.com/Terpz710/KDR-PE/04d6712190e674298698f053f6bb0969b3d844f3/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Terpz710/KDR-PE",
+  "archive_repo": null,
+  "approved_release_tag": "r-13760",
+  "stars": 5,
+  "total_downloads": 143,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Terpz710"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/251547",
+  "versions": {
+    "stable": {
+      "version": "1.0.6",
+      "tag": "r-13760",
+      "published_at": null,
+      "downloads": 143,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13760/kdr-pe-1.0.6-r13760.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13760",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13760/kdr-pe-1.0.6-r13760.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KDR-PE",
+    "stable_release_id": 13760
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "chatpings",
+  "name": "ChatPings",
+  "author": "fadijalal07",
+  "description": "ChatPings Plugin",
+  "readme_markdown": "# ChatPings Plugin\n\nChatPings is a Pocketmine-MP plugin that allows players to ping each other in chat. When a player is mentioned, they receive a sound notification.\n\n## Features\n\n- Mention players in chat using `@username`.\n- Customizable sound notifications.\n- Easy configuration.\n\n## Configuration\n\nAfter the first run, a configuration file will be generated in the `plugin_data/ChatPings` folder. You can customize the settings to your liking.\n\n### Default Configuration\n\n```yaml\nsound: \"random.orb\"\nvolume: 1\npitch: 1\n```\n\n## Installation\n\n1. Download the plugin.\n2. Place the plugin file in the `plugins` folder of your Pocketmine-MP server.\n3. Start or restart your server to generate the configuration file.\n4. Customize the configuration file if needed.\n\n## Contributing\n\nContributions are welcome! Please fork the repository and submit a pull request.\n\n## Contact\n\nFor support or inquiries, please open an issue on the [GitHub repository](https://github.com/fadijalal07/ChatPings/issues).",
+  "readme_source_url": "https://github.com/fadijalal07/ChatPings",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/fadijalal07/ChatPings",
+  "archive_repo": null,
+  "approved_release_tag": "r-13801",
+  "stars": 5,
+  "total_downloads": 96,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "fadijalal07"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13801",
+      "published_at": null,
+      "downloads": 96,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13801/chatpings-1.0.0-r13801.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13801",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13801/chatpings-1.0.0-r13801.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatPings",
+    "stable_release_id": 13801
+  }
+}

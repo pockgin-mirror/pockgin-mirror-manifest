@@ -1,0 +1,61 @@
+{
+  "id": "vorespawner",
+  "name": "VOreSpawner",
+  "author": "VennDev",
+  "description": "(This project has been discontinued)",
+  "readme_markdown": "(This project has been discontinued)\nI allow you to copy or develop it as you see fit. But not within this repository. Thanks to everyone who has come and gone.\n\n\n<img src=\"https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/35/Caves_%26_Cliffs_Ores.png\" alt=\"ReallyCheat-Premium\" height=\"200\" width=\"400\" />\n\n# VOreSpawner\n- Plugin OreSpawner for PocketMine-PMMP 5\n- This is improved upgrade from an old project of mine. [Here](https://github.com/VennDev/OreSpawner)\n- Giving your server exciting gameplay comes from placing ores spawn machines or so to speak, custom block types at your disposal.\n\n# Commands\n```\n/vorespawner or /vos - give <player> <type> <level> <amount>\n```\n\n# Config\n```yaml\n---\n\n# Radius of the spawner\nradius: 5 # Radius in blocks around the spawner where it can operate\n\n# Update interval in seconds (will be converted to ticks internally: 1 second = 20 ticks)\nupdate_interval: 20 # Spawner action interval in seconds\n\n# Messages\nmessages:\n  wrong_position: \"You can't place the Spawner here!\"\n  no_permission: \"You do not own this OreSpawner to be able to break it!\"\n\n# Types of OreSpawner\nore_spawner_types:\n  coal:\n    # This is the item that you will hold in your hand to represent the Spawner. In short, the item in hand to pose as the Spawner.\n    item_data:\n      item: \"minecraft:coal_ore\"\n      name: \"Coal Ore\"\n      lore:\n        - \"Coal Ore\"\n        - \"Level: %level%\"\n\n    # Blocks to spawn\n    blocks:\n      - \"minecraft:stone\"\n      - \"minecraft:coal_ore\"\n\n    # Spawn levels and their respective speeds\n    # Speed determines how quickly the spawner operates:\n    # - Each level increases the speed of ticking.\n    # - Speed affects the time taken for the spawner to perform its action:\n    #     Real-time (seconds) = (default-interval / speed) i..e  20 / 2 = 10 seconds\n    levels:\n      1:\n        speed: 1 # Default speed, uses full interval time.\n      2:\n        speed: 2 # Halves the time required.\n      3:\n        speed: 3 # Reduces time to one-third of the default interval.\n\n  diamond:\n    item_data:\n      item: \"minecraft:light_blue_glazed_terracotta\"\n      name: \"Diamond Ore\"\n      lore:\n        - \"Diamond Ore\"\n        - \"Level: %level%\"\n\n    # Blocks to spawn\n    blocks:\n      - \"minecraft:diamond_ore\"\n    levels:\n      1:\n        speed: 1\n      2:\n        speed: 2\n      3:\n        speed: 3 \n```\n\n# Credits\n- Email: pnam5005@gmail.com\n- Paypal: lifeboat909@gmail.com",
+  "readme_source_url": "https://github.com/VennDev/VOreSpawner",
+  "icon_url": "https://raw.githubusercontent.com/VennDev/VOreSpawner/cc63c59987a1ed7a2340bcc960dba11312e7527c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/VennDev/VOreSpawner",
+  "archive_repo": null,
+  "approved_release_tag": "r-13793",
+  "stars": 0,
+  "total_downloads": 168,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "VennDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/252026",
+  "versions": {
+    "stable": {
+      "version": "1.0.7",
+      "tag": "r-13793",
+      "published_at": null,
+      "downloads": 168,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13793/vorespawner-1.0.7-r13793.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13793",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13793/vorespawner-1.0.7-r13793.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VOreSpawner",
+    "stable_release_id": 13793
+  }
+}

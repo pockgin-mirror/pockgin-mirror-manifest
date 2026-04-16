@@ -1,0 +1,63 @@
+{
+  "id": "casino",
+  "name": "Casino",
+  "author": "SoyDavs",
+  "description": "Casino Plugin for PocketMine-MP",
+  "readme_markdown": "# Casino Plugin for PocketMine-MP\n\nA fully-featured casino plugin for PocketMine-MP, allowing players to engage in exciting games like Blackjack, Coin Flip, and Number Guess! The plugin integrates with BedrockEconomy for handling bets and winnings, offering a seamless experience for your Minecraft server.\n\n---\n\n## Features\n\n- **Blackjack**: Challenge the dealer and try to get closer to 21 without going over.\n- **Coin Flip**: Bet on heads or tails and test your luck!\n- **Number Guess**: Guess a number between 1 and 10 and see if you're lucky.\n- **Configurable Messages**: Customize all messages displayed to players via `config.yml`.\n- **UI Integration**: Uses `Vecnavium\\FormsUI` for smooth and interactive menus.\n- **Economy Support**: Fully compatible with BedrockEconomy for handling virtual currency.\n\n---\n\n## Requirements\n\n- **PocketMine-MP**: Latest version.\n- **BedrockEconomy**: Economy plugin for PocketMine-MP.\n- **Vecnavium\\FormsUI**: For user interface forms.\n\n---\n\n## Installation\n\n1. Download the plugin's `.phar` file or compile it from source.\n2. Place the `.phar` file into your `plugins/` folder.\n3. Restart your server.\n4. Ensure that both BedrockEconomy and FormsUI are installed and configured properly.\n\n---\n\n## Configuration\n\nThe plugin generates a `config.yml` file on the first run. Here's an example of the default configuration:\n\n```yaml\nmessages:\n  main_menu_title: \"Casino\"\n  blackjack_button: \"Blackjack\"\n  coin_flip_button: \"Coin Flip\"\n  number_guess_button: \"Number Guess\"\n  blackjack_minimum_bet: \"Minimum bet is 1!\"\n  blackjack_win: \"You won $$amount!\"\n  blackjack_lose: \"You lost $$amount!\"\n  coin_flip_win: \"Flip: $flip - You won $$amount!\"\n  coin_flip_lose: \"Flip: $flip - You lost $$amount!\"\n  number_guess_win: \"Number was $number - You won $$amount!\"\n  number_guess_lose: \"Number was $number - You lost $$amount!\"\n  insufficient_funds: \"Insufficient funds!\"\n  account_not_found: \"Account not found!\"\n  config_error: \"Configuration error: 'messages' is missing or invalid.\"\n```\n\nYou can customize these messages to fit your server's theme.\n\n---\n\n## Usage\n\n### Commands\n\n- `/casino`: Opens the casino main menu.",
+  "readme_source_url": "https://github.com/SoyDavs/Casino",
+  "icon_url": "https://raw.githubusercontent.com/SoyDavs/Casino/9db95e5be72ad0007e15ac8db482d6422f418b34/casino.png",
+  "featured": false,
+  "repo": "https://github.com/SoyDavs/Casino",
+  "archive_repo": null,
+  "approved_release_tag": "r-13731",
+  "stars": 0,
+  "total_downloads": 311,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SoyDavs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13731",
+      "published_at": null,
+      "downloads": 311,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13731/casino-1.0.0-r13731.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13731",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13731/casino-1.0.0-r13731.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Casino",
+    "stable_release_id": 13731
+  }
+}

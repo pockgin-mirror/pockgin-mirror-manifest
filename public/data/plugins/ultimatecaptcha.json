@@ -1,0 +1,61 @@
+{
+  "id": "ultimatecaptcha",
+  "name": "UltimateCaptcha",
+  "author": "SoyDavs",
+  "description": "UltimateCaptcha Plugin for PocketMine-MP",
+  "readme_markdown": "# UltimateCaptcha Plugin for PocketMine-MP\n\n![UltimateCaptcha Icon](icon.png)\n\n## Introduction\nUltimateCaptcha is a highly secure and customizable captcha plugin designed for PocketMine-MP 5.x. This plugin helps protect your server by requiring players to complete a captcha before they can interact with the world. It ensures that only legitimate players gain access while preventing automated bots from causing trouble.\n\n## Features\n- **Customizable Captcha**: Configure captcha type, text length, and case sensitivity.\n- **UI Integration**: Uses Vecnavium FormsUI for a sleek and intuitive user interface.\n- **Player Verification Persistence**: Once a player successfully completes the captcha, they won’t need to do it again unless specified in the config.\n- **Discord Notifications**: Sends alerts to a Discord webhook when a player fails the captcha multiple times.\n- **Fully Configurable**: All settings, including messages, colors, and webhook URLs, are customizable via `config.yml`.\n\n## Requirements\n- PocketMine-MP 5.x\n- Vecnavium FormsUI\n\n## Installation\n1. Download the latest release of UltimateCaptcha from [GitHub Releases](#).\n2. Place the `UltimateCaptcha` folder in the `plugins` directory of your PocketMine-MP server.\n3. Ensure that Vecnavium FormsUI is installed and loaded.\n4. Start your server and modify the `config.yml` file located in `plugins/UltimateCaptcha/resources/` to suit your needs.\n\n## Configuration\nHere is an example `config.yml` file:\n\n```yaml\nCaptcha:\n  ShowOnEveryJoin: false\n  MaxAttempts: 3\n  NotifyOnSuspicious: true\n  CaptchaType: \"TEXT\"\n  RandomTextLength: 6\n  UseCaseSensitive: true\n  ResendFormDelay: 0\n  BlockMovement: true\n  BlockInteract: true\n  BlockCommands: true\n  BlockChat: true\n\nMessages:\n  Title: \"§l§bUltimateCaptcha\"\n  Description: \"Please complete this captcha to unlock!\"\n  WrongAnswer: \"§cIncorrect captcha. Try again!\"\n  CorrectAnswer: \"§aYou have passed the captcha!\"\n  SuspiciousAlert: \"§cYou have exceeded the maximum attempts!\"\n  BlockedInteract: \"§cYou must complete the captcha first!\"\n\nDiscord:\n  WebhookURL: \"https://discord.com/api/webhooks/XXXXX/XXXXX\"\n  SuspiciousMessage: \"Player {player} might be a bot! Too many captcha failures.\"\n```\n\n## Permissions\n| Permission                          | Description                                   | Default |\n|------------------------------------|-----------------------------------------------|---------|\n| `ultimatecaptcha.command.captcha`  | Allows players to use the `/captcha` command  | false   |\n| `ultimatecaptcha.bypass`           | Allows players to bypass the captcha          | op      |\n\n## Commands\n- **`/captcha`**: Forces the captcha form to appear again for the player using the command.\n\n## How It Works\n1. When a player joins the server, they will be prompted with a captcha if:\n   - They haven’t completed the captcha before.\n   - `ShowOnEveryJoin` is set to `true` in `config.yml`.\n2. Players must correctly type the random text displayed in the captcha form.\n3. If a player fails the captcha multiple times (based on `MaxAttempts`), a Discord alert will be sent if `NotifyOnSuspicious` is enabled.\n4. Once a player successfully completes the captcha, they are added to `verifiedPlayers.yml`, ensuring they won’t see the captcha again unless `ShowOnEveryJoin` is enabled.\n\n## Contributing\nContributions are welcome! Feel free to fork this repository and submit a pull request with your changes.\n\n## License\nThis project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.\n\n## Issues\nIf you encounter any issues or have feature requests, please open an issue in the [GitHub Issues](#) section.\n\n## Contact\nFor further inquiries or support, please contact the plugin developer via GitHub.\n\n---\n\nThank you for using UltimateCaptcha! Protect your server and enjoy a bot-free environment!",
+  "readme_source_url": "https://github.com/SoyDavs/UltimateCaptcha",
+  "icon_url": "https://raw.githubusercontent.com/SoyDavs/UltimateCaptcha/bcc30815e4442ae1bb739f4dac4f4d8eb2615f96/icon.png",
+  "featured": false,
+  "repo": "https://github.com/SoyDavs/UltimateCaptcha",
+  "archive_repo": null,
+  "approved_release_tag": "r-13753",
+  "stars": 0,
+  "total_downloads": 88,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SoyDavs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13753",
+      "published_at": null,
+      "downloads": 88,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13753/ultimatecaptcha-1.0.0-r13753.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13753",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13753/ultimatecaptcha-1.0.0-r13753.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "UltimateCaptcha",
+    "stable_release_id": 13753
+  }
+}

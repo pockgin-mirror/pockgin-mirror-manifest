@@ -1,0 +1,61 @@
+{
+  "id": "blockannouncer",
+  "name": "BlockAnnouncer",
+  "author": "WavyCraftNetwork",
+  "description": "This plugin sends a broadcasted message when a player mines a block that has been specified in the 'config.yml'. You have the choice to either allow all worlds to get affected o...",
+  "readme_markdown": "# BlockAnnouncer\nThis plugin sends a broadcasted message when a player mines a block that has been specified in the 'config.yml'. You have the choice to either allow all worlds to get affected or only the worlds thats in the array.\n\n# How is it useful?\nIn a survival setting players who have discovered diamonds can announce to the server they had found diamond ore. This can be used as a way to detect xray aswell.\n\n# Public plugins\nSome plugins I release may require the Core plugin which **will not** be released to the public anytime soon!",
+  "readme_source_url": "https://github.com/WavyCraftNetwork/BlockAnnouncer",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/WavyCraftNetwork/BlockAnnouncer",
+  "archive_repo": null,
+  "approved_release_tag": "r-13587",
+  "stars": 0,
+  "total_downloads": 77,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "WavyCraftNetwork"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13587",
+      "published_at": null,
+      "downloads": 77,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13587/blockannouncer-1.0.0-r13587.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13587",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13587/blockannouncer-1.0.0-r13587.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockAnnouncer",
+    "stable_release_id": 13587
+  }
+}

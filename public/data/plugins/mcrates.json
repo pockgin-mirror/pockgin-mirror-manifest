@@ -1,0 +1,61 @@
+{
+  "id": "mcrates",
+  "name": "MCrates",
+  "author": "Mrchlldev",
+  "description": "MCrates is a cloning plugin from PiggyCrates, Make simple and customizable crates plugin, supporting an unlimited amount of crate types. support custom item by Customies?",
+  "readme_markdown": "<h2>MCrates</h2>\n<p>MCrates is a cloning plugin from PiggyCrates, Make simple and customizable crates plugin, supporting an unlimited amount of crate types. support custom item by Customies?</p>\n\n<h2>Feature:</h2>\n<ol>\n  <li>PiggyCustomEnchant Support.</li>\n  <li>Support More Crate Blocks.</li>\n  <li>Unlimited Crate Type</li>\n  <li>Support Custom Item by Customies?</li>\n  <li>Form Manager</li>\n  <li>Easy to use</li>\n</ol>\n\n<h2>Depend:</h2>\n<ol>\n  <li>Commando by <a href=\"https://github.com/CortexPE/Commando\">CortexPE</a></li>\n  <li>libPiggyUpdateChecker by <a href=\"https://github.com/DaPigGuy/libPiggyUpdateChecker\">DaPigGuy</a></li>\n  <li>InvMenu by <a href=\"https://github.com/Muqsit/InvMenu\">Muqsit</a></li>\n  <li>Customies by <a href=\"https://github.com/CustomiesDevs/Customies\">Customiesdevs</a></li>\n  <li>FormAPI by <a href=\"https://github.com/jojoe77777/FormAPI\">Jojoe77777</a></li>\n</ol>\n\n<h2>Support crate blocks:</h2>\n<ol>\n  <li>Chest</li>\n  <li>EnchantTable</li>\n  <li>Shulker(bugs)</li>\n  <li>Barrel</li>\n  <li>Ender Chest</li>\n  <li>Beacon</li>\n</ol>\n\n<h2>Screenshot:</h2>\n<img src=\"20240814_111112.jpg\"/>\n<img src=\"20240814_111129.jpg\"/>\n<img src=\"20240814_111146.jpg\"/>\n<h2>TODO:</h2>\n<ol>\n  <li>Add Keyshop feature</li>\n  <li>Add /mcrate list for see the crate list from crates.yml</li>\n</ol>",
+  "readme_source_url": "https://github.com/Mrchlldev/MCrates",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Mrchlldev/MCrates",
+  "archive_repo": null,
+  "approved_release_tag": "r-13592",
+  "stars": 0,
+  "total_downloads": 328,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Mrchlldev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-13592",
+      "published_at": null,
+      "downloads": 328,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13592/mcrates-1.0.1-r13592.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13592",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13592/mcrates-1.0.1-r13592.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MCrates",
+    "stable_release_id": 13592
+  }
+}

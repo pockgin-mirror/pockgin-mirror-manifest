@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13951",
   "stars": 0,
-  "total_downloads": 833,
+  "total_downloads": 1791,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,14 +34,14 @@
       "version": "1.3.3",
       "tag": "r-13951",
       "published_at": null,
-      "downloads": 277,
+      "downloads": 278,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13951/zuri-1.3.3-r13951.phar"
     },
     "dev": {
       "version": "1.3.5-BETA",
       "tag": "r-14064",
       "published_at": null,
-      "downloads": 556,
+      "downloads": 557,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14064/zuri-1.3.5-beta-r14064.phar"
     }
   },
@@ -55,6 +55,16 @@
       "tag": "r-13951",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13951/zuri-1.3.3-r13951.phar"
+    },
+    {
+      "tag": "r-13714",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13714/zuri-1.3.2-r13714.phar"
+    },
+    {
+      "tag": "r-13531",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13531/zuri-1.3.1-r13531.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,66 @@
+{
+  "id": "debugworld",
+  "name": "DebugWorld",
+  "author": "Hebbinkpro",
+  "description": "Debug World",
+  "readme_markdown": "# Debug World\n\nThis plugin implements a debug world generator like the [debug mode](https://minecraft.wiki/w/Debug_mode) generator from\nJava edition.\n\n## Features\n\n- Barrier layer at `y=60` in the whole world\n- Block grid at `y=70` starting at `x,z=0,0` forming a grid in the `+x` and `+z` directions\n- Contains all the registered block states\n- No block updates and (random) ticks in worlds generated using the `DebugWorldGenerator`\n- The same world for all seeds\n- Difficulty set to peaceful\n\n## Usage\n\nPut the plugin in the `plugins` folder of your server.\n\nYou can now create a debug world using any world management plugin, e.g. Worlds or MultiWorld.\nWhen creating a world, set the world generator to `debug` and the debug world will be created.\n\nTo make sure that the debug world represents all block states correctly, create a new debug world after each PMMP\nupdate.\nSee [Issues](#issues) for more info.\n\n### Examples\n\n- Using [Worlds](https://poggit.pmmp.io/p/worlds): `/worlds create <worldname> debug`\n- Using [MultiWorld](https://poggit.pmmp.io/p/MultiWorld/2.1.1): `/mw create <worldname> 0 debug`\n    - The world is the same for all seeds, therefore the seed `0` is used in this example.\n\n## Issues\n\n- **A debug world is outdated after each PocketMine-MP update**\n    - Since there are constantly new blocks implemented in Minecraft and PocketMine, the block states will change on\n      each update.\n      When the block states change, this will result in an outdated debug world since the chunks containing all blocks\n      are already generated.\n    - The only way to fix this problem is to remove the old debug world and create a new debug world after each\n      PocketMine-MP update.\n    - This issue will most likely also occur when adding custom blocks using plugins like Customies.\n- **Illegal blocks are invisible**\n  Since all blocks are generated from their block states, blocks which consist out of multiple blocks (e.g., beds and\n  doors) are split into their separate parts (e.g., door_top and door_bottom).\n  But it seemed during testing that the Minecraft Bedrock client is not able to render these \"illegal\" blocks, causing\n  the blocks to be invisible.",
+  "readme_source_url": "https://github.com/Hebbinkpro/DebugWorld",
+  "icon_url": "https://raw.githubusercontent.com/Hebbinkpro/DebugWorld/0448411f4e733a54b6d9c6b39b1b2774f0bf2c79/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Hebbinkpro/DebugWorld",
+  "archive_repo": null,
+  "approved_release_tag": "r-13647",
+  "stars": 0,
+  "total_downloads": 162,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.16.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Hebbinkpro"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/249967",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-13647",
+      "published_at": null,
+      "downloads": 115,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13647/debugworld-1.0.1-r13647.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13647",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13647/debugworld-1.0.1-r13647.phar"
+    },
+    {
+      "tag": "r-13624",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13624/debugworld-1.0.0-r13624.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DebugWorld",
+    "stable_release_id": 13647
+  }
+}

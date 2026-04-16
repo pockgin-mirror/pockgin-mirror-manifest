@@ -1,0 +1,61 @@
+{
+  "id": "chatcensored",
+  "name": "ChatCensored",
+  "author": "KumaaDeveloper",
+  "description": "General",
+  "readme_markdown": "## General\nChatSencored is a Pocketmine plugin that works to censor forbidden words on the server\n\n## Features\n- Censor words that are forbidden on the server\n- Custom words in word.yml\n  \n## Configuration\nThe configuration file (`word.yml`) is used to store banned words on the server. The plugin will automatically save the configuration file when the server is activated.\n\n## Installation\n1. Download the plugin.\n2. Place the plugin's `.phar` file in the `plugins` folder of your PocketMine-MP server.\n3. Start or restart the server to load the plugin.",
+  "readme_source_url": "https://github.com/KumaaDeveloper/ChatCensored",
+  "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/ChatCensored/c07a3e34a904c98a94a57a4d72e8cae9b4a4f2c8/icon.png",
+  "featured": false,
+  "repo": "https://github.com/KumaaDeveloper/ChatCensored",
+  "archive_repo": null,
+  "approved_release_tag": "r-13628",
+  "stars": 0,
+  "total_downloads": 188,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KumaaDeveloper"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/249656",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-13628",
+      "published_at": null,
+      "downloads": 188,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13628/chatcensored-1.1.0-r13628.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13628",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13628/chatcensored-1.1.0-r13628.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatCensored",
+    "stable_release_id": 13628
+  }
+}

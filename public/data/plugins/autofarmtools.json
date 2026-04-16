@@ -1,0 +1,64 @@
+{
+  "id": "autofarmtools",
+  "name": "AutoFarmTools",
+  "author": "MyFreds",
+  "description": "The Auto Farm Tools plugin for PocketMine-MP allows players to easily plant seeds in farmland using a special item called the \"Auto Farm Tools\".",
+  "readme_markdown": "<!-- PROJECT BADGES -->\n<div align=\"center\">\n\n[![Lint](https://poggit.pmmp.io/ci.shield/MyFreds/AutoFarmTools/AutoFarmTools)](https://poggit.pmmp.io/ci/MyFreds/AutoFarmTools/AutoFarmTools)\n\n</div>\n\n\n<!-- PROJECT LOGO -->\n<br />\n<div align=\"center\">\n  <img src=\"https://github.com/MyFreds/AutoFarmTools/blob/main/icon.png\" alt=\"Logo\" width=\"80\" height=\"80\">\n  <h3>AutoFarmTools</h3>\n  <p align=\"center\">\n    The Auto Farm Tools plugin for PocketMine-MP allows players to easily plant seeds in farmland using a special item called the \"Auto Farm Tools\".\n\n\n[View in Poggit](https://poggit.pmmp.io/ci/MyFreds/AutoFarmTools/AutoFarmTools) · [Report a bug](https://github.com/MyFreds/AutoFarmTools/issues)\n\n  </p>\n</div>\n\n\n<!-- ABOUT THE PROJECT -->\n# 📔 About\nThe Auto Farm Land plugin for PocketMine-MP allows players to easily plant seeds in farmland using a special item called the \"Auto Farm Land\". With this plugin, players can quickly and efficiently plant various types of seeds on any available farmland blocks within a specified area.\n\nIn addition, the plugin includes a simple shop system (`/autofarmtoolshop`) where players can purchase the Auto Farm Tools item using in-game currency (supported by EconomyAPI & BedrockEconomy). All relevant settings, messages, and prices can be customized in configuration files.\n\n# ❔ Basic Command\n- `/autofarmtools`: Gives the player a \"Auto Farm Tools\" stick, which can be used to plant seeds.\n- `/autofarmtoolshop`: Opens the Auto Farm Tools shop where players can buy the Auto Farm Tools item using in-game currency. The availability of the shop and the price of the item can be configured in the **autofarmtoolshop.yml** file.\n\n# ⚙️ Dendencies\n| Plugin/Virion  | Download                                                                    |\n|----------------|-----------                                                                  |\n| libEco         | [here](https://poggit.pmmp.io/ci/MyFreds/libEco/libEco) |\n| EconomyAPI     | [here](https://poggit.pmmp.io/ci/mathchat900/EconomyAPI-PM5/EconomyAPI-PM5) |\n| BedrockEconomy | [here](https://poggit.pmmp.io/ci/cooldogepm/BedrockEconomy/BedrockEconomy)  |\n\n# 🔁 Installation\n1. Download the latest version in [poggit](https://poggit.pmmp.io/ci/MyFreds/AutoFarmTools).\n2. Put the AutoFarmTools-dev?.phar file to the plugins folder.\n3. Restart the server.\n4. Done!\n\n# 🪪 Contact & Credit\nCONTACT\n- YouTube: Fredy Ma'ruf\n- Discord: Fredy Ma'ruf#0905\n- GitHub: MyFreds\n- Email: id.luxy.store@gmail.com\n\nCREDIT\n- Icon by [Freepix - Flaticon](https://www.flaticon.com/search?word=Seed)",
+  "readme_source_url": "https://github.com/MyFreds/AutoFarmTools",
+  "icon_url": "https://raw.githubusercontent.com/MyFreds/AutoFarmTools/09178ed35380e8461d41380f1d58968c31b26f0d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MyFreds/AutoFarmTools",
+  "archive_repo": null,
+  "approved_release_tag": "r-13493",
+  "stars": 5,
+  "total_downloads": 306,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MyFreds"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13493",
+      "published_at": null,
+      "downloads": 306,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13493/autofarmtools-1.0.0-r13493.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13493",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13493/autofarmtools-1.0.0-r13493.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AutoFarmTools",
+    "stable_release_id": 13493
+  }
+}

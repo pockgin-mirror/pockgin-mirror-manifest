@@ -1,0 +1,61 @@
+{
+  "id": "lumberjack",
+  "name": "LumberJack",
+  "author": "Terpz710",
+  "description": "Lumberjack features for Pocketmine-MP",
+  "readme_markdown": "<p align=\"center\">\n    <a href=\"https://github.com/Terpz710/LumberJack\"><img src=\"https://github.com/Terpz710/LumberJack/blob/main/icon.png\"></img></a><br>\n    <b>Lumberjack features for Pocketmine-MP</b>\n\n# Description\n\nA [Pocketmine-MP](https://pmmp.io) plugin that will give you a chance to chop down wood in a 2x2x10 area thus making you a lumberjack!\n\n**How to install**\n\n* Download the .phar from [Poggit](https://poggit.pmmp.io/ci/Terpz710/LumberJack/~)\n* Drop the .phar into the plugin folder\n* Start the server and boom!\n\n# Features \n\n* Currently only obtainable wood are supported. (Oak, Birch, Spruce, Acacia, Jungle and Dark Oak)\n* All axe types are supported\n* Configure the chances via 'config.yml'\n\n  Got a suggestion? Dm me via Discord!\n    * ace873056\n\n# Report a bug\n\nNeed to report a bug?\n\nPlease provide any error logs from the crash dump or console or type a clear way to reproduce it.\n\n[Click me!](https://github.com/Terpz710/LumberJack/issues/new)\n\n# Want to contribute?\n\nNote: I will not be merging any request! If the change is too small then it wont be accepted, dm me the issue instead.\n\n[click me!](https://github.com/Terpz710/LumberJack/pulls)",
+  "readme_source_url": "https://github.com/Terpz710/LumberJack",
+  "icon_url": "https://raw.githubusercontent.com/Terpz710/LumberJack/870aad8d20176e344cfce165685057a8b14399a8/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Terpz710/LumberJack",
+  "archive_repo": null,
+  "approved_release_tag": "r-13783",
+  "stars": 0,
+  "total_downloads": 200,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Terpz710"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/251832",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-13783",
+      "published_at": null,
+      "downloads": 200,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13783/lumberjack-1.0.1-r13783.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13783",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13783/lumberjack-1.0.1-r13783.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LumberJack",
+    "stable_release_id": 13783
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "parachuteplus",
+  "name": "ParachutePlus",
+  "author": "pixelwhiz",
+  "description": "🪂 ParachutePlus",
+  "readme_markdown": "# 🪂 ParachutePlus\n\n**ParachutePlus** is a Minecraft PocketMine plugin that allows players to use parachutes for a fun and safe descent. The plugin introduces two custom items: Parachute and AutoParachute, providing unique gameplay mechanics such as deploying a parachute and automatically activating it when falling.\n\n## Steps to Use:\n1. **Give Parachute**: Use the `/parachuteplus give <player name>` command to give a parachute to a player.\n2. **Deploy Parachute**: Right-click with the parachute item in hand to deploy it. The player will be mounted on a custom chicken entity, which will glide the player safely downwards.\n3. **Auto Parachute**: Once deployed, the parachute item transforms into an `AutoParachute`, which automatically activates upon falling and is removed when the player lands.\n\n\n# Command & Permission\n\n| Command                               | Description                                                       | Permission                |\n|---------------------------------------|-------------------------------------------------------------------|---------------------------|\n| **/parachuteplus give [player name]** | Give parachute to player                                                            | `parachuteplus.cmd`        |\n\n\n# Issues\n\nIf you have any issues, please report them [here](https://github.com/pixelwhiz/ParachutePlus/issues/new).\n\n# Preview\n\n> 📽️ Watch full preview [here](https://www.youtube.com/watch?v=eagcrjbnp4w)\n\n![Preview 1](assets/preview1.png)\n![Preview 2](assets/preview2.png)",
+  "readme_source_url": "https://github.com/pixelwhiz/ParachutePlus",
+  "icon_url": "https://raw.githubusercontent.com/pixelwhiz/ParachutePlus/9d22f312c89b89741f8392bdc552e3fe88847bc0/icon.png",
+  "featured": false,
+  "repo": "https://github.com/pixelwhiz/ParachutePlus",
+  "archive_repo": null,
+  "approved_release_tag": "r-13584",
+  "stars": 0,
+  "total_downloads": 151,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "pixelwhiz"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-13584",
+      "published_at": null,
+      "downloads": 151,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13584/parachuteplus-1.1.1-r13584.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13584",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13584/parachuteplus-1.1.1-r13584.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ParachutePlus",
+    "stable_release_id": 13584
+  }
+}

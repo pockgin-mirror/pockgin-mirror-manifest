@@ -1,0 +1,61 @@
+{
+  "id": "dynamicmotd",
+  "name": "DynamicMOTD",
+  "author": "Kronnosy",
+  "description": "🌟 DynamicMOTD",
+  "readme_markdown": "# 🌟 DynamicMOTD\n\n**DynamicMOTD** is a powerful plugin for **PocketMine-MP** servers that enhances the player experience by dynamically updating the server MOTD (Message of the Day) at specified intervals, creating an engaging and lively environment for your gaming community.\n\n## ✨ Features\n\n- **Dynamic MOTD Updates**  \n  Automatically cycles through a list of MOTD messages, keeping the server's message fresh and interesting for players.\n\n- **Customizable Messages**  \n  Configure your MOTD messages in the plugin's configuration file. You can use color codes and placeholders like `{ONLINE_PLAYERS}`, `{MAX_PLAYERS}` and `{VERSION}` for personalized messages.\n\n- **Interval Control**  \n  Set a delay for how frequently the MOTD updates, ensuring that players are presented with new information without overwhelming them.\n\n## 📬 Support & Feedback\n\nWe appreciate your feedback! If you encounter any issues or have suggestions for improvement, please open an issue on our [GitHub repository](https://github.com/Kronnosy/DynamicMOTD/issues). Your input is vital for enhancing this plugin!",
+  "readme_source_url": "https://github.com/Kronnosy/DynamicMOTD",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Kronnosy/DynamicMOTD",
+  "archive_repo": null,
+  "approved_release_tag": "r-13583",
+  "stars": 5,
+  "total_downloads": 175,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Kronnosy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13583",
+      "published_at": null,
+      "downloads": 175,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13583/dynamicmotd-1.0.0-r13583.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13583",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13583/dynamicmotd-1.0.0-r13583.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DynamicMOTD",
+    "stable_release_id": 13583
+  }
+}

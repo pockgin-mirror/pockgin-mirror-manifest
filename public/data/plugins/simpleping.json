@@ -1,0 +1,61 @@
+{
+  "id": "simpleping",
+  "name": "SimplePing",
+  "author": "LuthMC",
+  "description": "A simple pings plugin.",
+  "readme_markdown": "<p align=\"center\">\n <img width=\"100px\" src=\"https://i.ibb.co.com/DwLYkg6/20240827-114453.png\" align=\"center\" alt=\"GitHub Readme Stats\" />\n <h2 align=\"center\">SimplePing</h2>\n <p align=\"center\">A simple pings plugin.</p>\n</p>\n<p align=\"center\">\n<img src=\"https://github.com/LuthMC/SimplePing/blob/50aa0a03b6c6a208649ab90043ae4a6befc8a134/SimplePing.gif\" alt=\"\" border=\"0\">\n</p>\n\n---\n\n### Feature\n• Customizable Messages\n\n### How To Use\n```\n• Download the SimplePing plugin.\n• Place the plugin SimplePing.phar file into your server's plugins folder.\n• Restart your server to enable the plugin.\n```\n\n### ⭐ Credits\nIcon by [flaticon](https://www.flaticon.com)",
+  "readme_source_url": "https://github.com/LuthMC/SimplePing",
+  "icon_url": "https://raw.githubusercontent.com/LuthMC/SimplePing/c3a86307822263b29c9b1606e3919b7fd21cefbf/icon.png",
+  "featured": false,
+  "repo": "https://github.com/LuthMC/SimplePing",
+  "archive_repo": null,
+  "approved_release_tag": "r-13495",
+  "stars": 0,
+  "total_downloads": 237,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "LuthMC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13495",
+      "published_at": null,
+      "downloads": 237,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13495/simpleping-1.0.0-r13495.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13495",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13495/simpleping-1.0.0-r13495.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimplePing",
+    "stable_release_id": 13495
+  }
+}

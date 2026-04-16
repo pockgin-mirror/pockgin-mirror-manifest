@@ -1,0 +1,61 @@
+{
+  "id": "skillmastery",
+  "name": "SkillMastery",
+  "author": "AzliRynz",
+  "description": "This plugin that introduces a skill system, allowing players to level up and improve their abilities in areas like **Mining**, **Combat**, and **Athletics**. This plugin enhance...",
+  "readme_markdown": "# SkillMastery\nThis plugin that introduces a skill system, allowing players to level up and improve their abilities in areas like **Mining**, **Combat**, and **Athletics**. This plugin enhances gameplay by adding an RPG-like progression system.\n\n## Features\n\n- **Skill Leveling**: Players can level up their skills and unlock bonuses.\n- **XP System**: Gain XP through activities such as breaking blocks, combat, and movement.\n- **Dynamic Effects**:\n  - **Mining**: Earn extra XP based on skill level when breaking blocks.\n  - **Combat**: Increased damage multiplier as skill level increases.\n  - **Athletics**: Enhanced movement speed with higher skill levels.\n- **Interactive Skill Menu**: View skill progress and upgrade levels via a user-friendly UI.\n\n## Commands\n\n- `/skills`: Open the skill menu to view or upgrade skills (player-only command).\n\n## Configuration\n\n- `skills.yml`: Define skills, levels, and XP requirements.  \n  Example format:\n  ```yaml\n  skills:\n    mining:\n      levels:\n        1: 100\n        2: 250\n        3: 500\n    combat:\n      levels:\n        1: 200\n        2: 400\n        3: 800\n    athletics:\n      levels:\n        1: 150\n        2: 300\n        3: 600",
+  "readme_source_url": "https://github.com/AzliRynz/SkillMastery",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/AzliRynz/SkillMastery",
+  "archive_repo": null,
+  "approved_release_tag": "r-13743",
+  "stars": 0,
+  "total_downloads": 172,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AzliRynz"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13743",
+      "published_at": null,
+      "downloads": 172,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13743/skillmastery-1.0.0-r13743.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13743",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13743/skillmastery-1.0.0-r13743.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SkillMastery",
+    "stable_release_id": 13743
+  }
+}

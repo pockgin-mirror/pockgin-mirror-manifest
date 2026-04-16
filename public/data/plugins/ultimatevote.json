@@ -1,0 +1,61 @@
+{
+  "id": "ultimatevote",
+  "name": "UltimateVote",
+  "author": "ImAMadDev",
+  "description": "UltimateVote is a PocketMine-MP plugin for letting players claim their rewards from voting for your server.",
+  "readme_markdown": "# UltimateVote\r\n\r\n<img height=\"100\" src=\"assets/icon.png\" width=\"100\"/>\r\n\r\nUltimateVote is a PocketMine-MP plugin for letting players claim their rewards from voting for your server.\r\n\r\n![](https://poggit.pmmp.io/shield.state/UltimateVote)\r\n\r\n## Overview\r\n\r\n- All voting requests uses AsyncTask, which improves performance.\r\n- All messages are editable in the configuration\r\n- Automatic vote claiming, when a player joins.\r\n- PlayerVoteEvent for plugin developers.\r\n- VotePartyReachEvent for plugin developers.\r\n\r\n> Note: Data is cached and updated every 5 minutes.\r\n\r\n> <a href=\"https://github.com/ImAMadDev/UltimateVote/issues\"> For new feature requests or bug reports (click here)</a>\r\n\r\n\r\n## Last Update\r\n### Version 1.8.0-beta\r\n- **Fixed duplicate vote rewards issue** - Added 5-second command cooldown\r\n- **Fixed infinite processing state** - Auto-clear after 30 seconds\r\n- **Enhanced error handling** - Proper API error detection and user-friendly messages\r\n- **Comprehensive logging** - Detailed AsyncTask logging for debugging\r\n- **Improved stability** - Robust timeout protection and state management\r\n\r\n## Upcoming functions to be implemented\r\n- Save votes\r\n- Different benefits depending on the player's permissions\r\n\r\n<span style=\"color:yellow\">The plugin is still under development</span>\r\n\r\nThanks for your suggestions <a href=\"https://github.com/cendaaal\">cendaaal</a>",
+  "readme_source_url": "https://github.com/ImAMadDev/UltimateVote",
+  "icon_url": "https://raw.githubusercontent.com/ImAMadDev/UltimateVote/7cc0fc0996d3026640d5147f535cb45a9566dbd4/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ImAMadDev/UltimateVote",
+  "archive_repo": null,
+  "approved_release_tag": "r-13781",
+  "stars": 1,
+  "total_downloads": 206,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ImAMadDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.7",
+      "tag": "r-13781",
+      "published_at": null,
+      "downloads": 206,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13781/ultimatevote-1.7-r13781.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13781",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13781/ultimatevote-1.7-r13781.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "UltimateVote",
+    "stable_release_id": 13781
+  }
+}

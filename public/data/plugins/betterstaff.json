@@ -1,0 +1,61 @@
+{
+  "id": "betterstaff",
+  "name": "BetterStaff",
+  "author": "Jorgebyte",
+  "description": "BetterStaff is a powerful Pocketmine plugin designed to streamline moderation and enhance your server's management. Equip your moderators with a comprehensive toolkit that simpl...",
+  "readme_markdown": "# BetterStaff\n\n[![](https://poggit.pmmp.io/shield.api/BetterStaff)](https://poggit.pmmp.io/p/BetterStaff)\n\nBetterStaff is a powerful Pocketmine plugin designed to streamline moderation and enhance your server's management. Equip your moderators with a comprehensive toolkit that simplifies tasks and empowers them to effectively maintain order.\n\n# Commands\n Staffs:\n- `/betterstaff` Enter moderation mode\n- `/tempban <player> <time> <reason>` Ban users by time\n- `/tempmute <player> <time> <reason>` mute users by time\n- `/untempban <player>` Unban the user\n- `/untempmute <player>` unmute the user\n- `/checktempban <player>` See if the user's status is banned\n- `/checktempmute <player>` See if the user's status is muted\n- `/staffchat` Enter the private staff chat mode\n- `/playerinfo <player>` View user information\n\n Users:\n- `/report` open the menu to report\n- `/stafflist` see the staffs connected at that moment\n\n# Permissions\n```YAML\npermissions:\n  betterstaff.command.staff:\n    default: op\n  betterstaff.command.freeze:\n    default: op\n  betterstaff.staffchat:\n    default: op\n  betterstaff.command.staffchat:\n    default: op\n  betterstaff.command.tempban:\n    default: op\n  betterstaff.command.untempban:\n    default: op\n  betterstaff.command.playerinfo:\n    default: op\n  betterstaff.reportview:\n    default: op\n  betterstaff.stafflist:\n    default: op\n  betterstaff.command.tempmute:\n    default: op\n  betterstaff.command.untempmute:\n    default: op\n  betterstaff.command.report:\n    default: true\n  betterstaff.command.stafflist:\n    default: true\n```\n\n[![Discord Presence](https://lanyard.cnrad.dev/api/1165097093480853634?theme=dark&bg=005cff&animated=false&hideDiscrim=true&borderRadius=30px&idleMessage=Hello%20guys%20and%20girls)](https://discord.com/users/1165097093480853634)",
+  "readme_source_url": "https://github.com/Jorgebyte/BetterStaff",
+  "icon_url": "https://raw.githubusercontent.com/Jorgebyte/BetterStaff/17f1bff1c3db551fbfe1a7372d6d0436754042c6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Jorgebyte/BetterStaff",
+  "archive_repo": null,
+  "approved_release_tag": "r-13502",
+  "stars": 0,
+  "total_downloads": 646,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Jorgebyte"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-13502",
+      "published_at": null,
+      "downloads": 646,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13502/betterstaff-1.0.3-r13502.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13502",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13502/betterstaff-1.0.3-r13502.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterStaff",
+    "stable_release_id": 13502
+  }
+}
