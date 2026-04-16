@@ -1,0 +1,59 @@
+{
+  "id": "worldguardplugin",
+  "name": "WorldGuardPlugin",
+  "author": "gamegam",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/gamegam/WorldGuard/5919ac66b9a6169ca7dd46b19d5c62a0e94073da/icon.png",
+  "featured": false,
+  "repo": "https://github.com/gamegam/WorldGuard",
+  "archive_repo": null,
+  "approved_release_tag": "r-14367",
+  "stars": 0,
+  "total_downloads": 218,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "gamegam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/262478",
+  "versions": {
+    "stable": {
+      "version": "3.0.2",
+      "tag": "r-14367",
+      "published_at": null,
+      "downloads": 218,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14367/worldguardplugin-3.0.2-r14367.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14367",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14367/worldguardplugin-3.0.2-r14367.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorldGuardPlugin",
+    "stable_release_id": 14367
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "root-emojis",
+  "name": "Root-Emojis",
+  "author": "ValresMC",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/ValresMC/Root-Emojis/3a706971bd8a9a8627676113d5195eff73a98771/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ValresMC/Root-Emojis",
+  "archive_repo": null,
+  "approved_release_tag": "r-14419",
+  "stars": 0,
+  "total_downloads": 17,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ValresMC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-14419",
+      "published_at": null,
+      "downloads": 17,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14419/root-emojis-1.0.0-r14419.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14419",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14419/root-emojis-1.0.0-r14419.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Root-Emojis",
+    "stable_release_id": 14419
+  }
+}

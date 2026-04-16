@@ -1,0 +1,61 @@
+{
+  "id": "simpleeconomy",
+  "name": "SimpleEconomy",
+  "author": "NhanAZ-Plugins",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/NhanAZ-Plugins/SimpleEconomy/032047330388bb8fabcd8b0c6b7130576da3a08e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/NhanAZ-Plugins/SimpleEconomy",
+  "archive_repo": null,
+  "approved_release_tag": "r-14387",
+  "stars": 5,
+  "total_downloads": 58,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "ScoreHud"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "NhanAZ-Plugins"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-14387",
+      "published_at": null,
+      "downloads": 58,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14387/simpleeconomy-1.0.0-r14387.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14387",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14387/simpleeconomy-1.0.0-r14387.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleEconomy",
+    "stable_release_id": 14387
+  }
+}

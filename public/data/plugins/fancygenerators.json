@@ -1,0 +1,59 @@
+{
+  "id": "fancygenerators",
+  "name": "FancyGenerators",
+  "author": "survanetwork",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/survanetwork/FancyGenerators/8a9c0ce9b9dd29b7cbfdef25784c9d9bec288bd5/icon.png",
+  "featured": false,
+  "repo": "https://github.com/survanetwork/FancyGenerators",
+  "archive_repo": null,
+  "approved_release_tag": "r-14385",
+  "stars": 0,
+  "total_downloads": 45,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "survanetwork"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/262831",
+  "versions": {
+    "stable": {
+      "version": "1.2.2",
+      "tag": "r-14385",
+      "published_at": null,
+      "downloads": 45,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14385/fancygenerators-1.2.2-r14385.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14385",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14385/fancygenerators-1.2.2-r14385.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FancyGenerators",
+    "stable_release_id": 14385
+  }
+}

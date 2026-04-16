@@ -1,0 +1,64 @@
+{
+  "id": "autosellpe",
+  "name": "AutoSellPE",
+  "author": "MCPEAbdu77",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/MCPEAbdu77/AutoSellPE/340af875a622209bd39a6ed6bae435150b04d3b4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MCPEAbdu77/AutoSellPE",
+  "archive_repo": null,
+  "approved_release_tag": "r-14416",
+  "stars": 0,
+  "total_downloads": 26,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "Capital",
+      "BedrockEconomy",
+      "SimpleEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MCPEAbdu77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/263653",
+  "versions": {
+    "stable": {
+      "version": "4.0.0",
+      "tag": "r-14416",
+      "published_at": null,
+      "downloads": 26,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14416/autosellpe-4.0.0-r14416.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14416",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14416/autosellpe-4.0.0-r14416.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AutoSellPE",
+    "stable_release_id": 14416
+  }
+}

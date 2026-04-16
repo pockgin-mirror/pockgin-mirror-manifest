@@ -1,0 +1,59 @@
+{
+  "id": "uncensoraz",
+  "name": "UncensorAZ",
+  "author": "NhanAZ-Plugins",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/NhanAZ-Plugins/Uncensor/38f618ae5d09f795c26a30823c3829ed44b214cb/icon.png",
+  "featured": false,
+  "repo": "https://github.com/NhanAZ-Plugins/Uncensor",
+  "archive_repo": null,
+  "approved_release_tag": "r-14428",
+  "stars": 0,
+  "total_downloads": 7,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "NhanAZ-Plugins"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-14428",
+      "published_at": null,
+      "downloads": 7,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14428/uncensoraz-0.0.1-r14428.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14428",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14428/uncensoraz-0.0.1-r14428.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "UncensorAZ",
+    "stable_release_id": 14428
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "martianenchantments",
+  "name": "MartianEnchantments",
+  "author": "MrEcstsy",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/MrEcstsy/MartianEnchantments/4f075a8182423cc656a15b7549022a6d1d2ef65e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MrEcstsy/MartianEnchantments",
+  "archive_repo": null,
+  "approved_release_tag": "r-14362",
+  "stars": 1,
+  "total_downloads": 35,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MrEcstsy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/262380",
+  "versions": {
+    "stable": {
+      "version": "0.0.2-DEV",
+      "tag": "r-14362",
+      "published_at": null,
+      "downloads": 35,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14362/martianenchantments-0.0.2-dev-r14362.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14362",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14362/martianenchantments-0.0.2-dev-r14362.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MartianEnchantments",
+    "stable_release_id": 14362
+  }
+}

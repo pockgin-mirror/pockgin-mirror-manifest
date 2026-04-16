@@ -1,0 +1,59 @@
+{
+  "id": "deathchest",
+  "name": "DeathChest",
+  "author": "Terpz710",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/Terpz710/DeathChest/6b839e1fcd25e8063c15c521b8714cab2e114596/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Terpz710/DeathChest",
+  "archive_repo": null,
+  "approved_release_tag": "r-14303",
+  "stars": 0,
+  "total_downloads": 130,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Terpz710"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/261953",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-14303",
+      "published_at": null,
+      "downloads": 130,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14303/deathchest-1.0.3-r14303.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14303",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14303/deathchest-1.0.3-r14303.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DeathChest",
+    "stable_release_id": 14303
+  }
+}

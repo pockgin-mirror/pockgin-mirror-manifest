@@ -1,0 +1,59 @@
+{
+  "id": "superiorveinminer",
+  "name": "SuperiorVeinMiner",
+  "author": "Not-Baguette",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/Not-Baguette/SuperiorVeinMiner/dd9f089de35866e29fadce370c759e428d7789e5/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Not-Baguette/SuperiorVeinMiner",
+  "archive_repo": null,
+  "approved_release_tag": "r-14364",
+  "stars": 0,
+  "total_downloads": 72,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Not-Baguette"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.2",
+      "tag": "r-14364",
+      "published_at": null,
+      "downloads": 72,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14364/superiorveinminer-1.1.2-r14364.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14364",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14364/superiorveinminer-1.1.2-r14364.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SuperiorVeinMiner",
+    "stable_release_id": 14364
+  }
+}

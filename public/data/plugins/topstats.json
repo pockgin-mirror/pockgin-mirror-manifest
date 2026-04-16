@@ -1,0 +1,62 @@
+{
+  "id": "topstats",
+  "name": "TopStats",
+  "author": "nicholass003",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/nicholass003/TopStats/29ae10b204d98d0c9b702d9b58ba7b68834458ca/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nicholass003/TopStats",
+  "archive_repo": null,
+  "approved_release_tag": "r-14394",
+  "stars": 5,
+  "total_downloads": 65,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.36.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "TopVoter",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nicholass003"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/263325",
+  "versions": {
+    "stable": {
+      "version": "0.3.8",
+      "tag": "r-14394",
+      "published_at": null,
+      "downloads": 65,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14394/topstats-0.3.8-r14394.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14394",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14394/topstats-0.3.8-r14394.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TopStats",
+    "stable_release_id": 14394
+  }
+}

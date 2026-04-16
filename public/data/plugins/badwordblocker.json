@@ -1,0 +1,59 @@
+{
+  "id": "badwordblocker",
+  "name": "BadWordBlocker",
+  "author": "survanetwork",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/survanetwork/BadWordBlocker/19352748cf4df6b9c73566b57081f43bf1b082e3/icon.png",
+  "featured": false,
+  "repo": "https://github.com/survanetwork/BadWordBlocker",
+  "archive_repo": null,
+  "approved_release_tag": "r-14384",
+  "stars": 0,
+  "total_downloads": 58,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "survanetwork"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/262826",
+  "versions": {
+    "stable": {
+      "version": "2.0.4",
+      "tag": "r-14384",
+      "published_at": null,
+      "downloads": 58,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14384/badwordblocker-2.0.4-r14384.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14384",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14384/badwordblocker-2.0.4-r14384.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BadWordBlocker",
+    "stable_release_id": 14384
+  }
+}

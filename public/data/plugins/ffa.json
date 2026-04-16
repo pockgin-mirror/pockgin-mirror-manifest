@@ -1,0 +1,61 @@
+{
+  "id": "ffa",
+  "name": "FFA",
+  "author": "Laith98Dev",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/Laith98Dev/FFA/3d31990671b409c11dc40c08deaa75bf7d219e28/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Laith98Dev/FFA",
+  "archive_repo": null,
+  "approved_release_tag": "r-14377",
+  "stars": 0,
+  "total_downloads": 113,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BanCommands"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Laith98Dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/262705",
+  "versions": {
+    "stable": {
+      "version": "2.5.0",
+      "tag": "r-14377",
+      "published_at": null,
+      "downloads": 113,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14377/ffa-2.5.0-r14377.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14377",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14377/ffa-2.5.0-r14377.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FFA",
+    "stable_release_id": 14377
+  }
+}

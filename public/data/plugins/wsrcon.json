@@ -1,0 +1,59 @@
+{
+  "id": "wsrcon",
+  "name": "wsRCON",
+  "author": "HBIDamian",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/HBIDamian/wsRCON/e23e0e679748d36af4b9e0a0358405e073020273/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HBIDamian/wsRCON",
+  "archive_repo": null,
+  "approved_release_tag": "r-14321",
+  "stars": 0,
+  "total_downloads": 25,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HBIDamian"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/262398",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-14321",
+      "published_at": null,
+      "downloads": 25,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14321/wsrcon-1.1.0-r14321.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14321",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14321/wsrcon-1.1.0-r14321.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "wsRCON",
+    "stable_release_id": 14321
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "worlds",
+  "name": "Worlds",
+  "author": "survanetwork",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/survanetwork/Worlds/ebfebb35cd6e94e64812aedae4761fe184d2f15d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/survanetwork/Worlds",
+  "archive_repo": null,
+  "approved_release_tag": "r-14382",
+  "stars": 0,
+  "total_downloads": 96,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "survanetwork"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/262816",
+  "versions": {
+    "stable": {
+      "version": "4.0.9",
+      "tag": "r-14382",
+      "published_at": null,
+      "downloads": 96,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14382/worlds-4.0.9-r14382.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14382",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14382/worlds-4.0.9-r14382.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Worlds",
+    "stable_release_id": 14382
+  }
+}

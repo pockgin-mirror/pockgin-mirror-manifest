@@ -1,0 +1,64 @@
+{
+  "id": "hotblock",
+  "name": "HotBlock",
+  "author": "survanetwork",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/survanetwork/HotBlock/c28e7e1bb290d9869353446257a9e99837804358/icon.png",
+  "featured": false,
+  "repo": "https://github.com/survanetwork/HotBlock",
+  "archive_repo": null,
+  "approved_release_tag": "r-14383",
+  "stars": 0,
+  "total_downloads": 43,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "InfoAPI",
+      "Capital",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "survanetwork"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/262821",
+  "versions": {
+    "stable": {
+      "version": "1.2.6",
+      "tag": "r-14383",
+      "published_at": null,
+      "downloads": 43,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14383/hotblock-1.2.6-r14383.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14383",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14383/hotblock-1.2.6-r14383.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HotBlock",
+    "stable_release_id": 14383
+  }
+}

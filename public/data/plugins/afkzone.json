@@ -1,0 +1,64 @@
+{
+  "id": "afkzone",
+  "name": "AFKZone",
+  "author": "LuthMC",
+  "description": "",
+  "icon_url": "https://raw.githubusercontent.com/LuthMC/AFKZone/10b3a94aae0874c298cff79de2b46c8deae0623d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/LuthMC/AFKZone",
+  "archive_repo": null,
+  "approved_release_tag": "r-14346",
+  "stars": 0,
+  "total_downloads": 49,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "ScoreHud"
+    ],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "LuthMC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/262233",
+  "versions": {
+    "stable": {
+      "version": "3.0.2",
+      "tag": "r-14346",
+      "published_at": null,
+      "downloads": 49,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14346/afkzone-3.0.2-r14346.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14346",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14346/afkzone-3.0.2-r14346.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AFKZone",
+    "stable_release_id": 14346
+  }
+}
