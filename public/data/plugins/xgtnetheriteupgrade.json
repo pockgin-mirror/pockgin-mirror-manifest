@@ -1,0 +1,61 @@
+{
+  "id": "xgtnetheriteupgrade",
+  "name": "XGTNetheriteUpgrade",
+  "author": "XGDavid",
+  "description": "This plugin allows players to upgrade diamond items to netherite without losing durability, enchantments, lore, or",
+  "readme_markdown": "# XGTNetheriteUpgrade\r\n\r\nThis plugin allows players to upgrade diamond items to netherite without losing durability, enchantments, lore, or\r\ncustom names.\r\n\r\n## How to install\r\n\r\n1. Install the plugin from [here](https://poggit.pmmp.io/ci/XGDavid/XGTNetheriteUpgrade)\r\n2. Start your server\r\n3. Edit Config\r\n4. Review the plugin :D\r\n\r\n## Config\r\n\r\n    #version\r\n    version: 1.0.0 #don't change!!!!!\r\n    \r\n    #if u want to use xp to upgrade ur item\r\n    xp: true #true/false\r\n    \r\n    #if xp: true :\r\n    xp-need: 15 #the amount of levels u need to upgrade ur item\r\n    xp-take: 3 #the amount of levels u will lose after the upgrade\r\n\r\n# Events\r\n\r\nYou can use [ItemUpgradeEvent]()\r\n\r\n# Socials\r\n\r\n🇷🇴\r\n\r\n[![Discord](https://img.shields.io/discord/689211475537297411?logo=discord)](https://discord.gg/kJTxvAjXrU)\r\n\r\n[![Badge](https://forthebadge.com/images/featured/featured-built-with-love.svg)](https://github.com/XGDavid)\r\n\r\n# Pull Request/Bug report\r\n\r\n- Open a bug report [here](https://github.com/XGDavid/XGTNetheriteUpgrade/issues/new)\r\n- Open a pull request [here](https://github.com/XGDavid/XGTNetheriteUpgrade/pulls)",
+  "readme_source_url": "https://github.com/XGDavid/XGTNetheriteUpgrade",
+  "icon_url": "https://raw.githubusercontent.com/XGDavid/XGTNetheriteUpgrade/d8e72c5b573813176307c7f6c5885cceb6e03673/netherite.gif",
+  "featured": false,
+  "repo": "https://github.com/XGDavid/XGTNetheriteUpgrade",
+  "archive_repo": null,
+  "approved_release_tag": "r-13286",
+  "stars": 0,
+  "total_downloads": 421,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "XGDavid"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13286",
+      "published_at": null,
+      "downloads": 421,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13286/xgtnetheriteupgrade-1.0.0-r13286.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13286",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13286/xgtnetheriteupgrade-1.0.0-r13286.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "XGTNetheriteUpgrade",
+    "stable_release_id": 13286
+  }
+}

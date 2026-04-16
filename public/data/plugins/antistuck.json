@@ -1,0 +1,61 @@
+{
+  "id": "antistuck",
+  "name": "AntiStuck",
+  "author": "ErwanScraft",
+  "description": "General",
+  "readme_markdown": "# General\nA plugin that prevents players from getting stuck in blocks when joining a server or when entering a world that hasn't loaded perfectly.\n\n[![](https://poggit.pmmp.io/shield.state/AntiStuck)](https://poggit.pmmp.io/p/AntiStuck)\n\n# Feature\n- Teleport player while stuck in a blocks\n- Sound effects when the player successfully teleports\n\n# Preview\n<img align=\"center\" src=\"./assets/preview.gif\">\n\n# Credits\nicon by <a target=\"_blank\" href=\"https://icons8.com\">Icons8</a>",
+  "readme_source_url": "https://github.com/ErwanScraft/AntiStuck",
+  "icon_url": "https://raw.githubusercontent.com/ErwanScraft/AntiStuck/31f0587253c41d7236ad2a60cd5d651b08b50d5c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ErwanScraft/AntiStuck",
+  "archive_repo": null,
+  "approved_release_tag": "r-13288",
+  "stars": 0,
+  "total_downloads": 539,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ErwanScraft"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-13288",
+      "published_at": null,
+      "downloads": 539,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13288/antistuck-1.0.1-r13288.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13288",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13288/antistuck-1.0.1-r13288.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiStuck",
+    "stable_release_id": 13288
+  }
+}

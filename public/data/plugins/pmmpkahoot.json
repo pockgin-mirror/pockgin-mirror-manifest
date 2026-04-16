@@ -1,0 +1,66 @@
+{
+  "id": "pmmpkahoot",
+  "name": "PMMPKahoot",
+  "author": "r3pt1s",
+  "description": "A Kahoot-based game for your PocketMineMP server.",
+  "readme_markdown": "# PMMPKahoot [![](https://poggit.pmmp.io/shield.dl/PMMPKahoot)](https://poggit.pmmp.io/p/PMMPKahoot) [![](https://poggit.pmmp.io/shield.dl.total/PMMPKahoot)](https://poggit.pmmp.io/p/PMMPKahoot)\n\nA Kahoot-based game for your PocketMineMP server.\n\n## Features\n- **Create your own** game templates to play with\n- **Public and private** lobbies to play with the whole server\n- **Play with others**, even as the host of the game\n\n## Commands\n| Usage        | Description             | Permission                               |\n|--------------|-------------------------|------------------------------------------|\n| /kahoot      | The main Kahoot command | pmmpkahoot.command.main (default: true)  |\n| /kahootleave | Leave your current game | pmmpkahoot.command.leave (default: true) |\n\n\n## Permissions\n| Description           | Permission                    |\n|-----------------------|-------------------------------|\n| Create public lobbies | pmmpkahoot.publiclobby.create |\n| Create templates      | pmmpkahoot.template.create    |\n\n## Configuration\n```yml\npublic-lobbies:\n  needPermToCreate: true # Type \"false\" if your players don't need a permission to create public Kahoot games.\n\ncreate-templates:\n  needPermToCreate: true # Type \"false\" if your players don't need a permission to create templates.\n```",
+  "readme_source_url": "https://github.com/r3pt1s/PMMPKahoot",
+  "icon_url": "https://raw.githubusercontent.com/r3pt1s/PMMPKahoot/e16f4c0c4c3199f00025ea37d7bd9535fd12dad2/icon.png",
+  "featured": false,
+  "repo": "https://github.com/r3pt1s/PMMPKahoot",
+  "archive_repo": null,
+  "approved_release_tag": "r-13315",
+  "stars": 0,
+  "total_downloads": 104,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "r3pt1s"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/244131",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-13315",
+      "published_at": null,
+      "downloads": 73,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13315/pmmpkahoot-1.0.1-r13315.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13315",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13315/pmmpkahoot-1.0.1-r13315.phar"
+    },
+    {
+      "tag": "r-13150",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13150/pmmpkahoot-1.0.0-r13150.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PMMPKahoot",
+    "stable_release_id": 13315
+  }
+}

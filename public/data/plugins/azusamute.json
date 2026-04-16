@@ -1,0 +1,61 @@
+{
+  "id": "azusamute",
+  "name": "AzusaMute",
+  "author": "KumaaDeveloper",
+  "description": "General",
+  "readme_markdown": "## General\nAzusaMute is a Pocketmine plug-in that works to mute players on the server, either one player or all players\n\n## Features\n- Can mute one player for a certain duration\n- Can free the player's punishment from mute\n- Can mute all players on the server\n- Can free the mute for all players on the server\n- Can check the player's mute status\n- Custom message in config\n\n## Command\nCommands | Default | Permission\n--- | --- | ---\n`/mute` | Op | azusamute.command.mute\n`/unmute` | Op | azusamute.command.unmute\n`/muteall` | Op | azusamute.command.muteall\n`/unmuteall` | Op | azusamute.command.unmuteall\n`/mutecheck` | Op | azusamute.command.mutecheck\n\n\n## Configuration\n```yaml\n# AzusaMute Configuration\n\n# Enable/disable the op function on mute\n# If \"true\", the player op will not be affected by the mute function.\n# If \"false\", the player op will be affected by the mute function.\nallow-op: false\n\n# Message on the server\nmessages:\n  already_muted: \"§cThe player is already on mute\"\n  not_muted: \"§cThe player is not on mute\"\n  unmute_success: \"You are free from the §emute penalty\"\n  already_muted_all: \"§cThe server is already on mute\"\n  not_muted_all: \"§cThe server is not in mute state\"\n\n# Message when player is mute by admin/player op\n  player_mute: \"You have been mute for §c{time} §fby §b{punisher}\"\n\n# Message when successfully checking mute player\n  mute_check: \"§e{player} §fwas mute within §c{time} §fby §b{punisher}\"\n\n# Message when the player tries to send a message on mute\n  mute_all: \"§cYou cannot send messages because the server is on mute\"\n  player_muted: \"You cannot send messages because you are on mute for §c{time}\"\n\n# Message when a mute player is unmuted\n  mute_ended: \"You are free from the §emute penalty\"\n  unmute_success: \"You are free from the §emute penalty\"\n\n# Message if allow-op = true, then player op cannot be muted\n  op_mute: \"§cOP players cannot be muted\"\n\n# Broadcast on the server\n  broadcast_mute: \"§e{player} §fgets a mute penalty for §c{time}\"\n  broadcast_mute_all: \"§cAll players on the server are mute\"\n  broadcast_unmute_all: \"§eAll players on the server are free from mute\"\n```",
+  "readme_source_url": "https://github.com/KumaaDeveloper/AzusaMute",
+  "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AzusaMute/d790dfba3e7009213afa4bc24d2e41ef86037624/icon.png",
+  "featured": false,
+  "repo": "https://github.com/KumaaDeveloper/AzusaMute",
+  "archive_repo": null,
+  "approved_release_tag": "r-13329",
+  "stars": 5,
+  "total_downloads": 697,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KumaaDeveloper"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13329",
+      "published_at": null,
+      "downloads": 697,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13329/azusamute-1.0.0-r13329.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13329",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13329/azusamute-1.0.0-r13329.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AzusaMute",
+    "stable_release_id": 13329
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "betterprisons",
+  "name": "BetterPrisons",
+  "author": "snarerectify",
+  "description": "Advanced prisons plugin for Pocketmine-MP.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/BetterPrisons)](https://poggit.pmmp.io/p/BetterPrisons)\n[![](https://poggit.pmmp.io/shield.dl.total/BetterPrisons)](https://poggit.pmmp.io/p/BetterPrisons)\n\n# BetterPrisons\n\nAdvanced prisons plugin for Pocketmine-MP.\n\n## Features\n - Ranking up and prestiging system.\n - Customisable command executing and permission giving system per rank up/prestige.\n - Optional rank system and scorehud addons.\n - Compatibility with bedrock economy.\n - Customisable messages and multipliers.\n - Optional requirement for players to mine a specified number of blocks before prestiging.\n\n## Installation\n 1. Download plugin phar from [here](https://poggit.pmmp.io/ci/snarerectify/BetterPrisons/~)\n 2. Add to your servers' plugin folder.\n 3. Restart server.\n\n## Commands\n| Command   | Description      | Permission                     |                                                             \n|-----------|------------------|--------------------------------|\n| /rankup   | Rankup command.  | betterprisons.rankup.command   | \n| /prestige | Prestige Command | betterprisons.prestige.command |         \n\n## ScoreHud Addon\nUse the following in your scorehud.yml ([ScoreHud](https://poggit.pmmp.io/p/ScoreHud) must be downloaded for this feature).\n| Tag                               | Description                                                                |\n|-----------------------------------|----------------------------------------------------------------------------|\n| {scorehudx.prisonrank}            | Displays the players current prison rank.                                  |\n| {scorehudx.prisonprestige}        | Displays the players current prestige.                                     |\n| {scorehudx.prisonrequiredblocks}  | Displays the number of blocks players need to mine to be able to prestige. |\n| {scorehudx.prisonrequiredrank}    | Displays the amount of money the player requires to rank up.               |\n| {scorehudx.prisonrequiredprestige}| Displays the amount of money the player requires to prestige.              |\n\n## RankSystem Addon\nUse the following in your config.yml's nametag and chat format ([RankSystem](https://poggit.pmmp.io/p/RankSystem) must be downloaded for this feature).\n| Prefix           | Description                              |\n|------------------|------------------------------------------|\n| {prison_rank}    | Displays the players current prison rank.|\n| {prison_prestige}| Displays the players current prestige.   |\n\n## API\nTo obtain an instance of this plugin's main class:\n```php\nuse snare\\BetterPrisons\\BetterPrisons;\n\n$instance = BetterPrisons::getBetterPrisons();\n```\n\nVarious methods can be found below:\n```php\n$manager = $instance->getDataSessionManager();\n\n$session = $manager->getDataSession(string $name);\n\n$rank = $session->getRank();\n\n$prestige = $session->getPrestige();\n\n$blocksBroken = $session->getBlocksBroken();\n```\n\n## Setup\n - If you wish to use the block requirement per prestige feature, ensure all world names which you wish block breaking to count towards the target \n are named solely as a single letter, I.E: Mine E is in the world 'e'.\n - If the ScoreHud bugs out, restart your server, currently I do not understand why this occurs.\n\n## Support\nReach out on discord `snare_gale` if having any issues or if you need help with configuration.",
+  "readme_source_url": "https://github.com/snarerectify/BetterPrisons",
+  "icon_url": "https://raw.githubusercontent.com/snarerectify/BetterPrisons/cdbbbf331d9535a22e75a88feaca32a539caa6f8/icon.png",
+  "featured": false,
+  "repo": "https://github.com/snarerectify/BetterPrisons",
+  "archive_repo": null,
+  "approved_release_tag": "r-13488",
+  "stars": 0,
+  "total_downloads": 566,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": [
+      "RankSystem",
+      "ScoreHud"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "snarerectify"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13488",
+      "published_at": null,
+      "downloads": 566,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13488/betterprisons-1.0.0-r13488.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13488",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13488/betterprisons-1.0.0-r13488.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterPrisons",
+    "stable_release_id": 13488
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "azusacoordinates",
+  "name": "AzusaCoordinates",
+  "author": "KumaaDeveloper",
+  "description": "General",
+  "readme_markdown": "## General\nAzusaCoordinates is a Pocketmine plug-in that works to make leaves and fields indestructible.\n\n## Features\n- Display the current coordinates of the player\n- Display the coordinates of the player when dead\n- Custom message\n- Added command feature /coordinates [on/off]\n\n## Command\nCommands | Default | Permission\n--- | --- | ---\n`/coordinates` | Op | azusacoordinates.command\n\n## Configuration\n```yaml\n# AzusaCoordinates Configuration\n\n# Show last death coordinates on respawn\nshow_death_coordinates: true\n\n# Message when coordinates are enabled\ncoordinates_enabled_message: \"§aCoordinates Successfully Activated for All Worlds\"\n\n# Message when coordinates are disabled\ncoordinates_disabled_message: \"§cCoordinates Successfully Disabled for All Worlds\"\n\n# Last death message\nlast_death_message: \"Last Coordinates When You Died: [%s] [%d, %d, %d]\"\n\n## %s = World\n## %d = Player Coordinates\n```",
+  "readme_source_url": "https://github.com/KumaaDeveloper/AzusaCoordinates",
+  "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AzusaCoordinates/9d4db05f6e8f2bd532b15c6d09dad6b48c0e6a23/icon.png",
+  "featured": false,
+  "repo": "https://github.com/KumaaDeveloper/AzusaCoordinates",
+  "archive_repo": null,
+  "approved_release_tag": "r-13180",
+  "stars": 5,
+  "total_downloads": 699,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KumaaDeveloper"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13180",
+      "published_at": null,
+      "downloads": 699,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13180/azusacoordinates-1.0.0-r13180.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13180",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13180/azusacoordinates-1.0.0-r13180.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AzusaCoordinates",
+    "stable_release_id": 13180
+  }
+}

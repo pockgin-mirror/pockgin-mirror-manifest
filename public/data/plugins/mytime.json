@@ -1,0 +1,61 @@
+{
+  "id": "mytime",
+  "name": "MyTime",
+  "author": "MyFreds",
+  "description": "Control your own in-game time to match your preferred gameplay",
+  "readme_markdown": "<!-- PROJECT BADGES -->\n<div align=\"center\">\n\n[![Lint](https://poggit.pmmp.io/ci.shield/MyFreds/MyTime/MyTime)](https://poggit.pmmp.io/ci/MyFreds/MyTime/MyTime)\n\n</div>\n\n\n<!-- PROJECT LOGO -->\n<br />\n<div align=\"center\">\n  <img src=\"https://github.com/MyFreds/MyTime/blob/main/icon.png\" alt=\"Logo\" width=\"80\" height=\"80\">\n  <h3>MyTime</h3>\n  <p align=\"center\">\n    Control your own in-game time to match your preferred gameplay\n\n\n[View in Poggit](https://poggit.pmmp.io/ci/MyFreds/MyTime/MyTime) · [Report a bug](https://github.com/MyFreds/Mytime/issues)\n\n  </p>\n</div>\n\n\n<!-- ABOUT THE PROJECT -->\n\n# 🔁 Installation\n\n1. Download the latest version in [poggit](https://poggit.pmmp.io/ci/MyFreds/MyTime).\n2. Put the MyTime-dev?.phar file to the plugins folder.\n3. Restart the server.\n4. Done!\n\n# 🪪 Contact & Credit\nCONTACT\n- YouTube: Fredy Ma'ruf\n- Discord: Fredy Ma'ruf#0905\n- GitHub: MyFreds\n- Email: id.luxy.store@gmail.com\n\nCREDIT\n- Icon by [Freepix - Flaticon](https://www.flaticon.com/search/3?word=time)",
+  "readme_source_url": "https://github.com/MyFreds/MyTime",
+  "icon_url": "https://raw.githubusercontent.com/MyFreds/MyTime/0c84b50a91bfe7dbec53d71ff4a487384e0a81ed/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MyFreds/MyTime",
+  "archive_repo": null,
+  "approved_release_tag": "r-13467",
+  "stars": 0,
+  "total_downloads": 91,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MyFreds"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13467",
+      "published_at": null,
+      "downloads": 91,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13467/mytime-1.0.0-r13467.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13467",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13467/mytime-1.0.0-r13467.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MyTime",
+    "stable_release_id": 13467
+  }
+}

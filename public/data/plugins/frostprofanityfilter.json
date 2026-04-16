@@ -1,0 +1,61 @@
+{
+  "id": "frostprofanityfilter",
+  "name": "FrostProfanityFilter",
+  "author": "DEVILxD5919",
+  "description": "FrostProfanityFilter Plugin for PocketMine-MP",
+  "readme_markdown": "# FrostProfanityFilter Plugin for PocketMine-MP\n\n## Overview\n\n**FrostProfanityFilter** is a plugin designed for PocketMine-MP that filters out bad words and profanities from the chat. The plugin allows server administrators to configure a list of words that should be blocked, ensuring a cleaner and more respectful chat environment for all players.\n\n## Features\n\n- Blocks predefined bad words and profanities in the chat.\n- Allows server administrators to configure and customize the list of blocked words.\n- Prevents messages containing bad words from being sent.\n- Easy to install and configure.\n\n## Requirements\n\n- PocketMine-MP 5.0.0 or higher.\n\n## Installation\n\n1. Download the FrostProfanityFilter plugin from the [Poggit releases page](https://poggit.pmmp.io/p/FrostProfanityFilter/1.0.0).\n2. Place the downloaded `FrostProfanityFilter.phar` file into the `plugins` folder of your PocketMine-MP server.\n3. Restart your PocketMine-MP server.\n\n## Configuration\n\n1. After installing the plugin and restarting the server, a configuration file named `config.yml` will be created in the `plugin_data/FrostProfanityFilter` directory.\n2. Open the `config.yml` file with a text editor to customize the list of blocked words.\n3. Add or remove words from the `blocked-words` list as needed. Each word should be on a new line and enclosed in quotes.\n\nExample `config.yml`:\n```yaml\nprofanities:\n  - abortion\n  - abuser\n  - ahole\n  - alabama hotpocket\n  - alligatorbait\n```\n\n4. Save the `config.yml` file and restart the server for changes to take effect.\n\n## Usage\n\n- The plugin automatically filters and blocks messages containing any words from the `profanities` list.\n- Players attempting to send messages with blocked words will receive a notification that their message contains inappropriate language and was not sent.\n\n## Support\n\nFor support, bug reports, and feature requests, please Join Our Discord Server the [discord](https://discord.gg/YfcDdK5mSF).\nor Email me at [support@frostnetwork.xyz](mailto:support@frostnetwork.xyz)\n\n## License\n\nThis project is licensed under the Apache License 2.0. See the [LICENSE](https://github.com/DEVILxD5919/FrostProfanityFilter/blob/main/LICENSE) file for details.\n\n## Contributing\n\nContributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.\n\n---\n\nThank you for using FrostProfanityFilter! We hope it helps maintain a positive and respectful environment on your PocketMine-MP server.\n\n[![](https://poggit.pmmp.io/shield.state/FrostProfanityFilter)](https://poggit.pmmp.io/p/FrostProfanityFilter)\n<a href=\"https://poggit.pmmp.io/p/FrostProfanityFilter\"><img src=\"https://poggit.pmmp.io/shield.state/FrostProfanityFilter\"></a>",
+  "readme_source_url": "https://github.com/DEVILxD5919/FrostProfanityFilter",
+  "icon_url": "https://raw.githubusercontent.com/DEVILxD5919/FrostProfanityFilter/b35e5d7861ec11c5fc6a8e6f35b941dbd1a86dca/icon.png",
+  "featured": false,
+  "repo": "https://github.com/DEVILxD5919/FrostProfanityFilter",
+  "archive_repo": null,
+  "approved_release_tag": "r-13158",
+  "stars": 0,
+  "total_downloads": 261,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DEVILxD5919"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-13158",
+      "published_at": null,
+      "downloads": 261,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13158/frostprofanityfilter-1.1.0-r13158.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13158",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13158/frostprofanityfilter-1.1.0-r13158.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FrostProfanityFilter",
+    "stable_release_id": 13158
+  }
+}

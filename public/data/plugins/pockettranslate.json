@@ -1,0 +1,66 @@
+{
+  "id": "pockettranslate",
+  "name": "PocketTranslate",
+  "author": "CJMustard1452",
+  "description": "PocketTranslate Plugin for PocketMine-MP v5",
+  "readme_markdown": "# PocketTranslate Plugin for PocketMine-MP v5\n[![](https://poggit.pmmp.io/shield.api/PocketTranslate)](https://poggit.pmmp.io/p/PocketTranslate)\n[![](https://poggit.pmmp.io/shield.state/PocketTranslate)](https://poggit.pmmp.io/p/PocketTranslate)\n[![](https://poggit.pmmp.io/shield.dl.total/PocketTranslate)](https://poggit.pmmp.io/p/PocketTranslate)\n\nPocketTranslate is a plugin for PocketMine-MP v5, designed to facilitate live chat translations within your server using the Google Cloud Translation API. With PocketTranslate, developers can seamlessly integrate translation capabilities into their plugins, enhancing communication and accessibility for players from different linguistic backgrounds.\n\n## Features\n\n- **Live Chat Translation**: Translate messages in real-time within the server chat.\n- **Multiple Language Support**: Translate messages to and from various languages supported by the Google Cloud Translation API.\n- **Developer-Friendly API**: Simple and intuitive API for developers to integrate translation features into their plugins effortlessly.\n\n## Requirements\n\n- PocketMine-MP v5\n- Google Cloud Translation API key\n\n## Installation\n\n1. Download the latest release of PocketTranslate from the [GitHub repository]([https://github.com/example/repository](https://github.com/CJMustard1452/PocketTranslate)).\n2. Place the `PocketTranslate.phar` file into the `plugins` directory of your PocketMine-MP server.\n3. Restart or reload your server.\n\n## Configuration\n\n1. Generate a Google Cloud Translation API key from the [Google Cloud Console](https://console.cloud.google.com).\n2. Open the `config.yml` file located in the `plugin_data/PocketTranslate` directory.\n3. Enter your Google Cloud Translation API key in the `APIKey` field.\n\n## Usage\n\n### Add ChatTranslationEvent to your listener.\n\n```php\nuse CJMustard1452\\translate\\ChatTranslateEvent;\n\n/**\n\t* @param string $chatTranslateEvent->getLanguage()      The language the message has been translated to.\n\t* @param string $chatTranslateEvent->getContent()       The post translated content.\n\t* @param string $chatTranslateEvent->getOrigin()        The origin language.\n\t* @param string|null $chatTranslateEvent->getUsername() The players username\n*/\npublic function onTranslate(ChatTranslateEvent $chatTranslateEvent): void {\n\t// handle $chatTranslateEvent\n};\n```\n\n## Supported Languages\n```\nEnglish (US) => en\nAmharic => am\nArabic => ar\nBasque => eu\nBengali => bn\nEnglish (UK) => en-GB\nPortuguese (Brazil) => pt-BR\nBulgarian => bg\nCatalan => ca\nCherokee => chr\nCroatian => hr\nCzech => cs\nDanish => da\nDutch => nl\nEstonian => et\nFilipino => fil\nFinnish => fi\nFrench => fr\nGerman => de\nGreek => el\nGujarati => gu\nHebrew => iw\nHindi => hi\nHungarian => hu\nIcelandic => is\nIndonesian => id\nItalian => it\nJapanese => ja\nKannada => kn\nKorean => ko\nLatvian => lv\nLithuanian => lt\nMalay => ms\nMalayalam => ml\nMarathi => mr\nNorwegian => no\nPolish => pl\nPortuguese (Portugal) => pt-PT\nRomanian => ro\nRussian => ru\nSerbian => sr\nChinese (PRC) => zh-CN\nSlovak => sk\nSlovenian => sl\nSpanish => es\nSwahili => sw\nSwedish => sv\nTamil => ta\nTelugu => te\nThai => th\nChinese (Taiwan) => zh-TW\nTurkish => tr\nUrdu => ur\nUkrainian => uk\nVietnamese => vi\nWelsh => cy\n```",
+  "readme_source_url": "https://github.com/CJMustard1452/PocketTranslate",
+  "icon_url": "https://raw.githubusercontent.com/CJMustard1452/PocketTranslate/3c4b59e54e0b5238a10b747e3403bbdc3ca44b32/icon.png",
+  "featured": false,
+  "repo": "https://github.com/CJMustard1452/PocketTranslate",
+  "archive_repo": null,
+  "approved_release_tag": "r-13328",
+  "stars": 0,
+  "total_downloads": 636,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "CJMustard1452"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/244460",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-13328",
+      "published_at": null,
+      "downloads": 615,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13328/pockettranslate-1.1.0-r13328.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13328",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13328/pockettranslate-1.1.0-r13328.phar"
+    },
+    {
+      "tag": "r-13305",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13305/pockettranslate-1.0.3-r13305.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PocketTranslate",
+    "stable_release_id": 13328
+  }
+}

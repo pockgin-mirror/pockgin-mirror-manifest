@@ -1,0 +1,69 @@
+{
+  "id": "azusamath",
+  "name": "AzusaMath",
+  "author": "KumaaDeveloper",
+  "description": "General",
+  "readme_markdown": "## General\nAzusaMath is a Pocketmine plug-in that functions to provide maths problems and players can get prizes if they answer correctly.\n\n## Features\n- Consists of addition, subtraction, multiplication, and division\n- Custom message\n- Custom prize\n- Custom economy\n- Added a sound when a question appears, answers the question, and no one answers the question.\n\n## Command\nCommands | Default | Permission\n--- | --- | ---\n`/math` | Op | azusamath.command\n\n## Configuration\n```yaml\n# Configuration for AzusaMath plugin\n\nnumber_max: 100\n\n# Time interval for maths questions to be answered\nmath_interval: 60\n\n# Message when the player successfully answers the maths question\nmaths_completion_message: \"§e{player} §fanswers §a\\\"{answer}\\\" §fand gets a prize of §6{money} §fMoney\"\n\n# Message when no one answers the maths question\nno_answer_message: \"§cNo one answered the maths question, move on to the next maths question...\"\n\n# Delay when question is missed or answered\nmaths_delay_solved: 5\n\n# Rewards when players successfully answer maths questions\nprize_min: 1000\nprize_max: 10000\n\n# Economy you are using (Must use LibPiggyEconomy)\nEconomy:\n  type: \"bedrockeconomy\" # Change this to your specific economy provider if needed (bedrockeconomy/economyapi)\n```\n\n## Depend\n| Authors | Github | Lib |\n|---------|--------|-----|\n| Cooldogepm | [Cooldogepm](https://github.com/cooldogepm) | [BedrockEconomy](https://github.com/cooldogepm/BedrockEconomy) |\n| Mathchat900 | [Mathchat900](https://github.com/mathchat900) | [EconomyAPI](https://github.com/mathchat900/EconomyAPI-PM5) |",
+  "readme_source_url": "https://github.com/KumaaDeveloper/AzusaMath",
+  "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AzusaMath/801489fcc379e6a9e813609a8ede62efd43c73ef/icon.png",
+  "featured": false,
+  "repo": "https://github.com/KumaaDeveloper/AzusaMath",
+  "archive_repo": null,
+  "approved_release_tag": "r-13272",
+  "stars": 3,
+  "total_downloads": 367,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KumaaDeveloper"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/243336",
+  "versions": {
+    "stable": {
+      "version": "1.2.2",
+      "tag": "r-13272",
+      "published_at": null,
+      "downloads": 334,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13272/azusamath-1.2.2-r13272.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13272",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13272/azusamath-1.2.2-r13272.phar"
+    },
+    {
+      "tag": "r-13247",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13247/azusamath-1.2.0-r13247.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AzusaMath",
+    "stable_release_id": 13272
+  }
+}

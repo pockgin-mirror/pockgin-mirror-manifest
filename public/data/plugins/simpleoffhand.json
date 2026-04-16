@@ -1,0 +1,61 @@
+{
+  "id": "simpleoffhand",
+  "name": "SimpleOffHand",
+  "author": "MyFreds",
+  "description": "Allows the player to put any item in their OffHand slot",
+  "readme_markdown": "<!-- PROJECT BADGES -->\n<div align=\"center\">\n\n[![Lint](https://poggit.pmmp.io/ci.shield/MyFreds/SimpleOffHand/SimpleOffHand)](https://poggit.pmmp.io/ci/MyFreds/SimpleOffHand/SimpleOffHand)\n\n</div>\n\n\n<!-- PROJECT LOGO -->\n<br />\n<div align=\"center\">\n  <img src=\"https://github.com/MyFreds/SimpleOffHand/blob/main/icon.png\" alt=\"Logo\" width=\"80\" height=\"80\">\n  <h3>SimpleOffHand</h3>\n  <p align=\"center\">\n    Allows the player to put any item in their OffHand slot\n\n\n[View in Poggit](https://poggit.pmmp.io/p/SimpleOffHand/SimpleOffHand) · [Report a bug](https://github.com/MyFreds/SimpleOffHand/issues) · [Request a feature](https://github.com/MyFreds/SimpleOffHand/issues)\n\n  </p>\n</div>\n\n\n<!-- ABOUT THE PROJECT -->\n\n# 📔 About\nThe \"OffHand\" plugin is a Minecraft PocketMine-MP plugin that allows players to enable the offhand feature via in-game commands. With this feature, players can move items to the offhand slot while crouching. This feature provides additional flexibility in item management and block placement, similar to the totem mechanic in Minecraft and a feature in Minecraft Java.\n\n# 📌 Features\n- OffHand Feature Activation: Players can activate or deactivate the offhand feature by using the /offhand on or /offhand off command.\n- Item Move to OffHand Slot: When the offhand feature is activated and the player squats, items held in the primary hand will be moved to the offhand slot if the offhand slot is empty.\n\n# ❔How to Use\n- Feature Activation: Use the /offhand on command to activate the offhand feature. Use the /offhand off command to disable the offhand feature.\n- Item Move: Squat while holding an item in the main hand to move it to the offhand slot if the offhand slot is empty.\n\n# 📜 Notes\nBecause this is OffHand in PocketMine it is limited to the mechanism that items placed in the OffHand slot cannot function like in Java.\n\n# 💻 Software\n- [PocketMine-MP](https://github.com/pmmp/PocketMine-MP/releases)",
+  "readme_source_url": "https://github.com/MyFreds/SimpleOffHand",
+  "icon_url": "https://raw.githubusercontent.com/MyFreds/SimpleOffHand/0c516c8ca000317c8627732b574796e9e8c55cea/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MyFreds/SimpleOffHand",
+  "archive_repo": null,
+  "approved_release_tag": "r-13466",
+  "stars": 0,
+  "total_downloads": 568,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MyFreds"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13466",
+      "published_at": null,
+      "downloads": 568,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13466/simpleoffhand-1.0.0-r13466.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13466",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13466/simpleoffhand-1.0.0-r13466.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleOffHand",
+    "stable_release_id": 13466
+  }
+}

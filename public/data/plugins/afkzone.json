@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14346",
   "stars": 0,
-  "total_downloads": 51,
+  "total_downloads": 1008,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,16 @@
       "tag": "r-14346",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14346/afkzone-3.0.2-r14346.phar"
+    },
+    {
+      "tag": "r-13177",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13177/afkzone-2.2.0-r13177.phar"
+    },
+    {
+      "tag": "r-13135",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13135/afkzone-2.0.0-r13135.phar"
     }
   ],
   "comments": {

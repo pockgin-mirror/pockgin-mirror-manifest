@@ -1,0 +1,61 @@
+{
+  "id": "myitem",
+  "name": "MyItem",
+  "author": "BeeAZ-pm-pl",
+  "description": "Create Item With Many Interesting Features",
+  "readme_markdown": "# MyItem\nCreate Item With Many Interesting Features",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/MyItem",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/MyItem/0265e8d8664e3889759a42f91147be97a6368efb/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/MyItem",
+  "archive_repo": null,
+  "approved_release_tag": "r-13416",
+  "stars": 5,
+  "total_downloads": 303,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/245705",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-13416",
+      "published_at": null,
+      "downloads": 303,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13416/myitem-1.0.1-r13416.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13416",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13416/myitem-1.0.1-r13416.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MyItem",
+    "stable_release_id": 13416
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "doubleslabbreaker",
+  "name": "DoubleSlabBreaker",
+  "author": "HGRgamer",
+  "description": "This Pocketmine-MP plugin allows you to break only one half of a double slab. The half that is broken depends on which half you're looking at.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.dl/DoubleSlabBreaker)](https://poggit.pmmp.io/p/DoubleSlabBreaker) [![](https://poggit.pmmp.io/shield.dl.total/DoubleSlabBreaker)](https://poggit.pmmp.io/p/DoubleSlabBreaker)\n\n## About\n\nThis Pocketmine-MP plugin allows you to break only one half of a double slab. The half that is broken depends on which half you're looking at.\n\n![](https://github.com/HGRgamer/DoubleSlabBreaker/blob/main/extras/example.gif)\n\n## How to use?\n- Just download the ``.phar`` file.\n- Upload it to your ``plugins`` folder.\n- Restart the server.\n- Done!\n\n## Additional Notes\n\nIf you encounter any bugs or glitches, please create an issue [here](https://github.com/HGRgamer/DoubleSlabBreaker/issues/new).\n\nAny suggestions you may have to improve DoubleSlabBreaker are welcome. Feel free to create an issue [here](https://github.com/HGRgamer/DoubleSlabBreaker/issues/new).\n\nIf you want to contribute to this project, create a pull request [here](https://github.com/HGRgamer/DoubleSlabBreaker/pulls).\n\n## Credits\n- Logo from [minecraft wiki](https://minecraft.wiki) <img src=\"https://minecraft.wiki/images/Oak_Slab_JE5_BE2.png?ddf28\" width=\"15\" height=\"15\">\n- Plugin by master HGRgamer",
+  "readme_source_url": "https://github.com/HGRgamer/DoubleSlabBreaker",
+  "icon_url": "https://raw.githubusercontent.com/HGRgamer/DoubleSlabBreaker/315d35ef91204cda4cfaef204e50ebd968f370b3/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HGRgamer/DoubleSlabBreaker",
+  "archive_repo": null,
+  "approved_release_tag": "r-13427",
+  "stars": 5,
+  "total_downloads": 128,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HGRgamer"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13427",
+      "published_at": null,
+      "downloads": 128,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13427/doubleslabbreaker-1.0.0-r13427.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13427",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13427/doubleslabbreaker-1.0.0-r13427.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DoubleSlabBreaker",
+    "stable_release_id": 13427
+  }
+}

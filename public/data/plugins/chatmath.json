@@ -1,0 +1,61 @@
+{
+  "id": "chatmath",
+  "name": "ChatMath",
+  "author": "XanderID",
+  "description": "The ChatMath Plugin is an essential tool for players who need to perform calculations directly within the game chat.",
+  "readme_markdown": "<h1>ChatMath\n    <img src=\"https://github.com/XanderID/ChatMath/blob/main/assets/icon.png\" height=\"64\" width=\"64\" align=\"left\">\n</h1>\n<br>\nThe ChatMath Plugin is an essential tool for players who need to perform calculations directly within the game chat.\n\n# How to Use\n![How To Use](https://github.com/XanderID/ChatMath/blob/main/assets/how-to-use.gif)<br>\nJust use it in chat, for example: `1 + 1 is { 1 + 1 }` it will be changed automatically to `1 + 1 is 2`.\n\n## Full Tutorial\nHere's a complete tutorial using this plugin.\n\n### Using Expression\nExpression | Description | Example\n--- | --- | ---\n`+` | Adds two numbers together | `1 + 1`\n`-` | Subtracts the second number from the first number | `1 - 1`\n`*` | Multiplies two numbers | `1 * 1`\n`/` | Divides the first number by the second number | `1 / 1`\n`^` | Raises the first number to the power of the second number | `1 ^ 1`\n\n### Using Function\nFunction | Description | Example\n--- | --- | ---\n`sin` | Calculates the sine of an angle (in radians) | `sin(5) + 1`\n`cos` | Calculates the cosine of an angle (in radians) | `cos(5) + 1`\n`tan` | Calculates the tangent of an angle (in radians) | `tan(5) + 1`\n`cot` | Calculates the cotangent of an angle (in radians) | `cot(5) + 1`\n`sind` | Calculates the sine of an angle (in degrees) | `sind(30) + 1`\n`cosd` | Calculates the cosine of an angle (in degrees) | `cosd(30) + 1`\n`tand` | Calculates the tangent of an angle (in degrees) | `tand(30) + 1`\n`cotd` | Calculates the cotangent of an angle (in degrees) | `cotd(30) + 1`\n`arcsin` | Calculates the arcsine (inverse sine) of a value | `arcsin(0.5) + 1`\n`arccos` | Calculates the arccosine (inverse cosine) of a value | `arccos(0.5) + 1`\n`arctan` | Calculates the arctangent (inverse tangent) of a value | `arctan(1) + 1`\n`arccot` | Calculates the arccotangent (inverse cotangent) of a value | `arccot(1) + 1`\n`exp` | Calculates the exponential function of a value (e^x) | `exp(2) + 1`\n`log` | Calculates the natural logarithm (base e) of a value | `log(10) + 1`\n`ln` | Another notation for natural logarithm | `ln(10) + 1`\n`lg` | Calculates the base-10 logarithm of a value | `lg(10) + 1`\n`sqrt` | Calculates the square root of a value | `sqrt(25) + 1`\n`sinh` | Calculates the hyperbolic sine of a value | `sinh(5) + 1`\n`cosh` | Calculates the hyperbolic cosine of a value | `cosh(5) + 1`\n`tanh` | Calculates the hyperbolic tangent of a value | `tanh(5) + 1`\n`coth` | Calculates the hyperbolic cotangent of a value | `coth(5) + 1`\n`arsinh` | Calculates the inverse hyperbolic sine of a value | `arsinh(1) + 1`\n`arcosh` | Calculates the inverse hyperbolic cosine of a value | `arcosh(1) + 1`\n`artanh` | Calculates the inverse hyperbolic tangent of a value | `artanh(0.5) + 1`\n`arcoth` | Calculates the inverse hyperbolic cotangent of a value | `arcoth(2) + 1`\n`abs` | Calculates the absolute value of a number | `abs(-5) + 1`\n`sgn` | Returns the sign of a number (-1, 0, or 1) | `sgn(-5) + 1`\n`!` | Calculates the factorial of a number | `5! + 1`\n`!!` | Calculates the double factorial of a number | `5!! + 1`\n`round` | Rounds a number to the nearest integer | `round(5.5) + 1`\n`floor` | Rounds a number down to the nearest integer | `floor(5.9) + 1`\n`ceil` | Rounds a number up to the nearest integer | `ceil(5.1) + 1`\n\n### Using Constant\nConstant | Description | Example\n--- | --- | ---\n`pi` | Represents the mathematical constant π (approximately 3.14159) | `pi * 2`\n`e` | Represents the mathematical constant e (approximately 2.71828) | `e ^ 2`\n`nan` | Represents \"Not-a-Number\", used to denote an undefined or unrepresentable value | `0 / 0` results in `nan`\n`inf` | Represents infinity, used to denote an infinitely large number | `1 / 0` results in `inf`\n\n## Note\nYou can put all expressions, functions and constants together above the example: `{ 1 + 1 * floor(5.9) + pi }`\n\n# Todo\n- [ ] Toggle Replace Chat\n- [ ] Help Command\n\n# Additional Notes\n- This Plugin using Library [Math Parser](https://github.com/mossadal/math-parser) by Mossadal\n- Icons made by [Freepik - Flaticon](https://www.flaticon.com/free-icons/calculator)",
+  "readme_source_url": "https://github.com/XanderID/ChatMath",
+  "icon_url": "https://raw.githubusercontent.com/XanderID/ChatMath/7d5771bbb166bfa068150a0c58db9db8d540c5b3/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/XanderID/ChatMath",
+  "archive_repo": null,
+  "approved_release_tag": "r-13259",
+  "stars": 5,
+  "total_downloads": 247,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "XanderID"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13259",
+      "published_at": null,
+      "downloads": 247,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13259/chatmath-1.0.0-r13259.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13259",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13259/chatmath-1.0.0-r13259.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatMath",
+    "stable_release_id": 13259
+  }
+}

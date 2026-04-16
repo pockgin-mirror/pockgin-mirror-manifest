@@ -1,0 +1,61 @@
+{
+  "id": "vbackpack",
+  "name": "VBackpack",
+  "author": "VennDev",
+  "description": "A plugin for PocketMine-PMMP 5.",
+  "readme_markdown": "# VBackpack\n<img src=\"https://github.com/VennDev/VBackpack/blob/main/icon.png\" alt=\"VBackpack\" height=\"150\" width=\"150\" />\n- A plugin for PocketMine-PMMP 5.\n- Bringing newness and utility to features for your server becomes diverse and interesting.\n\n# Features\n- Put everything in your backpack without filling your bags.\n\n# How to install it ?\n- You should install InvMenu here: [Sources](https://github.com/Muqsit/InvMenu)\n\n# Commands\n```\n/vbackpack or /vbp - give <player> <type> <amount>\n```\n\n# Config\n```config\n---\n\n# Name of each of the type backpacks\nname:\n  small: \"§aSmall Backpack\"\n  medium: \"§bMedium Backpack\"\n  large: \"§5Large Backpack\"\n\n...\n```\n\n# Images\n<img src=\"https://github.com/VennDev/VBackpack/blob/main/images/small.png\" alt=\"VBackpack\" height=\"300\" width=\"300\" />\n<img src=\"https://github.com/VennDev/VBackpack/blob/main/images/medium.png\" alt=\"VBackpack\" height=\"300\" width=\"300\" />\n<img src=\"https://github.com/VennDev/VBackpack/blob/main/images/large.png\" alt=\"VBackpack\" height=\"300\" width=\"300\" />\n\n# Credits\n- Email: pnam5005@gmail.com\n- Paypal: lifeboat909@gmail.com",
+  "readme_source_url": "https://github.com/VennDev/VBackpack",
+  "icon_url": "https://raw.githubusercontent.com/VennDev/VBackpack/a1128935ff2c7453c00ce4f70f10cdd90f45e410/icon.png",
+  "featured": false,
+  "repo": "https://github.com/VennDev/VBackpack",
+  "archive_repo": null,
+  "approved_release_tag": "r-13306",
+  "stars": 0,
+  "total_downloads": 788,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "VennDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/243860",
+  "versions": {
+    "stable": {
+      "version": "1.0.6",
+      "tag": "r-13306",
+      "published_at": null,
+      "downloads": 788,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13306/vbackpack-1.0.6-r13306.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13306",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13306/vbackpack-1.0.6-r13306.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VBackpack",
+    "stable_release_id": 13306
+  }
+}

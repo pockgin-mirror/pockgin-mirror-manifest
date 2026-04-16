@@ -1,0 +1,64 @@
+{
+  "id": "wavyantivoid",
+  "name": "WavyAntiVoid",
+  "author": "WavyCraftNetwork",
+  "description": "About/Description",
+  "readme_markdown": "# About/Description\nThis plugin gives each player a certain amount of saves to prevent them from dying in the void, If they run out of saves they will simply die in the void. Players **can** purchase more saves via command ingame(Economy: BedrockEconomy or EconomyAPI).\n\n# Features\n- [x] Messages sent to the player\n- [x] Customizable messages\n- [x] Enable/disable worlds\n- [x] Data gets saved/tracked\n- [x] Purchase saves\n\n# TODO\nNothing planned at the moment, open an issue/pull requesy if you have any idea's!\n\n# Command\n```\n/buysaves\ndefault: true\npermission: wavyantivoid.cmd\n```\n\n# Want to see this plugin in action?\nJoin my server to see this plugin in action!\n\nIP: SOON\n\nPORT: SOON",
+  "readme_source_url": "https://github.com/WavyCraftNetwork/WavyAntiVoid",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/WavyCraftNetwork/WavyAntiVoid",
+  "archive_repo": null,
+  "approved_release_tag": "r-13331",
+  "stars": 0,
+  "total_downloads": 102,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "WavyCraftNetwork"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13331",
+      "published_at": null,
+      "downloads": 102,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13331/wavyantivoid-1.0.0-r13331.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13331",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13331/wavyantivoid-1.0.0-r13331.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WavyAntiVoid",
+    "stable_release_id": 13331
+  }
+}

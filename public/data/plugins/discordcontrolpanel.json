@@ -1,0 +1,63 @@
+{
+  "id": "discordcontrolpanel",
+  "name": "DiscordControlPanel",
+  "author": "MyFreds",
+  "description": "DiscordControlPanel gives admins the power to manage their Minecraft servers directly from Discord. With easy and intuitive commands, server management becomes more efficient an...",
+  "readme_markdown": "<!-- PROJECT BADGES -->\n<div align=\"center\">\n\n[![Lint](https://poggit.pmmp.io/ci.shield/MyFreds/DiscordControlPanel/DiscordControlPanel)](https://poggit.pmmp.io/ci/MyFreds/DiscordControlPanel/DiscordControlPanel)\n\n</div>\n\n\n<!-- PROJECT LOGO -->\n<br />\n<div align=\"center\">\n  <img src=\"https://github.com/MyFreds/DiscordControlPanel/blob/main/icon.png\" alt=\"Logo\" width=\"80\" height=\"80\">\n  <h3>DiscordControlPanel</h3>\n  <p align=\"center\">\n    DiscordControlPanel gives admins the power to manage their Minecraft servers directly from Discord. With easy and intuitive commands, server management becomes more efficient and enjoyable.\n\n\n[View in Poggit](https://poggit.pmmp.io/ci/MyFreds/DiscordControlPanel/DiscordControlPanel) · [Report a bug](https://github.com/MyFreds/DiscordControlPanel/issues)\n\n  </p>\n</div>\n\n\n<!-- ABOUT THE PROJECT -->\n\n# ❔ How To Use Command\n- !list > Displays the number of online players on the server\n- !ban <playerName> > Banned player so they cannot join the server\n- !unban <playerName> > Unbanned player so they can rejoin the server\n- !kick <playerName> > Temporarily kick the player from the server\n- !say <message> > Provides a broadcast message from discord to in-game\n- `//TODO COMMAND`\n\n# 🔖 Setup\n- Get ServerId: to get ServerId, open your browser and visit https://discord.com/channels/ then click on your server, then copy the id from the link after `channels`\n- Getting Channel Id: to get the channel id so it can be placed in CommandListAllowedChannel etc., open the channel on your server then copy the id after the channel id, example https://discord.com/channels/1063456789101112/115678910111213 (`115678910111213` is the channel ID `1063456789101112` is the ServerId)\n\n# ⚙️ Dependencies\nDon't forget to download `DiscordBot` [here](https://github.com/DiscordBot-PMMP/DiscordBot/tree/poggit)\nAnd learn the Wiki for creating a `DiscordBot` [here](https://github.com/DiscordBot-PMMP/DiscordBot/wiki/Creating-your-discord-bot)\n\nIf you are still confused, please contact me via Discord or Whatsapp below!\n\n# 🔁 Installation\n1. Download the latest version in [poggit](https://poggit.pmmp.io/ci/MyFreds/DiscordControlPanel).\n2. Put the DiscordControlPanel-dev?.phar file to the plugins folder.\n3. Restart the server.\n4. Done!\n\n# 🪪 Contact & Credit\nCONTACT\n- YouTube: Fredy Ma'ruf\n- Discord: Fredy Ma'ruf#0905\n- Whatsapp: 0852-1224-4077\n- GitHub: MyFreds\n- Email: id.luxy.store@gmail.com\n\nCREDIT\n- Icon by [Freepix - Flaticon](https://www.flaticon.com/search?word=Discord)",
+  "readme_source_url": "https://github.com/MyFreds/DiscordControlPanel",
+  "icon_url": "https://raw.githubusercontent.com/MyFreds/DiscordControlPanel/f5ee09e8151c8d28cabc068ea22bd7b92fffeedb/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MyFreds/DiscordControlPanel",
+  "archive_repo": null,
+  "approved_release_tag": "r-13369",
+  "stars": 3,
+  "total_downloads": 355,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "DiscordBot"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MyFreds"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13369",
+      "published_at": null,
+      "downloads": 355,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13369/discordcontrolpanel-1.0.0-r13369.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13369",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13369/discordcontrolpanel-1.0.0-r13369.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DiscordControlPanel",
+    "stable_release_id": 13369
+  }
+}

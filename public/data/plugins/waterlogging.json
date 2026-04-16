@@ -1,0 +1,61 @@
+{
+  "id": "waterlogging",
+  "name": "WaterLogging",
+  "author": "platz1de",
+  "description": "Did you ever miss waterlogging on your server?",
+  "readme_markdown": "# Waterlogging\n\nDid you ever miss waterlogging on your server? <br>\nGive your blocks all the H₂O they deserve\n\nAlso supports frozen forms (snowlogging)\n\n## Features\n\nPretty much like in vanilla, if you want a detailed list:\n- Add or remove waterlogging using Buckets\n- place blocks in water to waterlog them\n- break waterlogged blocks to free the water\n- Waterlogged blocks act like normal water sources\n  - spreads water to nearby blocks\n  - hardens lava to cobblestone or obsidian\n  - stairs and slabs can be used to restrict waterflow\n- tripwires and some redstone components can be waterlogged by flowing water, no longer being destroyed\n- automatic removal of invalid waterlogged blocks (produced by other plugins)\n- snowlog small plants by placing snow layers on them or snow layers falling on them\n\nNote: Entity movement caused by flowing water logged blocks is NOT implemented and probably never will.\n\n## Removing this plugin\nThis plugin uses block layers to store information, while this is the intended storage by mojang, it is only poorly supported by pocketmine.<br>\nRemoving this plugin will NOT remove waterlogged blocks. They remain saved in your world without any functionality. <br>\nUse [BulkLayerEditor](https://poggit.pmmp.io/ci/platz1de/BulkLayerEditor/) to remove them properly.",
+  "readme_source_url": "https://github.com/platz1de/Waterlogging",
+  "icon_url": "https://raw.githubusercontent.com/platz1de/Waterlogging/b5e30ff57a1a4ca2e5d2981cbf20aaf859bba83a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/platz1de/Waterlogging",
+  "archive_repo": null,
+  "approved_release_tag": "r-13438",
+  "stars": 5,
+  "total_downloads": 559,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.8.1-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "platz1de"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/246093",
+  "versions": {
+    "stable": {
+      "version": "1.2",
+      "tag": "r-13438",
+      "published_at": null,
+      "downloads": 559,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13438/waterlogging-1.2-r13438.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13438",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13438/waterlogging-1.2-r13438.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WaterLogging",
+    "stable_release_id": 13438
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "jumppad",
+  "name": "JumpPad",
+  "author": "LootSpace369",
+  "description": "A plugin jump pad for PocketMine-MP.",
+  "readme_markdown": "# JumpPad\nA plugin jump pad for PocketMine-MP.\n<a href=\"https://poggit.pmmp.io/p/JumpPad\"><img src=\"https://poggit.pmmp.io/shield.state/JumpPad\"></a>\n\n`\nA plugin fast code\nif has issues, pull request for me!\n`\n\n## 🤲How to use?\n- `/pp 1` - set position 1\n- `/pp 2` - set position 2\n- `/setjp` - put jump pad",
+  "readme_source_url": "https://github.com/LootSpace369/JumpPad",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/LootSpace369/JumpPad",
+  "archive_repo": null,
+  "approved_release_tag": "r-13413",
+  "stars": 5,
+  "total_downloads": 138,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "LootSpace369"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-13413",
+      "published_at": null,
+      "downloads": 138,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13413/jumppad-0.0.1-r13413.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13413",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13413/jumppad-0.0.1-r13413.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "JumpPad",
+    "stable_release_id": 13413
+  }
+}

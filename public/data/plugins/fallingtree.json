@@ -1,0 +1,61 @@
+{
+  "id": "fallingtree",
+  "name": "FallingTree",
+  "author": "RenzMc",
+  "description": "FallingTree-",
+  "readme_markdown": "# FallingTree-\n\nFallingTree is a pocketmine plugin that makes it easier for players to cut down trees more quickly and efficiently and this plugin's features can only be accessed by people who have the right permissions. So This is suitable for the rank feature on your server,",
+  "readme_source_url": "https://github.com/RenzMc/FallingTree-",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/RenzMc/FallingTree-",
+  "archive_repo": null,
+  "approved_release_tag": "r-13257",
+  "stars": 4,
+  "total_downloads": 877,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "RenzMc"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13257",
+      "published_at": null,
+      "downloads": 877,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13257/fallingtree-1.0.0-r13257.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13257",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13257/fallingtree-1.0.0-r13257.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FallingTree",
+    "stable_release_id": 13257
+  }
+}

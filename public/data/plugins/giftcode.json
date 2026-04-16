@@ -1,0 +1,61 @@
+{
+  "id": "giftcode",
+  "name": "GiftCode",
+  "author": "ClickedTran",
+  "description": "📋General",
+  "readme_markdown": "## 📋General\n<div align=\"center\">\n<img src=\"https://github.com/ClickedTran/GiftCode/blob/Master/icon.jpg\">\n\n  <p>This is a Plugin that allows Admin to generate a giftcode for the server with optional time and rewards</p>\n</div>\n\n## 📖Feature\n- This is a Plugin that allows Admin to generate a giftcode for the server with optional time and rewards\n<br>\n\n## 📚For Developer\n\n- You can access to GiftCode by using\n- You can usage to:\n<details>\n  <summary>Click To See</summary>\n \n >- Create New GiftCode:\n\n ```php\n  /**\n   * @param string $name\n   * @param float $expire\n   * @param string $command - It will encode to base64\n   * @throws JsonException\n   *\n   * Default method by ClickedTran, me don't want change it :)!\n   */\n  public function createCode(string $name, float $expire, string $command): void\n```\n\n >- Remove GiftCode:\n\n ```php\n  /**\n   * @param string $name\n   * @throws JsonException\n   */\n  public function removeCode(string $name): void\n```\n\n</details>\n<br>\n\n## 💬Command\n| **COMMAND** | **DESCRIPTION** | **ALIASES** |\n| --- | --- | --- |\n| `giftcode` | GiftCode Commands | `code` |\n\n## 📝Permission\n\n<details>\n<summary>Click to see permission</summary>\n\n- Use `giftcode.command` to open menu GiftCode\n- Use `giftcode.command.create` to create new giftcode in data\n- Use `giftcode.command.remove` to remove giftcode existsing to data\n- Use `giftcode.command.list` to see all giftcode in data\n- Use `giftcode.command.help` to see all GiftCode Command\n- Use `giftcode.command.redemption` redeem code\n\n</details>\n\n## 🖼️IMAGES\n<h4>OP</h4>\n<div align=\"center\">\n<img src=\"https://github.com/Clickedtran/GiftCode/blob/Master/image/op.png\" width=\"250px\" height=\"auto\">\n  <br>\n<img src=\"https://github.com/Clickedtran/GiftCode/blob/Master/image/menu_create.png\" width=\"250px\" height=\"auto\">\n</div>\n<br>\n  \n<h4>NO OP</h4>\n<div align=\"center\">\n<img src=\"https://github.com/Clickedtran/GiftCode/blob/Master/image/no_op.png\" width=\"250px\" height=\"auto\">\n  <br>\n<img src=\"https://github.com/Clickedtran/GiftCode/blob/Master/image/use.png\" width=\"250px\" height=\"auto\">\n</div>",
+  "readme_source_url": "https://github.com/ClickedTran/GiftCode",
+  "icon_url": "https://raw.githubusercontent.com/ClickedTran/GiftCode/bfb8c063fae400813bba5cdd7aa99835e2130b75/icon.jpg",
+  "featured": false,
+  "repo": "https://github.com/ClickedTran/GiftCode",
+  "archive_repo": null,
+  "approved_release_tag": "r-13381",
+  "stars": 3,
+  "total_downloads": 883,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ClickedTran"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/245164",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-13381",
+      "published_at": null,
+      "downloads": 883,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13381/giftcode-1.1.0-r13381.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13381",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13381/giftcode-1.1.0-r13381.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GiftCode",
+    "stable_release_id": 13381
+  }
+}

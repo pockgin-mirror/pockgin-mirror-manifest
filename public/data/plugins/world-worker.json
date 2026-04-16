@@ -1,0 +1,61 @@
+{
+  "id": "world-worker",
+  "name": "World-Worker",
+  "author": "Serenity-sun",
+  "description": "A plugin designed for managing worlds in PocketMine. This plugin allows you to create new worlds with customizable generation options and perform various operations on these wor...",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/World-Worker)](https://poggit.pmmp.io/p/World-Worker)\n\n# World-Worker\n\n<img align=\"right\" alt=\"icon.png\" height=\"120px\" src=\"icon.png\" width=\"120px\"/>\n\n\n**A plugin designed for managing worlds in PocketMine. This plugin allows you to create new worlds with customizable generation options and perform various operations on these worlds. It operates independently and does not require any additional plugins to function.**\n\n#\n**Installation:**\n-\n> - Download the latest release.\n> - Place the plugin in the server directory `/your server/plugins/`\n> - Restart the server\n\n**List of operations:**\n-\n- `generate` (create world)\n- `rename` (rename world)\n- `delete` (delete world)\n- `load` (load world)\n- `unload` (unload world)\n\n**Presentation:**\n-\n\n### List of operation forms\n![create new world](.github/resources/list.png)\n\n### Generation form\n![create new world](.github/resources/generate.png)\n\n### Rename form\n![rename world](.github/resources/rename.png)\n\n\n**Developer links:**\n-\n- [PocketMine-MP](https://github.com/pmmp/PocketMine-MP)\n- [DevTools](https://github.com/pmmp/DevTools/)\n```",
+  "readme_source_url": "https://github.com/Serenity-sun/World-Worker",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Serenity-sun/World-Worker",
+  "archive_repo": null,
+  "approved_release_tag": "r-13143",
+  "stars": 0,
+  "total_downloads": 335,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Serenity-sun"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.2",
+      "tag": "r-13143",
+      "published_at": null,
+      "downloads": 335,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13143/world-worker-2.0.2-r13143.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13143",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13143/world-worker-2.0.2-r13143.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "World-Worker",
+    "stable_release_id": 13143
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "advancedsudo",
+  "name": "AdvancedSudo",
+  "author": "imLuckii",
+  "description": "This plugin introduces two commands to your server:",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.dl/AdvancedSudo)](https://poggit.pmmp.io/p/AdvancedSudo)\n[![](https://poggit.pmmp.io/shield.dl.total/AdvancedSudo)](https://poggit.pmmp.io/p/AdvancedSudo)\n## About\n\nThis plugin introduces two commands to your server:\n\n- **/sudo**\n  - Usage: `/sudo <player> <message>`\n  - Description: Send messages as another player.\n\n- **/sudoall**\n  - Usage: `/sudoall <message>`\n  - Description: Send messages as all online players.\n\n## Permissions\n\n- `sudo.command`\n  - Default: op\n  - Description: Allows players to use the `/sudo` command.\n\n- `sudoall.command`\n  - Default: op\n  - Description: Allows players to use the `/sudoall` command.\n\n## Configuration\n\n```yaml\n# Config Version\n# DO NOT CHANGE THIS\nconfig-version: \"1.0\"\n\n# If enabled, when you use the \"/sudo\" command, you can type part of a username\n# (at least the specified minimum number of characters), and it will return the matching player.\npartial_username: true\n\n# The minimum number of characters required for partial username matching.\n# This value is used when partial_username is set to true.\n# Example: If set to 2, typing '/sudo Ni' can match 'NightDevil9440'.\npartial-username-min: 2\n\n# List of player names that are blacklisted from being sudoed using /sudo or /sudoall commands.\n# Separate each player name with a comma.\n# Example:\n# blacklist: NightDevil9440, BoxierChimera37\nblacklist: NightDevil9440, BoxierChimera37\n```\n\n## Issue Reporting\n\nIf you encounter any bugs or glitches, please create an issue [here](https://github.com/imLuckii/AdvancedSudo/issues/new).\n\n## Suggestions\n\nAny suggestions you may have to improve AdvancedSudo are welcome. Feel free to create an issue [here](https://github.com/imLuckii/AdvancedSudo/issues/new).\n\n## Contribution\n\nIf you want to contribute to this project, create a pull request [here](https://github.com/imLuckii/AdvancedSudo/pulls).",
+  "readme_source_url": "https://github.com/imLuckii/AdvancedSudo",
+  "icon_url": "https://raw.githubusercontent.com/imLuckii/AdvancedSudo/af7744b8f78633f66aee52d8ab4703d38b136867/icon.png",
+  "featured": false,
+  "repo": "https://github.com/imLuckii/AdvancedSudo",
+  "archive_repo": null,
+  "approved_release_tag": "r-13168",
+  "stars": 0,
+  "total_downloads": 837,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.16.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "imLuckii"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/241356",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-13168",
+      "published_at": null,
+      "downloads": 837,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13168/advancedsudo-2.0.0-r13168.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13168",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13168/advancedsudo-2.0.0-r13168.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdvancedSudo",
+    "stable_release_id": 13168
+  }
+}

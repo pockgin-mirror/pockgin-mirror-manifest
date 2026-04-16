@@ -1,0 +1,59 @@
+{
+  "id": "reportplayer",
+  "name": "ReportPlayer",
+  "author": "KnosTx",
+  "description": "ReportPlayer is a Minecraft plugin that facilitates reporting of player misconduct directly within the game environment. It provides players with a straightforward way to report...",
+  "readme_markdown": "# ReportPlayer\n\nReportPlayer is a Minecraft plugin that facilitates reporting of player misconduct directly within the game environment. It provides players with a straightforward way to report rule violations, and administrators with tools to manage these reports effectively.\n\n## Features\n\n- **Player Reporting**: Allows players to report others for misconduct using an in-game form.\n- **Admin Tools**: Provides administrators with commands to view, manage, and clear reported incidents.\n- **Customizable**: Configurable exempt players list and customizable messages through the `playerreport.yml` configuration file.\n\n## Installation\n\nTo install the ReportPlayer plugin, follow these steps:\n\n1. Download the plugin `.phar` file from [Poggit releases](https://poggit.pmmp.io/p/ReportPlayer).\n2. Place the downloaded `.phar` file into your server's `plugins` folder.\n3. Start or reload your server. ReportPlayer should be loaded automatically.\n\n## Usage\n\n### Reporting a Player\n\nPlayers can report another player using the `/report <player>` command:\n\n```\n/report <player>\n```\n\nThis command opens a form where the reporting player can enter additional details about the incident.\n\n### Managing Reports\n\nAdministrators can manage reports using the following commands:\n\n- **View Pending Reports**: `/reportlist`\n  - Lists all pending reports, showing details of each reported incident.\n\n- **Clear Reports**: `/clearreports`\n  - Clears all pending reports from the system.\n\n### Configuration\n\nThe plugin uses the `playerreport.yml` file for configuration. Here are the configurable options:\n\n```yaml\n# playerreport.yml\n\n# List of players who cannot be reported (e.g., admins or VIPs)\nexemptPlayers:\n  - Player1\n  - Player2\n  - Player3\n\n# Messages sent to players and admins\nmessages:\n  reportSuccess: \"Your report has been successfully submitted.\"\n  reportFail: \"Unable to report this player at this time.\"\n  reportListHeader: \"Pending Reports:\"\n  noReports: \"There are no pending reports at this time.\"\n  noPermission: \"You do not have permission to use this command.\"\n  playerNotFound: \"Player not found or not online.\"\n  usageReport: \"Usage: /report <player>\"\n  usageReportList: \"Usage: /reportlist\"\n  allReportsCleared: \"All reports have been cleared.\"\n\n# Other settings\nsettings:\n  saveReportsToFile: true\n  reportFileName: \"reports.json\"\n```\n\n### Permissions\n\n- `reportplayer.report`:\n  - Allows players to report other players.\n  - Default: All players.\n\n- `reportplayer.viewlist`:\n  - Allows players to view pending reports using `/reportlist`.\n  - Default: Operators (OPs).\n\n### Support\n\nFor issues or feature requests, please visit our [GitHub repository](https://github.com/NurAzliYT/ReportPlayer) and create an issue. We welcome community contributions and feedback!\n\n### License\n\nThis plugin is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.\n\n---\n\nCreated by NurAzliYT",
+  "readme_source_url": "https://github.com/KnosTx/ReportPlayer",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/KnosTx/ReportPlayer",
+  "archive_repo": null,
+  "approved_release_tag": "r-13220",
+  "stars": 0,
+  "total_downloads": 237,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KnosTx"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13220",
+      "published_at": null,
+      "downloads": 237,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13220/reportplayer-1.0.0-r13220.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13220",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13220/reportplayer-1.0.0-r13220.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ReportPlayer",
+    "stable_release_id": 13220
+  }
+}

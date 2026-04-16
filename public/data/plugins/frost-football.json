@@ -1,0 +1,61 @@
+{
+  "id": "frost-football",
+  "name": "Frost-Football",
+  "author": "DEVILxD5919",
+  "description": "Football Plugin for PocketMine-MP",
+  "readme_markdown": "# Football Plugin for PocketMine-MP\n\nWelcome to the Football plugin for PocketMine-MP! This plugin adds a fun and interactive football experience to your Minecraft server, allowing players to play football and enjoy their time.\n![Football Plugin](https://github.com/DEVILxD5919/FrostFootball/raw/main/football.png)\n\n## Features\n\n- Spawn a football on the field\n- Remove the football when you're done playing\n- Easy-to-use commands for spawning and removing the football\n\n## Commands\n\n- `/football spawn`: Spawns a football in the world.\n- `/football remove`: Removes the football from the world.\n\n## Installation\n\n1. Download the latest release of the Football plugin from the [releases page](https://github.com/DEVILxD5919/FrostFootball/releases).\n2. Place the downloaded `.phar` file into the `plugins` folder of your PocketMine-MP server.\n3. Restart your server to load the plugin.\n\n## Usage\n\n1. To spawn a football, type `/football spawn` in the chat.\n2. To remove the football, type `/football remove` in the chat.\n\n## Configuration\n\nCurrently, the Football plugin does not require any configuration. Simply install and use the commands to enjoy the game.\n\n## Contributing\n\nWe welcome contributions to the Football plugin! If you'd like to contribute, please follow these steps:\n\n1. Fork the repository.\n2. Create a new branch for your feature or bugfix.\n3. Make your changes and commit them with descriptive messages.\n4. Push your changes to your fork.\n5. Open a pull request to the `main` branch of this repository.\n\n## Issues\n\nIf you encounter any issues or have suggestions for improvements, please open an issue on the [GitHub Issues](https://github.com/DEVILxD5919/FrostFootball/issues) page.\n\n## License\n\nThis project is licensed under the Apache License 2.0  See the [LICENSE](https://github.com/DEVILxD5919/FrostFootball/blob/main/LICENSE) file for details.\n\n## Contact\n\nFor support, bug reports, and feature requests, please Join Our Discord Server the [discord](https://discord.gg/YfcDdK5mSF).\nor Email me at [support@frostnetwork.xyz](mailto:support@frostnetwork.xyz)\n\nEnjoy your time playing football on your PocketMine-MP server!\n\n[![](https://poggit.pmmp.io/shield.state/Frost-Football)](https://poggit.pmmp.io/p/Frost-Football)\n<a href=\"https://poggit.pmmp.io/p/Frost-Football\"><img src=\"https://poggit.pmmp.io/shield.state/Frost-Football\"></a>\n[![](https://poggit.pmmp.io/shield.dl.total/Frost-Football)](https://poggit.pmmp.io/p/Frost-Football)\n<a href=\"https://poggit.pmmp.io/p/Frost-Football\"><img src=\"https://poggit.pmmp.io/shield.dl.total/Frost-Football\"></a>\n\n\n\n---",
+  "readme_source_url": "https://github.com/DEVILxD5919/FrostFootball",
+  "icon_url": "https://raw.githubusercontent.com/DEVILxD5919/FrostFootball/ff5847c714c0b47a71eb941afb3d05b48f20b63a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/DEVILxD5919/FrostFootball",
+  "archive_repo": null,
+  "approved_release_tag": "r-13140",
+  "stars": 3,
+  "total_downloads": 346,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DEVILxD5919"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13140",
+      "published_at": null,
+      "downloads": 346,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13140/frost-football-1.0.0-r13140.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13140",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13140/frost-football-1.0.0-r13140.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Frost-Football",
+    "stable_release_id": 13140
+  }
+}

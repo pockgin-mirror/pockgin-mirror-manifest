@@ -1,0 +1,66 @@
+{
+  "id": "deviceacm",
+  "name": "DeviceACM",
+  "author": "fernanACM",
+  "description": "Simple tag to see your health, hunger, cps, connection, input mode, faction and device you use. The best DeviceTag for PocketMine-PM 5.0 servers.**",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/DeviceACM)](https://poggit.pmmp.io/p/DeviceACM)\n\n[![](https://poggit.pmmp.io/shield.api/DeviceACM)](https://poggit.pmmp.io/p/DeviceACM)\n\n# DeviceACM\n\n**Simple tag to see your health, hunger, cps, connection, input mode, faction and device you use. The best DeviceTag for PocketMine-PM 5.0 servers.**\n\n![1665729976547](https://user-images.githubusercontent.com/83558341/195784419-7efde11a-f0f0-4dc2-ad3c-69616cbfb611.png)\n\n<a href=\"https://discord.gg/YyE9XFckqb\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n\n### 🌍 Wiki\n* Check our plugin [wiki](https://github.com/fernanACM/DeviceACM/wiki) for features and secrets in the...\n\n### 💡 Implementations\n* [X] Configuration\n* [x] Faction support\n* [x] ScoreTag customization\n* [x] PopupTag customization\n* [x] DeviceTag and PopupTag per worlds\n* [x] Platform\n* [x] InputMode \n* [x] Keys in config.yml\n\n### 💾 Config \n```yaml\n#  ____    _____  __     __  ___    ____   _____      _       ____   __  __ \n# |  _ \\  | ____| \\ \\   / / |_ _|  / ___| | ____|    / \\     / ___| |  \\/  |\n# | | | | |  _|    \\ \\ / /   | |  | |     |  _|     / _ \\   | |     | |\\/| |\n# | |_| | | |___    \\ V /    | |  | |___  | |___   / ___ \\  | |___  | |  | |\n# |____/  |_____|    \\_/    |___|  \\____| |_____| /_/   \\_\\  \\____| |_|  |_|\n#       by fernanACM\n# A simple and customizable DeviceTag via 'config.yml'. Shows your health, hunger, \n# connection, device, cps, faction (ONLY IF YOU ACTIVATE SUPPORT) and more. \n# The best DeviceTag for Pocketmine 5.0 servers.\n\n# VERSION CONFIG, DO NOT TOUCH!\nconfig-version: \"4.0.1\"\n\n# ======(KEYS)======\n# PLUGIN:\n# {NAME} => player name\n# {HEALTH} => player life\n# {MAX_HEALTH} => player max life\n# {FOOD} => player hunger\n# {MAX_FOOD} => player max hunger\n# {PING} => player connection\n# {DEVICE} => player device\n# {INPUT} => player input mode\n# {CPS} => player cps\n# {WORLD} => world name\n# {REACH} => player reach\n\n# POPUP:\n# {VICTIM_NAME} => victm name\n# {VICTIM_HEALTH} => victm life\n# {VICTIM_MAX_HEALTH} => victm max life\n# {VICTIM_FOOD} => victm hunger\n# {VICTIM_MAX_FOOD} => victm max hunger\n# {VICTIM_PING} => victm connection\n# {VICTIM_DEVICE} => victm device\n# {VICTIM_INPUT} => victm input mode\n# {VICTIM_CPS} => victm cps\n# {VICTIM_WORLD} => world name\n# {VICTIM_REACH} => victm reach\n\n# FACTION SUPPORT:\n# {FACTION} => faction name\n# {FACTION_RANK} => faction rank\n# {FACTION_POWER} => faction power\n\n# EXTRAS:\n# \"{LINE}\" => \"\\n\",\n# - COLORS\n#  \"&\" => §,\n# \"{BLACK}\" => TextFormat::BLACK,\n# \"{DARK_BLUE}\" => TextFormat::DARK_BLUE,\n# \"{DARK_GREEN}\" => TextFormat::DARK_GREEN,\n# \"{CYAN}\" => TextFormat::DARK_AQUA,\n# \"{DARK_RED}\" => TextFormat::DARK_RED,\n# \"{PURPLE}\" => TextFormat::DARK_PURPLE,\n# \"{GOLD}\" => TextFormat::GOLD,\n# \"{GRAY}\" => TextFormat::GRAY,\n# \"{DARK_GRAY}\" => TextFormat::DARK_GRAY,\n# \"{BLUE}\" => TextFormat::BLUE,\n# \"{GREEN}\" => TextFormat::GREEN,\n# \"{AQUA}\" => TextFormat::AQUA,\n# \"{RED}\" => TextFormat::RED,\n# \"{PINK}\" => TextFormat::LIGHT_PURPLE,\n# \"{YELLOW}\" => TextFormat::YELLOW,\n# \"{WHITE}\" => TextFormat::WHITE,\n# \"{ORANGE}\" => \"§6\"\n# \"{BOLD}\" => TextFormat::BOLD,\n# \"{RESET}\" => TextFormat::RESET\n\n# ==(CONFIGURATION)==\nSettings:\n  # Always keep the player's name tag visible. Only deactivate \n  # if you think it is necessary\n  # Use \"true\" or \"false\" to enable/disable this option\n  NametagVisible: true\n  # ==(WORLD MANAGER)==\n  # Enable and disable DeviceACM or PopupTag for worlds you \n  # add to \"whitelist\" or \"blacklist\" modes. Use \"false\" to disable this option\n  WorldManager:\n    # Valid modes:\n    # - whitelist\n    # - blacklist\n    # - false\n    mode: false\n    # ==(DEVICE TAG)==\n    Device:\n      # Add the names of worlds that are in the whitelist\n      worlds-whitelist:\n        - \"world\"\n        - \"world-2\"\n        - \"ACM\"\n      # Add the names of worlds that are in the blacklist\n      worlds-blacklist:\n        - \"MinePvP\"\n        - \"ZonePvP\"\n    # ==(POUPUP)==\n    Popup:\n      # Add the names of worlds that are in the whitelist\n      worlds-whitelist:\n        - \"world\"\n        - \"world-2\"\n        - \"ACM\"\n      # Add the names of worlds that are in the blacklist\n      worlds-blacklist:\n        - \"MinePvP\"\n        - \"ZonePvP\"\n# ==(FACTION SUPPORT)==\n# Use \"true\" or \"false\" to enable/disable this option\nFactionSupport: true\n\nFaction:\n  # have no faction\n  no-faction: \"§5N/A\"\n  # Have no faction rank\n  no-faction-rank: \"§5N/A\"\n\n# ==(DEVICE TAG)==\nDevicetag:\n  line: \n    - \"&c♥ {HEALTH}&f |  {FOOD}\"\n    - \"&aPing: &f{PING} |&6 CPS:&f {CPS} |&b {DEVICE}\"\n    - \"&cFaction: &a{FACTION}&f | &cPower:&a {FACTION_POWER}&f | &cRank:&a {FACTION_RANK}\"\n# ==(POPUP TAG)==\nPopuptag:\n  # Use \"true\" or \"false\" to enable/disable this option\n  enabled: true\n  # Valid modes:\n    # - popup\n    # - actionbar\n    # - tip\n  mode: popup\n  line:\n    - \"&bVictim:&a {VICTIM_NAME}\"\n    - \"&bVictim ping:&e {VICTIM_PING}\"\n    - \"&bYour cps:&6 {CPS}&f |&b Victim cps:&6 {VICTIM_CPS}\"\n    - \"&bYour reach:&e {REACH}&f |&b Victim reach:&e {VICTIM_REACH}\"\n# ==(PLATAFORM TAG)==\nPlatform:\n  Android: \"Android\"\n  iOS: \"iOS\"\n  macOS: \"macOS\"\n  FireOS: \"Amazon\"\n  GearVR: \"Gear VR\"\n  Hololens: \"Hololens\"\n  Windows10: \"Windows 10\"\n  Windows7: \"Win32\"\n  Dedicated: \"Dedicated\"\n  TVOS: \"TV OS\"\n  PlayStation: \"PlayStation\"\n  NintendoSwitch: \"Nintendo\"\n  Xbox: \"Xbox\"\n  WindowsPhone: \"Windows Phone\"\n  Linux: \"Linux\"\n  Unknown: \"Unknown\"\n# ==(INPUT MODE)==\nInputMode:\n  Keyboard: \"Keyboard\"\n  Touchscreen: \"Touch\"\n  Gamepad: \"Gamepad\"\n  Motion-controller: \"Motion Controller\"\n  Unknown: \"Unknown\"\n```\n### 🛠 Faction support\n| Author | Plugin |\n| -------|---------|\n| DaDevPig | [PiggyFactions](https://github.com/DaPigGuy/PiggyFactions) |\n| AyzrixYTB | [SimpleFaction](https://github.com/AyzrixYTB/SimpleFaction) |\n| Wertzui123 | [BedrockClans](https://github.com/Wertzui123/BedrockClans/tree/master/) |\n| ShockedPlot7560 | [FactionMaster](https://github.com/FactionMaster/FactionMaster) |\n| rxduz | AdvancedFactions |\n***\n\n### 📢 Report bug\n* If you find any bugs in this plugin, please let me know via: [issues](https://github.com/fernanACM/DeviceACM/issues)\n\n### 📞 Contact\n| Redes | Tag | Link |\n|-------|-------------|------|\n| YouTube | fernanACM | [YouTube](https://www.youtube.com/channel/UC-M5iTrCItYQBg5GMuX5ySw) | \n| Discord | fernanACM#5078 | [Discord](https://discord.gg/YyE9XFckqb) |\n| GitHub | fernanACM | [GitHub](https://github.com/fernanACM)\n| Poggit | fernanACM | [Poggit](https://poggit.pmmp.io/ci/fernanACM)\n****\n\n### ✔ Credits\n| Authors | Github | Lib |\n|---------|--------|-----|\n| DaPigGuy | [DaPigGuy](https://github.com/DaPigGuy) | [libPiggyUpdateChecker](https://github.com/DaPigGuy/libPiggyUpdateChecker) |\n****",
+  "readme_source_url": "https://github.com/fernanACM/DeviceACM",
+  "icon_url": "https://raw.githubusercontent.com/fernanACM/DeviceACM/c4c36dcc4daeaa52b4ab7e2298cc038e023f61c5/icon-deviceacm.png",
+  "featured": false,
+  "repo": "https://github.com/fernanACM/DeviceACM",
+  "archive_repo": null,
+  "approved_release_tag": "r-13169",
+  "stars": 0,
+  "total_downloads": 2532,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "fernanACM"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/241421",
+  "versions": {
+    "stable": {
+      "version": "4.0.4",
+      "tag": "r-13169",
+      "published_at": null,
+      "downloads": 2450,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13169/deviceacm-4.0.4-r13169.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13169",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13169/deviceacm-4.0.4-r13169.phar"
+    },
+    {
+      "tag": "r-13149",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13149/deviceacm-4.0.3-r13149.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DeviceACM",
+    "stable_release_id": 13169
+  }
+}

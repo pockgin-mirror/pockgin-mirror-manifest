@@ -1,0 +1,61 @@
+{
+  "id": "azusabanitem",
+  "name": "AzusaBanItem",
+  "author": "KumaaDeveloper",
+  "description": "General",
+  "readme_markdown": "## General\nAzusaBanItem is a Pocketmine plug-in that works to block the use of items / blocks in the world\n\n## Features\n- Block banned blocks from being placed by players\n- Block banned blocks for interaction by players.\n- Block banned items/tools from dealing damage to entities or players\n- Block items/tools that are banned for use by players\n- Block banned foods to increase hunger bar\n- OP player is not affected, can be set in config\n\n## Command\nCommands | Default | Permission\n--- | --- | ---\n`/banitem` | Op | azusabanitem.command.banitem\n`/unbanbanitem` | Op | azusabanitem.command.unbanitem\n`/banitemlist` | Op | azusabanitem.command.banitemlist\n\n## Configuration\n```yaml\n# AzusaBanItem Configuration\n\n# Allows op players to not be affected by banned items\nallow-op: true\n\n# Message when successfully ban and unban items\nban_success_message: \"§aItem has been successfully banned\"\nunban_success_message: \"§aItem has been successfully unbanned\"\n\n# Message when an item has been previously banned\nalready_banned_message: \"§cThe item is already on the banned\"\n\n# Message when the item you want to ban is not in the player's hand\nno_item_message: \"§cNo blocks/items detected in your hand\"\n\n# Message when unbanned item but item is not banned\nnot_banned_message: \"§cThe item is not banned\"\n\n# Message when a banned item is used by a player\nbanned_usage_message: \"§cThis item/block is banned from the world\"\n```\n\n## Does not support items\n- [🗙] Totem of undying\n- [🗙] Spyglass",
+  "readme_source_url": "https://github.com/KumaaDeveloper/AzusaBanItem",
+  "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AzusaBanItem/e34f106b9db9a1ae2c2f36b477a5bc646aa10788/icon.png",
+  "featured": false,
+  "repo": "https://github.com/KumaaDeveloper/AzusaBanItem",
+  "archive_repo": null,
+  "approved_release_tag": "r-13256",
+  "stars": 5,
+  "total_downloads": 701,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KumaaDeveloper"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13256",
+      "published_at": null,
+      "downloads": 701,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13256/azusabanitem-1.0.0-r13256.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13256",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13256/azusabanitem-1.0.0-r13256.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AzusaBanItem",
+    "stable_release_id": 13256
+  }
+}

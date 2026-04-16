@@ -1,0 +1,63 @@
+{
+  "id": "frosttictactoe",
+  "name": "FrostTicTacToe",
+  "author": "DEVILxD5919",
+  "description": "FrostTicTacToe Plugin for Pocketmine MP",
+  "readme_markdown": "# FrostTicTacToe Plugin for Pocketmine MP\n\n## Overview\n\nFrostTicTacToe is a Pocketmine MP plugin that adds a fun and interactive TicTacToe game to your Minecraft server. Players can start, join, and manage TicTacToe games through a series of simple commands. This plugin is perfect for adding an extra layer of entertainment to your server, allowing players to challenge each other to quick and strategic TicTacToe matches.\n\n![FrostTicTacToe Opponent Turn](FrostTicTacToe1.png)\n![FrostTicTacToe Opponent Turn](FrostTicTacToe2.png)\n## Features\n\n- Start a new TicTacToe game.\n- Join an existing game.\n- Get a list of all active games.\n- End an active TicTacToe game.\n- Get help and usage instructions.\n- Configurable winning reward amount.\n\n## Commands\n\n### /fttt start\nStart a new TicTacToe game.\n\n**Usage:**\n```\n/fttt start\n```\n\n### /fttt join \"GAMERTAG\"\nJoin an existing TicTacToe game started by another player.\n\n**Usage:**\n```\n/fttt join \"GAMERTAG\"\n```\n\n### /fttt help\nDisplay help information and command usage instructions.\n\n**Usage:**\n```\n/fttt help\n```\n\n### /fttt end\nEnd an active TicTacToe game that you have started or joined.\n\n**Usage:**\n```\n/fttt end\n```\n\n### /fttt list\nGet a list of all active TicTacToe games on the server.\n\n**Usage:**\n```\n/fttt list\n```\n\n## Installation\n\n1. Download the latest release of the FrostTicTacToe plugin from the [Poggit releases page SOON](https://github.com/DEVILxD5919/FrostTicTacToe/).\n2. Place the downloaded `.phar` file into the `plugins` folder of your Pocketmine MP server.\n3. Ensure you have the [BedrockEconomy]([https://github.com/BedrockEconomy/BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy/4.0.4)) plugin installed, as FrostTicTacToe depends on it for in-game currency functionalities.\n4. Restart your server to load the plugin.\n\n## Configuration\n\n1. Navigate to the `plugin_data/FrostTicTacToe` directory in your Pocketmine MP server folder.\n2. Open the `config.yml` file.\n3. Set the winning reward amount in the configuration file. \n\n**Example `config.yml`:**\n```yaml\n# FrostTicTacToe Configuration\n\nreward:\n  money: 100\n```\n\n4. Save the `config.yml` file and restart your server for the changes to take effect.\n\n## Contributing\n\nContributions are welcome! If you find any bugs or have suggestions for new features, please open an issue on the [GitHub repository](https://github.com/DEVILxD5919/FrostTicTacToe). Pull requests are also appreciated.\n\n## License\n\nThis project is licensed under the Apache License 2.0. See the [LICENSE](https://github.com/DEVILxD5919/FrostTicTacToe/blob/main/LICENSE) file for details.\n\n## Support\n\nIf you need help or have any questions, feel free to open an issue on GitHub or contact the plugin developer at [support@frostnetwork.xyz].\n\nEnjoy playing TicTacToe on your server with FrostTicTacToe!\n\n[![](https://poggit.pmmp.io/shield.state/FrostTicTacToe)](https://poggit.pmmp.io/p/FrostTicTacToe)\n<a href=\"https://poggit.pmmp.io/p/FrostTicTacToe\"><img src=\"https://poggit.pmmp.io/shield.state/FrostTicTacToe\"></a>",
+  "readme_source_url": "https://github.com/DEVILxD5919/FrostTicTacToe",
+  "icon_url": "https://raw.githubusercontent.com/DEVILxD5919/FrostTicTacToe/f1e2192d0adce9351b4dfff0de779225b891a689/icon.png",
+  "featured": false,
+  "repo": "https://github.com/DEVILxD5919/FrostTicTacToe",
+  "archive_repo": null,
+  "approved_release_tag": "r-13246",
+  "stars": 0,
+  "total_downloads": 182,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DEVILxD5919"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-13246",
+      "published_at": null,
+      "downloads": 182,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13246/frosttictactoe-2.0.0-r13246.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13246",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13246/frosttictactoe-2.0.0-r13246.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FrostTicTacToe",
+    "stable_release_id": 13246
+  }
+}

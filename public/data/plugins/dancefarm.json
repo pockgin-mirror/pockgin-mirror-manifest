@@ -1,0 +1,61 @@
+{
+  "id": "dancefarm",
+  "name": "DanceFarm",
+  "author": "CTNATA",
+  "description": "plugin that makes crops grow on a radio configurable through dance",
+  "readme_markdown": "# DanceFarm\nplugin that makes crops grow on a radio configurable through dance",
+  "readme_source_url": "https://github.com/CTNATA/DanceFarm",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/CTNATA/DanceFarm",
+  "archive_repo": null,
+  "approved_release_tag": "r-13446",
+  "stars": 5,
+  "total_downloads": 82,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "CTNATA"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13446",
+      "published_at": null,
+      "downloads": 82,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13446/dancefarm-1.0.0-r13446.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13446",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13446/dancefarm-1.0.0-r13446.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DanceFarm",
+    "stable_release_id": 13446
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "warpgui",
+  "name": "WarpGUI",
+  "author": "ClickedTran",
+  "description": "📋 General",
+  "readme_markdown": "## 📋 General\n\n| **Plugins** | **WarpGUI** |\n| --- | --- |\n| **API** | **<a href=\"https://poggit.pmmp.io/p/WarpGUI\"><img src=\"https://poggit.pmmp.io/shield.api/WarpGUI\"></a>** |\n| **Version** | **<a href=\"https://poggit.pmmp.io/p/WarpGUI\"><img src=\"https://poggit.pmmp.io/shield.state/WarpGUI\"></a>** |\n| **Download** | **<a href=\"https://poggit.pmmp.io/p/WarpGUI\"><img src=\"https://poggit.pmmp.io/shield.dl/WarpGUI\"></a>** |\n| **Total Download** | **<a href=\"https://poggit.pmmp.io/p/WarpGUI\"><img src=\"https://poggit.pmmp.io/shield.dl.total/WarpGUI\"></a>** |\n<br>\n\n\n<div align=\"center\">\n<img src=\"https://github.com/Clickedtran/WarpGUI-PM4/blob/Master/icon.png\" width=\"300px\" height=\"auto\">\n</div>\n<br>\n\n<p align=\"center\">✔️ The plugin allows you to create and edit warps ✔️</p>\n<br>\n<p align=\"center\">✔️ Can add or remove more areas ✔️</p>\n<br>\n\n## 📖 Features\n- It's a plugin that allows you to navigate using the chest menu\n- The plugin is inspired by the WarpGUI of Minecraft PC\n\n<br>\n\n## Credits / Virions Used\n- [InvMenu](https://github.com/Muqsit/InvMenu) (Muqsit)\n- [DEVirion](https://github.com/poggit/devirion) (SOF3)\n- [Commando](https://github.com/Paroxity/Commando) (Paroxity)\n- [SimplePacketHandler](https://github.com/muqsit/SimplePacketHandler) (Muqsit)\n\n<br>\n\n## 💬 Commands\n| **Commands** | **Description** | **Aliases** |\n| --- | --- | --- |\n| **/warpgui** | **WarpGUI Commands** | **/warp** |\n\n<br>\n\n## 📝 Permission\n\n<details> \n  <summary>Click to see permission</summary>\n\n- use permission `warpgui.command` to use command /warpgui\n- use permission `warpgui.command.help` to use command /warpgui help\n- use permission `warpgui.command.create` to use command /warpgui create\n- use permission `warpgui.command.remove` to use command /warpgui remove\n- use permission `warpgui.command.setup` to use command /warpgui setup\n- use permission `warpgui.command.list` to use command /warpgui list\n\n</details>\n\n<br>\n\n## 📜 Config\n\n<details>\n  <summary>Click to open</summary>\n\n```yaml\n---\n# WarpGUI config.yml\n#    \n#    ░██╗░░░░░░░██╗░█████╗░██████╗░██████╗░░██████╗░██╗░░░██╗██╗\n#    ░██║░░██╗░░██║██╔══██╗██╔══██╗██╔══██╗██╔════╝░██║░░░██║██║\n#    ░╚██╗████╗██╔╝███████║██████╔╝██████╔╝██║░░██╗░██║░░░██║██║\n#    ░░████╔═████║░██╔══██║██╔══██╗██╔═══╝░██║░░╚██╗██║░░░██║██║\n#    ░░╚██╔╝░╚██╔╝░██║░░██║██║░░██║██║░░░░░╚██████╔╝╚██████╔╝██║\n#    ░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░░╚═════╝░░╚═════╝░╚═╝\n#\n# Message Teleport To Warp\n# Use {warp} to get warp name\nmsg-teleport: \"§aSuccessfully teleport to warp§6 {warp}\"\n\n# Menu WarpGUI Name\nmenu-name: \"WarpGUI\"\n...\n```\n</details>\n\n---\n## 📚 For Developer\n### API\n```php\n$api = WarpManager::getInstance();\n```\n### Create New Warp\n```php\n$name = \"fishing\";\n\n//check warp exists\nif($api->getWarp()->exsits($name)){\n   $player->sendMessage(\"warp already exists!\");\n   return;\n}\n$api->addWarp($name);\n$player->sendMessage(\"Warp \".$name.\" has been created successfully\");\n```\n### Remove Warp\n```php\n$name = \"fishing\";\n\nif(!$api->getWarp()->exists($name)){\n   $player->sendMessage(\"warp does not exists!\");\n   return;\n}\n$api->removeWarp($name);\n$player->sendMessage(\"Warp \".$name.\" has been removed\");\n```\n### Setup Warp\n```php\n/**\n*@var Player $player\n*/\n$api->editWarp[$player->getName()];\n```\n### Teleport Player To Warp\n```php\n/**\n*@var Player $player\n*@var string $name\n*/\n\n$name = \"fishing\";\n$api->teleportToWarp($player, $name);\n```\n<br>\n\n## ▶️ Tutorial Setup\n- [Click Here To See The Tutorial Setup](https://www.youtube.com/watch?v=KRF0pttAR04)\n- IMPORTANT THING: You need to install the `DEVirion` plugin into the `plugins/` directory of the server, reload the server.\n\n```yml\nyour_server_file\n| - - plugins\n|       ` - - WarpGUI\n|       ` - - DEVirions\n| - - virions\n|       ` - - InvMenu\n|       ` - - Commando\n|       ` - - SimplePacketHandler\n```\n\n\n<br>\n\n## Install\n>- Step 1: Click the `Direct Download` button to download the plugin\n>- Step 2: move the file `WarpGUI.phar` into the file `plugins`\n>- Step 3: Restart server\n\n<br>",
+  "readme_source_url": "https://github.com/ClickedTran/WarpGUI",
+  "icon_url": "https://raw.githubusercontent.com/ClickedTran/WarpGUI/91050786651fea6e576c1026e3c7fb16e938d397/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ClickedTran/WarpGUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-13171",
+  "stars": 0,
+  "total_downloads": 1218,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.15.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ClickedTran"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/242655",
+  "versions": {
+    "stable": {
+      "version": "1.3.0",
+      "tag": "r-13171",
+      "published_at": null,
+      "downloads": 1218,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13171/warpgui-1.3.0-r13171.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13171",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13171/warpgui-1.3.0-r13171.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WarpGUI",
+    "stable_release_id": 13171
+  }
+}

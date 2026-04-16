@@ -1,0 +1,66 @@
+{
+  "id": "adaptivegc",
+  "name": "AdaptiveGC",
+  "author": "Blackjack200",
+  "description": "AdaptiveGC Plugin",
+  "readme_markdown": "# AdaptiveGC Plugin\n\nAdaptiveGC is a plugin for automatic garbage collection (GC) management in PocketMine-MP servers. It dynamically\nmonitors server conditions and decides whether to run the GC based on various configurable factors.\n\n## Features\n\n- **Automatic Garbage Collection**: Monitors and manages garbage collection automatically based on server conditions.\n- **Dynamic Configuration**: Adjustable settings for fine-tuning GC behavior.\n- **Performance Optimization**: Aims to optimize server performance by moving GC to a sweet spot.\n\n## Configuration\n\nThe plugin supports the following configuration options in `config.yml`:\n\n```yaml\n#Will only run gc when tick used percentage is lower or equal to given value (default 10).\ntrigger-percentage: 10\n#Will cancel gc if gc may exceed server tick time.\navoid-time-exceed: true\n#Will only run gc when player count is 0 (default true).\ntrigger-no-player: true\n#Will run gc unconditionally if root count exceeds the given value (default 500000).\nforce-root-count: 500000\n#Will skip gc if root count increment is lower than the given ratio.\ngc-skip-threshold-ratio: 0.01\n#Prediction EMA(Exponential Moving Average) smoothing factor (default 0.3).\n#The smoothing factor determines the weight given to the most recent data points.\n#It controls how sensitive the EMA is to recent changes in the data.\nsmoothing-factor: 0.5\n```\n\n## Usage\n\nAdaptiveGC runs automatically once installed and enabled. It monitors server tick timing and garbage collection metrics\nto make informed decisions about when to perform GC operations.\n\n## Commands\n\n- **gc_status**: show the current status of garbage collector.\n- **adaptive_gc_reload**: reload config.\n\n## Permissions\n\n- **adaptive_gc.gc_status**: op\n- **adaptive_gc.adaptive_gc_reload**: op\n\n## Troubleshooting\n\n- **Logging**: Check server logs for any errors or warnings by AdaptiveGC.\n- **Configuration**: Verify that `config.yml` is correctly configured.\n\n## License\n\nThis plugin is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.",
+  "readme_source_url": "https://github.com/Blackjack200/AdaptiveGC",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Blackjack200/AdaptiveGC",
+  "archive_repo": null,
+  "approved_release_tag": "r-13358",
+  "stars": 0,
+  "total_downloads": 326,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Blackjack200"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/244801",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-13358",
+      "published_at": null,
+      "downloads": 301,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13358/adaptivegc-0.0.2-r13358.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13358",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13358/adaptivegc-0.0.2-r13358.phar"
+    },
+    {
+      "tag": "r-13172",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13172/adaptivegc-0.0.1-r13172.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdaptiveGC",
+    "stable_release_id": 13358
+  }
+}

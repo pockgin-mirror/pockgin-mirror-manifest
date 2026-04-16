@@ -1,0 +1,71 @@
+{
+  "id": "azusanightvision",
+  "name": "AzusaNightVision",
+  "author": "KumaaDeveloper",
+  "description": "General",
+  "readme_markdown": "## General\nAzusaNightVision is a Pocketmine plug-in that works to provide unlimited night vision\n\n## Features\n- Nightvision time is unlimited\n- When you join, you will immediately get the nightvision effect\n- When you respawn, you will immediately get the nightvision effect\n- Addition of \"whitelist\" and \"blacklist\" features for the world\n  \n## Configuration\n```yaml\n# Configuration for AzusaNightVision plugin\n\n# Interval (in seconds) to check for Night Vision\nCheckInterval: 300\n\n# Mode for world selection: \"whitelist\" or \"blacklist\"\nMode: \"whitelist\"\n\n# List of worlds for whitelist/blacklist\nWorlds:\n  - lobby\n  - world\n```",
+  "readme_source_url": "https://github.com/KumaaDeveloper/AzusaNightVision",
+  "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AzusaNightVision/b92936c311e53fba39aecd4fb9020dfafff379ec/icon.png",
+  "featured": false,
+  "repo": "https://github.com/KumaaDeveloper/AzusaNightVision",
+  "archive_repo": null,
+  "approved_release_tag": "r-13227",
+  "stars": 5,
+  "total_downloads": 1066,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KumaaDeveloper"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/242434",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-13227",
+      "published_at": null,
+      "downloads": 906,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13227/azusanightvision-1.0.2-r13227.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13227",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13227/azusanightvision-1.0.2-r13227.phar"
+    },
+    {
+      "tag": "r-13185",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13185/azusanightvision-1.0.1-r13185.phar"
+    },
+    {
+      "tag": "r-13179",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13179/azusanightvision-1.0.0-r13179.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AzusaNightVision",
+    "stable_release_id": 13227
+  }
+}

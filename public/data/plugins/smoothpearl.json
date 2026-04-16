@@ -1,0 +1,61 @@
+{
+  "id": "smoothpearl",
+  "name": "SmoothPearl",
+  "author": "imLuckii",
+  "description": "This plugin adds a smooth teleporting animation when using the EnderPearl.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.dl/SmoothPearl)](https://poggit.pmmp.io/p/SmoothPearl) [![](https://poggit.pmmp.io/shield.dl.total/SmoothPearl)](https://poggit.pmmp.io/p/SmoothPearl)\n\n## About\n\nThis plugin adds a smooth teleporting animation when using the EnderPearl.\n\n## How to use?\n- Just download the ``.phar`` file.\n- Upload it to your ``plugins`` folder.\n- Restart the server.\n- Done.\n\n## Config\n\n```yaml\n# Configuration Version\nconfig-version: \"1.0\"\n\n# Enable or disable fall damage when the pearl lands. Use true or false.\ndamage: false\n\n# The amount of damage dealt when the pearl lands, measured in HP (2 HP = 1 heart). Only numerical values are allowed.\namount: 17\n```\n\n## Preview\n![](https://github.com/imLuckii/SmoothPearl/blob/main/extras/example.gif)\n\n## Issue Reporting\n\nIf you encounter any bugs or glitches, please create an issue [here](https://github.com/imLuckii/SmoothPearl/issues/new).\n\n## Suggestions\n\nAny suggestions you may have to improve SmoothPearl are welcome. Feel free to create an issue [here](https://github.com/imLuckii/SmoothPearl/issues/new).\n\n## Contribution\n\nIf you want to contribute to this project, create a pull request [here](https://github.com/imLuckii/SmoothPearl/pulls).",
+  "readme_source_url": "https://github.com/imLuckii/SmoothPearl",
+  "icon_url": "https://raw.githubusercontent.com/imLuckii/SmoothPearl/48ec2b4d8af9643ae6665ca0deba5b4a96514c55/icon.png",
+  "featured": false,
+  "repo": "https://github.com/imLuckii/SmoothPearl",
+  "archive_repo": null,
+  "approved_release_tag": "r-13166",
+  "stars": 0,
+  "total_downloads": 359,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.16.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "imLuckii"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/241341",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-13166",
+      "published_at": null,
+      "downloads": 359,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13166/smoothpearl-2.0.0-r13166.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13166",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13166/smoothpearl-2.0.0-r13166.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SmoothPearl",
+    "stable_release_id": 13166
+  }
+}

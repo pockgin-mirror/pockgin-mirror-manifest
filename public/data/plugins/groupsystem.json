@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14226",
   "stars": 0,
-  "total_downloads": 183,
+  "total_downloads": 684,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-14226",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14226/groupsystem-3.4.0-r14226.phar"
+    },
+    {
+      "tag": "r-13216",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13216/groupsystem-3.3.1-r13216.phar"
     }
   ],
   "comments": {

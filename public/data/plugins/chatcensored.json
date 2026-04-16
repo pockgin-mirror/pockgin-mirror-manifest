@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13628",
   "stars": 0,
-  "total_downloads": 188,
+  "total_downloads": 328,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.1.0",
       "tag": "r-13628",
       "published_at": null,
-      "downloads": 188,
+      "downloads": 189,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13628/chatcensored-1.1.0-r13628.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-13628",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13628/chatcensored-1.1.0-r13628.phar"
+    },
+    {
+      "tag": "r-13361",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13361/chatcensored-1.0.0-r13361.phar"
     }
   ],
   "comments": {

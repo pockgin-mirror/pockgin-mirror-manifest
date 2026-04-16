@@ -1,0 +1,61 @@
+{
+  "id": "emptychunkremover",
+  "name": "EmptyChunkRemover",
+  "author": "HGRgamer",
+  "description": "This Pocketmine-MP plugin removes all the empty chunks from your world, reducing world size and read/writes to disc. Along with sometimes reducing world load cpu usage on ported...",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.dl/EmptyChunkRemover)](https://poggit.pmmp.io/p/EmptyChunkRemover) [![](https://poggit.pmmp.io/shield.dl.total/EmptyChunkRemover)](https://poggit.pmmp.io/p/EmptyChunkRemover)\n\n## About\n\nThis Pocketmine-MP plugin removes all the empty chunks from your world, reducing world size and read/writes to disc. Along with sometimes reducing world load cpu usage on ported maps. \n\n## When to use?\n- Using in-memory world provider \n- Having large maps of skyblock, bedwars, etc gamemodes (void worlds)\n- After importing/converting java or pc worlds to bedrock\n(mc bedrock and java by default saves empty chunks, increasing world size whereas pmmp does not)\n- Storing worlds on a remote server\n\n## Performance\n\n- Took 24.6 secs to convert a world having a total of 10152 chunks out of which 9872 chunks were empty (Remaning chunks: 280)\n- World size reduced from 1.62MB to 265KB\n#\n- Took 1.8 secs to convert a world having total 1057 chunks out of which 0 were empty\n#\n- Took 15.7mins to convert a world having total 395478 chunks out of which 377748 chunks were empty (Remaning chunks: 17730)\n- World size reduced from 96.8MB to 19MB\n#\n- Took 7.47mins to convert a world having total 191794 chunks out of which 191336 chunks were empty (Remaning chunks: 458)\n- World size reduced from 40.5MB to 888KB\n#\nAbove tests were performed on github codespaces (basic)\n\nPlease note this is a cpu intensive process\n\n## How to use?\n- Just download the ``.phar`` file.\n- Upload it to your ``plugins`` folder.\n- Upload your worlds to the ``worlds`` folder\n- Edit config.yml to your needs\n- Restart the server.\n- Wait for worlds to be converted (might take more time depending on world size)\n- Check ``plugin_data/EmptyChunkRemover`` for your converted worlds\n\n## Config\n\n```yaml\n# Configuration Version\nconfig-version: \"1.0\"\n\n# World names that need to be converted / fixed.\nworlds:\n- world1\n- world2\n```\n\n## Todo\n- [] Add threading / async to allow background operations\n- [] Make it developer friendly\n- [] Add estimated time\n- [] Add conversion completion %\n\n## Additional Notes\n\nIf you encounter any bugs or glitches, please create an issue [here](https://github.com/HGRgamer/EmptyChunkRemover/issues/new).\n\nAny suggestions you may have to improve EmptyChunkRemover are welcome. Feel free to create an issue [here](https://github.com/HGRgamer/EmptyChunkRemover/issues/new).\n\nIf you want to contribute to this project, create a pull request [here](https://github.com/HGRgamer/EmptyChunkRemover/pulls).\n\n## Credits\n- Logo by [ishmanallenlitchmore](https://www.deviantart.com/ishmanallenlitchmore/gallery) <img src=\"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c5bcf0c7-4a91-4195-8c76-36e4c285de29/d6buu1p-fa3c9939-ef89-42d0-a6ee-236c5401fa94.png/v1/fill/w_789,h_1013/chunk_of_minecraft_by_ishmanallenlitchmore_d6buu1p-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDE1NiIsInBhdGgiOiJcL2ZcL2M1YmNmMGM3LTRhOTEtNDE5NS04Yzc2LTM2ZTRjMjg1ZGUyOVwvZDZidXUxcC1mYTNjOTkzOS1lZjg5LTQyZDAtYTZlZS0yMzZjNTQwMWZhOTQucG5nIiwid2lkdGgiOiI8PTMyNDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.8KFf_nRXwMshTSWXJoVCQ3_5049rnaGtgjLLb6PlRzQ\" width=\"20\" height=\"22\">\n- Config system by the great [imLuckii](https://github.com/imLuckii)\n- Plugin by master HGRgamer",
+  "readme_source_url": "https://github.com/HGRgamer/EmptyChunkRemover",
+  "icon_url": "https://raw.githubusercontent.com/HGRgamer/EmptyChunkRemover/f3540075f719fdb81ffe1a3d6374a29f79f8b6cb/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HGRgamer/EmptyChunkRemover",
+  "archive_repo": null,
+  "approved_release_tag": "r-13414",
+  "stars": 0,
+  "total_downloads": 508,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HGRgamer"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-13414",
+      "published_at": null,
+      "downloads": 508,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13414/emptychunkremover-1.0-r13414.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13414",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13414/emptychunkremover-1.0-r13414.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EmptyChunkRemover",
+    "stable_release_id": 13414
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "mynotes",
+  "name": "MyNotes",
+  "author": "AIPTU",
+  "description": "MyNotes Plugin",
+  "readme_markdown": "# MyNotes Plugin\n\nA Pocketmine-MP plugin that allows players to create, manage, and share personal notes in-game.\n\n## Features\n\n- **Create Notes**: Players can create new notes with a title and content.\n- **Edit Notes**: Players can edit the content of existing notes.\n- **Delete Notes**: Players can delete their notes.\n- **Share Notes**: Players can share their notes with other players.\n- **Database Integration**: Notes are stored in a database, ensuring persistence across server restarts.\n- **User Interface**: Interactive forms for creating, viewing, editing, and deleting notes.\n\n## Commands\n\n- `/notes`: Main command for managing notes.\n\n## Permissions\n\n- `mynotes.command`: Allows the player to use the `/notes` command.\n  - Default: `true`\n\n## Default Config\n```yaml\n# Database settings\ndatabase:\n  # The database type. \"sqlite\" and \"mysql\" are supported.\n  type: sqlite\n\n  # Edit these settings only if you choose \"sqlite\".\n  sqlite:\n    # The file name of the database in the plugin data folder.\n    # You can also put an absolute path here.\n    file: data.sqlite\n  # Edit these settings only if you choose \"mysql\".\n  mysql:\n    host: 127.0.0.1\n    # Avoid using the \"root\" user for security reasons.\n    username: root\n    password: \"\"\n    schema: your_schema\n  # The maximum number of simultaneous SQL queries\n  # Recommended: 1 for sqlite, 2 for MySQL. You may want to further increase this value if your MySQL connection is very slow.\n  worker-limit: 1\n\n# Titles used in various parts of the MyNotes plugin\ntitles:\n  main_menu: \"§l§bMyNotes\"  # Title for the main menu\n  create_note: \"§l§aCreate New Note\"  # Title for creating a new note\n  view_notes: \"§l§bYour Notes\"  # Title for viewing your notes\n  delete_note: \"§l§cDelete Note\"  # Title for deleting a note\n  confirm_delete_note: \"§l§cConfirm Deletion\"  # Title for confirming the deletion of a note\n  edit_note: \"§l§eEdit Note\"  # Title for editing a note\n  note_content: \"§l§aNote Content\"  # Title for viewing note content\n  share_note: \"§l§dShare a Note\"  # Title for sharing a note\n  confirm_share_note: \"§l§cConfirm Share\"  # Title for confirming the sharing of a note\n  select_player: \"§l§dSelect Player\"  # Title for selecting a player to share a note with\n\n# Messages displayed to users during various interactions\nmessages:\n  no_notes: \"§eYou don't have any notes yet.\"  # Message when the user has no notes\n  select_action: \"§eChoose what you want to do:\"  # Prompt to select an action\n  select_note: \"§eSelect a note to view:\"  # Prompt to select a note to view\n  select_note_delete: \"§eSelect a note to delete:\"  # Prompt to select a note to delete\n  select_note_edit: \"§eSelect a note to edit:\"  # Prompt to select a note to edit\n  select_note_share: \"§eSelect a note to share:\"  # Prompt to select a note to share\n  select_player: \"§eSelect a player to share with:\"  # Prompt to select a player to share with\n  note_created: \"§aNote '%s' has been created successfully.\"  # Confirmation when a note is created\n  note_updated: \"§eNote '%s' has been updated successfully.\"  # Confirmation when a note is updated\n  note_deleted: \"§cNote '%s' has been deleted.\"  # Confirmation when a note is deleted\n  note_renamed: \"§eNote '%s' has been renamed to '%s' and updated successfully.\"  # Confirmation when a note is renamed and updated\n  note_shared: \"§aNote '%s' has been shared with %s.\"  # Confirmation when a note is shared\n  note_received: \"§aYou have received a note '%s' from %s.\"  # Notification when a note is received\n  no_changes: \"§eNo changes were made to the note.\"  # Message when no changes are made to a note\n  note_pinned: \"§aNote '%s' has been pinned.\"  # Confirmation when a note is pinned\n  note_unpinned: \"§aNote '%s' has been unpinned.\"  # Confirmation when a note is unpinned\n  note_not_found: \"§cNote not found or data is invalid.\"  # Error when a note is not found\n  player_not_found: \"§cPlayer %s not found.\"  # Error when a player is not found\n  no_players_online: \"§cThere are no other players online to share your note with.\"  # Message when no players are online to share with\n  command_only_ingame: \"§cThis command can only be used in-game.\"  # Error when a command is used outside of the game\n  confirm_delete_note: \"§eAre you sure you want to delete the note: §c%s?\"  # Confirmation prompt for deleting a note\n  confirm_share_note: \"§eAre you sure you want to share the note: §c%s §eto §6%s?\"  # Confirmation prompt for sharing a note\n  note_title_empty: \"§cNote title cannot be empty.\"  # Error when a note title is empty\n  note_title_exists: \"§cA note with the title '%s' already exists.\"  # Error when a note title already exists\n\n# Button labels for various actions\nbuttons:\n  create_note: \"§2Create Note\"  # Button text for creating a note\n  delete_note: \"§cDelete Note\"  # Button text for deleting a note\n  view_notes: \"§bView Notes\"  # Button text for viewing notes\n  edit_note: \"§eEdit Note\"  # Button text for editing a note\n  share_note: \"§dShare Note\"  # Button text for sharing a note\n  back: \"§cBack\"  # Button text for going back\n  text_yes: \"§aYes\"  # Button text for confirming an action\n  text_no: \"§cNo\"  # Button text for denying an action\n\n# Icons used for various actions (only paths from Minecraft are supported)\nicons:\n  create: \"textures/ui/recipe_book_icon\"  # Icon for creating a note\n  delete: \"textures/ui/book_trash_default\"  # Icon for deleting a note\n  view: \"textures/items/paper\"  # Icon for viewing notes\n  edit: \"textures/items/book_enchanted\"  # Icon for editing a note\n  share: \"textures/ui/share_google\"  # Icon for sharing a note\n  back: \"textures/ui/arrowLeft\"  # Icon for going back\n  player: \"textures/ui/icon_steve\"  # Icon for a player\n\n```\n\n## Upcoming Features\n\n- Currently none planned. You can contribute or suggest for new features.\n\n## Additional Notes\n\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/AIPTU/MyNotes/issues).\n- We accept all contributions! If you want to contribute, please make a pull request in [here](https://github.com/AIPTU/MyNotes/pulls).\n- Icons made from [www.flaticon.com](https://www.flaticon.com)",
+  "readme_source_url": "https://github.com/AIPTU/MyNotes",
+  "icon_url": "https://raw.githubusercontent.com/AIPTU/MyNotes/03a6fff7e268a2bff2bc18fcd3edafe3a377cb5a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AIPTU/MyNotes",
+  "archive_repo": null,
+  "approved_release_tag": "r-13421",
+  "stars": 0,
+  "total_downloads": 86,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AIPTU"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13421",
+      "published_at": null,
+      "downloads": 86,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13421/mynotes-1.0.0-r13421.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13421",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13421/mynotes-1.0.0-r13421.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MyNotes",
+    "stable_release_id": 13421
+  }
+}

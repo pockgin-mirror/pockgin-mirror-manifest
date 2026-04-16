@@ -1,0 +1,61 @@
+{
+  "id": "betterbrag",
+  "name": "BetterBrag",
+  "author": "snarerectify",
+  "description": "Advanced bragging plugin for Pocketmine-MP.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/BetterBrag)](https://poggit.pmmp.io/p/BetterBrag)\n[![](https://poggit.pmmp.io/shield.dl.total/BetterBrag)](https://poggit.pmmp.io/p/BetterBrag)\n\n# BetterBrag\n\nAdvanced bragging plugin for Pocketmine-MP.\n\n## Features\n - GUI Based bragging system.\n - Commands for commencing and ending brags.\n - Ability to list all other ongoing brags.\n\n# Installation\n 1. Download plugin phar from [here](https://poggit.pmmp.io/ci/snarerectify/BetterBrag/~)\n 2. Add to your servers' plugin folder.\n 3. Restart server.\n\n## Commands\n| Command                                           | Description                                                   | Permission         |                                                             \n|---------------------------------------------------|---------------------------------------------------------------|--------------------|\n| /brag                                             | Brag management command.                                      | brag.command       | \n| /brag start                                       | Start bragging about the item within your hand.               | brag.command.start |                           \n| /brag stop                                        | Stop bragging about the item you are currently bragging about.| brag.command.stop  |                 \n| /brag list                                        | List all current bragging players & corresponding items.      | brag.command.list  |                                                 \n| /brag view <player>                               | View the item a player is bragging about.                     | brag.command.view  |\n\n## API\nTo obtain an instance of this plugin's main class:\n```php\nuse snare\\BetterBrag\\BetterBrag;\n\n$instance = BetterBrag::getBetterBrag();\n```\n\nVarious methods can be found below:\n```php\n$instance->getBragItems(); // returns an array with player name as key, Item instance as value.\n\n$instance->isBragging(Player $player); // returns true or false depending on whether or not the specified player is bragging.\n\n$instance->startBragging(Player $player); // causes the specified player to brag about the item in their hand.\n\n$instance->stopBragging(Player $player); // returns true if able to stop playing bragging, false if not.\n\n$instance->getBraggingItem(Player $player); // returns Item instance if player is bragging, null if not.\n```\n\n## Support\nReach out on discord `snare_gale` if having any issues or if you need help with configuration.",
+  "readme_source_url": "https://github.com/snarerectify/BetterBrag",
+  "icon_url": "https://raw.githubusercontent.com/snarerectify/BetterBrag/4044c92913811a9ba94b29c56a7321f2ee1b2500/icon.png",
+  "featured": false,
+  "repo": "https://github.com/snarerectify/BetterBrag",
+  "archive_repo": null,
+  "approved_release_tag": "r-13343",
+  "stars": 5,
+  "total_downloads": 322,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "snarerectify"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13343",
+      "published_at": null,
+      "downloads": 322,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13343/betterbrag-1.0.0-r13343.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13343",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13343/betterbrag-1.0.0-r13343.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterBrag",
+    "stable_release_id": 13343
+  }
+}

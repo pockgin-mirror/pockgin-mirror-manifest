@@ -1,0 +1,61 @@
+{
+  "id": "savedinventoryplayer",
+  "name": "SavedInventoryPlayer",
+  "author": "MyFreds",
+  "description": "Storing Inventory player data in a YAML database",
+  "readme_markdown": "<!-- PROJECT BADGES -->\n<div align=\"center\">\n\n[![Lint](https://poggit.pmmp.io/ci.shield/MyFreds/SavedInventoryPlayer/SavedInventoryPlayer)](https://poggit.pmmp.io/ci/MyFreds/SavedInventoryPlayer/SavedInventoryPlayer)\n\n</div>\n\n\n<!-- PROJECT LOGO -->\n<br />\n<div align=\"center\">\n  <img src=\"https://github.com/MyFreds/SavedInventoryPlayer/blob/main/icon.png\" alt=\"Logo\" width=\"80\" height=\"80\">\n  <h3>SavedInventoryPlayer</h3>\n  <p align=\"center\">\n    Storing Inventory player data in a YAML database\n\n\n[View in Poggit](https://poggit.pmmp.io/ci/MyFreds/SavedInventoryPlayer/SavedInventoryPlayer) · [Report a bug](https://github.com/MyFreds/SavedInventoryPlayer/issues) · [Request a feature](https://github.com/MyFreds/SavedInventoryPlayer/issues)\n\n  </p>\n</div>\n\n\n<!-- ABOUT THE PROJECT -->\n\n# 📌 Features\n\n- Save items, tools, armor and enchantments from player inventory to YAML database\n- Returns player items, tools, armor, and enchantments to their inventory when entering the server\n- Suitable for servers that use the [NoNameSpaceRemover](https://poggit.pmmp.io/ci/taylordevs/NameSpaceRemover/NameSpaceRemover) Plugin or similar\n\n# 📔 Notes\n- If you find a BUG please Open an Issue\n- If you want to suggest a feature please Open a Pull Request\n- Don't forget to give Star to me 🙃\n\n# 🔁 Installation\n\n1. Download the latest version in [poggit](https://poggit.pmmp.io/ci/MyFreds/SavedInventoryPlayer/SavedInventoryPlayer).\n2. Put the SavedInventoryPlayer-dev?.phar file to the plugins folder.\n3. Restart the server.\n4. Done!\n\n# 💻 Software\n- [PocketMine-MP](https://github.com/pmmp/PocketMine-MP/releases)",
+  "readme_source_url": "https://github.com/MyFreds/SavedInventoryPlayer",
+  "icon_url": "https://raw.githubusercontent.com/MyFreds/SavedInventoryPlayer/23cb76264a053d3250b74cdc317159bdd04bd321/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MyFreds/SavedInventoryPlayer",
+  "archive_repo": null,
+  "approved_release_tag": "r-13197",
+  "stars": 5,
+  "total_downloads": 323,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MyFreds"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13197",
+      "published_at": null,
+      "downloads": 323,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13197/savedinventoryplayer-1.0.0-r13197.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13197",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13197/savedinventoryplayer-1.0.0-r13197.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SavedInventoryPlayer",
+    "stable_release_id": 13197
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "perworldchunktick",
+  "name": "PerWorldChunkTick",
+  "author": "HGRgamer",
+  "description": "This Pocketmine-MP plugin gives the ability to set chunk tick radius per world. Allowing you to disable or set chunk ticking radius to a custom value per-world for better perfor...",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.dl/PerWorldChunkTick)](https://poggit.pmmp.io/p/PerWorldChunkTick) [![](https://poggit.pmmp.io/shield.dl.total/PerWorldChunkTick)](https://poggit.pmmp.io/p/PerWorldChunkTick)\n\n## About\n\nThis Pocketmine-MP plugin gives the ability to set chunk tick radius per world. Allowing you to disable or set chunk ticking radius to a custom value per-world for better performance.\n\nNote: This is same as chunk-ticking.tick-radius given in pocketmine.yml with the ability to customize it per world. Disabling chunk-ticking(by setting value 0) may lead to your plugins or server to show weird/unexpected results.\n\nChunk ticking includes tree/plants/crop growth, light calculations etc. This is similar to simulation distance in Minecraft.\n\n## Why use it ?\nYou may not know that but chunk ticking is a very expensive operation, specially with many online players spread over large distance.\n\nEven without many online players , disabling chunk ticking also massively reduce cpu spike/server load while loading chunks as light calculations, etc need not to be done (talking upto 50% improvement in many cases)\n\n## How to use?\n- Just download the ``.phar`` file.\n- Upload it to your ``plugins`` folder.\n- Edit config.yml to your needs\n- Restart the server.\n- Done!\n\nWorlds like server lobby, gamemodes like bedwars, skywars, etc that do not need chunk-ticking should set it to 0 whereas worlds like faction , survival where player count is high and chunk ticking is required should reduce the value as desired (default 3) \n## Config\n\n```yaml\n# Set value to 0 to disable the chunk-ticking\n\n# Default tick radius for worlds that are not listed in the world-tick-radius section\ndefault-tick-radius: 3\n\nworld-tick-radius:\n  world: 3\n  world2: 2\n  world3: 0\n```\n\n## Todo\n- [] Allow to set block ids not to tick (same as disable-block-ticking) per world\n- [] Make commands to modify it in-game\n\n## Additional Notes\n\nIf you encounter any bugs or glitches, please create an issue [here](https://github.com/HGRgamer/PerWorldChunkTick/issues/new).\n\nAny suggestions you may have to improve PerWorldChunkTick are welcome. Feel free to create an issue [here](https://github.com/HGRgamer/PerWorldChunkTick/issues/new).\n\nIf you want to contribute to this project, create a pull request [here](https://github.com/HGRgamer/PerWorldChunkTick/pulls).\n\n## Credits\n- Logo by [lineartestpilot](https://www.123rf.com/profile_lineartestpilot) <img src=\"https://previews.123rf.com/images/lineartestpilot/lineartestpilot1603/lineartestpilot160302944/53213804-freehand-drawn-black-and-white-cartoon-ticking-clock.jpg\" width=\"20\" height=\"15\">\n- Plugin by master HGRgamer",
+  "readme_source_url": "https://github.com/HGRgamer/PerWorldChunkTick",
+  "icon_url": "https://raw.githubusercontent.com/HGRgamer/PerWorldChunkTick/f3e79b60869be1cde4d8ad9f5bc3994cc13c9e4b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HGRgamer/PerWorldChunkTick",
+  "archive_repo": null,
+  "approved_release_tag": "r-13419",
+  "stars": 0,
+  "total_downloads": 140,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HGRgamer"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13419",
+      "published_at": null,
+      "downloads": 140,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13419/perworldchunktick-1.0.0-r13419.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13419",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13419/perworldchunktick-1.0.0-r13419.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PerWorldChunkTick",
+    "stable_release_id": 13419
+  }
+}

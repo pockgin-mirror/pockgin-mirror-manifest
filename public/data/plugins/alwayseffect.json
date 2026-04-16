@@ -1,0 +1,61 @@
+{
+  "id": "alwayseffect",
+  "name": "AlwaysEffect",
+  "author": "KumaaDeveloper",
+  "description": "General",
+  "readme_markdown": "## General\nAlwaysEffect is a Pocketmine plugin that works to forever apply effects in a set world\n\n## Features\n- Applying the effect forever\n- Can adjust the selected effect as well as the amplifier\n- Can set the world you want to add effects to forever\n- Can change modes ranging from “whitelist”, “blacklist” and “allworlds”\n  \n## Configuration\n```yaml\n# Configuration for AlwaysEffect plugin\n\n# Change the mode you want, set “whitelist” or “blacklist” or \"allworlds\"\n# If the mode is “whitelist”, then only the world in the config is affected by the AlwaysEffect function.\n# If the mode is “blacklist”, then only the world in the config is not affected by the AlwaysEffect function.\n# If the mode is “allworlds”, then all worlds will be affected by the AlwaysEffect function.\nmode: whitelist\n\n# Define the worlds you want to affect or exclude based on the mode\nworlds:\n  - lobby\n  - world\n\n# Set a time for your world, time will be locked with your set effect\n# Set the effect according to the effect you add\nset-effect: night_vision, speed\nset-amplifier: 1\n\n# Add the time you want\n# effect-list:\n# - absorption\n# - blindness\n# - fire_resistance\n# - haste\n# - health_boost\n# - hunger\n# - instant_damage\n# - instant_health\n# - invisibility\n# - jump_boost\n# - mining_fatigue\n# - nausea\n# - night_vision\n# - poison\n# - regeneration\n# - resistance\n# - saturation\n# - slowness\n# - speed\n# - strength\n# - water_breathing\n# - weakness\n# - wither\n```",
+  "readme_source_url": "https://github.com/KumaaDeveloper/AlwaysEffect",
+  "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AlwaysEffect/83267ab8e6a049ff0a9a2d79bd8660730bf4af70/icon.png",
+  "featured": false,
+  "repo": "https://github.com/KumaaDeveloper/AlwaysEffect",
+  "archive_repo": null,
+  "approved_release_tag": "r-13354",
+  "stars": 5,
+  "total_downloads": 665,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KumaaDeveloper"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13354",
+      "published_at": null,
+      "downloads": 665,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13354/alwayseffect-1.0.0-r13354.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13354",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13354/alwayseffect-1.0.0-r13354.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AlwaysEffect",
+    "stable_release_id": 13354
+  }
+}

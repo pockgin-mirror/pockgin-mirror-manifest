@@ -1,0 +1,61 @@
+{
+  "id": "replantingcrops",
+  "name": "ReplantingCrops",
+  "author": "TheDataLioness",
+  "description": "Replanting Crops",
+  "readme_markdown": "# Replanting Crops\n![php](https://img.shields.io/badge/php-8.1-informational)\n![api](https://img.shields.io/badge/pocketmine-5.0-informational)\n[![State](https://poggit.pmmp.io/shield.state/ReplantingCrops)](https://poggit.pmmp.io/p/ReplantingCrops)\n\n\nReplanting Crops is a very simple plugin.<br>\nInteract with a crop in its final stage and it will drop the loot and replant if for you!",
+  "readme_source_url": "https://github.com/TheDataLioness/ReplantingCrops",
+  "icon_url": "https://raw.githubusercontent.com/TheDataLioness/ReplantingCrops/e01035e6fc9d4178c64c71ea710e286916c0b3d2/icon.gif",
+  "featured": false,
+  "repo": "https://github.com/TheDataLioness/ReplantingCrops",
+  "archive_repo": null,
+  "approved_release_tag": "r-13422",
+  "stars": 5,
+  "total_downloads": 911,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.16.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TheDataLioness"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13422",
+      "published_at": null,
+      "downloads": 911,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13422/replantingcrops-1.0.0-r13422.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13422",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13422/replantingcrops-1.0.0-r13422.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ReplantingCrops",
+    "stable_release_id": 13422
+  }
+}

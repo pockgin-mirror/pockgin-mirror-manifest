@@ -1,0 +1,61 @@
+{
+  "id": "showcoordinates",
+  "name": "ShowCoordinates",
+  "author": "LuthMC",
+  "description": "A simple coordinates plugins for PocketMine-MP.",
+  "readme_markdown": "<p align=\"center\">\n <h2 align=\"center\">ShowCoordinates</h2>\n <p align=\"center\">A simple coordinates plugins for PocketMine-MP.</p>\n</p>\n<p align=\"center\">\n<img src=\"https://github.com/LuthMC/ShowCoordinates/blob/1ba5a08a09fd26742a0ab21fb55bf598cc9b6cb9/ShowCoordinates.gif\" alt=\"\" border=\"0\">\n</p>\n\n---\n\n### ⚙️ Commands\n```\n• use /coords or /coordinate to toggle cordinate display\n```\n\n### 📍 How To Use\n```\n• Download the ShowCoordinates plugin.\n• Place the plugin .phar file into your server's plugins folder.\n• Restart your server to enable the plugin.\n```\n\n### ⭐ Credits\nIcon by [flaticon](https://www.flaticon.com)",
+  "readme_source_url": "https://github.com/LuthMC/ShowCoordinates",
+  "icon_url": "https://raw.githubusercontent.com/LuthMC/ShowCoordinates/587cd38f7ae6f6fe37160af729b76f84b194df09/icon.png",
+  "featured": false,
+  "repo": "https://github.com/LuthMC/ShowCoordinates",
+  "archive_repo": null,
+  "approved_release_tag": "r-13480",
+  "stars": 0,
+  "total_downloads": 1104,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "LuthMC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13480",
+      "published_at": null,
+      "downloads": 1104,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13480/showcoordinates-1.0.0-r13480.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13480",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13480/showcoordinates-1.0.0-r13480.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ShowCoordinates",
+    "stable_release_id": 13480
+  }
+}

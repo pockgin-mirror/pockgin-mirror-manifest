@@ -1,0 +1,61 @@
+{
+  "id": "alwaystime",
+  "name": "AlwaysTime",
+  "author": "KumaaDeveloper",
+  "description": "General",
+  "readme_markdown": "## General\nAlwaysTime is a Pocketmine plug-in that works to always lock the time on your server\n\n## Features\n- Lock time on your server\n- Can manage time as desired\n- Can set the world you want to time-lock\n- Can change modes ranging from “whitelist”, “blacklist” and “allworlds”\n  \n## Configuration\n```yaml\n# Configuration for AlwaysTime plugin\n\n# Change the mode you want, set “whitelist” or “blacklist” or \"allworlds\"\n# If the mode is “whitelist”, then only the world in the config is affected by the alwaystime function.\n# If the mode is “blacklist”, then only the world in the config is not affected by the alwaystime function.\n# If the mode is “allworlds”, then all worlds will be affected by the alwaystime function.\nmode: whitelist\n\n# Set up the world you want to organize\nworlds:\n  - lobby\n  - world\n\n# Set a time for your world, time will be locked with your set time\n# Set the time according to the time you add\nset-time: day\n\n# Add the time you want\nadd-time:\n  day: 1000\n  sunrise: 23000\n  noon: 6000\n  sunset: 12000\n  night: 13000\n  midnight: 18000\n```",
+  "readme_source_url": "https://github.com/KumaaDeveloper/AlwaysTime",
+  "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AlwaysTime/046ae3726b532f912bb508cdeab599037bdd253a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/KumaaDeveloper/AlwaysTime",
+  "archive_repo": null,
+  "approved_release_tag": "r-13348",
+  "stars": 5,
+  "total_downloads": 796,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KumaaDeveloper"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13348",
+      "published_at": null,
+      "downloads": 796,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13348/alwaystime-1.0.0-r13348.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13348",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13348/alwaystime-1.0.0-r13348.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AlwaysTime",
+    "stable_release_id": 13348
+  }
+}

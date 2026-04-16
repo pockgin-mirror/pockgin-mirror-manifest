@@ -1,0 +1,66 @@
+{
+  "id": "portals",
+  "name": "Portals",
+  "author": "BrahmjotSingh0",
+  "description": "Portals Plugin",
+  "readme_markdown": "# Portals Plugin\n\nWelcome to the **Portals** plugin for PocketMine-MP! This plugin allows players to create and manage portals that execute commands or display messages when players enter them.\n\n[![](https://poggit.pmmp.io/shield.state/Portals)](https://poggit.pmmp.io/p/Portals)\n[![](https://poggit.pmmp.io/shield.dl.total/Portals)](https://poggit.pmmp.io/p/Portals)\n[![](https://poggit.pmmp.io/shield.api/Portals)](https://poggit.pmmp.io/p/Portals)\n\n## Features\n\n- Create portals with custom names\n- Set positions for portals\n- Add commands to be executed when players enter a portal\n- Set messages to be displayed when players enter a portal\n- Delete existing portals\n\n## Commands\n\n- **/portal create portalname**: Create a new portal with the specified name.\n- **/portal pos1**: Set the first position of the portal by tapping a block.\n- **/portal pos2**: Set the second position of the portal by tapping a block.\n- **/portal addcommand portalname <player/server> command**: Add a command to be executed when a player enters the specified portal.\n- **/portal msg portalname message**: Set a message to be displayed when a player enters the specified portal.\n- **/portal delete portalname**: Delete the specified portal.\n\n- **Note** : /portal addcommand portalname player command : The command will be executed as the player who entered the portal.\n- **Note** : /portal addcommand portalname server command : The command will be executed as the server console.\n## Permissions\n\n- **portals.command**: Allows the player to use the portal commands (default: op).\n\n## Configuration\n\nThe configuration file (`config.yml`) is used to store portal data, including positions, commands, and messages. The plugin will automatically save the configuration file when portals are created or modified.\n\n## Usage\n\n1. **Create a Portal**: Use `/portal create <portalname>` to create a new portal with the specified name.\n2. **Set Positions**: Use `/portal pos1` and `/portal pos2` to set the two opposite corners of the portal by tapping blocks.\n3. **Add Commands**: Use `/portal addcommand <portalname> <player/server> <command>` to add a command that will be executed when a player enters the portal.\n4. **Set Message**: Use `/portal msg <portalname> <message>` to set a message that will be displayed when a player enters the portal.\n5. **Delete a Portal**: Use `/portal delete <portalname>` to delete the specified portal.\n\n## Example\n\nTo create a portal named \"example\", set its positions, add a command, and set a message, follow these steps:\n\n1. `/portal create example`\n2. `/portal pos1` (tap a block)\n3. `/portal pos2` (tap another block)\n4. `/portal addcommand example player say Welcome to the portal!`\n5. `/portal msg example You have entered the example portal.`\n\n## Installation\n\n1. Download the plugin.\n2. Place the plugin's `.phar` file in the `plugins` folder of your PocketMine-MP server.\n3. Start or restart the server to load the plugin.\n\n## Support\n\nIf you encounter any issues or have any questions, please open an issue on the [GitHub repository](https://github.com/BrahmjotSingh0/Portals).\n\n---\n\n**Author**: BrahmjotSingh0\n**Version**: 1.0.0  \n**API**: 5.0.0  \n**License**: MIT",
+  "readme_source_url": "https://github.com/BrahmjotSingh0/Portals",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/BrahmjotSingh0/Portals",
+  "archive_repo": null,
+  "approved_release_tag": "r-13355",
+  "stars": 0,
+  "total_downloads": 655,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BrahmjotSingh0"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/244748",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-13355",
+      "published_at": null,
+      "downloads": 585,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13355/portals-1.0.1-r13355.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13355",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13355/portals-1.0.1-r13355.phar"
+    },
+    {
+      "tag": "r-13316",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13316/portals-1.0.0-r13316.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Portals",
+    "stable_release_id": 13355
+  }
+}

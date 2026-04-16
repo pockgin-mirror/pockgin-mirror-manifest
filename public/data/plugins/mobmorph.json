@@ -1,0 +1,61 @@
+{
+  "id": "mobmorph",
+  "name": "MobMorph",
+  "author": "IvanCraft623",
+  "description": "🐷 MobMorph 🪄",
+  "readme_markdown": "<div align=\"center\">\n  <h1> 🐷 MobMorph 🪄 </h1>\n  <p>Morph into a mob and use their abilities!</p>\n</div>\n\n## 📃 Description\n\nHave you ever thought of surprising your friends by transforming into a mob, or would you like to be able to use a mob's abilities? Well now you can!\n\n<div align=\"center\">\n  <img src=\"https://i.imgur.com/gnx6Y34.png\" width=\"60%\">\n</div>\n\n## 💡 Features\n- Morph into a mob.\n- Uses a mob's abilities.\n- In-game `/mobmorph` command with `mobmorph.command` permission.\n- A user-friendly UI Form.\n\n# 🧩 Installation\n\n1. Download the PHAR from [poggit](https://poggit.pmmp.io/ci/IvanCraft623/MobMorph/MobMorph) and paste it in the `plugins` directory of your server.\n2. Download `Morph Addon` form [ModBay](https://modbay.org/mods/1757-morphing-bracelet.html#download-links-section) or [MCPEDL](https://mcpedl.com/morph-addon-alpha/#downloads).\n3. Change addon extension from `.mcaddon` to `.zip`\n4. Extract the addon ZIP file.\n5. Only ZIP the `resource_pack` file, name the ZIP file whatever you want (eg. `MobMorphResourcePack.zip`). Your ZIP file stucture should look like this:\n```\nMobMorphResourcePack.zip\n└── resource_pack\n    ├── ...\n    └── manifest.json\n```\n6. Paste the resource pack ZIP (eg. `MobMorphResourcePack.zip`) into the server's `resource_packs` folder.\n7. In the `resource_packs/resource_packs.yml` file of your server add an entry to `resource_stack`. eg:\n```yaml\nresource_stack:\n  - MobMorphResourcePack.zip\n```\n8. Start your server and enjoy!",
+  "readme_source_url": "https://github.com/IvanCraft623/MobMorph",
+  "icon_url": "https://raw.githubusercontent.com/IvanCraft623/MobMorph/0e3df5a94183b23943744c59c3dbbec9563bd930/icon.png",
+  "featured": false,
+  "repo": "https://github.com/IvanCraft623/MobMorph",
+  "archive_repo": null,
+  "approved_release_tag": "r-13340",
+  "stars": 0,
+  "total_downloads": 858,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.16.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "IvanCraft623"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.1.1",
+      "tag": "r-13340",
+      "published_at": null,
+      "downloads": 858,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13340/mobmorph-0.1.1-r13340.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13340",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13340/mobmorph-0.1.1-r13340.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MobMorph",
+    "stable_release_id": 13340
+  }
+}

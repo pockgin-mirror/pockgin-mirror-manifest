@@ -1,0 +1,61 @@
+{
+  "id": "switching",
+  "name": "Switching",
+  "author": "Aboshxm2",
+  "description": "A pocketmine plugin that brings back the old pvping method \"Switching\" (aka \"Double Particles\") were you can get double hit by switching from a weaker item to a stronger one.",
+  "readme_markdown": "# Switching\nA pocketmine plugin that brings back the old pvping method \"Switching\" (aka \"Double Particles\") were you can get double hit by switching from a weaker item to a stronger one.\n\n## Videos\n\nBefore:\n[![Without Switching](https://github.com/Aboshxm2/switching/raw/main/without_switching.gif)](http://www.youtube.com/watch?v=n8qD1BmOpxc)\n---\nAfter:\n[![With Switching](https://github.com/Aboshxm2/switching/raw/main/with_switching.gif)](http://www.youtube.com/watch?v=AlBkW3dQ3Zg)\n---\n## IMPORTANT NOTE\nThis plugin may affect or get affected by other plugins that modifies the attack cooldown (such as hit optimizing plugins).",
+  "readme_source_url": "https://github.com/Aboshxm2/switching",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Aboshxm2/switching",
+  "archive_repo": null,
+  "approved_release_tag": "r-13245",
+  "stars": 0,
+  "total_downloads": 118,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Aboshxm2"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-13245",
+      "published_at": null,
+      "downloads": 118,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13245/switching-1.0.1-r13245.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13245",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13245/switching-1.0.1-r13245.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Switching",
+    "stable_release_id": 13245
+  }
+}

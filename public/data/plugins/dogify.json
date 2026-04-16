@@ -1,0 +1,61 @@
+{
+  "id": "dogify",
+  "name": "Dogify",
+  "author": "ZyloxDeveloper",
+  "description": "Dogify Plugin for PocketMine-MP",
+  "readme_markdown": "# Dogify Plugin for PocketMine-MP\r\n\r\nDogify is a PocketMine-MP plugin that enhances your server experience by allowing players to view random images of dogs using a simple command. Perfect for adding a touch of joy and cuteness to your server!\r\n\r\n## Features\r\n- **Random Dog Images**: Players can view random dog images with the `/dogify` command.\r\n- **Lightweight**: Minimal impact on server performance.\r\n- **Compatibility**: Fully compatible with PocketMine-MP version 5.\r\n\r\n## Installation\r\n1. **Download**: Get the latest release of the Dogify plugin from the [Releases](https://github.com/ZyloxDeveloper/Dogify/releases) page.\r\n2. **Deploy**: Place the downloaded `.phar` file into the `plugins` directory of your PocketMine-MP server.\r\n3. **Restart**: Restart your server to activate the plugin.\r\n\r\n![img](https://media.discordapp.net/attachments/373214753147060235/1269600325816553543/image.png?ex=66b2a131&is=66b14fb1&hm=c543a6910a0e035919a501556560fd768bec0a49a10e386439019daecb674aab&=&format=webp&quality=lossless&width=1156&height=614)\r\n\r\n## Commands\r\n- `/dogify` - Displays a random dog image.\r\n\r\n## Usage\r\nAfter installation, players can use the `/dogify` command to receive a random dog image, adding a fun and delightful element to their gameplay.\r\n\r\n## Configuration\r\nNo configuration required. The plugin is ready to use immediately upon installation.\r\n\r\n## License\r\nThis project is licensed under the MIT License. For more details, see the [LICENSE](https://github.com/ZyloxDeveloper/Dogify/blob/main/LICENSE) file.\r\n\r\n## Contributing\r\nWe welcome contributions! If you have suggestions, bug reports, or want to contribute code, please open an issue or submit a pull request on our [GitHub repository](https://github.com/ZyloxDeveloper/Dogify).",
+  "readme_source_url": "https://github.com/ZyloxDeveloper/Dogify",
+  "icon_url": "https://raw.githubusercontent.com/ZyloxDeveloper/Dogify/db4203426ac7865f5021072395f51d5ed2dd786f/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ZyloxDeveloper/Dogify",
+  "archive_repo": null,
+  "approved_release_tag": "r-13408",
+  "stars": 5,
+  "total_downloads": 71,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ZyloxDeveloper"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13408",
+      "published_at": null,
+      "downloads": 71,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13408/dogify-1.0.0-r13408.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13408",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13408/dogify-1.0.0-r13408.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Dogify",
+    "stable_release_id": 13408
+  }
+}

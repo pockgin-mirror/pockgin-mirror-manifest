@@ -1,0 +1,63 @@
+{
+  "id": "mineearn",
+  "name": "MineEarn",
+  "author": "AIPTU",
+  "description": "A PocketMine-MP plugin that can earn by mining",
+  "readme_markdown": "# MineEarn\n\nA PocketMine-MP plugin that can earn by mining\n\n# Features\n\n- Custom items.\n- Support enchantment silk touch and fortune.\n- Per world support with permission.\n- Supports `&` as formatting codes.\n- Lightweight and open source ❤️\n\n# Supported Economy Providers\n\n- [BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy) by cooldogedev\n- Experience (PocketMine-MP)\n\n# Permissions\n\n**Notes: Global earnings does not require any permission and {WORLD} is the name of your world folder listed in the config**\n\n- Permission `mineearn.world.{WORLD}`: Allow users to earn in the world {WORLD}, (Default is `OP`).\n\n# Default Config\n```yaml\n# MineEarn Configuration\n\n# Do not change this (Only for internal use)!\nconfig-version: 1.0\n\n# Messages settings.\n# Use \"&\" as formatting codes.\nmessages:\n  generic-error: \"&cAn unexpected error has occurred.\"\n  received: \"&eYou have received &6{MONETARY_UNIT}{MONEY} &efor &6{BLOCK}\"\n\n# Economy settings.\n# Possible providers: bedrockeconomy, xp\neconomy:\n  provider: BedrockEconomy\n\n# Earnings settings.\n# If you are using the \"xp\" provider, 1 unit = 1 level of experience.\nearnings:\n  settings:\n    enable_fortune_bonus: true  # Enable or disable bonus for Fortune enchantment\n    fortune_bonus_percentage: 10  # The percentage bonus per Fortune level\n    fortune_bonus_chance: 0.5  # Chance (0.0 to 1.0) of applying the Fortune bonus\n    enable_silk_touch_check: true  # Enable or disable check for Silk Touch enchantment\n    ignored_worlds: []  # List of worlds to ignore for earnings\n    \n  # Global earnings.\n  # These apply to all worlds unless overridden by per-world earnings.\n  global:\n    \"coal_ore\": 80\n    \"gold_ore\": 150\n    \"iron_ore\": 100\n    \"diamond_ore\": 300\n    \"emerald_ore\": 350\n    \"lapis_ore\": 200\n    \"redstone_ore\": 250\n    \"quartz_ore\": 180\n\n  # Per-world earnings.\n  # These override global earnings for specific worlds.\n  worlds:\n    world: # World folder name\n      \"diamond_ore\": 350\n      \"emerald_ore\": 300\n      \"lapis_ore\": 280\n      \"quartz_ore\": 200\n      \"redstone_ore\": 250\n\n```\n\n# Upcoming Features\n\n- Currently none planned. You can contribute or suggest for new features.\n\n# Additional Notes\n\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/AIPTU/MineEarn/issues).\n- We accept all contributions! If you want to contribute, please make a pull request in [here](https://github.com/AIPTU/MineEarn/pulls).\n- Icons made from [www.flaticon.com](https://www.flaticon.com)",
+  "readme_source_url": "https://github.com/AIPTU/MineEarn",
+  "icon_url": "https://raw.githubusercontent.com/AIPTU/MineEarn/71333db73bcc9036aa7b4e6cdac205ee1e123c51/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AIPTU/MineEarn",
+  "archive_repo": null,
+  "approved_release_tag": "r-13309",
+  "stars": 0,
+  "total_downloads": 538,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AIPTU"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13309",
+      "published_at": null,
+      "downloads": 538,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13309/mineearn-1.0.0-r13309.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13309",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13309/mineearn-1.0.0-r13309.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MineEarn",
+    "stable_release_id": 13309
+  }
+}

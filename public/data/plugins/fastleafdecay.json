@@ -1,0 +1,61 @@
+{
+  "id": "fastleafdecay",
+  "name": "FastLeafDecay",
+  "author": "AIPTU",
+  "description": "A Pocketmine-MP plugin that accelerates leaf decay when trees are felled, enhancing gameplay by speeding up the visual impact of tree felling.",
+  "readme_markdown": "# FastLeafDecay\r\n\r\nA Pocketmine-MP plugin that accelerates leaf decay when trees are felled, enhancing gameplay by speeding up the visual impact of tree felling.\r\n\r\n## Features\r\n- **Accelerated Leaf Decay**: When a tree is cut down, nearby leaves will begin to decay faster, simulating the natural process of leaf fall.\r\n- **Configurable Decay Delay**: Customize the leaf decay delay with configurable minimum and maximum values.\r\n- **Search Radius Configuration**: Customize the radius at which leaves will be affected by tree felling.\r\n- **Efficient Processing**: Uses a queuing system to handle leaf decay efficiently, ensuring smooth performance even with large trees.\r\n\r\n## Default Config\r\n```yaml\r\n# FastLeafDecay Configuration\r\n\r\n# The minimum delay (in seconds) before a leaf block decays after a nearby wood block is broken.\r\n# Must be a positive integer (>= 1).\r\nmin_leaf_decay_delay: 1\r\n\r\n# The maximum delay (in seconds) before a leaf block decays after a nearby wood block is broken.\r\n# Must be a positive integer (>= min_leaf_decay_delay).\r\nmax_leaf_decay_delay: 5\r\n\r\n# The maximum radius (in blocks) around the broken wood block within which leaves will be checked for decay.\r\n# Must be a positive integer (>= 1).\r\nmax_search_radius: 6\r\n\r\n```\r\n\r\n## Upcoming Features\r\n\r\n- Currently none planned. You can contribute or suggest for new features.\r\n\r\n## Additional Notes\r\n\r\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/AIPTU/FastLeafDecay/issues).\r\n- We accept all contributions! If you want to contribute, please make a pull request in [here](https://github.com/AIPTU/FastLeafDecay/pulls).\r\n- Icons made from [www.flaticon.com](https://www.flaticon.com)",
+  "readme_source_url": "https://github.com/AIPTU/FastLeafDecay",
+  "icon_url": "https://raw.githubusercontent.com/AIPTU/FastLeafDecay/413e7f66203a66bd8f6781194db5b185acea7481/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AIPTU/FastLeafDecay",
+  "archive_repo": null,
+  "approved_release_tag": "r-13433",
+  "stars": 0,
+  "total_downloads": 206,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AIPTU"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13433",
+      "published_at": null,
+      "downloads": 206,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13433/fastleafdecay-1.0.0-r13433.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13433",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13433/fastleafdecay-1.0.0-r13433.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FastLeafDecay",
+    "stable_release_id": 13433
+  }
+}
