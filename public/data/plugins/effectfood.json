@@ -1,0 +1,61 @@
+{
+  "id": "effectfood",
+  "name": "EffectFood",
+  "author": "achedon12",
+  "description": "[FR] Simple plugin de food effect permettant de donner n'importe quel effet à de la nourriture",
+  "readme_markdown": "# About\n\n![icon](icon.png)\n\n[FR] Simple plugin de food effect permettant de donner n'importe quel effet à de la nourriture\n\n[ENG]Simple food effect plugin allowing to give any effect to food\n\n-----------------\n## Credit\n\n[FR] N'hésitez pas à donner votre avis sur le plugin et sur quoi il peut être amélioré\n\n[ENG] Feel free to give your opinion on the plugin and on what it can be improved\n\n\n> [ENG] You can configure all this plugin \n\n> [FR] Vous pouvez configurez entierement le plugin\n\n\n-----------------\n\n## Contact\n\nMade with ❤ by [Achedon](https://github.com/achedon12)\n\n[My discord server](https://discord.gg/GdaJ6Q9r)\n\ndiscord: achedon12#0034",
+  "readme_source_url": "https://github.com/achedon12/FoodEffect",
+  "icon_url": "https://raw.githubusercontent.com/achedon12/FoodEffect/e813c8d8cff4096cb61c8691f64e94dd3de38690/icon.png",
+  "featured": false,
+  "repo": "https://github.com/achedon12/FoodEffect",
+  "archive_repo": null,
+  "approved_release_tag": "r-12406",
+  "stars": 0,
+  "total_downloads": 343,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "achedon12"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/223184",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12406",
+      "published_at": null,
+      "downloads": 343,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12406/effectfood-2.0.0-r12406.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12406",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12406/effectfood-2.0.0-r12406.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EffectFood",
+    "stable_release_id": 12406
+  }
+}

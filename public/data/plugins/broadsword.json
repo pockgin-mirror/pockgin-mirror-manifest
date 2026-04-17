@@ -1,0 +1,63 @@
+{
+  "id": "broadsword",
+  "name": "BroadSword",
+  "author": "Joestarfish",
+  "description": "A PMMP plugin that implements a charging sword that can deal great damages",
+  "readme_markdown": "# BroadSword\n\nA PMMP plugin that implements a charging sword that can deal great damages\n\n[![](https://poggit.pmmp.io/shield.api/BroadSword)](https://poggit.pmmp.io/p/BroadSword)\n[![](https://poggit.pmmp.io/shield.dl.total/BroadSword)](https://poggit.pmmp.io/p/BroadSword)\n\n# Usage\n\nTo get started, install the [Customies](https://poggit.pmmp.io/p/Customies/) plugin to your `plugins` folder\n\nThen, start your server and give yourself a BroadSword using the command `/give <name> broad_sword:broad_sword`\n\nYou may want to install a custom craft plugin such as [CustomCraft](https://poggit.pmmp.io/p/CustomCraft/) to allow you players to craft this item\n\n# Configuration\n\nInside of the `plugin_data/BroadSword/config.yml` file, you may change the following:\n\n-   **texture** - The texture of the item\n-   **item-name** - The name of the item\n-   **durability** - The durability of the item\n-   **charging-ticks** - How much ticks does this item takes to charge\n-   **attack-points** - How much attack damage does item do\n-   **attack-when-loading** - Can a player attack another one while the Broad Sword is not fully loaded ?\n-   **reset-when-attacking-while-loading** - Reset the load timer if the item is used while loading\n-   **popup** - A popup that is send to the player\n    -   **active** - Do you want to send a loading bar to the player\n    -   **type** - What kind of popup will be sent\n    -   **progress** - A character that is repeated <length> times which makes a loading bar\n    -   **length** - The length of the progress bar\n    -   **color**:\n        -   **progress** - The color of the progress (filled) part of the charging bar\n        -   **remaining** - The color of the remaining part of the bar\n        -   **filled** - The color of the bar when it is fully charged",
+  "readme_source_url": "https://github.com/Joestarfish/BroadSword",
+  "icon_url": "https://raw.githubusercontent.com/Joestarfish/BroadSword/56daf1e1ed60ab018c0cd438bbdc58f65e81e741/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Joestarfish/BroadSword",
+  "archive_repo": null,
+  "approved_release_tag": "r-12386",
+  "stars": 0,
+  "total_downloads": 549,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "Customies"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Joestarfish"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-12386",
+      "published_at": null,
+      "downloads": 549,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12386/broadsword-1.0.1-r12386.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12386",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12386/broadsword-1.0.1-r12386.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BroadSword",
+    "stable_release_id": 12386
+  }
+}

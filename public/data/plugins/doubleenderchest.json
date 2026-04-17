@@ -1,0 +1,61 @@
+{
+  "id": "doubleenderchest",
+  "name": "DoubleEnderChest",
+  "author": "Joestarfish",
+  "description": "A PMMP plugin that doubles the size of the Ender Chest",
+  "readme_markdown": "# DoubleEnderChest\n\nA PMMP plugin that doubles the size of the Ender Chest\n\n[![](https://poggit.pmmp.io/shield.api/DoubleEnderChest)](https://poggit.pmmp.io/p/DoubleEnderChest)\n[![](https://poggit.pmmp.io/shield.dl.total/DoubleEnderChest)](https://poggit.pmmp.io/p/DoubleEnderChest)\n\n# Usage\n\nWhen a player logs in, the plugin fetches the contents of the double inventory from your database. If the database is slow, or if several players are trying to connect at the same time, this operation may be slow. At any time, you can sneak + right-click on an Ender chest to open the regular inventory.\n\n# Configuration\n\nInside of the `plugin_data/DoubleEnderChest/config.yml` file, you may change the following:\n\n-   **database** - The configuration of the database used to save players ender chests",
+  "readme_source_url": "https://github.com/Joestarfish/DoubleEnderChest",
+  "icon_url": "https://raw.githubusercontent.com/Joestarfish/DoubleEnderChest/06c498df1a75e95707748c224bdcfbcc6a916920/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Joestarfish/DoubleEnderChest",
+  "archive_repo": null,
+  "approved_release_tag": "r-12506",
+  "stars": 5,
+  "total_downloads": 670,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Joestarfish"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12506",
+      "published_at": null,
+      "downloads": 670,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12506/doubleenderchest-1.0.0-r12506.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12506",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12506/doubleenderchest-1.0.0-r12506.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DoubleEnderChest",
+    "stable_release_id": 12506
+  }
+}

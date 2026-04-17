@@ -1,0 +1,61 @@
+{
+  "id": "disableenchantingtable",
+  "name": "DisableEnchantingTable",
+  "author": "Slayer-Return",
+  "description": "A simple plugin to disable enchanting table.",
+  "readme_markdown": "## DisableEnchantingTable\n\nA simple plugin to disable enchanting table.\n\n## Features\n\n| DisableEnchantingTable | Description                         |\n| ---------------------- | ----------------------------------- |\n| Commands               | In-game support for changing values |\n| Customizable Config    | Message, Value                      |\n\n## Commands\n\n| Commands                               | Description                         | Permissions                      | Aliases              |\n| -------------------------------------- | ----------------------------------- | -------------------------------- | -------------------- |\n| `/disableenchantingtable <true:false>` | `Disable Enchanting Table Commands` | `disableenchantingtable.command` | `/det, /disableench` |\n\n## Example Config\n\n```yaml\n# DisableEnchantingTable Configuration\n\n# Set false if you want the enchanting table to function normally\ndisable-enchantingtable: false\n\n# Called when disable-enchantingtable value is true\n# Set false if you don't want send message to player\nuse-message: true\nmessage: \"§cEnchanting Table on this server is disabled.\"\n```\n\n## Credits\n\n<a target=\"_blank\" href=\"https://icons8.com/icon/111606/literature\">Book</a> icon by <a target=\"_blank\" href=\"https://icons8.com\">Icons8</a>",
+  "readme_source_url": "https://github.com/Slayer-Return/DisableEnchantingTable",
+  "icon_url": "https://raw.githubusercontent.com/Slayer-Return/DisableEnchantingTable/423e9b4a1a938f667d87609acdcde750efeb58cf/book.png",
+  "featured": false,
+  "repo": "https://github.com/Slayer-Return/DisableEnchantingTable",
+  "archive_repo": null,
+  "approved_release_tag": "r-12423",
+  "stars": 0,
+  "total_downloads": 345,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.5.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Slayer-Return"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12423",
+      "published_at": null,
+      "downloads": 345,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12423/disableenchantingtable-1.0.0-r12423.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12423",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12423/disableenchantingtable-1.0.0-r12423.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DisableEnchantingTable",
+    "stable_release_id": 12423
+  }
+}

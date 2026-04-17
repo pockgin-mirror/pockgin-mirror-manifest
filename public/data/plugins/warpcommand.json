@@ -1,0 +1,61 @@
+{
+  "id": "warpcommand",
+  "name": "WarpCommand",
+  "author": "Raphael1S",
+  "description": "First of all add the plugin to the plugins folder and then follow the necessary steps to configure it properly.",
+  "readme_markdown": "<h1 align=\"center\">WarpCommand</h1>\n\n<div align=\"center\">\n <img src=\"https://poggit.pmmp.io/shield.state/WarpCommand\">\n\n \n [![](https://poggit.pmmp.io/shield.dl/WarpCommand)](https://poggit.pmmp.io/p/WarpCommand)\n\n## Usage\n\nFirst of all add the plugin to the plugins folder and then follow the necessary steps to configure it properly.\n\n## How does the plugin work?\n\nWhen you use the /setwarp command, a warp is created in the \"warps.yml\" file with the coordinates and the current world. Then a command is generated for that warp and it becomes executable. When a player executes this command, he is teleported to the position specified by the warp.\n\n## Complete project\n1. ■ Set individual permissions for each command, specifying who can use them.\n   \n2. ■ Create a description for each command, explaining its functionality.\n   \n3. ■ Create a command to delete warps, allowing players to remove warp points.\n   \n4. ■ Create a command to update warps, allowing players to modify existing teleport points.\n\n5. ■ Create a command to see the created warps.",
+  "readme_source_url": "https://github.com/Raphael1S/WarpCommand",
+  "icon_url": "https://raw.githubusercontent.com/Raphael1S/WarpCommand/dcc0de346da1be0afe90da9c6f673daea36fe2ad/WarpCommand/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Raphael1S/WarpCommand",
+  "archive_repo": null,
+  "approved_release_tag": "r-12490",
+  "stars": 5,
+  "total_downloads": 1977,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Raphael1S"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/226200",
+  "versions": {
+    "stable": {
+      "version": "1.3.0",
+      "tag": "r-12490",
+      "published_at": null,
+      "downloads": 1977,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12490/warpcommand-1.3.0-r12490.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12490",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12490/warpcommand-1.3.0-r12490.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WarpCommand",
+    "stable_release_id": 12490
+  }
+}

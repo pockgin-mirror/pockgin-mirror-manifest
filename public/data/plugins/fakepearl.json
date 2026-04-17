@@ -1,0 +1,63 @@
+{
+  "id": "fakepearl",
+  "name": "FakePearl",
+  "author": "Joestarfish",
+  "description": "A PMMP plugin that allows you to throw a fake ender pearl and disorient your opponent",
+  "readme_markdown": "# FakePearl\n\nA PMMP plugin that allows you to throw a fake ender pearl and disorient your opponent\n\n[![](https://poggit.pmmp.io/shield.api/FakePearl)](https://poggit.pmmp.io/p/FakePearl)\n[![](https://poggit.pmmp.io/shield.dl.total/FakePearl)](https://poggit.pmmp.io/p/FakePearl)\n\n# Usage\n\nTo get started, install the [Customies](https://poggit.pmmp.io/p/Customies/) plugin to your `plugins` folder\n\nThen, start your server and give yourself a Fake Pearl using the command `/give <name> fake_pearl:fake_pearl`\n\n# Configuration\n\nInside of the `plugin_data/FakePearl/config.yml` file, you may change the following:\n\n-   **texture** - The texture of the item\n-   **item-name** - The name visible while holding or overing over the item",
+  "readme_source_url": "https://github.com/Joestarfish/FakePearl",
+  "icon_url": "https://raw.githubusercontent.com/Joestarfish/FakePearl/b698febe50786afa0fca2d36fa5e0bf6041f470b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Joestarfish/FakePearl",
+  "archive_repo": null,
+  "approved_release_tag": "r-12385",
+  "stars": 0,
+  "total_downloads": 614,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "Customies"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Joestarfish"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/222886",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-12385",
+      "published_at": null,
+      "downloads": 614,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12385/fakepearl-1.1.0-r12385.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12385",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12385/fakepearl-1.1.0-r12385.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FakePearl",
+    "stable_release_id": 12385
+  }
+}

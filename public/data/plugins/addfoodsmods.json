@@ -1,0 +1,63 @@
+{
+  "id": "addfoodsmods",
+  "name": "AddFoodsMods",
+  "author": "Refaltor77",
+  "description": "AddFoodsMods Plugin v1.0.0",
+  "readme_markdown": "# AddFoodsMods Plugin v1.0.0\n\nThe **AddFoodsMods** plugin is an exciting addition to your PocketMine-MP server, allowing you to introduce new and diverse food items to enhance your players' gaming experience. It is compatible with **PocketMine-MP version 5.0.0**.\n\n![Plugin Screenshot](imgs/screen.png)\n\n## Features\n\n- Adds various new food items to the game.\n- Customize food crafting recipes.\n- Offers a fun way to enhance your players' gaming experience.\n\n## Installation\n\n1. Make sure you have **PocketMine-MP version 5.0.0 or higher** installed on your server.\n2. Download the latest version of **AddFoodsMods** from [here](https://github.com/Refaltor77/AddFoods/releases/download/1.0.0/AddFoodsMods_v1.0.0.phar) or from [GitHub](https://github.com/Refaltor77/AddFoods).\n3. Place the downloaded `.phar` file into your PocketMine-MP server's plugins folder.\n\n## Usage\n\nPlayers can enjoy the new food items added by the plugin while playing the game.\n\n\n## Contributors\n\n- [Refaltor](https://github.com/Refaltor77) - Lead Developer\n\n## License\n\nThis project is licensed under the [License Name](https://github.com/Refaltor77/AddFoods/blob/main/LICENSE).\n\n## Acknowledgments\n\nWe would like to thank the PocketMine-MP community for their support and contributions to this project.\n\n---",
+  "readme_source_url": "https://github.com/Refaltor77/AddFoods",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Refaltor77/AddFoods",
+  "archive_repo": null,
+  "approved_release_tag": "r-12561",
+  "stars": 2,
+  "total_downloads": 1643,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "Customies"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Refaltor77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12561",
+      "published_at": null,
+      "downloads": 1643,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12561/addfoodsmods-1.0.0-r12561.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12561",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12561/addfoodsmods-1.0.0-r12561.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AddFoodsMods",
+    "stable_release_id": 12561
+  }
+}

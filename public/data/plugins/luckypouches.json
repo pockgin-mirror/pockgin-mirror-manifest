@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12614",
   "stars": 5,
-  "total_downloads": 208,
+  "total_downloads": 229,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -36,7 +36,7 @@
       "version": "1.0.1",
       "tag": "r-12614",
       "published_at": null,
-      "downloads": 208,
+      "downloads": 209,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12614/luckypouches-1.0.1-r12614.phar"
     },
     "dev": null
@@ -46,6 +46,11 @@
       "tag": "r-12614",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12614/luckypouches-1.0.1-r12614.phar"
+    },
+    {
+      "tag": "r-12579",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12579/luckypouches-1.0.0-r12579.phar"
     }
   ],
   "comments": {

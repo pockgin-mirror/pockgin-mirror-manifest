@@ -1,0 +1,61 @@
+{
+  "id": "cropgrowth",
+  "name": "CropGrowth",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**Play particle and sound when using bone meal on crops**\n\n![image](https://user-images.githubusercontent.com/60387689/178136951-db5c3b65-80c2-462b-b3cf-50b90992d7b5.png)\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c) [https://discord.gg/j2X83ujT6c] \\\nYou can contact me directly via Discord `NhanAZ` (Originally known as `NhanAZ#9115`)",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/CropGrowth",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/CropGrowth/03f52c5fb1b96d02e8710315beed51c45a0a3815/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/CropGrowth",
+  "archive_repo": null,
+  "approved_release_tag": "r-12378",
+  "stars": 0,
+  "total_downloads": 779,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.5.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/222838",
+  "versions": {
+    "stable": {
+      "version": "3.1.0",
+      "tag": "r-12378",
+      "published_at": null,
+      "downloads": 779,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12378/cropgrowth-3.1.0-r12378.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12378",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12378/cropgrowth-3.1.0-r12378.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CropGrowth",
+    "stable_release_id": 12378
+  }
+}

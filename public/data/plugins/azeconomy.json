@@ -1,0 +1,61 @@
+{
+  "id": "azeconomy",
+  "name": "AzEconomy",
+  "author": "phuongaz-pm-pl",
+  "description": "AzEconomy is a simple plugin designed for Pocketmine-MP servers, offering a multi-economy system.",
+  "readme_markdown": "# AzEconomy\r\n\r\nAzEconomy is a simple plugin designed for Pocketmine-MP servers, offering a multi-economy system.\r\n##### Plugin is under development, if you find any bug, please report it.\r\n#### Features\r\n\r\n- Multi-economy system\r\n- SQLite database\r\n- Multi-language system\r\n- FormAPI support\r\n#### To do:\r\n\r\n- [ ] MySQL support\r\n- [ ] More...\r\n\r\n#### Commands\r\n\r\n| Command                                        | Description               | Permission |\r\n|------------------------------------------------|---------------------------| --- |\r\n| `/azeconomy currencies`                        | Show your currencies      | `azeconomy.command.currencies` |\r\n| `/azeconomy pay <player> <currency> <amount>`  | Pay currency to a player  | `azeconomy.command.pay` |\r\n| `/azeconomy set <player> <currency> <amount>`  | Set currency to a player  | `azeconomy.command.set` |\r\n| `/azeconomy take <player> <currency> <amount>` | Take currency to a player | `azeconomy.command.add` |\r\n| `/azeconomy give <player> <currency> <amount>` | Give currency to a player | `azeconomy.command.remove` |\r\n| `/azeconomy top`                               | Show top players          | `azeconomy.command.top` |\r\n\r\n\r\n#### Events\r\n\r\n| Event                                     | Description |\r\n|-------------------------------------------| --- |\r\n| `EconomyTransactionEvent` | Called when a player's currency changes |\r\n\r\n#### API\r\n\r\nGet Currency:\r\n```php\r\n$callback = function(float $currency) : void {\r\n    // Do something\r\n};\r\n\r\nEcoAPI::getCurrency(string $username, string $currency, callable $callback);\r\n```\r\nGet Currencies:\r\n```php\r\n$callback = function(?BaseCurrencies $currency) : void {\r\n    // Do something\r\n};\r\nEcoAPI::getCurrencies(string $username, callable $callback);\r\n```\r\n\r\nSet Currency:\r\n```php\r\n$callback = function (bool $success) : void {\r\n    // Do something\r\n};\r\n\r\nEcoAPI::setCurrency(string $username, string $currency, float $amount, $callback);\r\n```\r\nAdd Currency:\r\n```php\r\n$callback = function (bool $success) : void {\r\n    // Do something\r\n};\r\n\r\nEcoAPI::addCurrency(string $username, string $currency, float $amount, $callback);\r\n```\r\nRemove Currency:\r\n```php\r\n$callback = function (bool $success) : void {\r\n    if(!$success) {\r\n        // not enough currency\r\n    }\r\n};\r\n\r\nEcoAPI::removeCurrency(string $username, string $currency, float $amount, $callback);\r\n```",
+  "readme_source_url": "https://github.com/phuongaz-pm-pl/AzEconomy",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/phuongaz-pm-pl/AzEconomy",
+  "archive_repo": null,
+  "approved_release_tag": "r-12462",
+  "stars": 0,
+  "total_downloads": 1396,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "phuongaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/224924",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-12462",
+      "published_at": null,
+      "downloads": 1396,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12462/azeconomy-1.0.1-r12462.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12462",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12462/azeconomy-1.0.1-r12462.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AzEconomy",
+    "stable_release_id": 12462
+  }
+}

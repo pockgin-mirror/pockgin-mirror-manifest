@@ -1,0 +1,61 @@
+{
+  "id": "knockbackffa",
+  "name": "KnockbackFFA",
+  "author": "MineCube-MC",
+  "description": "The classic and fully customizable minigame fun to play for PocketMine-MP API 5.",
+  "readme_markdown": "<p align=\"center\">\n\t<a href=\"https://github.com/MineCube-MC/Knock\"><img src=\"https://raw.githubusercontent.com/MineCube-MC/Knock/main/assets/Logo.png\"></img></a><br>\n\t<b>The classic and fully customizable minigame fun to play for PocketMine-MP API 5.</b>\n</p>\n\n<p align=\"center\">\n        <a href=\"https://poggit.pmmp.io/p/KnockbackFFA\"><img src=\"https://poggit.pmmp.io/shield.state/KnockbackFFA\" alt=\"Poggit Release\"></a>\n\t<a href=\"https://github.com/MineCube-MC/Knock/releases\"><img src=\"https://img.shields.io/github/v/tag/MineCube-MC/Knock?label=release&logo=github\" alt=\"GitHub tag (latest release)\" /></a>\n\t<a href=\"https://discord.gg/jNRC76kpVC\"><img src=\"https://img.shields.io/discord/736977303539810365?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n</p>\n\n## Features\n- Easy to setup\n- Customizable scoretag for the players\n- Arena map loading when starting the plugin\n- Ingame sounds, to make the gameplay alive\n- API to fully customize the game\n- Customize the game settings (in-game or in the config file)\n\n## How to setup & play\nThe plugin itself it's easy to setup. Follow the steps:\n- Install the plugin\n- Change the config values as you like\n- Go to your server and type /kbffa\n- Enjoy ;)\n\n## Commands and Permissions\n### Commands\n- kbffa (or knock) -> The minigame command\n  - join -> Makes the player join the minigame\n  - leave -> Makes the player leave the minigame\n  - kills -> Check the kills of a player (can be used in console too)\n  - settings -> Customize the minigame settings directly in-game\n### Permissions\n- knockbackffa.customize -> Customize the minigame settings ( Default : OP )\n\n## Troubleshooting\n### Why the plugin won't work fine on X fork of PocketMine?\nWhy are you even using a PocketMine fork?\n\n## Developers and API\nThe documentation is in my [GitHub Wiki](https://github.com/MineCube-MC/Knock/wiki): it explains how to use the API to check some settings or to get the kills and the last damager, how to edit some in-game settings and even how to listen for the plugin events.\n\n## Support\nhttps://discord.gg/jNRC76kpVC",
+  "readme_source_url": "https://github.com/MineCube-MC/knock",
+  "icon_url": "https://raw.githubusercontent.com/MineCube-MC/knock/b1c1e9df7760f10844439a34012f919abd2cd9a5/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MineCube-MC/knock",
+  "archive_repo": null,
+  "approved_release_tag": "r-12460",
+  "stars": 0,
+  "total_downloads": 1693,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MineCube-MC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/224911",
+  "versions": {
+    "stable": {
+      "version": "1.7.0",
+      "tag": "r-12460",
+      "published_at": null,
+      "downloads": 1693,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12460/knockbackffa-1.7.0-r12460.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12460",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12460/knockbackffa-1.7.0-r12460.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KnockbackFFA",
+    "stable_release_id": 12460
+  }
+}

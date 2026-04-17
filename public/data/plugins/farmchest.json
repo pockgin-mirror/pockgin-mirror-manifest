@@ -1,0 +1,66 @@
+{
+  "id": "farmchest",
+  "name": "FarmChest",
+  "author": "Joestarfish",
+  "description": "A PMMP plugin that modifies the Trapped Chest to make it harvest nearby crops",
+  "readme_markdown": "# FarmChest\n\nA PMMP plugin that modifies the Trapped Chest to make it harvest nearby crops\n\n[![](https://poggit.pmmp.io/shield.api/FarmChest)](https://poggit.pmmp.io/p/FarmChest)\n[![](https://poggit.pmmp.io/shield.dl.total/FarmChest)](https://poggit.pmmp.io/p/FarmChest)\n\nThe following crops will be harvested:\n\n![wheat](https://github.com/ZtechNetwork/MCBVanillaResourcePack/blob/master/textures/items/wheat.png?raw=true)\n![beetroot](https://github.com/ZtechNetwork/MCBVanillaResourcePack/blob/master/textures/items/beetroot.png?raw=true)\n![potato](https://github.com/ZtechNetwork/MCBVanillaResourcePack/blob/master/textures/items/potato.png?raw=true)\n![carrot](https://github.com/ZtechNetwork/MCBVanillaResourcePack/blob/master/textures/items/carrot.png?raw=true)\n![pumpkin_face_off](https://github.com/ZtechNetwork/MCBVanillaResourcePack/blob/master/textures/blocks/pumpkin_face_off.png?raw=true)\n![melon](https://github.com/ZtechNetwork/MCBVanillaResourcePack/blob/master/textures/items/melon.png?raw=true)\n![sweet_berries](https://github.com/ZtechNetwork/MCBVanillaResourcePack/blob/master/textures/items/sweet_berries.png?raw=true)\n![nether_wart](https://github.com/ZtechNetwork/MCBVanillaResourcePack/blob/master/textures/items/nether_wart.png?raw=true)\n\n<details>\n\t<ul>\n\t\t<li>Wheat</li>\n\t\t<li>Beetroots</li>\n\t\t<li>Potatoes</li>\n\t\t<li>Carrots</li>\n\t\t<li>Pumpkin</li>\n\t\t<li>Melon</li>\n\t\t<li>Sweet berries</li>\n\t\t<li>Nether Wart</li>\n\t</ul>\n</details>\n\n# Usage\n\nTo use the FarmChest, you can simply right click on it and it will harvest crops in a specified zone.\n\nYou can also sneak while clicking on the chest to make it harvest and keeping it closed\n\nYou could also use a plugin such as [VanillaHopper](https://poggit.pmmp.io/p/VanillaHopper/) that implements hopper. They will pick items inside of the chest and move them around your farm\n\n# Configuration\n\nInside of the `plugin_data/FarmChest/config.yml` file, you may change the following:\n\n-   **range** - The range at which the FarmChest will harvest crops\n    -   **x-axis** - The number of blocks that will be checked on the X axis\n    -   **z-axis** - The number of blocks that will be checked on the Z axis\n-   **should-drop-leftover-items** - Should the FarmChest drop the items that weren't able to fit inside of it ?",
+  "readme_source_url": "https://github.com/Joestarfish/FarmChest",
+  "icon_url": "https://raw.githubusercontent.com/Joestarfish/FarmChest/0673752d28ce2093933a77a5b577ae6e5bb74353/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Joestarfish/FarmChest",
+  "archive_repo": null,
+  "approved_release_tag": "r-12474",
+  "stars": 0,
+  "total_downloads": 442,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Joestarfish"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/225279",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-12474",
+      "published_at": null,
+      "downloads": 400,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12474/farmchest-1.0.2-r12474.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12474",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12474/farmchest-1.0.2-r12474.phar"
+    },
+    {
+      "tag": "r-12410",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12410/farmchest-1.0.1-r12410.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FarmChest",
+    "stable_release_id": 12474
+  }
+}

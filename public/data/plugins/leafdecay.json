@@ -1,0 +1,61 @@
+{
+  "id": "leafdecay",
+  "name": "LeafDecay",
+  "author": "HerrSchnecki",
+  "description": "A simple PocketMine-MP plugin that stops leaf decay in selected worlds.",
+  "readme_markdown": "#  LeafDecay\n\nA simple PocketMine-MP plugin that stops leaf decay in selected worlds.\n\n## Features\n\n- Prevents automatic leaf decay\n- World based configuration\n- Lightweight and easy to use",
+  "readme_source_url": "https://github.com/HerrSchnecki/LeafDecay",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/HerrSchnecki/LeafDecay",
+  "archive_repo": null,
+  "approved_release_tag": "r-12466",
+  "stars": 0,
+  "total_downloads": 304,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HerrSchnecki"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12466",
+      "published_at": null,
+      "downloads": 304,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12466/leafdecay-1.0.0-r12466.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12466",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12466/leafdecay-1.0.0-r12466.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LeafDecay",
+    "stable_release_id": 12466
+  }
+}

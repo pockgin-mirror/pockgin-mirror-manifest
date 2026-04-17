@@ -1,0 +1,61 @@
+{
+  "id": "skyblock",
+  "name": "SkyBlock",
+  "author": "dresnite",
+  "description": "A powerful core for SkyBlock servers",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.api/SkyBlock)](https://poggit.pmmp.io/p/SkyBlock)\n# SkyBlock\n\nA powerful core for SkyBlock servers\n\n## Getting Started\n\nThese instructions will get you a copy of the project up and running on your server.\n\n### Downloading\n\nYou can get the latest compiled version in our [Poggit.](https://poggit.pmmp.io/ci/GiantQuartz/SkyBlock)\n\n### Installing\n\nThis is a plug-and-play plugin, to install it you must drop its file inside your PocketMine's plugins folder.\n\n## Contributing\n\n### Coding\n\nIf you're a developer and want to submit a pull request to us, please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.\n\n### Donating\n\nIf you have been one of the thousands of people that use or used one of my open-source projects, I invite you to donate, that way, you would be supporting me to improve and create open-source software for the community.\n\n- [PayPal](https://paypal.me/giantquartz)\n\n## License\n\nThis project is licensed under the GNU LESSER GENERAL PUBLIC LICENSE - see the [LICENSE](LICENSE) file for details",
+  "readme_source_url": "https://github.com/dresnite/skyblock",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/dresnite/skyblock",
+  "archive_repo": null,
+  "approved_release_tag": "r-12383",
+  "stars": 0,
+  "total_downloads": 3375,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "dresnite"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/222871",
+  "versions": {
+    "stable": {
+      "version": "4.0.2",
+      "tag": "r-12383",
+      "published_at": null,
+      "downloads": 3375,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12383/skyblock-4.0.2-r12383.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12383",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12383/skyblock-4.0.2-r12383.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SkyBlock",
+    "stable_release_id": 12383
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "skyblockgb",
+  "name": "SkyblockGB",
+  "author": "GabBiswajit",
+  "description": "Skyblock GB",
+  "readme_markdown": "## Skyblock GB\n\n A Ultimate SkyBlocks plugin for PocketMine-MP, with many features to offer.\n\n## Features \n\n- [x] Custom Island support.\n- [x] Island Members.\n- [x] UI Support.\n- [x] GUI Support.\n- [x] Island visit support.\n- [x] Lock, Unlock Island Support.\n- [x] Manage Island Member Support.\n- [x] Limit Island Visiting Support.\n- [x] Island Roles.\n- [x] Reset Island.\n- [x] Add Members.\n- [x] Visiters Item PickUP, Not PickUP Settings.\n- [x] On Join Auto Create Island Support.\n- [x] On Join Island Teleport Support.\n\n## Ucoming features\n\n- [ ] Scoreboard support.\n- [ ] Multiple Islands.\n\n## Suggestions\n\n- contact me in the [Discord Server](https://discord.gg/vZCAnCTrHU) and suggest the suggestion you have in mind for this plugin!\n\n## Images\n![IMG_20230823_140640](https://github.com/GabBiswajit/SkyblockGB/assets/121815367/397b2295-0241-44f2-9f7d-7843ba370ba4)\n![IMG_20230823_140623](https://github.com/GabBiswajit/SkyblockGB/assets/121815367/139570f4-5ded-4410-8886-581780029b9d)\n![IMG_20230823_140602](https://github.com/GabBiswajit/SkyblockGB/assets/121815367/4d689d35-f350-453f-a8fd-f98b8e51122b)",
+  "readme_source_url": "https://github.com/GabBiswajit/SkyblockGB",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/GabBiswajit/SkyblockGB",
+  "archive_repo": null,
+  "approved_release_tag": "r-12429",
+  "stars": 0,
+  "total_downloads": 577,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "MultiWorld"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "GabBiswajit"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/223786",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-12429",
+      "published_at": null,
+      "downloads": 577,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12429/skyblockgb-1.0.1-r12429.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12429",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12429/skyblockgb-1.0.1-r12429.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SkyblockGB",
+    "stable_release_id": 12429
+  }
+}

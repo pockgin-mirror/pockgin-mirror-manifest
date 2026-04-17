@@ -1,0 +1,61 @@
+{
+  "id": "simplerandomore",
+  "name": "SimpleRandomOre",
+  "author": "achedon12",
+  "description": "[FR] Simple plugin de randomOre configurable",
+  "readme_markdown": "# About\n\n![icon](icon.jpg)\n\n[FR] Simple plugin de randomOre configurable\n\n[ENG] Simple configurable random ore plugin\n\n-----------------\n## Credit\n\n[FR] N'hésitez pas à donner votre avis sur le plugin et sur quoi il peut être amélioré\n\n[ENG] Feel free to give your opinion on the plugin and on what it can be improved\n\n-----------------\n\n## Contact\n\nMade with ❤ by [Achedon](https://github.com/achedon12)\n\n[My discord server](https://discord.gg/GdaJ6Q9r)\n\ndiscord: achedon12#0034",
+  "readme_source_url": "https://github.com/achedon12/RandomOre",
+  "icon_url": "https://raw.githubusercontent.com/achedon12/RandomOre/2d7e04d5bb20e8a1b3ad3a113277f2c57e4e0f42/icon.png",
+  "featured": false,
+  "repo": "https://github.com/achedon12/RandomOre",
+  "archive_repo": null,
+  "approved_release_tag": "r-12405",
+  "stars": 0,
+  "total_downloads": 370,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "achedon12"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/223178",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12405",
+      "published_at": null,
+      "downloads": 370,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12405/simplerandomore-2.0.0-r12405.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12405",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12405/simplerandomore-2.0.0-r12405.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleRandomOre",
+    "stable_release_id": 12405
+  }
+}

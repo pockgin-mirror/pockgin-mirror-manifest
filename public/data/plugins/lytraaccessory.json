@@ -1,0 +1,61 @@
+{
+  "id": "lytraaccessory",
+  "name": "LytraAccessory",
+  "author": "FresherGAMING",
+  "description": "LytraAccessory is a Pocketmine MP Plugin that will add an accessory features on your server",
+  "readme_markdown": "# LytraAccessory\nLytraAccessory is a Pocketmine MP Plugin that will add an accessory features on your server\n\n# Register The Accessory\nTo register your accessory, you need to make a new yaml file on the plugin_data folder\nFor example the file name is \"coolaccessory.yml\"\nThen inside the file, you need to insert a few things:\n1. ID of the accessory [REQUIRED]\n   ```yaml\n   id: \"coolaccessory\"\n   ```\n2. Item ID (This one will determine the item that will used for the accessory), Supports for Vanilla Items and CustomItemLoader [REQUIRED]\n   ```yaml\n   item-id: \"stick\"\n   ```\n3. Custom Name (This one will determine the name of your accessory) [OPTIONAL]\n   If you don't insert this, the name of the accessory will be the name of the item id above\n   ```yaml\n   custom-name: \"Cool Accessory\"\n   ```\n4. Lore (This one will determine the lore of your accessory) [OPTIONAL]\n   ```yaml\n   lore: [\"Cool Accessory\", \"Very Cool\"]\n   ```\n5. Damage Multiplier (This one will affect the damage stats of player)\n   If you set it to 100%, then player will have 100% more damage\n   If you set it to an integer like 1, then player will have 100% more damage\n   1 = 100%, 2 = 200%, 3 = 300%, etc\n   ```yaml\n   damage-multiplier: 100%\n   ```\n   ```yaml\n   damage-multiplier: 1\n   ```\n6. HP Multiplier (This one will affect the health stats of player)\n   If you set it to 100%, then player will have 100% more hp\n   If you set it to an integer like 1, then player will have 100% more hp\n   1 = 100%, 2 = 200%, 3 = 300%, etc\n   ```yaml\n   hp-multiplier: 100%\n   ```\n   ```yaml\n   hp-multiplier: 1\n   ```\nAfter that, you need to go to `config.yml` file, then add your file name to the loaded-accessory\n```yaml\nloaded-accessory: [\"coolaccessory.yml\"]\n```\n\n# Commands\n| Command            | Description                                                          | Usage                                                |\n| ------------------ | -------------------------------------------------------------------- | ---------------------------------------------------- |\n| /la                | View your accessory inventory                                        | /la                                                  |\n| /la get            | Get an accessory                                                     | /la get [string:id] [int:amount]                     |\n| /la give           | Give an accessory to another player                                  | /la give [string:player] [string:id] [int:amount]    |\n| /la info           | Get an information about a spesific accessory                        | /la info [string:id]                                 |\n| /la remove         | Remove an equipped accessory from player                             | /la remove [string:player] [string:id]               |\n| /la view           | View an accessory inventory of another player                        | /la view [string:player]                             |\n| /la slots view     | Display information about total slots and empty slots of player      | /la slots view [string:player]                       |\n| /la slots add      | Add a spesific amount of slots on accessory inventory                | /la slots add [string:player] [int:amount]           |\n| /la slots remove   | Remove a spesific amount of slots on accessory inventory             | /la slots remove [string:player] [int:amount]        |\n| /la slots set      | Set a spesific amount of slots on accessory inventory                | /la slots set [string:player] [int:amount]           |\n\n# Permissions\nYou can use `lytraaccessory.command.admin` permission to give players all the lytra accessory commands permissions\n\n| Command            | Permissions                                  | Default |\n| ------------------ | -------------------------------------------- | ------- |\n| /la                | lytraaccessory.command.use                   | True    |\n| /la get            | lytraaccessory.command.admin.get             | OP      |\n| /la give           | lytraaccessory.command.admin.give            | OP      |\n| /la info           | lytraaccessory.command.admin.info            | OP      |\n| /la remove         | lytraaccessory.command.admin.remove          | OP      |\n| /la view           | lytraaccessory.command.admin.view            | OP      |\n| /la slots view     | lytraaccessory.command.admin.slots.view      | OP      |\n| /la slots add      | lytraaccessory.command.admin.slots.add       | OP      |\n| /la slots remove   | lytraaccessory.command.admin.slots.remove    | OP      |\n| /la slots set      | lytraaccessory.command.admin.slots.set       | OP      |\n\n# For Developers\nImporting the LytraAccessory main file\n```php\nuse FresherGAMING\\LytraAccessory\\LytraAccessory;\n```\nIf you want to get the registered accessory\n```php\n$id = //your accessory id\n$amount = //the amount of the accessory do you want to get\nLytraAccessory::getInstance()->getAccessory($id, $amount);\n```\n\nIf you want to give an accessory to a player\n```php\n$player = //needs to be a player type not a string\n$id = //your accessory id\n$amount = //the amount of the accessory do you want to give to the player\nLytraAccessory::getInstance()->giveAccessory($player, $id, $amount);\n```\n\nIf you want to add an accessory to a player (simply make the player used an accessory)\n```php\n$player = //needs to be a player type not a string\n$id = //your accessory id\nLytraAccessory::getInstance()->addAccessory($player, $id);\n```\n\nIf you want to remove an accessory from a player (simply make the player take of an accessory)\n```php\n$player = //needs to be a player type not a string\n$id = //your accessory id\nLytraAccessory::getInstance()->removeAccessory($player, $id);\n```\n\nIf you want to get the number of players accessory slots\n```php\n$player = //needs to be a player type not a string\nLytraAccessory::getInstance()->getSlots($player);\n```\n\nIf you want to get the number of players empty accessory slots\n```php\n$player = //needs to be a player type not a string\nLytraAccessory::getInstance()->getAvailableSlots($player);\n```\n\nIf you want to set the number of players accessory slots\n```php\n$player = //needs to be a player type not a string\nLytraAccessory::getInstance()->setSlots($player);\n```",
+  "readme_source_url": "https://github.com/FresherGAMING/LytraAccessory",
+  "icon_url": "https://raw.githubusercontent.com/FresherGAMING/LytraAccessory/92bc8d087b16fca7d3b30332ceb92a82c54e8169/icon.png",
+  "featured": false,
+  "repo": "https://github.com/FresherGAMING/LytraAccessory",
+  "archive_repo": null,
+  "approved_release_tag": "r-12599",
+  "stars": 0,
+  "total_downloads": 258,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "FresherGAMING"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12599",
+      "published_at": null,
+      "downloads": 258,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12599/lytraaccessory-1.0.0-r12599.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12599",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12599/lytraaccessory-1.0.0-r12599.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LytraAccessory",
+    "stable_release_id": 12599
+  }
+}

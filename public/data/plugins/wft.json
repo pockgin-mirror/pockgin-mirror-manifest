@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13100",
   "stars": 0,
-  "total_downloads": 537,
+  "total_downloads": 907,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-13100",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13100/wft-1.5.3-r13100.phar"
+    },
+    {
+      "tag": "r-12522",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12522/wft-1.5.2-r12522.phar"
     }
   ],
   "comments": {

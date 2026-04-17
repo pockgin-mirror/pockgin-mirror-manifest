@@ -1,0 +1,61 @@
+{
+  "id": "pocketradio",
+  "name": "PocketRadio",
+  "author": "inxomnyaa",
+  "description": "A lightweight .NBS song player for PocketMine Servers",
+  "readme_markdown": "# PocketRadio\nA lightweight .NBS song player for PocketMine Servers\n\n## Prerequisites\nWhen downloaded from poggit, none.\n\nWhen manually installing from source, you must install the virions \n\n## Setup\n- Add the plugin to the `plugins` folder\n- Put your .nbs files into the generated \"songs\" folder and restart the server\n- The songs will automatically start to play when a player joins the server\n\n## Commands\nUse `/radio` to open the radio interface\n\nUse `/radio next` to skip the current song (global)\n\nUse `/radio volume` to change your volume (per player)\n\nUse `/radio pause` to pause or unpause playback (global)\n\nUse `/radio select` to play a specific song (global)\n\n## Planned changes\n- Change the radio interface to allow searching ✔, skipping ✔, looping songs or playlists\n- Add looping ✔, toggle shuffle mode ✔, playlists ✔, per-user songs\n- World settings (plobably done via external plugin)\n\n## API\nhttps://github.com/inxomnyaa/PocketRadio/wiki\n\n## Where do i get .nbs files?\nYou can find a collection of .nbs songs here: https://forums.pmmp.io/threads/200-nbs-songs.294/\n\n<!It is planned to create a proper, separate website, where you can submit your own .nbs files, search for songs and download them>\n\n## Issues\nMake sure to check a few things **before** creating an issue\n - Your installation of PocketMine (pmmp) works properly, and is an official version. No support on custom builds or forks.\n - You have the latest version of PocketRadio. Issues based on outdated releases will be closed as invalid\n - You run a release version from poggit or the releases tab. Self-compiled versions are not supported.",
+  "readme_source_url": "https://github.com/inxomnyaa/PocketRadio",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/inxomnyaa/PocketRadio",
+  "archive_repo": null,
+  "approved_release_tag": "r-12496",
+  "stars": 5,
+  "total_downloads": 399,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "inxomnyaa"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/226922",
+  "versions": {
+    "stable": {
+      "version": "6.1.0",
+      "tag": "r-12496",
+      "published_at": null,
+      "downloads": 399,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12496/pocketradio-6.1.0-r12496.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12496",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12496/pocketradio-6.1.0-r12496.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PocketRadio",
+    "stable_release_id": 12496
+  }
+}

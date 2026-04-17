@@ -1,0 +1,71 @@
+{
+  "id": "sellwand",
+  "name": "SellWand",
+  "author": "Joestarfish",
+  "description": "A PMMP plugin that add an item which can sell the contents of containers (Chest, Hopper, Furnace, etc.)",
+  "readme_markdown": "# SellWand\n\nA PMMP plugin that add an item which can sell the contents of containers (Chest, Hopper, Furnace, etc.)\n\n[![](https://poggit.pmmp.io/shield.api/SellWand)](https://poggit.pmmp.io/p/SellWand)\n[![](https://poggit.pmmp.io/shield.dl.total/SellWand)](https://poggit.pmmp.io/p/SellWand)\n\n# Usage\n\nTo get started, install the [Customies](https://poggit.pmmp.io/p/Customies/) plugin to your `plugins` folder\n\nThen, start your server and give yourself a Sell Wand using the command `/give <name> sell_wand:sell_wand`\n\n# Configuration\n\nInside of the `plugin_data/SellWand/config.yml` file, you may change the following:\n\n-   **item** - Item configuration\n\n    -   **texture** - The texture of the item\n    -   **name** - The name of the Item\n\n-   **economy** - This is used to determine which economy system to use\n\n    -   **provider** - The economy provider: `economyapi | bedrockeconomy | xp`\n\n-   **behaviour** - The behaviour of the Sell Wand\n\n    -   **send-confirm-form** - Do we send a Form to the user asking them for confirmation\n    -   **drop-if-not-fit** - Do we drop the items on the ground if they doesn't fit in their container (or if it is destroyed)\n    -   **drop-at-player-feet** - Do we drop the items at the player feet instead of at the container location\n    -   **enabled-blocks** - If you want to disable the use of the item on specific blocks, you can switch these values to \"false\"\n\n-   **messages** - These are messages that will be sent to the player depending of the outcomes of the transaction\n\n    -   **success** - The message sent when items are sold successfully\n    -   **failed** - The message sent when the items weren't\n    -   **no-items** - The message sent when there are no items in the container\n    -   **form-title** - The title of the confirmation Form\n    -   **form-content** - The content of the confirmation Form\n\n-   **sell** - A list of items that can be sold. Use the format `<item_name>: <price>`",
+  "readme_source_url": "https://github.com/Joestarfish/SellWand",
+  "icon_url": "https://raw.githubusercontent.com/Joestarfish/SellWand/db593fd3c9c4708b7206f460a763f7eb7fc9f9f9/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Joestarfish/SellWand",
+  "archive_repo": null,
+  "approved_release_tag": "r-12471",
+  "stars": 0,
+  "total_downloads": 571,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "Customies"
+    ],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Joestarfish"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/225251",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-12471",
+      "published_at": null,
+      "downloads": 514,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12471/sellwand-1.0.1-r12471.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12471",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12471/sellwand-1.0.1-r12471.phar"
+    },
+    {
+      "tag": "r-12409",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12409/sellwand-1.0.0-r12409.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SellWand",
+    "stable_release_id": 12471
+  }
+}

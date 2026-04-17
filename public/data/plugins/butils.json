@@ -1,0 +1,61 @@
+{
+  "id": "butils",
+  "name": "BuTils",
+  "author": "xeww",
+  "description": "A simple builder utility PocketMine-MP plugin, designed to be as **easy** as possible to use.",
+  "readme_markdown": "# BuTils\n\nA simple builder utility PocketMine-MP plugin, designed to be as **easy** as possible to use.\n\n## Features\n\n- [x] Customisable Flying Speed (horizontal & vertical)\n- [x] Creative No-Clip\n- [x] Toggleable Night Vision\n- [x] Toggleable Explosions\n- [x] Toggleable Leaves Decay\n- [x] Toggleable Liquids Flow\n- [x] Toggleable Falling Blocks Gravity\n- [x] Toggleable Coral Death\n- [x] Minimalistic Overview UI\n- [x] Gamemode Commands (Adventure, Creative, Survival, Spectator)\n\n## Commands\n\n| Name        | Description              | Aliases    | Usage                                       | Permission                 |\n|-------------|--------------------------|------------|---------------------------------------------|----------------------------|\n| butils      | BuTils overview command  | *N/A*      | `/butils`                                   | butils.command.butils      |\n| flyspeed    | Update your flying speed | fs, fspeed | `/flyspeed [float:speed]/[string:reset] [float:vertical speed]` | butils.command.flyspeed    |\n| nightvision | Toggle night vision      | nv         | `/nightvision`                              | butils.command.nightvision |\n| noclip      | Toggle no-clip           | nc         | `/noclip`                                   | butils.command.noclip      |\n| gma         | Set player to adventure mode |  | `/gma [player]`                                      | butils.command.gamemode.adventure       |\n| gmc         | Set player to creative mode |  | `/gmc [player]`                                      | butils.command.gamemode.creative         |\n| gms         | Set player to survival mode |  | `/gms [player]`                                      | butils.command.gamemode.survival          |\n| gmsp        | Set player to spectator mode |  | `/gmsp [player]`                                     | butils.command.gamemode.spectator         |",
+  "readme_source_url": "https://github.com/xeww/BuTils",
+  "icon_url": "https://raw.githubusercontent.com/Xeww/BuTils/27d700fd9d3ba0b928cd0ccd53037df99377fae1/icon.png",
+  "featured": false,
+  "repo": "https://github.com/xeww/BuTils",
+  "archive_repo": null,
+  "approved_release_tag": "r-12577",
+  "stars": 5,
+  "total_downloads": 572,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.7.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "xeww"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-12577",
+      "published_at": null,
+      "downloads": 572,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12577/butils-0.0.1-r12577.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12577",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12577/butils-0.0.1-r12577.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BuTils",
+    "stable_release_id": 12577
+  }
+}

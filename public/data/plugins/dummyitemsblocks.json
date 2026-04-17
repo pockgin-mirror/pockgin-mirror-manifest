@@ -5,18 +5,18 @@
   "description": "Items and blocks added are not functional, they are just for decoration purposes.",
   "readme_markdown": "![DummyItemsBlocks](https://socialify.git.ci/diamond-gold/DummyItemsBlocks/image?description=1&font=Inter&forks=1&issues=1&logo=https%3A%2F%2Fgithub.com%2Fdiamond-gold%2FDummyItemsBlocks%2Fraw%2Fmain%2Ficon.gif&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Light)\n\n> Items and blocks added are not functional, they are just for decoration purposes.\n> \n> * Except for lingering potions which are functional as normal splash potions.\n>\n> Supports all items and blocks up to Minecraft 1.20\n>\n> Allows worlds with such items or blocks to be loaded\n> \n> Freedom to control items and blocks added via `config.yml`\n\n[![](https://poggit.pmmp.io/ci.shield/diamond-gold/DummyItemsBlocks/DummyItemsBlocks?style=for-the-badge)](https://poggit.pmmp.io/ci/diamond-gold/DummyItemsBlocks/~)\n\n[![](https://poggit.pmmp.io/shield.api/DummyItemsBlocks?style=for-the-badge)](https://poggit.pmmp.io/p/DummyItemsBlocks)\n[![](https://poggit.pmmp.io/shield.downloads/DummyItemsBlocks?style=for-the-badge)](https://poggit.pmmp.io/p/DummyItemsBlocks)\n[![](https://poggit.pmmp.io/shield.downloads.total/DummyItemsBlocks?style=for-the-badge)](https://poggit.pmmp.io/p/DummyItemsBlocks)\n[![](https://poggit.pmmp.io/shield.state/DummyItemsBlocks?style=for-the-badge)](https://poggit.pmmp.io/p/DummyItemsBlocks)\n\nEncountered a bug? Want something added? Create an [issue](https://github.com/diamond-gold/DummyItemsBlocks/issues) (＃°Д°)\n\nHave questions? Start a [discussion](https://github.com/diamond-gold/DummyItemsBlocks/discussions) ✍(◔◡◔)\n\nStarring the GitHub repository is like sprinkling stardust—help me create magic! (。・∀・)ノ\n\nFeeling generous? Buy me some [snacks](https://ko-fi.com/diamondgold)! (❤´艸｀❤)\n\n[![Feature Requests](https://img.shields.io/github/issues-raw/diamond-gold/DummyItemsBlocks/Feature%20Request?label=Feature%20Requests&logo=github&style=for-the-badge)](https://github.com/diamond-gold/DummyItemsBlocks/issues)\n[![Bug Reports](https://img.shields.io/github/issues-raw/diamond-gold/DummyItemsBlocks/bug?label=Bug%20Reports&logo=github&style=for-the-badge)](https://github.com/diamond-gold/DummyItemsBlocks/issues)\n\n<img src=\"https://counter.seku.su/cmoe?name=dummyitemsblocks&theme=r34\" alt=\"\">\n\n# Known issue when another plugin that add vanilla items or blocks is installed\n`\n[Server thread/CRITICAL]: InvalidArgumentException: \"Deserializer is already assigned for \"minecraft:shield\"\" (EXCEPTION) in \"pmsrc/src/data/bedrock/item/ItemDeserializer\" at line 55\n`\n\n> If you encounter similar error in another plugin, please delete `minecraft:shield` in `config.yml`\n> \n> Replace `minecraft:shield` with the item or block specified in the error message.\n\n# Special behavior\n\nBy default, the following is required to change block states by right-clicking\n- Player is in creative mode\n- Have `dummyitemsblocks.changestate` permission, default: op\n- Holding an arrow named `Change State` in either main hand or offhand\n  - Can be obtained by: ```/give player arrow 1 {display:{Name:\"Change State\"}}```\n\nCustomizable using the `Main::setCanChangeStatesClosure()` method\n\n### Examples of block state changes by right-clicking:\n|      Block      | Sneak-right-click |     Right-click     |\n|:---------------:|:-----------------:|:-------------------:|\n| (Soul) Campfire |    Toggle fire    |     Place item      |\n|     Crafter     | Toggle triggered  |   Toggle crafting   |\n|  Decorated Pot  | Toggle animation  | Place sherd pattern |\n| (Sticky) Piston |         -         |   Toggle extended   |\n|   Turtle Egg    |  Increase cracks  | Increase egg Count  |\n\nThere are many other blocks that can change state by right-clicking.\n\n# Acknowledgements\nReferenced from various PRs on the PocketMine-MP repo\n\nContains code adapted from\n- #5232 Goat Horn\n- #5455 Firework Star/Rocket\n\nIcon created using textures from: https://modrinth.com/resourcepack/vanillaxbr",
   "readme_source_url": "https://github.com/diamond-gold/DummyItemsBlocks",
-  "icon_url": "https://raw.githubusercontent.com/diamond-gold/DummyItemsBlocks/1b585c79e51ad6987bc4fe1ac3b5b8ce5e179a06/icon.gif",
+  "icon_url": "https://raw.githubusercontent.com/diamond-gold/DummyItemsBlocks/43e90efa11e4cd07930ea66c608e197b3a9289a4/icon.gif",
   "featured": false,
   "repo": "https://github.com/diamond-gold/DummyItemsBlocks",
   "archive_repo": null,
-  "approved_release_tag": "r-12929",
-  "stars": 0,
-  "total_downloads": 1911,
+  "approved_release_tag": "r-12464",
+  "stars": 5,
+  "total_downloads": 3083,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
   "api_support": [
-    "5.13.0-5.36.0"
+    "5.6.0-5.36.0"
   ],
   "dependencies": {
     "required": [],
@@ -28,22 +28,38 @@
   "producers": [
     "diamond-gold"
   ],
-  "whats_new": "https://poggit.pmmp.io/r/252019",
+  "whats_new": "https://poggit.pmmp.io/r/233285",
   "versions": {
     "stable": {
+      "version": "1.0.3",
+      "tag": "r-12464",
+      "published_at": null,
+      "downloads": 1085,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12464/dummyitemsblocks-1.0.3-r12464.phar"
+    },
+    "dev": {
       "version": "1.1.0",
       "tag": "r-12929",
       "published_at": null,
       "downloads": 1911,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12929/dummyitemsblocks-1.1.0-r12929.phar"
-    },
-    "dev": null
+    }
   },
   "recent_builds": [
     {
       "tag": "r-12929",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12929/dummyitemsblocks-1.1.0-r12929.phar"
+    },
+    {
+      "tag": "r-12464",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12464/dummyitemsblocks-1.0.3-r12464.phar"
+    },
+    {
+      "tag": "r-12448",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12448/dummyitemsblocks-1.0.2-r12448.phar"
     }
   ],
   "comments": {
@@ -56,6 +72,6 @@
   "source": {
     "provider": "poggit",
     "plugin_name": "DummyItemsBlocks",
-    "stable_release_id": 12929
+    "stable_release_id": 12464
   }
 }

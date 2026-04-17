@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12705",
   "stars": 5,
-  "total_downloads": 1491,
+  "total_downloads": 2048,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -36,7 +36,7 @@
       "version": "1.0.1",
       "tag": "r-12705",
       "published_at": null,
-      "downloads": 1491,
+      "downloads": 1492,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12705/advancedbounty-1.0.1-r12705.phar"
     },
     "dev": null
@@ -46,6 +46,11 @@
       "tag": "r-12705",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12705/advancedbounty-1.0.1-r12705.phar"
+    },
+    {
+      "tag": "r-12376",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12376/advancedbounty-1.0.0-r12376.phar"
     }
   ],
   "comments": {

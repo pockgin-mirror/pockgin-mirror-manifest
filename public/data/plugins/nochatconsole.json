@@ -1,0 +1,61 @@
+{
+  "id": "nochatconsole",
+  "name": "noChatConsole",
+  "author": "Aetheam",
+  "description": "This plugin allows you to relieve the console in order to see certain messages more easily.",
+  "readme_markdown": "# noChatConsole\n\nThis plugin allows you to relieve the console in order to see certain messages more easily.\nthe config is simple with the possibility of activating or not logging messages with their date.",
+  "readme_source_url": "https://github.com/Aetheam/noChatConsole",
+  "icon_url": "https://raw.githubusercontent.com/Aetheam/noChatConsole/cc1a6ad7c57d0b1d5e5f143513a20bb722242cad/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Aetheam/noChatConsole",
+  "archive_repo": null,
+  "approved_release_tag": "r-12521",
+  "stars": 0,
+  "total_downloads": 339,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Aetheam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12521",
+      "published_at": null,
+      "downloads": 339,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12521/nochatconsole-1.0.0-r12521.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12521",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12521/nochatconsole-1.0.0-r12521.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "noChatConsole",
+    "stable_release_id": 12521
+  }
+}

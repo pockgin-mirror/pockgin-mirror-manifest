@@ -1,0 +1,61 @@
+{
+  "id": "blockbreaker",
+  "name": "BlockBreaker",
+  "author": "Joestarfish",
+  "description": "A PMMP plugin that allows you to choose what items can break specific blocks or prevent some blocks from being destroyed",
+  "readme_markdown": "# BlockBreaker\n\nA PMMP plugin that allows you to choose what items can break specific blocks or prevent some blocks from being destroyed\n\n[![](https://poggit.pmmp.io/shield.api/BlockBreaker)](https://poggit.pmmp.io/p/BlockBreaker)\n[![](https://poggit.pmmp.io/shield.dl.total/BlockBreaker)](https://poggit.pmmp.io/p/BlockBreaker)\n\n# Configuration\n\nInside of the `plugin_data/BlockBreaker/config.yml` file, you may change the following:\n\n-   **do-break-block** - If the item cannot break the block, do we destroy it anyway or do we prevent is's destruction ?\n-   **do-drop-xp** - Do we want to drop the XP after destroying a block ?\n-   **blocks** - A list of block with the different items that can break it. Format: `<block_name>: <items_list>`\n-   **items** - A list of items with the blocks they can break. Format: `<item_name>: <blocks_list>`",
+  "readme_source_url": "https://github.com/Joestarfish/BlockBreaker",
+  "icon_url": "https://raw.githubusercontent.com/Joestarfish/BlockBreaker/8abeb74f657227bc852328394a97e621ddfc98d2/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Joestarfish/BlockBreaker",
+  "archive_repo": null,
+  "approved_release_tag": "r-12419",
+  "stars": 0,
+  "total_downloads": 301,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Joestarfish"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12419",
+      "published_at": null,
+      "downloads": 301,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12419/blockbreaker-1.0.0-r12419.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12419",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12419/blockbreaker-1.0.0-r12419.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockBreaker",
+    "stable_release_id": 12419
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "coppervanillamods",
+  "name": "CopperVanillaMods",
+  "author": "Refaltor77",
+  "description": "CopperCraft Plugin v1.0.0",
+  "readme_markdown": "# CopperCraft Plugin v1.0.0\n\nThe **CopperCraft** plugin is a fantastic (hehe) addition to your PocketMine-MP server, introducing copper, complete with tools and armor. This plugin is designed for PocketMine-MP version 5.0.0.\n\n![CopperCraft Preview](imgs/craft_copper_pickaxe.png)\n\n## Features\n\n- Adds copper ore to your Minecraft world.\n- Allows players to mine copper and craft tools and armor.\n- Custom crafting recipes for copper tools and armor.\n- Enhances the gameplay experience with new possibilities.\n\n## Installation\n\n1. Make sure you have **PocketMine-MP version 5.0.0 or higher** installed on your server.\n2. Download the latest version of **CopperCraft** from [here](https://github.com/Refaltor77/CopperVanillaMods/releases/download/1.0.0/CopperVanillaMods_v1.0.0.phar) or from [GitHub](https://github.com/Refaltor77/CopperVanillaMods).\n3. Place the downloaded `.phar` file into your PocketMine-MP server's plugins folder.\n\n## Crafting Recipes\n\nCraft custom copper tools and armor using the following recipes:\n\n- Copper Pickaxe: ![Copper Pickaxe Recipe](imgs/craft_copper_pickaxe.png)\n- Copper Shovel: ![Copper Shovel Recipe](imgs/craft_copper_shovel.png)\n- Copper Helmet: ![Copper Helmet Recipe](imgs/craft_copper_helmet.png)\n- Copper Chestplate: ![Copper Chestplate Recipe](imgs/craft_copper_chestplate.png)\n- Copper Leggings: ![Copper Leggings Recipe](imgs/craft_copper_leggings.png)\n- Copper Boots: ![Copper Boots Recipe](imgs/craft_copper_boots.png)\n\n## Usage\n\nPlayers can mine copper ore, smelt it into ingots, and use the ingots to craft copper tools and armor. Equip the copper gear and mine more efficiently or protect yourself with copper armor.\n\n## Contributors\n\n- [Refaltor](https://github.com/Refaltor77) - Lead Developer\n\n## License\n\nThis project is licensed under the [License Name](https://github.com/Refaltor77/CopperVanillaMods/blob/main/LICENSE).\n\n## Acknowledgments\n\nWe appreciate the PocketMine-MP community for their support and contributions to this project.\n\n---",
+  "readme_source_url": "https://github.com/Refaltor77/CopperVanillaMods",
+  "icon_url": "https://raw.githubusercontent.com/Refaltor77/CopperVanillaMods/7e3c29398558251bef55d0c36e64d9574ab2d5df/resources/pack_copper/copper_sword.png",
+  "featured": false,
+  "repo": "https://github.com/Refaltor77/CopperVanillaMods",
+  "archive_repo": null,
+  "approved_release_tag": "r-12543",
+  "stars": 3,
+  "total_downloads": 531,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "Customies"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Refaltor77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12543",
+      "published_at": null,
+      "downloads": 531,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12543/coppervanillamods-1.0.0-r12543.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12543",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12543/coppervanillamods-1.0.0-r12543.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CopperVanillaMods",
+    "stable_release_id": 12543
+  }
+}

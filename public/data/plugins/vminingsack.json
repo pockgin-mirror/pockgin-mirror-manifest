@@ -1,0 +1,61 @@
+{
+  "id": "vminingsack",
+  "name": "VMiningSack",
+  "author": "VennDev",
+  "description": "One plugin for PocketMine-PMMP 5",
+  "readme_markdown": "# VMiningSack\n<img src=\"https://github.com/VennDev/VMiningSack/blob/main/icon.png\" alt=\"VMiningSack\" height=\"150\" width=\"150\" />\n- One plugin for PocketMine-PMMP 5\n\n# How to install it ?\n- You should install InvMenu here: [Sources](https://github.com/Muqsit/InvMenu)\n\n# Notes\n- The image representing this plugin is for illustrative purposes only, if you want similar objects you can customize your own.\n\n# Commands\n```\n/vminingsack or /vms - give <player> <type> <amount>\n```\n\n# Features\n- Save your bag space as you dig mines or collect blocks packed into something called VMiningSack\n- Automatically pocket objects or so-called blocks into your Sack when digging them.\n- Allow pocketing similar items or blocks in your Sack with 1 tap.\n\n# Config\n```config\n---\n\n####################################################################################################\n# Frequently Asked Questions:\n#\n# What is the material? - They are the names of id-like objects in vanilla\n#                         minecraft bedrock, example: /give @s diamond 1\n#\n# Can I create multiple types of sacks? - Quite possibly, you can just copy a template\n#                                         I already have and rename it like small, medium, ... according\n#                                         to your preferences and reset everything according to\n#                                         the needs that you need.\n####################################################################################################\n\n# GUI Settings\ngui:\n  border:\n    # Border material\n    material: \"barrier\"\n  ore_item:\n    lore:\n      - \"§r§7%count%x§f/§c%max%x\"\n\n  insert_item:\n    # The place of this object on the GUI\n    slot: 49\n    # Material\n    material: \"chest\"\n    # Name for the item\n    name: \"§aInsert inventory\"\n    # Lore for the item\n    lore:\n      - \"§r§7Insert your inventory items into your sacks!\"\n      - \"§r§eClick to put all items in!\"\n\n# Types of mining stacks\ntypes:\n  small:\n    # Item for the mining sack\n    item:\n      material: \"chest\"\n    # Sizes to accommodate each type of ores\n    size: 100\n    # Name to be displayed in the GUI\n    name: \"Small Mining Sack\"\n    # Types of ores, max is 28\n    ores:\n      # material, name (name is optional)\n      - [ \"coal\", false ]\n      - [ \"raw_iron\", false ]\n      - [ \"raw_gold\", false ]\n      - [ \"raw_copper\", false ]\n      - [ \"redstone_dust\", false ]\n      - [ \"diamond\", false ]\n      - [ \"emerald\", false ]\n  medium:\n    # Item for the mining sack\n    item:\n      material: \"chest\"\n    # Sizes to accommodate each type of ores\n    size: 500\n    # Name to be displayed in the GUI\n    name: \"Medium Mining Sack\"\n    # Types of ores, max is 28\n    ores:\n      # material, name (name is optional)\n      - [ \"coal\", false ]\n      - [ \"raw_iron\", false ]\n      - [ \"raw_gold\", false ]\n      - [ \"raw_copper\", false ]\n      - [ \"redstone_dust\", false ]\n      - [ \"diamond\", false ]\n      - [ \"emerald\", false ]\n  large:\n    # Item for the mining sack\n    item:\n      material: \"chest\"\n    # Sizes to accommodate each type of ores\n    size: 1000\n    # Name to be displayed in the GUI\n    name: \"Large Mining Sack\"\n    # Types of ores, max is 28\n    ores:\n      # material, name (name is optional)\n      - [ \"coal\", false ]\n      - [ \"raw_iron\", false ]\n      - [ \"raw_gold\", false ]\n      - [ \"raw_copper\", false ]\n      - [ \"redstone_dust\", false ]\n      - [ \"diamond\", false ]\n      - [ \"emerald\", false ]\n  extra:\n    # Item for the mining sack\n    item:\n      material: \"chest\"\n    # Sizes to accommodate each type of ores\n    size: 2500\n    # Name to be displayed in the GUI\n    name: \"Extra Mining Sack\"\n    # Types of ores, max is 28\n    ores:\n      # material, name (name is optional)\n      - [ \"coal\", false ]\n      - [ \"raw_iron\", false ]\n      - [ \"raw_gold\", false ]\n      - [ \"raw_copper\", false ]\n      - [ \"redstone_dust\", false ]\n      - [ \"diamond\", false ]\n      - [ \"emerald\", false ]\n\n...\n```\n\n# Images\n<img src=\"https://github.com/VennDev/VMiningSack/blob/main/images/Untitled.png\" alt=\"VMiningSack\" height=\"300\" width=\"300\" />\n\n# Credits\n- Email: pnam5005@gmail.com\n- Paypal: lifeboat909@gmail.com",
+  "readme_source_url": "https://github.com/VennDev/VMiningSack",
+  "icon_url": "https://raw.githubusercontent.com/VennDev/VMiningSack/708c22433244609b75ea05c5609de643513db23b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/VennDev/VMiningSack",
+  "archive_repo": null,
+  "approved_release_tag": "r-12450",
+  "stars": 0,
+  "total_downloads": 279,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "VennDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/224337",
+  "versions": {
+    "stable": {
+      "version": "1.0.4",
+      "tag": "r-12450",
+      "published_at": null,
+      "downloads": 279,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12450/vminingsack-1.0.4-r12450.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12450",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12450/vminingsack-1.0.4-r12450.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VMiningSack",
+    "stable_release_id": 12450
+  }
+}

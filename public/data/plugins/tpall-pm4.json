@@ -1,0 +1,61 @@
+{
+  "id": "tpall-pm4",
+  "name": "TPAll-PM4",
+  "author": "fernanACM",
+  "description": "The TPAll plugin is for teleporting",
+  "readme_markdown": "# TPALL\n[![](https://poggit.pmmp.io/shield.state/TPALL-PM4)](https://poggit.pmmp.io/p/TPALL-PM4)\n\n[![](https://poggit.pmmp.io/shield.api/TPALL-PM4)](https://poggit.pmmp.io/p/TPALL-PM4)\n\n![icon-tpall](https://user-images.githubusercontent.com/83558341/167649960-389dd644-3e52-4aa0-9de2-093313640694.png)\n\n\nThe TPAll plugin is for teleporting\nall players on the server to you! You can use the plugin completely at events, survival events and everything else. I will be happy if you write something in the comments that will help me for the better plugin. Thank you for your support and listen!\n\n<a href=\"https://discord.gg/YyE9XFckqb\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n\n### ✔ Implementations\n* Sounds.\n* Message customization.\n* Command [/tpall]\n\n### 💾 Config\n```yaml\n---\n#   _____               _      _   _\n#  |_   _|  _ __       / \\    | | | |\n#    | |   | '_ \\     / _ \\   | | | |\n#    | |   | |_) |   / ___ \\  | | | |\n#    |_|   | .__/   /_/   \\_\\ |_| |_|\n#          |_|\n#    by matymare and fernanACM\n\n# Plugin created by matymare, Updated by fernanACM\n# TPAll - It is a PocketMine-MP plugin by which you can port all players to one place\n# The plugin must not be modified without asking the plugin owner\n# You can write to me on Discord: Roospy#1666\n\n# Configure the text and sound of the plugin, through the 'config.yml'. Minecraft sounds page:\n# https://www.digminecraft.com/lists/sound_list_pe.php\n\n# DO NOT TOUCH!\nconfig-version: \"1.0.0\"\n# ======(SETTINGS)======\nSettings:\n  # Prefix for Tpall message\n  Prefix: \"§l§f[§eTPAll§f]§8»§r \"\n  # Tpal's message\n  Message-tpall: \"§aTeleporting...\\n\"\n  # Use \"true\" or \"false\" to enable/disable sound when using Tpall\n  Tpall-no-sound: true\n  # Type of sound when using Tpall\n  Tpall-sound: \"portal.portal\"\n\n  Form:\n    content: \"&bAre you sure you want to teleport everyone to your position?\"\n    confirm-button: \"&l&2YES\"\n    decline-button: \"&l&cNO\"\n...\n```\n\n### 💬 Commands\n/tpall - Teleport all players to you!\n\n### 🚫 Permissions\n\n- Executing the command: `tpall.command`\n\n## 🔔 Credits:\n\nThe plugin icon is created via [flaticon](www.flaticon.com)",
+  "readme_source_url": "https://github.com/fernanACM/TPAll",
+  "icon_url": "https://raw.githubusercontent.com/fernanACM/TPAll/d644db017db46e00a07a4ea1714ce89a9e3fecd2/icon.png",
+  "featured": false,
+  "repo": "https://github.com/fernanACM/TPAll",
+  "archive_repo": null,
+  "approved_release_tag": "r-12461",
+  "stars": 5,
+  "total_downloads": 1089,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "fernanACM"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/224917",
+  "versions": {
+    "stable": {
+      "version": "1.4",
+      "tag": "r-12461",
+      "published_at": null,
+      "downloads": 1089,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12461/tpall-pm4-1.4-r12461.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12461",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12461/tpall-pm4-1.4-r12461.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TPAll-PM4",
+    "stable_release_id": 12461
+  }
+}

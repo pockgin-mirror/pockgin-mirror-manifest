@@ -1,0 +1,68 @@
+{
+  "id": "hammeracm",
+  "name": "HammerACM",
+  "author": "fernanACM",
+  "description": "A simple 3x3 pickaxe, for PocketMine-MP 5.0 servers**",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/HammerACM)](https://poggit.pmmp.io/p/HammerACM)\n\n[![](https://poggit.pmmp.io/shield.api/HammerACM)](https://poggit.pmmp.io/p/HammerACM)\n\n# HammerACM\n**A simple 3x3 pickaxe, for PocketMine-MP 5.0 servers**\n\n![icon-hammeracm](https://github.com/fernanACM/HammerACM/assets/83558341/394178d6-0404-4520-93d9-9bd2b76e09e9)\n\n<a href=\"https://discord.gg/YyE9XFckqb\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n\n### 🌍 Wiki\n* Check our plugin [wiki](https://github.com/fernanACM/HammerACM/wiki) for features and secrets in the...\n\n### 💡 Implementations\n* [X] Configuration\n* [X] Hammer per worlds\n\n### 💾 Config \n```yaml\n#   _   _                                                    _       ____   __  __ \n#  | | | |   __ _   _ __ ___    _ __ ___     ___   _ __     / \\     / ___| |  \\/  |\n#  | |_| |  / _` | | '_ ` _ \\  | '_ ` _ \\   / _ \\ | '__|   / _ \\   | |     | |\\/| |\n#  |  _  | | (_| | | | | | | | | | | | | | |  __/ | |     / ___ \\  | |___  | |  | |\n#  |_| |_|  \\__,_| |_| |_| |_| |_| |_| |_|  \\___| |_|    /_/   \\_\\  \\____| |_|  |_|\n#               by fernanACM\n# A simple hammer that breaks 3x3. For PocketMine-MP 5.0 servers only\n\n# DO NOT TOUCH!\nconfig-version: \"1.0.0\"\n\n# Prefix plugin\nPrefix: \"&l[&bHammerACM&f]&8»&r \"\n\n# ==(CONFIGURATION)==\nSettings:\n  # ==(WORLD MANAGER)==\n  # Enable and disable the hammer for worlds you \n  # add to \"whitelist\" or \"blacklist\" modes\n  WorldManager:\n    # Valid modes:\n    # - whitelist\n    # - blacklist\n    mode: whitelist\n    # Add the names of worlds that are in the whitelist\n    worlds-whitelist:\n      - \"world\"\n      - \"world-2\"\n      - \"ACM\"\n    # Add the names of worlds that are in the blacklist\n    worlds-blacklist:\n      - \"MinePvP\"\n      - \"ZonePvP\"\n\n# ==(HAMMER)==\n# Use this for color '&'\nHammer:\n  item-name: \"&r&l&bHammerACM\"\n  item-lore: \"&r&cby: fernanACM\"\n\nMessages:\n  success:\n    successfully-delivered: \"&aThe Hammer has been successfully delivered!\"\n  error:\n    inventory-full: \"&cYour inventory is full!\"\n```\n\n### 🕹 Commands\n| Command | Description |\n|---------|-------------|\n| ```/hammeracm``` | Receive hammer |\n\n### 🔒 Permissions\n| Permission | Description |\n|---------|-------------|\n| ```hammeracm.cmd:``` | Executing the command |\n| ```hammeracm.use``` | Use hammer |\n\n### 📢 Report bug\n* If you find any bugs in this plugin, please let me know via: [issues](https://github.com/fernanACM/HammerACM/issues)\n\n### 📞 Contact\n| Redes | Tag | Link |\n|-------|-------------|------|\n| YouTube | fernanACM | [YouTube](https://www.youtube.com/channel/UC-M5iTrCItYQBg5GMuX5ySw) | \n| Discord | fernanACM#5078 | [Discord](https://discord.gg/YyE9XFckqb) |\n| GitHub | fernanACM | [GitHub](https://github.com/fernanACM)\n| Poggit | fernanACM | [Poggit](https://poggit.pmmp.io/ci/fernanACM)\n****\n\n### ✔ Credits\n| Authors | Github | Lib |\n|---------|--------|-----|\n| DaPigGuy | [DaPigGuy](https://github.com/DaPigGuy) | [libPiggyUpdateChecker](https://github.com/DaPigGuy/libPiggyUpdateChecker) |\n****",
+  "readme_source_url": "https://github.com/fernanACM/HammerACM",
+  "icon_url": "https://raw.githubusercontent.com/fernanACM/HammerACM/9a6e87de082aaaf635fff30ab37528ee5d957188/icon-hammeracm.png",
+  "featured": false,
+  "repo": "https://github.com/fernanACM/HammerACM",
+  "archive_repo": null,
+  "approved_release_tag": "r-12433",
+  "stars": 0,
+  "total_downloads": 1022,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "WorldGuard"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "fernanACM"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/223850",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-12433",
+      "published_at": null,
+      "downloads": 983,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12433/hammeracm-1.0.2-r12433.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12433",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12433/hammeracm-1.0.2-r12433.phar"
+    },
+    {
+      "tag": "r-12373",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12373/hammeracm-1.0.1-r12373.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HammerACM",
+    "stable_release_id": 12433
+  }
+}

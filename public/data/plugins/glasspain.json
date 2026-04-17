@@ -1,0 +1,61 @@
+{
+  "id": "glasspain",
+  "name": "GlassPain",
+  "author": "Endermanbugzjfc",
+  "description": "🪟 Glass Pain",
+  "readme_markdown": "<!-- btw this is directly based on multiworld's readme thats why they look alike lol -->\n# 🪟 Glass Pain\n💡 Hint messages\n🔐 Permission node for customisation\n🌐 Multi-language system\n🔌 API for anticheats\n\n<p align=\"center\">\n  <img height=480 alt=\"Demonstration GIF\" src=\"https://github.com/Endermanbugzjfc/GlassPain/assets/53002741/7f0525f1-c473-4a96-b1ea-15ed0dd176bf\"><br>\n  <a href=\"https://poggit.pmmp.io/p/GlassPain\">  \n    <img alt=\"Poggit release (latest)\" src=\"https://poggit.pmmp.io/shield.downloads/GlassPain?style=for-the-badge\">  \n  </a>\n  <a href=\"https://github.com/Endermanbugzjfc/GlassPain\">  \n    <img alt=\"Stars on GitHub\" src=\"https://img.shields.io/github/stars/Endermanbugzjfc/GlassPain?style=for-the-badge\">\n  </a>\n</p>\n\nGetting bent out of shape for glass pane block's small hitbox?\nThis plugin turns glass panes into their full-block versions when one is holding a block to help align with them more easily!\n\nIf the players are too close to some glass panes that are supposed to be replaced,\na warning message will show on their screen so they will be less likely to get stuck or just fall off:\n<p align=\"center\">\n  <img height=480 alt=\"Demonstration GIF of the warning message\" src=\"https://github.com/Endermanbugzjfc/GlassPain/assets/53002741/4f811744-3df4-43b9-8aa4-bb1fcbe7ca26\"><br>\n</p>\n\n# 🔐 Permission node\n- `glasspain.use`: One can enjoy the feature when having this perm attached to.\n\n*Want to enable this feature for certain groups of people? Use [RankSystem](https://poggit.pmmp.io/p/RankSystem/) achieve it!*\n\n# 🌐 Existing languages\n- English\n- Chinese Traditional & Simplified\n- Vietnam *[@NhanAZ](https://github.com/NhanAZ)*\n- French *[@Bqleine](https://github.com/Bqleine)*\n\n# 🔌 API\nIn spite of being a big spaghetti, this plugin still provides an API.\nIf you are developing an anticheat, please consider taking a look because this plugin sends fake blocks to clients:\n```php\nuse Endermanbugzjfc\\GlassPain\\API as GlassPain;\n\n$block = GlassPain::getInstance()->getClientSideBlock($player, $pos);\n...\n```",
+  "readme_source_url": "https://github.com/Endermanbugzjfc/GlassPain",
+  "icon_url": "https://raw.githubusercontent.com/Endermanbugzjfc/GlassPain/fbe9fb972703234e610bd9a4186ac03dced82458/poggit_stage/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Endermanbugzjfc/GlassPain",
+  "archive_repo": null,
+  "approved_release_tag": "r-12370",
+  "stars": 5,
+  "total_downloads": 133,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Endermanbugzjfc"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.1.0",
+      "tag": "r-12370",
+      "published_at": null,
+      "downloads": 133,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12370/glasspain-0.1.0-r12370.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12370",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12370/glasspain-0.1.0-r12370.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GlassPain",
+    "stable_release_id": 12370
+  }
+}

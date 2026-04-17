@@ -1,0 +1,63 @@
+{
+  "id": "ranksystemvoucher",
+  "name": "RankSystemVoucher",
+  "author": "Slayer-Return",
+  "description": "A simple plugin addon for RankSystem from IvanCraft623.",
+  "readme_markdown": "## RankSystemVoucher\n\nA simple plugin addon for <a target=\"_blank\" href=\"https://poggit.pmmp.io/p/RankSystem/\">RankSystem</a> from IvanCraft623.\n\n## Features\n\n| RankSystemVoucher   | Description                     |\n| ------------------- | ------------------------------- |\n| Customizable Config | Commands, Messages, Permissions |\n| Customizable Item   | Custom Lore, Custom Name        |\n\n## Commands\n\n| Commands                                      | Description                                      | Permissions                 | Aliases      |\n| --------------------------------------------- | ------------------------------------------------ | --------------------------- | ------------ |\n| `/ranksystemvoucher <player> <rank> <amount>` | `RankSystemVoucher Commands, default amount = 1` | `ranksystemvoucher.command` | `/ranksgive` |\n\n## How To Use\n\n- Create your own RankSystemVoucher item in plugin_data/RankSystemVoucher/rank_voucher.yml\n- Get your item with command /ranksystemvoucher YourName RankName Amount\n- Hold the item\n- Click on block\n\n## Example Config\n\n```yaml\nexample: #ranks_name\n  item: paper #item\n  customname: §aRankSystemVoucher §eExample #custom_name\n  lore:\n    - \"§aRank §eExample\"\n    - \"§7(Right-Click) to claim rank\"\n  permission: example #permission\n  commands:\n    - \"ranksystem setrank {player} example\"\n    - \"ranksystem removerank {player} {old-rank}\"\n  message: \"§eCongratulations you just got a Rank {rank} from RankSystemVoucher!\" #message\n```\n\n## Important\n\nYou need permission to use the item.\nSet permissions like this, for example: `ranksystemvoucher.ranks.example`\n\n## Credits\n\n<a target=\"_blank\" href=\"https://icons8.com/icon/_UuGPc1g68Z5/ticket\">Voucher</a> icon by <a target=\"_blank\" href=\"https://icons8.com\">Icons8</a>",
+  "readme_source_url": "https://github.com/Slayer-Return/RankSystemVoucher",
+  "icon_url": "https://raw.githubusercontent.com/Slayer-Return/RankSystemVoucher/ee71351b604919ea67f3cf903453ed4f9896b0fa/voucher.png",
+  "featured": false,
+  "repo": "https://github.com/Slayer-Return/RankSystemVoucher",
+  "archive_repo": null,
+  "approved_release_tag": "r-12388",
+  "stars": 3,
+  "total_downloads": 408,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "RankSystem"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Slayer-Return"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12388",
+      "published_at": null,
+      "downloads": 408,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12388/ranksystemvoucher-1.0.0-r12388.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12388",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12388/ranksystemvoucher-1.0.0-r12388.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RankSystemVoucher",
+    "stable_release_id": 12388
+  }
+}

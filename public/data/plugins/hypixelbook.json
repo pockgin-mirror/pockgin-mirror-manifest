@@ -1,0 +1,66 @@
+{
+  "id": "hypixelbook",
+  "name": "HypixelBook",
+  "author": "gamegam",
+  "description": "Hypixel_Book",
+  "readme_markdown": "# Hypixel_Book\nWhen you join the server, you will receive a book virtually.\n\nWhen you join the server, you can receive a book and display a description window.\n\nIs there a reason to use the Hypixel_Book plugin?:\n\nYes, there is.\n\nWhen you log in, you can do an explanation\n\nFrom the user's point of view, it's comfortable and looks good.\n\nUpdate patch:\nSlots can now be as few as 0 to 8.\nJuly 16",
+  "readme_source_url": "https://github.com/gamegam/Hypixel_Book",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/gamegam/Hypixel_Book",
+  "archive_repo": null,
+  "approved_release_tag": "r-12519",
+  "stars": 0,
+  "total_downloads": 359,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "gamegam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/227579",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-12519",
+      "published_at": null,
+      "downloads": 348,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12519/hypixelbook-1.0.1-r12519.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12519",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12519/hypixelbook-1.0.1-r12519.phar"
+    },
+    {
+      "tag": "r-12516",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12516/hypixelbook-1.0.0-r12516.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HypixelBook",
+    "stable_release_id": 12519
+  }
+}

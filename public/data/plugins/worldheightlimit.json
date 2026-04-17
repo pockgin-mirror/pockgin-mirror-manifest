@@ -1,0 +1,61 @@
+{
+  "id": "worldheightlimit",
+  "name": "WorldHeightLimit",
+  "author": "BeeAZ-pm-pl",
+  "description": "Set Height Limit Of The World",
+  "readme_markdown": "<h1>WorldHeightLimit<img src=\"icon.png\" height=\"64\" width=\"64\" align=\"left\"></img></h1><br/>\n\n<br>\n\nSet Height Limit Of The World\n\n[![Discord](https://img.shields.io/discord/965662639168569394.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/KrjD6t9HJt)",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/WorldHeightLimit",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/WorldHeightLimit/2458d760cf267b1f0fba907a08d75d28d3426ea4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/WorldHeightLimit",
+  "archive_repo": null,
+  "approved_release_tag": "r-12553",
+  "stars": 0,
+  "total_downloads": 314,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/228171",
+  "versions": {
+    "stable": {
+      "version": "0.0.3",
+      "tag": "r-12553",
+      "published_at": null,
+      "downloads": 314,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12553/worldheightlimit-0.0.3-r12553.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12553",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12553/worldheightlimit-0.0.3-r12553.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorldHeightLimit",
+    "stable_release_id": 12553
+  }
+}

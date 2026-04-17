@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12985",
   "stars": 0,
-  "total_downloads": 1819,
+  "total_downloads": 2275,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-12633",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12633/shield-1.22.0-r12633.phar"
+    },
+    {
+      "tag": "r-12523",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12523/shield-1.21.0-r12523.phar"
     }
   ],
   "comments": {

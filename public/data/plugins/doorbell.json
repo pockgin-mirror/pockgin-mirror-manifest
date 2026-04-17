@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12616",
   "stars": 5,
-  "total_downloads": 500,
+  "total_downloads": 529,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.1.2",
       "tag": "r-12616",
       "published_at": null,
-      "downloads": 500,
+      "downloads": 501,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12616/doorbell-1.1.2-r12616.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-12616",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12616/doorbell-1.1.2-r12616.phar"
+    },
+    {
+      "tag": "r-12610",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12610/doorbell-1.1.1-r12610.phar"
     }
   ],
   "comments": {

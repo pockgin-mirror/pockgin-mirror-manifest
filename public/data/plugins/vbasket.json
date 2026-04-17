@@ -1,0 +1,61 @@
+{
+  "id": "vbasket",
+  "name": "VBasket",
+  "author": "VennDev",
+  "description": "One plugin for PocketMine-PMMP 5",
+  "readme_markdown": "# VBasket\n- One plugin for PocketMine-PMMP 5\n\n# Feature\n- A plugin that makes your server interesting by growing crops quickly.\n\n# How to install it ?\n- You should install LibVapmPMMP here: [LibVapmPMMP](https://poggit.pmmp.io/ci/VennDev/LibVapmPMMP/LibVapmPMMP)\n\n# Commands\n```\n# Types: seeds or nether_wart\n/vbasket or /vbkt - give <player> <type> <amount>\n```\n\n# Video\n[Click To Watch](https://github.com/VennDev/VBasket/assets/111500380/698b8532-b766-4f4e-be24-c64f08b4d36c)\n\n# Credits\n- Email: pnam5005@gmail.com\n- Paypal: lifeboat909@gmail.com",
+  "readme_source_url": "https://github.com/VennDev/VBasket",
+  "icon_url": "https://raw.githubusercontent.com/VennDev/VBasket/4f7539eea1556c73c66765e9282a4841f90808ae/icon.png",
+  "featured": false,
+  "repo": "https://github.com/VennDev/VBasket",
+  "archive_repo": null,
+  "approved_release_tag": "r-12364",
+  "stars": 5,
+  "total_downloads": 369,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "VennDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/222608",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-12364",
+      "published_at": null,
+      "downloads": 369,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12364/vbasket-1.0.2-r12364.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12364",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12364/vbasket-1.0.2-r12364.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VBasket",
+    "stable_release_id": 12364
+  }
+}

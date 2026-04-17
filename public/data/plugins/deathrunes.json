@@ -1,0 +1,66 @@
+{
+  "id": "deathrunes",
+  "name": "DeathRunes",
+  "author": "WeaVerseStudio",
+  "description": "A plugin that adds runes to your server that will allow you to save your things after death. Configuration via config, it is possible to add new runes, customize the lore and ob...",
+  "readme_markdown": "# DeathRunes\n<img src=\"https://github.com/WeaVerseStudio/DeathRunes/blob/main/image.png?raw=true\" alt=\"image not found\">\nA plugin that adds runes to your server that will allow you to save your things after death. Configuration via config, it is possible to add new runes, customize the lore and objects on which runes can be used.\n\n[![](https://poggit.pmmp.io/shield.state/DeathRunes)](https://poggit.pmmp.io/p/DeathRunes)\n[![](https://poggit.pmmp.io/shield.dl/DeathRunes)](https://poggit.pmmp.io/p/DeathRunes)\n\n### Showcase:\nhttps://youtu.be/dfvIpFF5LIY\n\n\n### Commands:\n> `/getrune <runeID=list> [count: int]` - allows you to get a rune into your inventory\n>\n> Permission: `deathrunes.command.getrune`\n>\n> ### For developers :\n>\n> You can get a rune using method `DeathRunes::getRune(string $runeId) : Item`\n>\n> if you need to check if an item is a rune, you can use `DeathRunes::isRune(Item $item) : bool`",
+  "readme_source_url": "https://github.com/WeaVerseStudio/DeathRunes",
+  "icon_url": "https://raw.githubusercontent.com/WeaVerseStudio/DeathRunes/f3f118dc2d7d94bd503b7a8ec65bfa7e858157f1/image.png",
+  "featured": false,
+  "repo": "https://github.com/WeaVerseStudio/DeathRunes",
+  "archive_repo": null,
+  "approved_release_tag": "r-12584",
+  "stars": 0,
+  "total_downloads": 266,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "WeaVerseStudio"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/228639",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-12584",
+      "published_at": null,
+      "downloads": 223,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12584/deathrunes-1.0.2-r12584.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12584",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12584/deathrunes-1.0.2-r12584.phar"
+    },
+    {
+      "tag": "r-12537",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12537/deathrunes-1.0.0-r12537.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DeathRunes",
+    "stable_release_id": 12584
+  }
+}

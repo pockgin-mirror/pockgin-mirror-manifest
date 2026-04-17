@@ -1,0 +1,61 @@
+{
+  "id": "minibosses",
+  "name": "MiniBosses",
+  "author": "diamond-gold",
+  "description": "Encountered a bug? Want something added? Create an issue (＃°Д°)",
+  "readme_markdown": "![MiniBosses](https://socialify.git.ci/diamond-gold/MiniBosses/image?description=1&font=Inter&forks=1&issues=1&logo=https%3A%2F%2Fgithub.com%2Fdiamond-gold%2FMiniBosses%2Fraw%2Fmaster%2Ficon.png&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Light)\n\nEncountered a bug? Want something added? Create an [issue](https://github.com/diamond-gold/MiniBosses/issues) (＃°Д°)\n\nHave questions? Start a [discussion](https://github.com/diamond-gold/MiniBosses/discussions) ✍(◔◡◔)\n\nStarring the GitHub repository is like sprinkling stardust—help me create magic! (。・∀・)ノ\n\nFeeling generous? Buy me some [snacks](https://ko-fi.com/diamondgold)! (❤´艸｀❤)\n\n[![Feature Requests](https://img.shields.io/github/issues-raw/diamond-gold/MiniBosses/Feature%20Request?label=Feature%20Requests&logo=github&style=for-the-badge)](https://github.com/diamond-gold/MiniBosses/issues)\n[![Bug Reports](https://img.shields.io/github/issues-raw/diamond-gold/MiniBosses/bug?label=Bug%20Reports&logo=github&style=for-the-badge)](https://github.com/diamond-gold/MiniBosses/issues)\n\n### Poggit\n\n[Latest Dev Build](https://poggit.pmmp.io/ci/diamond-gold/MiniBosses/~)\n\n[![](https://poggit.pmmp.io/ci.shield/diamond-gold/MiniBosses/MiniBosses?style=for-the-badge)](https://poggit.pmmp.io/ci/diamond-gold/MiniBosses/~)\n\n[Latest Release](https://poggit.pmmp.io/get/MiniBosses/)\n\n[![](https://poggit.pmmp.io/shield.api/MiniBosses?style=for-the-badge)](https://poggit.pmmp.io/p/MiniBosses)\n[![](https://poggit.pmmp.io/shield.downloads/MiniBosses?style=for-the-badge)](https://poggit.pmmp.io/p/MiniBosses)\n[![](https://poggit.pmmp.io/shield.downloads.total/MiniBosses?style=for-the-badge)](https://poggit.pmmp.io/p/MiniBosses)\n[![](https://poggit.pmmp.io/shield.state/MiniBosses?style=for-the-badge)](https://poggit.pmmp.io/p/MiniBosses)\n\n# Supported Entities\nTheoretically any entity, not all entities tested\n\nCustom entities added by Customies or similar plugins supported in v3.2.3+\n\n# Features\nConfigurable\n* Attributes\n  * Entity type\n  * Health\n  * Attack damage\n  * Attack range\n  * Attack rate\n  * Movement speed\n  * Gravity\n  * Scale\n  * Hurt modifiers (Reduced arrow damage? No fall damage? No problem!)\n  * Knockback resistance\n* Equipment\n  * Held item (cosmetic)\n  * Offhand (cosmetic)\n  * Armor\n* Health display (Only minecraft:player)\n* Item/XP drops\n  * Spread drops\n* Respawn time\n* Skin\n  * Custom geometry supported\n  * Cape\n* Commands on death\n  * Execute as player/op/console\n* Projectiles\n  * Entity type\n  * Speed\n  * Firing range\n  * Fire rate\n  * Damage\n  * Explosion radius\n  * Health\n  * Attacking/Deflecting\n  * Despawn time\n  * Gravity\n  * Follow the nearest player (guided projectile)\n  * Particles\n  * Potion effects\n  * Explosive flying pigs anyone? :P\n* Top X damage rewards\n  * Items\n  * Commands\n* Minions\n* Many more...\n\n# Wiki\n[Commands & Permissions](https://github.com/diamond-gold/MiniBosses/wiki/Commands-&-Permissions)\n\n[Configuring items with `Custom Name` / `Lore` / `Enchantments`](https://github.com/diamond-gold/MiniBosses/wiki/Configuring-items-with-Custom-Name---Lore---Enchantments)\n\n[Config Explanation](https://github.com/diamond-gold/MiniBosses/wiki/Config-Explanation)\n\n[Example Configs](https://github.com/diamond-gold/MiniBosses/wiki/Example-configs)\n\n[Convert `Skin` / `Cape` from png to config](https://github.com/diamond-gold/MiniBosses/wiki/Convert-skin-or-cape-from-png-to-config)\n```",
+  "readme_source_url": "https://github.com/diamond-gold/MiniBosses",
+  "icon_url": "https://raw.githubusercontent.com/diamond-gold/MiniBosses/e4d8319ea99771da67302e2176e295ef83c6bad9/icon.png",
+  "featured": false,
+  "repo": "https://github.com/diamond-gold/MiniBosses",
+  "archive_repo": null,
+  "approved_release_tag": "r-12578",
+  "stars": 0,
+  "total_downloads": 1646,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "diamond-gold"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/247692",
+  "versions": {
+    "stable": {
+      "version": "3.4.1",
+      "tag": "r-12578",
+      "published_at": null,
+      "downloads": 1646,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12578/minibosses-3.4.1-r12578.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12578",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12578/minibosses-3.4.1-r12578.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MiniBosses",
+    "stable_release_id": 12578
+  }
+}

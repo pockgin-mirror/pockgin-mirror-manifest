@@ -1,0 +1,66 @@
+{
+  "id": "bedcoreprotect",
+  "name": "BedcoreProtect",
+  "author": "matcracker",
+  "description": "BedcoreProtect is a fast, efficient, data logging and anti-griefing tool for PocketMine servers. Rollback and restore any amount of damage.",
+  "readme_markdown": "# BedcoreProtect\n[![](https://poggit.pmmp.io/shield.dl.total/BedcoreProtect)](https://poggit.pmmp.io/p/BedcoreProtect)\n[![](https://poggit.pmmp.io/shield.state/BedcoreProtect)](https://poggit.pmmp.io/p/BedcoreProtect)\n[![](https://poggit.pmmp.io/shield.api/BedcoreProtect)](https://poggit.pmmp.io/p/BedcoreProtect)\n[![Discord](https://img.shields.io/discord/620519017148579841.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/Uf6U78g)\n\nBedcoreProtect is a fast, efficient, data logging and anti-griefing tool for PocketMine servers. Rollback and restore any amount of damage.\n\n## Features\n- Fast efficient data logging.\n- Fast rollbacks.\n- No configuration required. Put the plugin on your server, and you're good to go.\n- Multi-language support.\n- User interface (UI) support.\n- SQLite based data storage.\n- Optional MySQL support.\n- Easy to use commands.\n- Perform rollbacks AND restores. Undo any rollback, anytime.\n- Easy to use block inspector\n- Advanced search-based lookup tool.\n- Paginated logs.\n- Automatic update checker.\n- Multi-world support.\n- Enable or disable any aspect of logging in the configuration file.\n- Rollback per-player all damage around you.\n- Specify certain block types to skip in rollbacks/restores.\n- Restrict rollbacks/restores to specific block types\n- Log basic player actions (such as when a player opens a door)\n- Liquid tracking. Associate liquid flow with players\n- Restrict rollbacks/restores to a radius area.\n- Able to track blocks that fall off of other blocks. If a player breaks a block that had a sign on it, both the block and the sign can be rolled back.\n- Easily delete old log data.\n- Safe default parameters.\nRollback or restore multiple players at once.\n- Lookup, rollback, or restore by a specific action.\n- Exclude multiple blocks.\n\n...and much more!!\n\n## What does it log?\n- Log blocks broken by players\n- Log blocks placed by players\n- Log natural block breakage (ex: if a sign pops off a dirt block that was broken)\n- Log bucket usage\n- Log liquid flow\n- Log explosions\n- Log flint & steel\n- Log fire igniting blocks\n- Log blocks burning up in fires\n- Log block movement (Falling sand/gravel)\n- Log leaves decay\n- Log player interactions\n- Log items taken or placed in chests, furnaces, dispensers, etc.\n- Log paintings and item frames. (With rollback support!)\n- Log entities killed by players (animals/monsters)\n\n...and the list is still expanding!\n\n# Database Minimum Requirements\nIn case of **MySQL** as storage, the minimum required version must be >= **5.6.4**\n\n# Commands\nYou can access the following commands by using **/bedcoreprotect**, **/bcp**, **/core** or **/co**.\nRunning this command without arguments and with the configuration option `enable-ui-menu: true`, it will display a graphic interface to simplify the plugin usage.\n\nThe **command permission** is _bcp.command.bedcoreprotect_ (default: operator).\n\n## Command overview\n| Command       | Description                   | Permission              | Permission default |\n|---------------|-------------------------------|-------------------------|:------------------:|\n| /bcp help     | Display a list of commands    | bcp.subcommand.help     | Operator           |\n| /bcp lookup   | Lookup block data             | bcp.subcommand.lookup   | Operator           |\n| /bcp purge    | Delete old block data         | bcp.subcommand.purge    | Operator           |\n| /bcp reload   | Reload the configuration file | bcp.subcommand.reload   | Operator           |\n| /bcp inspect  | Toggle the inspector          | bcp.subcommand.inspect  | Operator           |\n| /bcp restore  | Restore block data            | bcp.subcommand.restore  | Operator           |\n| /bcp rollback | Rollback block data           | bcp.subcommand.rollback | Operator           |\n| /bcp show     | View the plugin status        | bcp.subcommand.show     | Operator           |\n| /bcp status   | View the plugin status        | bcp.subcommand.status   | Operator           |\n\n### Command shortcuts\n| Command   | Description                                       | Permission          | Permission default |\n|-----------|---------------------------------------------------|---------------------|:------------------:|\n| /bcp near | Performs a lookup with radius 5                   | bcp.subcommand.near | Operator           |\n| /bcp undo | Revert a rollback/restore via the opposite action | bcp.subcommand.undo | Operator           |\n\n## Command details\n_Detailed commands information are listed below._\n\n### /bcp help\nDisplay a list of commands available in-game.\n\n---\n\n### /bcp lookup \\<parameters\\>\nPerform a lookup returning a page with all blocks data fetched. If multiple pages are returned, see the command [/bcp show](#bcp-show-pagelines) to switch pages.\n\n> **Alias:** /bcp l \\<parameters\\>\n\n| Parameter | Mandatory          |\n|-----------|:------------------:|\n| time      | YES                |\n| world     | YES (only console) |\n| radius    | NO                 |\n| users     | NO                 |\n| actions   | NO                 |\n| include   | NO                 |\n| exclude   | NO                 |\n\n---\n### /bcp purge \\<parameters\\>\nPurge old block data. Useful for freeing up space on your HDD if you don't need the older data.\n\n| Parameter | Mandatory |\n|-----------|:---------:|\n| time      | YES       |\n| world     | NO        |\n\nFor example, `/bcp purge t=30d` will delete all data older than one month, and only keep the last 30 days of data.\n\n#### Purging Worlds\nYou can also optionally specify a world where delete the data.\nFor example, `/bcp purge t=30d w=faction_world` will delete all data older than one month in the Faction world, without deleting data in any other worlds.\n\nYou can also add `#optimize` to the end of the command (e.g. `/bcp purge t=30d #optimize`) will also optimize your tables and reclaim disk space.\n\n---\n### /bcp reload\nReloads the configuration file.\n\n---\n\n### /bcp inspect\nEnable the inspector. Type the command again to disable it.\n\n> **Alias:** /bcp i\n---\n\n### /bcp restore \\<parameters\\>\nPerform a restore. _Restoring can be used to undo rollbacks or to restore player actions._\n\n> **Alias:** /bcp rs \\<parameters\\>\n\n| Parameter | Mandatory          |\n|-----------|:------------------:|\n| time      | YES                |\n| world     | YES (only console) |\n| radius    | YES                |\n| users     | NO                 |\n| actions   | NO                 |\n| include   | NO                 |\n| exclude   | NO                 |\n---\n\n### /bcp rollback \\<parameters\\>\nPerform a rollback. _Rollbacks can be used to revert player actions._\n\n> **Alias:** /bcp rb \\<parameters\\>\n\n| Parameter | Mandatory          |\n|-----------|:------------------:|\n| time      | YES                |\n| world     | YES (only console) |\n| radius    | YES                |\n| users     | NO                 |\n| actions   | NO                 |\n| include   | NO                 |\n| exclude   | NO                 |\n---\n\n### /bcp show \\<page\\>:\\<lines\\>\nAllow switching page when multiple pages are returned from the [/bcp lookup](#bcp-lookup-parameters) command.\nTo change the number of lines displayed on a page, use the command `/bcp show <page>:<lines>`.\n\n> **Alias:** /bcp s\n\n> For example, `/bcp s 2:10` will return 10 lines of data, starting from the second page.\n---\n\n### /bcp status\nDisplays the plugin status and version information.\n\n---\n\n## Parameters overview\n| Parameter | Aliases   | Description                    |\n|-----------|-----------|--------------------------------|\n| users     | user, u   | Specify the user(s).           |\n| time      | t         | Specify the amount of time.    |\n| radius    | r         | Specify a radius area.         |\n| world     | w         | Specify the world.             |\n| actions   | action, a | Restrict to a certain actions. |\n| include   | i         | Include specific blocks.       |\n| exclude   | e         | Exclude specific blocks.       |\n\n## Parameter details\n_Detailed commands parameters information are listed below._\n\n### u=\\<users\\>\n_You can specify a single or multiple users or entities._\n\nExamples:\n- `u=Notch`\n- `u=Notch,shoghicp`\n- `u=matcracker,#Zombie`\n---\n\n### t=\\<time\\>\n_You can specify weeks, days, hours, minutes, and seconds._\n\nExamples:\n- `t=4w5d2h7m20s`\n- `t=5d2h`\n- `t=1y`\n---\n\n### r=\\<radius\\>\n_A numeric radius targets within that many blocks of your player location._\n\nExamples:\n- `r=20` _(target within 20 blocks of your location)_\n- `r=#global` _(target the entire world)_\n---\n\n### w=\\<world\\>\n_You can specify a single world._\n\nExamples:\n- `w=faction`\n- `w=\"my world\"` _(if your world name has whitespaces use double quotes)_\n---\n\n### a=\\<actions\\>\n_Restrict the command to a specific action._\n\n| Action     | Description                       |\n|------------|-----------------------------------|\n| block      | Placed/Broken blocks              |\n| +block     | Placed blocks                     |\n| -block     | Broken blocks                     |\n| click      | Player interactions               |\n| container  | Items taken from or put in chests |\n| +container | Items put in chests               |\n| -container | Items taken from chests           |\n| kill       | Mobs killed                       |\n| session    | Player join/left the server       |\n| +session   | Player join the server            |\n| -session   | Player left the server            |\n| chat       | Player write in chat              |\n| command    | Player executes a command         |\n\n> For example, if you want to only rollback blocks placed, you would use `a=+block`\n---\n\n### i=\\<include\\>\n_Can be used to specify a blocks/items._\n\nExamples:\n- `i=stone` _(only includes stone)_\n- `w=stone,oak_wood,bedrock` _(specify multiple blocks)_\n> You can find a list of blocks at https://minecraft.gamepedia.com/Bedrock_Edition_data_values.\n---\n\n### e=\\<exclude\\>\n_Can be used to exclude a blocks/items._\n\nExamples:\n- `e=tnt` _(only excludes TNT)_\n---\n\n# FAQ\n- **I found a bug, where can I report it?**\n  - You can report [here](https://github.com/matcracker/BedcoreProtect/issues/new/choose) by clicking button **\"Get Started\"** on **Bug report**.\n- **Where can I request a new feature?**\n  - You can ask a new feature [here](https://github.com/matcracker/BedcoreProtect/issues/new/choose) by clicking button **\"Get Started\"** on **Feature request**.",
+  "readme_source_url": "https://github.com/matcracker/BedcoreProtect",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/matcracker/BedcoreProtect",
+  "archive_repo": null,
+  "approved_release_tag": "r-12589",
+  "stars": 5,
+  "total_downloads": 1550,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "matcracker"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/228803",
+  "versions": {
+    "stable": {
+      "version": "1.2.4",
+      "tag": "r-12589",
+      "published_at": null,
+      "downloads": 1445,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12589/bedcoreprotect-1.2.4-r12589.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12589",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12589/bedcoreprotect-1.2.4-r12589.phar"
+    },
+    {
+      "tag": "r-12544",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12544/bedcoreprotect-1.2.3-r12544.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BedcoreProtect",
+    "stable_release_id": 12589
+  }
+}

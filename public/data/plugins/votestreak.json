@@ -1,0 +1,68 @@
+{
+  "id": "votestreak",
+  "name": "VoteStreak",
+  "author": "antbag-pm-pl",
+  "description": "Information",
+  "readme_markdown": "# Information\nYou can add votestreaks to your server. Whenever a person in your server votes he get a streak and if he didn't vote in the last 12 hours his streak' get reset.\n# For Server Administrators:\nA quick note. your player has to be online in the server and have joined at __least__ once with this plugin installed to reset their streak. otherwise you cannot modify streaks. \n(sigh. thats annoying. we will eventually find a fix to this)\n\n# For Developers:\nthis plugin has an extensive api so at the moment we havent introduced the todo features but with our api you can do whatever you want already. have fun:)\n\n# Permissions\n- `votestreak.streak.command`\n- `votestreak.reset.command`\n\n# Commands\n- /streak opens streak ui\n- /streak reset [player] reset's player streak\n\n# To-do list\n- [ ] Make it so it checks if player has voted in last 12 hours\n- [ ] Rewards when player hits x amount of votestreaks\n- [ ] Add a ingame command to reset a player's streak\n- [ ] Add a command to check the streak leaderboard\n\n# Supported\n> [!NOTE]\n> VoteStreak will **__Not__** be supporting *TopVoter* due to it being an Out of Date / Deprecated Plugin\n> yours truly skyss0fly.\n\n\n- [Voting38](https://github.com/kingofturkey38/voting38)\n\n# Issues\n- For issues/suggestions related to this plugin open a issue [here](https://github.com/antbag-pm-pl/VoteStreak/Issues)\n# Credits\n- [antbag-dev](https://github.com/antbag-dev)\n \n- [skyss0fly](https://github.com/skyss0fly)\n- [skyss0fly-pm-pl](https://github.com/skyss0fly-pm-pl)",
+  "readme_source_url": "https://github.com/antbag-pm-pl/VoteStreak",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/antbag-pm-pl/VoteStreak",
+  "archive_repo": null,
+  "approved_release_tag": "r-12458",
+  "stars": 5,
+  "total_downloads": 236,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "Voting38"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "antbag-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/224636",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-12458",
+      "published_at": null,
+      "downloads": 205,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12458/votestreak-1.1.0-r12458.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12458",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12458/votestreak-1.1.0-r12458.phar"
+    },
+    {
+      "tag": "r-12379",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12379/votestreak-1.0.0-r12379.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VoteStreak",
+    "stable_release_id": 12458
+  }
+}

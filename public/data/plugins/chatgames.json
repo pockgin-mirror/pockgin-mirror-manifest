@@ -1,0 +1,61 @@
+{
+  "id": "chatgames",
+  "name": "ChatGames",
+  "author": "antbag-pm-pl",
+  "description": "ChatGames Plugin for Pocketmine",
+  "readme_markdown": "# ChatGames Plugin for Pocketmine\n\nEnhance your Minecraft experience with the **ChatGames** plugin for Pocketmine [PMMP]. This versatile plugin introduces interactive chat games seamlessly into your gameplay. With an intuitive configuration system, you have the freedom to customize the games by adding an unlimited number of words to the configuration file. Elevate your gameplay by downloading the plugin from the official source [![Download Here](https://poggit.pmmp.io/shield.dl.total/ChatGames)].\n\n## Key Features\n\n- Support for EconomyAPI and BedrockEconomy integration for in-game economies.\n- Tailor your games with a wide array of customizable words and options.\n- Establish online player requirements for engaging gameplay.\n- Enjoy the convenience of a configurable system for easy setup and adjustments.\n\n## Show Your Support\n\nIf you find the plugin enjoyable, don't hesitate to show your appreciation by giving it a star 🌟.\n\n## Contributing and Feedback\n\nFor any issues or suggestions, please submit an issue on our [GitHub repository](https://github.com/antbag-dev/ChatGames). We value your input and continuously work to refine and enhance the plugin's functionality and appearance.",
+  "readme_source_url": "https://github.com/antbag-pm-pl/ChatGames",
+  "icon_url": "https://raw.githubusercontent.com/antbag-pm-pl/ChatGames/2aa8b194f7d8a48feeb748ad1724efc0ac2fb91c/chat.png",
+  "featured": false,
+  "repo": "https://github.com/antbag-pm-pl/ChatGames",
+  "archive_repo": null,
+  "approved_release_tag": "r-12492",
+  "stars": 5,
+  "total_downloads": 1639,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "antbag-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/226496",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-12492",
+      "published_at": null,
+      "downloads": 1639,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12492/chatgames-1.1.0-r12492.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12492",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12492/chatgames-1.1.0-r12492.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatGames",
+    "stable_release_id": 12492
+  }
+}
