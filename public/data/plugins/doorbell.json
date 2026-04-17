@@ -1,0 +1,61 @@
+{
+  "id": "doorbell",
+  "name": "DoorBell",
+  "author": "TheDataLioness",
+  "description": "Poggit:",
+  "readme_markdown": "# DoorBell\nPoggit: [![](https://poggit.pmmp.io/shield.state/DoorBell)](https://poggit.pmmp.io/p/DoorBell)\n\nSimple Doorbell plugin for Pocketmine 4.0 roleplay servers.\n\n### How to use this plugin?\n* Run the command: /createdoorbell.\n* Click on the button you want to turn into a button.\n\n\n### Commands:\n| Command | Description | Permission |\n| --- | --- | --- |\n| /createdoorbell | Create a doorbell on a button | createdoorbell.command |\n\n### Permissions:\n| Permission | Description | default |\n| --- | --- | --- |\n| createdoorbell.command | Access to the /createdoorbell command | OP |",
+  "readme_source_url": "https://github.com/TheDataLioness/Doorbell",
+  "icon_url": "https://raw.githubusercontent.com/TheDataLioness/Doorbell/d078374a2ee50554d880e52c00e76239d74fbf04/icon.png",
+  "featured": false,
+  "repo": "https://github.com/TheDataLioness/Doorbell",
+  "archive_repo": null,
+  "approved_release_tag": "r-12616",
+  "stars": 5,
+  "total_downloads": 500,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TheDataLioness"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/229237",
+  "versions": {
+    "stable": {
+      "version": "1.1.2",
+      "tag": "r-12616",
+      "published_at": null,
+      "downloads": 500,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12616/doorbell-1.1.2-r12616.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12616",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12616/doorbell-1.1.2-r12616.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DoorBell",
+    "stable_release_id": 12616
+  }
+}

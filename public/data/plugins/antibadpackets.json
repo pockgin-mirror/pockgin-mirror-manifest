@@ -1,0 +1,66 @@
+{
+  "id": "antibadpackets",
+  "name": "AntiBadPackets",
+  "author": "Aetheam",
+  "description": "This plugin performs additional packet-level checks on **PocketMine-MP**.",
+  "readme_markdown": "<div align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/Aetheam/AntiBadPackets/main/icon.png\" alt=\"Logo\">\n</div>\n\n# AntiBadPackets\n\nThis plugin performs additional packet-level checks on **PocketMine-MP**.\n\n\n\n\n## Features\n\n| Feature                   | Description                                                    |\n|:--------------------------|:---------------------------------------------------------------|\n| `ClientCacheBlob`      | `Checks if the number of HitHashes and MissHashes are correct` |\n| `EmoteList`            | `Check that the number of emotes is correct!`                                                         |\n| `InventoryTransaction` | `Check if item information is correct!`                                                         |\n| `Login`                | `Checks whether the titleId and DeviceOs are compatible, as well as a check in the chains`                                                         |\n| `MapInfoRequest`       | `Check that the number of pixels is correct!`                                                         |\n| `MobEquipment`         | `Check if item information is correct!`                                                         |\n| `PlayerAuthInput`      | `Check that the number of ticks is consistent!`                                                         |\n| `PurchaseReceipt`      | `Check that the number of entries is correct!`                                                         |\n| `ResourcePack`         | `Check that the number of packs is correct!`                                                         |\n| `SetActorData`         | `Check that the number of metadata is correct!`                                                         |\n| `Sign`                 | `Check that the xuid is correct!`                                                         |\n| `SubChunkRequest`      | `Check that the number of entries is correct!`                                                         |\n| `Text`                 | `Checks whether xuid and sourceName are consistent, whether it requests translation, whether it includes parameters.`                                                         |\n| `TickSync`             | `Checks if the client is spamming tickSync`                                                         |\n\n## Support\n\nFor advanced support, please contact Aetheam support: https://discord.gg/KtBYQ5X5dW\n\n\n## Authors\n\n- [@Zwuiix-cmd](https://www.github.com/Zwuiix-cmd)",
+  "readme_source_url": "https://github.com/Aetheam/AntiBadPackets",
+  "icon_url": "https://raw.githubusercontent.com/Aetheam/AntiBadPackets/aaeede448ba093cadf93617a8a93d46987cc145b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Aetheam/AntiBadPackets",
+  "archive_repo": null,
+  "approved_release_tag": "r-12824",
+  "stars": 0,
+  "total_downloads": 1210,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.11.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Aetheam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/233302",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-12824",
+      "published_at": null,
+      "downloads": 1146,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12824/antibadpackets-1.0.3-r12824.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12824",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12824/antibadpackets-1.0.3-r12824.phar"
+    },
+    {
+      "tag": "r-12623",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12623/antibadpackets-1.0.1-r12623.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiBadPackets",
+    "stable_release_id": 12824
+  }
+}

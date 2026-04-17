@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13670",
   "stars": 0,
-  "total_downloads": 398,
+  "total_downloads": 1656,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-13670",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13670/anvils-1.1-r13670.phar"
+    },
+    {
+      "tag": "r-12724",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12724/anvils-1.0-r12724.phar"
     }
   ],
   "comments": {

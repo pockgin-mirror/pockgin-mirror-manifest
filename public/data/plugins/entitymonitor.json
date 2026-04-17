@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12989",
   "stars": 0,
-  "total_downloads": 738,
+  "total_downloads": 927,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "2.8.0",
       "tag": "r-12989",
       "published_at": null,
-      "downloads": 600,
+      "downloads": 601,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12989/entitymonitor-2.8.0-r12989.phar"
     },
     "dev": null
@@ -49,6 +49,16 @@
       "tag": "r-12909",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12909/entitymonitor-2.7.0-r12909.phar"
+    },
+    {
+      "tag": "r-12801",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12801/entitymonitor-2.6.0-r12801.phar"
+    },
+    {
+      "tag": "r-12638",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12638/entitymonitor-2.5.0-r12638.phar"
     }
   ],
   "comments": {

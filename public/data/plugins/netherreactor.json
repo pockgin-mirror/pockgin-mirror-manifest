@@ -1,0 +1,63 @@
+{
+  "id": "netherreactor",
+  "name": "NetherReactor",
+  "author": "IvanCraft623",
+  "description": "🔥 NetherReactor 🔮",
+  "readme_markdown": "<div align=\"center\">\n  <h1> 🔥 NetherReactor 🔮 </h1>\n  <p>Brings back the legacy nether reactor!</p>\n</div>\n\n## 📃 Description\n\nStep back into a realm of cherished memories, crafting an ode to the legendary Nether Reactor. Rekindle the magic of that pulsating core, the anticipation as cobblestones and gold blocks took shape, and the rush as a miniature Nether dimension materialized before your very eyes.\n\n<div align=\"center\">\n  <img src=\"https://i.imgur.com/Pv0n6mW.png\" width=\"47%\">\n  <img src=\"https://i.imgur.com/ezR9L2f.png\" width=\"47%\">\n</div>\n\nTransport yourself and your players to an era where activating the Nether Reactor wasn't just a game mechanic, it was an adventure woven with excitement, danger, and the promise of unparalleled rewards. Remember the thrill of facing fiery challenges, encountering unique mobs, and reaping precious resources within this pocket-sized Nether domain.\n\n<div align=\"center\">\n  <img src=\"https://i.imgur.com/PJVzpmT.png\" width=\"65%\">\n</div>\n\nThis plugin isn't just about code; it's a vessel for nostalgia, a bridge connecting the present to the cherished moments of the past. Embrace the essence of Minecraft's history, allowing your server to echo with the echoes of those exhilarating Nether Reactor activations.\n\n<div align=\"center\">\n  <img src=\"https://i.imgur.com/95cnAov.png\" width=\"47%\">\n  <img src=\"https://i.imgur.com/EJs8lJn.png\" width=\"47%\">\n</div>\n\nCome, reignite the flames of nostalgia, and relive the enchantment of Minecraft's iconic past with our Nether Reactor plugin for PocketMine.\n\n# 🧩 Dependencies\n- Customies: Allows the creation of custom entities and blocks. Download ([Poggit](https://poggit.pmmp.io/p/Customies), [GitHub](https://github.com/CustomiesDevs/Customies))\n- MobPlugin: Used for entities and their AI. Download ([GitHub](https://github.com/IvanCraft623/MobPlugin))\n\n# 💡 Features\n\n- Enable the Nether Reactor functionality on your PocketMine server\n- Customize settings for pattern, rewards, and the nether reactor structure\n- Allows players to require permission to activate the reactor\n- Trigger a condensed version of the Nether within your world\n- Re-encounter the forgotten pigman\n- Create an immersive experience akin to the classic Nether but on a smaller scale\n- And more...!",
+  "readme_source_url": "https://github.com/IvanCraft623/NetherReactor",
+  "icon_url": "https://raw.githubusercontent.com/IvanCraft623/NetherReactor/f1197b70ab26c9dfd8881f4aab7258ebf3b5b8f9/icon.png",
+  "featured": false,
+  "repo": "https://github.com/IvanCraft623/NetherReactor",
+  "archive_repo": null,
+  "approved_release_tag": "r-12709",
+  "stars": 4,
+  "total_downloads": 406,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "Customies"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "IvanCraft623"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-12709",
+      "published_at": null,
+      "downloads": 406,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12709/netherreactor-0.0.1-r12709.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12709",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12709/netherreactor-0.0.1-r12709.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NetherReactor",
+    "stable_release_id": 12709
+  }
+}

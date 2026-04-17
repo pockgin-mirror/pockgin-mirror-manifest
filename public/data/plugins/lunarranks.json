@@ -1,0 +1,61 @@
+{
+  "id": "lunarranks",
+  "name": "LunarRanks",
+  "author": "Lunarelly",
+  "description": "Ranks plugin for PocketMine-MP.",
+  "readme_markdown": "# Ranks\nRanks plugin for PocketMine-MP.\n\n# Features\n- Rank command have auto-completion\n- Flexible settings in config.yml\n- Local/Global chat\n- Rank inheritances\n- Rank priorities\n- Chat & Nametags included\n- Fast & Easy to use\n\n# Setup\n- Configure your ranks in config.yml\n- Example:\n```yaml\nranks:\n  player:\n    priority: 1\n    color: \"§7\"\n    display-name: \"Player\"\n    chat-format: \"§f{NAME}: §7{MESSAGE}\" # Available tags: {NAME}, {DISPLAY_NAME}, {MESSAGE}\n    name-tag: \"§7{NAME}\" # Available tags: {NAME}, {DISPLAY_NAME}, {PLATFORM}, {LINE}\n    alias: \"default\"\n    inheritance: []\n    permissions: []\n```\n- Use /rank command!\n\n# API\n- Example:\n```php\n/** @var LunarRanksPlugin $rankManager */\n$rankManager = Server::getInstance()->getPluginManager()->getPlugin(\"LunarRanks\");\n\nif ($rankManager !== null) {\n    $player->sendMessage(\"Your rank: \" . $rankManager->getRank($player)->getDisplayName());\n}\n```",
+  "readme_source_url": "https://github.com/Lunarelly/LunarRanks",
+  "icon_url": "https://raw.githubusercontent.com/Lunarelly/LunarRanks/9c06a45780b078e7cf3002bc7ed26c676588b943/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Lunarelly/LunarRanks",
+  "archive_repo": null,
+  "approved_release_tag": "r-12619",
+  "stars": 4,
+  "total_downloads": 1375,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Lunarelly"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/229289",
+  "versions": {
+    "stable": {
+      "version": "2.1.2",
+      "tag": "r-12619",
+      "published_at": null,
+      "downloads": 1375,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12619/lunarranks-2.1.2-r12619.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12619",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12619/lunarranks-2.1.2-r12619.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LunarRanks",
+    "stable_release_id": 12619
+  }
+}

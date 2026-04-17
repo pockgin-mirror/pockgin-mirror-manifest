@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12988",
   "stars": 5,
-  "total_downloads": 1792,
+  "total_downloads": 2425,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.20.0",
       "tag": "r-12988",
       "published_at": null,
-      "downloads": 1516,
+      "downloads": 1517,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12988/blocklagfix-1.20.0-r12988.phar"
     },
     "dev": null
@@ -49,6 +49,16 @@
       "tag": "r-12908",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12908/blocklagfix-1.19.0-r12908.phar"
+    },
+    {
+      "tag": "r-12799",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12799/blocklagfix-1.18.0-r12799.phar"
+    },
+    {
+      "tag": "r-12637",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12637/blocklagfix-1.17.0-r12637.phar"
     }
   ],
   "comments": {

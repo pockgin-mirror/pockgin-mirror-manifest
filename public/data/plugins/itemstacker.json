@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13934",
   "stars": 0,
-  "total_downloads": 109,
+  "total_downloads": 480,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-13934",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13934/itemstacker-1.0.3-r13934.phar"
+    },
+    {
+      "tag": "r-12684",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12684/itemstacker-1.0.2-r12684.phar"
     }
   ],
   "comments": {

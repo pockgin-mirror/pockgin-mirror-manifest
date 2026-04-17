@@ -1,0 +1,61 @@
+{
+  "id": "lobbyitems",
+  "name": "LobbyItems",
+  "author": "vecnavium-pm-pl",
+  "description": "This plugin allows you to have items for your lobby when a player joins and they recieve items you wish to give them and in the specific slot while that executes any commands yo...",
+  "readme_markdown": "[![Discord](https://img.shields.io/discord/837701868649709568.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/jWFB56RqUN) \n\n## LobbyItems\nThis plugin allows you to have items for your lobby when a player joins and they recieve items you wish to give them and in the specific slot while that executes any commands you want.\n\n\n# Features \n\n\n- It simply provides lobby items once a player joins the server \n\n\n# Planned features\n\nI don't have any planned features or ideas for the plugin.\n\nHave other suggestions? Let me know in the [Support Discord](https://discord.gg/jWFB56RqUN) or Create an [Issue](https://github.com/Vecnavium/LobbyItems/issues/new) about your suggestion!\n\n# Commands & Permissions \n\nThere are no commands or permissions for the plugin\n\n# HowToUse\n\n1. Proceed to plugin_data/LobbyItems and then config.yml and it will provide the steps to configure the plugin.\n\n# BugReport\n\nYou found a bug or a plugin issue?\n\n- Contact support in the [Discord Server](https://discord.gg/jWFB56RqUN)\n\n- Create an [Issue](https://github.com/Vecnavium/LobbyItems/issues/new)\n\n- Write your bug & the issue you are having with all informations including the error so I can track the issue\n\n- Submit the issue and be patient for a response for a solution to your problem\n\nIf you are using a modified Pocketmine-MP build/version you will not get assisted.\n\n# Suggestions\n\nHave a suggestion?\n\nFeel free to contact me in the [Support Discord Server](https://discord.gg/jWFB56RqUN) and suggest the suggestion you have in mind for this plugin!\nNo Pocketmine-MP Spoons support! If you are using a modified Pocketmine-MP build/version you will not get assisted.",
+  "readme_source_url": "https://github.com/vecnavium-pm-pl/LobbyItems",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/vecnavium-pm-pl/LobbyItems",
+  "archive_repo": null,
+  "approved_release_tag": "r-12780",
+  "stars": 2,
+  "total_downloads": 1003,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "vecnavium-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/232194",
+  "versions": {
+    "stable": {
+      "version": "2.1.1",
+      "tag": "r-12780",
+      "published_at": null,
+      "downloads": 1003,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12780/lobbyitems-2.1.1-r12780.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12780",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12780/lobbyitems-2.1.1-r12780.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LobbyItems",
+    "stable_release_id": 12780
+  }
+}

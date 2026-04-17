@@ -1,0 +1,61 @@
+{
+  "id": "oh-my-pmmp",
+  "name": "oh-my-pmmp",
+  "author": "thebigcrafter",
+  "description": "The asynchronous PocketMine-MP plugin manager",
+  "readme_markdown": "<img src=\"assets/icon.png\" align=\"left\" width=\"140px\" height=\"140px\" />\r\n<img align=\"left\" width=\"0\" height=\"140px\" hspace=\"10\"/>\r\n\r\nThe asynchronous <a href=\"https://pmmp.io\">PocketMine-MP</a> plugin manager\r\n\r\n[![CI](https://github.com/thebigcrafter/oh-my-pmmp/actions/workflows/ci.yml/badge.svg)](https://github.com/thebigcrafter/oh-my-pmmp/actions/workflows/ci.yml)\r\n[![State](https://poggit.pmmp.io/shield.state/oh-my-pmmp)](https://poggit.pmmp.io/p/oh-my-pmmp)\r\n[![Downloads Total](https://poggit.pmmp.io/shield.dl.total/oh-my-pmmp)](https://poggit.pmmp.io/p/oh-my-pmmp)\r\n[![License](https://img.shields.io/github/license/thebigcrafter/oh-my-pmmp?color=ecebe6&labelColor=bd93f9&logoColor=white)](https://github.com/thebigcrafter/oh-my-pmmp/blob/main/LICENSE)\r\n[![Discord](https://img.shields.io/discord/1087729577004122112?label=&color=ecebe6&labelColor=bd93f9&logo=discord&logoColor=white)](https://discord.gg/PykBfE2TZ9 \r\n)\r\n\r\nOh My PMMP provides commands to allow you to manage plugins. It's fast and easy to use.\r\n\r\n<br />\r\n\r\n<details>\r\n\r\n<summary>Table of Contents</summary>\r\n\r\n- [How do I contribute to Oh My PMMP?](#how-do-i-contribute-to-oh-my-pmmp)\r\n- [License](#license)\r\n\r\n</details>\r\n\r\n# How do I contribute to Oh My PMMP?\r\n\r\nBefore you participate in our community, please read the [Code of Conduct](https://github.com/thebigcrafter/oh-my-pmmp/blob/main/CODE_OF_CONDUCT.md).\r\n\r\nSee [Contributing](https://github.com/thebigcrafter/oh-my-pmmp/blob/main/CONTRIBUTING.md) for more details.\r\n\r\n# Special Thanks To:\r\n\r\n<a href=\"https://www.jetbrains.com/community/opensource/#support\"><img src=\"https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg\" alt=\"JetBrains Logo (Main) logo.\"><a/>\r\n\r\n[JetBrains](https://jetbrains.com), the creator of the PhpStorm, supports oh-my-pmmp with one of their [Open Source Licenses](https://www.jetbrains.com/community/opensource/#support).\r\n\r\n# License\r\n\r\nLicensed under the [GNU General Public License v3.0](https://github.com/thebigcrafter/oh-my-pmmp/blob/main/LICENSE) license.",
+  "readme_source_url": "https://github.com/thebigcrafter/oh-my-pmmp",
+  "icon_url": "https://raw.githubusercontent.com/thebigcrafter/oh-my-pmmp/37f543eae6dd3ff081e70f0d431a82741be87f09/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/thebigcrafter/oh-my-pmmp",
+  "archive_repo": null,
+  "approved_release_tag": "r-12620",
+  "stars": 0,
+  "total_downloads": 271,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigcrafter"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/229301",
+  "versions": {
+    "stable": {
+      "version": "2023.12",
+      "tag": "r-12620",
+      "published_at": null,
+      "downloads": 271,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12620/oh-my-pmmp-2023.12-r12620.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12620",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12620/oh-my-pmmp-2023.12-r12620.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "oh-my-pmmp",
+    "stable_release_id": 12620
+  }
+}

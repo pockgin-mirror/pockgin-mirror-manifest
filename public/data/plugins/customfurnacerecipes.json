@@ -1,0 +1,61 @@
+{
+  "id": "customfurnacerecipes",
+  "name": "CustomFurnaceRecipes",
+  "author": "Aetheam",
+  "description": "This plugin allows you to save several new recipes for your oven. imagine a countless number of cooking possibilities for all your items!!",
+  "readme_markdown": "## CustomFurnaceRecipes \r\n\r\n<p>This plugin allows you to save several new recipes for your oven. imagine a countless number of cooking possibilities for all your items!!</p>\r\n<p>For the moment, nothing has been done to delete an already existing recipe. Please wait a few days until a solution is found.</p>\r\n\r\n### config\r\n```yaml\r\nrecipes:\r\n  0:\r\n    input: \"minecraft:coal\"\r\n    output: \"minecraft:iron_ingot\"\r\n  1:\r\n    input: \"minecraft:cobblestone\"\r\n    output: \"minecraft:coal\"\r\n```\r\n\r\n### images\r\n\r\n<center>\r\n<img src=\"./assets/exemple.png\" width=\"50%\" height=\"50%\">\r\n</center>",
+  "readme_source_url": "https://github.com/Aetheam/CustomFurnaceRecipes",
+  "icon_url": "https://raw.githubusercontent.com/Aetheam/CustomFurnaceRecipes/a6039330db64444db9e89d787c1e9b4f8929030c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Aetheam/CustomFurnaceRecipes",
+  "archive_repo": null,
+  "approved_release_tag": "r-12808",
+  "stars": 0,
+  "total_downloads": 640,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Aetheam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12808",
+      "published_at": null,
+      "downloads": 640,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12808/customfurnacerecipes-1.0.0-r12808.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12808",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12808/customfurnacerecipes-1.0.0-r12808.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomFurnaceRecipes",
+    "stable_release_id": 12808
+  }
+}

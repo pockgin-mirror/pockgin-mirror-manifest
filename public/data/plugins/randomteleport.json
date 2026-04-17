@@ -1,0 +1,61 @@
+{
+  "id": "randomteleport",
+  "name": "RandomTeleport",
+  "author": "Aetheam",
+  "description": "Teleport randomly",
+  "readme_markdown": "# RandomTeleport\nTeleport randomly\n\n## How to use\n\nAdd the plugin to `plugins` and start your server!\n\nYou can customize the command name, aliases, messages, and range in config.yml. The permission for this command is `randomteleport.cmd`.\n\n## Config\n\n```yaml\ncommand:\n  name: \"randomteleport\"\n  aliases:\n    - \"rtp\"\n    - \"randomtp\"\n  description: \"Teleport randomly\"\n  usage_message: \"/rtp\"\n\n  #permission name is rtp.cmd\n\nmessages:\n  no_permission: \"§cYou don't have the permission to use this command !\"\n  success: \"§aSauccesfully teleported §b{x} §b{y} §b{z}\"\n  not_player: \"§cYou have to be a player to use this command !\"\n\nrange:\n  x: #or [0, 100]\n    - 0\n    - 100\n  z: #or [0, 100]\n    - 0\n    - 100\n```",
+  "readme_source_url": "https://github.com/Aetheam/RandomTeleport",
+  "icon_url": "https://raw.githubusercontent.com/Aetheam/RandomTeleport/5108e70a4abf3dd7b1b3c172218126c1c1bdcd41/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Aetheam/RandomTeleport",
+  "archive_repo": null,
+  "approved_release_tag": "r-12690",
+  "stars": 0,
+  "total_downloads": 1374,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Aetheam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-12690",
+      "published_at": null,
+      "downloads": 1374,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12690/randomteleport-1.0.1-r12690.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12690",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12690/randomteleport-1.0.1-r12690.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RandomTeleport",
+    "stable_release_id": 12690
+  }
+}

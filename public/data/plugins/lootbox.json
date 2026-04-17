@@ -1,0 +1,61 @@
+{
+  "id": "lootbox",
+  "name": "Lootbox",
+  "author": "Newcoolboys",
+  "description": "A lootbox plugin that let's you create as many type of lootboxes as you want with 5 animation choices.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/Lootbox)](https://poggit.pmmp.io/p/Lootbox)\n# Lootbox\nA lootbox plugin that let's you create as many type of lootboxes as you want with 5 animation choices.\n - Supports PiggyCustomEnchantments\n\n# Required virions\n - InvMenu\n\n# Commands\n| Command | Description |\n| --- | --- |\n| `/givelootbox <player> <identifier> [amount = 1]` | Give a loot box to a player |\n\n# Discord\nGet in touch with me through my discord server.\nhttps://discord.gg/7WF7aja2",
+  "readme_source_url": "https://github.com/Newcoolboys/Lootbox",
+  "icon_url": "https://raw.githubusercontent.com/Newcoolboys/Lootbox/e96d6b85fefd48cfe341f312ed7d23ef67d60870/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Newcoolboys/Lootbox",
+  "archive_repo": null,
+  "approved_release_tag": "r-12685",
+  "stars": 4,
+  "total_downloads": 571,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Newcoolboys"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "3.0",
+      "tag": "r-12685",
+      "published_at": null,
+      "downloads": 571,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12685/lootbox-3.0-r12685.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12685",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12685/lootbox-3.0-r12685.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Lootbox",
+    "stable_release_id": 12685
+  }
+}

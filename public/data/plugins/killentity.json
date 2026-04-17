@@ -1,0 +1,64 @@
+{
+  "id": "killentity",
+  "name": "KillEntity",
+  "author": "nhiwentwest",
+  "description": "KillEntity provides a monetary reward to players who successfully defeat specific types of entities. Moreover, you can set up the percentage of money that players will lose if t...",
+  "readme_markdown": "# KillEntity\n\n\n[![](https://poggit.pmmp.io/shield.api/KillEntity)](https://poggit.pmmp.io/p/KillEntity)\n[![](https://poggit.pmmp.io/shield.state/KillEntity)](https://poggit.pmmp.io/p/KillEntity)\n\n\n\n## Overview\n\nKillEntity provides a monetary reward to players who successfully defeat specific types of entities. Moreover, you can set up the percentage of money that players will lose if they die during combat!\n\n## Features\n\n- **Configurability:** Easily customize the plugin settings using the provided configuration file to tailor the experience to your server's unique dynamics.\n- **Permissions:** killentity.plugin\n\n\n## Configuration Example\n\n```yaml\n#format => name_entity: money\nanimals:\n- Wolf: 10\n- Villager: 20\n# 1 for sending pop-ups\n# 2 for sending messages\n# 3 to turn off message notifications\nmessage: 1\npercent: 50\n# enter the name world that you want to be activated\nworlds:\n- world\n```",
+  "readme_source_url": "https://github.com/nhiwentwest/KillEntity",
+  "icon_url": "https://raw.githubusercontent.com/nhiwentwest/KillEntity/af398bbe7dfd16455326c839ea7af5c045e12e84/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhiwentwest/KillEntity",
+  "archive_repo": null,
+  "approved_release_tag": "r-12767",
+  "stars": 0,
+  "total_downloads": 313,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhiwentwest"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-12767",
+      "published_at": null,
+      "downloads": 313,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12767/killentity-0.0.2-r12767.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12767",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12767/killentity-0.0.2-r12767.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KillEntity",
+    "stable_release_id": 12767
+  }
+}

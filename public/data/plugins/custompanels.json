@@ -1,0 +1,75 @@
+{
+  "id": "custompanels",
+  "name": "CustomPanels",
+  "author": "LadySara48",
+  "description": "PocketMine API 5+ Custom Graphical User Interface (GUI) [Custom Inventory Panel] Plug-In",
+  "readme_markdown": "# CustomPanels\nPocketMine API 5+ Custom Graphical User Interface (GUI) [Custom Inventory Panel] Plug-In\n\nDOCS Page\n<h2>\n  <p align=\"center\">\n  <a href=\"https://docs.hearlov.net\">\n    Custom Panels DOCS Page\n  </a>\n</p>\n</h2>\n\n - Create own basic Inventory Menu\n - Basic Learn\n - Updates",
+  "readme_source_url": "https://github.com/LadySara48/CustomPanels",
+  "icon_url": "https://raw.githubusercontent.com/LadySara48/CustomPanels/cd251749bbdb9de5e15fd1170d66c7edc1ca219a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/LadySara48/CustomPanels",
+  "archive_repo": null,
+  "approved_release_tag": "r-12763",
+  "stars": 0,
+  "total_downloads": 1788,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.6.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "LadySara48"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/231683",
+  "versions": {
+    "stable": {
+      "version": "1.1.43-beta",
+      "tag": "r-12763",
+      "published_at": null,
+      "downloads": 1595,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12763/custompanels-1.1.43-beta-r12763.phar"
+    },
+    "dev": {
+      "version": "1.1-beta",
+      "tag": "r-12660",
+      "published_at": null,
+      "downloads": 193,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12660/custompanels-1.1-beta-r12660.phar"
+    }
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12763",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12763/custompanels-1.1.43-beta-r12763.phar"
+    },
+    {
+      "tag": "r-12660",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12660/custompanels-1.1-beta-r12660.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomPanels",
+    "stable_release_id": 12763
+  }
+}

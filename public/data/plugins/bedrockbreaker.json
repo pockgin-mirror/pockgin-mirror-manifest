@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12987",
   "stars": 0,
-  "total_downloads": 468,
+  "total_downloads": 727,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "4.7.0",
       "tag": "r-12987",
       "published_at": null,
-      "downloads": 395,
+      "downloads": 396,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12987/bedrockbreaker-4.7.0-r12987.phar"
     },
     "dev": null
@@ -49,6 +49,16 @@
       "tag": "r-12907",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12907/bedrockbreaker-4.6.0-r12907.phar"
+    },
+    {
+      "tag": "r-12800",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12800/bedrockbreaker-4.5.0-r12800.phar"
+    },
+    {
+      "tag": "r-12636",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12636/bedrockbreaker-4.4.0-r12636.phar"
     }
   ],
   "comments": {

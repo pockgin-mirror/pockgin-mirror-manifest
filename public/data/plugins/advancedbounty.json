@@ -1,0 +1,63 @@
+{
+  "id": "advancedbounty",
+  "name": "AdvancedBounty",
+  "author": "ecstsylove",
+  "description": "Welcome to AdvancedBounty, the ultimate bounty hunting plugin for your PocketMine-MP server. Elevate your gameplay by adding thrilling bounty hunting mechanics that allow player...",
+  "readme_markdown": "<h2><a id=\"user-content-overview\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#overview\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Overview</h2>\n<p>Welcome to AdvancedBounty, the ultimate bounty hunting plugin for your PocketMine-MP server. Elevate your gameplay by adding thrilling bounty hunting mechanics that allow players to place and claim bounties on others. This feature-rich plugin enhances the excitement on your server and keeps players engaged.</p>\n<p><em>Note: This plugin currently uses JSON to store and modify data.</em></p>\n<h2><a id=\"user-content-features\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#features\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Features</h2>\n<h3><a id=\"user-content-bounty-placement\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#bounty-placement\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Bounty Placement</h3>\n<p>Use the intuitive <code>/bounty</code> command to view all the available commands. Set the reward amount, and watch as the hunt begins. Will your target survive, or will someone claim the bounty?</p>\n<h3><a id=\"user-content-bounty-collection\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#bounty-collection\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Bounty Collection</h3>\n<p>Players with bounties on their heads become the target. Will you be the one to claim the reward by defeating them? AdvancedBounty encourages player interaction and competition.</p>\n<h3><a id=\"user-content-customization\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#customization\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Customization</h3>\n<p>Tailor the plugin to fit your server's unique style. Adjust bounty rewards, reward tax, and more in the easy-to-edit configuration files. Make the plugin work for you!</p>\n<h2><a id=\"user-content-icon\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#icon\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Icon</h2>\n<p><a href=\"https://www.freepik.com/icon/wanted_827170#fromView=search&amp;term=bounty&amp;page=1&amp;position=19\" rel=\"nofollow\">Icon by Freepik</a></p>",
+  "readme_source_url": "https://poggit.pmmp.io/r/230593",
+  "icon_url": "https://raw.githubusercontent.com/iLVOEWOCK/AdvancedBounty/ae97d5944e79c54bdefa6ccad06b0c4a00c06223/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ecstsylove/AdvancedBounty",
+  "archive_repo": null,
+  "approved_release_tag": "r-12705",
+  "stars": 5,
+  "total_downloads": 1491,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ecstsylove"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/230595",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-12705",
+      "published_at": null,
+      "downloads": 1491,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12705/advancedbounty-1.0.1-r12705.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12705",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12705/advancedbounty-1.0.1-r12705.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdvancedBounty",
+    "stable_release_id": 12705
+  }
+}

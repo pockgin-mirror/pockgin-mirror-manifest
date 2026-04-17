@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14303",
   "stars": 0,
-  "total_downloads": 1126,
+  "total_downloads": 1532,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-12857",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12857/deathchest-1.0.2-r12857.phar"
+    },
+    {
+      "tag": "r-12643",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12643/deathchest-1.0.1-r12643.phar"
     }
   ],
   "comments": {

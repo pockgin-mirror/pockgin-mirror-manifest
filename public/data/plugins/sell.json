@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13767",
   "stars": 0,
-  "total_downloads": 805,
+  "total_downloads": 1539,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-13484",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13484/sell-1.0.1-r13484.phar"
+    },
+    {
+      "tag": "r-12818",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12818/sell-1.0.0-r12818.phar"
     }
   ],
   "comments": {

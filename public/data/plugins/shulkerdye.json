@@ -1,0 +1,61 @@
+{
+  "id": "shulkerdye",
+  "name": "ShulkerDye",
+  "author": "Katsu-MC",
+  "description": "Shulker dying function for Pocketmine-MP",
+  "readme_markdown": "<p align=\"center\">\n    <a href=\"https://github.com/Katsu-MC/ShulkerDye/tree/main\"><img src=\"https://github.com/Katsu-MC/ShulkerDye/blob/main/icon.png\"></img></a><br>\n    <b>Shulker dying function for Pocketmine-MP</b>\n\n# Description\n\nThis plugin adds in the crafting functions for dying shulker boxes using dyes.\n\n# Bug/Pull Request\n\nOpen a pull request here: [Pull Request](https://github.com/Katsu-MC/ShulkerDye/pulls)\n\nOpen a report here: [Bug/Error Report](https://github.com/Katsu-MC/ShulkerDye/issues/new)",
+  "readme_source_url": "https://github.com/Katsu-MC/ShulkerDye",
+  "icon_url": "https://raw.githubusercontent.com/Katsu-MC/ShulkerDye/7272750745ebe51d70daeac5cd0c32a282e5f103/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Katsu-MC/ShulkerDye",
+  "archive_repo": null,
+  "approved_release_tag": "r-12745",
+  "stars": 0,
+  "total_downloads": 771,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Katsu-MC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0-beta",
+      "tag": "r-12745",
+      "published_at": null,
+      "downloads": 771,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12745/shulkerdye-1.0.0-beta-r12745.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12745",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12745/shulkerdye-1.0.0-beta-r12745.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ShulkerDye",
+    "stable_release_id": 12745
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "askyblock",
+  "name": "ASkyBlock",
+  "author": "BeeAZ-pm-pl",
+  "description": "A SkyBlock plugin for PocketMine-MP",
+  "readme_markdown": "<center><img src='icon.png'></img></center>\n\n# A SkyBlock plugin for PocketMine-MP\n\n## Features\n\n- [x] Unlimited custom islands can be added\n- [x] Multi-language support\n- [x] User-friendly UI interface\n- [x] Island settings\n- [x] Island members\n\n## How can a world be added?\n\n1. Make sure you have an active world in PocketMine-MP.\n2. Copy the world into the `plugin_data/ASkyBlock/world` directory.\n3. Congratulations! You have successfully added the desired island. Players can now create the island you added.\n\n## How can languages be added?\n\n1. Create a `.yml` file in the `plugin_data/ASkyBlock/language` directory.\n2. Copy all the language data into the file and translate it.\n3. Change the `language-file` to the name of the language file you just created.",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/ASkyBlock",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/ASkyBlock/d7f5c4f9f16368d70e452663facbfeb4f6ce3cff/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/ASkyBlock",
+  "archive_repo": null,
+  "approved_release_tag": "r-12728",
+  "stars": 5,
+  "total_downloads": 2800,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/230889",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-12728",
+      "published_at": null,
+      "downloads": 2800,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12728/askyblock-1.0.1-r12728.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12728",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12728/askyblock-1.0.1-r12728.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ASkyBlock",
+    "stable_release_id": 12728
+  }
+}

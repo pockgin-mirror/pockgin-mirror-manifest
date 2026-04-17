@@ -1,0 +1,63 @@
+{
+  "id": "playerwarpsui",
+  "name": "PlayerWarpsUI",
+  "author": "XeonCh",
+  "description": "Features",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/PlayerWarpsUI)](https://poggit.pmmp.io/p/PlayerWarpsUI)\n<a href=\"https://poggit.pmmp.io/p/PlayerWarpsUI\"><img src=\"https://poggit.pmmp.io/shield.state/PlayerWarpsUI\"></a>\n[![](https://poggit.pmmp.io/shield.dl.total/PlayerWarpsUI)](https://poggit.pmmp.io/p/PlayerWarpsUI)\n<a href=\"https://poggit.pmmp.io/p/PlayerWarpsUI\"><img src=\"https://poggit.pmmp.io/shield.dl.total/PlayerWarpsUI\"></a>\n\n# Features\n\n- Menu UI\n\n- Easy Config\n\n- Multi Economy Support (EconomyAPI && BedrockEconomy)\n\n- Easy Use\n\n- And More\n\n# ISSUES\n\n\n• if you want to give suggestions/find errors you open an issues\n\n\n# Config\n\nYaml\n\n---\n\n```#PREFIX MESSAGE\nPrefix: \"§7[§ePlayerWarps§7] \"\n\n# ECONOMY PROVIDER\n# ecomomys,economyapi (EconomyAPI)\n# bedrockeconomy (BedrockEconomy)\n# xp,exp,experience (Exp)\neconomy:\n  provider: economyapi\n  \n#NO PERMISSIONS CHAT\nno-permission: \"§cYou dont have permission to use this command\"\n\n#PRICE FOR CREATE & NEWPOS PLAYER WARPS\n#ONLY NUMERIC\nprice:\n  create: \"100\"\n  newpos: \"100\"\n  \n#MENU CONFIG\nmenu:\n  title: \"§ePlayer Warp\"\n  content: \"Player Warp Menu by Xeon\"\n  \n#################################\n#  {PLAYER} = Get Name Player\n#  {pwarp} = Namme pwarp\n#  {owner} = Name Owner Pwarp\n#  {x} = Position X Pwarp\n#  {y} = Position Y Pwarp\n#  {z} = Position z Pwarp\n#  {world} = World Pwarp\n#  AND USE & FOR COLORONG\n#  EXAMPLE\nTp-Message: \"&a{PLAYER} Teleported to {pwarp}, Owner {owner}\"\n```\n\n---",
+  "readme_source_url": "https://github.com/XeonCh/PlayerWarpsUI",
+  "icon_url": "https://raw.githubusercontent.com/XeonCh/PlayerWarpsUI/2e5112557d7578be24798418926ace10e0448fec/icon.png",
+  "featured": false,
+  "repo": "https://github.com/XeonCh/PlayerWarpsUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-12750",
+  "stars": 0,
+  "total_downloads": 1027,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "XeonCh"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/231478",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-12750",
+      "published_at": null,
+      "downloads": 1027,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12750/playerwarpsui-1.2.0-r12750.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12750",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12750/playerwarpsui-1.2.0-r12750.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerWarpsUI",
+    "stable_release_id": 12750
+  }
+}

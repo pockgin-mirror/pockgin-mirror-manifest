@@ -1,0 +1,61 @@
+{
+  "id": "warzoneenvoys",
+  "name": "WarzoneEnvoys",
+  "author": "Terpz710",
+  "description": "Envoys plugin for Pocketmine-MP",
+  "readme_markdown": "<p align=\"center\">\n    <a href=\"https://github.com/Terpz710/WarzoneEnvoys\"><img src=\"https://github.com/Terpz710/WarzoneEnvoys/blob/stable/icon.png\"></img></a><br>\n    <b>Envoys plugin for Pocketmine-MP</b>\n\n# Description\nA Pocketmine-MP plugin that adds in warzone crates to enchance your gaming experience!\n\nSupport for 5.0.0-LATEST API\n\n# Features\n* Add items inside the chest!\n* You can set a min and max amount of items that a chest can spawn with!\n* Set a certain amount of time before envoys are spawned!\n* Messages are configurable!\n* You can set unlimited of envoys(chest)!\n* A 15 second countdown before the chest spawn!\n* Cool claiming animation!\n\n# PullRequest/Bug report\n\n* Open a bug report: [Click-Here](https://github.com/Terpz710/WarzoneEnvoys/issues/new)\n\n* Open a pull request: [Click-Here](https://github.com/Terpz710/WarzoneEnvoys/pulls)",
+  "readme_source_url": "https://github.com/Terpz710/WarzoneEnvoys",
+  "icon_url": "https://raw.githubusercontent.com/Terpz710/WarzoneEnvoys/48f78ae4bb23f7a5323a9db46f33be49596b7b2e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Terpz710/WarzoneEnvoys",
+  "archive_repo": null,
+  "approved_release_tag": "r-12830",
+  "stars": 0,
+  "total_downloads": 336,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Terpz710"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12830",
+      "published_at": null,
+      "downloads": 336,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12830/warzoneenvoys-1.0.0-r12830.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12830",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12830/warzoneenvoys-1.0.0-r12830.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WarzoneEnvoys",
+    "stable_release_id": 12830
+  }
+}

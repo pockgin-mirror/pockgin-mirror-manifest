@@ -1,0 +1,61 @@
+{
+  "id": "buildreset",
+  "name": "BuildReset",
+  "author": "DaRealAqua",
+  "description": "Description",
+  "readme_markdown": "# BuildReset\n### Description\nBuildReset is a plugin that makes the blocks placed on the ground disappear after a certain time from the world where it is placed. You can add in which worlds the build reset should work, after how long time the blocks to disappear from the world and whether the particles of the respective block appear or not. If the server shuts down, all blocks that have been saved will be automatically deleted.\n\n### Features\n- configurable config\n- support worlds\n- particle\n- countdown\n\n### Installation\nTo install BuildReset, simply follow these steps:\n\nDownload the latest version of BuildReset from the Releases page on GitHub / poggit.\nPlace the downloaded .phar file into your PocketMine-MP plugins directory.\nStart your PocketMine-MP server and enjoy.\n\n### Configuration\nResetBuild can be configured by editing the ``config.yml`` file in the plugin's directory or using the command /buildreset. Here you can see what can be configured:\n```php\n# Build Reset Configuration\n# Author: @DaRealAqua\n# Twitter: @DaRealAqua_\n\n# Worlds where build reset is enabled\nenabled_worlds:\n  - world\n\n# Sets the countdown for when blocks should disappear after being broken. Default is 5 seconds.\ndespawn_countdown: 5\n\n# Determines whether to show particles when blocks despawn after being broken. Default is true.\ndespawn_particle: true\n```\n\n### Contributing\nIf you find a bug or want to help improve the plugin, join my discord server and make a suggestion.\n\n### License\nBuildReset is released under the Apache license. See the LICENSE file for more information.\n\n### Support\nIf you need help with BuildReset, you can contact me on my discord server [AquaDevs](https://discord.gg/VFFzjceP6E) or create an issue on the GitHub repository.",
+  "readme_source_url": "https://github.com/DaRealAqua/BuildReset",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/DaRealAqua/BuildReset",
+  "archive_repo": null,
+  "approved_release_tag": "r-12811",
+  "stars": 5,
+  "total_downloads": 313,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaRealAqua"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/232871",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-12811",
+      "published_at": null,
+      "downloads": 313,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12811/buildreset-0.0.2-r12811.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12811",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12811/buildreset-0.0.2-r12811.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BuildReset",
+    "stable_release_id": 12811
+  }
+}

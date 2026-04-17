@@ -1,0 +1,63 @@
+{
+  "id": "luckypouches",
+  "name": "LuckyPouches",
+  "author": "ecstsylove",
+  "description": "Features",
+  "readme_markdown": "<h2><a id=\"user-content-features\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#features\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Features</h2>\n<ul>\n<li>Let your players redeem pouches of cash or xp with eye appealing animations.</li>\n<li>No limits! (No limit to how many pouches can be created)</li>\n<li>Completely Customizable</li>\n</ul>\n<h2><a id=\"user-content-usage\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#usage\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Usage</h2>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-ent\">permissions</span>:\n  <span class=\"pl-ent\">luckypouches.command</span>: <span class=\"pl-c\"><span class=\"pl-c\">#</span> This allows you to give, reload and view the list of pouches.</span>\n    <span class=\"pl-ent\">default</span>: <span class=\"pl-s\">op</span></pre></div>\n<div class=\"highlight highlight-source-shell\"><pre>/luckypouches - View list of commands.\n/luckypouches list - View list of pouches\n/luckypouches give <span class=\"pl-k\">&lt;</span>player<span class=\"pl-k\">|</span>all<span class=\"pl-k\">&gt;</span> <span class=\"pl-k\">&lt;</span>identifier<span class=\"pl-k\">&gt;</span> [amount] - Give a pouch to every online player or a specific player.\n/luckypouches reload - Reloads all the configuration files of this plugin.</pre></div>",
+  "readme_source_url": "https://poggit.pmmp.io/r/229220",
+  "icon_url": "https://raw.githubusercontent.com/iLVOEWOCK/LuckyPouches/14188f882c881d2f77e337afc8ed71db7be38667/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ecstsylove/LuckyPouches",
+  "archive_repo": null,
+  "approved_release_tag": "r-12614",
+  "stars": 5,
+  "total_downloads": 208,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ecstsylove"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/229222",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-12614",
+      "published_at": null,
+      "downloads": 208,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12614/luckypouches-1.0.1-r12614.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12614",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12614/luckypouches-1.0.1-r12614.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LuckyPouches",
+    "stable_release_id": 12614
+  }
+}

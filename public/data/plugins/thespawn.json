@@ -1,0 +1,66 @@
+{
+  "id": "thespawn",
+  "name": "theSpawn",
+  "author": "supercrafter333",
+  "description": "theSpawn - v2.0.5",
+  "readme_markdown": "[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/ca6cWPpERp)\n# <a href=\"https://supercrafter333.github.io/theSpawn/\"><img src=\"https://github.com/supercrafter333/theSpawn/blob/master/icon.png?raw=true\" width=\"26\" float=\"left\" style=\"border-radius: 0.3rem\"></a> theSpawn - v2.0.5  [![](https://poggit.pmmp.io/shield.state/theSpawn)](https://poggit.pmmp.io/p/theSpawn) [![](https://poggit.pmmp.io/shield.dl.total/theSpawn)](https://poggit.pmmp.io/p/theSpawn)\n✨ **The best teleportation plugin and the best MSpawns alternative!** ✨\n\n<br />\n\n**This plugin is a much better MSpawns alternative! Help me to make this plugin better!**\n\nThis plugin won't be out of date, it will get better developed from time to time. If you need a much better MSpawns alternative, theSpawn is it :)\n\n### Features\n- **All MSpawns features**:\n  - set/change/remove spawns [default: active]\n  - set/change/remove hub [default: active]\n  - Teleport to spawn/hub [default: active]\n  - Aliases [default: active]\n  - use/don't use hub server\n  - API\n  - Custom messages\n  - Config\n- **Position validation/check** [default: inactive]\n- **Homes** [default: active]\n  - home editing\n  - Max home count permission [default: inactive]\n- **Warps** [default: active]\n  - warp editing\n  - warp permissions\n  - warp icons\n- **TPAs** [default: active]\n- **Random-Hubs** [default: inactive]\n- **`/back`-command** - Teleports you to the position where you have died [default: active]\n- **PlayerWarps** [default: active]\n  - player-warp editing\n  - player-warp icons\n  - max player-warp count permission [default: inactive]\n- **Forms / UIs** [default: active]\n- Toast-Notifications for special features [default: inactive]\n- WaterdogPE hub-transfer support\n- Teleport to hub on join [default: active]\n- Teleport to hub on death [default: active]\n- Multiple languages [default: English (BE)]\n- Always Up-To-Date (available for PM5 and PHP 8.1)\n- Highly customizable (you can disable and enable every feature)\n\n### TODOs\n- [X] Homes\n- [X] Command files\n- [X] Warps\n- [X] Random-Hubs ([#12](https://github.com/supercrafter333/theSpawn/issues/12))\n- [X] TPAs ([#14](https://github.com/supercrafter333/theSpawn/issues/14))\n- [X] Warp icons ([#31](https://github.com/supercrafter333/theSpawn/issues/31))\n- [X] Warp editing ([#35](https://github.com/supercrafter333/theSpawn/issues/35))\n- [X] Home editing ([#38](https://github.com/supercrafter333/theSpawn/issues/38))\n- [X] `/back`-command ([#43](https://github.com/supercrafter333/theSpawn/issues/43))\n- [X] Hub teleport on death ([#39](https://github.com/supercrafter333/theSpawn/issues/39))\n- [X] Option to see the number of people in the world when using the warp-form ([#57](https://github.com/supercrafter333/theSpawn/issues/57))\n- [X] Add player warps ([#59](https://github.com/supercrafter333/theSpawn/issues/59))\n- [X] Add PM5 support (currently hybrid support for PM4 & PM5)\n- [X] Add PHP 8.1 support\n- [X] Add toast-notifications for special features\n\n\n### Supported versions\n| theSpawn version(s) | PocketMine-MP version(s) | PHP version(s) |\n|---------------------|--------------------------|--------------|\n| 1.8.x (EOL)         | 4.4.0+                   | 8.0.x        |\n| 2.0.x               | 5.0.0+       | 8.1.x        |\n\n\n### Report Bug\nYou've found a Bug?\n- Go to [Issues](https://github.com/supercrafter333/theSpawn/issues)\n- Click on [New Issue](https://github.com/supercrafter333/theSpawn/issues/new/choose)\n- Write your bug with all Informations that you have down\n- Send Issue\n- Now wait, I'll answer you soon\n\n### Commands\n| **Command**                        | **Description**                                              |\n|------------------------------------|--------------------------------------------------------------|\n| `/setspawn`                        | Set the spawn of a world                                     |\n| `/delspawn`                        | Remove spawn of a world                                      |\n| `/spawn`                           | Teleport you to spawn                                        |\n| `/sethub [randomHubs: number/int]` | Set the hub of the server                                    |\n| `/delhub [randomHubs: number/int]` | Remove the hub of the server                                 |\n| `/hub`                             | Teleport you to hub                                          |\n| `/setalias <alias> <world>`        | Set an alias                                                 |\n| `/delalias <alias>`                | Remove an alias                                              |\n| `/aliases`                         | Prints a list of all aliases or open a menu to edit aliases. |\n| `/sethome <home>`                  | Set a home                                                   |\n| `/delhome <home>`                  | Remove a home                                                |\n| `/home <home>`                     | Teleport you to a home                                       |\n| `/setwarp <warp>`                  | Set a warp                                                   |\n| `/delwarp <warp>`                  | Remove a warp                                                |\n| `/warp <warp>`                     | Teleport you to a warp                                       |\n| `/tpa <player>`                    | Send a teleportation answer to a player                      |\n| `/tpahere <player>`                | Send a teleportation answer to a player                      |\n| `/tpaccept <player>`               | Accept a tpa                                                 |\n| `/tpdecline <player>`              | Decline a tpa                                                |\n| `/editwarp [warp]`                 | Edit a warp                                                  |\n| `/edithome [home]`                 | Edit a home                                                  |\n| `/back`                            | Teleports you to the spot where you died                     |\n| `/playerwarp <subcommand>`         | Manage, create, remove, or teleport you to a player-warp.    |\n\n### Permissions\n| **Permission**              | **Description**                                                         | **Default** |\n|-----------------------------|-------------------------------------------------------------------------|-------------|\n| `theSpawn.bypass`           | Bypass permission (includes all permissions of theSpawn)                | op          |\n| `theSpawn.spawn.cmd`        | Command permission for `/spawn`                                         | everyone    |\n| `theSpawn.setspawn.cmd`     | Command permission for `/setspawn`                                      | op          |\n| `theSpawn.delspawn.cmd`     | Command permission for `/delspawn`                                      | op          |\n| `theSpawn.hub.cmd`          | Command permission for `/hub`                                           | everyone    |\n| `theSpawn.sethub.cmd`       | Command permission for `/sethub`                                        | op          |\n| `theSpawn.delhub.cmd`       | Command permission for `/delhub`                                        | op          |\n| `theSpawn.alias.cmd`        | Command permission for every alias-command                              | everyone    |\n| `theSpawn.aliases.cmd`      | Command permission for `/aliases`                                       |             |op\n| `theSpawn.setalias.cmd`     | Command permission for `/setalias`                                      | op          |\n| `theSpawn.removealias.cmd`  | Command permission for `/removealias`                                   | op          |\n| `theSpawn.setwarp.cmd`      | Command permission for `/setwarp`                                       | everyone    |\n| `theSpawn.delwarp.cmd`      | Command permission for `/delwarp`                                       | everyone    |\n| `theSpawn.warp.cmd`         | Command permission for `/warp`                                          | everyone    |\n| `theSpawn.warp.NAME`        | Allows you to teleport to a permission-saved-warp                       | individual  |\n| `theSpawn.warp.admin`       | Bypass permission to be allowed to teleport to every warp               | op          |\n| `theSpawn.homes`            | Bypass permission for home-related things                               | op          |\n| `theSpawn.homes.unlimited`  | Bypass permission to create unlimited homes                             | op          |\n| `theSpawn.sethome.cmd`      | Command permission for `/sethome`                                       | everyone    |\n| `theSpawn.delhome.cmd`      | Command permission for `/delhome`                                       | everyone    |\n| `theSpawn.home.cmd`         | Command permission for `/home`                                          | everyone    |\n| `theSpawn.edithome.cmd`     | Command permission for `/edithome`                                      | everyone    |\n| `theSpawn.tpa.cmd`          | Command permission for `/tpa`                                           | everyone    |\n| `theSpawn.tpahere.cmd`      | Command permission for `/tpahere`                                       | everyone    |\n| `theSpawn.tpaccept.cmd`     | Command permission for `/tpaccept`                                      | everyone    |\n| `theSpawn.tpdecline.cmd`    | Command permission for `/tpdecline`                                     | everyone    |\n| `theSpawn.back.cmd`         | Command permission for `/back`                                          | everyone    |\n| `theSpawn.playerwarp.cmd`   | Command permission for `/playerwarp`                                    | everyone    |\n| `theSpawn.pwarps.unlimited` | Bypass permission to create unlimited player-warps                      | op          |\n| `theSpawn.pwarps.1`         | Allows you to create 1 player-warp                                      | everyone    |\n| `theSpawn.pwarps.AMOUNT`    | Allows you to create AMOUNT (please insert a number there) player-warps | individual  |\n\n\n### License\nThis plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by supercrafter333!\n\n### Credits\n**Information:** This plugin is inspired by [MSpawns](https://github.com/EvolSoft/MSpawns).\n\nOwner: supercrafter333\n\nTranslator: AyzrixYTB, MrBlasyMSK\n\nIcon: HannesTheDev [Thank you]\n\nDiscord-Tag: [`supercrafter333#4062`](https://discordapp.com/users/511252471616897024)\n\n\n### Join the community\n[![Discord Banner](https://discordapp.com/api/guilds/847099444465238036/widget.png?style=banner3)](https://discord.gg/ca6cWPpERp)",
+  "readme_source_url": "https://github.com/supercrafter333/theSpawn",
+  "icon_url": "https://raw.githubusercontent.com/supercrafter333/theSpawn/7b746a7e111d7a0aaa8884b5207a20ed382ffaf0/icon.png",
+  "featured": false,
+  "repo": "https://github.com/supercrafter333/theSpawn",
+  "archive_repo": null,
+  "approved_release_tag": "r-12679",
+  "stars": 0,
+  "total_downloads": 4021,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "supercrafter333"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/230226",
+  "versions": {
+    "stable": {
+      "version": "2.0.5",
+      "tag": "r-12679",
+      "published_at": null,
+      "downloads": 3754,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12679/thespawn-2.0.5-r12679.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12679",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12679/thespawn-2.0.5-r12679.phar"
+    },
+    {
+      "tag": "r-12613",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12613/thespawn-2.0.4-r12613.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "theSpawn",
+    "stable_release_id": 12679
+  }
+}

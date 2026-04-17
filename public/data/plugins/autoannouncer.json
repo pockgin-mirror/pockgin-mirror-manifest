@@ -1,0 +1,61 @@
+{
+  "id": "autoannouncer",
+  "name": "AutoAnnouncer",
+  "author": "ecstsylove",
+  "description": "Features",
+  "readme_markdown": "<h2><a id=\"user-content-features\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#features\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Features</h2>\n<ul>\n<li>Automatically broadcasts customizable messages at regular intervals to keep your players engaged.</li>\n<li>Supports message prefixes.</li>\n<li>Configurable interval between each message, allowing you to fine-tune the frequency.</li>\n<li>Easy-to-use configuration file for managing messages and settings.</li>\n<li>Sound Effects for each message</li>\n</ul>\n<h2><a id=\"user-content-configuration\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#configuration\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Configuration</h2>\n<p>The plugin configuration file <code>config.yml</code> allows you to customize various aspects of the AutoAnnouncer plugin:</p>\n<div class=\"highlight highlight-source-yaml\"><pre>---\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Configuration for AutoAnnouncer plugin</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> (!) DO NOT CHANGE (!)</span>\n<span class=\"pl-ent\">version</span>: <span class=\"pl-s\">1.0.1</span>\n\n<span class=\"pl-ent\">settings</span>:\n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> Sound to play for each announcement.</span>\n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> Use this for a list of available sounds: https://wiki.bedrock.dev/documentation/sound-definitions.html</span>\n  <span class=\"pl-ent\">sound</span>: <span class=\"pl-s\"><span class=\"pl-pds\">'</span>random.levelup<span class=\"pl-pds\">'</span></span>\n\n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> The prefix message</span>\n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> Use '&amp;' for colors</span>\n  <span class=\"pl-ent\">prefix</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&amp;r&amp;8[&amp;aAA&amp;8] <span class=\"pl-pds\">\"</span></span>\n\n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> enable/disable the use of prefixes.</span>\n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> true = on, false = off</span>\n  <span class=\"pl-ent\">use-prefix</span>: <span class=\"pl-c1\">true</span>\n\n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> Interval between each message in seconds</span>\n  <span class=\"pl-ent\">interval</span>: <span class=\"pl-c1\">60</span>\n\n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> If the messages should be sent in order they're formatted in</span>\n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> or if they should send at random.</span>\n  <span class=\"pl-ent\">random</span>: <span class=\"pl-c1\">true</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> List of messages to be broadcasted</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Use '&amp;' for colors.</span>\n<span class=\"pl-ent\">messages</span>:\n  - <span class=\"pl-ent\">message</span>:\n      - <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&amp;r&amp;aWelcome to the server!<span class=\"pl-pds\">\"</span></span>\n      - <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&amp;r&amp;7read /rules!<span class=\"pl-pds\">\"</span></span>\n  - <span class=\"pl-ent\">message</span>:\n      - <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&amp;r&amp;7Enjoy your stay!<span class=\"pl-pds\">\"</span></span>\n  - <span class=\"pl-ent\">message</span>:\n      - <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&amp;r&amp;6Visit our website at example.com<span class=\"pl-pds\">\"</span></span>\n</pre></div>\n<h2><a id=\"user-content-icon\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#icon\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Icon</h2>\n<p><a href=\"https://www.flaticon.com/free-icons/bullhorn\" title=\"bullhorn icons\" rel=\"nofollow\">Bullhorn icons created by Freepik - Flaticon</a></p>",
+  "readme_source_url": "https://poggit.pmmp.io/r/231249",
+  "icon_url": "https://raw.githubusercontent.com/iLVOEWOCK/AutoAnnouncer/2e86cfbe7719bba63f9bbc9032cbdddc5a88223d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ecstsylove/AutoAnnouncer",
+  "archive_repo": null,
+  "approved_release_tag": "r-12744",
+  "stars": 4,
+  "total_downloads": 1311,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ecstsylove"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/231251",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12744",
+      "published_at": null,
+      "downloads": 1311,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12744/autoannouncer-2.0.0-r12744.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12744",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12744/autoannouncer-2.0.0-r12744.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AutoAnnouncer",
+    "stable_release_id": 12744
+  }
+}

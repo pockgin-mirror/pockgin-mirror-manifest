@@ -1,0 +1,61 @@
+{
+  "id": "playedtime",
+  "name": "PlayedTime",
+  "author": "supercrafter333",
+  "description": "PlayedTime - v1.0.3",
+  "readme_markdown": "[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/ca6cWPpERp)\n# <img src=\"https://github.com/supercrafter333/PlayedTime/blob/master/icon.png?raw=true\" width=\"26\" float=\"left\" style=\"border-radius: 0.3rem\"> PlayedTime - v1.0.3  [![](https://poggit.pmmp.io/shield.state/PlayedTime)](https://poggit.pmmp.io/p/PlayedTime) [![](https://poggit.pmmp.io/shield.dl.total/PlayedTime)](https://poggit.pmmp.io/p/PlayedTime) [<img src=\"https://img.shields.io/badge/ScoreHud-PlayedTimeScore-blue?&style=square\">](https://poggit.pmmp.io/ci/supercrafter333/ScoreHudX/PlayedTimeScore)\n\n<br />\n\n**A plugins that allows you to save the played time of your players!**\n\nThis plugin is a plugin that counts the played time of your players. It's inspired by OnlineTime :)\n\n\n### Features\n- top-list\n- session and total played times\n- customizable messages\n- ScoreHud addon: [Poggit](https://poggit.pmmp.io/ci/supercrafter333/ScoreHudX/PlayedTimeScore) | [GitHub](https://github.com/supercrafter333/ScoreHudX/tree/main/PlayedTimeScore)\n\n\n### TODOs\nnothing\n\n\n### Report Bug\nYou've found a Bug?\n- Go to [Issues](https://github.com/supercrafter333/PlayedTime/issues)\n- Click on [New Issue](https://github.com/supercrafter333/PlayedTime/issues/new/choose)\n- Write your bug with all information that you have down\n- Send Issue\n- Now wait, I'll awnser you soon\n\n\n### Commands\n| **Command**                         | **Description**                       |\n|-------------------------------------|---------------------------------------|\n| `/playedtime help`                  | Shows you all commands of PlayedTime  |\n| `/playedtime mytime`                | Shows you your played time            |\n| `/playedtime time [player: target]` | Shows you the played time of a player |\n| `/playedtime top`                   | Shows you the best played times       |\n\n\n### License:\nThis plugins his licensed under the [Apache License 2.0](/LICENSE)! Plugin by supercrafter333!\n\n\n### Credits\n**Information:** This plugin is inspired by [OnlineTime](https://github.com/Zedstar16/OnlineTime).\n\nOwner: supercrafter333\n\nIcon: FabiGamer019 [Thank you]\n\nDiscord-Tag: [`supercrafter333#4062`](https://discordapp.com/users/511252471616897024)\n\n\n### Join the community\n[![Discord Banner](https://discordapp.com/api/guilds/847099444465238036/widget.png?style=banner3)](https://discord.gg/ca6cWPpERp)",
+  "readme_source_url": "https://github.com/supercrafter333/PlayedTime",
+  "icon_url": "https://raw.githubusercontent.com/supercrafter333/PlayedTime/d7383b32d79f7ccd14c37046d3df48ac9a2cbe77/icon.png",
+  "featured": false,
+  "repo": "https://github.com/supercrafter333/PlayedTime",
+  "archive_repo": null,
+  "approved_release_tag": "r-12794",
+  "stars": 4,
+  "total_downloads": 791,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "supercrafter333"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/232480",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-12794",
+      "published_at": null,
+      "downloads": 791,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12794/playedtime-1.0.3-r12794.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12794",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12794/playedtime-1.0.3-r12794.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayedTime",
+    "stable_release_id": 12794
+  }
+}

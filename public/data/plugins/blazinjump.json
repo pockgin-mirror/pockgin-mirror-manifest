@@ -1,0 +1,61 @@
+{
+  "id": "blazinjump",
+  "name": "BlazinJump",
+  "author": "iiFlamiinBlaze",
+  "description": "License",
+  "readme_markdown": "# [![BlazeTheDev](https://i.imgur.com/fgVMXSe.png?1)]()\n\n## License\n| License |\n| :---: |\n| [![BlazinJump License](https://img.shields.io/github/license/iiFlamiinBlaze/BlazinJump.svg?label=License)](LICENSE) |\n\nMake sure to read all of the license as it could change at anytime.\n\n## Information\n| Download |                                                      Discord                                                      |\n| :---: |:-----------------------------------------------------------------------------------------------------------------:|\n [![Download](https://img.shields.io/badge/download-latest-blue.svg)](https://poggit.pmmp.io/ci/iiFlamiinBlaze/BlazinJump/) | <a href=\"https://discord.gg/znEsFsG\"><img src=\"https://discordapp.com/api/guilds/425712766687510528/embed.png\" alt=\"Discord server\"/></a> |\n\nThis plugin is a double jump plugin. It allows the player when they jump twice to be launched into the air! This plugin is for anyone to use.\nIf you have any issues with the plugin, please make an issue [here](https://github.com/iiFlamiinBlaze/BlazinJump/issues/new).\n* Credits: [BlazeTheDev](https://github.com/iiFlamiinBlaze) and [MCPEExpert](https://github.com/ErkamKahriman)\n\n## How to use\nFor more info about how to use the plugin go to the [BlazinJump Wiki](https://iiflamiinblaze.github.io/projects/blazinjump/).",
+  "readme_source_url": "https://github.com/iiFlamiinBlaze/BlazinJump",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/iiFlamiinBlaze/BlazinJump",
+  "archive_repo": null,
+  "approved_release_tag": "r-12813",
+  "stars": 0,
+  "total_downloads": 189,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "iiFlamiinBlaze"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/232962",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-12813",
+      "published_at": null,
+      "downloads": 189,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12813/blazinjump-1.2.0-r12813.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12813",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12813/blazinjump-1.2.0-r12813.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlazinJump",
+    "stable_release_id": 12813
+  }
+}

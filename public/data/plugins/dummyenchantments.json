@@ -1,0 +1,61 @@
+{
+  "id": "dummyenchantments",
+  "name": "DummyEnchantments",
+  "author": "diamond-gold",
+  "description": "Enchantments added are not functional server-side, but may cause client-side behavior (depth strider, curse of binding etc.)",
+  "readme_markdown": "> Enchantments added are not functional server-side, but may cause client-side behavior (depth strider, curse of binding etc.)\n> \n> Prevents unimplemented enchantments from being lost when loading from vanilla worlds.\n> \n> Adds enchanted books for these enchantments to the creative inventory.\n> \n> Items can be enchanted with `/enchant` command.\n\n[![](https://poggit.pmmp.io/ci.shield/diamond-gold/DummyEnchantments/DummyEnchantments?style=for-the-badge)](https://poggit.pmmp.io/ci/diamond-gold/DummyEnchantments/~)\n\n[![](https://poggit.pmmp.io/shield.api/DummyEnchantments?style=for-the-badge)](https://poggit.pmmp.io/p/DummyEnchantments)\n[![](https://poggit.pmmp.io/shield.downloads/DummyEnchantments?style=for-the-badge)](https://poggit.pmmp.io/p/DummyEnchantments)\n[![](https://poggit.pmmp.io/shield.downloads.total/DummyEnchantments?style=for-the-badge)](https://poggit.pmmp.io/p/DummyEnchantments)\n[![](https://poggit.pmmp.io/shield.state/DummyEnchantments?style=for-the-badge)](https://poggit.pmmp.io/p/DummyEnchantments)\n\nEncountered a bug? Want something added? Create an [issue](https://github.com/diamond-gold/DummyEnchantments/issues) (＃°Д°)\n\nHave questions? Start a [discussion](https://github.com/diamond-gold/DummyEnchantments/discussions) ✍(◔◡◔)\n\nStarring the GitHub repository is like sprinkling stardust—help me create magic! (。・∀・)ノ\n\nFeeling generous? Buy me some [snacks](https://ko-fi.com/diamondgold)! (❤´艸｀❤)\n\n[![Feature Requests](https://img.shields.io/github/issues-raw/diamond-gold/DummyEnchantments/Feature%20Request?label=Feature%20Requests&logo=github&style=for-the-badge)](https://github.com/diamond-gold/DummyEnchantments/issues)\n[![Bug Reports](https://img.shields.io/github/issues-raw/diamond-gold/DummyEnchantments/bug?label=Bug%20Reports&logo=github&style=for-the-badge)](https://github.com/diamond-gold/DummyEnchantments/issues)\n\n<img src=\"https://counter.seku.su/cmoe?name=DummyEnchantments&theme=r34\" alt=\"\">\n\n# Enchantments\n- Depth Strider\n- Aqua Affinity\n- Smite\n- Bane of Arthropods\n- Looting\n- Luck of the Sea\n- Lure\n- Frost Walker\n- Curse of Binding\n- Impaling\n- Riptide\n- Loyalty\n- Channeling\n- Multishot\n- Piercing\n- Quick Charge\n- Soul Speed",
+  "readme_source_url": "https://github.com/diamond-gold/DummyEnchantments",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/diamond-gold/DummyEnchantments",
+  "archive_repo": null,
+  "approved_release_tag": "r-12758",
+  "stars": 5,
+  "total_downloads": 234,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "diamond-gold"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-12758",
+      "published_at": null,
+      "downloads": 234,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12758/dummyenchantments-0.0.1-r12758.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12758",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12758/dummyenchantments-0.0.1-r12758.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DummyEnchantments",
+    "stable_release_id": 12758
+  }
+}

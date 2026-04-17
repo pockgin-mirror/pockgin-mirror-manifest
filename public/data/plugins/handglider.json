@@ -1,0 +1,61 @@
+{
+  "id": "handglider",
+  "name": "HandGlider",
+  "author": "Aetheam",
+  "description": "Simple plugin that add hand glider to your server.",
+  "readme_markdown": "[![Discord](https://img.shields.io/discord/915046808009441323.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/AzJ7Uz7wkx)\n\n\n# HandGlider\nSimple plugin that add hand glider to your server.\n\n## How to use\nSet up the item id and permissions (if you want) in `config.yml`\n\n\n## Config\n```yaml\nitem: \"slimeball\"\npermission:\n  enabled: false\n  name: \"handglider.use\" #permission is also handglider.handglider.use\n```",
+  "readme_source_url": "https://github.com/Aetheam/HandGlider",
+  "icon_url": "https://raw.githubusercontent.com/Aetheam/HandGlider/53b71de32771ae181ef33b9216e75bb6152e88aa/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Aetheam/HandGlider",
+  "archive_repo": null,
+  "approved_release_tag": "r-12703",
+  "stars": 0,
+  "total_downloads": 303,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Aetheam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-12703",
+      "published_at": null,
+      "downloads": 303,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12703/handglider-1.0.2-r12703.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12703",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12703/handglider-1.0.2-r12703.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HandGlider",
+    "stable_release_id": 12703
+  }
+}

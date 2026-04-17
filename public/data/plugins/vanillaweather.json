@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14371",
   "stars": 0,
-  "total_downloads": 94,
+  "total_downloads": 1199,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.2.2",
       "tag": "r-14371",
       "published_at": null,
-      "downloads": 44,
+      "downloads": 45,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14371/vanillaweather-1.2.2-r14371.phar"
     },
     "dev": null
@@ -49,6 +49,21 @@
       "tag": "r-14365",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14365/vanillaweather-1.2.0-r14365.phar"
+    },
+    {
+      "tag": "r-12828",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12828/vanillaweather-1.1.0-r12828.phar"
+    },
+    {
+      "tag": "r-12641",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12641/vanillaweather-1.0.6-r12641.phar"
+    },
+    {
+      "tag": "r-12618",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12618/vanillaweather-1.0.5-r12618.phar"
     }
   ],
   "comments": {

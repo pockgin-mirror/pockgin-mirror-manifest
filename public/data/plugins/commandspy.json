@@ -1,0 +1,61 @@
+{
+  "id": "commandspy",
+  "name": "CommandSpy",
+  "author": "TitaniumLB6571",
+  "description": "How to use?",
+  "readme_markdown": "# CommandSpy\n\n#### How to use?\n- Simple, just add the plugin to your server and restart it.\n\n# Description\n- This plugin gives you the ability to spy/see other players commands.\n- You can log commands in the console of your server through the config.yml.\n- You can hide certain players from being spy'ed on in the config.yml.\n- You can hide certain commands from being spy'ed on in the config.yml.\n- Make sure to restart your server after editing the config.yml.\n\n# Features?\n - Log **CommandSpy** to console in config.yml\n - Hide certain players from being spy'ed on in config.yml\n - Hide certain commands from being spy'ed on in config.yml\n - Spy on a specific player or multiple at once with **/cspy (playerName)**\n - See a list of snoopers using **/cspy list** to list everyone using **/cspy**\n\n# Permissions\n\n- commandspy.cmd - **Basic use of the command**\n- commandspy.cmd.list - **Lists the players using commandspy and who they are spying on**\n- commandspy.cmd.target - **Use of specific spying on a targeted player**",
+  "readme_source_url": "https://github.com/TitaniumLB6571/TitanCommandSpy",
+  "icon_url": "https://raw.githubusercontent.com/TitaniumLB6571/TitanCommandSpy/5b8e3bb9545f2325e353f90ab284c2f4644b2396/icon.png",
+  "featured": false,
+  "repo": "https://github.com/TitaniumLB6571/TitanCommandSpy",
+  "archive_repo": null,
+  "approved_release_tag": "r-12682",
+  "stars": 0,
+  "total_downloads": 575,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TitaniumLB6571"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/230262",
+  "versions": {
+    "stable": {
+      "version": "1.0.5",
+      "tag": "r-12682",
+      "published_at": null,
+      "downloads": 575,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12682/commandspy-1.0.5-r12682.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12682",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12682/commandspy-1.0.5-r12682.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CommandSpy",
+    "stable_release_id": 12682
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "chatcooldown",
+  "name": "ChatCooldown",
+  "author": "Sergittos",
+  "description": "Download the plugin on poggit:",
+  "readme_markdown": "Download the plugin on poggit: [![Poggit](https://poggit.pmmp.io/shield.state/ChatCooldown)](https://poggit.pmmp.io/p/ChatCooldown) <br>\n\n# ChatCooldown\n⏰ A chat cooldown plugin for pocketmine servers.\n\n## Functionality\n- Only the administrators can update the cooldown with **/cooldown** (default permission: *chatcooldown.admin*)\n- This command will open a form where you can set a cooldown or remove the cooldown.\n- Players with permission *chatcooldown.bypass* will be immune to the cooldown effect.\n\n## Virions Used\n- [EasyUI](https://github.com/andresbytes/EasyUI) by **andresbytes**\n\n## Pictures\n\n![Update the cooldown](https://i.imgur.com/L9N0jAQ.png)",
+  "readme_source_url": "https://github.com/Sergittos/ChatCooldown",
+  "icon_url": "https://raw.githubusercontent.com/Sergittos/ChatCooldown/85ec6afd6a20443203eff4c08d14cd82e376a3a3/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Sergittos/ChatCooldown",
+  "archive_repo": null,
+  "approved_release_tag": "r-12732",
+  "stars": 0,
+  "total_downloads": 1394,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Sergittos"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/230992",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-12732",
+      "published_at": null,
+      "downloads": 1394,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12732/chatcooldown-1.1.0-r12732.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12732",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12732/chatcooldown-1.1.0-r12732.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatCooldown",
+    "stable_release_id": 12732
+  }
+}

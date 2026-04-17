@@ -1,0 +1,61 @@
+{
+  "id": "pingview",
+  "name": "PingView",
+  "author": "GameParrot",
+  "description": "Pocketmine plugin for viewing your ping or someone elses ping.",
+  "readme_markdown": "# PingView\nPocketmine plugin for viewing your ping or someone elses ping.\n\n# Usage\nTo get your own ping, use `/ping`. To get someone elses ping, use `/ping <player_name>`.\n\n# Permissions\n`pingview.command` - allows usage of /ping  \n`pingview.others` - allows viewing ping of other players  \nBoth are true by default.",
+  "readme_source_url": "https://github.com/GameParrot/PingView",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/GameParrot/PingView",
+  "archive_repo": null,
+  "approved_release_tag": "r-12622",
+  "stars": 0,
+  "total_downloads": 650,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "GameParrot"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12622",
+      "published_at": null,
+      "downloads": 650,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12622/pingview-1.0.0-r12622.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12622",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12622/pingview-1.0.0-r12622.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PingView",
+    "stable_release_id": 12622
+  }
+}

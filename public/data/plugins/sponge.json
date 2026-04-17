@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12853",
   "stars": 0,
-  "total_downloads": 310,
+  "total_downloads": 348,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "0.3.0",
       "tag": "r-12853",
       "published_at": null,
-      "downloads": 310,
+      "downloads": 311,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12853/sponge-0.3.0-r12853.phar"
     },
     "dev": null
@@ -44,6 +44,16 @@
       "tag": "r-12853",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12853/sponge-0.3.0-r12853.phar"
+    },
+    {
+      "tag": "r-12825",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12825/sponge-0.2.0-r12825.phar"
+    },
+    {
+      "tag": "r-12789",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12789/sponge-0.1.0-r12789.phar"
     }
   ],
   "comments": {

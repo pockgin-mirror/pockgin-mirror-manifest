@@ -1,0 +1,64 @@
+{
+  "id": "keyshop",
+  "name": "KeyShop",
+  "author": "fernanACM",
+  "description": "A store plugin to sell keys on your server. Only for PocketMine-MP 5.0",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/KeyShop)](https://poggit.pmmp.io/p/KeyShop)\n\n[![](https://poggit.pmmp.io/shield.api/KeyShop)](https://poggit.pmmp.io/p/KeyShop)\n# KeyShop\nA store plugin to sell keys on your server. Only for PocketMine-MP 5.0\n\n![keyshop-icon](https://github.com/fernanACM/KeyShop/assets/83558341/028f36e8-f19c-487b-a202-edf36cbb61b1)\n\n<a href=\"https://discord.gg/YyE9XFckqb\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n\n### 📸 Images\n<img src=\"https://github.com/fernanACM/KeyShop/assets/83558341/4e94ca04-2c10-4eab-b44a-8161b3b42bd9\">\n\n### 🌍 Wiki\n* Check our plugin [wiki](https://github.com/fernanACM/KeyShop/wiki) for features and secrets in the...\n\n### 💡 Implementations\n* [X] Configuration\n* [X] EconomyAPI and BedrockEconomy support \n* [X] Multisupport keys\n\n### 💾 Config\n```yaml\n#  _  __                 ____    _                     \n# | |/ /   ___   _   _  / ___|  | |__     ___    _ __  \n# | ' /   / _ \\ | | | | \\___ \\  | '_ \\   / _ \\  | '_ \\ \n# | . \\  |  __/ | |_| |  ___) | | | | | | (_) | | |_) |\n# |_|\\_\\  \\___|  \\__, | |____/  |_| |_|  \\___/  | .__/ \n#                |___/                          |_|    \n#         by fernanACM\n# A store plugin to sell keys on your server. It accepts \n# all types of keys from each plugin, which is why it is unique in its kind.\n\n# DO NOT TOUCH!\nconfig-version: \"1.0.0\"\n# Prefix plugin\nPrefix: \"&l&f[&bKEYSHOP&f]&8»&r \"\n# Usa economyapi, bedrockeconomy, xp\nEconomy: \n  provider: bedrockeconomy\n# Here put the command to give you a key\n# {PLAYER} => Player name\n# {KEY} => The key has to be received\n# {AMOUNT} => The number of keys\nKey-command: key give \"{PLAYER}\" {KEY} {AMOUNT}\n# EXAMPLE:\n# KEYS:\n# - {LINE} => Line break\n# - {AMOUNT} => Number of keys\n# - {PRICE} => Price of the key\n# - \"&\" => Color\n# KeyShop:\n#   Common: // THE NAME OF THE KEY WILL GO HERE (MUST BE EXACT)\n#     name: \"&l&cCOMUN{LINE}&r&0x{AMOUNT} | cost: {PRICE}$\" // OPTIONAL\n#     price: 323 // Key price\n#     image: \"textures/items/cancel\" // OPTIONAL - URL or PATH\n#     amount: 2 // Number of keys to receive\nKeyShop:\n  Common:\n    price: 334\n    name: \"&l&cCOMMON{LINE}&r&0x{AMOUNT} | cost: {PRICE}$\"\n    image: \"textures/items/diamond\" # Ruta de la imagen (opcional)\n    amount: 1\n  Epic:\n    price: 323\n    name: \"&l&5EPIC{LINE}&r&0x{AMOUNT} | cost: {PRICE}$\"\n    image: \"https://preview.redd.it/you-have-an-ugly-gray-creeper-instead-of-a-minecraft-icon-v0-y83ppc5i6r4b1.png?width=1024&format=png&auto=webp&s=12576cea991cd7c24bd277c1c43800e81ea0e73a\" # Ruta de la imagen (opcional)\n    amount: 1\n\n# Form => Keyshop\nForm:\n  title: \"&l&9KEYSHOP\"\n  content: \"&eSelect the key of your preference:\"\n# Messages\nMessages:\n  error:\n    no-config: \"&cApparently there are no keys available...\"\n    no-money: \"&cYou don't have enough money to make this purchase!\"\n  success:\n    successful-purchase: \"&aYou have purchased &bx{AMOUNT} {KEY}&a keys for only &b{PRICE}$\"\n```\n\n### 📢 Report bug\n* If you find any bugs in this plugin, please let me know via: [issues](https://github.com/fernanACM/KeyShop/issues)\n\n### 📞 Contact\n| Redes | Tag | Link |\n|-------|-------------|------|\n| YouTube | fernanACM | [YouTube](https://www.youtube.com/channel/UC-M5iTrCItYQBg5GMuX5ySw) | \n| Discord | fernanACM#5078 | [Discord](https://discord.gg/YyE9XFckqb) |\n| GitHub | fernanACM | [GitHub](https://github.com/fernanACM)\n| Poggit | fernanACM | [Poggit](https://poggit.pmmp.io/ci/fernanACM)\n****\n\n### ✔ Credits\n| Authors | Github | Lib |\n|---------|--------|-----|\n| Vecnavium | [Vecnavium](https://github.com/Vecnavium) | [FormsUI](https://github.com/Vecnavium/FormsUI/tree/master/) |\n| DaPigGuy | [DaPigGuy](https://github.com/DaPigGuy) | [libPiggyEconomy](https://github.com/DaPigGuy/libPiggyEconomy) |\n| DaPigGuy | [DaPigGuy](https://github.com/DaPigGuy) | [libPiggyUpdateChecker](https://github.com/DaPigGuy/libPiggyUpdateChecker) |\n****\n\n## 🔔 Icon:\n\nThe plugin icon is created via [flaticon](www.flaticon.com)",
+  "readme_source_url": "https://github.com/fernanACM/KeyShop",
+  "icon_url": "https://raw.githubusercontent.com/fernanACM/KeyShop/e5b9896fd959c4e426d5a29d35f6eaacee0a4333/keyshop-icon.png",
+  "featured": false,
+  "repo": "https://github.com/fernanACM/KeyShop",
+  "archive_repo": null,
+  "approved_release_tag": "r-12778",
+  "stars": 0,
+  "total_downloads": 1296,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "fernanACM"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12778",
+      "published_at": null,
+      "downloads": 1296,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12778/keyshop-1.0.0-r12778.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12778",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12778/keyshop-1.0.0-r12778.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KeyShop",
+    "stable_release_id": 12778
+  }
+}

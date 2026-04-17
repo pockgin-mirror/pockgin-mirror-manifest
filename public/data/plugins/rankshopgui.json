@@ -1,0 +1,61 @@
+{
+  "id": "rankshopgui",
+  "name": "RankShopGUI",
+  "author": "Clickedtran",
+  "description": "GENERAL",
+  "readme_markdown": "## GENERAL\n<div align=\"center\">\n  <img src=\"https://github.com/ClickedTran/RankShopGUI/blob/Master/icon.png\" width=\"512x\" height=\"auto\">\n <br>\n This is a plugin that allows admins or staff to create shops to buy rank on the server!\n  <br>\nRankShopGUI is inspired by a java server\n</div>\n\n## FEATURE\n<h6>CREATE RANK</h6>\n\n- [x] minimum rank requirement to advance to the next rank\n- [x] rank description\n- [x] The amount of money to buy the next rank (edit the currency in config.yml)\n- [x] set of items representing rank\n- [x] set slot for representative item\n\n<h6>REMOVE RANK</h6>\n\n- [x] Enter the category name to delete\n\n<h6>EDIT RANK</h6>\n\n- [x] Edit the category name to represent rank\n- [x] Edit request rank\n- [x] Edit next rank\n- [x] Edit rank description\n- [x] Edit rank purchase amount\n- [x] Edit items representing rank\n- [x] Edit slots for representative items\n\n## COMMAND\n| **Command** | **Description** | **alias** |\n| --- | --- | --- |\n| `/rankshop` | `Open Shop Rank` | `rs` |\n\n## SUBCOMMAND & PERMISSION\n| **SUBCOMMAND** | **DESCRIPTION** | **PERMISSION** | **DEFAULT** |\n| --- | --- | --- | --- |\n| `create` | Create new category for shop rank | `rankshopgui.command.create` | `op` |\n| `delete` | Delete category of shop rank | `rankshopgui.command.remove` | `op` |\n| `setup` | Edit category of shop rank | `rankshopgui.command.edit` | `op` |\n| `help` | See all command of shop rank | `rankshopgui.command.help | `op` |\n\n## TUTORIAL \n- [Click to see tutorial](https://youtu.be/csEVH3Ts06U?si=-0NenHjyS7zYIpuZ)\n\n## VIRION SUPPORT\n- [InvMenu](https://github.com/muqsit/InvMenu)(Muqsit)\n- [libPiggyEconomy](https://https://github.com/DaPigGuy/libPiggyEconomy)(DaPigGuy)\n- [FormAPI](https://github.com/jojoe77777/FormAPI)(jojoe77777)\n- [libRanks](https://github.com/ClickedTran/libRanks)(ClickedTran)\n\n## FOR DEVELOPER\n<h6>Create new category and rank</h6>\n\n```php\nRankShopGUI::getInstance()->createShop(string $name, string $rankRequired, string $nextRank, string $description, int $price, string $item, int $slot)\n```\n\n<h6>Remove Category</h6>\n\n```php\nRankShopGUI::getInstance()->removeShop(string $name)\n```\n\n## INSTALL\n- Step 1. Download the latest version\n- Step 2. Place the `RankShopGUI.phar` file into the `plugins` folder.\n- Step 3. Restart the server.\n- Step 4. Done!",
+  "readme_source_url": "https://github.com/Clickedtran/RankShopGUI",
+  "icon_url": "https://raw.githubusercontent.com/Clickedtran/RankShopGUI/25e5fc2f7f169481fb6cc0e7727d2376f9132420/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Clickedtran/RankShopGUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-12632",
+  "stars": 5,
+  "total_downloads": 2538,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Clickedtran"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12632",
+      "published_at": null,
+      "downloads": 2538,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12632/rankshopgui-1.0.0-r12632.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12632",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12632/rankshopgui-1.0.0-r12632.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RankShopGUI",
+    "stable_release_id": 12632
+  }
+}
