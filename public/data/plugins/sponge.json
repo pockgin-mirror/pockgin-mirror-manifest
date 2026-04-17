@@ -1,0 +1,61 @@
+{
+  "id": "sponge",
+  "name": "Sponge",
+  "author": "Catalyst-Serendipity",
+  "description": "A PocketMine-MP plugin implementing sponge functionality for water absorption.",
+  "readme_markdown": "## Sponge\n\nA PocketMine-MP plugin implementing sponge functionality for water absorption.\n\n## Credits\n\n<a target=\"_blank\" href=\"https://icons8.com/icon/BADrGJ5K0bGW/sponge\">sponge</a> icon by <a target=\"_blank\" href=\"https://icons8.com\">Icons8</a>",
+  "readme_source_url": "https://github.com/Catalyst-Serendipity/Sponge",
+  "icon_url": "https://raw.githubusercontent.com/Catalyst-Serendipity/Sponge/81dd9bcc1969f84150239f75108735ace2bcbd80/assets/sponge.png",
+  "featured": false,
+  "repo": "https://github.com/Catalyst-Serendipity/Sponge",
+  "archive_repo": null,
+  "approved_release_tag": "r-12853",
+  "stars": 0,
+  "total_downloads": 310,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Catalyst-Serendipity"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/233885",
+  "versions": {
+    "stable": {
+      "version": "0.3.0",
+      "tag": "r-12853",
+      "published_at": null,
+      "downloads": 310,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12853/sponge-0.3.0-r12853.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12853",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12853/sponge-0.3.0-r12853.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Sponge",
+    "stable_release_id": 12853
+  }
+}

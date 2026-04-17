@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13760",
   "stars": 5,
-  "total_downloads": 256,
+  "total_downloads": 474,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -54,6 +54,16 @@
       "tag": "r-13475",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13475/kdr-pe-1.0.4-r13475.phar"
+    },
+    {
+      "tag": "r-13010",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13010/kdr-pe-1.0.3-r13010.phar"
+    },
+    {
+      "tag": "r-12936",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12936/kdr-pe-1.0.2-r12936.phar"
     }
   ],
   "comments": {

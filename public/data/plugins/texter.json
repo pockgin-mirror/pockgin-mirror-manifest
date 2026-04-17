@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14302",
   "stars": 0,
-  "total_downloads": 298,
+  "total_downloads": 1366,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-14137",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14137/texter-4.3.2-r14137.phar"
+    },
+    {
+      "tag": "r-12911",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12911/texter-4.3.1-r12911.phar"
     }
   ],
   "comments": {

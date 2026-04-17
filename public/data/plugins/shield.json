@@ -1,0 +1,66 @@
+{
+  "id": "shield",
+  "name": "Shield",
+  "author": "JavierLeon9966",
+  "description": "A PocketMine-MP plugin which adds functionable shields",
+  "readme_markdown": "# Shield\nA PocketMine-MP plugin which adds functionable shields\n\nThis plugin adds vanilla shields and works perfectly the same as vanilla Minecraft.\n\nHold the shield, in either hand, crouch to activate and uncrouch to deactivate.\n\nThe attacker will get knock back when trying to hit a player that is blocking.\n\nThe shield gets a short cooldown when swinging the arm.",
+  "readme_source_url": "https://github.com/JavierLeon9966/Shield",
+  "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/Shield/2363a4a428daac84e9cad18b9d692e77d561da2d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/JavierLeon9966/Shield",
+  "archive_repo": null,
+  "approved_release_tag": "r-12985",
+  "stars": 0,
+  "total_downloads": 1297,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JavierLeon9966"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/237861",
+  "versions": {
+    "stable": {
+      "version": "1.25.0",
+      "tag": "r-12985",
+      "published_at": null,
+      "downloads": 1082,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12985/shield-1.25.0-r12985.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12985",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12985/shield-1.25.0-r12985.phar"
+    },
+    {
+      "tag": "r-12905",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12905/shield-1.24.0-r12905.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Shield",
+    "stable_release_id": 12985
+  }
+}

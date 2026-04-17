@@ -1,0 +1,61 @@
+{
+  "id": "wft",
+  "name": "WFT",
+  "author": "WolfDen133",
+  "description": "WFloatingText - 1.5.3",
+  "readme_markdown": "# WFloatingText - 1.5.3\r\n### Hello, and welcome to **WFloatingText**.\r\n\r\n![](logo.png)\r\n\r\n> ### Please note that 1.5.2 to 1.5.3 you will now need to use `\\#` instead of `#`\r\n\r\n### NOW IN API 5.0\r\n\r\nThis is the official recode of my old plugin WFT, witch had some issues. Overall I was not happy with the result, the code was messy, it was all in one file, there was useless and in-efficient code, with a hard api to use, so decided to recode it.\r\n\r\nI have added features, because I felt the plugin needed them, and removed features, as some features where not needed.\r\n\r\n## Features added\r\n\r\n- WFT-OLD Migration\r\n- Multiple language support\r\n- Optional display identifier\r\n- More Tags\r\n- Per-Player Texts\r\n- Packet Texts over Entity\r\n- More efficient and pretty code\r\n- Operator texts [More info here](.github/operator-texts.md)\r\n- Operator change detection\r\n- Multi newline support\r\n\r\nMigration: This should have been added on 1.0, but texts from WFT-OLD will now be automaticly migrated to WFT format.\r\n\r\nLanguage support: You can now change the language of the plugin to suit your server.\r\n\r\nDisplay identifier: You can now turn on or off the option to see the texts unique identifier (Much like Texter, but optional).\r\n\r\nMore tags: Added many more tags for better, they are also player specific.\r\n\r\nPer-Player texts: Players will now get a specific text depending on what tag you use.\r\n\r\nPackets: The old plugin used entities, putting more load on the server, whereas this plugin uses packets, therefore creating a more lightweight plugin.\r\n\r\nEfficient and pretty code: The code in this plugin is WAY more efficient and clean that the old plugin. The code is also spaced out in multiple files.\r\n\r\nOperator texts: Have the option only displaying text to operators, this could be useful for a general server overview in your spawn world without it affecting your general players! [Again, more info here](.github/operator-texts.md)\r\n\r\nOperator change detection: WFloatingText will now automatically detect when your operator status changes, so no more annoying re-logging\r\n\r\nMulti-newline support: You can use either `\\n` for a new line for always player facing texts, or use `\\#` to keep the shape of your text, or have the best of both worlds\r\n## Bug Fixes\r\n\r\n### List form would crash the server\r\n**Status**: Fixed\r\n\r\n**Version**: >=1.5.1\r\n\r\n**Fixed in**: <=1.5.2\r\n\r\n### https://github.com/WolfDen133/WFT/issues/21\r\n**Status**: Fixed\r\n\r\n**Version**: >=1.3.5\r\n\r\n**Fixed in**: <=1.3.6\r\n\r\n### https://github.com/WolfDen133/WFT/issues/20\r\n  **Status**: Fixed\r\n  \r\n  **Version**: >=1.3.4\r\n\r\n  **Fixed in**: <=1.3.5\r\n\r\n### https://github.com/WolfDen133/WFT/issues/12\r\n  **Status**: Fixed\r\n  \r\n  **Version**: >=1.3.1\r\n  \r\n  **Fixed in**: <=1.3.2\r\n\r\n### https://github.com/WolfDen133/WFT/issues/16 \r\n  **Status**: Fixed\r\n  \r\n  **Version**: >=1.3.2\r\n  \r\n  **Fixed In**: <=1.3.3\r\n\r\n## Features\r\n\r\n- Refresh timer\r\n- Tags for various things\r\n- Lots of useful commands\r\n- Form or command line options\r\n- Help subcommand for new people \r\n- Powerful fast and efficient code\r\n- Extensive customizable\r\n\r\n## Example\r\n\r\n![Example](https://i.imgur.com/2oKCNwO.png)\r\n\r\n## Commands\r\n\r\nMaster command is ft|wft.master\r\n\r\n| Subcommand | Permission        | Description                      | Aliases                                                |\r\n|------------|-------------------|----------------------------------|--------------------------------------------------------|\r\n| `wft`      | `wft.command.use` | The master command               | `ft`                                                   |\r\n| `add`      | ~                 | Add a new ft                     | `spawn`, `summon`, `new`, `make`, `create`, `c`, `a`   |\r\n| `remove`   | ~                 | Remove a existing ft             | `break`, `delete`, `bye`, `d`, `r`,                    |\r\n| `edit`     | ~                 | Edit an existing ft              | `e`, `change`                                          |\r\n| `tp`       | ~                 | Teleport to an ft                | `teleportto`, `tpto`, `goto`, `teleport`               |\r\n| `tphere`   | ~                 | Teleport a ft to you             | `teleporthere`, `movehere`, `bringhere`, `tph`, `move` |\r\n| `list`     | ~                 | See a list of the current fts    | `see`, `all`                                           |\r\n| `help`     | ~                 | So you can get some in-game help | `stuck`, `h`, `?`                                      |\r\n| `reload`   | ~                 | Re-read and reload all texts     | -                                                      |\r\n\r\n## Tags\r\n\r\n| Tag                | Description                                                |\r\n|--------------------|------------------------------------------------------------|\r\n| `\\#`               | New Section                                                |\r\n| `\\n`               | New line                                                   |\r\n| `&`                | Use for color codes (same as `§`)                          |\r\n| `{NAME}`           | Players real name                                          |\r\n| `{REAL_NAME}`      | Players real name                                          |\r\n| `{DISPLAY_NAME}`   | Players display name (often nick plugins use display name) |\r\n| `{PING}`           | Players Current Ping                                       |\r\n| `{MAX_PLAYERS}`    | Maximum players that can be on the server                  |\r\n| `{ONLINE_PLAYERS}` | Currently online player count                              |\r\n| `{X}`              | Players X Position                                         |\r\n| `{Y}`              | Players Y Position                                         |\r\n| `{Z}`              | Players Z Position                                         |\r\n| `{REAL_TPS}`       | Current server tps                                         |\r\n| `{TPS}`            | Average server tps                                         |\r\n| `{REAL_LOAD}`      | Current server load                                        |\r\n| `{LOAD}`           | Average server load                                        |\r\n| `{LEVEL_NAME}`     | Players current level name                                 |\r\n| `{LEVEL_FOLDER}`   | Players current level folder name                          |\r\n| `{LEVEL_PLAYERS}`  | Players current level player count                         |\r\n| `{CONNECTION_IP}`  | The IP address that the player connected from              |\r\n| `{SERVER_IP}`      | The servers IP address                                     |\r\n| `{TIME}`           | Current server time (Customisable in config)               |\r\n| `{DATE}`           | Current server date (Customisable in config)               |\r\n\r\n### Create your own\r\n  See how to create your own [here](https://github.com/WolfDen133/WFT-Tags-Example)\r\n \r\n## Languages\r\n- Czech (cz)\r\n- English (en)\r\n- German (de)\r\n- Russian (ru)\r\n- Slovak (sk)\r\n- Spanish (sp)\r\n- Ukrainian (ua)\r\n- Turkish (tr)\r\n- Indonesian (id)\r\n\r\nBut feel free to add your own!\r\n  \r\n## NEW API\r\n\r\n> ### Notes:\r\n> - Docs are presented: \r\n> `$varableName  // [varableType] explanation`\r\n\r\nExample:\r\n\r\nImport the classes\r\n\r\n```php\r\n\r\n```\r\nCreating the text\r\n```php\r\n// Creation and registration\r\n$position = new Position($x, $y, $z, $world);\r\n\r\nWFT::getInstance()->getTextManager()->registerText(\r\n    $identifier,    // [STRING] Unique identifier that is used in the api to manipulate the text in future\r\n    $text,          // [STRING] In raw, the text that you want for the text's content\r\n    $position,      // [OBJECT: POSITION] Where the text is placed in the server\r\n    ($spawnToAll)   // [BOOL] (optional) Whether the text is spawned to the server on creation\r\n    ($saveText)     // [BOOL] (optional) Whether WFT creates a config file for the text and reloads it when the server is restarted (set to false if you are going to be registering texts on enable)\r\n);  // Returns the created text\r\n\r\n// Spawning (unnecessary if $spawnToAll is true)\r\n// (identifier is the one used to register the ft)\r\nWFT::getInstance()->getTextManager()->getActions()->spawnTo($player, $identifier);\r\n// or\r\nWFT::getInstance()->getTextManager()->getActions()->spawnTo($identifier);\r\n```\r\n\r\nGetting and changing the text's content\r\n```php\r\n// Getting the ft\r\n$floatingText = WFT::getInstance()->getTextManager()->getTextById($identifier);\r\n\r\n// Changing the text\r\n$floatingText->setText($text);\r\n\r\n// Pushing the update\r\nWFT::getInstance()->getTextManager()->getActions()->respawnTo($player, $floatingText);\r\n// or \r\nWFT::getInstance()->getTextManager()->getActions()->respawnToAll($floatingText);\r\n```\r\n\r\nRemoving the text\r\n```php\r\n// Remove the text\r\nWFT::getInstance()->getTextManager()->removeText($identifier);\r\n```\r\n\r\n\r\nThat's it, the rest is handled by the plugin\r\n\r\n## Credit\r\n\r\n- [**WolfDen133**](https://github.com/WolfDen133) (*Main Programmer*) [ฬ๏ɭŦ๔єภ133;#6969]\r\n- [**McMelonTV**](https://github.com/McMelonTV) (*Translations - Slovak, Czech*) [McMelon#9999]\r\n- [**TheFixDev**](https://github.com/TheFixDev) (*Translation - German*) [𝓗𝓪𝓫𝓓𝓲𝓬𝓱𝓢𝓸𝓖𝓮𝓻𝓷#6158]\r\n- [**kostamax27**](https://github.com/kostamax27) (*Suggestion & Translation - Russian, Ukrainian*) [kostamax27#0160]\r\n- [**Sergittos**](https://github.com/Sergittos) (*Translation - Spanish*) [Sergittos#0001]\r\n- [**DragonfireHD**](https://github.com/DragonfireHD) (*Translation - Turkish*)\r\n- [**keenanyafiqy**](https://github.com/keenanyafiqy) (*Translation - Indonesian*)",
+  "readme_source_url": "https://github.com/WolfDen133/WFT",
+  "icon_url": "https://raw.githubusercontent.com/WolfDen133/WFT/2056accedc6061ef9e91a5fd3a0dc4d8661c4793/logo.png",
+  "featured": false,
+  "repo": "https://github.com/WolfDen133/WFT",
+  "archive_repo": null,
+  "approved_release_tag": "r-13100",
+  "stars": 0,
+  "total_downloads": 536,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.4.3-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "WolfDen133"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/240280",
+  "versions": {
+    "stable": {
+      "version": "1.5.3",
+      "tag": "r-13100",
+      "published_at": null,
+      "downloads": 536,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13100/wft-1.5.3-r13100.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13100",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13100/wft-1.5.3-r13100.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WFT",
+    "stable_release_id": 13100
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "farmingchest",
+  "name": "FarmingChest",
+  "author": "Yookou",
+  "description": "Allows you to collect farming with a chest !",
+  "readme_markdown": "# FarmingChest\n\nAllows you to collect farming with a chest !\n\nIf you have any problems please create an issue I will try to answer them as soon as possible. And feel free to star the project\n\nFinally, if you are looking for private plugins at a good price, I can make some on my discord: yakuuuuuuuuuuuuuuu_\n\n### Config\n\n```yaml\n##Message\nchest-full-message: \"The chest is full !\"\n\n##FarmingChest\nagriculture:\n  enable-carrot: true\n  enable-potato: true\n  enable-beetroot: true\n  enable-wheat: true\nrange:\n  x: 4\n  z: 4\n```\n### Features\n| `Pickup Carrot` | ✔ \n| `Pickup Potato` | ✔ \n| `Pickup Wheat` | ✔ \n| `Pickup Beetroot` | ✔",
+  "readme_source_url": "https://github.com/Yookou/FarmingChest",
+  "icon_url": "https://raw.githubusercontent.com/Yookou/FarmingChest/6b9e82334abc7ee07f56b0076a17471e09ea56a7/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Yookou/FarmingChest",
+  "archive_repo": null,
+  "approved_release_tag": "r-12898",
+  "stars": 0,
+  "total_downloads": 178,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Yookou"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-12898",
+      "published_at": null,
+      "downloads": 178,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12898/farmingchest-1.1.0-r12898.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12898",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12898/farmingchest-1.1.0-r12898.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FarmingChest",
+    "stable_release_id": 12898
+  }
+}

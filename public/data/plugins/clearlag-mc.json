@@ -1,0 +1,61 @@
+{
+  "id": "clearlag-mc",
+  "name": "ClearLag-Mc",
+  "author": "tstarkdev",
+  "description": "Clear Lag",
+  "readme_markdown": "<h1>Clear Lag<img src=\"icon.png\" height=\"64\" width=\"64\" align=\"left\"></img></h1><br/>\r\n<img src=\"assets/img/screenshot.png\" height=\"100\" width=\"200\" align=\"left\"></img>\r\n<p>ClearLag is a plugin for PocketMine-MP designed to automatically clean items dumped on the server from time to time. This helps reduce lag and maintain server performance.</p><br/>\r\n\r\n<table border=\"1\">\r\n  <tr>\r\n    <th>Description</th>\r\n    <th>Link</th>\r\n  </tr>\r\n  <tr>\r\n    <td>API</td>\r\n    <td><a href=\"https://poggit.pmmp.io/p/ClearLag-Mc\"><img src=\"https://poggit.pmmp.io/shield.api/ClearLag-Mc\" alt=\"Version\"></a></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Version</td>\r\n    <td><a href=\"https://poggit.pmmp.io/p/ClearLag-Mc\"><img src=\"https://poggit.pmmp.io/shield.state/ClearLag-Mc\" alt=\"API\"></a></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Downloads</td>\r\n    <td><a href=\"https://poggit.pmmp.io/p/ClearLag-Mc\"><img src=\"https://poggit.pmmp.io/shield.dl.total/ClearLag-Mc\" alt=\"Downloads\"></a></td>\r\n  </tr>\r\n</table>\r\n\r\n## Characteristics\r\n\r\n- Automatically deletes items dumped on the server at configurable intervals.\r\n- Send a warning message before cleaning items.\r\n- Shows periodic messages informing about the time remaining until the next cleaning.\r\n- Allows you to customize warning and cleaning messages.\r\n- Reports the number of items removed after each cleaning.\r\n\r\n## Facility\r\n\r\n1. Download the plugin and unzip it if necessary.\r\n2. Place the `ClearLag` folder in the `plugins` directory of your PocketMine-MP server.\r\n3. Start or restart your PocketMine-MP server to load the plugin.\r\n\r\n## Setting\r\n\r\nThe configuration file `config.yml` is located in the `resources/ClearLag/config.yml` folder. You can edit this file to adjust cleaning intervals and customize messages. Below is an example of the default configuration:\r\n\r\n```yaml\r\nclear-interval: 120\r\nclear-message: \"§aItems deleted.\"\r\nwarning-message: \"§cCollecting garbage in {time}...\"\r\nbroadcast-interval: 15\r\nbroadcast-message: \"§bThe items will be deleted in {time} seconds.\"\r\n```\r\n\r\n### 🌐 Web Sites:\r\n- [<img src=\"https://pocketmineschool.netlify.app/favicon.ico\" alt=\"Pocket Mine School\" width=\"40\" height=\"40\"/> Pocket Mine School](https://pocketmineschool.netlify.app/)\r\n- [<img src=\"https://mcpetools.surge.sh/favicon.ico\" alt=\"MCPETools\" width=\"40\" height=\"40\"/> MCPETools](https://mcpetools.surge.sh/)\r\n\r\n### Connect with me:\r\n- [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sr_shelby02)\r\n[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@t-starks)\r\n[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@t.starkofc)\r\n- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/t-stark)\r\n[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/t-starks)\r\n\r\n## 💰 You can help me by Donating\r\n[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/t.stark)\r\n[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/tstark)",
+  "readme_source_url": "https://github.com/tstarkdev/ClearLag",
+  "icon_url": "https://raw.githubusercontent.com/t-starks/ClearLag/899e58608938b166ae66c8bf3c2af8515e2bd76b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/tstarkdev/ClearLag",
+  "archive_repo": null,
+  "approved_release_tag": "r-13129",
+  "stars": 0,
+  "total_downloads": 2019,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "tstarkdev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13129",
+      "published_at": null,
+      "downloads": 2019,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13129/clearlag-mc-1.0.0-r13129.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13129",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13129/clearlag-mc-1.0.0-r13129.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ClearLag-Mc",
+    "stable_release_id": 13129
+  }
+}

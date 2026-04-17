@@ -1,0 +1,61 @@
+{
+  "id": "betterban",
+  "name": "BetterBan",
+  "author": "supercrafter333",
+  "description": "BetterBan - v4.2.2",
+  "readme_markdown": "[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/ca6cWPpERp)\n# BetterBan - v4.2.2   [![](https://poggit.pmmp.io/shield.state/BetterBan)](https://poggit.pmmp.io/p/BetterBan) [![](https://poggit.pmmp.io/shield.dl.total/BetterBan)](https://poggit.pmmp.io/p/BetterBan)\n\n**Would you like to ban players for a certain period of time? Then BetterBan is just right for you! Easily ban players for a certain time and configure a bit in `config.yml`.**\n\nI would be very happy if you leave a star for this project.\n\n### Features\n- Ban players and Ips easy per time\n- Edit bans\n- Custom Kicks\n- See how often was a player banned\n- See ban information of bans\n- MySQL Support (Thank you very much [@Tobias-2006](https://github.com/Tobias-2006))\n- Discord-Webhook Support\n- Events\n- configure something in the `config.yml`\n- Easy2Use\n\n### TODOs\n- [ ] Stop dispatching commands in forms [**!**]\n- [X] Banlog Command ([#2](https://github.com/supercrafter333/BetterBan/issues/2))\n- [X] Baninfo Command ([#2](https://github.com/supercrafter333/BetterBan/issues/2))\n- [X] Edited Unban Command ([#2](https://github.com/supercrafter333/BetterBan/issues/2)) [Only maybe]\n- [X] Editban Command ([#2](https://github.com/supercrafter333/BetterBan/issues/2)) [as last, later]\n- [X] Events\n- [X] Ip-Bans\n- [X] Custom Kick\n- [X] Forms\n- [X] MySQL Support ([#8](https://github.com/supercrafter333/BetterBan/issues/8)) [V4]\n- [x] Timer Durations ([#39](https://github.com/supercrafter333/BetterBan/issues/39))\n\n**Mutes & Warns?**\n\nPlease **DO NOT** open issues with suggestions like \"Can you add mutes/warns?\"! I already have plugins for this, [theWarn](https://github.com/supercrafter333/theWarn) to warn players and BetterMute which can be found on poggit.\n\n###\n### Bugs - none\nYou've found a Bug?\n- Go to [Issues](https://github.com/supercrafter333/BetterBan/issues)\n- Click on [New Issue](https://github.com/supercrafter333/BetterBan/issues/new/choose)\n- Write your bug with all Informations that you have down\n- Send Issue\n- Wait, I where answer you\n\n### Commands\n|**Command**|**Description**|\n|-----------|---------------|\n|`/ban <player> [reason: ...] [time: ...]`|Ban a player|\n|`/banlog <player>`|See the ban-count of an player|\n|`/baninfo <player>`|See ban informations for a player|\n|`/editban <player> <addbantime/reducebantime> <time>`|Edit a ban of a player|\n|`/pardon <player>`|Unban a player|\n|`/ban-ip <ip> [reason: ...] [time: ...]`|Ban a ip|\n|`/editipban <ip> <addbantime/reducebantime> <time>`|Edit a Ip-Ban|\n|`/pardon-ip <ip>`|Unban a ip|\n|`/kick <player>`|Kick a player|\n|`/betterban`|Open the BetterBan-Form|\n\n### License\nThis Plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by supercrafter333!\n\n### Credits\nOwner: supercrafter333\n\nHelper: [@Tobias-2006](https://github.com/Tobias-2006)\n\nIcon: [Tenor GIF](https://tenor.com/boBQR.gif)\n\nDiscord-Tag: `supercrafter333#4062`",
+  "readme_source_url": "https://github.com/supercrafter333/BetterBan",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/supercrafter333/BetterBan",
+  "archive_repo": null,
+  "approved_release_tag": "r-12934",
+  "stars": 0,
+  "total_downloads": 1338,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "supercrafter333"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/236108",
+  "versions": {
+    "stable": {
+      "version": "4.2.2-1",
+      "tag": "r-12934",
+      "published_at": null,
+      "downloads": 1338,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12934/betterban-4.2.2-1-r12934.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12934",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12934/betterban-4.2.2-1-r12934.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterBan",
+    "stable_release_id": 12934
+  }
+}

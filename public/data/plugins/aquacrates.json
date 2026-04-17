@@ -1,0 +1,61 @@
+{
+  "id": "aquacrates",
+  "name": "AquaCrates",
+  "author": "DaRealAqua",
+  "description": "Description",
+  "readme_markdown": "# AquaCrates\n### Description\nAquaCrates is a plugin that allows users create unlimited crates. Create crates in-game or by using the command /crate create <name>.\n\n### Features\n- configurable config / crates\n- customizable messages\n- support worlds\n- rewards\n- items\n- commands\n- floatingText\n\n### Installation\nTo install AquaCrates, simply follow these steps:\n\nDownload the latest version of AquaCrates from the Releases page on GitHub / poggit.\nPlace the downloaded .phar file into your PocketMine-MP plugins directory.\nStart your PocketMine-MP server and enjoy.\n\n### Configuration\nAquaCrates can be configured by editing the ``config.yml`` file in the plugin's directory or using the command /crate. Here you can see what can be configured:\n## Config\n```php\n# AquaCrates Configuration\n# Author: @DaRealAqua\n# Twitter: @DaRealAqua_\n\n# Time when Text's refresh.\n# Recommended: '3' seconds!\nupdate-floatingText: 3\n\n# Prefix.\nprefix: \"§8[§bAquaCrates§8]§r§7\"\n\n# Settings\nsettings:\n  # Crate Messages\n  # Popup => false | Message => true\n  message: true\n\n# View Reward when you open a Crate.\nshow-text: \"{color}{reward}\"\n```\n## Crates\n```php\n# Enchantments ID List:\n# Protection => 0\n# Fire Protection => 1\n# Feather Falling => 2\n# Blast Protection => 3\n# Projectile Protection => 4\n# Thorns => 5\n# Respiration => 6\n# Aqua Affinity => 8\n# Sharpness => 9\n# Smite => 10\n# Bane of Arthropods => 11\n# Knockback => 12\n# Fire Aspect => 13\n# Looting => 14\n# Efficiency => 15\n# Silk Touch => 16\n# Unbreaking => 17\n# Fortune => 18\n# Power => 19\n# Punch => 20\n# Flame => 21\n# Infinity => 22\n\n# Reward Types: item, command or random\nreward: random\n\n# Registered Crate's List.\n# Create a new 'CRATE' using the example above.\ncrates:\n  Aqua:\n    color: \"§b\"\n    display: \"{color}Aqua Crate{line}§7You have {color}{key} §7Orion keys\"\n    world:\n      world: \"world\"\n      x: 1\n      y: 5\n      z: 1\n    items:\n      - id: 222\n        count: 64\n      - id: 255\n        count: 64\n      - id: 276\n        count: 1\n      - id: 276\n        count: 1\n        customName: \"§r§l§6Orion Sword§r\"\n        lore: \"§7This is the§6 most powerful §7sword!\"\n        enchantId: 9\n        enchantLevel: 2\n    commands:\n      - name: \"§6x64 Stone\"\n        cmd: \"give {player} 1 64\"\n      - name: \"§ax64 Grass\"\n        cmd: \"give {player} 2 64\"\n      - name: \"§bx1 Diamond Sword\"\n        cmd: \"give {player} 276 1\"\n```\n## Messages\n```php\nno-perm: \"{prefix} §7You don't have permission to use this command!\"\nin-game: \"{prefix} §7Use this command in-game!\"\nlist: \"§l§bCrates List{line}§c{crates}\"\nhelp: \"§8-------------§l§bAquaCrates Help§r§8-------------{line}{line} §e- {usageAdd}{line} §e- {usageRemove}{line} §e- {usageSet}{line} §e- {usageCreate}{line} §e- {usageKeyAll}{line}{line}§8-------------§l§bAquaCrates Help§r§8-------------\"\nusage: \"{prefix} {usage}\"\nusage-addkeys: \"{prefix} §7{usage}\"\nusage-rmkeys: \"{prefix} §7{usage}\"\nusage-set: \"{prefix} §7{usage}\"\nusage-create: \"{prefix} §7{usage}\"\nusage-keyall: \"{prefix} §7{usage}\"\nplayer-not-found: \"{prefix} §7Player not Found!\"\ncrate-not-found: \"{prefix} Crate not Found!{line}§7Registered Crates: §a{crates}\"\nnot-numeric: \"{prefix} §7Amount is not numeric!\"\nreward: \"{prefix} §7You received §a{reward} §7from {color}{crate} §7Crate.\"\nno-key: \"{prefix} §7You have no key to open {color}{crate} §7Crate!\"\ninv-full: \"{prefix} §7Your inventory is full, make room to use the {color}{crate} §7Crate!\"\nin-use: \"{prefix} §7The {color}{crate} §7Crate is already used at the moment!\"\nalready-registered: \"{prefix} §7The §c{crate} §7Crate is already registered!\"\naddkeys-giver: \"{prefix} §7You gave §a{player} +{amount}x {crate} §7Crate Keys.\"\naddkeys-receiver: \"{prefix} §7You received §a{player} +{amount}x {crate} §7Crate Keys.\"\nrmkeys-giver: \"{prefix} §7You removed §c{player} -{amount}x {crate} §7Crate Keys.\"\nrmkeys-receiver: \"{prefix} §7You lost §c{player} -{amount}x {crate} §7Crate Keys.\"\ncreate: \"{prefix} §7You have successfully created §a{crate} §7Crate, the crate was spawned at X: §a{x}§7, Y: §a{y}§7, Z: §a{z}§7.\"\nset: \"{prefix} §7You have successfully set §a{crate} §7Crate, the crate was spawned at X: §a{x}§7, Y: §a{y}§7, Z: §a{z}§7.{line}§cRestart the Server!\"\nkeyall-giver: \"{prefix} §7You gave §aAll Online Player's +{amount}x {crate} §7Crate Keys.\"\nkeyall-receiver: \"{prefix} §e{giver} §7gave you §a+{amount}x {crate} §7Crate Keys.\"\nbreak: \"{prefix} §7You can't break {color}{crate} §7Crate!\"\n```\n### Contributing\nIf you find a bug or want to help improve the plugin, join my discord server and make a suggestion.\n\n### License\nAquaCrates is released under the Apache license. See the LICENSE file for more information.\n\n### Support\nIf you need help with AquaCrates, you can contact me on my discord server [AquaDevs](https://discord.gg/VFFzjceP6E) or create an issue on the GitHub repository.",
+  "readme_source_url": "https://github.com/DaRealAqua/AquaCrates",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/DaRealAqua/AquaCrates",
+  "archive_repo": null,
+  "approved_release_tag": "r-13113",
+  "stars": 1,
+  "total_downloads": 365,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaRealAqua"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-13113",
+      "published_at": null,
+      "downloads": 365,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13113/aquacrates-0.0.2-r13113.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13113",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13113/aquacrates-0.0.2-r13113.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AquaCrates",
+    "stable_release_id": 13113
+  }
+}

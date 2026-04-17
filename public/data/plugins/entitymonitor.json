@@ -1,0 +1,66 @@
+{
+  "id": "entitymonitor",
+  "name": "EntityMonitor",
+  "author": "JavierLeon9966",
+  "description": "Plugin that monitors every chunk with potential amount of entities and tiles",
+  "readme_markdown": "# EntityMonitor\nPlugin that monitors every chunk with potential amount of entities and tiles\n\nThis plugin is very simple that the only thing you need is one command:\n\n/monitor [entity|tile] [ticking: bool]\n\n## API\n```php\nuse JavierLeon9966\\EntityMonitor\\EntityMonitor;\nuse pocketmine\\world\\World;\n\n[$chunkHash, $entityCount] = EntityMonitor::getChunkWithMostEntities(World $world, bool $ticking): array{?int, int};\n\n[$chunkHash, $entityCount] = EntityMonitor::getChunkWithMostTiles(World $world, bool $ticking): array{?int, int};\n```",
+  "readme_source_url": "https://github.com/JavierLeon9966/EntityMonitor",
+  "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/EntityMonitor/a09af9b4a7272c3f3bcb38794539002aa1eb62f9/icon.png",
+  "featured": false,
+  "repo": "https://github.com/JavierLeon9966/EntityMonitor",
+  "archive_repo": null,
+  "approved_release_tag": "r-12989",
+  "stars": 0,
+  "total_downloads": 738,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JavierLeon9966"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/237885",
+  "versions": {
+    "stable": {
+      "version": "2.8.0",
+      "tag": "r-12989",
+      "published_at": null,
+      "downloads": 600,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12989/entitymonitor-2.8.0-r12989.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12989",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12989/entitymonitor-2.8.0-r12989.phar"
+    },
+    {
+      "tag": "r-12909",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12909/entitymonitor-2.7.0-r12909.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EntityMonitor",
+    "stable_release_id": 12989
+  }
+}

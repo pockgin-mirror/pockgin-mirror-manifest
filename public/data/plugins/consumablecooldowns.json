@@ -1,0 +1,61 @@
+{
+  "id": "consumablecooldowns",
+  "name": "ConsumableCooldowns",
+  "author": "TrinitroToluen0",
+  "description": "Set cooldowns to ender pearls and enchanted golden apples",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/ConsumableCooldowns)](https://poggit.pmmp.io/p/ConsumableCooldowns)\n\n# ConsumableCooldowns\nSet cooldowns to ender pearls and enchanted golden apples\n\n# Setup\n1. Download and place the .phar in your `plugins` folder.\n2. Restart your server.\n\n# Permissions\n`consumablecooldowns.bypass` Bypass the cooldowns of the consumable items.\n\n\n# Config\n```yaml\n# The message to send to the player who is on cooldown. Use {TIME} to display the time left in seconds.\ncooldown-message: §cThis item is on cooldown, wait {TIME} seconds to use it again!\n\n# Here you can set the cooldown of the enchanted golden apple, in seconds. Set to 0 to disable.\nenchanted-gapple-cooldown: 180\n\n# Here you can set the cooldown of the ender pearl, in seconds. Set to 0 to disable.\nender-pearl-cooldown: 15\n```",
+  "readme_source_url": "https://github.com/TrinitroToluen0/ConsumableCooldowns",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/TrinitroToluen0/ConsumableCooldowns",
+  "archive_repo": null,
+  "approved_release_tag": "r-12941",
+  "stars": 0,
+  "total_downloads": 162,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TrinitroToluen0"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12941",
+      "published_at": null,
+      "downloads": 162,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12941/consumablecooldowns-1.0.0-r12941.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12941",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12941/consumablecooldowns-1.0.0-r12941.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ConsumableCooldowns",
+    "stable_release_id": 12941
+  }
+}

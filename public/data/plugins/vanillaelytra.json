@@ -1,0 +1,68 @@
+{
+  "id": "vanillaelytra",
+  "name": "VanillaElytra",
+  "author": "JavierLeon9966",
+  "description": "This plugin implements vanilla Elytra into PocketMine-MP",
+  "readme_markdown": "# VanillaElytra\nThis plugin implements vanilla Elytra into PocketMine-MP",
+  "readme_source_url": "https://github.com/JavierLeon9966/VanillaElytra",
+  "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/VanillaElytra/321402d44d2761f55d36173e3fed2fd186df5e13/icon.png",
+  "featured": false,
+  "repo": "https://github.com/JavierLeon9966/VanillaElytra",
+  "archive_repo": null,
+  "approved_release_tag": "r-12986",
+  "stars": 0,
+  "total_downloads": 1352,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "Firework"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JavierLeon9966"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/237867",
+  "versions": {
+    "stable": {
+      "version": "1.20.0",
+      "tag": "r-12986",
+      "published_at": null,
+      "downloads": 1151,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12986/vanillaelytra-1.20.0-r12986.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12986",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12986/vanillaelytra-1.20.0-r12986.phar"
+    },
+    {
+      "tag": "r-12906",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12906/vanillaelytra-1.19.0-r12906.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VanillaElytra",
+    "stable_release_id": 12986
+  }
+}

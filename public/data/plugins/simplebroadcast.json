@@ -1,0 +1,61 @@
+{
+  "id": "simplebroadcast",
+  "name": "SimpleBroadcast",
+  "author": "JonyGamesYT9",
+  "description": "SimpleBroadcast v7.0.0",
+  "readme_markdown": "<div align=\"center\">\n<h1>SimpleBroadcast | v7.0.0</h1>\n<p>Automatic message system for PocketMine-MP, written in PHP-8 and only supports PocketMine-MP 5.0.0</p>\n</div>\n\n<h3>Features:</h3>\n<ul>\n<li>Unlimited Messages</li>\n<li>Add variables to messages</li>\n<li>PocketMine-MP 5.0.0 (Only)</li>\n</ul>\n\n<h3>Icon:</h3>\n<p>Icon Credits: https://www.flaticon.com/free-icon/broadcast_3315547?term=broadcast&page=1&position=9&page=1&position=9&related_id=3315547&origin=style</p>\n\n## Project information:\n| Version | Pocketmine API | PHP | Status |\n|---------|----------------|---|---|\n| 7.0.0   | 5.0.0          | 8 | Verified |",
+  "readme_source_url": "https://github.com/JonyGamesYT9/SimpleBroadcast",
+  "icon_url": "https://raw.githubusercontent.com/JonyGamesYT9/SimpleBroadcast/05aac11b07c086e3a9e13f5124b2e1d0f12015e6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/JonyGamesYT9/SimpleBroadcast",
+  "archive_repo": null,
+  "approved_release_tag": "r-12942",
+  "stars": 5,
+  "total_downloads": 598,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JonyGamesYT9"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/236429",
+  "versions": {
+    "stable": {
+      "version": "7.0.0",
+      "tag": "r-12942",
+      "published_at": null,
+      "downloads": 598,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12942/simplebroadcast-7.0.0-r12942.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12942",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12942/simplebroadcast-7.0.0-r12942.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleBroadcast",
+    "stable_release_id": 12942
+  }
+}

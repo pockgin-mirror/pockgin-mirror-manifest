@@ -1,0 +1,63 @@
+{
+  "id": "ultraluckyblocks",
+  "name": "UltraLuckyBlocks",
+  "author": "LUKAY207",
+  "description": "UltraLuckyBlocks 0.0.1**",
+  "readme_markdown": "# **UltraLuckyBlocks 0.0.1**\n\nThis plugin adds **Lucky Blocks** to your server.\nCurrently, I use a pretty easy system, \nthat drops a random amount of a random item.\nThis will surely be changed in the feature. \nI am going to rework the Lucky Block model as well.\n\n### SETUP\n\nYou just need to implement the resource pack\nfrom the resources folder  into your \nresource_packs folder. Then you'll need \nto add it in the **resource_packs.yml** as well.\n\n**NOTE:** This Plugin fully depends on Customies. \nCustomies is a very useful plugin, which makes it \neasier to register Blocks, Entities and Items\nYou can download Customies by following the link\n- https://poggit.pmmp.io/ci/CustomiesDevs/Customies/~\n\n![img_1.png](img.png)\n\n### TOOLS\n\nTools I have used/am using for creating/updating this plugin. \n\n**NOTE:** It also uses various tools that poggit uses to create\nand check  the plugin.\n- https://www.jetbrains.com/de-de/phpstorm/download/\n- https://www.blockbench.net\n\n### SOCIALS\n\nIf you want to learn some basics of coding, \nyou should have a look at my **YouTube** channel.\nI currently try to upload 2 Videos a week.\n\n- https://www.youtube.com/channel/UCgbsyomSNo3jutGEIlCPBhg\n\nIf you want me to create a plugin for you. \nText me on Discord. (lukay1)\n\n**NOTE:** I only take serious offers.",
+  "readme_source_url": "https://github.com/LUKAY207/UltraLuckyBlocks",
+  "icon_url": "https://raw.githubusercontent.com/LUKAY207/UltraLuckyBlocks/5f3ec0d5bffd2ffc63567ebc00a97b055f0945ed/icon.png",
+  "featured": false,
+  "repo": "https://github.com/LUKAY207/UltraLuckyBlocks",
+  "archive_repo": null,
+  "approved_release_tag": "r-13004",
+  "stars": 0,
+  "total_downloads": 364,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "Customies"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "LUKAY207"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-13004",
+      "published_at": null,
+      "downloads": 364,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13004/ultraluckyblocks-0.0.1-r13004.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13004",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13004/ultraluckyblocks-0.0.1-r13004.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "UltraLuckyBlocks",
+    "stable_release_id": 13004
+  }
+}

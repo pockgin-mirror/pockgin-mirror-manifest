@@ -1,0 +1,66 @@
+{
+  "id": "bedrockbreaker",
+  "name": "BedrockBreaker",
+  "author": "JavierLeon9966",
+  "description": "Allows breaking bedrock with TNT",
+  "readme_markdown": "# BedrockBreaker\nAllows breaking bedrock with TNT",
+  "readme_source_url": "https://github.com/JavierLeon9966/BedrockBreaker",
+  "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/BedrockBreaker/a34f1f75a854c31f4dbe22902a21be3cf8706c02/resources/Bedrock.png",
+  "featured": false,
+  "repo": "https://github.com/JavierLeon9966/BedrockBreaker",
+  "archive_repo": null,
+  "approved_release_tag": "r-12987",
+  "stars": 0,
+  "total_downloads": 468,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JavierLeon9966"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/237873",
+  "versions": {
+    "stable": {
+      "version": "4.7.0",
+      "tag": "r-12987",
+      "published_at": null,
+      "downloads": 395,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12987/bedrockbreaker-4.7.0-r12987.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12987",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12987/bedrockbreaker-4.7.0-r12987.phar"
+    },
+    {
+      "tag": "r-12907",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12907/bedrockbreaker-4.6.0-r12907.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BedrockBreaker",
+    "stable_release_id": 12987
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "hypixelbow",
+  "name": "HypixelBow",
+  "author": "kostamax27",
+  "description": "Play sound when hit player with bow**",
+  "readme_markdown": "### HypixelBow\n**Play sound when hit player with bow**\n\n\n### Features\n* Sound will be played when player hit a player with bow\n\n\n### Settings\nTo edit settings, open config.yml in plugin folder\n\n```yml\n---\n# HypixelBow Configuration File\n\n# will send to launched player and hit the projectile\n# not to send, set to false.\n#\n# Replacement:\n#\n# {hp}      : player's health\n# {max_hp}  : player's max health\n# {damage}  : amount of damage\n# {name}    : player's name\n# {display} : player's display name\n\nsound:\n  enable: true\n  volume: 1\n  pitch: 1\n  name: random.orb\nmessage:\n  enable: true\n  message: \"§c{name} §7(§aHP: §e{hp}§7)\"\npopup:\n  enable: true\n  message: \"§c{name} §7(§aHP: §e{hp}§7)\"\ntip:\n  enable: true\n  message: \"§c{name} §7(§aHP: §e{hp}§7)\"\n...\n```",
+  "readme_source_url": "https://github.com/kostamax27/Hypixel-Bow",
+  "icon_url": "https://raw.githubusercontent.com/kostamax27/Hypixel-Bow/c1a218a19d3add8be6222c042ebd4ceaf7c4fc71/Hypixel-Bow.gif",
+  "featured": false,
+  "repo": "https://github.com/kostamax27/Hypixel-Bow",
+  "archive_repo": null,
+  "approved_release_tag": "r-12838",
+  "stars": 0,
+  "total_downloads": 717,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "kostamax27"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/233526",
+  "versions": {
+    "stable": {
+      "version": "1.2.2",
+      "tag": "r-12838",
+      "published_at": null,
+      "downloads": 717,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12838/hypixelbow-1.2.2-r12838.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12838",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12838/hypixelbow-1.2.2-r12838.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HypixelBow",
+    "stable_release_id": 12838
+  }
+}

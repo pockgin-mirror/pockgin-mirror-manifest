@@ -1,0 +1,61 @@
+{
+  "id": "manastats",
+  "name": "ManaStats",
+  "author": "FresherGAMING",
+  "description": "About This Plugin",
+  "readme_markdown": "# About This Plugin\nMana is a Pocketmine MP Plugin that will add mana features on your server.\n\nEvery time you're sprint or jump, The mana will decrease.\n\nWhen the mana reach 0, You will get blindness effect.\n\nIf you want mana to be regenerated, You have to stay at a place and didn't moving an inch.\n\n# Commands\n| Command                          | Description                  | Usage                                                                  |\n| -------------------------------- | ---------------------------- | ---------------------------------------------------------------------- |\n| /mana                            | View player's mana stats     | /mana [string:player]                                                  |\n| /managemana [FORM TYPE]          | Manage player's mana stats   | /managemana [string:player]                                            |\n| /managemana [MANUAL TYPE]        | Manage player's mana stats   | /managemana [string:player] [add/reduce/set] [float:amount]            |\n| /managemanaregen [FORM TYPE]     | Manage player's mana regen   | /managemanaregen [string:player]                                       |\n| /managemanaregen [MANUAL TYPE]   | Manage player's mana regen   | /managemanaregen [string:player] [add/reduce/set] [float:amount]       |\n| /managemaxmana [FORM TYPE]       | Manage player's max mana     | /managemaxmana [string:player]                                         |\n| /managemaxmana [MANUAL TYPE]     | Manage player's max mana     | /managemaxmana [string:player] [add/reduce/set] [float:amount]         |\n\n# Permissions\n| Command            | Permissions                                  | Default | Description                |\n| ------------------ | -------------------------------------------- | ------- | -------------------------- |\n| /mana              | manastats.mana.cmd                                     | True    | View Your Own Stats        |\n| /mana              | manastats.mana.cmd.others                              | OP      | View Other's Stats         |\n| /managemana        | manastats.managemana.cmd                               | OP      | Manage Player's Mana       |\n| /managemanaregen   | manastats.managemanaregen.cmd                          | OP      | Manage Player's Mana Regen |\n| /managemaxmana     | manastats.managemaxmana.cmd                            | OP      | Manage Player's Max Mana   |\n|         -          | manastats.mana.bypass                                  | False   | Bypass Mana System         |\n\n# For Developers\nNote: The Mana won't be saved on Database, so every time player join the server, their mana will be reset from 0\n\nImporting The ManaStats File\n```php\nuse FresherGAMING\\Mana\\ManaStats;\n```\n\n### Player's Mana Stats\nIf you want to get the player's mana, Only For Online Players\n```php\n$player = //Could be string name or player type\nManaStats::getInstance()->getMana($player);\n```\n\nIf you want to add the player's mana, Only For Online Players\n```php\n$player = //Could be string name or player type\n$amount = //Could be float type\nManaStats::getInstance()->addMana($player, $amount);\n```\n\nIf you want to reduce the player's mana, Only For Online Players\n```php\n$player = //Could be string name or player type\n$amount = //Could be float type\nManaStats::getInstance()->reduceMana($player, $amount);\n```\n\nIf you want to set the player's mana, Only For Online Players\n```php\n$player = //Could be string name or player type\n$amount = //Could be float type\nManaStats::getInstance()->setMana($player, $amount);\n```\n\n### Player's Mana Regen Stats\nIf you want to get the player's mana regen, Only For Online Players\n```php\n$player = //Could be string name or player type\nManaStats::getInstance()->getManaRegen($player);\n```\n\nIf you want to add the player's mana regen, Could be Offline or Online Players\n```php\n$player = //Could be string name or player type\n$amount = //Could be float type\nManaStats::getInstance()->addManaRegen($player, $amount);\n```\n\nIf you want to reduce the player's mana regen, Could be Offline or Online Players\n```php\n$player = //Could be string name or player type\n$amount = //Could be float type\nManaStats::getInstance()->reduceManaRegen($player, $amount);\n```\n\nIf you want to set the player's mana regen, Could be Offline or Online Players\n```php\n$player = //Could be string name or player type\n$amount = //Could be float type\nManaStats::getInstance()->setManaRegen($player, $amount);\n```\n\n### Player's Max Mana Stats\nIf you want to get the player's max mana, Only For Online Players\n```php\n$player = //Could be string name or player type\nManaStats::getInstance()->getMaxMana($player);\n```\n\nIf you want to add the player's max mana, Could be Offline or Online Players\n```php\n$player = //Could be string name or player type\n$amount = //Could be float type\nManaStats::getInstance()->addMaxMana($player, $amount);\n```\n\nIf you want to reduce the player's max mana, Could be Offline or Online Players\n```php\n$player = //Could be string name or player type\n$amount = //Could be float type\nManaStats::getInstance()->reduceMaxMana($player, $amount);\n```\n\nIf you want to set the player's max mana, Could be Offline or Online Players\n```php\n$player = //Could be string name or player type\n$amount = //Could be float type\nManaStats::getInstance()->setMaxMana($player, $amount);\n```\n\n### Getting The Stats Directly From Database, Could be Offline or Online Players\n```php\n$player = //Could be string name or player type\nManaStats::getInstance()->retrieveDataFromDatabase($player, function($result){\n   if(count($result) < 1){\n      //Player not Found\n   }\n   foreach($result as $stats){\n      //$stats[\"maxmana\"] to get the player's max mana\n      //$stats[\"manaregen\"] to get the player's mana regen\n   }\n});\n```",
+  "readme_source_url": "https://github.com/FresherGAMING/ManaStats",
+  "icon_url": "https://raw.githubusercontent.com/FresherGAMING/ManaStats/5b9604db6f48c13d15fb592781b08d2cfe698117/icon.png",
+  "featured": false,
+  "repo": "https://github.com/FresherGAMING/ManaStats",
+  "archive_repo": null,
+  "approved_release_tag": "r-12981",
+  "stars": 0,
+  "total_downloads": 977,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "FresherGAMING"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12981",
+      "published_at": null,
+      "downloads": 977,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12981/manastats-1.0.0-r12981.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12981",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12981/manastats-1.0.0-r12981.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ManaStats",
+    "stable_release_id": 12981
+  }
+}

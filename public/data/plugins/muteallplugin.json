@@ -1,0 +1,61 @@
+{
+  "id": "muteallplugin",
+  "name": "MuteAllPlugin",
+  "author": "Yookou",
+  "description": "MuteAll",
+  "readme_markdown": "# MuteAll\n\n## Description\nMuteAll is a simple plugin that allows you to mute all players on the server. This plugin is very useful for when you are doing an event and you don't want players to chat.\n\nIf you have any problems please create an issue I will try to answer them as soon as possible. And feel free to star the project\n\nFinally, if you are looking for private plugins at a good price, I can make some on my discord: yakuuuuuuuuuuuuuuu_\n\n### Config\n\n```yaml\nmute-message: \"You can't chat while muted!\"\n\ncommand:\n  muteall:\n    broadcast: \"§e{player} §7has muted all players!\"\n    message: \"§7You have muted all players!\"\n  unmuteall:\n    broadcast: \"§e{player} §7has unmuted all players!\"\n    message: \"§7You have unmuted all players!\"\n```\n## Features\n`MuteAll Command` | ✔ |  \n`UnMuteAll Command` | ✔ |  \n`Cancel chat when all players is muted` | ✔ |",
+  "readme_source_url": "https://github.com/Yookou/MuteAll",
+  "icon_url": "https://raw.githubusercontent.com/Yookou/MuteAll/8807a6f4e60fde1768b96529b3295659ac9f59c1/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Yookou/MuteAll",
+  "archive_repo": null,
+  "approved_release_tag": "r-12961",
+  "stars": 0,
+  "total_downloads": 378,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Yookou"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-12961",
+      "published_at": null,
+      "downloads": 378,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12961/muteallplugin-0.0.1-r12961.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12961",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12961/muteallplugin-0.0.1-r12961.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MuteAllPlugin",
+    "stable_release_id": 12961
+  }
+}

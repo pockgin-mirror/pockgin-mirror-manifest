@@ -1,0 +1,61 @@
+{
+  "id": "auctionhouse",
+  "name": "AuctionHouse",
+  "author": "Shock95",
+  "description": "Feature-packed AuctionHouse plugin for PocketMine-MP",
+  "readme_markdown": "# AuctionHouse [![](https://poggit.pmmp.io/shield.state/AuctionHouse)](https://poggit.pmmp.io/p/AuctionHouse) [![](https://poggit.pmmp.io/shield.dl.total/AuctionHouse)](https://poggit.pmmp.io/p/AuctionHouse)\nFeature-packed AuctionHouse plugin for PocketMine-MP  \n   \n## Overview  \nAuctionHouse allows players to list their items for sale and purchase items that others have listed for sale\n  \n![AuctionHouse](https://github.com/Shock95/AuctionHouse/blob/master/img/auctionhouse.png)  \n---  \n## Features  \n>- Chest GUI  \n>- Admin tools\n>- Categories\n>- Config (See below)\n>- Multi-lang support\n>- Cancel listings\n>- Listing cooldown\n>- Custom events\n>- Economy plugin support\n>- MySQL and SQLite database support\n>- Custom listings limit per player (See permissions)\n>- Customizable messages\n\n---  \n## Download  \nDownload the plugin from [Poggit](https://poggit.pmmp.io/p/AuctionHouse) or [GitHub releases](https://github.com/Shock95/AuctionHouse/releases)\n  \n---  \n## Config  \n\n<details>\n  <summary>Click to open</summary>\n\n```yaml  \n---  \n# DO NOT EDIT THIS VALUE, INTERNAL USE ONLY.\nconfig-version: 5\n\n# Sets the prefix for this plugin.\nprefix: \"[&l&6Auction House&r]\"\n# Minimum price required to create a listing\nmin-price: 0\n# Maximum price a listing can have (-1 = No limit)\nmax-price: -1\n# Sets the default language for the plugin, you can edit text and messages in this file.\ndefault-language: en_US\n# Sets the amount of hours a listing is active before being automatically cancelled and expired.\nexpire-interval: 48\n# Sets the price it costs to list an item on the auction house.\nlisting-price: 0\n# Sets a cooldown between listing items in seconds\nlisting-cooldown: 0\n# Allows or blocks players in creative mode from selling items.\ncreative-sale: false\n# Maximum amount of listings a player can have by default\nmax-listings: 45\n# Shows item lore on the auction house\nshow-lore: true\n# Days to automatically delete expired listings (0 to disable)\nexpired-duration: 15\n# Formats price with commas (ex. 1,000,000)\nprice-formatted: true\n# Items that cannot be listed on the auction. Refer to https://minecraftitemids.com/ or https://minecraft-ids.grahamedgecombe.com/ for a list of item ids.\nblacklist:\n- '1000' # Example items\n- '1234:5'\n- 'minecraft:air'\n\n# AH sign triggers\nsign-triggers:\n- \"[AuctionHouse]\"\n- \"[AH]\"\n\n# Menu button items\nbuttons:\nstats: \"minecraft:chest\"\nback: \"minecraft:paper\"\nprevious: \"minecraft:paper\"\nnext: \"minecraft:paper\"\ninfo: \"minecraft:book\"\nhowto: \"minecraft:emerald\"\nreturn_all: \"minecraft:redstone_block\"\nplayer_listings: \"minecraft:diamond\"\nexpired_listings: \"minecraft:poisonous_potato\"\nadmin_menu: \"minecraft:redstone\"\nconfirm_purchase: \"minecraft:stained_glass_pane:5\"\ncancel_purchase: \"minecraft:stained_glass_pane:14\"\n...\n```  \n</details>\n\n---  \n## Commands  \n  \n| Command                         | Description                                                                         |  \n|---------------------------------|:------------------------------------------------------------------------------------|  \n| /ah                             | AuctionHouse main command, opens the shop menu if there are no specified parameters |  \n| /ah shop                        | Opens the shop menu                                                                 |  \n| /ah sell **[price]**            | Allows player to sell an item on the auction house                                  |  \n| /ah listings                    | Shows all active listings of the player                                             |  \n| /ah listings **[player]**       | Allows player to see active listings of a specific player                           |  \n| /ah category                    | Allows player to open the category menu                                             |  \n| /ah admin                       | Allows player to open the admin menu (OP Command)                                   |  \n| /ah admin relistall             | Allows player to relist all items in the auction house (OP Command)                 |  \n| /ah admin returnall             | Allows player to return all items in the auction house back to players (OP Command) |  \n| /ah admin listings **[player]** | Allows player to see all listings of a specific player (OP Command)                 |  \n| /ah reload                      | Allows player to reload config files (OP command)                                   |  \n| /ah about                       | Shows plugin version                                                                |  \n---  \n## API  \n### Events  \n| Event        | Description           |  \n| ------------- | -------------- |  \n| [shock95x\\auctionhouse\\event\\AuctionStartEvent](https://github.com/Shock95x/AuctionHouse/blob/master/src/shock95x/auctionhouse/event/AuctionStartEvent.php) | Called when an auction is started |  \n| [shock95x\\auctionhouse\\event\\AuctionEndEvent](https://github.com/Shock95x/AuctionHouse/blob/master/src/shock95x/auctionhouse/event/AuctionEndEvent.php)   | Called when an auction has ended    |  \n| [shock95x\\auctionhouse\\event\\ItemListedEvent](https://github.com/Shock95x/AuctionHouse/blob/master/src/shock95x/auctionhouse/event/ItemListedEvent.php)   | Called when an item is listed by player (cancellable) | \n| [shock95x\\auctionhouse\\event\\ItemPurchasedEvent](https://github.com/Shock95x/AuctionHouse/blob/master/src/shock95x/auctionhouse/event/ItemPurchasedEvent.php)   | Called when an item is purchased by player (cancellable) |  \n| [shock95x\\auctionhouse\\event\\MenuCloseEvent](https://github.com/Shock95x/AuctionHouse/blob/master/src/shock95x/auctionhouse/event/MenuCloseEvent.php) | Called when a menu is closed by player |  \n  \n## Contributing  \nYou can contribute to this project by creating or modifying a language file and opening a PR!\n### Contributors\n- [Shock95](https://github.com/Shock95) (English)\n- [ipad54](https://github.com/ipad54), [No4NaMe](https://github.com/No4NaMe), [XackiGiFF](https://github.com/XackiGiFF) (Russian)\n- [Unickorn](https://github.com/Unickorn), Chaosfelix4451 (German)\n- [xAliTura01](https://github.com/xAliTura01) (Turkish)\n- [NotEnriko](https://github.com/NotEnriko) (Indonesian)\n- \n## Virions Used\n- [InvMenu](https://github.com/Muqsit/InvMenu) (Muqsit)  \n- [libasynql](https://github.com/poggit/libasynql) (SOFe)\n- [await-generator](https://github.com/SOF3/await-generator) (SOFe)\n- [Commando](https://github.com/Paroxity/Commando) (CortexPE + Paroxity)\n- [UpdateNotifier](https://github.com/ifera-mc/UpdateNotifier) (Ifera)",
+  "readme_source_url": "https://github.com/Shock95/AuctionHouse",
+  "icon_url": "https://raw.githubusercontent.com/Shock95/AuctionHouse/a97d71506438682843d1c66d858f33ccffec3c6b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Shock95/AuctionHouse",
+  "archive_repo": null,
+  "approved_release_tag": "r-12992",
+  "stars": 5,
+  "total_downloads": 4021,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Shock95"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/237956",
+  "versions": {
+    "stable": {
+      "version": "2.1.0",
+      "tag": "r-12992",
+      "published_at": null,
+      "downloads": 4021,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12992/auctionhouse-2.1.0-r12992.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12992",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12992/auctionhouse-2.1.0-r12992.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AuctionHouse",
+    "stable_release_id": 12992
+  }
+}

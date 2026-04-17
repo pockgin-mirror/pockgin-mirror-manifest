@@ -1,0 +1,66 @@
+{
+  "id": "blocklagfix",
+  "name": "BlockLagFix",
+  "author": "JavierLeon9966",
+  "description": "Fixes block lagging",
+  "readme_markdown": "# BlockLagFix\nFixes block lagging\n\nBlockLagFix is a plugin which aims to fix (or atleast reduce to a bare minimum) block lag that can be easily experienced while speed bridging. It reduces the blinking of blocks so it won't be as much noticeable and annoying as before.\n\nBlock lagging happens when you try to place blocks too fast consecutive to one on another and that block blinks for a moment. This could be annoying when speed bridging because it can make you fall.",
+  "readme_source_url": "https://github.com/JavierLeon9966/BlockLagFix",
+  "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/BlockLagFix/0b9bb2ea131de70f3eec88ab2e768c7217248e5e/icon.gif",
+  "featured": false,
+  "repo": "https://github.com/JavierLeon9966/BlockLagFix",
+  "archive_repo": null,
+  "approved_release_tag": "r-12988",
+  "stars": 5,
+  "total_downloads": 1792,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JavierLeon9966"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/237879",
+  "versions": {
+    "stable": {
+      "version": "1.20.0",
+      "tag": "r-12988",
+      "published_at": null,
+      "downloads": 1516,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12988/blocklagfix-1.20.0-r12988.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12988",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12988/blocklagfix-1.20.0-r12988.phar"
+    },
+    {
+      "tag": "r-12908",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12908/blocklagfix-1.19.0-r12908.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockLagFix",
+    "stable_release_id": 12988
+  }
+}

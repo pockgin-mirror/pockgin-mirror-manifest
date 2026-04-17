@@ -1,0 +1,61 @@
+{
+  "id": "pearlteleporter",
+  "name": "PearlTeleporter",
+  "author": "Yookou",
+  "description": "Right click on and you will be teleported to the same position in time of your choice",
+  "readme_markdown": "# PearlTeleporter\n\n\nRight click on and you will be teleported to the same position in time of your choice\n\nIf you have any problems please create an issue I will try to answer them as soon as possible. And feel free to star the project\n\nFinally, if you are looking for private plugins at a good price, I can make some on my discord: yakuuuuuuuuuuuuuuu_\n\n## Depend :\nCustomies : You will need to have the customies plugin to use this plugin. \nLink : https://poggit.pmmp.io/ci/CustomiesDevs/Customies/Customies\n\n### Config\n\n```yaml\n#Item\nlore: \"Click right to PrePearl !\"\nmax-stack-size: 16\ncooldown: 250 # In seconds\ncooldown-message: \"§cYou can't PrePearl for {cooldown} seconds!\"\n\n##Task\nteleport-time: 15 # In seconds\nprepearl-message: \"§aYou have PrePearl you will be teleported in 15 seconds!\"\nteleported-message: \"§aYou have been teleported!\"\n```",
+  "readme_source_url": "https://github.com/Yookou/PearlTeleporter",
+  "icon_url": "https://raw.githubusercontent.com/Yookou/PearlTeleporter/fa9c234b32be3bcf2a0c6cf52af76a4f3d8e4dea/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Yookou/PearlTeleporter",
+  "archive_repo": null,
+  "approved_release_tag": "r-13099",
+  "stars": 0,
+  "total_downloads": 201,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Yookou"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-13099",
+      "published_at": null,
+      "downloads": 201,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13099/pearlteleporter-0.0.2-r13099.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13099",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13099/pearlteleporter-0.0.2-r13099.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PearlTeleporter",
+    "stable_release_id": 13099
+  }
+}

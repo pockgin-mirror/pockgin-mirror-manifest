@@ -1,0 +1,61 @@
+{
+  "id": "profanityfilter",
+  "name": "ProfanityFilter",
+  "author": "ReinfyTeam",
+  "description": "A best profanity filter for pocketmine. Controls hate speech and blocks bad words in certain on the chat.",
+  "readme_markdown": "<p align=\"center\"><a href=\"https://poggit.pmmp.io/p/ProfanityFilter/\"><img src=\"assets/images/ProfanityFilter.png\"></a></p>\n<p align=\"center\">\n  <b>A best profanity filter for pocketmine. Controls hate speech and blocks bad words in certain on the chat.</b><br><br>\n  Are you tired of someone always cursing, saying offensive words in the chat? Are the players too toxic? Do you want to punish them? <br>\n  Well, this plugin might help you. <b>ProfanityFilter</b> can destroy toxic players, punish them to your server! <br>\n  It's configurable and easy to use. You can manually add words easily at the game. <br><br>\n  <a href=\"https://poggit.pmmp.io/p/ProfanityFilter\"><img src=\"https://poggit.pmmp.io/shield.state/ProfanityFilter\"></a> <a href=\"https://poggit.pmmp.io/p/ProfanityFilter\"><img src=\"https://poggit.pmmp.io/shield.api/ProfanityFilter\"></a> <a href=\"https://poggit.pmmp.io/p/ProfanityFilter\"><img src=\"https://poggit.pmmp.io/shield.dl.total/ProfanityFilter\"></a> <a href=\"https://poggit.pmmp.io/p/ProfanityFilter\"><img src=\"https://poggit.pmmp.io/shield.dl/ProfanityFilter\"></a> <a href=\"https://gitlocalize.com/repo/8866/whole_project?utm_source=badge\"> <img src=\"https://gitlocalize.com/repo/8866/whole_project/badge.svg\" /> </a>\n  <br>\n  <b>\n  <a href=\"https://github.com/ReinfyTeam/ProfanityFilter/wiki\">Wiki/Documentation</a> | <a href=\"https://poggit.pmmp.io/p/ProfanityFilter\">Poggit</a> | <a href=\"https://github.com/ReinfyTeam/ProfanityFilter/\">Github Repository</a> | <a href=\"https://github.com/ReinfyTeam/ProfanityFilter/issues\">Create an issue.</a> | <a href=\"https://github.com/ReinfyTeam/ProfanityFilter/discussions\">Discussions</a> | <a href=\"https://github.com/ReinfyTeam/ProfanityFilter/pulls\">Create a pull request.</a>\n  </b>\n</p>\n\n\n\n# Features\n- Commando-based `/pf` command suite with pmforms GUI (view/add/remove/toggle/reload) for in-game management.\n- Choose between the bundled profanity list (`profanity: provided`) or your own custom list in `plugin_data/ProfanityFilter/profanity.yml` (`banned-words` section); the provided list is refreshed and kept immutable on startup.\n- Two filter modes: `block` (cancel the message) or `hide` (mask with a replacement character) with customizable warning text.\n- Punishment pipeline with violation counter supporting kick, timed ban (`ban-duration`), or custom commands (console or player) after `max-violations`.\n- Configurable permissions (`command-permission`, `bypass-permission`), update checker toggle, and language system (English & Vietnamese, or add your own).\n\n# Commands\n- `/pf help` - show available subcommands.\n- `/pf ui` - open the management UI (in-game only).\n- `/pf list` - list banned words (custom list).\n- `/pf add <word>` - add a word to the custom list.\n- `/pf remove <word>` - remove a word.\n- `/pf toggle` - enable/disable filtering until reload.\n- `/pf reload` - reload plugin and profanity configs.\n\nDefault command permission: `profanityfilter.command` (configurable). Bypass chat filtering with `profanityfilter.bypass`.\n\n# Configuration highlights\n- `profanity`: `custom` to use `banned-words.yml`, or `provided` to use the bundled list.\n- `type`: `block` to cancel profane messages, `hide` to mask them with `replacementCharacter`.\n- `replacementCharacter`: single character used when hiding profanities.\n- `max-violations`, `punishment-type` (`kick`|`ban`|`command`), `ban-duration`, `execute-as-player`, `command`: tune the punishment pipeline.\n- `lang`: `eng`, `vie`, or `custom` (create `languages/custom.yml`).\n- `check-updates`: enable/disable remote update checks.\n\n# How to Install?\n- Download this plugin on [poggit](https://poggit.pmmp.io/p/ProfanityFilter).\n- Just put this plugin in under your `plugins/` folder, and it should work!<br>\n- You can configure the plugin by accessing `plugin_data/ProfanityFilter/config.yml`\n- You can manage words by accessing `plugin_data/ProfanityFilter/profanity.yml` under the `banned-words` section.\n\n# Changelog\nCurrent pre-release: `0.2.0-beta`. See `changelogs/v0.2.x.md` for the latest release notes.\n\n# Report a Issue/Bug\nYou found a bug or a plugin issue?\n- Contact support in the [Discord Server](https://discord.gg/v2rNeHaptd)\n- Create an [Issue](https://github.com/ReinfyTeam/ProfanityFilter/issues)\n- Write your bug & the issue you are having with all informations including the crash or errors so I can track the issue.\n- Submit the issue and be patient for a response for a solution to your problem :D\n\n# Disclaimer\n**This plugin was designed and work in pocketmine. If you are using fork/spoon of PocketMine-MP. Your issues will automatically closed.**\n\n# Screenshots\n[![](assets/images/chat-filter.jpg)](https://poggit.pmmp.io/p/ProfanityFilter)\n\n[![](assets/images/punish-from-player.jpg)](https://poggit.pmmp.io/p/ProfanityFilter)\n\n[![](assets/images/console.jpg)](https://poggit.pmmp.io/p/ProfanityFilter)\n\n[![](assets/images/ui-main.png)](https://poggit.pmmp.io/p/ProfanityFilter)\n\n[![](assets/images/ui-add-words.png)](https://poggit.pmmp.io/p/ProfanityFilter)\n\n[![](assets/images/ui-word-actions.png)](https://poggit.pmmp.io/p/ProfanityFilter)\n\n[![](assets/images/ui-profanitylist.png)](https://poggit.pmmp.io/p/ProfanityFilter)\n\n# Contributors and Collaborators\n| Name                                        | Contributors                                                                                     |\n|---------------------------------------------|--------------------------------------------------------------------------------------------------|\n| [NhanAZ](https://github.com/NhanAZ)         | Maintained this Plugin and helped me alot of things like syntax, languages and code improvement. |\n| [KanadeDev](https://github.com/KanadeDev)   | Helped me alot of language files, and fixed alot of couple things in first release.              |\n| [Reinfy](https://github.com/Reinfy)         | He implemented some things and fixing and adjusting features, suggesting some improvements.      |\n| [kotyaralih](https://github.com/kotyaralih) | Made more translation to the language files.                                                     |",
+  "readme_source_url": "https://github.com/ReinfyTeam/ProfanityFilter",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/ReinfyTeam/ProfanityFilter",
+  "archive_repo": null,
+  "approved_release_tag": "r-12889",
+  "stars": 0,
+  "total_downloads": 235,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ReinfyTeam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/248385",
+  "versions": {
+    "stable": {
+      "version": "0.1.5",
+      "tag": "r-12889",
+      "published_at": null,
+      "downloads": 235,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12889/profanityfilter-0.1.5-r12889.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12889",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12889/profanityfilter-0.1.5-r12889.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ProfanityFilter",
+    "stable_release_id": 12889
+  }
+}

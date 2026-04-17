@@ -1,0 +1,66 @@
+{
+  "id": "fasterprojectiles",
+  "name": "FasterProjectiles",
+  "author": "TrinitroToluen0",
+  "description": "A PocketMine-MP plugin to increase the speed of the projectiles",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/FasterProjectiles)](https://poggit.pmmp.io/p/FasterProjectiles)\n[![](https://poggit.pmmp.io/shield.dl.total/FasterProjectiles)](https://poggit.pmmp.io/p/FasterProjectiles)\n\n# FasterProjectiles\n A PocketMine-MP plugin to increase the speed of the projectiles\n\nTired of waiting your ender pearls to fall?\nDo you prefer the speed of the projectiles in Java edition?\nMake your ender pearls, arrows, splash potions, and all the projectiles travel faster with this plugin!\n\n# Setup\n1. Download and place the .phar file in your `plugins` folder.\n2. Restart your server\n3. Go to `plugin_data/FasterProjectiles` and set your preferred projectile speed, or let it at the default value.",
+  "readme_source_url": "https://github.com/TrinitroToluen0/FasterProjectiles",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/TrinitroToluen0/FasterProjectiles",
+  "archive_repo": null,
+  "approved_release_tag": "r-12957",
+  "stars": 0,
+  "total_downloads": 144,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.13.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TrinitroToluen0"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/237148",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-12957",
+      "published_at": null,
+      "downloads": 126,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12957/fasterprojectiles-1.1.0-r12957.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12957",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12957/fasterprojectiles-1.1.0-r12957.phar"
+    },
+    {
+      "tag": "r-12939",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12939/fasterprojectiles-1.0.0-r12939.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FasterProjectiles",
+    "stable_release_id": 12957
+  }
+}

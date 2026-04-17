@@ -1,0 +1,61 @@
+{
+  "id": "minesystem",
+  "name": "MineSystem",
+  "author": "ValresMC",
+  "description": "(ENG) : Allows defining multiple mining zones with different ores and respawn times.",
+  "readme_markdown": "# MineSystem\n\n<a href=\"https://poggit.pmmp.io/p/MineSystem\"><img src=\"https://poggit.pmmp.io/shield.dl.total/MineSystem\"></a>\n  \n<p>(ENG) : Allows defining multiple mining zones with different ores and respawn times.</p>  \n<p>(FRA) : Permet de définir plusieurs zones de minage, avec des minerais et des temps de réapparition différents.</p>  \n\n## Configuration :\n\n(ENG) : In the `plugin_data/MineSystem/zone.yml` folder, configure zones. \n(FRA) : Dans le dossier `plugin_data/MineSystem/zone.yml` , configuez la zone. \n\n## ToDo ?\n\n| ToDo | ❔ |\n| :----: | :----: |\n| optimization | ✔ |\n| bedrock after crash/redem | ✔ |\n| configurable allowed blocks | ✔ |\n| unlimited zones | ✔ |\n| blocks and timer per zones | ✔ |\n\n## My discord :\n\nYou can join <a href=\"https://discord.gg/NkZu7DNKEn\">here</a> !",
+  "readme_source_url": "https://github.com/ValresMC/MineSystem",
+  "icon_url": "https://raw.githubusercontent.com/ValresMC/MineSystem/dde23adf0ec0fe063ca5100f84370d5105b62808/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ValresMC/MineSystem",
+  "archive_repo": null,
+  "approved_release_tag": "r-13017",
+  "stars": 1,
+  "total_downloads": 921,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ValresMC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-13017",
+      "published_at": null,
+      "downloads": 921,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13017/minesystem-2.0.0-r13017.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13017",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13017/minesystem-2.0.0-r13017.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MineSystem",
+    "stable_release_id": 13017
+  }
+}

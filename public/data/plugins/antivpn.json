@@ -1,0 +1,61 @@
+{
+  "id": "antivpn",
+  "name": "AntiVPN",
+  "author": "RajadorDev",
+  "description": "About:",
+  "readme_markdown": "<p align=\"center\">\n\t<img src=\"./img/logo.png\" style=\"margin: 0 auto;\">\n</p>\n\n<a href=\"https://poggit.pmmp.io/p/AntiVPN\"><img src=\"https://poggit.pmmp.io/shield.state/AntiVPN\"></a>\n<a href=\"https://poggit.pmmp.io/p/AntiVPN\"><img src=\"https://poggit.pmmp.io/shield.dl.total/AntiVPN\"></a>\n<a href=\"https://discord.gg/HkfMbBN2AD\"><img src=\"https://img.shields.io/discord/982037265075302551?label=discord&color=7289DA&logo=discord\" alt=\"Discord\"></a>\n\n## About:\n\nThis is a plugin that blocks players who use **VPN/Proxy** on their PocketMine **API 5** (PMMP 5) server\n\n## How to use?:\n\nTo start using, you need to create an account **(Free/Premium)** at: [**https://vpnapi.io/**](https://vpnapi.io/)\n\nAfter creating the account, copy the generated key in the dashboard\n\nAfter copying this key, install the plugin on your server and use the command below:\n\n- `/antivpn setkey <key>` - the `<key>` value, must be your account key generated in the **Dashboard** of **https://vpnapi.io/**\n\nAfter that your plugin will be working to expel players who try to use VPN \n\n## Features:\n\n### UI \n\nThe whitelist system is configurable via the **UI** (when you execute the command from the game and not from the console)\n\nTo access the **UI** just use: `/antivpn whitelist`\n\n### Bypass\n\n- ⚠️ Players who have permission: `antivpn.bypass` will be ignored just like the **whitelist**\n\n\n### config.yml:\n\n- `enable-cache` - If true, the system will save all IP addresses with and without proxy that enter the server, for faster checking (without connecting to the API) **RECOMENDED**\n- `alert-admins` - If true, it will **alert** all players with the permission: `antivpn.alert.receive`\n- `alert-admin-message` - The message that will be sent\n- `kick-screen-message` - The message that will be sent on the screen of the player expelled due to suspected VPN/Proxy\n\n## Command:\n\n- `/antivpn` \n  - `setkey <key>`: Set your account key (from https://vpnapi.io/)\n  - `whitelist` \n    - `add`: Add players who will be ignored by the system\n    - `remove`: Remove players who are being ignored\n    - `list`: View the list of players who are being ignored \n\n## Author:\n\n- **Rajador**:\n  - ✉ **Discord**: [**My Group**](https://discord.gg/DV5DgDSq7W)\n  - 📷 **Instagram**: [**My Instagram**](https://www.instagram.com/rajadortv/)\n  - 📽 **YouTube**: [**Channel**](https://www.youtube.com/channel/UC1UJFxth-YRkNuLBqBYyqbA)",
+  "readme_source_url": "https://github.com/RajadorDev/AntiVPN",
+  "icon_url": "https://raw.githubusercontent.com/RajadorDev/AntiVPN/f9c4c8535709cf4bc4d20980f74be5e4d6da36fb/icon.png",
+  "featured": false,
+  "repo": "https://github.com/RajadorDev/AntiVPN",
+  "archive_repo": null,
+  "approved_release_tag": "r-13065",
+  "stars": 0,
+  "total_downloads": 1674,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "RajadorDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.3",
+      "tag": "r-13065",
+      "published_at": null,
+      "downloads": 1674,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13065/antivpn-2.0.3-r13065.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13065",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13065/antivpn-2.0.3-r13065.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiVPN",
+    "stable_release_id": 13065
+  }
+}

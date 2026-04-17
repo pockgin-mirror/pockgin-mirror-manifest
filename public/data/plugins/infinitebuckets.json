@@ -1,0 +1,61 @@
+{
+  "id": "infinitebuckets",
+  "name": "InfiniteBuckets",
+  "author": "ElectroGamesDev",
+  "description": "Information",
+  "readme_markdown": "# Information \n - This Plugin Adds Infinite Water and Lava Buckets To Your Server!\n# Command\n- /buckets info | Sends the info on the infinite bucket you are holding.\n- /buckets give <player> <water/lava> | Gives a player an Infinite Bucket\n# Example\n- /buckets give El3ctr0Games water\n# Permissions\n- infinitebuckets.cmd\n - infinitebuckets.water.use\n- infinitebuckets.lava.use\n# Config\n```\n# If \"true\", players will need the permission \"infinitebuckets.lava.use\" or \"infinitebuckets.water.use\" to be able to use infinite lava/water buckets.\nWater_Bucket_Requires_Perm: false\nLava_Bucket_Requires_Perm: false\n```\n# Credits\n- Icon from www.flaticon.com",
+  "readme_source_url": "https://github.com/ElectroGamesDev/InfiniteBuckets",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesDev/InfiniteBuckets/75325c76be63e2979a7a5b86ad54931630cb0e69/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesDev/InfiniteBuckets",
+  "archive_repo": null,
+  "approved_release_tag": "r-13027",
+  "stars": 0,
+  "total_downloads": 125,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/238556",
+  "versions": {
+    "stable": {
+      "version": "4.0",
+      "tag": "r-13027",
+      "published_at": null,
+      "downloads": 125,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13027/infinitebuckets-4.0-r13027.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13027",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13027/infinitebuckets-4.0-r13027.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "InfiniteBuckets",
+    "stable_release_id": 13027
+  }
+}

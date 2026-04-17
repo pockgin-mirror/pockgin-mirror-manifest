@@ -1,0 +1,61 @@
+{
+  "id": "campfire",
+  "name": "Campfire",
+  "author": "nicholass003",
+  "description": "🏕️ A PocketMine-MP plugin implementing campfire functionality.",
+  "readme_markdown": "</br>\n\n<div align=\"center\">\n\n<img src=\"assets/icon.png\">\n\n<h3 align=\"center\">Campfire</h4>\n\n<p align=\"center\">\n🏕️ A PocketMine-MP plugin implementing campfire functionality.\n\n[![State](https://poggit.pmmp.io/shield.state/Campfire)](https://poggit.pmmp.io/p/Campfire) [![API](https://poggit.pmmp.io/shield.api/Campfire)](https://poggit.pmmp.io/p/Campfire) [![Total Downloads](https://poggit.pmmp.io/shield.dl.total/Campfire)](https://poggit.pmmp.io/p/Campfire) [![GitHub License](https://img.shields.io/github/license/nicholass003/Campfire)](LICENSE) [![Discord](https://img.shields.io/discord/1230982180742631457?logo=discord&logoColor=white&color=5865F2)](https://discord.gg/EEJK2vxtCp) \n\n</p>\n\n</div>\n\n## 💡 Issues & Suggestions\n\nFeel free to creating an issues for bug reports and feature requests!\n\n## 🌟 Support Development\n\nIf you find my PocketMine-MP plugins useful and wish to support their ongoing development and maintenance, your contributions are greatly appreciated. Your generosity enables me to dedicate more time and resources to improving and expanding the functionality of these plugins for the benefit of the community.\n\n### How to Contribute\n\nYou can support this project in several ways:\n\n- 💰 **Financial Contributions**: Donations are welcome via [PayPal](https://paypal.me/FireRashkar). Your financial support helps cover hosting costs, development tools, and other expenses associated with maintaining this project.\n  \n- 📝 **Feedback and Suggestions**: Your feedback is invaluable in shaping the future direction of these plugins. Whether you encounter a bug, have an idea for a new feature, or simply want to share your thoughts, please don't hesitate to open an issue or reach out to me directly.\n  \n- 💻 **Code Contributions**: If you're a developer and would like to contribute to the codebase, pull requests are always welcome.\n  \n### Acknowledgements\n\nI would like to express my heartfelt gratitude to all the individuals and organizations who have supported this project through their contributions, be it through code, financial donations, or valuable feedback. Your support keeps this project alive and thriving.\n\nThank you for your continued support and encouragement!\n\n## 🎖️ Credits\nI would like to extend my gratitude to the following individuals and projects for their contributions and inspiration to this project:\n\n- **[ipad54](https://github.com/ipad54)**: For the brilliant idea that inspired the Campfire feature that will be added to PocketMine-MP earlier. 🌟\n\n<a target=\"_blank\" href=\"https://icons8.com/icon/gCwQXvYWBdV4/campfire\">Campfire</a> icon by <a target=\"_blank\" href=\"https://icons8.com\">Icons8</a>",
+  "readme_source_url": "https://github.com/nicholass003/Campfire",
+  "icon_url": "https://raw.githubusercontent.com/nicholass003/Campfire/597fb195142dd8efd3c3008b5ba376dcea262052/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nicholass003/Campfire",
+  "archive_repo": null,
+  "approved_release_tag": "r-13115",
+  "stars": 0,
+  "total_downloads": 609,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nicholass003"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13115",
+      "published_at": null,
+      "downloads": 609,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13115/campfire-1.0.0-r13115.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13115",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13115/campfire-1.0.0-r13115.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Campfire",
+    "stable_release_id": 13115
+  }
+}

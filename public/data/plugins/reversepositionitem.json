@@ -1,0 +1,61 @@
+{
+  "id": "reversepositionitem",
+  "name": "ReversePositionItem",
+  "author": "Yookou",
+  "description": "Left click on your opponent with this item in hand to swap positions!",
+  "readme_markdown": "# ReversePositionItem\n\nLeft click on your opponent with this item in hand to swap positions!\n\nIf you have any problems please create an issue I will try to answer them as soon as possible. And feel free to star the project\n\nFinally, if you are looking for private plugins at a good price, I can make some on my discord: yakuuuuuuuuuuuuuuu_\n\n### Config\n\n```yaml\n##Message\nvictim-reverse-message: \"You changed position with {damager}\"\ndamager-reverse-message: \"You changed position with {victim}\"\ncooldown-message: \"Usable in {time}\"\n\n##Item\nitem:\n  name-item: \"blaze_rod\"\n  cooldown: 300 #in seconds\n```",
+  "readme_source_url": "https://github.com/Yookou/ReversePositionItem",
+  "icon_url": "https://raw.githubusercontent.com/Yookou/ReversePositionItem/d18a4bcbb5523a8c8fe52acb688d2d1dd23a4899/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Yookou/ReversePositionItem",
+  "archive_repo": null,
+  "approved_release_tag": "r-12900",
+  "stars": 0,
+  "total_downloads": 144,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Yookou"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-12900",
+      "published_at": null,
+      "downloads": 144,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12900/reversepositionitem-0.0.2-r12900.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12900",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12900/reversepositionitem-0.0.2-r12900.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ReversePositionItem",
+    "stable_release_id": 12900
+  }
+}

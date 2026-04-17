@@ -1,0 +1,63 @@
+{
+  "id": "easycommandautofill",
+  "name": "EasyCommandAutofill",
+  "author": "jasonw4331",
+  "description": "EasyCommandAutofill is a plugin which adds type-specified command args to Minecraft's autofill by parsing command usage messages. By adding this plugin to your server, all comma...",
+  "readme_markdown": "# EasyCommandAutofill\n[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/R7kdetE)\n[![Poggit-Ci](https://poggit.pmmp.io/ci.shield/jasonw4331/EasyCommandAutofill/EasyCommandAutofill)](https://poggit.pmmp.io/ci/jasonw4331/EasyCommandAutofill/EasyCommandAutofill)\n[![Download count](https://poggit.pmmp.io/shield.dl.total/EasyCommandAutofill)](https://poggit.pmmp.io/p/EasyCommandAutofill)\n\nEasyCommandAutofill is a plugin which adds type-specified command args to Minecraft's autofill by parsing command usage messages. By adding this plugin to your server, all command usages written in the [vanilla style](https://docs.microsoft.com/en-us/minecraft/creator/documents/commandsintroduction#command-syntax) will be parsed and sent to Minecraft with autofill enabled.\n\n# Features\n* Enables autofill for commands on your server\n* Reusable custom command argument types\n* Multi-language support using [PocketMine's language API](https://github.com/pmmp/PocketMine-MP/tree/59de045ecbacfb9acc297e75170819727d68ae09/src/lang)\n\n# Future Additions\n* Parsing support for usage messages which do not follow [vanilla style](https://docs.microsoft.com/en-us/minecraft/creator/documents/commandsintroduction#command-syntax)\n* More interactions with [PlayerSelectors](https://poggit.pmmp.io/p/PlayerSelectors)\n\n# About\nThis plugin was made in my spare time because I was bored. No backstory or anything to follow along with here like in my other plugins' about sections. Maybe next time?",
+  "readme_source_url": "https://github.com/jasonw4331/EasyCommandAutofill",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/jasonw4331/EasyCommandAutofill",
+  "archive_repo": null,
+  "approved_release_tag": "r-12844",
+  "stars": 0,
+  "total_downloads": 1164,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "PlayerSelectors"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "jasonw4331"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/233737",
+  "versions": {
+    "stable": {
+      "version": "3.1.1",
+      "tag": "r-12844",
+      "published_at": null,
+      "downloads": 1164,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12844/easycommandautofill-3.1.1-r12844.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12844",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12844/easycommandautofill-3.1.1-r12844.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EasyCommandAutofill",
+    "stable_release_id": 12844
+  }
+}

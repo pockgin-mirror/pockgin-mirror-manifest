@@ -1,0 +1,63 @@
+{
+  "id": "bankui",
+  "name": "BankUI",
+  "author": "ElectroGamesDev",
+  "description": "Information",
+  "readme_markdown": "# Information \n - This plugin allows players to store their money in a bank.\n# Features \n - Withdraw Money into Bank\n - Deposit Money from Bank\n - Transfer Money to Other Players Bank Accounts\n - Transaction Log\n - Daily Interest\n - Configurable Interest Rates\n - Admins Can Manage Other Players Bank With \"/bank {PlayerName}\"\n - Customizable Messages\n - Automatic Backup System\n - Database Migration\n - MySQL and SQLite Support\n - Developer API\n - Bedrock Economy Support\n - ScoreHud Support\n# Command\nPlayer Commands\n - /bank\n\nAdmin Commands\n - /bank {PlayerName} \n - /bank migrate - DO NOT USE THIS UNLESS YOU KNOW WHAT YOU ARE DOING!\n - /bank backup {save | load | restore} - Becareful when loading a backup, you will lose all data since the last saved backup unless you restore it but DO NOT take the risk!\n# Important\n- This plugin requires the latest version of Bedrock Economy!\n# ScoreHud Support\n- ScoreHud Tag: ```{bankui.money}```\n# Images\n![Bank5](https://user-images.githubusercontent.com/34932094/124204221-37c3c280-daa4-11eb-826f-8c6511cf9649.png)\n![Bank2](https://user-images.githubusercontent.com/34932094/122729370-b7e55f00-d23e-11eb-8aa6-1d8e8b47e70f.PNG)\n![Bank3](https://user-images.githubusercontent.com/34932094/122729371-b7e55f00-d23e-11eb-8a94-ee292bab50f8.PNG)\n![Bank4](https://user-images.githubusercontent.com/34932094/122729372-b7e55f00-d23e-11eb-9a8c-f44571718108.PNG)\n![Bank6](https://user-images.githubusercontent.com/34932094/124215248-48cafe80-dab9-11eb-930d-df1b113a7d3d.PNG)\n![Admin](https://user-images.githubusercontent.com/34932094/141248349-65d9629c-2e30-42d3-aa4a-d05909c5908e.PNG)\n# Permissions\n- bankui.cmd\n- bankui.admin\n- bankui.admin.backup (Required to use /bank backup)\n- bankui.admin.migrate (Required to use /bank migrate)\n# Developer API\n- You can give/take/set/get/save players money/transactions using our API.\n\n```BankUI::getInstance()->handleAction($player, $action, $subaction, $amount);```\n- Add Money:\n```BankUI::getInstance()->addMoney($playerName, $amount);```\n- Take Money:\n```BankUI::getInstance()->takeMoney($playerName, $amount);```\n- Set Money:\n```BankUI::getInstance()->setMoney($playerName, $amount);```\n- Get Money:\n```BankUI::getInstance()->>getMoney($playerName)->onCompletion(function(float $amount): void{```\n```    // Use $amount to get player's balance```\n```}, static fn() => null);```\n- Add Economy Money:\n```$this->addEconomyMoney($player->getName(),$data[1])->onCompletion(function (bool $updated): void{```\n```   if ($updated)```\n```   {```\n```   // Addition was successful ```\n```   }```\n```   else```\n```   {```\n```   // Addition was not successful```\n```   }```\n```}, static fn() => null);```\n- Take Economy Money:\n```$this->takeEconomyMoney($player->getName(),$data[1])->onCompletion(function (bool $updated): void{```\n```   if ($updated)```\n```   {```\n```   // Deduction was successful ```\n```   }```\n```   else```\n```   {```\n```   // Deduction was not successful```\n```   }```\n```}, static fn() => null);```\n- Get Economy Money:\n```$this->getEconomyMoney($player->getName())->onCompletion(function (float $money): void{```\n```   use $money to get the player's money```\n```}, static fn() => null);```\n- Add Transaction:\n```BankUI::getInstance()->addTransaction($playerName, $transaction);```\n- Get Transactions:\n```BankUI::getInstance()->>getTransactions($playerName)->onCompletion(function(string $transactions): void{```\n```    // Code (use $transactions)```\n```}, static fn() => null);```\n- Check If Account Exists:\n```BankUI::getInstance()->>accountExists($playerName)->onCompletion(function(bool $exists): void{```\n```    // Use $exists to check if account exists```\n```}, static fn() => null);```\n- Set Transactions:\n```BackupSystem::getInstance()->setTransaction($playerName, $transactions);```\n- Save Data:\n```BackupSystem::getInstance()->saveData($player);```\n- Save All Online Players Data:\n```BackupSystem::getInstance()->saveAllData();```\n- Backup Data - REQUIRES BACKUP ENABLED:\n```BackupSystem::getInstance()->backupData();```\n- Load Backup - REQUIRES BACKUP ENABLED:\n```BackupSystem::getInstance()->loadBackup();```\n- Restore Backup - REQUIRES BACKUP ENABLED:\n```BackupSystem::getInstance()->restoreBackup();```\n- Migrate Database (Only \"SQLite\", \"MySQL\", and \"SQL\" is supported. \"SQL\" will migrate the database from/to the current database type in use and you should Save All before using this. Make sure you know what your doing as you can lose all of your data if not used correctly.):\n```DatabaseMigration::getInstance()->migrateDatabase($migrateFrom, $migrateTo);```\n# Config\n```\n# If true, players will get daily interest for the money in their bank\nenable-interest: true\n\n# Interst Rates is in percentage so if interst-rates = 50, it means 50% Interest Rates, if it is set at 1, it means 1% interest rates. (It is recommended to keep this low)\ninterest-rates: 1\n\n# Backup System - You may want to set this to false if you think you or your staff may accidentally restore a backup and lose your data\nenable-backups: true \n\n# \"enabled-backups\" must be true for automatic backups. \nenable-automatic-backups: true\n\n# \"enable-automatic-backups\" must be true for this. This is how often your databases get automatically backed up. This is in minutes so 60 = 60 minutes. This number should be between 720-1440 (12-24 hours) DO NOT go less\n# than 60 (1 hour) as this could cause lag for a few seconds if you have had alot of unique players join yuour server.\nautomatic-backups-time: 720\n\ndatabase:\n  # The database type. \"sqlite\" and \"mysql\" are supported.\n  type: sqlite\n\n  # Edit these settings only if you choose \"sqlite\".\n  sqlite:\n    # The file name of the database in the plugin data folder.\n    # You can also put an absolute path here.\n    file: players.sqlite\n  # Edit these settings only if you choose \"mysql\".\n  mysql:\n    host: 127.0.0.1\n    # Avoid using the \"root\" user for security reasons.\n    username: root\n    password: \"\"\n    schema: your_schema\n  # The maximum number of simultaneous SQL queries\n  # Recommended: 1 for sqlite, 2 for MySQL. You may want to further increase this value if your MySQL connection is very slow.\n  worker-limit: 1\n  \n# \"enable-backups\" must be enabled for backups to work.\nbackup-database:\n  # The database type. \"sqlite\" and \"mysql\" are supported. This should be set to \"mysql\" for backups to be most useful although you can use \"sqlite\" if you do not have a MySQL database.\n  type: sqlite\n\n  # Edit these settings only if you choose \"sqlite\".\n  sqlite:\n    # The file name of the database in the plugin data folder.\n    # You can also put an absolute path here.\n    file: backup.sqlite\n  # Edit these settings only if you choose \"mysql\".\n  mysql:\n    host: 127.0.0.1\n    # Avoid using the \"root\" user for security reasons.\n    username: root\n    password: \"\"\n    schema: your_schema\n  # The maximum number of simultaneous SQL queries\n  # Recommended: 1 for sqlite, 2 for MySQL. You may want to further increase this value if your MySQL connection is very slow.\n  worker-limit: 1\n  \n# DO NOT TOUCH\nconfig-ver: 2\n```\n# Credits\n- Icon from www.flaticon.com",
+  "readme_source_url": "https://github.com/ElectroGamesDev/BankUI",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesDev/BankUI/a880024f1853c2d1107963c51edaaab02fb6c5b4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesDev/BankUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-13026",
+  "stars": 0,
+  "total_downloads": 2379,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/238549",
+  "versions": {
+    "stable": {
+      "version": "6.0.0",
+      "tag": "r-13026",
+      "published_at": null,
+      "downloads": 2379,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13026/bankui-6.0.0-r13026.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13026",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13026/bankui-6.0.0-r13026.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BankUI",
+    "stable_release_id": 13026
+  }
+}

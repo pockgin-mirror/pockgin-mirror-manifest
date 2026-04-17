@@ -1,0 +1,61 @@
+{
+  "id": "joincount",
+  "name": "JoinCount",
+  "author": "antbag-pm-pl",
+  "description": "The sole purpose of this plugin is to show how many new players have joined the server since first time . It broadcasts a message when a new player joins like",
+  "readme_markdown": "# JoinCount\n\nThe sole purpose of this plugin is to show how many new players have joined the server  since first time . It broadcasts a message when a new player joins like `Welcome! Antbag has joined the server for # 1 time.`\n\n# Usage\n\nJust put this file in your plugin directory and restart your server. Now whenver a new player joins for the first time it sends the message\n\n# Todo\n- [x] Add a configuration for the message\n- [x] Add a command to check the total players registered in the server\n\n# Support\nFor any kind of issue/suggestion! Open a issue on GitHub\nDiscord: https://discord.gg/n7MJz2pPgE",
+  "readme_source_url": "https://github.com/antbag-pm-pl/JoinCount",
+  "icon_url": "https://raw.githubusercontent.com/antbag-pm-pl/JoinCount/8d4a5b6ad13e0fcb5e194a0180c80e26115d32cf/group.png",
+  "featured": false,
+  "repo": "https://github.com/antbag-pm-pl/JoinCount",
+  "archive_repo": null,
+  "approved_release_tag": "r-13051",
+  "stars": 0,
+  "total_downloads": 717,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "antbag-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/239108",
+  "versions": {
+    "stable": {
+      "version": "3.0.0",
+      "tag": "r-13051",
+      "published_at": null,
+      "downloads": 717,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13051/joincount-3.0.0-r13051.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13051",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13051/joincount-3.0.0-r13051.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "JoinCount",
+    "stable_release_id": 13051
+  }
+}

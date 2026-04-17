@@ -1,0 +1,63 @@
+{
+  "id": "combat",
+  "name": "Combat",
+  "author": "ItsMax123",
+  "description": "Combat is an open source PocketMine-MP plugin preventing players from getting out of fights.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/Combat)](https://poggit.pmmp.io/p/Combat)\n[![](https://poggit.pmmp.io/shield.api/Combat)](https://poggit.pmmp.io/p/Combat)\n[![](https://poggit.pmmp.io/shield.dl.total/Combat)](https://poggit.pmmp.io/p/Combat)\n\n# Combat\nCombat is an open source [PocketMine-MP](https://pmmp.io/) plugin preventing players from getting out of fights.\n\n## Features\n- Configurable **Cooldown** for combat timer.\n- Optional **ScoreHud** support using the `combat.cooldown` tag.\n- Configurable list of **blocked commands and subcommands** for players who are in combat.\n- Optionally **kill** players who try to log off while in combat.\n\n## Known Bugs\n- When someone dies while leaving the server and joins back, they will be in a weird glitched state where they wont be able to see other players. I cannot do anything about this in this plugin as it is a [pocketmine bug](https://github.com/pmmp/PocketMine-MP/issues/5385).",
+  "readme_source_url": "https://github.com/ItsMax123/Combat",
+  "icon_url": "https://raw.githubusercontent.com/ItsMax123/Combat/a9fd55afb6df546d64a02ea77e9ecb09bad14f0c/Combat.png",
+  "featured": false,
+  "repo": "https://github.com/ItsMax123/Combat",
+  "archive_repo": null,
+  "approved_release_tag": "r-13094",
+  "stars": 0,
+  "total_downloads": 738,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "ScoreHud"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ItsMax123"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-13094",
+      "published_at": null,
+      "downloads": 738,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13094/combat-1.0.0-r13094.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13094",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13094/combat-1.0.0-r13094.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Combat",
+    "stable_release_id": 13094
+  }
+}

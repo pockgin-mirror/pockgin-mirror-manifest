@@ -1,0 +1,61 @@
+{
+  "id": "inv2chest",
+  "name": "Inv2Chest",
+  "author": "AraaCuteUwU",
+  "description": "Puts your stuff in the chest directly",
+  "readme_markdown": "# Inv2Chest\nPuts your stuff in the chest directly\n\n# Config\n```yaml\n# This option will send a message if the player does not have inv2chest.command permission\nno-permission: \"You do not have permission to do that command\"\n\n# This option will send a message if the chest is full\nchest-full: \"The chest is already full\"\n\n# This option will send a message if the block is not a chest\nnot-a-chest: \"The block isn't a chest\"\n```\n\n# Issue\nFound a problem? Report [here](https://github.com/AraaCuteUwU/Inv2Chest/issues)",
+  "readme_source_url": "https://github.com/AraaCuteUwU/Inv2Chest",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/AraaCuteUwU/Inv2Chest",
+  "archive_repo": null,
+  "approved_release_tag": "r-12856",
+  "stars": 0,
+  "total_downloads": 87,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AraaCuteUwU"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12856",
+      "published_at": null,
+      "downloads": 87,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12856/inv2chest-1.0.0-r12856.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12856",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12856/inv2chest-1.0.0-r12856.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Inv2Chest",
+    "stable_release_id": 12856
+  }
+}

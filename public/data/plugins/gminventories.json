@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13910",
   "stars": 0,
-  "total_downloads": 122,
+  "total_downloads": 391,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,16 @@
       "tag": "r-13910",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13910/gminventories-1.0.2-r13910.phar"
+    },
+    {
+      "tag": "r-13021",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13021/gminventories-0.7-r13021.phar"
+    },
+    {
+      "tag": "r-12883",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12883/gminventories-0.1-r12883.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "bedrockeconomy",
+  "name": "BedrockEconomy",
+  "author": "cooldogepm",
+  "description": "BedrockEconomy is an economy plugin made for PocketMine-MP focused on stability and simplicity.",
+  "readme_markdown": "# BedrockEconomy\nBedrockEconomy is an economy plugin made for PocketMine-MP focused on stability and simplicity.\n<br>\n## Table of Contents\n\n- [Commands](#commands)\n- [Features](#features)\n- [Examples](#examples)\n  - [Retrieving a Player's Balance](#retrieving-a-players-balance)\n  - [Retrieving Multiple Player Balances](#retrieving-multiple-player-balances)\n  - [Adding Funds to a Player's Balance](#adding-funds-to-a-players-balance)\n  - [Subtracting Funds from a Player's Balance](#subtracting-funds-from-a-players-balance)\n  - [Transferring Funds Between Players](#transferring-funds-between-players)\n- [Tools](#tools)\n- [License](#license)\n\n## Commands\n| Name          | Description | Usage                                             | Permission                             |\n|---------------| ----------- |---------------------------------------------------|----------------------------------------|\n| balance       | Show your and others balance | `balance [player: string]`                        | `bedrockeconomy.command.balance`       |\n| pay           | Pay others with your balance | `pay <player: string> <amount: number>`           | `bedrockeconomy.command.pay`           |\n| rich          | View the top balances | `rich [page: number]`                             | `bedrockeconomy.command.rich`          |\n| addbalance    | Add points to others balance | `addbalance <player: string> <amount: number>`    | `bedrockeconomy.command.addbalance`    |\n| removebalance | Remove points from others balance | `removebalance <player: string> <amount: number>` | `bedrockeconomy.command.removebalance` |\n| setbalance    | Set others balance | `setbalance <player: string> <balance: number>`   | `bedrockeconomy.command.setbalance`    |\n\n## Features\n- [x] MySQL Database\n- [x] SQLite Database\n- [x] Async API\n- [x] Closure API\n- [x] Customizable\n- [x] Easy to use\n- [x] Lightweight\n- [x] Fast and efficient\n- [x] Cache system\n\n## Examples\n\n### Retrieving a Player's Balance\n\nYou can retrieve a player's balance using the `get` method. Here's an example:\n\n```php\nBedrockEconomyAPI::CLOSURE()->get(\n    xuid: \"123456789\",\n    username: \"Doge\",\n    onSuccess: static function (array $result): void {\n        echo \"Balance: \" . $result[\"amount\"] . \" Decimals: \" . $result[\"decimals\"] . \" Position: \" . $result[\"position\"];\n    },\n    onError: static function (SQLException $exception): void {\n        if ($exception instanceof RecordNotFoundException) {\n            echo \"Record not found\";\n            return;\n        }\n\n        echo $exception->getMessage();\n    }\n);\n\n// Using async-await\nAwait::f2c(\n    function (): Generator {\n        try {\n            $result = yield from BedrockEconomyAPI::ASYNC()->get(\n                xuid: \"123456789\",\n                username: \"Doge\",\n            );\n        } catch (RecordNotFoundException) {\n            echo \"Account not found\";\n            return;\n        } catch (SQLException) {\n            echo \"Database error\";\n            return;\n        }\n        \n        echo \"Balance: \" . $result[\"amount\"] . \" Decimals: \" . $result[\"decimals\"] . \" Position: \" . $result[\"position\"];\n    }\n);\n```\n\n### Retrieving Multiple Player Balances\n\nYou can retrieve multiple player balances using the `bulk` method. Here's an example:\n\n```php\nBedrockEconomyAPI::CLOSURE()->bulk(\n    list: [\"Doge\", \"123456789\"], // You can use both username and xuid\n    onSuccess: static function (array $result): void {\n        foreach ($result as $data) {\n            echo \"Player: \" . $data[\"username\"] . \" Balance: \" . $data[\"amount\"] . \" Decimals: \" . $data[\"decimals\"] . \" Position: \" . $data[\"position\"];\n        }\n    },\n    onError: static function (SQLException $exception): void {\n        if ($exception instanceof RecordNotFoundException) {\n            echo \"No records found\";\n            return;\n        }\n\n        echo $exception->getMessage();\n    }\n);\n\n// Using async-await\nAwait::f2c(\n    function (): Generator {\n        try {\n            $result = yield from BedrockEconomyAPI::ASYNC()->bulk(\n                list: [\"Doge\", \"123456789\"], // You can use both username and xuid\n            );\n        } catch (RecordNotFoundException) {\n            echo \"No records found\";\n            return;\n        } catch (SQLException) {\n            echo \"Database error\";\n            return;\n        }\n        \n        foreach ($result as $data) {\n            echo \"Player: \" . $data[\"username\"] . \" Balance: \" . $data[\"amount\"] . \" Decimals: \" . $data[\"decimals\"] . \" Position: \" . $data[\"position\"];\n        }\n    }\n);\n```\n\n### Adding Funds to a Player's Balance\n\nYou can add funds to a player's balance using the `add` method. Here's an example:\n\n```php\nBedrockEconomyAPI::CLOSURE()->add(\n    xuid: \"123456789\",\n    username: \"Doge\",\n    amount: 55,\n    decimals: 25,\n    onSuccess: static function (): void {\n        echo 'Balance updated successfully.';\n    },\n    onError: static function (SQLException $exception): void {\n        if ($exception instanceof RecordNotFoundException) {\n            echo 'Account not found';\n            return;\n        }\n\n        echo 'An error occurred while updating the balance.';\n    }\n);\n\n// Using async-await\nAwait::f2c(\n    function () use ($player): Generator {\n        try {\n            yield from BedrockEconomyAPI::ASYNC()->add(\n                xuid: \"123456789\",\n                username: \"Doge\",\n                amount: 55,\n                decimals: 25,\n            );\n            echo 'Balance updated successfully.';\n        } catch (RecordNotFoundException) {\n            echo 'Account not found';\n        } catch (SQLException) {\n            echo 'An error occurred while updating the balance.';\n        }\n    }\n);\n```\n\n### Subtracting Funds from a Player's Balance\n\nYou can subtract funds from a player's balance using the `subtract` method. Here's an example:\n\n```php\nBedrockEconomyAPI::CLOSURE()->subtract(\n    xuid: \"123456789\",\n    username: \"Doge\",\n    amount: 55,\n    decimals: 25,\n    onSuccess: static function (): void {\n        echo 'Balance updated successfully.';\n    },\n    onError: static function (SQLException $exception): void {\n        if ($exception instanceof RecordNotFoundException) {\n            echo 'Account not found';\n            return;\n        }\n\n        if ($exception instanceof InsufficientFundsException) {\n            echo 'Insufficient funds';\n            return;\n        }\n\n        echo 'An error occurred while updating the balance.';\n    }\n);\n\n// Using async-await\nAwait::f2c(\n    function () use ($player): Generator {\n        try {\n            yield from BedrockEconomyAPI::ASYNC()->subtract(\n                xuid: \"123456789\",\n                username: \"Doge\",\n                amount: 55,\n                decimals: 25,\n            );\n            echo 'Balance updated successfully.';\n        } catch (RecordNotFoundException) {\n            echo 'Account not found';\n        } catch (InsufficientFundsException) {\n            echo 'Insufficient funds';\n        } catch (SQLException) {\n            echo 'An error occurred while updating the balance.';\n        }\n    }\n);\n```\n\n### Transferring Funds Between Players\n\nYou can transfer funds from one player to another using the `transfer` method. Here's an example:\n\n```php\n$sourcePlayer = ['xuid' => 'source_xuid', 'username' => 'source_username'];\n$targetPlayer = ['xuid' => 'target_xuid', 'username' => 'target_username'];\n\nBedrockEconomyAPI::CLOSURE()->transfer(\n    source: $sourcePlayer,\n    target: $targetPlayer,\n    amount: 55,\n    decimals: 25,\n    onSuccess: static function (): void {\n        echo 'Balance transfer successful.';\n    },\n    onError: static function (SQLException $exception): void {\n        if ($exception instanceof RecordNotFoundException) {\n            echo 'Account not found';\n            return;\n        }\n        \n        if ($exception instanceof InsufficientFundsException) {\n            echo 'Insufficient funds';\n            return;\n        }\n\n        echo 'An error occurred during the balance transfer.';\n    }\n);\n\n// Using async-await\nAwait::f2c(\n    function () use ($sourcePlayer, $targetPlayer): Generator {\n        try {\n            yield from BedrockEconomyAPI::ASYNC()->transfer(\n                source: $sourcePlayer,\n                target: $targetPlayer,\n                amount: 55,\n                decimals: 25,\n            );\n            echo 'Balance transfer successful.';\n        } catch (RecordNotFoundException) {\n            echo 'Account not found';\n        } catch (InsufficientFundsException) {\n            echo 'Insufficient funds';\n        } catch (SQLException) {\n            echo 'An error occurred during the balance transfer.';\n        }\n    }\n);\n```\n\nThese examples demonstrate how to perform common operations using the BedrockEconomy API, such as retrieving player balances, adding and subtracting funds, and transferring funds between players.\n\n## Tools\n\n* [BedrockEconomyHistory](https://github.com/cooldogepm/BedrockEconomyHistory)\n* [BedrockEconomyScore](https://github.com/cooldogepm/BedrockEconomyScore)\n\n## License\n\nThis project is released under the MIT License. For more information, please refer to the [LICENSE](LICENSE) file.",
+  "readme_source_url": "https://github.com/cooldogepm/BedrockEconomy",
+  "icon_url": "https://raw.githubusercontent.com/cooldogepm/BedrockEconomy/59d264933dc0928c9b349e0ab5eb841c437b5f50/icon.png",
+  "featured": false,
+  "repo": "https://github.com/cooldogepm/BedrockEconomy",
+  "archive_repo": null,
+  "approved_release_tag": "r-12923",
+  "stars": 3,
+  "total_downloads": 9125,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "cooldogepm"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/237300",
+  "versions": {
+    "stable": {
+      "version": "4.0.4",
+      "tag": "r-12923",
+      "published_at": null,
+      "downloads": 9125,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12923/bedrockeconomy-4.0.4-r12923.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12923",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12923/bedrockeconomy-4.0.4-r12923.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BedrockEconomy",
+    "stable_release_id": 12923
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "pocketcord",
+  "name": "PocketCord",
+  "author": "cjmustard",
+  "description": "Welcome To PocketCord",
+  "readme_markdown": "<h1 align=\"center\">Welcome To PocketCord</h1>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/PHP-v8%2B-blue\" />\n  <img src=\"https://img.shields.io/badge/PocketMineMP-v5.0.0%2B-orange\" />\n</p>\n\nPocketCord is a PocketmineMP plugin that allows you to broadcast in-game events to a Discord webhook. With PocketCord, you can easily keep your players updated with announcements and events, even when they are not online. \n\n## Features\n\n- Broadcast in-game events using discord webhooks\n- Customizable message formatting \n- Simple in game setup\n- Supports multiple webhook URLs\n\n## Configuration\n**plugin_data/pocketcord/config.yml**\n```yml\ndatabase-name: 'webhooks.db'\nwebhook-send-rate: 5\n\n# {time}\nstart-format: \"{time} => The server has started.\"\nstop-format: \"{time} => The server has stopped.\"\n\n# {time} {player_name}\njoin-format: \"{time} => {player_name} has joined the server.\"\nleave-format: \"{time} => {player_name} has left the server.\"\ndeath-format: \"{time} => {player_name} has died.\"\n\n# {time} {player_name} {messsage}\nchat-format: \"{time} => {player_name} just said {message}.\"\ncommand-format: \"{time} => {player_name} just ran {message}.\"\n\n# {time} {killer_name} {dead_name}\nkill-format: \"{time} => {killer_name} killed {dead_name}.\"\n```\n\n## Installation\n\nTo install PocketCord, follow these steps:\n\n1. Download the latest version of PocketCord from the [GitHub repository](https://github.com/CJMustard1452/PocketCord/releases/tag/Newest).\n2. Place the `PocketCord.phar` file in your server's `plugins` folder.\n3. Restart your server to load the plugin.\n\n## Usage\n\nTo set up PocketCord, you need to provide a Discord webhook URL. To do this, run the following command in-game:\n\n```/pocketcord```\n\n## Support\n\nIf you need help with PocketCord or have any questions, feel free to create an issue on this git!",
+  "readme_source_url": "https://github.com/cjmustard/PocketCord",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/cjmustard/PocketCord",
+  "archive_repo": null,
+  "approved_release_tag": "r-12931",
+  "stars": 5,
+  "total_downloads": 353,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "cjmustard"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/235900",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-12931",
+      "published_at": null,
+      "downloads": 353,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12931/pocketcord-2.0.1-r12931.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12931",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12931/pocketcord-2.0.1-r12931.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PocketCord",
+    "stable_release_id": 12931
+  }
+}

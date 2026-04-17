@@ -1,0 +1,78 @@
+{
+  "id": "betterpearls",
+  "name": "BetterPearls",
+  "author": "ItsMax123",
+  "description": "BetterPearls is an open source PocketMine-MP plugin aimed at improving vanilla Ender Pearls.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/BetterPearls)](https://poggit.pmmp.io/p/BetterPearls)\n[![](https://poggit.pmmp.io/shield.api/BetterPearls)](https://poggit.pmmp.io/p/BetterPearls)\n[![](https://poggit.pmmp.io/shield.dl.total/BetterPearls)](https://poggit.pmmp.io/p/BetterPearls)\n\n# BetterPearls\nBetterPearls is an open source [PocketMine-MP](https://pmmp.io/) plugin aimed at improving vanilla Ender Pearls.\n\n## Features\n- Configurable **Cooldown** for ender pearls. (Supports the vanilla item cooldown mechanic)\n- Optional **ScoreHud** support using the `betterpearls.cooldown` tag.\n- Configurable **Anti-glitching** mechanics to prevent players from using ender pearls to go through blocks.",
+  "readme_source_url": "https://github.com/ItsMax123/BetterPearls",
+  "icon_url": "https://raw.githubusercontent.com/ItsMax123/BetterPearls/86e3e34ad88d5e2092a994f3f59904070e2b7c7f/BetterPearls.png",
+  "featured": false,
+  "repo": "https://github.com/ItsMax123/BetterPearls",
+  "archive_repo": null,
+  "approved_release_tag": "r-13096",
+  "stars": 5,
+  "total_downloads": 1150,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "ScoreHud"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ItsMax123"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/240057",
+  "versions": {
+    "stable": {
+      "version": "1.2.2",
+      "tag": "r-13096",
+      "published_at": null,
+      "downloads": 833,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13096/betterpearls-1.2.2-r13096.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13096",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13096/betterpearls-1.2.2-r13096.phar"
+    },
+    {
+      "tag": "r-13058",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13058/betterpearls-1.2.1-r13058.phar"
+    },
+    {
+      "tag": "r-13055",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13055/betterpearls-1.2.0-r13055.phar"
+    },
+    {
+      "tag": "r-13033",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13033/betterpearls-1.1.0-r13033.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterPearls",
+    "stable_release_id": 13096
+  }
+}

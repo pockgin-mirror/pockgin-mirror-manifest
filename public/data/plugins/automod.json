@@ -1,0 +1,61 @@
+{
+  "id": "automod",
+  "name": "AutoMod",
+  "author": "Yookou",
+  "description": "A simple plugin to automatically mute people who say the words selected in the config",
+  "readme_markdown": "# AutoMod\n\nA simple plugin to automatically mute people who say the words selected in the config\n\nIf you have any problems please create an issue I will try to answer them as soon as possible. And feel free to star the project\n\nFinally, if you are looking for private plugins at a good price, I can make some on my discord: yakuuuuuuuuuuuuuuu_\n\n### Config\n\n```yaml\ninsult:\n  on: true\n  words: [\"shut up\", \"stfu\"]\n  mute-time: 30\n  mute-broadcastmessage: \"{player} was muted by automod for {time} for insult\"\n  mute-message: \"u have been muted for insult for {time}\"\nprovoc:\n  on: true\n  words: [\"ez\", \"easy\"]\n  mute-time: 30\n  mute-broadcastmessage: \"{player} was muted by automod for {time} for provoc\"\n  mute-message: \"u have been muted for provoc for {time}\"\n\nalways-mute: \"You are still muted for {time} for {reason}\"\n```",
+  "readme_source_url": "https://github.com/Yookou/AutoMod",
+  "icon_url": "https://raw.githubusercontent.com/Yookou/AutoMod/ce7a49b15906a30e9b8fdaca3efe99238f1af178/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Yookou/AutoMod",
+  "archive_repo": null,
+  "approved_release_tag": "r-12902",
+  "stars": 0,
+  "total_downloads": 1289,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Yookou"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-12902",
+      "published_at": null,
+      "downloads": 1289,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12902/automod-0.0.2-r12902.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12902",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12902/automod-0.0.2-r12902.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AutoMod",
+    "stable_release_id": 12902
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "warpcore",
+  "name": "WarpCore",
+  "author": "drirainMCBE",
+  "description": "✈️ WarpCore",
+  "readme_markdown": "# ✈️ WarpCore\n> Warp System. (plugin for PocketMine-MP 5)\n\n<img src=\"./assets/screenshot.png\">\n\n## Feature\n- You can add custom warps and players can use those warps!\n- If you created a warp named 'lobby', players can use it through a short command '/lobby'.\n- available two languages (english, korean) - Please correct any errors through contributions!\n- developer API ([Use cases](https://github.com/RICHMCBE/NewbieWarp))\n\n## How to Use:\n1. Put WarpCore in your plugin folder.\n2. Turn on PocketMine-MP and turn off.\n3. Open `config.yml` file in plugin data folder.\n4. Start the server.\n\n## Command\n\n| name         | description                        | usage         | permission          |\n|--------------|------------------------------------|---------------|---------------------|\n| warp         | use a warp named (name)            | /warp (name)  | warpcore.use.warp   |\n| (warp's name) | use a warp (short command)         | /(warp's name) | warpcore.use.warp   |\n| warpmanager  | manage warps(create, remove, edit) | /warpmanager  | warpcore.manage.warp |\n\n## permissions\n\n| name                 | default     |\n|----------------------|-------------|\n| warpcore.use.warp    | All players |\n| warpcore.manage.warp | operators   |\n\n\n\n## API\n\nGet a warp\n```php\nuse RoMo\\WarpCore\\warp\\WarpFactory;\n\n//get a one warp\nWarpFactory::getInstance()->getWarp(string $name);\n\n//get all warps\nWarpFactory::getInstance()->getAllWarp();\n```\n\nWarp method\n```php\nuse RoMo\\WarpCore\\warp\\WarpFactory;\nuse pocketmine\\math\\Vector3;\nuse pocketmine\\player\\Player;\n\n$warp = WarpFactory::getInstance()->getWarp(string $name);\n\n//Getter & Setter\n//warp name\n$warp->getName() : string;\n\n//warp location information\n$warp->getWorldName() : string;\n$warp->getPosition() : Vector3;\n$warp->getYaw() : float;\n$warp->getPitch() : float;\n\n//is a warp send title\n$warp->isTitle() : bool;\n$warp->setIsTitle(bool $isTitle) : void;\n\n//is a warp send particle\n$warp->isParticle() : bool;\n$warp->setIsParticle(bool $isParticle) : void;\n\n//is a warp send sound\n$warp->isSound() : bool;\n$warp->setIsSound(bool $isSound) : void;\n\n//is a warp able to be used by users\n$warp->isPermit() : bool;\n$warp->setIsPermit(bool $isPermit) : void;\n\n//does a warp register a command(warp command, short command)\n$warp->isCommandRegister() : bool;\n$warp->setIsCommandRegister(bool $isCommandRegister) : void;\n\n//Teleport a player to this warp\n//$targetVisual is targets that receive particle packet\n//$targetSound is targets that receive sound packet\n$warp->teleport(Player $player, array $targetVisual = null, array $targetSound = null) : void;\n```",
+  "readme_source_url": "https://github.com/drirainMCBE/WarpCore",
+  "icon_url": "https://raw.githubusercontent.com/drirainMCBE/WarpCore/f527c977b48085d2434dbcf5791f738f4f393e17/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/drirainMCBE/WarpCore",
+  "archive_repo": null,
+  "approved_release_tag": "r-12938",
+  "stars": 0,
+  "total_downloads": 683,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "drirainMCBE"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.2.2",
+      "tag": "r-12938",
+      "published_at": null,
+      "downloads": 683,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12938/warpcore-2.2.2-r12938.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12938",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12938/warpcore-2.2.2-r12938.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WarpCore",
+    "stable_release_id": 12938
+  }
+}

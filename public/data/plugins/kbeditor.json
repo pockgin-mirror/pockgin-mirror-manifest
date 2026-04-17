@@ -1,0 +1,61 @@
+{
+  "id": "kbeditor",
+  "name": "KBEditor",
+  "author": "Phqzing",
+  "description": "Download",
+  "readme_markdown": "# Download \n[![](https://poggit.pmmp.io/shield.dl/KBEditor)](https://poggit.pmmp.io/p/KBEditor)\n<a href=\"https://poggit.pmmp.io/p/KBEditor\"><img src=\"https://poggit.pmmp.io/shield.dl/KBEditor\"></a>\n\n# KB EDITOR\nChange the Knoback values of world or the entire server to your liking!\n\n# Config / Settings\n```yml\n---\n# if this is true the Knockback will only be applied to players but if it's false it will also apply to other entities\nonly-players: true\n \n# this Knockback values will be applied to all the worlds that is not specified in \"world-kb\"\ngeneral-kb:\n  horizontal: 0.4\n  vertical: 0.4\n  attack-speed: 10\n\n# NOTE: \"attack-speed\" must be a whole number and must not include a decimal point\n# FORMAT:\n# \n# world-kb\n#   worldname:\n#     horizontal: 0.4\n#     vertical: 0.4\n#     attack-speed: 10\nworld-kb:\n  worldNameExample:\n    horizontal: 0.37\n    vertical: 0.37\n    attack-speed: 10\n  anotherExample:\n    horizontal: 0.25\n    vertical: 0.25\n    attack-speed: 2\n...\n```\n\n# Features\n- Can change the values of each world\n- Can change the attack cooldown/attack speed\n- Can work on other entities if you want to (set the \"only-players\" value in the config to false)\n\n# TODO (0.1.1)\n- [ ] Add in-game GUI for better customization\n- [ ] Add per player KB\n- [ ] Think of more ideas (feel free to suggest your ideas!)",
+  "readme_source_url": "https://github.com/Phqzing/KBEditor",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Phqzing/KBEditor",
+  "archive_repo": null,
+  "approved_release_tag": "r-12839",
+  "stars": 0,
+  "total_downloads": 594,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Phqzing"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.1.0",
+      "tag": "r-12839",
+      "published_at": null,
+      "downloads": 594,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12839/kbeditor-0.1.0-r12839.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12839",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12839/kbeditor-0.1.0-r12839.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KBEditor",
+    "stable_release_id": 12839
+  }
+}

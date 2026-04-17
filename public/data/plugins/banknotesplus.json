@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13870",
   "stars": 0,
-  "total_downloads": 299,
+  "total_downloads": 439,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-13481",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13481/banknotesplus-1.0.2-r13481.phar"
+    },
+    {
+      "tag": "r-13049",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13049/banknotesplus-1.0.0-r13049.phar"
     }
   ],
   "comments": {

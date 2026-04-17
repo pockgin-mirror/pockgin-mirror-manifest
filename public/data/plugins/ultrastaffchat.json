@@ -1,0 +1,61 @@
+{
+  "id": "ultrastaffchat",
+  "name": "UltraStaffChat",
+  "author": "LUKAY207",
+  "description": "An ultra good StaffChat plugin.",
+  "readme_markdown": "<p>An ultra good StaffChat plugin.</p>\n<ul>\n<li>Supports Discord WebHooks.</li>\n<li>Can send messages to StaffChat (/staffchat or /sc )\n</li>\n<li>Can send messages with a PREFIX to StaffChat (without executing the command: Basic Prefix - *)</li>\n<li>Everything is configurable</li>\n</ul>",
+  "readme_source_url": "https://poggit.pmmp.io/r/235153",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/LUKAY207/StaffChat",
+  "archive_repo": null,
+  "approved_release_tag": "r-12918",
+  "stars": 0,
+  "total_downloads": 390,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "LUKAY207"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/235155",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-12918",
+      "published_at": null,
+      "downloads": 390,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12918/ultrastaffchat-1.0.3-r12918.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12918",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12918/ultrastaffchat-1.0.3-r12918.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "UltraStaffChat",
+    "stable_release_id": 12918
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "piggyoutpost",
+  "name": "PiggyOutpost",
+  "author": "Terpz710",
+  "description": "Description",
+  "readme_markdown": "<p align=\"center\">\n    <a href=\"https://github.com/Terpz710/PiggyOutpost/blob/main/icon.png\"><img src=\"https://github.com/Terpz710/PiggyOutpost/blob/main/icon.png\"></img></a><br>\n    <b>PiggyOutpost</b>\n\n# Description\n\nWith this plugin you can now use [PiggyFactions](https://github.com/DaPigGuy/PiggyFactions) to add in outpost for players to capture, Players can go against eachother to get money and power!\n\n# Whats an outpost plugin?\n\nThis plugin utilizes [PiggyFactions](https://github.com/DaPigGuy/PiggyFactions) to set up outpost in a specific world.\n\nFactions can go against each other to claim the outpost and claim rewards!\n\nIn order to claim the outpost your faction must be inside the specifed coordinates and you must wait the duration specifed in the config.yml(\"time\"). After the countdown ends there is another countdown to give the rewards called (\"timeWin\"). This helps other factions to intervene to cancel the claim and constest the opposing faction.\n\n# How to set up\n\n* First drop the PiggyOutpost.phar into the plugin folder\n* Load the server so all the configurations gets loaded\n* Stop the server, go into a folder called (\"plugin_data\") search for a folder called (\"PiggyOutpost\")\n* Edit the config.yml to your prefrence, Coords, World ect\n* Reload the server and battle on!\n\n**config.yml**\n\n```\n# Created by Terpz710 :p\n\n# Specify where the outpost will be set at\narea:\n  - [100, 90, 90] # Use a coordinates plugin for better results!\n  - [90, 100, 100]\n\n# Specify in which world this will occur\nworld: world\n\n# Specify the time that will be required for the area to be captured\ntime: 100\n\n# Specify how long it takes before that factions claims after the first intial time runs out\ntimeWin: 10\n\n# Rewards section\nmoney: 500\npower: 100\n```\n\n# Features\n\n* Easy to use config.yml\n* Reward system\n\n# Note this requires PiggyFactions to Work\n\nhttps://github.com/DaPigGuy/PiggyFactions",
+  "readme_source_url": "https://github.com/Terpz710/PiggyOutpost",
+  "icon_url": "https://raw.githubusercontent.com/Terpz710/PiggyOutpost/951ba87a092af68757726f2e01aeb48d7f5beeec/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Terpz710/PiggyOutpost",
+  "archive_repo": null,
+  "approved_release_tag": "r-12921",
+  "stars": 3,
+  "total_downloads": 501,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "PiggyFactions"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Terpz710"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/235267",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-12921",
+      "published_at": null,
+      "downloads": 439,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12921/piggyoutpost-1.0.1-r12921.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12921",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12921/piggyoutpost-1.0.1-r12921.phar"
+    },
+    {
+      "tag": "r-12834",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12834/piggyoutpost-1.0.0-r12834.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PiggyOutpost",
+    "stable_release_id": 12921
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "custombossbar",
+  "name": "CustomBossBar",
+  "author": "Terpz710",
+  "description": "A Pocketmine-MP plugin that will show a bossbar to each player that joins, Super simple and easy to use!",
+  "readme_markdown": "# CustomBossBar\n\nA [Pocketmine-MP](https://pmmp.io) plugin that will show a bossbar to each player that joins, Super simple and easy to use!\n\nEverything is customizable!\n\n# Features \n\n* Customizable title/subtitle\n* Customizable colors\n* Customizable boss bar percentage\n\n# Todo\n\n- [ ] Add per world boss bar/toggle disable world\n- [ ] Make the title/subtitle change between specified intervals",
+  "readme_source_url": "https://github.com/Terpz710/CustomBossBar",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Terpz710/CustomBossBar",
+  "archive_repo": null,
+  "approved_release_tag": "r-12973",
+  "stars": 0,
+  "total_downloads": 756,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Terpz710"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12973",
+      "published_at": null,
+      "downloads": 756,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12973/custombossbar-1.0.0-r12973.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12973",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12973/custombossbar-1.0.0-r12973.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomBossBar",
+    "stable_release_id": 12973
+  }
+}

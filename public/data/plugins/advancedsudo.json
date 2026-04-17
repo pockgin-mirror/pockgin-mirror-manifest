@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13168",
   "stars": 0,
-  "total_downloads": 837,
+  "total_downloads": 1095,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "2.0.0",
       "tag": "r-13168",
       "published_at": null,
-      "downloads": 837,
+      "downloads": 838,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13168/advancedsudo-2.0.0-r13168.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-13168",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13168/advancedsudo-2.0.0-r13168.phar"
+    },
+    {
+      "tag": "r-13001",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13001/advancedsudo-1.0.0-r13001.phar"
     }
   ],
   "comments": {

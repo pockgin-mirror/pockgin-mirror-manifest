@@ -1,0 +1,64 @@
+{
+  "id": "chestshop",
+  "name": "ChestShop",
+  "author": "Muqsit",
+  "description": "Chest shop allows you to create Chest GUI based shops - a widely used feature in minigames such as MoneyWars, SkyBlock and SkyWars.",
+  "readme_markdown": "# ChestShop\n[![](https://poggit.pmmp.io/shield.state/ChestShop)](https://poggit.pmmp.io/p/ChestShop)\n\nChest shop allows you to create Chest GUI based shops - a widely used feature in minigames such as MoneyWars, SkyBlock and SkyWars.\nIf you are looking for a compressed .phar file, go here: https://poggit.pmmp.io/ci/Muqsit/ChestShop/ChestShop\n\n**NOTE:** ChestShop depends upon EconomyAPI for transactions, you must have **EconomyAPI** plugin installed before running the plugin.\n\n### Basic Features\n- Ability to sell items along with their NBT tags.\n- Categories! Create shop categories to sort out your items.\n- Optional double-tap-to-buy feature for those who value their money.\n\n### How To Use?\nDownload the compiled .phar file from poggit and drop it into your server's `plugins/` folder.\n**NOTE:** You must either be OP or have the permission `chestshop.command.admin` to use the commands: `/cs addcategory`, `/cs removecategory` and `/cs additem`\n\n#### Adding a category\nCategories are the front-page of the `/chestshop` command. If you do not have any categories, the `/chestshop` command will send you an empty chest GUI. To add a category, use `/cs addcategory <category name>` while holding an item. The item that you are holding will be used to represent the category in `/chestshop`.\n![](https://i.imgur.com/8cPouEf.png)\n\nNow let's see how `/chestshop` looks.\n\n![](https://imgur.com/iRWAJ6a.png)\n\nNeato! Let's add some items to our category using `/cs additem <category name> <cost>`.\n\n![](https://i.imgur.com/fF8gPap.png)\n\nAwesome! You might be wondering what the 2 papers and one chest is doing in the last row of the GUI. The two papers turn towards the left/right page in case you have more than 45 items in your category. The chest in the middle of the two papers bring you back to the list of categories (`/chestshop`).",
+  "readme_source_url": "https://github.com/Muqsit/ChestShop",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Muqsit/ChestShop",
+  "archive_repo": null,
+  "approved_release_tag": "r-12916",
+  "stars": 0,
+  "total_downloads": 1894,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Muqsit"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/235116",
+  "versions": {
+    "stable": {
+      "version": "5.3.9",
+      "tag": "r-12916",
+      "published_at": null,
+      "downloads": 1894,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12916/chestshop-5.3.9-r12916.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12916",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12916/chestshop-5.3.9-r12916.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChestShop",
+    "stable_release_id": 12916
+  }
+}

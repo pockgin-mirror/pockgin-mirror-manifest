@@ -1,0 +1,61 @@
+{
+  "id": "blockreplacer",
+  "name": "BlockReplacer",
+  "author": "AIPTU",
+  "description": "A PocketMine-MP plugin that replaces a block with another block at a predetermined time.",
+  "readme_markdown": "# BlockReplacer\n\n[![](https://poggit.pmmp.io/shield.state/BlockReplacer)](https://poggit.pmmp.io/p/BlockReplacer)\n[![](https://poggit.pmmp.io/shield.dl.total/BlockReplacer)](https://poggit.pmmp.io/p/BlockReplacer)\n\nA PocketMine-MP plugin that replaces a block with another block at a predetermined time.\n\n# Features\n\n- **Automatic Update Checker**: The plugin automatically checks for updates, ensuring that you have the latest version with new features and bug fixes.\n- **Permission Bypass**: Grant specific users the `blockreplacer.bypass` permission to allow them to bypass block replacement and interact with blocks without triggering the replacement process.\n- **Automatic Item Pickup Support**: Enable automatic pickup of items dropped after block replacement, making it convenient for players to collect them.\n- **Custom Block Replacement**: Define rules for replacing specific blocks, allowing you to create unique environmental transformations and dynamic gameplay scenarios.\n- **Custom Drop Block**: Specify custom blocks to be dropped when certain blocks are broken, adding variety and alternative interactions. You can even include custom drop experience blocks, providing players with experience orbs upon block destruction.\n- **World Blacklist and Whitelist Support**: Control block replacement in specific worlds using blacklists and whitelists, providing tailored gameplay experiences.\n- **Sound Customization Support**: Customize the sounds associated with block replacement, enhancing immersion and creating a unique audio experience.\n- **Particle Customization Support**: Customize particle effects during block replacement, adding visual flair and enhancing the overall aesthetic appeal.\n- **Block Replacement during Server Stop**: Block replacement continues when the server is stopped, and changes are applied upon server restart.\n- **Scheduled Block Replacement**: Schedule block replacement at specific times or intervals, automating changes to the game environment.\n\n# Permissions\n\n- `blockreplacer.bypass`: Grants users the ability to bypass block replacement, allowing them to interact with blocks without triggering the replacement process.\n\n# Default Config\n```yaml\n# BlockReplacer Configuration\n\n# Permission defaults for the \"blockreplacer.bypass\" permission.\n# This permission allows players to bypass block replacement.\n# Valid values:\n#   - op: All server operators (ops) are assigned this permission by default.\n#   - all: Everyone is assigned this permission by default.\n#   - none: No one is assigned this permission by default.\npermission:\n  defaults: op\n\n# Automatic Item Pickup\n# Dropped items will be automatically added to the player's inventory.\n# If the player's inventory is full, the item will be dropped near the player.\n# This also includes experience points.\nauto-pickup:\n  enabled: true\n\n# Block Replacement Rules\nblocks:\n  # The default block used for replacement.\n  default-replace: air\n  # The default time (in seconds) before a block is replaced with the previous block.\n  default-time: 60\n  # List of block replacement rules.\n  # This should also always be wrapped in quotes to ensure it is parsed correctly.\n  # Format: \"block_from=block_to=time\".\n  # If \"block_to\" is not set, it will be replaced with the default replacement block.\n  # If \"time\" is not set, it will be replaced with the default replacement time.\n  list:\n    # Example 1: Replace cobblestone with stone within 5 seconds, with drops and experience.\n    \"cobblestone=stone=5\":\n      drops:\n        - item: stone\n          amount: 1-2  # Amount range: from 1 to 2\n          chance: 50-100  # Chance range: from 50% to 100%\n      experience:\n        amount: 5  # Fixed experience amount\n        chance: 100  # Fixed chance\n\n    # Example 2: Replace oak log with spruce log within 10 seconds, no drops, and double experience.\n    \"oak_log=spruce_log=10\":\n      drops: []\n      experience:\n        amount: 2  # Double the default experience amount\n        chance: 100  # Fixed chance\n\n    # Example 3: Replace diamond ore with emerald ore, follows default replacement time, with drops and experience.\n    \"diamond_ore=emerald_ore\":\n      drops:\n        - item: emerald\n          amount: 1-2  # Amount range: from 1 to 2\n          chance: 50-100  # Chance range: from 50% to 100%\n      experience:\n        amount: 10  # Fixed experience amount\n        chance: 50  # Fixed chance\n\n    # Example 4: Replace redstone ore with glowstone, within 8 seconds, with drops and quadruple experience.\n    \"redstone_ore=glowstone=8\":\n      drops:\n        - item: glowstone_dust\n          amount: 4-6  # Amount range: from 4 to 6\n          chance: 80-100  # Chance range: from 80% to 100%\n      experience:\n        amount: 4  # Quadruple the default experience amount\n        chance: 100  # Fixed chance\n\n    # Example 5: Replace oak wood with acacia wood within 15 seconds, no drops, and custom experience.\n    \"oak_wood=acacia_wood=15\":\n     drops: []\n     experience:\n       amount: 10  # Fixed experience amount\n       chance: 100  # Fixed chance\n\n    # Example 6: Replace stone with random wool color, follows default replacement time, with drops and experience.\n    \"stone\":\n      drops:\n        - item: wool\n          amount: 1-3  # Amount range: from 1 to 3\n          chance: 50-100  # Chance range: from 50% to 100%\n      experience:\n        amount: 5  # Fixed experience amount\n        chance: 100  # Fixed chance\n\n    # Example 7: Replace gold ore with default replacement block and time, with drops and a unique item tool.\n    \"gold_ore\":\n      drops:\n        - item: diamond_pickaxe\n          amount: 1  # Fixed amount\n          chance: 10  # Fixed chance\n          name: \"§6Efficiency's Edge\"  # Custom name for the item\n          lore:\n            - \"§eHarness the power of swiftness.\" # Custom lore for the item\n            - \"§bWithstands the test of time and labor.\"\n            - \"§aEffortlessly carves through any material.\"\n          enchantments:\n            - name: haste\n              level: 3\n            - name: efficiency\n              level: 5\n            - name: unbreaking\n              level: 3\n\n# Particle Effects\nparticles:\n  # Whether to display particles when destroying blocks.\n  enabled: true\n  # The name of the particle to be displayed when destroying the previous block.\n  from: minecraft:villager_happy\n  # The name of the particle to be displayed when replacing the block after it.\n  to: minecraft:explosion_particle\n\n# Sound Effects\nsounds:\n  # Whether to play sound effects when destroying blocks.\n  enabled: true\n  # The volume of the sound effects.\n  volume: 1\n  # The pitch of the sound effects.\n  pitch: 1\n  # The name of the sound to be played when destroying the previous block.\n  from: random.orb\n  # The name of the sound to be played when replacing the block after it.\n  to: random.explode\n\n# World Configuration\nworlds:\n  # Set this to true if you want to use the blacklisted-worlds setting.\n  # If both enabled-world-blacklist and enabled-world-whitelist are set to the same setting,\n  # the block will be replaced for all worlds.\n  enabled-world-blacklist: false\n  # If enabled-world-blacklist is set to true, the block will be replaced for all worlds,\n  # except the worlds mentioned here.\n  blacklisted-worlds:\n    - blacklistedworld1\n    - blacklistedworld2\n  # Set this to true if you want to use the whitelisted-worlds setting.\n  # If both enabled-world-blacklist and enabled-world-whitelist are set to the same setting,\n  # the block will not be replaced for all worlds.\n  enabled-world-whitelist: false\n  # If enabled-world-whitelist is set to true, blocks will not be replaced for all worlds,\n  # except the worlds mentioned here.\n  whitelisted-worlds:\n    - whitelistedworld1\n    - whitelistedworld2\n\n```\n\n# Upcoming Features\n\n- Currently none planned. You can contribute or suggest for new features.\n\n# Additional Notes\n\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/AIPTU/BlockReplacer/issues).\n- We accept all contributions! If you want to contribute, please make a pull request in [here](https://github.com/AIPTU/BlockReplacer/pulls).\n- Icons made from [www.flaticon.com](https://www.flaticon.com)",
+  "readme_source_url": "https://github.com/AIPTU/BlockReplacer",
+  "icon_url": "https://raw.githubusercontent.com/AIPTU/BlockReplacer/c3eb26a37adcc0c1d415ab931e6d3fc5aee474ac/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AIPTU/BlockReplacer",
+  "archive_repo": null,
+  "approved_release_tag": "r-13008",
+  "stars": 0,
+  "total_downloads": 280,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.5.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AIPTU"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/238246",
+  "versions": {
+    "stable": {
+      "version": "3.0.2",
+      "tag": "r-13008",
+      "published_at": null,
+      "downloads": 280,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13008/blockreplacer-3.0.2-r13008.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-13008",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13008/blockreplacer-3.0.2-r13008.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockReplacer",
+    "stable_release_id": 13008
+  }
+}

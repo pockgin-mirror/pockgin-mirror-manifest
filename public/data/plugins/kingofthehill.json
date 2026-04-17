@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13803",
   "stars": 0,
-  "total_downloads": 226,
+  "total_downloads": 655,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -46,6 +46,11 @@
       "tag": "r-13803",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13803/kingofthehill-1.1.0-r13803.phar"
+    },
+    {
+      "tag": "r-13095",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13095/kingofthehill-1.0.0-r13095.phar"
     }
   ],
   "comments": {
