@@ -1,0 +1,61 @@
+{
+  "id": "fancyplayercount",
+  "name": "FancyPlayerCount",
+  "author": "ReinfyTeam",
+  "description": "Fancy Player Count Inspired by Zeqa Network",
+  "readme_markdown": "# FancyPlayerCount\nFancy Player Count Inspired by Zeqa Network",
+  "readme_source_url": "https://github.com/ReinfyTeam/FancyPlayerCount",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/ReinfyTeam/FancyPlayerCount",
+  "archive_repo": null,
+  "approved_release_tag": "r-12254",
+  "stars": 0,
+  "total_downloads": 248,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ReinfyTeam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12254",
+      "published_at": null,
+      "downloads": 248,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12254/fancyplayercount-2.0.0-r12254.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12254",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12254/fancyplayercount-2.0.0-r12254.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FancyPlayerCount",
+    "stable_release_id": 12254
+  }
+}

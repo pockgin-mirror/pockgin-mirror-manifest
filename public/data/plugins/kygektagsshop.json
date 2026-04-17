@@ -1,0 +1,79 @@
+{
+  "id": "kygektagsshop",
+  "name": "KygekTagsShop",
+  "author": "thebigcrafter",
+  "description": "📖 About",
+  "readme_markdown": "<p align=\"center\">\n\n<img src=\"./images/KygekTagsShop.png\" />\n\n</p>\n\n<p align=\"center\">\n<a href=\"https://poggit.pmmp.io/p/KygekTagsShop\"><img src=\"https://poggit.pmmp.io/shield.dl.total/oh-my-pmmp?style=for-the-badge\" alt=\"poggit\" /></a>\n<a href=\"https://github.com/thebigcrafter/KygekTagsShop#GPL-3.0-1\"><img src=\"https://img.shields.io/github/license/thebigcrafter/KygekTagsShop?style=for-the-badge\" alt=\"license\" /></a>\n<a href=\"https://discord.gg/PykBfE2TZ9\"><img src=\"https://img.shields.io/discord/1087729577004122112?color=7289DA&label=discord&logo=discord&style=for-the-badge\" alt=\"discord\" /></a>\n</p>\n\n# 📖 About\n\n**KygekTagsShop** allows players to use tags that they can show to other players by using this plugin.\n\n# 🧩 Features\n\n- EconomyAPI support for tags prices\n  - Shows warning if EconomyAPI plugin is not installed or enabled (Can be disabled in `config.yml`)\n- Compatible with PureChat\n- Unlimited tags\n- Forms to buy and sell tags\n- Highly customizeable forms\n  - Supports `{player}` to display the player name in all forms\n  - Supports `&` as formatting codes in all forms\n  - Supports `\\n` to break new line in all forms\n  - Supports `{tagname}` to display tag name and `{tagprice}` to display tag price in some forms\n- Command descrption can be changed\n- Customizeable message prefix\n- Supports command aliases\n- Enable/disable return to previous form when the (X) button is pressed\n- Automatic plugin updates checker\n- Missing config file detection\n- Empty tags detection\n- Configurable player display name format for tag placement\n- Multiple languages support (English, Indonesian, Spanish, German, French, Romanian, Turkish, Vietnamese)\n- API for developers (see **For Developers** tab)\n- Events for developers (`TagBuyEvent` and `TagSellEvent`)\n\n# ⬇️ Installation\n\n- Download the latest version from Poggit Releases (It is recommended to always download the latest version for the best experience, except you're having compatibility issues).\n- Place the KygekTagsShop.phar file into the plugins folder.\n- Restart or start your server.\n- Done!\n\n> If you want to download the latest development build, which may contain the latest features that are currently in development, head over to Poggit CI and download the latest build. Please note that development builds may be unstable because it may contain untested issues or bugs.\n\n# 📜 Commands & Permissions\n\n| Command     | Default Description                                     | Permission           | Default |\n| ----------- | ------------------------------------------------------- | -------------------- | ------- |\n| `/tagsshop` | Allows player to use KygekTagsShop to buy and sell tags | `kygektagsshop.tags` | true    |\n\n**💡 Tips:**  \n- Command description can be changed in `config.yml`. You can also add command aliases in `config.yml`.  \n- Use `-kygektagsshop.tags` to blacklist the `/tagsshop` command permission to groups/users in PurePerms.\n\n# ⚙️ For Developers\n\nWe provide API for developers to write addons/plugins that depends with KygekTagsShop.\nTo access KygekTagsShop API class, you can use Kygekraqmak\\KygekTagsShop\\TagsShop::getAPI().\n\nExample:\n```php\n$tags = Kygekraqmak\\KygekTagsShop\\TagsShop::getAPI()->getAllTags(); // Get all tags from KygekTagsShop\n```\nAPI code can be seen here.\nPlease regularly check the changelogs for any changes in the API in future versions.\n\n# ✨ Contributing\n\nHelp us by contributing or translating KygekTagsShop plugin. To add translation, fork the KygekTagsShop plugin repo and copy the `en.yml` file inside `resources/lang` directory to the language code.\n\nDon't forget to create a [pull request](https://github.com/thebigcrafter/KygekTagsShop/pulls)!\n\n# ⚖️ License\n\nLicensed under the [GNU General Public License v3.0](https://github.com/thebigcrafter/KygekTagsShop#GPL-3.0-1) license.",
+  "readme_source_url": "https://github.com/thebigcrafter/KygekTagsShop",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/thebigcrafter/KygekTagsShop",
+  "archive_repo": null,
+  "approved_release_tag": "r-12239",
+  "stars": 0,
+  "total_downloads": 509,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigcrafter"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/220260",
+  "versions": {
+    "stable": {
+      "version": "1.1.3",
+      "tag": "r-12239",
+      "published_at": null,
+      "downloads": 475,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12239/kygektagsshop-1.1.3-r12239.phar"
+    },
+    "dev": {
+      "version": "1.1.2",
+      "tag": "r-12230",
+      "published_at": null,
+      "downloads": 17,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12230/kygektagsshop-1.1.2-r12230.phar"
+    }
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12239",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12239/kygektagsshop-1.1.3-r12239.phar"
+    },
+    {
+      "tag": "r-12230",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12230/kygektagsshop-1.1.2-r12230.phar"
+    },
+    {
+      "tag": "r-12227",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12227/kygektagsshop-1.1.1-r12227.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KygekTagsShop",
+    "stable_release_id": 12239
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13169",
   "stars": 0,
-  "total_downloads": 4904,
+  "total_downloads": 5389,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-12430",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12430/deviceacm-4.0.1-r12430.phar"
+    },
+    {
+      "tag": "r-12244",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12244/deviceacm-4.0.0-r12244.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "anticombatlog",
+  "name": "AntiCombatLog",
+  "author": "ElectroGamesYT",
+  "description": "Information",
+  "readme_markdown": "# Information \n- A simple anti combat log plugin for PocketMine\n# Features\n- Kill players if they leave the server while in combat (optional)\n- Ban specific or all commands for players in combat\n- Customizable messages and combat log time\n# Credits\n- Icon from www.flaticon.com\n- Subscribe to Electro Games on YouTube!",
+  "readme_source_url": "https://github.com/ElectroGamesYT/AntiCombatLog",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/AntiCombatLog/786e13b81fc034e404efe532d76dee03e39a6b70/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/AntiCombatLog",
+  "archive_repo": null,
+  "approved_release_tag": "r-12141",
+  "stars": 5,
+  "total_downloads": 1432,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218956",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12141",
+      "published_at": null,
+      "downloads": 1432,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12141/anticombatlog-2.0.0-r12141.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12141",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12141/anticombatlog-2.0.0-r12141.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiCombatLog",
+    "stable_release_id": 12141
+  }
+}

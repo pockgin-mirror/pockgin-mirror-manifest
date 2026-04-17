@@ -1,0 +1,61 @@
+{
+  "id": "autodisableworlds",
+  "name": "AutoDisableWorlds",
+  "author": "ElectroGamesYT",
+  "description": "Information",
+  "readme_markdown": "# Information \n - This plugin unloads worlds with no players in them to save resources.\n# Credits\n- Icon from www.flaticon.com\nSubscribe To Electro Games On YouTube!",
+  "readme_source_url": "https://github.com/ElectroGamesYT/AutoDisableWorlds",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/AutoDisableWorlds/83eac132eb44b5595a7dd1ac49bcb14fd601e232/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/AutoDisableWorlds",
+  "archive_repo": null,
+  "approved_release_tag": "r-12138",
+  "stars": 0,
+  "total_downloads": 389,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218937",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12138",
+      "published_at": null,
+      "downloads": 389,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12138/autodisableworlds-2.0.0-r12138.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12138",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12138/autodisableworlds-2.0.0-r12138.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AutoDisableWorlds",
+    "stable_release_id": 12138
+  }
+}

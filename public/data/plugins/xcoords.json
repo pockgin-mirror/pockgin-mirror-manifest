@@ -1,0 +1,61 @@
+{
+  "id": "xcoords",
+  "name": "XCoords",
+  "author": "xrde4",
+  "description": "XCoords is a simple Minecraft BE [PM5] plugin that allows players with specific permissions to toggle the display of coordinates in-game.",
+  "readme_markdown": "<div align=\"center\">\n  <img src=\"https://github.com/xrde4/XCoords/assets/111656745/f80a4bcd-2d45-4879-89e1-648025d9ce69\" alt=\"Logo\" width=\"80\" height=\"80\">\n  <h3>XCoords</h3>\n  <p align=\"center\">\n    XCoords is a simple Minecraft BE [PM5] plugin that allows players with specific permissions to toggle the display of coordinates in-game.    \n  </p>\n\n  \n[![Stars][stars-badge]][stars-url]\n\n[stars-url]: https://github.com/xrde4/Xcoords/stargazers\n[stars-badge]: https://img.shields.io/github/stars/xrde4/Xcoords.svg?style=for-the-badge\n\n\n\n</div>\n\n<!-- ABOUT THE PROJECT -->\n## About The Project\nhttps://github.com/xrde4/XCoords/assets/111656745/4d8d39b2-31a4-4c98-9913-630e9542faef\n\n<br> ✔️ Toggle coordinates: Players with the \"coords.x.perms\" permission can enable or disable the display of coordinates in the top-left corner of the screen.\n<br> ✔️ An Extra Perk for Donator Privileges: Provide players with the ability to toggle on and off the display of coordinates on the screen with the XCoords plugin, making your donator privilege system even more appealing and convenient for players.\n<br> ✔️ Dual Language Support: The XCoords plugin comes with built-in support for two languages directly from the source code, making it easy to cater to a broader player base with different language preferences.\n\n#### :question: Why did **Xcoords** appear?\n\nXCoords came to fruition as a response to the removal of the gamerule command responsible for displaying player coordinates in MultiWorld on PM5. We acknowledge and appreciate MultiWorld for their contributions across various versions. Now, XCoords takes up the mantle, ensuring that players can still enjoy the convenience of coordinates display on our server. 🤪\n<br>\n\n## ⬇️ Downloads:\n\n| Downloads                                         | API       | Downloads                                                                 |\n|---------------------------------------------------|-----------|---------------------------------------------------------------------------|\n| latest version (0.0.1)                       | 5.x       | [GitHub Release](https://github.com/xrde4/XCoords/releases/download/0.1/Xcoords.phar)                |\n<br>\n\n## 📁 Supported software:\n**This plugin works only on PocketMine-MP.** (And maybe on his NetherGames fork)\n\n## 🔧 How to install XCoords?\n\n1) [Download](https://github.com/xrde4/XCoords/releases/download/0.1/Xcoords.phar) latest stable released version from poggit.\n2) Move dowloaded file to your server **/plugins/** folder\n3) Restart the server\n\n## 💻 Xcoords commands:\n\n| **Command**      | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                     |\n|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| **/coords**     | **Disable/enable display of coordinates.**",
+  "readme_source_url": "https://github.com/xrde4/XCoords",
+  "icon_url": "https://raw.githubusercontent.com/xrde4/XCoords/f54f0c5d835e0ef6a1fd91ace867aa55ed3873d1/icon.png",
+  "featured": false,
+  "repo": "https://github.com/xrde4/XCoords",
+  "archive_repo": null,
+  "approved_release_tag": "r-12293",
+  "stars": 5,
+  "total_downloads": 2331,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "xrde4"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-12293",
+      "published_at": null,
+      "downloads": 2331,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12293/xcoords-1.0-r12293.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12293",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12293/xcoords-1.0-r12293.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "XCoords",
+    "stable_release_id": 12293
+  }
+}

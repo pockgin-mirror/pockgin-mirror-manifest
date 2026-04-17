@@ -1,0 +1,61 @@
+{
+  "id": "newblazinfly",
+  "name": "_NewBlazinFly",
+  "author": "antbag-dev",
+  "description": "License",
+  "readme_markdown": "## License\n| License |\n| :---: |\n| [![BlazinJoin License](https://img.shields.io/github/license/iiFlamiinBlaze/BlazinFly.svg?label=License)](LICENSE) |\n\nMake sure to read all of the license as it could change at anytime.\n\n## Information\n| Download | View Count | Discord |\n| :---: | :---: | :---: |\n <a href=\"https://poggit.pmmp.io/p/_NewBlazinFly\"><img src=\"https://poggit.pmmp.io/shield.state/_NewBlazinFly\"></a> | [![View Count](http://hits.dwyl.io/iiFlamiinBlaze/BlazinFly.svg)](http://hits.dwyl.io/iiFlamiinBlaze/BlazinFly) | <a href=\"https://discord.gg/znEsFsG\"><img src=\"https://discordapp.com/api/guilds/425712766687510528/embed.png\" alt=\"Discord server\"/></a> |\n \nThis plugin allows you to fly in survival mode. This plugin is for anyone to use.\nIf you have any issues with the plugin, please make an issue [here](https://github.com/antbag-dev/BlazinFly/issues/new).\n* Credits: [antbag-dev](https://github.com/antbag-dev)\n\n## How to use\nFor more info about how to use the plugin go to the [BlazinFly Wiki](https://iiflamiinblaze.github.io/blazinfly/).",
+  "readme_source_url": "https://github.com/antbag-dev/BlazinFly",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/antbag-dev/BlazinFly",
+  "archive_repo": null,
+  "approved_release_tag": "r-12201",
+  "stars": 0,
+  "total_downloads": 336,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "antbag-dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "3.0.0",
+      "tag": "r-12201",
+      "published_at": null,
+      "downloads": 336,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12201/_newblazinfly-3.0.0-r12201.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12201",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12201/_newblazinfly-3.0.0-r12201.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "_NewBlazinFly",
+    "stable_release_id": 12201
+  }
+}

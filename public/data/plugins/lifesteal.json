@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14163",
   "stars": 0,
-  "total_downloads": 3086,
+  "total_downloads": 5282,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -39,7 +39,13 @@
       "downloads": 480,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14163/lifesteal-2.1.0-r14163.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "1.1.1",
+      "tag": "r-12301",
+      "published_at": null,
+      "downloads": 146,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12301/lifesteal-1.1.1-r12301.phar"
+    }
   },
   "recent_builds": [
     {
@@ -56,6 +62,16 @@
       "tag": "r-12912",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12912/lifesteal-1.2.1-r12912.phar"
+    },
+    {
+      "tag": "r-12305",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12305/lifesteal-1.2.0-r12305.phar"
+    },
+    {
+      "tag": "r-12301",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12301/lifesteal-1.1.1-r12301.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,66 @@
+{
+  "id": "tgcapes",
+  "name": "TGCapes",
+  "author": "Theslowaja",
+  "description": "Everyone likes Capes. With this Plugin you can add them to your Pocketmine-MP Server!",
+  "readme_markdown": "# TGCapes\n\n![alt text](https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3a/MINECON_2011_Cape.png/revision/latest/scale-to-width-down/200?cb=20200901084410)\n\nEveryone likes Capes. With this Plugin you can add them to your Pocketmine-MP Server! \nYou can choose a Cape by using the command /cape. Then an UI with the Capes you can choose will be opened!\n\nYou can add an unlimited amount of Capes. The Permissions and other settings are explained below!\n\n# Features:\n\n• Easy Setup!\n   \n• Permissions for using Capes!\n   \n• Easy Usage via UI!\n  \n• Add unlimited Capes!\n\n\n# Setup:\n\nDownload this Plugin and put it in the plugins folder of your Server.\n\nWith the Command /cape you can choose a cape.\n\nTo add own Capes just put the .png Picture of the Cape in the plugin_data/UltraCapes/ folder. \n\nThen the new Capes automatically appear in the UI.\n\nImportant!!! The Capes Size must be 64x32 Pixel. (Of the .png file)\n\n# TO DO:\n\n• Automatically set cape for players with a specific permission.\n\n• Add a permission for using all Capes\n\n# ScreenShoot\n\n• Menu •\n\n<img src=\"https://github.com/Theslowaja/image/blob/main/img/menu.png\" alt=\"menu\" width=\"50%\">\n\n• List •\n\n<img src=\"https://github.com/Theslowaja/image/blob/main/img/list.png\" alt=\"list\" width=\"50%\">\n\n• Example •\n\n<img src=\"https://github.com/Theslowaja/image/blob/main/img/example.png\" alt=\"ex\" width=\"50%\">\n\n# Permissions:\n\nTo open the Main CapeUI you need the Permission cape.cmd.\n\nThe permissions for the single capes is: {capename}.cape.\n\nFor example: firework.cape or energy.cape\n\n\n# Note\n\n\n• If you have problems open an Issue.\n\nadd new cape\n\nHave fun with this plugin on your Server!\n\nCredits: https://github.com/SuperStulle007/UltraCapes",
+  "readme_source_url": "https://github.com/Theslowaja/TGCapes",
+  "icon_url": "https://raw.githubusercontent.com/Theslowaja/TGCapes/0913b1d57757d4545666cbdac6c224865255a40a/cape.png",
+  "featured": false,
+  "repo": "https://github.com/Theslowaja/TGCapes",
+  "archive_repo": null,
+  "approved_release_tag": "r-12338",
+  "stars": 0,
+  "total_downloads": 1378,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Theslowaja"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/222149",
+  "versions": {
+    "stable": {
+      "version": "2.1.1",
+      "tag": "r-12338",
+      "published_at": null,
+      "downloads": 1182,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12338/tgcapes-2.1.1-r12338.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12338",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12338/tgcapes-2.1.1-r12338.phar"
+    },
+    {
+      "tag": "r-12272",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12272/tgcapes-2.1.0-r12272.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TGCapes",
+    "stable_release_id": 12338
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "findplayers",
+  "name": "FindPlayers",
+  "author": "Theslowaja",
+  "description": "PlayerFinder",
+  "readme_markdown": "# PlayerFinder\n\n<img src=\"https://github.com/Theslowaja/PlayerFinder/blob/main/icon.png\" alt=\"Stats\" width=\"50%\">\n\nFindPlayer in your server \n\n# command\n\n- /findp tp [playername]\n- /findp world [playername]\n- /findp find [playername]\n\n# Credits \n\n[ElementalMinecraftGaming](https://poggit.pmmp.io/p/PlayerFinder/1.0.0)",
+  "readme_source_url": "https://github.com/Theslowaja/PlayerFinder",
+  "icon_url": "https://raw.githubusercontent.com/Theslowaja/PlayerFinder/0430a6684803e3773fef5f124cb8f23ab3ab75d9/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Theslowaja/PlayerFinder",
+  "archive_repo": null,
+  "approved_release_tag": "r-12211",
+  "stars": 0,
+  "total_downloads": 1116,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Theslowaja"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/220760",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12211",
+      "published_at": null,
+      "downloads": 1116,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12211/findplayers-2.0.0-r12211.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12211",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12211/findplayers-2.0.0-r12211.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FindPlayers",
+    "stable_release_id": 12211
+  }
+}

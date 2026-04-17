@@ -1,0 +1,61 @@
+{
+  "id": "xpshop",
+  "name": "XPShop",
+  "author": "thebigcrafter",
+  "description": "Buy and sell XP",
+  "readme_markdown": "[![State](https://poggit.pmmp.io/shield.state/XPShop)](https://poggit.pmmp.io/p/XPShop)\n[![API](https://poggit.pmmp.io/shield.api/XPShop)](https://poggit.pmmp.io/p/XPShop)\n[![Downloads Total](https://poggit.pmmp.io/shield.dl.total/XPShop)](https://poggit.pmmp.io/p/XPShop)\n\n<div align=\"center\">\n  <a href=\"https://github.com/thebigcrafter/XPShop\">\n    <img src=\"https://raw.githubusercontent.com/thebigcrafter/XPShop/main/icon.png\" alt=\"Logo\" width=\"100\" height=\"100\">\n  </a>\n\n<h3 align=\"center\">XPShop</h3>\n\n  <p align=\"center\">\n    Buy and sell XP\n    <br />\n    <a href=\"https://github.com/thebigcrafter/XPShop/releases\">Releases</a>\n    ·\n    <a href=\"https://github.com/thebigcrafter/XPShop/issues\">Report Bug</a>\n  </p>\n</div>\n\n# Installation\n## Download from Poggit\n  - Download plugin from <a href=\"https://poggit.pmmp.io/p/XPShop/\">here.</a>\n  - Move it to PocketMine plugin folder.\n  - Reload your server\n## Using oh-my-pmmp\n```shell\ninstall XPShop latest\n```\n# License\nCopyright (c) tobydev27. All rights reserved.\n\nLicensed under the [GPL-3.0](https://github.com/thebigcrafter/XPShop#GPL-3.0-1) license.",
+  "readme_source_url": "https://github.com/thebigcrafter/XPShop",
+  "icon_url": "https://raw.githubusercontent.com/thebigcrafter/XPShop/8148f49e1596d5cadab2d20d469763222eecefff/icon.png",
+  "featured": false,
+  "repo": "https://github.com/thebigcrafter/XPShop",
+  "archive_repo": null,
+  "approved_release_tag": "r-12237",
+  "stars": 0,
+  "total_downloads": 961,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigcrafter"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/220244",
+  "versions": {
+    "stable": {
+      "version": "2.1.0",
+      "tag": "r-12237",
+      "published_at": null,
+      "downloads": 961,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12237/xpshop-2.1.0-r12237.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12237",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12237/xpshop-2.1.0-r12237.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "XPShop",
+    "stable_release_id": 12237
+  }
+}

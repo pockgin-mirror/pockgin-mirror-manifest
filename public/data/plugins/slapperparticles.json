@@ -1,0 +1,63 @@
+{
+  "id": "slapperparticles",
+  "name": "SlapperParticles",
+  "author": "ReinfyTeam",
+  "description": "Slappers can now have a particles.",
+  "readme_markdown": "# SlapperParticles\n[![](https://poggit.pmmp.io/shield.state/SlapperParticles)](https://poggit.pmmp.io/p/SlapperParticles)\n[![](https://poggit.pmmp.io/shield.api/SlapperParticles)](https://poggit.pmmp.io/p/SlapperParticles)<br>\nSlappers can now have a particles.\n\n# Features\n- Ability to configure the particles of the Slappers.\n\n# Disclaimer\nThis plugin was designed and work in pocketmine. If you are using fork/spoon of PocketMine-MP. Your issues will automatically closed.\n\n# How to Install?\n- You must have Slapper Plugin, you can download from [poggit here](https://poggit.pmmp.io/p/Slapper/)!\n- Just put this plugin in your `plugins/` folder, and it should work!<br>\n- You can configure the plugin by accessing `plugin_data/SlapperParticles/config.yml`\n\n# Report a Issue/Bug\nYou found a bug or a plugin issue?\n- Contact support in the [Discord Server](https://discord.gg/v2rNeHaptd)\n- Create an [Issue](https://github.com/ReinfyTeam/SlapperParticles/issues)\n- Write your bug & the issue you are having with all informations including the crash or errors so I can track the issue.\n- Submit the issue and be patient for a response for a solution to your problem :D",
+  "readme_source_url": "https://github.com/ReinfyTeam/SlapperParticles",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/ReinfyTeam/SlapperParticles",
+  "archive_repo": null,
+  "approved_release_tag": "r-12256",
+  "stars": 0,
+  "total_downloads": 429,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "Slapper"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ReinfyTeam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-12256",
+      "published_at": null,
+      "downloads": 429,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12256/slapperparticles-1.0.2-r12256.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12256",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12256/slapperparticles-1.0.2-r12256.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SlapperParticles",
+    "stable_release_id": 12256
+  }
+}

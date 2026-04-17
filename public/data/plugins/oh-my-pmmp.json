@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12620",
   "stars": 0,
-  "total_downloads": 272,
+  "total_downloads": 607,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,13 +37,24 @@
       "downloads": 272,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12620/oh-my-pmmp-2023.12-r12620.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "2.1.0-alpha",
+      "tag": "r-12321",
+      "published_at": null,
+      "downloads": 335,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12321/oh-my-pmmp-2.1.0-alpha-r12321.phar"
+    }
   },
   "recent_builds": [
     {
       "tag": "r-12620",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12620/oh-my-pmmp-2023.12-r12620.phar"
+    },
+    {
+      "tag": "r-12321",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12321/oh-my-pmmp-2.1.0-alpha-r12321.phar"
     }
   ],
   "comments": {

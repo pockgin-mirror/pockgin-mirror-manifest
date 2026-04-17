@@ -1,0 +1,66 @@
+{
+  "id": "nospace",
+  "name": "NoSpace",
+  "author": "Wildan-dev461",
+  "description": "NameSpacePreventJoin",
+  "readme_markdown": "# NameSpacePreventJoin\nPrevent a player with space in their name join the server",
+  "readme_source_url": "https://github.com/Wildan-dev461/NameSpacePreventJoin",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Wildan-dev461/NameSpacePreventJoin",
+  "archive_repo": null,
+  "approved_release_tag": "r-12197",
+  "stars": 2,
+  "total_downloads": 178,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Wildan-dev461"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/222194",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-12197",
+      "published_at": null,
+      "downloads": 147,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12197/nospace-1.0.2-r12197.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12197",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12197/nospace-1.0.2-r12197.phar"
+    },
+    {
+      "tag": "r-12151",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12151/nospace-1.0.1-r12151.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NoSpace",
+    "stable_release_id": 12197
+  }
+}

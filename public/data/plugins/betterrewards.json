@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14240",
   "stars": 0,
-  "total_downloads": 129,
+  "total_downloads": 2226,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-14240",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14240/betterrewards-2.0.1-r14240.phar"
+    },
+    {
+      "tag": "r-12186",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12186/betterrewards-2.0.0-r12186.phar"
     }
   ],
   "comments": {

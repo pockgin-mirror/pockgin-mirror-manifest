@@ -1,0 +1,61 @@
+{
+  "id": "nodropspe",
+  "name": "NoDropsPE",
+  "author": "MCPEAbdu77",
+  "description": "PocketMine-MP plugin that inhibits players from dropping items. This plugin also comes with a variety of useful commands.",
+  "readme_markdown": "# NoDropsPE\nPocketMine-MP plugin that inhibits players from dropping items. This plugin also comes with a variety of useful commands.\n\n# Usage\n\nSimply install the plugin on the server and it is ready. Currently there is no configeration file available. \n\n# Commands\n\n`/drop`\n`/dropitem`\n  - Description: This commands let you drop the item you want to by holding the item and using this command.\n\n`/trash`\n`/trashbin`\n  - Description: This commands remove the item you're holding.\n  \n`/toggledrops`\n  - Description: This command toggle the the ability of dropping items.\n  - Default: op (only operators can execute this command)\n\n# Contact\n\n  - Discord: MCA7#1245",
+  "readme_source_url": "https://github.com/MCPEAbdu77/NoDropsPE",
+  "icon_url": "https://raw.githubusercontent.com/MCPEAbdu77/NoDropsPE/20e1ed122e0276d8cc9bd5b519a93127ca5d6f5a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MCPEAbdu77/NoDropsPE",
+  "archive_repo": null,
+  "approved_release_tag": "r-12234",
+  "stars": 0,
+  "total_downloads": 355,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MCPEAbdu77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/220198",
+  "versions": {
+    "stable": {
+      "version": "4.21",
+      "tag": "r-12234",
+      "published_at": null,
+      "downloads": 355,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12234/nodropspe-4.21-r12234.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12234",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12234/nodropspe-4.21-r12234.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NoDropsPE",
+    "stable_release_id": 12234
+  }
+}

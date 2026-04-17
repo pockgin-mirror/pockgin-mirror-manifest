@@ -1,0 +1,61 @@
+{
+  "id": "playerstatus",
+  "name": "PlayerStatus",
+  "author": "Theslowaja",
+  "description": "plugin to know player status",
+  "readme_markdown": "# playerstatus\nplugin to know player status\n\n# command\n\n/player (name)\n  \n  # feature\n  \n  -player device\n  \n  -player ping\n  \n  -player name\n  \n  player device model\n\n# ScoreHud Tags\n| Tags | PlayerStatus |\n|:--:|:--:|\n|```playerstatus.device``` | Device OS |\n|```playerstatus.devicemodel``` | Device Model |\n|```playerstatus.control``` | Control |\n\n# pocketmine\n\n[![](https://poggit.pmmp.io/shield.state/PlayerStatus)](https://poggit.pmmp.io/p/PlayerStatus)\n<a href=\"https://poggit.pmmp.io/p/PlayerStatus\"><img src=\"https://poggit.pmmp.io/shield.state/PlayerStatus\"></a>\n[![](https://poggit.pmmp.io/shield.api/PlayerStatus)](https://poggit.pmmp.io/p/PlayerStatus)\n<a href=\"https://poggit.pmmp.io/p/PlayerStatus\"><img src=\"https://poggit.pmmp.io/shield.api/PlayerStatus\"></a>\n[![](https://poggit.pmmp.io/shield.dl.total/PlayerStatus)](https://poggit.pmmp.io/p/PlayerStatus)\n<a href=\"https://poggit.pmmp.io/p/PlayerStatus\"><img src=\"https://poggit.pmmp.io/shield.dl.total/PlayerStatus\"></a>\n[![](https://poggit.pmmp.io/shield.dl/PlayerStatus)](https://poggit.pmmp.io/p/PlayerStatus)\n<a href=\"https://poggit.pmmp.io/p/PlayerStatus\"><img src=\"https://poggit.pmmp.io/shield.dl/PlayerStatus\"></a>",
+  "readme_source_url": "https://github.com/Theslowaja/playerstatus",
+  "icon_url": "https://raw.githubusercontent.com/Theslowaja/playerstatus/75314465b00f29fa5f05ebff02e7c1dd289b8be8/d4d38780672812f5aeff503cf4bbe6e4.png",
+  "featured": false,
+  "repo": "https://github.com/Theslowaja/playerstatus",
+  "archive_repo": null,
+  "approved_release_tag": "r-12180",
+  "stars": 5,
+  "total_downloads": 1895,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Theslowaja"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/219356",
+  "versions": {
+    "stable": {
+      "version": "2.0",
+      "tag": "r-12180",
+      "published_at": null,
+      "downloads": 1895,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12180/playerstatus-2.0-r12180.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12180",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12180/playerstatus-2.0-r12180.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerStatus",
+    "stable_release_id": 12180
+  }
+}

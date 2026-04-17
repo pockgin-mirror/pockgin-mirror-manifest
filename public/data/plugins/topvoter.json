@@ -1,0 +1,63 @@
+{
+  "id": "topvoter",
+  "name": "TopVoter",
+  "author": "SalmonDE",
+  "description": "TopVoter is a plugin that lists voters on your PocketMine-MP Server using FloatingTextParticles.",
+  "readme_markdown": "# TopVoter [![Poggit-CI](https://poggit.pmmp.io/ci.badge/SalmonDE/TopVoter/TopVoter)](https://poggit.pmmp.io/ci/SalmonDE/TopVoter/TopVoter)\n\nTopVoter is a plugin that lists voters on your PocketMine-MP Server using FloatingTextParticles.\n\n### **Requirements:**\n- An API key of your server from [minecraftpocket-servers.com](minecraftpocket-servers.com).\n- An internet connection to connect to the [minecraftpocket-servers.com](minecraftpocket-servers.com) services.\n\n### **\"Error reading ca cert file\"**\nIf you get an error like this, make sure to take a look at issue [#26](https://github.com/SalmonDE/TopVoter/issues/26) and follow the suggested instructions\n\n### `master` branch is for PocketMine-MP 5!\nThe `master` branch is on API 5.x.y, and it is NOT backwards-compatible with 3.x.y or 4.x.y.<br>\nIf you are running on API 3.x.y, you can download the plugin [here](https://poggit.pmmp.io/r/43968/TopVoter.phar).\n<br>If you are running on API 4.x.y, you can download the plugin [here](https://poggit.pmmp.io/r/194344/TopVoter_dev-52.phar).\n\n### **For Developers:**\n- Check out our API Documentation [here](https://github.com/SalmonDE/TopVoter/wiki/API-Documentation).\n\n## **Preview**:\n\n![TopVoter Example Preview](https://projects.aericio.net/github/TopVoter/TopVoterExample.png)",
+  "readme_source_url": "https://github.com/SalmonDE/TopVoter",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/SalmonDE/TopVoter",
+  "archive_repo": null,
+  "approved_release_tag": "r-12217",
+  "stars": 0,
+  "total_downloads": 415,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "PocketVote"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SalmonDE"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/219960",
+  "versions": {
+    "stable": {
+      "version": "3.3.0",
+      "tag": "r-12217",
+      "published_at": null,
+      "downloads": 415,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12217/topvoter-3.3.0-r12217.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12217",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12217/topvoter-3.3.0-r12217.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TopVoter",
+    "stable_release_id": 12217
+  }
+}

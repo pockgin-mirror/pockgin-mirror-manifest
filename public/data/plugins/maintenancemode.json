@@ -1,0 +1,61 @@
+{
+  "id": "maintenancemode",
+  "name": "MaintenanceMode",
+  "author": "ElectroGamesYT",
+  "description": "Information",
+  "readme_markdown": "# Information \n - When Maintenance Mode is Active, Only Players With OP or The Permission \"maintenancemode.bypass\" Can Join Your Server.\n - Maintenance Mode Kick Message is Configurable Via The Conig File.\n# Commands\n- /mm on\n- /mm off\n# Permissions\n- Permission: maintenancemode.bypass\n# Credits\n- Icon made by Freepik from www.flaticon.com",
+  "readme_source_url": "https://github.com/ElectroGamesYT/MaintenanceMode",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/MaintenanceMode/69276ca9457c10feefde2071c23a15d1744f9637/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/MaintenanceMode",
+  "archive_repo": null,
+  "approved_release_tag": "r-12135",
+  "stars": 5,
+  "total_downloads": 1001,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218913",
+  "versions": {
+    "stable": {
+      "version": "3.0.0",
+      "tag": "r-12135",
+      "published_at": null,
+      "downloads": 1001,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12135/maintenancemode-3.0.0-r12135.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12135",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12135/maintenancemode-3.0.0-r12135.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MaintenanceMode",
+    "stable_release_id": 12135
+  }
+}

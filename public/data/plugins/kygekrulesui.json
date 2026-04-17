@@ -1,0 +1,61 @@
+{
+  "id": "kygekrulesui",
+  "name": "KygekRulesUI",
+  "author": "thebigcrafter",
+  "description": "📖 About",
+  "readme_markdown": "<h1 align=\"center\">KygekRulesUI</h1>\n\n<p align=\"center\">\n<a href=\"https://poggit.pmmp.io/p/KygekRulesUI\"><img src=\"https://poggit.pmmp.io/shield.dl.total/KygekRulesUI?style=for-the-badge\" alt=\"poggit\" /></a>\n<a href=\"https://github.com/thebigcrafter/KygekRulesUI#GPL-3.0-1\"><img src=\"https://img.shields.io/github/license/thebigcrafter/KygekRulesUI?style=for-the-badge\" alt=\"license\" /></a>\n<a href=\"https://discord.gg/PykBfE2TZ9\"><img src=\"https://img.shields.io/discord/1087729577004122112?color=7289DA&label=discord&logo=discord&style=for-the-badge\" alt=\"discord\" /></a>\n</p>\n\n# 📖 About\n\nA plugin that will show your server rules in UI form. To open KygekRulesUI, simply type `/rules` in the chat.\n\n# 🧩 Features\n\n- Easy to use (you can set the `title`, `content` and `button` in the `config.yml`)\n- No need to restart, config will automatically get reloaded every time the `/rules` command gets executed!\n- Use `{player}` to display player name\n- Use `§` as formatting codes\n- Use `\\n` to break into a new line\n- Change command description to suit your server\n- Supports command aliases\n- FormAPI plugin is not required\n- Automatic plugin update checker on server startup\n\n# ⬇️ Installation\n\n1. Download the latest version (It is recommended to always download the latest version for the best experience, except you're having compatibility issues).\n2. Put the .phar file to the `plugins` folder.\n3. Restart the server.\n4. Open the `config.yml` file in the `plugin_data/KygekRulesUI` folder to edit the `title`, `content` and `button` (NEVER TOUCH THE `config-version`!).\n5. Join the server and type `/rules` in the player chat.\n6. Done!\n\n# 📜 Commands & Permissions\n\n| Command | Default Description | Permission | Default |\n| --- | --- | --- | --- |\n| `/rules` | Server rules in UI form | `kygekrulesui.rules` | true |\n\n💡 Tips:\n- Command description can be changed in `config.yml`. You can also add command aliases in `config.yml`.  \n- Use `-kygekrulesui.rules` to blacklist the `/rules` command permission to groups/users in PurePerms.\n\n# 🚢 Other Versions\n\n- [Nukkit](https://github.com/KygekTeam/KygekRulesUI-Nukkit)\n\n# ⚖️ License\n\nLicensed under the [GNU General Public License v3.0](https://github.com/thebigcrafter/KygekRulesUI#GPL-3.0-1) license.",
+  "readme_source_url": "https://github.com/thebigcrafter/KygekRulesUI",
+  "icon_url": "https://raw.githubusercontent.com/thebigcrafter/KygekRulesUI/aced95b628dd2777f733310d42aae8baf7116bb0/icon.png",
+  "featured": false,
+  "repo": "https://github.com/thebigcrafter/KygekRulesUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-12223",
+  "stars": 0,
+  "total_downloads": 821,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigcrafter"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/220057",
+  "versions": {
+    "stable": {
+      "version": "2.2.1",
+      "tag": "r-12223",
+      "published_at": null,
+      "downloads": 821,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12223/kygekrulesui-2.2.1-r12223.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12223",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12223/kygekrulesui-2.2.1-r12223.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KygekRulesUI",
+    "stable_release_id": 12223
+  }
+}

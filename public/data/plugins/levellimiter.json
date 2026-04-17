@@ -1,0 +1,61 @@
+{
+  "id": "levellimiter",
+  "name": "LevelLimiter",
+  "author": "MCPEAbdu77",
+  "description": "A PocketMine-MP plugin which let's you whitelist/blacklist specific commands on specific worlds.",
+  "readme_markdown": "# LevelLimiter\n<a href=\"https://poggit.pmmp.io/p/LevelLimiter\"><img src=\"https://poggit.pmmp.io/shield.state/LevelLimiter\"></a>\n\nA PocketMine-MP plugin which let's you whitelist/blacklist specific commands on specific worlds.\n\n# Config.yml \nSet up the commands and the whitelisted/blacklisted world(s) on which the specific command will work/not work on.\n - command1:\n     - \"world1\"\n     - \"world2\"\n - command2:\n     - \"world3\"\n \n# Permissions\n Operators will be able to bypass this restriction by default. Users with `levellimiter.bypass` can bypass this restriction.\n If you want to grant access to a group/user to bypass the restriction on a specific world, add `levellimiter.bypass.<world>`.\n \n `<world>` denotes the world name. \n \n Example: \n  - `levellimiter.bypass.flat` grants the user/group to bypass restrictions on `flat` world.\n \n If you want to grant access to a group/user a specific command on a specific world, add `levellimiter.bypass.<world>.<command>`.\n Example:\n  - `levellimiter.bypass.flat.pay` grants the user/group to use the `/pay` command on `flat` world.\n\n# Contact\n\n - Discord: MCA7#1245",
+  "readme_source_url": "https://github.com/MCPEAbdu77/LevelLimiter",
+  "icon_url": "https://raw.githubusercontent.com/MCPEAbdu77/LevelLimiter/ea22abff4a527be333eef3d97500815bd48fabfa/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MCPEAbdu77/LevelLimiter",
+  "archive_repo": null,
+  "approved_release_tag": "r-12231",
+  "stars": 0,
+  "total_downloads": 304,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MCPEAbdu77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/220182",
+  "versions": {
+    "stable": {
+      "version": "2.1.3",
+      "tag": "r-12231",
+      "published_at": null,
+      "downloads": 304,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12231/levellimiter-2.1.3-r12231.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12231",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12231/levellimiter-2.1.3-r12231.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LevelLimiter",
+    "stable_release_id": 12231
+  }
+}

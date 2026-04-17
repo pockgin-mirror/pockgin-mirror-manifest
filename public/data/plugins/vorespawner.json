@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13793",
   "stars": 0,
-  "total_downloads": 169,
+  "total_downloads": 981,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,16 @@
       "tag": "r-13793",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13793/vorespawner-1.0.7-r13793.phar"
+    },
+    {
+      "tag": "r-12303",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12303/vorespawner-1.0.6-r12303.phar"
+    },
+    {
+      "tag": "r-12171",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12171/vorespawner-1.0.5-r12171.phar"
     }
   ],
   "comments": {

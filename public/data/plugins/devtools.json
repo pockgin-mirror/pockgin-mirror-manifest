@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13827",
   "stars": 5,
-  "total_downloads": 3810,
+  "total_downloads": 10548,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.17.2",
       "tag": "r-13827",
       "published_at": null,
-      "downloads": 3810,
+      "downloads": 3815,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13827/devtools-1.17.2-r13827.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-13827",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13827/devtools-1.17.2-r13827.phar"
+    },
+    {
+      "tag": "r-12228",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12228/devtools-1.17.1-r12228.phar"
     }
   ],
   "comments": {

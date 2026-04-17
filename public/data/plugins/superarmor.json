@@ -1,0 +1,61 @@
+{
+  "id": "superarmor",
+  "name": "SuperArmor",
+  "author": "middle1",
+  "description": "Описание:",
+  "readme_markdown": "# SuperArmor\r\n## Описание:\r\n### С помощью этого плагина вы можете приобрести доспехи для зачарования (защита 1000) за 64 алмаза.  Эта броня хорошо защищает, но имеет очень низкую прочность!  Этот плагин можно настроить (стоимость, валюта предмета, уровень зачарования) с помощью файла конфигурации (в plugin_data/SuperArmor/config.yml)\r\n## Использование:\r\n- Основная комманда -> /armor\r\n- Получение помощи -> /armor -> FAQ\r\n## Видео:\r\n###\r\n![VID_20230617222939 (1)](https://github.com/middle1/SuperArmor/assets/62933036/2d438d22-baec-4716-8fc9-b218fd3c16a9)",
+  "readme_source_url": "https://github.com/middle1/SuperArmor",
+  "icon_url": "https://raw.githubusercontent.com/middle1/SuperArmor/9603993560ad410bcb3e75aedd1a0e8344464275/icon.png",
+  "featured": false,
+  "repo": "https://github.com/middle1/SuperArmor",
+  "archive_repo": null,
+  "approved_release_tag": "r-12226",
+  "stars": 0,
+  "total_downloads": 435,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "middle1"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "3.2.5",
+      "tag": "r-12226",
+      "published_at": null,
+      "downloads": 435,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12226/superarmor-3.2.5-r12226.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12226",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12226/superarmor-3.2.5-r12226.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SuperArmor",
+    "stable_release_id": 12226
+  }
+}

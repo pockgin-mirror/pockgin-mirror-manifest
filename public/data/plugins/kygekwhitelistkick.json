@@ -1,0 +1,61 @@
+{
+  "id": "kygekwhitelistkick",
+  "name": "KygekWhitelistKick",
+  "author": "thebigcrafter",
+  "description": "📖 About",
+  "readme_markdown": "<h1 align=\"center\">KygekWhitelistKick</h1>\n\n<p align=\"center\">\n<a href=\"https://poggit.pmmp.io/p/KygekWhitelistKick\"><img src=\"https://poggit.pmmp.io/shield.dl.total/KygekWhitelistKick?style=for-the-badge\" alt=\"poggit\" /></a>\n<a href=\"https://github.com/thebigcrafter/KygekWhitelistKick#GPL-3.0-1\"><img src=\"https://img.shields.io/github/license/thebigcrafter/KygekWhitelistKick?style=for-the-badge\" alt=\"license\" /></a>\n<a href=\"https://discord.gg/PykBfE2TZ9\"><img src=\"https://img.shields.io/discord/1087729577004122112?color=7289DA&label=discord&logo=discord&style=for-the-badge\" alt=\"discord\" /></a>\n</p>\n\n# 📖 About\n\nThis plugin will kick players that are not OP or whitelisted in white-list.txt when server whitelist turned on (/whitelist on). This plugin will be useful if you often need to whitelist your server and you want all not whitelisted players to be kicked automatically. You can change the kick reason and to enable/disable kick via command or config.\n\n# 🧩 Features\n\n- Kicks not whitelisted players automatically\n- Config file can be reset\n- Supports `&` as formatting codes\n- Enable or disable plugin with command\n- Kick reason can be changed using command\n- Command and form mode\n- Automatic plugin update checker on server startup\n- Missing configuration file detection\n\n# ⬇️ Installation\n\n1. Download the latest version (It is recommended to always download the latest version for the best experience, except you're having compatibility issues).\n2. Place the `KygekWhitelistKick.phar` file into the `plugins` folder.\n3. Restart the server.\n4. Done!\n\n# 📜 Commands & Permissions\n\n**Note:** KygekWhitelistKick uses commands by default. To switch to form mode, set `mode` in `config.yml` to `form`. After switching, execute `/whitelistkick` to open KygekWhitelistKick form.\n\n| Command | Description | Permission | Default |\n| --- | --- | --- | --- |\n| `/whitelistkick help` | Display KygekWhitelistKick subcommands | `kygekwhitelistkick.cmd.help` | op |\n| `/whitelistkick off` | Disable automatic kick on whitelist enabled | `kygekwhitelistkick.cmd.off` | op |\n| `/whitelistkick on` | Enable automatic kick on whitelist enabled | `kygekwhitelistkick.cmd.on` | op |\n| `/whitelistkick set` | Change whitelist kick reason | `kygekwhitelistkick.cmd.set` | op |\n\n💡 Tips:\n- Use `kygekwhitelistkick.cmd` to give players permission to all subcommands. Typing `/whitelistkick` without args or args other than above will show KygekWhitelistKick help (Player needs to have `kygekwhitelistkick.cmd.help` permission).\n- Command alias: `/wlkick`\n- Use `-` before each permission to blacklist the command(s) permission to groups/users in PurePerms (e.g. adding `-kygekwhitelistkick.cmd.set` will blacklist the `/whitelistkick set` command to groups/users).\n\n# 🚢 Other Versions\n\n- [Nukkit](https://github.com/KygekTeam/KygekWhitelistKick-Nukkit)\n\n# ⚖️ License\n\nLicensed under the [GNU General Public License v3.0](https://github.com/thebigcrafter/KygekWhitelistKick#GPL-3.0-1) license.",
+  "readme_source_url": "https://github.com/thebigcrafter/KygekWhitelistKick",
+  "icon_url": "https://raw.githubusercontent.com/thebigcrafter/KygekWhitelistKick/49fc5257d72b2d1d72a2122b7cea17e3d8b1d233/icon.png",
+  "featured": false,
+  "repo": "https://github.com/thebigcrafter/KygekWhitelistKick",
+  "archive_repo": null,
+  "approved_release_tag": "r-12224",
+  "stars": 0,
+  "total_downloads": 259,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigcrafter"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/220064",
+  "versions": {
+    "stable": {
+      "version": "2.2.0",
+      "tag": "r-12224",
+      "published_at": null,
+      "downloads": 259,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12224/kygekwhitelistkick-2.2.0-r12224.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12224",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12224/kygekwhitelistkick-2.2.0-r12224.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KygekWhitelistKick",
+    "stable_release_id": 12224
+  }
+}

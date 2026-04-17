@@ -1,0 +1,61 @@
+{
+  "id": "godcommand",
+  "name": "GodCommand",
+  "author": "Wildan-dev461",
+  "description": "Make a player on your server immune from all damage",
+  "readme_markdown": "# GodCommand\nMake a player on your server immune from all damage",
+  "readme_source_url": "https://github.com/Wildan-dev461/GodCommand",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Wildan-dev461/GodCommand",
+  "archive_repo": null,
+  "approved_release_tag": "r-12181",
+  "stars": 5,
+  "total_downloads": 322,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Wildan-dev461"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12181",
+      "published_at": null,
+      "downloads": 322,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12181/godcommand-1.0.0-r12181.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12181",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12181/godcommand-1.0.0-r12181.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GodCommand",
+    "stable_release_id": 12181
+  }
+}

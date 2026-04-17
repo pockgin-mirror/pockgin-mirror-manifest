@@ -1,0 +1,64 @@
+{
+  "id": "hardcore",
+  "name": "Hardcore",
+  "author": "GabBiswajit",
+  "description": "Requirement",
+  "readme_markdown": "## Requirement\n- PocketMine-MP 5.0.0 or higher\n- [LibEco](https://poggit.pmmp.io/ci/ACM-PocketMine-MP/libEco/~)\n- [FormAPI](https://poggit.pmmp.io/ci/jojoe77777/FormAPI/~)\n\n## Functions\n- Max Respawn System, Player Can Respawn For Some Times.\n- Easy To Setup Config.\n- On Join Death Protaction.\n- Economy Revive System ***Players Can Revive The Players Using Economy***\n- InBuild Hearts Texture ![hardcore-heart](https://github.com/GabBiswajit/Heardcore/assets/121815367/57167adf-ac03-41b6-820e-cc381cecb8ce).\n\n## Config\n- ***Revive-Amount*** This Use For Custom Revive Amount `add only numbers`.\n- ***Protected-Time*** This Use For Protected A Player On Join Add `Only In Second`.\n- ***Max-Life** This use For Ban Player After How Much Deaths You Want `add only numbers`.\n\n## Commands\n- ***/revive*** To Revived A Players.\n\n## Economy\n- This Plugin Work on **libEco** And **LibEco** Currently Supported [EconomyAPI](https://poggit.pmmp.io/ci/mathchat900/EconomyAPI-PM5/~) And [BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy/)",
+  "readme_source_url": "https://github.com/GabBiswajit/Hardcore",
+  "icon_url": "https://raw.githubusercontent.com/GabBiswajit/Hardcore/ae89c923aa4545065d36f89abe08fc15a1ddbd7e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/GabBiswajit/Hardcore",
+  "archive_repo": null,
+  "approved_release_tag": "r-12175",
+  "stars": 5,
+  "total_downloads": 640,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "GabBiswajit"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12175",
+      "published_at": null,
+      "downloads": 640,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12175/hardcore-1.0.0-r12175.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12175",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12175/hardcore-1.0.0-r12175.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Hardcore",
+    "stable_release_id": 12175
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "complexupgradeui",
+  "name": "ComplexUpgradeUI",
+  "author": "ComplexityEU",
+  "description": "A redemption attempt at ComplexUpgradeUI",
+  "readme_markdown": "# ComplexUpgradeUI\n\nA redemption attempt at ComplexUpgradeUI\n\n### Current Supported Upgradeable Items\n\n- Pickaxe\n- Axe\n- Shovel\n- Sword\n- Bow\n- Armour\n\n### How to Add An Enchant And Remove An Enchant\nIn the `config.yml` there is a section called `enchants`.\nIn this section there is a list of all the tools like `pickaxe` or `sword`.\nIn these sections there is the enchants. This should all look like \n```yaml\n#List of enchants and their configurable values\nenchants:\n  #The tool for the enchants\n  pickaxe:\n    #Enchant name\n    efficiency:\n      #Max level for enchant\n      max-level: 5\n```\nTo add an enchant, you simply copy everything from `efficiency`. For example if I wanted to add `unbreaking` to the `pickaxe` tool, I would do so like this: \n```yaml\n#List of enchants and their configurable values\nenchants:\n  #The tool for the enchants\n  pickaxe:\n    #Enchant name\n    efficiency:\n      #Max level for enchant\n      max-level: 5\n    #Enchant Name\n    unbreaking:  # The enchant you want to add\n      #Max Level For Enchant\n      max-level: 3 # The max level you want the enchant to have\n```\nTo remove an enchant, it is even easier. You just remove the `max-level` and the `enchant name` from the config.yml. For example if I wanted to remove `efficiency` from the `pickaxe` options, It would look like: \n```yaml\n#List of enchants and their configurable values\nenchants:\n  #The tool for the enchants\n  pickaxe:\n    #Enchant Name\n    unbreaking:\n      #Max Level For Enchant\n      max-level: 3\n```",
+  "readme_source_url": "https://github.com/ComplexityEU/ComplexUpgradeUI",
+  "icon_url": "https://raw.githubusercontent.com/ComplexityEU/ComplexUpgradeUI/b2d4492456b939ff4b0adc072509c395cb6f674b/resources/image/book.gif",
+  "featured": false,
+  "repo": "https://github.com/ComplexityEU/ComplexUpgradeUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-12252",
+  "stars": 0,
+  "total_downloads": 921,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.4.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ComplexityEU"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/220415",
+  "versions": {
+    "stable": {
+      "version": "2.1.5",
+      "tag": "r-12252",
+      "published_at": null,
+      "downloads": 921,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12252/complexupgradeui-2.1.5-r12252.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12252",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12252/complexupgradeui-2.1.5-r12252.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ComplexUpgradeUI",
+    "stable_release_id": 12252
+  }
+}

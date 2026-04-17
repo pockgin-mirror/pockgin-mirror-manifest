@@ -1,0 +1,61 @@
+{
+  "id": "servertools",
+  "name": "ServerTools",
+  "author": "matcracker",
+  "description": "ServerTools is PocketMine-MP plugin containing a set of tools that allows you to manage your server directly from the game!",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/ServerTools)](https://poggit.pmmp.io/p/ServerTools)\n[![](https://poggit.pmmp.io/shield.dl.total/ServerTools)](https://poggit.pmmp.io/p/ServerTools)\n[![Discord](https://img.shields.io/discord/620519017148579841.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/Uf6U78g)\n\n# ServerTools\nServerTools is PocketMine-MP plugin containing a set of tools that allows you to manage your server directly from the game!\n\n## Features\n- File Explorer\n- Cloning\n- Plugin Manager\n- Poggit Plugin Downloader\n- Restart Server\n\n**Menu UI example:**\n\n![Main_Menu](https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_Main.png)\n\n## Commands\n- **/servertools** (or alias: **/st**) - _The main command of plugin_ (**Permission (default OP)** _st.command.servertools_)\n\n## File Explorer\n**Permission (default OP):** _st.ui.file-explorer_<br/>\n**Permission to create/edit files and folders (default false):** _st.ui.file-explorer.write_\n\nIt allows to:\n- Explore your server files and folder\n- Read your files **(max file size is ~10.25 kB)**\n- Create, rename, delete and edit files and folders **(requires write permission)**\n\n![FileExplorer](https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_FileExplorer.png)\n\n### Reading file example\n![ReadFile](https://github.com/matcracker/ImageContainer/blob/master/ServerTools/Form_FE_ReadFile.gif)\n\n### Editing file example\n![EditFile](https://github.com/matcracker/ImageContainer/blob/master/ServerTools/Form_FE_WriteFile.gif)\n\n## Cloning\n**Permission (default false):** _st.ui.clone_\n\nIt allows to clone your server using **FTP** (also available with SSL) or **SFTP** protocols.\n\n### Requirements\n- **FTP**: you need to have installed on your server the **_\"ftp\"_ PHP extension**.\n- **SFTP**: you need to have installed on your server the **_\"openssl\"_ and _\"ssh2 (libssh2)\"_ PHP extensions**.\n\n### Steps\n1. Select the transfer mode.<br/>\n![TransferMode](https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_Clone_Transfer.png)\n\n2. Compile the information to login to your FTP/SFTP server.<br/>\n![FTP_Data](https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_Clone_SFTP.png)\n\n3. Choose, if you want, some server folders/files to exclude from your clonation.<br/>\n![ExcludeFiles](https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_Clone_ExcludeFiles.png)\n\n4. Wait until the process is finished.<br/>\n![Progress](https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_Clone_Progress.png)\n\n## Plugin Manager\n**Permission (default false):** _st.ui.plugin-manager_\n\n![PluginManager](https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_PluginManager.png)\n\nIt allows to:\n- Enable/Disable plugins<br/>\n![EnableDisablePlugin](https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_PluginManager_EnDisPlugins.png)\n\n- Load a plugin from file (.phar)<br/>\n![LoadPharPlugin](https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_PluginManager_LoadPlugin.png)\n\n## Poggit Plugin Downloader\n**Permission (default false):** _st.ui.poggit-downloader_\n\nIt allows to search and download to your server a plugin from poggit website.\n\n![PoggitDownloader](https://github.com/matcracker/ImageContainer/blob/master/ServerTools/Form_PoggitDownloader.gif)\n\n## Restart Server\n**Permission (default OP):** _st.ui.restart_\n\nIt simply restarts your server.\n\n## F.A.Q.\n1. **I get the message \"You do not have permission to use this function\" or similar, why?**\n- Some functions of the plugin are very dangerous if given to all the operators of your server, because they could cause irreparable damage. To avoid this, the plugin disables the use of these functions and to be enabled you need to use a third-party plugin for managing permissions (e.g. [PurePerms](https://poggit.pmmp.io/p/PurePerms) or similar) and add to yourself or whoever you trust the permissions of the various features of you need. The permission of each feature can be found in the respective chapter.",
+  "readme_source_url": "https://github.com/matcracker/ServerTools",
+  "icon_url": "https://raw.githubusercontent.com/matcracker/ServerTools/defb68a7b7a2b49fa35eae76a96de28688371294/resources/servertools_logo.png",
+  "featured": false,
+  "repo": "https://github.com/matcracker/ServerTools",
+  "archive_repo": null,
+  "approved_release_tag": "r-12240",
+  "stars": 0,
+  "total_downloads": 2180,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "matcracker"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/220271",
+  "versions": {
+    "stable": {
+      "version": "0.5.2",
+      "tag": "r-12240",
+      "published_at": null,
+      "downloads": 2180,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12240/servertools-0.5.2-r12240.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12240",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12240/servertools-0.5.2-r12240.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ServerTools",
+    "stable_release_id": 12240
+  }
+}

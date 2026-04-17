@@ -1,0 +1,63 @@
+{
+  "id": "luckyplayer",
+  "name": "LuckyPlayer",
+  "author": "thebigcrafter",
+  "description": "Give money to players when they join the server at lucky time.**",
+  "readme_markdown": "<!-- [![Build Status](https://www.travis-ci.com/thebigcrafter/LuckyPlayer.svg?branch=main)](https://www.travis-ci.com/thebigcrafter/LuckyPlayer) -->\n[![PoggitCI](https://poggit.pmmp.io/ci.shield/thebigcrafter/LuckyPlayer/LuckyPlayer)](https://poggit.pmmp.io/ci/thebigcrafter/LuckyPlayer/LuckyPlayer)\n![GitHub all releases](https://img.shields.io/github/downloads/thebigcrafter/LuckyPlayer/total)\n[![](https://poggit.pmmp.io/shield.state/LuckyPlayer)](https://poggit.pmmp.io/p/LuckyPlayer)\n[![](https://poggit.pmmp.io/shield.dl.total/LuckyPlayer)](https://poggit.pmmp.io/p/LuckyPlayer)\n# LuckyPlayer\n**Give money to players when they join the server at lucky time.**  \nFor example: You config ```luckyMoney: 100``` and ```luckyNumber: 1000```. If player is the 1000th player join the server, they will have 100$  \n``NOTE!`` Make sure EconomyAPI is installed.\n# Config\n```yaml\nluckyMoney: 100\n# Players who join the 1000th server will receive $ 100\nluckyNumber: 1000\n\nmessage: \"{PLAYER_NAME} is the {LUCKY_NUMBER}th player so he/she have {MONEY}$ for free!\"\n# {PLAYER_NAME} for the name of lucky player\n# {MONEY} for the luckyMoney\n# {LUCKY_NUMBER} for the luckyNumber\n```\n# Installation\n- Make sure that Sheep is installed\n- Then use ```install LuckyPlayer``` to install plugin\n\n# License\nReleased under the GPL-2.0 license.",
+  "readme_source_url": "https://github.com/thebigcrafter/LuckyPlayer",
+  "icon_url": "https://raw.githubusercontent.com/thebigcrafter/LuckyPlayer/1080fedd3b84926f42f96aff0261fda8f88f76c4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/thebigcrafter/LuckyPlayer",
+  "archive_repo": null,
+  "approved_release_tag": "r-12238",
+  "stars": 5,
+  "total_downloads": 723,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigcrafter"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/220252",
+  "versions": {
+    "stable": {
+      "version": "2.1.0",
+      "tag": "r-12238",
+      "published_at": null,
+      "downloads": 723,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12238/luckyplayer-2.1.0-r12238.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12238",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12238/luckyplayer-2.1.0-r12238.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LuckyPlayer",
+    "stable_release_id": 12238
+  }
+}

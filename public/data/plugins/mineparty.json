@@ -1,0 +1,63 @@
+{
+  "id": "mineparty",
+  "name": "MineParty",
+  "author": "MCPEAbdu77",
+  "description": "A PocketMine-MP plugin which makes MineParties possible.",
+  "readme_markdown": "# MineParty\nA PocketMine-MP plugin which makes MineParties possible.\n\n# How to Play?\n\nMineParty can only be started manually by an admin or through console via the `/mineparty start` command.\nPlayers can then use the  `/mineparty join` command to join the game. The player with the most blocks mined during the period\nwill win and the reward is $1000 (default) per block mined. (`//TODO Adjustable rewards in config.yml`)\n\n# Permissions\n\n - `/mineparty start` - `mineparty.admin`\n - `/mineparty join` - any player can join (`//TODO perms for this cmd`)\n - `/mineparty quit` - quit any joined games\n\n# Installation\n\n1. Install as a `.phar` or `.zip`. (use `DevTools` if you're using the `folder` version)\n2. If you've used the `.zip` then unzip or unarchive the file.\n3. Upload into `plugins` folder.\n4. Restart the server.\n\n# Contact\n\nDiscord: MCA7#1245",
+  "readme_source_url": "https://github.com/MCPEAbdu77/MineParty",
+  "icon_url": "https://raw.githubusercontent.com/MCPEAbdu77/MineParty/45e6c2f5e3a04f76b1c6b8418d16763e816bf2b6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MCPEAbdu77/MineParty",
+  "archive_repo": null,
+  "approved_release_tag": "r-12233",
+  "stars": 0,
+  "total_downloads": 998,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MCPEAbdu77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/220193",
+  "versions": {
+    "stable": {
+      "version": "2.2.0",
+      "tag": "r-12233",
+      "published_at": null,
+      "downloads": 998,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12233/mineparty-2.2.0-r12233.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12233",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12233/mineparty-2.2.0-r12233.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MineParty",
+    "stable_release_id": 12233
+  }
+}

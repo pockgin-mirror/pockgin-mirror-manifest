@@ -1,0 +1,65 @@
+{
+  "id": "customscore",
+  "name": "CustomScore",
+  "author": "Joshet18",
+  "description": "📜 Tags:",
+  "readme_markdown": "## 📜 Tags:\n| Name                     | Description                                |\n|--------------------------|--------------------------------------------|\n| {player.name}            | show player name                           |\n| {player.ping}            | show player ping                           |\n| {player.xp.level}        |                                            |\n| {player.xp.progress}     |                                            |\n| {player.xp.remainder}    |                                            |\n| {player.xp.current_total}|                                            |\n| {time.date}              | shows current date                         |\n| {server.online}          | shows the players connected to the server  |\n| {server.online.max}      | shows the maximum number of players        |\n| {server.tps.usage}       | show server tps                            |\n| {server.tps.percentage}  | shows the tps percentage of the server     |\n\n## 📜 Soft Dependencys Tags:\n| Name                     | Description              | Plugin                   |\n|--------------------------|--------------------------|--------------------------|\n| {lunarranks.rank}        | get player's rank        | [LunarRanks](https://poggit.pmmp.io/p/LunarRanks)|\n| {ranksystem.ranks}       | get player's ranks       | [RankSystem](https://poggit.pmmp.io/p/RankSystem)|\n| {ranksystem.highest_rank}| get the player's highest rank | [RankSystem](https://poggit.pmmp.io/p/RankSystem)|\n| {ranksystem.nametag}     | get player's nametag     | [RankSystem](https://poggit.pmmp.io/p/RankSystem)|\n| {bedrockeconomy.balance} | get player's balance     | [BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy) |\n| {bedrockeconomy.balance.cap} | getbalance cap       | [BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy) |\n| {bedrockeconomy.currency.symbol} | get economy symbol | [BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy) |\n| {bedrockeconomy.currency.name} | get economy name   | [BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy) |\n\n## 📋 Commands / Permissions:\n| Permission         | Command                |\n|--------------------|------------------------|\n| customscore        | `/scoreboard`          |\n| customscore.reload | `/scoreboard reload`   |\n\n## TexturePack:\n  increase the character limit of the scoreboard\n  [TexturePack](https://github.com/Joshet18/CustomScore/blob/main/CustomScoreTexturePack.zip)\n\n## ⚒ API:\n  to add custom tags you can use `PlayerScoreTagEvent`\n  Example:\n  ```php\n  use Joshet18\\CustomScoreboard\\PlayerScoreTagEvent;\n\n  public function onPlayerTags(PlayerScoreTagEvent $ev): void {\n    $ev->setTags($this->processTags($ev->getPlayer(), $ev->getTags()));\n  }\n\n  private function processTags(Player $player, array $tags):array{\n    $result = [];\n    foreach($tags as $tag){\n      $result[] = str_replace([\n        \"{customtag.item.name}\"\n      ],[\n        $player->getInventory()->getItemInHand()->getVanillaName()\n      ], $tag);\n    }\n    return $result;\n  }\n  ```",
+  "readme_source_url": "https://github.com/Joshet18/CustomScore",
+  "icon_url": "https://raw.githubusercontent.com/Joshet18/CustomScore/c1eef7650bfc89565fbcfde01dc6adcf67026887/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Joshet18/CustomScore",
+  "archive_repo": null,
+  "approved_release_tag": "r-12189",
+  "stars": 5,
+  "total_downloads": 6784,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "RankSystem",
+      "BedrockEconomy",
+      "LunarRanks"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Joshet18"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/219509",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-12189",
+      "published_at": null,
+      "downloads": 6784,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12189/customscore-1.0.1-r12189.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12189",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12189/customscore-1.0.1-r12189.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomScore",
+    "stable_release_id": 12189
+  }
+}

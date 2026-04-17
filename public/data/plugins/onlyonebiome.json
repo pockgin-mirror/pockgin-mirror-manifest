@@ -1,0 +1,61 @@
+{
+  "id": "onlyonebiome",
+  "name": "OnlyOneBiome",
+  "author": "nhanaz-pm-pl",
+  "description": "Set the biome of the entire world in your server to the biome specified in the plugin config.",
+  "readme_markdown": "# OnlyOneBiome\nSet the biome of the entire world in your server to the biome specified in the plugin config.\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c) [https://discord.gg/j2X83ujT6c] \\\nYou can contact me directly via Discord `NhanAZ` (Originally known as `NhanAZ#9115`)",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/OnlyOneBiome",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/OnlyOneBiome/a3781a733fd7caa7a3840bf24a7cc16c88060cb0/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/OnlyOneBiome",
+  "archive_repo": null,
+  "approved_release_tag": "r-12279",
+  "stars": 0,
+  "total_downloads": 131,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-12279",
+      "published_at": null,
+      "downloads": 131,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12279/onlyonebiome-0.0.1-r12279.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12279",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12279/onlyonebiome-0.0.1-r12279.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "OnlyOneBiome",
+    "stable_release_id": 12279
+  }
+}
