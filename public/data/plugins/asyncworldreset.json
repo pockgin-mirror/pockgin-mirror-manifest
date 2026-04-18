@@ -1,0 +1,61 @@
+{
+  "id": "asyncworldreset",
+  "name": "AsyncWorldReset",
+  "author": "supercrafter333",
+  "description": "AsyncWorldReset - v1.0.3",
+  "readme_markdown": "[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/ca6cWPpERp)\n# <img src=\"/icon.png\" width=\"24px\"/> AsyncWorldReset - v1.0.3 [![](https://poggit.pmmp.io/shield.state/AsyncWorldReset)](https://poggit.pmmp.io/p/AsyncWorldReset) [![](https://poggit.pmmp.io/shield.dl.total/AsyncWorldReset)](https://poggit.pmmp.io/p/AsyncWorldReset)\n\n\n**A PocketMine-MP plugin that allows you to reset your worlds at specific times. It's asynchronous and therefore extremely fast.**\n\n### Features\n- easy setup\n- choose times to reset\n- asynchronous and therefore extremely fast\n- discord webhook support\n\n### Setup guide\n1. Install [AsyncWorldReset](https://poggit.pmmp.io/p/AsyncWorldReset) on your server (and restart your server)\n2. Go to the plugin data of AsyncWorldReset\n3. Paste the worlds that you would like to reset **as ZIP-archive** in the **`worlds` folder** (for example: `server/plugin_data/AsyncWorldReset/worlds/Nether.zip`)\n4. Add the worlds to the configuration file (`config.yml`) of AsyncWorldReset ([config.yml - line 24](https://github.com/supercrafter333/AsyncWorldReset/blob/master/resources/config.yml#L24))\n5. Well done! Just restart your server :)\n\n### Default Commands\n| **Command**   | **Description**                | **Permission**            |\n|---------------|---|---|\n| `/worldreset` |Resets all chosen worlds to reset.|`asnycworldreset.worldreset.cmd`|\n\n### Bugreport\nYou've found a Bug?\n- Go to [Issues](https://github.com/supercrafter333/AsyncWorldReset/issues)\n- Click on [New Issue](https://github.com/supercrafter333/AsyncWorldReset/issues/new/choose)\n- Write your bug with all information that you have down\n- Send Issue\n- Wait, I'll' answer you\n\n### License:\nThis plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by supercrafter333!\n\n### Credits\n\nOwner: supercrafter333\n\nHelper: ---\n\nIcon: <a href=\"https://www.flaticon.com/free-icons/reset\" title=\"reset icons\">Reset icons created by Freepik - Flaticon</a>\n\nDiscord-Tag: `supercrafter333#4062`\n\n### Join the community\n[![Discord Banner](https://discordapp.com/api/guilds/847099444465238036/widget.png?style=banner3)](https://discord.gg/ca6cWPpERp)",
+  "readme_source_url": "https://github.com/supercrafter333/AsyncWorldReset",
+  "icon_url": "https://raw.githubusercontent.com/supercrafter333/AsyncWorldReset/a2535f33ef3df139ba2a5dad11951d6b1ebd43de/icon.png",
+  "featured": false,
+  "repo": "https://github.com/supercrafter333/AsyncWorldReset",
+  "archive_repo": null,
+  "approved_release_tag": "r-11428",
+  "stars": 3,
+  "total_downloads": 1685,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "supercrafter333"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208934",
+  "versions": {
+    "stable": {
+      "version": "1.0.3+pm5",
+      "tag": "r-11428",
+      "published_at": null,
+      "downloads": 1685,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11428/asyncworldreset-1.0.3-pm5-r11428.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11428",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11428/asyncworldreset-1.0.3-pm5-r11428.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AsyncWorldReset",
+    "stable_release_id": 11428
+  }
+}

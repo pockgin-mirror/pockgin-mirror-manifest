@@ -1,0 +1,61 @@
+{
+  "id": "simplefly",
+  "name": "SimpleFly",
+  "author": "Taylor-pm-pl",
+  "description": "SimpleFly v1.0.0",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/SimpleFly)]\n[![Discord](https://img.shields.io/discord/1100650029573738508.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/yAhsgskaGy)\n<div align=\"center\">\n<h1>SimpleFly| v1.0.0<h1>\n<p>Help to fly in survival mode.</p>\n</div>\n\n# Features\n- Using simple\n- Fly in survival mode\n\n <br>\n  \n# All SimpleFly Commands:\n\n| **Command** | **Description** |\n| --- | --- |\n| **/fly** | **Fly mode** |\n<br>\n  \n## 📃  Permissions:\n\n- You can use permission `simplefly.command` for command /fly\n<br>\n  \n# Configs\n## config.yml\n ```\n ---\n#   ____  _                 _      _____ _       \n # / ___|(_)_ __ ___  _ __ | | ___|  ___| |_   _ \n # \\___ \\| | '_ ` _ \\| '_ \\| |/ _ \\ |_  | | | | |\n #  ___) | | | | | | | |_) | |  __/  _| | | |_| |\n # |____/|_|_| |_| |_| .__/|_|\\___|_|   |_|\\__, |\n #                   |_|                   |___/ \n# Main config of SimpleFly\n# Messages\nfly.creative: \"You can't do this while in creative mode!\"\nfly.on: \"Fly mode is on.\"\nfly.off: \"Fly mode is off.\"\nfly.other.creative: \"{PLAYER} is in creative mode!\"\nfly.other.on: \"Fly mode of {PLAYER} is on.\"\nfly.other.off: \"Fly mode of {PLAYER} is off.\"\nfly.other.not-found: \"This player could not be found!\"\njoin.disable: \"Your fly mode has been disabled when joining the server!\"\nworld-move.disable: \"Your fly mode has been disabled when move the world!\"\ndamage.disable: \"Your fly mode has been disabled when fighting!\"\n# When players join the server fly mode will be disabled when set to true\nevent.join.reset: true \n# When the player moves the world fly mode will be turned off when set to true\nevent.world-move.disable: true \n# When the player fighting fly mode will be turned off when set to true\nevent.damage.disable: true\n...\n ```",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/SimpleFly",
+  "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/SimpleFly/5be1cc1e6400816e83e7f4c05387d20e00958b14/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/SimpleFly",
+  "archive_repo": null,
+  "approved_release_tag": "r-11451",
+  "stars": 0,
+  "total_downloads": 1427,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209160",
+  "versions": {
+    "stable": {
+      "version": "0.0.3",
+      "tag": "r-11451",
+      "published_at": null,
+      "downloads": 1427,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11451/simplefly-0.0.3-r11451.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11451",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11451/simplefly-0.0.3-r11451.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleFly",
+    "stable_release_id": 11451
+  }
+}

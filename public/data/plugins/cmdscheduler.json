@@ -1,0 +1,61 @@
+{
+  "id": "cmdscheduler",
+  "name": "CmdScheduler",
+  "author": "Taylor-pm-pl",
+  "description": "CmdScheduler** is a plugin for PocketMine-MP 5, It performs processing of CRON expressions when due will execute 1 scheduled instruction.",
+  "readme_markdown": "<h1>CmdScheduler<img src=\"icon.png\" height=\"64\" width=\"64\" align=\"left\"></img></h1><br/>\n\n[![Lint](https://poggit.pmmp.io/ci.shield/Taylor-pm-pl/CmdScheduler/CmdScheduler)](https://poggit.pmmp.io/ci/Taylor-pm-pl/CmdScheduler/CmdScheduler)\n[![Discord](https://img.shields.io/discord/1100650029573738508.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/yAhsgskaGy)\n\n**CmdScheduler** is a plugin for PocketMine-MP 5, It performs processing of CRON expressions when due will execute 1 scheduled instruction.\n\n\n## Why CmdScheduler ?\n- CmdScheduler helps create a specific schedule in an easy to understand way such as: every minute, hour, day, week, month, ... to execute the command.\n- In addition, CmdScheduler can also execute 3 types of commands: ConsoleCommand, Shell and Script.\n\n## Features\n- [x] CRON expressions\n- [x] Execute command: Console, Shell, Script\n\n## CRON Expressions\n\nA CRON expression is a string representing the schedule for a particular command to execute.  The parts of a CRON schedule are as follows:\n\n    *    *    *    *    *\n    -    -    -    -    -\n    |    |    |    |    |\n    |    |    |    |    |\n    |    |    |    |    +----- day of week (0 - 7) (Sunday=0 or 7)\n    |    |    |    +---------- month (1 - 12)\n    |    |    +--------------- day of month (1 - 31)\n    |    +-------------------- hour (0 - 23)\n    +------------------------- min (0 - 59)\n\nThis plugin also supports a few macros:\n\n* `@yearly`, `@annually` - Run once a year, midnight, Jan. 1 - `0 0 1 1 *`\n* `@monthly` - Run once a month, midnight, first of month - `0 0 1 * *`\n* `@weekly` - Run once a week, midnight on Sun - `0 0 * * 0`\n* `@daily`, `@midnight` - Run once a day, midnight - `0 0 * * *`\n* `@hourly` - Run once an hour, first minute - `0 * * * *`\n\n## Contact\n\nIf you have any questions you can contact me on Discord (Taylor#1837) or on [my Discord server](https://discord.gg/yAhsgskaGy).",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/CmdScheduler",
+  "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/CmdScheduler/3b93933b0620b19b7a4f59e0a237c254186112bc/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/CmdScheduler",
+  "archive_repo": null,
+  "approved_release_tag": "r-11480",
+  "stars": 3,
+  "total_downloads": 512,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-11480",
+      "published_at": null,
+      "downloads": 512,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11480/cmdscheduler-0.0.1-r11480.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11480",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11480/cmdscheduler-0.0.1-r11480.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CmdScheduler",
+    "stable_release_id": 11480
+  }
+}

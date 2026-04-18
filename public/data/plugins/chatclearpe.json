@@ -1,0 +1,61 @@
+{
+  "id": "chatclearpe",
+  "name": "ChatClearPE",
+  "author": "BeeAZ-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n\n<br>\n\nClean up chats with command or auto\n\n<br>\n\nPlugin Helps You Prevent Member, Advertising, Spam, Swearing ...\n\n\n[![Discord](https://img.shields.io/discord/965662639168569394.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/KrjD6t9HJt)\n\n<br>\n\n# Command\n\n<br>\n\nUse command **/clearchat** to clean chat\n\n<br>\n\nPermission **chatclearpe.command**",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/ChatClearPE",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/ChatClearPE/0bef584655f135ad4f9f2b01ecccfd799f5c17c1/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/ChatClearPE",
+  "archive_repo": null,
+  "approved_release_tag": "r-11376",
+  "stars": 0,
+  "total_downloads": 552,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208571",
+  "versions": {
+    "stable": {
+      "version": "0.0.3",
+      "tag": "r-11376",
+      "published_at": null,
+      "downloads": 552,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11376/chatclearpe-0.0.3-r11376.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11376",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11376/chatclearpe-0.0.3-r11376.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatClearPE",
+    "stable_release_id": 11376
+  }
+}

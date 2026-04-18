@@ -1,0 +1,63 @@
+{
+  "id": "spectrezone",
+  "name": "SpectreZone",
+  "author": "jasonw4331",
+  "description": "SpectreZone is a plugin based on a part of the Java Minecraft Random Things Mod",
+  "readme_markdown": "# SpectreZone\n[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/R7kdetE)\n[![Poggit-Ci](https://poggit.pmmp.io/ci.shield/jasonw4331/SpectreZone/SpectreZone)](https://poggit.pmmp.io/ci/jasonw4331/SpectreZone/SpectreZone)\n[![Download count](https://poggit.pmmp.io/shield.dl.total/SpectreZone)](https://poggit.pmmp.io/p/SpectreZone)\n\n# Intro\nSpectreZone is a plugin based on a part of the Java Minecraft [Random Things Mod](https://github.com/DanielKilgallon/Random-Things)\n\n# Features\n* The Spectre Dimension!\n* 3 Custom Items\n  * Ectoplasm\n  * Spectre Ingot\n  * Spectre Key\n* 2 Custom Blocks\n  * Spectre Dimension Wall Blocks\n  * Dimension Growth Blocks\n* 3 new crafting recipes for added items\n\n# Future Additions\n* Spectre Mobs\n* Custom Spectral Biome\n* No others planned. Leave requests in the reviews on [Poggit](https://poggit.pmmp.io/p/SpectreZone).\n\n# About\nThis plugin has been on my TODO list for 5 years! Now that API 4 was released, I'm finally able to make it work the way I want it to.",
+  "readme_source_url": "https://github.com/jasonw4331/SpectreZone",
+  "icon_url": "https://raw.githubusercontent.com/jasonw4331/SpectreZone/98fb9b750ef337ca46a8c0a10ad0a0fced002cf4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/jasonw4331/SpectreZone",
+  "archive_repo": null,
+  "approved_release_tag": "r-11478",
+  "stars": 0,
+  "total_downloads": 358,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "Customies"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "jasonw4331"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209409",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-11478",
+      "published_at": null,
+      "downloads": 358,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11478/spectrezone-1.2.0-r11478.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11478",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11478/spectrezone-1.2.0-r11478.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SpectreZone",
+    "stable_release_id": 11478
+  }
+}

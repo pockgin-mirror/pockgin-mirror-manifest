@@ -1,0 +1,61 @@
+{
+  "id": "antixraype",
+  "name": "AntiXrayPE",
+  "author": "BeeAZ-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\nPlugin Notify **OP** Or Staff Has Permission **antixraype.check** when someone breaks ore\n\nIf the message repeats many times, check if the player is using it\n\nApart from Notifying Staff Who Are Online, Not Notifying Anyone\n\n# Support\n[![Discord](https://img.shields.io/discord/965662639168569394.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/KrjD6t9HJt)\n\n# Use\nAdd Permission **antixraype.check** Let Staff Get Notifications About Xray Users\n\nEdit ore you want to receive notifications in **config.yml** [true to turn on , false to turn off]",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/AntiXrayPE",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/AntiXrayPE/15f005e72397a89b68c77ad3a28aaa9f22195c0d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/AntiXrayPE",
+  "archive_repo": null,
+  "approved_release_tag": "r-11361",
+  "stars": 0,
+  "total_downloads": 1578,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208486",
+  "versions": {
+    "stable": {
+      "version": "0.0.3",
+      "tag": "r-11361",
+      "published_at": null,
+      "downloads": 1578,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11361/antixraype-0.0.3-r11361.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11361",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11361/antixraype-0.0.3-r11361.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiXrayPE",
+    "stable_release_id": 11361
+  }
+}

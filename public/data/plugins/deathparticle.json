@@ -1,0 +1,61 @@
+{
+  "id": "deathparticle",
+  "name": "DeathParticle",
+  "author": "BeeAZ-pm-pl",
+  "description": "DeathParticle v1.0.1",
+  "readme_markdown": "<div align=\"center\">\n<h1>DeathParticle | v1.0.1<h1>\n</div>\n<p align=\"center\">\n<a href=\"https://poggit.pmmp.io/p/DeathParticle\"><img src=\"https://poggit.pmmp.io/shield.state/DeathParticle\">\n</a>\n<br>\n✔️ Create particles when entity or player death ✔️\n\n\n[![Discord](https://img.shields.io/discord/965662639168569394.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/KrjD6t9HJt)\n</p>\n\n<br>\n\n## Features\n- Create particles when entity or player death\n- When entity or player death, it has beautiful colors and effects around\n\n<br>\n\n## Commands\n| **Commands** | **Description** |\n| --- | --- |\n| **/deathparticle** | **Turn on or off DeathParticle** |\n\n<br>\n\n## Permissions\n| **Permission** | **Default** |\n| --- | --- |\n| **deathparticle.command.use** | **op** |\n\t\n<br>\n\n## Config\n```\n---\n# DeathParticle Config\n# Turn particles on or off\n\n\nHeartParticle: true\nInkParticle: false\nLavaParticle: false\nAngryVillagerParticle: false\nEndermanTeleportParticle: false\nCriticalParticle: false\nExplodeParticle: false\nHappyVillagerParticle: false\nPortalParticle: false\nRedstoneParticle: false\nSnowballPoofParticle: false\nSmokeParticle: false\nWaterDripParticle: false\nactive: true\n...\n```\n\n<br>\n\n## Install\n- Step 1: Click the \"Direct Download\" button to download the plugin\n- Step 2: move the file \"DeathParticle.phar\" into the file \"plugins\"\n- Step 3: Restart server for plugins to work",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/DeathParticle",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/DeathParticle/3bf8ff0384e1512590b3049469d1d17728efe4f6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/DeathParticle",
+  "archive_repo": null,
+  "approved_release_tag": "r-11385",
+  "stars": 4,
+  "total_downloads": 733,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208619",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-11385",
+      "published_at": null,
+      "downloads": 733,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11385/deathparticle-2.0.1-r11385.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11385",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11385/deathparticle-2.0.1-r11385.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DeathParticle",
+    "stable_release_id": 11385
+  }
+}

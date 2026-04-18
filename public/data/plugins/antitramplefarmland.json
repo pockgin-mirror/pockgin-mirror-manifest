@@ -1,0 +1,61 @@
+{
+  "id": "antitramplefarmland",
+  "name": "AntiTrampleFarmland",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**Farmland will not decay when trampled by any entity**\n\n![GIF](https://user-images.githubusercontent.com/60387689/229535076-4e6dc5db-4919-45e4-bc89-fedcea41f598.gif)\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/AntiTrampleFarmland",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/AntiTrampleFarmland/356346d7002bf4d022f2a31d50d9cb05ab47e554/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/AntiTrampleFarmland",
+  "archive_repo": null,
+  "approved_release_tag": "r-11397",
+  "stars": 0,
+  "total_downloads": 438,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208713",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-11397",
+      "published_at": null,
+      "downloads": 438,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11397/antitramplefarmland-0.0.2-r11397.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11397",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11397/antitramplefarmland-0.0.2-r11397.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiTrampleFarmland",
+    "stable_release_id": 11397
+  }
+}

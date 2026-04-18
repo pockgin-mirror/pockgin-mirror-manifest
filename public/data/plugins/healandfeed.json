@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11679",
   "stars": 0,
-  "total_downloads": 1012,
+  "total_downloads": 1035,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "3.4.0",
       "tag": "r-11679",
       "published_at": null,
-      "downloads": 882,
+      "downloads": 883,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11679/healandfeed-3.4.0-r11679.phar"
     },
     "dev": null
@@ -59,6 +59,11 @@
       "tag": "r-11499",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11499/healandfeed-3.1.0-r11499.phar"
+    },
+    {
+      "tag": "r-11472",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11472/healandfeed-3.0.0-r11472.phar"
     }
   ],
   "comments": {

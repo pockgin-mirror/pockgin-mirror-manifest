@@ -1,0 +1,61 @@
+{
+  "id": "signit",
+  "name": "SignIt",
+  "author": "Wertzui123",
+  "description": "SignIt is a PocketMine-MP plugin that allows you to sign items on a text.",
+  "readme_markdown": "# SignIt\n<a href=\"https://poggit.pmmp.io/p/SignIt\"><img src=\"https://poggit.pmmp.io/shield.dl.total/SignIt\"></a>\n<a href=\"https://poggit.pmmp.io/p/SignIt\"><img src=\"https://poggit.pmmp.io/shield.dl/SignIt\"></a>\n<br>SignIt is a PocketMine-MP plugin that allows you to sign items on a text.\n<br>The .phar can be found on <a href=\"https://poggit.pmmp.io/p/SignIt\">poggit.</a>\n\n# Commands\n| Command | Description                                | Usage                | Aliases | Permission          |\n|---------|--------------------------------------------|----------------------|---------|---------------------|\n| sign    | Sign the item in your hand on a given text | /sign <text: string> | /       | signit.command.sign |\n\n**All commands can be configured in the config file.**\n\n# Permissions\n| Permission             | Description                  | Default |\n|------------------------|------------------------------|---------|\n| signit.command.sign    | Permission for /sign         | op      |\n| signit.cooldown.bypass | Lets you bypass the cooldown | op      |\n\n# Features\n* Highly customizable\n* Cooldowns (including multiple cooldown groups)\n* PurePerms support (`{group}` tag)\n\n# Support\nYou can contact me in <a href=\"https://discord.gg/eGhZGtF\">my discord server</a> or <a href=\"https://github.com/Wertzui123/SignIt/issues/new\">create an issue</a>.\n\n# License and Copyright\nSignIt is licensed under the GNU General Public License v3.0. For more information: https://choosealicense.com/licenses/gpl-3.0\n<br><code>© 2019 - 2023 Wertzui123</code>\n\n# Credits\nSignIt was written by @Wertzui123.\n<br>The icon was created by @Chrisi726.",
+  "readme_source_url": "https://github.com/Wertzui123/SignIt",
+  "icon_url": "https://raw.githubusercontent.com/Wertzui123/SignIt/4502bf9fb129dfb7c28f6a13f1b7070bd3d9d4d3/SignIt.png",
+  "featured": false,
+  "repo": "https://github.com/Wertzui123/SignIt",
+  "archive_repo": null,
+  "approved_release_tag": "r-11484",
+  "stars": 5,
+  "total_downloads": 487,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Wertzui123"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209511",
+  "versions": {
+    "stable": {
+      "version": "3.2.1",
+      "tag": "r-11484",
+      "published_at": null,
+      "downloads": 487,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11484/signit-3.2.1-r11484.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11484",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11484/signit-3.2.1-r11484.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SignIt",
+    "stable_release_id": 11484
+  }
+}

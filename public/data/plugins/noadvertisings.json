@@ -1,0 +1,61 @@
+{
+  "id": "noadvertisings",
+  "name": "NoAdvertisings",
+  "author": "Taylor-pm-pl",
+  "description": "NOTICE:** This plugin branch is for PocketMine-MP 4.",
+  "readme_markdown": "# NoAdvertisings\n\n<a href=\"https://poggit.pmmp.io/p/NoAdvertisings\"><img src=\"https://poggit.pmmp.io/shield.dl.total/NoAdvertisings\"></a>\n[![Discord](https://img.shields.io/discord/1100650029573738508.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/yAhsgskaGy)\n\n**NOTICE:** This plugin branch is for PocketMine-MP 4.\n\nBlock server ads.\nBlock server address ads when chatting, using commands, using sign.\nWith easy-to-understand configuration.\n\n# Features\n- Block server ads.\n- Block server address ads when chatting, using commands, using sign.\n- Easy setup.\n\n## All NoAdvertisings Commands:\n\n| **Command** | **Description** |\n| --- | --- |\n| **/noadvertisings** | **NoAdvertisings Control** |\n- Aliases:\n  - /na\n  - /noads\n- You can use permission `noadvertisings.blocked` for command /noadvertisings\n\n# How to Install\n\n1. Download the latest version\n2. Place the `NoAdvertisings.phar` file into the `plugins` folder.\n3. Restart the server.\n4. Done!\n\n# Additional Notes\n\n- If you found bugs or want to give suggestions, please visit <a href=\"https://github.com/David-pm-pl/NoAdvertisings/issues\">here</a> or join our Discord server.\n- We accept all contributions! If you want to contribute, please make a pull request in <a href=\"https://github.com/David-pm-pl/NoAdvertisings/pulls\">here</a>.",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/NoAdvertisings",
+  "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/NoAdvertisings/4f3e8d0987a40f2d3a65fd829a29b57c30656ec0/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/NoAdvertisings",
+  "archive_repo": null,
+  "approved_release_tag": "r-11450",
+  "stars": 5,
+  "total_downloads": 805,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209155",
+  "versions": {
+    "stable": {
+      "version": "0.0.7",
+      "tag": "r-11450",
+      "published_at": null,
+      "downloads": 805,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11450/noadvertisings-0.0.7-r11450.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11450",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11450/noadvertisings-0.0.7-r11450.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NoAdvertisings",
+    "stable_release_id": 11450
+  }
+}

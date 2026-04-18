@@ -1,0 +1,61 @@
+{
+  "id": "tracker",
+  "name": "Tracker",
+  "author": "JavierLeon9966",
+  "description": "A PocketMine-MP plugin which allows you to track players",
+  "readme_markdown": "# Tracker\nA PocketMine-MP plugin which allows you to track players\n\nThis plugin works the same way as Dream's manhunt compass. Execute `/track PlayerName` and the compass will be tracking that person. Not only you can track one but more people, which when the compass is right clicked it points to the nearest player.\n\nYou can use the following commands to track and untrack players: `/track`, `/untrack`",
+  "readme_source_url": "https://github.com/JavierLeon9966/Tracker",
+  "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/Tracker/7a8ea98c227e00fcb1d9f0fc25b4496f436d5bf0/icon.png",
+  "featured": false,
+  "repo": "https://github.com/JavierLeon9966/Tracker",
+  "archive_repo": null,
+  "approved_release_tag": "r-11422",
+  "stars": 0,
+  "total_downloads": 1128,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JavierLeon9966"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208885",
+  "versions": {
+    "stable": {
+      "version": "1.5.0",
+      "tag": "r-11422",
+      "published_at": null,
+      "downloads": 1128,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11422/tracker-1.5.0-r11422.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11422",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11422/tracker-1.5.0-r11422.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Tracker",
+    "stable_release_id": 11422
+  }
+}

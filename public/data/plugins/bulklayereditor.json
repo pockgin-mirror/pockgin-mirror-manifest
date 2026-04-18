@@ -1,0 +1,61 @@
+{
+  "id": "bulklayereditor",
+  "name": "BulkLayerEditor",
+  "author": "platz1de",
+  "description": "Bulk Layer Editor",
+  "readme_markdown": "# Bulk Layer Editor\n\nSimple tool to edit a selected blocklayer of the whole world.\n\n## Usage\n\nThe primary use-case is to remove leftover blocks from the world after a plugin like [Waterlogging](https://github.com/platz1de/Waterlogging) has been uninstalled. <br>\nDue to the way pocketmine interacts with the world, the blocks will stay without any way of removing them.\n\nTo use the tool, simply drop the phar into the plugins folder and restart the server. <br>\nThen edit the config.yml to your liking and restart the server again. Worlds should now slowly be converted (This can take a while depending on the size of the world).",
+  "readme_source_url": "https://github.com/platz1de/BulkLayerEditor",
+  "icon_url": "https://raw.githubusercontent.com/platz1de/BulkLayerEditor/7deee6dee61d44c1a51fafaf8bc536a46501269e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/platz1de/BulkLayerEditor",
+  "archive_repo": null,
+  "approved_release_tag": "r-11351",
+  "stars": 0,
+  "total_downloads": 156,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "platz1de"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-11351",
+      "published_at": null,
+      "downloads": 156,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11351/bulklayereditor-1.0-r11351.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11351",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11351/bulklayereditor-1.0-r11351.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BulkLayerEditor",
+    "stable_release_id": 11351
+  }
+}

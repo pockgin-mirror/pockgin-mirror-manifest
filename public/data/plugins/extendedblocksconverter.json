@@ -1,0 +1,61 @@
+{
+  "id": "extendedblocksconverter",
+  "name": "ExtendedBlocksConverter",
+  "author": "JavierLeon9966",
+  "description": "Converts any PocketMine-MP 3.0 extended blocks into PM4 native blocks!",
+  "readme_markdown": "# ExtendedBlocksConverter\nConverts any PocketMine-MP 3.0 extended blocks into PM4 native blocks!\n\nYes, you heard right, this plugin can convert any leftovers extended blocks from PM3 and convert it into the new PM4 blocks  without leaving update blocks behind!\n\nIn order for this plugin to work first don't load any chunks that contains old extended blocks before adding this plugin. Once you have added this plugin load every chunk that you wish to convert the old extended blocks. Easy as that!",
+  "readme_source_url": "https://github.com/JavierLeon9966/ExtendedBlocksConverter",
+  "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/ExtendedBlocksConverter/2dc72ead386718971c95816f7cdcce9b6cf246b0/icon.png",
+  "featured": false,
+  "repo": "https://github.com/JavierLeon9966/ExtendedBlocksConverter",
+  "archive_repo": null,
+  "approved_release_tag": "r-11441",
+  "stars": 0,
+  "total_downloads": 1094,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JavierLeon9966"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209074",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-11441",
+      "published_at": null,
+      "downloads": 1094,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11441/extendedblocksconverter-1.1.0-r11441.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11441",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11441/extendedblocksconverter-1.1.0-r11441.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ExtendedBlocksConverter",
+    "stable_release_id": 11441
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "blockgenerator",
+  "name": "BlockGenerator",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**Random blocks generator with water and fences.**\n\n![IMG](https://user-images.githubusercontent.com/60387689/215071694-7d4d28d6-9961-4c8a-bb01-5a6642bd1c40.jpg)\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/BlockGenerator",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/BlockGenerator/07463bfe5fdc65379b09d1d122c9a934b5bcf82e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/BlockGenerator",
+  "archive_repo": null,
+  "approved_release_tag": "r-11405",
+  "stars": 5,
+  "total_downloads": 368,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-11405",
+      "published_at": null,
+      "downloads": 368,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11405/blockgenerator-0.0.2-r11405.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11405",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11405/blockgenerator-0.0.2-r11405.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockGenerator",
+    "stable_release_id": 11405
+  }
+}

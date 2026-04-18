@@ -1,0 +1,61 @@
+{
+  "id": "ezchatmod",
+  "name": "EzChatMod",
+  "author": "jasonw4331",
+  "description": "EzChatMod is a plugin which adds a command to easily reply to your last received message.",
+  "readme_markdown": "# EzChatMod\n[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/R7kdetE)\n[![Poggit-Ci](https://poggit.pmmp.io/ci.shield/jasonw4331/EzChatMod/EzChatMod)](https://poggit.pmmp.io/ci/jasonw4331/EzChatMod/EzChatMod)\n[![Download count](https://poggit.pmmp.io/shield.dl.total/EzChatMod)](https://poggit.pmmp.io/p/EzChatMod)\n\n# Intro\nEzChatMod is a plugin which adds a command to easily reply to your last received message.\n\n# Features\n* Automatically protects your server from SPAM messages\n* Completely configurable\n\n# Future Additions\n* Multi-lang support\n\n# About\nThis plugin was made during a youtube livestream. See this link: https://youtu.be/9gXn-NAtrEo",
+  "readme_source_url": "https://github.com/jasonw4331/EzChatMod",
+  "icon_url": "https://raw.githubusercontent.com/jasonw4331/EzChatMod/890f151c49b81700443ac0e2c9af9f78089537e7/icon.png",
+  "featured": false,
+  "repo": "https://github.com/jasonw4331/EzChatMod",
+  "archive_repo": null,
+  "approved_release_tag": "r-11434",
+  "stars": 0,
+  "total_downloads": 1592,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "jasonw4331"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208981",
+  "versions": {
+    "stable": {
+      "version": "3.0.0",
+      "tag": "r-11434",
+      "published_at": null,
+      "downloads": 1592,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11434/ezchatmod-3.0.0-r11434.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11434",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11434/ezchatmod-3.0.0-r11434.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EzChatMod",
+    "stable_release_id": 11434
+  }
+}

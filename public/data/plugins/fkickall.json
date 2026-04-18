@@ -1,0 +1,61 @@
+{
+  "id": "fkickall",
+  "name": "FKickAll",
+  "author": "FRashkar-pm",
+  "description": "A Simple Plugin to Kick All Players Out with or without reason.",
+  "readme_markdown": "## FKickAll\n<p align=\"center\">\n  A Simple Plugin to Kick All Players Out with or without reason.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://poggit.pmmp.io/p/FKickAll\">\n    <img src=\"https://poggit.pmmp.io/shield.state/FKickAll\">\n  </a>\n  <a href=\"https://poggit.pmmp.io/p/FKickAll\">\n    <img src=\"https://poggit.pmmp.io/shield.api/FKickAll\">\n  </a>\n  <a href=\"https://poggit.pmmp.io/p/FKickAll\">\n    <img src=\"https://poggit.pmmp.io/shield.dl.total/FKickAll\">\n  </a>\n  <a href=\"https://poggit.pmmp.io/p/FKickAll\">\n    <img src=\"https://poggit.pmmp.io/shield.dl/FKickAll\">\n  </a>\n</p>\n\n## Usage\n```yaml\n#Commands\n/fkickall <reason>\n#Aliases\n/fk <reason>\n```\n## Permission\n```yaml\npermission: fkickall.use\ndefault: op\n```\n## Credits\n<a target=\"_blank\" href=\"https://icons8.com/icon/prg9GGg4vKWS/kick\">Kick</a> icon by <a target=\"_blank\" href=\"https://icons8.com\">Icons8</a>",
+  "readme_source_url": "https://github.com/FRashkar-pm/FKickAll",
+  "icon_url": "https://raw.githubusercontent.com/FRashkar-pm/FKickAll/820a609ce6508a1a0640776763ff90f0bc2666f2/kick.png",
+  "featured": false,
+  "repo": "https://github.com/FRashkar-pm/FKickAll",
+  "archive_repo": null,
+  "approved_release_tag": "r-11461",
+  "stars": 0,
+  "total_downloads": 554,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "FRashkar-pm"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209243",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-11461",
+      "published_at": null,
+      "downloads": 554,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11461/fkickall-1.0.1-r11461.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11461",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11461/fkickall-1.0.1-r11461.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FKickAll",
+    "stable_release_id": 11461
+  }
+}

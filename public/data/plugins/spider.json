@@ -1,0 +1,61 @@
+{
+  "id": "spider",
+  "name": "Spider",
+  "author": "BeeAZ-pm-pl",
+  "description": "Command",
+  "readme_markdown": "# Command\n\n<br>\n\n• /spider\n\n<br>\n\n# General\n\n<br>\n• This plugin helps you toggle the wall climbing skill in pocketmine\n\n[![Discord](https://img.shields.io/discord/965662639168569394.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/KrjD6t9HJt)\n# Permission\n\n<br>\n• spider.command\n<br>",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/Spider",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/Spider/7bd82fdea39d1c69d2618ca3a0691bbdc16aba14/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/Spider",
+  "archive_repo": null,
+  "approved_release_tag": "r-11370",
+  "stars": 5,
+  "total_downloads": 283,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208540",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-11370",
+      "published_at": null,
+      "downloads": 283,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11370/spider-2.0.0-r11370.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11370",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11370/spider-2.0.0-r11370.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Spider",
+    "stable_release_id": 11370
+  }
+}

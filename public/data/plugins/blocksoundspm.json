@@ -1,0 +1,66 @@
+{
+  "id": "blocksoundspm",
+  "name": "BlockSoundsPM",
+  "author": "BeeAZ-pm-pl",
+  "description": "BlockSounds",
+  "readme_markdown": "# BlockSounds\n\n## Information\nWith this plugin you can add sounds to blocks so that when that block is hit or interacted with, it will play your selected sound. You can also provide a pitch for the sound in the command string. All data is saved to a JSON file on plugin disable and read back into memory on plugin enable, for reference.\n\n***\n\n## Dependencies\n**DevTools → https://github.com/pmmp/PocketMine-DevTools** *(If you're running the plugin from source)*",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/BlockSoundsPM",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/BlockSoundsPM/208236f66ead7b77fdc37f8e6f86b0a39794d8b7/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/BlockSoundsPM",
+  "archive_repo": null,
+  "approved_release_tag": "r-11465",
+  "stars": 0,
+  "total_downloads": 267,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209291",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-11465",
+      "published_at": null,
+      "downloads": 244,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11465/blocksoundspm-2.0.1-r11465.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11465",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11465/blocksoundspm-2.0.1-r11465.phar"
+    },
+    {
+      "tag": "r-11365",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11365/blocksoundspm-2.0.0-r11365.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockSoundsPM",
+    "stable_release_id": 11465
+  }
+}

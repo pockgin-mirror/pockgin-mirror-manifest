@@ -1,0 +1,61 @@
+{
+  "id": "vanillaknockback",
+  "name": "VanillaKnockback",
+  "author": "JavierLeon9966",
+  "description": "Implements vanilla knockback when sprint hitting.",
+  "readme_markdown": "# VanillaKnockback\nImplements vanilla knockback when sprint hitting.\n[![](https://poggit.pmmp.io/shield.state/VanillaKnockback)](https://poggit.pmmp.io/p/VanillaKnockback)\n<a href=\"https://poggit.pmmp.io/p/VanillaKnockback\"><img src=\"https://poggit.pmmp.io/shield.state/VanillaKnockback\"></a>\n\nThis plugin will add the vanilla behavior of knockback when sprinting and attacking at the same time, knockback will increase by 150% but you will immediately stop sprinting. This could be very useful for PvPers who rely on w-tapping.",
+  "readme_source_url": "https://github.com/JavierLeon9966/VanillaKnockback",
+  "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/VanillaKnockback/48e12060355d92710e3be23c829d22f566963474/icon.gif",
+  "featured": false,
+  "repo": "https://github.com/JavierLeon9966/VanillaKnockback",
+  "archive_repo": null,
+  "approved_release_tag": "r-11421",
+  "stars": 0,
+  "total_downloads": 1564,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JavierLeon9966"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208880",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-11421",
+      "published_at": null,
+      "downloads": 1564,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11421/vanillaknockback-1.1.0-r11421.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11421",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11421/vanillaknockback-1.1.0-r11421.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VanillaKnockback",
+    "stable_release_id": 11421
+  }
+}

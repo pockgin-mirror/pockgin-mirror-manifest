@@ -1,0 +1,64 @@
+{
+  "id": "oneblockscore",
+  "name": "OneBlockScore",
+  "author": "BeeAZ-pm-pl",
+  "description": "Support tag Oneblock's tier on ScoreHud",
+  "readme_markdown": "# OneBlockScore\nSupport tag Oneblock's tier on ScoreHud\n\n[![Discord](https://img.shields.io/discord/965662639168569394.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/KrjD6t9HJt)",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/OneBlockScore",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/OneBlockScore/1d81c42cd8aaf2519d7e54e22eff863139efe1a6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/OneBlockScore",
+  "archive_repo": null,
+  "approved_release_tag": "r-11377",
+  "stars": 0,
+  "total_downloads": 500,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "ScoreHud",
+      "Oneblock"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208578",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-11377",
+      "published_at": null,
+      "downloads": 500,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11377/oneblockscore-2.0.0-r11377.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11377",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11377/oneblockscore-2.0.0-r11377.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "OneBlockScore",
+    "stable_release_id": 11377
+  }
+}

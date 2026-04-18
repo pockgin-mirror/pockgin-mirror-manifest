@@ -1,0 +1,61 @@
+{
+  "id": "hitparticle",
+  "name": "HitParticle",
+  "author": "BeeAZ-pm-pl",
+  "description": "HitParticle v0.0.2",
+  "readme_markdown": "<div align=\"center\">\n<h1>HitParticle | v0.0.2<h1>\n</div>\n<p align=\"center\">\n<a href=\"https://poggit.pmmp.io/p/HitParticle\"><img src=\"https://poggit.pmmp.io/shield.state/HitParticle\">\n</a>\n<br>\n✔️ Create particles when hit ✔️\n\n\n[![Discord](https://img.shields.io/discord/965662639168569394.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/KrjD6t9HJt)\n</p>\n\n<br>\n\n## Features\n- Create particles when hit\n- When hit, it has beautiful colors and effects\n\n<br>\n\n## Commands\n| **Commands** | **Description** |\n| --- | --- |\n| **/hitparticle** | **Turn hit particles on or off** |\n\n<br>\n\n## Permissions\n| **Permission** | **Default** |\n| --- | --- |\n| **hitparticle.command** | **op** |\n\t\n<br>\n\n## Config\n```\n---\n#Config Enable Particles\n#True is on, false is off\n#More particle in next version\n\nHeartParticle: true\nInkParticle: false\nLavaParticle: false\nFlameParticle: false\nSmokeParticle: false\nWaterParticle: false\nactive: true\n...\n```\n\n<br>\n\n## Install\n- Step 1: Click the \"Direct Download\" button to download the plugin\n- Step 2: move the file \"HitParticle.phar\" into the file \"plugins\"\n- Step 3: Restart server for plugins to work",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/HitParticle",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/HitParticle/7c2f22e9863b0cea3fa51e0451f2fbc4cfd519db/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/HitParticle",
+  "archive_repo": null,
+  "approved_release_tag": "r-11373",
+  "stars": 0,
+  "total_downloads": 627,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208556",
+  "versions": {
+    "stable": {
+      "version": "0.0.3",
+      "tag": "r-11373",
+      "published_at": null,
+      "downloads": 627,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11373/hitparticle-0.0.3-r11373.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11373",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11373/hitparticle-0.0.3-r11373.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HitParticle",
+    "stable_release_id": 11373
+  }
+}

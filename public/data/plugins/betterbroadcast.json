@@ -1,0 +1,61 @@
+{
+  "id": "betterbroadcast",
+  "name": "BetterBroadcast",
+  "author": "supercrafter333",
+  "description": "BetterBroadcast - v1.0.1",
+  "readme_markdown": "[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/ca6cWPpERp)\n\n# <a href=\"https://supercrafter333.github.io/BetterBroadcast/\"><img src=\"https://github.com/supercrafter333/BetterBroadcast/blob/master/icon.png?raw=true\" width=\"26\" float=\"left\" style=\"border-radius: 0.3rem\"></a> BetterBroadcast - v1.0.1  [![](https://poggit.pmmp.io/shield.state/BetterBroadcast)](https://poggit.pmmp.io/p/BetterBroadcast) [![](https://poggit.pmmp.io/shield.dl.total/BetterBroadcast)](https://poggit.pmmp.io/p/BetterBroadcast)\n\n✨ **The innovative broadcast plugin** ✨\n\n[![Typing SVG](https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&lines=✨BetterBroadcast✨;📌+Toastnotification-Broadcasts;📌+Message-Broadcasts;📌+Tip-Broadcasts;📌+Title-Broadcasts)](.)\n\nThis plugin is much better than other broadcast plugins because you can choose different broadcast types. This plugin takes broadcasts to the next level.\n\n### Features\n\n- Choose different broadcast-types\n  - `message` - A simple message per chat to every player\n  - `tip` - A action-bar-message/tip to every player\n  - `title` - Just a title-message to every player\n  - `toast` - Toast-Notification to every player\n- Customizable broadcast interval\n- Simple configuration and installation\n\n### Report Bug\n\nYou've found a Bug?\n\n- Go to [Issues](https://github.com/supercrafter333/BetterBroadcast/issues)\n- Click on [New Issue](https://github.com/supercrafter333/BetterBroadcast/issues/new)\n- Write your bug with all information that you have down\n- Open issue\n- Now wait, until I answer you soon\n\n### License:\n\nThis plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by supercrafter333!\n\n### Credits\n\nOwner: supercrafter333\n\nIcon: [Flaticon](https://www.flaticon.com/free-icon/broadcast_3315547)\n\nDiscord-Tag: [`supercrafter333#4062`](https://discordapp.com/users/511252471616897024)\n\n### Join the community\n\n[![Discord Banner](https://discordapp.com/api/guilds/847099444465238036/widget.png?style=banner3)](https://discord.gg/ca6cWPpERp)",
+  "readme_source_url": "https://github.com/supercrafter333/BetterBroadcast",
+  "icon_url": "https://raw.githubusercontent.com/supercrafter333/BetterBroadcast/f0666bdfc140f6f4864435eb62e076191774ebd7/icon.png",
+  "featured": false,
+  "repo": "https://github.com/supercrafter333/BetterBroadcast",
+  "archive_repo": null,
+  "approved_release_tag": "r-11427",
+  "stars": 0,
+  "total_downloads": 779,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.11.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "supercrafter333"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208927",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-11427",
+      "published_at": null,
+      "downloads": 779,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11427/betterbroadcast-1.0.1-r11427.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11427",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11427/betterbroadcast-1.0.1-r11427.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterBroadcast",
+    "stable_release_id": 11427
+  }
+}

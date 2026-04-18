@@ -1,0 +1,61 @@
+{
+  "id": "nicknames",
+  "name": "Nicknames",
+  "author": "jasonw4331",
+  "description": "Let your players and your staff to change they're names how they want!",
+  "readme_markdown": "# Nicknames\n[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/R7kdetE)\n[![Poggit-Ci](https://poggit.pmmp.io/ci.shield/jasonw4331/Nicknames/Nicknames)](https://poggit.pmmp.io/ci/jasonw4331/Nicknames/Nicknames)\n[![Download count](https://poggit.pmmp.io/shield.dl.total/Nicknames)](https://poggit.pmmp.io/p/Nicknames)\n\n# Intro\nLet your players and your staff to change they're names how they want!\n\n# Features\n* Allows changing a player's display name\n\n# Permissions\n* `nicknames` Nickname command permission\n* `nicknames.use` Allows you to nickname yourself!\n* `nicknames.others` Allows you to nickname others!\n\n# Future Additions\n* None planned. Leave requests in the reviews on poggit.\n\n# About\nThis plugin was released because no other nickname plugins exist on poggit for some reason. Who would've guessed?",
+  "readme_source_url": "https://github.com/jasonw4331/Nicknames",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/jasonw4331/Nicknames",
+  "archive_repo": null,
+  "approved_release_tag": "r-11432",
+  "stars": 0,
+  "total_downloads": 1627,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "jasonw4331"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208958",
+  "versions": {
+    "stable": {
+      "version": "2.2.0",
+      "tag": "r-11432",
+      "published_at": null,
+      "downloads": 1627,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11432/nicknames-2.2.0-r11432.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11432",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11432/nicknames-2.2.0-r11432.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Nicknames",
+    "stable_release_id": 11432
+  }
+}

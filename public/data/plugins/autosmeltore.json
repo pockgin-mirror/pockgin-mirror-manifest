@@ -1,0 +1,61 @@
+{
+  "id": "autosmeltore",
+  "name": "AutoSmeltOre",
+  "author": "Taylor-pm-pl",
+  "description": "NOTICE:** This plugin branch is for PocketMine-MP 5.",
+  "readme_markdown": "# AutoSmeltOre\n\n<a href=\"https://poggit.pmmp.io/p/AutoSmeltOre\"><img src=\"https://poggit.pmmp.io/shield.dl.total/AutoSmeltOre\"></a>\n[![Discord](https://img.shields.io/discord/1100650029573738508.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/yAhsgskaGy)\n\n**NOTICE:** This plugin branch is for PocketMine-MP 5.\n\nAuto smelt ore when break!\n\n# Features\n\n- Auto smelt ore when break!\n- Simple to use\n\n# How to Install\n\n1. Download the latest version\n2. Place the `AutoSmeltOre.phar` file into the `plugins` folder.\n3. Restart the server.\n4. Done!\n\n# Additional Notes\n\n- If you found bugs or want to give suggestions, please visit <a href=\"https://github.com/David-pm-pl/AutoSmeltOre/issues\">here</a> or join our Discord server.\n- We accept all contributions! If you want to contribute, please make a pull request in <a href=\"https://github.com/David-pm-pl/AutoSmeltOre/pulls\">here</a>.",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/AutoSmeltOre",
+  "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/AutoSmeltOre/9d62c31104ee17cf7724abf21b423b594dd5f9d8/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/AutoSmeltOre",
+  "archive_repo": null,
+  "approved_release_tag": "r-11457",
+  "stars": 0,
+  "total_downloads": 1615,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209469",
+  "versions": {
+    "stable": {
+      "version": "0.0.4",
+      "tag": "r-11457",
+      "published_at": null,
+      "downloads": 1615,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11457/autosmeltore-0.0.4-r11457.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11457",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11457/autosmeltore-0.0.4-r11457.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AutoSmeltOre",
+    "stable_release_id": 11457
+  }
+}

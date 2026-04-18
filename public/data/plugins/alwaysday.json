@@ -1,0 +1,61 @@
+{
+  "id": "alwaysday",
+  "name": "AlwaysDay",
+  "author": "smallkingdev-pm-pl",
+  "description": "Description:",
+  "readme_markdown": "# AlwaysDay\n\n[![](https://poggit.pmmp.io/shield.state/AlwaysDay)](https://poggit.pmmp.io/p/AlwaysDay)\n\n# Description:\nA simple plugin for PocketMine-MP that freezes the world's time to day.",
+  "readme_source_url": "https://github.com/smallkingdev-pm-pl/AlwaysDay",
+  "icon_url": "https://raw.githubusercontent.com/smallkingdev-pm-pl/AlwaysDay/3cb23ff315b36d4ab2b9b6eff42372f5a4d35510/icon.png",
+  "featured": false,
+  "repo": "https://github.com/smallkingdev-pm-pl/AlwaysDay",
+  "archive_repo": null,
+  "approved_release_tag": "r-11473",
+  "stars": 0,
+  "total_downloads": 1363,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "smallkingdev-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/212213",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-11473",
+      "published_at": null,
+      "downloads": 1363,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11473/alwaysday-1.1.0-r11473.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11473",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11473/alwaysday-1.1.0-r11473.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AlwaysDay",
+    "stable_release_id": 11473
+  }
+}

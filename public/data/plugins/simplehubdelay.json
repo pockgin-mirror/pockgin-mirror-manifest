@@ -1,0 +1,61 @@
+{
+  "id": "simplehubdelay",
+  "name": "SimpleHubDelay",
+  "author": "BeeAZ-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n\nA plugin that helps you teleport back to spawn with a simple delay\n\n[![Discord](https://img.shields.io/discord/965662639168569394.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/KrjD6t9HJt)\n\n# Use\n\n/hub",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/SimpleHubDelay",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/SimpleHubDelay/6b081d14c6cb975f5fc4985deeac6b199d34d936/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/SimpleHubDelay",
+  "archive_repo": null,
+  "approved_release_tag": "r-11399",
+  "stars": 0,
+  "total_downloads": 566,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208735",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-11399",
+      "published_at": null,
+      "downloads": 566,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11399/simplehubdelay-2.0.0-r11399.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11399",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11399/simplehubdelay-2.0.0-r11399.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleHubDelay",
+    "stable_release_id": 11399
+  }
+}

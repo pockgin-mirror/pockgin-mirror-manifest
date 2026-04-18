@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11782",
   "stars": 0,
-  "total_downloads": 775,
+  "total_downloads": 814,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-11501",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11501/epiccustomalerts-0.1.1-r11501.phar"
+    },
+    {
+      "tag": "r-11471",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11471/epiccustomalerts-0.1.0-r11471.phar"
     }
   ],
   "comments": {

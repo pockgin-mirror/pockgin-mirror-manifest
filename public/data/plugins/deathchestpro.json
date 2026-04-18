@@ -1,0 +1,61 @@
+{
+  "id": "deathchestpro",
+  "name": "DeathChestPro",
+  "author": "BeeAZ-pm-pl",
+  "description": "Creates a chest that holds the player's items upon death",
+  "readme_markdown": "# DeathChestPro\nCreates a chest that holds the player's items upon death",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/DeathChestPro",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/DeathChestPro/3831eac9dc977bf295b15e9fd89c748638fa1987/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/DeathChestPro",
+  "archive_repo": null,
+  "approved_release_tag": "r-11375",
+  "stars": 0,
+  "total_downloads": 790,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208566",
+  "versions": {
+    "stable": {
+      "version": "0.0.3",
+      "tag": "r-11375",
+      "published_at": null,
+      "downloads": 790,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11375/deathchestpro-0.0.3-r11375.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11375",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11375/deathchestpro-0.0.3-r11375.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DeathChestPro",
+    "stable_release_id": 11375
+  }
+}

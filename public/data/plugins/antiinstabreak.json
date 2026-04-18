@@ -1,0 +1,61 @@
+{
+  "id": "antiinstabreak",
+  "name": "AntiInstaBreak",
+  "author": "pmmp",
+  "description": "PocketMine-MP plugin implementing anti-cheat for instabreak.",
+  "readme_markdown": "## AntiInstaBreak\n[![Poggit](https://poggit.pmmp.io/ci.shield/pmmp/AntiInstaBreak/AntiInstaBreak)](https://poggit.pmmp.io/ci/pmmp/AntiInstaBreak/AntiInstaBreak)\n\nPocketMine-MP plugin implementing anti-cheat for instabreak.\n\n### Background\nThis anti-cheat was originally built-in to the core. However, since it is unnecessary for vanilla gameplay, it has been removed from the core code.\nThis plugin was created in response to complaints received about its removal. \nAs seen in the code, it is very easy to recreate within a plugin, further demonstrating the unnecessariness of it being in the core code at all.\n\n### Caveats\nThis plugin is not guaranteed to be bug-free and suffers from all the same issues that the original built-in implementation did, such as:\n- Haste and mining fatigue are not correctly accounted for, because their implementations differ in Minecraft Bedrock and nobody has successfully reproduced their behaviour externally. \nMany development hours were wasted on trying to get this right, so don't expect it to be fixed any time soon.\n- Efficiency enchantment is not accounted for because it is not yet implemented into PocketMine-MP at the time of writing.\n- Jumping, swimming and climbing ladders is not accounted for.\n- Players may innocently trigger this anti-cheat if they hit a spot of network lag (more than 1 or 2 ticks).",
+  "readme_source_url": "https://github.com/pmmp/AntiInstaBreak",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/pmmp/AntiInstaBreak",
+  "archive_repo": null,
+  "approved_release_tag": "r-11443",
+  "stars": 0,
+  "total_downloads": 929,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "pmmp"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209107",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-11443",
+      "published_at": null,
+      "downloads": 929,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11443/antiinstabreak-1.1.0-r11443.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11443",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11443/antiinstabreak-1.1.0-r11443.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiInstaBreak",
+    "stable_release_id": 11443
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "oplist",
+  "name": "OpList",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**Show operator list when using `/oplist` command**\n\n![image](https://user-images.githubusercontent.com/60387689/177538188-057fe95b-b938-4045-9113-374ea14dc303.png)\n\n# Commands\n\n| Commands | Description | Usage | Aliases | Permission | Permission Message |\n| -------- | ----------- | ----- | ------- | ---------- | ------------------ |\n| /oplist | Show list of operators | N/A | [\"/ops\"] | oplist.command | N/A |\n\n# Permissions\n| Permissions | Description | Default |\n| ----------- | ----------- | ------- |\n| oplist.command | Permission for /oplist | true |\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/OpList",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/OpList/d47a0e512263c242baf4ba10ffd14ca4a947d4de/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/OpList",
+  "archive_repo": null,
+  "approved_release_tag": "r-11407",
+  "stars": 0,
+  "total_downloads": 566,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208782",
+  "versions": {
+    "stable": {
+      "version": "2.0.3",
+      "tag": "r-11407",
+      "published_at": null,
+      "downloads": 566,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11407/oplist-2.0.3-r11407.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11407",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11407/oplist-2.0.3-r11407.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "OpList",
+    "stable_release_id": 11407
+  }
+}

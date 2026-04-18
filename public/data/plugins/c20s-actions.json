@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11555",
   "stars": 0,
-  "total_downloads": 524,
+  "total_downloads": 560,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "0.0.3",
       "tag": "r-11555",
       "published_at": null,
-      "downloads": 524,
+      "downloads": 525,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11555/c20s-actions-0.0.3-r11555.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-11555",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11555/c20s-actions-0.0.3-r11555.phar"
+    },
+    {
+      "tag": "r-11438",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11438/c20s-actions-0.0.2-r11438.phar"
     }
   ],
   "comments": {

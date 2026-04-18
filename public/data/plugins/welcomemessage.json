@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11540",
   "stars": 5,
-  "total_downloads": 1601,
+  "total_downloads": 1639,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.9",
       "tag": "r-11540",
       "published_at": null,
-      "downloads": 1111,
+      "downloads": 1112,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11540/welcomemessage-1.9-r11540.phar"
     },
     "dev": {
@@ -60,6 +60,11 @@
       "tag": "r-11508",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11508/welcomemessage-1.8-r11508.phar"
+    },
+    {
+      "tag": "r-11357",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11357/welcomemessage-1.7-r11357.phar"
     }
   ],
   "comments": {

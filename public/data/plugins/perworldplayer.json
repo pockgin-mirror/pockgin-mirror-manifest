@@ -1,0 +1,61 @@
+{
+  "id": "perworldplayer",
+  "name": "PerWorldPlayer",
+  "author": "BlockHorizons",
+  "description": "Per-world player data (inventories, effects, hp, hunger etc) for PocketMine-MP",
+  "readme_markdown": "# PerWorldPlayer\n[![](https://poggit.pmmp.io/shield.dl.total/PerWorldPlayer)](https://poggit.pmmp.io/p/PerWorldPlayer)\n[![](https://poggit.pmmp.io/shield.state/PerWorldPlayer)](https://poggit.pmmp.io/p/PerWorldPlayer)\n[![Poggit-CI](https://poggit.pmmp.io/ci.shield/BlockHorizons/PerWorldPlayer/PerWorldPlayer)](https://poggit.pmmp.io/ci/BlockHorizons/PerWorldPlayer/PerWorldPlayer)\n\n\nPer-world player data (inventories, effects, hp, hunger etc) for PocketMine-MP\n\nThis plugin allows servers to separate out player data among worlds (or a group of worlds). It's based on [PerWorldInventory](https://github.com/BlockHorizons/PerWorldInventory) and has a few things in similar.\n\n## Installation\nIt is mostly recommended to use released versions of the plugin, which can be found in the released version on Poggit. (once there is one)\nIf you do decide you want the latest version of the plugin, it is recommended you fetch a pre-compiled phar file from Poggit-CI, which can be found below.\n\n## Configurables\n1. You can stop players from switching inventories per world by giving them the permission: `per-world-player.bypass`.\n2. You can group worlds so the same player data is shared among two (or more) worlds by configuring [`Bundled-Worlds` in `config.yml`](https://github.com/BlockHorizons/PerWorldPlayer/blob/master/resources/config.yml#L43). This can be useful for creative mode servers.\n3. You can configure which player data you want to add multi-world support to by modifying [`Save-Data` in `config.yml`](https://github.com/BlockHorizons/PerWorldPlayer/blob/master/resources/config.yml#L5).",
+  "readme_source_url": "https://github.com/BlockHorizons/PerWorldPlayer",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/BlockHorizons/PerWorldPlayer",
+  "archive_repo": null,
+  "approved_release_tag": "r-11404",
+  "stars": 0,
+  "total_downloads": 903,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BlockHorizons"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208765",
+  "versions": {
+    "stable": {
+      "version": "0.4.7",
+      "tag": "r-11404",
+      "published_at": null,
+      "downloads": 903,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11404/perworldplayer-0.4.7-r11404.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11404",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11404/perworldplayer-0.4.7-r11404.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PerWorldPlayer",
+    "stable_release_id": 11404
+  }
+}

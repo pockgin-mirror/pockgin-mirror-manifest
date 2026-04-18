@@ -1,0 +1,66 @@
+{
+  "id": "simplereplies",
+  "name": "SimpleReplies",
+  "author": "jasonw4331",
+  "description": "SimpleReplies is a plugin which adds a command to easily reply to your last received message.",
+  "readme_markdown": "# SimpleReplies\n[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/R7kdetE)\n[![Poggit-Ci](https://poggit.pmmp.io/ci.shield/jasonw4331/SimpleReplies/SimpleReplies)](https://poggit.pmmp.io/ci/jasonw4331/SimpleReplies/SimpleReplies)\n[![Download count](https://poggit.pmmp.io/shield.dl.total/SimpleReplies)](https://poggit.pmmp.io/p/SimpleReplies)\n\n# Intro\nSimpleReplies is a plugin which adds a command to easily reply to your last received message.\n\n# Features\n* adds the command: /reply\n\n# Future Additions\n* none planned. Leave requests in the reviews.\n\n# About\nThis plugin was made for [SJames](https://forums.pmmp.io/members/sjames.4618/) to answer their request [here](https://forums.pmmp.io/threads/answer-plugin.7902).",
+  "readme_source_url": "https://github.com/jasonw4331/SimpleReplies",
+  "icon_url": "https://raw.githubusercontent.com/jasonw4331/SimpleReplies/cacf3c4b2666be83c73444e8b5d9a0aabf070541/icon.png",
+  "featured": false,
+  "repo": "https://github.com/jasonw4331/SimpleReplies",
+  "archive_repo": null,
+  "approved_release_tag": "r-11459",
+  "stars": 0,
+  "total_downloads": 233,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "jasonw4331"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209229",
+  "versions": {
+    "stable": {
+      "version": "2.1.1",
+      "tag": "r-11459",
+      "published_at": null,
+      "downloads": 224,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11459/simplereplies-2.1.1-r11459.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11459",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11459/simplereplies-2.1.1-r11459.phar"
+    },
+    {
+      "tag": "r-11433",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11433/simplereplies-2.1.0-r11433.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleReplies",
+    "stable_release_id": 11459
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "hacks",
+  "name": "Hacks",
+  "author": "Inaay",
+  "description": "Hacks Plugin for PocketMine",
+  "readme_markdown": "# Hacks Plugin for PocketMine\n[![](https://poggit.pmmp.io/shield.state/Hacks)](https://poggit.pmmp.io/p/Hacks) [![](https://poggit.pmmp.io/shield.dl.total/Hacks)](https://poggit.pmmp.io/p/Hacks)\n\nHacks is a server-side cheat plugin for PocketMine that includes various cheats such as Chest Stealer, Hitbox, Killaura, NoFall, Nuker, Reach, Scaffold, Speed, and Velocity.\n\n## Cheats Included\n\n- Chest Stealer - works fine\n- Hitbox - works fine - customizable range\n- Killaura - works fine - customizable range\n- NoFall - works fine - customizable percentage for it to happen\n- Nuker - works fine - customizable radius\n- Reach - A lil buggy (does not always work) - customizable range\n- Scaffold - A lil buggy (does not always work) - NOT customizable right now\n- Speed - works fine - customizable speed amount\n- Velocity - works fine - customizable Horizontal and Vertical knockback\n\n## Features\n\n- Customizable range, percentage, radius, speed, and knockback\n- UI-based cheats\n- Command: /hacks, /hack, /cheat\n- Permission: hacks.command\n\n## Preview\n\n![image](https://user-images.githubusercontent.com/125380942/236388393-1e97cdf1-252e-4a8c-9bd9-57083ee35274.png)\n![image](https://user-images.githubusercontent.com/125380942/236388470-01df84a2-6d29-496f-8980-c5d9cdbd6296.png)\n![image](https://user-images.githubusercontent.com/125380942/236388548-ab457008-31cd-4d28-948e-56c6d98342d0.png)\n![image](https://user-images.githubusercontent.com/125380942/236168878-d5b8688f-598d-43ee-966f-973b7ceb036a.png)\n\n## Bugs and Issues\n\nThis plugin is in beta. If you encounter any bugs or issues with crashes, please report them on the [GitHub issues page](https://github.com/Inaay/Hacks/issues).\n\n## Suggestions\n\nIf you have any suggestions for additional cheats to add to the plugin, please feel free to suggest them on the [GitHub issues page](https://github.com/Inaay/Hacks/issues).\n\n## License\n\nHacks is licensed under the [MIT License](https://github.com/Inaay/Hacks/blob/main/LICENSE). Please see the [LICENSE](https://github.com/Inaay/Hacks/blob/main/LICENSE) file for more information.\n\n### Todo:\n* Permissions for each hacks\n* Use RayTrace for Reach\n* Use Task for Scaffold",
+  "readme_source_url": "https://github.com/Inaay/Hacks",
+  "icon_url": "https://raw.githubusercontent.com/Inaay/Hacks/12a6e2983b4495d5e2e9d13ee6301cc8a3e254d8/meta/logo.png",
+  "featured": false,
+  "repo": "https://github.com/Inaay/Hacks",
+  "archive_repo": null,
+  "approved_release_tag": "r-11371",
+  "stars": 5,
+  "total_downloads": 1369,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Inaay"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208545",
+  "versions": {
+    "stable": {
+      "version": "0.8.0-BETA",
+      "tag": "r-11371",
+      "published_at": null,
+      "downloads": 1369,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11371/hacks-0.8.0-beta-r11371.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11371",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11371/hacks-0.8.0-beta-r11371.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Hacks",
+    "stable_release_id": 11371
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "itemdroptext",
+  "name": "ItemDropText",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**Displays floating text that contains information of the dropped item.**\n\n![IMG](https://user-images.githubusercontent.com/60387689/211273088-d523260f-0c81-4ca3-89dc-f4f935333398.jpg)\n\n# Config\n```yaml\n---\n# - \\n : Newlines.\n# - & or § : Colors.\n# - {name} : Returns the name of the item, or the custom name if it is set.\n# - {vanillaName} : Returns the vanilla name of the item, disregarding custom names.\n# - {count} : Returns the count of the item.\n# - {attackPoints} : Returns how many points of damage this item will deal to an entity when used as a weapon.\n# - {cooldownTicks} : Returns the number of ticks a player must wait before activating this item again.\n# - {defensePoints} : Returns how many armor points can be gained by wearing this item.\n# - {maxStackSize} : Returns the highest amount of this item which will fit into one inventory slot.\n# - {lore} : Returns the lore of the item.\n# - {despawnDelay} : Returns the number of time left before this item will despawn.\nformat: \"{name} x{count}\"\n...\n```\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/ItemDropText",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/ItemDropText/e825dca1ccdf52e3839ca20bd2bfac68988ab3c7/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/ItemDropText",
+  "archive_repo": null,
+  "approved_release_tag": "r-11390",
+  "stars": 0,
+  "total_downloads": 475,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208677",
+  "versions": {
+    "stable": {
+      "version": "0.0.4",
+      "tag": "r-11390",
+      "published_at": null,
+      "downloads": 475,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11390/itemdroptext-0.0.4-r11390.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11390",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11390/itemdroptext-0.0.4-r11390.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemDropText",
+    "stable_release_id": 11390
+  }
+}

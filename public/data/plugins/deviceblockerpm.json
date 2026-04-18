@@ -1,0 +1,61 @@
+{
+  "id": "deviceblockerpm",
+  "name": "DeviceBlockerPM",
+  "author": "BeeAZ-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General \n\n[🌵] Block Devices From Joining Servers\n\n\n[![Discord](https://img.shields.io/discord/965662639168569394.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/KrjD6t9HJt)\n\n\n# Notice\n\n[🍓] Plugin For API 5 , API 4, 3 Will Not Be Supported\n\n<br>\n\n[🐝] Edit **config.yml** To Block The Device You Want",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/DeviceBlocker",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/DeviceBlocker/64dc99ffa8f1f11c71e56f34e819431258283a06/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/DeviceBlocker",
+  "archive_repo": null,
+  "approved_release_tag": "r-11380",
+  "stars": 5,
+  "total_downloads": 209,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208593",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-11380",
+      "published_at": null,
+      "downloads": 209,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11380/deviceblockerpm-0.0.2-r11380.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11380",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11380/deviceblockerpm-0.0.2-r11380.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DeviceBlockerPM",
+    "stable_release_id": 11380
+  }
+}

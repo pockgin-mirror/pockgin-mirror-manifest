@@ -1,0 +1,61 @@
+{
+  "id": "guardianjoin",
+  "name": "GuardianJoin",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**Show Guardian Curse effect when player joins server**\n\n![image](https://user-images.githubusercontent.com/60387689/179580439-a64344a2-63fa-483a-8b8e-f7851060573f.png)\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/GuardianJoin",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/GuardianJoin/2fab974c38ccae04c3e69e51bfaf2c0e74b31ead/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/GuardianJoin",
+  "archive_repo": null,
+  "approved_release_tag": "r-11417",
+  "stars": 5,
+  "total_downloads": 362,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208848",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-11417",
+      "published_at": null,
+      "downloads": 362,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11417/guardianjoin-0.0.2-r11417.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11417",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11417/guardianjoin-0.0.2-r11417.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GuardianJoin",
+    "stable_release_id": 11417
+  }
+}

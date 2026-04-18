@@ -1,0 +1,61 @@
+{
+  "id": "cropsxp",
+  "name": "CropsXP",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**Drops XP orbs on the ground when the player harvests crops.**\n\n![IMG](https://user-images.githubusercontent.com/60387689/212985194-8f3bfaad-7118-4434-9ee3-55d705ad30c5.jpg)\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/CropsXP",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/CropsXP/6342e6189d2a2df5c8913e57dbd9575c96e5c4d6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/CropsXP",
+  "archive_repo": null,
+  "approved_release_tag": "r-11416",
+  "stars": 0,
+  "total_downloads": 315,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208842",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-11416",
+      "published_at": null,
+      "downloads": 315,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11416/cropsxp-0.0.2-r11416.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11416",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11416/cropsxp-0.0.2-r11416.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CropsXP",
+    "stable_release_id": 11416
+  }
+}

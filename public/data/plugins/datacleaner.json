@@ -1,0 +1,61 @@
+{
+  "id": "datacleaner",
+  "name": "DataCleaner",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**Clean up unnecessary files in plugin_data. Eg: Empty folder, plugin folder doesn't exist**\n\n![image](https://user-images.githubusercontent.com/60387689/216828474-901c0d36-daa6-4452-a99b-f5377b2ba23b.png)\n\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/DataCleaner",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/DataCleaner/6f84936a542625340bf5828beb79fdf818137874/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/DataCleaner",
+  "archive_repo": null,
+  "approved_release_tag": "r-11396",
+  "stars": 0,
+  "total_downloads": 300,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208708",
+  "versions": {
+    "stable": {
+      "version": "5.0.1",
+      "tag": "r-11396",
+      "published_at": null,
+      "downloads": 300,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11396/datacleaner-5.0.1-r11396.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11396",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11396/datacleaner-5.0.1-r11396.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DataCleaner",
+    "stable_release_id": 11396
+  }
+}

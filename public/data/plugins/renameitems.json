@@ -1,0 +1,61 @@
+{
+  "id": "renameitems",
+  "name": "RenameItems",
+  "author": "Wertzui123",
+  "description": "A simple rename plugin for PocketMine-MP servers.",
+  "readme_markdown": "# RenameItems\n<a href=\"https://poggit.pmmp.io/p/RenameItems\"><img src=\"https://poggit.pmmp.io/shield.dl.total/RenameItems\"></a>\n<a href=\"https://poggit.pmmp.io/p/RenameItems\"><img src=\"https://poggit.pmmp.io/shield.dl/RenameItems\"></a>\n<br>A simple rename plugin for PocketMine-MP servers.\n<br>The .phar can be found on <a href=\"https://poggit.pmmp.io/p/RenameItems\">poggit.</a>\n\n# Commands\n| Command | Description                                    | Usage                  | Aliases     | Permission                 |\n|---------|------------------------------------------------|------------------------|-------------|----------------------------|\n| rename  | Rename the item in your hand                   | /rename <name: string> | /           | renameitems.command.rename |\n| block   | Block the item in your hand from being renamed | /block                 | blockrename | renameitems.command.block  |\n\n**All commands can be configured in the config file.**\n\n# Permissions\n| Permission                      | Description                        | Default |\n|---------------------------------|------------------------------------|---------|\n| renameitems.command.rename      | Permission for /rename             | op      |\n| renameitems.command.block       | Permission for /block              | op      |\n| renameitems.blockeditems.bypass | Allows you to rename blocked items | false   |\n\n# Features\n* Highly customizable\n* Automatic config updater\n* UIs\n* Items can be blocked from being renamed\n  \n# Support\nYou can contact me in <a href=\"https://discord.gg/eGhZGtF\">my discord server</a> or <a href=\"https://github.com/Wertzui123/RenameItems/issues/new\">create an issue</a>.\n\n# License and Copyright\nRenameItems is licensed under the GNU General Public License v3.0. For more information: https://choosealicense.com/licenses/gpl-3.0\n<br><code>© 2019 - 2023 Wertzui123</code>\n\n# Credits\nRenameItems was written by @Wertzui123.",
+  "readme_source_url": "https://github.com/Wertzui123/RenameItems",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Wertzui123/RenameItems",
+  "archive_repo": null,
+  "approved_release_tag": "r-11483",
+  "stars": 0,
+  "total_downloads": 944,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Wertzui123"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/210641",
+  "versions": {
+    "stable": {
+      "version": "3.2",
+      "tag": "r-11483",
+      "published_at": null,
+      "downloads": 944,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11483/renameitems-3.2-r11483.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11483",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11483/renameitems-3.2-r11483.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RenameItems",
+    "stable_release_id": 11483
+  }
+}

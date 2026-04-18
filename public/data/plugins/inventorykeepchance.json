@@ -1,0 +1,61 @@
+{
+  "id": "inventorykeepchance",
+  "name": "InventoryKeepChance",
+  "author": "Taylor-pm-pl",
+  "description": "InventoryKeepChance v0.0.3",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/InventoryKeepChance)]\n[![Discord](https://img.shields.io/discord/1100650029573738508.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/yAhsgskaGy)\n<div align=\"center\">\n<h1>InventoryKeepChance | v0.0.3<h1>\n<p>Chance of keeping inventory when player dies</p>\n</div>\n\n## Features\n- Protect member's account\n- Easy to set up\n \n## All IKC Commands:\n\n| **Command** | **Description** |\n| --- | --- |\n| **/ikc ** | **Inventorykeepchance control command** |\n\n# Contacts\n**You can contact me directly through the platforms listed below**\n| Platform | DavidGlitch04             |\n| :------: | :----------------: |\n| Discord  | DavidGlitch04#0001        |\n| Email    | JeroGamingYT@pm.me       |",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/InventoryKeepChance",
+  "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/InventoryKeepChance/5bcf77562eaf1d84c8ad4a9c118dad6759c06109/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/InventoryKeepChance",
+  "archive_repo": null,
+  "approved_release_tag": "r-11452",
+  "stars": 0,
+  "total_downloads": 396,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209165",
+  "versions": {
+    "stable": {
+      "version": "0.0.4",
+      "tag": "r-11452",
+      "published_at": null,
+      "downloads": 396,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11452/inventorykeepchance-0.0.4-r11452.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11452",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11452/inventorykeepchance-0.0.4-r11452.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "InventoryKeepChance",
+    "stable_release_id": 11452
+  }
+}

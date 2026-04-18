@@ -1,0 +1,61 @@
+{
+  "id": "antifalldamage",
+  "name": "AntiFallDamage",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**Prevent fall damage**\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/AntiFallDamage",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/AntiFallDamage/d2bc11d5cd68cbd4b195f71e3e74e8e277d60d3a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/AntiFallDamage",
+  "archive_repo": null,
+  "approved_release_tag": "r-11415",
+  "stars": 0,
+  "total_downloads": 1065,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208832",
+  "versions": {
+    "stable": {
+      "version": "2.0.2",
+      "tag": "r-11415",
+      "published_at": null,
+      "downloads": 1065,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11415/antifalldamage-2.0.2-r11415.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11415",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11415/antifalldamage-2.0.2-r11415.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiFallDamage",
+    "stable_release_id": 11415
+  }
+}
