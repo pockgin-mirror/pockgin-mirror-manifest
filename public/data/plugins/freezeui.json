@@ -1,0 +1,61 @@
+{
+  "id": "freezeui",
+  "name": "FreezeUI",
+  "author": "DaiqUx",
+  "description": "Description",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/FreezeUI)](https://poggit.pmmp.io/p/FreezeUI)\n[![](https://poggit.pmmp.io/shield.dl.total/FreezeUI)](https://poggit.pmmp.io/p/FreezeUI)\n\n# Description\nYou can freeze players from certain actions and it's easy to use with the UI\n- If you have any questions or find bugs [Click](https://github.com/DaiqUx/FreezeUI/issues/new)\n\n# Dowloads\n| Phar | Version | API |\n|---|---|---|\n| [Download](https://github.com/DaiqUx/FreezeUI/releases/download/V1.0.0/FreezeUI_v1.0.0.phar) | 1.0.0 | 5.x.x |\n\n# Commands\n- `/freeze` or `/fui` to Open the menu!\n\n# Permissions\n```YAML\npermissions:\n  freezeui.use:\n    description: Permission for FreezeUI Command\n    default: op\n```",
+  "readme_source_url": "https://github.com/DaiqUx/FreezeUI",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/DaiqUx/FreezeUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-11777",
+  "stars": 0,
+  "total_downloads": 893,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaiqUx"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11777",
+      "published_at": null,
+      "downloads": 893,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11777/freezeui-1.0.0-r11777.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11777",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11777/freezeui-1.0.0-r11777.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FreezeUI",
+    "stable_release_id": 11777
+  }
+}

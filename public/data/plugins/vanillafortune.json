@@ -1,0 +1,61 @@
+{
+  "id": "vanillafortune",
+  "name": "VanillaFortune",
+  "author": "AraaCuteUwU",
+  "description": "Implements Fortune Enchantment to your PocketMine-MP server.",
+  "readme_markdown": "# VanillaFortune\nImplements Fortune Enchantment to your PocketMine-MP server.\n\n# Supported Blocks\n- [x] Coal Ore\n- [x] Iron Ore\n- [x] Gold Ore\n- [x] Redstone Ore\n- [x] Lapis Lazuli Ore\n- [x] Diamond Ore\n- [x] Emerald Ore\n- [x] Copper Ore\n- [x] Glowstone\n- [x] Nether Quartz Ore\n- [x] Deepslate Coal Ore\n- [x] Deepslate Iron Ore\n- [x] Deepslate Gold Ore\n- [x] Deepslate Redstone Ore\n- [x] Deepslate Lapis Lazuli Ore\n- [x] Deepslate Diamond Ore\n- [x] Deepslate Emerald Ore\n- [x] Deepslate Copper Ore\n\n## TODO Blocks\n- [ ] Beetroot\n- [ ] Carrot\n- [ ] Double Tall Grass\n- [ ] Etc\n\n## Issue\nDid you find any bugs or errors while using this plugin? \n1. Report your issues [here](https://github.com/AraaCuteUwU/VanillaFortune/issues/new)\n2. write down the bugs you find\n3. send Issue\n4. wait until i answer it",
+  "readme_source_url": "https://github.com/AraaCuteUwU/VanillaFortune",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/AraaCuteUwU/VanillaFortune",
+  "archive_repo": null,
+  "approved_release_tag": "r-11691",
+  "stars": 4,
+  "total_downloads": 583,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AraaCuteUwU"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11691",
+      "published_at": null,
+      "downloads": 583,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11691/vanillafortune-1.0.0-r11691.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11691",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11691/vanillafortune-1.0.0-r11691.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VanillaFortune",
+    "stable_release_id": 11691
+  }
+}

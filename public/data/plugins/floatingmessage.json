@@ -1,0 +1,61 @@
+{
+  "id": "floatingmessage",
+  "name": "FloatingMessage",
+  "author": "Jorgebyte",
+  "description": "This plugin adds a unique feature to your server, displaying your messages magically in the air under your nickname. Customize text limits and deletion timers for full control....",
+  "readme_markdown": "# FloatingMessage\n\nThis plugin adds a unique feature to your server, displaying your messages magically in the air under your nickname. Customize text limits and deletion timers for full control. Unleash the potential of this extraordinary plugin by exploring the config.yml file!\n\n# Image \n![Image](https://cdn.discordapp.com/attachments/1107134567942459402/1122735548071673926/imagen_2023-06-25_215012581.png)\n\n# Commands\n- `/floatingmessage on` or `/floatingmessage off` This activates the text or deactivates you using the off option.\n\n# Permissions\n```YAML\npermissions:\n  floatingmessage.cmd:\n    default: true\n```\n\n[Donate](https://www.paypal.me/streesmc)\n\n[![Discord Presence](https://lanyard.cnrad.dev/api/1165097093480853634?theme=dark&bg=005cff&animated=false&hideDiscrim=true&borderRadius=30px&idleMessage=Hello%20guys%20and%20girls)](https://discord.com/users/1165097093480853634)",
+  "readme_source_url": "https://github.com/Jorgebyte/FloatingMessage",
+  "icon_url": "https://raw.githubusercontent.com/Jorgebyte/FloatingMessage/2f36a93329732776f7ee497afc5b7142251dd884/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Jorgebyte/FloatingMessage",
+  "archive_repo": null,
+  "approved_release_tag": "r-11801",
+  "stars": 0,
+  "total_downloads": 1081,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Jorgebyte"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11801",
+      "published_at": null,
+      "downloads": 1081,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11801/floatingmessage-1.0.0-r11801.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11801",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11801/floatingmessage-1.0.0-r11801.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FloatingMessage",
+    "stable_release_id": 11801
+  }
+}

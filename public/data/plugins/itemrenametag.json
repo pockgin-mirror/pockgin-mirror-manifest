@@ -1,0 +1,61 @@
+{
+  "id": "itemrenametag",
+  "name": "ItemRenameTag",
+  "author": "ecstsylove",
+  "description": "ItemRenameTag is a plugin for PocketMine-MP that adds a physical item to rename items in-game. Players can use the item to set a custom name for the item they are holding.",
+  "readme_markdown": "<h1><a id=\"user-content-itemrenametag\" class=\"anchor\" aria-hidden=\"true\" href=\"#itemrenametag\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>ItemRenameTag</h1>\n<p>ItemRenameTag is a plugin for PocketMine-MP that adds a physical item to rename items in-game. Players can use the item to set a custom name for the item they are holding.</p>\n<h2><a id=\"user-content-features\" class=\"anchor\" aria-hidden=\"true\" href=\"#features\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Features</h2>\n<ul>\n<li>Rename items with a custom name</li>\n<li>Simple and easy-to-use</li>\n<li>efficient</li>\n</ul>\n<h2><a id=\"user-content-usage\" class=\"anchor\" aria-hidden=\"true\" href=\"#usage\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Usage</h2>\n<ol>\n<li>Obtain an Item Rename Tag by using the <code>/giveitem</code> command.</li>\n<li>Interact with the item as you would a bow.</li>\n<li>Hold the item you want to rename</li>\n<li>Type the desired custom name in the chat.</li>\n<li>The item in your hand will be renamed with the custom name.</li>\n</ol>\n<h2><a id=\"user-content-permissions\" class=\"anchor\" aria-hidden=\"true\" href=\"#permissions\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Permissions</h2>\n<ul>\n<li>\n<code>itemrenametag.giveitem</code> - Allows access to the <code>/giveitem</code> command. (default: op)</li>\n<li>\n<code>itemrenametag.reload</code> - Allows access to the <code>/giveitem reload</code> subcommand. (default: op)</li>\n</ul>\n<h2><a id=\"user-content-configuration\" class=\"anchor\" aria-hidden=\"true\" href=\"#configuration\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Configuration</h2>\n<p>The plugin configuration file <code>config.yml</code> allows you to customize various aspects of the plugin, such as the item ID, name, lore, and more.</p>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> ItemRenameTag Configuration</span>\n\n<span class=\"pl-ent\">items</span>:\n  <span class=\"pl-ent\">itemnametag</span>:\n    <span class=\"pl-ent\">type</span>: <span class=\"pl-s\"><span class=\"pl-pds\">'</span>minecraft:paper<span class=\"pl-pds\">'</span></span>\n    <span class=\"pl-ent\">name</span>: <span class=\"pl-s\"><span class=\"pl-pds\">'</span>&amp;r&amp;6&amp;lItem Rename Tag &amp;r&amp;7(Right Click)<span class=\"pl-pds\">'</span></span>\n    <span class=\"pl-ent\">lore</span>:\n      - <span class=\"pl-s\"><span class=\"pl-pds\">'</span>&amp;r&amp;7Rename and customize your equipment<span class=\"pl-pds\">'</span></span>\n    <span class=\"pl-ent\">messages</span>:\n      <span class=\"pl-ent\">success</span>:\n        - <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&amp;r&amp;e&amp;l(!) &amp;r&amp;eYour ITEM has been renamed to: '{item_name}&amp;e'<span class=\"pl-pds\">\"</span></span>\n      <span class=\"pl-ent\">air</span>:\n        - <span class=\"pl-s\"><span class=\"pl-pds\">'</span>&amp;r&amp;l&amp;e** You must hold an item in your hand.<span class=\"pl-pds\">'</span></span>\n      <span class=\"pl-ent\">renaming-non-enchanted-item</span>:\n        - <span class=\"pl-s\"><span class=\"pl-pds\">'</span>&amp;r&amp;l&amp;e** Item must be enchanted to rename.<span class=\"pl-pds\">'</span></span>\n      <span class=\"pl-ent\">activate</span>:\n        - <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>    &amp;r&amp;6&amp;lRename-Tag Usage<span class=\"pl-pds\">\"</span></span>\n        - <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&amp;r&amp;61. &amp;r&amp;7Hold the ITEM you'd like to rename.<span class=\"pl-pds\">\"</span></span>\n        - <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&amp;r&amp;62. &amp;r&amp;7Send the new name as a chat message &amp;lwith &amp; color codes&amp;r&amp;7.<span class=\"pl-pds\">\"</span></span>\n        - <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&amp;r&amp;63. &amp;r&amp;7Confirm the preview of the new name that is displayed.<span class=\"pl-pds\">\"</span></span></pre></div>\n<h2><a id=\"user-content-issues-and-suggestions\" class=\"anchor\" aria-hidden=\"true\" href=\"#issues-and-suggestions\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Issues and Suggestions</h2>\n<p>If you encounter any issues or have suggestions for improvements, please report them on the <a href=\"https://github.com/iLVOEWOCK/ItemRenameTag/issues\">Issue Tracker</a>.</p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/215941",
+  "icon_url": "https://raw.githubusercontent.com/iLVOEWOCK/ItemRenameTag/ecd3e7e8b076774b2b7c45ef9e0a697869599c90/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ecstsylove/ItemRenameTag",
+  "archive_repo": null,
+  "approved_release_tag": "r-11912",
+  "stars": 0,
+  "total_downloads": 462,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ecstsylove"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11912",
+      "published_at": null,
+      "downloads": 462,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11912/itemrenametag-1.0.0-r11912.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11912",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11912/itemrenametag-1.0.0-r11912.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemRenameTag",
+    "stable_release_id": 11912
+  }
+}

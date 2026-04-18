@@ -1,0 +1,66 @@
+{
+  "id": "chestkits",
+  "name": "ChestKits",
+  "author": "Taylor-pm-pl",
+  "description": "NOTICE:** This plugin branch is for PocketMine-MP 5.",
+  "readme_markdown": "# ChestKits\n\n<a href=\"https://poggit.pmmp.io/p/ChestKits\"><img src=\"https://poggit.pmmp.io/shield.dl.total/ChestKits\"></a>\n[![Discord](https://img.shields.io/discord/1100650029573738508.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/yAhsgskaGy)\n\n**NOTICE:** This plugin branch is for PocketMine-MP 5.\n\nA kit plugin is more interesting when adding a kit to the chest.\nWith easy-to-understand configuration.\n\n# Features\n\n- A kit plugin is more interesting when adding a kit to the chest.\n- Easy setup.\n\n# How to Install\n\n1. Download the latest version\n2. Place the `ChestKits.phar` file into the `plugins` folder.\n3. Restart the server.\n4. Done!\n\n# Additional Notes\n\n- If you found bugs or want to give suggestions, please visit <a href=\"https://github.com/David-pm-pl/ChestKits/issues\">here</a> or join our Discord server.\n- We accept all contributions! If you want to contribute, please make a pull request in <a href=\"https://github.com/David-pm-pl/ChestKits/pulls\">here</a>.",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/ChestKits",
+  "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/ChestKits/a2e5f83e168da6162bd4035147039e3f0a9f7e98/assets/images/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/ChestKits",
+  "archive_repo": null,
+  "approved_release_tag": "r-11749",
+  "stars": 5,
+  "total_downloads": 4675,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": [
+      "EconomyAPI",
+      "PiggyCustomEnchants"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/213113",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-11749",
+      "published_at": null,
+      "downloads": 4675,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11749/chestkits-0.0.2-r11749.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11749",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11749/chestkits-0.0.2-r11749.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChestKits",
+    "stable_release_id": 11749
+  }
+}

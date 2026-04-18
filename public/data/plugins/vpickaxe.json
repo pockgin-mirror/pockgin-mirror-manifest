@@ -1,0 +1,71 @@
+{
+  "id": "vpickaxe",
+  "name": "VPickaxe",
+  "author": "VennDev",
+  "description": "This is Plugin VPickaxe for PocketMine-PMMP 5.x",
+  "readme_markdown": "# VPickaxe\n<img src=\"https://github.com/VennDev/VPickaxe/blob/main/icon.png\" alt=\"VPickaxe\" height=\"150\" width=\"150\" />\n- This is Plugin VPickaxe for PocketMine-PMMP 5.x\n- This Pickaxe makes your server experience even better with the levels that this plugin brings.\n\n# Features\n- Integrate and use everything based on commands to execute according to the level that you have.\n\n# Config\n```config\n---\n\n# Default name for Pickaxe\ndefault-name: \"§r§l§bV§aPickaxe§r\"\n\n# Lore for Pickaxe\nlore:\n  - \"§r§7Owner: §e%owner%§r\"\n  - \"§r§7Level: §e%level%§r\"\n  - \"§r§7Exp: §e%exp%§r/§e%next_exp%§r\"\n  - \"§r§7Next Level: §e%next_level%§r\"\n\n# The number is used to calculate the player's next level.\nformula: 5\n\n# Max level of the player.\nmax-level: 2\n\n# Settings for level stage.\nlevel-stage:\n  2:\n    # The message to send to the player when they reach level 2.\n    message:\n      - '§aYou will now receive a reward for reaching level 2!'\n\n    # The enchantment to give the player when they reach level 2.\n    # You can see list enchants here: https://github.com/VennDev/NameEnchantPMMP\n    # In the source code of PMMP comes \"enchantment.\" you should remove it and get their name.\n    enchants:\n      digging:\n        level: 1\n        command: 'enchant %player% efficiency 1'\n\n    # When the player breaks a block, they will receive a reward.\n    rewards-on-break-block:\n      chance: 10 # The chance to receive a reward. If you want to receive a reward every time, set it to 100.\n      random-mode: true\n      random-count: 1\n      commands:\n        - 'give %player% diamond 1'\n        - 'give %player% iron_ingot 1'\n        - 'give %player% gold_ingot 1'\n\n    # The command always to run when the player reaches level 2.\n    always-run-command:\n      random-mode: true\n      random-count: 1\n      commands:\n        - 'say %player% message a!'\n        - 'say %player% message b!'\n\n    # The command to run when the player reaches level 2 for the first time.\n    first-run-command:\n      random-mode: false\n      random-count: 1\n      commands:\n        - 'say %player% has reached level 5 for the first time!'\n        - 'give %player% diamond 1'\n        - 'enchant %player% efficiency 1'\n\n...\n```\n\n# Images\n<img src=\"https://github.com/VennDev/images/blob/main/VPickaxe.png\" alt=\"VPickaxe\" height=\"300\" width=\"400\" />\n\n# Credits\n- Email: pnam5005@gmail.com\n- Paypal: lifeboat909@gmail.com",
+  "readme_source_url": "https://github.com/VennDev/VPickaxe",
+  "icon_url": "https://raw.githubusercontent.com/VennDev/VPickaxe/143b4d07bcbebabe5444764f1a213b7973539bfc/icon.png",
+  "featured": false,
+  "repo": "https://github.com/VennDev/VPickaxe",
+  "archive_repo": null,
+  "approved_release_tag": "r-11809",
+  "stars": 5,
+  "total_downloads": 744,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "VennDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/213872",
+  "versions": {
+    "stable": {
+      "version": "1.0.7",
+      "tag": "r-11809",
+      "published_at": null,
+      "downloads": 663,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11809/vpickaxe-1.0.7-r11809.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11809",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11809/vpickaxe-1.0.7-r11809.phar"
+    },
+    {
+      "tag": "r-11736",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11736/vpickaxe-1.0.5-r11736.phar"
+    },
+    {
+      "tag": "r-11696",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11696/vpickaxe-1.0.3-r11696.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VPickaxe",
+    "stable_release_id": 11809
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "grapplinghook",
+  "name": "GrapplingHook",
+  "author": "fernanACM",
+  "description": "The best hook to play Spider-Man, only in PocketMine-MP 5.0!. See this review to see its functionality:** GrapplingHook",
+  "readme_markdown": "# GrapplingHook\n[![](https://poggit.pmmp.io/shield.state/GrapplingHook)](https://poggit.pmmp.io/p/GrapplingHook)\n\n[![](https://poggit.pmmp.io/shield.api/GrapplingHook)](https://poggit.pmmp.io/p/GrapplingHook)\n\n**The best hook to play Spider-Man, only in PocketMine-MP 5.0!. See this review to see its functionality:** [GrapplingHook](https://www.youtube.com/watch?v=9ALqOhq6Xkg&t=27s&ab_channel=fernanACM)\n\n![icon-grapplinghook](https://user-images.githubusercontent.com/83558341/169100954-a8ced538-3b3c-4eaf-bb85-b19fdf663dc4.png)\n\n<a href=\"https://discord.gg/YyE9XFckqb\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n\n### 💡 Implementations\n* [X] Configuration\n* [X] Cooldown\n\n### 💾 Config\n```yaml\n#    ____                                  _   _                   _   _                   _    \n#  / ___|  _ __    __ _   _ __    _ __   | | (_)  _ __     __ _  | | | |   ___     ___   | | __\n# | |  _  | '__|  / _` | | '_ \\  | '_ \\  | | | | | '_ \\   / _` | | |_| |  / _ \\   / _ \\  | |/ /\n# | |_| | | |    | (_| | | |_) | | |_) | | | | | | | | | | (_| | |  _  | | (_) | | (_) | |   < \n#  \\____| |_|     \\__,_| | .__/  | .__/  |_| |_| |_| |_|  \\__, | |_| |_|  \\___/   \\___/  |_|\\_\\\n#                        |_|     |_|                      |___/                                \n#           by fernanACM and korado531m7\n# The best hook to play Spider-Man, only in PocketMine-MP 5.0!. Updated by fernanACM\n\n# DO NOT TOUCH\nconfig-version: \"1.0.0\"\n\n# Prefix plugin\nPrefix: \"&l&f[&bGrapplingHook&f]&8»&r \"\n\n# Item from GrapplingHook\nGrapplingHook:\n  # Item name\n  name: \n    - \"&r&l&aGrapplingHook\"\n    - \"&r&7[RIGHT CLICK]\"\n  # Lore for the item\n  lore:\n    - \"&r&bHave fun playing Spider-Man\"\n    - \"&r&aby: &ffernanACM\"\n  # Cooldown\n  cooldown: 5\n\n# TIME MODE\nTimeMode:\n  years: \"{YEAR} year(s)\"\n  months: \"{MONTH} month(s)\"\n  days: \"{DAY} day(s)\"\n  hours: \"{HOUR} hour(s)\"\n  minutes: \"{MINUTE} minute(s)\"\n  seconds: \"{SECOND} second(s)\"\n\n# MESSAGES\nMessages:\n  no-permission: \"&cYou don't have permissions for this!\"\n  not-numeric: \"&cIt is not numeric!\"\n  full-inventory: \"&cYour inventory is full!\"\n  received successfully: \"&aYou have successfully received your &bGrapplingHook\"\n  you-have-cooldown: \"&cCooldown:&b {COOLDOWN}\"\n```\n### 🕹 Commands\n| Command | Description |\n|---------|-------------|\n| ```/grapplinghook``` | Receive the special item |\n\n### 🔒 Permissions\n| Permission | Description |\n|---------|-------------|\n| ```grapplinghook.acm``` | Executing the command |\n\n### 📞 Contact \n\n| Redes | Tag | Link |\n|-------|-------------|------|\n| YouTube | fernanACM | [YouTube](https://www.youtube.com/channel/UC-M5iTrCItYQBg5GMuX5ySw) | \n| Discord | fernanACM#5078 | [Discord](https://discord.gg/YyE9XFckqb) |\n| GitHub | fernanACM | [GitHub](https://github.com/fernanACM)\n| Poggit | fernanACM | [Poggit](https://poggit.pmmp.io/ci/fernanACM)\n****\n\n### ✔ Credits\n| Authors | Github | Lib |\n|---------|--------|-----|\n| CortexPE | [CortexPE](https://github.com/CortexPE) | [Commando](https://github.com/CortexPE/Commando/tree/master/) |\n| Muqsit | [Muqsit](https://github.com/Muqsit) | [SimplePacketHandler](https://github.com/Muqsit/SimplePacketHandler) |\n| DaPigGuy | [DaPigGuy](https://github.com/DaPigGuy) | [libPiggyUpdateChecker](https://github.com/DaPigGuy/libPiggyUpdateChecker) |\n| [JackNoordhuis](https://github.com/JackNoordhuis) | Thank you for helping me update it to PM4 | |",
+  "readme_source_url": "https://github.com/fernanACM/GrapplingHook",
+  "icon_url": "https://raw.githubusercontent.com/fernanACM/GrapplingHook/88e151b07ec9ab3bc509341d5933f87f997b348f/icon-grapplinghook.png",
+  "featured": false,
+  "repo": "https://github.com/fernanACM/GrapplingHook",
+  "archive_repo": null,
+  "approved_release_tag": "r-11920",
+  "stars": 2,
+  "total_downloads": 2410,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "fernanACM"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/216083",
+  "versions": {
+    "stable": {
+      "version": "2.0.2",
+      "tag": "r-11920",
+      "published_at": null,
+      "downloads": 2288,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11920/grapplinghook-2.0.2-r11920.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11920",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11920/grapplinghook-2.0.2-r11920.phar"
+    },
+    {
+      "tag": "r-11779",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11779/grapplinghook-2.0.1-r11779.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GrapplingHook",
+    "stable_release_id": 11920
+  }
+}

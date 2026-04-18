@@ -1,0 +1,61 @@
+{
+  "id": "bettercapes",
+  "name": "BetterCapes",
+  "author": "Taylor-pm-pl",
+  "description": "[releases]:",
+  "readme_markdown": "[releases]: https://github.com/David-pm-pl/BetterCapes/releases/latest\n[releasesImg]: https://img.shields.io/github/v/release/David-pm-pl/BetterCapes.svg?color=blue&include_prereleases&label=git-releases&style=for-the-badge\n[license]: https://github.com/David-pm-pl/BetterCapes/blob/master/LICENSE\n[licenseImg]: https://img.shields.io/github/license/David-pm-pl/BetterCapes.svg?style=for-the-badge\n[issues]: https://img.shields.io/github/issues/David-pm-pl/BetterCapes.svg?color=yellow&style=for-the-badge\n[phpversion]: https://img.shields.io/badge/PHP-8.0%2B-red?style=for-the-badge\n[issueslink]: https://github.com/David-pm-pl/BetterCapes/issues\n[discord]: https://img.shields.io/badge/Discord-blue?style=for-the-badge\n[discordlink]: https://discord.gg/yAhsgskaGy\n\n[![releasesImg]][releases] [![licenseImg]][license] ![phpversion] [![issues]][issueslink] [![discord]][discordlink]\n\n## Description\nA plugin to change the player's capes\n\n## Features\n- Change cape by url, image\n- Permission to use default, link cape\n- Easy to use and config\n\n## How to Install\n\n1. Download the latest version\n2. Place the `BetterCapes.phar` file into the `plugins` folder.\n3. Restart the server.\n4. Done!\n\n## Additional Notes\n\n- If you found bugs or want to give suggestions, please visit <a href=\"https://github.com/David-pm-pl/BetterCapes/issues\">here</a> or join our Discord server.\n- We accept all contributions! If you want to contribute, please make a pull request in <a href=\"https://github.com/David-pm-pl/BetterCapes/pulls\">here</a>.",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/BetterCapes",
+  "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/BetterCapes/79d2d0127a909f43959719d9f3a16bff111c4178/assets/images/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/BetterCapes",
+  "archive_repo": null,
+  "approved_release_tag": "r-11893",
+  "stars": 0,
+  "total_downloads": 958,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/215457",
+  "versions": {
+    "stable": {
+      "version": "0.0.4",
+      "tag": "r-11893",
+      "published_at": null,
+      "downloads": 958,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11893/bettercapes-0.0.4-r11893.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11893",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11893/bettercapes-0.0.4-r11893.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterCapes",
+    "stable_release_id": 11893
+  }
+}

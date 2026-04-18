@@ -1,0 +1,61 @@
+{
+  "id": "tr-booknotice",
+  "name": "Tr-BookNotice",
+  "author": "TrueToneTeam",
+  "description": "English",
+  "readme_markdown": "# Tr-BookNotice\n## English\n> ### How to use\n> Just put a txt file starting with **page_** in the **Tr-BookNotice** folder of plugin_data.\n> Since the pages are divided in the order of the file, put the page number in the name of the text file, such as **page_0**, so that it is listed in order.\n\n<br>\n\n> ### How to report bugs & errors\n> Please use **Issues** or **Pull requests** on **Github**!\n\n<br>\n\n## Korean(한국어)\n> ### 사용 방법\n> **plugin_data** 폴더의 **Tr-BookNotice** 안에 **page_** 이름이 포함된 txt 텍스트 파일을 넣어주세요.   \n> 파일의 순서대로 페이지가 구분되기 때문에 텍스트 파일의 이름을 **page_0** 와 같이 페이지 번호를 넣어서 순서대로 나열되게끔 해주세요.\n\n<br>\n\n> ### 버그 및 Pull requests 제보 방법\n> Github의 **Issues**나 **Pull requests**를 이용해주세요!",
+  "readme_source_url": "https://github.com/TrueToneTeam/Tr-BookNotice",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/TrueToneTeam/Tr-BookNotice",
+  "archive_repo": null,
+  "approved_release_tag": "r-11799",
+  "stars": 0,
+  "total_downloads": 154,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TrueToneTeam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11799",
+      "published_at": null,
+      "downloads": 154,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11799/tr-booknotice-1.0.0-r11799.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11799",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11799/tr-booknotice-1.0.0-r11799.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Tr-BookNotice",
+    "stable_release_id": 11799
+  }
+}

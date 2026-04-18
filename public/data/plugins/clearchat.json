@@ -1,0 +1,61 @@
+{
+  "id": "clearchat",
+  "name": "ClearChat",
+  "author": "thekuhlmc999",
+  "description": "ClearChat is a Pocketmine-MP plugin that allows admins to clear the chat",
+  "readme_markdown": "# ClearChat [![](https://poggit.pmmp.io/shield.state/ClearChat)](https://poggit.pmmp.io/p/ClearChat)\nClearChat is a Pocketmine-MP plugin that allows admins to clear the chat\n\n# Functions\nClearChat can clear the chat automatically or by command this can all be set in config\n\n# Permissions\n**clearchat.cmd** => Permission for the clearchat command                                                                                                                                                         \n**clearchat.bypass** => Permission to bypass a clearchat\n\n# Credits\nicon from: https://flaticon.com",
+  "readme_source_url": "https://github.com/thekuhlmc999/ClearChat",
+  "icon_url": "https://raw.githubusercontent.com/thekuhlmc999/ClearChat/91650bae7a0d13c0eaaccae6be3a42fa177171dd/logo.png",
+  "featured": false,
+  "repo": "https://github.com/thekuhlmc999/ClearChat",
+  "archive_repo": null,
+  "approved_release_tag": "r-11910",
+  "stars": 0,
+  "total_downloads": 1303,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thekuhlmc999"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/215896",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-11910",
+      "published_at": null,
+      "downloads": 1303,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11910/clearchat-1.0.2-r11910.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11910",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11910/clearchat-1.0.2-r11910.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ClearChat",
+    "stable_release_id": 11910
+  }
+}

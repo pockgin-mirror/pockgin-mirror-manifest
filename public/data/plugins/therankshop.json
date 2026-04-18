@@ -1,0 +1,65 @@
+{
+  "id": "therankshop",
+  "name": "theRankShop",
+  "author": "supercrafter333",
+  "description": "theRankShop - v1.5.0",
+  "readme_markdown": "[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/ca6cWPpERp)\n# theRankShop - v1.5.0   [![](https://poggit.pmmp.io/shield.state/theRankShop)](https://poggit.pmmp.io/p/theRankShop) [![](https://poggit.pmmp.io/shield.dl.total/theRankShop)](https://poggit.pmmp.io/p/theRankShop)\n\n\n<br />\n\n\n**A simple and user-friendly rank shop plugin with extension support and multi-language-system.**\n\n### Information for temporary ranks\nSome rank/group plugins have problems with temporary ranks! But these issues are not always bugs from theRankShop. You can open an issue in theRankShop's github-repository, but please don't be surprised if it closes.\n\n### Features\n- simple and user-friendly\n- temporary ranks\n- buyer-protection ([#7](https://github.com/supercrafter333/theRankShop/issues/7))\n- price calculating / rank upgrades ([#7](https://github.com/supercrafter333/theRankShop/issues/7))\n- easily add and remove ranks per command\n- very easy setup\n- multi-language-system\n- extension support (developers can add their own rank plugin easily)\n\n### Supported plugins\n\n- [BedrockEconomy](https://github.com/cooldogedev/BedrockEconomy)\n- [GroupSystem](https://github.com/r3pt1s/GroupSystem)\n- [RankSystem](https://github.com/IvanCraft623/RankSystem)\n\nYou're a plugin developer and want to add your money- or groupsystem to theRankShop? Just open a pull-request.\n    \n### TODOs\nIf you've new ideas and features for this plugin, please open an issue :)\n\n### Bugreport\nYou've found a Bug?\n- Go to [Issues](https://github.com/supercrafter333/theRankShop/issues)\n- Click on [New Issue](https://github.com/supercrafter333/theRankShop/issues/new/choose)\n- Write your bug with all information you got down\n- Open issue\n- Wait, I'll answer you soon\n\n### Commands\n| **Command**                                                                                                  | **Description**                  | **Permission**               |\n|--------------------------------------------------------------------------------------------------------------|----------------------------------|------------------------------|\n| `/rankshop`                                                                                                  | Open the rank shop.              | `theRankShop.cmd`            |\n| <code>/rankshop <addrank> <rankname: string> <title: string> <description: string> <price: int/float></code> | Add a rank to the rankshop.      | `theRankShop.cmd.addrank`    |\n| <code>/rankshop <addrank> <rankname: string></code> | Remove a rank from the rankshop. | `theRankShop.cmd.removerank` |\n\n### Wiki\nRead the [wiki of theRankShop](https://github.com/supercrafter333/theRankShop/wiki) if you need help or if you want to read more about the Developer API.\n\n### License:\nThis plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by supercrafter333!\n\n### Credits\n\nOwner: supercrafter333\n\nHelper: ---\n\nIcon: [iconarchive.com](https://icons.iconarchive.com/icons/thehoth/seo/256/seo-rank-up-icon.png)\n\nDiscord-Tag: `supercrafter333#4062`",
+  "readme_source_url": "https://github.com/supercrafter333/theRankShop",
+  "icon_url": "https://raw.githubusercontent.com/supercrafter333/theRankShop/884b38ff09648f10dd76a15e41ef5d86f578f185/icon.png",
+  "featured": false,
+  "repo": "https://github.com/supercrafter333/theRankShop",
+  "archive_repo": null,
+  "approved_release_tag": "r-11741",
+  "stars": 0,
+  "total_downloads": 1099,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "BedrockEconomy",
+      "RankSystem",
+      "GroupSystem"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "supercrafter333"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/212902",
+  "versions": {
+    "stable": {
+      "version": "1.5.0",
+      "tag": "r-11741",
+      "published_at": null,
+      "downloads": 1099,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11741/therankshop-1.5.0-r11741.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11741",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11741/therankshop-1.5.0-r11741.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "theRankShop",
+    "stable_release_id": 11741
+  }
+}

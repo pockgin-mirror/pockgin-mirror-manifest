@@ -1,0 +1,61 @@
+{
+  "id": "lockeditem",
+  "name": "LockedItem",
+  "author": "Taylor-pm-pl",
+  "description": "LockedItem v1.0.0",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/LockedItem)]\n<div align=\"center\">\n<h1>LockedItem| v1.0.0<h1>\n<p>Player's item lock</p>\n</div>\n\n## Features\n- Player's item lock\n- Players aren't afraid of losing items\n\n## For Devolopers\nYou can access to LockedItem by using ```LockedItem::getInstance()```\n \n <br>\n## All LockedItem Commands:\n\n| **Command** | **Description** |\n| --- | --- |\n| **/setlock** | **Lock the item in hand** |\n| **/unlock** | **Unlock the item in hand** |\n<br>\n## 📃  Permissions:\n\n- You can use permission `lockeditem.setlock` for command /setlock\n- You can use permission `lockeditem.unlock` for command /unlock\n<br>\n**Example:**\n```php\nLockedItem::getInstance()->setLocked($item);\n```\n \n # Configs\n## config.yml\n ```\n ---\n# Config Main of LockedItem\nperm-message: You are not allowed to use this command!\nlock-message: Your item has been locked successfully!\nno-lock-message: Your item was previously locked!\nunlock-message: Your item has been successfully unlocked!\nno-unlock-message: Your item has not been locked before!\nitem-hand-message: You need to hold the item in your hand to unlock!\n\n#Lore of item when locked\nitem-lore: LOCKED\n# The item locked will not be able to interact with the itemframe if this is true\nno-touch: true\n...\n ```\n## Project Infomation\n\n| Plugin Version | Pocketmine API | PHP Version | Plugin Status |\n|---|---|---|---|\n| 1.0.0 | 3.x.x | 7.4 | Completed |",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/LockedItem",
+  "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/LockedItem/0fe6f9ba2ea1c7aa08301db8b7df565c06e9f9ee/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/LockedItem",
+  "archive_repo": null,
+  "approved_release_tag": "r-11891",
+  "stars": 0,
+  "total_downloads": 518,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/215388",
+  "versions": {
+    "stable": {
+      "version": "6.0.1",
+      "tag": "r-11891",
+      "published_at": null,
+      "downloads": 518,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11891/lockeditem-6.0.1-r11891.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11891",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11891/lockeditem-6.0.1-r11891.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LockedItem",
+    "stable_release_id": 11891
+  }
+}

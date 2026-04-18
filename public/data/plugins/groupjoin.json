@@ -1,0 +1,64 @@
+{
+  "id": "groupjoin",
+  "name": "GroupJoin",
+  "author": "HimbeersaftLP",
+  "description": "Description",
+  "readme_markdown": "# GroupJoin <img alt=\"Plugin Logo/Icon\" src=\"https://raw.githubusercontent.com/HimbeersaftLP/GroupJoin/master/icon.png\" height=\"45\">\n\n[![Poggit CI Status](https://poggit.pmmp.io/ci.shield/HimbeersaftLP/GroupJoin/GroupJoin)](https://poggit.pmmp.io/ci/HimbeersaftLP/GroupJoin/GroupJoin)\n[![Poggit Release Status](https://poggit.pmmp.io/shield.state/GroupJoin)](https://poggit.pmmp.io/p/GroupJoin)\n[![Join the Discord Server](https://img.shields.io/discord/252874887113342976?logo=discord)](https://www.himbeer.me/discord)\n\n## Description\n\nA [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) plugin that notifies all players when a player from a specific group joins.\n\n### Supported Plugins\n\n- [RankSystem](https://poggit.pmmp.io/p/RankSystem/)\n- [GroupSystem](https://poggit.pmmp.io/p/GroupSystem/)\n\n## Usage\n\n1. Put phar from Poggit into `plugins` folder\n2. Start server\n3. Stop server\n4. Edit the config.yml file located in `plugin_data/GroupJoin`\n    - Choose whether to hide the join messages for members of all groups not specified in the config file\n    - Set messages per group, an example is provided.",
+  "readme_source_url": "https://github.com/HimbeersaftLP/GroupJoin",
+  "icon_url": "https://raw.githubusercontent.com/HimbeersaftLP/GroupJoin/0a1fa1a37e2360b19e966b39f60127a33b3f9e9c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HimbeersaftLP/GroupJoin",
+  "archive_repo": null,
+  "approved_release_tag": "r-11902",
+  "stars": 5,
+  "total_downloads": 710,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.4.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "RankSystem",
+      "GroupSystem"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HimbeersaftLP"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/215713",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-11902",
+      "published_at": null,
+      "downloads": 710,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11902/groupjoin-2.0.0-r11902.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11902",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11902/groupjoin-2.0.0-r11902.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GroupJoin",
+    "stable_release_id": 11902
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "cb-heads",
+  "name": "CB-Heads",
+  "author": "Wertzui123",
+  "description": "CB-Heads is a feature-rich plugin for getting and placing playerheads on PocketMine-MP servers.",
+  "readme_markdown": "# CB-Heads\n<div align=\"center\">\n<img src=\"icon.png\" alt=\"CB-Heads icon\" width=186 height=186>\n</div>\n<br>CB-Heads is a feature-rich plugin for getting and placing playerheads on PocketMine-MP servers.\n<br>The .phar can be found <a href=\"https://poggit.pmmp.io/p/CB-Heads\">on poggit</a>.\n\n# Commands\n| Command | Description                    | Usage                  | Aliases    | Permission            |\n|---------|--------------------------------|------------------------|------------|-----------------------|\n| head    | Gives you the head of a player | /head <player: target> | playerhead | cb-heads.command.head |\n\n**All commands can be configured in the config file.**\n\n# Permissions\n| Permission                           | Description                                                                     | Default |\n|--------------------------------------|---------------------------------------------------------------------------------|---------|\n| cb-heads.command.head                | Permission for the /head command                                                | op      |\n| cb-heads.bypass.waiting              | Permission to bypass the head claim cooldown                                    | op      |\n| cb-heads.bypass.blacklist            | Permission to get heads from players on the blacklist                           | false   |\n| cb-heads.bypass.blacklist.playername | Permission to get heads from the given player even if they are on the blacklist | false   |\n\n## Cooldowns\nYou can create multiple head claim cooldowns for different permissions in the config.\n<br>These permissions will then look like this: `cb-heads.waiting.group`\n\n# License\nCB-Heads is licensed under the GNU General Public License v3.0.\n<br>Further information: https://choosealicense.com/licenses/gpl-3.0\n<br><code>© 2019 - 2023 Wertzui123</code>\n\n# Credits\nThis plugin is based on PlayerHead by Enes5519, which has been improved by wolfgamer2805.\n<br>CB-Heads only contains little of the original sourcecode though, and I (Wertzui123) have implemented most of the features.\n<br>The icon is composed of the skins \"Steve\" and \"Alex\" from Minecraft.",
+  "readme_source_url": "https://github.com/Wertzui123/CB-Heads",
+  "icon_url": "https://raw.githubusercontent.com/Wertzui123/CB-Heads/700b9ec0b92ab68441c8bc89e6665d828f0131c3/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Wertzui123/CB-Heads",
+  "archive_repo": null,
+  "approved_release_tag": "r-11895",
+  "stars": 0,
+  "total_downloads": 1017,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Wertzui123"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/215535",
+  "versions": {
+    "stable": {
+      "version": "4.4.4",
+      "tag": "r-11895",
+      "published_at": null,
+      "downloads": 916,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11895/cb-heads-4.4.4-r11895.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11895",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11895/cb-heads-4.4.4-r11895.phar"
+    },
+    {
+      "tag": "r-11756",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11756/cb-heads-4.4.2-r11756.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CB-Heads",
+    "stable_release_id": 11895
+  }
+}

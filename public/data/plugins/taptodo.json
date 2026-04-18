@@ -1,0 +1,61 @@
+{
+  "id": "taptodo",
+  "name": "TapToDo",
+  "author": "XackiGiFF",
+  "description": "TapToDo - v2.5.0",
+  "readme_markdown": "# TapToDo - v2.5.0\n\n## New TapToDo for PMMP 5.0.0 API Minecraft. [![](https://poggit.pmmp.io/shield.state/TapToDo)](https://poggit.pmmp.io/p/TapToDo) [![](https://poggit.pmmp.io/shield.api/TapToDo)](https://poggit.pmmp.io/p/TapToDo) [![](https://poggit.pmmp.io/shield.dl/TapToDo)](https://poggit.pmmp.io/p/TapToDo)\n\n### TapToDo - is a plugin for use macros on frames, signs, and all block just add macros on position!\n![TapToDo](https://github.com/XackiGiFF/TapToDo/assets/29034010/49dc2f0c-c271-48fd-b1e7-a5f46168ce88)\n\n# Features:\n- Simple and user-friendly\n- very easy setup\n- Add macros on block\n- Work in game\n- Tap to set command on block\n- Work with all block, set on position block\n- Multiworld\n\n# Bugreport\nYou've found a Bug?\n- Go to [Issues](https://github.com/XackiGiFF/TapToDo/issues)\n- Click on [New Issue](https://github.com/XackiGiFF/TapToDo/issues/new/choose)\n- Write your bug with all information that you have down\n- Send Issue\n- Wait, I where answer you\n\n# Commands\n| **Command**                                    | **Description**                  | **Permission**               |\n|------------------------------------------------|----------------------------------|------------------------------|\n| `/t`                                           | Show help.                       | `taptodo.command`            |\n| <code> /t add / a </code>                      | Add a macros.                    | `taptodo.command.add`        |\n| <code> /t del / d </code>                      | Delete a last macros.            | `taptodo.command.del`        |\n| <code> /t delall / da </code>                  | Delete all macros.               | `taptodo.command.delall`     |\n| <code> /t list / ls / l </code>                | Show macros on block.            | `taptodo.command.list`       |\n\n# License:\nThis plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk, modificated by XackiGiFF and BlusteryS!\n\n# How To Use\n## Variables\n**If you include one of these in your command it will be replaced by the appropriate value when the command is run, they are case sensitive.**\n| **Variable**              | **Description**                       |\n|---------------------------|---------------------------------------|\n| %p                        | username of the player                |\n| %x                        | x coord of the player                 |\n| %y                        | y coord of the player                 |\n| %z                        | z coord of the player                 |\n| %l                        | name of the level the player is in    |\n| %ip                       | IP of the player                      |\n| %n                        | display name of the player            |\n## Behaviour Switches\n**These change the command execution behaviour, more will be coming soon. They can be added anywhere in the command as it will be removed when the command is run.**\n| **Variable**              | **Description**                                                                                           |\n|---------------------------|-----------------------------------------------------------------------------------------------------------|\n| %pow                      | Makes the command run as console.                                                                         |\n| %op                       | Gives the player running the command OP permissions, these will be revoked after executing the command.   |\n| %safe                     | As player                                                                                                 |\n## Usage Example:\n**You want to make a block that whenever it is tapped the player who tapped it is killed. You could accomplish this in two ways:**\n### Console with Variable ###\nThis way the command will be run as the console with the player's name added in when it is run.\n<code> /t add kill%pow %p </code>\n### Run as player\nIf you want the command to be run as the player (with their permissions), you can add %safe anywhere in the command. If their is a non-OP on your server and they tap a block with the following command attached it won't execute.\n<code> /t add stop%safe </code>\n### Run with OP permission\nYou can add %op anywhere in the command to give the player tapping the block temporary OP and execute the command as them. This allows you to do things like. Warning! This will execute from the player allowing them to see command output.\n<code> /t add gamemode 1%op </code>",
+  "readme_source_url": "https://github.com/XackiGiFF/TapToDo",
+  "icon_url": "https://raw.githubusercontent.com/XackiGiFF/TapToDo/4c0aeb30cc27733f2daa1a59a38faee4387f15db/icon.png",
+  "featured": false,
+  "repo": "https://github.com/XackiGiFF/TapToDo",
+  "archive_repo": null,
+  "approved_release_tag": "r-11884",
+  "stars": 0,
+  "total_downloads": 395,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "XackiGiFF"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/215278",
+  "versions": {
+    "stable": {
+      "version": "2.5.0",
+      "tag": "r-11884",
+      "published_at": null,
+      "downloads": 395,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11884/taptodo-2.5.0-r11884.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11884",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11884/taptodo-2.5.0-r11884.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TapToDo",
+    "stable_release_id": 11884
+  }
+}

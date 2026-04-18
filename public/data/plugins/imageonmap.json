@@ -1,0 +1,61 @@
+{
+  "id": "imageonmap",
+  "name": "ImageOnMap",
+  "author": "CzechPMDevs",
+  "description": "✔️ Simple usage, without external convertors",
+  "readme_markdown": "<h1>ImageOnMap</h1> \n<a href=\"https://poggit.pmmp.io/ci/CzechPMDevs/ImageOnMap/ImageOnMap\">  \n    <img src=\"https://poggit.pmmp.io/ci.shield/CzechPMDevs/ImageOnMap/ImageOnMap?style=flat-square\">  \n</a>  \n<a href=\"https://discord.gg/uwBf2jS\">  \n    <img src=\"https://img.shields.io/discord/365202594932719616.svg?style=flat-square\">  \n</a>  \n<a href=\"https://github.com/CzechPMDevs/ImageOnMap/releases\">  \n    <img src=\"https://img.shields.io/github/release/CzechPMDevs/ImageOnMap.svg?style=flat-square\">  \n</a>  \n<a href=\"https://github.com/CzechPMDevs/ImageOnMap/releases\">  \n    <img src=\"https://img.shields.io/github/downloads/CzechPMDevs/ImageOnMap/total.svg?style=flat-square\">  \n</a>\n<a href=\"https://github.com/CzechPMDevs/ImageOnMap/blob/master/LICENSE\">  \n    <img src=\"https://img.shields.io/github/license/CzechPMDevs/ImageOnMap.svg?style=flat-square\">  \n</a>  \n<a href=\"https://poggit.pmmp.io/p/ImageOnMap\">  \n    <img src=\"https://poggit.pmmp.io/shield.downloads/ImageOnMap?style=flat-square\">  \n</a>\n<br><br>  \n✔️ Simple usage, without external convertors\n<br>  \n✔️ Supporting both .png and .jpg image formats\n<br>  \n✔️ Image is automatically resized to fit item frame\n<br>\n✔️ Supports last PocketMine API version\n<br>\n\n## Commands\n\n- Plugin implements command `/image` with aliases `/img` and `/iom`.\n- To use this command, **permission** `imageonmap.command` **is needed**.\n- This command can be used only in game.\n  <br>\n- There are implemented these subcommands:\n\n| **Sub-Command**                                               | **Description**                                                                                                                                                                                                                                                                                                         |\n|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| /img help                                                     | Shows all the available subcommands                                                                                                                                                                                                                                                                                     |\n| /img list                                                     | Displays all the available images found in `/plugin_data/ImageOnMap/images/*` path.                                                                                                                                                                                                                                     |\n| /img obtain `<image>` `[<xChunkCount> <yChunkCount> <x> <y>]` | Obtains specific image (or it's specific part) from file as map item.<br><br>Chunk count argument represents to how many parts should be the image split. X and Y coordinates represents which part of that chunked image will be given to player's inventory.<br><br>Aliases: /img o                                   |\n| /img place `<image>`                                          | Places the whole images on to item frames in selected area.<br><br>To place an image properly, first execute the command (`/img p image`). Afterwards, break the first corner of the target position and then break the block to select second position. The image will be placed automatically.<br><br>Aliases: /img p |\n\n## API\n\n- Obtaining plugin instance\n\n```php\n$api = \\czechpmdevs\\imageonmap\\ImageOnMap::getInstance();\n```\n\n- Loading image from file\n\n```php\n// This method caches the map and returns its id. Afterwards the id can be used to obtain map item.\n$id = $api->getImageFromFile(\n\tfile: \"path/to/image.png\",\n\txChunkCount: 1,\n\tyChunkCount: 1,\n\txOffset: 0,\n\tyOffset: 0\n);\n```\n\n- Obtaining Map item, assigning id & giving it to player\n\n```php\n/** @var \\czechpmdevs\\imageonmap\\item\\FilledMap $map */\n$map = (FilledMap::get())->setMapId($id);\n/** @var \\pocketmine\\player\\Player $player */\n$player->getInventory()->addItem($map);\n```\n\n## 💡 License\n```\nImageOnMap - Easy to use PocketMine plugin, which allows loading images on maps\nCopyright (C) 2021 - 2022 CzechPMDevs\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n```",
+  "readme_source_url": "https://github.com/CzechPMDevs/ImageOnMap",
+  "icon_url": "https://raw.githubusercontent.com/CzechPMDevs/ImageOnMap/767b7d90fed743d80a686308caeae13d445c43e6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/CzechPMDevs/ImageOnMap",
+  "archive_repo": null,
+  "approved_release_tag": "r-11853",
+  "stars": 4,
+  "total_downloads": 2409,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "CzechPMDevs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/214631",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-11853",
+      "published_at": null,
+      "downloads": 2409,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11853/imageonmap-1.1.0-r11853.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11853",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11853/imageonmap-1.1.0-r11853.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ImageOnMap",
+    "stable_release_id": 11853
+  }
+}

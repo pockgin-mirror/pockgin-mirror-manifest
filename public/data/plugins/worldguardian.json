@@ -1,0 +1,61 @@
+{
+  "id": "worldguardian",
+  "name": "WorldGuardian",
+  "author": "TrFolwe",
+  "description": "Designed for Pocketmine world, area guard plugin",
+  "readme_markdown": "# WorldGuardian\nDesigned for Pocketmine world, area guard plugin\n\n# Config\n```yaml\nlocked-world-settings:\n  active: true #active is message\n  message: \"§c> This world is locked\" #message content\n```\n\n![img.png](assets/img.png)\n![img1.png](assets/img_1.png)\n![img2.png](assets/img_2.png)",
+  "readme_source_url": "https://github.com/TrFolwe/WorldGuardian",
+  "icon_url": "https://raw.githubusercontent.com/TrFolwe/WorldGuardian/94310f239701f5be79892d69ae1cc7b6cc5f63c4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/TrFolwe/WorldGuardian",
+  "archive_repo": null,
+  "approved_release_tag": "r-11861",
+  "stars": 5,
+  "total_downloads": 1741,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TrFolwe"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-11861",
+      "published_at": null,
+      "downloads": 1741,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11861/worldguardian-1.0-r11861.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11861",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11861/worldguardian-1.0-r11861.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorldGuardian",
+    "stable_release_id": 11861
+  }
+}

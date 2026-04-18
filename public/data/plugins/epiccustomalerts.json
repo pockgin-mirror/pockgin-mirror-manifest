@@ -1,0 +1,61 @@
+{
+  "id": "epiccustomalerts",
+  "name": "EpicCustomAlerts",
+  "author": "Taylor-pm-pl",
+  "description": "[releases]:",
+  "readme_markdown": "[releases]: https://github.com/David-pm-pl/EpicCustomAlerts/releases/latest\n[releasesImg]: https://img.shields.io/github/v/release/David-pm-pl/EpicCustomAlerts.svg?color=blue&include_prereleases&label=git-releases&style=for-the-badge\n[license]: https://github.com/David-pm-pl/EpicCustomAlerts/blob/master/LICENSE\n[licenseImg]: https://img.shields.io/github/license/David-pm-pl/EpicCustomAlerts.svg?style=for-the-badge\n[issues]: https://img.shields.io/github/issues/David-pm-pl/EpicCustomAlerts.svg?color=yellow&style=for-the-badge\n[phpversion]: https://img.shields.io/badge/PHP-8.0%2B-red?style=for-the-badge\n[issueslink]: https://github.com/David-pm-pl/EpicCustomAlerts/issues\n[discord]: https://img.shields.io/badge/Discord-blue?style=for-the-badge\n[discordlink]: https://discord.gg/yAhsgskaGy\n\n[![releasesImg]][releases] [![licenseImg]][license] ![phpversion] [![issues]][issueslink] [![discord]][discordlink]\n\n## Description\nIt allows you to customize the messages, it also brings a message customization option that will allow you to add special actions\n\n## How to Install\n\n1. Download the latest version\n2. Place the `EpicCustomAlerts.phar` file into the `plugins` folder.\n3. Restart the server.\n4. Done!\n\n## TODO\n- [X] World Change\n- [X] Player Death\n- [X] Whitelist\n- [ ] Event For EpicCustomAlerts\n- [X] Outdated Client\n- [X] Outdated Server\n- [X] Command\n\n## Additional Notes\n\n- If you found bugs or want to give suggestions, please visit <a href=\"https://github.com/David-pm-pl/EpicCustomAlerts/issues\">here</a> or join our Discord server.\n- We accept all contributions! If you want to contribute, please make a pull request in <a href=\"https://github.com/David-pm-pl/EpicCustomAlerts/pulls\">here</a>.",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/EpicCustomAlerts",
+  "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/EpicCustomAlerts/4a9189b473627eec83306b3bbfd31948e9d2541d/assets/images/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/EpicCustomAlerts",
+  "archive_repo": null,
+  "approved_release_tag": "r-11782",
+  "stars": 0,
+  "total_downloads": 704,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/213481",
+  "versions": {
+    "stable": {
+      "version": "0.1.2",
+      "tag": "r-11782",
+      "published_at": null,
+      "downloads": 704,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11782/epiccustomalerts-0.1.2-r11782.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11782",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11782/epiccustomalerts-0.1.2-r11782.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EpicCustomAlerts",
+    "stable_release_id": 11782
+  }
+}

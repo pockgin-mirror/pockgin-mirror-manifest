@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14164",
   "stars": 1,
-  "total_downloads": 91,
+  "total_downloads": 524,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-14164",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14164/lmao-0.2.3-r14164.phar"
+    },
+    {
+      "tag": "r-11916",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11916/lmao-0.2.1-r11916.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "dropprotection",
+  "name": "DropProtection",
+  "author": "GrosserZak",
+  "description": "A PocketMine-MP plugin which protects accidental drop",
+  "readme_markdown": "# DropProtection\nA PocketMine-MP plugin which protects accidental drop",
+  "readme_source_url": "https://github.com/GrosserZak/DropProtection",
+  "icon_url": "https://raw.githubusercontent.com/GrosserZak/DropProtection/19042ba929f1400b4722fd1527919e8146ab0ba0/DropProtection.gif",
+  "featured": false,
+  "repo": "https://github.com/GrosserZak/DropProtection",
+  "archive_repo": null,
+  "approved_release_tag": "r-11917",
+  "stars": 0,
+  "total_downloads": 436,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "GrosserZak"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/216067",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-11917",
+      "published_at": null,
+      "downloads": 436,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11917/dropprotection-1.1.0-r11917.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11917",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11917/dropprotection-1.1.0-r11917.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DropProtection",
+    "stable_release_id": 11917
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12934",
   "stars": 0,
-  "total_downloads": 2832,
+  "total_downloads": 3442,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -54,6 +54,11 @@
       "tag": "r-12291",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12291/betterban-4.2.1-php8.1-r12291.phar"
+    },
+    {
+      "tag": "r-11753",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11753/betterban-4.2.1-r11753.phar"
     }
   ],
   "comments": {

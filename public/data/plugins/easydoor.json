@@ -1,0 +1,61 @@
+{
+  "id": "easydoor",
+  "name": "EasyDoor",
+  "author": "KRUNCHSHooT",
+  "description": "open the door next to it when the door you opened",
+  "readme_markdown": "# EasyDoor\nopen the door next to it when the door you opened\n\n# How To Install\n1. Download the plugin from poggit or [here](https://poggit.pmmp.io/r/213849/EasyDoor_dev-8.phar)\n2. Put the `EasyDoor.phar` into the `plugins` folder\n3. Restart Your Server\n4. Enjoy\n\n# Credits\n- Icons made from [www.flaticon.com](https://www.flaticon.com)",
+  "readme_source_url": "https://github.com/KRUNCHSHooT/EasyDoor",
+  "icon_url": "https://raw.githubusercontent.com/KRUNCHSHooT/EasyDoor/bdc5a968196ff709c7fa5ae7e9af8ec03fec8237/icon.png",
+  "featured": false,
+  "repo": "https://github.com/KRUNCHSHooT/EasyDoor",
+  "archive_repo": null,
+  "approved_release_tag": "r-11808",
+  "stars": 4,
+  "total_downloads": 820,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KRUNCHSHooT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/213858",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-11808",
+      "published_at": null,
+      "downloads": 820,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11808/easydoor-2.0.0-r11808.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11808",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11808/easydoor-2.0.0-r11808.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EasyDoor",
+    "stable_release_id": 11808
+  }
+}

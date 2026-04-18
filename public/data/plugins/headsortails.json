@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11973",
   "stars": 0,
-  "total_downloads": 146,
+  "total_downloads": 173,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.1.0",
       "tag": "r-11973",
       "published_at": null,
-      "downloads": 146,
+      "downloads": 147,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11973/headsortails-1.1.0-r11973.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-11973",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11973/headsortails-1.1.0-r11973.phar"
+    },
+    {
+      "tag": "r-11745",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11745/headsortails-1.0.0-r11745.phar"
     }
   ],
   "comments": {

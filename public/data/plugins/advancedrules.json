@@ -1,0 +1,61 @@
+{
+  "id": "advancedrules",
+  "name": "AdvancedRules",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**Get players who join your server for the first time to accept the server rules with AdvancedRules**\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/AdvancedRules",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/AdvancedRules/4ac0485da213d924b0fc0ec77f161773b99dec40/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/AdvancedRules",
+  "archive_repo": null,
+  "approved_release_tag": "r-11905",
+  "stars": 0,
+  "total_downloads": 1281,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/215794",
+  "versions": {
+    "stable": {
+      "version": "1.1.2",
+      "tag": "r-11905",
+      "published_at": null,
+      "downloads": 1281,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11905/advancedrules-1.1.2-r11905.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11905",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11905/advancedrules-1.1.2-r11905.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdvancedRules",
+    "stable_release_id": 11905
+  }
+}

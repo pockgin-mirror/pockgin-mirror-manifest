@@ -1,0 +1,61 @@
+{
+  "id": "voicecraft",
+  "name": "VoiceCraft",
+  "author": "LuciaDX",
+  "description": "",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/VoiceCraft)](https://poggit.pmmp.io/p/VoiceCraft)\n<a href=\"https://poggit.pmmp.io/p/VoiceCraft\"><img src=\"https://poggit.pmmp.io/shield.state/VoiceCraft\"></a>\n\n[![](https://poggit.pmmp.io/shield.api/VoiceCraft)](https://poggit.pmmp.io/p/VoiceCraft)\n<a href=\"https://poggit.pmmp.io/p/VoiceCraft\"><img src=\"https://poggit.pmmp.io/shield.api/VoiceCraft\"></a>",
+  "readme_source_url": "https://github.com/LuciaDX/VoiceCraftPM",
+  "icon_url": "https://raw.githubusercontent.com/LuciaDX/VoiceCraftPM/6d42b3f1f783cb248156b6c44e5943db9c47c62e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/LuciaDX/VoiceCraftPM",
+  "archive_repo": null,
+  "approved_release_tag": "r-11900",
+  "stars": 4,
+  "total_downloads": 3310,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "LuciaDX"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11900",
+      "published_at": null,
+      "downloads": 3310,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11900/voicecraft-1.0.0-r11900.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11900",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11900/voicecraft-1.0.0-r11900.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VoiceCraft",
+    "stable_release_id": 11900
+  }
+}

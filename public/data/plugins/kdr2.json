@@ -1,0 +1,61 @@
+{
+  "id": "kdr2",
+  "name": "KDR2",
+  "author": "Aboshxm2",
+  "description": "Simple Kill Death Ratio plugin for Pocketmine-MP Servers.",
+  "readme_markdown": "# KDR2\nSimple Kill Death Ratio plugin for Pocketmine-MP Servers.\n\n## Features\n* Track players kill\n* ScoreHud Support\n* Mysql/Sqlite database support\n* 3 Cache techniques\n* Developer API\n\n## Commands\n| Command               |        Description        |       Permission        |\n|:----------------------|:-------------------------:|:-----------------------:|\n| `/kdr help`           | Shows all plugin commands |            -            |\n| `/kdr stats`          |   Shows player's stats    | KDR2.commands.kdr.stats |\n| `/kdr set-kils`       |    Sets player's kills    | KDR2.commands.kdr.edit  |\n| `/kdr set-deaths`     |   Sets player's deaths    | KDR2.commands.kdr.edit  |\n| `/kdr set-killstreak` | Sets player's killstreak  | KDR2.commands.kdr.edit  |\n\n## ScoreHud Tags\n* Kills - `KDR2.kills`\n* Deaths - `KDR2.deaths`\n* KDR - `KDR2.kdr`\n* Killstreak - `KDR2.killstreak`\n\n## Credits\nThe plugin icon made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com",
+  "readme_source_url": "https://github.com/Aboshxm2/KDR2",
+  "icon_url": "https://raw.githubusercontent.com/Aboshxm2/KDR2/60fe930268ab58cfe6a5ccd3b4025eccc1e94b46/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Aboshxm2/KDR2",
+  "archive_repo": null,
+  "approved_release_tag": "r-11883",
+  "stars": 0,
+  "total_downloads": 778,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Aboshxm2"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/215267",
+  "versions": {
+    "stable": {
+      "version": "1.1.4",
+      "tag": "r-11883",
+      "published_at": null,
+      "downloads": 778,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11883/kdr2-1.1.4-r11883.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11883",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11883/kdr2-1.1.4-r11883.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KDR2",
+    "stable_release_id": 11883
+  }
+}

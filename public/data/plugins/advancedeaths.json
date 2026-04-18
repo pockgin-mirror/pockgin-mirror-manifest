@@ -1,0 +1,61 @@
+{
+  "id": "advancedeaths",
+  "name": "AdvanceDeaths",
+  "author": "ErikPDev",
+  "description": "Important",
+  "readme_markdown": "# Important\nThis plugin is no longer being maintained. If you're willing to maintain it, fork this repository.\nGoodbye Pocketmine!\n\n<h1 align=\"center\"> AdvanceDeaths </h1>\n\n<div align=\"center\">\n    <a href=\"https://poggit.pmmp.io/p/AdvanceDeaths\">\n        <img alt=\"Poggit Status\" src=\"https://poggit.pmmp.io/shield.state/AdvanceDeaths\">\n        <img alt=\"PMMP Version\" src=\"https://poggit.pmmp.io/shield.api/AdvanceDeaths\">\n        <img alt=\"Total Downloads\" src=\"https://poggit.pmmp.io/shield.dl.total/AdvanceDeaths\">\n        <img alt=\"Downloads\" src=\"https://poggit.pmmp.io/shield.dl/AdvanceDeaths\">\n    </a>\n</div>\n\nAdvanceDeaths is created to take advantage of the Death Feature in Minecraft: Bedrock Edition.\n\nWith AdvanceDeaths, you can customize the death experience of your players and more to come.\n\n\n# Notice:\nThis version of AdvanceDeaths is different from the previous ones.\n\nYou will need to re-modify all the configuration files.\n\nIf you're using BedrockEconomy, make sure you're using the latest version of it.\n\n# Setup\nSetting up AdvanceDeaths is made easy.\n\n## Modifying Death Messages\nYou can modify Death Messages by changing the `deathMessages.yml` located in `plugin_data\\AdvanceDeaths`.\n\n## Creating Particles\n### Step 1:\n- Download the `particleCreator.html` from the <a href=\"https://github.com/ErikPDev/AdvanceDeaths/tree/master/tools\">tools folder</a>.\n- Double tap the html file or open it in a web browser. Javascript is required.\n\n### Step 2:\n- After that, you can click the black color box to change it's color. You can also select Fill color to change it's background color.\n- If the color of the box is white or rgb(255,255,255), then it will be rendered as invisible.\n\n### Step 3:\n- Once you've made your masterpiece, click on the `Generate` button. It will be downloaded.\n- Save the JSON file to `plugin_data\\AdvanceDeaths\\scripts\\particles`. Make sure to rename it to use it on `onDeathScript.yml`.\n\n# Features\n- onDeath Features\n    - onDeathScript to modify it, located in `plugin_data\\AdvanceDeaths\\scripts`. \n        - Possible script commands are:\n            - `particle(ParticleName, Player/PlayerKiller)`\n            - `playsound(soundName, Player/PlayerKiller)`\n            - `message(Message, Player/PlayerKiller)`\n            - `heal(PlayerKiller)`\n            - More will be added in the near future.\n    - Modifiable Death Message.\n    - Economies Support\n        - Gain / Lose on Kill / Death\n        - BedrockEconomy is currently supported. Capital support is coming soon.\n    - Instant Respawn\n    - Killstreaks Announcement.\n- Player/Entity Damage\n  - Blood FX - Configurable in the `config.yml`\n- Leaderboards\n    - Kills\n    - Deaths\n    - Killstreaks\n    - All leaderboards are customizable from `leaderboards.yml` located at `plugin_data\\AdvanceDeaths`.\n- Commands\n  - ScoreHUD\n      - Shows the player's kills, deaths, and killstreaks.\n      - Customizable in the `lang.yml` located at `plugin_data\\AdvanceDeaths`.\n  \n# Bug Report\nFound a bug? \n- Head to <a href=\"https://github.com/ErikPDev/AdvanceDeaths/issues\">issues</a>.\n- Tap on <a href=\"https://github.com/ErikPDev/AdvanceDeaths/issues/new?assignees=ErikPDev&labels=bug&template=bug_report.md&title=%5BBUG%5D\">New Issue</a>\n- Write information about the bug, then click on `Submit new issue`.\n- After that, I'll look into it.\n\n# Contribution\nAll contributions are welcomed, just make sure you follow the <a href=\"https://github.com/ErikPDev/AdvanceDeaths/blob/master/Formatting.md\">formatting</a>.\n\n# Variables\n\nYou can use variables to customize text to your own needs.\n\n## deathMessages.yml\nHere are the variables used to modify the death messages.\n\n| Variable         | Description                        | Example output: |\n|------------------|------------------------------------|-----------------|\n| {victim}         | The player that died               | Steve           |\n| {murderer}       | The player that killed the victim. | Alex            |\n| {murdererHealth} | The value of the murderer health   | 5/20            |\n| {itemUsed}       | The item used to murder the victim | Stick           |\n\n# Commands\n| Command       | Description                 | Permission        | Default |\n|---------------|-----------------------------|-------------------|---------|\n| advancedeaths | See an online player stats. | advancedeaths.use | True    |\n| ads           | See an online player stats. | advancedeaths.use | True    |",
+  "readme_source_url": "https://github.com/ErikPDev/AdvanceDeaths",
+  "icon_url": "https://raw.githubusercontent.com/ErikPDev/AdvanceDeaths/7a1594add0e367635c642847479d0c96bfdcbf7c/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ErikPDev/AdvanceDeaths",
+  "archive_repo": null,
+  "approved_release_tag": "r-11885",
+  "stars": 3,
+  "total_downloads": 1885,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ErikPDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/215291",
+  "versions": {
+    "stable": {
+      "version": "4.1.0",
+      "tag": "r-11885",
+      "published_at": null,
+      "downloads": 1885,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11885/advancedeaths-4.1.0-r11885.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11885",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11885/advancedeaths-4.1.0-r11885.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdvanceDeaths",
+    "stable_release_id": 11885
+  }
+}

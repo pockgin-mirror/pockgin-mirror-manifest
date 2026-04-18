@@ -1,0 +1,61 @@
+{
+  "id": "besttools",
+  "name": "BestTools",
+  "author": "KRUNCHSHooT",
+  "description": "BestTools can automatically choose the best tool from your hotbar everytime you mine a block.",
+  "readme_markdown": "# BestTools\nBestTools can automatically choose the best tool from your hotbar everytime you mine a block. \n\n# Features\n- Can Enable and Disable BestTools\n- Can blacklist any block you don't want\n- Can prevent your tool from being destroyed when destroying a block that doesn't match the tool type\n- Strip mining with random block ⛏️\n- Fast Pick. when you dont want to pickup items one by one, maybe this will help you. you can turn it off if your dont want this on your server.\n\n# Commands\n| Command | Permission | Default | Aliases | Example |\n| --- | --- | --- | --- | --- |\n| /besttools | `besttools.use` | true | `/bt` | `/bt enable` `/bt disable` |\n\n# How To Install \n1. Download the plugin from poggit or [here](https://poggit.pmmp.io/r/215770/BestTools_dev-12.phar)\n2. Put the `BestTools.phar` into the `plugins` folder\n3. Restart Your Server\n4. Enjoy\n\n# Credits\n- Icons made from [www.flaticon.com](https://www.flaticon.com)",
+  "readme_source_url": "https://github.com/KRUNCHSHooT/BestTools",
+  "icon_url": "https://raw.githubusercontent.com/KRUNCHSHooT/BestTools/2636beac156ffc3fb40ef53e311089d79df66b12/icon.png",
+  "featured": false,
+  "repo": "https://github.com/KRUNCHSHooT/BestTools",
+  "archive_repo": null,
+  "approved_release_tag": "r-11904",
+  "stars": 0,
+  "total_downloads": 858,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KRUNCHSHooT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/215782",
+  "versions": {
+    "stable": {
+      "version": "2.1.1",
+      "tag": "r-11904",
+      "published_at": null,
+      "downloads": 858,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11904/besttools-2.1.1-r11904.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11904",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11904/besttools-2.1.1-r11904.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BestTools",
+    "stable_release_id": 11904
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12090",
   "stars": 5,
-  "total_downloads": 1580,
+  "total_downloads": 1884,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "2.1.3",
       "tag": "r-12090",
       "published_at": null,
-      "downloads": 1580,
+      "downloads": 1581,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12090/politeteleports-2.1.3-r12090.phar"
     },
     "dev": null
@@ -44,6 +44,16 @@
       "tag": "r-12090",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12090/politeteleports-2.1.3-r12090.phar"
+    },
+    {
+      "tag": "r-11839",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11839/politeteleports-2.1.2-r11839.phar"
+    },
+    {
+      "tag": "r-11821",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11821/politeteleports-2.1.1-r11821.phar"
     }
   ],
   "comments": {

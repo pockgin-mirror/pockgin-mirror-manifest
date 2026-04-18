@@ -1,0 +1,61 @@
+{
+  "id": "keepinventory",
+  "name": "KeepInventory",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**Prevents players from losing items on death**\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/KeepInventory",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/KeepInventory/fa148b861ddfb80fa69451c91ca52cfdfe312df6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/KeepInventory",
+  "archive_repo": null,
+  "approved_release_tag": "r-11705",
+  "stars": 0,
+  "total_downloads": 3212,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/212555",
+  "versions": {
+    "stable": {
+      "version": "3.1.1",
+      "tag": "r-11705",
+      "published_at": null,
+      "downloads": 3212,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11705/keepinventory-3.1.1-r11705.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11705",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11705/keepinventory-3.1.1-r11705.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KeepInventory",
+    "stable_release_id": 11705
+  }
+}

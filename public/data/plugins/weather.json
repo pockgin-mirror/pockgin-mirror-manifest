@@ -1,0 +1,66 @@
+{
+  "id": "weather",
+  "name": "Weather",
+  "author": "tgwaste",
+  "description": "Weather Plugin For PocketMine-MP Version 5 (by tgwaste)",
+  "readme_markdown": "# Weather\n<b>Weather Plugin For PocketMine-MP Version 5 (by tgwaste)<b>\n<br />\n<img src=\"https://github.com/tgwaste/Weather/blob/main/icon.png\">\n<br />\n<br />\n## About\nThis will add vanilla like weather to your PM5 worlds.\n<br />\n* The in-game weather menu works\n* You can do /weather clear|rain|thunder from in-game or console\n* You can set worlds to always be clear\n* There are a few other config options in config.yml\n<br />\n<a href=\"https://poggit.pmmp.io/p/Weather\"><img src=\"https://poggit.pmmp.io/shield.state/Weather\"></a>",
+  "readme_source_url": "https://github.com/tgwaste/Weather",
+  "icon_url": "https://raw.githubusercontent.com/tgwaste/Weather/b6dee7e196783f5624965a492bd3df72936dfd19/icon.png",
+  "featured": false,
+  "repo": "https://github.com/tgwaste/Weather",
+  "archive_repo": null,
+  "approved_release_tag": "r-11909",
+  "stars": 0,
+  "total_downloads": 1515,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "tgwaste"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/215881",
+  "versions": {
+    "stable": {
+      "version": "2.0.3",
+      "tag": "r-11909",
+      "published_at": null,
+      "downloads": 1363,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11909/weather-2.0.3-r11909.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11909",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11909/weather-2.0.3-r11909.phar"
+    },
+    {
+      "tag": "r-11792",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11792/weather-2.0.2-r11792.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Weather",
+    "stable_release_id": 11909
+  }
+}

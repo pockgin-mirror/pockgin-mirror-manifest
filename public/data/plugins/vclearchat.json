@@ -1,0 +1,61 @@
+{
+  "id": "vclearchat",
+  "name": "VClearChat",
+  "author": "VennDev",
+  "description": "A plugin for PocketMine-PMMP that helps control the recording of too much chat data to the server.",
+  "readme_markdown": "# VClearChat\n- A plugin for PocketMine-PMMP that helps control the recording of too much chat data to the server.\n\n# Config\n```\n# This will be the number of chats kept for cleaning up chats.\nchats_handler: 10\n```\n\n# Features\n- When the number of reserved chats exceeds the required level, this plugin will clean them up.",
+  "readme_source_url": "https://github.com/VennDev/VClearChat",
+  "icon_url": "https://raw.githubusercontent.com/VennDev/VClearChat/9ce14afb0c7edef301d8ca40becdf5352cd991c1/icon.png",
+  "featured": false,
+  "repo": "https://github.com/VennDev/VClearChat",
+  "archive_repo": null,
+  "approved_release_tag": "r-11697",
+  "stars": 5,
+  "total_downloads": 420,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "VennDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/212434",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-11697",
+      "published_at": null,
+      "downloads": 420,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11697/vclearchat-1.0.1-r11697.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11697",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11697/vclearchat-1.0.1-r11697.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VClearChat",
+    "stable_release_id": 11697
+  }
+}

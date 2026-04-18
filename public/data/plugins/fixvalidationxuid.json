@@ -1,0 +1,61 @@
+{
+  "id": "fixvalidationxuid",
+  "name": "FixValidationXUID",
+  "author": "Gewinum",
+  "description": "WARNING!",
+  "readme_markdown": "# WARNING!\nThis plugin erases every player's last xuid tag, only if it's empty string, which means, that it will impact non xbox users. This is serious security problem, but still better than verify-xuid set to false. Please, make sure that you really need it before using.\n\n# FixValidationXUID\n[![](https://poggit.pmmp.io/shield.state/FixValidationXUID)](https://poggit.pmmp.io/p/FixValidationXUID)\\\nAre you losing online due to \"possible xuid impersonation\"? Well, no worries! This plugin resets all XUIDs that are saved as empty string.\n# Usage\nFirst, you have to install this plugin and then run command **/xuidfix**. It has to be run from **CONSOLE**, not player!",
+  "readme_source_url": "https://github.com/Gewinum/xuid-impersonation-fixer",
+  "icon_url": "https://raw.githubusercontent.com/Gewinum/xuid-impersonation-fixer/c4d1cbd9c38fdc917c0259b61debccecb8fada06/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Gewinum/xuid-impersonation-fixer",
+  "archive_repo": null,
+  "approved_release_tag": "r-11838",
+  "stars": 4,
+  "total_downloads": 313,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Gewinum"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-11838",
+      "published_at": null,
+      "downloads": 313,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11838/fixvalidationxuid-1.0.1-r11838.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11838",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11838/fixvalidationxuid-1.0.1-r11838.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FixValidationXUID",
+    "stable_release_id": 11838
+  }
+}

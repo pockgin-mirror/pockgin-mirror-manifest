@@ -1,0 +1,61 @@
+{
+  "id": "gamemodeui",
+  "name": "GamemodeUI",
+  "author": "FlynnKunz",
+  "description": "A Plugin For Pocketmine-MP To Change Gamemode With UI**",
+  "readme_markdown": "# GamemodeUI\n\n[![](https://poggit.pmmp.io/shield.state/GamemodeUI)](https://poggit.pmmp.io/p/GamemodeUI)\n\n[![](https://poggit.pmmp.io/shield.api/GamemodeUI)](https://poggit.pmmp.io/p/GamemodeUI)\n\n**A Plugin For Pocketmine-MP To Change Gamemode With UI**\n\n![Captura de pantalla 2022-06-13 032031](https://user-images.githubusercontent.com/83558341/173310827-9b1e9821-bb36-4df0-85d6-5ecfeeee07a4.png)\n\n### 💾 Config\n```yml\n  # GamemodeUI plugin\n  # Made By FlynnKunz and fernanACM\n\n  ##############################\n\n  # Use \"§\" as formatting codes\n  # Use \"\\n\" to break into new line\n  # ======(PREFIX)======\n  Prefix: \"§l§7[§eGM§7]§8»§r \"\n  # ======(MESSAGES FORMS)======\n  GamemodeUI:\n    # Set The Title\n    title: \"§l§9GAMEMODE MENU\"\n    # Set The Content\n    content: \"§eSelect your game mode:\"\n    # Buttons\n    button-survival: \"§2§lSurvival\\n§r§0Tap To Change\"\n    button-creative: \"§2§lCreative\\n§r§0Tap To Change\"\n    button-adventure: \"§2§lAdventure\\n§r§0Tap To Change\"\n    button-spectator: \"§2§lSpectator\\n§r§0Tap To Change\"\n    button-exit: \"§4§lEXIT§r\\n§r§0Tap To Change\"\n  \n  Messages:\n    survival: \"§eYour game mode has been changed to §dSURVIVAL\"\n    creative: \"§eYour game mode has been changed to §dCREATIVE\"\n    adventure: \"§eYour game mode has been changed to §dADVENTURE\"\n    spectator: \"§eYour game mode has been changed to §dSPECTATOR\"\n\n  NoPermissionMessages:\n  survival: \"Â§4You Dont Have Permission To Use This Commands\"\n  creative: \"Â§4You Dont Have Permission To Use This Commands\"\n  adventure: \"Â§4You Dont Have Permission To Use This Commands\"\n  spectator: \"Â§4You Dont Have Permission To Use This Commands\"\n```\n\n### 💡 Implementations\n* [x] Message customization.\n\n\n### 🔒 Permissions\n\n- Executing the command: ```gamemodeui.cmd```\n\n### ✔ Credits\n* **[fernanACM](https://github.com/fernanACM)**",
+  "readme_source_url": "https://github.com/FlynnKunz/GamemodeUI",
+  "icon_url": "https://raw.githubusercontent.com/FlynnKunz/GamemodeUI/be7ba29ea2f4de861cadfeda024bbfc39242e0a5/icon-gm.png",
+  "featured": false,
+  "repo": "https://github.com/FlynnKunz/GamemodeUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-11816",
+  "stars": 0,
+  "total_downloads": 4498,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "FlynnKunz"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/213977",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-11816",
+      "published_at": null,
+      "downloads": 4498,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11816/gamemodeui-2.0.0-r11816.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11816",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11816/gamemodeui-2.0.0-r11816.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GamemodeUI",
+    "stable_release_id": 11816
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "autoinventory",
+  "name": "AutoInventory",
+  "author": "ecstsylove",
+  "description": "Features",
+  "readme_markdown": "<h1><a id=\"user-content-features\" class=\"anchor\" aria-hidden=\"true\" href=\"#features\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Features</h1>\n<p>• Automatic item collection: Items dropped from blocks are directly added to the player's inventory.<br>\n• Inventory handling: When the inventory is full, a customizable popup message is displayed to the player.<br>\n• Experience management: Automatically adds experience points to the player when eligible.</p>\n<h1><a id=\"user-content-usage\" class=\"anchor\" aria-hidden=\"true\" href=\"#usage\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Usage</h1>\n<p>AutoInventory works seamlessly in the background once installed. Simply join the game and<br>\nstart collecting items automatically. If your inventory becomes full, a helpful message will<br>\nnotify you.</p>\n<h1><a id=\"user-content-config\" class=\"anchor\" aria-hidden=\"true\" href=\"#config\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Config</h1>\n<pre><code># Config Version (DO NOT TOUCH)\nversion: 1.1.1\n# Message type for full inventory message. Available options: title, actionbar, chat\nmessage_type: title\n# full inventory message: use '&amp;' symbol for color codes\nfull_inventory_message: \"&amp;cYour inventory is now full!\"\n# auto collecting experience true = enable, false = disable\nauto_experience: true\n# list the worlds you want to enable the plugin on.\nenabled_worlds:\n  - world\n  - world2\n# list the worlds you want to disable the plugin on.\ndisabled_worlds:\n  - world3\n</code></pre>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/214387",
+  "icon_url": "https://raw.githubusercontent.com/iLVOEWOCK/AutoInventory/c6c3658cb1f6f0daad6593ef5055178703b34b46/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ecstsylove/AutoInventory",
+  "archive_repo": null,
+  "approved_release_tag": "r-11836",
+  "stars": 0,
+  "total_downloads": 2317,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ecstsylove"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/214389",
+  "versions": {
+    "stable": {
+      "version": "1.1.2",
+      "tag": "r-11836",
+      "published_at": null,
+      "downloads": 2317,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11836/autoinventory-1.1.2-r11836.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11836",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11836/autoinventory-1.1.2-r11836.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AutoInventory",
+    "stable_release_id": 11836
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "sakuraspawners",
+  "name": "SakuraSpawners",
+  "author": "DayKoala",
+  "description": "SakuraSpawners** is a plugin for **PocketMine-MP** which adds the Monster Spawner and it's functionalities as in vanilla Minecraft with some extra tweaks and features.",
+  "readme_markdown": "<p align=\"center\">\n  <a href=\"https://github.com/DayKoala/SakuraSpawners/stargazers\"><img src=\"https://i.ibb.co/yN6gcXR/Sakura-Spawners-Gif.gif\"></img></a><br>\n</p>\n<p align=\"center\">\n  <img alt= \"Last Commit\" src= \"https://img.shields.io/github/last-commit/DayKoala/SakuraSpawners?color=green\">\n  <img alt= \"Poggit\" src=\"https://poggit.pmmp.io/shield.dl.total/SakuraSpawners\"></a>\n</p>\n\n# About\n- **[SakuraSpawners](https://github.com/DayKoala/SakuraSpawners)** is a plugin for **[PocketMine-MP](https://github.com/pmmp/PocketMine-MP)** which adds the Monster Spawner and it's functionalities as in vanilla Minecraft with some extra tweaks and features.\n\n### Command\n\n| Command | Description | Permission |\n| --- | --- | --- |\n| `/spawner [subcommand] [entity-id]` | Main command | **sakuraspawners.command.main** |\n\n- **Subcommands**\n  - `name [name]`: **Changes entity Name.**\n  - `size [height] [width]`: **Changes entity hitbox Height and Width.**\n  - `scale [scale]`: **Changes entity Scale.**\n  - `xp [amount]`: **Changes entity XP Drop Amount when killed.**\n  - `drop`: **Adds or removes item from player's hand as a Drop.**\n  - `get`: **Adds entity Monster Spawner in player's inventory.**\n\n> Subcommands values are set after `[entity-id]`\n\n- All changes are updated in the entity upon server restart or when a new one is created and their data saved in **[Entities.yml](https://github.com/DayKoala/SakuraSpawners/blob/main/resources/Entities.yml)** .\n\n### Properties\n\n- Some usage properties can be changed in **[Properties.yml](https://github.com/DayKoala/SakuraSpawners/blob/main/resources/Properties.yml)** .\n\n> They won't change if the server is running\n\n# Developers\n\n- How can i add my own entity to a Monster Spawner ?\n\n### Example\n\n```php\n\nuse DayKoala\\entity\\GlobalEntitySelector;\n\nGlobalEntitySelector::getInstance()->register(\"MyEntityId\", MyEntity::class, function(Position $position, string $entityId) : MyEntity{\n  return new MyEntity(...);\n});\n\n```\n\n> You also can take a look at **[GlobalEntitySelector](https://github.com/DayKoala/SakuraSpawners/blob/main/src/DayKoala/entity/GlobalEntitySelector.php)** for guidance\n\n- How can i get the Monster Spawner Block or Item ?\n\n### Example\n\n```php\n\nuse DayKoala\\item\\SpawnerItems;\nuse DayKoala\\item\\SpawnerItemsManager;\n\n// Block\nSpawnerItems::MONSTER_SPAWNER();\n\n// Item\nSpawnerItems::SPAWNER();\n\n// Item with Entity Identifier\nSpawnerItemsManager::writeEntityId(SpawnerItems::SPAWNER(), \"entityId\");\n\n```\n\n> Also take a loot at **[SpawnerItems](https://github.com/DayKoala/SakuraSpawners/blob/main/src/DayKoala/item/SpawnerItems.php)** and **[SpawnerItemsManager](https://github.com/DayKoala/SakuraSpawners/blob/main/src/DayKoala/item/SpawnerItemsManager.php)** in case of doubts",
+  "readme_source_url": "https://github.com/DayKoala/SakuraSpawners",
+  "icon_url": "https://raw.githubusercontent.com/DayKoala/SakuraSpawners/a56f0e9684e8e209929cfd5a6065c70be2ffe305/icon.png",
+  "featured": false,
+  "repo": "https://github.com/DayKoala/SakuraSpawners",
+  "archive_repo": null,
+  "approved_release_tag": "r-11795",
+  "stars": 5,
+  "total_downloads": 1888,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DayKoala"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/213671",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-11795",
+      "published_at": null,
+      "downloads": 1888,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11795/sakuraspawners-2.0.0-r11795.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11795",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11795/sakuraspawners-2.0.0-r11795.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SakuraSpawners",
+    "stable_release_id": 11795
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12766",
   "stars": 5,
-  "total_downloads": 4715,
+  "total_downloads": 5001,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,16 @@
       "tag": "r-11979",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11979/humannpc-0.0.6-r11979.phar"
+    },
+    {
+      "tag": "r-11911",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11911/humannpc-0.0.5-r11911.phar"
+    },
+    {
+      "tag": "r-11840",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11840/humannpc-0.0.4-r11840.phar"
     }
   ],
   "comments": {

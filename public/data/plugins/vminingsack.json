@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12450",
   "stars": 0,
-  "total_downloads": 281,
+  "total_downloads": 335,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-12450",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12450/vminingsack-1.0.4-r12450.phar"
+    },
+    {
+      "tag": "r-11899",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11899/vminingsack-1.0.3-r11899.phar"
     }
   ],
   "comments": {

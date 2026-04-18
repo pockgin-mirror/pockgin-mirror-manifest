@@ -1,0 +1,61 @@
+{
+  "id": "actualantixray",
+  "name": "ActualAntiXRay",
+  "author": "ColinHDev",
+  "description": "This is an actual AntiXRay plugin for PocketMine-MP.",
+  "readme_markdown": "# ActualAntiXRay\n\nThis is an actual AntiXRay plugin for PocketMine-MP.\n\nUnlike other so-called \"AntiXRay\" plugins, this one does not simply inform staff members if an ore is broken.\nThis plugin modifies the chunk packet sent to the client to make it look like a chunk contains a ridiculous amount of ores.\n\n![example.png](example.png)",
+  "readme_source_url": "https://github.com/ColinHDev/ActualAntiXRay",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/ColinHDev/ActualAntiXRay",
+  "archive_repo": null,
+  "approved_release_tag": "r-11887",
+  "stars": 1,
+  "total_downloads": 6361,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ColinHDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/215335",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-11887",
+      "published_at": null,
+      "downloads": 6361,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11887/actualantixray-1.1.1-r11887.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11887",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11887/actualantixray-1.1.1-r11887.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ActualAntiXRay",
+    "stable_release_id": 11887
+  }
+}

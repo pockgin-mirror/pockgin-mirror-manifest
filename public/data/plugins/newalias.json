@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14117",
   "stars": 0,
-  "total_downloads": 147,
+  "total_downloads": 4545,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-14117",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14117/_newalias-2.0.0-r14117.phar"
+    },
+    {
+      "tag": "r-11849",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11849/_newalias-1.5.1-r11849.phar"
     }
   ],
   "comments": {

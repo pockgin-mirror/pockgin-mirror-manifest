@@ -1,0 +1,61 @@
+{
+  "id": "hivecorruptor",
+  "name": "HiveCorruptor",
+  "author": "JustTalDevelops",
+  "description": "Have you been struggling to retain players? Everyone playing on the Hive instead of your server? Well,",
+  "readme_markdown": "# HiveCorruptor\nHave you been struggling to retain players? Everyone playing on the Hive instead of your server? Well,\nstruggle no more.\n\nIntroducing HiveCorruptor, the best solution to solidify your position in the MCPE server space.\n\nAdd this plugin to your server and wait for your players to join. The plugin will corrupt the chunks on\nthe Hive and thus make it unplayable, thus forcing your players to join your server instead.\n\nLike HiveCorruptor? You'll love GalaxiteCorruptor and CubeCraftCorruptor! Star this repository for news on those.\n\n### [Exploiting the Blob Cache in Minecraft: Bedrock Edition ...and why it matters.](https://gist.github.com/JustTalDevelops/1abfdae7ab7618af2ec82f709ffa93bb)",
+  "readme_source_url": "https://github.com/JustTalDevelops/HiveCorruptor",
+  "icon_url": "https://raw.githubusercontent.com/JustTalDevelops/TheBeeServerCorruptor/433b4e79c3952de3cdee9aacda84bb1e3f753285/hive.png",
+  "featured": false,
+  "repo": "https://github.com/JustTalDevelops/HiveCorruptor",
+  "archive_repo": null,
+  "approved_release_tag": "r-11715",
+  "stars": 4,
+  "total_downloads": 495,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JustTalDevelops"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11715",
+      "published_at": null,
+      "downloads": 495,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11715/hivecorruptor-1.0.0-r11715.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11715",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11715/hivecorruptor-1.0.0-r11715.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HiveCorruptor",
+    "stable_release_id": 11715
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "vanillahopper",
+  "name": "VanillaHopper",
+  "author": "ColinHDev",
+  "description": "In pm4, hopper blocks were implemented to have an inventory. But the logic for pushing, pulling and picking up items was missing nonetheless.",
+  "readme_markdown": "## VanillaHopper\nIn pm4, hopper blocks were implemented to have an inventory. But the logic for pushing, pulling and picking up items was missing nonetheless.\nThis plugin aims to add this logic to the hopper.\n\n### Optimizations\n#### Improved block update scheduling\nNormally a hopper should run a block update every tick to reduce and check its cooldown if it has expired.\nBecause it is highly inefficient to update all loaded hoppers every tick, just for letting them reduce their cooldown by one, the block update of hoppers is always scheduled to the expiration of their cooldown and not directly the next tick.\nTo prevent any issues with the cooldown, hoppers are saving in which tick they were lastly updated to prevent them from updating too early.\n\n#### Event-driven hoppers\nIf a hopper did anything, it will be set on transfer cooldown and as explained above, its next update will be on the tick of the transfer. But if the hopper did nothing, it wouldn't be on cooldown and therefore would require an update on the next tick.\nAs it is highly ineffective to schedule hundreds of hoppers for updates, who are not even doing anything, most parts are now event-driven.\nThis means, that hoppers will only be scheduled for another block update, if an item entity landed on them or if any update on the blocks or inventories around them occurred. \n\n### Customizations\nCustomizations can be done in the `config.yml` in the plugin's `plugin_data` folder:\n- `hopper.transferCooldown`: `8`\n  - The default cooldown of hoppers in Minecraft is 8 ticks. To in- or decrease the cooldown, you can just edit this number.\n- `hopper.itemsPerUpdate`: `1`\n  - Normally a hopper only pushes one item and pulls or picks up one per update. You can specify how many items a hopper will try to push, pull or pick up when updated.\n    This can be useful if you increased the cooldown of hoppers but want to keep the same \"item per tick\" ratio.\n- `hopper.updatesPerTick`: `0`\n  - By default, there is no limit on how many block updates can be scheduled per tick.\n    As it would be very performance costly to have scheduled hundreds of hopper updates scheduled on the same tick, you can change this number, to limit the number of hopper updates that are allowed to be scheduled per tick.\n    If a hopper update would be scheduled on a tick that is already on the max value, the update is scheduled on the next tick that's not on the max value.\n\n### FAQ\n#### What are your sources?\nEvery information about the logic for pushing, pulling and picking up items came from the [minecraft fandom wiki](https://minecraft.fandom.com/wiki/Hopper).\n\n#### Why are there so many comments in the code?\nMinecraft's hopper logic is very complex. To prevent anybody from getting confused about how certain things were done, most parts were commented to explain what was done and why.\n\n#### Why not create a [PR](https://github.com/pmmp/PocketMine-MP/pull/4416)?\nI did, but it was stated that hopper logic won't be implemented in pm4 and because I didn't want to maintain a PR for the time till pm5, I closed it.\nStill, I wanted to use that logic in a plugin to use it myself and therefore I created this.\n\n### Tests\n- Functionality tests\n  - [Every block a hopper can push items into was tested if it works as explained in the sources.](https://www.youtube.com/watch?v=4gSyuViaPaU)\n  - [Every block a hopper can pull items from was tested if it works as explained in the sources.](https://www.youtube.com/watch?v=6NWvr6Kv88E)\n  - [The collision box of the area where the hopper should pick up items was checked and works as explained in the sources.](https://www.youtube.com/watch?v=hVEPiK9KWkA)\n\n- \"Performance\" tests\n  - 128 hoppers pushing 27 * 64 dirt from one chest to another ([Timings](https://timings.pmmp.io/?id=158627)):\n    ![Performance Test](https://user-images.githubusercontent.com/54852588/131256515-3611c594-08e1-45a1-8bd2-3ebbaf141c8a.png)\n\n### TODO\n#### Make pushing and pulling more modular\nCurrently, the pushing and pulling methods are not very developer friendly when it comes to customizations, since it is hard to access and overwrite the `Hopper::push()` and `Hopper::pull()` methods without beeing forced to copy code.\nThis could be done by implementing a behaviour system which lets developers register custom behaviours for any block.\nSince this would include rewriting some parts of the existing core, which would cost much time, what I do not see benefitial at the moment, PLEASE create an issue, if you find yourself needing a better implementation. Till then, this will stay as a TODO.\n\n#### Implementing entity pulling\nNormally, hoppers can not only pull items from blocks, but from entities like minecarts too.\nBut since PocketMine-MP does not support them, there is no point in implementing this, since this would be out of the scope of this plugin.\nAlthough it should be at least possible to let hoppers also scan for entities when pulling, which is not possible with the current system.\n\n#### Supporting more blocks\nComposters, Brewing Stands and Jukeboxes are currently either not or just poorly supported. This should be changed.\nBut since PocketMine-MP itself does not implement these blocks correctly, there is no reason for us at the moment of writing this.\n\n### For developers\n\n#### Event handling\n- Through the different events, you can easily implement your own rules for hoppers.\n  Handle these events by simply creating an ordinary listener (`class EventListener implements Listener`) in your plugin and import (`use` keyword) them by their namespace (`event name`: `namespace`).\n- `BlockItemPickupEvent`: `pocketmine\\event\\block\\BlockItemPickupEvent`\n  - This event is called when a hopper tries to pick up an item.\n- `HopperEvent`: `ColinHDev\\VanillaHopper\\events\\HopperEvent`\n  - This event is called when a hopper either tries to push or pull an item.\n- `HopperPushEvent`: `ColinHDev\\VanillaHopper\\events\\HopperPushEvent`\n  - This event is called when a hopper tries to push an item.\n- `HopperPushContainerEvent`: `ColinHDev\\VanillaHopper\\events\\HopperPushContainerEvent`\n  - This event is called when a hopper tries to push an item into a block's inventory.\n- `HopperPushJukeboxEvent`: `ColinHDev\\VanillaHopper\\events\\HopperPushJukeboxEvent`\n  - This event is called when a hopper tries to push a record into a jukebox.\n- `HopperPullEvent`: `ColinHDev\\VanillaHopper\\events\\HopperPullEvent`\n  - This event is called when a hopper tries to pull an item.\n- `HopperPullContainerEvent`: `ColinHDev\\VanillaHopper\\events\\HopperPullContainerEvent`\n  - This event is called when a hopper tries to pull an item from a block's inventory.\n\n#### Custom ItemEntity class\nAs there is no `EntityMoveEvent`, which can easily be listened for, a way to check whether an item entity moved onto a hopper had to be found.\nThis was done by implementing a custom item entity class that checks only when the entity actually moved. Otherwise, we would have to make a task that constantly checks all item entities and if they moved.\nSo this method has the most performance benefits. But this method makes this plugin incompatible with other plugins that implement a custom item entity class, as either this or the other plugin will no longer work as intended anymore.",
+  "readme_source_url": "https://github.com/ColinHDev/VanillaHopper",
+  "icon_url": "https://raw.githubusercontent.com/ColinHDev/VanillaHopper/526412dbae564d1395debfd032763b4aadb4d904/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ColinHDev/VanillaHopper",
+  "archive_repo": null,
+  "approved_release_tag": "r-11835",
+  "stars": 5,
+  "total_downloads": 1748,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ColinHDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/214364",
+  "versions": {
+    "stable": {
+      "version": "2.2.2",
+      "tag": "r-11835",
+      "published_at": null,
+      "downloads": 1748,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11835/vanillahopper-2.2.2-r11835.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11835",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11835/vanillahopper-2.2.2-r11835.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VanillaHopper",
+    "stable_release_id": 11835
+  }
+}

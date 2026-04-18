@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14101",
   "stars": 0,
-  "total_downloads": 2799,
+  "total_downloads": 5098,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-12958",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12958/autoclearchunk-3.0.1-r12958.phar"
+    },
+    {
+      "tag": "r-11866",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11866/autoclearchunk-3.0.0-r11866.phar"
     }
   ],
   "comments": {
