@@ -1,0 +1,61 @@
+{
+  "id": "politeteleports",
+  "name": "PoliteTeleports",
+  "author": "jasonw4331",
+  "description": "Don't just show up, teleport politely! This plugin allows players to send and reply to teleport requests wherever they might be!",
+  "readme_markdown": "# PoliteTeleports\n\n[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/R7kdetE)\n[![Poggit-Ci](https://poggit.pmmp.io/ci.shield/jasonw4331/PoliteTeleports/PoliteTeleports)](https://poggit.pmmp.io/ci/jasonw4331/PoliteTeleports/PoliteTeleports)\n[![Download count](https://poggit.pmmp.io/shield.dl.total/PoliteTeleports)](https://poggit.pmmp.io/p/PoliteTeleports)\n\n# Intro\n\nDon't just show up, teleport politely! This plugin allows players to send and reply to teleport requests wherever they might be!\n\n# Features\n\n* Send teleport requests to other players!\n* Respond to teleport requests when you feel like!\n* Teleport to random places!\n* You decide if players must stand still to teleport\n* You decide how long players must wait to teleport\n* You decide if random teleports must be safe\n* Server or Config configurable translations\n\n# Permissions\n\n* `PoliteTeleports.command.tpaccept` Allows the player to use /tpaccept\n* `PoliteTeleports.command.tpask` Allows the player to use /tpask\n* `PoliteTeleports.command.tpahere` Allows the player to use /tpahere\n* `PoliteTeleports.command.tpconfig` Allows the player to use /tpconfig\n* `PoliteTeleports.command.tpconfig.language` Allows the player to set /tpconfig language\n* `PoliteTeleports.command.tpdeny` Allows the player to use /tpdeny\n* `PoliteTeleports.command.tprandom` Allows the player to use /tprandom\n\n# Future Additions\n\n* Configurable player glow effect after teleport\n* Cross-server teleport requests (transfer requests)\n* More configuration options\n\n# About\n\nThis plugin was released because no other /TPA plugins exist on poggit for some reason. Who would've guessed?",
+  "readme_source_url": "https://github.com/jasonw4331/PoliteTeleports",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/jasonw4331/PoliteTeleports",
+  "archive_repo": null,
+  "approved_release_tag": "r-12090",
+  "stars": 5,
+  "total_downloads": 1580,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "jasonw4331"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218406",
+  "versions": {
+    "stable": {
+      "version": "2.1.3",
+      "tag": "r-12090",
+      "published_at": null,
+      "downloads": 1580,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12090/politeteleports-2.1.3-r12090.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12090",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12090/politeteleports-2.1.3-r12090.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PoliteTeleports",
+    "stable_release_id": 12090
+  }
+}

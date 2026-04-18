@@ -1,0 +1,61 @@
+{
+  "id": "easyannouncement",
+  "name": "EasyAnnouncement",
+  "author": "HakanBabus",
+  "description": "EasyAnnouncement plugin for PocketMine-MP",
+  "readme_markdown": "<p align=\"center\">\n  <img align=\"center\" src=\"https://github.com/HakanBabus/EasyAnnouncement/assets/90573332/986e3c5c-a117-47a1-9f7f-d1e418841ebf\"  width=\"80\" height=\"80\">\n\n<p align=\"center\">\n    <b>EasyAnnouncement plugin for PocketMine-MP</b>\n  \n  <p align=\"center\">\nCreated by: https://github.com/HakanBabus\n\n\n  <p align=\"center\">\n    <img alt=\"GitHubrelease\" src=\"https://img.shields.io/github/v/release/HakanBabus/EasyAnnouncement?label=release&sort=semver\">\n</p>\n\n\n# Features\n\n- Easy config\n- Include auto announcement\n- Prefix, time invertal settings\n- Include manuel announcement (/announcement)\n- Announcement with sound (custom, random)\n- Fully customizable\n\n# Requirements\n\n- PocketMine-MP API 4-5\n\n# Add your server\n\n- Go to [this](https://poggit.pmmp.io/p/EasyAnnouncement/1.0.0) page.\n- Click direct download.\n- Move the file to the plugins folder\n\n\n# Config Management\n\n```\n#sound management\n#multiple or single sound\n#distribute if there is more than one sound\nsound:\n  - mob.ghast.fireball\n\n\n#auto announcement settings\nauto-announcement:\n  enabled: true       # Enable setting for auto announcement\n  prefix: \"§e§l> §f\"  # Message prefix\n  time: 180           # Repeat time (seconds) (default 3 min = 180 seconds)\n  sound:\n    enabled: false    # if is true -> when send auto announcement, play random sound\n  messages:\n    - Message 1\n    - Message 2\n    - Message 3\n\n#player announcement settings\nplayer-announcement:\n  enabled: true      # if is false, don't register the command\n  prefix: \"§e[ANNOUNCEMENT] §f{player} §e>§f \"\n  command-settings:\n    name: announcement\n    description: Send announcement to server players\n    usage: \"§cUsage: §f/announcement (message: string)\"\n    aliases: []\n  sound:\n    enabled: true     #if is true -> when send announcement, play random sound\n\n# COMMAND PERMISSIONS\n\n# permission: announcement.command\n# default setting is op\n```",
+  "readme_source_url": "https://github.com/HakanBabus/EasyAnnouncement",
+  "icon_url": "https://raw.githubusercontent.com/HakanBabus/EasyAnnouncement/a30f59365c1d82ff2ff7341936cec7b12f68950a/image.png",
+  "featured": false,
+  "repo": "https://github.com/HakanBabus/EasyAnnouncement",
+  "archive_repo": null,
+  "approved_release_tag": "r-12080",
+  "stars": 4,
+  "total_downloads": 915,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HakanBabus"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-12080",
+      "published_at": null,
+      "downloads": 915,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12080/easyannouncement-1.0.2-r12080.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12080",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12080/easyannouncement-1.0.2-r12080.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EasyAnnouncement",
+    "stable_release_id": 12080
+  }
+}

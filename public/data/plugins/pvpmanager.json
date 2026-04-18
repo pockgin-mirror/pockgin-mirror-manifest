@@ -1,0 +1,61 @@
+{
+  "id": "pvpmanager",
+  "name": "PVPManager",
+  "author": "Cryotap",
+  "description": "General",
+  "readme_markdown": "# General\nManage pvp on your server!\n\n[![](https://poggit.pmmp.io/shield.state/PVPManager)](https://poggit.pmmp.io/p/PVPManager)\n\n[![](https://poggit.pmmp.io/shield.api/PVPManager)](https://poggit.pmmp.io/p/PVPManager)\n\n## Commands | Perms\nTo even use the command you need pvp.logger\n\n/pvpm editor | pvp.editor\n\n## Current Features\n- PVP Logging: You can control what happens while someone is in combat using /pvp editor\n\n- Soup Heal Setting: Mushroom Stew will bring you back to full health if enabled. (PVP worlds only)\n\n- Sleeping Setting: Going to bed can be disabled when logged. (PVP worlds only)\n\n- Pouring lava/water Setting: Pouring lava/water can be toggled while someone is logged. (PVP worlds only)\n\n- Flying Setting: Flying can be toggled when logged. (PVP worlds only)\n\n- Allow PVP setting: You can toggle if pvp is enabled.\n\n- Set custom healing amount (keep it within the max health)\n\n- Allow Exhaustion Setting\n\n- Allow custom base damage Setting\n\n- Set custom base damage\n\n- Allow custom health Setting\n\n- Set custom health\n\n- None PVP Worlds: List the worlds you want to disable pvp on if the PVP setting is false.\n\n## Credits\nCreator: Cryotap",
+  "readme_source_url": "https://github.com/Cryotap/PVPManager",
+  "icon_url": "https://raw.githubusercontent.com/Cryotap/PVPManager/a825cccfedaffa3546034aa369d721ae8f35f1ef/PVPM.gif",
+  "featured": false,
+  "repo": "https://github.com/Cryotap/PVPManager",
+  "archive_repo": null,
+  "approved_release_tag": "r-12094",
+  "stars": 0,
+  "total_downloads": 1338,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Cryotap"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12094",
+      "published_at": null,
+      "downloads": 1338,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12094/pvpmanager-1.0.0-r12094.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12094",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12094/pvpmanager-1.0.0-r12094.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PVPManager",
+    "stable_release_id": 12094
+  }
+}

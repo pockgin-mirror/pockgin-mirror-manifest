@@ -1,0 +1,61 @@
+{
+  "id": "headsortails",
+  "name": "HeadsOrTails",
+  "author": "Kylan1940",
+  "description": "Description",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/HeadsOrTails)](https://poggit.pmmp.io/p/HeadsOrTails)\n[![](https://poggit.pmmp.io/shield.dl.total/HeadsOrTails)](https://poggit.pmmp.io/p/HeadsOrTails)\n[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/Kylan1940)\n![Discord Banner 1](https://discordapp.com/api/guilds/1121026138525945956/widget.png?style=banner1)\n\n# Description\nGuess! Heads Or Tails? If you are have a question, please make a [issues](https://github.com/Kylan1940/HeadsOrTails/issues/new)\n\n# Features\n>- Simple\n>- Console Support\n>- With UI\n>- Gambling (soon)\n\n# Download\n| Version | Phar | Zip | Support |\n|---|---|---|---|\n| 1.1.0 | [Download](https://poggit.pmmp.io/p/HeadsOrTails/1.1.0) | [Download](https://github.com/Kylan1940/HeadsOrTails/archive/refs/tags/1.1.0.zip) | 5.x.x | \n| 1.0.0 | [Download](https://poggit.pmmp.io/p/HeadsOrTails/1.0.0) | [Download](https://github.com/Kylan1940/HeadsOrTails/archive/refs/tags/1.0.0.zip) | 5.x.x |\n\n# Installation\n1. Download the [plugin](https://github.com/Kylan1940/HeadsOrTails/releases/download/HeadsOrTails/HeadsOrTails_v1.1.0.phar)\n2. Put plugin to **plugins** file\n3. Restart the server\n\n# Permission\n| Command | Permission | Default | Description |\n|---|---|---|---|\n| /heads | headsortails.command | YES | Pick Heads Command |\n| /tails | headsortails.command | YES | Pick Tails Command |\n| /headstails | headsortails.ui | YES | HeadsOrTails UI Command |",
+  "readme_source_url": "https://github.com/Kylan1940/HeadsOrTails",
+  "icon_url": "https://raw.githubusercontent.com/Kylan1940/HeadsOrTails/c799f756b8012210dc677e77fcc9935303574119/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Kylan1940/HeadsOrTails",
+  "archive_repo": null,
+  "approved_release_tag": "r-11973",
+  "stars": 0,
+  "total_downloads": 146,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Kylan1940"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/229268",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-11973",
+      "published_at": null,
+      "downloads": 146,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11973/headsortails-1.1.0-r11973.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11973",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11973/headsortails-1.1.0-r11973.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HeadsOrTails",
+    "stable_release_id": 11973
+  }
+}

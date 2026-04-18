@@ -1,0 +1,61 @@
+{
+  "id": "blockblocker",
+  "name": "BlockBlocker",
+  "author": "Cryotap",
+  "description": "General",
+  "readme_markdown": "## General\nDeny the usage of selected blocks in selected worlds.\n\n[![](https://poggit.pmmp.io/shield.state/BlockBlocker)](https://poggit.pmmp.io/p/BlockBlocker)\n\n[![](https://poggit.pmmp.io/shield.api/BlockBlocker)](https://poggit.pmmp.io/p/BlockBlocker)\n\n## Commands | Perms\n/bldisable | bldisable.editor\n\nTo bypass the blocking you can use bldisable.bypass\n\n## Features\n- Toggle if all blocks should be disabled\n\n- Toggle if the blocking should be enabled\n\n- List blocked worlds that when clicked will be removed from the list\n\n- List blocked blocks that can be removed when clicked\n\n- Add a world to block\n\n- Add a block to block\n\n  ## Credits\n  Cryotap",
+  "readme_source_url": "https://github.com/Cryotap/BlockBlocker",
+  "icon_url": "https://raw.githubusercontent.com/Cryotap/BlockBlocker/d7608f27319d5cffbd6304e34bf2fa852184ff0f/icon.gif",
+  "featured": false,
+  "repo": "https://github.com/Cryotap/BlockBlocker",
+  "archive_repo": null,
+  "approved_release_tag": "r-12095",
+  "stars": 0,
+  "total_downloads": 690,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Cryotap"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12095",
+      "published_at": null,
+      "downloads": 690,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12095/blockblocker-1.0.0-r12095.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12095",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12095/blockblocker-1.0.0-r12095.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockBlocker",
+    "stable_release_id": 12095
+  }
+}

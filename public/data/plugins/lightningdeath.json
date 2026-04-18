@@ -1,0 +1,61 @@
+{
+  "id": "lightningdeath",
+  "name": "LightningDeath",
+  "author": "provsalt",
+  "description": "Spawns a lightning strike when a player dies at that location",
+  "readme_markdown": "# LightningDeath\n[![](https://poggit.pmmp.io/shield.dl.total/LightningDeath)](https://poggit.pmmp.io/p/LightningDeath)\n\nSpawns a lightning strike when a player dies at that location\n## Idea\nThe idea was requested by ItsBlueey here\nhttps://forums.pmmp.io/threads/lightning-strike-upon-death.8948/\n### How to use?\nDrop this plugin into your pocketmine's plugin folder and enjoy\n\n#### Permissions\n``lightningdeath.bypass`` Bypass lightning strike on players who have this permissions death",
+  "readme_source_url": "https://github.com/provsalt/LightningDeath",
+  "icon_url": "https://raw.githubusercontent.com/provsalt/LightningDeath/4783b80034c73450f1866ecb4165676152030c61/icon.png",
+  "featured": false,
+  "repo": "https://github.com/provsalt/LightningDeath",
+  "archive_repo": null,
+  "approved_release_tag": "r-11980",
+  "stars": 0,
+  "total_downloads": 957,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "provsalt"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/216976",
+  "versions": {
+    "stable": {
+      "version": "1.3.6",
+      "tag": "r-11980",
+      "published_at": null,
+      "downloads": 957,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11980/lightningdeath-1.3.6-r11980.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11980",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11980/lightningdeath-1.3.6-r11980.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LightningDeath",
+    "stable_release_id": 11980
+  }
+}

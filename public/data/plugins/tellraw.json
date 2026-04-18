@@ -1,0 +1,61 @@
+{
+  "id": "tellraw",
+  "name": "TellRaw",
+  "author": "ElectroGamesYT",
+  "description": "Information",
+  "readme_markdown": "# Information \n - This plugin allows staff to send players messages without the player seeing who it was from.\n - Example:\n - (Staff) \"/tellraw Steve Welcome Player!\"\n - (Steve) \"Welcome Player!\"\n - You can also send everyone a message using \"/tellraw all {message}\"\n# Features \n- Send messages to players without saying who it is from.\n- Great for info messages such as \"Coming Soon\" or welcome messages.\n# Command\n- /tellraw {PlayerName} {Message}\n- /tellraw all {Message}\n# Permissions\n- tellraw.cmd\n# Credits\n- Icon from www.flaticon.com",
+  "readme_source_url": "https://github.com/ElectroGamesYT/TellRaw",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/TellRaw/214c59befe852ae380cc8002263c863a1fc8f254/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/TellRaw",
+  "archive_repo": null,
+  "approved_release_tag": "r-12129",
+  "stars": 0,
+  "total_downloads": 305,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218865",
+  "versions": {
+    "stable": {
+      "version": "3.0.0",
+      "tag": "r-12129",
+      "published_at": null,
+      "downloads": 305,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12129/tellraw-3.0.0-r12129.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12129",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12129/tellraw-3.0.0-r12129.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TellRaw",
+    "stable_release_id": 12129
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "oneplayersleep",
+  "name": "OnePlayerSleep",
+  "author": "ecstsylove",
+  "description": "The OnePlayerSleep plugin is a simple yet powerful tool that enhances the sleeping mechanics in Pocketmine-MP servers. It allows a single player to skip the night and reset the...",
+  "readme_markdown": "<h1><a id=\"user-content-overview\" class=\"anchor\" aria-hidden=\"true\" href=\"#overview\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Overview</h1>\n<p>The OnePlayerSleep plugin is a simple yet powerful tool that enhances the sleeping mechanics in Pocketmine-MP servers. It allows a single player to skip the night and reset the time to day without requiring other players to sleep. Say goodbye to pesky monsters lurking in the dark, and wake up to beautiful mornings!</p>\n<h1><a id=\"user-content-features\" class=\"anchor\" aria-hidden=\"true\" href=\"#features\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Features</h1>\n<p><strong>Effortless Sleeping:</strong> With OnePlayerSleep, a single player can initiate sleep and skip the night, without needing the cooperation of other players.</p>\n<p><strong>Day Reset:</strong> When a player sleeps, the time resets to day, bringing forth a fresh start for everyone on the server.</p>\n<p><strong>Customizable Messages:</strong> Customize your morning announcements and sleeping messages to add a personal touch to your server.</p>\n<h1><a id=\"user-content-how-to-use\" class=\"anchor\" aria-hidden=\"true\" href=\"#how-to-use\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How to Use</h1>\n<p><strong>Sleeping:</strong> When a player enters a bed, the night will be skipped, and time will reset to day without requiring other players to sleep.</p>\n<p><strong>Customize Messages:</strong> You can personalize the morning announcement and sleeping messages to align with your server's theme. Edit the config.yml file to tailor the messages to your liking.</p>\n<p><strong>Installation:</strong> Simply drop the OnePlayerSleep plugin into your PocketMine plugins folder, and it's ready to go! No complex setup needed.</p>\n<h1><a id=\"user-content-configuration\" class=\"anchor\" aria-hidden=\"true\" href=\"#configuration\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Configuration</h1>\n<p>OnePlayerSleep comes with a user-friendly configuration file <code>config.yml</code>, where you can modify various options to fit your preferences. Customize morning announcements, sleeping messages, and more!</p>\n<h1><a id=\"user-content-icon\" class=\"anchor\" aria-hidden=\"true\" href=\"#icon\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Icon</h1>\n<p><a href=\"https://www.freepik.com/icon/night_1146826#position=1&amp;page=1&amp;term=bed+day+night&amp;fromView=search\" rel=\"nofollow\">Icon by Freepik</a></p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/217516",
+  "icon_url": "https://raw.githubusercontent.com/iLVOEWOCK/OnePlayerSleep/e95aa47ae7a75cc9a319c1deda48a223adf46e9d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ecstsylove/OnePlayerSleep",
+  "archive_repo": null,
+  "approved_release_tag": "r-12022",
+  "stars": 0,
+  "total_downloads": 2426,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ecstsylove"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12022",
+      "published_at": null,
+      "downloads": 2426,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12022/oneplayersleep-1.0.0-r12022.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12022",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12022/oneplayersleep-1.0.0-r12022.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "OnePlayerSleep",
+    "stable_release_id": 12022
+  }
+}

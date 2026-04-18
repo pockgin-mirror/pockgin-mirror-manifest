@@ -1,0 +1,61 @@
+{
+  "id": "betterflight",
+  "name": "BetterFlight",
+  "author": "ElectroGamesYT",
+  "description": "Information",
+  "readme_markdown": "# Information \n- BetterFlight is a customizable flight plugin for PocketMine\n# Features\n- Whitelist/Blacklist worlds\n- Players lose flight in combat (optional)\n- Give other players flight with \"/fly <playerName>\"\n- Customizable messages\n# Commands\n- /fly <player>\n- /flight <player>\n# Permissions\n- BetterFlight.cmd\n# Credits\n- Icon from www.flaticon.com\n- Subscribe to Electro Games on YouTube!",
+  "readme_source_url": "https://github.com/ElectroGamesYT/BetterFlight",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/BetterFlight/45f61d24d943b18f76a72cd19dcd21f22ef09510/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/BetterFlight",
+  "archive_repo": null,
+  "approved_release_tag": "r-12125",
+  "stars": 4,
+  "total_downloads": 745,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218845",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12125",
+      "published_at": null,
+      "downloads": 745,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12125/betterflight-2.0.0-r12125.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12125",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12125/betterflight-2.0.0-r12125.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterFlight",
+    "stable_release_id": 12125
+  }
+}

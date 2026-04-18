@@ -1,0 +1,61 @@
+{
+  "id": "minereset38",
+  "name": "minereset38",
+  "author": "KingOfTurkey38",
+  "description": "High performance mine reset plugin for PocketMine-MP 5.0.0",
+  "readme_markdown": "# MineReset38\nHigh performance mine reset plugin for PocketMine-MP 5.0.0\nUnlike other plugins, this plugin is not threaded but asynchronous.\n\nWhen a mine resets, it teleports the players inside the mine to the spawnpoint of that world.\n\n# Reset speed\nBy default mines will reset at a speed of 3000 blocks a tick.\nThis amount can be increased/decreased in the config.\n\n# Preview\nYou can learn more about the commands and how to setup in the following video https://streamable.com/e34028\n\n# For developers\nThere's a cancellable event called `\\kingofturkey38\\minereset38\\events\\MineResetEvent`\nIf this event is cancelled, it will not reset the mine.",
+  "readme_source_url": "https://github.com/KingOfTurkey38/MineReset38",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/KingOfTurkey38/MineReset38",
+  "archive_repo": null,
+  "approved_release_tag": "r-11977",
+  "stars": 0,
+  "total_downloads": 1211,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KingOfTurkey38"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/216916",
+  "versions": {
+    "stable": {
+      "version": "0.0.4",
+      "tag": "r-11977",
+      "published_at": null,
+      "downloads": 1211,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11977/minereset38-0.0.4-r11977.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11977",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11977/minereset38-0.0.4-r11977.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "minereset38",
+    "stable_release_id": 11977
+  }
+}

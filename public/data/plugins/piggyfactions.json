@@ -1,0 +1,66 @@
+{
+  "id": "piggyfactions",
+  "name": "PiggyFactions",
+  "author": "DaPigGuy",
+  "description": "PiggyFactions is an open-sourced factions plugin for PocketMine-MP.",
+  "readme_markdown": "![PiggyFactions Banner](https://raw.githubusercontent.com/Aericio/piggydocs-rtd/master/source/_static/img/piggyfactions/banner.png)\n\n# PiggyFactions [![Poggit-CI](https://poggit.pmmp.io/shield.dl/PiggyFactions)](https://poggit.pmmp.io/p/PiggyFactions) [![Discord](https://img.shields.io/discord/330850307607363585?logo=discord)](https://discord.gg/qmnDsSD)\n\nPiggyFactions is an open-sourced factions plugin for [PocketMine-MP](https://github.com/pmmp/PocketMine-MP).\n\n## Documentation\n*Documentation is currently not up to date as of version 2.0.0*\n* PiggyFaction's documentation is available at [piggydocs-rtd](https://rtdx.aericio.net/en/latest/plugins/piggyfactions/index.html).\n  * [Prerequisites](https://rtdx.aericio.net/en/latest/plugins/piggyfactions/docs/prerequisites.html)\n  * [Quick Start Guide](https://rtdx.aericio.net/en/latest/plugins/piggyfactions/docs/quickstart.html)\n  * [Commands & Permissions](https://rtdx.aericio.net/en/latest/plugins/piggyfactions/docs/commands-and-permissions.html)\n  * [Functionality](https://rtdx.aericio.net/en/latest/plugins/piggyfactions/docs/functionality.html)\n    * How do I overclaim other factions? How does power work? --> Functionality\n\n## Addons\n| Plugin | Description | Installation |\n|-|-|:-:|\n| [![Download] PiggyCustomEnchants](https://poggit.pmmp.io/p/PiggyCustomEnchants) | AllyChecks Integration | Automatically enabled. |\n| [![Download] HRKChat](https://poggit.pmmp.io/ci/CortexPE/HRKChat) | Chat Integration | Requires [Hierarchy](https://poggit.pmmp.io/ci/CortexPE/Hierarchy). [Additional setup required](https://rtdx.aericio.net/en/latest/plugins/piggyfactions/docs/quickstart.html#hrkchat). |\n| [![Download] PureChat-PiggyFactions](https://github.com/Heisenburger69/PureChat/releases/download/2.0.0/PureChat-PiggyFactions_v2.0.0.phar) | Chat Integration | Requires [PurePerms](https://poggit.pmmp.io/ci/Heisenburger69/PureChat). [Additional setup required](https://rtdx.aericio.net/en/latest/plugins/piggyfactions/docs/quickstart.html#purechat). |\n| [![Download] ScoreHud v5](https://poggit.pmmp.io/p/ScoreHud/5.2.0) | Scoreboard Integration | Requires [Addon Script](https://gist.github.com/DaPigGuy/07442f8b98a70e5973a528e4516e35d1). See [installation steps](https://github.com/Ifera/ScoreHud/tree/v5#how-to-use-addons) and [tags](https://rtdx.aericio.net/en/latest/plugins/piggyfactions/docs/addons.html#scorehud-v5-legacy). |\n| [![Download] ScoreHud v6](https://poggit.pmmp.io/p/ScoreHud) | Scoreboard Integration (recommended) | Automatically enabled. See [tags](https://rtdx.aericio.net/en/latest/plugins/piggyfactions/docs/addons.html#scorehud-v6). |\n| [![Download] EconomyAPI](https://poggit.pmmp.io/p/EconomyAPI) | Economy Integration | [Additional setup required](https://rtdx.aericio.net/en/latest/plugins/piggyfactions/docs/further-configuration.html#economy). |\n| [![Download] MultiEconomy](https://poggit.pmmp.io/p/MultiEconomy) | Economy Integration | [Additional setup required](https://rtdx.aericio.net/en/latest/plugins/piggyfactions/docs/further-configuration.html#economy). |\n\n[Download]: https://i.imgur.com/PnWVUhK.png\n\n## Features\n| Feature | PiggyFactions | SimpleFactions | FactionsPro |\n|-|:-:|:-:|:-:|\n| PiggyCE Integration | ✔ | ❌ | ❌ |\n| Hierarchy/HRKChat Integration | ✔ | ❌ | ❌ |\n| Economy Integration | ✔ | ✔ | ❌ |\n| ScoreHud Integration (v5 & v6) | ✔ | ❌ | ❌ |\n| Saves Players by UUID | ✔ | ❌ | ❌ |\n| Per Faction Permissions | ✔ | ❌ | ❌ |\n| SQLite3 Support | ✔ | ✔ | ✔ |\n| MySQL Support | ✔ | ✔ | ❌ |\n| Asynchronous Database I/O | ✔ | ✔ | ❌ |\n| SQL Injection Protection | ✔ | ❌ | ❌ |\n| Command Autocomplete | ✔ | ❌ | ❌ |\n| Form UI | ✔ | ❌ | ❌ |\n| Multi-Language Support | ✔ | ✔ | ❌ |\n| Developer Friendly | ✔ | ❌ | ❌ |\n\n## Issue Reporting\n* If you experience an unexpected non-crash behavior with PiggyFactions, click [here](https://github.com/DaPigGuy/PiggyFactions/issues/new?assignees=DaPigGuy&labels=bug&template=bug_report.md&title=).\n* If you experience a crash in PiggyFactions, click [here](https://github.com/DaPigGuy/PiggyFactions/issues/new?assignees=DaPigGuy&labels=bug&template=crash.md&title=).\n* If you would like to suggest a feature to be added to PiggyFactions, click [here](https://github.com/DaPigGuy/PiggyFactions/issues/new?assignees=DaPigGuy&labels=suggestion&template=suggestion.md&title=).\n* If you require support, please join our discord server [here](https://discord.gg/qmnDsSD).\n* Do not file any issues related to outdated API version; we will resolve such issues as soon as possible.\n* We do not support any spoons of PocketMine-MP. Anything to do with spoons (Issues or PRs) will be ignored.\n  * This includes plugins that modify PocketMine-MP's behavior directly, such as TeaSpoon.\n\n## Additional Information\n* We do not support any spoons. Anything to do with spoons (Issues or PRs) will be ignored.\n* We are using the following virions: [Commando](https://github.com/DaPigGuy/Commando-4.0.0), [libasynql](https://github.com/poggit/libasynql), [libPiggyEconomy](https://github.com/DaPigGuy/libPiggyEconomy) and [libFormAPI](https://github.com/DaPigGuy/FormAPI-4.0.0).\n    * **Unless you know what you are doing, use the pre-compiled phar from [Poggit-CI](https://poggit.pmmp.io/ci/DaPigGuy/PiggyFactions/~) and not GitHub.**\n    * If you wish to run it via source, check out [DEVirion](https://github.com/poggit/devirion).\n\n## Translators\n* **Chinese (Simplified)** - @Taylarity, @Aericio, TGPNG, prprprprprprpr\n* **Chinese (Traditional)** - @Taylarity, @Aericio, TGPNG, prprprprprprpr\n<!-- **Dutch** - @KingOfTurkey38 -->\n* **French** - Thouv (@adeynes), @ItsMax123, steelfri_031, @superbobby2000\n* **German** - @SalmonDE\n* **Indonesian** - @MrAshshiddiq, @SillierShark195\n<!-- **Korean** - @Nabibobettau -->\n<!-- **Romanian** - @Gabitzuu -->\n* **Serbian** - yuriiscute53925\n* **Spanish** - @UnEnanoMas\n<!-- **Turkish** - @KingOfTurkey38 -->\n\n## License\n```\n   Copyright 2020 DaPigGuy\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n\n```\n\"[Castle](https://pixabay.com/images/id-2672317/)\" vector graphic used in the [banner](https://raw.githubusercontent.com/DaPigGuy/PiggyFactions/master/resources/img/PiggyFactions-banner.png) and [icon](https://raw.githubusercontent.com/DaPigGuy/PiggyFactions/master/resources/img/PiggyFactions-icon.png) is licensed under the [Pixabay License](https://pixabay.com/service/license/).",
+  "readme_source_url": "https://github.com/DaPigGuy/PiggyFactions",
+  "icon_url": "https://raw.githubusercontent.com/DaPigGuy/PiggyFactions/ca5ebb3ed2cd559e0007172e957b0b7b3a443d36/resources/PiggyFactions-icon.png",
+  "featured": false,
+  "repo": "https://github.com/DaPigGuy/PiggyFactions",
+  "archive_repo": null,
+  "approved_release_tag": "r-11971",
+  "stars": 0,
+  "total_downloads": 3222,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "ScoreHud",
+      "PiggyCustomEnchants",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaPigGuy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/216841",
+  "versions": {
+    "stable": {
+      "version": "2.1.0",
+      "tag": "r-11971",
+      "published_at": null,
+      "downloads": 3222,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11971/piggyfactions-2.1.0-r11971.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11971",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11971/piggyfactions-2.1.0-r11971.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PiggyFactions",
+    "stable_release_id": 11971
+  }
+}

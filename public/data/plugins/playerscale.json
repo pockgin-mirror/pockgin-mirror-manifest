@@ -1,0 +1,61 @@
+{
+  "id": "playerscale",
+  "name": "PlayerScale",
+  "author": "ElectroGamesYT",
+  "description": "Information",
+  "readme_markdown": "# Information \n- PlayerScale allows you to change the size of players!\n# Features\n- Forms support\n- Size yourself and other players\n# Commands\n- /size <set/ui>\n- /scale <set/ui>\n# Permissions\n- PlayerScale.cmd\n# Credits\n- Subscribe to Electro Games on YouTube!",
+  "readme_source_url": "https://github.com/ElectroGamesYT/PlayerScale",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/PlayerScale/a39ea501fa9ddfa609eee8a22a2db3995000574b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/PlayerScale",
+  "archive_repo": null,
+  "approved_release_tag": "r-12127",
+  "stars": 0,
+  "total_downloads": 673,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218855",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12127",
+      "published_at": null,
+      "downloads": 673,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12127/playerscale-2.0.0-r12127.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12127",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12127/playerscale-2.0.0-r12127.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerScale",
+    "stable_release_id": 12127
+  }
+}

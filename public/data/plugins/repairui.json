@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14245",
   "stars": 0,
-  "total_downloads": 1638,
+  "total_downloads": 3196,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -57,6 +57,11 @@
       "tag": "r-13087",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13087/repairui-3.0.0-r13087.phar"
+    },
+    {
+      "tag": "r-12107",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12107/repairui-2.0.0-r12107.phar"
     }
   ],
   "comments": {

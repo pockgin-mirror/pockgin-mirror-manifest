@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12197",
   "stars": 2,
-  "total_downloads": 178,
+  "total_downloads": 208,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.0.2",
       "tag": "r-12197",
       "published_at": null,
-      "downloads": 147,
+      "downloads": 148,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12197/nospace-1.0.2-r12197.phar"
     },
     "dev": null
@@ -49,6 +49,11 @@
       "tag": "r-12151",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12151/nospace-1.0.1-r12151.phar"
+    },
+    {
+      "tag": "r-12102",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12102/nospace-1.0.0-r12102.phar"
     }
   ],
   "comments": {

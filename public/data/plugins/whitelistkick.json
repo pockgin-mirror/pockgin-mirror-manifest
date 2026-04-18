@@ -1,0 +1,61 @@
+{
+  "id": "whitelistkick",
+  "name": "WhitelistKick",
+  "author": "Kylan1940",
+  "description": "Description",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/WhitelistKick)](https://poggit.pmmp.io/p/WhitelistKick)\n[![](https://poggit.pmmp.io/shield.api/WhitelistKick)](https://poggit.pmmp.io/p/WhitelistKick)\n[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/Kylan1940)\n![Discord Banner 1](https://discordapp.com/api/guilds/1121026138525945956/widget.png?style=banner1)\n\n# Description\nKick all players when whitelist on, for PocketMine-MP. If you are have a question, please make a [issues](https://github.com/Kylan1940/WhitelistKick/issues/new)\n\n# Features\n>- Automatically\n>- Can enable/disable\n>- Kick reason configuration\n\n# Download\n| Version | Phar | Zip | Support |\n|---|---|---|---|\n| 1.0.0 | [Download]() | [Download]() | 5.x.x |\n\n# Installation\n1. Download the [plugin]()\n3. Put plugin to **plugins** file\n4. Restart the server",
+  "readme_source_url": "https://github.com/Kylan1940/WhitelistKick",
+  "icon_url": "https://raw.githubusercontent.com/Kylan1940/WhitelistKick/e8a5e06b5d4ccc7e40a80a56db23a8f48c502f3e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Kylan1940/WhitelistKick",
+  "archive_repo": null,
+  "approved_release_tag": "r-12083",
+  "stars": 5,
+  "total_downloads": 224,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Kylan1940"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12083",
+      "published_at": null,
+      "downloads": 224,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12083/whitelistkick-1.0.0-r12083.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12083",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12083/whitelistkick-1.0.0-r12083.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WhitelistKick",
+    "stable_release_id": 12083
+  }
+}

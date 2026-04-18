@@ -1,0 +1,61 @@
+{
+  "id": "customjoinsound",
+  "name": "CustomJoinSound",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**You should hear \"Welcome to the server!\" when join server**\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/CustomJoinSound",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/CustomJoinSound/4ad0197058ef1b786d149a1764cec679d964b249/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/CustomJoinSound",
+  "archive_repo": null,
+  "approved_release_tag": "r-12028",
+  "stars": 0,
+  "total_downloads": 826,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/217565",
+  "versions": {
+    "stable": {
+      "version": "1.0.6",
+      "tag": "r-12028",
+      "published_at": null,
+      "downloads": 826,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12028/customjoinsound-1.0.6-r12028.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12028",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12028/customjoinsound-1.0.6-r12028.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomJoinSound",
+    "stable_release_id": 12028
+  }
+}

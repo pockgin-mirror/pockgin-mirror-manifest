@@ -1,0 +1,61 @@
+{
+  "id": "betterwarps",
+  "name": "BetterWarps",
+  "author": "ElectroGamesYT",
+  "description": "Information",
+  "readme_markdown": "# Information \n- BetterWarps is unique compared to other warp plugins.\n- Warps are registered as commands so to teleport to a warp, players use \"/warpName\" instead of \"/warp warpName\".\n# Features\n- Warps are registered as commands\n- Warps can require permissions\n- Warps are easy to setup\n# Commands\n- /warp create\n- /warp remove\n- /warp list\n# Permissions\n- betterwarps.cmd\n- betterwarps.warp\n# Images\n![BetterWarps1](https://user-images.githubusercontent.com/34932094/144692316-dce9534d-10c1-4552-be67-a21ef11393a0.PNG)\n![BetterWarps2](https://user-images.githubusercontent.com/34932094/144692317-cc239f0a-ad9d-477e-82b9-d9e919d76a54.PNG)\n# Credits\n- Icon from www.flaticon.com\n- Subscribe to Electro Games on YouTube!",
+  "readme_source_url": "https://github.com/ElectroGamesYT/BetterWarps",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/BetterWarps/abe7a57b8194fae401159a9df0faf6ec9ef15138/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/BetterWarps",
+  "archive_repo": null,
+  "approved_release_tag": "r-12128",
+  "stars": 4,
+  "total_downloads": 3578,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218860",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12128",
+      "published_at": null,
+      "downloads": 3578,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12128/betterwarps-2.0.0-r12128.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12128",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12128/betterwarps-2.0.0-r12128.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterWarps",
+    "stable_release_id": 12128
+  }
+}

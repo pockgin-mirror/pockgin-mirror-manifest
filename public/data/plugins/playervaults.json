@@ -1,0 +1,66 @@
+{
+  "id": "playervaults",
+  "name": "PlayerVaults",
+  "author": "Muqsit",
+  "description": "A PocketMine-MP plugin that gives players a secondary portable inventor(y/ies) of 54 slots in size. These inventories can be accessed anywhere!",
+  "readme_markdown": "# PlayerVaults\n[![](https://poggit.pmmp.io/shield.dl.total/PlayerVaults)](https://poggit.pmmp.io/p/PlayerVaults)\n[![](https://poggit.pmmp.io/shield.api/PlayerVaults)](https://poggit.pmmp.io/p/PlayerVaults)\n\n\nA PocketMine-MP plugin that gives players a secondary portable inventor(y/ies) of 54 slots in size. These inventories can be accessed anywhere!\n\n## Usage\nRun `/pv 1` to access your personal Vault #1.\n![img.png](images/screenshot-vault-1.png)\n\n## Wiki\nRefer to the [PlayerVaults Wiki](https://github.com/Muqsit/PlayerVaults/wiki) to get help with commands and permissions.\n\n## Example API Usage\nOpening player's vault #1 as a `$player`.\n\n```php\nuse muqsit\\playervaults\\PlayerVaults;\nuse muqsit\\playervaults\\PlayerVaultsException;use muqsit\\playervaults\\vault\\Vault;use pocketmine\\player\\Player;\nuse pocketmine\\Server;\n\n/** @var Player $player */\n/** @var PlayerVaults $plugin */\n$plugin = Server::getInstance()->getPluginManager()->getPlugin(\"PlayerVaults\");\n\n// without debug messages:\n$plugin->openVaultWithPermission($player, $player->getName(), 1);\n\n// with debug messages:\n$plugin->openVaultWithPermission($player, $player->getName(), 1, function(Vault $vault) use($player) : void{\n    $player->sendMessage(\"Successfully opened vault\");\n}, function(PlayerVaultsException $exception) use($plugin) : void{\n    $plugin->getLogger()->debug(\"Failed to open vault: {$exception->getMessage()} (code: {$exception->getCode()})\");\n});\n```\n\nOpening another player (`Alex`)'s vault #1 as a `$player`.\n```php\nuse muqsit\\playervaults\\PlayerVaults;\nuse pocketmine\\player\\Player;\nuse pocketmine\\Server;\n\n/** @var Player $player */\n/** @var PlayerVaults $plugin */\n$plugin = Server::getInstance()->getPluginManager()->getPlugin(\"PlayerVaults\");\n$plugin->openVaultWithPermission($player, \"Alex\", 1);\n```\n\nForcefully (skipping permission checks) opening another player (`Alex`)'s vault #1 as a `$player`.\n```php\nuse muqsit\\playervaults\\PlayerVaults;\nuse pocketmine\\player\\Player;\nuse pocketmine\\Server;\n\n/** @var Player $player */\n/** @var PlayerVaults $plugin */\n$plugin = Server::getInstance()->getPluginManager()->getPlugin(\"PlayerVaults\");\n$plugin->openVault($player, \"Alex\", 1);\n```\n\nReading and writing to a specific vault (player `Alex`'s vault #1).\n```php\nuse muqsit\\playervaults\\PlayerVaults;\nuse muqsit\\playervaults\\vault\\Vault;\nuse muqsit\\playervaults\\vault\\VaultAccess;\nuse pocketmine\\item\\VanillaItems;\nuse pocketmine\\Server;\n\n/** @var PlayerVaults $plugin */\n$plugin = Server::getInstance()->getPluginManager()->getPlugin(\"PlayerVaults\");\n$plugin->loadVault(\"Alex\", 1, function(Vault $vault, VaultAccess $access) : void{\n    $inventory = $vault->getInventory();\n    $item = $inventory->getItem(0); // item in first slot\n    $inventory->addItem(VanillaItems::APPLE());\n    $access->release(); // unloads vault and if necessary, saves vault\n});\n```\n\nWriting to a specific vault asynchronously.\n```php\nuse muqsit\\playervaults\\PlayerVaults;\nuse muqsit\\playervaults\\vault\\Vault;\nuse muqsit\\playervaults\\vault\\VaultAccess;\nuse pocketmine\\item\\VanillaItems;\nuse pocketmine\\scheduler\\ClosureTask;\n\n/** @var PlayerVaults $plugin */\n$scheduler = $plugin->getScheduler();\n$plugin->loadVault(\"Alex\", 1, function(Vault $vault, VaultAccess $access) use($scheduler) : void{\n    $inventory = $vault->getInventory();\n    $scheduler->scheduleRepeatingTask(new ClosureTask(function() use($inventory, $access) : void{\n        $inventory->addItem(VanillaItems::APPLE());\n        $access->release();\n    }), 100);\n});\n```",
+  "readme_source_url": "https://github.com/Muqsit/PlayerVaults",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Muqsit/PlayerVaults",
+  "archive_repo": null,
+  "approved_release_tag": "r-12029",
+  "stars": 5,
+  "total_downloads": 1699,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Muqsit"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/217571",
+  "versions": {
+    "stable": {
+      "version": "3.5.3",
+      "tag": "r-12029",
+      "published_at": null,
+      "downloads": 1570,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12029/playervaults-3.5.3-r12029.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12029",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12029/playervaults-3.5.3-r12029.phar"
+    },
+    {
+      "tag": "r-11933",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11933/playervaults-3.5.2-r11933.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerVaults",
+    "stable_release_id": 12029
+  }
+}

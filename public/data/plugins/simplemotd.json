@@ -1,0 +1,61 @@
+{
+  "id": "simplemotd",
+  "name": "SimpleMotd",
+  "author": "AIPTU",
+  "description": "A PocketMine-MP plugin to change server motd easily.",
+  "readme_markdown": "# SimpleMotd\n\n[![](https://poggit.pmmp.io/shield.state/SimpleMotd)](https://poggit.pmmp.io/p/SimpleMotd)\n[![](https://poggit.pmmp.io/shield.dl.total/SimpleMotd)](https://poggit.pmmp.io/p/SimpleMotd)\n\nA PocketMine-MP plugin to change server motd easily.\n\n# Features\n\n- `Dynamic Message of the Day (MOTD)`: The plugin allows server administrators to set up a dynamic MOTD that changes periodically, showing different messages to players when they join the server.\n- `MOTD Configuration`: The plugin provides a configuration file that allows administrators to customize various aspects of the MOTD, including enabling or disabling it, setting the interval for message changes, specifying the messages to display, and configuring prefix and suffix text.\n- `Placeholder Support`: The plugin supports placeholders in the MOTD messages, allowing administrators to show dynamic information to players. Available placeholders include the maximum number of players supported by the server, the number of online players, the configured prefix and suffix, and the current time.\n- `Color Formatting`: The MOTD messages can be colored using \"§\" or \"&\" color codes, providing visual appeal and customization options for the server's welcome messages.\n- `MOTD Update Interval`: Administrators can set the interval (in seconds) between each MOTD change. This allows them to control how frequently the MOTD messages cycle through the configured options.\n- `Config Version Management`: The plugin ensures that the configuration file is up-to-date. If an outdated config file is provided, it generates a new one and backs up the old config, preventing compatibility issues.\n- `Error Handling`: The plugin includes error handling mechanisms to notify administrators in case of any configuration issues or critical errors during the generation of a new config.\n- `Date/Time Customization`: Administrators can customize the date and time format displayed in the MOTD to match their desired format, using the standard PHP date format codes.\n- `MOTD Enable/Disable`: Administrators have the flexibility to enable or disable the MOTD feature altogether. When disabled, the plugin will not proceed with displaying the MOTD messages.\n- `MOTD Scheduler`: The plugin uses the PocketMine scheduler to periodically change the MOTD messages based on the configured interval, ensuring a seamless and automatic rotation of messages.\n\n# Default Config\n```yaml\n# Do not change this (Only for internal use)!\nconfig-version: 1.2\n\n# Prefix used in MOTD messages. Use \"§\" or \"&\" to color the message.\nprefix: \"&b»\"\n# Suffix used in MOTD messages. Use \"§\" or \"&\" to color the message.\nsuffix: \"&b«\"\n# Date\\Time format (replaced in {TIME}).\n# For format codes read https://php.net/manual/en/datetime.formats.php\ndatetime-format: \"H:i:s\"\n\n# Message of the Day (MOTD) Configuration\nmotd:\n  # Enable the MOTD.\n  enabled: true\n  # MOTD interval (in seconds).\n  time: 15\n  # Messages used to display the MOTD. You can use placeholders to show dynamic information.\n  # Available placeholders:\n  # - {MAX_PLAYERS}: Show the maximum number of players supported by the server.\n  # - {ONLINE_PLAYERS}: Show the number of all online players.\n  # - {PREFIX}: Show the configured prefix.\n  # - {SUFFIX}: Show the configured suffix.\n  # - {TIME}: Show current time based on the 'datetime-format' setting.\n  # Use \"§\" or \"&\" to color the message.\n  messages:\n    - \"&a[{TIME}] {PREFIX} Welcome to our awesome server {SUFFIX}\" # Example: [10:30:45] » Welcome to our awesome server «\n    - \"&b[{TIME}] Current online: &a{ONLINE_PLAYERS}/{MAX_PLAYERS}\" # Example: [10:30:45] Current online: 50/100\n    - \"&b[{TIME}] {PREFIX} Thanks for joining! Have fun! {SUFFIX}\" # Example: [10:30:45] » Thanks for joining! Have fun! «\n\n```\n\n# Upcoming Features\n\n- Currently none planned. You can contribute or suggest for new features.\n\n# Additional Notes\n\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/AIPTU/SimpleMotd/issues).\n- We accept all contributions! If you want to contribute, please make a pull request in [here](https://github.com/AIPTU/SimpleMotd/pulls).\n- Icons made from [www.flaticon.com](https://www.flaticon.com)",
+  "readme_source_url": "https://github.com/AIPTU/SimpleMotd",
+  "icon_url": "https://raw.githubusercontent.com/AIPTU/SimpleMotd/2ad713a3fb1460420be438ea5565ad6dded2576a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AIPTU/SimpleMotd",
+  "archive_repo": null,
+  "approved_release_tag": "r-12002",
+  "stars": 0,
+  "total_downloads": 698,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AIPTU"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/217322",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-12002",
+      "published_at": null,
+      "downloads": 698,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12002/simplemotd-1.2.0-r12002.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12002",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12002/simplemotd-1.2.0-r12002.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleMotd",
+    "stable_release_id": 12002
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "trashcommand",
+  "name": "TrashCommand",
+  "author": "antbag-dev",
+  "description": "A Pocketmine plugin that allows players to open Trash Menu",
+  "readme_markdown": "# TrashCommand\nA Pocketmine plugin that allows players to open Trash Menu",
+  "readme_source_url": "https://github.com/antbag-dev/TrashCommand",
+  "icon_url": "https://raw.githubusercontent.com/antbag-dev/TrashCommand/4ca9136309fd2a3bb4d889afaf4133d37cada808/bin.png",
+  "featured": false,
+  "repo": "https://github.com/antbag-dev/TrashCommand",
+  "archive_repo": null,
+  "approved_release_tag": "r-12118",
+  "stars": 0,
+  "total_downloads": 358,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "antbag-dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-12118",
+      "published_at": null,
+      "downloads": 358,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12118/trashcommand-0.0.1-r12118.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12118",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12118/trashcommand-0.0.1-r12118.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TrashCommand",
+    "stable_release_id": 12118
+  }
+}

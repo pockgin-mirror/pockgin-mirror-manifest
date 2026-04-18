@@ -1,0 +1,61 @@
+{
+  "id": "stackstorage",
+  "name": "StackStorage",
+  "author": "Ree-jp-minecraft",
+  "description": "Add endless storage that is simple and easy to use",
+  "readme_markdown": "# StackStorage [![](https://poggit.pmmp.io/shield.dl.total/StackStorage)](https://poggit.pmmp.io/p/StackStorage)\n\nAdd endless storage that is simple and easy to use  \nPlease check the Feature tab for details.\n\n## Warning\n\nVersions prior to 2.0 require data migration  \nSee Migrate-V2 for how to migrate.\n\n# Setup\n\n## Config\n\n### config.yml\n\n```yml\n# If you are using mysql, choose whether to initialize the function in the DB at server startup\n# It is recommended to disable it only when using the same database on multiple servers\n# You need to enable this once to load the plugin and initialize the function.\ninit_func: true\n\n# You can specify the interval to save the cache in seconds\ncache_interval: 1\n\n# Checks storage data when the player login\nproblem_auto_solution: true\n```\n\n### sql.yml\n\n```yml\ndatabase:\n  # mysql or sqlite\n  type: mysql\n\n    # Edit these settings only if you choose \"sqlite\".\n  sqlite:\n    # The file name of the database in the plugin data folder.\n  # You can also put an absolute path here.\n    file: data.sqlite\n  # Edit these settings only if you choose \"mysql\".\n  mysql:\n    host: 127.0.0.1\n    # Avoid using the \"root\" user for security reasons.\n    username: StackStorage\n    password: password\n    # Database name\n    schema: StackStorage\n  # The maximum number of simultaneous SQL queries\n  # Recommended: 1 for sqlite, 2 for MySQL. You may want to further increase this value if your MySQL connection is very slow.\n  worker-limit: 2\n```\n\n### Mysql Setup\n\n```mysql\nCREATE DATABASE StackStorage;\nCREATE USER StackStorage IDENTIFIED BY 'password';\nGRANT ALL on StackStorage.* to StackStorage;\n```\n\n# How to use\n\nYou can open the storage at `/ stackstorage` or `/st`\n\n# Admin\n\nYou can open someone else's storage with the following command Also, if the player is online, you can also open it with\nthe player's name.\n\n/stackstorage [xuid]\n\n# Feature\n\nUse the familiar chest gui that opens the most while playing with Minecraft to get items in and out infinitely\nEnchantments and durability can also be saved\n![image](https://github.com/Ree-jp-minecraft/StackStrage/blob/master/image/image1.png)\n\nIf you put more than 64 pieces of one item, only 64 pieces will be displayed in the storage, but the amount currently\nstored in the storage is written in the item description field.\nThe description field will be automatically deleted when the player puts it in the inventory, so it will not interfere\n![image2](https://github.com/Ree-jp-minecraft/StackStrage/blob/master/image/image2.png)\n\n# Permission\n\n`stackstorage.command.my`  \nPermission to open my storage by command  \nDefault can be used by anyone\n\n`stackstorage.command.user`  \nPermission to open all user storage by command  \nDefault can be used by op\n\n# StackStorage API\n\nInterface  \n[IStackStorageAPI](https://github.com/Ree-jp-minecraft/StackStrage/blob/master/src/ree_jp/stackstorage/api/IStackStorageAPI.php)\n\nDocument  \nhttps://blog.ree-jp.net/stack-storage-api/\n\n# Note\n\n- Data of versions below 0.1.0 cannot be inherited\n\n# Migrate-V2\n\n※Be sure to back up your data before proceeding\n\nVersions prior to 2.0 require data migration  \nTo migrate data type the following command from the server console`stackstorage migrate-v2`",
+  "readme_source_url": "https://github.com/Ree-jp-minecraft/StackStrage",
+  "icon_url": "https://raw.githubusercontent.com/Ree-jp-minecraft/StackStrage/03c88db8962d8dbf23cd77431443c5137518e460/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Ree-jp-minecraft/StackStrage",
+  "archive_repo": null,
+  "approved_release_tag": "r-11940",
+  "stars": 0,
+  "total_downloads": 1392,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Ree-jp-minecraft"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/216312",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-11940",
+      "published_at": null,
+      "downloads": 1392,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11940/stackstorage-2.0.1-r11940.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11940",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11940/stackstorage-2.0.1-r11940.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "StackStorage",
+    "stable_release_id": 11940
+  }
+}

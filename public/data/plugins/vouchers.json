@@ -1,0 +1,61 @@
+{
+  "id": "vouchers",
+  "name": "Vouchers",
+  "author": "ElectroGamesYT",
+  "description": "Information",
+  "readme_markdown": "# Information \n - This plugin allows admins to put a command in a Voucher. Its great for Rank Vouchers, Money Vouchers, etc!\n# Command\n- /voucher info | Sends the voucher info on the item you are holding.\n- /voucher create <Player> <VoucherName> <Command> | Creates a voucher. (Use {player} when giving the voucher claimer their reward.)\n# Important\n- Use {player} when giving the voucher claimer their reward.\n# Example\n- /voucher create El3ctr0Games \"YouTube Rank\" setgroup {player} YouTube\n# Permissions\n- vouchers.cmd\n# Config\n```\n# {VoucherName} will display the vouchers name. Example \"{VoucherName} Voucher\" would display \"Rank Voucher\" if the voucher name was \"Rank\".\n\nVoucher_Name: §r§l§6{VoucherName} Voucher\n\nVoucher_Lore: §r§7Right Click/Tap To Claim This Voucher\n\nVoucher_Claimed: §aYou have claimed a {VoucherName} Voucher!\n\n```\n# Credits\n- Icon from www.flaticon.com",
+  "readme_source_url": "https://github.com/ElectroGamesYT/Vouchers",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/Vouchers/f3f8802e393d742efe170920a79e1fae24182da4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/Vouchers",
+  "archive_repo": null,
+  "approved_release_tag": "r-12131",
+  "stars": 5,
+  "total_downloads": 430,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218876",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12131",
+      "published_at": null,
+      "downloads": 430,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12131/vouchers-2.0.0-r12131.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12131",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12131/vouchers-2.0.0-r12131.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Vouchers",
+    "stable_release_id": 12131
+  }
+}

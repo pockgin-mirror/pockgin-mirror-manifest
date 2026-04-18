@@ -1,0 +1,61 @@
+{
+  "id": "customtools",
+  "name": "CustomTools",
+  "author": "Pedhot-Dev",
+  "description": "Tools customizer for PocketMine-MP V5",
+  "readme_markdown": "# CustomTools\nTools customizer for PocketMine-MP V5\n\n## Commands & Permission\n| Command       | Permission               | Usage                             | Description                 | Default |\n|---------------|--------------------------|-----------------------------------|-----------------------------|---------|\n| /ctools give  | customtools.command.give | /ctools give <tool name> <player> | Give custom tools to player | OP      |\n| /ctools list  | customtools.command.list | /ctools list                      | List of custom tools        | OP      |\n\n## Registering Custom Tools API\n```php\n// Import\nuse PedhotDev\\CustomTools\\Main;\n\n$customTools = [\n    \"type\" => \"hoe\",\n    \"tier\" => \"netherite\",\n    \"glint\" => true,\n    \"durability\" => 0,\n    \"mining-efficiency\" => 10,\n    \"attack-points\" => 1000,\n    \"name\" => \"ExampleHoe\",\n    \"lore\" => [\n        \"ExampleHoe\"\n    ]\n];\nMain::getInstance()->getCustomToolsManager()->registerTools(\"Tools_Name\", $customTools)\n```\n\n## TODO List\n- [ ] Create and edit tools inside game\n- [ ] Custom Tools craft\n- [ ] Fix mining speed\n- [ ] Fix glint\n\n## Icons\nIcon by [flaticon](https://www.flaticon.com/)",
+  "readme_source_url": "https://github.com/Pedhot-Dev/CustomTools",
+  "icon_url": "https://raw.githubusercontent.com/Pedhot-Dev/CustomTools/fe400bd2891e181bd0a641694221f623f686edb4/pickaxe.png",
+  "featured": false,
+  "repo": "https://github.com/Pedhot-Dev/CustomTools",
+  "archive_repo": null,
+  "approved_release_tag": "r-11949",
+  "stars": 3,
+  "total_downloads": 2614,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Pedhot-Dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11949",
+      "published_at": null,
+      "downloads": 2614,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11949/customtools-1.0.0-r11949.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11949",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11949/customtools-1.0.0-r11949.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomTools",
+    "stable_release_id": 11949
+  }
+}

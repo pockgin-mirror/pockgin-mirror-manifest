@@ -1,0 +1,61 @@
+{
+  "id": "friendssystem",
+  "name": "FriendsSystem",
+  "author": "shreyop200",
+  "description": "FriendSystem",
+  "readme_markdown": "# FriendSystem\n\n[![](https://poggit.pmmp.io/shield.state/FriendsSystem)](https://poggit.pmmp.io/p/FriendsSystem)\n<a href=\"https://poggit.pmmp.io/p/FriendsSystem\"><img src=\"https://poggit.pmmp.io/shield.state/FriendsSystem\"></a>\n\n**FriendSystem** is a powerful plugin designed for **PocketMine-MP** servers that have API 4 As well as API 5 Support, enabling players to efficiently manage their friends list and seamlessly send and accept friend requests. With this plugin, you can view the Features of FriendSystem in the **Feature** Section!\nExperience the ultimate friend management solution for your server with **FriendSystem**!\n\n## Features\n\n- Add and remove friends: Easily add or remove friends to your friend list.\n- Accept or reject friend requests: Accept or reject incoming friend requests from other players.\n- Send friend requests: Send friend requests to other players to connect with them.\n- Block friend requests: Toggle the ability to receive friend requests from others.\n- List friends: View a list of your current friends.\n- Online status notifications: Get notified when your friends come online or go offline.\n- Offline friend messaging: Send messages to your friends even if they are offline.\n- Persistent friend data: Friend list and settings are saved even after server restarts.\n- PM5: The plugin supports API 5 + API 4 Both!\n\n\n| Command                       | Description                   |\n|-------------------------------|-------------------------------|\n| `/friends accept <player>`    | Accept a friend request       |\n| `/friends reject <player>`    | Reject a friend request       |\n| `/friends invite <player>`    | Send a friend request         |\n| `/friends remove <player>`    | Remove a friend               |\n| `/friends list`               | List your friends             |\n| `/friends blocked <on/off>`   | Toggle friend requests        |\n\n\n## Installation\n\n1. Download the latest version of the FriendSystem plugin.\n2. Place the plugin file in the `plugins` folder of your PocketMine-MP server.\n3. Start or reload the server.\n\n -> You can Download FriendSystem By Poggit Too: https://poggit.pmmp.io/p/FriendsSystem\n\n## Usage\n\nTo use the FriendSystem plugin, players can execute the various commands listed above to manage their friends list. They can send friend requests, accept or reject requests, remove friends, and toggle friend request blocking.\n\nPlayers will receive notifications when their friends come online or go offline.\n\n## Contributing\n\nContributions are welcome! If you have any bug reports, feature requests, or suggestions, please open an issue or submit a pull request on the [FriendSystem!](https://github.com/shreyop200/FriendsSystem).\n\n## Owner/Credit\n\nThis plugin was developed by me, Shreyansh ([@shreyop200](https://github.com/shreyop200)). I have contributed to the development of the entire plugin, including features such as adding and removing friends, accepting or rejecting friend requests, sending friend requests, blocking friend requests, listing friends, online status notifications, and offline friend messaging. Feel free to explore my [GitHub profile](https://github.com/shreyop200) for more of my projects and contributions.\n\n\n## License\n\nThis plugin is released under the [Apache License](LICENSE).",
+  "readme_source_url": "https://github.com/shreyop200/FriendsSystem",
+  "icon_url": "https://raw.githubusercontent.com/shreyop200/FriendsSystem/38a8bb54e8456828d64b57c9fdd94c93f15e3054/resources/2024079.png",
+  "featured": false,
+  "repo": "https://github.com/shreyop200/FriendsSystem",
+  "archive_repo": null,
+  "approved_release_tag": "r-12104",
+  "stars": 4,
+  "total_downloads": 1752,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "shreyop200"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218539",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-12104",
+      "published_at": null,
+      "downloads": 1752,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12104/friendssystem-1.1.0-r12104.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12104",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12104/friendssystem-1.1.0-r12104.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FriendsSystem",
+    "stable_release_id": 12104
+  }
+}

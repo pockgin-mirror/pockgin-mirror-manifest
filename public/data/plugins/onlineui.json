@@ -1,0 +1,61 @@
+{
+  "id": "onlineui",
+  "name": "OnlineUI",
+  "author": "Kylan1940",
+  "description": "Description",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/OnlineUI)](https://poggit.pmmp.io/p/OnlineUI)\n[![](https://poggit.pmmp.io/shield.dl.total/OnlineUI)](https://poggit.pmmp.io/p/OnlineUI)\n[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/Kylan1940)\n![Discord Banner 1](https://discordapp.com/api/guilds/1121026138525945956/widget.png?style=banner1)\n\n# Description\nCheck who are in the server with UI, for PocketMine-MP. If you are have a question, please make a [issues](https://github.com/Kylan1940/OnlineUI/issues/new)\n\n# Changelogs [3.2.0]\n>- Added custom commands\n>- Separate Files\n\n# Features\n>- With UI\n>- Simple\n>- Can see player info if we press the gamertag (soon)\n>- Xbox profile display (maybe soon)\n\n# Download\n| Version | Phar | Zip | Support |\n|---|---|---|---|\n| 3.2.0 | [Download](https://poggit.pmmp.io/p/OnlineUI/3.2.0) | [Download](https://github.com/Kylan1940/OnlineUI/archive/refs/tags/3.2.0.zip) | 5.x.x |\n| 3.1.0 | [Download](https://poggit.pmmp.io/p/OnlineUI/3.1.0) | [Download](https://github.com/Kylan1940/OnlineUI/archive/refs/tags/3.1.0.zip) | 5.x.x |\n| 3.0.0 | [Download](https://poggit.pmmp.io/p/OnlineUI/3.0.0) | [Download](https://github.com/Kylan1940/OnlineUI/archive/refs/tags/3.0.0.zip) | 5.x.x |\n| 2.0.0 | [Download](https://poggit.pmmp.io/p/OnlineUI/2.0.0) | [Download](https://github.com/Kylan1940/OnlineUI/archive/refs/tags/2.0.0.zip) | 4.x.x |\n| 1.1.9 | [Download](https://github.com/Kylan1940/OnlineUI/releases/download/1.1.9/OnlineUI_v1.1.9.phar) | [Download](https://github.com/Kylan1940/OnlineUI/archive/refs/tags/1.1.9.zip) | 3.x.x |\n| 1.0.0 | [Download](https://github.com/Kylan1940/OnlineUI/releases/download/1.0.0/OnlineUI_v1.0.0.phar) | [Download](https://github.com/Kylan1940/OnlineUI/archive/refs/tags/1.0.0.zip) | 3.x.x |\n\n# Installation\n1. Download the [plugin](https://github.com/Kylan1940/OnlineUI/releases/download/OnlineUI/OnlineUI_v3.2.0.phar)\n3. Put plugin to **plugins** file\n4. Restart the server\n\n# Permission\n| Command | Permission | Default | DESCRIPTION |\n|---|---|---|---|\n| /online | NONE | YES | OnlineUI Command |",
+  "readme_source_url": "https://github.com/Kylan1940/OnlineUI",
+  "icon_url": "https://raw.githubusercontent.com/Kylan1940/OnlineUI/f427fcc393932b035bf64f434dc6be2e4b2101ac/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Kylan1940/OnlineUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-11954",
+  "stars": 0,
+  "total_downloads": 589,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Kylan1940"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/216662",
+  "versions": {
+    "stable": {
+      "version": "3.2.0",
+      "tag": "r-11954",
+      "published_at": null,
+      "downloads": 589,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11954/onlineui-3.2.0-r11954.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11954",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11954/onlineui-3.2.0-r11954.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "OnlineUI",
+    "stable_release_id": 11954
+  }
+}

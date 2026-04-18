@@ -1,0 +1,61 @@
+{
+  "id": "antivoidfast",
+  "name": "AntiVoidFast",
+  "author": "Jorgebyte",
+  "description": "AntiVoid",
+  "readme_markdown": "# AntiVoid\nAvoid falls by Void, choosing the worlds where this action is applied and send a title and subtitle when avoiding the fall\n\n# config\n```YAML\n\ntitle-text: \"you fell into the void\"\n\nsubtitle-text: \"Be careful next time\"\n\nworlds:\n  - world\n  - lobby\n```",
+  "readme_source_url": "https://github.com/Jorgebyte/AntiVoid",
+  "icon_url": "https://raw.githubusercontent.com/Jorgebyte/AntiVoid/08174e530a35cd49b45dfc9224249db5eb2967ae/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Jorgebyte/AntiVoid",
+  "archive_repo": null,
+  "approved_release_tag": "r-12050",
+  "stars": 0,
+  "total_downloads": 795,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Jorgebyte"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-12050",
+      "published_at": null,
+      "downloads": 795,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12050/antivoidfast-1.0.0-r12050.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12050",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12050/antivoidfast-1.0.0-r12050.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiVoidFast",
+    "stable_release_id": 12050
+  }
+}

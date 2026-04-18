@@ -1,0 +1,61 @@
+{
+  "id": "customitemloader",
+  "name": "CustomItemLoader",
+  "author": "alvin0319",
+  "description": "Plugin for PocketMine-MP that makes your custom item with the full feature!",
+  "readme_markdown": "# CustomItemLoader\nPlugin for PocketMine-MP that makes your custom item with the full feature!\n\n<a href=\"https://poggit.pmmp.io/p/CustomItemLoader\"><img src=\"https://poggit.pmmp.io/shield.state/CustomItemLoader\"></a><a href=\"https://poggit.pmmp.io/p/CustomItemLoader\"><img src=\"https://poggit.pmmp.io/shield.dl/CustomItemLoader\"></a>\n\n#### Looking for support for NetherGames-fork? Check [this branch](https://github.com/alvin0319/CustomItemLoader/tree/ng). but Note that I don't provide full support for this fork.\n\n## Reference\nAll of these components were came from MCPE addon document and [wiki.vg](https://wiki.vg/Bedrock_Protocol)\n\n## How to use\n\nYou can see all usage on [here](./CONFIGURATION.md)\n\nYou can see example on [example folder](./example)\n\n## For the developers who want to create your own pluign\nPlease refer to [this gist](https://gist.github.com/alvin0319/3f235b8eb05f6adfd18062b9ce70bb44)!\n\n## FAQ (Frequently Asked Questions)\n\n* Q. My client got crash\n* A. Maybe it was caused by the wrong setup on config or your texture pixel amount. Try to reduce texture pixel or check the config.\n\n\n* Q. Texture doesn't appear\n* A. Check my example on [Example folder](./example)\n\n\n* Q. Item name is displayed wrongly\n* A. Make sure to register item name on en_US.lang or other language files\n\n* Q. I set its config correctly or I used an example but item texture does not appear\n* A. If you are using this plugin behind a proxy such as WDPE, you should run this plugin also on the lobby server. Also, please use [CustomItemLoader-WDPE](https://github.com/alvin0319/CustomItemLoader-WDPE) WaterdogPE plugin to prevent client crash.",
+  "readme_source_url": "https://github.com/alvin0319/CustomItemLoader",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/alvin0319/CustomItemLoader",
+  "archive_repo": null,
+  "approved_release_tag": "r-12073",
+  "stars": 0,
+  "total_downloads": 809,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "alvin0319"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218166",
+  "versions": {
+    "stable": {
+      "version": "3.3.1",
+      "tag": "r-12073",
+      "published_at": null,
+      "downloads": 809,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12073/customitemloader-3.3.1-r12073.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12073",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12073/customitemloader-3.3.1-r12073.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomItemLoader",
+    "stable_release_id": 12073
+  }
+}

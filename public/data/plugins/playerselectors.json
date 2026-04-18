@@ -1,0 +1,61 @@
+{
+  "id": "playerselectors",
+  "name": "PlayerSelectors",
+  "author": "poggit-orphanage",
+  "description": "This repository was moved to git.ad5001.eu",
+  "readme_markdown": "## This repository was moved to [git.ad5001.eu](https://git.ad5001.eu/Ad5001/PlayerSelectors)\n<h1>\n<img src=\"https://github.com/Ad5001/PlayerSelectors/raw/master/icon.png\" width=\"36px\" height=\"36px\">&nbsp;&nbsp;PlayerSelectors - \n<a href=\"https://poggit.pmmp.io/p/PlayerSelectors\"><img src=\"https://poggit.pmmp.io/shield.approved/PlayerSelectors\"></a>\n</h1>\nImplementation of minecraft selectors into PocketMine!\n\n<h1><img src=\"https://png.icons8.com/?id=365&size=1x\">&nbsp;&nbsp;How to install?</h1>\n1. Download the .phar file from the link given at the top of the repo\n2. Put that phar into your \"plugins\" folder\n3. Restart your server and Selectors should be reay to go!\n\n<h1><img src=\"https://png.icons8.com/?id=3330&size=1x\">&nbsp;&nbsp;Implemented features</h1>\nPlayerSelectors implements all the default minecraft selectors:<br>   \n- @a - All players<br>\n- @p - Nearset player<br>\n- @e - Entities<br>\n- @r - Random player<br>  \n- @s - Self/Sender<br>    \nbut also features a custom made one:<br>\nSince PocketMine implements a multi world system, you can easily select players from your current world using the \"@w\" selector!\n<br><br>\nMinecraft also supports specific search parameters such as the distance from the sender, the count of matched player/entities, ...<br>\nAll the standard minecraft search params can be used with the syntax \n\n```\n@<selector name>[key=param,other=value]\n```\n\nEXEPT the team & score params since the /scoreboard command isn't implemeted into pocketmine yet<br> Thought, one new params comes with this plugin: the \"lvl\" param which is for searching in a specific level.\n\nHave fun!",
+  "readme_source_url": "https://github.com/poggit-orphanage/PlayerSelectors",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/PlayerSelectors/709510be08420b23e051b4e6b732e8651d0267b2/icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/PlayerSelectors",
+  "archive_repo": null,
+  "approved_release_tag": "r-11992",
+  "stars": 0,
+  "total_downloads": 1541,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/217101",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-11992",
+      "published_at": null,
+      "downloads": 1541,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11992/playerselectors-2.0.1-r11992.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11992",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11992/playerselectors-2.0.1-r11992.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerSelectors",
+    "stable_release_id": 11992
+  }
+}

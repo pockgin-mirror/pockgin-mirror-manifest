@@ -1,0 +1,61 @@
+{
+  "id": "noeats",
+  "name": "NoEats",
+  "author": "AIPTU",
+  "description": "A PocketMine-MP plugin to regulate player hunger and prohibit eating certain foods easily.",
+  "readme_markdown": "# NoEats\n\n[![](https://poggit.pmmp.io/shield.state/NoEats)](https://poggit.pmmp.io/p/NoEats)\n[![](https://poggit.pmmp.io/shield.dl.total/NoEats)](https://poggit.pmmp.io/p/NoEats)\n\nA PocketMine-MP plugin to regulate player hunger and prohibit eating certain foods easily.\n\n# Features\n\n- `Food Item Restriction`: Administrators can define a list of food items that players are not allowed to eat.\n- `World-Specific Configuration`: Different worlds can have different food item restrictions.\n- `Mode Selection`: Choose between \"None,\" \"Blacklist,\" or \"Whitelist\" mode to determine how world-specific configurations are applied.\n- `Hunger Event Control`: Administrators can enable or disable hunger events for players.\n- `Customizable Messages`: Customize the message displayed to players when they attempt to eat a restricted food item.\n- `Bypass Permissions`: Operators can be granted permissions to bypass the food item restrictions and hunger event cancellation.\n- `World Validation`: It checks if the worlds listed in the configuration file exist and are generated in the server. Invalid worlds are ignored.\n- `Item Validation`: It ensures that the food items listed in the configuration are valid edible items. Non-edible items are ignored.\n\n# Permissions\n\n- `noeats.bypass.eating`: Players with this permission can bypass the plugin's restrictions on eating food items.\n- `noeats.bypass.hunger`: Players with this permission can bypass the cancellation of hunger events imposed by the plugin.\n\n# Default Config\n```yaml\n# Do not change this (Only for internal use)!\nconfig-version: 1.2\n\n# If set to true, players will experience hunger. If set to false, players won't experience hunger.\n# This option allows you to enable or disable the hunger mechanic for players in the server.\nhunger: true\n\n# The message displayed when a player attempts to eat a restricted food item.\n# You can use color codes by using \"§\" or \"&\" before the color code.\n# This message will be shown to players when they try to eat an item that is restricted based on the configuration.\nmessage: \"&cYou can't eat your food here\"\n\n# Item Restriction Settings\nitems:\n  # List of food items that players are not allowed to eat.\n  # This list determines which food items are restricted for consumption by players.\n  list:\n    - \"golden_apple\"\n    - \"cooked_beef\"\n    - \"cooked_chicken\"\n\n# World Restriction Settings\nworlds:\n  # The mode can be either \"blacklist,\" \"whitelist,\" or \"none\".\n  # - \"blacklist\" mode will prevent players from eating in the specified worlds (blacklisted) and allow eating in other worlds.\n  # - \"whitelist\" mode will only allow players to eat in the specified worlds (whitelisted) and prevent eating in other worlds.\n  # - \"none\" mode will not apply any restrictions, and eating will be allowed in all worlds.\n  mode: \"blacklist\"\n\n  # List of world folder names to be blacklisted or whitelisted (depending on the mode set above).\n  # If \"mode\" is set to \"blacklist\" or \"whitelist,\" add the world folder names accordingly.\n  # If \"mode\" is set to \"none,\" leave the \"list\" empty ([]) to allow eating in all worlds.\n  list:\n    - \"world\"  # Example: The \"world\" world folder is blacklisted, and players can't eat here.\n    - \"world_nether\"  # Example: The \"world_nether\" world folder is blacklisted, and players can't eat here.\n\n# You can add more worlds to the list as needed.\n# Note: Make sure to use the correct world folder names as specified in your PocketMine-MP server configuration.\n# To disable world-specific eating restriction and allow eating in all worlds, set \"mode\" to \"none\" and leave the \"list\" empty ([]) or remove the \"list\" entirely.\n\n```\n\n# Upcoming Features\n\n- Currently none planned. You can contribute or suggest for new features.\n\n# Additional Notes\n\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/AIPTU/NoEats/issues).\n- We accept all contributions! If you want to contribute, please make a pull request in [here](https://github.com/AIPTU/NoEats/pulls).\n- Icons made from [www.flaticon.com](https://www.flaticon.com)",
+  "readme_source_url": "https://github.com/AIPTU/NoEats",
+  "icon_url": "https://raw.githubusercontent.com/AIPTU/NoEats/dafd11573c2b727c123950ed5670dfa0cf935dba/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AIPTU/NoEats",
+  "archive_repo": null,
+  "approved_release_tag": "r-12040",
+  "stars": 0,
+  "total_downloads": 308,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AIPTU"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/217695",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-12040",
+      "published_at": null,
+      "downloads": 308,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12040/noeats-1.2.0-r12040.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12040",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12040/noeats-1.2.0-r12040.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NoEats",
+    "stable_release_id": 12040
+  }
+}

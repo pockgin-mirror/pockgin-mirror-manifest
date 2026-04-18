@@ -1,0 +1,61 @@
+{
+  "id": "shortsneak",
+  "name": "ShortSneak",
+  "author": "DavyCraft648",
+  "description": "Short Sneak is an experimental feature that was added in 1.19.80. Short Sneak can make you sneak shorter so you can",
+  "readme_markdown": "# <img height=\"64\" src=\"https://github.com/DavyCraft648/ShortSneak/blob/master/icon.png\" width=\"64\"/> ShortSneak\n\nShort Sneak is an experimental feature that was added in 1.19.80. Short Sneak can make you sneak shorter so you can\nenter 1.5 blocks like in Minecraft: Java Edition.\n\n**Note: If you use proxy, this plugin must be installed to all subservers to work properly**\n\nYou don't need this plugin after pm 5.4.0 released",
+  "readme_source_url": "https://github.com/DavyCraft648/ShortSneak",
+  "icon_url": "https://raw.githubusercontent.com/DavyCraft648/ShortSneak/52a206fc106fc4a2ca6f30368e5bd2dc36e99bd6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/DavyCraft648/ShortSneak",
+  "archive_repo": null,
+  "approved_release_tag": "r-11969",
+  "stars": 0,
+  "total_downloads": 750,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.21.1-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DavyCraft648"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/216815",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-11969",
+      "published_at": null,
+      "downloads": 750,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11969/shortsneak-1.1.1-r11969.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11969",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11969/shortsneak-1.1.1-r11969.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ShortSneak",
+    "stable_release_id": 11969
+  }
+}

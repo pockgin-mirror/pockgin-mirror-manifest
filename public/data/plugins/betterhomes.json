@@ -1,0 +1,61 @@
+{
+  "id": "betterhomes",
+  "name": "BetterHomes",
+  "author": "ElectroGamesYT",
+  "description": "Information",
+  "readme_markdown": "# Information \n- BetterHomes is a home plugin for PocketMine.\n# Features\n- Forms\n- Easy To Use\n# Commands\n- /home\n# Permissions\n- BetterHomes.cmd\n# Images\n![BetterHomes](https://user-images.githubusercontent.com/34932094/144703422-d64c1ac6-3736-4854-a98b-9606a5acb14e.PNG)\n# Credits\n- Icon from www.flaticon.com\n- Subscribe to Electro Games on YouTube!",
+  "readme_source_url": "https://github.com/ElectroGamesYT/BetterHomes",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/BetterHomes/a3edc98c175008a2b2f91a6aad6e4a5861c5e4a6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/BetterHomes",
+  "archive_repo": null,
+  "approved_release_tag": "r-12122",
+  "stars": 0,
+  "total_downloads": 5447,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218830",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12122",
+      "published_at": null,
+      "downloads": 5447,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12122/betterhomes-2.0.0-r12122.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12122",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12122/betterhomes-2.0.0-r12122.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterHomes",
+    "stable_release_id": 12122
+  }
+}

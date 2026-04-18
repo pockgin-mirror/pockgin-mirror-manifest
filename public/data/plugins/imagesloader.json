@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13577",
   "stars": 0,
-  "total_downloads": 71,
+  "total_downloads": 901,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-13577",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13577/imagesloader-1.1.0-r13577.phar"
+    },
+    {
+      "tag": "r-12087",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12087/imagesloader-1.0.0-r12087.phar"
     }
   ],
   "comments": {

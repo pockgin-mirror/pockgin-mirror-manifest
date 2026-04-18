@@ -1,0 +1,61 @@
+{
+  "id": "stories",
+  "name": "Stories",
+  "author": "Cryotap",
+  "description": "Load stories by punching the ground with a written book.",
+  "readme_markdown": "## Stories\nLoad stories by punching the ground with a written book.\n\n![](https://i.imgur.com/ve6n7LO.png)\n\n\n![](https://i.imgur.com/KF4uam9.png)\n\n\n[![](https://poggit.pmmp.io/shield.state/Stories)](https://poggit.pmmp.io/p/Stories)\n\n\n[![](https://poggit.pmmp.io/shield.api/Stories)](https://poggit.pmmp.io/p/Stories)\n\n## How To Use\n- Go into the plugin data folder\n\n- Create a .txt and give it a name.\n\n- Paste a story in there.\n\n- MAKE SURE THE .txt IS UTF-8\n\n- right click the ground with a written book\n\n## Credits\nCryotap",
+  "readme_source_url": "https://github.com/Cryotap/Stories",
+  "icon_url": "https://raw.githubusercontent.com/Cryotap/Stories/2599ba65c301104338e9fc0daa4834917cefa29b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Cryotap/Stories",
+  "archive_repo": null,
+  "approved_release_tag": "r-12093",
+  "stars": 0,
+  "total_downloads": 145,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Cryotap"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-12093",
+      "published_at": null,
+      "downloads": 145,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12093/stories-1.0-r12093.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12093",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12093/stories-1.0-r12093.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Stories",
+    "stable_release_id": 12093
+  }
+}

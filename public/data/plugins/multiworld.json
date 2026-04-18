@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14252",
   "stars": 0,
-  "total_downloads": 1699,
+  "total_downloads": 19675,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,16 +34,37 @@
       "version": "2.1.2",
       "tag": "r-14252",
       "published_at": null,
-      "downloads": 1699,
+      "downloads": 1704,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14252/multiworld-2.1.2-r14252.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "2.1.1",
+      "tag": "r-12098",
+      "published_at": null,
+      "downloads": 15406,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12098/multiworld-2.1.1-r12098.phar"
+    }
   },
   "recent_builds": [
     {
       "tag": "r-14252",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14252/multiworld-2.1.2-r14252.phar"
+    },
+    {
+      "tag": "r-12098",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12098/multiworld-2.1.1-r12098.phar"
+    },
+    {
+      "tag": "r-12036",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12036/multiworld-2.1.0-r12036.phar"
+    },
+    {
+      "tag": "r-11925",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11925/multiworld-2.1.0-beta3-r11925.phar"
     }
   ],
   "comments": {

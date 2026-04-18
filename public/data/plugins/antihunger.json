@@ -1,0 +1,61 @@
+{
+  "id": "antihunger",
+  "name": "AntiHunger",
+  "author": "NoobMCBG",
+  "description": "AntiHunger v2.0.0",
+  "readme_markdown": "<div align=\"center\">\n<h1>AntiHunger | v2.0.0<h1>\n</div>\n<p align=\"center\">\n<a href=\"https://poggit.pmmp.io/p/AntiHunger\">\n\t<img src=\"https://poggit.pmmp.io/shield.state/AntiHunger\">\n</a>\n<a href=\"https://poggit.pmmp.io/p/AntiHunger\"><img src=\"https://poggit.pmmp.io/shield.api/AntiHunger\"></a>\n<a href=\"https://poggit.pmmp.io/p/AntiHunger\"><img src=\"https://poggit.pmmp.io/shield.dl.total/AntiHunger\"></a>\n<a href=\"https://poggit.pmmp.io/p/AntiHunger\"><img src=\"https://poggit.pmmp.io/shield.dl/AntiHunger\"></a>\n<br>\n✔️ You will never go hungry when using this plugin ✔️\n</p>\n\n<br>\n\n## ☯ Features\n- You will never go hungry when using this plugin\n\n<br>\n\n## ✍ Config\n```\n---\n# Hunger Mode\n# true = No Hunger\n# false = Hunger\nanti-hunger: true\n\n...\n```\n\n<br>\n\n## ↓ Install\n- Step 1: Click the \"Direct Download\" button to download the plugin\n- Step 2: move the file \"AntiHunger.phar\" into the file \"plugins\"\n- Step 3: Restart server for plugins to work",
+  "readme_source_url": "https://github.com/NoobMCBG/AntiHunger",
+  "icon_url": "https://raw.githubusercontent.com/NoobMCBG/AntiHunger/1aa189ed06c5977615be101fb268c68c5c206b39/icon.png",
+  "featured": false,
+  "repo": "https://github.com/NoobMCBG/AntiHunger",
+  "archive_repo": null,
+  "approved_release_tag": "r-11947",
+  "stars": 5,
+  "total_downloads": 2139,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "NoobMCBG"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/216478",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-11947",
+      "published_at": null,
+      "downloads": 2139,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11947/antihunger-2.0.0-r11947.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11947",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11947/antihunger-2.0.0-r11947.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiHunger",
+    "stable_release_id": 11947
+  }
+}

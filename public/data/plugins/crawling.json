@@ -1,0 +1,61 @@
+{
+  "id": "crawling",
+  "name": "Crawling",
+  "author": "DavyCraft648",
+  "description": "Crawling is an experimental feature that was added in 1.20.10. Crawling can make you crawl inside 1 block with trapdoor",
+  "readme_markdown": "# <img height=\"64\" src=\"https://github.com/DavyCraft648/Crawling/blob/master/icon.png\" width=\"64\"/> Crawling\n\nCrawling is an experimental feature that was added in 1.20.10. Crawling can make you crawl inside 1 block with trapdoor\n(and piston if you have redstone plugin) like in Minecraft: Java Edition.\n\nYou need ShortSneak plugin to use this",
+  "readme_source_url": "https://github.com/DavyCraft648/Crawling",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/DavyCraft648/Crawling",
+  "archive_repo": null,
+  "approved_release_tag": "r-11936",
+  "stars": 5,
+  "total_downloads": 967,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DavyCraft648"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11936",
+      "published_at": null,
+      "downloads": 967,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11936/crawling-1.0.0-r11936.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11936",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11936/crawling-1.0.0-r11936.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Crawling",
+    "stable_release_id": 11936
+  }
+}

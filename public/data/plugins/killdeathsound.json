@@ -1,0 +1,61 @@
+{
+  "id": "killdeathsound",
+  "name": "KillDeathSound",
+  "author": "NoobMCBG",
+  "description": "KillDeathSound v3.0.4",
+  "readme_markdown": "<div align=\"center\">\n<h1>KillDeathSound | v3.0.4<h1>\n</div>\n<p align=\"center\">\n<a href=\"https://poggit.pmmp.io/p/KillDeathSound\"><img src=\"https://poggit.pmmp.io/shield.state/KillDeathSound\"></a>\n<a href=\"https://poggit.pmmp.io/p/KillDeathSound\"><img src=\"https://poggit.pmmp.io/shield.api/KillDeathSound\"></a>\n<a href=\"https://poggit.pmmp.io/p/KillDeathSound\"><img src=\"https://poggit.pmmp.io/shield.dl.total/KillDeathSound\"></a>\n<a href=\"https://poggit.pmmp.io/p/KillDeathSound\"><img src=\"https://poggit.pmmp.io/shield.dl/KillDeathSound\"></a>\n<br>\n\n<img src=\"https://github.com/NoobMCBG/KillDeathSound/blob/main/rainbow.gif\">\n<br>\n✔️ When the player is killed and dies, the sound will work ✔️\n<br>\n<img src=\"https://github.com/NoobMCBG/KillDeathSound/blob/main/icon.png\"/>\n<br>\n✔️ Can be set to work or not ✔️\n<br>\n✔️ added sound when hitting or archery hits the enemy ✔️\n<br>\n✔️ Can access to KillDeathSound ✔️\n<br>\n✔️ Generates blood particles when killed, killed, punched, and hit by archery ✔️\n<br>\n✔️ It is possible for all entities to bleed when punching, arching, killing, dying ✔️\n<br>\n✔️ Customizable Add Blood Particle to attacker ✔️ \n  <br>\n\n<img src=\"https://github.com/NoobMCBG/KillDeathSound/blob/main/rainbow.gif\">\n</p>\n\n## Update\n| **Update** | **State**|\n| --- | --- |\n| **Can be set to work or not** | **✔️**|\n| **added sound when hitting or archery hits the enemy** | **✔️**|\n| **Can access to KillDeathSound** | **✔️**|\n| **Generates blood particles when killed, killed, punched, and hit by archery** | **✔️**|\n| **It is possible for all entities to bleed when punching, arching, killing, dying** | **✔️**|\n| **Customizable Add Blood Particle to attacker** | **✔️**|\n| **add function addBlood() and addBloodAt() for Developer** | **✔️**|\n| **Update config version** | **✔️**|\n| **`Update to PocketMine-MP 5.0.0`** | **✔️** |\n\n<br>\n\n## Features\n>- When the player is killed and dies, the sound will work\n>- Generates blood particles when killed, killed, punched, and hit by archery\n>- added sound when hitting or archery hits the enemy\n  \n<br>\n\n## Config\n```yaml\n---\n# config.yml\n#    \n#    ██╗░░██╗██╗██╗░░░░░██╗░░░░░██████╗░███████╗░█████╗░████████╗██╗░░██╗░██████╗░█████╗░██╗░░░██╗███╗░░██╗██████╗░\n#    ██║░██╔╝██║██║░░░░░██║░░░░░██╔══██╗██╔════╝██╔══██╗╚══██╔══╝██║░░██║██╔════╝██╔══██╗██║░░░██║████╗░██║██╔══██╗\n#    █████═╝░██║██║░░░░░██║░░░░░██║░░██║█████╗░░███████║░░░██║░░░███████║╚█████╗░██║░░██║██║░░░██║██╔██╗██║██║░░██║\n#    ██╔═██╗░██║██║░░░░░██║░░░░░██║░░██║██╔══╝░░██╔══██║░░░██║░░░██╔══██║░╚═══██╗██║░░██║██║░░░██║██║╚████║██║░░██║\n#    ██║░╚██╗██║███████╗███████╗██████╔╝███████╗██║░░██║░░░██║░░░██║░░██║██████╔╝╚█████╔╝╚██████╔╝██║░╚███║██████╔╝\n#    ╚═╝░░╚═╝╚═╝╚══════╝╚══════╝╚═════╝░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═════╝░░╚════╝░░╚═════╝░╚═╝░░╚══╝╚═════╝░\n#\n# You can see the list of sound effects at this link: \"https://www.digminecraft.com/lists/sound_list_pe.php\"\n# Don't Change It!\nconfig-version: 3.0.3\n# Player Death\ndeath:\n  addsound: true\n  blood: true\n  blood-all-entity: true # Add Blood Particle to all entity hit, arching\n  sound: # Sound name\n  - \"random.explode\"\n  volume: 1 # Volume sounds\n  pitch: 1 # Pitch sounds\n\n# Player Kills\nkill:\n  addsound: true\n  blood: true\n  blood-all-entity: true # Add Blood Particle to all entity hit, arching\n  sound: # Sound name\n  - \"random.levelup\"\n  - \"random.totem\"\n  volume: 1 # Volume sounds\n  pitch: 1 # Pitch sound\n  \n# Player Hit & Archery\nhit:\n  addsound: true\n  blood: true\n  blood-all-entity: true # Add Blood Particle to all entity hit, arching\n  blood-to-attacker: false # Add Blood Particle to attacker\n  sound: # Sound name\n  - \"random.orb\"\n  volume: 1 # Volume sounds\n  pitch: 1 # Pitch sounds\n...\n```\n\n<br>\n\n## For Developer\n>- You can access to KillDeathSound by using ```KillDeathSound::getInstance()```\n>- Add sound usage:\n```php\n$player = $event->getPlayer();\n$soundName = \"random.explode\";\n$volume = 1;\n$pitch = 1;\nKillDeathSound::getInstance()->playSound($player, $soundName, $volume, $pitch);\n```\n\n>- Add Blood Particle usage:\n```php\n$position = $event->getPlayer()->getPosition();\nKillDeathSound::getInstance()->addBlood($position);\n\n// or\n\n$x = $event->getPlayer()->getPosition()->getX();\n$y = $event->getPlayer()->getPosition()->getY();\n$z = $event->getPlayer()->getPosition()->getZ();\n$world = $event->getPlayer()->getPosition()->getWorld();\nKillDeathSound::getInstance()->addBloodAt($x, $y, $z, $world);\n```\n\n<br>\n\n## Install\n>- Step 1: Click the `Direct Download` button to download the plugin\n>- Step 2: move the file `KillDeathSound.phar` into the file `plugins`\n>- Step 3: Restart server for plugins to work",
+  "readme_source_url": "https://github.com/NoobMCBG/KillDeathSound",
+  "icon_url": "https://raw.githubusercontent.com/NoobMCBG/KillDeathSound/1cddd1081e663c0cdffb6d3a224dc1eef5c00a20/icon.png",
+  "featured": false,
+  "repo": "https://github.com/NoobMCBG/KillDeathSound",
+  "archive_repo": null,
+  "approved_release_tag": "r-11948",
+  "stars": 5,
+  "total_downloads": 1294,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "NoobMCBG"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/240736",
+  "versions": {
+    "stable": {
+      "version": "3.0.4",
+      "tag": "r-11948",
+      "published_at": null,
+      "downloads": 1294,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11948/killdeathsound-3.0.4-r11948.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11948",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11948/killdeathsound-3.0.4-r11948.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KillDeathSound",
+    "stable_release_id": 11948
+  }
+}

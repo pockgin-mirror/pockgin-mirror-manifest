@@ -1,0 +1,61 @@
+{
+  "id": "easybrag",
+  "name": "EasyBrag",
+  "author": "skyss0fly",
+  "description": "A PocketMine-MP 5 plugin, which allows players to showcase their items in chat using /brag command.",
+  "readme_markdown": "# EasyBrag\nA PocketMine-MP 5 plugin, which allows players to showcase their items in chat using /brag command.\n # Whats New?\n **Server Admins can now disable And Enable brag**\n\n## Features\n- Provides enchantment list\n- Supports custom enchantments (CE's)\n- Vanilla enchantments are translated into server language automatically\n- Configurable prefix\n- Configurable messages\n- Configurable cooldown\n- Permission to bypass cooldown\n- & color code support\n\n## Commands\n- /brag — brag the item you have in your hand!\n- bragadmin - Disable/enable brag.\n## Permissions\n- easybrag.use — permission to use /brag\n  - default: true\n- easybrag.cooldown_bypass — permission to bypass /brag cooldown\n  - default: op\n- easybrag.administrator - permission to disable / enable brag\n   - default: false\n \n## Credits;\n\n- [skyss0fly](https://github.com/skyss0fly)\n- [skyss0fly 2nd account](https://github.com/skyss0fly-pm-pl)\n- [Levonzie](https://github.com/Levonzie)",
+  "readme_source_url": "https://github.com/skyss0fly/EasyBrag",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/skyss0fly/EasyBrag",
+  "archive_repo": null,
+  "approved_release_tag": "r-11951",
+  "stars": 0,
+  "total_downloads": 123,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "skyss0fly"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-11951",
+      "published_at": null,
+      "downloads": 123,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11951/easybrag-1.1.0-r11951.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11951",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11951/easybrag-1.1.0-r11951.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EasyBrag",
+    "stable_release_id": 11951
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "novoid",
+  "name": "NoVoid",
+  "author": "ElectroGamesYT",
+  "description": "Information",
+  "readme_markdown": "# Information \n- If a player falls into the void, they will be teleported back to the world spawn\n# Features\n- Whitelist/Blacklist worlds\n# Credits\n- Subscribe to Electro Games on YouTube!",
+  "readme_source_url": "https://github.com/ElectroGamesYT/NoVoid",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/NoVoid/148848f0506c78792d4b41be5fa41ce225f0c08f/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/NoVoid",
+  "archive_repo": null,
+  "approved_release_tag": "r-12126",
+  "stars": 0,
+  "total_downloads": 819,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218850",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12126",
+      "published_at": null,
+      "downloads": 819,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12126/novoid-2.0.0-r12126.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12126",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12126/novoid-2.0.0-r12126.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NoVoid",
+    "stable_release_id": 12126
+  }
+}

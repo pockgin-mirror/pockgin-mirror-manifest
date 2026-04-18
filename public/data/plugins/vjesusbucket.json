@@ -1,0 +1,61 @@
+{
+  "id": "vjesusbucket",
+  "name": "VJesusBucket",
+  "author": "VennDev",
+  "description": "One plugin for PocketMine-PMMP 5",
+  "readme_markdown": "# VJesusBucket\n- One plugin for PocketMine-PMMP 5\n\n# Feature\n- Help you speed up tasks such as building a field or simply filling holes with water.\n\n# How to install it ?\n- You should install LibVapmPMMP here: [LibVapmPMMP](https://poggit.pmmp.io/ci/VennDev/LibVapmPMMP/LibVapmPMMP)\n\n# Commands\n```\n# Types: water or lava\n/vjesusbucket or /vjb - give <player> <type> <amount>\n```\n\n# Video\n[Click To Watch](https://github.com/VennDev/VJesusBucket/assets/111500380/f2979e3f-09e9-4470-8d13-2b0e0b60fe9e)\n\n# Credits\n- Email: pnam5005@gmail.com\n- Paypal: lifeboat909@gmail.com",
+  "readme_source_url": "https://github.com/VennDev/VJesusBucket",
+  "icon_url": "https://raw.githubusercontent.com/VennDev/VJesusBucket/073e1eba650d735bea3219d68e579a2625756d86/icon.png",
+  "featured": false,
+  "repo": "https://github.com/VennDev/VJesusBucket",
+  "archive_repo": null,
+  "approved_release_tag": "r-12114",
+  "stars": 5,
+  "total_downloads": 272,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "VennDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-12114",
+      "published_at": null,
+      "downloads": 272,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12114/vjesusbucket-1.0.1-r12114.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12114",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12114/vjesusbucket-1.0.1-r12114.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VJesusBucket",
+    "stable_release_id": 12114
+  }
+}

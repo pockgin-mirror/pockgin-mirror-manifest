@@ -1,0 +1,61 @@
+{
+  "id": "muteall",
+  "name": "MuteAll",
+  "author": "AIPTU",
+  "description": "A PocketMine-MP plugin to mute all players on the server.",
+  "readme_markdown": "# MuteAll\n\n[![](https://poggit.pmmp.io/shield.state/MuteAll)](https://poggit.pmmp.io/p/MuteAll)\n[![](https://poggit.pmmp.io/shield.dl.total/MuteAll)](https://poggit.pmmp.io/p/MuteAll)\n\nA PocketMine-MP plugin to mute all players on the server.\n\n# Features\n\n- `Global Chat Mute`: Enable a global chat mute for all players on the server, preventing them from sending chat messages.\n- `Bypass Permission`: Allow players with the `muteall.bypass` permission to chat even during global mute.\n- `Customizable Messages`: Personalize messages displayed to players when they attempt to chat during global mute and when the mute is turned on or off.\n- `Color Formatting`: The messages can be colored using \"§\" or \"&\" color codes, providing visual appeal and customization options for the messages.\n- `Config Version Management`: The plugin ensures that the configuration file is up-to-date. If an outdated config file is provided, it generates a new one and backs up the old config, preventing compatibility issues.\n- `User-friendly Command`: Use the simple `/muteall` command to toggle the global chat mute on or off easily.\n\n# Default Config\n```yaml\n# Do not change this (Only for internal use)!\nconfig-version: 1.2\n\n# Messages Configuration\n# These messages are used when muting player chats.\n# You can use \"§\" or \"&\" to color the messages.\n\n# The message displayed to players when they attempt to chat during global mute.\nmessage: \"&cYou can't chat when global mute is enabled\"\n\n# The message displayed to players when the global mute is turned on.\nturn-on: \"&aMute chat for all players has been turned on\"\n\n# The message displayed to players when the global mute is turned off.\nturn-off: \"&aMute chat for all players has been turned off\"\n\n```\n\n# Upcoming Features\n\n- Currently none planned. You can contribute or suggest for new features.\n\n# Additional Notes\n\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/AIPTU/MuteAll/issues).\n- We accept all contributions! If you want to contribute, please make a pull request in [here](https://github.com/AIPTU/MuteAll/pulls).\n- Icons made from [www.flaticon.com](https://www.flaticon.com)",
+  "readme_source_url": "https://github.com/AIPTU/MuteAll",
+  "icon_url": "https://raw.githubusercontent.com/AIPTU/MuteAll/c3c7556aafb4947b683358169eb1cad595bbee02/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AIPTU/MuteAll",
+  "archive_repo": null,
+  "approved_release_tag": "r-12003",
+  "stars": 5,
+  "total_downloads": 578,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AIPTU"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/217348",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-12003",
+      "published_at": null,
+      "downloads": 578,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12003/muteall-1.2.0-r12003.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12003",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12003/muteall-1.2.0-r12003.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MuteAll",
+    "stable_release_id": 12003
+  }
+}

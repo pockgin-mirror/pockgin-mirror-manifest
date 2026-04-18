@@ -1,0 +1,61 @@
+{
+  "id": "bancommands",
+  "name": "BanCommands",
+  "author": "Laith98Dev",
+  "description": "Simple plugin to ban a command from a specific world.",
+  "readme_markdown": "# BanCommands\nSimple plugin to ban a command from a specific world. \n\n# How to use the plugin?\n- frist you need to ad dthe command who u want to banned it, Usage: `/bancommands addcmd <cmd>`, Note: add command with slash same as \"/mycommand\".\n- well, command added if you want remove it, Usage: `/bancommands rmcmd <cmd>`.\n- great, now you need to add world name who you want banned the command in it, Usage: `/bancommands addworld <cmd> <worldName>`.\n- If you wanna to see the list of prohibited worlds from a specific command, Usage: `/bancommands list <cmd>`.\n- ok if you wanna remove the world, Usage: `/bancommands rmworld <cmd> <world>`.\n- also you can display a commands list, Usage: `/ban commands help`.\n\n# Commands List\nCommand | Permission | aliases\n--- | --- | ---\n`/bancommands` | `bancommands.command` | `bc`\n`/bancommands help` | `bancommands.command` | \n`/bancommands addcmd <cmd>` | `bancommands.command` | \n`/bancommands rmcmd <cmd>` | `bancommands.command` | \n`/bancommands addworld <cmd> <world>` | `bancommands.command` |\n`/bancommands rmworld <cmd> <world>` | `bancommands.command` |\n`/bancommands list <cmd>` | `bancommands.command` | \n\n# Support Us\n- [![Donate](https://img.shields.io/badge/donate-Paypal-yellow.svg?style=flat-square)](https://paypal.me/Laith113)",
+  "readme_source_url": "https://github.com/Laith98Dev/BanCommands",
+  "icon_url": "https://raw.githubusercontent.com/Laith98Dev/BanCommands/f768dc06b101fab43c7c34573c0b9fe96a50b47c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Laith98Dev/BanCommands",
+  "archive_repo": null,
+  "approved_release_tag": "r-12065",
+  "stars": 5,
+  "total_downloads": 3270,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Laith98Dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218016",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12065",
+      "published_at": null,
+      "downloads": 3270,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12065/bancommands-2.0.0-r12065.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12065",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12065/bancommands-2.0.0-r12065.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BanCommands",
+    "stable_release_id": 12065
+  }
+}

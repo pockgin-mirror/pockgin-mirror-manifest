@@ -1,0 +1,61 @@
+{
+  "id": "remoteconsole",
+  "name": "RemoteConsole",
+  "author": "ElectroGamesYT",
+  "description": "Information",
+  "readme_markdown": "# Information \n - RemoteConsole adds /console to your server. \n - This command allows you to run commands through console.\n - This plugin also allows non-ops to run commands through console (they will need the password).\n - The password is configurable.\n# Commands\n- /console\n# Permissions\n- Permission: remoteconsole.password.bypass\n# Credits\n- Icon from www.flaticon.com\n- Subscribe to Electro Games on YouTube!",
+  "readme_source_url": "https://github.com/ElectroGamesYT/RemoteConsole",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/RemoteConsole/509e1adf58b8e8e86e1394cc198eac772e8a9b4c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/RemoteConsole",
+  "archive_repo": null,
+  "approved_release_tag": "r-12123",
+  "stars": 4,
+  "total_downloads": 450,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218835",
+  "versions": {
+    "stable": {
+      "version": "3.0.0",
+      "tag": "r-12123",
+      "published_at": null,
+      "downloads": 450,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12123/remoteconsole-3.0.0-r12123.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12123",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12123/remoteconsole-3.0.0-r12123.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RemoteConsole",
+    "stable_release_id": 12123
+  }
+}

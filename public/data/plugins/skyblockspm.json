@@ -1,0 +1,61 @@
+{
+  "id": "skyblockspm",
+  "name": "SkyBlocksPM",
+  "author": "vecnavium-pm-pl",
+  "description": "A SkyBlocks plugin for PocketMine-MP, with many features to offer.",
+  "readme_markdown": "<p align=\"center\">\n    <b>A SkyBlocks plugin for PocketMine-MP, with many features to offer.</b>\n  \n  <p align=\"center\">\nSkyBlocksPM developed by: KressentHosting  \n\n<p align=\"center\">Website: https://kressenthosting.com\n  \n</p>\n\n<p align=\"center\">\n    <img alt=\"GitHubrelease\" src=\"https://img.shields.io/github/v/release/Vecnavium-pm-pl/SkyBlocksPM?label=release&sort=semver\">\n      <img alt=\"Stars\" src= \"https://img.shields.io/github/stars/Vecnavium-pm-pl/SkyBlocksPM?style=for-the-badge\">\n    <a href=\"https://discord.gg/6M9tGyWPjr\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n</p>\n\n# Features \n\n- [x] Custom Island support\n- [x] SQLITe3 & MYSQL Storage\n- [x] Configurable messages\n- [x] Island Members\n- [x] Configurable visit UI\n- [x] Island visit support\n- [x] Starting Skyblock Chests (The chests will have the same contents from the ones which were present and as well as NPCs while using the `/is setworld` command)\n- [x] Island Settings (Such as Interact, Pickup, Place Blocks, etc.)\n- [x] Private Island Chat\n\n# Setup \n\n1. Once you have installed the plugin onto the server before you go on creating SkyBlock islands you must setworld.\n2. To setworld teleport to the world with your SkyBlocks Island you have built and run /sb setworld\n3. And you should be good to go after that. There is extra options and configurations that can be done within the plugin.\n\n\n# Planned features\n\n- [ ] Scoreboard support. (Maybe)\n- [ ] UI Support (Creating and Modifying islands, etc.)\n\nAnd possibly few more that isn't listed as it's in development.\n\nHave other suggestions? Let me know in the [Support Discord](https://discord.gg/jWFB56RqUN) or Create an [Issue](https://github.com/vecnavium-pm-pl/SkyBlocksPM/issues/new) about your suggestion so it can be talked about.\n\n# Suggestions\n\nHave a suggestion?\n\nFeel free to contact me in the [Support Discord Server](https://discord.gg/jWFB56RqUN) and suggest the suggestion you have in mind for this plugin!\n\n# Credits \n\n- [Cosmicnebula200](https://github.com/cosmicnebula200) for making this entire project possible.",
+  "readme_source_url": "https://github.com/vecnavium-pm-pl/SkyBlocksPM",
+  "icon_url": "https://raw.githubusercontent.com/vecnavium-pm-pl/SkyBlocksPM/c39251c7fe741744c755b1c9e10408b939ed316b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/vecnavium-pm-pl/SkyBlocksPM",
+  "archive_repo": null,
+  "approved_release_tag": "r-12052",
+  "stars": 0,
+  "total_downloads": 1166,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "vecnavium-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/217837",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-12052",
+      "published_at": null,
+      "downloads": 1166,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12052/skyblockspm-1.1.1-r12052.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12052",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12052/skyblockspm-1.1.1-r12052.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SkyBlocksPM",
+    "stable_release_id": 12052
+  }
+}

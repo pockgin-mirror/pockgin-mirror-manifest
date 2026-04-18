@@ -1,0 +1,61 @@
+{
+  "id": "navicompass",
+  "name": "NaviCompass",
+  "author": "Xenophilicy",
+  "description": "NaviCompass allows your players to transfer between your server network and worlds with simplicity.",
+  "readme_markdown": "<p align=\"center\">\n    <a href=\"https://github.com/Xenophilicy/NaviCompass\"><img src=\"https://github.com/Xenophilicy/NaviCompass/blob/master/icon.png\"></img></a><br>\n    <b>NaviCompass allows your players to transfer between your server network and worlds with simplicity.</b>\n</p>\n\n<p align=\"center\">\n    <img alt=\"GitHubrelease\" src=\"https://img.shields.io/github/v/release/Xenophilicy/NaviCompass?label=release&sort=semver\">\n      <img alt=\"Stars\" src= \"https://img.shields.io/github/stars/Xenophilicy/NaviCompass?style=for-the-badge\">\n    <a href=\"https://discord.gg/6M9tGyWPjr\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n</p>\n\n### **NaviCompass now supports the WaterDog MCBE proxy!**\n\n***\n\n## Credits\n* [Xenophilicy](https://github.com/Xenophilicy/) (original developer)\n* [Vecnavium](https://github.com/Vecnavium/) (Maintainer for the longterm)\n\n# Config\n### Basic settings\n```yaml\n# Choose your transfer type:\n# \"external\" will use an IP address and port to move players between SERVERS\n# \"internal\" will use your preset command string to move players between WORLDS\n# \"hybrid\" will include both transfer types\nTransfer-Type: \"hybrid\"\n\n# This is the command string that will be used to transfer players between WORLDS\n# Don't worry about this if you're only using the EXTERNAL transfer type\n# Use '{player}' for the player's name\n# Use '{world}' for the world name\nWorld-CMD: \"multiworld tp {world} {player}\"\n\n# This is where you choose if world command should be run by the player or the console\n# Don't worry about this if you're only using the EXTERNAL transfer type\n# Options are: \"console\" and \"player\"\nWorld-CMD-Mode: \"console\"\n```\n\n### Command settings\n```yaml\n  # Choose whether the command method should be enabled\n  Enabled: true\n\n  # This is name of the command that players will use to opent the UI\n  Name: \"/servers\"\n\n  # This is the command's description shown in the command window\n  Description: \"Open the server list!\"\n\n  Permission:\n    # Choose whether to require players to have permission to use the command\n    Enabled: false\n\n    # This is the command's usage permission\n    Node: \"navicompass.use\"\n```\n### Selector settings\n```yaml\n  # Choose whether the selector item should be enabled\n  Enabled: true\n\n  # Choose what item the server selector should be\n  # Default item is Compass (345)\n  Item: 345\n\n  # Set the cooldown for using the compass to open the UI\n  Cooldown:\n    # Choose whether the cooldown should be enabled\n    Enabled: true\n\n    # Set the duration of the cooldown\n    Duration: 1\n\n    # Message sent to the player when the item is on cooldown\n    # Set to false to disable the message\n    Message: \"§cCompass is on cooldown!\"\n\n  # Choose what slot of the player's inventory the selector should appear in\n  # The range for this input is 0-35 (0-8 are the player's hotbar)\n  Slot: 1\n\n  # Choose whether to prevent players from dropping or moving the selctor to different slots\n  Force-Slot: true\n\n  # This is the text that will show on the selector in the player's inventory\n  Name: \"§l§aServer Selector\"\n\n  # This is the selector item's description that is displayed under the name\n  Lore: \"§bClick for Servers\"\n```\n### UI settings\n```yaml\n  # This is the title of the transfer UI\n  Title: \"§9Server List\"\n\n  # This is the message that will show under the title on the transfer UI\n  Message: \"§aChoose a server to transfer to!\"\n\n  Status-Format:\n\n    # Edit the format for online servers\n    Online: \"§aOnline\"\n\n    # This is where you edit the format for offline servers\n    Offline: \"§cOffline\"\n\n  Subtext:\n    # This is the message displayed under each SERVER button\n    # Use '{current-players}' for the server's current player count\n    # Use '{max-players}' for the server's max player count\n    # Use '{status}' to show whether the server is online or offline (the colors can be customized under Status-Format)\n    Server: \"§r{status} §8(§a{current-players}§8/§b{max-players}§8)\"\n\n    # This is the message displayed under each WATERDOG button\n    # Don't worry about this if you're only using the EXTERNAL transfer type\n    WaterDog: \"§r§o§8Tap to transfer\"\n\n    # This is the message displayed under each WORLD button\n    # Use '{current-players}' for the world's current player count\n    World: \"§r§o§8Tap to teleport §8(§a{current-players} §eplayer(s)§8)\"\n```\n\n### Sound settings\n```yaml\n  # Choose what sound (if any) to play when opening the UI\n  UI: \"random.pop\"\n\n  # Choose what sound (if any) to play while transferring SERVERS\n  Transfer: \"mob.blaze.shoot\"\n\n  # Choose what sound (if any) to play while teleporting between WORLDS\n  Teleport: \"random.anvil_use\"\n```\n\n### Titles settings\n```yaml\n  # Set the delay to show the title before transferring/teleporting\n  # This value is in seconds (default is 2 seconds)\n  # Set this to false or 0 for no delay\n  Delay: 2\n\n  # Set the formatting for the title shown to players when transferring SERVERS\n  Transfer: \"§a§oTransferring...\"\n\n  # Set the formatting for the title shown to players when teleporting between WORLDS\n  Teleport: \"§a§oTeleporting...\"\n```\n\n### Entry Listing\nThis is where you list your servers/worlds to be displayed on the server UI\n\nServer format: \"ext:ServerTitle:ServerIP:ServerPort:ImageType:Path/URL\"\n\nWaterDog server format: \"wd:ServerTitle:ServerName:ImageType:Path/URL\"\n\nWorld format: \"int:WorldTitle:WorldAlias:ImageType:Path/URL\"\n\n```yaml\nList:\n - \"ext:§l§6Lobby §eServer:play.xenoservers.net:19132:url:file.xenoservers.net/Resources/GitHub-Resources/navicompass/lobby.png\"\n - \"ext:§l§2Prison §eServer:play.xenoservers.net:19133\"\n - \"wd:§l§3Sky§cBlock §eServer:skyblock:url:file.xenoservers.net/Resources/GitHub-Resources/navicompass/skyblock.png\"\n - \"wd:§l§bFactions §eServer:factions\"\n - \"int:§l§5Creative §eServer:creative:url:file.xenoservers.net/Resources/GitHub-Resources/navicompass/creative.png\"\n - \"int:§l§cKitPvP §eServer:kitpvp\"\n```",
+  "readme_source_url": "https://github.com/Xenophilicy/NaviCompass",
+  "icon_url": "https://raw.githubusercontent.com/Xenophilicy/NaviCompass/eade12fe964509928158fde9b013273342cb3006/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Xenophilicy/NaviCompass",
+  "archive_repo": null,
+  "approved_release_tag": "r-11976",
+  "stars": 1,
+  "total_downloads": 994,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Xenophilicy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/216912",
+  "versions": {
+    "stable": {
+      "version": "3.0.5",
+      "tag": "r-11976",
+      "published_at": null,
+      "downloads": 994,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11976/navicompass-3.0.5-r11976.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11976",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11976/navicompass-3.0.5-r11976.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NaviCompass",
+    "stable_release_id": 11976
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "launchacm",
+  "name": "LaunchACM",
+  "author": "fernanACM",
+  "description": "The best launchpad for PocketMine-MP 5.0, easy to use.",
+  "readme_markdown": "# LaunchACM\n[![](https://poggit.pmmp.io/shield.state/LaunchACM)](https://poggit.pmmp.io/p/LaunchACM)\n\n[![](https://poggit.pmmp.io/shield.api/LaunchACM)](https://poggit.pmmp.io/p/LaunchACM)\n\nThe best launchpad for PocketMine-MP 5.0, easy to use.\nAdd a setback and height settings for the launchpads and \ntrampoline. Add fun sounds that you can configure in the 'config.yml'. \n[sounds minecraft](https://www.digminecraft.com/lists/sound_list_pe.php)\n\n![Captura de pantalla 2023-08-02 071644](https://github.com/fernanACM/LaunchACM/assets/83558341/1d77b644-204c-416d-86d1-ad4cabd313a3)\n<a href=\"https://discord.gg/YyE9XFckqb\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n\n### 🌍 Wiki\n* Check our plugin [wiki](https://github.com/fernanACM/LaunchACM/wiki) for features and secrets in the...\n\n### 💡 Implementations\n* [X] Configuration\n* [x] Sounds\n* [x] New launchpads\n* [X] New trampoline\n---\n\n### 💾 Config\n```yaml\n   #   _                                      _          _       ____   __  __ \n#  | |       __ _   _   _   _ __     ___  | |__      / \\     / ___| |  \\/  |\n#  | |      / _` | | | | | | '_ \\   / __| | '_ \\    / _ \\   | |     | |\\/| |\n#  | |___  | (_| | | |_| | | | | | | (__  | | | |  / ___ \\  | |___  | |  | |\n#  |_____|  \\__,_|  \\__,_| |_| |_|  \\___| |_| |_| /_/   \\_\\  \\____| |_|  |_|\n                                                                          \n#           by fernanACM\n# The best launchpad for PocketMine-MP 5.0, easy to use.\n# Add a setback and height settings for the launchpads and \n# trampoline. Add fun sounds that you can configure in the 'config.yml'. \n# This is the sounds page: https://www.digminecraft.com/lists/sound_list_pe.php\n\n# DO NOT TOUCH!\nconfig-version: \"1.0.0\"\n\n# ==(CONFIGURATION)==\nSettings:\n  # Particle systems in the launchpad and trampoline\n  # Valid modes:\n  # - happy\n  # - blaze\n  # - heart\n  # - angry\n  particle-type: heart\n  # Activate/deactivate particle systems on the launchpad and trampoline\n  # Use \"true\" or \"false\" to enable/disable this option\n  particle: true\n  # ==(SOUNDS)==\n  # Use \"true\" or \"false\" to enable/disable this option\n  launchpad-no-sound: true\n  # Use \"true\" or \"false\" to enable/disable this option\n  trampoline-no-sound: true\n  # ==(WORLD MANAGER)==\n  # Enable and disable launchpads and trampoline for worlds you \n  # add to \"whitelist\" or \"blacklist\" modes\n  WorldManager:\n    # Valid modes:\n    # - whitelist\n    # - blacklist\n    mode: whitelist\n    # Add the names of worlds that are in the whitelist\n    worlds-whitelist:\n      - \"world\"\n      - \"world-2\"\n      - \"ACM\"\n    # Add the names of worlds that are in the blacklist\n    worlds-blacklist:\n      - \"MinePvP\"\n      - \"ZonePvP\"\n\n# ==(TRAMPOLINE)==\nTrampoline:\n  # Default setting in case you haven't \n  # added \"height\", \"soundName\" or \"soundPitch\"\n  default-settings:\n    # Height has reach on the trampoline.\n    height: 3.0\n    # Sound when being propelled by the trampoline\n    # https://www.digminecraft.com/lists/sound_list_pe.php\n    soundName: \"mob.blaze.shoot\"\n    # Sound distortion\n    soundPitch: 2.4\n  # Enable/disable trampoline\n  # Use \"true\" or \"false\" to enable/disable this option\n  trampoline-use: true\n  # ==(TRAMPOLINE FOR WORLDS)==\n  # This is a boost customization feature on the trampoline\n  trampoline:\n    # [EXAMPLE]:\n    # worldName:\n    #   height: 3\n    #   soundName: \"mob.blaze.hit\"\n    #   soundPitch: 2\n    \n    # Remember that \"soundName\" and \"soundPitch\" are optional, \n    # but you can use them if you want to make it much nicer.\n    world:\n      height: 2\n      soundName: \"mob.blaze.shoot\"\n      soundPitch: 1.3\n    world_2:\n      height: 3\n      soundName: \"mob.blaze.shoot\"\n      soundPitch: 16.4\n   \n# ==(LAUNCHPADS)==\nLaunchPad:\n  # Enable/disable launchpads\n  # Use \"true\" or \"false\" to enable/disable this option\n  LaunchPads:\n    # Type: stone\n    stone_pressure_plate: true\n    # Type: acacia\n    acacia_pressure_plate: true\n    # Type: birch\n    birch_pressure_plate: true\n    # Type: dark_oak\n    dark_oak_pressure_plate: true\n    # Type: jungle\n    jungle_pressure_plate: true\n    # Type: oak\n    oak_pressure_plate: true\n    # Type: spruce\n    spruce_pressure_plate: true\n    # Type: weighted_heavy\n    weighted_pressure_plate_heavy: true\n    # # Type: weighted_light\n    weighted_pressure_plate_light: true\n    # Type: polished\n    polished_blackstone_pressure_plate: true\n    # Type: mangrove\n    mangrove_pressure_plate: true\n    # Type: crimson\n    crimson_pressure_plate: true\n    # Type: warped\n    warped_pressure_plate: true\n    # Type: cherry\n    cherry_pressure_plate: true\n\n  \n  launchpad:\n    # Default setting in case you haven't \n    # added \"knockback\", \"height\", \"soundName\" or \"soundPitch\"\n    default-settings:\n      # Knockback that is triggered by the launchpad\n      knockback: 2.0\n      # Height has reach on the launchpad\n      height: 3.0\n      # Sound when being propelled by the launchpad\n      # https://www.digminecraft.com/lists/sound_list_pe.php\n      soundName: \"mob.irongolem.walk\"\n      # Sound distortion\n      soundPitch: 2.4\n    # ==(LAUNCHPAD FOR WORLDS)==\n    # This is a boost customization feature on the launchpad\n\n    # [EXAMPLE]:\n    # worldName:\n    #   knockback: 3\n    #   height: 3\n    #   soundName: \"mob.blaze.hit\"\n    #   soundPitch: 2\n    \n    # Remember that \"soundName\" and \"soundPitch\" are optional, \n    # but you can use them if you want to make it much nicer.\n    0:\n      stone_pressure_plate:\n        world:\n          knockback: 3\n          height: 2\n          soundName: \"mob.irongolem.walk\"\n          soundPitch: 1.3\n        world-2:\n          knockback: 3\n          height: 2\n          soundName: \"mob.irongolem.walk\"\n          soundPitch: 1.3\n   ```\n### 📢 Report bug\n* If you find any bugs in this plugin, please let me know via: [issues](https://github.com/fernanACM/LaunchACM/issues)\n   \n### 📞 Contact\n| Redes | Tag | Link |\n|-------|-------------|------|\n| YouTube | fernanACM | [YouTube](https://www.youtube.com/channel/UC-M5iTrCItYQBg5GMuX5ySw) | \n| Discord | fernanACM#5078 | [Discord](https://discord.gg/YyE9XFckqb) |\n| GitHub | fernanACM | [GitHub](https://github.com/fernanACM)\n| Poggit | fernanACM | [Poggit](https://poggit.pmmp.io/ci/fernanACM)\n\n### ✔ Credits\n| Authors | Github | Lib |\n|---------|--------|-----|\n| DaPigGuy | [DaPigGuy](https://github.com/DaPigGuy) | [libPiggyUpdateChecker](https://github.com/DaPigGuy/libPiggyUpdateChecker) |\n****",
+  "readme_source_url": "https://github.com/fernanACM/LaunchACM",
+  "icon_url": "https://raw.githubusercontent.com/fernanACM/LaunchACM/a6c6cfe0af6043d343c54166bc187051c8c40561/icon-acm.png",
+  "featured": false,
+  "repo": "https://github.com/fernanACM/LaunchACM",
+  "archive_repo": null,
+  "approved_release_tag": "r-12097",
+  "stars": 4,
+  "total_downloads": 510,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.3.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "fernanACM"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/218480",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12097",
+      "published_at": null,
+      "downloads": 510,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12097/launchacm-2.0.0-r12097.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12097",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12097/launchacm-2.0.0-r12097.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LaunchACM",
+    "stable_release_id": 12097
+  }
+}

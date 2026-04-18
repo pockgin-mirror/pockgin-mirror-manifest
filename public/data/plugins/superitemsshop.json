@@ -1,0 +1,64 @@
+{
+  "id": "superitemsshop",
+  "name": "SuperItemsShop",
+  "author": "GabBiswajit",
+  "description": "How To use",
+  "readme_markdown": "# How To use \nFirst Download The Plugin Than upload On Your Server Plugin Fill Than Start The Server And Join It Use **/sshop**!\n# Information \nThis Plugin Is A Super Items Shop, You Get 6 Items In Shop And Both Items Give You Op Effects!\n![IMG_20230704_174108](https://github.com/GabBiswajit/SuperItemsShop/assets/121815367/50d659b2-79db-4b96-8589-06f85668a0e5)\n# Potions\nIn The Shop You Get 2 Type Of Potions **GOD POTION** And **Blood Potion**!\n![IMG_20230704_174053](https://github.com/GabBiswajit/SuperItemsShop/assets/121815367/e517606a-f4c3-47a5-9ab2-9b50e8142b62)\n# COOKIES\nIn The Shop You Get 2 Type Of Cookies **BOOSTER COOKIE** And **GB COOKIE**!\n![IMG_20230704_174035](https://github.com/GabBiswajit/SuperItemsShop/assets/121815367/cd008bed-bd08-4a41-9c7e-58d66849a8d2)\n# Other\nYou Get 2 Items In Other **DARK CARROT** And **LEGENDS APPLE**!\n![IMG_20230704_174010](https://github.com/GabBiswajit/SuperItemsShop/assets/121815367/51b5b2b7-866b-47ba-a4e7-3a09f2d7a6e7)\n# Economy Suport\nCurrently this library only supports BedrockEconomy and EconomyAPI.\n# Price\nYou Can Change Items Price From Plugin Data **Config.yml**!",
+  "readme_source_url": "https://github.com/GabBiswajit/SuperItemsShop",
+  "icon_url": "https://raw.githubusercontent.com/GabBiswajit/SuperItemsShop/5439ed72aaa47fc999f72e7fddd7105ec6d43edb/icon.png",
+  "featured": false,
+  "repo": "https://github.com/GabBiswajit/SuperItemsShop",
+  "archive_repo": null,
+  "approved_release_tag": "r-12132",
+  "stars": 5,
+  "total_downloads": 1887,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "GabBiswajit"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-12132",
+      "published_at": null,
+      "downloads": 1887,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12132/superitemsshop-2.0.0-r12132.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12132",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12132/superitemsshop-2.0.0-r12132.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SuperItemsShop",
+    "stable_release_id": 12132
+  }
+}

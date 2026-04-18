@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14209",
   "stars": 0,
-  "total_downloads": 864,
+  "total_downloads": 1024,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -56,6 +56,16 @@
       "tag": "r-12422",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12422/maskui-1.2-r12422.phar"
+    },
+    {
+      "tag": "r-12110",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12110/maskui-1.1-r12110.phar"
+    },
+    {
+      "tag": "r-12059",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12059/maskui-1.1-beta-r12059.phar"
     }
   ],
   "comments": {

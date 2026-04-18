@@ -1,0 +1,61 @@
+{
+  "id": "antivoid-pm5",
+  "name": "AntiVoid-PM5",
+  "author": "XeonCh",
+  "description": "AntiVoid",
+  "readme_markdown": "# AntiVoid\nPlugin AntiVoid PocketMine\n\n### Feature\n- [X] Enable/Disable AntiVoid\n- [X] Enable World Config\n- [X] Disable World Config\n- [X] Message config\n- [ ] Add world enable command\n- [ ] Add world disable command\n- [ ] Remove world enable command\n- [ ] Remove world disable command\n\n### Config\n| **config.yml** \n``` # Fill in with a valid world name\n# ex:\n# enable-world:\n#  - world1\n#  - world2\n# disable-world:\n#  - world3\n# if it is not filled it means that all worlds are enabled\n\nenable-world: []\ndisable-world:\n  - world\n\nmessage:\n# if you want no message please replace it with \"false\"\n# ex =  enable: false\n  enable: true\n# This message is sent when the message is enabled\n# & for coloring\n# {player} for the player name\n  msg: \"&aYou don't fall into void because anti void\"\n```\n\n### Commands\n| **Command**                                                                                                  | **Description**                  | **Permission**               |\n|--------------------------------------------------------------------------------------------------------------|----------------------------------|------------------------------|\n| `/antivoid or /av                                                                                                 | Command Anti Vooid              | `antivoid.cmd`            |\n| <code>/antivoid enable </code> | Enable AntiVoid Command      | `antivoid.enable.cmd`    |\n| <code>/antivoid disable </code> | Disable AntiVoid Command | `antivoid.disable.cmd` |\n\n### Issues\n**If you experience a bug / you want to request a feature** [[here](https://github.com/XeonCh/AntiVoid/issues/new)]\n\n**Make the issue clear and correct, I'll read it later**\n\n### Credit\nAuthor: XeonCH\n\n### Virions\n- Commando [[Download](https://github.com/XeonCh/Commando)]\n  \n### Social Media\n- **Youtube**: ([XeonCH](https://www.youtube.com/channel/UCpcho74kpMcC0ExPFPb7ImQ))\n- **Discord**: lordzz\n- **WhatsApp Number**: 62895366371823",
+  "readme_source_url": "https://github.com/XeonCh/AntiVoid",
+  "icon_url": "https://raw.githubusercontent.com/XeonCh/AntiVoid/bd9c855a351d7d34969f8e15fe5f054a4cb78480/icon.gif",
+  "featured": false,
+  "repo": "https://github.com/XeonCh/AntiVoid",
+  "archive_repo": null,
+  "approved_release_tag": "r-11982",
+  "stars": 0,
+  "total_downloads": 1303,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "XeonCh"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-11982",
+      "published_at": null,
+      "downloads": 1303,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11982/antivoid-pm5-0.0.1-r11982.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11982",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11982/antivoid-pm5-0.0.1-r11982.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiVoid-PM5",
+    "stable_release_id": 11982
+  }
+}

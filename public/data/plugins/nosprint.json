@@ -1,0 +1,61 @@
+{
+  "id": "nosprint",
+  "name": "NoSprint",
+  "author": "AIPTU",
+  "description": "A PocketMine-MP plugin to cancel the player's spint.",
+  "readme_markdown": "# NoSprint\n\n[![](https://poggit.pmmp.io/shield.state/NoSprint)](https://poggit.pmmp.io/p/NoSprint)\n[![](https://poggit.pmmp.io/shield.dl.total/NoSprint)](https://poggit.pmmp.io/p/NoSprint)\n\nA PocketMine-MP plugin to cancel the player's spint.\n\n# Features\n\n- `Sprint Restriction`: Control player sprinting behavior in specific worlds.\n- `None Mode`: Disable sprint restrictions, allowing unrestricted sprinting in all worlds.\n- `Blacklist Mode`: Prevent players from sprinting in worlds listed in the blacklist.\n- `Whitelist Mode`: Allow players to sprint only in worlds listed in the whitelist.\n- `Customizable Message`: Display a custom message to players when they attempt to sprint in restricted worlds.\n- `Permission Bypass`: Players with the `nosprint.bypass` permission can sprint freely in all worlds.\n- `World Validation`: Ignore non-existent or ungenerated worlds listed in the configuration.\n- `Configuration Management`: Automatically generate a new configuration if an outdated one is provided.\n- `Event Handling`: Intercept player sprinting attempts and apply the appropriate restrictions based on the mode and configuration.\n\n# Permissions\n\n- `nosprint.bypass`: Allows users to bypass sprint.\n\n# Default Config\n\n```yaml\n# Do not change this (Only for internal use)!\nconfig-version: 1.3\n\n# Message used when canceling a player's sprint.\n# You can use color codes by using \"§\" or \"&\" before the color code.\nmessage: \"&cYou can't sprint in this world.\"\n\n# World Restriction Settings\nworlds:\n  # The mode can be either \"blacklist,\" \"whitelist,\" or \"none\".\n  # - \"blacklist\" mode will cancel player's sprint in the specified worlds (blacklisted) and allow sprinting in other worlds.\n  # - \"whitelist\" mode will allow player's sprint only in the specified worlds (whitelisted) and cancel sprinting in other worlds.\n  # - \"none\" mode will not apply any restriction, and sprinting will be allowed in all worlds.\n  mode: \"blacklist\"\n\n  # List of world folder names to be blacklisted or whitelisted (depending on the mode set above).\n  # If \"mode\" is set to \"blacklist\" or \"whitelist,\" add the world folder names accordingly.\n  # If \"mode\" is set to \"none,\" leave the \"list\" empty ([]) to allow sprinting in all worlds.\n  list:\n    - \"world\"  # Example: \"world\" world folder is blacklisted, and players can't sprint here.\n    - \"world_nether\"  # Example: \"world_nether\" world folder is blacklisted, and players can't sprint here.\n\n# You can add more worlds to the list as needed.\n# Note: Make sure to use the correct world folder names as specified in your PocketMine-MP server configuration.\n# To disable world-specific sprint restriction and allow sprinting in all worlds, set \"mode\" to \"none\" and leave the \"list\" empty ([]) or remove the \"list\" entirely.\n\n```\n\n# Upcoming Features\n\n- Currently none planned. You can contribute or suggest for new features.\n\n# Additional Notes\n\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/AIPTU/NoSprint/issues).\n- We accept all contributions! If you want to contribute, please make a pull request in [here](https://github.com/AIPTU/NoSprint/pulls).\n- Icons made from [www.flaticon.com](https://www.flaticon.com)",
+  "readme_source_url": "https://github.com/AIPTU/NoSprint",
+  "icon_url": "https://raw.githubusercontent.com/AIPTU/NoSprint/7e064f7bf4ec3b8782ea579129c427b8c29ff4b7/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AIPTU/NoSprint",
+  "archive_repo": null,
+  "approved_release_tag": "r-12035",
+  "stars": 0,
+  "total_downloads": 202,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AIPTU"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/217637",
+  "versions": {
+    "stable": {
+      "version": "1.3.0",
+      "tag": "r-12035",
+      "published_at": null,
+      "downloads": 202,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12035/nosprint-1.3.0-r12035.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-12035",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12035/nosprint-1.3.0-r12035.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NoSprint",
+    "stable_release_id": 12035
+  }
+}
