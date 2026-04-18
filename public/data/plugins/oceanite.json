@@ -1,0 +1,63 @@
+{
+  "id": "oceanite",
+  "name": "Oceanite",
+  "author": "DavyCraft648",
+  "description": "Upgrade your Diamond tools and armor with Oceanite material!",
+  "readme_markdown": "# [Oceanite](https://poggit.pmmp.io/ci/DavyCraft648/Oceanite/~)\n\nUpgrade your Diamond tools and armor with Oceanite material!\n\nPocketMine plugin based on [Oceanite](https://mcpedl.com/oceanite/) addon.\n\n## Requirements\n\n- PocketMine-MP 4.16.0 or higher\n- [Customies plugin](https://poggit.pmmp.io/p/Customies) 1.2.1 or higher",
+  "readme_source_url": "https://github.com/DavyCraft648/Oceanite",
+  "icon_url": "https://raw.githubusercontent.com/DavyCraft648/Oceanite/cea5fcb3ed1197bdd89e5dfd986608e7cdf8aae6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/DavyCraft648/Oceanite",
+  "archive_repo": null,
+  "approved_release_tag": "r-11497",
+  "stars": 3,
+  "total_downloads": 1324,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [
+      "Customies"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DavyCraft648"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209599",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-11497",
+      "published_at": null,
+      "downloads": 1324,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11497/oceanite-1.1.1-r11497.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11497",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11497/oceanite-1.1.1-r11497.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Oceanite",
+    "stable_release_id": 11497
+  }
+}

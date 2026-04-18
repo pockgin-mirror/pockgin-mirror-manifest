@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11920",
   "stars": 2,
-  "total_downloads": 2410,
+  "total_downloads": 2540,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "2.0.2",
       "tag": "r-11920",
       "published_at": null,
-      "downloads": 2288,
+      "downloads": 2289,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11920/grapplinghook-2.0.2-r11920.phar"
     },
     "dev": null
@@ -49,6 +49,11 @@
       "tag": "r-11779",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11779/grapplinghook-2.0.1-r11779.phar"
+    },
+    {
+      "tag": "r-11631",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11631/grapplinghook-2.0.0-r11631.phar"
     }
   ],
   "comments": {

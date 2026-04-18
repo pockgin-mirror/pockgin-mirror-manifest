@@ -1,0 +1,61 @@
+{
+  "id": "worldtime",
+  "name": "WorldTime",
+  "author": "AIPTU",
+  "description": "The WorldTime plugin is a PocketMine plugin that allows you to set the time of specific worlds in your server based on a configuration file.",
+  "readme_markdown": "# WorldTime\n\n[![](https://poggit.pmmp.io/shield.state/WorldTime)](https://poggit.pmmp.io/p/WorldTime)\n[![](https://poggit.pmmp.io/shield.dl.total/WorldTime)](https://poggit.pmmp.io/p/WorldTime)\n\nThe WorldTime plugin is a PocketMine plugin that allows you to set the time of specific worlds in your server based on a configuration file.\n\n## Features\n\n- Set the time of individual worlds in your server.\n- Support for different time values, including predefined values like day, night, sunset, sunrise, etc.\n- Option to stop the time in a world.\n- Customizable log message when setting the time of a world.\n- Automatic generation of a new configuration file if an outdated one is provided.\n\n## Configuration\n\nThe plugin comes with a configuration file named `config.yml`. You can modify this file to configure the plugin behavior.\n\nThe `config.yml` file contains the following options:\n\n- `config-version`: **(Do not modify)** The version of the configuration file.\n- `worlds`: An array of worlds and their settings. Each world has the following options:\n  - `time`: The desired time value for the world. It can be one of the predefined values (day, night, sunset, sunrise, noon) or a custom integer value.\n  - `stop`: *(Optional)* Set to `true` if you want to stop the time in the world.\n- `message`: The log message to display when setting the time of a world. You can use placeholders to dynamically insert values. Available placeholders: `{WORLD}`, `{TIME}`.\n\n## Usage\n\n1. Edit the `config.yml` file to specify the worlds and their time settings.\n2. Start or reload the server.\n3. The plugin will automatically load the specified worlds and set their time according to the configuration.\n\nThe plugin will log a message for each world it sets the time for, using the configured log message. The `{WORLD}` and `{TIME}` placeholders in the log message will be replaced with the respective values.\n\n## Example Configuration\n\n```yaml\nworlds:\n  world1:\n    time: day\n    stop: false\n  world2:\n    time: 6000\n    stop: true\n  world3:\n    time: sunset\n    stop: false\nmessage: 'Set the time of the {WORLD} world to {TIME}.'\n```\n\n## Additional Notes\n\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/AIPTU/WorldTime/issues).\n- We accept all contributions! If you want to contribute, please make a pull request in [here](https://github.com/AIPTU/WorldTime/pulls).\n- Icons made from [www.flaticon.com](https://www.flaticon.com)",
+  "readme_source_url": "https://github.com/AIPTU/WorldTime",
+  "icon_url": "https://raw.githubusercontent.com/AIPTU/WorldTime/e20f2e4720f62cf15df0ecea85b5ee1c485d97be/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AIPTU/WorldTime",
+  "archive_repo": null,
+  "approved_release_tag": "r-11685",
+  "stars": 0,
+  "total_downloads": 349,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AIPTU"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/212249",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-11685",
+      "published_at": null,
+      "downloads": 349,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11685/worldtime-1.2.0-r11685.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11685",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11685/worldtime-1.2.0-r11685.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorldTime",
+    "stable_release_id": 11685
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14247",
   "stars": 0,
-  "total_downloads": 3465,
+  "total_downloads": 3865,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-11921",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11921/enderchest-2.0.1-r11921.phar"
+    },
+    {
+      "tag": "r-11546",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11546/enderchest-2.0.0-r11546.phar"
     }
   ],
   "comments": {

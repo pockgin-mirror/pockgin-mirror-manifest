@@ -1,0 +1,61 @@
+{
+  "id": "report",
+  "name": "Report",
+  "author": "r3pt1s",
+  "description": "Report players if there are cheating or disrespecting the rules and let moderators punish them by some simple clicks!",
+  "readme_markdown": "# [Report](https://poggit.pmmp.io/p/Report/1.0) [![](https://poggit.pmmp.io/shield.state/Report)](https://poggit.pmmp.io/p/Report)\r\n\r\nReport players if there are cheating or disrespecting the rules and let moderators punish them by some simple clicks!\r\n\r\n## Features\r\n- **Accept/Decline** Report\r\n- **Custom** Messages & Reasons\r\n- **MySQL** Support\r\n- **Webhook** Support\r\n- **Notifications**\r\n- **Saving** reports for later\r\n\r\n## Commands\r\n| Usage    | Description          | Permission             |\r\n|----------|----------------------|------------------------|\r\n| /report  | Report a player      | No Permission          |\r\n| /reports | See all open reports | report.command.reports |\r\n\r\n## Permissions\r\n| Permission    | Use                      |\r\n|---------------|--------------------------|\r\n| report.notify | Getting notifications    |\r\n\r\n## Configuration\r\n```yaml\r\nprovider: mysql\r\nmysql:\r\n  host: localhost\r\n  port: 3306\r\n  username: root\r\n  password: your_password\r\n  database: your_database\r\nwebhook:\r\n  enabled: false\r\n  webhook_url: your_url\r\nreasons:\r\n  behavior:\r\n    command: /mute %user% Behavior\r\n    display_name: §cBehavior\r\n  spamming:\r\n    command: /mute %user% Spamming\r\n    display_name: §cSpamming\r\n  cheating:\r\n    command: /ban %user% Cheating\r\n    display_name: §cCheating\r\n```\r\n\r\n## Messages\r\n```yaml\r\nprefix: \"§cReport §8» §r\"\r\nno.permissions: \"{PREFIX}§cYou don't have the permission to do this!\"\r\ncommand.report.description: \"Report a player\"\r\ncommand.reports.description: \"See the open reports\"\r\njoin.notification: \"{PREFIX}§7There are §e%count% report(s) §7available!\"\r\nno.player.online: \"{PREFIX}§cThere are no players online!\"\r\nplayer.not.found: \"{PREFIX}§cThe player §e%target% §cwas not found!\"\r\nreason.not.found: \"{PREFIX}§cThe reason §e%reason% §cdoesn't exists!\"\r\nplayer.already.reported: \"{PREFIX}§cThe player §e%target% §cgot already reported!\"\r\nplayer.report.failed: \"{PREFIX}§cYou can't report yourself!\"\r\nplayer.reported: \"{PREFIX}§7You have successfully §areported §7the player §e%target%§7!\"\r\nno.reports.available: \"{PREFIX}§cThere are no open reports!\"\r\nnotify.message: \"{PREFIX}§7The player §e%player% §7has reported §e%target% §7for §c§l%reason%§r§7!\"\r\nreport.accepted: \"{PREFIX}§7Your report against §e%target% §7was §aaccepted§7!\"\r\nreport.accepted.with_notes: \"{PREFIX}§7Your report against §e%target% §7was §aaccepted§7!\\n{PREFIX}§7Notes: §e%notes%\"\r\nreport.declined: \"{PREFIX}§7Your report against §e%target% §7was §cdeclined§7!\"\r\nreport.declined.with_notes: \"{PREFIX}§7Your report against §e%target% §7was §cdeclined§7!\\n{PREFIX}§7Notes: §e%notes%\"\r\nself.report.accepted: \"{PREFIX}§7You have §aaccepted §7the report against §e%target% §7fom §e%player%§7!\"\r\nself.report.declined: \"{PREFIX}§7You have §cdeclined §7the report against §e%target% §7fom §e%player%§7!\"\r\nreport.not.found: \"{PREFIX}§cThe report doesn't exists!\"\r\nform.report.title: \"§8» §cReport §8«\"\r\nform.report.player.text: \"§7Who do you want to report?\"\r\nform.report.reason.text: \"§7For what reason?\"\r\nform.reports.title: \"§8» §cReports §8«\"\r\nform.reports.text: \"§7There are §e%count% report(s) §7available!\"\r\nform.reports.button.format: \"§e%target%\\n§c%reason%\"\r\nform.view_report.title: \"§8» §e%target% §8«\"\r\nform.view_report.text: \"§8» §7Target: §e%target%\\n§8» §7Player: §e%player%\\n§8» §7Reason: §e%reason%\"\r\nform.view_report.button.accept: \"§aAccept\"\r\nform.view_report.button.decline: \"§cDecline\"\r\nform.additional_notes.title: \"§8» §6Notes §8«\"\r\nform.additional_notes.input.text: \"§7Want to add some notes?\"\r\n\r\nwebhook.new.embed.title: \"New Report!\"\r\nwebhook.new.field.target.name: \"Target\"\r\nwebhook.new.field.target.value: \"%target%\"\r\nwebhook.new.field.player.name: \"Reported by\"\r\nwebhook.new.field.player.value: \"%player%\"\r\nwebhook.new.field.reason.name: \"Reason\"\r\nwebhook.new.field.reason.value: \"%reason%\"\r\n\r\nwebhook.accepted.embed.title: \"Report was accepted\"\r\nwebhook.accepted.field.target.name: \"Target\"\r\nwebhook.accepted.field.target.value: \"%target%\"\r\nwebhook.accepted.field.player.name: \"Player\"\r\nwebhook.accepted.field.player.value: \"%player%\"\r\nwebhook.accepted.field.moderator.name: \"Moderator\"\r\nwebhook.accepted.field.moderator.value: \"%moderator%\"\r\nwebhook.accepted.field.notes.name: \"Notes\"\r\nwebhook.accepted.field.notes.value: \"%notes%\"\r\nwebhook.accepted.field.notes.value.empty: \"No notes given\"\r\n\r\nwebhook.declined.embed.title: \"Report was declined\"\r\nwebhook.declined.field.target.name: \"Target\"\r\nwebhook.declined.field.target.value: \"%target%\"\r\nwebhook.declined.field.player.name: \"Player\"\r\nwebhook.declined.field.player.value: \"%player%\"\r\nwebhook.declined.field.moderator.name: \"Moderator\"\r\nwebhook.declined.field.moderator.value: \"%moderator%\"\r\nwebhook.declined.field.notes.name: \"Notes\"\r\nwebhook.declined.field.notes.value: \"%notes%\"\r\nwebhook.declined.field.notes.value.empty: \"No notes given\"\r\n```",
+  "readme_source_url": "https://github.com/r3pt1s/Report",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/r3pt1s/Report",
+  "archive_repo": null,
+  "approved_release_tag": "r-11637",
+  "stars": 5,
+  "total_downloads": 1156,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "r3pt1s"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11637",
+      "published_at": null,
+      "downloads": 1156,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11637/report-1.0.0-r11637.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11637",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11637/report-1.0.0-r11637.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Report",
+    "stable_release_id": 11637
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "changedisplayname",
+  "name": "ChangeDisplayName",
+  "author": "Wertzui123",
+  "description": "ChangeDisplayName lets you change your displayname (nickname).",
+  "readme_markdown": "# ChangeDisplayName\nChangeDisplayName lets you change your displayname (nickname).\n<br>The .phar file can be found on <a href=\"https://poggit.pmmp.io/p/ChangeDisplayName\">poggit</a>.\n\n# Features\n- PurePerms support\n- Custom nickname format\n- Advanced (messages) configuration\n- Banned nicknames\n- /realname\n- /unnick\n\n# Commands\n| Command  | Description                                 | Usage                      | Aliases                          | Permission                         |\n|----------|---------------------------------------------|----------------------------|----------------------------------|------------------------------------|\n| nick     | Nick yourself                               | /nick <nickname: string>   | nickname, changedisplayname, cdn | changedisplayname.command.nick     |\n| realname | Find out the actual name of a nicked player | /realname <player: string> | /                                | changedisplayname.command.realname |\n| unnick   | Reset your or someone elses displayname     | /unnick  [player: target]  | /                                | changedisplayname.command.unnick   |\n\n# Permissions\nAll command permissions and:\n\n| Permission                      | Description                           | Default |\n|---------------------------------|---------------------------------------|---------|\n| changedisplayname.unnick.others | Lets you use /unnick on other players | op      |\n  \n# Ideas, Questions, and Support\nYou can contact me in <a href=\"https://discord.gg/eGhZGtF\">my discord server</a> or <a href=\"https://github.com/Wertzui123/ChangeDisplayName/issues/new\">create an issue</a>/<a href=\"https://github.com/Wertzui123/ChangeDisplayName/discussions/new\">start a discussion</a>.\n\n# License\nChangeDisplayName is licensed under the GNU General Public License v3.0. For more information: https://choosealicense.com/licenses/gpl-3.0\n<br><code>© 2019 - 2023 Wertzui123</code>\n\n# Credits\nChangeDisplayName was written by Wertzui123.",
+  "readme_source_url": "https://github.com/Wertzui123/ChangeDisplayName",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Wertzui123/ChangeDisplayName",
+  "archive_repo": null,
+  "approved_release_tag": "r-11486",
+  "stars": 4,
+  "total_downloads": 815,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Wertzui123"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209503",
+  "versions": {
+    "stable": {
+      "version": "4.2.1",
+      "tag": "r-11486",
+      "published_at": null,
+      "downloads": 815,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11486/changedisplayname-4.2.1-r11486.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11486",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11486/changedisplayname-4.2.1-r11486.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChangeDisplayName",
+    "stable_release_id": 11486
+  }
+}

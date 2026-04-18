@@ -1,0 +1,66 @@
+{
+  "id": "itemsender",
+  "name": "ItemSender",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\nSending the item in hand to someone with `/itemsender` command\n\n# Commands & Permissions\n```yaml\ncommands:\n  itemsender:\n    description: Sending the item in hand to someone\n    usage: \"/itemsender <player> <amount>\"\n    aliases: [itemsend]\n    permission: itemsender.command\npermissions:\n  itemsender.command:\n    description: Permission for /itemsender\n    default: true\n```\n\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c) [https://discord.gg/j2X83ujT6c] \\\nYou can contact me directly via Discord `NhanAZ` (Originally known as `NhanAZ#9115`)",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/ItemSender",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/ItemSender/858f1d782dfb496fca7f6912f3767f0df5ef9f78/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/ItemSender",
+  "archive_repo": null,
+  "approved_release_tag": "r-11683",
+  "stars": 0,
+  "total_downloads": 298,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/212200",
+  "versions": {
+    "stable": {
+      "version": "0.0.6",
+      "tag": "r-11683",
+      "published_at": null,
+      "downloads": 260,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11683/itemsender-0.0.6-r11683.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11683",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11683/itemsender-0.0.6-r11683.phar"
+    },
+    {
+      "tag": "r-11622",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11622/itemsender-0.0.5-r11622.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemSender",
+    "stable_release_id": 11683
+  }
+}

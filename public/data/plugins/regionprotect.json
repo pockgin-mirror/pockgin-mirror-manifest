@@ -1,0 +1,72 @@
+{
+  "id": "regionprotect",
+  "name": "RegionProtect",
+  "author": "kaidomc-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**RegionProtect is temporarily called a protected region?**\nOnce the designated region is protected, the player will no longer worry about the features in a world, and when entering that region, it will display the title to let the player know the characteristics of the region there.\n\n[![State](https://poggit.pmmp.io/shield.state/RegionProtect)](https://poggit.pmmp.io/p/RegionProtect)\n[![API](https://poggit.pmmp.io/shield.api/RegionProtect)](https://poggit.pmmp.io/p/RegionProtect)\n[![Downloads Total](https://poggit.pmmp.io/shield.dl.total/RegionProtect)](https://poggit.pmmp.io/p/RegionProtect)\n[![Downloads](https://poggit.pmmp.io/shield.dl/RegionProtect)](https://poggit.pmmp.io/p/RegionProtect)\n[![Lint](https://poggit.pmmp.io/ci.shield/kaidoMC-pm-pl/RegionProtect/RegionProtect)](https://poggit.pmmp.io/ci/kaidoMC-pm-pl/RegionProtect/RegionProtect)\n\n# Features\n- Show title when entering region.\n- Allow or disallow pvp in the region.\n- Allow or disallow block breaking in the region.\n- Allow or disallow placing in the region.\n- Allow or disallow touching (interaction) in the region.\n\n# How to use?\n1. `/region wand` - Take the wooden ax and choose the vector.\n2. Select the start and end points to set up the frameset for the region.\n3. `/region create` - You are required to fill in information to create an region.\n4.  `/region edit <regionName>` - Edit the region the you wants.\n\n# Permissions\n| Permission               | Description                                                                       |\n| ------------------------ | --------------------------------------------------------------------------------- |\n| `regionprotect.command.use`     | Basic permission to be able to use the Region feature.                            |\n| `regionprotect.interactive.use` | Permission is allowed to interact in the forbidden region. `(Developing)`         |\n\n# Futures\n- [ ] Notification type: subtitle, mess, popup, tip.\n- [ ] Sound.\n- [ ] Etc.\n\n# Configs\n```yaml\n---\n# If true, show title when player enters an region.\nshow-title: true\n\n# Warning message are sent to players when their actions are blocked.\nwarning-message: \"Can't do this in the standing region.\"\n\n# Timeout between warning message in seconds.\nwaiting-message: 3\n\n# Operator players can still act in the forbidden region.\ninteractive-operator: true\n...\n```\n\n# Contacts\n**You can contact me directly through the platforms listed below**\n- Discord: @kaidojoestar272004#7124\n- Facebook: https://www.fb.com/kaidomc12345\n- Youtube: https://www.youtube.com/KAIDOMC\n# License\n[**GNU General Public License v3.0**](https://www.gnu.org/licenses/gpl-3.0.html)",
+  "readme_source_url": "https://github.com/kaidomc-pm-pl/RegionProtect",
+  "icon_url": "https://raw.githubusercontent.com/kaidomc-pm-pl/RegionProtect/db48ce82c9826308b1d89f65e78bbbe785f04b90/icon.png",
+  "featured": false,
+  "repo": "https://github.com/kaidomc-pm-pl/RegionProtect",
+  "archive_repo": null,
+  "approved_release_tag": "r-11592",
+  "stars": 5,
+  "total_downloads": 1570,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "kaidomc-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/210977",
+  "versions": {
+    "stable": {
+      "version": "1.1.3",
+      "tag": "r-11592",
+      "published_at": null,
+      "downloads": 1495,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11592/regionprotect-1.1.3-r11592.phar"
+    },
+    "dev": {
+      "version": "1.1.2",
+      "tag": "r-11551",
+      "published_at": null,
+      "downloads": 75,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11551/regionprotect-1.1.2-r11551.phar"
+    }
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11592",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11592/regionprotect-1.1.3-r11592.phar"
+    },
+    {
+      "tag": "r-11551",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11551/regionprotect-1.1.2-r11551.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RegionProtect",
+    "stable_release_id": 11592
+  }
+}

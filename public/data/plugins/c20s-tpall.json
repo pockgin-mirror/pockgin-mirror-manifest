@@ -1,0 +1,61 @@
+{
+  "id": "c20s-tpall",
+  "name": "C20s-TpAll",
+  "author": "creeperplayer20",
+  "description": "C20s TpAll",
+  "readme_markdown": "<img src=\"https://github.com/creeperplayer20/C20s-TPALL/blob/main/icon.png\" alt=\"C20s TpAll logo\" title=\"C20s TpAll\" align=\"center\">\n\n# C20s TpAll\n* Powerful TpAll plugin that allows you to teleport all online players to your current position either instantly (legacy) or with a countdown (UI).\n\n### 💻 Commands\n|**Command**|**Description**|**Permission**|**Default**|**UI**|\n|-----------|---------------|--------------|-----------|-------------|\n|/tpall|Teleport all online players to your current position.|c20s-tpall.use|OP|true/false|\n\n### ⭐ Features\n- [X] PM5 Support\n- [X] Fully Customizable\n- [x] Custom Reason Message + Default Reason\n- [X] UI and Legacy (no UI)\n- [x] Custom Timer\n- [X] Teleport Sounds (Countdown and Teleport)\n\n### 🛡️ Functionality\n\n**UI Form**:\n* Includes countdown slider (10s to 300s).\n* Allows selection of countdown sound, which can be left empty.\n* Allows selection of teleport sound, which can also be left empty.\n* Option to select who to teleport players to.\n* Allows input of a reason for the teleport, either custom or the default reason from the config file.\n* Custom messages can be sent when the teleport is initiated and completed.\n\n**Legacy** (***no UI***):\n* Instantly teleports all players.\n* Sends a message notifying all players of the teleportation.\n* Configurable sound notification upon teleportation inside the config file.\n\n### 🖼️ Images\n![ui](https://user-images.githubusercontent.com/42560781/235523968-c0725e73-15d7-468c-9946-e409cb0f1715.gif)\n\n![no-crash-on-leave](https://user-images.githubusercontent.com/42560781/235527866-203fdfbf-2eef-4b18-b0a9-566b2cb2beab.gif)\n\n![no-spam](https://user-images.githubusercontent.com/42560781/235529302-eefa68ad-1f46-41c2-85fe-78be514cc642.gif)\n\n![legacy](https://user-images.githubusercontent.com/42560781/235530000-40f55cca-3753-46b8-bf70-e426d1f1ae81.gif)\n\n### 🔮 Other\n> You are welcome to provide suggestions and report any issues related to the plugin by submitting them here [GitHub](https://github.com/creeperplayer20/C20s-TPALL/issues) or here [Discord](https://discord.gg/dmrBe8eUDJ).",
+  "readme_source_url": "https://github.com/creeperplayer20/C20s-TPALL",
+  "icon_url": "https://raw.githubusercontent.com/creeperplayer20/C20s-TPALL/587919c030fb85d7bcaebe293197d2132bc48701/icon.png",
+  "featured": false,
+  "repo": "https://github.com/creeperplayer20/C20s-TPALL",
+  "archive_repo": null,
+  "approved_release_tag": "r-11527",
+  "stars": 5,
+  "total_downloads": 1190,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "creeperplayer20"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209960",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-11527",
+      "published_at": null,
+      "downloads": 1190,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11527/c20s-tpall-0.0.2-r11527.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11527",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11527/c20s-tpall-0.0.2-r11527.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "C20s-TpAll",
+    "stable_release_id": 11527
+  }
+}

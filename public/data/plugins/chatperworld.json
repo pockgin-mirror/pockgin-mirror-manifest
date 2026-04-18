@@ -1,0 +1,61 @@
+{
+  "id": "chatperworld",
+  "name": "ChatPerWorld",
+  "author": "angga7togk",
+  "description": "💬ChatPerWorld",
+  "readme_markdown": "# 💬ChatPerWorld\nTo Separate Messages In A Specific World\n\n[![](https://poggit.pmmp.io/shield.state/ChatPerWorld)](https://poggit.pmmp.io/p/ChatPerWorld)\n<a href=\"https://poggit.pmmp.io/p/ChatPerWorld\"><img src=\"https://poggit.pmmp.io/shield.state/ChatPerWorld\"></a>\n\n</br>\n\n# 🗨Commands\n| Command | Description | Permission | Default |\n| --- | --- | --- | --- |\n| `/gchat` | enable or disable GlobalChat Mode | `chatperworld.globalchat.command` | op |\n\n</br>\n\n# 🛠Config\n```\n# Prefix\nPrefix: \"§6[CPW]§r\"\n\n# Format Global Chat\nFormat: \"§d[Global] {player} > {msg}\"\n\n# Message\nMessage:\n  GlobalChat:\n    enable: \"§aEnabled GlobalChat Mode!\"\n    disable: \"§cDisabled GlobalChat Mode!\"\n    actionbar: \"§aYour Enabled GlobalChat Mode!\"\n  Blacklist-WorldChat: \"§cit is forbidden to send messages in this world\"\n\n# Forbids players from Sending Messages in this world\nBlacklist-WorldChat:\n- lobby1\n- lobby2\n\n# Config Version\nConfig-Version: \"2.0\"\n```",
+  "readme_source_url": "https://github.com/angga7togk/ChatPerWorld",
+  "icon_url": "https://raw.githubusercontent.com/angga7togk/ChatPerWorld/1c60526207e1424ff185241c7d3403397b23de22/icon.png",
+  "featured": false,
+  "repo": "https://github.com/angga7togk/ChatPerWorld",
+  "archive_repo": null,
+  "approved_release_tag": "r-11492",
+  "stars": 5,
+  "total_downloads": 657,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "angga7togk"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209553",
+  "versions": {
+    "stable": {
+      "version": "2.1.0",
+      "tag": "r-11492",
+      "published_at": null,
+      "downloads": 657,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11492/chatperworld-2.1.0-r11492.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11492",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11492/chatperworld-2.1.0-r11492.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatPerWorld",
+    "stable_release_id": 11492
+  }
+}

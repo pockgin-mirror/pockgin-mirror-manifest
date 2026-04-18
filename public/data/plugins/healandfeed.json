@@ -1,0 +1,76 @@
+{
+  "id": "healandfeed",
+  "name": "HealAndFeed",
+  "author": "Kylan1940",
+  "description": "Description",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/HealAndFeed)](https://poggit.pmmp.io/p/HealAndFeed) [![](https://poggit.pmmp.io/shield.dl.total/HealAndFeed)](https://poggit.pmmp.io/p/HealAndFeed)\n# Description\nHeal and Feed Command For PocketMine-MP. If you are have a question, please make a [issues](https://github.com/Kylan1940/HealAndFeed/issues/new)\n\n# Changelogs [3.4.0]\n>- Changed ```setFood(20)``` to ```getMaxFood```\n>- Changed icon\n>- Fixed so many message when heal or feed all\n\n# Features\n>- Simple\n>- Configuration\n>- Can heal and feed other player\n>- Heal All and Feed All online player(s)\n>- With UI \n>- Console Support\n>- Pay for heal and feed (soon)\n\n# Download\n| Version | Phar | Support |\n|---|---|---|\n| 3.4.0 | [Download](https://github.com/Kylan1940/HealAndFeed/releases/download/3.4.0/HealAndFeed_v3.4.0.phar) |  5.x.x |\n| 3.3.0 | [Download](https://github.com/Kylan1940/HealAndFeed/releases/download/3.3.0/HealAndFeed_v3.3.0.phar) |  5.x.x |\n| 3.2.0 | [Download](https://github.com/Kylan1940/HealAndFeed/releases/download/3.2.0/HealAndFeed_v3.2.0.phar) |  5.x.x |\n| 3.1.0 | [Download](https://github.com/Kylan1940/HealAndFeed/releases/download/3.1.0/HealAndFeed_v3.1.0.phar) |  5.x.x |\n| 3.0.0 | [Download](https://github.com/Kylan1940/HealAndFeed/releases/download/3.0.0/HealAndFeed_v3.0.0.phar) |  5.x.x |\n| 2.2.0 | [Download](https://github.com/Kylan1940/HealAndFeed/releases/download/2.2.0/HealAndFeed_v2.2.0.phar) |  4.x.x |\n| 2.1.0 | [Download](https://github.com/Kylan1940/HealAndFeed/releases/download/2.1.0/HealAndFeed_v2.1.0.phar) |  4.x.x |\n| 2.0.0 | [Download](https://github.com/Kylan1940/HealAndFeed/releases/download/2.0.0/HealAndFeed_v2.0.0.phar) |  4.x.x |\n| 1.1.0 | [Download](https://github.com/Kylan1940/HealAndFeed/releases/download/1.1.0/HealAndFeed_v1.1.0.phar) |  3.x.x |\n| 1.0.0 | [Download](https://github.com/Kylan1940/HealAndFeed/releases/download/1.0.0/HealAndFeed_v1.0.0.phar) |  3.x.x |\n\n# Installation\n1. Download the [plugin](https://github.com/Kylan1940/HealAndFeed/releases/download/3.4.0/HealAndFeed_v3.4.0.phar)\n2. Put plugin to **plugins** file\n3. Restart the server\n\n# Permission\n[See the wiki](https://github.com/Kylan1940/HealAndFeed/wiki/HealAndFeed-Commands) for all permissions",
+  "readme_source_url": "https://github.com/Kylan1940/HealAndFeed",
+  "icon_url": "https://raw.githubusercontent.com/Kylan1940/HealAndFeed/59c3b34a14bc388c1e55457033f3475f4c71dda4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Kylan1940/HealAndFeed",
+  "archive_repo": null,
+  "approved_release_tag": "r-11679",
+  "stars": 0,
+  "total_downloads": 1012,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Kylan1940"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/212177",
+  "versions": {
+    "stable": {
+      "version": "3.4.0",
+      "tag": "r-11679",
+      "published_at": null,
+      "downloads": 882,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11679/healandfeed-3.4.0-r11679.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11679",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11679/healandfeed-3.4.0-r11679.phar"
+    },
+    {
+      "tag": "r-11656",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11656/healandfeed-3.3.0-r11656.phar"
+    },
+    {
+      "tag": "r-11510",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11510/healandfeed-3.2.0-r11510.phar"
+    },
+    {
+      "tag": "r-11499",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11499/healandfeed-3.1.0-r11499.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HealAndFeed",
+    "stable_release_id": 11679
+  }
+}

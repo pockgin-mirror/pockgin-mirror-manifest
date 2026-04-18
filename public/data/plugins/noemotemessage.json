@@ -1,0 +1,61 @@
+{
+  "id": "noemotemessage",
+  "name": "NoEmoteMessage",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\nA plugin that intercepts annoying messages when players use emotes.\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c) [https://discord.gg/j2X83ujT6c] \\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/NoEmoteMessage",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/NoEmoteMessage/2a115546e741ec8df03a1140daec76a7c9689da5/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/NoEmoteMessage",
+  "archive_repo": null,
+  "approved_release_tag": "r-11684",
+  "stars": 5,
+  "total_downloads": 153,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-11684",
+      "published_at": null,
+      "downloads": 153,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11684/noemotemessage-0.0.1-r11684.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11684",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11684/noemotemessage-0.0.1-r11684.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NoEmoteMessage",
+    "stable_release_id": 11684
+  }
+}

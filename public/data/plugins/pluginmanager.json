@@ -1,0 +1,61 @@
+{
+  "id": "pluginmanager",
+  "name": "PluginManager",
+  "author": "Laith98Dev",
+  "description": "Plugin Manager",
+  "readme_markdown": "# Plugin Manager\nThis is an advanced PocketMine plugin that allows you to manage the plugins on your server with ease. You can easily remove or download plugins from Poggit with just one click.\n\n# Commands\n![Command](https://cdn.discordapp.com/attachments/626213159283458048/1046400772176367656/image.png)\n\n# Preview Images\n![Main Form](https://media.discordapp.net/attachments/626213159283458048/1046382989883482132/image.png)\n<br>\n![Plugins List](https://cdn.discordapp.com/attachments/626213159283458048/1046382989510193212/image.png)\n<br>\n![Manage Exist Plugin](https://cdn.discordapp.com/attachments/626213159283458048/1046382988788772934/image.png)\n<br>\n![Remove Confirm](https://cdn.discordapp.com/attachments/626213159283458048/1046382988503564298/image.png)\n<br>\n![Poggit Search](https://cdn.discordapp.com/attachments/626213159283458048/1046386433633558548/image.png)\n<br>\n![Plugin Not Found](https://cdn.discordapp.com/attachments/626213159283458048/1046390975574069278/image.png)\n<br>\n![Plugin Already Exists](https://cdn.discordapp.com/attachments/626213159283458048/1046386346832433262/image.png)\n<br>\n![Plugin Data](https://cdn.discordapp.com/attachments/626213159283458048/1046386306185449524/image.png)\n<br>\n![Download Confirm](https://cdn.discordapp.com/attachments/626213159283458048/1046386294529462292/image.png)\n<br>\n![Restart Confirm](https://cdn.discordapp.com/attachments/626213159283458048/1046386277576097903/image.png)\n<br>\n\n# Others\n\n[Donate](https://www.paypal.me/Laith113)\n\n[![Support Server](https://discordapp.com/api/guilds/854689029852102707/widget.png?style=banner3)](https://discord.gg/s5RXyfHhne)\n\n[![Discord Presence](https://lanyard.cnrad.dev/api/446300199388839937)](https://discord.com/users/446300199388839937)",
+  "readme_source_url": "https://github.com/Laith98Dev/PluginManager",
+  "icon_url": "https://raw.githubusercontent.com/Laith98Dev/PluginManager/c821566c3f98b8b41bc1fceadeb6d600cc045447/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Laith98Dev/PluginManager",
+  "archive_repo": null,
+  "approved_release_tag": "r-11520",
+  "stars": 5,
+  "total_downloads": 1177,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Laith98Dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209899",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-11520",
+      "published_at": null,
+      "downloads": 1177,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11520/pluginmanager-1.0.3-r11520.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11520",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11520/pluginmanager-1.0.3-r11520.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PluginManager",
+    "stable_release_id": 11520
+  }
+}

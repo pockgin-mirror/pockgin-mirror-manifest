@@ -1,0 +1,61 @@
+{
+  "id": "personaadapter",
+  "name": "PersonaAdapter",
+  "author": "Lunarelly",
+  "description": "Persona skins fix for PocketMine.",
+  "readme_markdown": "# PersonaAdapter [![](https://poggit.pmmp.io/shield.state/PersonaAdapter)](https://poggit.pmmp.io/p/PersonaAdapter) [![](https://poggit.pmmp.io/shield.dl.total/PersonaAdapter)](https://poggit.pmmp.io/p/PersonaAdapter)\n\nPersona skins fix for PocketMine.\n\nCurrent API: 5.0.0",
+  "readme_source_url": "https://github.com/Lunarelly/PersonaAdapter",
+  "icon_url": "https://raw.githubusercontent.com/Lunarelly/PersonaAdapter/1233337f2adc9ad6b9093a84f6dae5a8b0332d75/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Lunarelly/PersonaAdapter",
+  "archive_repo": null,
+  "approved_release_tag": "r-11529",
+  "stars": 0,
+  "total_downloads": 459,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Lunarelly"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209970",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-11529",
+      "published_at": null,
+      "downloads": 459,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11529/personaadapter-2.0.0-r11529.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11529",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11529/personaadapter-2.0.0-r11529.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PersonaAdapter",
+    "stable_release_id": 11529
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "offlineplayertp",
+  "name": "OfflinePlayerTP",
+  "author": "Muqsit",
+  "description": "A PocketMine-MP plugin that lets you teleport among offline players.",
+  "readme_markdown": "# OfflinePlayerTP\n[![](https://poggit.pmmp.io/shield.state/OfflinePlayerTP)](https://poggit.pmmp.io/p/OfflinePlayerTP)\n\nA PocketMine-MP plugin that lets you teleport among offline players.\n\n## Commands\n| Command  | Description |\n| ------------- | ------------- |\n| `/otp <player>` | Teleport to (offline) `<player>`  |\n| `/otp <sourcePlayer> <destinationPlayer>` | Teleport (offline) `<sourcePlayer>` to (offline) `<destinationPlayer>`  |\n| `/otp <player> <x> <y> <z> [world] [yaw] [pitch]` | Teleport (offline) `<player>` to coordinates  |\n\n## Permission\nBy default, `/otp` command requires the same permission as pocketmine's `/tp` command. However, you can configure this plugin to assign the command `offlineplayertp.command` permission through [`config.yml`](https://github.com/Muqsit/OfflinePlayerTP/blob/master/resources/config.yml#L1-L9).",
+  "readme_source_url": "https://github.com/Muqsit/OfflinePlayerTP",
+  "icon_url": "https://raw.githubusercontent.com/Muqsit/OfflinePlayerTP/883c56962b7b06bfcb0c0e12bc0d1bbfea9c2e9a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Muqsit/OfflinePlayerTP",
+  "archive_repo": null,
+  "approved_release_tag": "r-11584",
+  "stars": 0,
+  "total_downloads": 1210,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Muqsit"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/210856",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-11584",
+      "published_at": null,
+      "downloads": 1210,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11584/offlineplayertp-0.0.2-r11584.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11584",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11584/offlineplayertp-0.0.2-r11584.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "OfflinePlayerTP",
+    "stable_release_id": 11584
+  }
+}

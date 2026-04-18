@@ -1,0 +1,61 @@
+{
+  "id": "soupffa",
+  "name": "SoupFFA",
+  "author": "AshiePleb",
+  "description": "SoupFFA is a plugin designed to regenerate 3.5 hearts in Minecraft when players right-click on soup. This plugin is especially useful in Free-for-all (FFA) battles or PvP situat...",
+  "readme_markdown": "# SoupFFA\n\n[![](https://poggit.pmmp.io/shield.state/SoupFFA)](https://poggit.pmmp.io/p/SoupFFA)\n[![](https://poggit.pmmp.io/shield.dl.total/SoupFFA)](https://poggit.pmmp.io/p/SoupFFA)\n\nSoupFFA is a plugin designed to regenerate 3.5 hearts in Minecraft when players right-click on soup. This plugin is especially useful in Free-for-all (FFA) battles or PvP situations where players need to regenerate their health quickly during a fight.\n\nWhen a player right-clicks on soup or stew item, the plugin will instantly regenerate 3.5 hearts of the player's health. The soup or stew item is then removed from the player's inventory, preventing them from using it again until they obtain another one.\n\nSoupFFA is easy to install and use and works seamlessly with other plugins on your server. This plugin will enhance the gaming experience of your players by allowing them to focus on the battle instead of worrying about their health.\n\nOverall, SoupFFA is a must-have plugin for any Minecraft server that features PvP gameplay. It's a great addition to any server that wants to make the game more enjoyable and engaging for players.\n\nTo download SoupFFA, simply head to the [release tab](https://github.com/AshiePleb/SoupFFA/releases/latest) and download the latest version. This plugin is compatible with PocketMine-MP API5 and is regularly updated to ensure optimal performance. Don't wait – take your Minecraft server to the next level and download SoupFFA today!\n\n## Config\n\nTo enable or disable the plugin in certain worlds, add their names to the 'enabled-worlds' list below. SoupFFA will only work in worlds that are listed.\n\nYou can add as many worlds as you like to the list.\n\n```yaml\nenabled-worlds:\n  - world\n  - world1\n  - world2\n  - world3\n```\n\nThis is the amount of health that will be restored when a player drinks a soup.\n\nThe default value is 3.5, which is the same as a golden apple.\n```yaml\nhealth-regen: 3.5\n```\n\nThis is the message that will be displayed to the player when they drink a soup but are already at full health.\n```yaml\nfull-health-message: \"&aYou are already at full health!\"\n```\n\n## Support\n\nIf you have any questions or issues, feel free to contact me on my [Discord server](https://discord.gg/SM7xE3pSK8), alternatively you can open an issue on the [GitHub repository](https://github.com/AshiePleb/SoupFFA/issues) and I will try respond as soon as possible.\n\n## Contributors\n\nI would like to thank the following people for their contributions to this project:\n\n- [HBIDamian](https://github.com/HBIDamian)\n- [Henry8K](https://github.com/Henry8K)",
+  "readme_source_url": "https://github.com/AshiePleb/SoupFFA",
+  "icon_url": "https://raw.githubusercontent.com/AshiePleb/SoupFFA/3ae51c81d334d22e282944867f0b1473e62e5004/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AshiePleb/SoupFFA",
+  "archive_repo": null,
+  "approved_release_tag": "r-11514",
+  "stars": 0,
+  "total_downloads": 608,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AshiePleb"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209818",
+  "versions": {
+    "stable": {
+      "version": "2.3.0",
+      "tag": "r-11514",
+      "published_at": null,
+      "downloads": 608,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11514/soupffa-2.3.0-r11514.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11514",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11514/soupffa-2.3.0-r11514.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SoupFFA",
+    "stable_release_id": 11514
+  }
+}

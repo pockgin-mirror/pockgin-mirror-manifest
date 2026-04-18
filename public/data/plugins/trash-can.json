@@ -1,0 +1,61 @@
+{
+  "id": "trash-can",
+  "name": "Trash_Can",
+  "author": "thebigcrafter",
+  "description": "Trash Can",
+  "readme_markdown": "<p align=\"center\">\n<img src=\"icon.jpg\" alt=\"logo\" width=\"96px\" height=\"96px\" />\n<h1 align=\"center\">Trash Can</h1>\n</p>\n\n<p align=\"center\">\n<a href=\"https://github.com/thebigcrafter/TrashCan/blob/main/LICENSE\"><img alt=\"GitHub\" src=\"https://img.shields.io/github/license/thebigcrafter/TrashCan?style=for-the-badge\"></a>\n<a href=\"https://poggit.pmmp.io/p/Trash_Can\"><img src=\"https://poggit.pmmp.io/shield.dl.total/Trash_Can?style=for-the-badge\" alt=\"poggit\"/></a>\n<a href=\"https://discord.gg/PykBfE2TZ9\"><img src=\"https://img.shields.io/discord/1087729577004122112?color=7289DA&label=discord&logo=discord&style=for-the-badge\" alt=\"discord\" /></a>\n</p>\n\n# 📖 About\n\nA PocketMine-MP plugin adds to the server a command which shows a trash can when executed.\n\n# ⬇️ Installation\n\n1. Download the latest version from GitHub Releases or Poggit CI below:\n    - Stable version (Recommended for most users): [Latest](https://github.com/thebigcrafter/TrashCan/releases/latest) | [All releases](https://github.com/thebigcrafter/TrashCan/releases)\n    - Build version (Only recommended for advanced users): [Poggit CI](https://poggit.pmmp.io/ci/thebigcrafter/TrashCan/~)\n2. Drop the downloaded `TrashCan.phar` plugin file into your PocketMine-MP server's `plugins` directory.\n3. Restart your server and you're ready to test the plugin!\n\n# 📜 Commands\n\n|   Command   |    Description    |\n|:-----------:|:-----------------:|\n| `/trashcan` | Open a trash can. |\n\n# ⚖️ License\n\nLicensed under the [MIT license](https://github.com/thebigcrafter/TrashCan/blob/main/LICENSE).",
+  "readme_source_url": "https://github.com/thebigcrafter/TrashCan",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/thebigcrafter/TrashCan",
+  "archive_repo": null,
+  "approved_release_tag": "r-11610",
+  "stars": 0,
+  "total_downloads": 203,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigcrafter"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/211175",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-11610",
+      "published_at": null,
+      "downloads": 203,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11610/trash_can-2.0.0-r11610.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11610",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11610/trash_can-2.0.0-r11610.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Trash_Can",
+    "stable_release_id": 11610
+  }
+}

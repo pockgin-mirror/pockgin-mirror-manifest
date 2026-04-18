@@ -1,0 +1,61 @@
+{
+  "id": "rewards",
+  "name": "Rewards",
+  "author": "Wertzui123",
+  "description": "A (daily) reward plugin for PocketMine-MP servers.",
+  "readme_markdown": "# Rewards\n<a href=\"https://poggit.pmmp.io/p/Rewards\"><img src=\"https://poggit.pmmp.io/shield.state/Rewards\"></a>\n<a href=\"https://poggit.pmmp.io/p/Rewards\"><img src=\"https://poggit.pmmp.io/shield.api/Rewards\"></a>\n<br>A (daily) reward plugin for PocketMine-MP servers.\n<br>The .phar can be found on <a href=\"https://poggit.pmmp.io/p/Rewards\">poggit.</a>\n\n# Commands\n**/reward:**\n<br>Command to claim your reward\n<br>Can be edited in the config.yml\n<br>Permission: rewards.command.reward\n\n# Permissions\n## Commands\nrewards.command.reward | Permission for /reward\n<br>Default: true\n## Other\nrewards.waiting.bypass | Allows you to bypass the waiting time\n<br>Default: op\n\n# Features\nMain Rewards features:\n* Nearly everything can be adjusted in the configs\n* Rewards can be only claimed after a waiting time or with the bypass permission\n* Multiple commands to run on /reward\n* Config updater\n* Multiple permission groups\n* Reward streaks\n* Multiple data storage providers\n  \n# Support\nYou can contact me in <a href=\"https://discord.gg/eGhZGtF\">my discord server</a> or <a href=\"https://github.com/Wertzui123/Rewards/issues/new\">create an issue</a>.\n\n# License and Copyright\nRewards is licensed under the GNU General Public License v3.0. For more information: https://choosealicense.com/licenses/gpl-3.0\n<br><code>© 2019 - 2023 Wertzui123</code>\n\n# Credits\nRewards was written by @Wertzui123, the icon was designed by @rrritschi and the chest in the logo is from freepik.com.",
+  "readme_source_url": "https://github.com/Wertzui123/Rewards",
+  "icon_url": "https://raw.githubusercontent.com/Wertzui123/Rewards/7b93fe6e2ecb74bf65a9cf25dfd662e355ff2c09/Rewards-Plugin.png",
+  "featured": false,
+  "repo": "https://github.com/Wertzui123/Rewards",
+  "archive_repo": null,
+  "approved_release_tag": "r-11485",
+  "stars": 0,
+  "total_downloads": 1967,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Wertzui123"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/210637",
+  "versions": {
+    "stable": {
+      "version": "5.2.1",
+      "tag": "r-11485",
+      "published_at": null,
+      "downloads": 1967,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11485/rewards-5.2.1-r11485.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11485",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11485/rewards-5.2.1-r11485.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Rewards",
+    "stable_release_id": 11485
+  }
+}

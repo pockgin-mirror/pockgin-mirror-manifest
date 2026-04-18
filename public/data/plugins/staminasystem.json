@@ -1,0 +1,61 @@
+{
+  "id": "staminasystem",
+  "name": "StaminaSystem",
+  "author": "FoxWorn3365",
+  "description": "With **StaminaSystem** you can implement stamina in many common areas in minecraft such as PVP and racing!",
+  "readme_markdown": "# StaminaSystem\nWith **StaminaSystem** you can implement stamina in many common areas in minecraft such as PVP and racing!\nThis plugin, thanks to the incredible customization will always reflect your needs and will be easily adaptable to any context!\n\n## Installation\n> **Warning**<br>\n> The `main` branch contains working versions of the plugin but only in beta.<br>\n> Public relases are contained only in the various branches with the version name!\n\nTo install the plugin you will just need to download the `StaminaSystem.phar` file from the latest relase and put it in the `/plugin/` folder of your PMMP server!\n\n## Mechanics\nThe plugin offers various mechanics focused on stamina, this is a complete list:\n| Name | Activable\\Deactivable | Default |\n| --- | --- | --- |\n|Regeneration by walking|true|true|\n|Regeneration by item|true|false|\n|Regeneration by food|true|true|\n|Hit enhancer|true|true|\n|Stamina-shield|true|true|\n|Stamina shift-knockback|true|false|\n\n## Configuration\nHere explained in a table all the configurable values.<br>\nIn the case of object is used the PHP notation so `parent->child`\n\n| Name | Type | Default | Nullable | Outdated | Description | \n| --- | --- | --- | --- | --- | --- |\n| enabled | bool | true | ❌ | ✔️ | Whether the plugin is enabled |\n| waiting-moves-before-regenerate | int | 5 | ❌ | ❌ | How much movements must a player do before the stamina restart regenerating? |\n| max-stamina | int | 100 | ❌ | ❌ | The max amout of stamina |\n| stamina-per-move | float/int | 0.5 | ❌ | ❌ | How much stamina should be removed for every move (only when sprinting)? |\n| bed-restore-stamina | bool | false | ❌ | ❌ | Should bed restore stamina? |\n| bed-restore-stamina-level | int | 10 | ❌ | ❌ | Should bed restore stamina? If yes, how much? |\n| do-food-regen | bool | true | ❌ | ❌ | Do food regen stamina? |\n| level-for-negative-effects | int | 10 | ❌ | ❌ | If stamina is <= to this level will have some negatives effect like slowness and other |\n| stamina-hit-cost | int/float | 1 | ✔️ | ✔️ | OUTDATED, NOW IN `hit` ELEMENT! |\n| stamina-run-cost | int/float | 0.1 | ✔️ | ✔️ | OUTDATED, NOW IN `sprint` ELEMENT! |\n| stamina-block-break-cost | int/float | 0.5 | ✔️ | ✔️ | OUTDATED, ABANDONED FEATURE |\n| run-regenerate-stamina | bool | false | ❌ | ❌ | If true, running wont' consume stamina |\n| stamina-powerup | object | Object | ✔️ | ❌ | All items in this object will be increase the max stamina level |\n| stamina-powerup->iron_sword | int | 10 | ❌ | ❌ | The `iron_sword` item will increase the max stamina level by 10 |\n| stamina-food-regen | object | Object | ✔️ | ❌ | All foods in this object when eaten will be regenerate stamina |\n| stamina-food-regen->default | int | 2 | ❌ | ❌ | If the food is not in the list this value will be used |\n| stamina-food-regen->apple | int | 4 | ✔️ | ❌ | If an apple is eat 4 stamina points will be rigenerated! |\n| item-regeneration | object | Object | ✔️ | ❌ | All items in this list will rigenerate stamina by having it in the hand / inventory |\n| item-regeneration->iron_axe | object | Object | ❌ | ❌ | All regeneration settings for the item `iron_axe` | \n| item-regeneration->iron_axe->should-be-holded | bool | false | ❌ | ❌ | The item will regenerate only if holded |\n| item-regeneration->iron_axe->amount | int/float | N/D | ❌ | ❌ | How much? |\n| speed | perkObject | perkObject | ❌ | ❌ | The perk object for speed powerup |\n| hit | perkObject | perkObject | ❌ | ❌ | The perk object for speed powerup |\n| shield | perkObject | perkObject | ❌ | ❌ | The perk object for speed powerup |\n| shift-knockback | perkObject | perkObject | ❌ | ❌ | The perk object for speed powerup |\n| rounding-stamina | bool | true | ❌ | ❌ | Should stamina be rounded when displayed to a player? |\n| rounding-level | int | 0 | ❌ | ❌ | How much? |\n| show-stamina-level | bool | true | ❌ | ❌ | Should the stamina level indicator (as Tip) be displayed to player? |\n| stamina-level-text | string | Stamina: %stamina%/%totalstamina% | ❌ | ❌ | Set the stamina display text. Placeholders: %stamina% -> current stamina level    %totalstamina% -> max stamina for player |\n| stamina-refresh-rate | int | 2 | ❌ | ❌ | In tick, every when tick(s) should the player stamina tip be refreshed (so updated)? |In tick, every when tick(s) should the player stamina tip be refreshed (so updated)?\n\n### perkObject\n| Name | Type | Default |\n|---|---|---|\n| enabled | bool | true|\n| cost | int/float | N/D |\n| perk | ?int/float | N/D |\n\n## Roadmap\n- [x] Run perk\n- [x] Walk for stamina regeneration\n- [x] Autosave stamina\n- [x] Eat for stamina regeneration\n- [x] Item powerup and weight\n- [x] Async task to show stamina level\n- [x] More damage with stamina\n- [x] Stamina shield\n- [x] Stamina knockback\n- [ ] Stamina haste\n\n## Contact me\nYou can contact me via:\n- **Email:** `foxworn3365@gmail.com`\n- **Discord:** `@foxworn`",
+  "readme_source_url": "https://github.com/FoxWorn3365/StaminaSystem",
+  "icon_url": "https://raw.githubusercontent.com/FoxWorn3365/StaminaSystem/227f40eac364583b9118545b57b51f6e1d0a43b8/stamina_plugin_icon.png",
+  "featured": false,
+  "repo": "https://github.com/FoxWorn3365/StaminaSystem",
+  "archive_repo": null,
+  "approved_release_tag": "r-11630",
+  "stars": 0,
+  "total_downloads": 346,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "FoxWorn3365"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-11630",
+      "published_at": null,
+      "downloads": 346,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11630/staminasystem-1.0-r11630.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11630",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11630/staminasystem-1.0-r11630.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "StaminaSystem",
+    "stable_release_id": 11630
+  }
+}

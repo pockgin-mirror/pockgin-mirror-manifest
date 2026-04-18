@@ -1,0 +1,72 @@
+{
+  "id": "blockdatarecorder",
+  "name": "BlockDataRecorder",
+  "author": "NhanAZ",
+  "description": "General",
+  "readme_markdown": "# General\n**The data(CustomName, Lore, Enchants,...) of an item block will not be lost when the block is placed**\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/NhanAZ/BlockDataRecorder",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/BlockDataRecorder/84d6d000072d7d1c9945ec5a69bc41f0de9308f4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/NhanAZ/BlockDataRecorder",
+  "archive_repo": null,
+  "approved_release_tag": "r-11648",
+  "stars": 0,
+  "total_downloads": 136,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "NhanAZ"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/211571",
+  "versions": {
+    "stable": {
+      "version": "0.0.6",
+      "tag": "r-11648",
+      "published_at": null,
+      "downloads": 15,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11648/blockdatarecorder-0.0.6-r11648.phar"
+    },
+    "dev": {
+      "version": "0.0.7",
+      "tag": "r-11682",
+      "published_at": null,
+      "downloads": 121,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11682/blockdatarecorder-0.0.7-r11682.phar"
+    }
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11682",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11682/blockdatarecorder-0.0.7-r11682.phar"
+    },
+    {
+      "tag": "r-11648",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11648/blockdatarecorder-0.0.6-r11648.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockDataRecorder",
+    "stable_release_id": 11648
+  }
+}

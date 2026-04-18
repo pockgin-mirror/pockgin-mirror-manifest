@@ -1,0 +1,61 @@
+{
+  "id": "healthtag",
+  "name": "HealthTag",
+  "author": "Shelly7w7",
+  "description": "A customizable Health Tag plugin by Shelly7w7!",
+  "readme_markdown": "# HealthTag\nA customizable Health Tag plugin by Shelly7w7!\n\n| HitCount | Poggit |\n|:--:|:--:|\n[![HitCount](http://hits.dwyl.io/Shelly7w7/HealthTag.svg)](http://hits.dwyl.io/Shelly7w7/HealthTag)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/Shelly7w7/HealthTag/HealthTag)](https://poggit.pmmp.io/ci/Shelly7w7/HealthTag/HealthTag)\n\n## Where to download a compiled version?\n\nYou can get the latest compiled version [here.](https://poggit.pmmp.io/ci/Shelly7w7/HealthTag)\n\n### How to install?\n\nAfter downloading the compiled version from poggit, simply put the file in your server directory (``/plugins``)\n\n### How does this work?\n\nBasically It shows the players Health above his/Her head (Below NameTag). \nYou can customize it through the config.yml\n\n### How to configure?\n\nYou can configure the formats etc. in the config directly or through the command in-game!\n\n## Suggestions and Issues\n\nYou can simply open an issue if you want to suggest anything.\n\nYou can simply open an issue if you find any bugs and I'll try to fix it as soon as possible!",
+  "readme_source_url": "https://github.com/Shelly7w7/HealthTag",
+  "icon_url": "https://raw.githubusercontent.com/Shelly7w7/HealthTag/56b24c0458144b74fcff623e5f93216374b67b6d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Shelly7w7/HealthTag",
+  "archive_repo": null,
+  "approved_release_tag": "r-11626",
+  "stars": 5,
+  "total_downloads": 2957,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Shelly7w7"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/211329",
+  "versions": {
+    "stable": {
+      "version": "3.0.0",
+      "tag": "r-11626",
+      "published_at": null,
+      "downloads": 2957,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11626/healthtag-3.0.0-r11626.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11626",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11626/healthtag-3.0.0-r11626.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HealthTag",
+    "stable_release_id": 11626
+  }
+}

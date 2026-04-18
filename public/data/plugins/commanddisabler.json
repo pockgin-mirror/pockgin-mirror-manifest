@@ -1,0 +1,61 @@
+{
+  "id": "commanddisabler",
+  "name": "CommandDisabler",
+  "author": "sqrrrrl",
+  "description": "This plugin allow you to disable unwanted command on your server",
+  "readme_markdown": "# CommandDisabler\nThis plugin allow you to disable unwanted command on your server\n\n[![](https://poggit.pmmp.io/shield.state/CommandDisabler)](https://poggit.pmmp.io/p/CommandDisabler)\n\n[![](https://poggit.pmmp.io/shield.dl.total/CommandDisabler)](https://poggit.pmmp.io/p/CommandDisabler)",
+  "readme_source_url": "https://github.com/sqrrrrl/CommandDisabler",
+  "icon_url": "https://raw.githubusercontent.com/sqrrrrl/CommandDisabler/213c49efc1316c258eb1f04f40ab193b2ffab5e4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/sqrrrrl/CommandDisabler",
+  "archive_repo": null,
+  "approved_release_tag": "r-11576",
+  "stars": 0,
+  "total_downloads": 779,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "sqrrrrl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/210741",
+  "versions": {
+    "stable": {
+      "version": "3.0.0",
+      "tag": "r-11576",
+      "published_at": null,
+      "downloads": 779,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11576/commanddisabler-3.0.0-r11576.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11576",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11576/commanddisabler-3.0.0-r11576.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CommandDisabler",
+    "stable_release_id": 11576
+  }
+}

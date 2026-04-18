@@ -1,0 +1,66 @@
+{
+  "id": "mineflow",
+  "name": "Mineflow",
+  "author": "aieuo",
+  "description": "Discord Server",
+  "readme_markdown": "# Mineflow\n\n[![GitHub license](https://img.shields.io/badge/license-UIUC/NCSA-blue.svg)](https://github.com/aieuo/Mineflow/blob/master/LICENSE)\n[![](https://poggit.pmmp.io/shield.state/Mineflow)](https://poggit.pmmp.io/p/Mineflow)\n[![](https://poggit.pmmp.io/shield.api/Mineflow)](https://poggit.pmmp.io/p/Mineflow)\n\n[![](https://poggit.pmmp.io/shield.dl/Mineflow)](https://poggit.pmmp.io/p/Mineflow)\n[![](https://poggit.pmmp.io/shield.dl.total/Mineflow)](https://poggit.pmmp.io/p/Mineflow)\n\n[![PoggitCI Badge](https://poggit.pmmp.io/ci.badge/aieuo/Mineflow/Mineflow)](https://poggit.pmmp.io/ci/aieuo/Mineflow/Mineflow)\n\n[Discord Server](https://discord.gg/RK27uaZEt7)\n\n---\n\n[![Crowdin](https://badges.crowdin.net/mineflow/localized.svg)](https://crowdin.com/project/mineflow)\n### [English](/README.md), [日本語](/.github/readme/jpn.md), [Indonesia](/.github/readme/ind.md), [Español](/.github/readme/spa.md)\n\n---\n\n### [Wiki](https://Mineflow.github.io/docs)\n\n---\n\n# English\n\nYou can combine actions and create something like a plugin without any coding knowledge.  \n**Some actions are hidden by default to prevent abuse. To show them all, please run `mineflow permission add <your name> all` from the console.**  \n\n## Command\n\n| command | description |\n| ---- | ---- |\n| /mineflow language <eng &#124; jpn &#124; ind> | Change language |\n| /mineflow recipe [add &#124; edit &#124; list] | Manage recipes |  \n| /mineflow command [add &#124; edit &#124; list] | Manage command triggers |  \n| /mineflow form | Manage form triggers |  \n| /mineflow permission <name> <level> | Change player's permission level |  \n| /mineflow setting | Setting |\n\n## ActionPermission\n\nTo change the permission, run `/mineflow permission <add|remove|list> <name> <permission>`. Only the player who has `permission` permission can change the permissions of the other players. You can give an all permission from the console.\n\n## Variable\n\nCharacters enclosed by \"{\" and \"}\" are recognized as variables and will be replaced.  \nexamples: `{target}`, `{item}`\n\n[more details](https://mineflow.github.io/docs/eng/#/variable/about)\n\n## Tutorial\n\n### Create a recipe\n\nExecute \"/mineflow recipe add\" and enter the recipe name and group name. (The group name can be left blank.)    \nAdd a variety of actions to the recipe.  \n\n### Execute a recipe\n\nAdd a trigger from \"Edit trigger\" of the form. Then, when the trigger occurs, the recipe will be executed.  \n\n### Change the executor\n\nBy default, the player who fired the trigger goes into the {target} variable of the recipe.  \nIt can be changed from \"Change the target\" on the form to any of the specified players, all players, random players, or none.\n\n### Arguments and return values\n\nYou can set the value to be inherited from the original action, and the value to be returned when executing in the \"Callback the other recipe\" action.  \n\n## Examples\n\n### CheckId command\n\nSend the ID of the item in the player's hand to the chat field when execute `/id`.\n[Download](https://github.com/aieuo/MineflowExamples/blob/master/checkId.json)\n\n##### Steps\n\n1. Execute `/mineflow command add` and add the /id command.  \n   ![addCommand](https://github.com/aieuo/images/blob/master/mineflow/eng/CheckId_1.png?raw=true)\n2. Execute `/mineflow recipe add` and add a recipe with a name of your choice.  \n   ![addRecipe](https://github.com/aieuo/images/blob/master/mineflow/eng/CheckId_2.png?raw=true)\n3. Click `Edit actions > Add action > Player` to add a `Send message to chat field` to the recipe you have created.\n4. Enter `{target.hand.id}:{target.hand.damage}` in the message field of `Send message to chat field`.  \n   ![addAction](https://github.com/aieuo/images/blob/master/mineflow/eng/CheckId_3.png?raw=true) (`{target.hand}` contains information about the item in the player's hand.)\n5. Click `Edit trigger > Add trigger > Command` and enter `id` in the `name of command` field.\n   ![addTrigger](https://github.com/aieuo/images/blob/master/mineflow/eng/CheckId_4.png?raw=true)\n\n##### To send more information of item\n\n{target.hand} is [item variable](https://github.com/aieuo/Mineflow/wiki/Variable#item). `{target.hand.name}` is replaced by the item name and `{target.hand.count}` by the number of items.\n\n##### To be able to use it non-OP\n\nSet the permissions of the command to `anyone can execute` on the form to add the command or in the command menu.\n\n## Copyright\n\nIcons made by [Pause08](https://www.flaticon.com/authors/pause08) from [www.flaticon.com](https://www.flaticon.com/)",
+  "readme_source_url": "https://github.com/aieuo/Mineflow",
+  "icon_url": "https://raw.githubusercontent.com/aieuo/Mineflow/dec011a46d701912f851d45406349e615621c69a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/aieuo/Mineflow",
+  "archive_repo": null,
+  "approved_release_tag": "r-11675",
+  "stars": 5,
+  "total_downloads": 505,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "aieuo"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/212128",
+  "versions": {
+    "stable": {
+      "version": "3.3.0",
+      "tag": "r-11675",
+      "published_at": null,
+      "downloads": 451,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11675/mineflow-3.3.0-r11675.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11675",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11675/mineflow-3.3.0-r11675.phar"
+    },
+    {
+      "tag": "r-11509",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11509/mineflow-3.2.0-r11509.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Mineflow",
+    "stable_release_id": 11675
+  }
+}

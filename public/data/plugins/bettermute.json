@@ -1,0 +1,61 @@
+{
+  "id": "bettermute",
+  "name": "BetterMute",
+  "author": "supercrafter333",
+  "description": "BetterMute - v1.1.3",
+  "readme_markdown": "[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/ca6cWPpERp)\n# BetterMute - v1.1.3 [![](https://poggit.pmmp.io/shield.state/BetterMute)](https://poggit.pmmp.io/p/BetterMute) [![](https://poggit.pmmp.io/shield.dl.total/BetterMute)](https://poggit.pmmp.io/p/BetterMute)\n\n\n**A PocketMine-MP plugin that allows you to mute players permanently and for a specific time.**\n\n### Features\n- easy mute players permanent or for a specific time\n- simple configuration files\n- very customizable\n- commands can be edited\n- multi-language-system\n- forms for much easier use\n- discord-webhook support\n- broadcast messages\n\n### Default Commands\n| **Command** | **Description**                | **Permission**            |\n|-------------|--------------------------------|---------------------------|\n| `/mute`     | Mute a player.                 | `BetterMute.mute.cmd`     |\n| `/unmute`   | Unmute a muted player.         | `BetterMute.unmute.cmd`   |\n| `/editmute` | Edit the mute of a muted player. | `BetterMute.editmute.cmd` |\n| `/muteinfo` | See informations about a mute. | `BetterMute.muteinfo.cmd` |\n\n[Admin permission: `BetterMute.admin`]\n\n### Bugreport\nYou've found a Bug?\n- Go to [Issues](https://github.com/supercrafter333/BetterMute/issues)\n- Click on [New Issue](https://github.com/supercrafter333/BetterMute/issues/new/choose)\n- Write your bug with all information that you have down\n- Send Issue\n- Wait, I where answer you\n\n### License:\nThis plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by supercrafter333!\n\n### Credits\n\nOwner: supercrafter333\n\nHelper: ---\n\nIcon: [Tenor GIF](https://tenor.com/bfWV2.gif)\n\nDiscord-Tag: `supercrafter333#4062`\n\n### Join the community\n[![Discord Banner](https://discordapp.com/api/guilds/847099444465238036/widget.png?style=banner3)](https://discord.gg/ca6cWPpERp)",
+  "readme_source_url": "https://github.com/supercrafter333/BetterMute",
+  "icon_url": "https://raw.githubusercontent.com/supercrafter333/BetterMute/10913614ed1d425de650b0b0505bb34ab951aeff/icon.gif",
+  "featured": false,
+  "repo": "https://github.com/supercrafter333/BetterMute",
+  "archive_repo": null,
+  "approved_release_tag": "r-11575",
+  "stars": 0,
+  "total_downloads": 3546,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "supercrafter333"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/210728",
+  "versions": {
+    "stable": {
+      "version": "1.1.4",
+      "tag": "r-11575",
+      "published_at": null,
+      "downloads": 3546,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11575/bettermute-1.1.4-r11575.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11575",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11575/bettermute-1.1.4-r11575.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterMute",
+    "stable_release_id": 11575
+  }
+}

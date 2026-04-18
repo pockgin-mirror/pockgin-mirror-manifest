@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14173",
   "stars": 0,
-  "total_downloads": 6249,
+  "total_downloads": 6941,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-11932",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11932/invsee-2.3.2-r11932.phar"
+    },
+    {
+      "tag": "r-11681",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11681/invsee-2.3.1-r11681.phar"
     }
   ],
   "comments": {

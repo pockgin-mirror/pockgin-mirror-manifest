@@ -1,0 +1,61 @@
+{
+  "id": "rulesbook",
+  "name": "RulesBook",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**Show preview rules book when a player first joins the server or uses `/rulesbook` command**\n\n# Commands & Permissions\n```yaml\ncommands:\n  rulesbook:\n    description: Show preview rules book\n    aliases: [rules]\n    permission: rulesbook.command\npermissions:\n  rulesbook.command:\n    description: Permission for /rulesbook\n    default: true\n```\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/RulesBook",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/RulesBook/0f3213f48963ac5bb535d1bb659aa028ef7a0642/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/RulesBook",
+  "archive_repo": null,
+  "approved_release_tag": "r-11641",
+  "stars": 0,
+  "total_downloads": 354,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/211515",
+  "versions": {
+    "stable": {
+      "version": "0.0.3",
+      "tag": "r-11641",
+      "published_at": null,
+      "downloads": 354,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11641/rulesbook-0.0.3-r11641.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11641",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11641/rulesbook-0.0.3-r11641.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RulesBook",
+    "stable_release_id": 11641
+  }
+}

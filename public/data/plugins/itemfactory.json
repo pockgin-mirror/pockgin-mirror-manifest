@@ -1,0 +1,61 @@
+{
+  "id": "itemfactory",
+  "name": "ItemFactory",
+  "author": "kaidoMC",
+  "description": "Features",
+  "readme_markdown": "# ItemFactory\n\n[![](https://poggit.pmmp.io/shield.state/ItemFactory)](https://poggit.pmmp.io/p/ItemFactory) [![](https://poggit.pmmp.io/shield.api/ItemFactory)](https://poggit.pmmp.io/p/ItemFactory) [![](https://poggit.pmmp.io/shield.dl.total/ItemFactory)](https://poggit.pmmp.io/p/ItemFactory) [![](https://poggit.pmmp.io/shield.dl/ItemFactory)](https://poggit.pmmp.io/p/ItemFactory)\n\n# Features\nYou can create an item with CustomName, Lore, Enchantment, CompoundTag without needing to write code.\n\n# How to use\nEnter the command /ifa to open the main interface of the Plugin.\nThe interface includes buttons:  \n- Create - To create an item of your choice.\n- Clone - Copy the item you are holding in your hand.\n- Edit - Edit the item you are holding in your hand.\n\n# Contact me\n- Discord: @kaidojoestar272004#7124 or https://discord.gg/j2X83ujT6c or @NhanAZ#9115\n- Facebook: https://www.facebook.com/kaidomc12345\n- Youtube: https://youtube.com/c/KAIDOMC",
+  "readme_source_url": "https://github.com/kaidoMC/ItemFactory",
+  "icon_url": "https://raw.githubusercontent.com/kaidoMC/ItemFactory/33de6cffa2d6ebd118435eaa3a262da6a0c3719e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/kaidoMC/ItemFactory",
+  "archive_repo": null,
+  "approved_release_tag": "r-11593",
+  "stars": 4,
+  "total_downloads": 689,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "kaidoMC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/210984",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-11593",
+      "published_at": null,
+      "downloads": 689,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11593/itemfactory-2.0.1-r11593.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11593",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11593/itemfactory-2.0.1-r11593.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemFactory",
+    "stable_release_id": 11593
+  }
+}

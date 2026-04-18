@@ -1,0 +1,61 @@
+{
+  "id": "commandpermissionmessage",
+  "name": "CommandPermissionMessage",
+  "author": "cosmicnebula200",
+  "description": "A PocketMine-MP plugin which allows the users to edit no permission message of commands",
+  "readme_markdown": "# CommandPermissionMessage\n A PocketMine-MP plugin which allows the users to edit no permission message of commands\n\nHave you ever got bored by the red message the server sends when you execute any command which you do not have access to?\nWell meet CustomPermissionMessage a plugin which allows you to edit it and make it flashy ✨✨\n\n**Default No Permission Message**\n- <a href=\"https://github.com/cosmicnebula200/CommandPermissionMessage\"><img src=\"https://media.discordapp.net/attachments/837701868649709572/961432672503218236/unknown.png\"></img></a><br>\n\n**Customized No Permission Message**\n- <a href=\"https://github.com/cosmicnebula200/CommandPermissionMessage\"><img src=\"https://media.discordapp.net/attachments/837701868649709572/961432721006153748/unknown.png\"></img></a><br>\n\n# Features\n \n- Customizable 'No permission message'\n- Exclude certain commands to not have the custom permission message so it uses the commands no permission message",
+  "readme_source_url": "https://github.com/cosmicnebula200/CommandPermissionMessage",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/cosmicnebula200/CommandPermissionMessage",
+  "archive_repo": null,
+  "approved_release_tag": "r-11566",
+  "stars": 0,
+  "total_downloads": 486,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "cosmicnebula200"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/210572",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-11566",
+      "published_at": null,
+      "downloads": 486,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11566/commandpermissionmessage-2.0.0-r11566.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11566",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11566/commandpermissionmessage-2.0.0-r11566.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CommandPermissionMessage",
+    "stable_release_id": 11566
+  }
+}

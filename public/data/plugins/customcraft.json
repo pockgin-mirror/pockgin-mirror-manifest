@@ -1,0 +1,61 @@
+{
+  "id": "customcraft",
+  "name": "CustomCraft",
+  "author": "Joshet18",
+  "description": "🔧 Setup:",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/CustomCraft)](https://poggit.pmmp.io/p/CustomCraft)\n[![](https://poggit.pmmp.io/shield.api/CustomCraft)](https://poggit.pmmp.io/p/CustomCraft)\n[![](https://poggit.pmmp.io/shield.dl.total/CustomCraft)](https://poggit.pmmp.io/p/CustomCraft)\n\n## 🔧 Setup:\n1) Create json file in plugin folder (Furnace or Crafting_table)\n2) Edit the format using the item's id/meta\n3) Use the command /customcraft reload or restart the server to load all recipes \n\n## 📜 Formats:\n- Crafting Table:\n```JSON\n{\n  \"pattern\": [\n    \"AAA\",\n    \"AB \",\n    \" B \"\n  ],\n  \"key\": {\n    \"A\": {\n      \"item\": \"minecraft:cobble\"\n    },\n    \"B\": {\n      \"item\": \"minecraft:stick\"\n    }\n  },\n  \"result\": {\n    \"item\": \"minecraft:stone_pickaxe\"\n    \"count\": 1,\n    \"enchantments\": {\n      \"unbreaking\": 10,\n      \"efficiency\": 10\n    },\n    \"name\": \"Super Stone Pickaxe\"\n  }\n}\n```\n- Furnace:\n```json\n{\n  \"tags\": [\n    \"furnace\",\n    \"blast_furnace\",\n    \"smoker_furnace\"\n  ],\n  \"output\": {\n    \"item\": \"minecraft:cobble\"\n  },\n  \"input\": {\n    \"item\": \"minecraft:stick\"\n  }\n}\n```\n## 🗒️ Items List:\n[Click](https://github.com/Joshet18/CustomCraft/blob/main/ItemsIds.md) to show list\n## 📋 Permissions:\n| Permission         | Command                |\n|--------------------|------------------------|\n| customcraft        | `/customcraft`         |\n| customcraft.reload | `/customcraft reload`  |\n## 📖 Enchantments available:\n| Name                  | Other plugin register require|\n|-----------------------|------------------------------|\n| protection            | ❌                           |\n| fire_protection       | ❌                           |\n| blast_protection      | ❌                           |\n| projectile_protection | ❌                           |\n| feather_falling       | ❌                           |\n| thorns                | ❌                           |\n| respiration           | ❌                           |\n| sharpness             | ❌                           |\n| knockback             | ❌                           |\n| fire_aspect           | ❌                           |\n| efficiency            | ❌                           |\n| silk_touch            | ❌                           |\n| unbreaking            | ❌                           |\n| power                 | ❌                           |\n| punch                 | ❌                           |\n| flame                 | ❌                           |\n| infinity              | ❌                           |\n| mending               | ❌                           |\n| vanishing             | ❌                           |\n| swift_sneak           | ❌                           |\n| fortune               | ✔️                           |\n| looting               | ✔️                           |",
+  "readme_source_url": "https://github.com/Joshet18/CustomCraft",
+  "icon_url": "https://raw.githubusercontent.com/Joshet18/CustomCraft/4d68e559c41ff0061101fba39bf8822f3be0209a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Joshet18/CustomCraft",
+  "archive_repo": null,
+  "approved_release_tag": "r-11512",
+  "stars": 5,
+  "total_downloads": 721,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Joshet18"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209942",
+  "versions": {
+    "stable": {
+      "version": "1.1",
+      "tag": "r-11512",
+      "published_at": null,
+      "downloads": 721,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11512/customcraft-1.1-r11512.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11512",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11512/customcraft-1.1-r11512.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomCraft",
+    "stable_release_id": 11512
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "spyglass-sniper",
+  "name": "Spyglass-Sniper",
+  "author": "NopeNotDark",
+  "description": "Spyglass Sniper Plugin",
+  "readme_markdown": "## Spyglass Sniper Plugin<img src=\"https://github.com/NopeNotDark/Sniper/blob/main/icon.png?raw=true\" height=\"62\" width=\"128\" align=\"left\"></img> [![](https://poggit.pmmp.io/shield.state/Spyglass-Sniper)](https://poggit.pmmp.io/p/Spyglass-Sniper) <a href=\"https://poggit.pmmp.io/p/Spyglass-Sniper\"><img src=\"https://poggit.pmmp.io/shield.state/Spyglass-Sniper\"></a> [![](https://poggit.pmmp.io/shield.api/Spyglass-Sniper)](https://poggit.pmmp.io/p/Spyglass-Sniper)\r\n<a href=\"https://poggit.pmmp.io/p/Spyglass-Sniper\"></a>\r\nUse an AWP-themed Spyglass to shoot at your enemies!\r\n\r\n## Features\r\n- AWP Sniper Rifle: Players can wield the AWP sniper rifle (using a spyglass item) to shoot projectiles at entities.\r\n- Custom Death Messages: When a player is killed by the AWP sniper rifle, custom death messages are displayed, indicating the cause of death. (configurable)\r\n- Backfire Effect: There is a chance that the sniper rifle backfires and kills the player using it. (configurable)\r\n- Cooldown System: Shooting the gun mutiple times makes it get hot. So you need to wait a few seconds so It cooldowns down!\r\n\r\n## Installation\r\n1. Copy the plugin `.phar` file to the `plugins` directory of your PocketMine server.\r\n2. Restart the server to load the plugin.\r\n3. Get a Spyglass and couple of Gold Nuggets and Start Shooting!\r\n\r\n## Config\r\n- `custom-death-messages`: Set this to true to enable custom death messages when players are killed by the sniper rifle.\r\n- `backfire`: Set this to true to enable the chance of the sniper rifle backfiring and killing the player using it.\r\n- `shootable-blocks`: Set this to any blocks you want to shoot though (wallbang).\r\n\r\n## How to Contribute?\r\nWe welcome pull requests from anyone interested in improving this project. Before making major changes, please open an issue to discuss your proposed changes and gather feedback from the project maintainers.\r\nWhen submitting a pull request, please ensure that you have updated the relevant tests to reflect your changes and ensure they pass successfully.\r\nOther than that, Thank you for your contribution!\r\n\r\n## Credits\r\n- [PocketAI](https://thedarkproject.net/pocketai) - Code generating AI revolving around Pocketmine-MP\r\n- [NhanAZ](https://github.com/NhanAZ) - Resource Pack Registry Library\r\n- [RafatAR32_](https://mcpedl.com/sniper-spyglass-texture-pack/) - Spyglass Sniper Model",
+  "readme_source_url": "https://github.com/NopeNotDark/Sniper",
+  "icon_url": "https://raw.githubusercontent.com/NopeNotDark/Sniper/9c21289a217b52b864646b06e127db3c29cc7d22/icon.png",
+  "featured": false,
+  "repo": "https://github.com/NopeNotDark/Sniper",
+  "archive_repo": null,
+  "approved_release_tag": "r-11667",
+  "stars": 5,
+  "total_downloads": 1404,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "NopeNotDark"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/211966",
+  "versions": {
+    "stable": {
+      "version": "2.0.4-ALPHA",
+      "tag": "r-11667",
+      "published_at": null,
+      "downloads": 1352,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11667/spyglass-sniper-2.0.4-alpha-r11667.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11667",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11667/spyglass-sniper-2.0.4-alpha-r11667.phar"
+    },
+    {
+      "tag": "r-11647",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11647/spyglass-sniper-2.0.2-alpha-r11647.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Spyglass-Sniper",
+    "stable_release_id": 11667
+  }
+}

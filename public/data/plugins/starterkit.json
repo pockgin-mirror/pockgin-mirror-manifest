@@ -1,0 +1,61 @@
+{
+  "id": "starterkit",
+  "name": "StarterKit",
+  "author": "note3crafter",
+  "description": "StarterKit for Pocketmine API 5.0.0",
+  "readme_markdown": "# StarterKit for Pocketmine API 5.0.0\nA StarterKit plugin where you can insert your starter items in the Config that a new player can get\nIn the Config you can easily change the items yourself\n\n# Config\n\nWelcome to StarterKit 4.0.1 by TheNote\n\nYou Can now setup more Features!\n\n * - slot: <- Set the Slot wo are the Item Place (0-35)\n *   name: <- set the ItemName here\n *   count: <- set the amount of the Item\n *   name: <- set a Customname for the Item\n *   lore: <- set the Lore of the Item\n    \n# Other\n\nhave fun with the plugin and make a issue for Proplems on GitHub\nPlugin mate by TheNote\n[![Discord](https://img.shields.io/discord/427472879072968714.svg?style=flat-square&label=discord&colorB=7289da)](https://discord.gg/ju2gGzq) |<br>",
+  "readme_source_url": "https://github.com/note3crafter/StarterKit",
+  "icon_url": "https://raw.githubusercontent.com/note3crafter/StarterKit/d972e014b4728b48583b55baf2775f49ad8899c3/icon.png",
+  "featured": false,
+  "repo": "https://github.com/note3crafter/StarterKit",
+  "archive_repo": null,
+  "approved_release_tag": "r-11553",
+  "stars": 0,
+  "total_downloads": 3610,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "note3crafter"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/210249",
+  "versions": {
+    "stable": {
+      "version": "4.0.1",
+      "tag": "r-11553",
+      "published_at": null,
+      "downloads": 3610,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11553/starterkit-4.0.1-r11553.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11553",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11553/starterkit-4.0.1-r11553.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "StarterKit",
+    "stable_release_id": 11553
+  }
+}

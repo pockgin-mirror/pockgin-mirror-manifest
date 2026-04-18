@@ -1,0 +1,64 @@
+{
+  "id": "adminlogin",
+  "name": "AdminLogin",
+  "author": "supercrafter333",
+  "description": "With this plugin you can select groups and set a code for Login to the groups, for more safety on your server!",
+  "readme_markdown": "# AdminLogin   [![](https://poggit.pmmp.io/shield.state/AdminLogin)](https://poggit.pmmp.io/p/AdminLogin) <a href=\"https://poggit.pmmp.io/p/AdminLogin\"><img src=\"https://poggit.pmmp.io/shield.dl.total/AdminLogin\"></a>\n\nWith this plugin you can select groups and set a code for Login to the groups, for more safety on your server!\n\nI hope that this plugin is useful :)\n\n### Features\n- Easy to use (set the groups and the codes for the groups in the `config.yml` and start)\n- Very customizable (You can change a lot of messages in the `messages.yml`)\n- Login for your Admins, Moderators and other Teammates, for more safety on your server\n\n### How to?\n1. Go to the config of AdminLogin\n2. Go to `config.yml`\n3. Add new entry like the other entrys\n\nExample:\n```yml\nOwner:\n  code: \"ownerx6859430\"\nAdmin:\n  code: \"adminx6584317\"\nDeveloper:\n  code: \"developerx776\"\nYourNewGroup:\n  code: \"code for group\"\n```\n\n### Supported group-plugins\n- [X] [GroupSystem](https://github.com/r3pt1s/GroupSystem) by @r3pt1s\n- [X] [RankSystem](https://github.com/IvanCraft623/RankSystem) by @IvanCraft623\n\n### License\nThis plugin is licensed under the [Apache 2.0 License](/LICENSE)! Plugin by supercrafter333!\n\n### TODOs\n|--------------------------|\n\n### Bugs\n|------------[please post a bug if you found a bug]--------------|\n\n### Downloads:\nPoggit: <a href=\"https://poggit.pmmp.io/p/AdminLogin\">Download</a> [soon]\n\n### Credits\nOwner: supercrafter333\n\nMain-Developer: supercrafter333\n\nIcon: HannesTheDev [Thank you]\n\nHelpers: |---|\n\n### final sentence\n**Do you have Questions, Feature requests or other things? Contact me on Discord: supercrafter333#4062  or  open an Issue on GitHub**",
+  "readme_source_url": "https://github.com/supercrafter333/AdminLogin",
+  "icon_url": "https://raw.githubusercontent.com/supercrafter333/AdminLogin/8a742763ea7afb6777c9b6931c032ea5240c0212/icon.png",
+  "featured": false,
+  "repo": "https://github.com/supercrafter333/AdminLogin",
+  "archive_repo": null,
+  "approved_release_tag": "r-11516",
+  "stars": 0,
+  "total_downloads": 10659,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "GroupSystem",
+      "RankSystem"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "supercrafter333"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/210596",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-11516",
+      "published_at": null,
+      "downloads": 10659,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11516/adminlogin-1.1.0-r11516.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11516",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11516/adminlogin-1.1.0-r11516.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdminLogin",
+    "stable_release_id": 11516
+  }
+}

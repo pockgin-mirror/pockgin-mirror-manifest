@@ -5,13 +5,13 @@
   "description": "Simple on the fly customisable welcome message.",
   "readme_markdown": "# WelcomeMessage\nSimple on the fly customisable welcome message.\n<p align=\"center\">\n<img src=\"https://github.com/skyss0fly/WelcomeMessage/blob/main/Icon.png\"></img>\n</p> <p></p>\n\n<p><b>Instructions:</b></p>\n<p><b> - 1</b> go to plugindata </p><p></p>\n<p> <b>- 2 </b>WelcomeMessage </p><p></p>\n<p><b> - 3 </b>config.yml and edit arguments</p><p></p>\n<p><b> - 4</b> join the game </p><p></p>\n\n### TODO\n- None! You should suggest some features to add!\n\n## API COMPATIBLE:\n- 5.X.X\n\n # thanks to the following for helping me construct this plugin:\n- <a href=\"https://github.com/Zalgo-Dev\">ZalgoDev</a>\n- <a href=\"https://github.com/SOF3\">SOFe</a>\n- <a href=\"https://github.com/Inaay\">Inaayat</a>\n- RuzBenzy (kinda, just gave like 1 suggestion)\n- <a href=\"https://github.com/jasonw4331\">jasonw4331</a>\n\nhttps://poggit.pmmp.io/p/WelcomeMessage\n<p></p>\n^^ Download the Latest Flavour of WelcomeMessage ^^",
   "readme_source_url": "https://github.com/skyss0fly/WelcomeMessage",
-  "icon_url": "https://raw.githubusercontent.com/skyss0fly/WelcomeMessage/b68f67f3f01cf6d6c61c52129b2cdf8ca1751673/Icon.png",
+  "icon_url": "https://raw.githubusercontent.com/skyss0fly/WelcomeMessage/d0e153f8881fa771ba7e77701123b7773f6d84f2/Icon.png",
   "featured": false,
   "repo": "https://github.com/skyss0fly/WelcomeMessage",
   "archive_repo": null,
-  "approved_release_tag": "r-13676",
-  "stars": 0,
-  "total_downloads": 439,
+  "approved_release_tag": "r-11540",
+  "stars": 5,
+  "total_downloads": 1601,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -28,22 +28,38 @@
   "producers": [
     "skyss0fly"
   ],
-  "whats_new": "https://poggit.pmmp.io/r/250780",
+  "whats_new": "https://poggit.pmmp.io/r/210592",
   "versions": {
     "stable": {
+      "version": "1.9",
+      "tag": "r-11540",
+      "published_at": null,
+      "downloads": 1111,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11540/welcomemessage-1.9-r11540.phar"
+    },
+    "dev": {
       "version": "2.1",
       "tag": "r-13676",
       "published_at": null,
       "downloads": 439,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13676/welcomemessage-2.1-r13676.phar"
-    },
-    "dev": null
+    }
   },
   "recent_builds": [
     {
       "tag": "r-13676",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13676/welcomemessage-2.1-r13676.phar"
+    },
+    {
+      "tag": "r-11540",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11540/welcomemessage-1.9-r11540.phar"
+    },
+    {
+      "tag": "r-11508",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11508/welcomemessage-1.8-r11508.phar"
     }
   ],
   "comments": {
@@ -56,6 +72,6 @@
   "source": {
     "provider": "poggit",
     "plugin_name": "WelcomeMessage",
-    "stable_release_id": 13676
+    "stable_release_id": 11540
   }
 }

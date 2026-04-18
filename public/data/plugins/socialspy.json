@@ -1,0 +1,63 @@
+{
+  "id": "socialspy",
+  "name": "SocialSpy",
+  "author": "sqrrrrl",
+  "description": "This plugin allows you to spy on the commands executed by other players",
+  "readme_markdown": "# SocialSpy\nThis plugin allows you to spy on the commands executed by other players\n\n# Commands\n/socialspy or /ss (turn on socialspy)\n\n# Permission\nsocialspy.command (allow you to use socialspy command)\nsocialspy.hide (hides your commands from other players using SocialSpy)\n\n[![](https://poggit.pmmp.io/shield.state/SocialSpy)](https://poggit.pmmp.io/p/SocialSpy)\n\n[![](https://poggit.pmmp.io/shield.dl.total/SocialSpy)](https://poggit.pmmp.io/p/SocialSpy)",
+  "readme_source_url": "https://github.com/sqrrrrl/SocialSpy",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/sqrrrrl/SocialSpy",
+  "archive_repo": null,
+  "approved_release_tag": "r-11579",
+  "stars": 0,
+  "total_downloads": 528,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "PurePerms"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "sqrrrrl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/210785",
+  "versions": {
+    "stable": {
+      "version": "3.0.0",
+      "tag": "r-11579",
+      "published_at": null,
+      "downloads": 528,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11579/socialspy-3.0.0-r11579.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11579",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11579/socialspy-3.0.0-r11579.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SocialSpy",
+    "stable_release_id": 11579
+  }
+}

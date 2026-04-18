@@ -1,0 +1,61 @@
+{
+  "id": "chat-filter",
+  "name": "Chat-Filter",
+  "author": "r3pt1s",
+  "description": "ChatFilter",
+  "readme_markdown": "# [ChatFilter](https://poggit.pmmp.io/p/Chat-Filter) [![](https://poggit.pmmp.io/shield.state/Chat-Filter)](https://poggit.pmmp.io/p/Chat-Filter)\r\n\r\n## Features\r\n- **Spam** Block\r\n- **Domains** Block\r\n- **Bad-Words** Block\r\n- **Caps-Lock** Block\r\n- **Same-Messages** Block\r\n- **Wait-Time** between messages\r\n\r\n## Commands\r\n| Usage             | Description       | Aliases       | Permission        |\r\n|-------------------|-------------------|---------------|-------------------|\r\n| /chatfilterreload | Reload the config | cfr, cfreload | chatfilter.reload |\r\n\r\n## Permissions\r\n| Name              | Description       |\r\n|-------------------|-------------------|\r\n| chatfilter.bypass | Bypass the blocks |\r\n\r\n## Configuration\r\n```yaml\r\nblock:\r\n  bad-words: true\r\n  domains: true\r\n  spam: true\r\n  caps-lock: true\r\n\r\nallow-same-messages: false\r\nallow-spam-commands: false # spamming commands\r\nwait-time: 20 # wait time between messages in ticks (1 tick = 0,05 seconds | 20 ticks = 1 second)\r\n# percentage is allowed\r\n# Example with percentage: caps-limit: 50% (if 50% of the message is in caps the player will be warned)\r\n# Example without percentage: caps-limit: 50 (if 50 symbols of the message are in caps the player will be warned)\r\ncaps-limit: 50%\r\n\r\n#blocked-domains:\r\n# - \".de\"\r\n# - \"discord.gg\"\r\nblocked-domains: []\r\n#allowed-domains:\r\n# - \"discord.gg/invite/code\" for your discord server or something else\r\nallowed-domains: []\r\nbad-words:\r\n  - \"loser\"\r\n```\r\n\r\n## Messages\r\n```yaml\r\nprefix: \"§8» §c§lChatFilter §r§8| §7\"\r\nmessage_no_perms: \"{PREFIX}You don't have the permission to use this command!\"\r\nmessage_reloaded: \"{PREFIX}Successful reloaded.\"\r\nmessage_bad_word: \"{PREFIX}Please don't use a bad word!\"\r\nmessage_domain: \"{PREFIX}Please don't send domains in the chat!\"\r\nmessage_spam: \"{PREFIX}Please wait before sending a message!\"\r\nmessage_caps_lock: \"{PREFIX}Please deactivate your caps lock!\"\r\nmessage_same_message: \"{PREFIX}Please don't send the same messages in a row!\"\r\n```",
+  "readme_source_url": "https://github.com/r3pt1s/ChatFilter",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/r3pt1s/ChatFilter",
+  "archive_repo": null,
+  "approved_release_tag": "r-11525",
+  "stars": 0,
+  "total_downloads": 381,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "r3pt1s"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/209931",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-11525",
+      "published_at": null,
+      "downloads": 381,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11525/chat-filter-1.1.0-r11525.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11525",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11525/chat-filter-1.1.0-r11525.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Chat-Filter",
+    "stable_release_id": 11525
+  }
+}

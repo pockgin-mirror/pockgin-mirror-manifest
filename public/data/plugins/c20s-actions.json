@@ -1,0 +1,61 @@
+{
+  "id": "c20s-actions",
+  "name": "C20s-Actions",
+  "author": "creeperplayer20",
+  "description": "Fully customizable message that will be shown when player joins, quits or joins for the first time.",
+  "readme_markdown": "<img src=\"https://github.com/creeperplayer20/C20s-Actions/blob/main/icon.png\" alt=\"C20s Actions Logo\" title=\"C20s Actions\" align=\"center\">\n\n# C20s-Actions\nFully customizable message that will be shown when player joins, quits or joins for the first time.\n\n### ⭐ Features\n- [X] PM5 Support.\n- [X] Fully customizable messages.\n- [X] Fully customizable time.\n\n### 📂 Config\n\n![config](https://github.com/creeperplayer20/C20s-Actions/assets/42560781/53f28430-3682-4e63-af52-88382ca19b2c)\n\n### 🖼️ Images\n\n![firstTime](https://github.com/creeperplayer20/C20s-Actions/assets/42560781/61c13157-5c0c-412e-abea-eaf7c72ad89a)\n![join](https://github.com/creeperplayer20/C20s-Actions/assets/42560781/8d770383-3662-4245-94bf-72cd4fedd0e5)\n![leave](https://github.com/creeperplayer20/C20s-Actions/assets/42560781/86ddc7aa-e3a5-4e76-b507-aeb518648ac8)\n\n### 🔮 Other\n> You are welcome to provide suggestions and report any issues related to the plugin by submitting them here [GitHub](https://github.com/creeperplayer20/C20s-Actions/issues) or here [Discord](https://discord.gg/dmrBe8eUDJ).",
+  "readme_source_url": "https://github.com/creeperplayer20/C20s-Actions",
+  "icon_url": "https://raw.githubusercontent.com/creeperplayer20/C20s-Actions/4d97c13a4fe4c0c7c5303d8da5ef3181b373533b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/creeperplayer20/C20s-Actions",
+  "archive_repo": null,
+  "approved_release_tag": "r-11555",
+  "stars": 0,
+  "total_downloads": 524,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "creeperplayer20"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/210608",
+  "versions": {
+    "stable": {
+      "version": "0.0.3",
+      "tag": "r-11555",
+      "published_at": null,
+      "downloads": 524,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11555/c20s-actions-0.0.3-r11555.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11555",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11555/c20s-actions-0.0.3-r11555.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "C20s-Actions",
+    "stable_release_id": 11555
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "stalker",
+  "name": "Stalker",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**Show commands used by players to staff**\n\n# Permissions\n| Permissions | Description                            | Default  |\n| :---------- | :------------------------------------- | :------- |\n| `stalker`   | Allows to see commands used by players | op       |\n\n# Image\n\n| *In-console screen*                                                                                    |\n| :----------------------------------------------------------------------------------------------------- |\n| ![image](https://github.com/nhanaz-pm-pl/Stalker/assets/60387689/8cfe8608-686c-4dff-8e0e-608ba29a7cb8) |\n\n| *In-log file screen*                                                                                   |\n| :----------------------------------------------------------------------------------------------------- |\n| ![image](https://github.com/nhanaz-pm-pl/Stalker/assets/60387689/1005df79-1941-4452-8ca7-31f6545345e9) |\n\n| *In-game screen*                                                                                       |\n| :----------------------------------------------------------------------------------------------------- |\n| ![image](https://github.com/nhanaz-pm-pl/Stalker/assets/60387689/c9b510d3-4ddb-4f81-a6c5-584788f91e05) |\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c) [https://discord.gg/j2X83ujT6c] \\\n**You can contact me directly via Discord `NhanAZ#9115`**\n\n<!-- TODO : >= 1.0.2\n[] Exception command or Whitelist/Blacklist command\n[] Exception player\n[] Execution status of the command\n-->",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/Stalker",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/Stalker/121faba421be05fa379dfaecda1c4474db6e04d6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/Stalker",
+  "archive_repo": null,
+  "approved_release_tag": "r-11623",
+  "stars": 5,
+  "total_downloads": 272,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.1.1",
+      "tag": "r-11623",
+      "published_at": null,
+      "downloads": 272,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11623/stalker-2.1.1-r11623.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11623",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11623/stalker-2.1.1-r11623.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Stalker",
+    "stable_release_id": 11623
+  }
+}
