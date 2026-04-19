@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12405",
   "stars": 0,
-  "total_downloads": 372,
+  "total_downloads": 512,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-12405",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12405/simplerandomore-2.0.0-r12405.phar"
+    },
+    {
+      "tag": "r-10543",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10543/simplerandomore-1.0.0-r10543.phar"
     }
   ],
   "comments": {

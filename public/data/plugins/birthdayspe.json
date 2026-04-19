@@ -1,0 +1,61 @@
+{
+  "id": "birthdayspe",
+  "name": "BirthdaysPE",
+  "author": "MCPEAbdu77",
+  "description": "This Pocketmine-MP plugin will let you wish player(s) a happy birthday and notify others to wish them too.",
+  "readme_markdown": "# BirthdaysPE\nThis Pocketmine-MP plugin will let you wish player(s) a happy birthday and notify others to wish them too.\n\n# Commands\n - `/birthday <set/reset> [args...]` \n - Date must be in MM-DD format\n \n #### Example: `/birthday set 06-23` \n For further customization you can visit the `config.yml` file.\n \n# Permissions\n - `birthdayspe.command` - default (switch to 'op' in plugin.yml if you only want the perm holders to use the command)\n \n# Contact\n  - Discord: MCA7#1245",
+  "readme_source_url": "https://github.com/MCPEAbdu77/BirthdaysPE",
+  "icon_url": "https://raw.githubusercontent.com/MCPEAbdu77/BirthdaysPE/39fda8489b3dab9e4ace9c67b5b93ba4578c00f7/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MCPEAbdu77/BirthdaysPE",
+  "archive_repo": null,
+  "approved_release_tag": "r-10329",
+  "stars": 0,
+  "total_downloads": 231,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MCPEAbdu77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10329",
+      "published_at": null,
+      "downloads": 231,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10329/birthdayspe-1.0.0-r10329.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10329",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10329/birthdayspe-1.0.0-r10329.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BirthdaysPE",
+    "stable_release_id": 10329
+  }
+}

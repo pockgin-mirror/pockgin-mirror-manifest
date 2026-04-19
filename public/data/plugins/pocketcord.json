@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12931",
   "stars": 5,
-  "total_downloads": 354,
+  "total_downloads": 463,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-12931",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12931/pocketcord-2.0.1-r12931.phar"
+    },
+    {
+      "tag": "r-10559",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10559/pocketcord-1.2.1-r10559.phar"
     }
   ],
   "comments": {

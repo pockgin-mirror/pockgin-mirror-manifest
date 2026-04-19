@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11881",
   "stars": 5,
-  "total_downloads": 497,
+  "total_downloads": 892,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11881",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11881/elevator_block-1.2.2-r11881.phar"
+    },
+    {
+      "tag": "r-10531",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10531/elevator_block-1.2.1-r10531.phar"
     }
   ],
   "comments": {

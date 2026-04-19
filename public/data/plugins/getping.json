@@ -1,0 +1,61 @@
+{
+  "id": "getping",
+  "name": "GetPing",
+  "author": "SVega9848",
+  "description": "Get your current ping on the server!",
+  "readme_markdown": "# GetPing\nGet your current ping on the server!\n\nCheck the plugin review in my channel!: https://www.youtube.com/watch?v=oBobmB3AEWs",
+  "readme_source_url": "https://github.com/SVega9848/GetPing",
+  "icon_url": "https://raw.githubusercontent.com/SVega9848/GetPing/07e02f82f025633106ac818e8e1f58db6df74d64/icon.png",
+  "featured": false,
+  "repo": "https://github.com/SVega9848/GetPing",
+  "archive_repo": null,
+  "approved_release_tag": "r-10430",
+  "stars": 0,
+  "total_downloads": 2563,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.1.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SVega9848"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.1.0",
+      "tag": "r-10430",
+      "published_at": null,
+      "downloads": 2563,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10430/getping-0.1.0-r10430.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10430",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10430/getping-0.1.0-r10430.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GetPing",
+    "stable_release_id": 10430
+  }
+}

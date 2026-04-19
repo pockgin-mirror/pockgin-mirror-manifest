@@ -1,0 +1,71 @@
+{
+  "id": "worldinventory",
+  "name": "WorldInventory",
+  "author": "xBeastMode",
+  "description": "WorldInventory 1.0.2",
+  "readme_markdown": "# <div style=\"text-align: center;\">WorldInventory 1.0.2</div>\n### <div style=\"text-align: center;\">by xBeastMode</div>\n\n<div style=\"text-align: center;\">\n<img src=\"https://github.com/xBeastMode/WorldInventory/raw/master/icon.png\" alt=\"\">\n</div>\n\n[![](https://poggit.pmmp.io/shield.api/WorldInventory)](https://poggit.pmmp.io/p/WorldInventory)\n[![](https://poggit.pmmp.io/shield.dl/WorldInventory)](https://poggit.pmmp.io/p/WorldInventory)\n# Feature\n- [x] Clear inventories between worlds\n- [x] Link inventories between worlds\n- [x] Save individual inventories per world\n- [x] Define custom inventories per world\n- [x] MySQL and SQLite support\n- [x] Full API to extend plugin\n- [ ] Command support\n\nIf you have an idea for a change or a feature create an issue!\n\n# Configuration\n\nThe supported database types are \"mysql\" and \"sqlite\", you can find these values in the default plugin config as so:\n```yaml\ndatabase:\n  # The database type. \"sqlite\" and \"mysql\" are supported.\n  type: sqlite\n  # Edit these settings only if you choose \"sqlite\".\n  sqlite:\n    # The file name of the database in the plugin data folder.\n    # You can also put an absolute path here.\n    file: data.sqlite\n  # Edit these settings only if you choose \"mysql\".\n  mysql:\n    host: 127.0.0.1\n    # Avoid using the \"root\" user for security reasons.\n    username: root\n    password: \"\"\n    schema: your_schema\n  # The maximum number of simultaneous SQL queries\n  # Recommended: 1 for sqlite, 2 for MySQL. You may want to further increase this value if your MySQL connection is very slow.\n  worker-limit: 1\n```\n\nThis is self-explanatory:\n```yaml\n# the inventory types for worlds\n# clear - player's inventory gets cleared in world\n# linked - player's inventory will be linked (the same) in worlds using this type\n# saved - player's inventory will be unique to that world\n# custom - player's inventory will be set to custom items see \"items\" config for example\nworlds:\n  world: \"linked\"\n  foo: \"linked\"\n  bar: \"saved\"\n  baz: \"clear\"\n  qux: \"custom\"\n# custom item definitions for custom inventory type worlds\n# the format should be defined as so:\n# items:\n#   world_name:\n#     armor:\n#       - \"item name:item count:custom item name:custom item lore:enchantments...\"\n#     inventory:\n#       - \"item name:item count:custom item name:custom item lore:enchantments...\"\n#\n# enchantments can be one or multiple as so:\n#   protection:1:unbreaking:1...etc...\nitems:\n  qux:\n    armor:\n      - \"diamond_helmet:1:custom armor:custom lore:protection:1\"\n      - \"diamond_chestplate:1:custom armor:custom lore:protection:1\"\n      - \"diamond_leggings:1:custom armor:custom lore:protection:1\"\n      - \"diamond_boots:1:custom armor:custom lore:protection:1\"\n    inventory:\n      - \"diamond_sword:1:custom sword:custom lore:protection:1\"\n```\n\n# Inventory types\n- `clear` if I go to world with this inventory type my inventory will get cleared, even if I collected items they will not be saved and everytime I go back to that world my inventory will be cleared.\n- `linked` worlds that share this inventory type will combine player's inventory, meaning if I go from world `a` to `b` and they share the `linked` inventory type they will be the same exact inventory.\n- `saved` instead of getting linked between worlds, player's inventory is now unique to that world. If `c` uses `saved` inventory type, and player from `a` to `c` instead of getting their inventory linked like from `a` to `b`, player's inventory is now a new inventory and everything the player has in that world will be saved only to world `c`.\n- `custom` allows operator to customize the contents given to player in world, see configuration for an example.",
+  "readme_source_url": "https://github.com/xBeastMode/WorldInventory",
+  "icon_url": "https://raw.githubusercontent.com/xBeastMode/WorldInventory/95d5d590c8637f548c4cbb8269215d65e5b87089/icon.png",
+  "featured": false,
+  "repo": "https://github.com/xBeastMode/WorldInventory",
+  "archive_repo": null,
+  "approved_release_tag": "r-10488",
+  "stars": 4,
+  "total_downloads": 463,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.7.1-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "xBeastMode"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/190850",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-10488",
+      "published_at": null,
+      "downloads": 393,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10488/worldinventory-1.0.2-r10488.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10488",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10488/worldinventory-1.0.2-r10488.phar"
+    },
+    {
+      "tag": "r-10467",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10467/worldinventory-1.0.1-beta-r10467.phar"
+    },
+    {
+      "tag": "r-10456",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10456/worldinventory-1.0.0-beta-r10456.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorldInventory",
+    "stable_release_id": 10488
+  }
+}

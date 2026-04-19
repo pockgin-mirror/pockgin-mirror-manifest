@@ -1,0 +1,66 @@
+{
+  "id": "simplespawns",
+  "name": "SimpleSpawns",
+  "author": "JonyGamesYT9",
+  "description": "SimpleSpawns v4.0",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/SimpleSpawns)]\n\n<div align=\"center\">\n<h1>SimpleSpawns | v4.0<h1>\n<p>Spawns system for PocketMine-MP, written in PHP-8 and only supports PocketMine-MP 4.0.0</p>\n</div>\n\n<h3>⚡ Features:</h3>\n<ul>\n<li>Put the spawn zone where you want</li>\n<li>(New) Transfer players between servers with the /lobby.</li>\n<li>Personalized messages</li>\n<li>Command Aliases: /hub, /lobby, /spawn</li>\n<li>PocketMine-MP 4.0.0 (Only)</li>\n</ul>\n\n### ✒ Commands:\n| Command | Description | Permission                      |\n| --- | --- |---------------------------------|\n| `/setlobby` | Set the position where people will go when using /hub. | `simplespawns.command.setlobby` |\n| `/hub`, `/lobby`, `/spawn` | Teleportation to the lobby. | `simplespawns.command.lobby`    |\n\n### 📋 Icon:\n<p>Icon Credits: https://www.flaticon.com/free-icon/teleport_1388524?term=teleport&page=1&position=76&page=1&position=76&related_id=1388524&origin=search</p>\n\n### 📖 Project information:\n| Version | Pocketmine API | PHP | Status |\n|---------|---|---|---|\n| 4.0     | 4.0.0 | 8 | Verified |",
+  "readme_source_url": "https://github.com/JonyGamesYT9/SimpleSpawns",
+  "icon_url": "https://raw.githubusercontent.com/JonyGamesYT9/SimpleSpawns/2be56d7fb9fb81cf211671425ea4f30abfbfc13b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/JonyGamesYT9/SimpleSpawns",
+  "archive_repo": null,
+  "approved_release_tag": "r-10361",
+  "stars": 0,
+  "total_downloads": 1116,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JonyGamesYT9"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/188183",
+  "versions": {
+    "stable": {
+      "version": "4.0",
+      "tag": "r-10361",
+      "published_at": null,
+      "downloads": 867,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10361/simplespawns-4.0-r10361.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10361",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10361/simplespawns-4.0-r10361.phar"
+    },
+    {
+      "tag": "r-10305",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10305/simplespawns-4.0-beta-r10305.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleSpawns",
+    "stable_release_id": 10361
+  }
+}

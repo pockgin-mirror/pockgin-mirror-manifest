@@ -1,0 +1,61 @@
+{
+  "id": "parties",
+  "name": "Parties",
+  "author": "didacdelolmo",
+  "description": "Download the plugin on poggit:",
+  "readme_markdown": "Download the plugin on poggit: [![Poggit](https://poggit.pmmp.io/shield.state/Parties)](https://poggit.pmmp.io/p/Parties) <br>\nJoin my GitHub discord server: [![Discord](https://img.shields.io/discord/732039634745425972?color=%2392e5fc&label=discord)](https://discord.gg/bsFSwTR)\n\n# Parties\n🎉 A parties plugin for PocketMine-MP servers<br><br>\n\n## Available features\n\n- A complete parties API for developers (with custom **events**)\n- Usage of **forms** to manage the parties\n- Customizable party options:\n  - Set the maximum party slots\n  - **Disable the pvp** (player versus player) within the members of the party.\n  - Teleport the party members to the party leader when the leader gets teleported to a different world.\n  - Teleport the party members to the party leader when the leader gets **transfered** to another **server**.\n  - Make all the party members execute the same command as the party leader.\n\n## In-game pictures\n\n![Party Menu](https://i.imgur.com/r3KWqoD.png) ![Your Party](https://i.imgur.com/1nIpVEu.png)\n![Party Member](https://i.imgur.com/kShbHCY.png) ![Party Options](https://i.imgur.com/FT24li1.png)\n![Invite a player](https://i.imgur.com/W00fnSz.png) ![Party Chat](https://i.imgur.com/bAqQ0PP.png) \n\n## Commands\n\n- /party — Opens the party form\n- /party (message) — Sends a message to the party chat\n\n## Code examples\n\nSetting the gamemode to spectator to all the members of the party when the party leader invites a player to join their party:\n```php\npublic function onPartyInvite(PartyInviteEvent $event): void {\n    $session = $event->getSession();\n    if($session->isPartyLeader()) {\n        foreach($session->getParty()->getMembers() as $member) {\n            $member->getPlayer()->setGamemode(GameMode::SPECTATOR);\n        }\n    }\n} \n```\n\nAllow only players with the permission 'slots.limit' to set the maximum slots to more than 3:\n```php\npublic function onUpdateSlots(PartyUpdateSlotsEvent $event): void {\n    $session = $event->getSession();\n    if(!$session->getPlayer()->hasPermission(\"slots.limit\") and $event->getSlots() > 3) {\n        $event->cancel();\n        $session->message(\"{RED}You do not have permissions to set the maximum slots to more than 3!\");\n    }\n}\n```\n\nSetting the party public when an operator joins the party:\n```php\npublic function onPartyJoin(PartyJoinEvent $event): void {\n    if($event->getSession()->getPlayer()->hasPermission(DefaultPermissions::ROOT_OPERATOR)) {\n        $event->getParty()->setPublic(true);\n    }\n}\n```",
+  "readme_source_url": "https://github.com/didacdelolmo/Parties",
+  "icon_url": "https://raw.githubusercontent.com/Diduhless/Parties/a3a8583ab352be37f1315a2d4430aa8f3c0f4f57/icon.png",
+  "featured": false,
+  "repo": "https://github.com/didacdelolmo/Parties",
+  "archive_repo": null,
+  "approved_release_tag": "r-10327",
+  "stars": 5,
+  "total_downloads": 470,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "didacdelolmo"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/187514",
+  "versions": {
+    "stable": {
+      "version": "2.0.2",
+      "tag": "r-10327",
+      "published_at": null,
+      "downloads": 470,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10327/parties-2.0.2-r10327.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10327",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10327/parties-2.0.2-r10327.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Parties",
+    "stable_release_id": 10327
+  }
+}

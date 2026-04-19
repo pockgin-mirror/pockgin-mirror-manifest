@@ -1,0 +1,61 @@
+{
+  "id": "deathhead",
+  "name": "DeathHead",
+  "author": "TheLitchDev",
+  "description": "Description",
+  "readme_markdown": "<h1><a id=\"user-content-description\" class=\"anchor\" aria-hidden=\"true\" href=\"#description\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Description</h1>\n<ul>\n<li>Drop a player's head on their death.</li>\n</ul>\n<h1><a id=\"user-content-configuration\" class=\"anchor\" aria-hidden=\"true\" href=\"#configuration\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Configuration</h1>\n<ul>\n<li>\n<code>enabled</code> &gt; Enables/Disables the head dropping on death, can be set to <code>true</code> or <code>false</code>. (set to <code>true</code> by default)</li>\n<li>\n<code>number</code> &gt; Show the head number in the lore, can be set to <code>true</code> or <code>false</code>. (set to <code>true</code> by default)</li>\n<li>\n<code>type</code> &gt; Set the head type to be <code>steve</code> or <code>skull</code>. (set to <code>steve</code> by default)</li>\n</ul>\n<h1><a id=\"user-content-permissions\" class=\"anchor\" aria-hidden=\"true\" href=\"#permissions\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Permissions</h1>\n<ul>\n<li>\n<code>deathhead.settings</code> Permission to edit DeathHead configurations through commands.</li>\n</ul>\n<h1><a id=\"user-content-commands\" class=\"anchor\" aria-hidden=\"true\" href=\"#commands\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Commands</h1>\n<ul>\n<li>\n<code>/dh enabled</code> &gt; Enables/Disables the head dropping on death. Heads won't drop if set to <code>false</code>.</li>\n<li>\n<code>/dh number</code> &gt; Enables/Disables the head number in the lore.</li>\n<li>\n<code>/dh type</code> &gt; Changes the dropped head type.</li>\n<li>\n<code>/dh help</code> &gt; Shows the list of commands.</li>\n<li>\n<code>/dh config</code> &gt; Shows the current configuration set for DeathHead.</li>\n</ul>\n<h1><a id=\"user-content-dm-me-if-you-found-any-bugsissues\" class=\"anchor\" aria-hidden=\"true\" href=\"#dm-me-if-you-found-any-bugsissues\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>DM me if you found any bugs/issues</h1>\n<a href=\"https://discord.com/users/949243866576465950\" rel=\"nofollow\">\n\t<img width=\"50%\" align=\"center\" alt=\"Discord Status\" src=\"https://camo.githubusercontent.com/26f4378989ebd3d1d068c6c487f8657ee71998e1da17d3f3b9f56abda5d2c435/68747470733a2f2f6c616e796172642e636e7261642e6465762f6170692f393439323433383636353736343635393530\" data-canonical-src=\"https://lanyard.cnrad.dev/api/949243866576465950\" style=\"max-width: 100%;\">\n</a>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/190046",
+  "icon_url": "https://raw.githubusercontent.com/RealYXNG/DeathHead/1e7ca9c3e0900acb1284b49c2a4fbbb7c83f9ecd/DeathHeadIcon.gif",
+  "featured": false,
+  "repo": "https://github.com/TheLitchDev/DeathHead",
+  "archive_repo": null,
+  "approved_release_tag": "r-10455",
+  "stars": 5,
+  "total_downloads": 1449,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TheLitchDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10455",
+      "published_at": null,
+      "downloads": 1449,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10455/deathhead-1.0.0-r10455.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10455",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10455/deathhead-1.0.0-r10455.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DeathHead",
+    "stable_release_id": 10455
+  }
+}

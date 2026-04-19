@@ -1,0 +1,61 @@
+{
+  "id": "phqx-client",
+  "name": "PHqx-Client",
+  "author": "Phqzing",
+  "description": "Download",
+  "readme_markdown": "# Download \n[![](https://poggit.pmmp.io/shield.dl/PHqx-Client)](https://poggit.pmmp.io/p/PHqx-Client)\n<a href=\"https://poggit.pmmp.io/p/PHqx-Client\"><img src=\"https://poggit.pmmp.io/shield.dl/PHqx-Client\"></a>\n# About\n- **PHqx or Phqzing Hacks** is a Server Sided Hack \"Client\" you can use for trolling friends (if you have one) or destroying other people at pvp.\n- I am planning on updating this often and adding more features so if you have any suggestions feel free to dm me on Discord or open up an [Issue](https://github.com/Phqzing/PHqx/issues)\n\n# Features\n- Kill Aura\n- Reach\n- Speed\n- Anti Knockback\n- Phase\n- Auto Message\n- Tap To Teleport\n- GUI (for editing settings)\n# TODO (for 0.0.2)\n- [x] Add Phase hack (Not yet perfect)\n- [x] Add Auto Message\n- [x] Add Tap to Teleport\n- [x] Auto update database\n# TODO (for 0.0.3)\n- [ ] Add Chest Stealer\n- [ ] Add Free Cam\n- [ ] Add No Fall Damage\n- [ ] Add Scaffhold\n- [ ] Add Aimbot\n# Commands and Config\n### Commands\n```\n.help\n.inject\n.eject\n.toggle killaura\n.toggle reach\n.toggle speed\n.toggle antikb\n.toggle phase\n.toggle automessage\n.toggle taptoteleport\n.killaura edit\n.reach edit\n.speed edit\n.antikb edit\n.automessage edit\n```\nFor more info just type \".help\" in chat and it will show you the commands and what it's used for\n\n### Config\n```yml\n---\n# the plugin won't work on worlds that are listed here\n# you can add as many worlds as you wan't but make sure you are getting the folder name of the world\nblack-listed-worlds:\n  - \"exampleWorld1\"\n  - \"exampleWorld2\"\n  - \"exampleWorld3\"\n\n\n# this is how often the Kill Aura checks for nearby players\n# Note: value must always be positive\n# 20 = 1 second\nkillaura-tickrate: 10\n\n\n# DO NOT TOUCH UNLESS YOU KNOW EXACTLY WHAT YOU'RE DOING\ndatabase:\n  type: sqlite\n  sqlite:\n    file: settings.sql\n  worker-limit: 1\n...\n```\n\n# Discord\n### Phqzing#9470\nFeel free to message me if you have any questions or suggestions regarding this plugin",
+  "readme_source_url": "https://github.com/Phqzing/PHqx",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Phqzing/PHqx",
+  "archive_repo": null,
+  "approved_release_tag": "r-10390",
+  "stars": 5,
+  "total_downloads": 209,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Phqzing"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/188889",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-10390",
+      "published_at": null,
+      "downloads": 209,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10390/phqx-client-0.0.2-r10390.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10390",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10390/phqx-client-0.0.2-r10390.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PHqx-Client",
+    "stable_release_id": 10390
+  }
+}

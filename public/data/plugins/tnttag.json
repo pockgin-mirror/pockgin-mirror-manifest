@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10588",
   "stars": 0,
-  "total_downloads": 410,
+  "total_downloads": 512,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "0.0.4",
       "tag": "r-10588",
       "published_at": null,
-      "downloads": 363,
+      "downloads": 364,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10588/tnttag-0.0.4-r10588.phar"
     },
     "dev": null
@@ -49,6 +49,11 @@
       "tag": "r-10564",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10564/tnttag-0.0.3-r10564.phar"
+    },
+    {
+      "tag": "r-10409",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10409/tnttag-0.0.2-r10409.phar"
     }
   ],
   "comments": {

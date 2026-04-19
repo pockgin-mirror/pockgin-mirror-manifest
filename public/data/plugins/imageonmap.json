@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11853",
   "stars": 4,
-  "total_downloads": 3123,
+  "total_downloads": 3884,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-10919",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10919/imageonmap-1.0.4-r10919.phar"
+    },
+    {
+      "tag": "r-10445",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10445/imageonmap-1.0.3-r10445.phar"
     }
   ],
   "comments": {

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11417",
   "stars": 5,
-  "total_downloads": 363,
+  "total_downloads": 634,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11417",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11417/guardianjoin-0.0.2-r11417.phar"
+    },
+    {
+      "tag": "r-10292",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10292/guardianjoin-0.0.1-r10292.phar"
     }
   ],
   "comments": {

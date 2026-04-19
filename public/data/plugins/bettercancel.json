@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11479",
   "stars": 0,
-  "total_downloads": 351,
+  "total_downloads": 441,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,7 +37,13 @@
       "downloads": 245,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11479/bettercancel-1.0.4-r11479.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "1.0.1-beta",
+      "tag": "r-10326",
+      "published_at": null,
+      "downloads": 90,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10326/bettercancel-1.0.1-beta-r10326.phar"
+    }
   },
   "recent_builds": [
     {
@@ -59,6 +65,11 @@
       "tag": "r-11108",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11108/bettercancel-1.0.1-r11108.phar"
+    },
+    {
+      "tag": "r-10326",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10326/bettercancel-1.0.1-beta-r10326.phar"
     }
   ],
   "comments": {

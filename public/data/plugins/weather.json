@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11909",
   "stars": 0,
-  "total_downloads": 2502,
+  "total_downloads": 2686,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-10562",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10562/weather-1.0.8-r10562.phar"
+    },
+    {
+      "tag": "r-10344",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10344/weather-1.0.6-r10344.phar"
     }
   ],
   "comments": {

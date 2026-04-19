@@ -1,0 +1,64 @@
+{
+  "id": "economycshop",
+  "name": "EconomyCShop",
+  "author": "famima65536",
+  "description": "ChestShop for EconomyAPI.",
+  "readme_markdown": "# EconomyCShop\nChestShop for EconomyAPI.\n\n## Usage\n1. Place chest and add items you want to sell.\n2. Place sign with format below.\n   1. Line 1: (none)\n   2. Line 2: price:int\n   3. Line 3: amount:int\n   4. Line 4: item:string(item name) or (id:int):(meta:int)\n3. Complete!\n\n## Config\n- `repository` determines how to store shop data. (json or sqlite)\n- `economy-plugin` determines which economy plugin to use. (BedrockEconomy or Capital)\n \n## Permission\n- `economy-c-shop.force-close-shop` allow to destroy others' shop.",
+  "readme_source_url": "https://github.com/famima65536/EconomyCShop",
+  "icon_url": "https://raw.githubusercontent.com/famima65536/EconomyCShop/a0296b06d72505c6f590ea2a69f1bcdf00769970/icon.png",
+  "featured": false,
+  "repo": "https://github.com/famima65536/EconomyCShop",
+  "archive_repo": null,
+  "approved_release_tag": "r-10341",
+  "stars": 5,
+  "total_downloads": 2848,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.1.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "Capital",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "famima65536"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/187728",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-10341",
+      "published_at": null,
+      "downloads": 2848,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10341/economycshop-2.0.0-r10341.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10341",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10341/economycshop-2.0.0-r10341.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EconomyCShop",
+    "stable_release_id": 10341
+  }
+}

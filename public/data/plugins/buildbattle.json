@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10589",
   "stars": 0,
-  "total_downloads": 1190,
+  "total_downloads": 1305,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "0.0.3",
       "tag": "r-10589",
       "published_at": null,
-      "downloads": 1115,
+      "downloads": 1116,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10589/buildbattle-0.0.3-r10589.phar"
     },
     "dev": null
@@ -49,6 +49,11 @@
       "tag": "r-10563",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10563/buildbattle-0.0.2-r10563.phar"
+    },
+    {
+      "tag": "r-10385",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10385/buildbattle-0.0.1-r10385.phar"
     }
   ],
   "comments": {

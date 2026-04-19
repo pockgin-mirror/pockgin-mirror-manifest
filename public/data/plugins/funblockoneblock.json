@@ -1,0 +1,61 @@
+{
+  "id": "funblockoneblock",
+  "name": "FunBlockOneBlock",
+  "author": "cosmicnebula200",
+  "description": "A OneBlock plugin for PocketMine-4.0.0",
+  "readme_markdown": "# FunBlockOneBlock\n\n<p align=\"center\">\n<a href=\"https://github.com/cosmicnebula200/FunBlockOneBlock\" target=\"_blank\"><img src=\"https://media.discordapp.net/attachments/829673511009779723/918506120094564392/png_20211209_221513_0000.png?width=240&height=240\"></a>\n</p>\n\nA OneBlock plugin for PocketMine-4.0.0\n\n**What is OneBlock?**\n\nOneBlock is a survival gamemode in which you stand on a lonely block floating in the void. You can mine the same block over and over, and it gives you basic materials that slowly become better and better. You go through certain phases, and the infinite block slowly upgrades to better blocks and this continues forever and ever.\n\n# Features\n- MySql and Sqlite3 providers\n- Easy to set up\n- Fully customizable (including messages and levels 🥺 )\n- Lucky Block support (coming as FunBlockLuckyBlock plugin)\n\n# Todo\n- [❌] Chests with items on block generation\n- [❌] Mobs with no AI to be spawned with some blocks on configurable levels\n- Suggest more stuff so it can come here\n\n# Permissions\n```\n  funblockoneblock.command:\n    default: true\n    description: this permission allows the set user to use the oneblock command\n  funblockoneblock.create:\n    default: true\n    description: this permission allows the user to create a oneblock island\n  funblockoneblock.chat:\n    default: true\n    description: this permission allows the user to use the oneblock chat\n  funblockoneblock.delete:\n    default: true\n    description: with this permission the user can delete their oneblock island\n  funblockoneblock.deleteothers:\n    default: op\n    description: with this permission the user can delete other players oneblock islands\n  funblockoneblock.go:\n    default: true\n    description: this permission allows the user to teleport to the oneblock island\n  funblockoneblock.visit:\n    default: true\n    description: this permission allows the user to visit other players oneblock islands\n  funblockoneblock.invite:\n    default: true\n    description: this permission allows the user to invite players to their oneblock island\n  funblockoneblock.accept:\n    default: true\n    description: this permission allows the user to accept incoming invites when they have no oneblock island\n  funblockoneblock.rename:\n    default: true\n    description: this permission allows the user to rename their oneblock island\n```\n\n# Commands\n\nCommand | Description | Permission | Aliases |\n----------------- | ------------- | ------------- | -------- |\nOneBlock | OneBlock command for FunBlockOneBlock | funblockoneblock.command | ob\n\nSubCommand | Description | Permission | Aliases |\n----------------- | ------------- | ------------- | -------- |\naccept | accepts the invite from the mentioned player| funblockoneblock.accept| |\ncreate | creates a oneblock island | funblockoneblock.create | c, make\ndelete | deletes the mentioned players island | funblockoneblock.delete/ funblockoneblock.delete.others | |\ngo | teleports to your oneblock island | funblockoneblock.go |  |\ninvite | invites the mentioned player to your oneblock island | funblockoneblock.invite | |\nvisit | visit the mentioned player's oneblock island | funblockoneblock.visit | |\n\n# ScoreHud Tags\n\nTag | Description |\n------- | ----------------|\n`funblockoneblock.xp` | Shows the XP of the member's OneBlock island |\n`funblockoneblock.level` | Shows the Level of the member's OneBlock island |\n`funblockoneblock.leader` | Shows the Leader of the member's OneBlock island ||\n`funblockoneblock.world` | Shows the World name of the member's OneBlock island ||\n`funblockoneblock.chat` | Shows the status (on/off) of the island chat ||\n`funblockoneblock.level_name` | Shows the Level Name of the member's OneBlock island ||\n`funblockoneblock.island_name` | Shows the Island Name of the member's OneBlock island ||\n\n\n# Settings\n\nSetting | Description | type |\n--------|---------------|---------|\nautoinv.enable | Enables the autoinventory **ON THE ONEBLOCK ISLANDS** | boolean (true/false)\nautoinv.drop-when-full| Drops items on ground when the player has a full inventory | boolean (true/false)\nautoxp| Automatically sends xp on Mining on the OneBlock Islands | boolean (true/false)\ninvite-time-out | The number of seconds to wait before an invite to a OneBlock Island expires | int (in seconds)\nmax-members | The maximum number of players a OneBlock Island can have . This value includes the Leader too | int\nreset-xp | Reset xp upon level-ups | boolean (true/false)\ndamage | Toggles damages on OneBlock Island. **Here false means they wont take damage due to that cause** | boolean (true/false)",
+  "readme_source_url": "https://github.com/cosmicnebula200/FunBlockOneBlock",
+  "icon_url": "https://raw.githubusercontent.com/cosmicnebula200/FunBlockOneBlock/de5f2e2191f838c2c70166d92d131a481894a109/icon.png",
+  "featured": false,
+  "repo": "https://github.com/cosmicnebula200/FunBlockOneBlock",
+  "archive_repo": null,
+  "approved_release_tag": "r-10437",
+  "stars": 0,
+  "total_downloads": 536,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "cosmicnebula200"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/189884",
+  "versions": {
+    "stable": {
+      "version": "1.0.0-BETA-2",
+      "tag": "r-10437",
+      "published_at": null,
+      "downloads": 536,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10437/funblockoneblock-1.0.0-beta-2-r10437.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10437",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10437/funblockoneblock-1.0.0-beta-2-r10437.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FunBlockOneBlock",
+    "stable_release_id": 10437
+  }
+}

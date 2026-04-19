@@ -1,0 +1,61 @@
+{
+  "id": "nickui",
+  "name": "NickUI",
+  "author": "fernanACM",
+  "description": "Change your nickname with ease!**",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/NickUI)](https://poggit.pmmp.io/p/NikcUI)\n\n[![](https://poggit.pmmp.io/shield.api/NickUI)](https://poggit.pmmp.io/p/NickUI)\n\n# NickUI\n**Change your nickname with ease!**\n![Captura de pantalla 2022-04-01 014404](https://user-images.githubusercontent.com/83558341/161209869-12fdec66-0394-4085-9aa1-92a296e7c01c.png)\n<a href=\"https://discord.gg/YyE9XFckqb\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n\n### 💡 Implementations\n* [X] Configuration\n* [x] Sounds.\n* [x] Message customization.\n* [X] Commands.\n* [x] Keys in messages.yml.\n\n### 💾 Config \n```yaml\n   #   _   _   _          _      _   _   ___ \n   #  | \\ | | (_)   ___  | | __ | | | | |_ _|\n   #  |  \\| | | |  / __| | |/ / | | | |  | | \n   #  | |\\  | | | | (__  |   <  | |_| |  | | \n   #  |_| \\_| |_|  \\___| |_|\\_\\  \\___/  |___|\n   #         by fernanACM\n   # Here you can make the necessary adjustments for the NickUI\n\n   # =======(SETTINGS)=======\n   Settings:\n    # Write here nicknames that you do not like or are risque\n    # add the banned nicknames with the following example:\n    # Not-allow-custom-nicks:\n    #  - Shit\n    #  - Fuck\n    #  - Bitch\n    not-allow-custom-nicks:\n      - \"Gay\"\n      - \"HomoSexual\"\n      - \"PocketMine-MP\"    \n      - \"sucks\"    \n      - \"FUCK\"    \n      - \"bitch\"\n      - \"pmmp\"\n      - \"Servidor\"\n      - \"Console\"\n      - \"NickUI\"\n    \n    # Put the maximum characters for the nicks\n    characters: 10\n    # Add random nicknames with this example:\n    # Random-nicks:\n    #   - Friend\n    #   - ACM\n    #   - Cars\n    random-nicks:\n      - \"ACM\"\n      - \"Jonatan\"\n      - \"Mrc\"\n      - \"AbelGod\"\n      - \"Naruto\"\n      - \"Pro\"\n      - \"Sipe\"\n      - \"New_122\"\n   ```\n   \n   ***\n### 🕹 Commands\n- ```/nickui``` > Open NickUI\n- ```/nickui help``` > Command list\n- ```/nickui set <nickname>``` > Change your nick with one command\n- ```/nickui random``` > Change your name to a random nick with one command\n- ```/nickui reset``` > Return your nick to normal with one command\n\n### 🔒 Permissions\n- Executing the command: ```nickui.acm```\n- Random Nick: ```nickui.random```\n\n### 📞 Contact\n| Redes | Tag | Link |\n|-------|-------------|------|\n| YouTube | fernanACM | [YouTube](https://www.youtube.com/channel/UC-M5iTrCItYQBg5GMuX5ySw) | \n| Discord | fernanACM#5078 | [Discord](https://discord.gg/YyE9XFckqb) |\n| GitHub | fernanACM | [GitHub](https://github.com/fernanACM)\n| Poggit | fernanACM | [Poggit](https://poggit.pmmp.io/ci/fernanACM)\n****\n\n### ✔ Credits\n| Authors | Github | Lib |\n|---------|--------|-----|\n| CortexPE | [CortexPE](https://github.com/CortexPE) | [Commando](https://github.com/CortexPE/Commando/tree/master/) |\n| Muqsit | [Muqsit](https://github.com/Muqsit) | [SimplePacketHandler](https://github.com/Muqsit/SimplePacketHandler) |\n| Vecnavium | [Vecnavium](https://github.com/Vecnavium) | [FormsUI](https://github.com/Vecnavium/FormsUI/tree/master/) |\n****",
+  "readme_source_url": "https://github.com/fernanACM/NickUI",
+  "icon_url": "https://raw.githubusercontent.com/fernanACM/NickUI/393e843fa9f065b7fe38f2bfa3b8b34e23189263/icon.png",
+  "featured": false,
+  "repo": "https://github.com/fernanACM/NickUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-10433",
+  "stars": 3,
+  "total_downloads": 1099,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "fernanACM"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-10433",
+      "published_at": null,
+      "downloads": 1099,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10433/nickui-1.2.0-r10433.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10433",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10433/nickui-1.2.0-r10433.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NickUI",
+    "stable_release_id": 10433
+  }
+}

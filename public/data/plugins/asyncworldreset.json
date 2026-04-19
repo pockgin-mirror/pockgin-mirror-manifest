@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11428",
   "stars": 3,
-  "total_downloads": 2146,
+  "total_downloads": 2222,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-10835",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10835/asyncworldreset-1.0.3-r10835.phar"
+    },
+    {
+      "tag": "r-10530",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10530/asyncworldreset-1.0.1-r10530.phar"
     }
   ],
   "comments": {

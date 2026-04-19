@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10946",
   "stars": 5,
-  "total_downloads": 2748,
+  "total_downloads": 5674,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,16 @@
       "tag": "r-10946",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10946/worldprotect-3.0.1-r10946.phar"
+    },
+    {
+      "tag": "r-10432",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10432/worldprotect-2.3.14-r10432.phar"
+    },
+    {
+      "tag": "r-10293",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10293/worldprotect-2.3.13-r10293.phar"
     }
   ],
   "comments": {

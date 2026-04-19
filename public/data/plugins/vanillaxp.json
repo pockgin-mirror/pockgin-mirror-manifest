@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11858",
   "stars": 4,
-  "total_downloads": 1120,
+  "total_downloads": 2148,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11858",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11858/vanillaxp-1.1-r11858.phar"
+    },
+    {
+      "tag": "r-10360",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10360/vanillaxp-1.0.2-r10360.phar"
     }
   ],
   "comments": {

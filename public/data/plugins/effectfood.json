@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12406",
   "stars": 0,
-  "total_downloads": 344,
+  "total_downloads": 578,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-12406",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12406/effectfood-2.0.0-r12406.phar"
+    },
+    {
+      "tag": "r-10537",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10537/effectfood-1.0.0-r10537.phar"
     }
   ],
   "comments": {

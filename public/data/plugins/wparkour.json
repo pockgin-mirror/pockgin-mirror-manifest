@@ -1,0 +1,63 @@
+{
+  "id": "wparkour",
+  "name": "WParkour",
+  "author": "deveworld",
+  "description": "Download",
+  "readme_markdown": "<img src=\"https://raw.githubusercontent.com/deveworld/WParkour/main/parkour.png\"></img></BR>\n# WParkour\n<p style=\"text-align: right\">\n    <a href=\"https://github.com/deveworld/WParkour/blob/main/README_KO.md\">  \n        <img alt=\"download\" src=\"https://img.shields.io/static/v1?label=%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C&message=%EC%9D%BD%EA%B8%B0&labelColor=success\">  \n    </a>  \n    <a href=\"https://poggit.pmmp.io/p/WParkour/1.1\">\n        <img alt=\"state\" src=\"https://poggit.pmmp.io/shield.state/WParkour\">\n    </a>\n</p> \n\n## Download\n<a href=\"https://poggit.pmmp.io/p/WParkour/1.1\">Download stable version in Poggit.</a></BR>\n<a href=\"https://github.com/deveworld/WParkour/releases/download/WParkour/WParkour.phar\">Pre-release Download in GitHub. (It may be unstable)</a>\n\n## Description\n### - Command\nCommand is simple. Just \"/parkour\". </BR></BR>\n\n### - Add Parkour\nIf you want to add parkour, you must have permission(OP). </BR>\nThen, enter the command \"/parkour\". </BR>\n<img src=\"https://user-images.githubusercontent.com/48672862/128593280-5c0adb2f-7db8-4c4d-84d5-44447865d537.png\" width=\"35%\"></img></BR>\nClick \"[ Manage ]\". </BR> </BR>\n<img src=\"https://user-images.githubusercontent.com/48672862/128593349-778bbcaa-095e-48b8-9dfd-f55b6ce7a2d7.png\" width=\"35%\"></img></BR>\nClick \"[ Add parkour ]\" </BR>\nAnd follow the message! Done! </BR></BR>\n\n### - Del Parkour\nIf you want to delete parkour, you must have permission(OP), too! </BR>\nenter the command and click \"[ Manage ]\". </BR>\nAnd click \"[ Del parkour ]\". </BR>\n<img src=\"https://user-images.githubusercontent.com/48672862/128593349-778bbcaa-095e-48b8-9dfd-f55b6ce7a2d7.png\" width=\"35%\"></img></BR>\n<img src=\"https://user-images.githubusercontent.com/48672862/128593859-01979fb7-46b9-44f2-9f07-b40c69ac4a37.png\" width=\"35%\"></img></BR>\nClick parkour what you want to delete. Delete Done! </BR></BR>\n\n### - Play\nEnter the command \"/parkour\". </BR>\nIf you are OP, click \"[ Play ]\". </BR>\nAnd click parkour what you want to play. </BR>\n<img src=\"https://user-images.githubusercontent.com/48672862/128593985-a70e16d3-21d7-4ddb-8738-67927ca9db55.png\" width=\"35%\"></img></BR>\nEnjoy! </BR></BR>\n\n### Translate\nIf this plugin doesn't have your language, you can add your language!</BR>\nRead more about this <a href=\"https://github.com/deveworld/WParkour/wiki/Translate-plugin\">here</a>.\n\n## Notice\nThis plugin moved to here from <a href=\"https://web.archive.org/web/20210808110601if_/https://github.com/Blugin/Parkour\">here</a>\nBecause Blugin team's repos were not loading in poggit.\nAs you can see from the commits, all of them were written by me, all rights belong to me.",
+  "readme_source_url": "https://github.com/deveworld/WParkour",
+  "icon_url": "https://raw.githubusercontent.com/mcsim415/WParkour/29fad5099ee0c657655c686af19b7203ba4e7656/parkour.png",
+  "featured": false,
+  "repo": "https://github.com/deveworld/WParkour",
+  "archive_repo": null,
+  "approved_release_tag": "r-10528",
+  "stars": 0,
+  "total_downloads": 943,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "deveworld"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/194333",
+  "versions": {
+    "stable": {
+      "version": "1.1",
+      "tag": "r-10528",
+      "published_at": null,
+      "downloads": 943,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10528/wparkour-1.1-r10528.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10528",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10528/wparkour-1.1-r10528.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WParkour",
+    "stable_release_id": 10528
+  }
+}

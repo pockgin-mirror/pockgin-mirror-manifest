@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11512",
   "stars": 5,
-  "total_downloads": 722,
+  "total_downloads": 944,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11512",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11512/customcraft-1.1-r11512.phar"
+    },
+    {
+      "tag": "r-10520",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10520/customcraft-1.0-r10520.phar"
     }
   ],
   "comments": {

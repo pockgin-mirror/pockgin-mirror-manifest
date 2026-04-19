@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10574",
   "stars": 4,
-  "total_downloads": 220,
+  "total_downloads": 245,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -36,7 +36,7 @@
       "version": "1.0.1",
       "tag": "r-10574",
       "published_at": null,
-      "downloads": 220,
+      "downloads": 221,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10574/safercon-1.0.1-r10574.phar"
     },
     "dev": null
@@ -46,6 +46,11 @@
       "tag": "r-10574",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10574/safercon-1.0.1-r10574.phar"
+    },
+    {
+      "tag": "r-10552",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10552/safercon-1.0.0-r10552.phar"
     }
   ],
   "comments": {

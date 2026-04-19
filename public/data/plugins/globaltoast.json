@@ -1,0 +1,61 @@
+{
+  "id": "globaltoast",
+  "name": "GlobalToast",
+  "author": "SVega9848",
+  "description": "GlobalToast is a plugin that allows mods to send a toast announcement with just one command! 😃",
+  "readme_markdown": "# GlobalToast\n\nGlobalToast is a plugin that allows mods to send a toast announcement with just one command! 😃\n\n## How to use\n\nThis is the command list:\n```yaml\n- /globaltoast\n```\n\nThere are many ways to display the toast!\n```yaml\n- /globaltoast (message) -> Sends the toast to the person who runs the command\n- /globaltoast (player) (message) -> Sends the toast to the specified player\n- /globaltoast everyone (message) -> Sends the toast to everyone in the server\n```\n\nYou can also edit the toast prefix! Take a look into the plugin's config!\n\n<img src=\"https://cdn.discordapp.com/attachments/1090771905805561907/1109537427174985910/image.png\">\n\nRemember that if you want to use colors in your toasts, you can use &! 😉\n\n## Permissions\n\nThe only permission this plugin has is:\n```yaml\n- globaltoast.use -> Allows you to use the main command\n```\n\n## Plugin Review\n\nI made a video review of the plugin for the ones that still dont understand how to use GlobalToast!. I hope it will be useful for you all! :wink:\n\nhttps://www.youtube.com/watch?v=7kSuConazTI&t=5s\n\n<img src=\"https://cdn.discordapp.com/attachments/1090771905805561907/1109534469410525294/9.png\">",
+  "readme_source_url": "https://github.com/SVega9848/GlobalToast",
+  "icon_url": "https://raw.githubusercontent.com/SVega9848/GlobalToast/d1d475882d637caf999e6d0ee7c58613b8a5bf04/logo.png",
+  "featured": false,
+  "repo": "https://github.com/SVega9848/GlobalToast",
+  "archive_repo": null,
+  "approved_release_tag": "r-10547",
+  "stars": 0,
+  "total_downloads": 262,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SVega9848"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.1.0",
+      "tag": "r-10547",
+      "published_at": null,
+      "downloads": 262,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10547/globaltoast-0.1.0-r10547.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10547",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10547/globaltoast-0.1.0-r10547.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GlobalToast",
+    "stable_release_id": 10547
+  }
+}
