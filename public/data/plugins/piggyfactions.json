@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11971",
   "stars": 0,
-  "total_downloads": 3225,
+  "total_downloads": 3630,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-11971",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11971/piggyfactions-2.1.0-r11971.phar"
+    },
+    {
+      "tag": "r-11345",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11345/piggyfactions-2.0.4-r11345.phar"
     }
   ],
   "comments": {

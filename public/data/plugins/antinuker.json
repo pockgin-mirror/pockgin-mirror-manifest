@@ -1,0 +1,61 @@
+{
+  "id": "antinuker",
+  "name": "AntiNuker",
+  "author": "MuhammedHk18",
+  "description": "Anti nuker for Pocketmine 4",
+  "readme_markdown": "# AntiNuker\n[![](https://poggit.pmmp.io/shield.state/AntiNuker)](https://poggit.pmmp.io/p/AntiNuker)\n<a href=\"https://poggit.pmmp.io/p/AntiNuker\"><img src=\"https://poggit.pmmp.io/shield.state/AntiNuker\"></a>\n\nAnti nuker for Pocketmine 4\nYou can simply use the functions of this plugin in your own plugins, or you can use this plugin by editing messages.",
+  "readme_source_url": "https://github.com/MuhammedHk18/AntiNuker",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/MuhammedHk18/AntiNuker",
+  "archive_repo": null,
+  "approved_release_tag": "r-11194",
+  "stars": 5,
+  "total_downloads": 394,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MuhammedHk18"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1",
+      "tag": "r-11194",
+      "published_at": null,
+      "downloads": 394,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11194/antinuker-1.1-r11194.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11194",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11194/antinuker-1.1-r11194.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiNuker",
+    "stable_release_id": 11194
+  }
+}

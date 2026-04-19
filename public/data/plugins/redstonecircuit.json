@@ -1,0 +1,61 @@
+{
+  "id": "redstonecircuit",
+  "name": "RedstoneCircuit",
+  "author": "tedo0627",
+  "description": "This is the PocketMine plugin that implements the Redstone circuit.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/RedstoneCircuit)](https://poggit.pmmp.io/p/RedstoneCircuit)\n[![](https://poggit.pmmp.io/shield.dl.total/RedstoneCircuit)](https://poggit.pmmp.io/p/RedstoneCircuit)\n[![](https://img.shields.io/github/downloads/tedo0627/RedstoneCircuit/total)]()\n<h1>RedstoneCircuit<img width=100 align=\"left\" src=\"https://github.com/tedo0627/RedstoneCircuit/blob/master/icon.png?raw=true\"></h1>\n\nThis is the PocketMine plugin that implements the Redstone circuit.\n\n## Implemented Blocks\n<details>\n  <summary>\n    transmission\n  </summary>\n  <ul>\n    <li>Redstone Comparator\n    <li>Redstone Repeater\n    <li>Redstone Wire\n  </ul>\n</details>\n<details>\n  <summary>\n    power\n  </summary>\n  <ul>\n    <li>Buttons\n    <li>Daylight Sensor\n    <li>Juke Box\n    <li>Lever\n    <li>Observer\n    <li>Redstone Block\n    <li>Redstone Torch\n    <li>Pressure Plates\n    <li>Target\n    <li>Trapped Chest\n    <li>Tripwire\n    <li>Tripwire Hook\n  </ul>\n</details>\n<details>\n  <summary>\n    mechanism\n  </summary>\n  <ul>\n    <li>Activator Rail\n    <li>Command Block\n    <li>Dispenser\n    <li>Doors\n    <li>Dragon Skull\n    <li>Dropper\n    <li>Fence Gates\n    <li>Hopper\n    <li>Moving Block\n    <li>Note Block\n    <li>Piston\n    <li>Piston Arm\n    <li>Powered Rail\n    <li>Redstone Lamp\n    <li>Sticky Piston\n    <li>Sticky Piston Arm\n    <li>TNT\n    <li>Trapdoors\n  </ul>\n</details>\n\n## Custom Events\nWhen using custom events, they must be enabled in the configuration.\n|name|description|\n|:-------|:-----|\n|BlockDispenseEvent|Called when the item is dispense|\n|BlockPistonExtendEvent|Called when the piston is extended|\n|BlockPistonRetractEvent|Called when the piston retracted|\n|BlockRedstonePowerUpdateEvent|Called when the redstone signal is turned on or off|\n|BlockRedstoneSignalUpdateEvent|Called when the redstone power changes|\n|HopperMoveItemEvent|Called when the hopper moves an item|\n|HopperPickupItemEvent|Called when the hopper picks up an item|\n\n## License\n\"Redstone Circuit\" is under [GPL-3.0 License](https://github.com/tedo0627/RedstoneCircuit/blob/master/LICENSE)\n\n## Special Thanks\nWrite Icon [@num4nua](https://twitter.com/num4nua)",
+  "readme_source_url": "https://github.com/tedo0627/RedstoneCircuit",
+  "icon_url": "https://raw.githubusercontent.com/tedo0627/RedstoneCircuit/9c686b2e8a51f36d59bc29bff598092c1c161796/icon.png",
+  "featured": false,
+  "repo": "https://github.com/tedo0627/RedstoneCircuit",
+  "archive_repo": null,
+  "approved_release_tag": "r-11082",
+  "stars": 4,
+  "total_downloads": 1401,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.4.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "tedo0627"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/202318",
+  "versions": {
+    "stable": {
+      "version": "3.0.7",
+      "tag": "r-11082",
+      "published_at": null,
+      "downloads": 1401,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11082/redstonecircuit-3.0.7-r11082.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11082",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11082/redstonecircuit-3.0.7-r11082.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RedstoneCircuit",
+    "stable_release_id": 11082
+  }
+}

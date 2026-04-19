@@ -1,0 +1,61 @@
+{
+  "id": "bardai",
+  "name": "BardAI",
+  "author": "Taylor-pm-pl",
+  "description": "Bard-AI",
+  "readme_markdown": "<h1>Bard-AI<img src=\"asset/img/icon.png\" height=\"64\" align=\"left\"></img></h1><br/>\n\n[![Discord](https://img.shields.io/discord/1100650029573738508.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/yAhsgskaGy)\n\n**NOTICE:** This plugin branch is for PocketMine-MP 4. <br/>\n✨ **Bard-AI is a Google Bard AI integrated chatbot plugin like ChatGPT**\n</div>\n\n# Features\n- Ask a question to Google Bard\n- Customizable messages\n- Customizable forms\n- FormUI support\n\n# Commands & Permissions\n\n| Command   | Description | Permission |\n|-----------| ----------- | ---------- |\n| `/bardai` | Ask a question to Google Bard | `bardai.command` |\n\n# Authentication\n1. Visit https://bard.google.com/\n2. F12 for console\n3. Session: `Application → Cookies → Copy the value of __Secure-1PSID cookie.`\n\n# Config\n\n```yaml\ntoken: ''\n\nmessages:\n  not-ready: '&cThe AI is not ready yet, please check token in config.yml'\n  player-only: '&cThis command can only be used by players.'\n  no-permission: '&cYou do not have permission to use this command.'\n  empty-question: '&cYou must ask a question.'\n  processing: '&aAsking Bard...'\n\nask-form:\n  title: 'Bard AI'\n  label: 'Ask Bard a question!'\n  input:\n    text: 'Question'\n    placeholder: 'Ask a question...'\n\nresult-form:\n  title: 'Bard AI'\n  content: '{content}'\n  button: '&cClose'\n```\n\n# Additional Notes\n\n- If you found bugs or want to give suggestions, please visit <a href=\"https://github.com/Taylor-pm-pl/Bard-AI/issues\">here</a> or join our Discord server.\n- We accept all contributions! If you want to contribute, please make a pull request in <a href=\"https://github.com/Taylor-pm-pl/Bard-AI/pulls\">here</a>.",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/Bard-AI",
+  "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/Bard-AI/955aa06db75e1280cac8cb278cf82e4609ba16d5/asset/img/logo.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/Bard-AI",
+  "archive_repo": null,
+  "approved_release_tag": "r-11309",
+  "stars": 0,
+  "total_downloads": 681,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11309",
+      "published_at": null,
+      "downloads": 681,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11309/bardai-1.0.0-r11309.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11309",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11309/bardai-1.0.0-r11309.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BardAI",
+    "stable_release_id": 11309
+  }
+}

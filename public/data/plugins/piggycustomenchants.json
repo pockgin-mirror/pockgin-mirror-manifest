@@ -1,0 +1,66 @@
+{
+  "id": "piggycustomenchants",
+  "name": "PiggyCustomEnchants",
+  "author": "DaPigGuy",
+  "description": "PiggyCustomEnchants is an open-sourced custom enchants plugin for PocketMine-MP featuring over 90 custom enchantments.",
+  "readme_markdown": "# PiggyCustomEnchants [![Poggit-CI](https://poggit.pmmp.io/shield.dl/PiggyCustomEnchants)](https://poggit.pmmp.io/p/PiggyCustomEnchants) [![Discord](https://img.shields.io/discord/330850307607363585?logo=discord)](https://discord.gg/qmnDsSD)\n\nPiggyCustomEnchants is an open-sourced custom enchants plugin for [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) featuring over 90 custom enchantments.\n\n<!-- If one question constantly persists, add the Q/A in here. -->\n## FAQ\n**Q:** How do I create/use an enchanted book? </br>\n**A:** If you want to create an enchanted book, use the /ce enchant command on a normal book. Afterwards, you place the item you want to enchant on top of the enchanted book. It will then enchant your item.\n\n## Prerequisites\n* Basic knowledge on how to install plugins from Poggit Releases and/or Poggit CI\n* PMMP 4.21.0+\n\n## Installation & Setup\n1. Install the plugin from Poggit.\n2. (Optional) Configure your PiggyCE\n   * Enchantment rarities, max levels, names, descriptions, & chances can be configured in their respective JSON files.\n        * `chances.json`: Allows custom chance multipliers for any reactive enchantments.\n            * Reaction chances are calculated by `chance multiplier * enchantment level`.\n            * The chance multiplier by default is 100 for most enchantments.\n   * Extra enchantment settings can be found under `extra_data.json`\n   * The `config.yml` has many options. Some that you should pay attention to are:\n     * `disabled-enchants`: Allows certain enchants to be disabled\n     \n         ```yaml\n            disabled-enchants:\n              - Porkified\n         ```\n     * `per-world-disabled-enchants`: Allows certain enchants to be disabled in specific worlds\n     \n         ```yaml\n            per-world-disabled-enchants:\n              # Disables Porkified & Volley in PlotWorld\n              PlotWorld:\n                - Porkified\n                - Volley\n              # Disables Jetpack in SurvivalWorld\n              SurvivalWorld:\n                - Jetpack\n         ```\n     * `world-damage`: Toggles world damage for explosive enchantments\n3. (Optional) Install additional plugins supporting PiggyCE:\n   * [PiggyCrates](https://poggit.pmmp.io/p/PiggyCrates) (Official)\n   * [PiggyCustomEnchantsShop](https://poggit.pmmp.io/p/PiggyCustomEnchantsShop) (Official)\n   * [PCEAllyChecks](https://poggit.pmmp.io/p/PCEAllyChecks) (Official)\n   * [PCEBookShop](https://poggit.pmmp.io/p/PCEBookShop) (Official)\n   * Kits\n      * [EasyKits](https://poggit.pmmp.io/p/EasyKits)\n      * [AdvancedKits](https://poggit.pmmp.io/p/AdvancedKits) \n      * [KitUI](https://poggit.pmmp.io/p/KitUI)\n      * [KitsPlus](https://poggit.pmmp.io/p/KitsPlus)\n   * [EnchantUI](https://poggit.pmmp.io/p/EnchantUI)\n5. You're done! Start your server.\n\n## Commands\n| Command                  | Description                                     | Permissions                              | Aliases       |\n|--------------------------|-------------------------------------------------|------------------------------------------|---------------|\n| `/customenchant`         | Main command for PiggyCustomEnchants            | `piggycustomenchants.command.ce`         | `/ce`         |\n| `/customenchant about`   | Shows version and author information            | `piggycustomenchants.command.ce.about`   | `/ce about`   |\n| `/customenchant enchant` | Command to enchant an item with custom enchants | `piggycustomenchants.command.ce.enchant` | `/ce enchant` |\n| `/customenchant help`    | Lists all PiggyCustomEnchant commands           | `piggycustomenchants.command.ce.help`    | `/ce help`    |\n| `/customenchant info`    | Gives information on a custom enchant           | `piggycustomenchants.command.ce.info`    | `/ce info`    |\n| `/customenchant list`    | Lists all PiggyCustomEnchants enchants          | `piggycustomenchants.command.ce.list`    | `/ce list`    |\n| `/customenchant nbt`     | Outputs the NBT of the held item                | `piggycustomenchants.command.ce.nbt`     | `/ce nbt`     |\n| `/customenchant remove`  | Removes a custom enchant from the held item     | `piggycustomenchants.command.ce.remove`  | `/ce remove`  |\n\n## Permissions\n| Permissions                              | Description                                                         | Default |\n|------------------------------------------|---------------------------------------------------------------------|---------|\n| `piggycustomenchants`                    | Allows usage of all PiggyCustomEnchants features                    | `op`    |\n| `piggycustomenchants.command`            | Allow usage of all PiggyCustomEnchants commands                     | `op`    |\n| `piggycustomenchants.command.ce`         | Allow usage of the /customenchant command                           | `op`    |\n| `piggycustomenchants.command.ce.about`   | Allow usage of the /customenchant about subcommand                  | `true`  |\n| `piggycustomenchants.command.ce.enchant` | Allow usage of the /customenchant enchant subcommand                | `op`    |\n| `piggycustomenchants.command.ce.help`    | Allow usage of the /customenchant help subcommand                   | `true`  |\n| `piggycustomenchants.command.ce.info`    | Allow usage of the /customenchant info subcommand                   | `true`  |\n| `piggycustomenchants.command.ce.list`    | Allow usage of the /customenchant list subcommand                   | `true`  |\n| `piggycustomenchants.command.ce.nbt`     | Allow usage of the /customenchant nbt subcommand                    | `true`  |\n| `piggycustomenchants.command.ce.remove`  | Allow usage of the /customenchant remove subcommand                 | `op`    |\n| `piggycustomenchants.overridecheck`      | Allow overriding of custom enchant level limit and item restriction | `false` |\n\n## Issue Reporting\n* If you experience an unexpected non-crash behavior with PiggyCustomEnchants, click [here](https://github.com/DaPigGuy/PiggyCustomEnchants/issues/new?assignees=DaPigGuy&labels=bug&template=bug_report.md&title=).\n* If you experience a crash in PiggyCustomEnchants, click [here](https://github.com/DaPigGuy/PiggyCustomEnchants/issues/new?assignees=DaPigGuy&labels=bug&template=crash.md&title=).\n* If you would like to suggest a feature to be added to PiggyCustomEnchants, click [here](https://github.com/DaPigGuy/PiggyCustomEnchants/issues/new?assignees=DaPigGuy&labels=suggestion&template=suggestion.md&title=).\n* If you require support, please join our discord server [here](https://discord.gg/qmnDsSD).\n* Do not file any issues related to outdated API version; we will resolve such issues as soon as possible.\n* We do not support any spoons of PocketMine-MP. Anything to do with spoons (Issues or PRs) will be ignored.\n  * This includes plugins that modify PocketMine-MP's behavior directly, such as TeaSpoon.\n\n## Additional Information\n* Detailed Plugin Setup, Custom Enchantment List, & API Documentation available at [PiggyDocs](https://piggydocs.aericio.net/PiggyCustomEnchants.html).\n\n## License\n```\n   Copyright 2017 DaPigGuy\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n\n```",
+  "readme_source_url": "https://github.com/DaPigGuy/PiggyCustomEnchants",
+  "icon_url": "https://raw.githubusercontent.com/DaPigGuy/PiggyCustomEnchants/85111abcb0c5f908ee7ae2e7e58aeb3ee95c1516/resources/PCE_Icon.png",
+  "featured": false,
+  "repo": "https://github.com/DaPigGuy/PiggyCustomEnchants",
+  "archive_repo": null,
+  "approved_release_tag": "r-11347",
+  "stars": 5,
+  "total_downloads": 3162,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.21.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaPigGuy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208340",
+  "versions": {
+    "stable": {
+      "version": "3.0.12",
+      "tag": "r-11347",
+      "published_at": null,
+      "downloads": 2149,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11347/piggycustomenchants-3.0.12-r11347.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11347",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11347/piggycustomenchants-3.0.12-r11347.phar"
+    },
+    {
+      "tag": "r-11083",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11083/piggycustomenchants-3.0.11-r11083.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PiggyCustomEnchants",
+    "stable_release_id": 11347
+  }
+}

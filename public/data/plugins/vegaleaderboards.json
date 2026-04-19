@@ -1,0 +1,61 @@
+{
+  "id": "vegaleaderboards",
+  "name": "VegaLeaderboards",
+  "author": "SVega9848",
+  "description": "VegaLederboards is a plugin that allows you to make floating texts with different types of leaderbords (kills and deaths). It's also 100% personalizable! You can edit everything...",
+  "readme_markdown": "# VegaLeaderboards\n\nVegaLederboards is a plugin that allows you to make floating texts with different types of leaderbords (kills and deaths). It's also 100% personalizable! You can edit everything! From the first line, to the last line of the floating texts, being able to change the colors with few commands in-game!\n\nWhen a player dies or a player kills other person, the floating texts update :smiley:\n\nThis is how it looks like in the way i edited it! You can use your imagination to make the best leaderbaords style!\n\n<img src=\"https://media.discordapp.net/attachments/1087103035366449222/1087409674120335530/image0.png?width=1106&height=497\">\n\n## Commands & Setup\n\nThis is the command list:\n```yaml\n  - leaderboards spawn [kills/deaths]\n  - leaderboards remove [kills/deaths]\n  - leaderboards edit [kills/deaths]\n  - leaderboards help\n```\n\nAfter using the edit command, you join into an edit system through the chat where you can modify the floating texts. These are the commands to edit them:\n```yaml\n  - firstline [text]\n  - top1 [text]\n  - top2 [text]\n  - top3 [text]\n  - topbelow3 [text]\n  - finalline [text]\n  - limit [number]\n  - help\n```\nIf you want to use colors use &. There are also certain codes to use in the edit mode like {PLAYER}, {KILLS}, {DEATHS} and {POSITION} (this one only for topbelow3)\n\n## Permissions\n\nThe only permission this plugin has is:\n```yaml\n  - vegaleaderboards.cmd -> Allows you to use the command\n```\n\n## Plugin Review\n\nI made a video review of the plugins for the ones that still dont understand how to use VegaLeaderboards. I hope it will be useful for you all! :wink:\n\nhttps://www.youtube.com/watch?v=_TJcHnWrySw&t=4s\n\n<img src= \"https://i.ytimg.com/vi/_TJcHnWrySw/maxresdefault.jpg\">",
+  "readme_source_url": "https://github.com/SVega9848/VegaLeaderboards",
+  "icon_url": "https://raw.githubusercontent.com/SVega9848/VegaLeaderboards/dbfa318afbd6f93ca0459414a93ca5d1d7242f9b/logo.png",
+  "featured": false,
+  "repo": "https://github.com/SVega9848/VegaLeaderboards",
+  "archive_repo": null,
+  "approved_release_tag": "r-11095",
+  "stars": 4,
+  "total_downloads": 674,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SVega9848"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11095",
+      "published_at": null,
+      "downloads": 674,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11095/vegaleaderboards-1.0.0-r11095.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11095",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11095/vegaleaderboards-1.0.0-r11095.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VegaLeaderboards",
+    "stable_release_id": 11095
+  }
+}

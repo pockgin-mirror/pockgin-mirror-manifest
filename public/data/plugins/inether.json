@@ -1,0 +1,61 @@
+{
+  "id": "inether",
+  "name": "INether",
+  "author": "ipad54",
+  "description": "This plugin implements the functionality of items & blocks that were added in 1.16",
+  "readme_markdown": "# INether [![](https://poggit.pmmp.io/shield.state/INether)](https://poggit.pmmp.io/p/INether) [![](https://poggit.pmmp.io/shield.dl.total/INether)](https://poggit.pmmp.io/p/INether)\n\n<p align=\"center\">\n\t<a href=\"https://vk.com/m.play2018\"><img src=\"https://github.com/ipad54/INether/blob/6cfb5ea0f4fdac553b6aaa6df4bce804ad0f7ae0/icon.png\"></img></a><br>\n\t<b>This plugin implements the functionality of items & blocks that were added in 1.16</b>\n</p>\n\n### Implemented blocks\n- [X] Ancient Debris\n- [X] All types of Basalt\n- [X] Crimson & Warped Fungus\n- [X] Soul Soil & Soul Fire\n- [X] Crimson & Warped Nylium\n- [X] Block of Netherite\n- [X] Shroom Light\n- [X] Soul lantern & Soul Torch\n- [X] Warped Netherwart\n- [X] Crying Obsidian\n- [X] Target\n- [X] Nether Gold Ore\n- [X] Respawn Anchor\n- [X] All types of Blackstone\n- [X] All types of Nether Wood\n- [X] Nether Doors & Fence gate\n- [X] Chain\n- [X] Roots\n- [X] Weeping & Twisting Vines\n- [X] All types of nether stairs\n- [X] Record pigstep\n- [X] Netherite ingot & scrap\n- [X] Netherite Armor & Tools\n- [ ] Lodestone\n- [X] Campfire",
+  "readme_source_url": "https://github.com/ipad54/INether",
+  "icon_url": "https://raw.githubusercontent.com/ipad54/INether/c3f4d21ab51f1835c615c2b8f8db5cee2e1b6604/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ipad54/INether",
+  "archive_repo": null,
+  "approved_release_tag": "r-11069",
+  "stars": 4,
+  "total_downloads": 999,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.16.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ipad54"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/202073",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-11069",
+      "published_at": null,
+      "downloads": 999,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11069/inether-1.1.0-r11069.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11069",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11069/inether-1.1.0-r11069.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "INether",
+    "stable_release_id": 11069
+  }
+}

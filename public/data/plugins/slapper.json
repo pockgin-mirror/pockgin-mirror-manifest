@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11843",
   "stars": 3,
-  "total_downloads": 5515,
+  "total_downloads": 7915,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -38,7 +38,7 @@
       "version": "3.0.0",
       "tag": "r-11843",
       "published_at": null,
-      "downloads": 5515,
+      "downloads": 5516,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11843/slapper-3.0.0-r11843.phar"
     },
     "dev": null
@@ -48,6 +48,16 @@
       "tag": "r-11843",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11843/slapper-3.0.0-r11843.phar"
+    },
+    {
+      "tag": "r-11146",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11146/slapper-2.1.7-r11146.phar"
+    },
+    {
+      "tag": "r-11075",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11075/slapper-2.1.6-r11075.phar"
     }
   ],
   "comments": {

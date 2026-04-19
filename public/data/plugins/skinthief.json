@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11644",
   "stars": 0,
-  "total_downloads": 475,
+  "total_downloads": 563,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11644",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11644/skinthief-2.0.1-r11644.phar"
+    },
+    {
+      "tag": "r-11153",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11153/skinthief-2.0.0-r11153.phar"
     }
   ],
   "comments": {

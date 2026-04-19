@@ -1,0 +1,61 @@
+{
+  "id": "craftmanager",
+  "name": "CraftManager",
+  "author": "roimee6",
+  "description": "Allows you to create or delete crafts ! Works with the new pocketmine crafting system (&gt;= 4.18)",
+  "readme_markdown": "<h3><a id=\"user-content-craftmanager\" class=\"anchor\" aria-hidden=\"true\" href=\"#craftmanager\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>CraftManager</h3>\n<p>Allows you to create or delete crafts ! Works with the new pocketmine crafting system (&gt;= 4.18)</p>\n<h3><a id=\"user-content-config\" class=\"anchor\" aria-hidden=\"true\" href=\"#config\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Config</h3>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Plugin Shop</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span></span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> https://discord.gg/pocketmine</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> https://maxoooz.mysellix.io/</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> All items you want to remove from the workbench</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> You can set the meta \"-1\" or not set it all to include all items</span>\n<span class=\"pl-ent\">delete</span>:\n  - <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>id:meta<span class=\"pl-pds\">\"</span></span>\n  - <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>id<span class=\"pl-pds\">\"</span></span>\n\n<span class=\"pl-ent\">new</span>:\n  -\n    <span class=\"pl-c\"><span class=\"pl-c\">#</span> Organization on the 9 slots in the workbench</span>\n    <span class=\"pl-ent\">shape</span>:\n      - <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>A<span class=\"pl-pds\">\"</span></span>\n      - <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>A<span class=\"pl-pds\">\"</span></span>\n      - <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>B<span class=\"pl-pds\">\"</span></span>\n\n    <span class=\"pl-c\"><span class=\"pl-c\">#</span> All items that relate to the letters you entered just above ^</span>\n    <span class=\"pl-ent\">input</span>:\n      <span class=\"pl-ent\">A</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>133:0<span class=\"pl-pds\">\"</span></span>\n      <span class=\"pl-ent\">B</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>280:0<span class=\"pl-pds\">\"</span></span>\n\n    <span class=\"pl-c\"><span class=\"pl-c\">#</span> Item that will be given when the player makes the craft</span>\n    <span class=\"pl-ent\">output</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>283:0:1<span class=\"pl-pds\">\"</span></span>\n\n    <span class=\"pl-c\"><span class=\"pl-c\">#</span> Are the crafts for the basic item removed?</span>\n    <span class=\"pl-ent\">remove-old-crafts</span>: <span class=\"pl-c1\">true</span></pre></div>\n<h3><a id=\"user-content-features\" class=\"anchor\" aria-hidden=\"true\" href=\"#features\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Features</h3>\n<table>\n<thead>\n<tr>\n<th>Feature</th>\n<th>CraftManager</th>\n<th>CreateDelCraft</th>\n<th>CraftingPlus</th>\n<th>CustomCraftDraz</th>\n<th>SimpleCustomCraft</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>Create Craft</code></td>\n<td><g-emoji class=\"g-emoji\" alias=\"heavy_check_mark\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2714.png\">✔</g-emoji></td>\n<td><g-emoji class=\"g-emoji\" alias=\"heavy_check_mark\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2714.png\">✔</g-emoji></td>\n<td><g-emoji class=\"g-emoji\" alias=\"heavy_check_mark\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2714.png\">✔</g-emoji></td>\n<td><g-emoji class=\"g-emoji\" alias=\"heavy_check_mark\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2714.png\">✔</g-emoji></td>\n<td><g-emoji class=\"g-emoji\" alias=\"heavy_check_mark\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2714.png\">✔</g-emoji></td>\n</tr>\n<tr>\n<td><code>Replace craft</code></td>\n<td><g-emoji class=\"g-emoji\" alias=\"heavy_check_mark\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2714.png\">✔</g-emoji></td>\n<td><g-emoji class=\"g-emoji\" alias=\"x\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/274c.png\">❌</g-emoji></td>\n<td><g-emoji class=\"g-emoji\" alias=\"x\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/274c.png\">❌</g-emoji></td>\n<td><g-emoji class=\"g-emoji\" alias=\"x\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/274c.png\">❌</g-emoji></td>\n<td><g-emoji class=\"g-emoji\" alias=\"x\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/274c.png\">❌</g-emoji></td>\n</tr>\n<tr>\n<td><code>Delete craft</code></td>\n<td><g-emoji class=\"g-emoji\" alias=\"heavy_check_mark\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2714.png\">✔</g-emoji></td>\n<td><g-emoji class=\"g-emoji\" alias=\"x\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/274c.png\">❌</g-emoji> Not functional since PM 4.18</td>\n<td><g-emoji class=\"g-emoji\" alias=\"x\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/274c.png\">❌</g-emoji></td>\n<td><g-emoji class=\"g-emoji\" alias=\"x\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/274c.png\">❌</g-emoji></td>\n<td><g-emoji class=\"g-emoji\" alias=\"x\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/274c.png\">❌</g-emoji></td>\n</tr>\n</tbody>\n</table>",
+  "readme_source_url": "https://poggit.pmmp.io/r/203553",
+  "icon_url": "https://raw.githubusercontent.com/roimee6/CraftManager/4ee1bd0c1bb7c09fb8dfa6a2c5ba01cfb6ea3528/icon.png",
+  "featured": false,
+  "repo": "https://github.com/roimee6/CraftManager",
+  "archive_repo": null,
+  "approved_release_tag": "r-11134",
+  "stars": 5,
+  "total_downloads": 245,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "roimee6"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11134",
+      "published_at": null,
+      "downloads": 245,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11134/craftmanager-1.0.0-r11134.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11134",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11134/craftmanager-1.0.0-r11134.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CraftManager",
+    "stable_release_id": 11134
+  }
+}

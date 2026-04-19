@@ -1,0 +1,65 @@
+{
+  "id": "mineflowmoreactions",
+  "name": "MineflowMoreActions",
+  "author": "aieuo",
+  "description": "MineflowMoreActionsExtension",
+  "readme_markdown": "# MineflowMoreActionsExtension\r\n\r\nAdd more actions and conditions to mineflow v3.",
+  "readme_source_url": "https://github.com/aieuo/MineflowMoreActions",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/aieuo/MineflowMoreActions",
+  "archive_repo": null,
+  "approved_release_tag": "r-11323",
+  "stars": 0,
+  "total_downloads": 28,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [
+      "Mineflow"
+    ],
+    "optional": [
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "aieuo"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11323",
+      "published_at": null,
+      "downloads": 28,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11323/mineflowmoreactions-1.0.0-r11323.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11323",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11323/mineflowmoreactions-1.0.0-r11323.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MineflowMoreActions",
+    "stable_release_id": 11323
+  }
+}

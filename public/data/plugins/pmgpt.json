@@ -1,0 +1,71 @@
+{
+  "id": "pmgpt",
+  "name": "PmGPT",
+  "author": "galaxytwenty",
+  "description": "Have a conversation with the",
+  "readme_markdown": "![Readme](https://user-images.githubusercontent.com/79281788/230729315-414e95a9-9d1e-4df9-adbc-40a72cf16a20.png)<br>\n[![](https://poggit.pmmp.io/shield.api/PmGPT)](https://poggit.pmmp.io/p/PmGPT)\n[![](https://poggit.pmmp.io/shield.state/PmGPT)](https://poggit.pmmp.io/p/PmGPT)\n[![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)](\nhttps://github.com/galaxytwenty/PmGPT/blob/main/LICENSE)<br>\nHave a conversation with the ```ChatGPT gpt-3.5-turbo model```<br>\nPlugin for Pocketmine-MP API4+<br>\n\nWorks only with API-KEY<br>\nhttps://platform.openai.com/account/api-keys<br>\n\nThe use of OpenAi ChatgGTP is limited in the free trial.<br>\nYou get a $5 grant per registration, after which you have to top up your credit or create a new account.<br>\nThe $5 grant are only valid for one month.<br>\nPrices are per 1,000 tokens. You can think of tokens as pieces of words, where 1,000 tokens is about 750 words.<br>\n$0.002 / 1K tokens.<br>\n\n### Data storage and use 🗂\nSo that each user can have his own conversation. This plugin saves the chat history with ChatGPT in a .json file<br>\nThis file is saved in plugin_data\\PmGPT\\temp\\playername_chat.json after the first question.<br>\nThe user can delete this file himself for private reasons.<br>\n<br>\nPmGPT use libFormAPI to create the UI<br>\n\n### How to Start ? ▶\nJust put your ```API-KEY``` in the ```config.yml``` and start the server.<br>\nOnly users with ```pmgpt.use``` permission can run the command ```/chatgpt```<br>\nDepending on how busy ChatGPT is, an answer can take between 2 and 30+ seconds<br>\n<br>\nif ```usePluginCertFile``` is ```true``` in the config, the plugin uses the ```cacert.pem``` from https://curl.haxx.se/ca/cacert.pem<br>\nif not you have to make sure you can establish a secure SSL connection from your system<br>\nYou can also set the ```useInsecureConnection``` to ```true``` to disable SSL verification.<br>\n\n### few-shot learning ⚙️\nAfter you have started the server for the first time, you will find a file called ```initialPrompt.yml``` in the plugin_data/PmGPT folder.<br>\nIn this file you can teach the model basic things such as server commands, server name, etc.<br>\nIn addition, certain dynamic data from the server, such as the player name or the number of online players, can be taught to the model.<br>\nThe initialPrompt default only serves as an example. users should customise it according to their needs by editing the file.<br>\n\n### Example initialPrompt ❓\nYou are an AI named HelperMK3000, a large language trained by OpenAI.\nYou are a helper AI designed to help answer player questions regarding this server.\nYou are currently chatting to a player on a Minecraft server via a commands.\nOnly the player you are responding to can see your messages.\nYou do not have any administrative permissions, and you cannot run commands for the player.\n\nConsider the following in your responses:\n- Be conversational, friendly and helpful.\n- Keep responses in short and brief format.\n- Do not use use bullet point list unless requested to, remember your responses should be short and brief.\n- Help the user on gameplay questions with the information available to you.\n- Inform users of your limitation, and suggest them to consult '/guide' or '/help'.\n- When you are unsure, you can always recommend the player to consult the others in the chat or with with staff via '/ticket' instead.\n\nHere is the information available to you:\n- This server name is ExampleCraft, a play to win hardcore factions server with no paid ranks, crates, kits or any pay to win element.\n- You can purchase chat tags, player cosmetics, and faction cosmetics at 'shop.examplecraft.com', there are no staff ranks or pay to win items. More information: '/guide shop'.\n- You can earn ranks and voter coin by voting at 'vote.examplecraft.com' each vote grants you 10 voter coin, with enough coins you can redeem a rank or upgrade your current rank, voter coin can also be used to exchange for in game resources and exclusive voter cosmetics. More information: '/guide vote'.\n- You can join our discord community on 'discord.examplecraft.com'. We hold weekly giveaways of cosmetics, ranks and in game resources. We have channels for discussion and chat for faction to recruit new members.\n- There is a '/guide' command which includes useful information about how to play. You should recommend player to consult '/guide' if you are unable to help. Player can search the guide using '/guide search <keyword>'.\n- There is a '/guide getstarted' command for new players.\n- The faction menu command is '/f' or '/factions'. More information: '/guide faction'\n- Player can use '/report' to submit a report about any disruptive rule breakers, this will bring up a form asking for what kind of rule breaking is taking place, and also automatically record anything important, like chatlog and player's inventory for auditing, any online staff will be notified of the report.\n- If the player need help from a staff member, they can request help from staff using '/ticket create' to bring up the ticket creation form, this will notify any online staff.\n- Abuse of commands that notify staff is strictly forbidden, doing so may result in temporary bans, or even permanent ones. \n- The '/help' command will list all available commands '/help <command name>' will give information of the mentioned command, if it exist.\n- If there's an issue on running commands, they may be intentionally disabled for gameplay reasons, consider checking '/help' for valid commands.\n\nInformation about your environment:\n- The player you are talking to: {player_name}\n- Other players currently online: {players_names_online}\n\n### Dynamic Tags 📚\nThere are several dynamicTags that can be added to the ```initialPromt.yml``` the following is a list of all available dynamicTags<br>\n```{player_name}``` The name of the player<br>\n```{online_players}``` A number of online players<br>\n```{max_online_players}``` A number from max allowed online players<br>\n```{players_names_online}``` A List of names from online players<br>\n```{item_in_hand}``` A name from the item in Players hand<br>\n```{player_level}``` A number from Xp-level from player<br>\n```{player_world}``` Name of the world the player is in<br>\n\n### Features\n- ✅ Add gpt-3.5-turbo model instead of text-davinci-002\n- ✅ Add remembering previous questions\n- ✅ Run response action on async task to prevent freeze on waiting for response\n- ✅ few-shot learning by giving an initalPrompt\n- ✅ Send a please wait message if the response takes a little longer\n- ✅ Work with UI instead of Chat \n- ✅ Delete the conversation\n- ✅ Add SSL certificate by using https://curl.haxx.se/ca/cacert.pem\n- ✅ Enable/Disable UseInsecureConnection in config\n- ✅ Enable/Disable usePluginCertFile in config\n\n### ToDos\n- [ ] Inform user when ChatGPT is at capacity\n- [ ] Adding support for \"set model\" to set the \"using model\" in the config\n- [ ] Add language file system to support more languages\n- [ ] a switch between chat or window mode would be good\n- [ ] Add more dynamic tags, suggestions ?\n\n### Answer preview 🤖💬\n***Question: Whats your name ?***<br>\n![whatsyourname](https://user-images.githubusercontent.com/79281788/233417540-7e1dfed0-5fae-48cd-96bf-b17cb552537b.png)<br>\n***Question: Tell me information that concerns me***<br>\n![info1](https://user-images.githubusercontent.com/79281788/233418476-31a3decc-62b1-4fdc-a2a1-f417a9c755f6.png)\n<br>\n***Question: Do you have any advice for a good redstone machine ?***<br>\n![no redstone](https://user-images.githubusercontent.com/79281788/233418288-1ff3f4c6-c290-4a0b-bba8-6c6427cfd1b9.png)\n<br>\n***Question: Can i earn money here ?***<br>\n![earn money](https://user-images.githubusercontent.com/79281788/233418107-37cff721-4322-4e88-9211-6c1c7d74008f.png)\n<br>\n***Question: Can i find more items like this in my hand ?***<br>\n![more items like this](https://user-images.githubusercontent.com/79281788/233417847-932bb5b7-85f7-4d93-ade7-b7baed588276.png)\n<br>\n***Question: do you have a suggestion for good faction names ?, list me a few***<br>\n![descriptionUI](https://user-images.githubusercontent.com/79281788/231010759-e0425c13-3ddf-4c12-852e-c556e5a8bd20.png)<br>\n<br>",
+  "readme_source_url": "https://github.com/galaxytwenty/PmGPT",
+  "icon_url": "https://raw.githubusercontent.com/galaxytwenty/PmGPT/4ed08a83da7ced394f67b7fa34546592a9e5d346/icon.png",
+  "featured": false,
+  "repo": "https://github.com/galaxytwenty/PmGPT",
+  "archive_repo": null,
+  "approved_release_tag": "r-11209",
+  "stars": 0,
+  "total_downloads": 216,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "galaxytwenty"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/205656",
+  "versions": {
+    "stable": {
+      "version": "0.8",
+      "tag": "r-11209",
+      "published_at": null,
+      "downloads": 139,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11209/pmgpt-0.8-r11209.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11209",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11209/pmgpt-0.8-r11209.phar"
+    },
+    {
+      "tag": "r-11172",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11172/pmgpt-0.5-r11172.phar"
+    },
+    {
+      "tag": "r-11167",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11167/pmgpt-0.1-r11167.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PmGPT",
+    "stable_release_id": 11209
+  }
+}

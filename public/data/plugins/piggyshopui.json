@@ -1,0 +1,64 @@
+{
+  "id": "piggyshopui",
+  "name": "PiggyShopUI",
+  "author": "DaPigGuy",
+  "description": "PiggyShopUI is an open-sourced plugin using libFormAPI to create form shops.",
+  "readme_markdown": "# PiggyShopUI [![Poggit-CI](https://poggit.pmmp.io/shield.dl/PiggyShopUI)](https://poggit.pmmp.io/p/PiggyShopUI) [![Discord](https://img.shields.io/discord/330850307607363585?logo=discord)](https://discord.gg/qmnDsSD)\n\nPiggyShopUI is an open-sourced plugin using [libFormAPI](https://github.com/jojoe77777/FormAPI) to create form shops.\n\n## Prerequisites\n\n* Basic knowledge on how to install plugins from Poggit Releases and/or Poggit CI\n* PMMP 4.21.0+\n\n## Supported Economy Providers\n\n* [EconomyAPI](https://poggit.pmmp.io/p/EconomyAPI) by onebone/poggit-orphanage\n* [BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy) by cooldogedev\n* Experience (PMMP)\n\n## Installation & Setup\n\n1. Install the plugin from Poggit.\n2. (Optional) Setup your economy provider. Change `economy.provider` to the name of the economy plugin being used,\n   or `xp` for PMMP Player EXP.\n3. Start your server.\n4. The command `/shop edit` opens up the shop editor menu. Run it.\n5. PiggyShopUI separates individual shop entries by categories. Create a category.\n6. PiggyShopUI allows you to add shop items from your inventory. Hold the items you plan on selling in your hand.\n7. Open the shop editor menu and select a category to edit. This will open up the shop category editor menu.\n8. Add an item to the category.\n9. Repeat w/ other items & categories.\n10. You're done! No restarts are necessary.\n\n## Commands\n\n| Command            | Description                           | Permissions                     | Aliases |\n|--------------------|---------------------------------------|---------------------------------|---------|\n| `/shop edit`       | Opens the shop editor menu            | `piggyshopui.command.shop.edit` | N/A     |\n| `/shop`            | Opens the shop                        | `piggyshopui.command.shop.use`  | N/A     |\n| `/shop [category]` | Opens a specific category in the shop | `piggyshopui.command.shop.use`  | N/A     |\n\n## Permissions\n\n| Permissions                       | Description                              | Default |\n|-----------------------------------|------------------------------------------|---------|\n| `piggyshopui`                     | Allows usage of all PiggyShopUI features | `false` |\n| `piggyshopui.category.{CATEGORY}` | Allows access to private categories      | `op`    |\n| `piggyshopui.command`             | Allow usage of all PiggyShopUI commands  | `op`    |\n| `piggyshopui.command.shop`        | Allow usage of the /shop commands        | `op`    |\n| `piggyshopui.command.shop.edit`   | Allow usage of the /shop edit subcommand | `op`    |\n| `piggyshopui.command.shop.use`    | Allow usage of the /shop command         | `true`  |\n\n## Issue Reporting\n\n* If you experience an unexpected non-crash behavior with PiggyShopUI,\n  click [here](https://github.com/DaPigGuy/PiggyShopUI/issues/new?assignees=DaPigGuy&labels=bug&template=bug_report.md&title=)\n  .\n* If you experience a crash in PiggyShopUI,\n  click [here](https://github.com/DaPigGuy/PiggyShopUI/issues/new?assignees=DaPigGuy&labels=bug&template=crash.md&title=)\n  .\n* If you would like to suggest a feature to be added to PiggyShopUI,\n  click [here](https://github.com/DaPigGuy/PiggyShopUI/issues/new?assignees=DaPigGuy&labels=suggestion&template=suggestion.md&title=)\n  .\n* If you require support, please join our discord server [here](https://discord.gg/qmnDsSD).\n* Do not file any issues related to outdated API version; we will resolve such issues as soon as possible.\n* We do not support any spoons of PocketMine-MP. Anything to do with spoons (Issues or PRs) will be ignored.\n    * This includes plugins that modify PocketMine-MP's behavior directly, such as TeaSpoon.\n\n## License\n\n```\n   Copyright 2018 DaPigGuy\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n\n```",
+  "readme_source_url": "https://github.com/DaPigGuy/PiggyShopUI",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/DaPigGuy/PiggyShopUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-11346",
+  "stars": 3,
+  "total_downloads": 893,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.21.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaPigGuy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/208334",
+  "versions": {
+    "stable": {
+      "version": "3.0.3",
+      "tag": "r-11346",
+      "published_at": null,
+      "downloads": 893,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11346/piggyshopui-3.0.3-r11346.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11346",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11346/piggyshopui-3.0.3-r11346.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PiggyShopUI",
+    "stable_release_id": 11346
+  }
+}

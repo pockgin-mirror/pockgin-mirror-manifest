@@ -1,0 +1,61 @@
+{
+  "id": "blockme",
+  "name": "BlockMe",
+  "author": "Taylor-pm-pl",
+  "description": "BlockMe** make it impossible for the player to pass through another player's body!",
+  "readme_markdown": "<h1>BlockMe<img src=\"assets/img/icon.png\" height=\"64\" width=\"64\" align=\"left\"></img></h1><br/>\n\n[![Lint](https://poggit.pmmp.io/ci.shield/Taylor-pm-pl/BlockMe/BlockMe)](https://poggit.pmmp.io/ci/Taylor-pm-pl/BlockMe/BlockMe)\n[![Discord](https://img.shields.io/discord/1100650029573738508?label=discord&color=7289DA&logo=discord)](https://discord.gg/ZxKmFZbS)\\\n**BlockMe** make it impossible for the player to pass through another player's body!\n\n# Contact\n**You can contact me directly via Discord `Taylor.R#0001`**",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/BlockMe",
+  "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/BlockMe/5af54c69e7d9ad0018a656b2f87971c1802c4ba7/assets/img/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/BlockMe",
+  "archive_repo": null,
+  "approved_release_tag": "r-11285",
+  "stars": 0,
+  "total_downloads": 116,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11285",
+      "published_at": null,
+      "downloads": 116,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11285/blockme-1.0.0-r11285.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11285",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11285/blockme-1.0.0-r11285.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockMe",
+    "stable_release_id": 11285
+  }
+}

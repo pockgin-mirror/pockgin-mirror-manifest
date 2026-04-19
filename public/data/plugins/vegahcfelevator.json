@@ -1,0 +1,61 @@
+{
+  "id": "vegahcfelevator",
+  "name": "VegaHCFElevator",
+  "author": "SVega9848",
+  "description": "VegaHCFElevator is a plugin that allows you to create elevators through signs just like in HCF!",
+  "readme_markdown": "# VegaHCFElevator\n\nVegaHCFElevator is a plugin that allows you to create elevators through signs just like in HCF!\n\nThis is how the elevator looks like! You can use all type of signs!\n\n<img src=\"https://cdn.discordapp.com/attachments/1090771905805561907/1101930708466937886/image0.jpg\">\n\nYou can also modify the sign appearance in the config.yml! :smiley:\n\n<img src=\"https://cdn.discordapp.com/attachments/1090771905805561907/1101933259996266506/Sin_titulo.png\">\n\n## Plugin Review\n\nI made a video review of the plugins for the ones that still dont understand how to use VegaHCFElevator. I hope it will be useful for you all! :wink:\n\nhttps://www.youtube.com/watch?v=kZ3k8KSOm3I\n\n<img src= \"https://cdn.discordapp.com/attachments/1090771905805561907/1101932124786917406/14.png\">",
+  "readme_source_url": "https://github.com/SVega9848/VegaHCFElevator",
+  "icon_url": "https://raw.githubusercontent.com/SVega9848/VegaHCFElevator/818fe570325964196e79d52ee1fd72d922014754/logo.png",
+  "featured": false,
+  "repo": "https://github.com/SVega9848/VegaHCFElevator",
+  "archive_repo": null,
+  "approved_release_tag": "r-11233",
+  "stars": 5,
+  "total_downloads": 207,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SVega9848"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11233",
+      "published_at": null,
+      "downloads": 207,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11233/vegahcfelevator-1.0.0-r11233.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11233",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11233/vegahcfelevator-1.0.0-r11233.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VegaHCFElevator",
+    "stable_release_id": 11233
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12619",
   "stars": 4,
-  "total_downloads": 2146,
+  "total_downloads": 2251,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "2.1.2",
       "tag": "r-12619",
       "published_at": null,
-      "downloads": 1379,
+      "downloads": 1380,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12619/lunarranks-2.1.2-r12619.phar"
     },
     "dev": null
@@ -59,6 +59,11 @@
       "tag": "r-11530",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11530/lunarranks-2.0.0-r11530.phar"
+    },
+    {
+      "tag": "r-11291",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11291/lunarranks-1.0.2-r11291.phar"
     }
   ],
   "comments": {

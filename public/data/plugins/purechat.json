@@ -1,0 +1,63 @@
+{
+  "id": "purechat",
+  "name": "PureChat",
+  "author": "poggit-orphanage",
+  "description": "Provides custom chat formats based on PurePerms groups for your server.",
+  "readme_markdown": "<p align=\"center\">\n    <a href=\"https://github.com/Vecnavium/PureChat\"><img src=\"https://github.com/Vecnavium/PureChat/blob/stable/863.png\"></img></a><br>\n    <b>Provides custom chat formats based on PurePerms groups for your server.</b>\n</p>\n\n<p align=\"center\">\n    <a href=\"https://discord.gg/6M9tGyWPjr\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n</p>\n\nIt's time for everyone to use alternatives as PurePerms & PureChat is outdated in a sense of the features itself and the functionality. The official alternatives that are actually better than PurePerms and PureChat are the following: [GroupsAPI](https://github.com/alvin0319/GroupsAPI) & [RankSystem](https://github.com/IvanCraft623/RankSystem)\n\n\n# Commands\n\nCommand | Description | Permission\n--- | --- | ---\n`/setsuffix <player> <suffix>` | Set a players suffix. | pchat.command.setsuffix\n`/setprefix <player> <prefix>` | Set a players prefix | pchat.command.setprefix\n`/setnametag <group> <world> <format>` | Set the default nametag of a group | pchat.command.setnametag\n`/setformat <group> <world> <format>` | Set default chat format | pchat.command.setformat\n\n\n# FAQ\n\n**Why can't players have coloured chat?**\n\nYou need to set 'pchat.coloredMessages' permission for the players if you want to allow them to use colored messages\n\n**What are the colour codes to use, and where should I put them?**\n\nSee the available colour codes listed in the Config. Do not use colour codes in PurePerms groups directly, use PureChat config instead.\n\n# Permissions\n\n - pchat\n - pchat.coloredMessages\n - pchat.command\n - pchat.command.setsuffix\n - pchat.command.setprefix\n - pchat.command.setnametag\n - pchat.command.setformat",
+  "readme_source_url": "https://github.com/poggit-orphanage/PureChat",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/PureChat/471a019c718d72f43bc8eae360dee237f96f0d0d/863.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/PureChat",
+  "archive_repo": null,
+  "approved_release_tag": "r-11147",
+  "stars": 5,
+  "total_downloads": 4777,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [
+      "PurePerms"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/203956",
+  "versions": {
+    "stable": {
+      "version": "2.0.2",
+      "tag": "r-11147",
+      "published_at": null,
+      "downloads": 4777,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11147/purechat-2.0.2-r11147.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11147",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11147/purechat-2.0.2-r11147.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PureChat",
+    "stable_release_id": 11147
+  }
+}

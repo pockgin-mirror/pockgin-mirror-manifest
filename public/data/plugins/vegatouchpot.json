@@ -1,0 +1,61 @@
+{
+  "id": "vegatouchpot",
+  "name": "VegaTouchPot",
+  "author": "SVega9848",
+  "description": "VegaTouchPot is a plugin that alllows you to throw splash potions just with a tap instead of using the right click!",
+  "readme_markdown": "# VegaTouchPot\n\nVegaTouchPot is a plugin that alllows you to throw splash potions just with a tap instead of using the right click!\n\nThis is really useful, especially for touch players because they can handle PvPs better! 😃\n\n## Plugin Review\n\nI made a video review of the plugin for the ones that still dont understand how to use VegaTouchPot. I hope it will be useful for you all! :wink:\n\nhttps://www.youtube.com/watch?v=N9qvNQGbVpc\n\n<img src= \"https://cdn.discordapp.com/attachments/1090771905805561907/1109256594191032370/15.png\">",
+  "readme_source_url": "https://github.com/SVega9848/VegaTouchPot",
+  "icon_url": "https://raw.githubusercontent.com/SVega9848/VegaTouchPot/94ba2790e57a2e504e11d44c024494955fbc0e34/logo.png",
+  "featured": false,
+  "repo": "https://github.com/SVega9848/VegaTouchPot",
+  "archive_repo": null,
+  "approved_release_tag": "r-11297",
+  "stars": 4,
+  "total_downloads": 115,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SVega9848"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-11297",
+      "published_at": null,
+      "downloads": 115,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11297/vegatouchpot-1.0.0-r11297.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11297",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11297/vegatouchpot-1.0.0-r11297.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VegaTouchPot",
+    "stable_release_id": 11297
+  }
+}
