@@ -1,0 +1,61 @@
+{
+  "id": "tyho",
+  "name": "Tyho",
+  "author": "usy4",
+  "description": "Take your skin head off",
+  "readme_markdown": "# Tyho\nTake your skin head off\n<a\nhref=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" target=\"_blank\">\n\t<img width=\"100%\" align=\"center\" alt=\"tyho\" src=\"https://cdn.discordapp.com/attachments/931532235172093963/1046344324633342082/tyho.png\">\n</a>\n# How to use\nUsage: `/tyho` to take your skin head off\n# My Discord\n<a\nhref=\"https://discord.com/users/380045837457162242\" target=\"_blank\">\n\t<img width=\"100%\" align=\"center\" alt=\"Discord Status\" src=\"https://lanyard.cnrad.dev/api/380045837457162242\">\n</a>",
+  "readme_source_url": "https://github.com/usy4/Tyho",
+  "icon_url": "https://raw.githubusercontent.com/usy4/Tyho/c1955312bd2d78e54aed1f7ec83313691574b6b1/tyho.png",
+  "featured": false,
+  "repo": "https://github.com/usy4/Tyho",
+  "archive_repo": null,
+  "approved_release_tag": "r-10819",
+  "stars": 5,
+  "total_downloads": 209,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "usy4"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10819",
+      "published_at": null,
+      "downloads": 209,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10819/tyho-1.0.0-r10819.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10819",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10819/tyho-1.0.0-r10819.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Tyho",
+    "stable_release_id": 10819
+  }
+}

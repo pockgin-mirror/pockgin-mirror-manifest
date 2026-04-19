@@ -1,0 +1,61 @@
+{
+  "id": "emojispro",
+  "name": "EmojisPro",
+  "author": "xBeastMode",
+  "description": "Emojis v1.0.0",
+  "readme_markdown": "# Emojis v1.0.0\n<div style=\"text-align: center;\">\n<img src=\"https://github.com/xBeastMode/Emojis/raw/main/icon.png\" alt=\"\">\n</div>\n\nby xBeastMode\n# Feature\n- [x] Use emojis via chat\n- [x] Spawn emoji models\n- [x] Create custom emojis\n- [x] Disable emojis per world\n- [x] Option to enable use permission\n- [x] Duration and max stack limiter\n- [ ] Use emojis via modal forms\n- [ ] Use emojis via commands\n\n# Usage\n\nSimply send your desired emoji's name in chat, you may use multiple emojis\nin one message, you can also set the duration of the emoji in seconds by separating it with dot \".\"\nfor example including \"cool.10\" in your chat message will activate the \"cool\" emoji for 10 seconds.\nThe time separation character is configurable as well as the default and max duration time.\n\n**NOTE**: Use permissions are required by default, but can be disabled in config, \nby setting `requires-permission` to `false`.<br>\n**Permission node**: \n`emojis.emoji.[name]`, e.g. `emojis.emoji.joy` for a single emoji \n**OR** `emojis.emoji.all` for all emojis.\n\n\nThe default emoji list includes:\n- blush\n- cool\n- cry\n- heart\n- heart_eyes\n- joy\n- kiss\n- pensive\n- pepe\n- pepegang\n- pog\n- sad\n- smile\n- smile_hearts\n- smirk\n- sweat\n- tongue\n- tongue_wink\n- unamused\n- wink\n- worried\n\n# Screenshot\n\n<img src=\"https://github.com/xBeastMode/Emojis/raw/main/screenshot.png\" alt=\"\">\n\n# Commands\n\n- `/spawnemojimodel`\n    - permission: `command.spawnemojimodel`\n    - usage: `/spawnemojimodel <name> [text...]`\n\nthe `/spawnemojimodel` command as the name suggests spawns a emoji model\nwith the desired name. To remove the model once spawned simply use `/spawnemojimodel remove`\nand tap the model to remove it.\n\n**NOTE**: if emoji uses custom geometry, the emoji will not render as expected\nbecause the command uses the default emoji geometry \nfor which I suggest you write your own model spawn code if you wish to spawn custom emoji models.\n\n# Configuration\n```yaml\n---\n---\n# ====================================================\n# default list of emojis\n# ====================================================\n# blush, cool, cry, heart, heart_eyes, joy, kiss, pensive\n# pepe, pepegang, pog, sad, smile, smile_hearts, smirk, sweat,\n# tongue, tongue_wink, unamused, wink, worried\n# ====================================================\n\n# ====================================================\n# This is an array containing the names of the emojis\n# ====================================================\n# you want to disable. The format should go as such:\n# disabled-emojis: [blush, cool, etc...]\n# ====================================================\ndisabled-emojis: []\n\n# ====================================================\n# This is an array containing the names of the worlds\n# you want to disable.\n# ====================================================\n# To disable all emojis in a specific\n# world the format should go as such:\n# disabled-worlds:\n#   world: \"*\"\n# ====================================================\n# To disable specific emojis in a specific\n# world the format should go as such:\n# disabled-worlds:\n#   world: [blush, cool, etc...]\n# ====================================================\ndisabled-worlds: []\n\n# ====================================================\n# This is an array containing the names of additional\n# 3rd party emojis you may want to add outside of\n# default emojis\n# ====================================================\n# To add new emojis simply drop your new emoji's texture\n# in the \"plugin_data/Emojis/textures\" folder and add\n# the name inside the array\n# =====================================================\n# NOTE: textures must be in 64x64 PNG 32-bit color format\n# if the emoji uses the default geometry\n# =====================================================\nadditional-emojis: []\n\n# ====================================================\n# Set this to \"true\" if you want to require player's to have\n# permission to use emojis, otherwise set this to \"false\"\n# ====================================================\nrequires-permission: true\n\n# ====================================================\n# This is the character that separates the emoji name\n# and duration time in the emoji chat format.\n# ====================================================\n# For example if the separator is \".\" and I chat \"cool.5\"\n# then the emoji will be \"cool\" and have a 5 second duration.\n# ====================================================\n# This can also have multiple characters or have other\n# characters than a dot for example \"::\" and that would be\n# used as such: \"cool::5\"\n# ====================================================\ntime-separator: \".\"\n\n# ====================================================\n# This is the default duration of an emoji\n# if not provided by the player\n# ====================================================\ndefault-duration: 5\n\n# ====================================================\n# Set this to \"true\" if you want to enable an active emoji\n# limit and set that limit in the \"max-emojis\" value\n# ====================================================\nlimit-emojis: true\n\n# ====================================================\n# This is the limit of emojis a player can have active at once\n# ====================================================\nmax-emojis: 3\n\n# ====================================================\n# Set this to \"true\" if you want to enable an emoji duration\n# limit and set that duration in the \"max-duration\" value\n# ====================================================\nlimit-duration: true\n\n# ====================================================\n# This is the maximum duration of an emoji in seconds\n# ====================================================\nmax-duration: 10\n\n# ====================================================\n# Set this to \"true\" if you want to cancel messages\n# when players use emojis via chat\n# ====================================================\ncancel-chat: false\n...\n```\n\n# API\n\n**To register new emojis** via the api simply drop \nyour new emoji's texture in your `plugin_data/Emojis/textures`\nfolder. Textures must be in 64x64 PNG 32-bit color format if using default geometry.\nSay new emojis name is `watermelon`,\nthe file must be named `watermelon.png`.\nNow to register it use:\n```php\n\\xBeastMode\\Emojis\\EmojiManager::getInstance()\n->getEmojiManager()\n->registerEmoji(\"watermelon\")\n```\nYou may optionally provide a second argument with a \ncustom extension of the `\\xBeastMode\\Emojis\\Emoji`\nclass. This allows you to do more stuff with the emoji's\nentity and create your own animations.\n\n**To get an emoji (class)** use\n```php\n\\xBeastMode\\Emojis\\EmojiManager::getInstance()\n->getEmojiManager()\n->getEmoji(\"watermelon\")\n```\nthis returns an instance of `\\xBeastMode\\Emojis\\Emoji`.\n\n**To activate an emoji** for a player simply pass the player\nand emoji class to this function:\n```php\n\\xBeastMode\\Emojis\\EmojiManager::getInstance()\n->getEmojiManager()\n->addActiveEmoji($player, $emoji)\n```\n\nIf you wanna learn more of the api I encourage you to explore\naround the code, it's quite a simple plugin really with little functions\nand features, so I'm hoping other devs are encouraged to write\n\"addons\" for this plugin as I believe is a fun concept. Enjoy!",
+  "readme_source_url": "https://github.com/xBeastMode/Emojis",
+  "icon_url": "https://raw.githubusercontent.com/xBeastMode/Emojis/02b1bc06e6c40133b2b119cdefed7af640f22103/icon.png",
+  "featured": false,
+  "repo": "https://github.com/xBeastMode/Emojis",
+  "archive_repo": null,
+  "approved_release_tag": "r-10916",
+  "stars": 4,
+  "total_downloads": 242,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "xBeastMode"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10916",
+      "published_at": null,
+      "downloads": 242,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10916/emojispro-1.0.0-r10916.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10916",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10916/emojispro-1.0.0-r10916.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EmojisPro",
+    "stable_release_id": 10916
+  }
+}

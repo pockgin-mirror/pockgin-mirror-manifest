@@ -1,0 +1,61 @@
+{
+  "id": "snowmod",
+  "name": "SnowMod",
+  "author": "note3crafter",
+  "description": "SnowMod v.3.0.0",
+  "readme_markdown": "# SnowMod v.3.0.0\r\n\r\nThis plugin is not a simple change of the Biome but lets it snow like in Vanilia and the snow stays as you are used to! He places the snow on the ground. \r\n\r\nNew Update:\r\n\r\nUpdate to API 4.9.0\r\nUpdate MCPE Protocol to 1.19.30\r\nUse the Command /snowmod to enable or disable the Mod!\r\nAdded feature to enable snowmod only in certain worlds. (Setting up in settings.yml) default is world",
+  "readme_source_url": "https://github.com/note3crafter/SnowMod",
+  "icon_url": "https://raw.githubusercontent.com/note3crafter/SnowMod/8fda8c9f21375eca617e2a009c7c54bfab834461/icon.png",
+  "featured": false,
+  "repo": "https://github.com/note3crafter/SnowMod",
+  "archive_repo": null,
+  "approved_release_tag": "r-10851",
+  "stars": 0,
+  "total_downloads": 394,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.12.1-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "note3crafter"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/197920",
+  "versions": {
+    "stable": {
+      "version": "3.0.2",
+      "tag": "r-10851",
+      "published_at": null,
+      "downloads": 394,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10851/snowmod-3.0.2-r10851.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10851",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10851/snowmod-3.0.2-r10851.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SnowMod",
+    "stable_release_id": 10851
+  }
+}

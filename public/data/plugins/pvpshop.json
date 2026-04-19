@@ -1,0 +1,64 @@
+{
+  "id": "pvpshop",
+  "name": "PvPShop",
+  "author": "fernanACM",
+  "description": "A basic pvp item shop. We also added items and armor with magical powers.**",
+  "readme_markdown": "# PvPShop\n[![](https://poggit.pmmp.io/shield.state/PvPShop)](https://poggit.pmmp.io/p/PvPShop)\n\n[![](https://poggit.pmmp.io/shield.api/PvPShop)](https://poggit.pmmp.io/p/PvPShop)\n\n**A basic pvp item shop. We also added items and armor with magical powers.**\n\n![pvpshop-icon](https://user-images.githubusercontent.com/83558341/215066906-5c06393b-4ada-4222-bcec-a7e47ce8af4d.png)\n\n<a href=\"https://discord.gg/YyE9XFckqb\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n\n### 💡 Implementations\n* [X] Configuration.\n* [x] MultiLanguage.\n* [x] EconmyAPI & BedrockEconomy.\n* [X] Commands.\n* [x] Keys in config.yml.\n\n### 💾 Config\n```yml\n   #   ____            ____    ____    _                     \n   #  |  _ \\  __   __ |  _ \\  / ___|  | |__     ___    _ __  \n   #  | |_) | \\ \\ / / | |_) | \\___ \\  | '_ \\   / _ \\  | '_ \\ \n   #  |  __/   \\ V /  |  __/   ___) | | | | | | (_) | | |_) |\n   #  |_|       \\_/   |_|     |____/  |_| |_|  \\___/  | .__/ \n   #                by fernanACM                      |_|    \n\n   # Basic shop to buy pvp items. We have special items in this \n   # store to make it much more special.\n\n   # Configuration version. DO NOT TOUCH\n   config-version: \"1.0.0\"\n\n   # Languages\n   # \"eng\", // English\n   # \"spa\", // Spanish\n   # \"ger\", // German\n   # \"frc\", // French\n   # \"indo\", // Indonesian\n   # \"portg\", // Portuguese\n   # \"vie\" // Vietnamese\n   language: eng\n\n   # Prefix plugin\n   Prefix: \"§l[§aPvPShop§f]§8»§r \"\n\n   # ======(ECONOMY PROVIDER)======\n   # Usa economyapi, bedrockeconomy, xp\n   Economy: \n    provider: bedrockeconomy\n\n   # Price of items in the store.\n   Price:\n   # ========(CATEGORY - ARMOR)============\n   Armor:\n     # ===(LEATHER)==\n     leather-helmet: 20\n     leather-chestplate: 20\n     leather-leggings: 20\n     leather-boots: 20\n     # ===(GOLDEN)===\n     golden-helmet: 40\n     golden-chestplate: 40\n     golden-leggings: 40\n     golden-boots: 40\n     # ===CHAINMAIL)===\n     chainmail-helmet: 60\n     chainmail-chestplate: 60\n     chainmail-leggings: 60\n     chainmail-boots: 60\n     # ===(IRON)===\n     iron-helmet: 100\n     iron-chestplate: 100\n     iron-leggings: 100\n     iron-boots: 100\n     # ===(DIAMOND)===\n     diamond-helmet: 200\n     diamond-chestplate: 200\n     diamond-leggings: 200\n     diamond-boots: 200\n  \n     # ========(CATEGORY - FOOD)============\n     Food:\n       chicken: 30\n       # Amount to receive\n       chicken-count: 22\n\n       mutton: 30\n       # Amount to receive\n       mutton-count: 22\n\n       porkchop: 60\n       # Amount to receive\n       porkchop-count: 22\n\n       rabbit: 50\n       # Amount to receive\n       rabbit-count: 22\n\n       salmon: 20\n       # Amount to receive\n       salmon-count: 22\n\n       golden_apple: 120\n       # Amount to receive\n       golden_apple-count: 5\n\n       enchanted_golden_apple: 300\n       # Amount to receive\n       enchanted_golden_apple-count: 2\n\n      # ========(CATEGORY - TOOLS)=============\n     Tools:\n       # ===(WOOD)===\n       wood_sword: 2\n       wood_pickaxe: 2\n       wood_axe: 2\n       # ===(STONE)===\n       stone_sword: 10\n       stone_pickaxe: 10\n       stone_axe: 10\n       # ===(GOLDEN)===\n       golden_sword: 20\n       golden_pickaxe: 20\n       golden_axe: 20\n       # ===(IRON)===\n       iron_sword: 30\n       iron_pickaxe: 30\n       iron_axe: 30\n       # ===(DIAMOND)===\n       diamond_sword: 60 \n       diamond_pickaxe: 60 \n       diamond_axe: 60\n\n     Extras:\n       totem: 300\n       # ====(MAGIC ITEMS)=====\n       speed: 800\n       health: 850\n       soup: 450\n       # =====(MAGIC ARMOR)=====\n       helmet: 1250        \n       chestplate:  1350\n       leggings: 1310\n       boots: 1320\n       # ====(Cooldown)====\n     Cooldown:\n       # items\n       Items:\n         speed: 60\n         health: 60\n         soup: 60\n      # Potions\n       Potions:\n         speed: 30\n         health: 30\n         soup: 30\n```\n\n### 🕹 Commands\n- ```/pvpshop``` > Open a menu for convenience\n- ```/pvpshop help``` > Command list\n- ```/pvpshop amor``` > Open the armor category.\n- ```/pvpshop tools``` > Open the tools category.\n- ```/pvpshop food``` > Open the food category.\n- ```/pvpshop extra``` > Open the extra category.\n\n### 🔒 Permissions\n- Executing the command: ```pvpshop.command.acm:```\n- Armor category: ```pvpshop.category.armor```\n- Tools category: ```pvpshop.category.tools```\n- Food category: ```pvpshop.category.food```\n- Extra category: ```pvpshop.category.extras```\n- **EXTRA PERMISSIONS:**\n- ```pvpshop.items.totem```\n- ```pvpshop.items.speed```\n- ```pvpshop.items.health```\n- ```pvpshop.items.soup```\n- **ARMOR**\n- ```pvpshop.armor.helmet```\n- ```pvpshop.armor.chestplate```\n- ```pvpshop.armor.leggings```\n- ```pvpshop.armor.boots```\n\n### 🌐 MultiLanguage\n| Language | Translated by |\n|----------|---------------|\n| English | [fernanACM](https://github.com/fernanACM) |\n| Spanish | [fernanACM](https://github.com/fernanACM) |\n| Indonesian | PvPShop |\n| German | [GamerMJay](https://github.com/GamerMJay) |\n| French | PvPShop |\n| Portuguese | PvPShop |\n| Vietnamese | [NhanAZ](https://github.com/NhanAZ) |\n***\n\n### 📞 Contact \n| Redes | Tag | Link |\n|-------|-------------|------|\n| YouTube | fernanACM | [YouTube](https://www.youtube.com/channel/UC-M5iTrCItYQBg5GMuX5ySw) | \n| Discord | fernanACM#5078 | [Discord](https://discord.gg/YyE9XFckqb) |\n| GitHub | fernanACM | [GitHub](https://github.com/fernanACM)\n| Poggit | fernanACM | [Poggit](https://poggit.pmmp.io/ci/fernanACM)\n****\n\n### ✔ Credits\n| Authors | Github | Lib |\n|---------|--------|-----|\n| CortexPE | [CortexPE](https://github.com/CortexPE) | [Commando](https://github.com/CortexPE/Commando/tree/master/) |\n| Muqsit | [Muqsit](https://github.com/Muqsit) | [SimplePacketHandler](https://github.com/Muqsit/SimplePacketHandler) |\n| Muqsit | [Muqsit](https://github.com/Muqsit) | [InvMenu](https://github.com/Muqsit/InvMenu) |\n| DaPigGuy | [DaPigGuy](https://github.com/DaPigGuy) | [libPiggyEconomy](https://github.com/DaPigGuy/libPiggyEconomy) |\n| DaPigGuy | [DaPigGuy](https://github.com/DaPigGuy) | [libPiggyUpdateChecker](https://github.com/DaPigGuy/libPiggyUpdateChecker) |\n****",
+  "readme_source_url": "https://github.com/fernanACM/PvPShop",
+  "icon_url": "https://raw.githubusercontent.com/fernanACM/PvPShop/3e4409179ac85e9efa3e77e4356ca0e2a9c3bdc8/icon-pvpshop.png",
+  "featured": false,
+  "repo": "https://github.com/fernanACM/PvPShop",
+  "archive_repo": null,
+  "approved_release_tag": "r-10970",
+  "stars": 0,
+  "total_downloads": 513,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "fernanACM"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10970",
+      "published_at": null,
+      "downloads": 513,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10970/pvpshop-1.0.0-r10970.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10970",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10970/pvpshop-1.0.0-r10970.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PvPShop",
+    "stable_release_id": 10970
+  }
+}

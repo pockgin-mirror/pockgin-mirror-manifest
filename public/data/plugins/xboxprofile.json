@@ -1,0 +1,61 @@
+{
+  "id": "xboxprofile",
+  "name": "XboxProfile",
+  "author": "usy4",
+  "description": "To view offline/online players xbox profile",
+  "readme_markdown": "# XboxProfile\nTo view offline/online players xbox profile\n\n<a\nhref=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" target=\"_blank\">\n\t![image](https://user-images.githubusercontent.com/68358524/209160084-5d52fd7c-a992-4236-8f31-f5064b16d1e2.png)\n</a>\n# How to use\nUsage: `/xboxprofile <player(online/offline)>`\n# My Discord\n<a\nhref=\"https://discord.com/users/380045837457162242\" target=\"_blank\">\n\t<img width=\"100%\" align=\"center\" alt=\"Discord Status\" src=\"https://lanyard.cnrad.dev/api/380045837457162242\">\n</a>",
+  "readme_source_url": "https://github.com/usy4/XboxProfile",
+  "icon_url": "https://raw.githubusercontent.com/usy4/XboxProfile/8baf20a2ec1a1caf719f5f501309b55371d18161/xbox.png",
+  "featured": false,
+  "repo": "https://github.com/usy4/XboxProfile",
+  "archive_repo": null,
+  "approved_release_tag": "r-10870",
+  "stars": 5,
+  "total_downloads": 259,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "usy4"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10870",
+      "published_at": null,
+      "downloads": 259,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10870/xboxprofile-1.0.0-r10870.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10870",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10870/xboxprofile-1.0.0-r10870.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "XboxProfile",
+    "stable_release_id": 10870
+  }
+}

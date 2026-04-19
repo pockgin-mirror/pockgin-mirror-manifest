@@ -1,0 +1,61 @@
+{
+  "id": "votekick",
+  "name": "VoteKick",
+  "author": "usy4",
+  "description": "Vote to kick someone in a game for whatever reason such as hacking, rude, etc.",
+  "readme_markdown": "# VoteKick\nVote to kick someone in a game for whatever reason such as hacking, rude, etc.\n# command\nUsage: `/votekick`\n# permissions\nvotekick.command\n# config\n```\n---\n# Customize the number of votes required to kick a player\nVoteCount: 7\n\n# Permission cannot get kicked from players (protection)\nkickProtectionPerm: kick.protection.votekick\n...\n```\n# My Discord\n<a\nhref=\"https://discord.com/users/380045837457162242\" target=\"_blank\">\n\t<img width=\"100%\" align=\"center\" alt=\"Discord Status\" src=\"https://lanyard.cnrad.dev/api/380045837457162242\">\n</a>",
+  "readme_source_url": "https://github.com/usy4/VoteKick",
+  "icon_url": "https://raw.githubusercontent.com/usy4/VoteKick/1d12c2304d5aac079957be84707af3cc3b283c51/VoteKick.png",
+  "featured": false,
+  "repo": "https://github.com/usy4/VoteKick",
+  "archive_repo": null,
+  "approved_release_tag": "r-10854",
+  "stars": 0,
+  "total_downloads": 202,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "usy4"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10854",
+      "published_at": null,
+      "downloads": 202,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10854/votekick-1.0.0-r10854.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10854",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10854/votekick-1.0.0-r10854.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VoteKick",
+    "stable_release_id": 10854
+  }
+}

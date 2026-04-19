@@ -1,0 +1,61 @@
+{
+  "id": "tpall",
+  "name": "TPAll",
+  "author": "matymare",
+  "description": "How to install:",
+  "readme_markdown": "<h2><a id=\"user-content-how-to-install\" class=\"anchor\" aria-hidden=\"true\" href=\"#how-to-install\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How to install:</h2>\n<ol>\n<li>Download the plugin TPAll!</li>\n<li>Put it on the server in the folder <code>plugins</code>\n</li>\n<li>Restart the server!</li>\n</ol>\n<br>\n<h2><a id=\"user-content-how-to-use-plugin\" class=\"anchor\" aria-hidden=\"true\" href=\"#how-to-use-plugin\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How to use plugin:</h2>\n<ol>\n<li>Enter the chat <code>/tpall</code>\n</li>\n<li>And now everyone has teleported to you!</li>\n</ol>\n<br>\n<h2><a id=\"user-content-credits\" class=\"anchor\" aria-hidden=\"true\" href=\"#credits\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Credits:</h2>\n<p>The plugin icon is created via <a href=\"http://www.flaticon.com\" rel=\"nofollow\">www.flaticon.com</a></p>\n<br>\n<h2><a id=\"user-content-description\" class=\"anchor\" aria-hidden=\"true\" href=\"#description\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Description:</h2>\n<p>The TPAll plugin is for teleporting\nall players on the server to you! You can use the plugin completely at events, survival events and everything else. I will be happy if you write something in the comments that will help me for the better plugin. Thank you for your support and listen!</p>\n<br>\n<h2><a id=\"user-content-video-tutorial\" class=\"anchor\" aria-hidden=\"true\" href=\"#video-tutorial\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Video tutorial:</h2>\n<p>Link:   <a href=\"https://www.youtube.com/watch?v=pHzIqvYeONg\" rel=\"nofollow\">https://www.youtube.com/watch?v=pHzIqvYeONg</a></p>\n<br>",
+  "readme_source_url": "https://poggit.pmmp.io/r/200829",
+  "icon_url": "https://raw.githubusercontent.com/matymare/TPAll/809e4e84a03987a6c755fad7636097d519ef3ccf/TPAll/icon.png",
+  "featured": false,
+  "repo": "https://github.com/matymare/TPAll",
+  "archive_repo": null,
+  "approved_release_tag": "r-10981",
+  "stars": 3,
+  "total_downloads": 860,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "matymare"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/200831",
+  "versions": {
+    "stable": {
+      "version": "1.3",
+      "tag": "r-10981",
+      "published_at": null,
+      "downloads": 860,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10981/tpall-1.3-r10981.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10981",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10981/tpall-1.3-r10981.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TPAll",
+    "stable_release_id": 10981
+  }
+}

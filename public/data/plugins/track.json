@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11402",
   "stars": 1,
-  "total_downloads": 269,
+  "total_downloads": 361,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,13 +37,24 @@
       "downloads": 269,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11402/track-2.0.1-r11402.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "2.0.0",
+      "tag": "r-11026",
+      "published_at": null,
+      "downloads": 92,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11026/track-2.0.0-r11026.phar"
+    }
   },
   "recent_builds": [
     {
       "tag": "r-11402",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11402/track-2.0.1-r11402.phar"
+    },
+    {
+      "tag": "r-11026",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11026/track-2.0.0-r11026.phar"
     }
   ],
   "comments": {

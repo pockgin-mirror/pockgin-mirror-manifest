@@ -1,0 +1,61 @@
+{
+  "id": "nativedimensions",
+  "name": "NativeDimensions",
+  "author": "jasonw4331",
+  "description": "Minecraft places all dimensions inside of a single world folder, but pocketmine doesn't use the data - until now.",
+  "readme_markdown": "# NativeDimensions\n[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/R7kdetE)\n[![Poggit-Ci](https://poggit.pmmp.io/ci.shield/jasonw4331/NativeDimensions/NativeDimensions)](https://poggit.pmmp.io/ci/jasonw4331/NativeDimensions/NativeDimensions)\n[![Download count](https://poggit.pmmp.io/shield.dl.total/NativeDimensions)](https://poggit.pmmp.io/p/NativeDimensions)\n\n# Intro\nMinecraft places all dimensions inside of a single world folder, but pocketmine doesn't use the data - until now.\n\nThis plugin was built to add the missing functionality for pocketmine to load multiple dimensions from a single world save and have everything be accessible.\n\nThis plugin even converts old anvil worlds to new leveldb worlds by itself!\n\n# Features\n* Automatically reads dimension data from anvil worlds\n* Automatically reads and writes dimension data to and from leveldb worlds\n* Automatic Anvil to LevelDB world conversion\n\n# Future Additions\n* Leveldb nether portal mapping\n* Batch writes for more efficiency\n\n# About\nThis plugin has been a long-running project to allow the use of dimensions from within one world save instead of having multiple. This is a proof of concept for the first approach @dktapps laid out [in this RFC](https://forums.pmmp.io/threads/dimensions-support-and-new-level-dimensions-api.361/).",
+  "readme_source_url": "https://github.com/jasonw4331/NativeDimensions",
+  "icon_url": "https://raw.githubusercontent.com/jasonwynn10/NativeDimensions/66271ebb7760824e233bacc3f4a8a01642c253c6/icon.gif",
+  "featured": false,
+  "repo": "https://github.com/jasonw4331/NativeDimensions",
+  "archive_repo": null,
+  "approved_release_tag": "r-11040",
+  "stars": 0,
+  "total_downloads": 989,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.16.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "jasonw4331"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/201669",
+  "versions": {
+    "stable": {
+      "version": "1.0.0-beta11",
+      "tag": "r-11040",
+      "published_at": null,
+      "downloads": 989,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11040/nativedimensions-1.0.0-beta11-r11040.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-11040",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11040/nativedimensions-1.0.0-beta11-r11040.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NativeDimensions",
+    "stable_release_id": 11040
+  }
+}

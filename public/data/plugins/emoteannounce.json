@@ -1,0 +1,61 @@
+{
+  "id": "emoteannounce",
+  "name": "EmoteAnnounce",
+  "author": "0x00032",
+  "description": "PocketMine-MP Plugin For Showing Emote In Chat!",
+  "readme_markdown": "# EmoteAnnounce\nPocketMine-MP Plugin For Showing Emote In Chat!",
+  "readme_source_url": "https://github.com/0x00032/EmoteAnnounce",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/0x00032/EmoteAnnounce",
+  "archive_repo": null,
+  "approved_release_tag": "r-10999",
+  "stars": 0,
+  "total_downloads": 47,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "0x00032"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10999",
+      "published_at": null,
+      "downloads": 47,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10999/emoteannounce-1.0.0-r10999.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10999",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10999/emoteannounce-1.0.0-r10999.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EmoteAnnounce",
+    "stable_release_id": 10999
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11992",
   "stars": 0,
-  "total_downloads": 1542,
+  "total_downloads": 2103,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11992",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11992/playerselectors-2.0.1-r11992.phar"
+    },
+    {
+      "tag": "r-10947",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10947/playerselectors-2.0.0-r10947.phar"
     }
   ],
   "comments": {

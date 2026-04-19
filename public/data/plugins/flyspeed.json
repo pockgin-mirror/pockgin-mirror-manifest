@@ -1,0 +1,61 @@
+{
+  "id": "flyspeed",
+  "name": "FlySpeed",
+  "author": "WolfDen133",
+  "description": "FlySpeed-PM5",
+  "readme_markdown": "# FlySpeed-PM5\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/ImmoDevs/FlySpeed-PM5/main/icon.png\" width=\"200\" alt=\"Icon\">\n</p>\n\n[![FlySpeed-PM5](https://img.shields.io/badge/FlySpeed_PM5-v0.0.2-brightgreen.svg)](https://github.com/ImmoDevs/FlySpeed-PM5)\n[![PocketMine-MP](https://img.shields.io/badge/PocketMine--MP-5.0.0-blue.svg)](https://github.com/pmmp/PocketMine-MP)\n[![GNU AGPLv3 License](https://img.shields.io/badge/license-AGPLv3-blue)](https://www.gnu.org/licenses/agpl-3.0.html)\n[![Latest Release](https://img.shields.io/github/v/release/ImmoDevs/FlySpeed-PM5)](https://github.com/ImmoDevs/FlySpeed-PM5/releases)\n\n## 🚀 Fly at Your Desired Speed in PocketMine-MP!\n\nEver wanted a plugin to change your flyspeed like in Java Edition? FlySpeed is here to make that a reality! Customize your flight speed effortlessly with simple commands.\n\n## 📜 Features\n\n- **Persistent Flyspeed:** Save your flight speed across reconnects and server restarts.\n- **Easy Commands:** User-friendly commands to change your flyspeed on the go.\n\n## 📘 Command\n\n| Command | Usage | Permission | Aliases | Description |\n| --- | --- | --- | --- | --- |\n| `/flyspeed` | `/flyspeed <float: speed>` | `flyspeed.command.use` | `fspeed`, `flys`, `fs` | Change the speed of your flight |\n\n`<float: speed>`: Default flyspeed is 1, 0.5 would be half, 2 would be double, and so on.\n\n## 🛠 Installation\n\n1. Download the latest release from the [Releases Page](https://github.com/ImmoDevs/FlySpeed/releases).\n2. Place the downloaded `FlySpeed-PM5.phar` file into your PocketMine-MP `plugins` folder.\n3. Restart your PocketMine-MP server.\n\n## 📝 License\n\nFlySpeed is licensed under the [GNU General Public License](LICENSE).\n\nEnhance your flying experience today with FlySpeed!",
+  "readme_source_url": "https://github.com/WolfDen133/FlySpeed",
+  "icon_url": "https://raw.githubusercontent.com/WolfDen133/WFlySpeed/a685e118e59db25cab5ea0e132889b7c15042128/icon.png",
+  "featured": false,
+  "repo": "https://github.com/WolfDen133/FlySpeed",
+  "archive_repo": null,
+  "approved_release_tag": "r-10885",
+  "stars": 5,
+  "total_downloads": 953,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.12.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "WolfDen133"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-10885",
+      "published_at": null,
+      "downloads": 953,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10885/flyspeed-0.0.1-r10885.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10885",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10885/flyspeed-0.0.1-r10885.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FlySpeed",
+    "stable_release_id": 10885
+  }
+}

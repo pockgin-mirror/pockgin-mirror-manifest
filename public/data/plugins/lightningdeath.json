@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11980",
   "stars": 0,
-  "total_downloads": 958,
+  "total_downloads": 1421,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11980",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11980/lightningdeath-1.3.6-r11980.phar"
+    },
+    {
+      "tag": "r-10878",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10878/lightningdeath-1.3.5-r10878.phar"
     }
   ],
   "comments": {

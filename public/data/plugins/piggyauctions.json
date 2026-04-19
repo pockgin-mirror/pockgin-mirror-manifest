@@ -1,0 +1,64 @@
+{
+  "id": "piggyauctions",
+  "name": "PiggyAuctions",
+  "author": "DaPigGuy",
+  "description": "PiggyAuctions is an open-sourced auction house plugin for PocketMine-MP allowing players to place auctions and bid on items.",
+  "readme_markdown": "# PiggyAuctions [![Poggit-CI](https://poggit.pmmp.io/shield.dl/PiggyAuctions)](https://poggit.pmmp.io/p/PiggyAuctions) [![Discord](https://img.shields.io/discord/330850307607363585?logo=discord)](https://discord.gg/qmnDsSD)\n\nPiggyAuctions is an open-sourced auction house plugin for [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) allowing players to place auctions and bid on items.\n\nWhy use PiggyAuctions over other competitors?\n1. **BRAND LOYALTY!!!** PiggyAuctions is a quality Piggy-flavored plugin refined throughout generations of the Sus genus. You won't get to experience this authentic rich and savory flavor anywhere else. And, it's *free* bacon, what else could you ask for?\n2. PiggyAuctions has bidding, searching, sorting, auto-refreshing, pagination, etc.\n3. Oink? You're not going to install such an amazing plugin? 🐷\n4. Sloths are scary.\n\n## Prerequisites\n* Basic knowledge on how to install plugins from Poggit Releases and/or Poggit CI\n* PMMP 4.0.0+\n* mysql & sqlite3 PHP extensions (should already exist within your PHP binaries)\n\n## InvCrashFix is still needed!\n\n- Menus may not work without InvCrashFix. [Download here](https://poggit.pmmp.io/r/139694/InvCrashFix_dev-4.phar)\n\n## Supported Economy Providers\n\n* [EconomyAPI](https://poggit.pmmp.io/p/EconomyAPI) by onebone/poggit-orphanage\n* [BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy) by cooldogedev\n* Experience (PMMP)\n\n## Installation & Setup\n1. Install the plugin from Poggit.\n2. (Optional) Setup the data provider that PiggyAuctions will be using. By default, PiggyAuctions will use SQLite3 which requires no additional setup. If you would like to use MySQL instead, change `database.type` from `sqlite` to `mysql` & enter your MySQL credentials under `database.mysql`.\n3. (Optional) Setup your economy provider. If using EconomyAPI, this step can be skipped. Otherwise, change `economy.provider` to the name of the economy plugin being used, or `xp` for PMMP Player EXP.\n4. (Optional) Certain user inputs for creating and bidding on auctions can be configured. By default, the duration limit is 14 days, while bid & starting bid limit are the 32 bit integer max. We recommend not allowing values over the 32 bit integer max (2^31 or 2147483648).\n5. (Optional) You may configure messages in the `message.yml` file.\n6. You're done! Start your server and begin auctioning items.\n\n## Commands\n| Command                  | Description                       | Permissions                          | Aliases |\n|--------------------------|-----------------------------------|--------------------------------------|---------|\n| `/auctionhouse`          | Opens the auction house           | `piggyauctions.command.auctionhouse` | `/ah`   |\n| `/auctionhouse [player]` | View a specific player's auctions | `piggyauctions.command.auctionhouse` | `/ah`   |\n\n## Permissions\n| Permissions                          | Description                                                   | Default |\n|--------------------------------------|---------------------------------------------------------------|---------|\n| `piggyauctions`                      | Allows usage of all PiggyAuctions features                    | `op`    |\n| `piggyauctions.command`              | Allow usage of all PiggyAuctions commands                     | `op`    |\n| `piggyauctions.command.auctionhouse` | Allow usage of the /auctionhouse command                      | `true`  |\n| `piggyauctions.limit.{NUMBER}`       | Imposes a limit on amount of concurrent auctions for a player | `false` |\n\n## Issue Reporting\n* If you experience an unexpected non-crash behavior with PiggyAuctions, click [here](https://github.com/DaPigGuy/PiggyAuctions/issues/new?assignees=DaPigGuy&labels=bug&template=bug_report.md&title=).\n* If you experience a crash in PiggyAuctions, click [here](https://github.com/DaPigGuy/PiggyAuctions/issues/new?assignees=DaPigGuy&labels=bug&template=crash.md&title=).\n* If you would like to suggest a feature to be added to PiggyAuctions, click [here](https://github.com/DaPigGuy/PiggyAuctions/issues/new?assignees=DaPigGuy&labels=suggestion&template=suggestion.md&title=).\n* If you require support, please join our discord server [here](https://discord.gg/qmnDsSD).\n* Do not file any issues related to outdated API version; we will resolve such issues as soon as possible.\n* We do not support any spoons of PocketMine-MP. Anything to do with spoons (Issues or PRs) will be ignored.\n  * This includes plugins that modify PocketMine-MP's behavior directly, such as TeaSpoon.\n\n## License\n```\n   Copyright 2019 DaPigGuy\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n\n```",
+  "readme_source_url": "https://github.com/DaPigGuy/PiggyAuctions",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/DaPigGuy/PiggyAuctions",
+  "archive_repo": null,
+  "approved_release_tag": "r-10872",
+  "stars": 5,
+  "total_downloads": 1032,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaPigGuy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/198316",
+  "versions": {
+    "stable": {
+      "version": "2.0.2",
+      "tag": "r-10872",
+      "published_at": null,
+      "downloads": 1032,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10872/piggyauctions-2.0.2-r10872.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10872",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10872/piggyauctions-2.0.2-r10872.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PiggyAuctions",
+    "stable_release_id": 10872
+  }
+}

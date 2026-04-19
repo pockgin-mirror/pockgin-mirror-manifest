@@ -1,0 +1,61 @@
+{
+  "id": "hostinfogetter",
+  "name": "HostInfoGetter",
+  "author": "XanderID",
+  "description": "General",
+  "readme_markdown": "# General\nA Plugin for PocketMine-MP Software for get Information from Host Like Ram, CPU, Disk Space.</br></br>Usually this plugin is used for  Check if Pterodactyl or Host Panel is Fake Ram or Not.\n\n## Commands\nYou can use commands `/gethostinfo` or `/hostinfo` Only Player with permission `gethostinfo.cmd` can use the commands!\n\n## Config\n``` YAML\n\n# Available Tags\n# RAM\n# {total_ram} Get Total Used Ram\n# {available_ram} Get Available Ram\n# CPU\n# {total_cpu_load} Get Total CPU Loaded\n# {cpu_count} Get Count of CPU\n# DISK SPACE\n# {total_space} Get Total DiskSpace\n# {available_space} Get Total Available DiskSpace\n# OTHERS\n# {line} use for New line you can use \\n\nmessage: \"§aYour Host Statistics{line}{line}§aRAM Information{line}§fAvailable RAM: §a{available_ram} §f/ §a{total_ram}{line}{line}§aCPU Information{line}§fCPU: §a{cpu_count}{line}§fLoad: §a{total_cpu_load}{line}{line}§aDiskSpace Information{line}§fAvailable DiskSpace: §a{available_space} §f/ §a{total_space}\"\n\n```\n\n## Screenshot\n![Screenshot](https://raw.githubusercontent.com/XanderID/HostInfoGetter/main/.assets/screenshot.jpg)\n\n## Additional Notes\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/XanderID/HostInfoGetter/issues)\n- Icons By [icons8.com](https://icons8.com)",
+  "readme_source_url": "https://github.com/XanderID/HostInfoGetter",
+  "icon_url": "https://raw.githubusercontent.com/XanderID/HostInfoGetter/6f8f6f717cabfb312446b93b28e33baeb94b9291/icons.png",
+  "featured": false,
+  "repo": "https://github.com/XanderID/HostInfoGetter",
+  "archive_repo": null,
+  "approved_release_tag": "r-10986",
+  "stars": 0,
+  "total_downloads": 280,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "XanderID"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10986",
+      "published_at": null,
+      "downloads": 280,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10986/hostinfogetter-1.0.0-r10986.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10986",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10986/hostinfogetter-1.0.0-r10986.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HostInfoGetter",
+    "stable_release_id": 10986
+  }
+}

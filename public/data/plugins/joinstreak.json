@@ -1,0 +1,61 @@
+{
+  "id": "joinstreak",
+  "name": "JoinStreak",
+  "author": "usy4",
+  "description": "Keep track of player's join streaks on your PocketMine-MP server, similar to the snapchat streak feature.",
+  "readme_markdown": "# JoinStreak\nKeep track of player's join streaks on your PocketMine-MP server, similar to the snapchat streak feature.\n# How to use\nUsage: `/joinstreak <top/see(player)/my>`\n# Features\nTrack the number of consecutive days a player has joined the server.\nReset the join streak if a player hasn't joined in over 24 hours.\nSee a player's own join streak or another player's join streak.\nShow the top 5 players with the highest join streaks.\nConfig file to store the join streaks and last join timestamps.\n# My Discord\n<a\nhref=\"https://discord.com/users/380045837457162242\" target=\"_blank\">\n\t<img width=\"100%\" align=\"center\" alt=\"Discord Status\" src=\"https://lanyard.cnrad.dev/api/380045837457162242\">\n</a>",
+  "readme_source_url": "https://github.com/usy4/JoinStreak",
+  "icon_url": "https://raw.githubusercontent.com/usy4/JoinStreak/c12d9c62e8fece3edd90f264409e4e710a2926b3/JoinStreak.png",
+  "featured": false,
+  "repo": "https://github.com/usy4/JoinStreak",
+  "archive_repo": null,
+  "approved_release_tag": "r-10956",
+  "stars": 5,
+  "total_downloads": 109,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "usy4"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10956",
+      "published_at": null,
+      "downloads": 109,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10956/joinstreak-1.0.0-r10956.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10956",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10956/joinstreak-1.0.0-r10956.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "JoinStreak",
+    "stable_release_id": 10956
+  }
+}

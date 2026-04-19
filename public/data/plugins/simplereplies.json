@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11459",
   "stars": 0,
-  "total_downloads": 235,
+  "total_downloads": 318,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "2.1.1",
       "tag": "r-11459",
       "published_at": null,
-      "downloads": 225,
+      "downloads": 226,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11459/simplereplies-2.1.1-r11459.phar"
     },
     "dev": null
@@ -49,6 +49,11 @@
       "tag": "r-11433",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11433/simplereplies-2.1.0-r11433.phar"
+    },
+    {
+      "tag": "r-10988",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10988/simplereplies-2.0.0-r10988.phar"
     }
   ],
   "comments": {

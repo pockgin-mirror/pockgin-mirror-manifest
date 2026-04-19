@@ -1,0 +1,63 @@
+{
+  "id": "creditsflip",
+  "name": "CreditsFlip",
+  "author": "usy4",
+  "description": "Try your luck in credits with this plugin!",
+  "readme_markdown": "# CreditsFlip\nTry your luck in credits with this plugin!\n# Commands\nUsage: `/creditsflip (tails/heads) (amount/all)`\n# Depend\nDownload this to use my plugin:\nhttps://poggit.pmmp.io/p/Credits\n# My Discord\n<a\nhref=\"https://discord.com/users/380045837457162242\" target=\"_blank\">\n\t<img width=\"100%\" align=\"center\" alt=\"Discord Status\" src=\"https://lanyard.cnrad.dev/api/380045837457162242\">\n</a>",
+  "readme_source_url": "https://github.com/usy4/CreditsFlip",
+  "icon_url": "https://raw.githubusercontent.com/usy4/CreditsFlip/3625d0b4ed921d80cce4e6d725e8636426fbfd74/icon_cf.png",
+  "featured": false,
+  "repo": "https://github.com/usy4/CreditsFlip",
+  "archive_repo": null,
+  "approved_release_tag": "r-10808",
+  "stars": 0,
+  "total_downloads": 110,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [
+      "Credits"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "usy4"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10808",
+      "published_at": null,
+      "downloads": 110,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10808/creditsflip-1.0.0-r10808.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10808",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10808/creditsflip-1.0.0-r10808.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CreditsFlip",
+    "stable_release_id": 10808
+  }
+}

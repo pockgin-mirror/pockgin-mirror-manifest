@@ -1,0 +1,61 @@
+{
+  "id": "livexyz",
+  "name": "LiveXYZ",
+  "author": "dktapps-pm-pl",
+  "description": "A plugin for PocketMine-MP to show your coordinates real-time as you move.",
+  "readme_markdown": "# LiveXYZ\nA plugin for PocketMine-MP to show your coordinates real-time as you move.\n\n## NOTE\nThis plugin has been tested only on [PocketMine-MP](https://github.com/pmmp/PocketMine-MP). Compatibility with third party modified versions can sometimes be found, but no support whatsoever will be provided for use with a non-official variant of PocketMine-MP.\n\n## Installation\n\n\n1. Go to the [LiveXYZ Release Page](https://poggit.pmmp.io/p/LiveXYZ) and download a PHAR file from there.\n2. Copy the downloaded PHAR to the `plugins` folder in your server folder.\n3. If you're making a fresh installation, you can simply reload the server. If you're updating the plugin, you'll need to shutdown and restart the server for changes to be detected.\n\n## Usage\n- To turn LiveXYZ on:\n  As a player, type `/xyz` into the chat. (You can't currently do this for somebody else or from the console). Your coordinates will be shown above the hotbar.\n- To turn LiveXYZ off:\n  Simply type `/xyz` again to toggle the display.\n\n## Permission nodes:\n- `livexyz`: TRUE by default. Allows players with this permission to use LiveXYZ\n\n### Copyright and licensing information\n```\nLiveXYZ - a PocketMine-MP plugin to show your coordinates real-time as you move\nCopyright (C) 2016-2018 Dylan K. Taylor\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <http://www.gnu.org/licenses/>.\n```",
+  "readme_source_url": "https://github.com/dktapps-pm-pl/LiveXYZ",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/dktapps-pm-pl/LiveXYZ",
+  "archive_repo": null,
+  "approved_release_tag": "r-10871",
+  "stars": 5,
+  "total_downloads": 1716,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "dktapps-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/198284",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-10871",
+      "published_at": null,
+      "downloads": 1716,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10871/livexyz-1.0.1-r10871.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10871",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10871/livexyz-1.0.1-r10871.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LiveXYZ",
+    "stable_release_id": 10871
+  }
+}

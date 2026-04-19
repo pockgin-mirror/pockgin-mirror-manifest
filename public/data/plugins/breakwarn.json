@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11179",
   "stars": 0,
-  "total_downloads": 423,
+  "total_downloads": 458,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.4.0",
       "tag": "r-11179",
       "published_at": null,
-      "downloads": 316,
+      "downloads": 317,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11179/breakwarn-1.4.0-r11179.phar"
     },
     "dev": null
@@ -59,6 +59,11 @@
       "tag": "r-11072",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11072/breakwarn-1.1-r11072.phar"
+    },
+    {
+      "tag": "r-11004",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11004/breakwarn-1.0-r11004.phar"
     }
   ],
   "comments": {

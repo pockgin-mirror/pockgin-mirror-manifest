@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11473",
   "stars": 0,
-  "total_downloads": 1364,
+  "total_downloads": 1768,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11473",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11473/alwaysday-1.1.0-r11473.phar"
+    },
+    {
+      "tag": "r-11053",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11053/alwaysday-1.0.0-r11053.phar"
     }
   ],
   "comments": {

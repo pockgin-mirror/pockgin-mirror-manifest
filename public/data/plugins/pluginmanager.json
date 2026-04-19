@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11520",
   "stars": 5,
-  "total_downloads": 1178,
+  "total_downloads": 1585,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,16 @@
       "tag": "r-11520",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11520/pluginmanager-1.0.3-r11520.phar"
+    },
+    {
+      "tag": "r-10998",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10998/pluginmanager-1.0.1-r10998.phar"
+    },
+    {
+      "tag": "r-10822",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10822/pluginmanager-1.0.0-r10822.phar"
     }
   ],
   "comments": {

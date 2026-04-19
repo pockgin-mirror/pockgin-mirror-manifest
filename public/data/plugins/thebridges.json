@@ -1,0 +1,61 @@
+{
+  "id": "thebridges",
+  "name": "TheBridges",
+  "author": "cooldogepm",
+  "description": "TheBridge",
+  "readme_markdown": "# TheBridge\r\n\r\n<p align=\"center\">\r\n\t<a href=\"https://github.com/cooldogedev/TheBridge\"><img\r\n            src=\"https://github.com/cooldogedev/TheBridge/blob/main/assets/icon.png?raw=true\"/></a><br>\r\n\tAn extremely customizable TheBridge mini-game designed for scalability and simplicity.\r\n</p>\r\n\r\n## Features\r\n\r\n- Customisable messages and scoreboard\r\n- Multi arena support\r\n- Waiting lobby support\r\n- Auto-queue support\r\n- Game statistics\r\n- SQLite support\r\n- MySQL support\r\n\r\n## Commands\r\n\r\n|     Command      |             Description              |           Permission           |\r\n|:----------------:|:------------------------------------:|:------------------------------:|\r\n| thebridge create |         Create a new arena.          | `thebridge.subcommand.create` |\r\n| thebridge delete |      Delete an existing arena.       | `thebridge.subcommand.delete` |\r\n|  thebridge list  |      List all available arenas.      |  `thebridge.subcommand.list`  |\r\n|  thebridge test  | Force online players to join a game. |  `thebridge.subcommand.quit`  |\r\n|  thebridge join  |             Join a game.             |  `thebridge.subcommand.join`  |\r\n|  thebridge quit  |             Quit a game.             |  `thebridge.subcommand.quit`  |\r\n\r\n### Arena creation\r\n\r\n#### Format\r\n\r\n`thebridge create <name: string> <lobby: string> <world: string> <countdown: int> <duration: int> <grace_duration: int> <end_duration: int> <mode: solo|duo|trio|squad>`\r\n\r\n#### Example\r\n\r\n`thebridge create name game-lobby game-world 30 600 5 10 solo`",
+  "readme_source_url": "https://github.com/cooldogepm/TheBridges",
+  "icon_url": "https://raw.githubusercontent.com/cooldogedev/TheBridges/cdd89fca38b7469ec8bcef3a6bb5a813ac1694c0/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/cooldogepm/TheBridges",
+  "archive_repo": null,
+  "approved_release_tag": "r-10880",
+  "stars": 4,
+  "total_downloads": 233,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "cooldogepm"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-10880",
+      "published_at": null,
+      "downloads": 233,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10880/thebridges-0.0.1-r10880.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10880",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10880/thebridges-0.0.1-r10880.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TheBridges",
+    "stable_release_id": 10880
+  }
+}

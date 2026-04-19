@@ -1,0 +1,61 @@
+{
+  "id": "mcpetoconsole",
+  "name": "MCPEToConsole",
+  "author": "DaDevGuy",
+  "description": "A powerful PocketMine-MP plugin that enables secure console command execution directly from within Minecraft PE.",
+  "readme_markdown": "# MCPEToConsole\r\n\r\n[![](https://poggit.pmmp.io/shield.state/MCPEToConsole)](https://poggit.pmmp.io/p/MCPEToConsole)\r\n\r\nA powerful PocketMine-MP plugin that enables secure console command execution directly from within Minecraft PE.\r\n\r\n## Features\r\n\r\n- Execute console commands directly from in-game\r\n- Secure password protection system\r\n- Command logging capabilities a log file\r\n- All commands are logged to both console and a dedicated log file\r\n- OP permission requirements\r\n- Command aliases support\r\n\r\n## Commands\r\n\r\n- `/console <password> <args...>` - Execute a console command\r\n- `/c <password> <args...>` - Shorthand alias for console command\r\n\r\n## Permissions\r\n\r\n- `mcpetoconsole.cmd` - Allows usage of the console command (default: op)\r\n\r\n# Credits\r\n\r\n* Icon From [FlatIcon](https://flaticon.com)",
+  "readme_source_url": "https://github.com/DaDevGuy/MCPEToConsole",
+  "icon_url": "https://raw.githubusercontent.com/DaDevGuy/MCPEToConsole/0f9f6abb72910f912ea3f18224e2f26b81018c04/assets/images/icon.png",
+  "featured": false,
+  "repo": "https://github.com/DaDevGuy/MCPEToConsole",
+  "archive_repo": null,
+  "approved_release_tag": "r-10882",
+  "stars": 0,
+  "total_downloads": 251,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaDevGuy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/198549",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-10882",
+      "published_at": null,
+      "downloads": 251,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10882/mcpetoconsole-2.0.1-r10882.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10882",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10882/mcpetoconsole-2.0.1-r10882.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MCPEToConsole",
+    "stable_release_id": 10882
+  }
+}

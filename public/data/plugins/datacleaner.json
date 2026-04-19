@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11396",
   "stars": 0,
-  "total_downloads": 331,
+  "total_downloads": 387,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-11274",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11274/datacleaner-5.0.0-r11274.phar"
+    },
+    {
+      "tag": "r-10953",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10953/datacleaner-4.0.0-r10953.phar"
     }
   ],
   "comments": {

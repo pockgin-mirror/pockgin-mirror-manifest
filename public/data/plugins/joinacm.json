@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14244",
   "stars": 0,
-  "total_downloads": 2417,
+  "total_downloads": 2729,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-11325",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11325/joinacm-2.0.1-r11325.phar"
+    },
+    {
+      "tag": "r-11045",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11045/joinacm-2.0.0-r11045.phar"
     }
   ],
   "comments": {

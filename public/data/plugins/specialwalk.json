@@ -1,0 +1,61 @@
+{
+  "id": "specialwalk",
+  "name": "SpecialWalk",
+  "author": "usy4",
+  "description": "SpecialWalk is plugin to make your walk so special with ore`s",
+  "readme_markdown": "# SpecialWalk\nSpecialWalk is plugin to make your walk so special with ore`s\n\n![SpecialWalk](https://user-images.githubusercontent.com/68358524/210122036-409f0100-2ec5-4e3f-8ae2-c0adfc2a0f73.gif)\n# How to use\nUsage: `/specialwalk <on/off/menu>` \n# Permissions\n```\npermissions:\n  specialwalk.command:\n    default: true\n  specialwalk.coal:\n    default: op\n  specialwalk.iron:\n    default: op\n  specialwalk.gold:\n    default: op\n  specialwalk.redstone:\n    default: op\n  specialwalk.lapis:\n    default: op\n  specialwalk.diamond:\n    default: op\n  specialwalk.emerald:\n    default: op\n  specialwalk.quartz:\n    default: op\n```\n# My Discord\n<a\nhref=\"https://discord.com/users/380045837457162242\" target=\"_blank\">\n\t<img width=\"100%\" align=\"center\" alt=\"Discord Status\" src=\"https://lanyard.cnrad.dev/api/380045837457162242\">\n</a>",
+  "readme_source_url": "https://github.com/usy4/SpecialWalk",
+  "icon_url": "https://raw.githubusercontent.com/usy4/SpecialWalk/c7b81ee0eb3a4508d01b8a5f7a7a92d6b66f16ff/SpecialWalk.png",
+  "featured": false,
+  "repo": "https://github.com/usy4/SpecialWalk",
+  "archive_repo": null,
+  "approved_release_tag": "r-10892",
+  "stars": 0,
+  "total_downloads": 59,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "usy4"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10892",
+      "published_at": null,
+      "downloads": 59,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10892/specialwalk-1.0.0-r10892.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10892",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10892/specialwalk-1.0.0-r10892.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SpecialWalk",
+    "stable_release_id": 10892
+  }
+}

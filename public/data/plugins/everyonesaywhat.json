@@ -1,0 +1,61 @@
+{
+  "id": "everyonesaywhat",
+  "name": "EveryoneSayWhat",
+  "author": "CraftCamp1",
+  "description": "Makes Everyone on a Server say Whatever You Want in PocketMine-MP",
+  "readme_markdown": "# EveryoneSayWhat\n![License](https://img.shields.io/github/license/CraftCamp1/EveryoneSayWhat)\n[![](https://poggit.pmmp.io/shield.dl.total/EveryoneSayWhat)](https://poggit.pmmp.io/p/EveryoneSayWhat)\n[![](https://poggit.pmmp.io/shield.state/EveryoneSayWhat)](https://poggit.pmmp.io/p/EveryoneSayWhat)\n[![](https://poggit.pmmp.io/shield.api/EveryoneSayWhat)](https://poggit.pmmp.io/p/EveryoneSayWhat)\n\nMakes Everyone on a Server say Whatever You Want in PocketMine-MP\n\n# Features\n- Allows specific players to run/overwrite the command.\n- Ability to make an entire server say any message you want.\n\n# Commands and Permissions\n```/everyonesaywhat``` and ```/esw```\n\n```everyonesaywhat.use``` accessible to op (default: op) - Permission to use the commands. \\\n```everyonesaywhat.deny``` accessible to op (default: op) - Permission to overwrite the commands.\n\n# Contact\nDiscord: CraftCamp#7003",
+  "readme_source_url": "https://github.com/CraftCamp1/EveryoneSayWhat",
+  "icon_url": "https://raw.githubusercontent.com/CraftCamp1/EveryoneSayWhat/9c2c7e6770f59f5359d88446afea379d429ba2ff/icon.png",
+  "featured": false,
+  "repo": "https://github.com/CraftCamp1/EveryoneSayWhat",
+  "archive_repo": null,
+  "approved_release_tag": "r-10934",
+  "stars": 0,
+  "total_downloads": 88,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "CraftCamp1"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10934",
+      "published_at": null,
+      "downloads": 88,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10934/everyonesaywhat-1.0.0-r10934.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10934",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10934/everyonesaywhat-1.0.0-r10934.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EveryoneSayWhat",
+    "stable_release_id": 10934
+  }
+}

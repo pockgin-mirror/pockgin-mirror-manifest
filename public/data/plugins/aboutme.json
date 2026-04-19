@@ -1,0 +1,61 @@
+{
+  "id": "aboutme",
+  "name": "AboutMe",
+  "author": "usy4",
+  "description": "This plugin you can with it write what you want about yourself and other players can read it or read about others",
+  "readme_markdown": "# AboutMe\nThis plugin you can with it write what you want about yourself and other players can read it or read about others\n\n<a\nhref=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" target=\"_blank\">\n![image](https://user-images.githubusercontent.com/68358524/209411085-cbaf250b-f90f-4759-a924-8e1b83d68aa9.png)\n</a>\n# How to use\nUsage: `/aboutme <write/read(player)>`\n# config\n```\n---\nDamageToRead: true\nWorldName: world\n...\n```\n# My Discord\n<a\nhref=\"https://discord.com/users/380045837457162242\" target=\"_blank\">\n\t<img width=\"100%\" align=\"center\" alt=\"Discord Status\" src=\"https://lanyard.cnrad.dev/api/380045837457162242\">\n</a>",
+  "readme_source_url": "https://github.com/usy4/AboutMe",
+  "icon_url": "https://raw.githubusercontent.com/usy4/AboutMe/cd1565ca518a451c360c868a72089894ed8f5655/AboutMe.png",
+  "featured": false,
+  "repo": "https://github.com/usy4/AboutMe",
+  "archive_repo": null,
+  "approved_release_tag": "r-10887",
+  "stars": 0,
+  "total_downloads": 2154,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "usy4"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10887",
+      "published_at": null,
+      "downloads": 2154,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10887/aboutme-1.0.0-r10887.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10887",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10887/aboutme-1.0.0-r10887.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AboutMe",
+    "stable_release_id": 10887
+  }
+}
