@@ -1,0 +1,61 @@
+{
+  "id": "easywarps",
+  "name": "EasyWarps",
+  "author": "ImperaZim",
+  "description": "Description",
+  "readme_markdown": "# <h3 align=\"center\">![EasyWarps](icon.png)</h3> \n \n## Description\n_The `EasyWarps` is a simple plugin to set teleport points on worlds to make it easier for players to get around!._\n\n- - - -\n## Downloads\nDownload the **[ZIP](https://github.com/ImperaZim/EasyWarps/archive/refs/heads/main.zip)** version of the plugin and its dependencies **[EasyLibrary](https://github.com/ImperaZim/EasyLibrary/archive/refs/heads/main.zip)** and upload it to your server quickly and easily!\n\n- - - -\n## Software support\n**[EasyWarps](https://github.com/ImperaZim/EasyWarps)** is a PHP plugin for **[PocketMine-MP](https://github.com/pmmp/PocketMine-MP )**, designed specifically for versions 5.17.0 and higher. It may not work on older versions or other webserver APIs! \n\n----\n## For developers\n The plugin provides some public events to be used in other plugins such as:\n-  [WarpCreateEvent](https://github.com/ImperaZim/EasyWarps/blob/main/src/imperazim/warp/event/WarpCreateEvent.php): **Always** called when an admin creates a new warp.\n-  [WarpDeleteEvent](https://github.com/ImperaZim/EasyWarps/blob/main/src/imperazim/warp/event/WarpDeleteEvent.php): **Always** called when an admin deletes a warp.\n-  [WarpTeleportEvent](https://github.com/ImperaZim/EasyWarps/blob/main/src/imperazim/warp/event/WarpTeleportEvent.php): **Always** called when a player teleports to a warp.\n\n----\n## Licensing information\nThis project is licensed under MIT. Please see the [LICENSE](/LICENSE) file for details.",
+  "readme_source_url": "https://github.com/ImperaZim/EasyWarps",
+  "icon_url": "https://raw.githubusercontent.com/ImperaZim/EasyWarps/942d89b304f9f61c017777ee706d8d57260709ef/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ImperaZim/EasyWarps",
+  "archive_repo": null,
+  "approved_release_tag": "r-10663",
+  "stars": 5,
+  "total_downloads": 1490,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ImperaZim"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10663",
+      "published_at": null,
+      "downloads": 1490,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10663/easywarps-1.0.0-r10663.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10663",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10663/easywarps-1.0.0-r10663.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EasyWarps",
+    "stable_release_id": 10663
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "customvanillaenchants",
+  "name": "CustomVanillaEnchants",
+  "author": "Muqsit",
+  "description": "CustomVanillaEnchants lets you configure value expressions for registered enchantments.",
+  "readme_markdown": "# CustomVanillaEnchants\n[![](https://poggit.pmmp.io/shield.state/CustomVanillaEnchants)](https://poggit.pmmp.io/p/CustomVanillaEnchants)\n\nCustomVanillaEnchants lets you configure value expressions for registered enchantments.\n\n## How to Use\nRun `/cve list` in console or in-game.\n```\n> cve list\n/cve list <enchantment>\nAvailable Enchantments: blast_protection, feather_falling, fire_aspect, fire_protection, knockback, projectile_protection, protection, sharpness\n```\n\nTo view configurable entries of the knockback enchantment, run `/cve list knockback`.\n```\n> cve list knockback\nEnchantment (\"knockback\") Configuration\ndamage_bonus: 0\nforce: level * 0.5\n```\n\nTo change knockback enchantment's `force` value to `level * 0.35`, run `/cve set knockback force level * 0.35`.\n```\n> cve set knockback force level * 0.35\nUpdated configuration for knockback->force\nOutdated Value: level * 0.5\nUpdated Value: level * 0.35\n```\n\n`default` can be used as a placeholder for the configuration's default value. For example, `/cve set knockback force default * 2` sets knockback's force value to `level * 0.5 * 2` (= `level`). To reset knockback enchantment's `force` to its default value, run `/cve reset knockback force`.\n\nChanges take place right away, a server restart is not required. See the [arithmexp wiki](https://github.com/Muqsit/arithmexp/wiki) for a list of [constants](https://github.com/Muqsit/arithmexp/wiki/Constant#list-of-pre-defined-constants), [functions](https://github.com/Muqsit/arithmexp/wiki/Function#list-of-available-functions), and [operators](https://github.com/Muqsit/arithmexp/wiki/Operator) that can be used in expressions.",
+  "readme_source_url": "https://github.com/Muqsit/CustomVanillaEnchants",
+  "icon_url": "https://raw.githubusercontent.com/Muqsit/CustomVanillaEnchants/56e7a55be7b19dfaf90fc36379ca2e69d6bb78b2/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Muqsit/CustomVanillaEnchants",
+  "archive_repo": null,
+  "approved_release_tag": "r-10806",
+  "stars": 0,
+  "total_downloads": 501,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.10.1-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Muqsit"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-10806",
+      "published_at": null,
+      "downloads": 501,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10806/customvanillaenchants-0.0.2-r10806.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10806",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10806/customvanillaenchants-0.0.2-r10806.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomVanillaEnchants",
+    "stable_release_id": 10806
+  }
+}

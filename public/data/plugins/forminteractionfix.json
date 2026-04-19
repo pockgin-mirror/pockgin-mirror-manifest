@@ -1,0 +1,61 @@
+{
+  "id": "forminteractionfix",
+  "name": "FormInteractionFix",
+  "author": "Endermanbugzjfc",
+  "description": "Form Interaction Fix",
+  "readme_markdown": "# <img src=\"https://github.com/Endermanbugzjfc/FormInteractionFix/blob/master/assets/icon.jpeg\" width=75/ title=\"Credit: from windows93.net\"> Form Interaction Fix\n[![CI](https://github.com/Endermanbugzjfc/FormInteractionFix/actions/workflows/main.yml/badge.svg)](https://github.com/Endermanbugzjfc/FormInteractionFix/actions/workflows/main.yml)\n[![Please click here to report a problem.](https://img.shields.io/github/issues-raw/Endermanbugzjfc/FormInteractionFix)](https://github.com/Endermanbugzjfc/FormInteractionFix/issues/new)\n# Interaction spam\n## Explanation\nInteraction spam is often a problem for players who use the mouse as their input.\nTry to interact (right-click) while facing a block.\nYou may notice that PlayerInteractEvent is called many times in a short period.\nIf a plugin opens its form on interaction, these players will see the form opens more than once.\n\n## Problem demo (before installing)\n![Before installing FormInteractionFix](https://github.com/Endermanbugzjfc/FormInteractionFix/blob/master/assets/problem.gif)\n\n## Fix demo (after installing)\n![After installing FormInteractionFix](https://github.com/Endermanbugzjfc/FormInteractionFix/blob/master/assets/fix.gif)\n\n# The fix\nThis plugin blocks interaction when a form opens.\n(NPC dialogues will be supported soon™.) By listening for packets and cancelling interaction events after a form is sent to the player.\nUntil the player responds to (or closes) it.\n\n# Potential problems\nThis plugin relies on packets very much. And can malfunction if a client does not respond with the correct packet. For instance, official clients would not open a form in that the JSON of its packet is invalid. Eventually, the client can neither react to any form nor make any interaction.\n\n# Inclusiveness\nAs this plugin is driven by packets, it works for all forms, no matter which plugin creates them.\n\n# Disclaimer\nThis plugin cannot prevent any malicious attacks or behaviours.\n\n# Developer note\n## Depending on this plugin\nYour plugin can depend on this plugin instead of verbosely implementing an interaction cool down on your own.\n\n## await-generator & await-std\nBoth were made by [@SOF3](https://github.com/SOF3):\n- [await-generator](https://github.com/SOF3/await-generator):  brings async/awaits to PHP. (Version ^3.4.3 is required because it fixes the [Traverser error.](https://github.com/SOF3/await-generator/pull/184))\n- [await-std](https://github.com/SOF3/await-std): enables the use of PM API in async/await style, such as tasks and events.\n\nDo not worry when you see unusual code like `while (true)` and `yield`. It will not block the thread. Instead, `yield` can pause the code flow and make it behaves like concurrency.\n\n## IntegratedTest.php\nPerforms integrated tests with [FakePlayer by Muqsit](https://github.com/muqsit/fakeplayer). Please refer to the [doc comments](https://github.com/Endermanbugzjfc/FormInteractionFix/blob/b38e413e1de56660c4a2ba99e2f1498258cae3ad/IntegratedTest.php#L34-L48) in it for more details.\n\n## PHPStan & PHP-CS-Fixer\nCommon PHP dev tools:\n- [PHPStan](https://github.com/phpstan/phpstan): lint. (static code check.)\n- [PHP-CS-Fixer](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer): fixes code standard. (Format code, replace FQCN with `use`, etc... Do not get confused with [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer)!)\n\n# Credit\n- Icon from https://windows93.net\n- Thanks [@alvin0319](https://github.com/alvin0319) for providing me environment to perform live tests and record the demos.",
+  "readme_source_url": "https://github.com/Endermanbugzjfc/FormInteractionFix",
+  "icon_url": "https://raw.githubusercontent.com/Endermanbugzjfc/FormInteractionFix/7dd5937bbb398fbfff91b81288cc0cb724696bcb/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Endermanbugzjfc/FormInteractionFix",
+  "archive_repo": null,
+  "approved_release_tag": "r-10789",
+  "stars": 5,
+  "total_downloads": 212,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Endermanbugzjfc"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10789",
+      "published_at": null,
+      "downloads": 212,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10789/forminteractionfix-1.0.0-r10789.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10789",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10789/forminteractionfix-1.0.0-r10789.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FormInteractionFix",
+    "stable_release_id": 10789
+  }
+}

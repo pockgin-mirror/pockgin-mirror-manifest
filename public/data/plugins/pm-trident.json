@@ -1,0 +1,61 @@
+{
+  "id": "pm-trident",
+  "name": "PM-Trident",
+  "author": "note3crafter",
+  "description": "Trident",
+  "readme_markdown": "# Trident\nAdd Trident to Server\nFor PocketMine-MP API4\n\n# Credits to old PM3 Code\nhttps://github.com/CortexPE",
+  "readme_source_url": "https://github.com/note3crafter/PM-Trident",
+  "icon_url": "https://raw.githubusercontent.com/note3crafter/PM-Trident/4f8fb2edc8935d0aab251fc4706ca5add0af0e29/icon.png",
+  "featured": false,
+  "repo": "https://github.com/note3crafter/PM-Trident",
+  "archive_repo": null,
+  "approved_release_tag": "r-10709",
+  "stars": 5,
+  "total_downloads": 1092,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "note3crafter"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-10709",
+      "published_at": null,
+      "downloads": 1092,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10709/pm-trident-2.0.0-r10709.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10709",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10709/pm-trident-2.0.0-r10709.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PM-Trident",
+    "stable_release_id": 10709
+  }
+}

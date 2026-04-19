@@ -1,0 +1,66 @@
+{
+  "id": "buildbattle",
+  "name": "BuildBattle",
+  "author": "cooldogepm",
+  "description": "An extremely customizable BuildBattle mini-game designed for scalability and simplicity.",
+  "readme_markdown": "# BuildBattle\r\n\r\n<p align=\"center\">\r\n\t<a href=\"https://github.com/cooldogedev/BuildBattle\"><img\r\n            src=\"https://github.com/cooldogedev/BuildBattle/blob/main/assets/icon.png?raw=true\"/></a><br>\r\n\tAn extremely customizable BuildBattle mini-game designed for scalability and simplicity.\r\n</p>\r\n\r\n## Features\r\n\r\n- Customisable messages and scoreboard\r\n- Multi arena support\r\n- Waiting lobby support\r\n- Auto-queue support\r\n- Game statistics\r\n- SQLite support\r\n- MySQL support\r\n\r\n## Commands\r\n\r\n|      Command       |          Description          |           Permission           |\r\n|:------------------:|:-----------------------------:|:------------------------------:|\r\n| buildbattle create |      Create a new arena.      | `buildbattle.subcommand.create` |\r\n| buildbattle delete | Delete an existing arena. | `buildbattle.subcommand.delete` |\r\n|  buildbattle list  | List all available arenas. |  `buildbattle.subcommand.list`  |\r\n|  buildbattle join  |    Join a game.    |  `buildbattle.subcommand.join`  |\r\n|  buildbattle quit  |    Quit a game.    |  `buildbattle.subcommand.quit`  |\r\n\r\n### Arena creation\r\n\r\n#### Format\r\n\r\n`buildbattle create <name: string> <lobby: string> <world: string> <countdown: int> <min_players: int> <max_players: int> <build_duration: int> <build_height: int> <vote_duration: int> <end_duration: int>`\r\n\r\n#### Example\r\n\r\n`buildbattle create name game-lobby game-world 30 6 24 300 30 10 10`",
+  "readme_source_url": "https://github.com/cooldogepm/BuildBattle",
+  "icon_url": "https://raw.githubusercontent.com/cooldogedev/BuildBattle/8d37cad3c0e8faa0899c8526699a33b97477abfc/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/cooldogepm/BuildBattle",
+  "archive_repo": null,
+  "approved_release_tag": "r-10589",
+  "stars": 0,
+  "total_downloads": 1190,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "cooldogepm"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/193262",
+  "versions": {
+    "stable": {
+      "version": "0.0.3",
+      "tag": "r-10589",
+      "published_at": null,
+      "downloads": 1115,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10589/buildbattle-0.0.3-r10589.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10589",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10589/buildbattle-0.0.3-r10589.phar"
+    },
+    {
+      "tag": "r-10563",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10563/buildbattle-0.0.2-r10563.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BuildBattle",
+    "stable_release_id": 10589
+  }
+}

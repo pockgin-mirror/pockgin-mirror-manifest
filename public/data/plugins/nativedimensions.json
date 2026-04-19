@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11040",
   "stars": 0,
-  "total_downloads": 989,
+  "total_downloads": 2528,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,16 +34,27 @@
       "version": "1.0.0-beta11",
       "tag": "r-11040",
       "published_at": null,
-      "downloads": 989,
+      "downloads": 990,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11040/nativedimensions-1.0.0-beta11-r11040.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "1.0.0-beta9",
+      "tag": "r-10749",
+      "published_at": null,
+      "downloads": 1538,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10749/nativedimensions-1.0.0-beta9-r10749.phar"
+    }
   },
   "recent_builds": [
     {
       "tag": "r-11040",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11040/nativedimensions-1.0.0-beta11-r11040.phar"
+    },
+    {
+      "tag": "r-10749",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10749/nativedimensions-1.0.0-beta9-r10749.phar"
     }
   ],
   "comments": {

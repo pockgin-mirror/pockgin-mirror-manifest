@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11895",
   "stars": 0,
-  "total_downloads": 1325,
+  "total_downloads": 1622,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-11085",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11085/cb-heads-4.3-r11085.phar"
+    },
+    {
+      "tag": "r-10801",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10801/cb-heads-4.2-r10801.phar"
     }
   ],
   "comments": {

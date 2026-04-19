@@ -1,0 +1,61 @@
+{
+  "id": "simplenpc",
+  "name": "SimpleNPC",
+  "author": "brokiem",
+  "description": "An Ultimate NPC plugin made by brokiem for PocketMine-MP.",
+  "readme_markdown": "<h1>SimpleNPC<img src=\"assets/icon.png\" height=\"64\" width=\"64\" align=\"left\" alt=\"\"></h1><br>\n\n<b>An Ultimate NPC plugin made by brokiem for PocketMine-MP.</b><br>\n[![License](https://img.shields.io/github/license/brokiem/SimpleNPC)](https://github.com/brokiem/SimpleNPC)\n[![Star](https://img.shields.io/github/stars/brokiem/SimpleNPC)](https://github.com/brokiem/SimpleNPC/stargazers)\n[![Discord](https://img.shields.io/discord/830063409000087612?color=7389D8&label=discord)](https://discord.com/invite/jy6abSrjhQ)\n[![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dbrokiem%26type%3Dpatrons&style=flat)](https://patreon.com/brokiem)\n[![Poggit](https://poggit.pmmp.io/shield.dl.total/SimpleNPC)](https://poggit.pmmp.io/p/SimpleNPC)\n\n## ✨ Features\n\n- Right click to interact! ✔\n- NPC can walk! ✔\n- Set NPC skin with URL! ✔\n- Register your own entity! ✔\n- NPC with Cape supported! ✔\n- NPC with Custom Geometry! ✔\n- Edit NPC with UI/Form! ✔\n- NPC without nametag ✔\n- Custom NPC Size/Scale ✔\n- Live updates without restart ✔\n- Cooldown for commands ✔\n- NPC can look at players ✔\n- Lightweight & Open Source ❤\n\n## 💬 Commands\n\n<b>For more command info, please look directly at ```/snpc help```</b><br> or you can use <b>```/snpc ui```</b><br>\n\n| Command | Description | Permission | Default |\n| --- | --- | --- | --- |\n| ```/snpc``` | ```SimpleNPC command list``` | ```none``` | ```true``` |\n| ```/snpc ui``` | ```Manage npc with UI/Form``` | ```simplenpc.ui``` | ```op``` |\n| ```/snpc spawn``` | ```Spawn an npc``` | ```simplenpc.spawn``` | ```op``` |\n| ```/snpc edit``` | ```Edit the npc``` | ```simplenpc.edit``` | ```op``` |\n| ```/snpc id``` | ```Get the npc id``` | ```simplenpc.id``` | ```op``` |\n| ```/snpc reload``` | ```Reload plugin config``` | ```simplenpc.reload``` | ```op``` |\n| ```/snpc remove``` | ```Remove the npc``` | ```simplenpc.remove``` | ```op``` |\n| ```/snpc list``` | ```See the npc list``` | ```simplenpc.list``` | ```op``` |\n\n## 📝 Todo List\n\n- Add custom walking path\n\n## ❔ Issues\n\nDid you find a bug or error when using this plugin? feel free to open the\nissues [here](https://github.com/brokiem/SimpleNPC/issues/new)\n\n## 🖥 Developers\n\nIf you want to register your own entity, take a look at\nthis [plugin](https://github.com/brokiem-pm-pl/CustomEntity/tree/pm4)<br>\nYou can also customize NPCs geometry by customizing the NPC skins\n\n## 👑 Donation\n\nPatreon - https://www.patreon.com/join/brokiem <br>\nSaweria - https://saweria.co/brokiem\n\n## 🖼 Images\n\n<img src=\"assets/simplenpc.png\" alt=\"\">\n<img src=\"assets/1.17-npc.png\" alt=\"\">",
+  "readme_source_url": "https://github.com/brokiem/SimpleNPC",
+  "icon_url": "https://raw.githubusercontent.com/brokiem/SimpleNPC/91738661001783f2d4d5c3af3d4f655e20a5a894/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/brokiem/SimpleNPC",
+  "archive_repo": null,
+  "approved_release_tag": "r-10730",
+  "stars": 5,
+  "total_downloads": 5254,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "brokiem"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/195905",
+  "versions": {
+    "stable": {
+      "version": "4.0.1",
+      "tag": "r-10730",
+      "published_at": null,
+      "downloads": 5254,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10730/simplenpc-4.0.1-r10730.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10730",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10730/simplenpc-4.0.1-r10730.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleNPC",
+    "stable_release_id": 10730
+  }
+}

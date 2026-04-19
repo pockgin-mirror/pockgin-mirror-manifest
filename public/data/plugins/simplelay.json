@@ -1,0 +1,61 @@
+{
+  "id": "simplelay",
+  "name": "SimpleLay",
+  "author": "brokiem",
+  "description": "Description",
+  "readme_markdown": "<h1>SimpleLay<img src=\"https://github.com/brokiem/SimpleLay/blob/master/assets/logo.PNG\" height=\"64\" width=\"64\" align=\"left\" alt=\"\"></h1><br>\n\n[![License](https://img.shields.io/github/license/brokiem/SimpleLay)](https://github.com/brokiem/SimpleLay)\n[![Poggit](https://poggit.pmmp.io/shield.state/SimpleLay)](https://poggit.pmmp.io/p/SimpleLay)\n[![Poggit](https://poggit.pmmp.io/shield.dl.total/SimpleLay)](https://poggit.pmmp.io/p/SimpleLay)\n[![Star](https://img.shields.io/github/stars/brokiem/SimpleLay)](https://github.com/brokiem/SimpleLay/stargazers) <br>\n\n### Description\n\nWith this plugin, you can sit and lay down wherever you want!\n\n### Commands\n\n| Command | Description | Permission | Default |\n| --- | --- | --- | --- |\n| ```/lay``` | ```Lay on a block``` | ```simplelay.lay``` | ```true``` |\n| ```/sit``` | ```Sit on a block``` | ```simplelay.sit``` | ```true``` |\n| ```/sittoggle``` | ```Toggle sit when tapping block``` | ```simplelay.sittoggle``` | ```true``` |\n| ```/skick``` | ```Kick the player from a sitting or laying location``` | ```simplelay.skick``` | ```op``` |\n\n### Issues\n\nKnown Issues:\n\n- No known issues :D\n\nFor another issues, please report [here](https://github.com/brokiem/SimpleLay/issues/new)\n\n### Images\n\n<img src=\"https://github.com/brokiem/SimpleLay/blob/master/assets/laying1.PNG\" alt=\"\">\n<img src=\"https://github.com/brokiem/SimpleLay/blob/master/assets/sit1.PNG\" alt=\"\">",
+  "readme_source_url": "https://github.com/brokiem/SimpleLay",
+  "icon_url": "https://raw.githubusercontent.com/brokiem/SimpleLay/56ac481ed933597d14e5dd597deb8382b50276a2/assets/logo.PNG",
+  "featured": false,
+  "repo": "https://github.com/brokiem/SimpleLay",
+  "archive_repo": null,
+  "approved_release_tag": "r-10729",
+  "stars": 5,
+  "total_downloads": 2728,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "brokiem"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/195867",
+  "versions": {
+    "stable": {
+      "version": "3.0.2",
+      "tag": "r-10729",
+      "published_at": null,
+      "downloads": 2728,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10729/simplelay-3.0.2-r10729.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10729",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10729/simplelay-3.0.2-r10729.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleLay",
+    "stable_release_id": 10729
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "clearlag",
+  "name": "ClearLag",
+  "author": "tobiaskirchmaier",
+  "description": "A plugin for Pocketmine-MP",
+  "readme_markdown": "<h1 align=\"center\">ClearLag</h1>\n<p align=\"center\">\nA plugin for <a href=\"https://github.com/pmmp/PocketMine-MP\">Pocketmine-MP</a>\n</p>\n\n---\n\n## About\nClearLag is a plugin for Pocketmine-MP that removes entities after a certain period of time to prevent lags.\n\n## Installation\n\n- [Download](https://poggit.pmmp.io/p/ClearLag) ClearLag\n- Move the plugin (`ClearLag.phar`) to the `plugins/` folder of your server\n- Start the server, that's it!\n\n## For Developers\nYou can use ClearLag in your plugins to remove entities.\n\nYou can either use the `ClearLag->doClear()` method, which follows the configuration of the ClearLag plugin:\n```php\n$result = \\tobias14\\clearlag\\ClearLag::getInstance()->doClear();\n\n/** @var int $clearedEntityCount Number of cleared entities */\n$clearedEntityCount = $result['entity_count'];\n\n/** @var int $clearedItemCount Number of cleared items */\n$clearedItemCount = $result['item_count'];\n```\n\nOr you can use the `EntityRemover`, which offers a few more options and does not use the configuration of the ClearLag plugin:\n```php\nfinal class EntityRemover\n{\n\n    /**\n     * @param array<class-string<Entity>>|null $entityTypes Entity types to be removed. If null, all will be removed.\n     * @param string[] $exclusions Entity-/item-names which are spared.\n     * @param World[]|null $worlds Affected worlds. If null all loaded worlds.\n     * @return int Number of removed entities.\n     */\n    public static function removeEntities(?array $entityTypes = null, array $exclusions = [], ?array $worlds = null): int;\n\n}\n```\n\nE.g. removal of all entities that inherit from `Zombie`, except `CustomZombie`(s).\n```php\n/** @var int $clearedEntityCount Number of cleared entities */\n$clearedEntityCount = \\tobias14\\clearlag\\utils\\EntityRemover::removeEntities([\\pocketmine\\entity\\Zombie::class], ['CustomZombie']);\n```\n\n## Contributing\nYou think you can do better or have discovered a bug? Then do it yourself and help the project.\n\nSimply fork the repository and create a pull request.\n\n## License\n- GPL-3.0\n\n<sub><sup>Icon by <a href=\"https://icons8.com/\">Icons8</a></sup></sub>",
+  "readme_source_url": "https://github.com/tobiaskirchmaier/ClearLag",
+  "icon_url": "https://raw.githubusercontent.com/Tobias-2006/ClearLag/03e2a03a5f8868216dfc89eb78f51523ff228d6b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/tobiaskirchmaier/ClearLag",
+  "archive_repo": null,
+  "approved_release_tag": "r-10625",
+  "stars": 5,
+  "total_downloads": 7020,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "tobiaskirchmaier"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/194723",
+  "versions": {
+    "stable": {
+      "version": "2.1.0",
+      "tag": "r-10625",
+      "published_at": null,
+      "downloads": 7020,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10625/clearlag-2.1.0-r10625.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10625",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10625/clearlag-2.1.0-r10625.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ClearLag",
+    "stable_release_id": 10625
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "tnttag",
+  "name": "TNTTag",
+  "author": "cooldogepm",
+  "description": "An extremely customizable TNTTag mini-game designed for scalability and simplicity.",
+  "readme_markdown": "# TNTTag\n<p align=\"center\">\n\t<a href=\"https://github.com/cooldogedev/TNTTag\"><img\n            src=\"https://github.com/cooldogedev/TNTTag/blob/main/assets/icon.png?raw=true\"/></a><br>\n\tAn extremely customizable TNTTag mini-game designed for scalability and simplicity.\n</p>\n\n## Features\n- Customisable messages and scoreboard\n- Multi arena support\n- Waiting lobby support\n- Auto-queue support\n- Game statistics\n- SQLite support\n- MySQL support\n\n## Commands\n|    Command    |          Description          |         Permission         |\n|:-------------:|:-----------------------------:|:--------------------------:|\n| tnttag create |      Create a new arena.      | `tnttag.subcommand.create` |\n| tnttag delete | Delete an existing arena. | `tnttag.subcommand.delete` |\n|  tnttag list  | List all available arenas. |  `tnttag.subcommand.list`  |\n|  tnttag join  |    Join a game.    |  `tnttag.subcommand.join`  |\n|  tnttag quit  |    Quit a game.    |  `tnttag.subcommand.quit`  |\n\n### Arena creation\n#### Format\n`tnttag create <name:string> <world:string> <countdown:string> <min_players:string> <max_players:string> <round_duration:string> <grace_duration:string> <end_duration:string> [lobby:string]`\n#### Example\n`tnttag create test game-world 30 8 40 60 20 10 game-lobby`",
+  "readme_source_url": "https://github.com/cooldogepm/TNTTag",
+  "icon_url": "https://raw.githubusercontent.com/cooldogedev/TNTTag/920f601b67c8331a7233c1f5e77d4d5b80622cf6/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/cooldogepm/TNTTag",
+  "archive_repo": null,
+  "approved_release_tag": "r-10588",
+  "stars": 0,
+  "total_downloads": 410,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "cooldogepm"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/193257",
+  "versions": {
+    "stable": {
+      "version": "0.0.4",
+      "tag": "r-10588",
+      "published_at": null,
+      "downloads": 363,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10588/tnttag-0.0.4-r10588.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10588",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10588/tnttag-0.0.4-r10588.phar"
+    },
+    {
+      "tag": "r-10564",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10564/tnttag-0.0.3-r10564.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TNTTag",
+    "stable_release_id": 10588
+  }
+}

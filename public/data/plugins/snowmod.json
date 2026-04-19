@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10851",
   "stars": 0,
-  "total_downloads": 394,
+  "total_downloads": 631,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "3.0.2",
       "tag": "r-10851",
       "published_at": null,
-      "downloads": 394,
+      "downloads": 395,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10851/snowmod-3.0.2-r10851.phar"
     },
     "dev": null
@@ -44,6 +44,16 @@
       "tag": "r-10851",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10851/snowmod-3.0.2-r10851.phar"
+    },
+    {
+      "tag": "r-10742",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10742/snowmod-3.0.1-r10742.phar"
+    },
+    {
+      "tag": "r-10724",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10724/snowmod-3.0.0-r10724.phar"
     }
   ],
   "comments": {

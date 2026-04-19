@@ -1,0 +1,61 @@
+{
+  "id": "swordmodded",
+  "name": "SwordModded",
+  "author": "Aetheam",
+  "description": "Description",
+  "readme_markdown": "# Description\nWith the plugin you can modify the damage and durability of swords\n\n# Use\nTo change the damage en durability of the swords go to the configuration locate in plugin_data folder\n\n# Config\n---\ngolden_durability: \"32\"\ngolden_attack: \"4\"\niron_durability: \"250\"\niron_attack: \"6\"\nwooden_durability: \"59\"\nwooden_attack: \"2\"\nstone_durability: \"131\"\nstone_attack: \"3\"\ndiamond_durability: \"1561\"\ndiamond_attack: \"8\"",
+  "readme_source_url": "https://github.com/Aetheam/SwordModded",
+  "icon_url": "https://raw.githubusercontent.com/Aetheam/SwordModded/6ef29be9e6727d4e32771e754b1dc60f25fceced/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Aetheam/SwordModded",
+  "archive_repo": null,
+  "approved_release_tag": "r-10569",
+  "stars": 0,
+  "total_downloads": 371,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Aetheam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10569",
+      "published_at": null,
+      "downloads": 371,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10569/swordmodded-1.0.0-r10569.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10569",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10569/swordmodded-1.0.0-r10569.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SwordModded",
+    "stable_release_id": 10569
+  }
+}

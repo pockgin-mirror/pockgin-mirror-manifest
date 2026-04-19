@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12460",
   "stars": 0,
-  "total_downloads": 1694,
+  "total_downloads": 2741,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-12460",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12460/knockbackffa-1.7.0-r12460.phar"
+    },
+    {
+      "tag": "r-10667",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10667/knockbackffa-1.6.1-beta-r10667.phar"
     }
   ],
   "comments": {

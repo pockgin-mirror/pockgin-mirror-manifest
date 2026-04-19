@@ -1,0 +1,71 @@
+{
+  "id": "sitwands",
+  "name": "SitWands",
+  "author": "usy4",
+  "description": "a wand allow players to sit on another players, its simple.",
+  "readme_markdown": "# SitWands\na wand allow players to sit on another players, its simple.\n# How to use\nJust do /sitwands and you will get 2 wands for sit.\n# permissions\nsitwands.command\n# My Discord\n<a\nhref=\"https://discord.com/users/380045837457162242\" target=\"_blank\">\n\t<img width=\"100%\" align=\"center\" alt=\"Discord Status\" src=\"https://lanyard.cnrad.dev/api/380045837457162242\">\n</a>",
+  "readme_source_url": "https://github.com/usy4/SitWands",
+  "icon_url": "https://raw.githubusercontent.com/usy4/SitWands/45e33abe9f05fd3062e93c4f94226b54798ecef0/SitWandsLogo.png",
+  "featured": false,
+  "repo": "https://github.com/usy4/SitWands",
+  "archive_repo": null,
+  "approved_release_tag": "r-10636",
+  "stars": 5,
+  "total_downloads": 473,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "usy4"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/194302",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-10636",
+      "published_at": null,
+      "downloads": 386,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10636/sitwands-1.0.3-r10636.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10636",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10636/sitwands-1.0.3-r10636.phar"
+    },
+    {
+      "tag": "r-10628",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10628/sitwands-1.0.2-r10628.phar"
+    },
+    {
+      "tag": "r-10566",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10566/sitwands-1.0.1-r10566.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SitWands",
+    "stable_release_id": 10636
+  }
+}

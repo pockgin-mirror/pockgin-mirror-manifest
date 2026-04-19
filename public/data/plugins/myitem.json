@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13416",
   "stars": 5,
-  "total_downloads": 640,
+  "total_downloads": 836,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-12342",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12342/myitem-1.0.0-r12342.phar"
+    },
+    {
+      "tag": "r-10678",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10678/myitem-0.0.2-r10678.phar"
     }
   ],
   "comments": {

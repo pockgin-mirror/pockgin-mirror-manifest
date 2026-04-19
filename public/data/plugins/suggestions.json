@@ -1,0 +1,66 @@
+{
+  "id": "suggestions",
+  "name": "Suggestions",
+  "author": "usy4",
+  "description": "Players can suggest for your server",
+  "readme_markdown": "# Suggestions\nPlayers can suggest for your server\n# How to use\n/suggestions A suggestion form will open\n# Permissions\n```\npermissions:\n  suggestions.command:\n    default: true\n  suggestions.admin:\n default: op\n```\n# config\n```\n---\n# suggestions list limit\nAllMax: 30\n\n# player suggestions limit\nPlayerMax: 3\n...\n```\n# My Discord\n<a\nhref=\"https://discord.com/users/380045837457162242\" target=\"_blank\">\n\t<img width=\"100%\" align=\"center\" alt=\"Discord Status\" src=\"https://lanyard.cnrad.dev/api/380045837457162242\">\n</a>",
+  "readme_source_url": "https://github.com/usy4/Suggestions",
+  "icon_url": "https://raw.githubusercontent.com/usy4/Suggestions/a615bf263c4347c5970ad37a71c3c3ecbeb47601/Suggestions.png",
+  "featured": false,
+  "repo": "https://github.com/usy4/Suggestions",
+  "archive_repo": null,
+  "approved_release_tag": "r-10707",
+  "stars": 0,
+  "total_downloads": 236,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "usy4"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/195560",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-10707",
+      "published_at": null,
+      "downloads": 171,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10707/suggestions-1.0.1-r10707.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10707",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10707/suggestions-1.0.1-r10707.phar"
+    },
+    {
+      "tag": "r-10635",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10635/suggestions-1.0.0-r10635.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Suggestions",
+    "stable_release_id": 10707
+  }
+}

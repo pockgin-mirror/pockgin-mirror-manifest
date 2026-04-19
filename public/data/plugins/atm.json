@@ -1,0 +1,63 @@
+{
+  "id": "atm",
+  "name": "Atm",
+  "author": "achedon12",
+  "description": "[FR] Simple plugin d'Atm compatible avec BedrockEconomy",
+  "readme_markdown": "# About\n\n![icon](icon.png)\n\n[FR] Simple plugin d'Atm compatible avec [BedrockEconomy](https://poggit.pmmp.io/p/bedrockeconomy)\n\n[ENG] Simple Atm plugin working with [BedrockEconomy](https://poggit.pmmp.io/p/bedrockeconomy)\n\n-----------------\n## Credit\n\n[FR] N'hésitez pas à donner votre avis sur le plugin et sur quoi il peut être amélioré\n\n[ENG] Feel free to give your opinion on the plugin and on what it can be improved\n\n\n> [ENG] You can configure all this plugin \n\n> [FR] Vous pouvez configurez entierement le plugin\n\n\n-----------------\n\n## Contact\n\nMade with ❤ by [Achedon](https://github.com/achedon12)\n\n[My discord server](https://discord.gg/GdaJ6Q9r)\n\ndiscord: achedon12#0034",
+  "readme_source_url": "https://github.com/achedon12/Atm",
+  "icon_url": "https://raw.githubusercontent.com/achedon12/Atm/1ce05d88fc71adfcedadc947ed6e55b58c4fb76a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/achedon12/Atm",
+  "archive_repo": null,
+  "approved_release_tag": "r-10572",
+  "stars": 0,
+  "total_downloads": 1894,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [
+      "BedrockEconomy"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "achedon12"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10572",
+      "published_at": null,
+      "downloads": 1894,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10572/atm-1.0.0-r10572.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10572",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10572/atm-1.0.0-r10572.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Atm",
+    "stable_release_id": 10572
+  }
+}
