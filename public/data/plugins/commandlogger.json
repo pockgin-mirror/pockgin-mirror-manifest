@@ -1,0 +1,61 @@
+{
+  "id": "commandlogger",
+  "name": "CommandLogger",
+  "author": "HyperFlareMC",
+  "description": "Now comptabile with PM4 and PHP 8.0 in v1.1.0!**",
+  "readme_markdown": "# CommandLogger\n\n**Now comptabile with PM4 and PHP 8.0 in v1.1.0!**\n\nA simple plugin for PocketMine-MP to log all commands, registered or not, sent by players into Console or Discord!\n\n# Installation\nYou can download this plugin right off of Poggit! The link is -> https://poggit.pmmp.io/p/CommandLogger/1.0.0 <-\n\nIf you have any issues with setup or installation, let me know and I'll be glad to help!",
+  "readme_source_url": "https://github.com/HyperFlareMC/CommandLogger",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/HyperFlareMC/CommandLogger",
+  "archive_repo": null,
+  "approved_release_tag": "r-9652",
+  "stars": 0,
+  "total_downloads": 990,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HyperFlareMC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/174878",
+  "versions": {
+    "stable": {
+      "version": "1.1.2",
+      "tag": "r-9652",
+      "published_at": null,
+      "downloads": 990,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9652/commandlogger-1.1.2-r9652.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9652",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9652/commandlogger-1.1.2-r9652.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CommandLogger",
+    "stable_release_id": 9652
+  }
+}

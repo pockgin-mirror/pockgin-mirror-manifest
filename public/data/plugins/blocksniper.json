@@ -1,0 +1,63 @@
+{
+  "id": "blocksniper",
+  "name": "BlockSniper",
+  "author": "BlockHorizons",
+  "description": "An innovative brush world editing tool for PocketMine-MP: A Minecraft server software written in PHP.",
+  "readme_markdown": "# BlockSniper<a href=\"https://github.com/BlockHorizons/BlockSniper\"><img src=\"https://github.com/BlockHorizons/BlockSniper/blob/master/resources/block_sniper_logo.png\" width=\"60\" height=\"60\" align=\"right\"></a>\n\nAn innovative brush world editing tool for PocketMine-MP: A Minecraft server software written in PHP.\n\n---\n\n\n[![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/YynM57V) \n[![](https://poggit.pmmp.io/shield.dl.total/BlockSniper)](https://poggit.pmmp.io/p/BlockSniper)\n[![Hits](https://hitcount.dev/p/BlockHorizons/BlockSniper.svg)](https://hitcount.dev/p/BlockHorizons/BlockSniper)  \n\n### Overview\nBlockSniper is an advanced world editing tool, based on the idea of VoxelSniper from Minecraft PC software.\nBlockSniper allows you to edit your world from a long distance, with several different types and shapes. Shapes are the shapes types are being executed in. This means that every type can be executed in any shape.\nA shape would, for example, be a sphere, a type replace. Every block in that shape will then get modified using the selected type; Replaced.\n<br><br>\nAlmost all features can be managed using an in-game user interface. The brush menu can be opened using the /brush command.\n<br><br>\nApart from just brushing, BlockSniper also features things such as copying and pasting (including schematics), undo and redo, bound brushes and an extensive API for other plugins to build on. \n<br>\n**For more information, make sure to check the [Wiki](https://github.com/Blockhorizons/BlockSniper/wiki).**\n\n### Installation and Development Builds\nStable releases will be drafted at [Releases](https://github.com/BlockHorizons/BlockSniper/releases) or at the [release page](https://poggit.pmmp.io/p/BlockSniper/) at Poggit.\nTo install a version:\n - Go to releases from Poggit.\n - Download the attached phar file.\n - Drop the plugin in the plugin folder.\n - Restart the server.\n\nIf you do decide to use a development version to benefit from the latest features, the development build list can be found when clicking the button below. (Warning! Only do this if you understand the development versions could contain bugs and be unstable)\n\n[![Poggit-CI](https://poggit.pmmp.io/ci.shield/BlockHorizons/BlockSniper/BlockSniper)](https://poggit.pmmp.io/ci/BlockHorizons/BlockSniper/BlockSniper)\n\nAlternatively, BlockSniper may be downloaded by using:\n`git clone --recursive https://github.com/BlockHorizons/BlockSniper`\nin the plugin folder if DevTools is installed. Git must be installed.\n\nBlockSniper can _not_ be downloaded by downloading the ZIP file GitHub provides. The required dependencies will not be installed if this is done.\n\n### Translation\nBlockSniper has a multi-language system, so everybody can have a good time using the plugin. We currently have nowhere near enough translated languages though, and we need your help! It is very appreciated if you help translate, so please do so whenever you have time. The available languages can be found under resources/languages.\n\n### Permissions\nA full list of permissions can be found in the [plugin.yml](https://github.com/BlockHorizons/BlockSniper/blob/master/plugin.yml) file. \nIt contains the most up to date permissions, so every permission available can be found there.\nSome permissions are also registered dynamically. The permissions of shapes consist out of: `blocksniper.shape.<lowercase shapename>`, whereas the permissions of types consist out of `blocksniper.type.<lowercase typename>`.\n\n### Reviews\nBlockSniper can be reviewed at the Poggit release page [here](https://poggit.pmmp.io/p/BlockSniper/).\nAny feedback given is very welcome and appreciated. Don't hesitate to share what you think about this plugin.\n\n###### Please note that third party modified versions of PocketMine-MP are not supported. Issues caused by them are closed immediately.",
+  "readme_source_url": "https://github.com/BlockHorizons/BlockSniper",
+  "icon_url": "https://raw.githubusercontent.com/BlockHorizons/BlockSniper/8d523d051868aab962102d496736f5a6b19b3de8/resources/block_sniper_logo.png",
+  "featured": false,
+  "repo": "https://github.com/BlockHorizons/BlockSniper",
+  "archive_repo": null,
+  "approved_release_tag": "r-9534",
+  "stars": 4,
+  "total_downloads": 3875,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "MyPlot"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BlockHorizons"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/171898",
+  "versions": {
+    "stable": {
+      "version": "4.0.0",
+      "tag": "r-9534",
+      "published_at": null,
+      "downloads": 3875,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9534/blocksniper-4.0.0-r9534.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9534",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9534/blocksniper-4.0.0-r9534.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockSniper",
+    "stable_release_id": 9534
+  }
+}

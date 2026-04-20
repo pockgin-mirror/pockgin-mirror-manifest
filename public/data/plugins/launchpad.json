@@ -1,0 +1,61 @@
+{
+  "id": "launchpad",
+  "name": "LaunchPad",
+  "author": "Verre2OuiSki",
+  "description": "💨 LaunchPad",
+  "readme_markdown": "# 💨 LaunchPad\n\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/Verre2OuiSki/LaunchPad/main/icon.png\" style=\"height: 8em;\"></img>\n    <br>\n    <b>\n      A configurable <i>PocketMine-MP</i> plugin allows you to setup <i>Launch Pads</i> in your worlds\n    </b>\n</p>\n\n# 📜 Features\n\n- Add your own custom launch pads\n- Configurable launchers\n\nFor any problems, you can reach me at \"Reach ME\" tab !\n\n\n\n# 🤔 How to use ?\n\n```yml\npressure_plate:\n  block:\n    mutiplier: x \n    height: x\n```\n\n`pressure_plate`    => The pressure plate<br>\n`block`             => The block under the pressure plate<br>\n`mutiplier`         => Velocity<br>\n`height`            => Launching height<br><br><br>\n\n---\n\nExemple :\n\nWe want a gold pressure plate *(light_weighted_pressure_plate)*<br>\nIf block under this plate is a redstone block *(redstone_block)* player will be launch with a multiplier of 5 and height of 1<br>\nIf block under this plate is a diamond block *(diamond_block)* player will be launch with a multiplier of 2 and height of <br><br>\n\nin config.yml it will be :\n```yml\nlight_weighted_pressure_plate:\n  redstone_block:\n    mutiplier: 5\n    height: 1\n  diamond_block:\n    mutiplier: 2\n    height: 4\n```\n\n\n\n# 💾 Config\n\n```yaml\n---\n\n#\n#   __      __                ___   ____        _  _____ _    _\n#   \\ \\    / /               |__ \\ / __ \\      (_)/ ____| |  (_)\n#    \\ \\  / /__ _ __ _ __ ___   ) | |  | |_   _ _| (___ | | ___\n#     \\ \\/ / _ \\ '__| '__/ _ \\ / /| |  | | | | | |\\___ \\| |/ / |\n#      \\  /  __/ |  | | |  __// /_| |__| | |_| | |____) |   <| |\n#       \\/ \\___|_|  |_|  \\___|____|\\____/ \\__,_|_|_____/|_|\\_\\_|\n#\n\n# Do you have a problem ?\n# \n# Discord (en) : https://discord.gg/P8R4WhARrY\n# Discord (fr) : https://discord.gg/DnmRbAxMbN\n\nstone_pressure_plate: # Pressure plate\n  redstone_block: # Block under pressure plate\n    mutiplier: 2\n    height: 1\n\nlight_weighted_pressure_plate:\n  redstone_block:\n    mutiplier: 5\n    height: 1\n  diamond_block:\n    mutiplier: 2\n    height: 4\n\n...\n```\n\n\n\n# 📫 Reach me\n\n<div align=\"center\">\n    <a href=\"https://discord.gg/P8R4WhARrY\">\n        <a href=\"#\"><img src=\"https://img.shields.io/badge/Discord%20%28EN%29-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white\"></img></a>\n    </a>\n    <a href=\"https://twitter.com/Verre2OuiSki\">\n        <a href=\"#\"><img src=\"https://img.shields.io/badge/Verre2OuiSki-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white\"></img></a>\n    </a>\n    <a href=\"https://discord.gg/DnmRbAxMbN\">\n        <a href=\"#\"><img src=\"https://img.shields.io/badge/Discord%20%28FR%29-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white\"></img></a>\n    </a>\n</div>",
+  "readme_source_url": "https://github.com/Verre2OuiSki/LaunchPad",
+  "icon_url": "https://raw.githubusercontent.com/Verre2OuiSki/LaunchPad/96fbedfa7caa9d23b054b955bfc558675efcc45b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Verre2OuiSki/LaunchPad",
+  "archive_repo": null,
+  "approved_release_tag": "r-9605",
+  "stars": 5,
+  "total_downloads": 507,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Verre2OuiSki"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-9605",
+      "published_at": null,
+      "downloads": 507,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9605/launchpad-1.0.0-r9605.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9605",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9605/launchpad-1.0.0-r9605.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LaunchPad",
+    "stable_release_id": 9605
+  }
+}

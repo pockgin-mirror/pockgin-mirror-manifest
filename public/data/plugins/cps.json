@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9734",
   "stars": 5,
-  "total_downloads": 2695,
+  "total_downloads": 2890,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "2.1",
       "tag": "r-9734",
       "published_at": null,
-      "downloads": 2695,
+      "downloads": 2696,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9734/cps-2.1-r9734.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-9734",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9734/cps-2.1-r9734.phar"
+    },
+    {
+      "tag": "r-9626",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9626/cps-2.0-r9626.phar"
     }
   ],
   "comments": {

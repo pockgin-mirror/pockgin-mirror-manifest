@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12378",
   "stars": 0,
-  "total_downloads": 1990,
+  "total_downloads": 2324,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -54,6 +54,11 @@
       "tag": "r-10150",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10150/cropgrowth-2.0.3-r10150.phar"
+    },
+    {
+      "tag": "r-9558",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9558/cropgrowth-2.0.2-r9558.phar"
     }
   ],
   "comments": {

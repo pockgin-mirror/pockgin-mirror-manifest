@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11976",
   "stars": 1,
-  "total_downloads": 995,
+  "total_downloads": 2407,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11976",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11976/navicompass-3.0.5-r11976.phar"
+    },
+    {
+      "tag": "r-9560",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9560/navicompass-3.0.3-r9560.phar"
     }
   ],
   "comments": {

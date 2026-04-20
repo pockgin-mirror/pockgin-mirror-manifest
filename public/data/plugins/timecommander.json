@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12060",
   "stars": 0,
-  "total_downloads": 536,
+  "total_downloads": 1085,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-11449",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11449/timecommander-1.2.0-r11449.phar"
+    },
+    {
+      "tag": "r-9408",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9408/timecommander-1.1.0-r9408.phar"
     }
   ],
   "comments": {

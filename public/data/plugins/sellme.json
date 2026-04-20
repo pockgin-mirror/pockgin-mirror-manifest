@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9706",
   "stars": 5,
-  "total_downloads": 1478,
+  "total_downloads": 1584,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -38,7 +38,7 @@
       "version": "1.1.0",
       "tag": "r-9706",
       "published_at": null,
-      "downloads": 1478,
+      "downloads": 1479,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9706/sellme-1.1.0-r9706.phar"
     },
     "dev": null
@@ -48,6 +48,11 @@
       "tag": "r-9706",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9706/sellme-1.1.0-r9706.phar"
+    },
+    {
+      "tag": "r-9616",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9616/sellme-1.0.0-r9616.phar"
     }
   ],
   "comments": {

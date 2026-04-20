@@ -1,0 +1,61 @@
+{
+  "id": "areaguard-hiroteam",
+  "name": "AreaGuard-HiroTeam",
+  "author": "HiroshimaTeam",
+  "description": "AreaGuard-HiroTeam [API 4]",
+  "readme_markdown": "# AreaGuard-HiroTeam [API 4]\n![AreaGuard](https://user-images.githubusercontent.com/76572999/151222006-b93a3691-29c4-4942-8d53-58ef6e52dbbc.png)\n\n### About\n\n`[ENG]` This is a [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) (or forks) plugin allows you to protect your areas ! :grin: <br/>\n<br/>\n`[FRA]` C'est un [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) plugin qui vous permet de protéger vos zones ! :grin: <br/>\n\n---\n### How to use\n`[ENG]` Do the command ```/ag``` and follow the instruction simply \n\n`[FRA]` Faire la commande ```/ag``` et suivre les instructions tout simplement</br>\n- **Features** <br/>\n  - ```place, break, use, pvp, damage, drop, explosion, fly, hunger```\n  - ```Soon: blocked commands list, chat, effects list, msg enter area, msg quit area```\n- **Permissions** <br/>\n   | Permission | Allow to |\n   |--|--|\n   | ```place.AREA_NAME``` | place block |\n   | ```break.AREA_NAME``` | break block |\n   | ```use.AREA_NAME``` | use/interact |\n   | ```drop.AREA_NAME``` | drop |\n   | ```fly.AREA_NAME``` | fly |\n   | ```AREA_NAME = *``` | Authorize all areas |\n\n---\n### **This plugin was tested (and works) on:**\n\n- [x] **[PocketMine-MP 4.X.X](https://github.com/pmmp/PocketMine-MP)**\n---\n### Contacts HiroTeam\n\n- **Discord Member:** WillyDuGang#6947 RomainSav#1000\n- **Discord Server:** :link:  https://discord.gg/WuwsuUA<br/>\n- **E-mail:** team.hiroshima.dev@gmail.com<br/>\n\n> ![HiroTeam](https://www.zupimages.net/up/20/25/mb59.png) </br>\n\n---\n### License\nThis plugin is licensed under the [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)\n\n>This program is free software: you can redistribute it and/or modify<br/>\n>it under the terms of the GNU General Public License as published by<br/>\n>the Free Software Foundation, either version 3 of the License, or<br/>\n>(at your option) any later version.<br/>\n>\n>This program is distributed in the hope that it will be useful,<br/>\n>but WITHOUT ANY WARRANTY; without even the implied warranty of<br/>\n>MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the<br/>\n>GNU General Public License for more details.<br/>\n>\n>You should have received a copy of the GNU General Public License<br/>\n>along with this program.  If not, see http://www.gnu.org/licenses/\n---\n### Languages contributors\n  | Language | Author |\n  |--|--|\n  | ```Français``` | WillyDuGang |\n  | ```English``` | WillyDuGang |\n  | ```...``` | **[Maybe you](https://discord.gg/WuwsuUA)** 😍|\n---\n### Author\n- **Discord:** WillyDuGang#6947\n---\n### **LordHosting Partner**\n\n- `[ENG]` Our team is in partnership with Lordhosting, Minecraft PE server Hosting, VPS hosting use reduction code __**HiroTeam**__ 10% FREE </br>\n-> Website : https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/mZe6XCwsm9 </br>\n\n- `[FRA]` Notre équipe est en partenariat avec Lordhosting, hébergement de serveurs Minecraft PE, VPS utilise le code de réduction __**HiroTeam**__ 10% DE REDUCTION </br>\n-> Site Web: https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/mZe6XCwsm9 </br>",
+  "readme_source_url": "https://github.com/HiroshimaTeam/AreaGuard",
+  "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/AreaGuard/e57a8a8c0d704cb2e989786b4362f609b12e76df/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HiroshimaTeam/AreaGuard",
+  "archive_repo": null,
+  "approved_release_tag": "r-9460",
+  "stars": 5,
+  "total_downloads": 1671,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HiroshimaTeam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/170361",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-9460",
+      "published_at": null,
+      "downloads": 1671,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9460/areaguard-hiroteam-1.1.0-r9460.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9460",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9460/areaguard-hiroteam-1.1.0-r9460.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AreaGuard-HiroTeam",
+    "stable_release_id": 9460
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11432",
   "stars": 0,
-  "total_downloads": 1629,
+  "total_downloads": 3500,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,16 @@
       "tag": "r-11432",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11432/nicknames-2.2.0-r11432.phar"
+    },
+    {
+      "tag": "r-9501",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9501/nicknames-2.1.1-r9501.phar"
+    },
+    {
+      "tag": "r-9474",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9474/nicknames-2.1.0-r9474.phar"
     }
   ],
   "comments": {

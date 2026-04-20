@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11835",
   "stars": 5,
-  "total_downloads": 3293,
+  "total_downloads": 4392,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-10842",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10842/vanillahopper-2.1.0-r10842.phar"
+    },
+    {
+      "tag": "r-9607",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9607/vanillahopper-2.0.2-r9607.phar"
     }
   ],
   "comments": {

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11393",
   "stars": 0,
-  "total_downloads": 503,
+  "total_downloads": 566,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -54,6 +54,11 @@
       "tag": "r-10164",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10164/devilmode-0.0.2-r10164.phar"
+    },
+    {
+      "tag": "r-9542",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9542/devilmode-0.0.1-r9542.phar"
     }
   ],
   "comments": {

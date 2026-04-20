@@ -1,0 +1,66 @@
+{
+  "id": "headshotsound",
+  "name": "HeadshotSound",
+  "author": "Laith98Dev",
+  "description": "A good plugin to play a sound when the player hits the enemy's head.",
+  "readme_markdown": "# HeadshotSound\n- A good plugin to play a sound when the player hits the enemy's head.\n\n# How to use\n- Hit the player with a snowball, egg and bow in the head and the sound will work.\n\n# the configure\n- `sound`:\n  - `name` > you can set the sound name or disable it by set to `\"\"`.\n  - `volume` > you can set the volume of the sound from here.\n  - `pitch` > also you can set the pitch of the sound from here.\n- `message` > and you can set the message or disable it by set to `\"\"`.\n\n# buy me a coffee\n- [![Donate](https://img.shields.io/badge/donate-Paypal-yellow.svg?style=flat-square)](https://paypal.me/Laith113)",
+  "readme_source_url": "https://github.com/Laith98Dev/HeadshotSound",
+  "icon_url": "https://raw.githubusercontent.com/Laith98Dev/HeadshotSound/034d1b49b87c1c944db44b83c68a708e86b02b53/20220411_032216.png",
+  "featured": false,
+  "repo": "https://github.com/Laith98Dev/HeadshotSound",
+  "archive_repo": null,
+  "approved_release_tag": "r-9494",
+  "stars": 5,
+  "total_downloads": 420,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Laith98Dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/171147",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-9494",
+      "published_at": null,
+      "downloads": 383,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9494/headshotsound-1.0.1-r9494.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9494",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9494/headshotsound-1.0.1-r9494.phar"
+    },
+    {
+      "tag": "r-9475",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9475/headshotsound-1.0.0-r9475.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HeadshotSound",
+    "stable_release_id": 9494
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11488",
   "stars": 0,
-  "total_downloads": 291,
+  "total_downloads": 611,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11488",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11488/dailystats-2.4-r11488.phar"
+    },
+    {
+      "tag": "r-9464",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9464/dailystats-2.3-r9464.phar"
     }
   ],
   "comments": {

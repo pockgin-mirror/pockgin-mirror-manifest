@@ -1,0 +1,63 @@
+{
+  "id": "itembrag",
+  "name": "ItemBrag",
+  "author": "EPT8TPE",
+  "description": "A pocketmine plugin that allows players to brag about their items.",
+  "readme_markdown": "# ItemBrag\n\nA pocketmine plugin that allows players to brag about their items.\n\n# How to use\n\n1. Download the phar from poggit.\n\n2. Upload to your servers 'plugin' folder.\n\n3. Restart your server.\n\n# Commands\n\n/brag:\n\nHold the item you wish to brag to other players, run /brag and the items name will appear in chat along with its count.\nAny enchants will appear (including enchants from piggy ces) aslong as you have the permissions which can be found in the permissions section of the plugin. A delay for the command has been highly requested so I have done that and made it configurable.\n\n# Config\n\nSet this to true if you wish to disable /brag without uninstalling the plugin\n\nbrag-disabled: false\n\nMessage sent to player if brag-feature-disabled is set to true\n\nbrag-feature-disabled-message: \"§cThis command is currently disabled!\"\n\nMessage sent to player if they run /brag and their hand is empty\n\nmessage-sent-to-player-when-hand-is-empty: \"§cYou must hold an item while running this command!\"\n\nMessage sent to player if they lack the permissions to brag\n\nno-perms-message: \"§cYou do not have permission to use this command!\"\n\nMessage sent to player if they lack the permission to brag about items with enchants on\n\nno-perms-message-enchants: \"§cYou do not have permission to brag about items with enchants on!\"\n\nThe cooldown of the /brag command in seconds\n\nbrag-cooldown-time: \"30\"\n\n# Permissions\n\npermissions:\n\n  itembrag.brag.allow:\n  \n    description: Allows players to brag using /brag.\n    default: op\n\n  itembrag.allow.enchants:\n  \n    description: Allows players to brag about items with enchants on.\n    default: op\n    \n# Plans\n\n- Correct colour formats for rarities of enchants from piggy custom enchants.\n\n# Support\n\nIf you need any assistance or have suggestions DM me on discord TPE#3107.\n\n[![](https://poggit.pmmp.io/shield.state/ItemBrag)](https://poggit.pmmp.io/p/ItemBrag)\n\n<a href=\"https://poggit.pmmp.io/p/ItemBrag\"><img src=\"https://poggit.pmmp.io/shield.api/ItemBrag\"></a>",
+  "readme_source_url": "https://github.com/EPT8TPE/ItemBrag",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/EPT8TPE/ItemBrag",
+  "archive_repo": null,
+  "approved_release_tag": "r-9522",
+  "stars": 0,
+  "total_downloads": 261,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "PiggyCustomEnchants"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "EPT8TPE"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/171691",
+  "versions": {
+    "stable": {
+      "version": "1.4.1",
+      "tag": "r-9522",
+      "published_at": null,
+      "downloads": 261,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9522/itembrag-1.4.1-r9522.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9522",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9522/itembrag-1.4.1-r9522.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemBrag",
+    "stable_release_id": 9522
+  }
+}

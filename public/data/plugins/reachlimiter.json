@@ -5,13 +5,13 @@
   "description": "ReachLimiter** is a simple yet powerful anti-reach plugin for PocketMine-MP that prevents players from attacking others from an unfair distance using reach hacks or modified cli...",
   "readme_markdown": "# ReachLimiter\n\n**ReachLimiter** is a simple yet powerful anti-reach plugin for PocketMine-MP that prevents players from attacking others from an unfair distance using reach hacks or modified clients.\n\n---\n\n## 📌 Features\n\n- 🔒 Prevents players from hitting entities beyond a configurable max reach.\n- 🎯 High-precision hit distance calculation (based on eye and body position).\n- 💬 Sends real-time feedback to the attacker with exact hit distance.\n- ⚙️ Configurable via `config.yml`.\n- 🚀 Lightweight and optimized for performance.\n- 🛡️ No false positives — smooth and fair PvP experience.\n\n---\n\n## 📂 Configuration\n\nWhen the plugin is first loaded, it generates a `config.yml` file inside the plugin's data folder:\n\n```yaml\nmax-reach: 3.84",
   "readme_source_url": "https://github.com/Jorgebyte/ReachLimiter",
-  "icon_url": "https://raw.githubusercontent.com/Jorgebyte/ReachLimiter/47c14eaec6197c8ed47a2b8b9994c1cd0ae1ba03/Icon.png",
+  "icon_url": "https://raw.githubusercontent.com/Jorgebyte/ReachLimiter/749d3389529b89658affda9e39f111497c8ad639/Icon.png",
   "featured": false,
   "repo": "https://github.com/Jorgebyte/ReachLimiter",
   "archive_repo": null,
-  "approved_release_tag": "r-14028",
+  "approved_release_tag": "r-14435",
   "stars": 0,
-  "total_downloads": 106,
+  "total_downloads": 107,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -28,18 +28,23 @@
   "producers": [
     "Jorgebyte"
   ],
-  "whats_new": "https://poggit.pmmp.io/r/0",
+  "whats_new": "https://poggit.pmmp.io/r/264124",
   "versions": {
     "stable": {
-      "version": "1.0.0",
-      "tag": "r-14028",
+      "version": "1.1.0",
+      "tag": "r-14435",
       "published_at": null,
-      "downloads": 106,
-      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14028/reachlimiter-1.0.0-r14028.phar"
+      "downloads": 1,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14435/reachlimiter-1.1.0-r14435.phar"
     },
     "dev": null
   },
   "recent_builds": [
+    {
+      "tag": "r-14435",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14435/reachlimiter-1.1.0-r14435.phar"
+    },
     {
       "tag": "r-14028",
       "published_at": null,
@@ -56,6 +61,6 @@
   "source": {
     "provider": "poggit",
     "plugin_name": "ReachLimiter",
-    "stable_release_id": 14028
+    "stable_release_id": 14435
   }
 }

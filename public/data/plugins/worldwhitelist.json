@@ -1,0 +1,61 @@
+{
+  "id": "worldwhitelist",
+  "name": "WorldWhitelist",
+  "author": "MasApip",
+  "description": "Description",
+  "readme_markdown": "# Description\nA plugin that allowed you to whitelist player per world\n\n## How does this plugin work?\nYou can set whitelist per world with this plugin. Allowing player for joining the world by whitelisted from Admin\n\n## Command\n| Command | Description |\n| --- | --- |\n| /ww set `<worldName>` [on/off] | Set on/off whitelist of the world |\n| /ww add `<worldName>` `<playerName>` | Add player name to the whitelist |\n| /ww remove `<worldName>` `<playerName>` | Remove player name from the whitelist |\n| /ww setmessage `<worldName>` `<message>` | Set custom whitelist message, you can coloring the message with '&' |\n| /ww list `<worldName>` | See players has been whitelisted |\n| /ww help | See all WorldWhitelist Commands |\n\n\n## Default Config\n```yaml\n---\n#The default whitelist message\n# - {WORLD} -> will be replaced with the world name\ndefault-whitelist-message: \"§cWorld {WORLD} is whitelisted!\"\n\n#Op bypass world whitelist\n#This allowing OP user to ignore whitelist checking\nop-bypass: true\n...\n\n```",
+  "readme_source_url": "https://github.com/MasApip/WorldWhitelist",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/MasApip/WorldWhitelist",
+  "archive_repo": null,
+  "approved_release_tag": "r-9572",
+  "stars": 0,
+  "total_downloads": 230,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MasApip"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-9572",
+      "published_at": null,
+      "downloads": 230,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9572/worldwhitelist-1.0.0-r9572.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9572",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9572/worldwhitelist-1.0.0-r9572.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorldWhitelist",
+    "stable_release_id": 9572
+  }
+}

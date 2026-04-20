@@ -1,0 +1,61 @@
+{
+  "id": "tempban",
+  "name": "TempBan",
+  "author": "Laith98Dev",
+  "description": "TempBanUI",
+  "readme_markdown": "# TempBanUI \nAdvance Temporary Ban with UI\n\n---\n\n# How to use\n* Step 1: Type /tban to open player list\n* Step 2: Select a player\n* Step 3: Choose how long do you want and click Submit\n\nOR\n\n* Step 1: Type /tban <on|off> to turn hit player ban\n* Step 2: Tap player\n* Step 3: Choose how long do you want and click Submit\n\nOR\n\n* Step 1: Type /tban name to ban player\n* Step 2: Choose how long do you want and click Submit\n\n---\n\n# Commands & Permissions & Aliases\n| COMMAND | DESCRIPTION | PERMISSION | Aliases\n|---|---|---|---\n| /ban | Open player list | tempban.command | /tban |\n| /ban <on - off> | Turn on/off hit ban | tempban.command | |\n| /ban name | Ban player using name | tempban.command | |\n| /tcheck | Check ban list | tempban.command.tcheck | |\n\n---\n\n# Features\n* Ban Player Temporary\n* Check Ban List\n* UnBan Player\n* Message Config\n* SQLite3 Support\n\n---\n\n# Images\n![](https://github.com/SonsaYT04/Image/blob/master/Image/Image1.png)\n![](https://github.com/SonsaYT04/Image/blob/master/Image/Image2.png)\n![](./images/tcheck_form.jpg)\n![](./images/unban_list.jpg)\n![](./images/unban_with_name.jpg)\n\n# Producers\n- [@RealSonsaYT](https://twitter.com/RealSonsaYT)\n\n# Contributors\n- [@Laith98Dev](https://github.com/Laith98Dev)",
+  "readme_source_url": "https://github.com/Laith98Dev/TempBan",
+  "icon_url": "https://raw.githubusercontent.com/Laith98Dev/TempBan/b99d59e3f4761f51a57b8fc414e7f6ae0014e644/images/20220331_180103.png",
+  "featured": false,
+  "repo": "https://github.com/Laith98Dev/TempBan",
+  "archive_repo": null,
+  "approved_release_tag": "r-9610",
+  "stars": 5,
+  "total_downloads": 3089,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Laith98Dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.4.0",
+      "tag": "r-9610",
+      "published_at": null,
+      "downloads": 3089,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9610/tempban-2.4.0-r9610.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9610",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9610/tempban-2.4.0-r9610.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TempBan",
+    "stable_release_id": 9610
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "loadallworlds",
+  "name": "LoadAllWorlds",
+  "author": "koningcool",
+  "description": "HitCount License Poggit Release Status Total Downloads API Version",
+  "readme_markdown": "# LoadAllWorlds\n\n| HitCount | License | Poggit | Release Status | Total Downloads | API Version |\n|:--:|:--:|:--:|:--:|:--:|:--:|\n|[![HitCount](https://hits.dwyl.com/koningcool/loadallworlds.svg?style=flat-square)](http://hits.dwyl.io/koningcool/LoadAllWorlds)|[![GitHub license](https://img.shields.io/github/license/koningcool/LoadAllWorlds.svg)](https://github.com/koningcool/LoadAllWorlds/blob/master/LICENSE)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/koningcool/LoadAllWorlds/LoadallWorlds)](https://poggit.pmmp.io/ci/koningcool/LoadAllWorlds/LoadAllWorlds)|[![](https://poggit.pmmp.io/shield.state/LoadAllWorlds)](https://poggit.pmmp.io/p/LoadAllWorlds)| ![Total Downloads](https://poggit.pmmp.io/shield.dl.total/LoadAllWorlds)| [![API Version](https://poggit.pmmp.io/shield.api/LoadAllWorlds)](https://poggit.pmmp.io/p/LoadAllWorlds)|\n\nFor all the badges click [Here](https://github.com/koningcool/LoadAllWorlds/blob/master/shields-badges.md)\n\n**PLEASE READ [IMPORTANT](https://github.com/koningcool/LoadAllWorlds#important) BEFORE INSTALLING THIS PLUGIN!!**\n\n\nIf you use Minecraft Java: Please check out my other plugin!: https://github.com/koningcool/blockwalk\n\n\n# General\n\nThis is a plugin that adds commands to load worlds, and can be configured to load worlds on startup.\n\nIf you want to load worlds at startup, set \"load-worlds\" \"true\" in the config.yml.\nIf you want to load worlds using a command, use /loadworlds. This will load all worlds, except the worlds that are excluded.\nIf you want to load all worlds using a command (including the ones that are normally excluded), use /loadallworlds.\n\nYou can exclude worlds from loading at startup or from loading with /loadworlds, using the [config.yml](https://github.com/koningcool/LoadAllWorlds/blob/master/resources/config.yml).\n\nIf you are not using all worlds that you have at the same time, it is wise to use this plugin to save memory.\nBut you can choose yourself!\nThis is an easy plugin but very useful!\n\n\n# Important\nONLY CHANGE THE CONFIG FILE WHILE THE SERVER IS OFF!!\n\nPlease download the phar file from [poggit](https://poggit.pmmp.io/p/loadallworlds/), not from GitHub, only poggit includes the autoupdater, otherwise you will get an error!!\n\nIf you only use 1 world, this plugin is not necessary.\n\n# ToDo\n\nAt the moment there is nothing on the ToDo list!\n\n \n # Issues\n\n At the moment there are no issue's!\n\n If you have a problem you can report it [Here](https://github.com/koningcool/LoadAllWorlds/issues/new)\n \n Or go to our [Discussions](https://github.com/koningcool/LoadAllWorlds/discussions) tab to report a problem or ask questions.\n \n![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/koningcool/LoadAllWorlds.svg)\n\n# Ideas\n\nIf you have nice ideas, Create your own code, and then you can create a pull request [Here](https://github.com/koningcool/LoadAllWorlds/pulls)\n\nOr go to our [Discussions](https://github.com/koningcool/LoadAllWorlds/discussions) tab to tell us your idea.\n\n# Commands\n\n Use 1 of these following commands to load all the worlds in the server!\n\n `/loadall`\n \n `/loadallworlds`\n \n `/law`\n\n Use this command to load all worlds except the ones that are excluded in the config.yml\n\n`/loadworlds`\n\n# Permissions\n\n The permission to use the command:\n\n `loadallworlds.command`\n \n `loadallworlds.loadworlds.command`\n \n# Info\n Name: LoadAllWorlds\n \n Authors: koningcool and TweakM\n\n Version: 1.1.3\n\n Poggit Builds: If you want to see al the builds click [Here](https://poggit.pmmp.io/ci/koningcool/LoadAllWorlds/loadallworlds) (NOT AL THE BUILDS ARE STABLE!!!)\n \n Download: Click [Here](https://poggit.pmmp.io/p/LoadAllWorlds/) and then on \"Direct Download\"\n \n For installation info go to the [Wiki](https://github.com/koningcool/loadallworlds/wiki)",
+  "readme_source_url": "https://github.com/koningcool/LoadAllWorlds",
+  "icon_url": "https://raw.githubusercontent.com/koningcool/LoadAllWorlds/03bf7f96fe4a94aa36275c9e34acf15b1886921d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/koningcool/LoadAllWorlds",
+  "archive_repo": null,
+  "approved_release_tag": "r-9490",
+  "stars": 0,
+  "total_downloads": 2323,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "koningcool"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/170974",
+  "versions": {
+    "stable": {
+      "version": "1.1.3",
+      "tag": "r-9490",
+      "published_at": null,
+      "downloads": 2323,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9490/loadallworlds-1.1.3-r9490.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9490",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9490/loadallworlds-1.1.3-r9490.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LoadAllWorlds",
+    "stable_release_id": 9490
+  }
+}

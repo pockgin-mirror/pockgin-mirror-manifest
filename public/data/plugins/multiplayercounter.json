@@ -1,0 +1,61 @@
+{
+  "id": "multiplayercounter",
+  "name": "MultiPlayerCounter",
+  "author": "Taylor-pm-pl",
+  "description": "NOTICE:** This plugin branch is for PocketMine-MP 5.",
+  "readme_markdown": "<h1>MultiPlayerCounter<img src=\"assets/images/icon.png\" height=\"64\" width=\"64\" align=\"left\"></img></h1><br/>\n\n[![Lint](https://poggit.pmmp.io/ci.shield/Taylor-pm-pl/MultiPlayerCounter/MultiPlayerCounter)](https://poggit.pmmp.io/ci/Taylor-pm-pl/MultiPlayerCounter/MultiPlayerCounter)\n[![PHPStan](https://github.com/david-pm-pl/MultiPlayerCounter/actions/workflows/php.yml/badge.svg)](https://github.com/david-pm-pl/MultiPlayerCounter/actions/workflows/php.yml/badge.svg)\n[![Discord](https://img.shields.io/discord/1100650029573738508.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/)\n\n**NOTICE:** This plugin branch is for PocketMine-MP 5. <br/>\n✨ **Combine players of multiple servers**\n</div>\n\n## Features\n- Combine players of multiple servers\n- Easy to set up\n- API For Developers\n\n# How to Install\n\n1. Download the latest version\n2. Place the `MultiPlayerCounter.phar` file into the `plugins` folder.\n3. Restart the server.\n4. Done!\n\n# API\n\n ### Check server is online\n\n  ```php\n  use davidglitch04\\MultiPlayerCounter\\api\\ServerAPI;\n\n  $status = ServerAPI::isOnline(ip: $ip, port: $port); // Return bool\n  var_dump($status);\n  ```\n\n ### Get ServerInfo\n  ```php\n  use davidglitch04\\MultiPlayerCounter\\api\\ServerAPI;\n\n  $status = ServerAPI::getServerInfo(ip: $ip, port: $port); // Return ServerInfo\n  var_dump($status);\n  ```\n# Credits\n\n| Logo  | Description |\n| ------------- | ----------- |\n| <img src=\"https://resources.jetbrains.com/storage/products/company/brand/logos/PhpStorm_icon.png\" height=\"64\" width=\"64\" align=\"left\"> | <a href=\"https://jb.gg/OpenSourceSupport\">IDE for this project is supported by Jetbrains</a> |\n\n# Additional Notes\n\n- If you found bugs or want to give suggestions, please visit <a href=\"https://github.com/David-pm-pl/MultiPlayerCounter/issues\">here</a> or join our Discord server.\n- We accept all contributions! If you want to contribute, please make a pull request in <a href=\"https://github.com/David-pm-pl/MultiPlayerCounter/pulls\">here</a>.",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/MultiPlayerCounter",
+  "icon_url": "https://raw.githubusercontent.com/David-pm-pl/MultiPlayerCounter/46df081ae47fd5aeae1884f21b12c1e87b51b42f/assets/images/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/MultiPlayerCounter",
+  "archive_repo": null,
+  "approved_release_tag": "r-9547",
+  "stars": 3,
+  "total_downloads": 638,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/173012",
+  "versions": {
+    "stable": {
+      "version": "0.0.3",
+      "tag": "r-9547",
+      "published_at": null,
+      "downloads": 638,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9547/multiplayercounter-0.0.3-r9547.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9547",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9547/multiplayercounter-0.0.3-r9547.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MultiPlayerCounter",
+    "stable_release_id": 9547
+  }
+}

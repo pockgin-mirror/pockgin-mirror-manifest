@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11082",
   "stars": 4,
-  "total_downloads": 3592,
+  "total_downloads": 4015,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -54,6 +54,11 @@
       "tag": "r-9836",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9836/redstonecircuit-3.0.5-r9836.phar"
+    },
+    {
+      "tag": "r-9563",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9563/redstonecircuit-3.0.4-r9563.phar"
     }
   ],
   "comments": {
