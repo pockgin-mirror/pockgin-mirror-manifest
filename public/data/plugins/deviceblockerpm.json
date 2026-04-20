@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11380",
   "stars": 5,
-  "total_downloads": 210,
+  "total_downloads": 358,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11380",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11380/deviceblockerpm-0.0.2-r11380.phar"
+    },
+    {
+      "tag": "r-9377",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9377/deviceblockerpm-0.0.1-r9377.phar"
     }
   ],
   "comments": {

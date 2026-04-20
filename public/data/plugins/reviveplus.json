@@ -1,0 +1,61 @@
+{
+  "id": "reviveplus",
+  "name": "RevivePlus",
+  "author": "zPearlss",
+  "description": "RevivePlus is an plugin for survival/faction/smp servers.",
+  "readme_markdown": "![icon](https://user-images.githubusercontent.com/87713241/159801266-8f0b3bca-32f1-43d7-9ba5-ce8703c48b35.png)\n\n# RevivePlus\nRevivePlus is an plugin for survival/faction/smp servers. \n\ni made this plugin in a few minutes so dont expect it to be perfect <3\n> (still kinda WIP)\n\n# Description.\nthis plugin makes a player lay on the ground when he dies, during this time he cannot do anything until he's revived.\nYou can revive players by standing in a 5 block radius of them (configurable).\n\n# Issues\n> Currently none. (i havent tested the plugin out yet lol)",
+  "readme_source_url": "https://github.com/zPearlss/RevivePlus",
+  "icon_url": "https://raw.githubusercontent.com/zPearlss/RevivePlus/d930e11269de081662bd4f1928ec8305f8ab3148/icon.png",
+  "featured": false,
+  "repo": "https://github.com/zPearlss/RevivePlus",
+  "archive_repo": null,
+  "approved_release_tag": "r-9376",
+  "stars": 0,
+  "total_downloads": 896,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "zPearlss"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-9376",
+      "published_at": null,
+      "downloads": 896,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9376/reviveplus-0.0.1-r9376.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9376",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9376/reviveplus-0.0.1-r9376.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RevivePlus",
+    "stable_release_id": 9376
+  }
+}

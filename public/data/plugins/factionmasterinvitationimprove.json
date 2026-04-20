@@ -1,0 +1,61 @@
+{
+  "id": "factionmasterinvitationimprove",
+  "name": "FactionMasterInvitationImprove",
+  "author": "FactionMaster",
+  "description": "FactionMaster Invitation improve system",
+  "readme_markdown": "# FactionMaster Invitation improve system\n###### FactionMaster extension, the faction plugin extensible and modulable to your way\n**OFFICIAL** extension, this extension have been tested by the FactionMaster's owner.\n\nIt will display a new window where you can choose between a list corresponding to your input.\nThis works with players and factions registered on the server!\n\n## Contributing\nFor developers who want to participate, please open a Pull Request and describe why and how this change is made\n\n## Report a bug\nPlease use the issue system to report any bugs and problems encountered while using FactionMaster. \nIt will be necessary to describe as much as possible the problem encountered in order to solve it as soon as possible\n\n![Panel Example](.github/panel_example.PNG?raw=true)",
+  "readme_source_url": "https://github.com/FactionMaster/FactionMaster-InvitationImprove",
+  "icon_url": "https://raw.githubusercontent.com/FactionMaster/FactionMaster-InvitationImprove/5d513c1bf623ce5f427198723ec442ecfb6b5753/icon.png",
+  "featured": false,
+  "repo": "https://github.com/FactionMaster/FactionMaster-InvitationImprove",
+  "archive_repo": null,
+  "approved_release_tag": "r-9204",
+  "stars": 0,
+  "total_downloads": 473,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "FactionMaster"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/165609",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-9204",
+      "published_at": null,
+      "downloads": 473,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9204/factionmasterinvitationimprove-2.0.1-r9204.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9204",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9204/factionmasterinvitationimprove-2.0.1-r9204.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FactionMasterInvitationImprove",
+    "stable_release_id": 9204
+  }
+}

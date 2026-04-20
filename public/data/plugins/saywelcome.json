@@ -1,0 +1,61 @@
+{
+  "id": "saywelcome",
+  "name": "SayWelcome",
+  "author": "Verre2OuiSki",
+  "description": "💬 SayWelcome",
+  "readme_markdown": "# 💬 SayWelcome\n \n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/Verre2OuiSki/SayWelcome/main/icon.png\" style=\"height: 8em;\"></img>\n    <br>\n    <b>\n      A configurable <i>PocketMine-MP</i> plugin allows you to say welcome to a new player joining the server, and earn a reward for your kindness!\n    </b>\n</p>\n\n\n\n# 💻 Commands\n\nCommand | Permission | Default | Description\n--- | --- | --- | ---\n`/welcome` | saywelcome.welcom | `true` | Allow the player to welcome new players\n\n\n\n# 💾 Config\n\n```yaml\n---\n\n#\n#   __      __                ___   ____        _  _____ _    _\n#   \\ \\    / /               |__ \\ / __ \\      (_)/ ____| |  (_)\n#    \\ \\  / /__ _ __ _ __ ___   ) | |  | |_   _ _| (___ | | ___\n#     \\ \\/ / _ \\ '__| '__/ _ \\ / /| |  | | | | | |\\___ \\| |/ / |\n#      \\  /  __/ |  | | |  __// /_| |__| | |_| | |____) |   <| |\n#       \\/ \\___|_|  |_|  \\___|____|\\____/ \\__,_|_|_____/|_|\\_\\_|\n#\n\n# Do you have a problem ?\n# \n# Discord (en) : https://discord.gg/P8R4WhARrY\n# Discord (fr) : https://discord.gg/DnmRbAxMbN\n\n\n\n# Time before you can no longer welcome\nwelcome_time: \"01:00\"\n\nmessages:\n\n  # --= Chat\n  # Message when new player join\n  new_player: \"§2§l» §r§a{player} joined the server for the first time\\nWelcome him !\"\n  # Message sent by the player who said welcome\n  player_say_welcome:\n    - \"Welcome @{player} !\"\n    - \"Hey @{player} !\"\n    - \"Hi @{player} ! Welcome to the server!\"\n    - \"Welcome @{player} ! I hope you like the server!\"\n\n\n  # --= Commands\n  # Message when there is no new player\n  no_new_player: \"§cThere are no new player at this moment...\"\n  # Message when the player has already said welcome to the new player\n  already_say_welcome: \"§cYou have already say welcome to {player}\"\n  # Message when the player tries to welcome himself\n  is_new_player: \"§cYou can't say welcome to you !\"\n\n\n# Command to execute when player say welcome to new player\n# exemple : give {player} 264 4\nrewards:\n  - \"give {player} 264 4\" # give 4 diamonds to the player who said welcome\n  - \"give {player} 265 10\" # give 10 iron ingots to the player who said welcome\n\n\n...\n```\n\n\n\n# 📫 Reach me\n\n<div align=\"center\">\n    <a href=\"https://discord.gg/P8R4WhARrY\">\n        <img src=\"https://img.shields.io/badge/Discord%20%28EN%29-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white\"></img>\n    </a>\n    <a href=\"https://twitter.com/Verre2OuiSki\">\n        <img src=\"https://img.shields.io/badge/Verre2OuiSki-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white\"></img>\n    </a>\n    <a href=\"https://discord.gg/DnmRbAxMbN\">\n        <img src=\"https://img.shields.io/badge/Discord%20%28FR%29-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white\"></img>\n    </a>\n</div>",
+  "readme_source_url": "https://github.com/Verre2OuiSki/SayWelcome",
+  "icon_url": "https://raw.githubusercontent.com/Verre2OuiSki/SayWelcome/4e6d16e95a0ab0a0503fc3edaaee2210f2acd979/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Verre2OuiSki/SayWelcome",
+  "archive_repo": null,
+  "approved_release_tag": "r-9229",
+  "stars": 0,
+  "total_downloads": 919,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Verre2OuiSki"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/167354",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-9229",
+      "published_at": null,
+      "downloads": 919,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9229/saywelcome-1.0.1-r9229.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9229",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9229/saywelcome-1.0.1-r9229.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SayWelcome",
+    "stable_release_id": 9229
+  }
+}

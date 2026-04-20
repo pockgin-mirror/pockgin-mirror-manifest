@@ -1,0 +1,61 @@
+{
+  "id": "iprotector-pm4",
+  "name": "iProtector-PM4",
+  "author": "Laith98Dev",
+  "description": "iProtector",
+  "readme_markdown": "# iProtector\niProtector is a simple area protection plugin for server owners and admins to protect their builds and/or minigames.\n\nPlease Note: This plugin is not intended to be used by players to protect their own houses.\n\nGreat thanks to @MegaSamNinja for making this awesome tutorial!\n\n[Youtube Video Demo](https://www.youtube.com/embed/ZUr2zrx7ZY8)\n\nCommands Code: /area <pos1/pos2/create/flag/list/tp/delete>",
+  "readme_source_url": "https://github.com/Laith98Dev/iProtector",
+  "icon_url": "https://raw.githubusercontent.com/Laith98Dev/iProtector/dca864ca0e28e706f414d0fe59aecbba305e6282/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Laith98Dev/iProtector",
+  "archive_repo": null,
+  "approved_release_tag": "r-9253",
+  "stars": 5,
+  "total_downloads": 1453,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Laith98Dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "3.1.2",
+      "tag": "r-9253",
+      "published_at": null,
+      "downloads": 1453,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9253/iprotector-pm4-3.1.2-r9253.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9253",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9253/iprotector-pm4-3.1.2-r9253.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "iProtector-PM4",
+    "stable_release_id": 9253
+  }
+}

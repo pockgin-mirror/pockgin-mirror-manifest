@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11885",
   "stars": 3,
-  "total_downloads": 3965,
+  "total_downloads": 4195,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-9443",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9443/advancedeaths-4.0.0-r9443.phar"
+    },
+    {
+      "tag": "r-9303",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9303/advancedeaths-3.5.1-r9303.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "coin-flip",
+  "name": "Coin-Flip",
+  "author": "RealBluxy",
+  "description": "CoinFlip",
+  "readme_markdown": "# CoinFlip\nSimple CoinFlip Plugin For PMMP!\n\nit allows you to flip a coin in your minecraft server and knoe if it landed on heads or tails\n\n## Commands:\n- `/coinflip` Flips A Coin! returns heads or tails",
+  "readme_source_url": "https://github.com/RealBluxy/CoinFlip",
+  "icon_url": "https://raw.githubusercontent.com/RealBluxy/CoinFlip/b7d33684e0cefbce0bfb76ae9613050249799a3d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/RealBluxy/CoinFlip",
+  "archive_repo": null,
+  "approved_release_tag": "r-9300",
+  "stars": 4,
+  "total_downloads": 518,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "RealBluxy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-9300",
+      "published_at": null,
+      "downloads": 518,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9300/coin-flip-1.0-r9300.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9300",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9300/coin-flip-1.0-r9300.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Coin-Flip",
+    "stable_release_id": 9300
+  }
+}

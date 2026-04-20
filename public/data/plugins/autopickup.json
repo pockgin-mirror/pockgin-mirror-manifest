@@ -1,0 +1,61 @@
+{
+  "id": "autopickup",
+  "name": "AutoPickup",
+  "author": "tobiaskirchmaier",
+  "description": "AutoPickup is a plugin for Pocketmine-MP",
+  "readme_markdown": "<h1 align=\"center\">AutoPickup</h1>\n\n<p align=\"center\">\n  AutoPickup is a plugin for <a href=\"https://github.com/pmmp/PocketMine-MP\">Pocketmine-MP</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://poggit.pmmp.io/p/AutoPickup\"><img src=\"https://poggit.pmmp.io/shield.state/AutoPickup\"></a> \n  <a href=\"https://poggit.pmmp.io/p/AutoPickup\"><img src=\"https://poggit.pmmp.io/shield.dl/AutoPickup\"></a>\n</p>\n\n---\n\n## About\nAutoPickup transports the drops from mined blocks and killed entities directly into the inventory.\nThis also includes the experience points. This helps to avoid lags.\n\n## Installation\n- [Download](https://poggit.pmmp.io/r/219876/AutoPickup_dev-14.phar) AutoPickup for Pocketmine-MP-API 5\n- Move the plugin (`AutoPickup.phar`) to the `plugins/` folder of your server\n- Start the server, that's it!\n\n## License\n- GPL-3.0",
+  "readme_source_url": "https://github.com/tobiaskirchmaier/AutoPickup",
+  "icon_url": "https://raw.githubusercontent.com/Tobias-2006/AutoPickup/1e36459cba72fa080a56a126ea0d59a3053f142d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/tobiaskirchmaier/AutoPickup",
+  "archive_repo": null,
+  "approved_release_tag": "r-9255",
+  "stars": 5,
+  "total_downloads": 3285,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "tobiaskirchmaier"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/166589",
+  "versions": {
+    "stable": {
+      "version": "1.0.6",
+      "tag": "r-9255",
+      "published_at": null,
+      "downloads": 3285,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9255/autopickup-1.0.6-r9255.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9255",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9255/autopickup-1.0.6-r9255.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AutoPickup",
+    "stable_release_id": 9255
+  }
+}

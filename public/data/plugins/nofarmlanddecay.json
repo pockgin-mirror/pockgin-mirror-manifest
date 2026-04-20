@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11611",
   "stars": 5,
-  "total_downloads": 777,
+  "total_downloads": 807,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-9467",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9467/nofarmlanddecay-0.0.2-r9467.phar"
+    },
+    {
+      "tag": "r-9209",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9209/nofarmlanddecay-0.0.1-r9209.phar"
     }
   ],
   "comments": {

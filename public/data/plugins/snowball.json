@@ -1,0 +1,61 @@
+{
+  "id": "snowball",
+  "name": "Snowball",
+  "author": "deadbushmc",
+  "description": "This plugin can be used if you want snowballs to do damage",
+  "readme_markdown": "# Snowball\n\nThis plugin can be used if you want snowballs to do damage\n\n# Download from poggit\n\n<a href=\"https://poggit.pmmp.io/p/Snowball/1.0\">Poggit Download</a>",
+  "readme_source_url": "https://github.com/deadbushmc/Snowball",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/deadbushmc/Snowball",
+  "archive_repo": null,
+  "approved_release_tag": "r-9216",
+  "stars": 0,
+  "total_downloads": 337,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "deadbushmc"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/165773",
+  "versions": {
+    "stable": {
+      "version": "1.2",
+      "tag": "r-9216",
+      "published_at": null,
+      "downloads": 337,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9216/snowball-1.2-r9216.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9216",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9216/snowball-1.2-r9216.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Snowball",
+    "stable_release_id": 9216
+  }
+}

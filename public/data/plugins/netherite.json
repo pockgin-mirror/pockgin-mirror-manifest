@@ -1,0 +1,66 @@
+{
+  "id": "netherite",
+  "name": "Netherite",
+  "author": "Wertzui123",
+  "description": "This plugin adds netherite items, crafting recipes and more to your PocketMine-MP server!",
+  "readme_markdown": "# Netherite\nThis plugin adds netherite items, crafting recipes and more to your PocketMine-MP server!\n<br>The .phar can be found on <a href=\"https://poggit.pmmp.io/p/Netherite\">poggit</a>.\n\n# Features\n- [x] Tools\n- [x] Armor\n- [x] Ingot and scrap\n- [x] Knockback resistance\n- [x] Crafting recipes\n- [x] Items are immune to fire\n\n# Config\n> This plugin was developed to bring vanilla features to PocketMine, so why does it have a config at all?\n\nBecause some functions netherite normally depends on (e.g. the smithing table) are not yet implemented in PocketMine and this plugin needs a workaround for these things.\n<br>For this reason, the config allows you to choose between two different types of crafting recipes for netherite items:\n<br>\n<br>vanilla: Diamond Sword + Netherite Ingot = Netherite Sword\n<br>custom: Recipes like for all other tiers (2 Netherite Ingots + Stick = Netherite Sword)\n<br>Everything else disables crafting recipes\n\n# Icon\nThe icon is just a normal netherite helmet and belongs to Mojang.",
+  "readme_source_url": "https://github.com/Wertzui123/Netherite",
+  "icon_url": "https://raw.githubusercontent.com/Wertzui123/Netherite/052c2ed7adb00592f5b91cff2909806a6ef04123/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Wertzui123/Netherite",
+  "archive_repo": null,
+  "approved_release_tag": "r-9233",
+  "stars": 4,
+  "total_downloads": 7520,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Wertzui123"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/166030",
+  "versions": {
+    "stable": {
+      "version": "2.3",
+      "tag": "r-9233",
+      "published_at": null,
+      "downloads": 7372,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9233/netherite-2.3-r9233.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9233",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9233/netherite-2.3-r9233.phar"
+    },
+    {
+      "tag": "r-9220",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9220/netherite-2.2-r9220.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Netherite",
+    "stable_release_id": 9233
+  }
+}

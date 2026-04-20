@@ -1,0 +1,64 @@
+{
+  "id": "paidall",
+  "name": "PaidAll",
+  "author": "NoobMCBG",
+  "description": "General",
+  "readme_markdown": "## General\n\n| **Plugins** | **PaidAll** |\n| --- | --- |\n| **API** | **<a href=\"https://poggit.pmmp.io/p/PaidAll\"><img src=\"https://poggit.pmmp.io/shield.api/PaidAll\"></a>** |\n| **Version** | **<a href=\"https://poggit.pmmp.io/p/PaidAll\"><img src=\"https://poggit.pmmp.io/shield.state/PaidAll\"></a>** |\n| **Download** | **<a href=\"https://poggit.pmmp.io/p/PaidAll\"><img src=\"https://poggit.pmmp.io/shield.dl/PaidAll\"></a>** |\n| **Total Download** | **<a href=\"https://poggit.pmmp.io/p/PaidAll\"><img src=\"https://poggit.pmmp.io/shield.dl.total/PaidAll\"></a>** |\n\n<br>\n\n>- Paid money to all people online ✔️\n>- Automatically Paid When 2 Types of Plugins `EconomyAPI` or `BedrockEconomy` ✔️\n<img src=\"https://github.com/NoobMCBG/PaidAll/blob/main/icon.png\"/>\n\n<br>\n\n## Features\n>- Paid money to all people online\n>- Automatically Paid When 2 Types of Plugins `EconomyAPI` or `BedrockEconomy`\n\n<br>\n  \n## Commands\n| **Commands** | **Description** | **Aliases** |\n| --- | --- | --- |\n| **/paidall** | **Commands paid all players online** | **[pa, payall]** |\n\n<br>\n  \n## Permissions\n| **Permission** | **Description** | **Default** |\n| --- | --- | --- |\n| **`paidall.paid`** | **Permission use commands /paidall** | **true** |\n\n<br>\n\n## Config\n```yaml\n---\n#   ██████╗░░█████╗░██╗██████╗░░█████╗░██╗░░░░░██╗░░░░░\n#   ██╔══██╗██╔══██╗██║██╔══██╗██╔══██╗██║░░░░░██║░░░░░\n#   ██████╔╝███████║██║██║░░██║███████║██║░░░░░██║░░░░░\n#   ██╔═══╝░██╔══██║██║██║░░██║██╔══██║██║░░░░░██║░░░░░\n#   ██║░░░░░██║░░██║██║██████╔╝██║░░██║███████╗███████╗\n#   ╚═╝░░░░░╚═╝░░╚═╝╚═╝╚═════╝░╚═╝░░╚═╝╚══════╝╚══════╝\n\n# Message Paid Successfully\n# Use {money} to show the amount that player paid\npaid-successfully:\n  msg: true # false = disable, true = enable;\n  msg-paid-successfully: \"§a> You have just paid {money} money to all players\"\n\n# Broadcast Message Paid\n# Use {player} to get the name of the person who paid for the whole server\n# Use {money} to show the amount that player paid\nbroadcast-paid:\n  broadcast: true # false = disable, true = enable;\n  msg-broadcast-paid: \"§a> player {player} just paid everyone {money}$ money !\"\n\n# Message Paid Fallied\n# Use {price} to show the additional amount to pay\npaid-fallied:\n  msg: true # false = disable, true = enable;\n  msg-paid-fallied: \"You need more {price}$ money to paid all players\"\n...\n```\n  \n<br>\n\n## For Developer\n>- You can access to PaidAll by using `PaidAll::getInstance()`\n>- PaidAll Usage:\n```php\n$money = 1000;\nPaidAll::getInstance()->paidAll($money);\n```\n\n<br>\n\n## Install\n>- Step 1: Click the `Direct Download` button to download the plugin\n>- Step 2: move the file `PaidAll.phar` into the file `plugins`\n>- Step 3: Restart server for plugins to work",
+  "readme_source_url": "https://github.com/NoobMCBG/PaidAll",
+  "icon_url": "https://raw.githubusercontent.com/NoobMCBG/PaidAll/8dc0037cf5dac6411378fa19ce2464d5212bd78f/icon.png",
+  "featured": false,
+  "repo": "https://github.com/NoobMCBG/PaidAll",
+  "archive_repo": null,
+  "approved_release_tag": "r-9304",
+  "stars": 5,
+  "total_downloads": 842,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "NoobMCBG"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-9304",
+      "published_at": null,
+      "downloads": 842,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9304/paidall-1.0.0-r9304.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9304",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9304/paidall-1.0.0-r9304.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PaidAll",
+    "stable_release_id": 9304
+  }
+}

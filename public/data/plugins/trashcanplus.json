@@ -1,0 +1,61 @@
+{
+  "id": "trashcanplus",
+  "name": "TrashcanPlus",
+  "author": "brokiem",
+  "description": "3D Trashcan plugin with a bunch of features.",
+  "readme_markdown": "<h1>TrashcanPlus<img src=\"https://raw.githubusercontent.com/brokiem/Trashcan/master/assets/icon.png\" height=\"64\" width=\"64\" align=\"left\" alt=\"\"></h1><br>\n\n<b>3D Trashcan plugin with a bunch of features.</b><br>\nThis plugin is based on [Trashcan Addon](https://mcpedl.com/trashcan-addon/) on MCPEDL<br><br>\n[![License](https://img.shields.io/github/license/brokiem/Trashcan)](https://github.com/brokiem/Trashcan)\n[![Star](https://img.shields.io/github/stars/brokiem/Trashcan)](https://github.com/brokiem/Trashcan/stargazers)\n[![Discord](https://img.shields.io/discord/830063409000087612?color=7389D8&label=discord)](https://discord.com/invite/jy6abSrjhQ)\n[![Poggit](https://poggit.pmmp.io/shield.dl.total/TrashcanPlus)](https://poggit.pmmp.io/p/TrashcanPlus)\n\n## ▶ Demo\n- Link to demo: https://youtu.be/mA4Erj7iThw\n\n## ✨ Features\n\n- Open or close the trashcan (sneak then tap) ✔\n- Throw or drop item to the trashcan ✔\n- Trashcan inventory that you can clear if full ✔\n- Trashcan item for spawning the trashcan entity ✔\n- Open or close trashcan soundfx ✔\n- Lightweight & Open Source ❤\n\n## 💬 Commands\n\n| Command                                   | Description                   | Permission                 | Default    |\n|-------------------------------------------|-------------------------------|----------------------------|------------|\n| ```/trashcan```                           | ```Trashcan command```        | ```none```                 | ```true``` |\n| ```/trashcan help```                      | ```Trashcan help command```   | ```none```                 | ```true``` |\n| ```/trashcan get```                       | ```Get Trashcan item```       | ```trashcanplus.get```     | ```op```   |\n| ```/trashcan spawn [optional: nametag]``` | ```Spawn trashcan entity```   | ```trashcanplus.spawn```   | ```op```   |\n| ```/trashcan despawn```                   | ```Despawn trashcan entity``` | ```trashcanplus.despawn``` | ```true``` |\n| ```/trashcan reload```                    | ```Reload plugin config```    | ```trashcanplus.reload```  | ```op```   |\n\n## ❔ Issues\n\nDid you find a bug or error when using this plugin? feel free to open the\nissues [here](https://github.com/brokiem/Trashcan/issues/new)\n\n## 👑 Donation\n\nPaypal - https://paypal.me/brokiem <br>\nSaweria - https://saweria.co/brokiem\n\n## 🌟 Credits\n\nThis plugin is based on [Trashcan Addon](https://mcpedl.com/trashcan-addon/) on MCPEDL<br>\nIcon taken from [Sketchfab](https://sketchfab.com/3d-models/trash-can-minecraft-831dd489b8044ba8bb77f0ca253dcfde) by\nsedona1029",
+  "readme_source_url": "https://github.com/brokiem/Trashcan",
+  "icon_url": "https://raw.githubusercontent.com/brokiem/Trashcan/2d08588c7ad826e233751b443e17915156116f20/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/brokiem/Trashcan",
+  "archive_repo": null,
+  "approved_release_tag": "r-9375",
+  "stars": 5,
+  "total_downloads": 492,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "brokiem"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-9375",
+      "published_at": null,
+      "downloads": 492,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9375/trashcanplus-1.0.0-r9375.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9375",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9375/trashcanplus-1.0.0-r9375.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TrashcanPlus",
+    "stable_release_id": 9375
+  }
+}

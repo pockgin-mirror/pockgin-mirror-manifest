@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14265",
   "stars": 5,
-  "total_downloads": 4035,
+  "total_downloads": 4364,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -54,6 +54,11 @@
       "tag": "r-9444",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9444/blockpets-2.0.1-r9444.phar"
+    },
+    {
+      "tag": "r-9389",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9389/blockpets-2.0.0-r9389.phar"
     }
   ],
   "comments": {

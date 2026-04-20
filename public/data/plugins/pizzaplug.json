@@ -1,0 +1,72 @@
+{
+  "id": "pizzaplug",
+  "name": "pizzaplug",
+  "author": "JustTalDevelops",
+  "description": "Have you ever been on your PocketMine-MP (4.0.0+) server, and thought:",
+  "readme_markdown": "# pizzaplug\nHave you ever been on your PocketMine-MP (4.0.0+) server, and thought:\n> It'd be real nice if I could order Domino's pizza through MCPE!\n\nWell, today's your lucky day. pizzaplug is about to change the way you\nsweat on twelve year olds for the better.\n\npizzaplug is a plugin for PocketMine which allows you to order Domino's\npizza without ever having to leave your game.\n\nIt uses the Domino's public API to send out an order to your address.\n\nRun /pizza, enter your delivery information, select your local Domino's,\nand choose what you'd like to eat from the interactable forms menus!\n\n![Menu Form](images/menu.jpg)\n\nWhen you've selected everything you want, click on the \"View Cart\"\nbutton to review your order before you send it in.\n![View Cart Form](images/cart.jpg)\n\nWhen you're satisfied with your selection, click the \"Submit Order\" button\nat the bottom of the \"View Cart\" form. Once you click it, an order will be\nsent to Domino's.\n\nDon't worry - no payment information is taken. Instead, the payment method\nis forced as cash, so you can rest assured knowing that your pizza is secure\npizza.\n\nAfter Domino's processes your order, you'll see a message like this in chat:\n> Your order was completed! A tracking indicator will be shown on top of your hotbar in a few seconds.\n\n> The total was $11.36, make sure you have the cash ready before the driver arrives.\n\nWhile you read that message, the plugin was busy communicating with the Domino's\nTracker. Yeah, that's right. It has tracking too!\n\nAfter a few seconds of loading, you'll see a tracking indicator on top of your\nhotbar. It'll show you everything you need to know - the ETA, order status, and the\ndriver and manager from the store.\n\n![Tracking Indicator](images/tracker.png)\n\nThis tracking indicator will automatically close after the order ends, such as the order\nbeing delivered or the order being cancelled. (say you spam your local Domino's\nwith orders to debug your implementation of their API, sorry Brayden)\n\n# todo\n- [X] Local store searching\n- [X] Menu requesting\n- [X] Item selection\n- [X] Ordering\n- [X] Live tracking\n- [ ] General code cleanup\n- [ ] Full support for building your own pizzas\n\n# disclaimer\nthis code is absolute dogshit please do not actually use this on any major servers",
+  "readme_source_url": "https://github.com/JustTalDevelops/pizzaplug",
+  "icon_url": "https://raw.githubusercontent.com/JustTalDevelops/pizzaplug/50570596665de8f49c66f710d220cdf1fd458295/images/dominos.png",
+  "featured": false,
+  "repo": "https://github.com/JustTalDevelops/pizzaplug",
+  "archive_repo": null,
+  "approved_release_tag": "r-9279",
+  "stars": 4,
+  "total_downloads": 446,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JustTalDevelops"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/166923",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-9279",
+      "published_at": null,
+      "downloads": 416,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9279/pizzaplug-1.0.1-r9279.phar"
+    },
+    "dev": {
+      "version": "1.0.0",
+      "tag": "r-9276",
+      "published_at": null,
+      "downloads": 30,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9276/pizzaplug-1.0.0-r9276.phar"
+    }
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9279",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9279/pizzaplug-1.0.1-r9279.phar"
+    },
+    {
+      "tag": "r-9276",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9276/pizzaplug-1.0.0-r9276.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "pizzaplug",
+    "stable_release_id": 9279
+  }
+}

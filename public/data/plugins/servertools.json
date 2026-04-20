@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12240",
   "stars": 0,
-  "total_downloads": 2181,
+  "total_downloads": 5421,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,13 +37,29 @@
       "downloads": 2181,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12240/servertools-0.5.2-r12240.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "0.5.1",
+      "tag": "r-9260",
+      "published_at": null,
+      "downloads": 3135,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9260/servertools-0.5.1-r9260.phar"
+    }
   },
   "recent_builds": [
     {
       "tag": "r-12240",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12240/servertools-0.5.2-r12240.phar"
+    },
+    {
+      "tag": "r-9260",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9260/servertools-0.5.1-r9260.phar"
+    },
+    {
+      "tag": "r-9246",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9246/servertools-0.5.0-r9246.phar"
     }
   ],
   "comments": {

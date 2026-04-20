@@ -1,0 +1,61 @@
+{
+  "id": "itemlifetime",
+  "name": "ItemLifeTime",
+  "author": "DavyCraft648",
+  "description": "Adjust the time of dropped items to disappear in your server",
+  "readme_markdown": "# <img height=\"64\" src=\"https://github.com/DavyCraft648/ItemLifeTime/blob/main/icon.png\" width=\"64\"/> ItemLifeTime\nAdjust the time of dropped items to disappear in your server\n\n## How does this plugin work?\nDefault time of dropped items to disappear in PocketMine is 5 minutes (300 seconds),\nbut you can change it with this plugin!\n\n## How to use?\n- `item-lifetime` in config.yml is used to change dropped items' time to disappear in your whole server.\n\n\n- Use `worlds` in the config if you want a separated item lifetime on each world in your server,\n  Example:\n  ```yaml\n  worlds:\n    MyPrettyWorld: 120 # Set item lifetime on MyPrettyWorld world to 120 second\n    MyDirtyWorld: 360 # Set item lifetime on MyDirtyWorld world to 360 second\n  ```\n\n## Config\n```yaml\n--- # ItemLifeTime plugin configuration file\n\n# Set dropped item lifetime in your server (in second)\n# Default is 300 seconds (5 minutes)\n# Minimum value is 0, maximum is 1938\n# Item will never despawn if this set to -1\nitem-lifetime: 300\n\n# Set different custom item lifetime on each of these worlds (optional)\n# Value in item-lifetime will be used if the world is not set in this list\n# Example configuration:\n# worlds:\n#   MyPrettyWorld: 120\n#   MyDirtyWorld: 360\n#\n# This will set item lifetime in MyPrettyWorld world to 120 seconds, 360 seconds in MyDirtyWorld\nworlds: {}\n\n# Show remaining time to disappear in item's nametag\ndisplay-time:\n  enabled: false\n  # Text to be set in item's nametag\n  # {MINUTE}, {SECOND}, {TIME}\n  # Set this to \"{MINUTE}:{SECOND} {TIME}\" will be shown as \"01:20 01 minute\" (example)\n  text: \"{MINUTE}:{SECOND}\"\n...\n\n```",
+  "readme_source_url": "https://github.com/DavyCraft648/ItemLifeTime",
+  "icon_url": "https://raw.githubusercontent.com/DavyCraft648/ItemLifeTime/dac5f43748b7a4545c4a3254f78c641c1316c2e1/icon.png",
+  "featured": false,
+  "repo": "https://github.com/DavyCraft648/ItemLifeTime",
+  "archive_repo": null,
+  "approved_release_tag": "r-9313",
+  "stars": 4,
+  "total_downloads": 495,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DavyCraft648"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/167587",
+  "versions": {
+    "stable": {
+      "version": "0.1.0",
+      "tag": "r-9313",
+      "published_at": null,
+      "downloads": 495,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9313/itemlifetime-0.1.0-r9313.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9313",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9313/itemlifetime-0.1.0-r9313.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemLifeTime",
+    "stable_release_id": 9313
+  }
+}

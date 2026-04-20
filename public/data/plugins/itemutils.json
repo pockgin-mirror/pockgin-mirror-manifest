@@ -1,0 +1,61 @@
+{
+  "id": "itemutils",
+  "name": "ItemUtils",
+  "author": "OiranCage",
+  "description": "Add simple commands to duplicate, import and export item.",
+  "readme_markdown": "# ItemUtils\nAdd simple commands to duplicate, import and export item.\n\n## Usage\n- `/itemutils duplicate` duplicate item in hand.\n- `/itemutils rename` rename item in hand.\n- `/itemutils import` import item from json string exported by this plugin.\n- `/itemutils export` export item json into writable book.\n- `/itemutils nbt` show item nbt in user-friendly way.",
+  "readme_source_url": "https://github.com/OiranCage/ItemUtils",
+  "icon_url": "https://raw.githubusercontent.com/OiranCage/ItemUtils/065ce7a6c4bc0f5e353924367cd8c6a590ec2c71/icon.png",
+  "featured": false,
+  "repo": "https://github.com/OiranCage/ItemUtils",
+  "archive_repo": null,
+  "approved_release_tag": "r-9302",
+  "stars": 4,
+  "total_downloads": 560,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OiranCage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/167421",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-9302",
+      "published_at": null,
+      "downloads": 560,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9302/itemutils-1.1.1-r9302.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9302",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9302/itemutils-1.1.1-r9302.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemUtils",
+    "stable_release_id": 9302
+  }
+}

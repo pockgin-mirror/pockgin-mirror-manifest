@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12992",
   "stars": 5,
-  "total_downloads": 4032,
+  "total_downloads": 15259,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "2.1.0",
       "tag": "r-12992",
       "published_at": null,
-      "downloads": 4032,
+      "downloads": 4033,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12992/auctionhouse-2.1.0-r12992.phar"
     },
     "dev": null
@@ -44,6 +44,16 @@
       "tag": "r-12992",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12992/auctionhouse-2.1.0-r12992.phar"
+    },
+    {
+      "tag": "r-9378",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9378/auctionhouse-2.0.1-r9378.phar"
+    },
+    {
+      "tag": "r-9316",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9316/auctionhouse-2.0.0-r9316.phar"
     }
   ],
   "comments": {

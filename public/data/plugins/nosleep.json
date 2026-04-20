@@ -1,0 +1,61 @@
+{
+  "id": "nosleep",
+  "name": "NoSleep",
+  "author": "deadbushmc",
+  "description": "Features",
+  "readme_markdown": "# NoSleep\n\n![NoSleep](https://user-images.githubusercontent.com/66917109/158013694-62fbfd3f-4542-4057-9897-3e9ff9daddcc.png)\n\n# Features\n\nPrevents player from sleeping in bed at night\n\n# Config\n\n```yaml\n# Do you want to show message to a player when they try to sleep?\n# Accepted values \"true\" or \"false\"\nsend_message: true\n\n# Only use this if send_message: true\n# What message do you want to send the player when they try to enter the bed?\nmessage: \"it isn't allowed\"\n```",
+  "readme_source_url": "https://github.com/deadbushmc/NoSleep",
+  "icon_url": "https://raw.githubusercontent.com/deadbushmc/NoSleep/377f378e7dea1929bc719f901712e6f41eb78243/icon.png",
+  "featured": false,
+  "repo": "https://github.com/deadbushmc/NoSleep",
+  "archive_repo": null,
+  "approved_release_tag": "r-9257",
+  "stars": 0,
+  "total_downloads": 294,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "deadbushmc"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-9257",
+      "published_at": null,
+      "downloads": 294,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9257/nosleep-1.0-r9257.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9257",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9257/nosleep-1.0-r9257.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NoSleep",
+    "stable_release_id": 9257
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "totemjoin",
+  "name": "TotemJoin",
+  "author": "Shelly7w7",
+  "description": "Get a cool animation of totem when you join the server!",
+  "readme_markdown": "# TotemJoin\nGet a cool animation of totem when you join the server!\n\n## Where to download a compiled version?\n\nYou can get the latest compiled version [here.](https://poggit.pmmp.io/ci/Shelly7w7/TotemJoin)\n\n### How to install?\n\nAfter downloading the compiled version from poggit, simply put the file in your server directory (``/plugins``)\n\n### How does this work?\n\nBasically when you join the server, you will see a totem popping up on your screen just\nlike it does when you are holding a totem and are about to die.\n\n### How to configure?\n\nCurrently there's only one configuration, which is to disable the creepy sound when you joinn\n\n## Suggestions and Issues\n\nYou can simply open an issue if you want to suggest anything.\n\nYou can simply open an issue if you find any bugs and I'll try to fix it as soon as possible!",
+  "readme_source_url": "https://github.com/Shelly7w7/TotemJoin",
+  "icon_url": "https://raw.githubusercontent.com/Shelly7w7/TotemJoin/71c59eb3dbf0abe41b470fe3816def16b5d8a05d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Shelly7w7/TotemJoin",
+  "archive_repo": null,
+  "approved_release_tag": "r-9247",
+  "stars": 5,
+  "total_downloads": 1908,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Shelly7w7"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/166252",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-9247",
+      "published_at": null,
+      "downloads": 1908,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9247/totemjoin-1.0.1-r9247.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9247",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9247/totemjoin-1.0.1-r9247.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TotemJoin",
+    "stable_release_id": 9247
+  }
+}

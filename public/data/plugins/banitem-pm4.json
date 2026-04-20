@@ -1,0 +1,61 @@
+{
+  "id": "banitem-pm4",
+  "name": "BanItem-PM4",
+  "author": "Taylor-pm-pl",
+  "description": "General",
+  "readme_markdown": "### General\n\n[![Poggit Release](https://poggit.pmmp.io/shield.approved/BanItem-PM4)](https://poggit.pmmp.io/p/BanItem-PM4)\n[![Discord](https://img.shields.io/discord/1100650029573738508.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/yAhsgskaGy)\n\nBanItem is a PocketMine plugin designed to ban items on a server-wide basis.\n\n### Features\n\nThis is fork of LDX's BanItem plugin: the original code was preserved, and the following added:\n \nLogs information to Console for any players trying to use banned items, and where it happened.\n\nReport use of banned items to staff in the game\n\nLog items being banned/unbanned.\n\n### Commands\n\nAll commands default to OP only:\n\n```\n/banitem add 57 - ban diamond block\n/banitem unban 57 - unban diamond block\n/banitem list - list all banned blocks\n/banitem report - toggles in-game banned item reporting\n```\n\n### Credits\n\nWritten by LDX",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/BanItem-PM4",
+  "icon_url": "https://raw.githubusercontent.com/David-pm-pl/BanItem-PM4/136c5f37b981ba42cf46de3a7a59ba5b281bde45/banitem.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/BanItem-PM4",
+  "archive_repo": null,
+  "approved_release_tag": "r-9364",
+  "stars": 4,
+  "total_downloads": 1318,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.3.4",
+      "tag": "r-9364",
+      "published_at": null,
+      "downloads": 1318,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9364/banitem-pm4-2.3.4-r9364.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9364",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9364/banitem-pm4-2.3.4-r9364.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BanItem-PM4",
+    "stable_release_id": 9364
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "voting38",
+  "name": "Voting38",
+  "author": "KingOfTurkey38",
+  "description": "This is a threaded high performance voting plugin for PocketMine-MP API 5.0",
+  "readme_markdown": "# Voting38\nThis is a threaded high performance voting plugin for PocketMine-MP API 5.0\n\nYou can configure messages and voting rewards in the config.\nThere's also an \"autoclaim\" option in the config.\nIf that is set to true the server will check every 30 seconds if the player has voted or not.\n\n# For developers\nWhen a player votes there's a `PlayerVoteEvent` called.",
+  "readme_source_url": "https://github.com/KingOfTurkey38/Voting38",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/KingOfTurkey38/Voting38",
+  "archive_repo": null,
+  "approved_release_tag": "r-9310",
+  "stars": 3,
+  "total_downloads": 1117,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.3-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "KingOfTurkey38"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/167542",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-9310",
+      "published_at": null,
+      "downloads": 1117,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9310/voting38-0.0.2-r9310.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9310",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9310/voting38-0.0.2-r9310.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Voting38",
+    "stable_release_id": 9310
+  }
+}

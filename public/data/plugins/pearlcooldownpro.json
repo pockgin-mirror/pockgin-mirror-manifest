@@ -1,0 +1,61 @@
+{
+  "id": "pearlcooldownpro",
+  "name": "PearlCooldownPro",
+  "author": "Prim69-PM",
+  "description": "This is a configurable plugin that lets you add a cooldown for ender pearls. You can set the cooldown message and timer in config.",
+  "readme_markdown": "<p>This is a configurable plugin that lets you add a cooldown for ender pearls. You can set the cooldown message and timer in config.</p>",
+  "readme_source_url": "https://poggit.pmmp.io/r/165567",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Prim69-PM/PearlCooldownPro",
+  "archive_repo": null,
+  "approved_release_tag": "r-9202",
+  "stars": 5,
+  "total_downloads": 420,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Prim69-PM"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/165569",
+  "versions": {
+    "stable": {
+      "version": "6.9.420-notBeta",
+      "tag": "r-9202",
+      "published_at": null,
+      "downloads": 420,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9202/pearlcooldownpro-6.9.420-notbeta-r9202.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9202",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9202/pearlcooldownpro-6.9.420-notbeta-r9202.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PearlCooldownPro",
+    "stable_release_id": 9202
+  }
+}

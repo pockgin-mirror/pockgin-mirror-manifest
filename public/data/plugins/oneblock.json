@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11619",
   "stars": 0,
-  "total_downloads": 5630,
+  "total_downloads": 6045,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -56,6 +56,16 @@
       "tag": "r-9451",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9451/oneblock-0.0.7-r9451.phar"
+    },
+    {
+      "tag": "r-9370",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9370/oneblock-0.0.6-beta-r9370.phar"
+    },
+    {
+      "tag": "r-9327",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9327/oneblock-0.0.5-r9327.phar"
     }
   ],
   "comments": {

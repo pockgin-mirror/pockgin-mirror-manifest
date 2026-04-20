@@ -1,0 +1,61 @@
+{
+  "id": "combatlogger",
+  "name": "CombatLogger",
+  "author": "JackNoordhuis",
+  "description": "",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.api/CombatLogger)](https://poggit.pmmp.io/p/CombatLogger) [![](https://poggit.pmmp.io/shield.api/ExplosiveArrows)](https://poggit.pmmp.io/p/ExplosiveArrows)",
+  "readme_source_url": "https://github.com/JackNoordhuis/PocketMine-Plugins",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/JackNoordhuis/PocketMine-Plugins",
+  "archive_repo": null,
+  "approved_release_tag": "r-9367",
+  "stars": 4,
+  "total_downloads": 2749,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JackNoordhuis"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/168530",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-9367",
+      "published_at": null,
+      "downloads": 2749,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9367/combatlogger-1.0.0-r9367.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9367",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9367/combatlogger-1.0.0-r9367.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CombatLogger",
+    "stable_release_id": 9367
+  }
+}
