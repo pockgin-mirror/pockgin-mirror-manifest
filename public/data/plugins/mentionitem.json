@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14048",
   "stars": 0,
-  "total_downloads": 86,
+  "total_downloads": 287,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-14048",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14048/mentionitem-1.0.1-r14048.phar"
+    },
+    {
+      "tag": "r-9803",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9803/mentionitem-1.0.0-r9803.phar"
     }
   ],
   "comments": {

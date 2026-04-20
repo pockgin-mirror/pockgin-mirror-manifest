@@ -1,0 +1,61 @@
+{
+  "id": "pmjellylegs",
+  "name": "PMJellyLegs",
+  "author": "iRainDropp",
+  "description": "A Pocketmine-MP plugin that disables fall-damage per player or all together.",
+  "readme_markdown": "# PMJellyLegs\nA Pocketmine-MP plugin that disables fall-damage per player or all together.\n\nCommands: /jellylegs\n\nFeatures:\n- Disable Fall-Damage per Player with Command.\n- Disable Fall-Damage all-together in Config.\n- Can be disabled in certain Worlds.\n\nPermissions:\n- jelly.legs (enables/disables fall-damage)\n\nInstallation:\n- Download the latest .phar from the Releases and put it in your plugins folder\n- Restart your server and stop the server again to see the config",
+  "readme_source_url": "https://github.com/iRainDropp/PMJellyLegs",
+  "icon_url": "https://raw.githubusercontent.com/iRainDropp/PMJellyLegs/660cb3fbbbb29463a1181883a9d833ec2622a492/jellylegs.png",
+  "featured": false,
+  "repo": "https://github.com/iRainDropp/PMJellyLegs",
+  "archive_repo": null,
+  "approved_release_tag": "r-9920",
+  "stars": 0,
+  "total_downloads": 132,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.3.2-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "iRainDropp"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-9920",
+      "published_at": null,
+      "downloads": 132,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9920/pmjellylegs-1.0.0-r9920.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9920",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9920/pmjellylegs-1.0.0-r9920.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PMJellyLegs",
+    "stable_release_id": 9920
+  }
+}

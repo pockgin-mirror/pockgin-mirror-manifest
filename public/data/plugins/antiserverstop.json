@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11412",
   "stars": 5,
-  "total_downloads": 2690,
+  "total_downloads": 2882,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-10191",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10191/antiserverstop-1.0.1-r10191.phar"
+    },
+    {
+      "tag": "r-9926",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9926/antiserverstop-1.0.0-r9926.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,71 @@
+{
+  "id": "simplejoinmessage",
+  "name": "SimpleJoinMessage",
+  "author": "DaDevGuy",
+  "description": "SimpleJoinMessage Plugin For Pocketmine-MP",
+  "readme_markdown": "# SimpleJoinMessage\nSimpleJoinMessage Plugin For Pocketmine-MP\n\n[![](https://poggit.pmmp.io/shield.state/SimpleJoinMessage)](https://poggit.pmmp.io/p/SimpleJoinMessage)\n\n# Config \n```yml\n#INTERNAL DO NOT TOUCH\nconfig-ver: 1\n\n#CONFIG\n#Use {name} To Get Player name\n\njoin-message: \"Welcome To Server {name}\"\n```",
+  "readme_source_url": "https://github.com/DaDevGuy/SimpleJoinMessage",
+  "icon_url": "https://raw.githubusercontent.com/DaDevGuy/SimpleJoinMessage/0031653164c45eda49eb884ea2bbfafd7c0d9e6c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/DaDevGuy/SimpleJoinMessage",
+  "archive_repo": null,
+  "approved_release_tag": "r-9830",
+  "stars": 0,
+  "total_downloads": 1326,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaDevGuy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/178093",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-9830",
+      "published_at": null,
+      "downloads": 1080,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9830/simplejoinmessage-1.0.2-r9830.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9830",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9830/simplejoinmessage-1.0.2-r9830.phar"
+    },
+    {
+      "tag": "r-9802",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9802/simplejoinmessage-1.0.1-r9802.phar"
+    },
+    {
+      "tag": "r-9657",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9657/simplejoinmessage-1.0.0-r9657.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleJoinMessage",
+    "stable_release_id": 9830
+  }
+}

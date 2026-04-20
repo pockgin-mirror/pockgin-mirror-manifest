@@ -1,0 +1,61 @@
+{
+  "id": "thebridge",
+  "name": "TheBridge",
+  "author": "SandhyR",
+  "description": "TheBridge PocketMine Plugin",
+  "readme_markdown": "# TheBridge\nTheBridge PocketMine Plugin\n\n# Whats TheBridge?\nThe Bridge is a minigame. It is a type of duel which involves 2 teams attempting to score goals on the opposite side by crossing a 1 block-wide bridge while attempting to protect their own goal.\n\n# Commands\nCommand | Description | Permission\n--- | --- | ---\n`/tb create` | Create new arena. | thebridge.set\n`/tb delete` | Delete arena. | thebridge.set\n`/tb quit` | Leave from game. | Default\n`/tb join` | Join to game. | Default\n`/tb setspawn` | Set position of spawn position a team. | thebridge.set\n`/tb setgoal` | Set position of goal a team. | thebridge.set\n`/tb setworld` | Set world name of arena. | thebridge.set\n`/tb sethub` | Set hub position. | thebridge.set\n`/tb reload` | Reload all arena. | thebridge.set\n\n## Features\n- [X] All basics of TheBridge game\n- [X] In-Game scoreboard\n- [X] Configurable\n- [ ] Save Kills, Wins, Goals in Database",
+  "readme_source_url": "https://github.com/SandhyR/TheBridge",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/SandhyR/TheBridge",
+  "archive_repo": null,
+  "approved_release_tag": "r-9790",
+  "stars": 3,
+  "total_downloads": 527,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SandhyR"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/177250",
+  "versions": {
+    "stable": {
+      "version": "1.1",
+      "tag": "r-9790",
+      "published_at": null,
+      "downloads": 527,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9790/thebridge-1.1-r9790.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9790",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9790/thebridge-1.1-r9790.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TheBridge",
+    "stable_release_id": 9790
+  }
+}

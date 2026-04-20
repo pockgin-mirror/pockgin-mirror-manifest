@@ -1,0 +1,65 @@
+{
+  "id": "sellme",
+  "name": "SellMe",
+  "author": "cosmicnebula200",
+  "description": "The Ultimate Sell plugin for PocketMine-MP 4",
+  "readme_markdown": "# SellMe\nThe Ultimate Sell plugin for PocketMine-MP 4\n\n**What is SellMe?**\n- SellMe is a plugin which allows the items to be sold in exchange with money\n\n# Features\nThe currently offered features are as follows\n- Multiple Economy providers like EconomyAPI, BedrockEconomy and Capital\n- AutoSell \n- Item meta checks\n- Multiple sell modes (hand, all, inv)\n- List command which shows the list of all the prices of items.\n-  Check command which allows you to check the price of the items in your inventory.\n- Add command which allows you to add items to the price list.\n- Overwrite command which allows you to modify any item which is currently in the price list.\n\n# Permissions\n```\npermissions:\n  sellme.command.sell.hand:\n    default: true\n    description: with this permission the player sell his/her hand\n  sellme.command.sell.all:\n    default: true\n    description: with this permission the player sell all items in his/her inv which are similar to his current item in hand\n  sellme.command.sell.inv:\n    default: true\n    description: with this permission the player can sell his/her inventory\n  sellme.command.sell.list:\n    default: true\n    description: with this permission the player can view sell listing\n  sellme.command.sell.add:\n    default: op\n    description: with this permission the player can add items to the sell prices\n  sellme.command.sell.overwrite:\n    default: op\n    description: with this permission the player can overwrite the prices of the items from the list of prices\n  sellme.command.sell.check:\n    default: true\n    description: with this permission the player can view the price of the items in their inventory\n  sellme.command.autosell:\n    default: true\n    description: with this permission the player can toggle his autosell status\n```\n\n# Commands\nCommand | Description | Permission | Aliases |\n----------------- | ------------- | ------------- | -------- |\n`Sell` | Sell command | sellme.command.sell | |\n`AutoSell` | AutoSell command | sellme.command.autosell | AS |\n\n# SubCommands\n\n**SELL**\n\nSubCommand | Description                                                             | Permission                | Aliases      |\n----------------- |-------------------------------------------------------------------------|---------------------------|--------------|\n`Hand` | Sells the item which is held by the user | sellme.command.sell.hand  | h |\n`All` | Sells the items in inventory which are similar to the one in the users hands | sellme.command.sell.all   | a |\n`Inv` | Sells all the items in the inventory of the user  | sellme.command.sell.hand  | i, inventory |\n`List` | View available items/prices | sellme.command.sell.list  | l |\n`Check` | Checks the amount that you can receive after using the sell command | sellme.command.sell.check | c |\n`Add` | Adds the item in hand to the list of current prices | sellme.command.sell.add | |\n`Overwrite` | Overwrites the item price in the list of current prices | sellme.command.sell.overwrite ||",
+  "readme_source_url": "https://github.com/cosmicnebula200/SellMe",
+  "icon_url": "https://raw.githubusercontent.com/cosmicnebula200/SellMe/289e9ec4d22dcfb5dad18ad79e1e3914d9f4cd38/sell.png",
+  "featured": false,
+  "repo": "https://github.com/cosmicnebula200/SellMe",
+  "archive_repo": null,
+  "approved_release_tag": "r-9706",
+  "stars": 5,
+  "total_downloads": 1478,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "Capital",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "cosmicnebula200"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/175640",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-9706",
+      "published_at": null,
+      "downloads": 1478,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9706/sellme-1.1.0-r9706.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9706",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9706/sellme-1.1.0-r9706.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SellMe",
+    "stable_release_id": 9706
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "freezesystem",
+  "name": "FreezeSystem",
+  "author": "LBWBDeveloper",
+  "description": "FreezeSystem Commands - Permissions",
+  "readme_markdown": "## FreezeSystem Commands - Permissions\n\n| Default command | Parameter | Description | Default Permission |\n| :-----: | :-------: | :---------: | :-------: |\n| /freeze | `<PlayerName>`  | Freezes a Player | `freeze.freeze` |\n| /unfreeze | `<PlayerName>` | Unfreezes a Player | `freeze.unfreeze` |\n\n  [![](https://poggit.pmmp.io/shield.dl.total/FreezeSystem)](https://poggit.pmmp.io/p/FreezeSystem)\n<a href=\"https://poggit.pmmp.io/p/FreezeSystem\"><img src=\"https://poggit.pmmp.io/shield.state/FreezeSystem\"></a>\n[![](https://poggit.pmmp.io/shield.api/FreezeSystem)](https://poggit.pmmp.io/p/FreezeSystem)\n[![](https://poggit.pmmp.io/shield.dl/FreezeSystem)](https://poggit.pmmp.io/p/FreezeSystem)",
+  "readme_source_url": "https://github.com/LBWBDeveloper/FreezeSystem",
+  "icon_url": "https://raw.githubusercontent.com/LBWBDeveloper/FreezeSystem/8503aa5cccd0e876ed33f23255505940c752507b/FreezeSystem/icon.png",
+  "featured": false,
+  "repo": "https://github.com/LBWBDeveloper/FreezeSystem",
+  "archive_repo": null,
+  "approved_release_tag": "r-9897",
+  "stars": 3,
+  "total_downloads": 886,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "LBWBDeveloper"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-9897",
+      "published_at": null,
+      "downloads": 886,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9897/freezesystem-1.0-r9897.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9897",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9897/freezesystem-1.0-r9897.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FreezeSystem",
+    "stable_release_id": 9897
+  }
+}

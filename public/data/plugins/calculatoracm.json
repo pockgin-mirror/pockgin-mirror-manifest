@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9987",
   "stars": 0,
-  "total_downloads": 430,
+  "total_downloads": 459,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.0.1",
       "tag": "r-9987",
       "published_at": null,
-      "downloads": 430,
+      "downloads": 431,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9987/calculatoracm-1.0.1-r9987.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-9987",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9987/calculatoracm-1.0.1-r9987.phar"
+    },
+    {
+      "tag": "r-9872",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9872/calculatoracm-1.0.0-r9872.phar"
     }
   ],
   "comments": {

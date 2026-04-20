@@ -1,0 +1,61 @@
+{
+  "id": "invisibleskinblocker",
+  "name": "InvisibleSkinBlocker",
+  "author": "Unickorn",
+  "description": "This is a PocketMine-MP plugin kicking players with invisible/transparent skins.",
+  "readme_markdown": "# InvisibleSkinBlocker\n\nThis is a PocketMine-MP plugin kicking players with invisible/transparent skins.\n\n## Configuration\n\nThe plugin has two behaviour modes: `kick` and `block`.\nIf set to kick, the plugin will kick players with invisible/transparent skins.\nIf set to block, the plugin will block players from changing to or joining with invisible/transparent skins.\nThe config.yml file has pretty descriptive comments for each setting and the default values. Below is a table of\nthe settings and their descriptions:\n\n| Setting        | Default Value                      | Description                                                                                         |\n|----------------|------------------------------------|-----------------------------------------------------------------------------------------------------|\n| `percentage`   | 75                                 | If the transparent pixel percentage in a skin is higher than this, player will be kicked.           |\n| `behaviour`    |                                    | (`block` or `kick`) Whether to kick the players or just block changing to invisible skins.          |\n| `default-skin` | `geometry: \"\"`<br/>`texture:\"\"`    | File names to custom geometry / texture to set as the fallback skin if behaviour is set to `block`. |\n| `message`      | `Invisible skins are not allowed.` | The message to send to the player if they are caught.                                               |\n\n## How it works\n\nIt checks for empty pixel percentage in a player's skin texture and kicks them if it is above the configurable value,\nwith a configurable message. Also supports changing the skin in-game.\n\n## A little warning\n\nKeep in mind, skin textures normally already contain empty pixels. This plugin does not bother with calculating which\npixels of the skin are actually rendered, but runs the percentage checks on the entire texture file. For this reason you\nmost likely do not want to change the percentage value too low, I found 75 to work pretty well.",
+  "readme_source_url": "https://github.com/Unickorn/InvisibleSkinBlocker",
+  "icon_url": "https://raw.githubusercontent.com/Unickorn/InvisibleSkinBlocker/d888340bdb3ddff882d866cb509f43e06c584770/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Unickorn/InvisibleSkinBlocker",
+  "archive_repo": null,
+  "approved_release_tag": "r-9884",
+  "stars": 0,
+  "total_downloads": 687,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Unickorn"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/179395",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-9884",
+      "published_at": null,
+      "downloads": 687,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9884/invisibleskinblocker-1.0.0-r9884.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9884",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9884/invisibleskinblocker-1.0.0-r9884.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "InvisibleSkinBlocker",
+    "stable_release_id": 9884
+  }
+}

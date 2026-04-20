@@ -1,0 +1,61 @@
+{
+  "id": "groupsapi",
+  "name": "GroupsAPI",
+  "author": "alvin0319",
+  "description": "Yet another asynchronous permission management plugin for PocketMine-MP.",
+  "readme_markdown": "# GroupsAPI\n\nYet another asynchronous permission management plugin for PocketMine-MP.\n\n## Warning: This plugin has discontinued. Use [RankSystem](https://github.com/IvanCraft623/RankSystem) instead.\n\n# Features\n\n* Developer-friendly API\n* Temporary rank/group support\n* Multiple Group/Rank support\n* Priority system like Discord (which means the user who has highest priority cannot add/edit/remove group if their\n  group priority is higher than the group's priority)\n* Many configurations support\n\n# Commands\n\n| Command                                   |Description| Permission                     |\n|-------------------------------------------|---|--------------------------------|\n| /addgroup &lt;player&gt; &lt;group&gt;                |Add a player to a group| groupsapi.command.addgroup     |\n| /removegroup &lt;player&gt; &lt;group&gt;             |Remove a player from a group| groupsapi.command.removegroup  |\n| /checkgroup &lt;player&gt;                      |Check a player's group| groupsapi.command.checkgroup   |\n| /editgroup &lt;group&gt;                        |Edit a group| groupsapi.command.editgroup    |\n| /group &lt;group&gt;                            |Shows group info| groupsapi.command.group        |\n| /groups                                   |Shows all groups| groupsapi.command.groups       |\n| /newgroup &lt;group&gt;                         |Create a new group| groupsapi.command.newgroup     |\n| /permissions &lt;index&gt;                      |Check a permission list| groupsapi.command.permissions |\n| /pcheck &lt;player&gt;                          |Check a player's group|groupsapi.command.pcheck|\n| /tempgroup &lt;player&gt; &lt;group&gt; &lt;date format&gt; |Give a temporary group to player|groupsapi.command.tempgroup|\n\n# ScoreHud Integration\nThis plugin supports ScoreHud plugin.\n\nYou can get player's highest group by adding `{groupsapi.group}` to ScoreHud's scoreboard setting.\n\n# TODO\n* [ ] Make all processes to UI\n* [ ] Add more commands\n* [ ] InfoAPI Support (Lazy to do, Please make support for this [SOFe](https://github.com/SOF3/InfoAPI)!)\n\nIf you have any idea, Please kindly open an issue on GitHub!",
+  "readme_source_url": "https://github.com/alvin0319/GroupsAPI",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/alvin0319/GroupsAPI",
+  "archive_repo": null,
+  "approved_release_tag": "r-9904",
+  "stars": 4,
+  "total_downloads": 725,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "alvin0319"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/179685",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-9904",
+      "published_at": null,
+      "downloads": 725,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9904/groupsapi-2.0.0-r9904.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9904",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9904/groupsapi-2.0.0-r9904.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GroupsAPI",
+    "stable_release_id": 9904
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "economyrename",
+  "name": "EconomyRename",
+  "author": "DaDevGuy",
+  "description": "Economy Rename",
+  "readme_markdown": "# Economy Rename\n<a href=\"https://discord.gg/9qtJnueAer\"><img src=\"https://img.shields.io/discord/932921060591022120?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n<a href=\"https://poggit.pmmp.io/p/EconomyRename\"><img src=\"https://poggit.pmmp.io/shield.state/EconomyRename\"></a>\n\nA Small And Simple Pocketmine Plugin For Rename Items With Economy Support.\n\n# Supported Economy\n* [EconomyAPI](https://poggit.pmmp.io/p/EconomyAPI/5.7.3-PM4)\n* [BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy/2.0.8)\n\n# Planned Features\n\n* Currently None But You Can Always Suggest.\n\n# Virions\n* [libEco](https://poggit.pmmp.io/ci/David-pm-pl/libEco/~)\n\n# Credits\n\n[DavidGlitch04](https://github.com/DavidGlitch04) Thanks For Helping Alot In This Project.",
+  "readme_source_url": "https://github.com/DaDevGuy/EconomyRename",
+  "icon_url": "https://raw.githubusercontent.com/DaDevGuy/EconomyRename/8d24f974f92e4c09f537515cb8287b3f585f2013/icon.png",
+  "featured": false,
+  "repo": "https://github.com/DaDevGuy/EconomyRename",
+  "archive_repo": null,
+  "approved_release_tag": "r-9688",
+  "stars": 0,
+  "total_downloads": 367,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaDevGuy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/175517",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-9688",
+      "published_at": null,
+      "downloads": 367,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9688/economyrename-2.0.1-r9688.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9688",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9688/economyrename-2.0.1-r9688.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EconomyRename",
+    "stable_release_id": 9688
+  }
+}

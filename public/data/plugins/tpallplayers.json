@@ -1,0 +1,61 @@
+{
+  "id": "tpallplayers",
+  "name": "tpAllPlayers",
+  "author": "Theslowaja",
+  "description": "Tp all player in tour server",
+  "readme_markdown": "# TpAllPlayers\nTp all player in tour server",
+  "readme_source_url": "https://github.com/Theslowaja/TpAllPlayers",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Theslowaja/TpAllPlayers",
+  "archive_repo": null,
+  "approved_release_tag": "r-9921",
+  "stars": 0,
+  "total_downloads": 778,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Theslowaja"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-9921",
+      "published_at": null,
+      "downloads": 778,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9921/tpallplayers-1.0.0-r9921.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9921",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9921/tpallplayers-1.0.0-r9921.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "tpAllPlayers",
+    "stable_release_id": 9921
+  }
+}

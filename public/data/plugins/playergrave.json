@@ -1,0 +1,61 @@
+{
+  "id": "playergrave",
+  "name": "PlayerGrave",
+  "author": "VCraftGames",
+  "description": "✨ **A plugin for PocketMine-MP that spawn graves of players when they die.**",
+  "readme_markdown": "<h1>PlayerGrave<img src=\"assets/images/icon.png\" height=\"64\" width=\"64\" align=\"left\"></img></h1><br/>\n\n\n[![Lint](https://poggit.pmmp.io/ci.shield/VCraftGames/PlayerGrave/PlayerGrave)](https://poggit.pmmp.io/ci/VCraftGames/PlayerGrave/PlayerGrave)\n[![Discord](https://img.shields.io/discord/979551565415346297.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ApDXa7Tm)\n\n✨ **A plugin for PocketMine-MP that spawn graves of players when they die.**\n\n# Config\n\n```yaml\n#Set it to true to show the player's name on the grave\nshow-memorial-name: true\n# set it to true to limit the spawning grave, which means that while the dead player's spawn grave \n# is still alive, it won't spawn another grave when the player dies.\nlimit-spawn: true\n# Set it to true so that graves can despawn\ndespawn: true\n# Despawn Grave Time in Seconds\ndespawn-time: 40\n# Graves spawn in which worlds? if you want graves spawn only in specific worlds, add world names like this format:\n#  worlds:\n#    - World\n#    - End\nworlds: []\n```",
+  "readme_source_url": "https://github.com/VCraftGames/PlayerGrave",
+  "icon_url": "https://raw.githubusercontent.com/BlockMagicDev/PlayerGrave/1c0b3c7e0bda02e47f3ebbfc150294004868d511/assets/images/icon.png",
+  "featured": false,
+  "repo": "https://github.com/VCraftGames/PlayerGrave",
+  "archive_repo": null,
+  "approved_release_tag": "r-9854",
+  "stars": 5,
+  "total_downloads": 1746,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "VCraftGames"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-9854",
+      "published_at": null,
+      "downloads": 1746,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9854/playergrave-1.0.0-r9854.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9854",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9854/playergrave-1.0.0-r9854.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerGrave",
+    "stable_release_id": 9854
+  }
+}

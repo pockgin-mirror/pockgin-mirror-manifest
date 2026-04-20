@@ -1,0 +1,61 @@
+{
+  "id": "bottlexp",
+  "name": "BottleXP",
+  "author": "iRainDropp",
+  "description": "A fully featured XPBottle plugin for Pocketmine-MP servers.",
+  "readme_markdown": "# BottleXP\nA fully featured XPBottle plugin for Pocketmine-MP servers.\n\nCommands: \n/bottle | Aliases; /xp, /bottlexp\n\nFeatures:\n- Sounds on XPBottle use and creation\n- Fully Customizable\n- Drop XPBottle's on Death\n\nInstallation:\n- Download the latest .phar from the Releases and put it in your plugins folder\n- Restart your server and stop the server again to see the config",
+  "readme_source_url": "https://github.com/iRainDropp/BottleXP",
+  "icon_url": "https://raw.githubusercontent.com/iRainDropp/BottleXP/fadbd8b2c4d3b4c048f66a7e586d477e3e0e787b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/iRainDropp/BottleXP",
+  "archive_repo": null,
+  "approved_release_tag": "r-9917",
+  "stars": 0,
+  "total_downloads": 223,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.3.2-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "iRainDropp"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-9917",
+      "published_at": null,
+      "downloads": 223,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9917/bottlexp-1.0.0-r9917.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9917",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9917/bottlexp-1.0.0-r9917.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BottleXP",
+    "stable_release_id": 9917
+  }
+}

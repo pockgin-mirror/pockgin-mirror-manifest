@@ -1,0 +1,61 @@
+{
+  "id": "1vs1-pm4",
+  "name": "1vs1-PM4",
+  "author": "BeeAZ-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n\n<br>\n\nCreate A 1vs1 PVP Minigame\n\n<br>\n\nNote : Plugin Written For Pocketmine API 4\n\n\n[![Discord](https://img.shields.io/discord/965662639168569394.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/KrjD6t9HJt)\n\n\n<br>\n\n# Use\n\n<br>\n\nPut New Plugin Downloaded In Plugin Folder Then Start Server\n\n<br>\n\nGo to the game and go to the map you want to create a 1vs1 zone and follow the steps:\n\n<br>\n\n/1vs1 create **<name>**\n\n<br>\n\n/1vs1 set **<name>**\n\n<br>\n\nChat **spawn 1** Get Spawn Coordinates 1\n\n<br>\n\nChat **spawn 2** Get Spawn Coordinates 2\n\n<br>\n\nChat **level <nameworld>** Enter the name of the world you want to create 1vs1\n\n<br>\n\nGet Sign And Set Where You Want Players To Enter The Minigame , Then Chat **joinsign** Then Break Sign To Set\n\n<br>\n\nAfter Chat **enable** Then **done**\n\n<br>\n\nRestart Server And Use !\n\n<br>\n\n# Permissions\n\n<br>\n\n  1vs1.cmd.help: op\n\n<br>\n\n  1vs1.cmd.create: op\n\n<br>\n\n  1vs1.cmd.remove: op\n\n<br>\n\n  1vs1.cmd.set: op\n\n<br>\n\n  1vs1.cmd.arenas: op\n\n<br>\n\n  1vs1.cmd.join: true",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/1vs1",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/1vs1/b637ac55186d8b4cff174e1695fb407b22c854b6/1vs1/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/1vs1",
+  "archive_repo": null,
+  "approved_release_tag": "r-9737",
+  "stars": 3,
+  "total_downloads": 1691,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/176181",
+  "versions": {
+    "stable": {
+      "version": "1.0.4",
+      "tag": "r-9737",
+      "published_at": null,
+      "downloads": 1691,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9737/1vs1-pm4-1.0.4-r9737.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9737",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9737/1vs1-pm4-1.0.4-r9737.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "1vs1-PM4",
+    "stable_release_id": 9737
+  }
+}

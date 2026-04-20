@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11109",
   "stars": 0,
-  "total_downloads": 601,
+  "total_downloads": 1804,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,16 @@
       "tag": "r-11109",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11109/bossbar-2.1-r11109.phar"
+    },
+    {
+      "tag": "r-9877",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9877/bossbar-2.0.0-r9877.phar"
+    },
+    {
+      "tag": "r-9853",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9853/bossbar-1.0.0-r9853.phar"
     }
   ],
   "comments": {

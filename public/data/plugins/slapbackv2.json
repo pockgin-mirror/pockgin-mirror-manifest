@@ -1,0 +1,63 @@
+{
+  "id": "slapbackv2",
+  "name": "SlapBackV2",
+  "author": "xqwtxon",
+  "description": "This plugin was updated on 4.0.0 api!",
+  "readme_markdown": "# SlapBackV2\n[![](https://poggit.pmmp.io/shield.state/SlapBackV2)](https://poggit.pmmp.io/p/SlapBackV2)\n[![](https://poggit.pmmp.io/shield.api/SlapBackV2)](https://poggit.pmmp.io/p/SlapBackV2)<br>\nThis plugin was updated on 4.0.0 api!<br>\nThis is designed for PocketMine-MP Slapper, This plugin uses Slapper plugin in PocketMine-MP<br>\nIt is plugin that Slappers now hit back at you!\n\n# Features\n- Ability to configure the distance view of the Slappers.\n\n# Disclaimer\nThis plugin was designed and work in pocketmine. If you are using fork/spoon of PocketMine-MP. Your issues will automatically closed.\n\n# How to Install?\n- You must have Slapper Plugin, you can download from [poggit here](https://poggit.pmmp.io/p/Slapper/)!\n- Just put this plugin in your `plugins/` folder, and it should work!<br>\n- You can configure the plugin by accessing `plugin_data/SlapBackV2/config.yml`\n\n# Report a Issue/Bug\nYou found a bug or a plugin issue?\n- Contact support in the [Discord Server](https://discord.gg/v2rNeHaptd)\n- Create an [Issue](https://github.com/xqwtxon/SlapBackV2/issues)\n- Write your bug & the issue you are having with all informations including the crash or errors so I can track the issue.\n- Submit the issue and be patient for a response for a solution to your problem :D",
+  "readme_source_url": "https://github.com/xqwtxon/SlapBackV2",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/xqwtxon/SlapBackV2",
+  "archive_repo": null,
+  "approved_release_tag": "r-9729",
+  "stars": 0,
+  "total_downloads": 143,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.2.8-4.21.1"
+  ],
+  "dependencies": {
+    "required": [
+      "Slapper"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "xqwtxon"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-9729",
+      "published_at": null,
+      "downloads": 143,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9729/slapbackv2-2.0.0-r9729.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9729",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9729/slapbackv2-2.0.0-r9729.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SlapBackV2",
+    "stable_release_id": 9729
+  }
+}

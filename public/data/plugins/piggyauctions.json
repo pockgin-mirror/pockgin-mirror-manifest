@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10872",
   "stars": 5,
-  "total_downloads": 1033,
+  "total_downloads": 1503,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -47,6 +47,11 @@
       "tag": "r-10872",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10872/piggyauctions-2.0.2-r10872.phar"
+    },
+    {
+      "tag": "r-9793",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9793/piggyauctions-2.0.1-r9793.phar"
     }
   ],
   "comments": {

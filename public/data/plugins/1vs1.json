@@ -1,0 +1,61 @@
+{
+  "id": "1vs1",
+  "name": "1vs1",
+  "author": "GamakCZ",
+  "description": "✔️ Simple setup",
+  "readme_markdown": "<h1 align=\"center\">1vs1</h1>\n\n<div align=\"center\">\n\t<a href=\"https://discord.gg/uwBf2jS\">\n        <img src=\"https://img.shields.io/badge/chat-on%20discord-7289da.svg\" alt=\"discord\">\n    </a>\n    <a href=\"https://github.com/GamakCZ/OneVsOne/blob/master/LICENSE\">\n        <img src=\"https://img.shields.io/badge/license-Apache%20License%202.0-yellowgreen.svg\" alt=\"license\">\n    </a>\n    <a href=\"https://poggit.pmmp.io/ci/GamakCZ/OneVsOne/OneVsOne\">\n        <img src=\"https://poggit.pmmp.io/ci.shield/GamakCZ/1vs1/1vs1\" alt=\"poggit-ci\">\n    </a>\n    <br><br>\n    ✔️ Simple setup\n    <br>\n    ✔️Multi arena support\n    <br>\n    ✔️ Fast, without lags\n    <br>\n    ✔️ Last PocketMine API support\n    <br>\n    \n</div>\n\n### Releases:\n\n| Version | Zip Download | Phar Download |\n| --- | --- | --- |\n| 1.0.0 | [GitHub](https://github.com/GamakCZ/1vs1/archive/1.0.0.zip) | [GitHub](https://github.com/GamakCZ/1vs1/releases/download/1.0.0/1vs1_v1.0.0.phar) |\n<br>\n\n- **Other released versions [here](https://github.com/GamakCZ/1vs1/releases)**\n- **All developement builds on poggit [here](https://poggit.pmmp.io/ci/GamakCZ/1vs1/1vs1)**\n\n<div align=\"center\">\n\t<h2>How to setup?</h2>\n</div>\n\n - <h3>Installation:</h3>\n 1. Download latest release or sucess. build\n 2. Upload it to your server folder /plugins/\n 3. Restart the server\n\n-  <h3>Create and setup an arena:</h3>\n1. Create an arena using `/1vs1 create <arenaName>`\n2. Join the setup mode (command `/1vs1 set <arenaName>`)\n3. There are setup commands (they are without `/`), you can use them to set the arena\n\n- _Setup commands_:\n\n| Command | Description |\n| --- | --- |\n| help | Displays all setup commands |\n| done | Is used to exit setup mode |\n| level `<levelName>` | Sets arena game level |\n| spawn `<spawnNum>` | Sets arena spawn position |\n| joinsign | Update joinsign |\n| enable | Enable the arena |\n\n<div align=\"center\">\n\t<h2>Commands:</h2>\n</div>\n<br>\n\n<p align=\"center\">  \n\n```yaml\nCommands:\n    /1vs1 help:\n        Description: Displays all OneVsOne commands\n        Permission: 1vs1.cmd.help (OP)\n    /1vs1 create:\n        Description: Create new arena\n        Permission: 1vs1.cmd.create (OP)\n        Usage: /1vs1 set <arenaName>\n    /1vs1 remove:\n        Description: Remove arena\n        Permission: 1vs1.cmd.remove (OP)\n        Usage: /1vs1 remove <arenaName>\n        Note: Changes will be after restart\n    /1vs1 set:\n        Description: Command allows setup arena\n        Permission: 1vs1.cmd.set (OP)\n        Usage: /1vs1 set <arenaName>\n        Note: This command can be used only in-game\n    /1vs1 arenas:\n        Description: Displays list of all arenas\n        Permission: 1vs1.cmd.arenas (OP)\n```\n</p>\n\n<div align=\"center\">\n\t<h2>Permissions</h2>\n</div>\n<br>\n\n<p align=\"center\">\n\n```yaml\n1vs1.cmd:  \n    description: Permissions for all OneVsOne commands\n    default: op  \n    children:  \n        1vs1.cmd.help:\n            description: Permission for /1vs1 help  \n            default: op  \n        1vs1.cmd.create:  \n            description: Permission for /1vs1 create  \n            default: op\n        1vs1.cmd.remove:\n            description: Permission for /1vs1 remove\n            default: op\n        1vs1.cmd.set:  \n            description: Permission for /1vs1 set  \n            default: op  \n        1vs1.cmd.arenas:  \n            description: Permission for /1vs1 arenas  \n            default: op    \n\t\t\t\n```\n</p>\n\n<div align=\"center\">\n\t<h2>API</h2>\n</div>\n<br>\n\n<h3>Events:</h3>\n\n- [PlayerArenaWinEvent](https://github.com/GamakCZ/1vs1/blob/master/1vs1/src/onevsone/event/PlayerArenaWinEvent.php)\n\n```php\n/**  \n * Arena constructor.\n * @param Server $server  \n * @param Plugin $plugin  \n */\n public function __construct(Server $server, Plugin $plugin) {  \n    $server->getPluginManager()->registerEvents($this, $plugin);  \n }  \n  \n/**  \n * @param PlayerArenaWinEvent $event  \n */\n public function onWin(PlayerArenaWinEvent $event) {  \n    $player = $event->getPlayer();  \n    $this->addCoins($player, 100);  \n    $player->sendMessage(\"§a> You won 100 coins!\");  \n }  \n\t\t\n/**  \n * @param Player $player  \n * @param int $coins  \n */\n public function addCoins(Player $player, int $coins) {}\n```\n\n<div align=\"center\">\n    <h2>Credits</h2>\n</div>\n\n<div>- Icon made by <a href=\"https://www.flaticon.com/authors/nikita-golubev\" title=\"Nikita Golubev\">Nikita Golubev</a> from <a href=\"https://www.flaticon.com/\" \t\t\t    title=\"Flaticon\">www.flaticon.com</a> is licensed by <a href=\"http://creativecommons.org/licenses/by/3.0/\" \t\t\t    title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a></div>",
+  "readme_source_url": "https://github.com/GamakCZ/1vs1",
+  "icon_url": "https://raw.githubusercontent.com/GamakCZ/1vs1/1b678055dffccefae13b325009075fbde6a6820e/1vs1/icon.png",
+  "featured": false,
+  "repo": "https://github.com/GamakCZ/1vs1",
+  "archive_repo": null,
+  "approved_release_tag": "r-9826",
+  "stars": 0,
+  "total_downloads": 7178,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "GamakCZ"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/178065",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-9826",
+      "published_at": null,
+      "downloads": 7178,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9826/1vs1-2.0.0-r9826.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9826",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9826/1vs1-2.0.0-r9826.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "1vs1",
+    "stable_release_id": 9826
+  }
+}

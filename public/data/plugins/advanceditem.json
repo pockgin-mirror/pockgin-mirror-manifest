@@ -1,0 +1,61 @@
+{
+  "id": "advanceditem",
+  "name": "AdvancedItem",
+  "author": "Taylor-pm-pl",
+  "description": "Getting started",
+  "readme_markdown": "<div align=\"center\">\n  <img src=\"assets/images/advanceditem.png\" width=\"375px\" />\n</div>\n\n# Getting started\n✨ **A plugin for PocketMine-MP that improves items.**\n\n# Badges\n\n[![Lint](https://poggit.pmmp.io/ci.shield/VCraftGames/AdvancedItem/AdvancedItem)](https://poggit.pmmp.io/ci/VCraftGames/AdvancedItem/AdvancedItem)\n[![PHPStan](https://github.com/BlockMagicDev/AdvancedItem/actions/workflows/php.yml/badge.svg)](https://github.com/BlockMagicDev/AdvancedItem/actions/workflows/php.yml/badge.svg)\n[![license](https://img.shields.io/badge/license-GPL_3.0-blue.svg)](https://github.com/BlockMagicDev/AdvancedItem/blob/main/LICENSE)\n[![status](https://img.shields.io/badge/status-active-brightgreen.svg)](#status)\n[![download total](https://img.shields.io/github/downloads/BlockMagicDev/AdvancedItem/total)](#total)\n\n# Features\n- Change name of item\n- Edit lore in line like MyItem Spigot\n- Duplicate the item on hand\n- Confirm before changing\n\n# Installation\n\n1. Clone the repository.\n```\ncd server/plugins/\ngit clone https://github.com/BlockMagicDev/AdvancedItem.git\n```\n\n2. Start your server and use the plugin.\n\n\n# Commands\nThe plugin's main command is `/advanceditem` and aliases like `/ai`, `/aitem`\n\nPermission: `advanceditem.allow.command`\n\n**List SubCommands**\nSubCommand | Description |\n----------------- | ------------- |\nsetname | Change name of item in hand  |\nsetlore | Change lore of item in hand |\nduplicated | Duplicated of item in hand |\nreload | Reload the config |\n\n## All Contributors\n<a href=\"https://github.com/BlockMagicDev/AdvancedItem/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=BlockMagicDev/AdvancedItem\" />\n</a>",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/AdvancedItem",
+  "icon_url": "https://raw.githubusercontent.com/BlockMagicDev/AdvancedItem/8bd346411edd81d952625aea1574e7cdfee8ca04/assets/images/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/AdvancedItem",
+  "archive_repo": null,
+  "approved_release_tag": "r-9824",
+  "stars": 5,
+  "total_downloads": 1183,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-9824",
+      "published_at": null,
+      "downloads": 1183,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9824/advanceditem-1.0.0-r9824.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9824",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9824/advanceditem-1.0.0-r9824.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdvancedItem",
+    "stable_release_id": 9824
+  }
+}

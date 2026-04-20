@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10156",
   "stars": 3,
-  "total_downloads": 8084,
+  "total_downloads": 9348,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,14 +34,14 @@
       "version": "1.34-beta3",
       "tag": "r-10156",
       "published_at": null,
-      "downloads": 7825,
+      "downloads": 7826,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10156/worldguard-1.34-beta3-r10156.phar"
     },
     "dev": {
       "version": "1.34-beta2",
       "tag": "r-10121",
       "published_at": null,
-      "downloads": 259,
+      "downloads": 260,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10121/worldguard-1.34-beta2-r10121.phar"
     }
   },
@@ -55,6 +55,16 @@
       "tag": "r-10121",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10121/worldguard-1.34-beta2-r10121.phar"
+    },
+    {
+      "tag": "r-9880",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9880/worldguard-1.34-beta-r9880.phar"
+    },
+    {
+      "tag": "r-9718",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9718/worldguard-1.32-beta-r9718.phar"
     }
   ],
   "comments": {
