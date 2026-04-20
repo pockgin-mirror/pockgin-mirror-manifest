@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11616",
   "stars": 2,
-  "total_downloads": 19299,
+  "total_downloads": 26148,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -38,11 +38,11 @@
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11616/buildertools-2.0.0-beta1-r11616.phar"
     },
     "dev": {
-      "version": "1.4.0",
-      "tag": "r-10862",
+      "version": "1.4.0-beta2",
+      "tag": "r-10193",
       "published_at": null,
-      "downloads": 4874,
-      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10862/buildertools-1.4.0-r10862.phar"
+      "downloads": 6849,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10193/buildertools-1.4.0-beta2-r10193.phar"
     }
   },
   "recent_builds": [
@@ -55,6 +55,11 @@
       "tag": "r-10862",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10862/buildertools-1.4.0-r10862.phar"
+    },
+    {
+      "tag": "r-10193",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10193/buildertools-1.4.0-beta2-r10193.phar"
     }
   ],
   "comments": {

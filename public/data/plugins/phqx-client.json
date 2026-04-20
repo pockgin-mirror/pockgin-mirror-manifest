@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10390",
   "stars": 5,
-  "total_downloads": 209,
+  "total_downloads": 264,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "0.0.2",
       "tag": "r-10390",
       "published_at": null,
-      "downloads": 209,
+      "downloads": 210,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10390/phqx-client-0.0.2-r10390.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-10390",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10390/phqx-client-0.0.2-r10390.phar"
+    },
+    {
+      "tag": "r-10116",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10116/phqx-client-0.0.1-r10116.phar"
     }
   ],
   "comments": {

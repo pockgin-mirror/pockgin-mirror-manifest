@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11248",
   "stars": 0,
-  "total_downloads": 186,
+  "total_downloads": 334,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11248",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11248/antidecay-2.0.0-r11248.phar"
+    },
+    {
+      "tag": "r-10117",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10117/antidecay-1.0.0-r10117.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "easywing",
+  "name": "EasyWing",
+  "author": "Fuongaz",
+  "description": "Wing particle plugin for Pocketmine-MP",
+  "readme_markdown": "# EasyWing\nWing particle plugin for Pocketmine-MP\n\n<a href=\"https://poggit.pmmp.io/p/EasyWing\"><img src=\"https://poggit.pmmp.io/shield.state/EasyWing\"></a>\n<a href=\"https://poggit.pmmp.io/p/EasyWing\"><img src=\"https://poggit.pmmp.io/shield.dl.total/EasyWing\"></a>\n\n# Feature\n + Add and custom wing in config\n + FormAPI Support\n\n# Example Config\n```\nshape: [\n[0,0,1,1,1,1,0,0,0,0,1,1,1,1,0,0],\n[0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0],\n[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],\n[1,1,1,1,0,0,0,1,1,0,0,0,1,1,1,1],\n[1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1],\n[1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1]]\n\nscale: 0.3 #scale of wing\n\nWing-Name: \"Example Wing\" #Name of wing\n```\n\n# List Particles\n```\n 0: space\n\n 4 : Red Dust\n 2: Green Dust\n x: Redstone\n F: Flame\n b: Blue Flame\n h: Villager Happy\n p: Villager Angry\n H: Heart\n P: Portal\n E: Entity Flame\n W: Water\n w: Water Drip\n j: Enchant\n J: Enchantment Table\n D: Dragon Breath Lingering\n```\n\n# How to get a wing\n+ Add permision to player `easywing.on.<wing name>`\n\n<img align=\"left\" widht=\"auto\" height=\"260\" src=\"https://github.com/ZzKino/EasyWing/blob/master/icon.png?raw=true\" alt=\"Logo\">",
+  "readme_source_url": "https://github.com/Fuongaz/EasyWing",
+  "icon_url": "https://raw.githubusercontent.com/ZzKino/EasyWing/602efdd4e40025e17409eb23532974c94fd91341/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Fuongaz/EasyWing",
+  "archive_repo": null,
+  "approved_release_tag": "r-9965",
+  "stars": 5,
+  "total_downloads": 523,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Fuongaz"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/180708",
+  "versions": {
+    "stable": {
+      "version": "1.0.7",
+      "tag": "r-9965",
+      "published_at": null,
+      "downloads": 523,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9965/easywing-1.0.7-r9965.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9965",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9965/easywing-1.0.7-r9965.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EasyWing",
+    "stable_release_id": 9965
+  }
+}

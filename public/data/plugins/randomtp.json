@@ -1,0 +1,61 @@
+{
+  "id": "randomtp",
+  "name": "RandomTP",
+  "author": "CraftCamp1",
+  "description": "Random Teleport Plugin for PocketMine-MP",
+  "readme_markdown": "# RandomTP\n![License](https://img.shields.io/github/license/CraftCamp1/RandomTP)\n[![](https://poggit.pmmp.io/shield.dl.total/RandomTP)](https://poggit.pmmp.io/p/RandomTP)\n[![](https://poggit.pmmp.io/shield.state/RandomTP)](https://poggit.pmmp.io/p/RandomTP)\n[![](https://poggit.pmmp.io/shield.api/RandomTP)](https://poggit.pmmp.io/p/RandomTP)\n\nRandom Teleport Plugin for PocketMine-MP\n\n# Features\n- Teleports to a random player online\n- Lightweight Plugin\n\n# Commands\n```/randomtp``` and ```/rtp```\n\n# Permissions\n```randomtp.use``` accessible to op (default: op)\n\n# How to Install\n1. Download the plugin from [here](https://poggit.pmmp.io/r/185445/RandomTP.phar)\n2. Put the ```RandomTP.phar``` file into the plugins folder of your server.\n3. Restart your server.\n4. Done!",
+  "readme_source_url": "https://github.com/CraftCamp1/RandomTP",
+  "icon_url": "https://raw.githubusercontent.com/CraftCamp1/RandomTP/1599880bbf4fae1a385f09c70d26e64c7bcad2be/icon.png",
+  "featured": false,
+  "repo": "https://github.com/CraftCamp1/RandomTP",
+  "archive_repo": null,
+  "approved_release_tag": "r-10209",
+  "stars": 1,
+  "total_downloads": 2965,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "CraftCamp1"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-10209",
+      "published_at": null,
+      "downloads": 2965,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10209/randomtp-1.0.1-r10209.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10209",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10209/randomtp-1.0.1-r10209.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RandomTP",
+    "stable_release_id": 10209
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "antibotbe",
+  "name": "AntiBotBE",
+  "author": "kotyaralih",
+  "description": "Protection from bots (like this one) for non-xbox bedrock servers using PM5",
+  "readme_markdown": "# AntiBotBE\nProtection from bots (like [this one](https://github.com/ipad54/BedrockEditionClient)) for non-xbox bedrock servers using PM5",
+  "readme_source_url": "https://github.com/kotyaralih/AntiBotBE",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/kotyaralih/AntiBotBE",
+  "archive_repo": null,
+  "approved_release_tag": "r-10161",
+  "stars": 5,
+  "total_downloads": 712,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "kotyaralih"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10161",
+      "published_at": null,
+      "downloads": 712,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10161/antibotbe-1.0.0-r10161.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10161",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10161/antibotbe-1.0.0-r10161.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiBotBE",
+    "stable_release_id": 10161
+  }
+}

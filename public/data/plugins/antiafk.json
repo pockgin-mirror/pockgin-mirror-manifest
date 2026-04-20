@@ -1,0 +1,66 @@
+{
+  "id": "antiafk",
+  "name": "AntiAFK",
+  "author": "SlidexDE",
+  "description": "» Information",
+  "readme_markdown": "# AntiAFK\n## » Information \n - This is a plugin that tries to prevent inactivity on your server.\n## » Features \n- Configurable in config.yml\n- Reload command\n- Bypass permission\n- Webhook support in the config\n## » Permissions\n- Reload command: antiafk.cmd.reload\n- Bypass: antiafk.bypass\n## » Command\n- afkreload --> Reload the config.yml",
+  "readme_source_url": "https://github.com/SlidexDE/AntiAFK",
+  "icon_url": "https://raw.githubusercontent.com/SlidexDE/AntiAFK/796b76d6e170c064484be55a0a56bebba2ecd318/icon.png",
+  "featured": false,
+  "repo": "https://github.com/SlidexDE/AntiAFK",
+  "archive_repo": null,
+  "approved_release_tag": "r-10274",
+  "stars": 5,
+  "total_downloads": 2086,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SlidexDE"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/186475",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-10274",
+      "published_at": null,
+      "downloads": 1960,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10274/antiafk-2.0.0-r10274.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10274",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10274/antiafk-2.0.0-r10274.phar"
+    },
+    {
+      "tag": "r-10153",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10153/antiafk-1.0.1-r10153.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiAFK",
+    "stable_release_id": 10274
+  }
+}

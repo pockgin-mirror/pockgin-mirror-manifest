@@ -1,0 +1,61 @@
+{
+  "id": "movecommand",
+  "name": "MoveCommand",
+  "author": "DaDevGuy",
+  "description": "Execute Command As Player When Player Moves.",
+  "readme_markdown": "# MoveCommand\n* Execute Command As Player When Player Moves.\n* Command Can Be Changed In Config.\n* Block Id Can Be Changed In Config.",
+  "readme_source_url": "https://github.com/DaDevGuy/MoveCommand",
+  "icon_url": "https://raw.githubusercontent.com/DaDevGuy/MoveCommand/9995eaf21dbfc69c51f9a1fb4a473bc53d5e2de2/assets/images/icon.png",
+  "featured": false,
+  "repo": "https://github.com/DaDevGuy/MoveCommand",
+  "archive_repo": null,
+  "approved_release_tag": "r-10054",
+  "stars": 1,
+  "total_downloads": 196,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaDevGuy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10054",
+      "published_at": null,
+      "downloads": 196,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10054/movecommand-1.0.0-r10054.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10054",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10054/movecommand-1.0.0-r10054.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MoveCommand",
+    "stable_release_id": 10054
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "calculatoracm",
+  "name": "CalculatorACM",
+  "author": "fernanACM",
+  "description": "Use a calculator in a form for PocketMine-MP 4.0 servers. Add addition, subtraction, multiplication and division.**",
+  "readme_markdown": "# CalculatorACM\n[![](https://poggit.pmmp.io/shield.state/CalculatorACM)](https://poggit.pmmp.io/p/CalculatorACM)\n\n[![](https://poggit.pmmp.io/shield.api/CalculatorACM)](https://poggit.pmmp.io/p/CalculatorACM)\n\n**Use a calculator in a form for PocketMine-MP 4.0 servers. Add addition, subtraction, multiplication and division.**\n\n![Captura de pantalla 2022-06-12 003636](https://user-images.githubusercontent.com/83558341/173217286-3e759aea-5a1b-4778-b128-3ddbc6ad33b0.png)\n\n\n<a href=\"https://discord.gg/YyE9XFckqb\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n\n### 💡 Implementations\n* [x] Images > *To load the images, use [FormImagesFIX](https://poggit.pmmp.io/r/146450/FormImagesFix_dev-14.phar)*\n* [x] Message customization.\n* [x] keys in configuration.\n\n### 🕹 Commands\n- ```/calculatoracm``` > Open a menu for convenience\n---\n\n### 🔒 Permissions\n\n- Executing the command: ```calculatoracm.cmd.acm```\n\n### 📞 Contact \n\n| Redes | Tag | Link |\n|-------|-------------|------|\n| YouTube | fernanACM | [YouTube](https://www.youtube.com/channel/UC-M5iTrCItYQBg5GMuX5ySw) | \n| Discord | fernanACM#5078 | [Discord](https://discord.gg/YyE9XFckqb) |\n| GitHub | fernanACM | [GitHub](https://github.com/fernanACM)\n| Poggit | fernanACM | [Poggit](https://poggit.pmmp.io/ci/fernanACM)\n****\n\n### ✔ Credits\n* **[Muqsit](https://github.com/Muqsit)**\n* **[SimplePacketHandler](https://github.com/Muqsit/SimplePacketHandler)**\n---\n* **[CortexPE](https://github.com/CortexPE)**\n* **[Commando](https://github.com/CortexPE/Commando/tree/master/)**\n---\n* **[Vecnavium](https://github.com/Vecnavium)**\n* **[FormsUI](https://github.com/Vecnavium/FormsUI/tree/master/)**",
+  "readme_source_url": "https://github.com/fernanACM/CalculatorACM",
+  "icon_url": "https://raw.githubusercontent.com/fernanACM/CalculatorACM/fe02614622ab050178d18791ae41b6bff176ad75/icon-calculatoracm.png",
+  "featured": false,
+  "repo": "https://github.com/fernanACM/CalculatorACM",
+  "archive_repo": null,
+  "approved_release_tag": "r-9987",
+  "stars": 0,
+  "total_downloads": 430,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "fernanACM"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/181143",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-9987",
+      "published_at": null,
+      "downloads": 430,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9987/calculatoracm-1.0.1-r9987.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9987",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9987/calculatoracm-1.0.1-r9987.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CalculatorACM",
+    "stable_release_id": 9987
+  }
+}

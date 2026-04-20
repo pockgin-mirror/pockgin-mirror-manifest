@@ -1,0 +1,61 @@
+{
+  "id": "iland",
+  "name": "iLand",
+  "author": "VCraftGames",
+  "description": "Powerful land plugin, based on PMMP**",
+  "readme_markdown": "<h1>iLand<img src=\"assets/images/icon.png\" height=\"64\" width=\"64\" align=\"left\"></img></h1><br/>\n\n[![Lint](https://poggit.pmmp.io/ci.shield/VCraftGames/iLand/iLand)](https://poggit.pmmp.io/ci/VCraftGames/iLand/iLand)\n\n**Powerful land plugin, based on PMMP**\n\n# Features\n\n- Land management with Form UI\n- The border of the selected land\n- Custom land settings\n- Customize the person you trust\n- Transfer of land owners\n- Land sale\n- Support multiple languages\n- Easy setup.\n\n# How to Install\n\n1. Download the latest version\n2. Place the `iLand.phar` file into the `plugins` folder.\n3. Restart the server.\n4. Done!\n\n# TODO\n- [✔️] Main Form\n- [✔️] Manage Form\n- [✔️] Teleport Form\n- [✔️] Settings Form\n- [❌] OP Form \n- [✔️] Anti Attack Land\n- [✔️] Set Pos Claim System\n- [✔️] Particel area selected\n- [✔️] Added Icon For Form\n- [✔️] Land Border\n- [❌] Capital Support\n\n# Additional Notes\n\n- If you found bugs or want to give suggestions, please visit <a href=\"https://github.com/BlockMagicDev/iLand/issues\">here</a> or join our Discord server.\n- We accept all contributions! If you want to contribute, please make a pull request in <a href=\"https://github.com/BlockMagicDev/iLand/pulls\">here</a>.\n\n# Credits\n\n| Logo  | Description |\n| ------------- | ----------- |\n| <img src=\"https://media.flaticon.com/dist/min/img/logo/flaticon_negative.svg\" height=\"64\" width=\"64\" align=\"left\"> | <a href=\"https://www.flaticon.com/free-icons/land\">iLand icons created by Smashicons - Flaticon</a> |",
+  "readme_source_url": "https://github.com/VCraftGames/iLand",
+  "icon_url": "https://raw.githubusercontent.com/BlockMagicDev/iLand/c602bd54da35cd16bd95d7e9d233737cef615d1f/assets/images/icon.png",
+  "featured": false,
+  "repo": "https://github.com/VCraftGames/iLand",
+  "archive_repo": null,
+  "approved_release_tag": "r-10195",
+  "stars": 5,
+  "total_downloads": 1435,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "VCraftGames"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-10195",
+      "published_at": null,
+      "downloads": 1435,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10195/iland-1.0.2-r10195.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10195",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10195/iland-1.0.2-r10195.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "iLand",
+    "stable_release_id": 10195
+  }
+}

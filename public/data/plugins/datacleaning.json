@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10404",
   "stars": 0,
-  "total_downloads": 268,
+  "total_downloads": 372,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,14 +34,14 @@
       "version": "3.0.5",
       "tag": "r-10404",
       "published_at": null,
-      "downloads": 236,
+      "downloads": 237,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10404/datacleaning-3.0.5-r10404.phar"
     },
     "dev": {
       "version": "3.0.4",
       "tag": "r-10349",
       "published_at": null,
-      "downloads": 32,
+      "downloads": 33,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10349/datacleaning-3.0.4-r10349.phar"
     }
   },
@@ -55,6 +55,16 @@
       "tag": "r-10349",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10349/datacleaning-3.0.4-r10349.phar"
+    },
+    {
+      "tag": "r-10134",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10134/datacleaning-3.0.3-r10134.phar"
+    },
+    {
+      "tag": "r-10060",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10060/datacleaning-3.0.1-r10060.phar"
     }
   ],
   "comments": {

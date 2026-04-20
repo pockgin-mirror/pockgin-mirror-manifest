@@ -1,0 +1,61 @@
+{
+  "id": "kygekpingtps",
+  "name": "KygekPingTPS",
+  "author": "thebigcrafter",
+  "description": "📖 About",
+  "readme_markdown": "<h1 align=\"center\">KygekPingTPS</h1>\n\n<p align=\"center\">\n<a href=\"https://poggit.pmmp.io/p/KygekPingTPS\"><img src=\"https://poggit.pmmp.io/shield.dl.total/KygekPingTPS?style=for-the-badge\" alt=\"poggit\" /></a>\n<a href=\"https://github.com/thebigcrafter/KygekPingTPS/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/thebigcrafter/KygekPingTPS?style=for-the-badge\" alt=\"license\" /></a>\n<a href=\"https://discord.gg/PykBfE2TZ9\"><img src=\"https://img.shields.io/discord/1087729577004122112?color=7289DA&label=discord&logo=discord&style=for-the-badge\" alt=\"discord\" /></a>\n</p>\n\n# 📖 About\n\nA PocketMine-MP plugin to check the server TPS and other players' ping. This plugin will be useful if you need to check the server TPS by command or check your or other players' network ping.\n\n# 🧩 Features\n\n- Check server TPS using command\n- Check your network ping using command\n- Check other players' network ping using command\n- Works in console\n- Invalid player name detection\n- Customizeable command messages\n- Automatic plugin updates checker\n- Commands messages instantly updated after change\n\n# ⬇️ Installation\n\n1. Download the latest version (It is recommended to always download the latest version for the best experience, except you're having compatibility issues).\n2. Put the `KygekPingTPS.phar` file into the `plugins` folder.\n3. Restart the server.\n4. Done!\n\n# 📜 Commands & Permissions\n\n| Command          | Description              | Permission           | Default |\n| ---------------- | ------------------------- | ------------------- | ------- |\n| `/ping [player]` | Current ping of a player  | `kygekpingtps.ping` | true    |\n| `/tps`           | Current TPS of the server | `kygekpingtps.tps`  | true    |\n\n💡 Tips:\n- Use `-kygekpingtps.ping` to blacklist the `/ping` command permission.\n- Use `-kygekpingtps.tps` to blacklist the `/tps` command permission in PurePerms.\n\n# 🚢 Other Versions\n\n- [Nukkit](https://github.com/KygekTeam/KygekPingTPS-Nukkit)\n- [SpigotMC/PaperMC](https://github.com/KygekTeam/KygekPingTPS-Spigot)\n\n# ⚖️ License\n\nLicensed under the [GNU General Public License v3.0](https://github.com/thebigcrafter/KygekPingTPS/blob/main/LICENSE) license.",
+  "readme_source_url": "https://github.com/thebigcrafter/KygekPingTPS",
+  "icon_url": "https://raw.githubusercontent.com/thebigcrafter/KygekPingTPS/538fa369633a8aab6eb6d796a378c908a2e3fcbd/icon.png",
+  "featured": false,
+  "repo": "https://github.com/thebigcrafter/KygekPingTPS",
+  "archive_repo": null,
+  "approved_release_tag": "r-10001",
+  "stars": 0,
+  "total_downloads": 680,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigcrafter"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/181539",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-10001",
+      "published_at": null,
+      "downloads": 680,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10001/kygekpingtps-2.0.1-r10001.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10001",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10001/kygekpingtps-2.0.1-r10001.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KygekPingTPS",
+    "stable_release_id": 10001
+  }
+}

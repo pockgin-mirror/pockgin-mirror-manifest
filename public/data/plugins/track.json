@@ -5,18 +5,18 @@
   "description": "General",
   "readme_markdown": "# General\n**Show commands used by players to staff**\n\n# Permissions\n| Permissions | Description                            | Default  |\n| :---------- | :------------------------------------- | :------- |\n| `stalker`   | Allows to see commands used by players | op       |\n\n# Image\n\n| *In-console screen*                                                                                    |\n| :----------------------------------------------------------------------------------------------------- |\n| ![image](https://github.com/nhanaz-pm-pl/Stalker/assets/60387689/8cfe8608-686c-4dff-8e0e-608ba29a7cb8) |\n\n| *In-log file screen*                                                                                   |\n| :----------------------------------------------------------------------------------------------------- |\n| ![image](https://github.com/nhanaz-pm-pl/Stalker/assets/60387689/1005df79-1941-4452-8ca7-31f6545345e9) |\n\n| *In-game screen*                                                                                       |\n| :----------------------------------------------------------------------------------------------------- |\n| ![image](https://github.com/nhanaz-pm-pl/Stalker/assets/60387689/c9b510d3-4ddb-4f81-a6c5-584788f91e05) |\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c) [https://discord.gg/j2X83ujT6c] \\\n**You can contact me directly via Discord `NhanAZ#9115`**\n\n<!-- TODO : >= 1.0.2\n[] Exception command or Whitelist/Blacklist command\n[] Exception player\n[] Execution status of the command\n-->",
   "readme_source_url": "https://github.com/nhanaz-pm-pl/Stalker",
-  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/Track/7ce84fdd0ddc819e59693d542f1fce0b21cc3e51/icon.png",
+  "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/Track/abecee7bd03d6d237f190ca6b7c601c308d75857/icon.png",
   "featured": false,
   "repo": "https://github.com/nhanaz-pm-pl/Stalker",
   "archive_repo": null,
-  "approved_release_tag": "r-11402",
-  "stars": 1,
-  "total_downloads": 494,
+  "approved_release_tag": "r-10130",
+  "stars": 0,
+  "total_downloads": 675,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
   "api_support": [
-    "5.0.0-5.36.0"
+    "4.0.0-4.21.1"
   ],
   "dependencies": {
     "required": [],
@@ -28,21 +28,21 @@
   "producers": [
     "nhanaz-pm-pl"
   ],
-  "whats_new": "https://poggit.pmmp.io/r/208751",
+  "whats_new": "https://poggit.pmmp.io/r/183964",
   "versions": {
     "stable": {
+      "version": "1.0.1",
+      "tag": "r-10130",
+      "published_at": null,
+      "downloads": 131,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10130/track-1.0.1-r10130.phar"
+    },
+    "dev": {
       "version": "2.0.1",
       "tag": "r-11402",
       "published_at": null,
       "downloads": 269,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11402/track-2.0.1-r11402.phar"
-    },
-    "dev": {
-      "version": "2.0.0",
-      "tag": "r-11026",
-      "published_at": null,
-      "downloads": 93,
-      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11026/track-2.0.0-r11026.phar"
     }
   },
   "recent_builds": [
@@ -60,6 +60,16 @@
       "tag": "r-10544",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10544/track-2.0.0-beta-r10544.phar"
+    },
+    {
+      "tag": "r-10130",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10130/track-1.0.1-r10130.phar"
+    },
+    {
+      "tag": "r-10075",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10075/track-1.0.0-r10075.phar"
     }
   ],
   "comments": {
@@ -72,6 +82,6 @@
   "source": {
     "provider": "poggit",
     "plugin_name": "Track",
-    "stable_release_id": 11402
+    "stable_release_id": 10130
   }
 }

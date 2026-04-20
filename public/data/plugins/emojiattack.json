@@ -1,0 +1,71 @@
+{
+  "id": "emojiattack",
+  "name": "EmojiAttack",
+  "author": "IgPlugin",
+  "description": "General",
+  "readme_markdown": "# General\n**An emoji attack makes your server more vibrant. The suffixes of texts sent to players will be random emojis!**\n\n![image](https://user-images.githubusercontent.com/60387689/175365250-802e953a-022c-44e3-a00e-784af9782b94.png)\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c)\\\n**You can contact me directly via Discord `NhanAZ#9115`**",
+  "readme_source_url": "https://github.com/IgPlugin/EmojiAttack",
+  "icon_url": "https://raw.githubusercontent.com/NhanAZ/EmojiAttack/00df7b50486e7b752edeeceb263ebbcd68f3cbaa/icon.png",
+  "featured": false,
+  "repo": "https://github.com/IgPlugin/EmojiAttack",
+  "archive_repo": null,
+  "approved_release_tag": "r-10179",
+  "stars": 0,
+  "total_downloads": 218,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "IgPlugin"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/184678",
+  "versions": {
+    "stable": {
+      "version": "0.0.3",
+      "tag": "r-10179",
+      "published_at": null,
+      "downloads": 172,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10179/emojiattack-0.0.3-r10179.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10179",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10179/emojiattack-0.0.3-r10179.phar"
+    },
+    {
+      "tag": "r-10129",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10129/emojiattack-0.0.2-r10129.phar"
+    },
+    {
+      "tag": "r-10076",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10076/emojiattack-0.0.1-r10076.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EmojiAttack",
+    "stable_release_id": 10179
+  }
+}

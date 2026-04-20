@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11409",
   "stars": 0,
-  "total_downloads": 634,
+  "total_downloads": 1108,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,13 +37,24 @@
       "downloads": 634,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11409/keepexp-0.0.2-r11409.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "0.0.1",
+      "tag": "r-10018",
+      "published_at": null,
+      "downloads": 474,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10018/keepexp-0.0.1-r10018.phar"
+    }
   },
   "recent_builds": [
     {
       "tag": "r-11409",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11409/keepexp-0.0.2-r11409.phar"
+    },
+    {
+      "tag": "r-10018",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10018/keepexp-0.0.1-r10018.phar"
     }
   ],
   "comments": {

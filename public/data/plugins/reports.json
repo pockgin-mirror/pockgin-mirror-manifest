@@ -1,0 +1,61 @@
+{
+  "id": "reports",
+  "name": "Reports",
+  "author": "Diduhless",
+  "description": "Download the plugin on poggit:",
+  "readme_markdown": "Download the plugin on poggit: [![Poggit](https://poggit.pmmp.io/shield.state/Reports)](https://poggit.pmmp.io/p/Reports) <br>\nJoin my GitHub discord server: [![Discord](https://img.shields.io/discord/732039634745425972?color=%2392e5fc&label=discord)](https://discord.gg/bsFSwTR)\n\n# Reports\n📢 A reports plugin for pocketmine servers\n\n## Functionality\n\n- Players can report other players with **/report**\n- This command will open a form where you can select an online player and the reason for the report.\n- You can put as many reasons as you want in the config!\n- Players will also have to wait a specific amount of seconds to send another report.\n- Those who have the admin permission will be able to see the reports in-game (default: *reports.admin*)\n- Admins can view the report list with **/reportlist**\n- This plugin uses **webhook** support, if set up correctly the reports will be also sent in discord!\n\n## Virions used\n\n- [EasyUI](https://github.com/andresbytes/EasyUI) by **andresbytes** <br>\n- [DiscordWebhookAPI](https://github.com/CortexPE/DiscordWebhookAPI) by **CortexPE**\n\n## Pictures\n\n![Message](https://i.imgur.com/diNb78e.png) <br>\n![Embed](https://i.imgur.com/aQlwKSN.png) <br>\n![ReportForm](https://i.imgur.com/aLmxB2W.png) <br>\n![ReportList](https://i.imgur.com/1OLwuMq.png) <br>\n![ReportOptions](https://i.imgur.com/rzHdnzZ.png)",
+  "readme_source_url": "https://github.com/Diduhless/Reports",
+  "icon_url": "https://raw.githubusercontent.com/Diduhless/Reports/e8733db05a50215dc7ab2a6e31c68013f49dfc12/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Diduhless/Reports",
+  "archive_repo": null,
+  "approved_release_tag": "r-9939",
+  "stars": 5,
+  "total_downloads": 1651,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Diduhless"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/180217",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-9939",
+      "published_at": null,
+      "downloads": 1651,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9939/reports-2.0.0-r9939.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9939",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9939/reports-2.0.0-r9939.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Reports",
+    "stable_release_id": 9939
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "joincommand",
+  "name": "JoinCommand",
+  "author": "CraftCamp1",
+  "description": "Runs a command when someone joins the server",
+  "readme_markdown": "# JoinCommand\n![License](https://img.shields.io/github/license/CraftCamp1/JoinCommand)\n[![](https://poggit.pmmp.io/shield.state/RandomTP)](https://poggit.pmmp.io/p/RandomTP)\n[![](https://poggit.pmmp.io/shield.state/JoinCommand)](https://poggit.pmmp.io/p/JoinCommand)\n[![](https://poggit.pmmp.io/shield.api/JoinCommand)](https://poggit.pmmp.io/p/JoinCommand)\nRuns a command when someone joins the server\n\n# Features\n- Executes a command when a player joins the server\n- Executes the command As and On the player\n- Lightweight Plugin\n\n# Config\n```yml\n/*Executes Command on Console */\n\"Server Command\"=> \"say hello {player}\",\n/*Executes Command as Player*/\n\"Player Command\"=> \"say hi\", \n/* Enables/Disables Commands */\n\"Server Command Enabled\"=>\"true\",\n\"Player Command Enabled\"=>\"true\"\n```\n\n# How to Install\n1. Download the plugin from [here](https://poggit.pmmp.io/r/185448/JoinCommand.phar)\n2. Put the ```JoinCommand.phar``` file into the plugins folder of your server.\n3. Restart your server.\n4. Done!",
+  "readme_source_url": "https://github.com/CraftCamp1/JoinCommand",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/CraftCamp1/JoinCommand",
+  "archive_repo": null,
+  "approved_release_tag": "r-10210",
+  "stars": 5,
+  "total_downloads": 337,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "CraftCamp1"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-10210",
+      "published_at": null,
+      "downloads": 337,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10210/joincommand-1.0.1-r10210.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10210",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10210/joincommand-1.0.1-r10210.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "JoinCommand",
+    "stable_release_id": 10210
+  }
+}

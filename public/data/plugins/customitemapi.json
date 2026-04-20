@@ -1,0 +1,81 @@
+{
+  "id": "customitemapi",
+  "name": "CustomItemAPI",
+  "author": "Refaltor77",
+  "description": "Welcome to CustomItemAPI (Update Customies ! Very good plugin !)",
+  "readme_markdown": "# Welcome to CustomItemAPI (Update Customies ! Very good plugin !)\n\n> the Plugin allows you to add as many items as you want\n> on your server, you can add new foods, \n> New pickaxes and much more !\n> A configuration is present for people\n> not having the necessary development skills. !!!\n\n\n## features\n- Add block config system\n- Add entitie config system\n- Add json config for complexe item (ex: item execute /feed)\n\n````YAML\n# CustomItemAPI configuration v1.0.0.\n# CustomItemAPI is a plugin that allows\n# to add items to your server with Customies plugin (very good plugin but is not for the user basic).\n# The plugin supports:\n# ------------------\n# - CustomFood\n# - CustomPotion (animation)\n# - CustomArmor\n# - CustomPickaxe\n# - CustomShovel\n# - CustomHoe\n# - CustomAxe\n# - CustomSword\n# ------------------\n# For all requests for assistance\n# Discord: Refaltor#6969\n# github: https://github.com/refaltor77\n\n\n\nbasic_items:\n  example_basic_item: # This name is used only if the \"name\" value does not exist.\n    name: test # never use space in your item names | required.\n    texture_path: stick # texture present only in the textures/items folder of your pack | required\n    max_stack_size: 16 # optional | default is 64\n    allow_off_hand: false # optional | default is false\n    render_offset: 16 # 32 / 64 / 128 etc...\n\nfood_items:\n  example_food_item:\n    name: test_food # Always use \"_\" for spaces.\n    is_potion: false # if true, The animation of eating will be like a potion. | optional default is false\n    texture_path: apple # required\n    max_stack_size: 32 # optional | default is 64\n    can_always_eat: true # This allows you to always eat the item even if the player is not hungry | optional default is false\n    food_restore: 4 # use only integer numbers for this value. | required\n    saturation_restore: 15.0 # use only float numbers for this value. | required\n    render_offset: 16 # 32 / 64 / 128 etc...\n\ntool_items:\n  example_tool:\n    name: test_pickaxe\n    type: pickaxe # pickaxe | axe | shovel | sword | hoe - required\n    tier: diamond # diamond | golden | iron | stone | wooden - required\n    texture_path: apple # required\n    mining_speed: 3.0 # use only float numbers for this value. | required\n    durability: 100 # required\n    attack_point: 2 # required\n    render_offset: 16 # 32 / 64 / 128 etc...\n\narmor_items:\n  example_helmet:\n    name: test_helmet\n    type: helmet # helmet | chestplate | leggings | boots - required\n    texture_path: iron_helmet\n    defense_points: 5 # required\n    durability: 500 # required\n    render_offset: 16 # 32 / 64 / 128 etc...\n````",
+  "readme_source_url": "https://github.com/Refaltor77/CustomItemAPI",
+  "icon_url": "https://raw.githubusercontent.com/Refaltor77/CustomItemAPI/8ff9f9c83dadfb6c128ea9b37c3e0760435ba480/logo.png",
+  "featured": false,
+  "repo": "https://github.com/Refaltor77/CustomItemAPI",
+  "archive_repo": null,
+  "approved_release_tag": "r-10000",
+  "stars": 3,
+  "total_downloads": 1502,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Refaltor77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/181522",
+  "versions": {
+    "stable": {
+      "version": "3.3.0",
+      "tag": "r-10000",
+      "published_at": null,
+      "downloads": 1348,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10000/customitemapi-3.3.0-r10000.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10000",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10000/customitemapi-3.3.0-r10000.phar"
+    },
+    {
+      "tag": "r-9975",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9975/customitemapi-3.2.5-r9975.phar"
+    },
+    {
+      "tag": "r-9957",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9957/customitemapi-3.2.4-r9957.phar"
+    },
+    {
+      "tag": "r-9954",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9954/customitemapi-3.2.3-r9954.phar"
+    },
+    {
+      "tag": "r-9935",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9935/customitemapi-3.1.0-r9935.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomItemAPI",
+    "stable_release_id": 10000
+  }
+}

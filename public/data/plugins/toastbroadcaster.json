@@ -1,0 +1,61 @@
+{
+  "id": "toastbroadcaster",
+  "name": "ToastBroadcaster",
+  "author": "NoobMCBG",
+  "description": "ToastBroadcaster v1.0.0",
+  "readme_markdown": "<div align=\"center\">\n<h1>ToastBroadcaster | v1.0.0 <h1>\n</div>\n<p align=\"center\">\n<a href=\"https://poggit.pmmp.io/p/ToastBroadcaster\"><img src=\"https://poggit.pmmp.io/shield.state/ToastBroadcaster\"></a>\n<a href=\"https://poggit.pmmp.io/p/ToastBroadcaster\"><img src=\"https://poggit.pmmp.io/shield.api/ToastBroadcaster\"></a>\n<a href=\"https://poggit.pmmp.io/p/ToastBroadcaster\"><img src=\"https://poggit.pmmp.io/shield.dl.total/ToastBroadcaster\"></a>\n<a href=\"https://poggit.pmmp.io/p/ToastBroadcaster\"><img src=\"https://poggit.pmmp.io/shield.dl/ToastBroadcaster\"></a>\n<br>\n\n<img src=\"https://github.com/NoobMCBG/ToastBroadcaster/blob/main/rainbow.gif\">\n<br>\n✔️ Create toast style notifications for all your players ✔️\n<br>\n<img src=\"https://github.com/NoobMCBG/ToastBroadcaster/blob/main/toast.png\"/>\n<br>\n\n<img src=\"https://github.com/NoobMCBG/KillDeathSound/blob/main/rainbow.gif\">\n</p>\n\n<br>\n\n## Features\n>- Create toast style notifications for all your players\n  \n<br>\n\n## Config\n```yaml\n---\n#  \n#  ░████████╗░█████╗░░█████╗░░██████╗████████╗██████╗░██████╗░░█████╗░░█████╗░██████╗░░█████╗░░█████╗░░██████╗████████╗███████╗██████╗░\n#  ░╚══██╔══╝██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██╔════╝██╔══██╗\n#  ░░░░██║░░░██║░░██║███████║╚█████╗░░░░██║░░░██████╦╝██████╔╝██║░░██║███████║██║░░██║██║░░╚═╝███████║╚█████╗░░░░██║░░░█████╗░░██████╔╝\n#  ░░░░██║░░░██║░░██║██╔══██║░╚═══██╗░░░██║░░░██╔══██╗██╔══██╗██║░░██║██╔══██║██║░░██║██║░░██╗██╔══██║░╚═══██╗░░░██║░░░██╔══╝░░██╔══██╗\n#  ░░░░██║░░░╚█████╔╝██║░░██║██████╔╝░░░██║░░░██████╦╝██║░░██║╚█████╔╝██║░░██║██████╔╝╚█████╔╝██║░░██║██████╔╝░░░██║░░░███████╗██║░░██║\n#  ░░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚═════╝░░╚════╝░╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝\ntitle: \"§d[ToastBroadcaster]\" # Title toast\nbroadcast:\n  delay: 60 # Delay message\n  message: # All message broadcast\n  - \"§a1\"\n  - \"§b2\"\n  - \"§c3\"\n...\n```\n\n<br>\n\n## For Developer\n>- You can access to ToastBroadcaster by using ```ToastBroadcaster::getInstance()```\n>- sendToast usage:\n```php\n$player = $event->getPlayer();\n$title = \"[Title]\";\n$subtitle = \"Toast\";\nToastBroadcaster::getInstance()->sendToast($player, $title, $subtitle);\n```\n\n>- broadcastToast usage:\n```php\n$player = $event->getPlayer();\n$title = \"[Title]\";\n$subtitle = \"Toast\";\nToastBroadcaster::getInstance()->broadcastToast($title, $subtitle);\n```\n\n<br>\n\n## Install\n>- Step 1: Click the `Direct Download` button to download the plugin\n>- Step 2: move the file `ToastBroadcaster.phar` into the file `plugins`\n>- Step 3: Restart server for plugins to work",
+  "readme_source_url": "https://github.com/NoobMCBG/ToastBroadcaster",
+  "icon_url": "https://raw.githubusercontent.com/NoobMCBG/ToastBroadcaster/f770b085ab35a570639e887a94726dc5895938c9/icon.png",
+  "featured": false,
+  "repo": "https://github.com/NoobMCBG/ToastBroadcaster",
+  "archive_repo": null,
+  "approved_release_tag": "r-10132",
+  "stars": 5,
+  "total_downloads": 358,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "NoobMCBG"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-10132",
+      "published_at": null,
+      "downloads": 358,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10132/toastbroadcaster-1.0.0-r10132.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-10132",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10132/toastbroadcaster-1.0.0-r10132.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ToastBroadcaster",
+    "stable_release_id": 10132
+  }
+}

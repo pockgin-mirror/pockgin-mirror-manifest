@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10366",
   "stars": 5,
-  "total_downloads": 136,
+  "total_downloads": 158,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,7 +37,7 @@
       "version": "1.1",
       "tag": "r-10366",
       "published_at": null,
-      "downloads": 136,
+      "downloads": 137,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10366/creditsscore-1.1-r10366.phar"
     },
     "dev": null
@@ -47,6 +47,11 @@
       "tag": "r-10366",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10366/creditsscore-1.1-r10366.phar"
+    },
+    {
+      "tag": "r-10139",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10139/creditsscore-1.0.0-r10139.phar"
     }
   ],
   "comments": {

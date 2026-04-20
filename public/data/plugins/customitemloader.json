@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12073",
   "stars": 0,
-  "total_downloads": 1226,
+  "total_downloads": 1500,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "3.3.1",
       "tag": "r-12073",
       "published_at": null,
-      "downloads": 810,
+      "downloads": 811,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12073/customitemloader-3.3.1-r12073.phar"
     },
     "dev": null
@@ -54,6 +54,16 @@
       "tag": "r-10767",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10767/customitemloader-3.2.0-r10767.phar"
+    },
+    {
+      "tag": "r-10233",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10233/customitemloader-3.1.0-r10233.phar"
+    },
+    {
+      "tag": "r-9961",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9961/customitemloader-3.0.0-r9961.phar"
     }
   ],
   "comments": {

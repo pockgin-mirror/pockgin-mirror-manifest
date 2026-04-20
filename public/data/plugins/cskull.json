@@ -1,0 +1,61 @@
+{
+  "id": "cskull",
+  "name": "CSkull",
+  "author": "ColinHDev",
+  "description": "CSkull is a plugin for the Minecraft: Bedrock Edition server software PocketMine-MP which aims to implement vanilla-like player skulls, the way they exist in Minecraft: Java Edi...",
+  "readme_markdown": "## CSkull\nCSkull is a plugin for the Minecraft: Bedrock Edition server software [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) which aims to implement vanilla-like player skulls, the way they exist in Minecraft: Java Edition.\n\n### Features\n- Proper block collision and breaking <br>\n  Many already existing plugins which implemented player skulls, used entities only, which gave the skulls their proper skin but did not give their skulls any collision. <br>\n  CSkull implements collision by spawning the entity on top of the normal skull block, which makes both the correct block collision, as well as block-breaking possible.\n- Skin data always accessible <br>\n  Because we store the skin data of every player, that joined your server, in a database, it is possible to get the skull of a player, which is not online.\n- Possibility of hiding skulls <br>\n  As every skull is a unique entity, the frames per second of a player's game are likely to drop when being forced to render a big number of skull entities. So, if that is the case or the player just does not want to see those skulls, he can disable them by typing a command. If a player decides to hide the entities, they are not just made invisible but will not even be spawned to him at all. The player will only see the steve skull block below the entity, so that he can see, that there possibly was an entity there.\n- Queuing skull entity spawn <br>\n  As it can lag a player's client if too many entities are spawned at once, this plugin provides the possibility to only spawn a specific amount of skull entities to a player in the same tick. Read more about it [here](#customizations).\n- No deletion of skulls when plugin fails to load <br>\n  As we do not store the data in the skull entities which we would save in the chunk, but instead we store them in a database, there will not be any problems when a chunk is loaded without the plugin being enabled because no data is lost. There simply will not be any skull entities spawned if that is the case. <br>\n  Unless the skull block is not broken without the plugin being not loaded or the database being deleted, there should not be any problems with deleted skulls.\n- Removing the plugin without problems <br>\n  Normally, when you would load a chunk that has unkown entities, e.g. from a removed plugin, in it, your console would be spammed with warnings that those entities were deleted. <br>\n  Since, we do not store the skull entities on the disk, you can remove the plugin from your server without noticing it. (This plugin only handles the spawn of the skull entities, not of the skull block. So when you remove the plugin, the steve skull blocks, that were under the entities, will remain in your world.)\n- /skull command cooldown <br>\n  It may be in the interest of some servers to not let their players get unlimited amounts of skulls. By setting specific permission for their players, they can decide the cooldown a player should have on performing the /skull command. For a list of the permissions, look [here](#permissions).\n- Language <br>\n  Although the plugin's displayed messages are in English, you can customize that file to your need by modifying the `language.ini` file in the `plugin_data` folder of this plugin. <br>\n  There, you can also change the name and lore of the skull item.\n\n### Commands and permissions\n#### Commands\nCommand | Description | Permission | Aliases\n---|---|---|---\n/showskulls <true / false> | Decide whether skull entities should be shown to you. | cskull.command.showskulls | /showheads\n/skull \\<player> | Give yourself the skull of a player. | cskull.command.skull | /head, /playerhead\n#### Permissions\nPermission | Description | Default\n---|---|---\ncskull.command.showskulls | This permission is required to execute the /showskulls command. | true\ncskull.command.skull | This permission is required to execute the /skull command. | true\ncskull.cooldown.2592000 | Set the cooldown on the /skull command to one month for a player with this permission. (30d = 2592000s) | false\ncskull.cooldown.604800 | Set the cooldown on the /skull command to one week for a player with this permission. (7d = 604800s) | false\ncskull.cooldown.86400 | Set the cooldown on the /skull command to one day for a player with this permission. (24h = 86400s) | true\n**cskull.cooldown.N** | You can also specify your custom cooldown with this permission. (N is a natural number (a non-fractional number with a positive sign)) | ---\ncskull.cooldown.none | Disable the cooldown on the /skull command for a player with this permission. | op\n\n### Customizations\nCustomizations can be done in the `config.yml` in the plugin's `plugin_data` folder:\n- `skullEntity.spawn.delay`: `1` <br>\n  Define the delay in ticks between the spawn or despawn interval of skull entities for players.\n- `skullEntity.spawn.maxPerTick`: `2` <br>\n  Define how many skull entities can be spawned to a player or despawned from it in the same tick. <br>\n  If `skullEntity.spawn.delay` is set to 0, this configuration will be ignored.\n- `database` <br>\n  Change the settings for the database this plugin will use. This is the default format provided by [libasynql](https://github.com/poggit/libasynql#configuration).\n\n### TODO\n- **FIXED:** Experience orbs are being attracted by our skull entities which should not happen. <br>\n  This is due to the way PMMP handles these attractions: experience orbs are attracted to all human entities and therefore also our skull entities. But since we can not intervene in that by listening to an event, there is no easy way to fix that currently. This problem is already referenced in an [issue](https://github.com/pmmp/PocketMine-MP/issues/4589). <br>\n  We would have two solutions: overwrite the `ExperienceOrb` class to implement our own entity search in the `ExperienceOrb::entityBaseTick()` method or let the `SkullEntity` class extend the `Entity` instead of the `Human` class and implement the skin handling, etc. ourselves. Both solutions are kind of complicated and in my eyes not worth the effort at the moment, just for them to get ruled out by a far easier way when the issue is resolved. <br>\n  UPDATE: The issue was resolved with the [PR](https://github.com/pmmp/PocketMine-MP/pull/4623) and merged into PocketMine-MP 4.1.0. If this minor version releases, we can resolve this issue by adding the following to our SkullEntity class: <br>\n  ```php\n  public function initEntity(CompoundTag $nbt) : void {\n        parent::initEntity($nbt);\n        // Disables that experience orbs are attracted to skull entities.\n        $this->xpManager->setCanAttractXpOrbs(false);\n  }\n  ```",
+  "readme_source_url": "https://github.com/ColinHDev/CSkull",
+  "icon_url": "https://raw.githubusercontent.com/ColinHDev/CSkull/7c4fe72bdd09adc9f810807fac742ab31b40f0fb/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ColinHDev/CSkull",
+  "archive_repo": null,
+  "approved_release_tag": "r-9933",
+  "stars": 5,
+  "total_downloads": 2349,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.1.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ColinHDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/180153",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-9933",
+      "published_at": null,
+      "downloads": 2349,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9933/cskull-1.1.0-r9933.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9933",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9933/cskull-1.1.0-r9933.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CSkull",
+    "stable_release_id": 9933
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11977",
   "stars": 0,
-  "total_downloads": 1213,
+  "total_downloads": 2182,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11977",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11977/minereset38-0.0.4-r11977.phar"
+    },
+    {
+      "tag": "r-10174",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10174/minereset38-0.0.3-r10174.phar"
     }
   ],
   "comments": {

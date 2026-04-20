@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12916",
   "stars": 0,
-  "total_downloads": 5595,
+  "total_downloads": 7189,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,7 +37,7 @@
       "version": "5.3.9",
       "tag": "r-12916",
       "published_at": null,
-      "downloads": 1898,
+      "downloads": 1899,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12916/chestshop-5.3.9-r12916.phar"
     },
     "dev": null
@@ -62,6 +62,11 @@
       "tag": "r-10816",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10816/chestshop-5.3.6-r10816.phar"
+    },
+    {
+      "tag": "r-10068",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10068/chestshop-5.3.5-r10068.phar"
     }
   ],
   "comments": {

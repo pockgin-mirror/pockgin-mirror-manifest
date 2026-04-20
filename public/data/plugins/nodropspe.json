@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12234",
   "stars": 0,
-  "total_downloads": 356,
+  "total_downloads": 580,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-12234",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12234/nodropspe-4.21-r12234.phar"
+    },
+    {
+      "tag": "r-10085",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10085/nodropspe-4.20.69-r10085.phar"
     }
   ],
   "comments": {
