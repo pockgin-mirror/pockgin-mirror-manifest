@@ -1,0 +1,61 @@
+{
+  "id": "endercooldown",
+  "name": "EnderCooldown",
+  "author": "JonyGamesYT9",
+  "description": "EnderCooldown v2.0.0",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/EnderCooldown)]\n\n<div align=\"center\">\n<h1>EnderCooldown | v2.0.0<h1>\n<p>EnderCooldown for PocketMine-MP, written in PHP-8 and only supports PocketMine-MP 4.0.0</p>\n</div>\n\n<h3>⚡ Features:</h3>\n<ul>\n<li>Permission for the cooldown not to affect the user.</li>\n<li>Personalized messages.</li>\n<li>PocketMine-MP 4.0.0 (Only).</li>\n</ul>\n\n### ✒ Permissions:\n| Permission | Description |\n| --- | --- |\n| `endercooldown.bypass` | `The User who has this permission will not be affected by the cooldown.` |\n\n<h3>📋 Icon:</h3>\n<p>Icon Credits: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIMmtFIN6_NKapN0WBIVyByhEou6HCQWGZQ&usqp=CAU</p>\n\n### 📖 Project information:\n| Version | Pocketmine API | PHP | Status |\n|---|---|---|---|\n| 2.0.0 | 4.0.0 | 8 | Verified |",
+  "readme_source_url": "https://github.com/JonyGamesYT9/EnderCooldown",
+  "icon_url": "https://raw.githubusercontent.com/JonyGamesYT9/EnderCooldown/95ba329ac1a21856b53cf293a31a59a286549d87/logo.png",
+  "featured": false,
+  "repo": "https://github.com/JonyGamesYT9/EnderCooldown",
+  "archive_repo": null,
+  "approved_release_tag": "r-8208",
+  "stars": 5,
+  "total_downloads": 2536,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JonyGamesYT9"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/150728",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-8208",
+      "published_at": null,
+      "downloads": 2536,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8208/endercooldown-2.0.0-r8208.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8208",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8208/endercooldown-2.0.0-r8208.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EnderCooldown",
+    "stable_release_id": 8208
+  }
+}

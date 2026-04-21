@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12225",
   "stars": 0,
-  "total_downloads": 1360,
+  "total_downloads": 7006,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-12225",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12225/kygekranksui-2.2.0-r12225.phar"
+    },
+    {
+      "tag": "r-8292",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8292/kygekranksui-2.0.0-r8292.phar"
     }
   ],
   "comments": {

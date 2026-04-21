@@ -1,0 +1,61 @@
+{
+  "id": "credits",
+  "name": "Credits",
+  "author": "Laith98Dev",
+  "description": "Plugin credits like discord probot.",
+  "readme_markdown": "# Credits\n- Plugin credits like discord probot.\n\n# Commands\nCommand | Description | Aliases\n--- | --- | ---\n`/credits` | `To see your credits` | `/c`\n`/credits <PlayerName>` | `To see the credits of a specific person` | `/c <PlayerName>`\n`/credits <PlayerName> <Count> <Reason>` | `Transfer credits to someone` | `/c <PlayerName> <Count> <Reason>`\n`/daily` | `To get your daily reward` | `/d`\n\n# API\n\n- use Laith98Dev\\Credits\\Main;\n- $api = Main::getInstance();\n- $api->getCredits(Player); // to get player credits\n- $api->addCredits(Player, $count); // to add credits\n- $api->reduceCredits(Player, $count); // to reduce credits\n- $api->transferCredits(Player, $toName, $count, $reason); // to transfer credits\n\n# Other\n\n- [![Donate](https://img.shields.io/badge/donate-Paypal-yellow.svg?style=flat-square)](https://paypal.me/Laith113)",
+  "readme_source_url": "https://github.com/Laith98Dev/Credits",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Laith98Dev/Credits",
+  "archive_repo": null,
+  "approved_release_tag": "r-8139",
+  "stars": 5,
+  "total_downloads": 827,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Laith98Dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/150018",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-8139",
+      "published_at": null,
+      "downloads": 827,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8139/credits-1.0.1-r8139.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8139",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8139/credits-1.0.1-r8139.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Credits",
+    "stable_release_id": 8139
+  }
+}

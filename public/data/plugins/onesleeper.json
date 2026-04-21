@@ -1,0 +1,61 @@
+{
+  "id": "onesleeper",
+  "name": "OneSleeper",
+  "author": "Laith98Dev",
+  "description": "Only one player on the server will need to sleep to set day.",
+  "readme_markdown": "# OneSleeper\nOnly one player on the server will need to sleep to set day.",
+  "readme_source_url": "https://github.com/Laith98Dev/OneSleeper",
+  "icon_url": "https://raw.githubusercontent.com/Laith98Dev/OneSleeper/338bd25d25a2aae7f68cb2caee8b7daf301a3853/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Laith98Dev/OneSleeper",
+  "archive_repo": null,
+  "approved_release_tag": "r-8170",
+  "stars": 0,
+  "total_downloads": 4723,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Laith98Dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/150338",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-8170",
+      "published_at": null,
+      "downloads": 4723,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8170/onesleeper-1.0.2-r8170.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8170",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8170/onesleeper-1.0.2-r8170.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "OneSleeper",
+    "stable_release_id": 8170
+  }
+}

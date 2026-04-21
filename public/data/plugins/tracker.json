@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11422",
   "stars": 0,
-  "total_downloads": 1871,
+  "total_downloads": 2891,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-9614",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9614/tracker-1.4.1-r9614.phar"
+    },
+    {
+      "tag": "r-8284",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8284/tracker-1.4.0-r8284.phar"
     }
   ],
   "comments": {

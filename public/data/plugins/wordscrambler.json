@@ -1,0 +1,63 @@
+{
+  "id": "wordscrambler",
+  "name": "WordScrambler",
+  "author": "ElectroGamesYT",
+  "description": "Information",
+  "readme_markdown": "# Information \n - Players can try to be the first one to unscramble words for rewards!\n# Features \n- Customizable Words\n- EconomyAPI Support\n- Customizable Reward\n# Soft Dependancies\n- It is reccomended to install EconomyAPI so players will receive a reward if they guess the word\n# Credits\n- Icon from www.flaticon.com\n- Subscribe to Electro Games on YouTube!",
+  "readme_source_url": "https://github.com/ElectroGamesYT/WordScrambler",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/WordScrambler/468d6a0b835ef5bbae64a71c4c19e07d0deaf995/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/WordScrambler",
+  "archive_repo": null,
+  "approved_release_tag": "r-8179",
+  "stars": 4,
+  "total_downloads": 757,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-8179",
+      "published_at": null,
+      "downloads": 757,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8179/wordscrambler-1.0.0-r8179.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8179",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8179/wordscrambler-1.0.0-r8179.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WordScrambler",
+    "stable_release_id": 8179
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13027",
   "stars": 0,
-  "total_downloads": 223,
+  "total_downloads": 760,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-12137",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12137/infinitebuckets-3.0.0-r12137.phar"
+    },
+    {
+      "tag": "r-8197",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8197/infinitebuckets-2.0.0-r8197.phar"
     }
   ],
   "comments": {

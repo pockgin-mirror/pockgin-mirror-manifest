@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11579",
   "stars": 0,
-  "total_downloads": 531,
+  "total_downloads": 1102,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -36,7 +36,7 @@
       "version": "3.0.0",
       "tag": "r-11579",
       "published_at": null,
-      "downloads": 531,
+      "downloads": 533,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11579/socialspy-3.0.0-r11579.phar"
     },
     "dev": null
@@ -46,6 +46,11 @@
       "tag": "r-11579",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11579/socialspy-3.0.0-r11579.phar"
+    },
+    {
+      "tag": "r-8288",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8288/socialspy-2.0.0-r8288.phar"
     }
   ],
   "comments": {

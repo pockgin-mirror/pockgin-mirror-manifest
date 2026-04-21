@@ -1,0 +1,61 @@
+{
+  "id": "multiversion",
+  "name": "MultiVersion",
+  "author": "AkmalFairuz",
+  "description": "Discontinued",
+  "readme_markdown": "# Discontinued\nThis plugin is discontinued.\nAlternative:\n\n- https://github.com/NetherGamesMC/PocketMine-MP\n- https://github.com/VenityNetwork/PocketMine-MP",
+  "readme_source_url": "https://github.com/AkmalFairuz/MultiVersion",
+  "icon_url": "https://raw.githubusercontent.com/AkmalFairuz/MultiVersion/21683bd6c4a08fd02d52073fdf43d32b84b5da5b/resources/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AkmalFairuz/MultiVersion",
+  "archive_repo": null,
+  "approved_release_tag": "r-8123",
+  "stars": 5,
+  "total_downloads": 6548,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.25.6-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AkmalFairuz"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/149838",
+  "versions": {
+    "stable": {
+      "version": "0.475.1",
+      "tag": "r-8123",
+      "published_at": null,
+      "downloads": 6548,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8123/multiversion-0.475.1-r8123.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8123",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8123/multiversion-0.475.1-r8123.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MultiVersion",
+    "stable_release_id": 8123
+  }
+}

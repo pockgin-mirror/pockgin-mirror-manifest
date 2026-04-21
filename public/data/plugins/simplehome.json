@@ -1,0 +1,61 @@
+{
+  "id": "simplehome",
+  "name": "SimpleHome",
+  "author": "CzechPMDevs",
+  "description": "SmallPlugins",
+  "readme_markdown": "# SmallPlugins\nRepository for small pmmp plugins\n\n- ServerTransfer: https://poggit.pmmp.io/ci/CzechPMDevs/SmallPlugins/ServerTransfer\n\n- WelcomeMessage: https://poggit.pmmp.io/ci/CzechPMDevs/SmallPlugins/WelcomeMessage\n\n- UnlimitedSlots: https://poggit.pmmp.io/ci/CzechPMDevs/SmallPlugins/UnlimitedSlots\n\n- BlockInfo: https://poggit.pmmp.io/ci/CzechPMDevs/SmallPlugins/BlockInfo\n\n- SimpleHome: https://poggit.pmmp.io/ci/CzechPMDevs/SmallPlugins/SimpleHome",
+  "readme_source_url": "https://github.com/CzechPMDevs/SmallPlugins",
+  "icon_url": "https://raw.githubusercontent.com/CzechPMDevs/SmallPlugins/5273a4133bc609ad8b84c58e13a4f39c0b0e7f7a/SimpleHome/icon.png",
+  "featured": false,
+  "repo": "https://github.com/CzechPMDevs/SmallPlugins",
+  "archive_repo": null,
+  "approved_release_tag": "r-8143",
+  "stars": 0,
+  "total_downloads": 13641,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "CzechPMDevs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/151721",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-8143",
+      "published_at": null,
+      "downloads": 13641,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8143/simplehome-1.1.0-r8143.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8143",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8143/simplehome-1.1.0-r8143.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleHome",
+    "stable_release_id": 8143
+  }
+}

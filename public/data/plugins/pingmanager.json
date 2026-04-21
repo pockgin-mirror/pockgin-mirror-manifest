@@ -1,0 +1,61 @@
+{
+  "id": "pingmanager",
+  "name": "PingManager",
+  "author": "didntpot-pm-pl",
+  "description": "Ping Manager",
+  "readme_markdown": "## Ping Manager\nAn all-in-one customizable ping manager for your server.\n\n## Features\n- [x] Ping Limiter (Customizable via `config.yml`)\n- [x] Ping Tag (Customizable via `config.yml`)\n- [x] Ping Command (/ping)\n## Bugs\nReport on [Github](https://github.com/didntpot-pm-pl/PingManager/issues/new) if you find any bugs.",
+  "readme_source_url": "https://github.com/didntpot-pm-pl/PingManager",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/didntpot-pm-pl/PingManager",
+  "archive_repo": null,
+  "approved_release_tag": "r-8297",
+  "stars": 5,
+  "total_downloads": 396,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "didntpot-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-8297",
+      "published_at": null,
+      "downloads": 396,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8297/pingmanager-1.0.0-r8297.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8297",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8297/pingmanager-1.0.0-r8297.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PingManager",
+    "stable_release_id": 8297
+  }
+}

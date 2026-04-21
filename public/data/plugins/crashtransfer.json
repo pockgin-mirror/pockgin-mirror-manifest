@@ -1,0 +1,61 @@
+{
+  "id": "crashtransfer",
+  "name": "CrashTransfer",
+  "author": "Xenophilicy",
+  "description": "A PocketMine plugin to transfer players when the server stops!",
+  "readme_markdown": "<p align=\"center\">\n    <a href=\"https://github.com/Xenophilicy/CrashTransfer\"><img src=\"https://github.com/Xenophilicy/CrashTransfer/blob/master/icon.png\"></img></a><br>\n    <b>A PocketMine plugin to transfer players when the server stops!</b>\n</p>\n\n<p align=\"center\">\n    <img alt=\"GitHubrelease\" src=\"https://img.shields.io/github/v/release/Xenophilicy/CrashTransfer?label=release&sort=semver\">\n      <img alt=\"Stars\" src= \"https://img.shields.io/github/stars/Xenophilicy/CrashTransfer?style=for-the-badge\">\n    <a href=\"https://discord.gg/6M9tGyWPjr\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n</p>\n\n## Information\nThis plugin allows you to force players to transfer to your main lobby or hub server if the server they were playing on has been stopped or has crashed unexpectedly. You can set up your main lobby server in the config.yml file where players will be transferred to. You can also enable and configure a warning message to be sent to players right before the server stops and transfers them.\n\n**NOTE: Not all server crashes can be detected by a plugin or even the server in some rare cases (like a process force kill). Therefore, this plugin cannot be 100% certain of a crash if the server is not shutdown properly, or if the server never disables the plugin.**\n\n### [Click here to download CrashTransfer from Poggit](https://poggit.pmmp.io/p/CrashTransfer/)\n\n## Dependencies\n**DevTools → https://github.com/pmmp/PocketMine-DevTools** *(If you're running the plugin from source)*\n\n## Credits\n* [Xenophilicy](https://github.com/Xenophilicy/)\n* [Vecnavium](https://github.com/Vecnavium/) (Longterm Maintainer)",
+  "readme_source_url": "https://github.com/Xenophilicy/CrashTransfer",
+  "icon_url": "https://raw.githubusercontent.com/Xenophilicy/CrashTransfer/b5def4f77aa7038e20abdfb78b6b12bfbffbeae3/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Xenophilicy/CrashTransfer",
+  "archive_repo": null,
+  "approved_release_tag": "r-8224",
+  "stars": 5,
+  "total_downloads": 1306,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Xenophilicy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/150965",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-8224",
+      "published_at": null,
+      "downloads": 1306,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8224/crashtransfer-1.0.2-r8224.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8224",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8224/crashtransfer-1.0.2-r8224.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CrashTransfer",
+    "stable_release_id": 8224
+  }
+}

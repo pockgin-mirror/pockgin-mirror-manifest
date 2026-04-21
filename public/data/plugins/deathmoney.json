@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8811",
   "stars": 0,
-  "total_downloads": 1165,
+  "total_downloads": 1670,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -51,6 +51,11 @@
       "tag": "r-8626",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8626/deathmoney-2.0.0-r8626.phar"
+    },
+    {
+      "tag": "r-8133",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8133/deathmoney-1.0.1-r8133.phar"
     }
   ],
   "comments": {

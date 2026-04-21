@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8928",
   "stars": 5,
-  "total_downloads": 2955,
+  "total_downloads": 3611,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.2.0",
       "tag": "r-8928",
       "published_at": null,
-      "downloads": 2955,
+      "downloads": 2956,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8928/infoapi-1.2.0-r8928.phar"
     },
     "dev": null
@@ -44,6 +44,16 @@
       "tag": "r-8928",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8928/infoapi-1.2.0-r8928.phar"
+    },
+    {
+      "tag": "r-8346",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8346/infoapi-1.1.1-r8346.phar"
+    },
+    {
+      "tag": "r-8329",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8329/infoapi-1.1.0-r8329.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "oregen",
+  "name": "OreGen",
+  "author": "Xenophilicy",
+  "description": "PocketMine plugin to spawn ores in a cobblestone generator!",
+  "readme_markdown": "<p align=\"center\">\n    <a href=\"https://github.com/Xenophilicy/OreGen\"><img src=\"https://github.com/Xenophilicy/OreGen/blob/master/icon.png\"></img></a><br>\n<b>PocketMine plugin to spawn ores in a cobblestone generator!</b>\n</p>\n\n<p align=\"center\">\n    <img alt=\"GitHubrelease\" src=\"https://img.shields.io/github/v/release/Xenophilicy/OreGen?label=release&sort=semver\">\n      <img alt=\"Stars\" src= \"https://img.shields.io/github/stars/Xenophilicy/OreGen?style=for-the-badge\">\n    <a href=\"https://discord.gg/6M9tGyWPjr\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n</p>\n\n## Information\nWith this plugin you can set up blocks to spawn in a classic cobblestone generator rather than plain cobblestone blocks! Each time a block spawns in a cobblestone generator, it has a chance to change to a desired block. These blocks and their probability can be changed in the plugin's *config.yml* file. You can black/whitelist certain worlds for OreGen to function in, or have it function in all worlds at once!\n\n### [Click here to download OreGen from Poggit](https://poggit.pmmp.io/p/OreGen/)\n\n*You can find a video example on YouTube → https://www.youtube.com/watch?v=Fb6llO6q9Ps*\n\n[![Xenophilicy](https://img.youtube.com/vi/Fb6llO6q9Ps/0.jpg)](https://www.youtube.com/watch?v=Fb6llO6q9Ps)\n***\n\n## OreGen Details\n* **API:** 3.5.0+\n* **Version:** 1.2.5\n* **Basic Description:** Generate ores inside a cobble generator!\n* *Easy to edit config.yml file*\n* *Simple code for editing and debugging*\n***\n\n## Dependencies\n**DevTools → https://github.com/pmmp/PocketMine-DevTools** *(If you're running the plugin from source)*\n\n## Credits\n* [Xenophilicy](https://github.com/Xenophilicy/) (Original Developer)\n* [Vecnavium](https://github.com/Vecnavium/) (Longterm Maintainer)",
+  "readme_source_url": "https://github.com/Xenophilicy/OreGen",
+  "icon_url": "https://raw.githubusercontent.com/Xenophilicy/OreGen/dbf1254dc2b197e2e63e91e4ab5b74aa0cf224ef/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Xenophilicy/OreGen",
+  "archive_repo": null,
+  "approved_release_tag": "r-8223",
+  "stars": 5,
+  "total_downloads": 3367,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Xenophilicy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/150958",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-8223",
+      "published_at": null,
+      "downloads": 3367,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8223/oregen-2.0.0-r8223.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8223",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8223/oregen-2.0.0-r8223.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "OreGen",
+    "stable_release_id": 8223
+  }
+}

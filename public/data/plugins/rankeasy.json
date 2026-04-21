@@ -1,0 +1,66 @@
+{
+  "id": "rankeasy",
+  "name": "RankEasy",
+  "author": "natof",
+  "description": "Simple plugin to create ranks 🎈",
+  "readme_markdown": "<h1 align=\"center\">RankEasy</h1>\n<p align=\"center\">\n  <img width=\"250\" height=\"250\" src=\"https://github.com/natof/rankEasy/blob/main/icon.png\">\n</p>  \n\n<h2 align=\"center\">Simple plugin to create ranks 🎈</h2>\n\n<h3>Config:</h3>\n\n``` yaml\n# YAML\n#https://www.digminecraft.com/lists/color_list_pc.php for all color in minecraft\n\n\ndefault: \"member\" #The default rank in server\n\nrank:\n  member: #the name of the rank\n    colorRank: \"§8\" #Color of rank\n    colorChat: \"§7\" #Color in chat\n    permission: [] \n\n  admin: \n    colorRank: \"§6\"\n    colorChat: \"§f\"\n    permission: [\n    \"rank.use\" #add Permission \n    ]\n```\n\n<img  src=\"https://github.com/natof/rankEasy/blob/main/picture/rank.png\">\n\n<h4>Command: /setgrade {player} {grade}</h4>",
+  "readme_source_url": "https://github.com/natof/rankEasy",
+  "icon_url": "https://raw.githubusercontent.com/natof/rankEasy/d86389e8ea78ca0f77bead05edf4ca996d40d7a8/icon.png",
+  "featured": false,
+  "repo": "https://github.com/natof/rankEasy",
+  "archive_repo": null,
+  "approved_release_tag": "r-8256",
+  "stars": 3,
+  "total_downloads": 4093,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "natof"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/151495",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-8256",
+      "published_at": null,
+      "downloads": 3826,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8256/rankeasy-1.0.1-r8256.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8256",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8256/rankeasy-1.0.1-r8256.phar"
+    },
+    {
+      "tag": "r-8245",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8245/rankeasy-1.0.0-r8245.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RankEasy",
+    "stable_release_id": 8256
+  }
+}

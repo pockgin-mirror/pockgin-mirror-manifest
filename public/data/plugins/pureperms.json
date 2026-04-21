@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9210",
   "stars": 2,
-  "total_downloads": 34159,
+  "total_downloads": 36196,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -56,6 +56,11 @@
       "tag": "r-8368",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8368/pureperms-1.4.5-r8368.phar"
+    },
+    {
+      "tag": "r-8239",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8239/pureperms-1.4.4-r8239.phar"
     }
   ],
   "comments": {

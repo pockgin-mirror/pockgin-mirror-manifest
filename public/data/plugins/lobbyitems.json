@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12780",
   "stars": 2,
-  "total_downloads": 1009,
+  "total_downloads": 2941,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,16 @@
       "tag": "r-12780",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12780/lobbyitems-2.1.1-r12780.phar"
+    },
+    {
+      "tag": "r-8247",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8247/lobbyitems-2.0.1-r8247.phar"
+    },
+    {
+      "tag": "r-8115",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8115/lobbyitems-2.0.0-r8115.phar"
     }
   ],
   "comments": {

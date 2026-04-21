@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12123",
   "stars": 4,
-  "total_downloads": 1092,
+  "total_downloads": 1495,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -54,6 +54,11 @@
       "tag": "r-8839",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8839/remoteconsole-2.0.1-r8839.phar"
+    },
+    {
+      "tag": "r-8196",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8196/remoteconsole-2.0.0-r8196.phar"
     }
   ],
   "comments": {

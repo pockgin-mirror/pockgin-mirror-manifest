@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10361",
   "stars": 0,
-  "total_downloads": 1118,
+  "total_downloads": 2854,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-10305",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10305/simplespawns-4.0-beta-r10305.phar"
+    },
+    {
+      "tag": "r-8220",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8220/simplespawns-3.0.0-r8220.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "advancedinstantrespawn",
+  "name": "AdvancedInstantRespawn",
+  "author": "didntpot-pm-pl",
+  "description": "A plugin that respawns the player automatically without showing the death screen.",
+  "readme_markdown": "## AdvancedInstantRespawn\nA plugin that respawns the player automatically without showing the death screen.\n\n## Features\n- [x] Auto respawns the player when they die to a player.\n- [x] Auto respawns the player when they take damage from the void.\n## Bugs\nReport on [Github](https://github.com/didntpot-pm-pl/PingManager/issues/new) if you find any bugs.",
+  "readme_source_url": "https://github.com/didntpot-pm-pl/AdvancedInstantRespawn",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/didntpot-pm-pl/AdvancedInstantRespawn",
+  "archive_repo": null,
+  "approved_release_tag": "r-8305",
+  "stars": 0,
+  "total_downloads": 2288,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "didntpot-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-8305",
+      "published_at": null,
+      "downloads": 2288,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8305/advancedinstantrespawn-1.0.0-r8305.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8305",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8305/advancedinstantrespawn-1.0.0-r8305.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdvancedInstantRespawn",
+    "stable_release_id": 8305
+  }
+}

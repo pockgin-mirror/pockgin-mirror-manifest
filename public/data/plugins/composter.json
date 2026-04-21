@@ -1,0 +1,61 @@
+{
+  "id": "composter",
+  "name": "Composter",
+  "author": "ipad54",
+  "description": "This plugin added composter functionality to your PocketMine-MP server",
+  "readme_markdown": "# Composter\nThis plugin added composter functionality to your PocketMine-MP server\n\n# NOTE: \nThis plugin written only for API 4.0.0 (PM4), because API 3.0.0 (PM3) doesn't support negative items IDs",
+  "readme_source_url": "https://github.com/ipad54/Composter",
+  "icon_url": "https://raw.githubusercontent.com/ipad54/Composter/e270b48583eca109ddff0c609e43892d058262bf/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ipad54/Composter",
+  "archive_repo": null,
+  "approved_release_tag": "r-8275",
+  "stars": 5,
+  "total_downloads": 2226,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ipad54"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-8275",
+      "published_at": null,
+      "downloads": 2226,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8275/composter-1.0-r8275.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8275",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8275/composter-1.0-r8275.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Composter",
+    "stable_release_id": 8275
+  }
+}

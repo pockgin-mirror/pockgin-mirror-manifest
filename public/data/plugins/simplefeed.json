@@ -1,0 +1,61 @@
+{
+  "id": "simplefeed",
+  "name": "SimpleFeed",
+  "author": "ElectroGamesYT",
+  "description": "Information",
+  "readme_markdown": "# Information \n- Feeds yourself or others to max food.\n # Commands\n- /feed\n- /feed {username}\n # Permissions\n- Permission: simplefeed.use\n # Credits\n- Icon from www.flaticon.com\n- Subscribe to Electro Games on YouTube",
+  "readme_source_url": "https://github.com/ElectroGamesYT/SimpleFeed",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/SimpleFeed/88167a82b789b1d2c41e500b49a1e92a72e15e5b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/SimpleFeed",
+  "archive_repo": null,
+  "approved_release_tag": "r-8130",
+  "stars": 5,
+  "total_downloads": 940,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/149904",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-8130",
+      "published_at": null,
+      "downloads": 940,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8130/simplefeed-2.0.0-r8130.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8130",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8130/simplefeed-2.0.0-r8130.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleFeed",
+    "stable_release_id": 8130
+  }
+}

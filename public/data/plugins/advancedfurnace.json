@@ -1,0 +1,61 @@
+{
+  "id": "advancedfurnace",
+  "name": "AdvancedFurnace",
+  "author": "Refaltor77",
+  "description": "CustomFurnace---pm4.0.0",
+  "readme_markdown": "# CustomFurnace---pm4.0.0\nPlugin to add oven recipes !",
+  "readme_source_url": "https://github.com/Refaltor77/CustomFurnace-pm4.0.0",
+  "icon_url": "https://raw.githubusercontent.com/Refaltor77/CustomFurnace-pm4.0.0/d56e06ed901e38cef1bee633fabcc0f4a84e60d3/logo.png",
+  "featured": false,
+  "repo": "https://github.com/Refaltor77/CustomFurnace-pm4.0.0",
+  "archive_repo": null,
+  "approved_release_tag": "r-8281",
+  "stars": 0,
+  "total_downloads": 761,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Refaltor77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-8281",
+      "published_at": null,
+      "downloads": 761,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8281/advancedfurnace-1.0.0-r8281.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8281",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8281/advancedfurnace-1.0.0-r8281.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdvancedFurnace",
+    "stable_release_id": 8281
+  }
+}

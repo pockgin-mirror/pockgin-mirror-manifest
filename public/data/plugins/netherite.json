@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9233",
   "stars": 4,
-  "total_downloads": 7523,
+  "total_downloads": 10917,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-9220",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9220/netherite-2.2-r9220.phar"
+    },
+    {
+      "tag": "r-8106",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8106/netherite-2.0-r8106.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "antiframeedit",
+  "name": "AntiFrameEdit",
+  "author": "JonyGamesYT9",
+  "description": "AntiFrameEdit v5.0",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/AntiFrameEdit)]\n\n<div align=\"center\">\n<h1>AntiFrameEdit | v5.0<h1>\n<p>A plugin so that players on your server cannot use Frames.</p>\n</div>\n\n<h3>⚡ Features:</h3>\n<ul>\n<li>Personalized messages.</li>\n<li>Easy to usage.</li>\n<li>Multiworld support.</li>\n<li>Permissions for players to use the frames.</li>\n<li>PocketMine-MP 4.0.0 (Only).</li>\n</ul>\n\n<h3>✒ Permissions:</h3>\n\n| Permission | Description |\n| --- | --- |\n| `antiframeedit.remove.bypass` | Allows a user to remove items in a frame. |\n| `antiframeedit.place.bypass` | Allows a user to put an item in any frame. |\n\n<h3>📋 Icon:</h3>\n\n<p>Icon Credits: https://minecraft-archive.fandom.com/wiki/Item_Frame</p>\n\n<h3>📖 Project information:</h3>\n\n| Plugin Version | Pocketmine API | PHP Version | Plugin Status |\n|---|---|---|---|\n| 5.0 | 4.0.0 | 8 | Completed |",
+  "readme_source_url": "https://github.com/JonyGamesYT9/AntiFrameEdit",
+  "icon_url": "https://raw.githubusercontent.com/JonyGamesYT9/AntiFrameEdit/d8ed5a2854f8e6f1356c39f76fcac66a363dd685/frame.png",
+  "featured": false,
+  "repo": "https://github.com/JonyGamesYT9/AntiFrameEdit",
+  "archive_repo": null,
+  "approved_release_tag": "r-8207",
+  "stars": 3,
+  "total_downloads": 2458,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JonyGamesYT9"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/150719",
+  "versions": {
+    "stable": {
+      "version": "5.0",
+      "tag": "r-8207",
+      "published_at": null,
+      "downloads": 2458,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8207/antiframeedit-5.0-r8207.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8207",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8207/antiframeedit-5.0-r8207.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiFrameEdit",
+    "stable_release_id": 8207
+  }
+}

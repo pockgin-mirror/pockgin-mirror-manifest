@@ -1,0 +1,61 @@
+{
+  "id": "simpleheal",
+  "name": "SimpleHeal",
+  "author": "ElectroGamesYT",
+  "description": "Information",
+  "readme_markdown": "# Information \n- Heals yourself or others to max health.\n # Commands\n- /heal\n- /heal {username}\n # Permissions\n- Permission: simpleheal.use\n # Credits\n- Icon from www.flaticon.com\n- Subscribe to Electro Games on YouTube",
+  "readme_source_url": "https://github.com/ElectroGamesYT/SimpleHeal",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/SimpleHeal/5a9eae2b49f0967d7bc467586fe5cff63bdd91a8/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/SimpleHeal",
+  "archive_repo": null,
+  "approved_release_tag": "r-8195",
+  "stars": 5,
+  "total_downloads": 1095,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/150597",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-8195",
+      "published_at": null,
+      "downloads": 1095,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8195/simpleheal-2.0.0-r8195.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8195",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8195/simpleheal-2.0.0-r8195.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleHeal",
+    "stable_release_id": 8195
+  }
+}

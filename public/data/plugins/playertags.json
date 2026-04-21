@@ -1,0 +1,71 @@
+{
+  "id": "playertags",
+  "name": "PlayerTags",
+  "author": "sylvrs",
+  "description": "Player Tags",
+  "readme_markdown": "# Player Tags\n\nShow a tag below the player's name tag!\n\n### Poggit:\n\n* Download count: [![](https://poggit.pmmp.io/shield.dl.total/PlayerTags)](https://poggit.pmmp.io/p/PlayerTags)\n* Download link: [![](https://poggit.pmmp.io/shield.state/PlayerTags)](https://poggit.pmmp.io/p/PlayerTags)\n\n## Installation\n\n* Download the latest release from the Poggit above or from [releases](https://github.com/sylvrs/PlayerTags/releases)!\n* Install the plugin in your server's 'plugins' folder.\n* Restart your server.\n* Enjoy!\n\n## Wiki\n\nTo see examples or API, please visit the [wiki](https://github.com/sylvrs/PlayerTags/wiki).\n\n## Supported Tags:\n\n### Formatting\n\n|      Name     | Description                                                                      |\n|:-------------:|----------------------------------------------------------------------------------|\n|     {line}    | Creates another line.                                                            |\n\n### Default\n\n|      Name     | Description                                               |\n|:-------------:|-----------------------------------------------------------|\n|  {x}/{y}/{z}  | The player's coordinates                                  |\n|    {world}    | The player's current world                                |\n|   {item_id}   | The ID of the item in the player's hand                   |\n| {item_damage} | The damage of the item in the player's hand               |\n|  {item_count} | The amount of the item in the player's hand               |\n|  {item_name}  | The name of the item in the player's hand                 |\n|      {ip}     | The player's IP address                                   |\n|   {gamemode}  | The player's gamemode                                     |\n|     {ping}    | The player's current ping                                 |\n|     {cps}     | The player's current CPS                                  |\n|    {health}   | The player's current health                               |\n|  {max_health} | The player's maximum health                               |\n|  {health_bar} | The player's health converted into a bar                  |\n|    {device}   | The player's current device                               |\n|  {input_mode} | The player's current input mode (Touch, Controller, KB+M) |\n|      {os}     | The player's current OS                                   |\n\n### AdvancedJobs\n\n|        Name       | Description                                                                     |\n|:-----------------:|---------------------------------------------------------------------------------|\n|       {job}       | The player's job ('Unemployed', if the player doesn't have one)                 |\n| {job_information} | The information on the player's job ('', if the player doesn't have one)        |\n|   {job_progress}  | The current progress on the player's job ('-1', if the player doesn't have one) |\n### CombatLogger\n\n|        Name       | Description                                                                     |\n|:-----------------:|---------------------------------------------------------------------------------|\n|      {timer}      | The player's current timer on the plugin ('', if the player doesn't have one)   |\n\n### EconomyAPI\n\n|      Name      | Description                                                                     |\n|:--------------:|---------------------------------------------------------------------------------|\n|     {money}    | Show's the player's money                                                       |\n| {money_prefix} | Retrieves the monetary unit for EconomyAPI                                      |\n\n### FactionsPro\n\n|       Name      | Description                                                                     |\n|:---------------:|---------------------------------------------------------------------------------|\n|  {faction_name} | The name of the player's current faction ('None', if not in one)                |\n| {faction_power} | The faction's current power level ('', if not in one)                           |\n\n### KDR\n\n|   Name   | Description                               |\n|:--------:|-------------------------------------------|\n|  {kills} | The number of kill points for the player  |\n| {deaths} | The number of death points for the player |\n|   {kdr}  | The kill/death ratio for the player       |\n\n### PiggyFactions\n\n|       Name      | Description                                                      |\n|:---------------:|------------------------------------------------------------------|\n|  {faction_name} | The name of the player's current faction ('None', if not in one) |\n| {faction_power} | The faction's current power level ('', if not in one)            |\n|  {faction_rank} | The player's rank in PiggyFactions. ('', if none)                |\n\n### PurePerms\n\n|   Name   | Description                                       |\n|:--------:|---------------------------------------------------|\n|  {rank}  | The player's rank. ('N/A', if a rank isn't found) |\n| {prefix} | The player's prefix                               |\n| {suffix} | The player's suffix                               |\n\n### RankUp\n\n|   Name   | Description                                               |\n|:--------:|-----------------------------------------------------------|\n| {rankup} | The player's current rank. ('N/A', if a rank isn't found) |\n\n### RedSkyblock\n\n|      Name      | Description                                                                 |\n|:--------------:|-----------------------------------------------------------------------------|\n|  {island_name} | The name of the player's island ('', if the player doesn't have an island)  |\n|  {island_rank} | The player's rank                                                           |\n| {island_value} | The value of the player's island ('', if the player doesn't have an island) |\n\n### SkyBlock\n\n|        Name       | Description                                                                      |\n|:-----------------:|----------------------------------------------------------------------------------|\n| {island_category} | The category of the player's island ('N/A', if the player doesn't have one)      |\n|   {island_rank}   | The rank of the player on the island ('Unknown', if the player doesn't have one) |\n|   {island_type}   | The player's island type ('N/A', if the player doesn't have one)                 |",
+  "readme_source_url": "https://github.com/sylvrs/PlayerTags",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/sylvrs/PlayerTags",
+  "archive_repo": null,
+  "approved_release_tag": "r-8226",
+  "stars": 5,
+  "total_downloads": 1816,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "RankUp",
+      "EconomyAPI",
+      "KDR",
+      "CombatLogger",
+      "RedSkyBlock",
+      "PurePerms",
+      "SkyBlock",
+      "AdvancedJobs",
+      "PiggyFactions"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "sylvrs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/151038",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-8226",
+      "published_at": null,
+      "downloads": 1816,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8226/playertags-2.0.0-r8226.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8226",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8226/playertags-2.0.0-r8226.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerTags",
+    "stable_release_id": 8226
+  }
+}
