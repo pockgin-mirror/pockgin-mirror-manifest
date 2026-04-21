@@ -1,0 +1,61 @@
+{
+  "id": "commandmaj",
+  "name": "CommandMaj",
+  "author": "NewtheBuilder",
+  "description": "💻 ・Informations",
+  "readme_markdown": "<h1>\n<a id=\"user-content-informations\" class=\"anchor\" href=\"#informations\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a><g-emoji class=\"g-emoji\" alias=\"computer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png\">💻</g-emoji>・Informations</h1>\n<p>This plugin has no config. It just allows uppercase commands or both.</p>\n<p>Exemple : /gaMemOdE creative</p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/164444",
+  "icon_url": "https://raw.githubusercontent.com/NewtheBuilder/CommandMaj/c3f6138e266acc617769b978f4c8eb4b5af88176/Icon.png",
+  "featured": false,
+  "repo": "https://github.com/NewtheBuilder/CommandMaj",
+  "archive_repo": null,
+  "approved_release_tag": "r-9139",
+  "stars": 5,
+  "total_downloads": 269,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "NewtheBuilder"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-9139",
+      "published_at": null,
+      "downloads": 269,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9139/commandmaj-1.0.0-r9139.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9139",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9139/commandmaj-1.0.0-r9139.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CommandMaj",
+    "stable_release_id": 9139
+  }
+}

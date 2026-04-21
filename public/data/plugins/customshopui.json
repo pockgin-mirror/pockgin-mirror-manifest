@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11804",
   "stars": 2,
-  "total_downloads": 4620,
+  "total_downloads": 13802,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -46,6 +46,16 @@
       "tag": "r-11804",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11804/customshopui-5.0.5-r11804.phar"
+    },
+    {
+      "tag": "r-9011",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9011/customshopui-5.0.3-r9011.phar"
+    },
+    {
+      "tag": "r-9004",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9004/customshopui-5.0.0-r9004.phar"
     }
   ],
   "comments": {

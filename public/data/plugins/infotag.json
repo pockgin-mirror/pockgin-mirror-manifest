@@ -1,0 +1,68 @@
+{
+  "id": "infotag",
+  "name": "InfoTag",
+  "author": "AmmyR",
+  "description": "A simple PocketMine-MP (4.0.0) plugin that allows you to view basic player information in the player's nametag, with PureChat & RankSystem integration (and factions support).",
+  "readme_markdown": "# InfoTag\nA simple PocketMine-MP (4.0.0) plugin that allows you to view basic player information in the player's nametag, with <a href=\"https://poggit.pmmp.io/p/PureChat/\">PureChat</a> & <a href=\"https://poggit.pmmp.io/p/RankSystem\">RankSystem</a> integration (and factions support).\n\n# 👀 First steps\nYou must first install the plugin (\"plugins/\" folder) and start the server, and then shut it down.\n\nInside the \"plugin_data/InfoTag\" folder a file called \"format.yml\" will be created, which you can modify.\n\n# ❓ How to modify the format?\nYou can modify the <a href=\"https://github.com/AmmyR/InfoTag/blob/main/resources/format.yml#L36\">\"format\"</a> key inside the file <a href=\"https://github.com/AmmyR/InfoTag/blob/main/resources/format.yml\">\"format.yml\"</a>. \n\nThe following options are available within the available format:\n\n<b>[❗]<i> If PureChat or RankSystem (you can only use one!) are disabled or not installed, the player's nametag will be used instead.</i></b>\n\n<ul>\n  <li><b>{nametag}</b> -> PureChat & RankSystem nametag format. </li>\n  <li><b>{health}</b> -> Player's current health.</li>\n  <li><b>{maxhealth}</b> -> Player's max health.</li>\n  <li><b>{food}</b> -> Player's current food.</li>\n  <li><b>{maxfood}</b> -> Player's max food.</li>\n  <li><b>{ping}</b> -> Player's ping (ms).</li>\n  <li><b>{device}</b> -> The device from which the player is playing.</li>\n  <li><b>{faction}</b> -> Faction to which the player belongs\n</ul>\n\nYou can also use the unicode symbols of the game and add colors! (See the <a href=\"https://github.com/AmmyR/InfoTag/blob/main/resources/format.yml#L31\">format.yml</a> file for more information).\n\n# 🎌 Factions\n<div id=\"factions\">\nThere is support for 4 factions plugins:\n<ul>\n  <li><a href=\"https://poggit.pmmp.io/p/SimpleFaction/\">SimpleFaction</a></li>\n  <li><a href=\"https://poggit.pmmp.io/p/FactionMaster/\">FactionMaster</a></li>\n  <li><a href=\"https://poggit.pmmp.io/p/PiggyFactions/\">PiggyFactions</a></li>\n  <li><a href=\"https://poggit.pmmp.io/p/FactionsPE/\">FactionsPE</a></li>\n</ul>\n  \nYou can set which plugin you want to use in the format.yml file, in the <a href=\"https://github.com/AmmyR/InfoTag/blob/main/resources/format.yml#L16\">\"factions-plugin\"</a> key.\n\nIf the plugin of your choice does not exist or is deactivated, the \"{faction}\" key will simply be ignored and will be displayed without formatting.\n\n<b>[❗] Use plugins provided by Poggit (links above). If you use factions plugins that do not come from this source, an error may occur. Sometimes those who provide plugins from external sources (such as YouTube) modify them.</b>\n</div>\n\n# 🔎 Example (Default formatted nametag)\n<div align=\"center\">\n  <br>\n  <img src=\"example.png\"/>\n</div>",
+  "readme_source_url": "https://github.com/AmmyR/InfoTag",
+  "icon_url": "https://raw.githubusercontent.com/AmmyR/InfoTag/9f91cc30ae1077d66065fe7a46f7a1fb5cb7b3d6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AmmyR/InfoTag",
+  "archive_repo": null,
+  "approved_release_tag": "r-8952",
+  "stars": 4,
+  "total_downloads": 1603,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "PureChat",
+      "PiggyFactions",
+      "FactionsPE",
+      "SimpleFaction",
+      "RankSystem",
+      "FactionMaster"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AmmyR"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/161821",
+  "versions": {
+    "stable": {
+      "version": "4.0-STABLE",
+      "tag": "r-8952",
+      "published_at": null,
+      "downloads": 1603,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8952/infotag-4.0-stable-r8952.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8952",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8952/infotag-4.0-stable-r8952.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "InfoTag",
+    "stable_release_id": 8952
+  }
+}

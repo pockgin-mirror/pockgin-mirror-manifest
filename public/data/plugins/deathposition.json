@@ -1,0 +1,71 @@
+{
+  "id": "deathposition",
+  "name": "DeathPosition",
+  "author": "AxelFeL",
+  "description": "Get the coordinates of the place you died at.",
+  "readme_markdown": "# DeathPosition\nGet the coordinates of the place you died at.\nAnd you can back to your death location\n\n# Command\n* /deathback - Back to Death Location\n# Config\n\n``` YAML\n---\n# DeathPosition Configuration\n\n# Use {x} to show coordinat X! \n# Use {y} to show coordinat Y! \n# Use {z} to show coordinat Z! \n\n#Setting Here!\ndeath-position-message: \"§eYour death position on coordinates: §a{x} {y} {z}\"\n...\n```\n\n# Credit\nThis plugin using icon from <a href=\"https://flaticon.com\">here</a>!",
+  "readme_source_url": "https://github.com/AxelFeL/DeathPosition",
+  "icon_url": "https://raw.githubusercontent.com/AxelFeL/DeathPosition/51be7635320501f4fb0c6ade42bea0b2c285aebf/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AxelFeL/DeathPosition",
+  "archive_repo": null,
+  "approved_release_tag": "r-9096",
+  "stars": 0,
+  "total_downloads": 2260,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AxelFeL"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/163942",
+  "versions": {
+    "stable": {
+      "version": "1.2",
+      "tag": "r-9096",
+      "published_at": null,
+      "downloads": 2049,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9096/deathposition-1.2-r9096.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9096",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9096/deathposition-1.2-r9096.phar"
+    },
+    {
+      "tag": "r-9017",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9017/deathposition-1.1-r9017.phar"
+    },
+    {
+      "tag": "r-9007",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9007/deathposition-1.0-r9007.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DeathPosition",
+    "stable_release_id": 9096
+  }
+}

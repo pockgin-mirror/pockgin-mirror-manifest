@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9241",
   "stars": 5,
-  "total_downloads": 2696,
+  "total_downloads": 2968,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.2.0",
       "tag": "r-9241",
       "published_at": null,
-      "downloads": 2633,
+      "downloads": 2634,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9241/capeslocker-1.2.0-r9241.phar"
     },
     "dev": null
@@ -49,6 +49,16 @@
       "tag": "r-9228",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9228/capeslocker-1.1.1-r9228.phar"
+    },
+    {
+      "tag": "r-9059",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9059/capeslocker-1.1.0-r9059.phar"
+    },
+    {
+      "tag": "r-9014",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9014/capeslocker-1.0.0-r9014.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,66 @@
+{
+  "id": "pockit",
+  "name": "PocKit",
+  "author": "Xd-pro",
+  "description": "",
+  "readme_markdown": "# Pockit\r\n[![](https://poggit.pmmp.io/shield.state/PocKit)](https://poggit.pmmp.io/p/PocKit)\r\n\r\n[![](https://poggit.pmmp.io/shield.api/PocKit)](https://poggit.pmmp.io/p/PocKit)",
+  "readme_source_url": "https://github.com/Xd-pro/PocKit",
+  "icon_url": "https://raw.githubusercontent.com/Xd-pro/PocKit/87fc2096f0bda01d48d09015a5b28826bcf3e573/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Xd-pro/PocKit",
+  "archive_repo": null,
+  "approved_release_tag": "r-9135",
+  "stars": 4,
+  "total_downloads": 2738,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Xd-pro"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/164416",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-9135",
+      "published_at": null,
+      "downloads": 2460,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9135/pockit-1.2.0-r9135.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9135",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9135/pockit-1.2.0-r9135.phar"
+    },
+    {
+      "tag": "r-8967",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8967/pockit-1.1.0-r8967.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PocKit",
+    "stable_release_id": 9135
+  }
+}

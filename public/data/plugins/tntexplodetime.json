@@ -1,0 +1,66 @@
+{
+  "id": "tntexplodetime",
+  "name": "TNTExplodeTime",
+  "author": "MulqiGaming64",
+  "description": "General",
+  "readme_markdown": "# General\n\nnow you can know when tnt explode\n\n# Feature\n- Can Custom Text\n- Can set Make Explosion Break Block Or Not\n- Can Set TNT Explode Time\n- Can set on placed spawn\n- Can set TNT Make Damage or Not\n- Can Set TNT Make Knockback or Not\n\n# To-Do\n- Custom Knockback\n\n# Config\n\n``` YAML\n\n---\n# Can TNT Damage to Player\ndamage: false\n\n# Can TNT Knockback to Player\nknockback: true\n\n# Can TNT Explode Block\nexplode: false\n\n# Time for TNT Explode\n# In Seconds\ntime: 4\n\n# Can TNT Explode when placed\nplaced: true\n\n# TNT Custom Explode Time Text\n# Tag {time}\ntime-text: \"§a{time}\"\n...\n```\n\n# Additional Notes\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/XanderID/TNTExplodeTime/issues)",
+  "readme_source_url": "https://github.com/MulqiGaming64/TNTExplodeTime",
+  "icon_url": "https://raw.githubusercontent.com/MulqiGaming64/TNTExplodeTime/75d3232cdfbc330a26a233f57f5bb355d007137e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MulqiGaming64/TNTExplodeTime",
+  "archive_repo": null,
+  "approved_release_tag": "r-9148",
+  "stars": 5,
+  "total_downloads": 626,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MulqiGaming64"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/164539",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-9148",
+      "published_at": null,
+      "downloads": 533,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9148/tntexplodetime-1.0.1-r9148.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9148",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9148/tntexplodetime-1.0.1-r9148.phar"
+    },
+    {
+      "tag": "r-9073",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9073/tntexplodetime-1.0.0-r9073.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TNTExplodeTime",
+    "stable_release_id": 9148
+  }
+}

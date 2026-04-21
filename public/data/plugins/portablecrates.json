@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12086",
   "stars": 0,
-  "total_downloads": 1719,
+  "total_downloads": 2780,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-10875",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10875/portablecrates-2.2.0-r10875.phar"
+    },
+    {
+      "tag": "r-9029",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9029/portablecrates-2.1.1-r9029.phar"
     }
   ],
   "comments": {

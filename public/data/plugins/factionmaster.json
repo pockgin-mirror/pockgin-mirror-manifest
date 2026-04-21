@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9203",
   "stars": 4,
-  "total_downloads": 2410,
+  "total_downloads": 2726,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -36,16 +36,32 @@
       "version": "4.2.0",
       "tag": "r-9203",
       "published_at": null,
-      "downloads": 2410,
+      "downloads": 2411,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9203/factionmaster-4.2.0-r9203.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "4.1.0-dev02",
+      "tag": "r-8959",
+      "published_at": null,
+      "downloads": 60,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8959/factionmaster-4.1.0-dev02-r8959.phar"
+    }
   },
   "recent_builds": [
     {
       "tag": "r-9203",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9203/factionmaster-4.2.0-r9203.phar"
+    },
+    {
+      "tag": "r-8991",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8991/factionmaster-4.1.1-r8991.phar"
+    },
+    {
+      "tag": "r-8959",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8959/factionmaster-4.1.0-dev02-r8959.phar"
     }
   ],
   "comments": {

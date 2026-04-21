@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10730",
   "stars": 5,
-  "total_downloads": 7444,
+  "total_downloads": 11774,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -60,6 +60,11 @@
       "tag": "r-10339",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10339/simplenpc-3.0.2-r10339.phar"
+    },
+    {
+      "tag": "r-8979",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8979/simplenpc-3.0.1-r8979.phar"
     }
   ],
   "comments": {

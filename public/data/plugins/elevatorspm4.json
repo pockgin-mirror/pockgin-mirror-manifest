@@ -1,0 +1,61 @@
+{
+  "id": "elevatorspm4",
+  "name": "ElevatorsPM4",
+  "author": "zOmArRD",
+  "description": "A plugin which allows you to go up/down like an elevator",
+  "readme_markdown": "# ElevatorsPM4\n\nA plugin which allows you to go up/down like an elevator\n\n## How to use\n\nTo teleport up\n\n<img alt=\"image.png\" height=\"304\" src=\"./assets/up.png\" width=\"583\"/>\n\nTo teleport down\n\n<img alt=\"image.png\" height=\"293\" src=\"./assets/down.png\" width=\"570\"/>",
+  "readme_source_url": "https://github.com/zOmArRD/ElevatorsPM4",
+  "icon_url": "https://raw.githubusercontent.com/zOmArRD/ElevatorsPM4/5ed5c078f32ab5c32cb1e10ee044ffa81164b413/icon.png",
+  "featured": false,
+  "repo": "https://github.com/zOmArRD/ElevatorsPM4",
+  "archive_repo": null,
+  "approved_release_tag": "r-9033",
+  "stars": 5,
+  "total_downloads": 1239,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "zOmArRD"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-9033",
+      "published_at": null,
+      "downloads": 1239,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9033/elevatorspm4-2.0.0-r9033.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9033",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9033/elevatorspm4-2.0.0-r9033.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ElevatorsPM4",
+    "stable_release_id": 9033
+  }
+}

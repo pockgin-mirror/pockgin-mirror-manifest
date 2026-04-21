@@ -1,0 +1,74 @@
+{
+  "id": "whalealert",
+  "name": "WhaleAlert",
+  "author": "MulqiGaming64",
+  "description": "General",
+  "readme_markdown": "# General\nWhaleAlert in PocketMine!</br>\nThis plugin is for alerts if there is a large amount of Pay Transactions Economys\n\n# Commands\n\nCommands Toggle for On/Off WhaleAlert\nDefault if player Joined is On\n\nCommands | Aliases | Default | Permission\n--- | --- | --- | ---\n`/whalealert` | /whalealert | True | `whalealert.toggle`\n\n# Feature\n- Alert if Transaction Minimum Reached\n- Multiple Economys\n- Can Auto detect Economys Plugin\n- Customable Minimum\n- Customable Broadcast Message\n- Broadcast to Discord can Embeds or Not\n\n# Config\n\n``` YAML\n\n---\n# Your Economy plugin name\n# Available: BedrockEconomy, EconomyAPI, Auto\neconomy: \"Auto\"\n\n# Message for WhaleAlert\n# Tag:\n# {name} Sender Name\n# {target} Target Name\n# {amount} Amount of Transferred Money\n# {economy} Name of Economy\n# {line} New Line\nmessage: \"§a!!!!!! {amount} #{economy}, transfered from Unknow wallet to Unknow wallet\"\n\n# Minimum Transferred money for WhaleAlert\nminimum: 100000\n\n# Discord Webhook\ndiscord:\n enable: false # true / false Discord Webhook\n webhook: \"\" # Your webhook url including https://\n name: \"WhaleAlert\" # Name Webhook\n # If You enable Embeds Message, WhaleAlert content\n # Will be in Embeds\n embeds: # Embeds message Webhook\n  enable: false # For Embeds message Discord\n  # Title for Message Discord\n  title: \"WhaleAlert\"\n  # Color for left In HTML Color\n  color: \"80FF00\"\n  # Footer Text\n  footer: \"Transaction from play.blabla.com\"\n...\n```\n\n# Additional Notes\n\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/XanderID/WhaleAlert/issues)\n- Icons By [icons8.com](https://icons8.com)",
+  "readme_source_url": "https://github.com/MulqiGaming64/WhaleAlert",
+  "icon_url": "https://raw.githubusercontent.com/MulqiGaming64/WhaleAlert/eea6cbe1c9d53e2582ac1e4f2570e4fdd4940cc6/icons.png",
+  "featured": false,
+  "repo": "https://github.com/MulqiGaming64/WhaleAlert",
+  "archive_repo": null,
+  "approved_release_tag": "r-9097",
+  "stars": 5,
+  "total_downloads": 288,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "BedrockEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MulqiGaming64"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/163978",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-9097",
+      "published_at": null,
+      "downloads": 235,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9097/whalealert-1.0.2-r9097.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9097",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9097/whalealert-1.0.2-r9097.phar"
+    },
+    {
+      "tag": "r-9090",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9090/whalealert-1.0.1-r9090.phar"
+    },
+    {
+      "tag": "r-9041",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9041/whalealert-1.0.0-r9041.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WhaleAlert",
+    "stable_release_id": 9097
+  }
+}

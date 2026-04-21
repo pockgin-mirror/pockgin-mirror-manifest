@@ -1,0 +1,61 @@
+{
+  "id": "mentionedmessage",
+  "name": "MentionedMessage",
+  "author": "MulqiGaming64",
+  "description": "General",
+  "readme_markdown": "# General\n\nnow you can save MentionedMessage in UI\n\nExample: You Chat Hi @MulqiGaming @Friends\n\nit will be save Message later to MulqiGaming and Friends\n\n# Commands\n\nCommands For Getting all Mentioned Message:\n\nCommands | Aliases | Default\n--- | --- | ---\n`/mymessage` | `/mm` | True\n\n# Screenshot\n\n![Screenshot](https://github.com/XanderID/MentionedMessage/blob/6db7af686c18e22c79832e974167c1c430c6a88e/Screenshot.png)\n\n# Feature\n- You can clear All Mentioned Message\n- Can Multiple Mention Player\n- can Mention Players offline\n- can set content format in config\n- can set custom timezone\n\n# Config\n\n``` YAML\n\n---\n# Timezone\ntimezone: \"asia/jakarta\"\n\n# Auto Save Interval Message\n# Seconds\nsave-interval: 180\n\n# Tag\n# {MSG} Messages\n# {YEARS} yyyy Years Message\n# {MONTH} 1-12 Month Message\n# {DATE} 1-31 Date Message\n# {HOURS} Hours Time Message\n# {MINUTES} Minutes Time Message\n# {NAME} Name Who Mentioned\n\n# Mention Message Format\n# Content\nmention-message: \"§f[§a{HOURS}:{MINUTES}§r] From §a{NAME}: §f{MSG}\"\n...\n```\n\n# Additional Notes\n\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/XanderID/MentionedMessage/issues)\n- Icons By [icons8.com](https://icons8.com)",
+  "readme_source_url": "https://github.com/MulqiGaming64/MentionedMessage",
+  "icon_url": "https://raw.githubusercontent.com/MulqiGaming64/MentionedMessage/2e509b476538a02eac933aac1edfc0a666ac6015/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MulqiGaming64/MentionedMessage",
+  "archive_repo": null,
+  "approved_release_tag": "r-8960",
+  "stars": 0,
+  "total_downloads": 398,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MulqiGaming64"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/162033",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-8960",
+      "published_at": null,
+      "downloads": 398,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8960/mentionedmessage-1.0.2-r8960.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8960",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8960/mentionedmessage-1.0.2-r8960.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MentionedMessage",
+    "stable_release_id": 8960
+  }
+}

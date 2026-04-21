@@ -1,0 +1,74 @@
+{
+  "id": "capital",
+  "name": "Capital",
+  "author": "SOF3",
+  "description": "An extensible economy plugin for PocketMine-MP.",
+  "readme_markdown": "# Capital\n\n[![CI](https://github.com/SOF3/Capital/actions/workflows/ci.yml/badge.svg)](https://github.com/SOF3/Capital/actions/workflows/ci.yml)\n\nAn extensible economy plugin for PocketMine-MP.\n\n## How is Capital different from other economy plugins?\n\nAs a core API for economy, Capital supports different styles of account management:\n\n- You can have the old, simple one-account-per-player mechanism.\n- Or do you like currencies? You can add new currencies to config.yml\n  and other plugins will let you configure which currency to use in each case.\n- Or are currencies too complicated for you?\n  What about just having one account per world?\n  You don't need any special configuration in other plugins!\n- Are commands and form UI boring for you?\n  Maybe use banknote/wallet items\n  so that players lose money when they drop the item?\n  (Capital itself does not support banknote/wallet items,\n  but it is the *only* economy API where both\n  simple accounts and item payment can be used from other plugins\n  without writing code twice)\n- Or maybe sometimes the money goes to the faction bank account\n  instead of player account?\n- Capital is extensible for other plugins to include new account management styles,\n  and it will work automatically with all plugins!\n\nOther cool features include:\n\n- Powerful analytics commands.\n  How much active capital is there?\n  How is wealth distributed on the server?\n  Which industries are the most active?\n  What are the biggest transactions in the server yesterday?\n  Capital can help you answer these questions with label-based analytics.\n- Is editing the config file too confusing for you?\n  Capital supports self-healing configuration.\n  Your config file will be automatically regenerated if something is wrong,\n  and Capital will try its best to guess what you really wanted.\n- Supports migration from other economy plugins, including:\n  - EconomyAPI\n- Uses async database access, supporting both SQLite and MySQL.\n  Capital will not lag your server.\n- Safe for multiple servers. Transactions are strictly atomic.\n  Players cannot duplicate money by joining multiple servers.\n\n## Setting up\n\nAfter running the server with Capital the first time,\nCapital generates config.yml and db.yml,\nwhich you can edit to configure Capital.\n\ndb.yml is used for configuring the database used by Capital.\nYou can use sqlite or mysql here.\nThe configuration is same as most other plugins.\n\nconfig.yml is a large config that allows you to change almost everything in Capital.\nRead the comments in config.yml for more information.\nText after `'# xxx:` are comments.\nIf you edit config.yml incorrectly,\nCapital will try to fix the config.yml and save the old one as config.yml.old\nso that you can refer to it if Capital fixed it incorrectly.\n\n## Default commands\n\nAll commands in Capital can be configured in config.yml.\nTry searching them in the config file to find out the correct place.\nThe following commands come from the default config:\n\nPlayer commands:\n\n- `/pay <player> <amount> [account...]`:\n  Pay money to another player with your own account.\n- `/checkmoney`:\n  Check your own wealth.\n- `/richest`:\n  View the richest players on the server.\n\nAdmin commands:\n\n- `/addmoney <player> <amount> [account...]`:\n  Add money to a player's account.\n- `/takemoney <player> <amount> [account...]`:\n  Remove money from a player's account.\n- `/checkmoney <player>`:\n  Check the wealth of another player.\n\n`[account...]` can be used to select the account (e.g. currency)\nif you change the schema in config.yml.\n(You can still disable these arguments by setting up `selector` in config.yml)\n\nYou can create many other useful commands by editing config.yml,\ne.g. check how much money was paid by `/pay` command!\nCheck out the comments in config.yml for more information.\n\n## Community, Contact &amp; Contributing\n\nIf you want to get help, share your awesome config setup\nor show off your cool plugin that uses Capital,\ncreate a discussion [on GitHub](https://github.com/SOF3/Capital/discussions).\n\nTo report bugs, create an issue [on GitHub](https://github.com/SOF3/Capital/issues).\n\nIf you want to help with developing Capital,\nsee [dev.md](dev.md) for a comprehensive walkthrough of the internals.",
+  "readme_source_url": "https://github.com/SOF3/Capital",
+  "icon_url": "https://raw.githubusercontent.com/SOF3/Capital/c29e11ecf4fb7534a8746b6f37d3e0e3c5e101f3/icon.png",
+  "featured": false,
+  "repo": "https://github.com/SOF3/Capital",
+  "archive_repo": null,
+  "approved_release_tag": "r-9198",
+  "stars": 4,
+  "total_downloads": 4186,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [
+      "InfoAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SOF3"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/166136",
+  "versions": {
+    "stable": {
+      "version": "0.1.2",
+      "tag": "r-9198",
+      "published_at": null,
+      "downloads": 3962,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9198/capital-0.1.2-r9198.phar"
+    },
+    "dev": {
+      "version": "0.1.1-beta1",
+      "tag": "r-9160",
+      "published_at": null,
+      "downloads": 224,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9160/capital-0.1.1-beta1-r9160.phar"
+    }
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9198",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9198/capital-0.1.2-r9198.phar"
+    },
+    {
+      "tag": "r-9160",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9160/capital-0.1.1-beta1-r9160.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Capital",
+    "stable_release_id": 9198
+  }
+}

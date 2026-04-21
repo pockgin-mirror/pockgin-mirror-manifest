@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12211",
   "stars": 0,
-  "total_downloads": 1117,
+  "total_downloads": 1723,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-12211",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12211/findplayers-2.0.0-r12211.phar"
+    },
+    {
+      "tag": "r-9074",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9074/findplayers-1.0.0-r9074.phar"
     }
   ],
   "comments": {

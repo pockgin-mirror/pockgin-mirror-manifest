@@ -1,0 +1,61 @@
+{
+  "id": "is",
+  "name": "is_",
+  "author": "Theslowaja",
+  "description": "is_PM4",
+  "readme_markdown": "# is_PM4\nfun plugin for pm4\nsystem will answer yuor question with: yes, no, maybe yes, maybe no, maybe\n\n# Command\n\n/is (your question)\n\n# poggit\n\n[![](https://poggit.pmmp.io/shield.state/is_)](https://poggit.pmmp.io/p/is_)\n<a href=\"https://poggit.pmmp.io/p/is_\"><img src=\"https://poggit.pmmp.io/shield.state/is_\"></a>",
+  "readme_source_url": "https://github.com/Theslowaja/is_PM4",
+  "icon_url": "https://raw.githubusercontent.com/Theslowaja/is_PM4/45bb6c3f0c178315a40c5e8c6a7edd8908e17a75/logo.png",
+  "featured": false,
+  "repo": "https://github.com/Theslowaja/is_PM4",
+  "archive_repo": null,
+  "approved_release_tag": "r-8955",
+  "stars": 5,
+  "total_downloads": 244,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Theslowaja"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-8955",
+      "published_at": null,
+      "downloads": 244,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8955/is_-1.0.0-r8955.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8955",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8955/is_-1.0.0-r8955.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "is_",
+    "stable_release_id": 8955
+  }
+}

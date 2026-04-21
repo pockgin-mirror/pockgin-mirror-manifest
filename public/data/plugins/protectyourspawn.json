@@ -1,0 +1,66 @@
+{
+  "id": "protectyourspawn",
+  "name": "ProtectYourSpawn",
+  "author": "Refaltor77",
+  "description": "ProtectYourSpawn 4.0.0",
+  "readme_markdown": "<h1 align=\"center\">ProtectYourSpawn | 4.0.0</h1>\n<p align=\"center\">\n  <img width=\"250\" height=\"250\" src=\"https://github.com/Refaltor77/ProtectYourSpawn/blob/main/logo.png\">\n</p>\n\n<h2 align=\"center\">Plugin to easily protect and manage your protected areas on your server ! 🎊</h2>\n\n<h3 align=\"center\">Configuration</h3>\n\n```YAML\nversion: 1.0.0\n\nnotification:\n  player_entering_a_zone: true\n  player_leave_a_zone: true\n  player_drop_item: true\n  player_pvp: true\n  player_chat: true\n  player_cmd: true\n  player_consume_food: true\n  block_break: true\n  block_place: true\n```\n<h3 align=\"center\">Area creating</h3>\n\n<p align=\"center\"> The plugin includes an easy and intuitive way to create areas: a menu!<br></p>\n<p align=\"center\">\n  <img width=\"250\" height=\"250\" src=\"https://github.com/Refaltor77/ProtectYourSpawn/blob/main/menu.png\">\n</p>\n\n<h3 align=\"center\">Changing properties Zones</h3>\n\n<p align=\"center\"> Also with this plugin we offer you a simple way to change the attributes of your zone thanks to an intuitive list !<br></p>\n<p align=\"center\">\n  <img width=\"250\" height=\"250\" src=\"https://github.com/Refaltor77/ProtectYourSpawn/blob/main/menu_list.png\">\n  <img width=\"250\" height=\"250\" src=\"https://github.com/Refaltor77/ProtectYourSpawn/blob/main/menu_modified.png\">\n</p>",
+  "readme_source_url": "https://github.com/Refaltor77/ProtectYourSpawn",
+  "icon_url": "https://raw.githubusercontent.com/Refaltor77/ProtectYourSpawn/10f05363678b6f82c0ad7d0aa885566b361611cb/logo.png",
+  "featured": false,
+  "repo": "https://github.com/Refaltor77/ProtectYourSpawn",
+  "archive_repo": null,
+  "approved_release_tag": "r-8994",
+  "stars": 5,
+  "total_downloads": 2455,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Refaltor77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/162477",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-8994",
+      "published_at": null,
+      "downloads": 2333,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8994/protectyourspawn-2.0.1-r8994.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8994",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8994/protectyourspawn-2.0.1-r8994.phar"
+    },
+    {
+      "tag": "r-8950",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8950/protectyourspawn-2.0.0-r8950.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ProtectYourSpawn",
+    "stable_release_id": 8994
+  }
+}

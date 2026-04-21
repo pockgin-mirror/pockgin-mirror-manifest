@@ -1,0 +1,61 @@
+{
+  "id": "nuke",
+  "name": "Nuke",
+  "author": "cheditx",
+  "description": "NukePlugin",
+  "readme_markdown": "# NukePlugin\nPocketmine-MP plugin in 4.0.0\n\n__the plugin was created inspired by the nuke of call of duty, this is perfect for Kitpvp servers or factions!__\n\n# How to use?\n\n__the plugin has a file called config (which is editable from the plugin_data \\ Nuke folder) which contains various settings, such as timer, messages and more.__\n\n# How to use in-game?\n\n__nuke can be activated using the /nuke command, to use it you must be OP or have the `nuke.command` permission (the nuke don't kill the sender or OP players).__",
+  "readme_source_url": "https://github.com/cheditx/NukePlugin",
+  "icon_url": "https://raw.githubusercontent.com/cheditx/NukePlugin/8c388f8efc896346b9f5e8389e4368f55b92ebd1/icon.gif",
+  "featured": false,
+  "repo": "https://github.com/cheditx/NukePlugin",
+  "archive_repo": null,
+  "approved_release_tag": "r-8951",
+  "stars": 0,
+  "total_downloads": 674,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "cheditx"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/161795",
+  "versions": {
+    "stable": {
+      "version": "1.0.4",
+      "tag": "r-8951",
+      "published_at": null,
+      "downloads": 674,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8951/nuke-1.0.4-r8951.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8951",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8951/nuke-1.0.4-r8951.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Nuke",
+    "stable_release_id": 8951
+  }
+}

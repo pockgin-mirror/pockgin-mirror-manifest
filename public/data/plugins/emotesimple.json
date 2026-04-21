@@ -1,0 +1,61 @@
+{
+  "id": "emotesimple",
+  "name": "EmoteSimple",
+  "author": "Ibenrm",
+  "description": "EmoteSimple is a Feature or API for",
+  "readme_markdown": "# EmoteSimple\n**EmoteSimple is a Feature or API for\nPocketMine-MP 4.0+**\n\n## Support\n**You can use minecraft bedrock profile built-in emote.**\n**You can custom permission.**\n\n## Warning!!!\n**NOTE:** you can't see your own emote,\nThe emotes available in this plugin are limited, not all,\nThe EmoteSimple not supported multi permissions.\n\n## Commands & API\n- Created Emotes\n\n  For commands you can use:\n  `/emotes create`\n  For api you can use:\n```php\n$player->sendMessage(EmoteSimple::getInstance()->getEmotes()->createEmotes(strtolower($emoteName), EmoteSimple::getInstance()->getDataIds()->emotes[0]['uid']), strtolower($permission));\n```\n\n- Remove Emotes\n   \n  For commands you can use:\n  `/emotes remove <string: emoteName>`\n\n  For api you can use:\n```php\n$player->sendMessage(EmoteSimple::getInstance()->getEmotes()->removeEmotes($emoteName));\n```\n\n- Play Emotes\n\n  For commands you can use:\n  `!emotes <string: emoteName>`\n\n  For api you can use:\n```php\nif(EmoteSimple::getInstance()->getEmotes()->searchEmote($emoteName)){\n    $emoteId = EmoteSimple::getInstance()->getEmotes()->getIds(EmoteSimple::getInstance()->getEmotes()->getIndex($emoteName));\n    $permission = EmoteSimple::getInstance()->getEmotes()->getPermission(EmoteSimple::getInstance()->getEmotes()->getIndex($emoteName));\n    if(!PermissionManager::getInstance()->getPermission($permission)){\n        if(!$this->getServer()->isOp($player->getName())){\n            // Code not have permissions\n        }\n    }\n    if(EmoteSimple::getInstance()->getEmotes()->setEmotes($player, $emoteId)){\n        //Code success\n    } else {\n        //Code failed\n    }\n}\n```",
+  "readme_source_url": "https://github.com/Ibenrm/EmoteSimple",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Ibenrm/EmoteSimple",
+  "archive_repo": null,
+  "approved_release_tag": "r-9122",
+  "stars": 0,
+  "total_downloads": 213,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Ibenrm"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/164219",
+  "versions": {
+    "stable": {
+      "version": "1.8.3",
+      "tag": "r-9122",
+      "published_at": null,
+      "downloads": 213,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9122/emotesimple-1.8.3-r9122.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9122",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9122/emotesimple-1.8.3-r9122.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EmoteSimple",
+    "stable_release_id": 9122
+  }
+}

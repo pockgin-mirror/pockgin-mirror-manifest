@@ -1,0 +1,61 @@
+{
+  "id": "createdelcraft-hiroteam",
+  "name": "CreateDelCraft-HiroTeam",
+  "author": "HiroshimaTeam",
+  "description": "CreateDelCraft-HiroTeam [API 4]",
+  "readme_markdown": "# CreateDelCraft-HiroTeam [API 4]\n### About\n![CreateDelCraft (1)](https://user-images.githubusercontent.com/76572999/148062252-5e79d0ae-e910-4e19-88bd-3c2d6f857ad2.png)\n\n\n[ENG] This is a [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) (or forks) plugin allows you to delete default crafts and create new crafts ! :grin: <br/>\n<br/>\n[FRA] C'est un [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) plugin qui vous permet de supprimer des crafts par defaut et de créer de nouveaux crafts ! :grin: <br/>\n\n  - **New craft**<br/>\n<img width=\"257\" alt=\"Capture\" src=\"https://user-images.githubusercontent.com/76572999/148137277-96bae2fb-b1e6-4235-9a1b-c90d6a956f8a.PNG\">\n<img width=\"143\" alt=\"Capture3\" src=\"https://user-images.githubusercontent.com/76572999/148137284-cb2c91f7-7cd7-43a3-a625-a3b4bd29b558.PNG\"><br/>\n\n  - **Delete craft**<br/>\n  \n<img width=\"256\" alt=\"Capture2\" src=\"https://user-images.githubusercontent.com/76572999/148137290-3383640c-12dc-478f-8a72-f85e0e076bd4.PNG\">\n\n\n---\n### How to use\n[ENG] Configure in config.yml + explanation directly in</br>\n\n[FRA] Configurer dans le config.yml + explication directement dedans</br>\n\n---\n### **This plugin was tested (and works) on:**\n\n- [x] **[PocketMine-MP 4.X.X](https://github.com/pmmp/PocketMine-MP)**\n---\n### **LordHosting Partner**\n\n- [ENG] Our team is in partnership with Lordhosting, Minecraft PE server Hosting, VPS hosting use reduction code __**HiroTeam**__ 10% FREE </br>\n-> Website : https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/mZe6XCwsm9 </br>\n\n- [FRA] Notre équipe est en partenariat avec Lordhosting, hébergement de serveurs Minecraft PE, VPS utilise le code de réduction __**HiroTeam**__ 10% DE REDUCTION </br>\n-> Site Web: https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/mZe6XCwsm9 </br>\n---\n### Contacts HiroTeam\n\n- **Discord Member:** WillyDuGang#6947 RomainSav#1000\n- **Discord Server:** :link:  https://discord.gg/WuwsuUA<br/>\n- **E-mail:** team.hiroshima.dev@gmail.com<br/>\n\n> ![HiroTeam](https://www.zupimages.net/up/20/25/mb59.png) </br>\n\n---\n### License\nThis plugin is licensed under the [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)\n\n>This program is free software: you can redistribute it and/or modify<br/>\n>it under the terms of the GNU General Public License as published by<br/>\n>the Free Software Foundation, either version 3 of the License, or<br/>\n>(at your option) any later version.<br/>\n>\n>This program is distributed in the hope that it will be useful,<br/>\n>but WITHOUT ANY WARRANTY; without even the implied warranty of<br/>\n>MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the<br/>\n>GNU General Public License for more details.<br/>\n>\n>You should have received a copy of the GNU General Public License<br/>\n>along with this program.  If not, see http://www.gnu.org/licenses/\n---\n### Author\n- **Discord:** WillyDuGang#6947",
+  "readme_source_url": "https://github.com/HiroshimaTeam/CreateDelCraft-HiroTeam",
+  "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/CreateDelCraft-HiroTeam/a386ad0ccd3e9613d96ccf13f5b73ce897f70829/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HiroshimaTeam/CreateDelCraft-HiroTeam",
+  "archive_repo": null,
+  "approved_release_tag": "r-9056",
+  "stars": 3,
+  "total_downloads": 1200,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HiroshimaTeam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/163349",
+  "versions": {
+    "stable": {
+      "version": "1.5.0",
+      "tag": "r-9056",
+      "published_at": null,
+      "downloads": 1200,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9056/createdelcraft-hiroteam-1.5.0-r9056.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9056",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9056/createdelcraft-hiroteam-1.5.0-r9056.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CreateDelCraft-HiroTeam",
+    "stable_release_id": 9056
+  }
+}

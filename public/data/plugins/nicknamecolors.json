@@ -1,0 +1,61 @@
+{
+  "id": "nicknamecolors",
+  "name": "NicknameColors",
+  "author": "ZhorifCraft451",
+  "description": "IT WILL NO LONGER UPDATED",
+  "readme_markdown": "## IT WILL NO LONGER UPDATED\n\n\n\n# Nickname-Colors\nA PocketMine-MP Plugin that allow you to change your nickname to specific colors\n\n[![](https://poggit.pmmp.io/shield.state/NicknameColors)](https://poggit.pmmp.io/p/NicknameColors)\n[![](https://poggit.pmmp.io/shield.api/NicknameColors)](https://poggit.pmmp.io/p/NicknameColors)\n[![](https://poggit.pmmp.io/shield.dl/NicknameColors)](https://poggit.pmmp.io/p/NicknameColors)\n\n# Commands\n/ncolors = For Opening Nickname Colors Menu\n\n# Feature\n- Configable\n- Has Some Permission, So You Can Set This To A Rank Or Else\n\n# Screenshots\nThe Nickname Colors Menu:\n![Screenshot1](https://raw.githubusercontent.com/ZhorifCraft451/Nickname-Colors/master/screenshot1.png)\n\nThe Result After Choosing One Of The Colors:\n\n![Screenshot2](https://raw.githubusercontent.com/ZhorifCraft451/Nickname-Colors/master/screenshot2.png)\n\n# Permissions\nPermissions | Used For |\n--- | --- |\n`ncolors.use` | For Opening The Nickname Colors Menu |\n`red.ncolors` | For Using Red Nickname Color |\n`blue.ncolors` | For Using Blue Nickname Color |\n`purple.ncolors` | For Uisng Purple Nickname Color |\n`yellow.ncolors` | For Using Yellow Nickname Color |\n`orange.ncolors` | For Using Orange Nickname Color |\n\n# Config\n``` YAML\n# NicknameColors Plugin for PocketMine-MP Config File!\n# Plugin Created in 9/21/20 By MulqiAki192\n\nform-api-usage: \"true\"\n# Disable and Enable FormAPI\n\n# view the change-log in my discord server! make sure to join\n\ncmd-not-player: \"§cYou are in console, run this command in the game!\"\n# set the message if the sender of the command is a console\n\nno-permission-command: \"§cYou Dont Have Permission To Use This Command\"\n# set the message if the player is doesn't have permission to use /ncolors command\n\nno-permission-using-this-color: \"§cYou dont have permission to use this color\"\n# set the message if the player doesn't have permission to use some colors\n```\n\n# To Do\n- Adding Some Colors??\n- Adding More Configuration??\n\n# More\nIf you need a help or you find a bug and error, you can make an issues or contact Zhorif#7070 and Platee#8574",
+  "readme_source_url": "https://github.com/ZhorifCraft451/Nickname-Colors",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/ZhorifCraft451/Nickname-Colors",
+  "archive_repo": null,
+  "approved_release_tag": "r-9075",
+  "stars": 5,
+  "total_downloads": 1044,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ZhorifCraft451"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1",
+      "tag": "r-9075",
+      "published_at": null,
+      "downloads": 1044,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9075/nicknamecolors-1.1-r9075.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9075",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9075/nicknamecolors-1.1-r9075.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NicknameColors",
+    "stable_release_id": 9075
+  }
+}

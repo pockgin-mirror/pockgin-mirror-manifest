@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9547",
   "stars": 3,
-  "total_downloads": 639,
+  "total_downloads": 828,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-9547",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9547/multiplayercounter-0.0.3-r9547.phar"
+    },
+    {
+      "tag": "r-9042",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9042/multiplayercounter-0.0.1-r9042.phar"
     }
   ],
   "comments": {

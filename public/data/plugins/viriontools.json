@@ -1,0 +1,66 @@
+{
+  "id": "viriontools",
+  "name": "VirionTools",
+  "author": "ifera-mc",
+  "description": "Discord License Poggit Release",
+  "readme_markdown": "<img src=\"https://github.com/ifera-mc/VirionTools/blob/master/meta/VirionTools.png\" height=\"250\" width=\"250\"/>\n\n# VirionTools\n\n| Discord | License | Poggit | Release |\n|:--:|:--:|:--:|:--:|\n|[![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/urQt6ETgYu)|[![GitHub license](https://img.shields.io/github/license/ifera-mc/VirionTools.svg)](https://github.com/ifera-mc/VirionTools/blob/master/LICENSE)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/ifera-mc/VirionTools/VirionTools)](https://poggit.pmmp.io/ci/ifera-mc/VirionTools/VirionTools)|[![](https://poggit.pmmp.io/shield.state/VirionTools)](https://poggit.pmmp.io/p/VirionTools)|\n\n### A handy plugin for developers who wish to compile and inject virions without using Poggit. \n\n### Features\n\n- Compile a virion to virion.phar.\n- Inject a virion into another plugin.\n- Works **cross-platform** i.e. it works on both Linux and Windows systems\n\n### Setup\n\n- Get the [.phar](https://poggit.pmmp.io/ci/ifera-mc/VirionTools/VirionTools) of this plugin from [poggit](https://poggit.pmmp.io/ci/ifera-mc/VirionTools/VirionTools)\n- Put into your plugins folder.\n- Restart the server.\n- Enjoy..\n\n### Compile a Virion\n\n- To **compile** a virion folder to virion.phar, you will need to put the virion in the `virions` folder.\n- The `virions` folder should be located in the folder where `PocketMine-MP.phar` exists.\n- Next run the command `/bv [string:virion]`. The `[string:virion]` is the name of the virion located in the `virions` folder which you want to compile.\n- The compiled (phared) virion will appear in `plugin_data\\VirionTools\\builds` folder.\n\n### Inject a Virion\n\n- To **inject** a virion to a plugin, you will need to put a compiled virion i.e. a `virion.phar` in `plugin_data\\VirionTools\\builds` folder.\n- You will also need to put a compiled plugin i.e a `plugin.phar` in `plugin_data\\VirionTools\\plugins` folder.\n- Next run the command `/iv [string:virion] [string:plugin]`. \n- The `[string:virion]` should be the name of the virion located in `plugin_data\\VirionTools\\builds` folder. \n- The `[string:plugin]` should be the name of the plugin located in `plugin_data\\VirionTools\\plugins` folder.\n- Note: Adding the `.phar` extension doesn't matter. The plugin will add it itself.\n- After successful virion injection, the injected plugin would be present in `plugin_data\\VirionTools\\plugins` folder.\n\n### Inject all Virions\n\n- To **inject all virions** into the plugin you need to use `injectall [string:plugin]` command.\n- Make sure the virions required by the plugin are already compiled.\n- Most importantly make a `virions` key in `plugin.yml` of the plugin.\n- List all the virions required by your plugin under it.\n- Next run the command `/injectall [string:plugin]` Alias for `injectall` are `ia`.\n- The `[string:plugin]` should be the name of the plugin located in `plugin_data\\VirionTools\\plugins` folder.\n- After successful virions injection, the injected plugin would be present in `plugin_data\\VirionTools\\plugins` folder.\n\n### Commands and Permissions\n\n|Description|Command|Aliases|Permission|Default|\n|:--:|:--:|:--:|:--:|:--:|\n|Compile a virion|`/compilevirion [string:virion]`|`cv`, `bv`, `buildvirion`|`vt.cmd.cv`|`op`|\n|Inject a virion|`/injectvirion [string:virion] [string:plugin]`|`iv`|`vt.cmd.iv`|`op`|\n|Inject all virions|`/injectall [string:plugin]`|`ia`|`vt.cmd.ia`|`op`|\n\n### Disclaimer\n\nThis plugin is designed to be used only by PocketMine-MP developers who wish to compile a virion without using Poggit. Normal users should'nt be using it.\n\n### Credits:\n\n- [DevTools](https://poggit.pmmp.io/p/DevTools/1.13.0) by PMMP Team for providing the `ConsoleScript.php`\n- [Poggit](https://poggit.pmmp.io) by Poggit Team for providing `virion.php` and `virion_stub.php`.",
+  "readme_source_url": "https://github.com/ifera-mc/VirionTools",
+  "icon_url": "https://raw.githubusercontent.com/ifera-mc/VirionTools/d3bcaa5bbe5344996fb06b6192ca37be980dd7eb/meta/VirionTools.png",
+  "featured": false,
+  "repo": "https://github.com/ifera-mc/VirionTools",
+  "archive_repo": null,
+  "approved_release_tag": "r-9173",
+  "stars": 5,
+  "total_downloads": 712,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ifera-mc"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/164992",
+  "versions": {
+    "stable": {
+      "version": "4.0.1",
+      "tag": "r-9173",
+      "published_at": null,
+      "downloads": 656,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9173/viriontools-4.0.1-r9173.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9173",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9173/viriontools-4.0.1-r9173.phar"
+    },
+    {
+      "tag": "r-9123",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9123/viriontools-4.0.0-r9123.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VirionTools",
+    "stable_release_id": 9173
+  }
+}

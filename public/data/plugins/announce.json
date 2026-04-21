@@ -1,0 +1,61 @@
+{
+  "id": "announce",
+  "name": "Announce",
+  "author": "NewtheBuilder",
+  "description": "💻 ・Command",
+  "readme_markdown": "<h1>\n<a id=\"user-content-command\" class=\"anchor\" href=\"#command\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a><g-emoji class=\"g-emoji\" alias=\"computer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png\">💻</g-emoji>・Command</h1>\n<table>\n<thead>\n<tr>\n<th>・Command</th>\n<th>・Aliases</th>\n<th>・Permission</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>/announce &lt;message&gt;</code></td>\n<td></td>\n<td><code>/say</code></td>\n</tr>\n</tbody>\n</table>\n<h1>\n<a id=\"user-content-config\" class=\"anchor\" href=\"#config\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a><g-emoji class=\"g-emoji\" alias=\"scroll\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4dc.png\">📜</g-emoji>・Config</h1>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-ent\">Prefix</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>[§4ANNOUNCE§f]<span class=\"pl-pds\">\"</span></span><span class=\"pl-s\">,</span>\n<span class=\"pl-ent\">Color </span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>§e<span class=\"pl-pds\">\"</span></span></pre></div>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/163759",
+  "icon_url": "https://raw.githubusercontent.com/NewtheBuilder/Announce/299b7fd31a99fb1795c83453b94e453c949b8499/incon.png",
+  "featured": false,
+  "repo": "https://github.com/NewtheBuilder/Announce",
+  "archive_repo": null,
+  "approved_release_tag": "r-9086",
+  "stars": 4,
+  "total_downloads": 2016,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "NewtheBuilder"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-9086",
+      "published_at": null,
+      "downloads": 2016,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9086/announce-1.0.0-r9086.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9086",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9086/announce-1.0.0-r9086.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Announce",
+    "stable_release_id": 9086
+  }
+}

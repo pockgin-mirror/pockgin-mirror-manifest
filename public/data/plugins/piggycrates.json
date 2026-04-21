@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10873",
   "stars": 3,
-  "total_downloads": 6406,
+  "total_downloads": 7224,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -51,6 +51,21 @@
       "tag": "r-9282",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9282/piggycrates-3.0.3-r9282.phar"
+    },
+    {
+      "tag": "r-9063",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9063/piggycrates-3.0.2-r9063.phar"
+    },
+    {
+      "tag": "r-9051",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9051/piggycrates-3.0.1-r9051.phar"
+    },
+    {
+      "tag": "r-9032",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9032/piggycrates-3.0.0-r9032.phar"
     }
   ],
   "comments": {

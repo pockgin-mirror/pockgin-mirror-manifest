@@ -1,0 +1,61 @@
+{
+  "id": "bloodinmc",
+  "name": "BloodInMC",
+  "author": "Pedhot-Dev",
+  "description": "BloodInMinecraft",
+  "readme_markdown": "# BloodInMinecraft\nBloodInMinecraft allow to spawn blood when entity getting damage",
+  "readme_source_url": "https://github.com/Pedhot-Dev/BloodInMC",
+  "icon_url": "https://raw.githubusercontent.com/Pedhot-Dev/BloodInMC/9375e5e0efd589f1b84b8ce576d401915ed9a455/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Pedhot-Dev/BloodInMC",
+  "archive_repo": null,
+  "approved_release_tag": "r-9068",
+  "stars": 5,
+  "total_downloads": 1147,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Pedhot-Dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-9068",
+      "published_at": null,
+      "downloads": 1147,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9068/bloodinmc-1.0.0-r9068.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9068",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9068/bloodinmc-1.0.0-r9068.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BloodInMC",
+    "stable_release_id": 9068
+  }
+}

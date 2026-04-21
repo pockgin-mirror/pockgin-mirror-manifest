@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9904",
   "stars": 4,
-  "total_downloads": 924,
+  "total_downloads": 1230,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-9536",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9536/groupsapi-1.0.1-r9536.phar"
+    },
+    {
+      "tag": "r-8978",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8978/groupsapi-1.0.0-r8978.phar"
     }
   ],
   "comments": {

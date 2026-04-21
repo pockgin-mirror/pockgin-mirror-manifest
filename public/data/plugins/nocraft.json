@@ -1,0 +1,61 @@
+{
+  "id": "nocraft",
+  "name": "NoCraft",
+  "author": "David-pm-pl",
+  "description": "NOTICE:** This plugin branch is for PocketMine-MP 4.",
+  "readme_markdown": "# NoCraft\n\n<a href=\"https://poggit.pmmp.io/p/NoCraft\"><img src=\"https://poggit.pmmp.io/shield.dl.total/NoCraft\"></a>\n[![Discord](https://img.shields.io/discord/869130615851745281.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/YYquESwF)\n\n**NOTICE:** This plugin branch is for PocketMine-MP 4.\n\nAgainst crafting items!.\nWith easy-to-understand configuration.\n\n# Features\n\n- Against crafting items!\n- Easy setup.\n\n# How to Install\n\n1. Download the latest version\n2. Place the `NoCraft.phar` file into the `plugins` folder.\n3. Restart the server.\n4. Done!\n\n# Additional Notes\n\n- If you found bugs or want to give suggestions, please visit <a href=\"https://github.com/David-pm-pl/NoCraft/issues\">here</a> or join our Discord server.\n- We accept all contributions! If you want to contribute, please make a pull request in <a href=\"https://github.com/David-pm-pl/NoCraft/pulls\">here</a>.",
+  "readme_source_url": "https://github.com/David-pm-pl/NoCraft",
+  "icon_url": "https://raw.githubusercontent.com/Eric-pm-pl/NoCraft/939f528d6775d5fb947d83183a1e4e10e516a394/icon.png",
+  "featured": false,
+  "repo": "https://github.com/David-pm-pl/NoCraft",
+  "archive_repo": null,
+  "approved_release_tag": "r-9066",
+  "stars": 5,
+  "total_downloads": 391,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "David-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-9066",
+      "published_at": null,
+      "downloads": 391,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9066/nocraft-0.0.1-r9066.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-9066",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9066/nocraft-0.0.1-r9066.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NoCraft",
+    "stable_release_id": 9066
+  }
+}
