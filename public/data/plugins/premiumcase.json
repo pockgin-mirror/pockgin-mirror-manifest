@@ -1,0 +1,61 @@
+{
+  "id": "premiumcase",
+  "name": "PremiumCase",
+  "author": "J0k3rrWild",
+  "description": "PremiumCase - for PMMP API 4.0.3",
+  "readme_markdown": "# PremiumCase - for PMMP API 4.0.3\n\nYou need this plugin for API 3.26.2 instead? [CLICK HERE](https://github.com/J0k3rrWild/PremiumCase)\n\n[![](https://poggit.pmmp.io/shield.state/PremiumCase)](https://poggit.pmmp.io/p/PremiumCase) [![](https://poggit.pmmp.io/shield.dl.total/PremiumCase)](https://poggit.pmmp.io/p/PremiumCase)\n\n## General info\n\nPremiumCase plugin with effects!\n\n## Overview\n\nWhen a player places an enderchest (previously received by the command / pd), they will receive the reward you previously set depending on their luck! The exact configuration of the plugin is contained in the config. The plugin is safe and a regular enderchest will not work as a premiumcase, but only received with a command\n\nVideo look:\n\n[![Watch the video](https://i.ibb.co/Vt4XHyk/Przechsadsadsadasdasdaswytywanie.png)](https://www.youtube.com/watch?v=Y1eraw-nFQE)\n\n## Drop configuration\n\n![Drop](https://github.com/J0k3rrWild/PremiumCase/blob/api4/assets/2.PNG) \n\n## Commands\n\n`` /pc give <player> <amount> `` <br>\nPermission: premiumcase.give<br>\n`` /pc giveall <amount> `` <br>\nPermission: premiumcase.give<br>\n`` /pc reload `` <br>\nPermission: premiumcase.reload<br><br>\n\nGlobal admin permission(allow use all commands): ```premiumcase```\n\n## Social media\n\n[![](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/8b3rKZPYM8)",
+  "readme_source_url": "https://github.com/J0k3rrWild/PremiumCase",
+  "icon_url": "https://raw.githubusercontent.com/J0k3rrWild/PremiumCase/fd3f3f246d6913ae3e6b69068685414bf0d7e21e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/J0k3rrWild/PremiumCase",
+  "archive_repo": null,
+  "approved_release_tag": "r-8477",
+  "stars": 0,
+  "total_downloads": 2059,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "J0k3rrWild"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.4.2",
+      "tag": "r-8477",
+      "published_at": null,
+      "downloads": 2059,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8477/premiumcase-1.4.2-r8477.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8477",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8477/premiumcase-1.4.2-r8477.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PremiumCase",
+    "stable_release_id": 8477
+  }
+}

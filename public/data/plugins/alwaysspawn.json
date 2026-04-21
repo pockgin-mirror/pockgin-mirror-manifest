@@ -1,0 +1,61 @@
+{
+  "id": "alwaysspawn",
+  "name": "AlwaysSpawn",
+  "author": "poggit-orphanage",
+  "description": "General",
+  "readme_markdown": "# General\n\n[![Poggit Release](https://poggit.pmmp.io/shield.approved/AlwaysSpawn)](https://poggit.pmmp.io/p/AlwaysSpawn)\n\n**AlwaysSpawn** allows you to force your players to always join the server at the spawn point.\n\nThis works great for servers that have a hub as your players will always join the game at the **default worlds spawn point**.\n\nThis also helps greatly for servers who have issues with players escaping the spawn area.\n\n# FAQ\n\n**Does this work with plugins like SimpleAuth or AuthPro?**\n\nYes. AlwaysSpawn will look for the coordinates for the servers SpawnPoint and teleport the player to it when they have joined the game. Any form of authentication will not effect the plugin in any way! :)\n\n**What Will Be In The Next Version?**\n\nAt the moment I do not have any plans for any major updates in the future. This means that I will likely only update this plugin in order to fix bugs or update the API. However, if someone does give me a good idea to add to the plugin, I will gladly add said feature.\n\n# License\n\nAll files included in this repository are **open source**.\nHowever no one is to use the codes included for the use\nof making a plugin of any kind unless permission is given\nby the owner.",
+  "readme_source_url": "https://github.com/poggit-orphanage/AlwaysSpawn",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/AlwaysSpawn/0fb3b93de3013450fbf6d61aaefce15fed75656e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/AlwaysSpawn",
+  "archive_repo": null,
+  "approved_release_tag": "r-8472",
+  "stars": 0,
+  "total_downloads": 9696,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/155278",
+  "versions": {
+    "stable": {
+      "version": "2.2.5",
+      "tag": "r-8472",
+      "published_at": null,
+      "downloads": 9696,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8472/alwaysspawn-2.2.5-r8472.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8472",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8472/alwaysspawn-2.2.5-r8472.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AlwaysSpawn",
+    "stable_release_id": 8472
+  }
+}

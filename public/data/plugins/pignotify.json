@@ -1,0 +1,61 @@
+{
+  "id": "pignotify",
+  "name": "PigNotify",
+  "author": "CupidonSauce173",
+  "description": "Join my discord:",
+  "readme_markdown": "<p align=\"center\">\n<img width=\"150\" height=\"150\" src=\"https://github.com/CupidonSauce173/PigraidNotifications/blob/main/PigNotifIcon.png\" />\n</p>\n<h1 align=\"center\"> PigNotify </h1>\n<p align=\"center\">Join my discord: https://discord.gg/2QAPHbqrny </p>\n<p align=\"center\">This is a notification system designed for the now deleted Pigraid Network. </p>\n\n#### Important Note\n\n- For the users using the version 3.2.0, know that we switched from player username to player uuid. This means that you\n  might have to reset your database. Using uuid is much more secure than player username. Thank you for your\n  understanding.\n\n| **Feature**                 | **State** | \n| --------------------------- |:----------:|\n| MultiThreaded System        | ✔️ |\n| Notification Object         | ✔️ |\n| Simple API                  | ✔️ |\n| Translation System          | ✔️ |\n| Command Customization       | ✔️ |\n| Automated MySQL Constructor | ✔️ |\n\n### Prerequisites\n\n- Working MySQL Server.\n- PocketMine-MP 4.+\n\n### Introduction\n\nThis is a notification system working with MySQL and is multi-threaded. The plugin will fetch notifications from the\nMySQL server, look if they have been displayed and display the notifications to the users. The plugin contains a simple\nAPI if you want to create third-party addons. This is a part of the Pigraid Network System.\n\n### Notification Object\n\nThe notifications have few properties that you can play with. Here's the list:\n\n| **Property** | **DataType** | **Description** |\n| ------------ | :---------- | :------------- |\n| $id          | Int          | Id of the notification. |\n| $displayed   | Boolean      | If the notification has been displayed as message to the player. |\n| $langKey     | String       | The message index from langKeys.ini |\n| $varKeys     | Array        | Array of variables to change in the langKey. |\n| $event       | String       | The event of the notification, like FRIEND_REQUEST |\n| $player      | Player       | Target player (PMMP). |\n\nYou can get and set the properties of the notification whenever you want.\n\n```php\n# Note:\n# NEVER use any ->set{property} AFTER creating a notification. This could lead to weird behavior. Only ->setDisplayed(true);.\n\n# Get / Set id.\n$notification->setId($id);\n$notification->getId(); # Returns Int.\n\n# Get / Set Player.\n$notification->setPlayer($player);\n$notification->getPlayer(); # Returns string/Uuid\n\n# Get / Set Displayed.\n$notification->setDisplayed(true|false);\n$notification->hasBeenDisplayed(); # Returns Boolean.\n\n# Get / Set langKey.\n$notification->setLangKey($messageIndex);\n$notification->getLangKey(); # Returns String.\n\n# Get / Set varKeys.\n$notification->setVarKeys(['target|CupidonSauce173','faction|Foo']);\n$notification->getVarKeys(); # Returns Array.\n\n# Get / Set Event.\n$notification->setEvent($event);\n$notification->getEvent($event); # Returns String.\n```\n\n### Config File\n\nThe configuration file allows you to modify pretty much any aspect of the plugin. You can set the command you want, and\nit's aliases, the permission and if the players needs the permission to use the command. You can also set the delays\nbetween checks from the database & if a notification has been displayed. Here's the list of settings you're allowed to\nchange from the config file.\n\n```yml\n\n# MySQL's information.\nMySQL:\n  database: notifications\n  host: mysql_host\n  username: mysql_username\n  password: user_password\n  port: 3306\n\n# At how every x times the plugin will check for new notifications for the players (in seconds).\ncheck-database-task: 2\n# At how every x times the plugin will check if the notification has been displayed (if not, displays it to the player) (in seconds).\ncheck-displayed-task: 2\n# Prefix for the messages.\nprefix: \"Notify > \"\n\n# Set to false if you don't want to look if the user has the permission to use this command.\nuse-permission: false\n# Permission to use this command.\npermission: pig.notification.command\n# Message if the player doesn't have the permission.\nno-permission-message: You do not have the necessary permissions!\n# Main command, /notification for example.\ncommand-main: notification\n# Aliases to use this command, /notif or /n for example.\ncommand-aliases:\n  - notif\n  - n\n```\n\n### API\n\nThe plugin offers a small and simple API that you can use along the notifications methods. Here are all the methods from\nthe API.\n\nFirst, you need to register the API.\n\n```php\n\npublic PigNotify $api;\n\npublic function onEnable(){\n   $this->api = $this->getServer()->getPluginManager()->getPlugin('PigraidNotifications');\n}\n```\n\nThen, you can use the API like you wish.\n\n```php\n\n# List of methods in the API.\n\n# Will create a new notification.\n$api->createNotification($uuid, $langKey, $event, $varKeys);\n$api->createNotification($uuid, $langKey, $event);\n# Will return a list of notification objects.\n$api->getPlayerNotifications($xuid);\n# Will delete one notification, must pass a notification object.\n$api->deleteNotification($notification);\n# Will delete a list of notifications, must pass an array of notification objects.\n$api->deleteNotifications($notifications);\n# Will return a string of readable text from a messageIndex with / without langKeys.\n$api->getText($messageIndex, $langKeys);\n$api->getText($messageIndex); #If the messageIndex doesn't require any changes (ex: %sender%)\n# Will translate a notification using the getText method to a readable message. \n$api->translateNotification($notification);\n$api->translateNotification($notification, false); #If you don't want the prefix.\n\n# Examples of how to use the API.\n\npublic function onDeath(PlayerDeathEvent $event){\n   $player = $event->getPlayer();\n   $notifCount = count($this->api->getPlayerNotifications($player));\n   $player->sendMessage(\"Don't forget, you have $notifCount notifications!\");\n}\n\npublic function onFriendRequestCreate(CustomEvent $event){\n   $sender = $event->getPlayer()->getName(); #Sender\n   $receiver = $event->getReceiver()->getName(); #Target\n   $receiverUuid = $event->getReceiver()->getUniqueId()->toString(); #Target Uuid\n   \n   $this->api->createNotification(\n     $receiverUuid, #Target Uuid\n     'friend.request.send', #Index from the langKeys.ini\n     'friendRequestCreation',  #Notification event.\n     [\"target|$receiver\", \"sender|$player\"]); #Variables from the index (friend.request.send).\n}\n```\n\n### How it works?\n\nFirst, when the server first boosts, it will check if it can establish a MySQL connection, if it can't, it will close\nthe server. Otherwise, it will create (if the structure doesn't exist) the database and the table / columns. Then, a\nrepeatingTask will be started to check at every x amount of seconds all the notifications related to the OnlinePlayers.\nIt will exclude all already existing notifications in the server. Another repeatingTask is also ran to loop through all\nthe notifications in the server and see if they have been displayed. If not, it will get the notification to a readable\nmessage (Translation System) and send a message to the target player and finally set the notification as \"displayed\".\nWhen the player disconnects from the server, all the notifications that are related to that player will be destroyed\nwith the deleteNotification($notification) method.\n\n### How to create a notification\n\nTo create a new notification, you will need to call the $api->createNotification(); method. It won't directly show to\nthe player that they received a notification, it will just create a new one in the database and will be waiting to get\ncreated in the server.\n\nBasically:\n\n```\nserver -> API (createNotification) -> Database <- Checknotifications Task -> server -> notificationCheckTask -> API (translateNotification) -> player.\n```\n\n#### langKeys\n\nIn order to create notifications, you need to add keys to the langKeys.ini file. There is already an example in the file\nbut here's another one.\n\nYou want to create notifications for your plugins, this is how you would do it :\n\n```ini\n\n; start plugin section (place your indexes here)\n\n; shop plugin\nshop.item.bought = %buyer% bought your item!\nshop.sale.ended = Your sale for the item : %item% has ended!\nshop.banned = You have been banned from the market during %time% for %reason%!\nshop.unbanned = You have been unbanned from the market!\nshop.new.bid = %player% placed a bid on your item!\nshop.auction.ended = Your auction for the \"%item%\" item ended!\n\n; party plugin\nparty.invitation.received = You received an invitation to join %owner%'s party!\nparty.disband = Your party has been removed!\n\n; friends plugin\nfriend.request.received = You received a friend request from %sender%.\nfriend.request.declined = %receiver% declined your friend request.\nfriend.request.accepted = %receiver% accepted your friend request!\nfriend.gift.received = You received a gift! %gift% from %friend%!\nfriend.purchase.made = You bought a %object%, you can send it to a friend!\n\n; end plugin section\n\n; plugin text (do not delete any index) \n\n; utils text\nform.close.button = §lClose\nmessage.no.notif = You have no notification!\nmessage.no.perm = You do not have the necessary permissions!\nmessage.command.description = Command to see all your notifications.\nform.warn.notif = §rThis notification will be removed when you leave this page.\n; title text\nform.title = Notifications\n; main form text\nform.content.main = Notification system. You can see or delete all your notifications here.\nform.notification.button = §lNotifications\nform.notifications.button = §lNotifications [%count%]\nform.clearAll.button = §lClear all\n; notification list ui\nform.content.list = Your notification list. Click on one for more information.\n```\n\n### Notes\n\n- You don't need to handle the PlayerQuitEvent to destruct the notifications.\n- You don't need to handle the join event to look if there are notifications for the player.\n- it is **NOT** recommended setting a check value smaller than 2 seconds. This could lead to performances issues.\n- Running your MySQL server in the same machine as your server is the best idea.\n- **NEVER** set values in the notifications after they have been created, this could lead to weird behavior.",
+  "readme_source_url": "https://github.com/CupidonSauce173/PigNotify",
+  "icon_url": "https://raw.githubusercontent.com/CupidonSauce173/PigNotify/7ffb18226c9f80241f9ca182b337b3d7d50f4b53/PigNotifIcon.png",
+  "featured": false,
+  "repo": "https://github.com/CupidonSauce173/PigNotify",
+  "archive_repo": null,
+  "approved_release_tag": "r-8521",
+  "stars": 5,
+  "total_downloads": 470,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "CupidonSauce173"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/155877",
+  "versions": {
+    "stable": {
+      "version": "3.3.0",
+      "tag": "r-8521",
+      "published_at": null,
+      "downloads": 470,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8521/pignotify-3.3.0-r8521.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8521",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8521/pignotify-3.3.0-r8521.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PigNotify",
+    "stable_release_id": 8521
+  }
+}

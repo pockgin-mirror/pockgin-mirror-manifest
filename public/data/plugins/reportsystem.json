@@ -1,0 +1,61 @@
+{
+  "id": "reportsystem",
+  "name": "ReportSystem",
+  "author": "NuthMC",
+  "description": "What is ReportSystem?",
+  "readme_markdown": "# ReportSystem\n  \n  [![](https://poggit.pmmp.io/shield.state/ReportSystem)](https://poggit.pmmp.io/p/ReportSystem)\n  \n  What is ReportSystem?\n  ReportSystem it can do when you report someone it will send message to your discord.\n\n  <img src=\"https://github.com/NuthMC/ReportSystem/blob/main/asset/1630814076070.png\" width=\"200\" height=\"300\" >\n\n  <img src=\"https://github.com/NuthMC/ReportSystem/blob/main/asset/dc.png\" width=\"200\" height=\"300\" >\n\n# How to get webhook link?\n - Step 1. Go to discord server you want create.\n - step 2. Click on channel you want create.  note: text channel only.\n - step 3. Click setting.\n - setp 4. Click Integrations.\n - setp 5. Copy webhook link and save done.\n - Video: (NOTE: This is not my video)\n - Link Video How to create webhook: https://youtu.be/fKksxz2Gdnc\n# How to use?\n\nCopy your Discord Webhook link then paste it in config at api.\n``` yaml\n\n#enter webhook link\napi: your webhook\n\n#example api: https://discord.com/api/webhooks/884644588441178192/9LJ1Y6GfEMSOlxYY3uvDg1axFYMIN6zF06uprz5iT18sErjnN_6-qS6ChSa5rtERR5KP\n```\n\n\n\n# Permission\n  This plugin dont have permission because it allowed everyone report player",
+  "readme_source_url": "https://github.com/NuthMC/ReportSystem",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/NuthMC/ReportSystem",
+  "archive_repo": null,
+  "approved_release_tag": "r-8404",
+  "stars": 4,
+  "total_downloads": 1811,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "NuthMC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/154197",
+  "versions": {
+    "stable": {
+      "version": "2.1.0",
+      "tag": "r-8404",
+      "published_at": null,
+      "downloads": 1811,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8404/reportsystem-2.1.0-r8404.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8404",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8404/reportsystem-2.1.0-r8404.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ReportSystem",
+    "stable_release_id": 8404
+  }
+}

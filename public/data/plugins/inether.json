@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11069",
   "stars": 4,
-  "total_downloads": 4638,
+  "total_downloads": 4900,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-8816",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8816/inether-1.0.1-r8816.phar"
+    },
+    {
+      "tag": "r-8565",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8565/inether-1.0-r8565.phar"
     }
   ],
   "comments": {

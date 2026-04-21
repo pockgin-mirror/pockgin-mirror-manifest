@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11904",
   "stars": 0,
-  "total_downloads": 1844,
+  "total_downloads": 2041,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-8657",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8657/besttools-1.1.0-r8657.phar"
+    },
+    {
+      "tag": "r-8360",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8360/besttools-1.0.0-r8360.phar"
     }
   ],
   "comments": {

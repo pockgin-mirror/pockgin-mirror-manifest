@@ -1,0 +1,61 @@
+{
+  "id": "jailmate",
+  "name": "JailMate",
+  "author": "J0k3rrWild",
+  "description": "JailMate - for PMMP API 4.0.3",
+  "readme_markdown": "# JailMate - for PMMP API 4.0.3\n\nYou need this plugin for API 3.26.2 instead? [CLICK HERE](https://github.com/J0k3rrWild/JailMate/tree/master)\n\n[![](https://poggit.pmmp.io/shield.state/JailMate)](https://poggit.pmmp.io/p/JailMate)\n[![](https://poggit.pmmp.io/shield.dl.total/JailMate)](https://poggit.pmmp.io/p/JailMate)\n\n## General info\n\nSmart plugin that will allow you to safely check suspicious players\n\n## Table of contents\n* [Commands](#Commands)\n* [Permissions](#Permissions)\n* [Detailed information](#Detailed-information)\n* [Social Media](##Social-media)\n\n\n## Commands\n\n```/jail <nick>``` - Arrests a suspicious player <br><br>\n```/setjail confirm``` - Set jail position <br><br>\n```/unjail <player>``` - Unjail player\n\n## Permissions\n\n```jail``` - Gives authority to all arrest commands & bypass<br><br>\n```jail.setjail``` - Gives the powers of the place to establish an arrest<br><br>\n```jail.jail``` - Gives you the power to release from arrest and arrest others<br><br>\n```jail.bypass``` - Gives power to bypass aresst (anyone with this permission cannot be arrested)\n\n## Detailed information\n\n### Blocked events while arrested:\n\n```PlayerMoveEvent``` - Players can't move while arrested<br><br>\n```PlayerCommandPreprocessEvent``` - Players can't use all commands while arrested<br><br>\n```PlayerDropItemEvent``` - Players can't drop items while arrested<br><br>\n```BlockPlaceEvent``` - Players can't place blocks while arrested<br><br>\n```BlockBreakEvent``` - Players can't destroy blocks while arrested<br><br>\n\n### Additional security:\n\n* When a player quits the game while being checked, they will be automatically banned (ban name)<br>\n* If the server is shut down (for example by a crash or restart) during the interrogation, the player will be arrested again when he next time enter the game<br><br><br>\n\n\n\n\n## Social media\n\n[![](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/8b3rKZPYM8)",
+  "readme_source_url": "https://github.com/J0k3rrWild/JailMate",
+  "icon_url": "https://raw.githubusercontent.com/J0k3rrWild/JailMate/8ce77262e51250b6b50b7d59763fbeb336faf769/icon.png",
+  "featured": false,
+  "repo": "https://github.com/J0k3rrWild/JailMate",
+  "archive_repo": null,
+  "approved_release_tag": "r-8433",
+  "stars": 4,
+  "total_downloads": 2494,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "J0k3rrWild"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.7",
+      "tag": "r-8433",
+      "published_at": null,
+      "downloads": 2494,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8433/jailmate-1.1.7-r8433.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8433",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8433/jailmate-1.1.7-r8433.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "JailMate",
+    "stable_release_id": 8433
+  }
+}

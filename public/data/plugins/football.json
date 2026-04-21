@@ -1,0 +1,61 @@
+{
+  "id": "football",
+  "name": "Football",
+  "author": "Matze997",
+  "description": "Add footballs to your server PocketMine-MP Plugin",
+  "readme_markdown": "<img src=\"https://github.com/Matze997/Football/blob/master/football.png\"/>\n<a href=\"https://poggit.pmmp.io/p/Football\"><img src=\"https://poggit.pmmp.io/shield.state/Football\"></a>\n\n# Football\nAdd footballs to your server | PocketMine-MP Plugin\n\n# **What´s new?**\n- Improved footballs\n- Update to PocketMine 4.0\n\n# **Features:**\n - Custom ball texture\n - Real footballs!\n \n # **Todo´s:**\n - More precise ball physics \n - Send me your ideas!\n \n # **Command:**\n - /football <spawn | remove>\"\n   - spawn: Spawn a new football\n   - remove: Remove all footballs\n \n # **Permission:**\n - football.use (Generic)\n - football.spawn\n - football.remove\n \n # **Note**\n - You have to disable \"Only Allow Trusted Skins\" in the profile tab\n <img src=\"https://github.com/Matze997/Football/blob/master/OnlyAllowTrustedSkins.png\"/>\n\n# **Credits**\n - Thanks XenialDan<link src=\"https://github.com/thebigsmileXD\"> for the wonderful ball texture!",
+  "readme_source_url": "https://github.com/Matze997/Football",
+  "icon_url": "https://raw.githubusercontent.com/Matze997/Football/a622a2dd9507b9db399ae0f1286b9be5d16902f2/football.png",
+  "featured": false,
+  "repo": "https://github.com/Matze997/Football",
+  "archive_repo": null,
+  "approved_release_tag": "r-8493",
+  "stars": 5,
+  "total_downloads": 1775,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Matze997"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/155571",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-8493",
+      "published_at": null,
+      "downloads": 1775,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8493/football-2.0.0-r8493.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8493",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8493/football-2.0.0-r8493.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Football",
+    "stable_release_id": 8493
+  }
+}

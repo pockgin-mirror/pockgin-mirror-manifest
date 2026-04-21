@@ -1,0 +1,61 @@
+{
+  "id": "hotbar",
+  "name": "Hotbar",
+  "author": "artulloss",
+  "description": "A versatile and full featured hotbar plugin! Add items and make them execute commands, on any world!",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/Hotbar)](https://poggit.pmmp.io/p/Hotbar)\n[![](https://poggit.pmmp.io/shield.dl.total/Hotbar)](https://poggit.pmmp.io/p/Hotbar)\n# Hotbar\nA versatile and full featured hotbar plugin! Add items and make them execute commands, on any world!\n## Configuration\n\nThe [default configuration](https://github.com/artulloss/Hotbar/blob/master/resources/config.yml) provides lots of help setting up the plugin!\n\n#### Hotbars\n\nHotbars are inventory containers for the slots 1-9, you can define them in the config.yml file, and make them automatically appear in worlds using the Worlds part of the configuration.\n\n```yaml\nWorlds: # Here you can specify hotbars above and pair them with worlds\n  world: UniqueHotbarName\n ```\n\nIf you don't have them automatically appear, you can still call them by calling the command `hotbar {identifier} {player}`\n\n*Note that this command can only be called by the console*\n\n#### Command format\n\nFor every item you need to add commands in order to do things.\nThis plugin accepts multiple commands per tap, and they will be executed in the order that they're listed in.\n\nCommands are listed in the format of commandToExecute@executor where executor must be either player, op or console.\n\nYou can also leave out the @executor part for most commands by specifying a default way for them to be run using the Default Command Options part of the config.\n```yaml\nDefault CommandOptions: player # or op or console\n```\n\n#### Replaceable in commands\nYou can use these in your commands to make references to the player!\nThese are capitalization sensitive, so make sure to type them as shown here!\n```\n{player}  IGN of the player\n{tag}     Name tag of the player\n{level}   The players level\n\n{x}       The players X\n{y}       The players Y\n{z}       The players Z\n```\n\n#### Locking Inventories\n\nYou may wish to block a player from modifying their inventory when they have a hotbar, the \"Locked Inventory\" part of the config allows for this:\n\n```yaml\nLocked-Inventory:\n- example\n- world\n```\n\nLocked inventories are unable to have items moved in them, and players with locked inventories can't pickup items or arrows.\n\n*Note that items will be locked until the Hotbar is removed from the player.*\n\n#### The Hotbar Command\n\nPreviously, the hotbar command could only be used by the console, however now there is \"hotbar\" permission that allows a user to access the command.\n\nThere are a few uses of the hotbar command.\n\nTo remove a hotbar simply type the command\n```\nhotbar {clear} {player}\n```\n\nwhere player is the players name. The brackets around clear are to make sure you don't name a world that by mistake, in which case it will clear rather than send the hotbar. This will also unlock the players inventory and allow them to move items.\n\nTo send a hotbar to a player you can use the command like so\n\n```\nhotbar {hotbarName} {player}\n```\n\nWhere {hotbarName} represents the name of the hotbar and {player} is the players name (leave out the brackets here)\n\nYou are also able to list all hotbars using the list argument:\n\n```\nhotbar {list}\n```\n\n#### Cooldown\nThe cooldown is to \"fix\" the player interact spam bug, which is a client side issue on Windows 10, I recommend the default value, but you can set it as high/low as you'd like.\n\n#### API\n\nThis plugin comes with a full API and allows for the creation of Hotbars that use closures to execute code as well as hotbars that execute commands. To make use of this a plugin would simply need to create a new ClosureHotbar or CommandHotbar and then do \n```php\n// Make sure $player is an instance of the Player class\n$player->getServer()->getPluginManager()->getPlugin('Hotbar')->getHotbarUsers()->assign($player, $hotbar);\n```\n\n#### Plugin extensions\n\nMake a plugin that uses the API from this? Open an issue and I'll add it to the list\n\nSo far:\n\n- [FloatingHotbar](https://github.com/artulloss/FloatingHotbar) makes the item you're holding float in front of you\n\n#### Demo of this plugin\nTo see this plugin in action, you can join my server: versai.pro 19132\n\n#### Support?\nAdd Discord: adam#9876",
+  "readme_source_url": "https://github.com/artulloss/Hotbar",
+  "icon_url": "https://raw.githubusercontent.com/artulloss/Hotbar/8ac0a88f716128915ed86076f763a64fd005ea18/icon.png",
+  "featured": false,
+  "repo": "https://github.com/artulloss/Hotbar",
+  "archive_repo": null,
+  "approved_release_tag": "r-8553",
+  "stars": 0,
+  "total_downloads": 1102,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "artulloss"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/156382",
+  "versions": {
+    "stable": {
+      "version": "2.0.6",
+      "tag": "r-8553",
+      "published_at": null,
+      "downloads": 1102,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8553/hotbar-2.0.6-r8553.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8553",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8553/hotbar-2.0.6-r8553.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Hotbar",
+    "stable_release_id": 8553
+  }
+}

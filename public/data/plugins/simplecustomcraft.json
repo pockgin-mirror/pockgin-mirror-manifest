@@ -1,0 +1,61 @@
+{
+  "id": "simplecustomcraft",
+  "name": "SimpleCustomCraft",
+  "author": "Refaltor77",
+  "description": "Pocketmine plugin allowing to add as many craft as desired",
+  "readme_markdown": "# SimpleCustomCraft\nPocketmine plugin allowing to add as many craft as desired\n\n\n## Config\n\n```YAML\n---\n# Welcome to CustomCraft by refaltor\n# You can use items with a meta, example: `1:5`\n# Infinite Configuration\n# a problem ? https://discord.gg/vEEZFdbsnC\n\n\nitem_test:\n  shape:\n    - [\"0:0\", \"0:0\", \"0:0\"] # (first line of the craft table)\n    - [\"0:0\", \"4:0\", \"0:0\"]\n    - [\"0:0\", \"0:0\", \"0:0\"]\n  result: [\"320:0:1\"] # result: id:meta:number\n...\n```",
+  "readme_source_url": "https://github.com/Refaltor77/SimpleCustomCraft",
+  "icon_url": "https://raw.githubusercontent.com/Refaltor77/SimpleCustomCraft/c960447bb18bbd1551d10f322ae8babae3f1fc82/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Refaltor77/SimpleCustomCraft",
+  "archive_repo": null,
+  "approved_release_tag": "r-8547",
+  "stars": 0,
+  "total_downloads": 1192,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Refaltor77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/156286",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-8547",
+      "published_at": null,
+      "downloads": 1192,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8547/simplecustomcraft-2.0.0-r8547.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8547",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8547/simplecustomcraft-2.0.0-r8547.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleCustomCraft",
+    "stable_release_id": 8547
+  }
+}

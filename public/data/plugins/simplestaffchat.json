@@ -1,0 +1,61 @@
+{
+  "id": "simplestaffchat",
+  "name": "SimpleStaffChat",
+  "author": "MulqiGaming64",
+  "description": "General",
+  "readme_markdown": "# General\n\na Simple StaffChat for PM4\n\n# Commands\n\nCommands only 1 to enable and disable StaffChat\n\nCommands | Aliases | Default | Permission\n--- | --- | --- | ---\n`/simplestaffchat` | /sschat | Op | `simplestaffchat.use`\n\n# Feature\n- You can chat in StaffChat Channel\n- Can use Prefix without Commands\n- Only Players with Permission simplestaffchat.use to chat and read\n- if you want StaffChat to enter you must activate StaffChat in /sschat\n\n# Config\n\n``` YAML\n\n---\n# Prefix for chat without commands\nprefix-chat: \"@\"\n\n# Format for chat\n# {player} For name Player\n# {chat} For Chat Player\nformat: \"§a[§eStaffChat§a] §b{player} > §e{chat}\"\n...\n```\n\n# Additional Notes\n\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/XanderID/SimpleStaffChat/issues)\n- Icons By [www.flaticon.com](https://www.flaticon.com)",
+  "readme_source_url": "https://github.com/MulqiGaming64/SimpleStaffChat",
+  "icon_url": "https://raw.githubusercontent.com/MulqiGaming64/SimpleStaffChat/78599b06456d9a7dd949a213222b1bb56364ae42/icons.png",
+  "featured": false,
+  "repo": "https://github.com/MulqiGaming64/SimpleStaffChat",
+  "archive_repo": null,
+  "approved_release_tag": "r-8523",
+  "stars": 0,
+  "total_downloads": 1027,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MulqiGaming64"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-8523",
+      "published_at": null,
+      "downloads": 1027,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8523/simplestaffchat-1.0.0-r8523.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8523",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8523/simplestaffchat-1.0.0-r8523.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleStaffChat",
+    "stable_release_id": 8523
+  }
+}

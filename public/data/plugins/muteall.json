@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12003",
   "stars": 5,
-  "total_downloads": 1111,
+  "total_downloads": 1349,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-8909",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8909/muteall-1.1.0-r8909.phar"
+    },
+    {
+      "tag": "r-8465",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8465/muteall-1.0.0-r8465.phar"
     }
   ],
   "comments": {

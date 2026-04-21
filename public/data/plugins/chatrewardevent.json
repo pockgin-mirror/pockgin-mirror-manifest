@@ -1,0 +1,61 @@
+{
+  "id": "chatrewardevent",
+  "name": "ChatRewardEvent",
+  "author": "J0k3rrWild",
+  "description": "ChatRewardEvent - for PMMP API 4.0.3",
+  "readme_markdown": "# ChatRewardEvent - for PMMP API 4.0.3\n\nYou need this plugin for API 3.26.2 instead? [CLICK HERE](https://github.com/J0k3rrWild/ChatRewardEvent)\n\n[![](https://poggit.pmmp.io/shield.state/ChatRewardEvent)](https://poggit.pmmp.io/p/ChatRewardEvent) [![](https://poggit.pmmp.io/shield.dl.total/ChatRewardEvent)](https://poggit.pmmp.io/p/ChatRewardEvent)\n\n## General info\n\nThis plugin rewards you for rewriting the code from chat! This is a great idea for innovation or additional competition on the server\n\n## Overview\n\n![Look](./assets/1.PNG)\n\n## Drop configuration\n\n![Drop](./assets/2.PNG)\n\n## Settings configuration\n\n![Settings](./assets/3.PNG)\n\n## Social media\n[![](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/8b3rKZPYM8)",
+  "readme_source_url": "https://github.com/J0k3rrWild/ChatRewardEvent",
+  "icon_url": "https://raw.githubusercontent.com/J0k3rrWild/ChatRewardEvent/4a20e56bae0bfaadd17b41fc1ec21eb00a404285/icon.png",
+  "featured": false,
+  "repo": "https://github.com/J0k3rrWild/ChatRewardEvent",
+  "archive_repo": null,
+  "approved_release_tag": "r-8434",
+  "stars": 5,
+  "total_downloads": 1300,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "J0k3rrWild"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.4",
+      "tag": "r-8434",
+      "published_at": null,
+      "downloads": 1300,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8434/chatrewardevent-1.1.4-r8434.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8434",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8434/chatrewardevent-1.1.4-r8434.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatRewardEvent",
+    "stable_release_id": 8434
+  }
+}

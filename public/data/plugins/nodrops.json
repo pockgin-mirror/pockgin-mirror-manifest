@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-13552",
   "stars": 0,
-  "total_downloads": 465,
+  "total_downloads": 585,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-9231",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9231/nodrops-1.2.0-r9231.phar"
+    },
+    {
+      "tag": "r-8463",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8463/nodrops-1.0.0-r8463.phar"
     }
   ],
   "comments": {

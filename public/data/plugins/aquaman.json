@@ -1,0 +1,61 @@
+{
+  "id": "aquaman",
+  "name": "Aquaman",
+  "author": "MulqiGaming64",
+  "description": "General",
+  "readme_markdown": "# General\n\nnow you can breathe in water without limit\n\n# Commands\n\nCommands | Default\n--- | ---\n`/aquaman` | Op\n\n# Permission\n\nPermission | Default | Description\n--- | --- | ---\n`aquaman.transform` | Op | Transform Into Aquaman\n\n# Feature\n- You can breath in Water without Air supply Limit\n\n# Additional Notes\n\n- Icons by [icons8.com](https://icons8.com)\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/XanderID/Aquaman/issues)",
+  "readme_source_url": "https://github.com/MulqiGaming64/Aquaman",
+  "icon_url": "https://raw.githubusercontent.com/MulqiGaming64/Aquaman/5f1dafdf311e80eb02f4d09e5247879ec1c17d9a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MulqiGaming64/Aquaman",
+  "archive_repo": null,
+  "approved_release_tag": "r-8525",
+  "stars": 5,
+  "total_downloads": 851,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MulqiGaming64"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/155910",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-8525",
+      "published_at": null,
+      "downloads": 851,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8525/aquaman-1.0.1-r8525.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8525",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8525/aquaman-1.0.1-r8525.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Aquaman",
+    "stable_release_id": 8525
+  }
+}

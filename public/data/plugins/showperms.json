@@ -1,0 +1,61 @@
+{
+  "id": "showperms",
+  "name": "ShowPerms",
+  "author": "mmm545",
+  "description": "A plugin that allows you to see all the permission nodes on the server!",
+  "readme_markdown": "# ShowPerms\nA plugin that allows you to see all the permission nodes on the server!\n\n## Usage\nRun the command `showperms` and it will dump all the permission nodes.\n## Permission\n`showperms.command` It's given to op players by default.",
+  "readme_source_url": "https://github.com/mmm545/ShowPerms",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/mmm545/ShowPerms",
+  "archive_repo": null,
+  "approved_release_tag": "r-8533",
+  "stars": 5,
+  "total_downloads": 641,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "mmm545"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-8533",
+      "published_at": null,
+      "downloads": 641,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8533/showperms-2.0.0-r8533.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8533",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8533/showperms-2.0.0-r8533.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ShowPerms",
+    "stable_release_id": 8533
+  }
+}

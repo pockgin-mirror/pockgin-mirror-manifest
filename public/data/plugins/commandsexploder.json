@@ -1,0 +1,66 @@
+{
+  "id": "commandsexploder",
+  "name": "CommandsExploder",
+  "author": "MulqiGaming64",
+  "description": "General",
+  "readme_markdown": "# General\n\nnow you can use &amp;&amp; in commands like in linux\n\nThe plugin only works for players who have\npermission `commandsexploder.use`\n\n# Examples\n\nPlayer:\n/say Hi!! &amp;&amp; me Hi everyone\n\nConsole:\nsay Hi!! &amp;&amp; me Hi everyone\n\n# Additional Notes\n\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/XanderID/CommandsExploder/issues)",
+  "readme_source_url": "https://github.com/MulqiGaming64/CommandsExploder",
+  "icon_url": "https://raw.githubusercontent.com/MulqiGaming64/CommandsExploder/753dc2c0b01c60ed5433577d99a6b64579f8bc27/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MulqiGaming64/CommandsExploder",
+  "archive_repo": null,
+  "approved_release_tag": "r-8537",
+  "stars": 1,
+  "total_downloads": 767,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MulqiGaming64"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/156186",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-8537",
+      "published_at": null,
+      "downloads": 722,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8537/commandsexploder-1.0.2-r8537.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8537",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8537/commandsexploder-1.0.2-r8537.phar"
+    },
+    {
+      "tag": "r-8524",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8524/commandsexploder-1.0.1-r8524.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CommandsExploder",
+    "stable_release_id": 8537
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9216",
   "stars": 0,
-  "total_downloads": 338,
+  "total_downloads": 515,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-9216",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9216/snowball-1.2-r9216.phar"
+    },
+    {
+      "tag": "r-8573",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8573/snowball-1.1-r8573.phar"
     }
   ],
   "comments": {

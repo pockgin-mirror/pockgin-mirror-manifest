@@ -1,0 +1,63 @@
+{
+  "id": "plotrate",
+  "name": "PlotRate",
+  "author": "supercrafter333",
+  "description": "PlotRate - V1.1.2",
+  "readme_markdown": "[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/ca6cWPpERp)\n# PlotRate - V1.1.2   [![](https://poggit.pmmp.io/shield.state/PlotRate)](https://poggit.pmmp.io/p/theSpawn) [![](https://poggit.pmmp.io/shield.dl.total/PlotRate)](https://poggit.pmmp.io/p/PlotRate)\n\n**With this simple plugin you can rate the plots on your plotworld. When a player walk over a rated plot, a title with the reting will send to the player.**\n\nThis plugin only works with [MyPlot](https://poggit.pmmp.io/p/MyPlot) by [jasonwynn10](https://github.com/jasonwynn10)!\n\nThis plugin will be better from time to time. Please send feature requests if you will a new feature on PlotRate. I'll try to add all feature requests.\n\nPlease leave a star if you like PlotRate. Have fun!\n\n### Features\n- rate your plots on your plotworld very easy\n- random plot teleport ([#1](https://github.com/supercrafter333/PlotRate/issues/1))\n- simple configuratio\n\n### TODOs\n- [X] random plot teleport ([#1](https://github.com/supercrafter333/PlotRate/issues/1))\n\n### Report Bug\nYou've found a Bug?\n- Go to [Issues](https://github.com/supercrafter333/PlotRate/issues)\n- Click on [New Issue](https://github.com/supercrafter333/PlotRate/issues/new/choose)\n- Write your bug with all Informations that you have down\n- Send Issue\n- Wait, I where answer you\n\n### Commands\n|**Command**|**Description**|\n|-----------|---------------|\n|`/p rate <rating: 0/1/2/3/4/5>`|Add a rating for a plot|\n|`/p editrate`|Edit the rating of a plot|\n|`/p unrate`|Remove the rating of a plot|\n|`/plotrate <help/a/rand/random/info>`|The plotrate command|\n\n### License:\nThis Plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by supercrafter333!\n\n### Credits\n\nOwner: supercrafter333\n\nHelper: ---\n\nIcon: ShxGux (all rights reserved)\n\nDiscord-Tag: `supercrafter333#4062`\n\n~ Made for [MyPlot](https://poggit.pmmp.io/p/MyPlot)!",
+  "readme_source_url": "https://github.com/supercrafter333/PlotRate",
+  "icon_url": "https://raw.githubusercontent.com/supercrafter333/PlotRate/194713eb3a8b01ac1fbaf2a7aaee6debeb6ef222/icon.png",
+  "featured": false,
+  "repo": "https://github.com/supercrafter333/PlotRate",
+  "archive_repo": null,
+  "approved_release_tag": "r-8413",
+  "stars": 4,
+  "total_downloads": 525,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [
+      "MyPlot"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "supercrafter333"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/154666",
+  "versions": {
+    "stable": {
+      "version": "1.1.2-1",
+      "tag": "r-8413",
+      "published_at": null,
+      "downloads": 525,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8413/plotrate-1.1.2-1-r8413.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8413",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8413/plotrate-1.1.2-1-r8413.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlotRate",
+    "stable_release_id": 8413
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "palermotown",
+  "name": "PalermoTown",
+  "author": "MinekCZ",
+  "description": "Pocketmine Minigame",
+  "readme_markdown": "# PalermoTown\nPocketmine Minigame\n\nIn this minigame there are three main roles:\n1. Murder - You have to kill everybody\n2. Sherif - Your goal is to kill Murder\n3. Innocent - Help sherif, survive as long as possible\n\n\n# Features\n- Easy to setup Arenas\n- Easily editable language file\n- Map saving\n- Lobby and Game map\n\n# How to setup\n\n1. Create Arena: /pt admin create <ArenaName>\n\n2. Go to Setup mode: /pt admin setup\n(datas are saved in memory)\n\nIn setup mode it is possible to see all editable values using the command:\n/pt info\n\n3. Set basic info:\n- /pt set name <arena_display_name>\n- /pt set slots <max_players>\n- /pt set world_lobby <lobby_world_name>\n- /pt set world_game <game_world_name>\n- /pt set save_lobby <true or false> | game map is saved automaticly, but you can also enable lobby save\n\n4. Set position data:\n- You can use tags to set position value.\n- Availble tags are: player_pos ,  look_pos , look_block\n\n- To setup spawns:\n  - /pt set spawns 0 player_pos\n  - /pt set spawns 1 player_pos\n  - /pt set spawns 2 look_pos\n  - etc...\n- To setup chests you have to aim at the chests and use \"look_block\" tag\n  - /pt set chests 0 look_block\n  - /pt set chests 1 look_block\n  - /pt set chests 2 look_block\n  - etc...\n- To setup lobby position (in the lobby world)\n  - /pt set lobby player_pos\n5. Last thing you want to do is save the map(s), save data and enable arena\n  - /pt savelevels\n  - /pt savedata\n  - /pt set enable true\n  - RESTART SERVER\n6. The arena is ready to play\n\n# Commands\n  - Basic Commands:\n    - /pt join <arena_name>\n    - /pt leave\n    - /pt list\n  - Admin commands (op only)\n    - /pt admin create <arena_name>\n    - /pt admin remove <arena_name>\n    - /pt admin setup\n    - /pt | to list commands\n  - Setup Commands (setup only)\n    - /pt set <data> <value>\n    - /pt set <data> <number> <value>\n    - /pt info\n    - /pt dump | show raw data\n    - /pt dump [data] | show specific part of data | /pt dump spawns\n    \n# Upcoming features\n  - Map vote\n  - Better item shop\n  - Cosmetics\n# Known bugs\n  - Works only on 4.0.0 Pocketmine version\n  - This is beta release, for entertainment purposes only\n  \n# Author\n - This plugin was created by MinekCz\n - You can contact me on discord: Minek#2962\n \n# Credit me\n  - If you're making video please use poggit/github link.\n\n# Video\n  Showcase:\n  [![IMAGE ALT TEXT](http://img.youtube.com/vi/bmq_-e6qfGM/0.jpg)](http://www.youtube.com/watch?v=bmq_-e6qfGM \"Watch on Youtube\")\n\n  How to setup:\n  [![IMAGE ALT TEXT](http://img.youtube.com/vi/Fe01td9GhYM/0.jpg)](http://www.youtube.com/watch?v=Fe01td9GhYM \"Watch on Youtube\")\n\n# Api\n\n  ```php\n  use MinekCz\\PalermoTown\\PalermoTown;\n\n  PalermoTown::FindArena() :?Arena\n  PalermoTown::GetAvailbleArenas() :array\n  PalermoTown::IsInArena(Player $player) :bool\n  PalermoTown::GetArenaByPlayer(Player $player) :?Arena\n  PalermoTown::StartArena(Arena $arena) :void\n  PalermoTown::EndArena(Arena $arena) :void\n  PalermoTown::SetTime(Arena $arena, int $time) :void\n  PalermoTown::GetArenaWorlds(Arena $arena) :array //[0 => gameWorld, 1 => lobbyWorld]\n  PalermoTown::GetAllPlayer(Arena $arena) :array //Get all players in arena including spectators\n  PalermoTown::GetArenaByName(string $id) :?Arena\n\n  ´´´",
+  "readme_source_url": "https://github.com/MinekCZ/PalermoTown",
+  "icon_url": "https://raw.githubusercontent.com/MinekCZ/PalermoTown/9f7ab4f8aef2e19bd78d88a571c523d3b5d2ac15/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MinekCZ/PalermoTown",
+  "archive_repo": null,
+  "approved_release_tag": "r-8586",
+  "stars": 3,
+  "total_downloads": 458,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MinekCZ"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-8586",
+      "published_at": null,
+      "downloads": 458,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8586/palermotown-0.0.1-r8586.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8586",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8586/palermotown-0.0.1-r8586.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PalermoTown",
+    "stable_release_id": 8586
+  }
+}

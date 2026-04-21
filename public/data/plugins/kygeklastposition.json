@@ -1,0 +1,61 @@
+{
+  "id": "kygeklastposition",
+  "name": "KygekLastPosition",
+  "author": "thebigcrafter",
+  "description": "📖 About",
+  "readme_markdown": "<h1 align=\"center\">KygekLastPosition</h1>\n\n<p align=\"center\">\n<a href=\"https://poggit.pmmp.io/p/KygekLastPosition\"><img src=\"https://poggit.pmmp.io/shield.dl.total/KygekLastPosition?style=for-the-badge\" alt=\"poggit\" /></a>\n<a href=\"https://github.com/thebigcrafter/KygekLastPosition/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/thebigcrafter/KygekLastPosition?style=for-the-badge\" alt=\"license\" /></a>\n<a href=\"https://discord.gg/PykBfE2TZ9\"><img src=\"https://img.shields.io/discord/1087729577004122112?color=7289DA&label=discord&logo=discord&style=for-the-badge\" alt=\"discord\" /></a>\n</p>\n\n# 📖 About\n\nA PocketMine-MP plugin to teleport back to the position before the last teleport.\n\n# 🧩 Features\n\n- Teleport yourself or other players back to the position before the last teleport\n- Customizeable messages in the configuration file\n  - Enable or disable the KygekLastPosition prefix and default coloring\n  - The `&` symbol can be used as text formatting codes\n  - No need to restart server, changes are applied immediately as soon the `/lastposition` command gets executed\n- Configurable ommand description and aliases\n- Automatic plugin updates checker to notify you if a new version has been released on Poggit\n- Configuration file gets updated automatically when a newer configuration file is available\n- **For Developers:** API to teleport player back to the position before the last teleport (`KygekTeam\\KygekLastPosition\\LastPosition->teleport(Player $player)`)\n\n# ⬇️ Installation\n\n1. Download the latest version on Poggit by clicking the \"Direct Download\" button.\n2. Drop the downloaded `KygekLastPosition.phar` plugin file into your PocketMine-MP server's `plugins` directory.\n3. Restart your server and you're ready to use the plugin!\n\n# 📜 Commands & Permissions\n\n| Command | Default Description | Permission | Default |\n| --- | --- | --- | --- |\n| `/lastposition` | Teleport back to the position before the last teleport | `kygeklastposition.cmd` (Root permission), `kygeklastposition.cmd.self` (For self), `kygeklastposition.cmd.other` (For other) | `op` |\n\n💡 Tips: Command description can be changed in `config.yml`. You can also add command aliases in `config.yml`.\n\n# 🏆 Credits\n<a href=\"https://www.freepnglogos.com/pics/pin\">Pin icon from freepnglogos.com</a>\n\n# ⚖️ License\n\nLicensed under the [GNU General Public License v3.0 license](https://github.com/thebigcrafter/KygekLastPosition/blob/main/LICENSE).",
+  "readme_source_url": "https://github.com/thebigcrafter/KygekLastPosition",
+  "icon_url": "https://raw.githubusercontent.com/KygekTeam/KygekLastPosition/aa251aad13b49a6ed01706eaef61b3931b51a4a6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/thebigcrafter/KygekLastPosition",
+  "archive_repo": null,
+  "approved_release_tag": "r-8385",
+  "stars": 5,
+  "total_downloads": 430,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigcrafter"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/153889",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-8385",
+      "published_at": null,
+      "downloads": 430,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8385/kygeklastposition-2.0.0-r8385.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8385",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8385/kygeklastposition-2.0.0-r8385.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KygekLastPosition",
+    "stable_release_id": 8385
+  }
+}

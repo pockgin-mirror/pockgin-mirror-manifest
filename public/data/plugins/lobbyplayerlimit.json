@@ -1,0 +1,63 @@
+{
+  "id": "lobbyplayerlimit",
+  "name": "LobbyPlayerLimit",
+  "author": "BestCodrEver",
+  "description": "A plugin which adds an automatic player transfer throughout multiple lobbies when you do /lobby with a player limit for each lobby.",
+  "readme_markdown": "<div align=\"center\">\n<a href=\"https://poggit.pmmp.io/p/LobbyPlayerLimit\"><img src=\"https://poggit.pmmp.io/shield.state/LobbyPlayerLimit\"></a>\n<a href=\"https://poggit.pmmp.io/p/LobbyPlayerLimit\"><img src=\"https://poggit.pmmp.io/shield.api/LobbyPlayerLimit\"></a>\n<a href=\"https://poggit.pmmp.io/p/LobbyPlayerLimit\"><img src=\"https://poggit.pmmp.io/shield.dl.total/LobbyPlayerLimit\"></a>\n<a href=\"https://poggit.pmmp.io/p/LobbyPlayerLimit\"><img src=\"https://poggit.pmmp.io/shield.dl/LobbyPlayerLimit\"></a>\n\n</div>\n<hr/>\n<div align=\"center\">\n<img src=\"icon.png\" width=\"64\" height=\"64\">\n<h1 align=\"center\">LobbyPlayerLimit</h1>\n</div>\n<div align=\"center\">\n<p align=\"center\">A plugin which adds an automatic player transfer throughout multiple lobbies when you do /lobby with a player limit for each lobby.</p>\n\nIf you didn’t know, a lobby is where people spawn and they can join minigames, teleport to places etc. It is the starting point of a server as players spawn there for the first time. It’s practically a hub :D\n</div>\n<hr/>\n\n## Downloads\n\n- [Public Releases](https://poggit.pmmp.io/p/LobbyPlayerLimit)\n- [Developer Builds](https://poggit.pmmp.io/ci/BestCodrEver/LobbyPlayerLimit)\n\n## How to setup?\n\nDrop the plugin into your server and start-and-stop it. Navigate to your `plugin_data` folder and find `lobbies.yml`.\n\nNow, add the names of the worlds of your lobbies after `lobbies:`. You can add as many as you want as long as they follow the `- \"Example\"` format. Make sure they have the same amount of indentation!\n\nExample:\n\n```yaml\nlobbies:\n - \"world\"\n - \"worldone\"\n```\n\nThen, add your fallback lobby world after `fallback:\"`. Check the comments in the config if you don’t know what a fallback lobby is.\n\nExample:\n\n```yaml\nfallback: \"fallbackworld\"\n```\n\nAfter that, replace `limit: 0` with `limit: AMOUNT OF PLAYERS PER LOBBY`.\n\nAdd your “lobby full” message after `lobbyfullmsg:`.\n\nNow, restart the server and you're all done!\n\n## Make yourself immune to the system\nWhenever you join the server, you will immediately be joined to a lobby with an amount of players less than your limit. If you want to disable this, you have to remove the `lobbyplayerlimit.lobby` permission from yourself. \n\nAssuming you have PurePerms installed and the server is online, run this command in console or in game:\n`/unsetuperm PLAYERNAME lobbyplayerlimit.lobby`\nNote: Doing this also disables your ability to run `/lobby`.\n\nNow you will be immune to the system!\n\nTo add yourself back to the system, assuming you have PurePerms installed and the server is online, run this command in console or in game:\n`/setuperm PLAYERNAME lobbyplayerlimit.lobby`\n\n## Commands\n\n`/lobby` - Teleport to a lobby (LobbyPlayerLimit main command)\n\n## Permissions\n\n`lobbyplayerlimit.lobby` - Ability to run /lobby and be teleported to a lobby automatically on join.\n\n## Report a bug/leave a suggestion!\n\nFeel free to tell me [here](https://github.com/BestCodrEver/LobbyPlayerLimit/issues/new)!\n\n<hr/>\n\n<p align=\"center\">This plugin was made with ❤️ by <a href=\"https://github.com/BestCodrEver\">BestCodrEver</a> for <a href=\"https://github.com/PumpedPixel\">Pumpedpixel</a></p>",
+  "readme_source_url": "https://github.com/BestCodrEver/LobbyPlayerLimit",
+  "icon_url": "https://raw.githubusercontent.com/BestCodrEver/LobbyPlayerLimit/2056d45b3b05ee289a8af123f07baeeb8918c01a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BestCodrEver/LobbyPlayerLimit",
+  "archive_repo": null,
+  "approved_release_tag": "r-8571",
+  "stars": 5,
+  "total_downloads": 2499,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "PurePerms"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BestCodrEver"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/156677",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-8571",
+      "published_at": null,
+      "downloads": 2499,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8571/lobbyplayerlimit-1.2.0-r8571.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8571",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8571/lobbyplayerlimit-1.2.0-r8571.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LobbyPlayerLimit",
+    "stable_release_id": 8571
+  }
+}

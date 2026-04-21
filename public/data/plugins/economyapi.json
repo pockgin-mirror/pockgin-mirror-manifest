@@ -1,0 +1,61 @@
+{
+  "id": "economyapi",
+  "name": "EconomyAPI",
+  "author": "poggit-orphanage",
+  "description": "EconomyAPI has been removed from Poggit.",
+  "readme_markdown": "# EconomyAPI has been removed from Poggit.\n\nPlease switch to new economy plugins like [BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy) or [Capital](https://poggit.pmmp.io/p/Capital) instead.\n\n## General\n\n[![Poggit Release](https://poggit.pmmp.io/shield.approved/EconomyAPI)](https://poggit.pmmp.io/p/EconomyAPI)\n\nA complete suite of Economy plugins by onebone:\n\n- User oriented plugin\n- EconomyAPI Individual language support\n- Economy API support\n- Direct accessible API\n- Lots of configurations\n- Lots of events to handle\n- Fast processing with massive features\n\n**IMPORTANT: You MUST install EconomyAPI to use ANY of the EconomyS plugins**\n\n## EconomyS\n\n1. EconomyAPI - Main of the €conom¥$ - All plugins below requires this plugin\n\n2. EconomyShop - Buy items\n\n3. EconomySell - Sell items\n\n4. EconomyAirport - Teleport by money\n\n5. EconomyJob - Provide job system into your server\n\n6. EconomyTax - Helps your server balancing money\n\n7. EconomyLand - Helps your server manage lands\n\n8. EconomyPShop - Shops for non-op players - requires ItemCloud plugin\n\n9. EconomyAuction - Open your auction!\n\n10. EconomyCasino - Do casino in your server!\n\n11. EconomyProperty - Buy your land with signs - requires EconomyLand\n\n12. EconomyUsury - Create your usury host and take a loan from host\n\n## EconomyAPI\n\n### Commands\n\n| Default command | Parameter | Description | Default Permission |\n| :-----: | :-------: | :---------: | :-------: |\n| /mymoney | | Shows your money | All |\n| /mydebt | | Shows your debt | All |\n| /takedebt | `<money>` | Borrows $`<money>` from plugin | `All` |\n| /returndebt | `<money>` | Returns $`<money>` to plugin | `All` |\n| /topmoney | `<page>` | Shows server's top money | `All` |\n| /moneysave | | Saves data to your hardware | `Console` |\n| /moneyload | | Loads data from your hardware | `Console` |\n| /setmoney | `<player>` `<money>` | Sets `<player>`'s money to $`<money>` | `OP` `Console` |\n| /economys | | Shows plugin which are using EconomyAPI | `All` |\n| /givemoney | `<player>` `<money>` | Gives $`<money>` `<player>` | `OP` `Console` |\n| /takemoney | `<player>` `<money>` | Takes $`<money>` from `<player>` | `OP` `Console` |\n| /seemoney | `<player>` | Shows `<player>`'s money | `All` |\n| /bank deposit | `<money>` | Deposit $`<money>` to your account | `All` |\n| /bank withdraw | `<money>` | Withdraw $`<money>` from your account | `All` |\n| /bank mymoney | | Shows your money from your account | `All` |\n| /mystatus | | Shows your money status | `All` |\n| /bankadmin takemoney | `<player>` `<money>` | Takes $`<money>` from `<player>`'s account | `OP` `Console` |\n| /bankadmin givemoney | `<player>` `<money>` | Gives $`<money>` for `<player>`'s account | `OP` `Console` |\n\n\n### Configuration\n\n> File : `plugins/EconomyAPI/economy.properties`\n\n| Key | Description | Available Value | Default Value |\n| :-: | :---------: | :---------------: | :---------: |\n| show-using-economy | Changes server name to `[EconomyS] SERVER NAME`   `on : Change` `off : Don't change` | `on` `off` | on | \n| once-debt-limit | Limits borrowing debt at once | `All integers` | 100 |\n| debt-limit | Limits available debt | `All integers` | 500 |\n| add-op-at-rank | Shows OP at top money rank    `on : Shows OP` `off : Don't shows OP` | `on` `off` | off |\n| default-money | Sets default money | `All integers` | 1000 |\n| default-debt | Sets default debt | `All integers` | 0 |\n| time-for-increase-debt | Sets how long will take for debt increase | `All integers` | 10 |\n| percent-of-increase-debt | Sets percentage of increasing debt | `All integers` | 5 |\n| default-bank-money | Sets default bank money | `All integers` | 0 |\n| time-for-increase-money | Sets how long will take for credit increase | `All integers` | 10 |\n| bank-increase=money-rate | Sets percentage of increasing credit | `All integers` | 5 |\n| debug | Money debugging preferences  `on : yes` `off : no` | `on` `off` | on |\n\n## EconomyLand\n\nEconomyLand provides your players a land protection system. If the player buys land, the land will protected for the bought player.\n\n### Commands\n\nList of commands :\n\n`/land <list | here | move | invite | invitee | give | buy | whose>`\n\n`/landsell <here | land number>`\n\nInstructions for /land command :\n\n`/startp` : Sets the start position.\n\n`/endp` : Sets the end position.\n\n`/land list [page]` : Shows the list of land.\n\n`/land here` : Shows the land where you are standing on.\n\n`/land move <land id>` : Move to land.\n\n`/land invite <land id> <invitee>` : Invites player to your land.\n\n`/land invitee <land id>` : Shows the list of invitee in land.\n\n`/land give <land id> <player>` : Give the land to other player.\n\n`/land buy` : Buys land.\n\n`/land whose <keyword>` : Queries the list of land-bought players.\n\n`/landsell here` : Sells land where you're standing on.\n\n`/landsell <land id>` : Sells land by land ID.\n\n\nIf you use `/startp` and `/endp` commands you'll set the position where you'll buy. Then, you can use `/land buy` command to buy the land.\n\nThe `land id` is the land ID that shows in `/land list` command.\n\nEconomyLand will ignore Y axis. It will protect all of Y axis which is in area.\n\n\n### Permissions\n\n```\neconomyland.*\neconomyland.land.*\neconomyland.land.modify.others\neconomyland.land.modify.whiteland\neconomyland.land.modify.others\neconomyland.landsell.*\neconomyland.landsell.others\neconomyland.command.*\neconomyland.command.startp\neconomyland.command.endp\neconomyland.command.land.buy\neconomyland.command.land.move\neconomyland.command.land.list\neconomyland.command.land.whose\neconomyland.command.land.give\neconomyland.command.land.here\neconomyland.command.landsell\neconomyland.command.landsell.here\neconomyland.command.landsell.number\n```\n\n## EconomyShop\n\n### Commands\n\n`/shop create <create|remove|list> [item[:damage]] [amount] [price] [side]` - Tap to activate SHOP signs | `OP` |\n\nShop are created with `/shop` then tapping any block to activate it.\nFor example to make a shop selling a Diamond Sword for 500$:\n\n`/shop create 276 1 500` then tap a block/sign.\n\n`Sell Center` in `EconomySell` can be created in same way with `/sell create 276 1 500`. And also `Player's Shop` in `EconomyPShop`\n\n\n### Configuration\n\n> File : `plugins/EconomyShop/shop.properties`\n\n| Key | Description | Available Value | Default Value |\n| :-: | :---------: | :-------------: | :-----------: |\n| handler-priority | The priority of handling shop touches | Integer | 5 |\n\n\n## EconomyPShop\n\nEconomyPShop is the system that lets non-OP players to open their own shop.\n\n**Important: EconomyPShop requires ItemCloud**\n\nFirst, you have to register and upload your item. Then, you'll create the PShop (Player shop).\nSecond, other players will tap your pshop sign/block **twice** to buy your item. Then, your item in ItemCloud will be removed.\n\n\n### Commands\n\n`/pshop create <create|remove|list> [item[:damage]] [amount] [price] [side]` - Tap to activate SHOP signs | `OP` |\n\n\n## EconomyJob\n\n##### Instructions for jobs.yml configuration\n\n```\ntree-cutter:\n\"17:0:break\": 10\n```\n\nThis is one of the config items in jobs.yml.\n\n'tree-cutter' is name of the job,\n\nIn `\"17:0:break\"` - 17 is item code, 0 is damage of item, break is the method and the 10 on the far right side is the money earned.\n\nSo\n\n`\"18:0:place\": 10`\n\nMeans : If I place a block with ID 18 and damage 0 I will earn $10.\n\n##### Instructions for config.yml configuration\n\n\n`refresh-time:` The time of changing price of item, Integer\n\n`broadcast-refresh:` Whether to broadcast the item has refreshed the price, true/false\n\n`max-change-rate:` The maximum rate of changing money, Integer\n\n\n##### Permissions\n\n```\neconomyjob.command.*\neconomyjob.command.job.join\neconomyjob.command.job.reture\neconomyjob.command.job.list\neconomyjob.command.job.me\n```\n\n## EconomyAirport\n\n> File : `%CONFIG_PATH%/DepartureSign.yml`\n> File : `%CONFIG_PATH%/ArrivalSign.yml`\n> File : `%CONFIG_PATH%/Identifier.yml`\n\nThis documentation is focused on default configuration.\n\n| Line1 | Line2 | Line3 | Line4 |\n| :---: | :---: | :---: | :---: |\n| `<international | airport>` | `<arrival | departure>` | `<arrival:`Airport name` departure:`price`>` | `<arrival:`none` departure:`<target>`>` |\n\nExample:\n\nLine1: airport\nLine2: departure\nLine3: 10\nLine4: onebone\n\nTakes $10 to go to `onebone` airport\n\nLine1: airport\nLine2: arrival\nLine3: onebone\nLine4: \n\nArrival sign : `onebone` airport\n\nIf there's no target airport to fly, it aborts riding a flight.\n\n\n## For Developers\n\nYou can access to EconomyAPI by using `EconomyAPI::getInstance()`\n\nExample:\n```php\nEconomyAPI::getInstance()->addMoney($player, $amount);\n```\n\n## License\n```\nEconomyS, the massive economy plugin with many features for PocketMine-MP\nCopyright (C) 2013-2017  onebone <jyc00410@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <http://www.gnu.org/licenses/>.\n```",
+  "readme_source_url": "https://github.com/poggit-orphanage/EconomyS",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/EconomyS/98333a83f2f4648e07a50b9b0d5780dc02e6a5d6/EconomyAPI/icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/EconomyS",
+  "archive_repo": null,
+  "approved_release_tag": "r-8365",
+  "stars": 4,
+  "total_downloads": 28908,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/213504",
+  "versions": {
+    "stable": {
+      "version": "5.7.3-PM4",
+      "tag": "r-8365",
+      "published_at": null,
+      "downloads": 28908,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8365/economyapi-5.7.3-pm4-r8365.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8365",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8365/economyapi-5.7.3-pm4-r8365.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EconomyAPI",
+    "stable_release_id": 8365
+  }
+}

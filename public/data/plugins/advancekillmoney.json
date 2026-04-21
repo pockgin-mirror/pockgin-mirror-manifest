@@ -1,0 +1,63 @@
+{
+  "id": "advancekillmoney",
+  "name": "AdvanceKillMoney",
+  "author": "deadbushmc",
+  "description": "AdvanceKillMoney is really advanced and fully configurable KillMoney plugin for PocketMine-MP",
+  "readme_markdown": "<h1>AdvanceKillMoney</h1>\n\n![AdvancedKillMoney](https://user-images.githubusercontent.com/66917109/133419905-c0ed8e7e-86a6-4ee9-a77b-e13d350f93ae.png)\n\nAdvanceKillMoney is really advanced and fully configurable KillMoney plugin for PocketMine-MP\n\n<h1>Features</h1>\n\n- [x] Can configure if you want to reduce money from victim or not\n\n- [x] Can add custom percentage that you want to deduct from victim and give it to the killer\n\n- [x] Supports Multiple worlds\n\n- [x] And many more\n\n<h1>Config.yml</h1>\n\n```yaml\n# AdvanceKillMoney\n# Plugin By DeadBush\n# https://github.com/deadbushmc\n\n# Write the names of world to enable kill money on\nworlds: [\"world1\", \"world2\", \"world3\"]\n\n# if you keep it as off then the victim won't loose the money on death but only killer will get the money\n# if you keep it true then the victim will loose certain amount of money on death and will be given to the killer\nreduceMoney: \"on\"\n\n# choose if the the money should be random or custom\n# keep it as on to make it custom or keep it as on to make it fully random 1-100%\ncustom: \"on\"\n\n# if you have kept custom as on then edit the values how much percentage max should be deducted from victim and given to killer no need to add % at end just add the numeric value\n# if you have kept custom as off then ignore it\nrandomise: 40 # means the killer will get 1-40% money from the victim's account\n```\n\n<h1>If you use my plugins and like them make sure to donate</h1>\n\n<a href=\"https://www.paypal.me/deadbushnetric\" \ntarget=\"htps://paypal.me/deadbushnetric\">\n<img src=\"https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif\" alt=\"PayPal this\" \ntitle=\"PayPal – The safer, easier way to pay online!\" border=\"0\" />\n</a>\n\n<h1>My Socials</h1>\n\n- <a href=\"https://twitter.com/deadbushmc\">Twitter</a>\n\n- <a href=\"https://youtube.com/deadbush\">YouTube</a>\n\n- <a href=\"https://discord.gg/q7fKBTfeYp\">Discord</a>",
+  "readme_source_url": "https://github.com/deadbushmc/AdvanceKillMoney",
+  "icon_url": "https://raw.githubusercontent.com/deadbushmc/AdvanceKillMoney/c0f092b90ce62062b163b72296ba2032998b62ce/icon.png",
+  "featured": false,
+  "repo": "https://github.com/deadbushmc/AdvanceKillMoney",
+  "archive_repo": null,
+  "approved_release_tag": "r-8572",
+  "stars": 0,
+  "total_downloads": 3239,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "deadbushmc"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/165468",
+  "versions": {
+    "stable": {
+      "version": "1.2",
+      "tag": "r-8572",
+      "published_at": null,
+      "downloads": 3239,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8572/advancekillmoney-1.2-r8572.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8572",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8572/advancekillmoney-1.2-r8572.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdvanceKillMoney",
+    "stable_release_id": 8572
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9203",
   "stars": 4,
-  "total_downloads": 2830,
+  "total_downloads": 3522,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -67,6 +67,11 @@
       "tag": "r-8754",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8754/factionmaster-4.1.0-dev01-r8754.phar"
+    },
+    {
+      "tag": "r-8517",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8517/factionmaster-4.0.0-r8517.phar"
     }
   ],
   "comments": {

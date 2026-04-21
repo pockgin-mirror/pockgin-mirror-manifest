@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11266",
   "stars": 5,
-  "total_downloads": 2862,
+  "total_downloads": 2928,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-8675",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8675/spyglass-1.0.1-r8675.phar"
+    },
+    {
+      "tag": "r-8563",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8563/spyglass-1.0.0-r8563.phar"
     }
   ],
   "comments": {

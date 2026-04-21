@@ -1,0 +1,66 @@
+{
+  "id": "pingkick",
+  "name": "PingKick",
+  "author": "GodzHardYT",
+  "description": "This plugin is used to improve an aspect of the server, if a player lags too much it will automatically kick it, just go to the config and set when you want a player to be kicke...",
+  "readme_markdown": "## PingKick\nThis plugin is used to improve an aspect of the server, if a player lags too much it will automatically kick it, just go to the config and set when you want a player to be kicked for its high ping and the plugin will do it automatically!\n\n## Features\n• Simple config • It does not cause lag • The plugin is 100% configurable\n\n## Support\nFor plugin support contact me on discord WHiTeG0Dz_#2791 or telegram @GodzHard",
+  "readme_source_url": "https://github.com/GodzHardYT/PingKick",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/GodzHardYT/PingKick",
+  "archive_repo": null,
+  "approved_release_tag": "r-8625",
+  "stars": 5,
+  "total_downloads": 481,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "GodzHardYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/157634",
+  "versions": {
+    "stable": {
+      "version": "1.3",
+      "tag": "r-8625",
+      "published_at": null,
+      "downloads": 405,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8625/pingkick-1.3-r8625.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8625",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8625/pingkick-1.3-r8625.phar"
+    },
+    {
+      "tag": "r-8598",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8598/pingkick-1.2-r8598.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PingKick",
+    "stable_release_id": 8625
+  }
+}
