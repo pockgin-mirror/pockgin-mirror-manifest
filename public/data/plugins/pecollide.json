@@ -1,0 +1,61 @@
+{
+  "id": "pecollide",
+  "name": "PECollide",
+  "author": "Saxavlax001",
+  "description": "PECollide is a plugin that brings a collision functionality to mcpe/mcbe!!",
+  "readme_markdown": "<h1>PECollide<img src=\"https://raw.githubusercontent.com/Saxavlax001/PECollide/master/pecollide.png\" height=\"64\" width=\"64\" align=\"left\"></img></h1>\n<br />\n\nPECollide is a plugin that brings a collision functionality to mcpe/mcbe!!\nIf you have github,you can play with knockback numbers on PECollide.php\nWatch this video to see a proof of the working plugin and to see if you like it.\n<a href = \"https://www.youtube.com/watch?v=31BerI6_N2c\"> Click to watch </a>\n<h1>How to use:</h1>\n<p>\"/pecollide\" will turn on/off it's functionality depending on if you changed value from config.yml file and times you executed it.</p>",
+  "readme_source_url": "https://github.com/Saxavlax001/PECollide",
+  "icon_url": "https://raw.githubusercontent.com/Saxavlax001/PECollide/197528377624b44464dfcee1fe4bb87c75046547/pecollide.png",
+  "featured": false,
+  "repo": "https://github.com/Saxavlax001/PECollide",
+  "archive_repo": null,
+  "approved_release_tag": "r-8872",
+  "stars": 0,
+  "total_downloads": 353,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Saxavlax001"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/160749",
+  "versions": {
+    "stable": {
+      "version": "2.0",
+      "tag": "r-8872",
+      "published_at": null,
+      "downloads": 353,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8872/pecollide-2.0-r8872.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8872",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8872/pecollide-2.0-r8872.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PECollide",
+    "stable_release_id": 8872
+  }
+}

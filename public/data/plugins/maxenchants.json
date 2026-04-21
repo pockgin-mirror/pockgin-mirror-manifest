@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11841",
   "stars": 0,
-  "total_downloads": 4700,
+  "total_downloads": 16031,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.2.5",
       "tag": "r-11841",
       "published_at": null,
-      "downloads": 4700,
+      "downloads": 4701,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11841/maxenchants-1.2.5-r11841.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-11841",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11841/maxenchants-1.2.5-r11841.phar"
+    },
+    {
+      "tag": "r-8741",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8741/maxenchants-1.2.4-r8741.phar"
     }
   ],
   "comments": {

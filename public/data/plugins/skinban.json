@@ -1,0 +1,61 @@
+{
+  "id": "skinban",
+  "name": "SkinBan",
+  "author": "TheDataLion",
+  "description": "Poggit:",
+  "readme_markdown": "# SkinBan\nPoggit: [![](https://poggit.pmmp.io/shield.state/SkinBan)](https://poggit.pmmp.io/p/SkinBan)\n\nPlugin that is be able to disable a player's skin for moderation purposes.\n\n### How does the plugin work?\n* You can simply ban a player's skin by using the command `/skinban <username>`.\n* You are also be able to ban a player's skin temporarily by using the command `/skinban <username> [days] [hours] [minutes]`.\n\n\n### Commands:\n * `<argument>` = required argument\n * `[argument]` = optional argument\n---\n| Command | Description | Permission |\n| --- | --- | --- |\n| /skinban \\<username> [days] [hours] [minutes]| Skinban a player| skinban.command.skinban |\n| /skinunban \\<username>| Skinunban a player| skinban.command.skinunban |\n| /skinbanlist| List skinbanned players| skinban.command.skinbanlist |",
+  "readme_source_url": "https://github.com/TheDataLion/SkinBan",
+  "icon_url": "https://raw.githubusercontent.com/TheDataLion/SkinBan/9e2bf7ed517a5e26de2c79b7b9037ff30e11059a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/TheDataLion/SkinBan",
+  "archive_repo": null,
+  "approved_release_tag": "r-8696",
+  "stars": 5,
+  "total_downloads": 347,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TheDataLion"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-8696",
+      "published_at": null,
+      "downloads": 347,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8696/skinban-1.0.0-r8696.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8696",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8696/skinban-1.0.0-r8696.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SkinBan",
+    "stable_release_id": 8696
+  }
+}

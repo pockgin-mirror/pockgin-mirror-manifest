@@ -1,0 +1,61 @@
+{
+  "id": "adminprotect",
+  "name": "AdminProtect",
+  "author": "WeekThor",
+  "description": "AdminProtect 3.0.0 Beta 1",
+  "readme_markdown": "# AdminProtect 3.0.0 Beta 1\n\nAdminProtect is PocketMine-MP plugin that protects the administrator (players with special permissions) from being banned and kicked and prevent offline player ban.\n\nNow supports PMMP api 5.0.0+ only.\n\n## Commands\n\n- /kick &lt;player&gt; [reason...] – kick specified player\n- /multikick &lt;players&gt; [reason...] – kick specified players seperated by commas\n- /ban &lt;player&gt; [reason...] – ban specified player\n- /multiban &lt;players&gt; [reason...] – ban specified players players seperated by commas\n- /tempban &lt;player&gt; &lt;date or duration&gt; [reason...] – temporary ban specified player\n- /banip &lt;player or IP adress&gt; [reason...] – ban specified IP adress or specified player's IP adress\n- /tbanip &lt;player IP adress&gt; &lt;date or duration&gt; [reason...] – temporary ban specified IP adress or specified player's IP adress\n- /unban &lt;player&gt; /pardon &lt;player&gt; – unban specified player\n- /unbanip &lt;IP&gt; /pardon-ip &lt;IP&gt; – unban specified IP adress\n- /baninfo &lt;player|address&gt; - displays information about player's or IP's active ban and shows can you unban him or not\n  \nMore information about commands can be found in the [wiki](https://github.com/WeekThor/AdminProtect/wiki/Commands).\n  \n## Permissions\n\n- adminprotect.* – all plugin permissions\n  - adminprotect.kick.protect – Protection from /kick\n  - adminprotect.kick.use – Allow to use /kick\n  - adminprotect.kick.use.multiple - Allow to use /multikick\n  - adminprotect.kick.use.protected – Allow to kick players with protection\n  - adminprotect.ban.protect – Protection from /ban\n  - adminprotect.ban.use – Allow to use /ban\n  - adminprotect.ban.use.multiple - Allow to use /multiban\n  - adminprotect.ban.use.offline – Allow to ban offline players\n  - adminprotect.ban.use.protected – Allow to ban players with protection\n  - adminprotect.tempban.protect – Protection from /tempban\n  - adminprotect.tempban.use – Allow to use /tempban\n  - adminprotect.tempban.use.offline – Allow to temporary ban offline players\n  - adminprotect.tempban.use.protected – Allow to temporary ban players with protection\n  - adminprotect.unban.use – Allow to use /unban\n  - adminprotect.unban.except.&lt;admin&gt; - prevent unblocking players/IPs that have been banned by &lt;admin&gt; (nick must be in lowercase)\n  - adminprotect.banip.protect – Protection from /banip\n  - adminprotect.banip.use – Allow to use /tbanip (only ban online players' IP and only temporary ban)\n  - adminprotect.banip.use.offline – Allow to ban offline players' IP\n  - adminprotect.banip.use.protected – Allow to IP-ban players with protection\n  - adminprotect.banip.use.permanent – Allow to use /banip (for permanentrly ban)\n  - adminprotect.unbanip.use – Allow to use /unbanip\n  - adminprotect.baninfo.use - Allow to use /baninfo\n\n## Features\n\n- Protect admins from beign kicked, banned or ip-baned\n- Protect offline players from beign baned or ip-baned (we can't check if offline players has protection permissions)\n- - Players without ```adminprotect.banip.use.offline``` can't ban specified ip-adress, they can only ban specified online player nick\n- Special permissions for operators to ban and kick players with protection\n- Prevent unblocking players that banned by specified admins\n- Prevent editing bans issued by specified admins\n- Temporary ban and ip-ban\n- Multiple ban and multiple kick using one command — just specify players seperated by commas\n- Broadcasting kick and ban messages for all players\n- Simple ban duration setting \n  \n## Temporary ban\n\nYou can specify the ban until date in the format dd.mm.YYYY (for example: 03.12.2022) or you can specify the ban duration time in the special format decribed below.\n\nBan duration format:\n- `1s` - 1 second\n- `1m` – 1 minute\n- `1h` – 1 hour\n- `1d` – 1 day\n- `1w` – 1 week\n- `1mo` – 1 month\n- `1y` – 1 year\n\nBan duration is specifying without spaces: `/tban Steve 1h30m` will ban Steve for 1 hour 30 minutes; `/tban Steve 1w3d` will ban Steve for 1 week 3 days, etc\n\nOr you can specify only count of days (```/tban Steve 13``` will ban Steve for 13 days).\n\n## Prevent unblocking\n\nIf player has `adminprotect.unban.except.<admin>`, he will not be able to unban a player banned by &lt;admin&gt; (admin nick must be in lowercase). Also he will not be able to edit the ban issued by &lt;admin&gt;.This also applies to unblocking and editing an IP ban.\n\nFor example: `adminprotect.unban.except.console` will be prevent unblocking players banned by CONSOLE (`CONSOLE` can be changed in config.yml)",
+  "readme_source_url": "https://github.com/WeekThor/AdminProtect",
+  "icon_url": "https://raw.githubusercontent.com/WeekThor/AdminProtect/93c9f6d76a7c85c09e69bbb1360b99af2658c0d4/shield.png",
+  "featured": false,
+  "repo": "https://github.com/WeekThor/AdminProtect",
+  "archive_repo": null,
+  "approved_release_tag": "r-8755",
+  "stars": 5,
+  "total_downloads": 7073,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "WeekThor"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-8755",
+      "published_at": null,
+      "downloads": 7073,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8755/adminprotect-2.0.0-r8755.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8755",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8755/adminprotect-2.0.0-r8755.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdminProtect",
+    "stable_release_id": 8755
+  }
+}

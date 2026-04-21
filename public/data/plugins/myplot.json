@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10739",
   "stars": 5,
-  "total_downloads": 10277,
+  "total_downloads": 12247,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -58,6 +58,11 @@
       "tag": "r-9268",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9268/myplot-2.1.1-r9268.phar"
+    },
+    {
+      "tag": "r-8794",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8794/myplot-2.1.0-r8794.phar"
     }
   ],
   "comments": {

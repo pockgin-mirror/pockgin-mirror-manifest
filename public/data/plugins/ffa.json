@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14377",
   "stars": 0,
-  "total_downloads": 2522,
+  "total_downloads": 3487,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -56,6 +56,11 @@
       "tag": "r-9900",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9900/ffa-1.0.3-r9900.phar"
+    },
+    {
+      "tag": "r-8809",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8809/ffa-1.0.1-r8809.phar"
     }
   ],
   "comments": {

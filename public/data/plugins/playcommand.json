@@ -1,0 +1,61 @@
+{
+  "id": "playcommand",
+  "name": "PlayCommand",
+  "author": "Laith98Dev",
+  "description": "Simple play command plugin like hypixel",
+  "readme_markdown": "# PlayCommand\nSimple play command plugin like hypixel\n\n# How to use the plugin\n- `/play add` -> for add a new game, for example i have an game called sumo and join command = `/sumo join` and want added it, usage: `/play add sumo /sumo join`.\n- `/play set` -> for edit an game command, for example i need to change sumo join command, usage: `/play set sumo /newcommand`.\n- `/play remove` -> for remove an game, for example i want remove sumo, usage: `/play remove sumo`\n- `/play list` -> that's command to show games list. \n- `/play <GameName>` -> to join the game, for example i want to playe sumo, usage: `/play sumo`, and if your game can join a specific arena by name like `/sumo join Towers`, you can type it in the play command like `/play sumo Towers`.\n\n# Commands List\nCommand | Permission\n--- | ---\n`/play <GameName> <others:optional>` | `No Permission`\n`/play add <GameName> <JoinComamnd>` | `play.cmd.admin`\n`/play set <GameName> <NewComamnd>` | `play.cmd.admin`\n`/play remove <GameName>` | `play.cmd.admin`\n`/play list` | `No Permission`",
+  "readme_source_url": "https://github.com/Laith98Dev/PlayCommand",
+  "icon_url": "https://raw.githubusercontent.com/Laith98Dev/PlayCommand/19fbe1033ce5111a108f0a4fd037b7d7be785cda/20220202_070207.png",
+  "featured": false,
+  "repo": "https://github.com/Laith98Dev/PlayCommand",
+  "archive_repo": null,
+  "approved_release_tag": "r-8793",
+  "stars": 5,
+  "total_downloads": 414,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Laith98Dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-8793",
+      "published_at": null,
+      "downloads": 414,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8793/playcommand-1.0.0-r8793.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8793",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8793/playcommand-1.0.0-r8793.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayCommand",
+    "stable_release_id": 8793
+  }
+}

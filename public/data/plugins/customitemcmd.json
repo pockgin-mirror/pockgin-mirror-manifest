@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11369",
   "stars": 0,
-  "total_downloads": 843,
+  "total_downloads": 863,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-9038",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9038/customitemcmd-0.3-r9038.phar"
+    },
+    {
+      "tag": "r-8913",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8913/customitemcmd-0.2-r8913.phar"
     }
   ],
   "comments": {

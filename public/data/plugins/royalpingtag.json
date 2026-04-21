@@ -1,0 +1,61 @@
+{
+  "id": "royalpingtag",
+  "name": "RoyalPingTag",
+  "author": "Taylor-pm-pl",
+  "description": "BMPingTag",
+  "readme_markdown": "<h1>BMPingTag<img src=\"icon.png\" height=\"64\" width=\"64\" align=\"left\"></img></h1><br/>\n\n[![Lint](https://poggit.pmmp.io/ci.shield/VCraftGames/BMPingTag/BMPingTag)](https://poggit.pmmp.io/ci/VCraftGames/BMPingTag/BMPingTag)\n[![PHPStan](https://github.com/VCraftGames/BMPingTag/actions/workflows/php.yml/badge.svg)](https://github.com/VCraftGames/BMPingTag/actions/workflows/php.yml/badge.svg)\n\n✨ **This plugin for PMMP shows your ping on your nametag.**\n\n# Features\n\n- Shows your ping on your nametag.\n- Easy setup.\n\n# Commands & Permissions\n\n| Command | Description | Permission | Default |\n| --- | --- | --- | --- |\n| `/pmpingtag help` | Display pmpingtag subcommands | `pmpingtag.command` | op |\n| `/pmpingtag setcustomformat` | Edit the format of ping | `pmpingtag.command` | op |\n\nCommand alias: `/pt, /pingtag`\n\n# Upcoming Features\n\n- Each player will have their own ping format.\n\n## All Contributors\n<a href=\"https://github.com/VCraftGames/BMPingTag/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=VCraftGames/BMPingTag\" />\n</a>",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/BMPingTag",
+  "icon_url": "https://raw.githubusercontent.com/RoyalTeamDeveloper/RoyalPingTag/f071e56c059e80f843f9cdec9978028a9460e803/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/BMPingTag",
+  "archive_repo": null,
+  "approved_release_tag": "r-8651",
+  "stars": 5,
+  "total_downloads": 484,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-8651",
+      "published_at": null,
+      "downloads": 484,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8651/royalpingtag-1.0.0-r8651.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8651",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8651/royalpingtag-1.0.0-r8651.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RoyalPingTag",
+    "stable_release_id": 8651
+  }
+}

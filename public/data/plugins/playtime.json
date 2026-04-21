@@ -1,0 +1,61 @@
+{
+  "id": "playtime",
+  "name": "PlayTime",
+  "author": "EPT8TPE",
+  "description": "A pocketmine plugin that displays the time since a player first joined the server via command.",
+  "readme_markdown": "# PlayTime\nA pocketmine plugin that displays the time since a player first joined the server via command.\n\n# Features\n/playtime - Sends a message to player whichdisplays the time since a player first joined the server via a command(In-game time).\n\n# Permissions\nplaytime.command: \n\n    description: Allows players to use /playtime\n    default: true\n  \n# Contact me\nIf you have any issues or suggestions, message me on discord TPE#1061",
+  "readme_source_url": "https://github.com/EPT8TPE/PlayTime",
+  "icon_url": "https://raw.githubusercontent.com/EPT8TPE/PlayTime/d6b8a97e013ea96d2e4ccd01f606e08276311ac1/icon.png",
+  "featured": false,
+  "repo": "https://github.com/EPT8TPE/PlayTime",
+  "archive_repo": null,
+  "approved_release_tag": "r-8677",
+  "stars": 2,
+  "total_downloads": 2487,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "EPT8TPE"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/158226",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-8677",
+      "published_at": null,
+      "downloads": 2487,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8677/playtime-1.1.0-r8677.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8677",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8677/playtime-1.1.0-r8677.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayTime",
+    "stable_release_id": 8677
+  }
+}

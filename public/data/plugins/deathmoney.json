@@ -1,0 +1,68 @@
+{
+  "id": "deathmoney",
+  "name": "DeathMoney",
+  "author": "ElectroGamesYT",
+  "description": "Features",
+  "readme_markdown": "# Features \n- When a Player Dies, They Lose Money\n- Money Loss on Death is Configurable\n- Killer gets the money after killing a player (optional)\n- Money loss on natural deaths (optional)\n- Very customizable\n# Important\n- This plugin Requires EconomyAPI by OneBone\n# Config\n```\n# How much money will the victi'sm lose when they die? Type Options: \"all\", \"half\", \"percent\", \"amount\"\n# all = Removes all of the victim's Money when they die\n# half = Removes half of the victim's Money when they die  \n# percent = Removes a percentage of the victim's money. Example, If Money-Loss = 25, 25% of the victim's money will be removed\n# amount = Removed the specified amount of money. Example, If Money-Loss = 25, the victim's will lost $25.\nType: percent\n\n# Money-Loss: does not need to be set if Type: is set to \"all\" or \"half\"\nMoney-Loss: 25\n\n# Should the victim lose money if they are not killed by another player\nLoseMoneyNaturally: false\n\n# Should the killer gain the money the victim lost?\nKillerGainMoney: true\n```\n# Credits\n- Icon from www.flaticon.com",
+  "readme_source_url": "https://github.com/ElectroGamesYT/DeathMoney",
+  "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/DeathMoney/a9bf8ad4854bf5046bfe80c746768b4af082c2ff/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ElectroGamesYT/DeathMoney",
+  "archive_repo": null,
+  "approved_release_tag": "r-8811",
+  "stars": 0,
+  "total_downloads": 1163,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ElectroGamesYT"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/165461",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-8811",
+      "published_at": null,
+      "downloads": 953,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8811/deathmoney-2.0.1-r8811.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8811",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8811/deathmoney-2.0.1-r8811.phar"
+    },
+    {
+      "tag": "r-8626",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8626/deathmoney-2.0.0-r8626.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DeathMoney",
+    "stable_release_id": 8811
+  }
+}

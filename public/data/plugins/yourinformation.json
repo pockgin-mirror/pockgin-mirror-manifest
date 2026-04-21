@@ -1,0 +1,61 @@
+{
+  "id": "yourinformation",
+  "name": "YourInformation",
+  "author": "BeeAZ-pm-pl",
+  "description": "YourInformation v1.0.1",
+  "readme_markdown": "<div align=\"center\">\n<h1>YourInformation | v1.0.1<h1>\n</div>\n<p align=\"center\">\n<a href=\"https://poggit.pmmp.io/p/YourInformation\"><img src=\"https://poggit.pmmp.io/shield.state/YourInformation\">\n</a>\n<br>\n✔️ Basic management of player information ✔️\n\n\n[![Discord](https://img.shields.io/discord/965662639168569394.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/KrjD6t9HJt)\n</p>\n\n<br>\n\n## Features\n- Manage player information\n- Adjust data sending style\n\n<br>\n\n## Commands\n| **Commands** | **Description** |\n| --- | --- |\n| **/myinfo** | **Display the term information in the server** |\n\n<br>\n\n## Permissions\n| **Permission** | **Default** |\n| --- | --- |\n| **yourinformation.command.use** | **true** |\n\t\n<br>\n\n## Config\n```\n---\nui: true #if false the information will send with the message form, if true the information will send with the ui form.\n...\n```\n\n<br>\n\n## Install\n- Step 1: Click the \"Direct Download\" button to download the plugin\n- Step 2: move the file \"YourInformation.phar\" into the file \"plugins\"\n- Step 3: Restart server for plugins to work",
+  "readme_source_url": "https://github.com/BeeAZ-pm-pl/YourInformation",
+  "icon_url": "https://raw.githubusercontent.com/lenlenlL6/YourInformation/5e5029cebc7e804c620906356f5b9bc5d7d7bea1/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BeeAZ-pm-pl/YourInformation",
+  "archive_repo": null,
+  "approved_release_tag": "r-8781",
+  "stars": 5,
+  "total_downloads": 430,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BeeAZ-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-8781",
+      "published_at": null,
+      "downloads": 430,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8781/yourinformation-1.0.0-r8781.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8781",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8781/yourinformation-1.0.0-r8781.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "YourInformation",
+    "stable_release_id": 8781
+  }
+}

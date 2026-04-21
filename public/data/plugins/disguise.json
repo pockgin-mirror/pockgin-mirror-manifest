@@ -1,0 +1,61 @@
+{
+  "id": "disguise",
+  "name": "Disguise",
+  "author": "Swift-Strider",
+  "description": "Disguise as other players with",
+  "readme_markdown": "# Disguise\n\n![Disguise's Logo](assets/icon.png)\n\nDisguise as other players with `/disguise <player>`\n\nRemove your disguise with `/disguise`\n\nHave Fun!\n\n# Credits\n\n<a target=\"_blank\" href=\"https://icons8.com/icon/RL9XZXkzdHLz/cloak\">CLOAK</a> icon by <a target=\"_blank\" href=\"https://icons8.com\">Icons8</a>",
+  "readme_source_url": "https://github.com/Swift-Strider/Disguise",
+  "icon_url": "https://raw.githubusercontent.com/Swift-Strider/Disguise/1c80366c41c3fc6904ae2a75caf5e5e885933dd4/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Swift-Strider/Disguise",
+  "archive_repo": null,
+  "approved_release_tag": "r-8749",
+  "stars": 5,
+  "total_downloads": 1571,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Swift-Strider"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-8749",
+      "published_at": null,
+      "downloads": 1571,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8749/disguise-1.0.0-r8749.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8749",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8749/disguise-1.0.0-r8749.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Disguise",
+    "stable_release_id": 8749
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "infoapi",
+  "name": "InfoAPI",
+  "author": "SOF3",
+  "description": "Extensible templating for PocketMine plugins.",
+  "readme_markdown": "# InfoAPI\n\nExtensible templating for PocketMine plugins.\n\nIn a nutshell, InfoAPI provides a simple API to register placeholders between plugins.\nBut it is more powerful than just that:\n\n- Object-oriented placeholder expressions\n- Continuously update a template when variables change\n- Parametric infos &mdash; mathematical operations on info expressions\n\n## Developer guide: Templating\n\nIf you let users customize messages in a config,\nyou can consider formatting the message with InfoAPI.\n\nPass the config message into InfoAPI:\n\n```php\nuse SOFe\\InfoAPI;\n\n// $this is the plugin main\n$player->sendMessage(InfoAPI::render($this, $this->getConfig()->get(\"format\"), [\n    \"arg\" => $arg,\n], $player));\n```\n\n- \"message\" is the config key for the message template\n- The args array are the base variables for the template.\n  The types of the variables must be one of the default types\n  or provided by another plugin through `InfoAPI::addKind`.\n- `$player` is optional.\n  It tells InfoAPI how to localize the message better,\n  e.g. by formatting for the player's language.\n\n### Advanced: Continuous templating\n\nYou can create a template and watch for changes using the `renderContinuous` API:\n\n```php\nuse SOFe\\AwaitGenerator\\Await;\nuse SOFe\\InfoAPI;\n\nAwait::f2c(function() use($player) {\n    $traverser = InfoAPI::renderContinuous($this, $this->getConfig()->get(\"format\"), [\n        \"arg\" => $arg,\n    ], $player);\n\n    while(yield from $traverser->next($message)) {\n        $player->sendPopup($message);\n    }\n});\n```\n\n## Developer guide: Register mapping\n\nA mapping converts one info to another,\ne.g. `money` converts a player to the amount of money in `{player money}`.\nYou can register your own mappings\nso that your plugin as well as other plugins using InfoAPI\ncan use this info in the template.\n\nFor example, to provide the money of an online player:\n\n```php\nInfoAPI::addMapping(\n    $this, \"myplugin.money\",\n    fn(Player $player) : ?int => $this->getMoney($player),\n);\n```\n\nThe source and return types must be a default or `InfoAPI::addKind` types.\n\n### Advanced: Register continuous mapping\n\nYou can additionally provide a `watchChanges` closure,\nwhich returns a [traverser](https://sof3.github.io/await-generator/master/async-iterators.html)\nthat yields a value when a change is detected.\nThe [pmevent](https://github.com/SOF3/pmevent) library may help\nwith building traversers from events:\n\n```php\nInfoAPI::addMapping(\n    $this, \"myplugin.money\",\n    fn(Player $player) : ?int => $this->getMoney($player),\n    watchChanges: fn(Player $player) => Events::watch(\n        $this, MoneyChangeEvent::class, $player->getName(),\n        fn(MoneyChangeEvent $event) => $event->getPlayer()->getName(),\n    )->asGenerator(),\n);\n```\n\n## Developer guide: Install InfoAPI\n\n> If you are not developing a plugin,\n> you do **not** need to install InfoAPI yourself.\n> Plugins should have included InfoAPI in their phar release.\n\nInfoAPI v2 is a virion library using virion 3.1.\nVirion 3.1 uses composer to install libraries:\n\n1. Include the InfoAPI virion by adding sof3/infoapi in your composer.json:\n\n```json\n{\n  \"require\": {\n    \"sof3/infoapi\": \"^2\"\n  }\n}\n```\n\n  You can place this file next to your plugin.yml.\n  Installing composer is recommended but not required.\n\n2. Build your plugin with the InfoAPI virion using [pharynx](https://github.com/SOF3/pharynx).\n  You can test it on a server using the custom start.cmd/start.sh provided by pharynx.\n\n3. Use the [pharynx GitHub action](https://github.com/SOf3/timer-pmmp/blob/master/.github/workflows/ci.yml)\n  to integrate with Poggit.\n  Remember to gitignore your vendor directory so that you don't push it to GitHub.\n\n## User guide: Writing a template\n\nInfoAPI replaces expressions inside `{}` with variables.\nFor example, if a chat plugin provides two variables:\n\n- `sender`: the player who sent chat (SOFe)\n- `message`: the chat message\nthe following will become something like `<SOFe> Hello world`\nif the plugin provides `sender` and `message` (\"Hello world\")for the template:\n\n```\n<{sender}> {message}\n```\n\nColor codes are default variables.\nInstead of writing &sect;1 &sect;b etc, you could also write:\n\n```\n{aqua}<{sender}> {white}{message}\n```\n\nYou can get more detailed info for a variable.\nFor example, to get the coordinates of a player `player`:\n\n```\n{player} is at ({player x}, {player y}, {player z}).\n```\n\nWriting `{` directly will cause error without a matching `}`.\nIf you want to write a `{`/`}` that is not part of an expression, write twice instead:\n\n```\nhello {{world}}.\n```\n\nThis will become\n\n```\nhello {world}.\n```",
+  "readme_source_url": "https://github.com/SOF3/InfoAPI",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/SOF3/InfoAPI",
+  "archive_repo": null,
+  "approved_release_tag": "r-8928",
+  "stars": 5,
+  "total_downloads": 2954,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SOF3"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/161486",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-8928",
+      "published_at": null,
+      "downloads": 2954,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8928/infoapi-1.2.0-r8928.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8928",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8928/infoapi-1.2.0-r8928.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "InfoAPI",
+    "stable_release_id": 8928
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11451",
   "stars": 0,
-  "total_downloads": 2788,
+  "total_downloads": 3603,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-9585",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9585/simplefly-0.0.2-r9585.phar"
+    },
+    {
+      "tag": "r-8634",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8634/simplefly-0.0.1-r8634.phar"
     }
   ],
   "comments": {

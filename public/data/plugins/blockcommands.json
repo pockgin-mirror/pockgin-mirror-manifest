@@ -1,0 +1,61 @@
+{
+  "id": "blockcommands",
+  "name": "BlockCommands",
+  "author": "Swift-Strider",
+  "description": "Allows commands to run when people punch, break, step, or interact with blocks.",
+  "readme_markdown": "# BlockCommands\n\n[![Poggit State](https://poggit.pmmp.io/shield.state/BlockCommands)](https://poggit.pmmp.io/p/BlockCommands)\n[![Poggit Shield](https://poggit.pmmp.io/shield.api/BlockCommands)](https://poggit.pmmp.io/p/BlockCommands)\n\n<img align=\"right\" width=\"304\" height=\"175\" src=\"assets/icon.png\">\n\nAllows commands to run when people punch, break, step, or interact with blocks.\n\nA BlockCommand is an object that stores commands, blocks, areas, and events. When events happen in-game a BlockCommand is able to respond by running it's commands.\n\nTips:\n\n1.  `/sudo` only runs commands if the message has a \"/.\"\n2.  You can inject information of the event inside of commands\n    -   `{player}` will be replaced by the player's name when a BlockCommand is triggered.\n    -   `{position}` will be the position of the block affected.\n\n## Usage\n\n1. Make a new BlockCommand with `/bc create <name> [...events]`. The `[...events]` is a list of available block events, separated by space, that will be enabled. Ex: `/bc create launchpad step interact`.\n    - List all BlockCommands with `/bc list`.\n    - You can delete a BlockCommand with `/bc remove <name>`.\n2. Add a command to the BlockCommand with `/bc edit addcommand <name> <command>`.\n    - List commands on a BlockCommand with `/bc edit listcommands <name>`.\n    - Use the index of a command to remove it from a BlockCommand `/bc edit removecommand <name> <index>`.\n    - Remove all commands from a BlockCommand with `/bc edit clearcommands <name> <index>`.\n3. Add a block to the BlockCommand with `/bc edit addblock <name> <x> <y> <z>` or `/bc edit addblock <name>` to add the block you're looking at. You can also add whole areas with `/bc edit addarea <name> <x1> <y1> <z1> <x2> <y2> <z2>`. Blocks and areas that are on BlockCommands are called _attachments_.\n    - List attachments on a BlockCommand with `/bc edit listattachments <name>`.\n    - Use the index from the command to remove an attachment from a BlockCommand with `/bc edit removeattachment <name> <index>`.\n    - Clear all attachments from a BlockCommand with `/bc edit clearattachments <name>`.\n4. Configure the BlockCommand to run commands on different events with `/bc edit configure <name> [...events]`.\n\n## Features\n\n-   The plugin comes with several extra commands like `/launch` to make it easy to build specific contraptions like launchpads.\n-   Editing commands for multiple blocks is quick since they are all stored on a single BlockCommand.\n\nCommands can be run on the block events:\n\n-   punch (When a player hits a block)\n-   break (When a player destroys a block)\n-   step (When a player first lands on a block)\n-   interact (When a player right-clicks a block)\n\nCommands can be attached to:\n\n-   Blocks\n-   Areas\n\n## All Commands\n\nMiscellaneous Commands\n\n-   `/launch <direction-x> <direction-z> <direction-z> [player]`\n\nLaunches the player in the given direction. Use the `[player]` argument instead of `/sudo <player> ...` to bypass permission requirements.\n\n\"/launch 2 5 0\" will launch the player who ran the command in the air\n\n-   `/sudo <player> <message>`\n\nSends a message as the player. If the message starts with a \"/\" it will be ran as a command. Great for commands that needs commands to be sent as player. This will not give the player extra permissions.\n\n`/sudo player1 /tp 0 0 0` will teleport the player to 0, 0, 0 if they have permission to use `/tp`\n\nAdmin Commands\n\n_Key: `<name>` will be the name of a BlockCommand._\n\n-   `/bc ...`\n    You can also use /blockcommands.\n-   `/bc help` or `/bc edit help`\n    Fetches help for the following admin commands.\n-   `/bc loadconfig`\n    This reloads data from data.yml.\n-   `/bc saveconfig`\n    This saves data to data.yml.\n-   `/bc create <name> [...events]`\n    This makes a new BlockCommand with the given block events turned on. Valid `[...events]` are: punch, break, step, interact.\n-   `/bc list`\n    Lists all BlockCommands.\n-   `/bc remove <name>`\n    Removes a BlockCommand.\n-   `/bc edit configure <name>`\n    Lists all the block events for the BlockCommand.\n-   `/bc edit configure <name> [...events]`\n    Changes the BlockCommand events to `[...events]`. Ex: `/bc configure teleport_sign punch interact`\n-   `/bc edit addcommand <name> <command>`\n    Adds a command to a BlockCommand.\n-   `/bc edit listcommands <name>`\n    Lists commands on a BlockCommand and their index.\n-   `/bc edit removecommand <name> <index>`\n    Removes the command at the given index from the BlockCommand.\n-   `/bc edit addblock <name> <x> <y> <z>`\n    Adds the block at `<x> <y> <z>` to the BlockCommand.\n-   `/bc edit addblock <name>`\n    Adds the block the player is looking at to the BlockCommand.\n-   `/bc edit addarea <name> <x1> <y1> <z1> <x2> <y2> <z2>`\n    Adds an area to the block command starting from `<x1> <y1> <z1>` ending at `<x2> <y2> <z2>`.\n-   `/bc edit listattachments <name>`\n    Lists the blocks and areas along with their indexes that are attached to the BlockCommand.\n-   `/bc edit removeattachment <name> <index>`\n    Removes the block or area at `<index>` from the BlockCommand.\n-   `/bc edit clearattachments <name>`\n    Removes all blocks and areas associated with the BlockCommand.",
+  "readme_source_url": "https://github.com/Swift-Strider/BlockCommands",
+  "icon_url": "https://raw.githubusercontent.com/Swift-Strider/BlockCommands/b6beca48c1697ce262db4ae54b0665681830dfd3/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Swift-Strider/BlockCommands",
+  "archive_repo": null,
+  "approved_release_tag": "r-8637",
+  "stars": 0,
+  "total_downloads": 1320,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Swift-Strider"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/157802",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-8637",
+      "published_at": null,
+      "downloads": 1320,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8637/blockcommands-1.0.1-r8637.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8637",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8637/blockcommands-1.0.1-r8637.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockCommands",
+    "stable_release_id": 8637
+  }
+}

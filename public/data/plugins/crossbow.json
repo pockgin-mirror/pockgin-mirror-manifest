@@ -1,0 +1,61 @@
+{
+  "id": "crossbow",
+  "name": "Crossbow",
+  "author": "alvin0319",
+  "description": "A PocketMine-MP plugin that implements Vanilla Crossbow!",
+  "readme_markdown": "# Crossbow\nA PocketMine-MP plugin that implements Vanilla Crossbow!\n\n# Known bugs\n> Do not report these bugs\n\n* ~~When the crossbow has `multishot` enchantment, sometimes it shoots 4 arrows~~ -> This has been fixed on PM4",
+  "readme_source_url": "https://github.com/alvin0319/Crossbow",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/alvin0319/Crossbow",
+  "archive_repo": null,
+  "approved_release_tag": "r-8889",
+  "stars": 5,
+  "total_downloads": 760,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "alvin0319"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/161065",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-8889",
+      "published_at": null,
+      "downloads": 760,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8889/crossbow-2.0.0-r8889.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8889",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8889/crossbow-2.0.0-r8889.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Crossbow",
+    "stable_release_id": 8889
+  }
+}

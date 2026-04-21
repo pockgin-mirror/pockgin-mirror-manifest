@@ -1,0 +1,61 @@
+{
+  "id": "bless",
+  "name": "Bless",
+  "author": "EPT8TPE",
+  "description": "A pocketmine plugin that allows players to bless themselves (Remove negative effects from themselves such as slowness and weakness)",
+  "readme_markdown": "# Bless\nA pocketmine plugin that allows players to bless themselves (Remove negative effects from themselves such as slowness and weakness)\n\n# How to install\n1. Download the phar from poggit.\n2. Add it to your servers plugin directory.\n3. Restart your server.\n\n# Features\n- /bless - Removes all negative effects from the player who runs it (Negative effects such as poison, weakness)\n- Configurable cooldown for /bless.\n- Configurable messages\n\n# Permissions\n- bless.command - Allows players to use /bless, defaulty given to ops.\n\n# Config\n\n~ Message sent to players when they bless themselves.\n\n    blessed-self-message: \"§e***§lBLESSED§r§e***\"\n\n~ Message sent to player if they lack permissions to bless themselves.\n\n    no-perms-self-bless: \"§cYou do not have permission to bless yourself!\"\n\n~ Cooldown in seconds for the /bless command.\n\n    bless-cooldown-time: 300\n\n~ Message sent to player if /bless is on cooldown, use %REMAINING% for the time remaining.\n\n    cooldown-message: \"§cYou can not bless for another %REMAINING% seconds!\"\n\n# Support\nNeed help or have any suggestions? Contant me on discord TPE#1061.",
+  "readme_source_url": "https://github.com/EPT8TPE/Bless",
+  "icon_url": "https://raw.githubusercontent.com/EPT8TPE/Bless/67283616fba7e0789dd7203f8a7002306cfb9895/icon.png",
+  "featured": false,
+  "repo": "https://github.com/EPT8TPE/Bless",
+  "archive_repo": null,
+  "approved_release_tag": "r-8679",
+  "stars": 0,
+  "total_downloads": 639,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "EPT8TPE"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/158256",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-8679",
+      "published_at": null,
+      "downloads": 639,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8679/bless-1.1.0-r8679.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8679",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8679/bless-1.1.0-r8679.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Bless",
+    "stable_release_id": 8679
+  }
+}

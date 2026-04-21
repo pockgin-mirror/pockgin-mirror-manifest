@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9933",
   "stars": 5,
-  "total_downloads": 2350,
+  "total_downloads": 4548,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,16 @@
       "tag": "r-9933",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9933/cskull-1.1.0-r9933.phar"
+    },
+    {
+      "tag": "r-8860",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8860/cskull-1.0.2-r8860.phar"
+    },
+    {
+      "tag": "r-8832",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8832/cskull-1.0.1-r8832.phar"
     }
   ],
   "comments": {

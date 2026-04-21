@@ -1,0 +1,61 @@
+{
+  "id": "xpbottle",
+  "name": "XPBottle",
+  "author": "EPT8TPE",
+  "description": "A pocketmine plugin that allows players to bottle their xp with a command.",
+  "readme_markdown": "# XPBottle\nA pocketmine plugin that allows players to bottle their xp with a command.\n\n# How to use\n1. Download the phar from https://poggit.pmmp.io/.\n2. Upload to your servers plugin directory.\n3. Restart your server.\n\n# Features\n- Players can extract XP into a bottle.\n- Ability to create newxpbottles regardless of XP through both players and the console, this allows the bottles to be in kits and crates.\n- Players can also check their XP.\n- All messages configurable in the config.yml!\n\n# Commands\n- /xpbottle <amount> - The user of this command has XP extracted from them and put into a bottle.\n- /newxpbottle <amount> <player> - This command can be run by both console and players, whatever amount specified will be given as a bottle to the\n  specified player.\n- /myxp - Informs the user how much XP they currently have!\n\n# Permissions\n- xpbottle.xpbottle.command:\n\n      default: true\n      description: Allows players to use /xpbottle.\n\n- xpbottle.newxpbottle.command:\n\n      default: op\n      description: Allows players to use /newxpbottle.\n      \n- xpbottle.command.myxp:\n\n      default: true\n      description: Allows players to use /myxp.\n# Config\n\n~ Message sent to player if they lack the permission to extract XP:\n\n      no-perms-message-xpbottle: \"§cYou do not have permission to extract XP!\"\n\n~ Message sent to player if they lack the permission to create an xp bottle:\n\n      no-perms-message-newxpbottle: \"§cYou do not have permission to create an XP bottle regardless of XP that you currently possess!\"\n\n~ Message sent to player if they lack the permissions to check their XP:\n\n      no-perms-message-myxp: \"§cYou do not have permission to check your XP!\"\n\n~ Message sent to player if amount specified is below 1:\n\n      must-be-above-0: \"§cAmount specified must be above 0!\"\n\n~ Message sent to player if the amount specified exceeds the amount of xp the player currently possesses, use %XP% for how much xp the sender has:\n\n      insufficient-xp: \"§cAmount specified exceeds how much XP you currently have, you currently have §b%XP%§c!\"\n\n~ Message sent to player if the amount specified is not numeric (a number):\n\n      not-integer-message: \"§cAmount specified must be numeric!\"\n\n~ Message sent to player when xp is extracted successfully, use %AMOUNT-EXTRACTED% for the amount of XP the player extracted into a bottle:\n\n      success-message: \"§aSuccesfully extracted §b%AMOUNT-EXTRACTED%§a XP!\"\n\n~ Message sent to player if they have 0 XP:\n\n    no-xp: \"§cYou have no XP to extract!\"\n\n~ Message sent to sender if specified player is not online:\n\n    invalid-player: \"§cSpecified player does not exist!\"\n\n~ Message sent to player if specified player is themselves. Use %AMOUNT% for the amount of XP:\n\n    self-success-message: \"§aSuccessfully given yourself an XP bottle worth §b%AMOUNT% §aXP!\"\n\n~ Message sent to reciever of the xp bottle from another player, use %AMOUNT% for the amount given and %SENDER% for the name of the player who gave it to them:\n\n      target-success-message: \"§aYou have recieved an XP bottle worth §b%AMOUNT% §aXP from §b%SENDER%§a!\"\n\n~ Message sent to the player who gives an xp bottle to another player, use %AMOUNT% for the amount given and %TARGET% for the name of the specified player:\n\n      sender-success-message: \"§aSuccessfully given §b%TARGET%§a an XP bottle worth §b%AMOUNT%§a XP!\"\n\n~ Message sent to player when they check their XP, use %XP% for the amount of XP they possess:\n\n      xp-success-message: \"§aYou currently have §b%XP%§a XP!\"\n\n# Support\nIf you have any suggestions, complaints or need help, leave an issue on github, a review on poggit or message me on discord TPE#1061",
+  "readme_source_url": "https://github.com/EPT8TPE/XPBottle",
+  "icon_url": "https://raw.githubusercontent.com/EPT8TPE/XPBottle/7391b9488554236cd6b66bedb753de4ed5c2bd06/icon.png",
+  "featured": false,
+  "repo": "https://github.com/EPT8TPE/XPBottle",
+  "archive_repo": null,
+  "approved_release_tag": "r-8678",
+  "stars": 1,
+  "total_downloads": 613,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "EPT8TPE"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/158242",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-8678",
+      "published_at": null,
+      "downloads": 613,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8678/xpbottle-1.1.0-r8678.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8678",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8678/xpbottle-1.1.0-r8678.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "XPBottle",
+    "stable_release_id": 8678
+  }
+}

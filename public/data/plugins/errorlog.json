@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9620",
   "stars": 5,
-  "total_downloads": 340,
+  "total_downloads": 453,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-9608",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9608/errorlog-1.1.0-r9608.phar"
+    },
+    {
+      "tag": "r-8742",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8742/errorlog-1.0-r8742.phar"
     }
   ],
   "comments": {

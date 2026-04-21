@@ -1,0 +1,63 @@
+{
+  "id": "slappercooldown",
+  "name": "SlapperCooldown",
+  "author": "vecnavium-pm-pl",
+  "description": "This plugin is for Slapper which adds a cooldown for hitting a Slapper.",
+  "readme_markdown": "[![Discord](https://img.shields.io/discord/837701868649709568.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/jWFB56RqUN)\n\n## SlapperCooldown\n\nThis plugin is for Slapper which adds a cooldown for hitting a Slapper.\n\n\n# Features \n\n- Ability to configure the cooldown on hits on the Slappers.\n\n\n# BugReport\n\nYou found a bug or a plugin issue?\n\n- Contact support in the [Discord Server](https://discord.gg/jWFB56RqUN)\n\n- Create an [Issue](https://github.com/Vecnavium/SlapperCooldown/issues/new)\n\n- Write your bug & the issue you are having with all informations including the error so I can track the issue\n\n- Submit the issue and be patient for a response for a solution to your problem\n\n# Suggestions\n\nHave a suggestion?\n\nFeel free to contact me in the [Support Discord Server](https://discord.gg/jWFB56RqUN) and suggest the suggestion you have in mind for this plugin!",
+  "readme_source_url": "https://github.com/vecnavium-pm-pl/SlapperCooldown",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/vecnavium-pm-pl/SlapperCooldown",
+  "archive_repo": null,
+  "approved_release_tag": "r-8835",
+  "stars": 0,
+  "total_downloads": 1112,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [
+      "Slapper"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "vecnavium-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/160124",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-8835",
+      "published_at": null,
+      "downloads": 1112,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8835/slappercooldown-1.0.1-r8835.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8835",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8835/slappercooldown-1.0.1-r8835.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SlapperCooldown",
+    "stable_release_id": 8835
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "emotecommands",
+  "name": "EmoteCommands",
+  "author": "Swift-Strider",
+  "description": "The EmoteCommands Plugin",
+  "readme_markdown": "# The EmoteCommands Plugin\n\n![Plugin Icon](assets/icon.png)\n\n<div align=\"center\"><strong><p>This Plugin runs commands when a player does a certain emote</p><p>You will need a pocketmine server of at least version 4.0.0</strong></div>\n\n# Usage\n\nAn EmoteCommand is a list of commands and an emote that runs those commands. **Every emote may only have one EmoteCommand for it.**\n\n- `/makeemotecommand <name>` create new EmoteCommand with that `name`\n- `/editemotecommand <name>` edit EmoteCommand named `name`\n- `/removeemotecommand <name>` remove EmoteCommand named `name`\n\n# TODOs\n\n- [x] Load commands to run from config file\n- [x] Create command to manage emote-commands\n\n# Future Improvements\n\n- [ ] Run commands as server\n- [ ] Have players change what emote fires an EmoteCommand for them",
+  "readme_source_url": "https://github.com/Swift-Strider/EmoteCommands",
+  "icon_url": "https://raw.githubusercontent.com/Swift-Strider/EmoteCommands/48143c6db85462265d48339f0cbed5d92e9e14a3/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Swift-Strider/EmoteCommands",
+  "archive_repo": null,
+  "approved_release_tag": "r-8652",
+  "stars": 0,
+  "total_downloads": 655,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Swift-Strider"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-8652",
+      "published_at": null,
+      "downloads": 655,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8652/emotecommands-1.0.0-r8652.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8652",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8652/emotecommands-1.0.0-r8652.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EmoteCommands",
+    "stable_release_id": 8652
+  }
+}

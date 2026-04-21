@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12122",
   "stars": 0,
-  "total_downloads": 8574,
+  "total_downloads": 12226,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "2.0.0",
       "tag": "r-12122",
       "published_at": null,
-      "downloads": 5449,
+      "downloads": 5450,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12122/betterhomes-2.0.0-r12122.phar"
     },
     "dev": null
@@ -49,6 +49,11 @@
       "tag": "r-10593",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10593/betterhomes-1.0.1-r10593.phar"
+    },
+    {
+      "tag": "r-8799",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8799/betterhomes-1.0.0-r8799.phar"
     }
   ],
   "comments": {

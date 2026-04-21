@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9832",
   "stars": 0,
-  "total_downloads": 593,
+  "total_downloads": 694,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-9175",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9175/nbteditor-1.0.1-r9175.phar"
+    },
+    {
+      "tag": "r-8725",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8725/nbteditor-1.0.0-r8725.phar"
     }
   ],
   "comments": {

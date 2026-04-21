@@ -1,0 +1,61 @@
+{
+  "id": "customcraftdraz",
+  "name": "CustomCraftDraz",
+  "author": "Taylor-pm-pl",
+  "description": "One plugin custom craft for pmmp",
+  "readme_markdown": "[![Discord](https://img.shields.io/discord/1100650029573738508.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/yAhsgskaGy)\n# CustomCraftDraz\n- One plugin custom craft for pmmp \n- Email: nguyenhieucoder47@gmail.com\n- Thanks for using! <\n# Config \n```\n---\n# Item_1 is default name\n# You can change name\n# Example: nam, dragovn, etc\nItem_1:\n  shape:\n    - [[0], [\"260:0\"], [0]]\n    - [[\"260:0\"], [\"260:0\"], [\"260:0\"]]\n    - [[0], [\"260:0\"], [0]]\n  result:  [\"278:0\", 1]\n  # enable_enchant: false => not working\n  enable_enchant: true\n  # enable_cenchant: false => not working\n  enable_cenchant: true\n  enchantment:\n    9: 1\n  cenchantment:\n    haste: 1\n...\n```\n# Update next !\n- Update commands setup for shape and result to easy usage!",
+  "readme_source_url": "https://github.com/Taylor-pm-pl/CustomCraftDraz",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Taylor-pm-pl/CustomCraftDraz",
+  "archive_repo": null,
+  "approved_release_tag": "r-8815",
+  "stars": 5,
+  "total_downloads": 564,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Taylor-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/167498",
+  "versions": {
+    "stable": {
+      "version": "1.0.4",
+      "tag": "r-8815",
+      "published_at": null,
+      "downloads": 564,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8815/customcraftdraz-1.0.4-r8815.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8815",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8815/customcraftdraz-1.0.4-r8815.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomCraftDraz",
+    "stable_release_id": 8815
+  }
+}

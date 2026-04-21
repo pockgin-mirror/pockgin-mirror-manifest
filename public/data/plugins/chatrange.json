@@ -1,0 +1,61 @@
+{
+  "id": "chatrange",
+  "name": "ChatRange",
+  "author": "minijaham",
+  "description": "This plugin for PocketMine-MP will allow players to only chat with players in a certain range!",
+  "readme_markdown": "## ChatRange\n[![](https://poggit.pmmp.io/shield.state/ChatRange)](https://poggit.pmmp.io/p/ChatRange)\n\nThis plugin for PocketMine-MP will allow players to only chat with players in a certain range!\n\n# Developer Tool\n| Command | Description                   | Usage                   | Example                  | Permission |\n| ------- | ----------------------------- | ----------------------- | ------------------------ | ----------- |\n| /sudo   | Send a message or run command as another player! | /sudo <player> <msg> | /sudo PlayerName Message! Space is also Allowed! | command.sudo |\n\n# Credit\n[ErikPDev](https://github.com/ErikPDev) For the command /sudo!\n\n# Configuration\n```yaml\n# Message range in block count. Default: 50\nrange: 50\n# Whether to send message to OPs, regardless of the range. Default: true\n# Options: true/false\nsend-to-op: true\n```\n\n# Permissions\n| Permission | Description                |\n| ------- | ----------------------------- |\n| chat.receive | Allow a player to see chat messages regardless of the range |",
+  "readme_source_url": "https://github.com/minijaham/ChatRange",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/minijaham/ChatRange",
+  "archive_repo": null,
+  "approved_release_tag": "r-8808",
+  "stars": 5,
+  "total_downloads": 555,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "minijaham"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-8808",
+      "published_at": null,
+      "downloads": 555,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8808/chatrange-0.0.1-r8808.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8808",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8808/chatrange-0.0.1-r8808.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatRange",
+    "stable_release_id": 8808
+  }
+}

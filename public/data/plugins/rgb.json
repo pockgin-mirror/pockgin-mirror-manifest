@@ -1,0 +1,61 @@
+{
+  "id": "rgb",
+  "name": "RGB",
+  "author": "fernanACM",
+  "description": "RGB-Armor",
+  "readme_markdown": "# RGB-Armor\n[![](https://poggit.pmmp.io/shield.state/RGB)](https://poggit.pmmp.io/p/RGB)\n<a href=\"https://poggit.pmmp.io/p/RGB\"><img src=\"https://poggit.pmmp.io/shield.state/RGB\"></a>\n\n**Color your leather armor with RGB-ARMOR, simple and easy to use.**\n![Captura de pantalla 2021-12-29 211520](https://user-images.githubusercontent.com/83558341/147720436-4c53f350-a870-4754-b308-c13ab745dbe9.png)\n<a href=\"https://discord.gg/YyE9XFckqb\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n**This plugin does not belong to me, but to mohagames, who is the original author of this plugin.**\n\n### Implementations\n* Update to new API 4.0.\n* Sounds.\n* Message customization.\n---\n\n### Config\n```yaml\n   #  ____     ____   ____       _                                      \n   # |  _ \\   / ___| | __ )     / \\     _ __   _ __ ___     ___    _ __ \n   # | |_) | | |  _  |  _ \\    / _ \\   | '__| | '_ ` _ \\   / _ \\  | '__|\n   # |  _ <  | |_| | | |_) |  / ___ \\  | |    | | | | | | | (_) | | |   \n   # |_| \\_\\  \\____| |____/  /_/   \\_\\ |_|    |_| |_| |_|  \\___/  |_|   \n   #         By fernanACM and mohagames  \n\n   #Color your armor with RGB codes! \n   #A simple RGB menu that will allow you to color your leather armor to your liking.\n\n   #Here you can get the rgb codes for the plugin: https://www.rapidtables.com/web/color/RGB_Color.html\n\n   #Examples RGB:\n   #Button SINGLE --X\n\n   #Single: \"r, g, b\" = 233,112,341\n\n   #Button MULTIPLE --X\n   #Multiple: \n\n   #Helmet: \"r, g, b\" = 217,188,172\n   #Chestplate: \"r, g, b\" = 188,372,299\n   #Pants: \"r, g, b\" = 352,261,222\n   #Boots: \"r, g, b\" = 255,255,255\n   #------------------------\n\n   # Prefix RGBArmor plugin:\n   Prefix: \"§l§7[§5RGB§dArmor§7]§8»§r \"\n   #------------------------------------\n\n   # Messages plugin:\n   RGB-CODE: \"§gThis RGB code is invalid!\"\n\n   Error: \"§gPlease fill in all fields\"\n\n   #------------------------------------\n\n   # MENU MESSAGE:\n\n   MenuContent: \"§l§eSingle:§r Make a whole set with the same color\\n\\n§l§eMultiple:§r Customise each armor piece\\n\\n\"\n   # Buttons\n   ButtonSingle: \"§l§9Single\\n§r§0Click\"\n   ButtonMultiple: \"§l§bMultiple\\n§r§0Click\"\n   ButtonExit: \"§l§4Exit\\n§r§0Menu\"\n```\n\n### Commands\n/rgb - Command to open RGB menu\n\n### Permissions\n\n- Executing the command: ```rgb.acm```\n- General use: ```rgb.acm```\n\n### Contact \n\n| Redes | Tag | Link |\n|-------|-------------|------|\n| YouTube | fernanACM | [YouTube](https://www.youtube.com/channel/UC-M5iTrCItYQBg5GMuX5ySw) | \n| Discord | fernanACM#5078 | [Discord](https://discord.gg/YyE9XFckqb) |\n| GitHub | fernanACM | [GitHub](https://github.com/fernanACM)\n| Poggit | fernanACM | [Poggit](https://poggit.pmmp.io/ci/fernanACM)\n****\n\n### Credits\n\n* **Original author: [mohagames](https://github.com/Mohagames205)**\n---\n* **[Vecnavium](https://github.com/Vecnavium)**\n* **[FormsUI](https://github.com/Vecnavium/FormsUI/tree/master/)**\n---\n* **[Muqsit](https://github.com/Muqsit)**\n* **[FormImageFIX](https://github.com/Muqsit/FormImagesFix/tree/pm-4.0/)**",
+  "readme_source_url": "https://github.com/fernanACM/RGBArmor",
+  "icon_url": "https://raw.githubusercontent.com/fernanACM/RGBArmor/36d0e4a1b6c573fdce7b7f7a19f45f1d176915b3/icon.png",
+  "featured": false,
+  "repo": "https://github.com/fernanACM/RGBArmor",
+  "archive_repo": null,
+  "approved_release_tag": "r-8631",
+  "stars": 3,
+  "total_downloads": 915,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "fernanACM"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-8631",
+      "published_at": null,
+      "downloads": 915,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8631/rgb-1.0-r8631.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8631",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8631/rgb-1.0-r8631.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RGB",
+    "stable_release_id": 8631
+  }
+}
