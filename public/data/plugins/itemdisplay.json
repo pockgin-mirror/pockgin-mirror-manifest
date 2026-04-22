@@ -1,0 +1,61 @@
+{
+  "id": "itemdisplay",
+  "name": "ItemDisplay",
+  "author": "DaRealAqua",
+  "description": "ITEM DISPLAY PLUGIN",
+  "readme_markdown": "# ITEM DISPLAY PLUGIN\n\n<img src=\"https://discordapp.com/api/guilds/646732504744853518/widget.png?style=shield\" alt=\"AquaDevs Discord\"/>\n\n 📜Description: This plugin makes all items thrown down appear their name and amount in floating text.\n\n\n 🔖Updates Soon!!\n - Config\n - and Much more...\n\n\n **Subscribe to my Channel!**\n\n [YouTube Channel](http://youtube.lexuspe.xyz)\n\n\n\n\n\n **Join my Discord Servers!**\n\n [AquaDevs Discord](https://discord.gg/5pxFZHmsC7)\n\n [Levania Discord](https://discord.gg/Axa33MgXJ9)\n\n \n\n **👥Credits**\n```\n - DaRealAqua\n```\n\n\n **📸Images**\n \n ![Image1](https://cdn.discordapp.com/attachments/508242454173057025/781230219973361694/IMG_0819.jpg)",
+  "readme_source_url": "https://github.com/DaRealAqua/ItemDisplay",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/DaRealAqua/ItemDisplay",
+  "archive_repo": null,
+  "approved_release_tag": "r-7559",
+  "stars": 4,
+  "total_downloads": 257,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaRealAqua"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-7559",
+      "published_at": null,
+      "downloads": 257,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7559/itemdisplay-0.0.1-r7559.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7559",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7559/itemdisplay-0.0.1-r7559.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemDisplay",
+    "stable_release_id": 7559
+  }
+}

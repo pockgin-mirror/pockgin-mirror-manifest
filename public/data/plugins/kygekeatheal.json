@@ -1,0 +1,63 @@
+{
+  "id": "kygekeatheal",
+  "name": "KygekEatHeal",
+  "author": "thebigcrafter",
+  "description": "📖 About",
+  "readme_markdown": "<h1 align=\"center\">KygekEatHeal</h1>\n\n<p align=\"center\">\n<img src=\"https://poggit.pmmp.io/shield.dl.total/KygekEatHeal?style=for-the-badge\" alt=\"poggit\" />\n<a href=\"https://github.com/thebigcrafter/KygekEatHeal/blob/pm4/LICENSE\"><img src=\"https://img.shields.io/github/license/thebigcrafter/KygekEatHeal?style=for-the-badge\" alt=\"license\" /></a>\n<a href=\"https://discord.gg/PykBfE2TZ9\"><img src=\"https://img.shields.io/discord/1087729577004122112?color=7289DA&label=discord&logo=discord&style=for-the-badge\" alt=\"discord\" /></a>\n</p>\n\n# 📖 About\n\nA PocketMine-MP plugin that can heal and feed yourself or other players. [BedrockEconomy](https://github.com/cooldogedev/BedrockEconomy) is supported for paid heals and feeds.\n\n**⚠️ NOTE:** EconomyAPI has been deprecated and perceived as obsolete because of performance reasons. BedrockEconomy is currently the preferred replacement of EconomyAPI. Therefore, starting from version 2.0.0, KygekEatHeal has started using BedrockEconomy, while also dropping EconomyAPI support. If you are interested to migrate to BedrockEconomy, you can use [its database converter](https://github.com/cooldogedev/EconAPIToBE) plugin to get started.\n\n# 🧩 Features\n\n- [BedrockEconomy](https://github.com/cooldogedev/BedrockEconomy) support for paid heals and feeds\n- Customizable heal or feed amount (points)\n- Heal or feed another player\n- Offline player detection\n- Full or healthy detection (so you won't waste money!)\n- Customizable heal and feed cooldown\n- Option to restore saturation\n- Custom prefix for messages and logs\n- Command description can be changed\n- Supports command aliases\n- Automatic plugin updates checker\n- Automatic configuration files reloading\n- Automatic configuration file updater\n\n# ⬇️ Installation\n\n1. Download the latest version (It is recommended to always download the latest version for the best experience, except you're having compatibility issues).\n2. Place the `KygekEatHeal.phar` file into the plugins folder.\n3. Restart or start your server.\n4. Done!\n\n# 📜 Commands & Permissions\n\n| Command | Default Description | Permission | Default |\n| --- | --- | --- | --- |\n| `/eat` | Eat or feed a player | `kygekeatheal.eat` | true |\n| `/heal` | Heal yourself or a player | `kygekeatheal.heal` | true |\n\n💡 Tips:\n- Permission `kygekeatheal` can be used to allow all commands (Default is `true`).\n- Command description can be changed in `config.yml`. You can also add command aliases in `config.yml`.\n- Use `-{COMMAND-PERMISSION}` to blacklist the command permissions to groups/users in PurePerms (e.g. `-kygekeatheal.eat`).\n\n# 🚢 Other Versions\n\n- [Nukkit](https://github.com/KygekTeam/KygekEatHeal-Nukkit)\n\n# ⚖️ License\n\nLicensed under the [GNU General Public License v3.0](https://github.com/thebigcrafter/KygekEatHeal/blob/main/LICENSE) license.",
+  "readme_source_url": "https://github.com/thebigcrafter/KygekEatHeal",
+  "icon_url": "https://raw.githubusercontent.com/KygekTeam/KygekEatHeal/672109b7d107943f4dd975e46445a172501281f7/icon.png",
+  "featured": false,
+  "repo": "https://github.com/thebigcrafter/KygekEatHeal",
+  "archive_repo": null,
+  "approved_release_tag": "r-7507",
+  "stars": 0,
+  "total_downloads": 262,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigcrafter"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/139844",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-7507",
+      "published_at": null,
+      "downloads": 262,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7507/kygekeatheal-1.2.0-r7507.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7507",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7507/kygekeatheal-1.2.0-r7507.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KygekEatHeal",
+    "stable_release_id": 7507
+  }
+}

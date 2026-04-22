@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8208",
   "stars": 5,
-  "total_downloads": 2537,
+  "total_downloads": 3403,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-8208",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8208/endercooldown-2.0.0-r8208.phar"
+    },
+    {
+      "tag": "r-7439",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7439/endercooldown-1.0.0-r7439.phar"
     }
   ],
   "comments": {

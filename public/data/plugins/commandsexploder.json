@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8537",
   "stars": 1,
-  "total_downloads": 770,
+  "total_downloads": 1090,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-8524",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8524/commandsexploder-1.0.1-r8524.phar"
+    },
+    {
+      "tag": "r-7586",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7586/commandsexploder-1.0.0-r7586.phar"
     }
   ],
   "comments": {

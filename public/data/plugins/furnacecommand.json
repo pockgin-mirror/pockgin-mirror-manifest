@@ -1,0 +1,61 @@
+{
+  "id": "furnacecommand",
+  "name": "FurnaceCommand",
+  "author": "AyzrixYTB",
+  "description": "Furnace",
+  "readme_markdown": "# Furnace\n\n## Description\n###### Furnace Command is a simple plugin that adds a command to furnace items in your hand. With this plugin, simplify the use of furnaces and allow your players to furnace their items faster.\n\n### Command\nname: `furnace`\n<br/>    description: `Furnace the items in your hand`\n<br/>    permission: `furnace.command`\n<br/>    aliases: `[]`\n\n### Configuration\n```yaml\n#    ______\n#   |  ____|\n#   | |__ _   _ _ __ _ __   __ _  ___ ___\n#   |  __| | | | '__| '_ \\ / _` |/ __/ _ \\\n#   | |  | |_| | |  | | | | (_| | (_|  __/\n#   |_|   \\__,_|_|  |_| |_|\\__,_|\\___\\___|\n#\n#      \nprefix: \"§6[§fAyzrix§6]\"\n\ncommand_name: \"furnace\"\ncommand_description: \"Furnace the items in your inventory\"\ncommand_permission: \"furnace.command\"\n# [\"alias1\", \"alias2\", \"alias3\", ...]\ncommand_aliases: []\n\nnot_player: \"{prefix} §cYou must be a player to use this command\"\nnot_permission: \"{prefix} §cYou don't have the permission to use this command\"\nfurnace_success: \"{prefix} §aThe item in your hand has been successfully furnace\"\ncannot_furnace: \"{prefix} §cThe item in your hand cannot be furnace\"\n```\n\n### License\n  This plugin is licensed under the [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)\n\n  >This program is free software: you can redistribute it and/or modify<br/>\n  >it under the terms of the GNU General Public License as published by<br/>\n  >the Free Software Foundation, either version 3 of the License, or<br/>\n  >(at your option) any later version.<br/>\n  >\n  >This program is distributed in the hope that it will be useful,<br/>\n  >but WITHOUT ANY WARRANTY; without even the implied warranty of<br/>\n  >MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the<br/>\n  >GNU General Public License for more details.<br/>\n  >\n  >You should have received a copy of the GNU General Public License<br/>\n  >along with this program.  If not, see http://www.gnu.org/licenses/",
+  "readme_source_url": "https://github.com/AyzrixYTB/FurnaceCommand",
+  "icon_url": "https://raw.githubusercontent.com/AyzrixYTB/FurnaceCommand/4b18c731a2766e067b4352874a826480040d4080/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AyzrixYTB/FurnaceCommand",
+  "archive_repo": null,
+  "approved_release_tag": "r-7661",
+  "stars": 0,
+  "total_downloads": 271,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AyzrixYTB"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-7661",
+      "published_at": null,
+      "downloads": 271,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7661/furnacecommand-1.2.0-r7661.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7661",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7661/furnacecommand-1.2.0-r7661.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FurnaceCommand",
+    "stable_release_id": 7661
+  }
+}

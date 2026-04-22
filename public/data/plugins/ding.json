@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7723",
   "stars": 0,
-  "total_downloads": 360,
+  "total_downloads": 484,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.0.1",
       "tag": "r-7723",
       "published_at": null,
-      "downloads": 360,
+      "downloads": 361,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7723/ding-1.0.1-r7723.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-7723",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7723/ding-1.0.1-r7723.phar"
+    },
+    {
+      "tag": "r-7440",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7440/ding-1.0.0-r7440.phar"
     }
   ],
   "comments": {

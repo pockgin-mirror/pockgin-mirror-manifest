@@ -1,0 +1,61 @@
+{
+  "id": "burgercustomarmor",
+  "name": "BurgerCustomArmor",
+  "author": "Heisenburger69",
+  "description": "Saw that server that gave you cool effects if you wore the entirety of a specific armor set?",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.dl.total/BurgerCustomArmor)](https://poggit.pmmp.io/p/BurgerCustomArmor)\n\n\n# BurgerCustomArmor\nSaw that server that gave you cool effects if you wore the entirety of a specific armor set? \nNow you can create custom armor sets with several abilities too! With a wide range of abilities that you can give armor sets\nand loads more coming, your server can take PvP to the next level! Players will receive all the abilities listed for the Armor\nSet when they wear ALL FOUR pieces: Helmet, Chestplate, Leggings and Boots of the Armor Set.  \n\nPlayers can be given Custom Armor Sets with the command /customarmor\n## Features:\n* Create an infinite number of Custom Armor Sets.\n* Over 15 different abilities you can grant to different Armor Sets.\n* Modify Armor Piece defense points, make Leather Armor as strong as Diamond Armor!\n* Over 16 million possible colors you can give Armor Sets.\n* Give players permissions only while they wear a specific armor set, allow players to fly only while having specific armor on!\n* Easy to Configure with 3 example Armor Sets already made and an in-depth explanation of every ability.\n* RPG style abilities granting players perks like enchanced damage but lower defense stats on their armor.\n* Grant players special custom capes only when an entire Armor Set is worn\n* Whitelist or Blacklist abilities from working in specific worlds.\n* Infinite customization and every aspect of the Armor Set is configurable.\n* Changeable item durability to let CustomArmor have more durability points!\n* Customizable commands that can be executed when an armor set is worn or removed.\n* Granting players Custom Armor Sets is super easy and can be done with just a simple command.\n* Custom Events for Developers to do their own magic whenever Custom Armor Sets are activated or deactivated.\n## Ideas for Server Owners:\n* Tiered Kit System using leather armor, with the color getting progressively darker as the kit gets stronger\n* Event based sets, receive items of the set for winning special events like KOTH, Boss Battle, etc\n* Create a class system of different sets, with say an Archer set having high damage when using bows but very low defense\n* Have fun and mess around\n## TODO:\n- [x] Customizable messages to send when an armor set is equipped/unequipped.\n- [ ] In-game Armor Set creation and modification using a UI\n- [ ] Conditional Abilities, for example: Near grass blocks\n- [ ] Allow mix-and-match of tiers rather than forcing an entire set to be one tier\n- [ ] Create a Wiki for more in-depth understanding of Armor Abilities\n- [x] Custom crafting for Armor Pieces\n- [x] Allow commands to be executed when an armor set is equipped/unequipped.\n- [x] Custom durability values for Armor Pieces\n- [ ] Create an API for creation and registration of Abilities and Armor Sets\n- [ ] Rainbow Armor Sets\n- [ ] Complex AND OR equations allowing insanely customizable abilities\n- [ ] Custom weapons to go along with each set\n## Showcase:\n![AssasinSet](/images/AssassinSet.png)\\\n![ExampleSet](/images/ExampleSet.png)\\\n![WearingAqua](/images/WearingAqua.png)",
+  "readme_source_url": "https://github.com/Heisenburger69/BurgerCustomArmor",
+  "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerCustomArmor/75037a21b1821a42fb31c35c51eccb42b0ac2108/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Heisenburger69/BurgerCustomArmor",
+  "archive_repo": null,
+  "approved_release_tag": "r-7456",
+  "stars": 4,
+  "total_downloads": 2323,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Heisenburger69"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/138752",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-7456",
+      "published_at": null,
+      "downloads": 2323,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7456/burgercustomarmor-1.0.0-r7456.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7456",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7456/burgercustomarmor-1.0.0-r7456.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BurgerCustomArmor",
+    "stable_release_id": 7456
+  }
+}

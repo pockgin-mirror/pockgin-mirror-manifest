@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12233",
   "stars": 0,
-  "total_downloads": 1929,
+  "total_downloads": 4433,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -56,6 +56,11 @@
       "tag": "r-9666",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9666/mineparty-2.0.0-r9666.phar"
+    },
+    {
+      "tag": "r-7589",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7589/mineparty-1.0.0-r7589.phar"
     }
   ],
   "comments": {

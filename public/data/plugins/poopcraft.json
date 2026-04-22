@@ -1,0 +1,66 @@
+{
+  "id": "poopcraft",
+  "name": "PoopCraft",
+  "author": "sn3akrr",
+  "description": "You can now poop on your PocketMine-MP server! PoopCraft is a highly customizable poop plugin, which allows you to poop in many different ways!",
+  "readme_markdown": "<p>You can now poop on your PocketMine-MP server! PoopCraft is a highly customizable poop plugin, which allows you to poop in many different ways!</p>\n<h2>Command Usage</h2>\n<p>/poop sneak - Poop every time you sneak<br><br>\n/poop hand - Poop the item in your hand out<br><br>\n/poop inv - Poop out every item in your inventory individually<br><br>\n/poop jetpack - Fly with a poop jetpack every time you sneak</p>\n<h2>Permissions</h2>\n<p>poop.command - Access to the poop command<br><br>\npoop.sneak - Access to the sneak feature<br><br>\npoop.hand - Access to the poop hand feature<br><br>\npoop.all - Access to the poop inventory feature<br><br>\npoop.jetpack - Access to the poop jetpack feature</p>\n<h2>Config</h2>\n<p>The config is fairly simple! Once you download this plugin, start up your server and a default config will be saved. Here you can select what players are allowed to use which commands, and also modify your poop sound, poop force, rate of poop, and poop jetpack force.</p>\n<h2>Languages</h2>\n<p>Want PoopCraft to support a different language? Feel free to create a pull request on my GitHub!</p>",
+  "readme_source_url": "https://poggit.pmmp.io/r/137199",
+  "icon_url": "https://raw.githubusercontent.com/sn3akrr/PoopCraft/a479844c126f4786b063ad4afb51ab1577c2eb43/icon.png",
+  "featured": false,
+  "repo": "https://github.com/sn3akrr/PoopCraft",
+  "archive_repo": null,
+  "approved_release_tag": "r-7369",
+  "stars": 2,
+  "total_downloads": 267,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "sn3akrr"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/137201",
+  "versions": {
+    "stable": {
+      "version": "1.1.1-ALPHA",
+      "tag": "r-7369",
+      "published_at": null,
+      "downloads": 232,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7369/poopcraft-1.1.1-alpha-r7369.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7369",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7369/poopcraft-1.1.1-alpha-r7369.phar"
+    },
+    {
+      "tag": "r-7368",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7368/poopcraft-1.1.0-alpha-r7368.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PoopCraft",
+    "stable_release_id": 7369
+  }
+}

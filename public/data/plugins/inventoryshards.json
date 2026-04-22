@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8711",
   "stars": 5,
-  "total_downloads": 626,
+  "total_downloads": 885,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,21 @@
       "tag": "r-7990",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7990/inventoryshards-1.0.0-r7990.phar"
+    },
+    {
+      "tag": "r-7630",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7630/inventoryshards-0.0.9-2-r7630.phar"
+    },
+    {
+      "tag": "r-7580",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7580/inventoryshards-0.0.9-1-r7580.phar"
+    },
+    {
+      "tag": "r-7518",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7518/inventoryshards-0.0.9-r7518.phar"
     }
   ],
   "comments": {

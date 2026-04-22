@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8413",
   "stars": 4,
-  "total_downloads": 526,
+  "total_downloads": 896,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -46,6 +46,16 @@
       "tag": "r-8413",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8413/plotrate-1.1.2-1-r8413.phar"
+    },
+    {
+      "tag": "r-7483",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7483/plotrate-1.1.2-r7483.phar"
+    },
+    {
+      "tag": "r-7464",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7464/plotrate-1.1.1-1-r7464.phar"
     }
   ],
   "comments": {

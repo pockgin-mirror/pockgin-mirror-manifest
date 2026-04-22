@@ -1,0 +1,61 @@
+{
+  "id": "packetlimiter",
+  "name": "PacketLimiter",
+  "author": "AkmalFairuz",
+  "description": "A Packet Limiter plugin for PocketMine",
+  "readme_markdown": "# PacketLimiter\nA Packet Limiter plugin for PocketMine\n\nA plugin to limit player from sending many packets. Attacker may sent a lot of packet.  \nPocketMine does not provide any level of protection against packet spam.  \nAs such, individual players can send as many packets as they want.  \nThe solution was to limit the maximum packets/second a client could send.  \n\n## Config\n```yml\n# Normal player sent ~200 packet every second\npacket_per_second: 250\n# If reach limit packet per second they will get warning and if reach maximum warning they kicked.\nmaximum_warning: 5\n\nkick_message: \"You sending too many packets!\"\n```",
+  "readme_source_url": "https://github.com/AkmalFairuz/PacketLimiter",
+  "icon_url": "https://raw.githubusercontent.com/AkmalFairuz/PacketLimiter/7ad53e52d12a8282bef8840835c00b3040016125/resources/logo.png",
+  "featured": false,
+  "repo": "https://github.com/AkmalFairuz/PacketLimiter",
+  "archive_repo": null,
+  "approved_release_tag": "r-7515",
+  "stars": 5,
+  "total_downloads": 389,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.10.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AkmalFairuz"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-7515",
+      "published_at": null,
+      "downloads": 389,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7515/packetlimiter-1.0.0-r7515.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7515",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7515/packetlimiter-1.0.0-r7515.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PacketLimiter",
+    "stable_release_id": 7515
+  }
+}

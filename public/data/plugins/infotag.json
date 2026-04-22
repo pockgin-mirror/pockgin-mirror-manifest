@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8952",
   "stars": 4,
-  "total_downloads": 2755,
+  "total_downloads": 2863,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -61,6 +61,11 @@
       "tag": "r-7715",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7715/infotag-2.0-stable-r7715.phar"
+    },
+    {
+      "tag": "r-7648",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7648/infotag-1.0-stable-r7648.phar"
     }
   ],
   "comments": {

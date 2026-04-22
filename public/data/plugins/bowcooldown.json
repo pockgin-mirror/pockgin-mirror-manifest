@@ -1,0 +1,61 @@
+{
+  "id": "bowcooldown",
+  "name": "BowCooldown",
+  "author": "TacoNoBurrito",
+  "description": "A simple bow cooldown plugin, limit your players from spamming arrows",
+  "readme_markdown": "# BowCooldown\n\nA simple bow cooldown plugin, limit your players from spamming arrows\n\n# Config\n\n```\n# The cool down length\ncd: \"1.0\"\n\n# The message sent when they try to shoot\n# an arrow whilst on cool down\nmessage: \"You are still on bow cd: {time}\"\n\n# Whether it sends a popup or message\npopup: false```",
+  "readme_source_url": "https://github.com/TacoNoBurrito/BowCooldown",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/TacoNoBurrito/BowCooldown",
+  "archive_repo": null,
+  "approved_release_tag": "r-7568",
+  "stars": 4,
+  "total_downloads": 422,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TacoNoBurrito"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-7568",
+      "published_at": null,
+      "downloads": 422,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7568/bowcooldown-1.0.0-r7568.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7568",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7568/bowcooldown-1.0.0-r7568.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BowCooldown",
+    "stable_release_id": 7568
+  }
+}

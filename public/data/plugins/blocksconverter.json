@@ -1,0 +1,61 @@
+{
+  "id": "blocksconverter",
+  "name": "BlocksConverter",
+  "author": "matcracker",
+  "description": "BlocksConverter is a **PocketMine-MP plugin** that allows you to translate blocks from MC: Java Edition to Bedrock or vice-versa.",
+  "readme_markdown": "# BlocksConverter\n[![ ](https://poggit.pmmp.io/shield.state/BlocksConverter)](https://poggit.pmmp.io/p/BlocksConverter)\n[![ ](https://poggit.pmmp.io/shield.api/BlocksConverter)](https://poggit.pmmp.io/p/BlocksConverter)\n[![ ](https://poggit.pmmp.io/shield.dl.total/BlocksConverter)](https://poggit.pmmp.io/p/BlocksConverter)\n[![Discord](https://img.shields.io/discord/620519017148579841.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/Uf6U78g)\n\nBlocksConverter is a **PocketMine-MP plugin** that allows you to translate blocks from MC: Java Edition to Bedrock or vice-versa.\n\n## Supported world conversion\n\n| From               | To         | Supported |\n|--------------------|------------|:---------:|\n| Java 1.13+         | PocketMine | No        |\n| Java 1.12 or lower | PocketMine | Yes       |\n\n## Important\nThis plugin could take some time when converting worlds. While the conversion, **don't** try to stop or turn off the server until it's finished.\n\n## Commands\n\n### /convert\n\nAllows to convert a single world or a queue of world to the platform destination (bedrock or java).\n\n**Syntax**: /convert <world_name|queue> [backup=true|false] [platform=bedrock|java] [force=true|false]\n\n**Permission**: blocksconverter.command.convert\n\n**Command parameters**:\n- **<world_name|queue>**: it's a mandatory parameter, it requires the name of world to be converted or \"queue\" to convert a list of worlds. (See **/convertqueue** for more information)\n- **[backup=true|false]**: it's an optional parameter, when the value is \"true\" it creates a backup of your world before the conversion otherwise not. _(Default \"true\")_\n- **[platform=bedrock|java]**: it's an optional parameter, when the value is \"bedrock\" it converts the world from java to bedrock, when \"java\" it converts from bedrock to java. _(Default \"bedrock\")_\n- **[force=true|false]**: it's an optional parameter, when the value is \"true\" you will force the conversion to run **(at your own risk!)** otherwise not. _(Default \"false\")_\n\n### /convertqueue\n\nAllows managing worlds to be converted. It's useful when you need to convert more than one world.\n\n**Syntax**: /convertqueue <add|remove|status> [world_name|all]\n\n**Permission**: blocksconverter.command.convertqueue\n\n**Command alias**: /cq\n\n**Command parameters**:\n- **add**: It adds one or all worlds in queue before the conversion. \n- **remove**: It removes one or all worlds from the queue.\n- **status**: It shows the status of current queue.\n\n### /toolblock\n\nAllows showing information about the block you are targeting. (Useful to detect the block ID to replace with).\n\n**Permission**: blocksconverter.command.toolblock",
+  "readme_source_url": "https://github.com/matcracker/BlocksConverter",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/matcracker/BlocksConverter",
+  "archive_repo": null,
+  "approved_release_tag": "r-7617",
+  "stars": 5,
+  "total_downloads": 2106,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "matcracker"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/141720",
+  "versions": {
+    "stable": {
+      "version": "2.2.3",
+      "tag": "r-7617",
+      "published_at": null,
+      "downloads": 2106,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7617/blocksconverter-2.2.3-r7617.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7617",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7617/blocksconverter-2.2.3-r7617.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlocksConverter",
+    "stable_release_id": 7617
+  }
+}

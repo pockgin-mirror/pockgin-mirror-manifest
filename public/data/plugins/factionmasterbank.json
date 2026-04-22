@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7986",
   "stars": 4,
-  "total_downloads": 523,
+  "total_downloads": 618,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -58,6 +58,16 @@
       "tag": "r-7742",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7742/factionmasterbank-1.4.0-r7742.phar"
+    },
+    {
+      "tag": "r-7596",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7596/factionmasterbank-1.3.0-r7596.phar"
+    },
+    {
+      "tag": "r-7521",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7521/factionmasterbank-1.0.0-r7521.phar"
     }
   ],
   "comments": {

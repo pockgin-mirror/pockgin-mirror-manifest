@@ -1,0 +1,66 @@
+{
+  "id": "infobook",
+  "name": "InfoBook",
+  "author": "MrNinja008",
+  "description": "InfoBook is a plugin that adds written book in player inventory if they joined for the first time ( only one time it gives the book)",
+  "readme_markdown": "<h1>InfoBook<img src=\"https://github.com/MrNinja008/InformationBook/blob/main/icon.png\" height=\"64\" width=\"64\" align=\"left\" alt=\"\"></h1><br>\n\n<b>InfoBook is a plugin that adds written book in player inventory if they joined for the first time ( only one time it gives the book) \nmade by MrNinja008 for PocketMine-MP.</b><br>\n\n[![](https://poggit.pmmp.io/shield.api/InfoBook)](https://poggit.pmmp.io/p/InfoBook)\n[![](https://poggit.pmmp.io/shield.state/InfoBook)](https://poggit.pmmp.io/p/InfoBook)\n[![](https://poggit.pmmp.io/shield.dl.total/InfoBook)](https://poggit.pmmp.io/p/InfoBook)\n## 🌴Features\n\n- Inventory Slot Fully Customisable \n- Book Description Customisable\n- Book Name Customisable\n- Book Author Name Customisable\n- Fully Customisable in Config\n- Infinite Pages!\n- BookTags\n## Images👀\n\n![Bank1](https://media.discordapp.net/attachments/847128531288719403/873929937034297344/IMG_20210808_193522.jpg)\n![Bank2](https://media.discordapp.net/attachments/847128531288719403/873930236000108594/IMG_20210808_193636.jpg)\n\n## Tags🌀\n| Tag | Description |\n|:--:|:--:|\n|`{player}`|Display name of the player|\n|`{online_players}`|The number of players online on the server|\n|`{max_players}`|Maximum number of players that the server supports|\n|`{ping}`|Ping of the player|\nThis Are the current available tags to show in book",
+  "readme_source_url": "https://github.com/MrNinja008/InfoBook",
+  "icon_url": "https://raw.githubusercontent.com/MrNinja008/InfoBook/555b1b0b79aaa78d0b9b5ca87a6cbcc675c28cff/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MrNinja008/InfoBook",
+  "archive_repo": null,
+  "approved_release_tag": "r-7414",
+  "stars": 4,
+  "total_downloads": 851,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MrNinja008"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/138010",
+  "versions": {
+    "stable": {
+      "version": "2.1",
+      "tag": "r-7414",
+      "published_at": null,
+      "downloads": 752,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7414/infobook-2.1-r7414.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7414",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7414/infobook-2.1-r7414.phar"
+    },
+    {
+      "tag": "r-7360",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7360/infobook-2.0-r7360.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "InfoBook",
+    "stable_release_id": 7414
+  }
+}

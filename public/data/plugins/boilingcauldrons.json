@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7728",
   "stars": 2,
-  "total_downloads": 982,
+  "total_downloads": 1311,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.0.2-stable",
       "tag": "r-7728",
       "published_at": null,
-      "downloads": 982,
+      "downloads": 983,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7728/boilingcauldrons-1.0.2-stable-r7728.phar"
     },
     "dev": null
@@ -44,6 +44,16 @@
       "tag": "r-7728",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7728/boilingcauldrons-1.0.2-stable-r7728.phar"
+    },
+    {
+      "tag": "r-7495",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7495/boilingcauldrons-1.0.1-stable-r7495.phar"
+    },
+    {
+      "tag": "r-7491",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7491/boilingcauldrons-1.0.0-stable-r7491.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "burgermorphs",
+  "name": "BurgerMorphs",
+  "author": "Heisenburger69",
+  "description": "This plugin adds a Morphs system to PMMP. Players can morph into most mobs available in",
+  "readme_markdown": "# BurgerMorphs\nThis plugin adds a Morphs system to PMMP. Players can morph into most mobs available in\nthe game. Players can also morph into baby versions and upside down versions of the mobs.\nThe morph is only visible to other players and doesn't display to the player itself.\nPossible usecases include: Selling Morphs as cosmetics, Roleplay servers, Hide and Seek servers \nand anything else a server owner might want to use it for.\n# Features\n- Players can morph into any mob\n- Players can also baby mobs, upside down mobs and rainbow sheep\n- Several permission nodes which grant a player access to specific morphs\n- UI to display available morphs as well as reset the morph and turn into a player\n- Several PvP settings to configure how morphs are handled during PvP\n- Setting to toggle nametag display on mobs\n- Configurable messages\n# Commands\n- /adminmorph: Morph a player into a mob or reset him back to a player\n- /morph: Opens a UI that allows a player to select as well as disable their morph\n# Morph Permissions\nAdmins can give players the permission `burgermorphs.<morph>` to give a player access\nto a specific morph.\nFor example:  \n- `burgermorphs.zombie`: Gives a player access to the Zombie morph\n- `burgermorphs.baby_bee`: Gives a player access to the Baby Bee morph\n- `burgermorphs.dinnerbone_irongolem`: Gives a player access to the Upside Down Iron Golem morph\n- `burgermorphs.rainbowsheep`: Gives a player access to the Rainbow Sheep Morph\n- `burgermorphs.baby_dinnerbone_ravager`: Gives a player access to the Baby Upside Down Ravager Morph  \n\nAdditional morphs can be found by using /morph list\n# Admin Permissions\n- `burgermorphs.adminmorph`: Allows a player access to /adminmorph\n- `burgermorphs.morph`: Allows a player access to /morph\n- `burgermorphs.all`: Allows a player access to all morphs\n# Showcase\nThe /morph UI can be seen below:  \n![Morph UI](https://raw.githubusercontent.com/Heisenburger69/BurgerMorphs/master/meta/UI.png)\n\nFor a video recording of the plugin in action, visit https://imgur.com/liiYYD1\n# Note\n- This plugin uses https://github.com/jojoe77777/FormAPI to render forms\n- The Rainbow Sheep morph's upside down version does not work",
+  "readme_source_url": "https://github.com/Heisenburger69/BurgerMorphs",
+  "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerMorphs/951ecdaefe0ee5111bcbde2eb5e3efdfb56a6ed1/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Heisenburger69/BurgerMorphs",
+  "archive_repo": null,
+  "approved_release_tag": "r-7445",
+  "stars": 3,
+  "total_downloads": 3627,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.21.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Heisenburger69"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-7445",
+      "published_at": null,
+      "downloads": 3627,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7445/burgermorphs-1.0.0-r7445.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7445",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7445/burgermorphs-1.0.0-r7445.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BurgerMorphs",
+    "stable_release_id": 7445
+  }
+}

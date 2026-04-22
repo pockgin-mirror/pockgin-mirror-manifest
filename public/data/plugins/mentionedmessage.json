@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8960",
   "stars": 0,
-  "total_downloads": 509,
+  "total_downloads": 616,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-8526",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8526/mentionedmessage-1.0.1-r8526.phar"
+    },
+    {
+      "tag": "r-7656",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7656/mentionedmessage-1.0.0-r7656.phar"
     }
   ],
   "comments": {

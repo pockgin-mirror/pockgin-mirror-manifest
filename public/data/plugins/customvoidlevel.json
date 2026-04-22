@@ -1,0 +1,66 @@
+{
+  "id": "customvoidlevel",
+  "name": "CustomVoidLevel",
+  "author": "BestCodrEver",
+  "description": "CustomVoidLevel is a plugin that sets a y-level to be the void (under y-level 0) and allows you to do things when a player is at that y-level (add a command to run in console et...",
+  "readme_markdown": "<div align=\"center\">\n<a href=\"https://poggit.pmmp.io/p/CustomVoidLevel\"><img src=\"https://poggit.pmmp.io/shield.state/CustomVoidLevel\"></a>\n<a href=\"https://poggit.pmmp.io/p/CustomVoidLevel\"><img src=\"https://poggit.pmmp.io/shield.api/CustomVoidLevel\"></a>\n<a href=\"https://poggit.pmmp.io/p/CustomVoidLevel\"><img src=\"https://poggit.pmmp.io/shield.dl.total/CustomVoidLevel\"></a>\n<a href=\"https://poggit.pmmp.io/p/CustomVoidLevel\"><img src=\"https://poggit.pmmp.io/shield.dl/CustomVoidLevel\"></a>\n\n</div>\n<hr/>\n<div align=\"center\">\n<img src=\"icon.png\" width=\"64\" height=\"64\">\n<h1 align=\"center\">CustomVoidLevel</h1>\n</div>\n<div align=\"center\">\n<p align=\"center\">CustomVoidLevel is a plugin that sets a y-level to be the void (under y-level 0) and allows you to do things when a player is at that y-level (add a command to run in console etc). It also adds a /void command so you can easily change the void level in-game!</p>\n\n**Note: There can be some latency between the player falling to the y-level and the payload.**\n</div>\n<hr/>\n\n## How to setup?\n\n1. Download the `CustomVoidLevel.phar` file.\n2. Drop the plugin file into your server’s plugins folder.\n3. Start the server.\n4. Configure the config to your hearts content.\n5. Restart the server.\n6. Enjoy!\n\n## Commands\n\n`/void <y-level | reset>` - Set the void y-level!\n\n## Permissions\n\n`customvoidlevel.void` - Allows a player to run /void\n\n## Report a bug/leave a suggestion!\n\nFeel free to tell me [here](https://github.com/BestCodrEver/CustomVoidLevel/issues/new)!\n\n<hr/>\n<p align=\"center\">This plugin was made with ❤️ by <a href=\"https://github.com/BestCodrEver\">BestCodrEver</a> for ! !Waltz <3#0505</p>",
+  "readme_source_url": "https://github.com/BestCodrEver/CustomVoidLevel",
+  "icon_url": "https://raw.githubusercontent.com/BestCodrEver/CustomVoidLevel/965a7b73e15e0c665d2db34c54d332003d8a8f21/icon.png",
+  "featured": false,
+  "repo": "https://github.com/BestCodrEver/CustomVoidLevel",
+  "archive_repo": null,
+  "approved_release_tag": "r-7569",
+  "stars": 5,
+  "total_downloads": 226,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BestCodrEver"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/140983",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-7569",
+      "published_at": null,
+      "downloads": 213,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7569/customvoidlevel-1.0.1-r7569.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7569",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7569/customvoidlevel-1.0.1-r7569.phar"
+    },
+    {
+      "tag": "r-7544",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7544/customvoidlevel-1.0.0-r7544.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomVoidLevel",
+    "stable_release_id": 7569
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "otroll",
+  "name": "OTroll",
+  "author": "SpiceX",
+  "description": "The troll plugin with the most features and a modern GUI interface for PocketMine-MP.",
+  "readme_markdown": "<h1>OTroll<img src=\"https://raw.githubusercontent.com/SpiceX/OTroll/master/icon.jpg\" height=\"64\" width=\"64\" align=\"left\" alt=\"\"></h1><br>\n\n<b>The troll plugin with the most features and a modern GUI interface for PocketMine-MP.</b><br>\n[![](https://poggit.pmmp.io/shield.state/OTroll)](https://poggit.pmmp.io/p/OTroll)\n[![Star](https://img.shields.io/github/stars/SpiceX/OTroll)](https://github.com/SpiceX/OTroll/stargazers)\n[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/dagonzalez211)\n[![](https://poggit.pmmp.io/shield.dl.total/OTroll)](https://poggit.pmmp.io/p/OTroll)\n\n## ✨ Functions\n\n- Burn:\nLights the player up for 5 seconds\n- Fake Timeout:\nSends the player a fake timeout message\n- Drop:\nDrops the current item in the player's hand\n- Fake OP:\nLets the player think, he would have got OP\n- Lightning Strike:\nLightning Strikes the player\n- Scare:\nElder-jumpscares the player\n- Fake Demo:\n  Tricks the player into believing that he/she must buy a rank on the server.\n- Look Random:\nLets the player look in a random direction\n- Freeze:\nFreezes the player for 10 seconds\n- Launch:\nLaunches the player up with a firework explosion at the top\n- Hunger:\nSets the player's hunger scale to 1\n- All effects:\nGives the player all effects for 10 seconds\n- Fake BAN:\nLets the player think, he would have been banned\n- AntiCheat fake:\nWarns the player with an anticheat fake warn.\n- Explode:\nSummons a primed TNT at the player\n- Kill: \nKills the player\n- Shuffle inventory:\nShuffles the player's inventory\n- Damage:\nRemoves the player 1 heart\n- Drop all items:\nDrops all items from the player's inventory and prevents the player pick up the items for 10 seconds\n- Lightweight & Open Source ❤\n\n## 💬 Commands\n\n<b>For more command info, please look directly at ```/otroll help```</b><br>\n\n| Command | Description | Permission | Default |\n| --- | --- | --- | --- |\n| ```/troll <player>``` | ```OTroll main command``` | ```otroll.cmd``` | ```op``` |\n\n## 📝 Todo List\n\n- Add more trolling stuff\n- Per troll permissions\n\n## ❔ Issues\n\nDid you find a bug or error when using this plugin? feel free to open the\nissues [here](https://github.com/SpiceX/OTroll/issues/new)\n\n## 👑 Donation\n\nPaypal - https://www.paypal.me/dagonzalez211 <br>",
+  "readme_source_url": "https://github.com/SpiceX/OTroll",
+  "icon_url": "https://raw.githubusercontent.com/SpiceX/OTroll/899e686512ace242c795f27e174518544a274e30/logo-min.png",
+  "featured": false,
+  "repo": "https://github.com/SpiceX/OTroll",
+  "archive_repo": null,
+  "approved_release_tag": "r-7390",
+  "stars": 5,
+  "total_downloads": 716,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SpiceX"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0-alpha",
+      "tag": "r-7390",
+      "published_at": null,
+      "downloads": 716,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7390/otroll-1.0.0-alpha-r7390.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7390",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7390/otroll-1.0.0-alpha-r7390.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "OTroll",
+    "stable_release_id": 7390
+  }
+}
