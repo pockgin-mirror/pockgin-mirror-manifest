@@ -1,0 +1,61 @@
+{
+  "id": "ourinventory",
+  "name": "OurInventory",
+  "author": "Phqzing",
+  "description": "With this plugin you can copy other peoples inventory.",
+  "readme_markdown": "# OurInventory\nWith this plugin you can copy other peoples inventory.\n\n# Config / Settings\n```\n---\n#set this to true if you want players to get there old inventory back in a limited ammount of time\nget-oldinv-back: true\n\n#within this ammount of time a player can use the command /getoldinventory (if they have one) to get there old inventory back\n#time is in seconds\n#NOTE: DO NOT ADD ANY LETTERS OR SYMBOLS HERE OR IT WILL MOST DEFINETLY CAUSE PROBLEMS.\noldinv-timer: 60\n\n#only players with this permission can use the commands in this plugin\n#OPPED players automatically get this permission\npermission: ourinventory.commands.use\n...\n```\n\n# Features\n- can copy anyones armor and inventory contents.\n- can get old inventory back within a limited ammount of time (time can be customized in config.yml)\n\n# Discord\nContanct me on discord Phqzing#1524 if you have any problems with the plugin or if you want me to make a plugin for you.",
+  "readme_source_url": "https://github.com/Phqzing/OurInventory",
+  "icon_url": "https://raw.githubusercontent.com/Phqzing/OurInventory/a24d32f28b166a74ecf2d86689a1c6e91a7faf47/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Phqzing/OurInventory",
+  "archive_repo": null,
+  "approved_release_tag": "r-7799",
+  "stars": 5,
+  "total_downloads": 89,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Phqzing"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-7799",
+      "published_at": null,
+      "downloads": 89,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7799/ourinventory-0.0.1-r7799.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7799",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7799/ourinventory-0.0.1-r7799.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "OurInventory",
+    "stable_release_id": 7799
+  }
+}

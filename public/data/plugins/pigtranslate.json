@@ -1,0 +1,61 @@
+{
+  "id": "pigtranslate",
+  "name": "PigTranslate",
+  "author": "CupidonSauce173",
+  "description": "Join my discord:",
+  "readme_markdown": "<p align=\"center\">\n<img width=\"150\" height=\"150\" src=\"https://github.com/CupidonSauce173/PigTranslate/blob/main/PigTranslateIcon.jpg\" />\n</p>\n<h1 align=\"center\"> PigTranslate </h1>\n<p align=\"center\">Join my discord: https://discord.gg/2QAPHbqrny </p>\n<p align=\"center\">This is a multi-threaded real-time translation system for PMMP using machine-learning technology </p>\n\n### Little note before using\n\nThis project is only a proof of concept and shall not be used in any kind of production server, unlike Google Traduction or Microsoft Azure, there aren't any army behind this system, which makes it less reliable than other big services like the ones I mentioned, **BUT**, this is an open-source engine that you can modify like you want, it's completely free, and you can host it in your own machines which makes it great. If you know what you are doing, you can easily make this engine way better.\n\n### Prerequisites\n\nThis plugin uses LibreTranslate that is based on Argos Translate library, you will need to do the installation of LibreTranslate in order to use this plugin, here is the GitHub link : https://github.com/LibreTranslate/LibreTranslate\nAlso, if you want to learn more about Argos Translate Library, you can access it from there : https://github.com/argosopentech/argos-translate\n\n### Introduction\n\nThis plugin aim to create a real-time translation system for the chat of PocketMine-MP (PMMP) per user. This means that if there are 2 players that speaks spanish, 1 French and 4 English players, each of these players will get the chat in the right language (so all messages from the spanish players will be translated from spanish -> english and sent to the english players and vise-versa). This plugin is made so all cURL requests are made over a TranslateThread class, so the main thread won't have to do the requests. The only processes that the main thread will have to do are looking for messages to send, send them to the players and also flushing unused languages so the plugin won't have to translate them for no reason.\n\n### Player Data\n\nThe player language preference is saved in a .yml file (for now, it will change in the future). They can, with /language (or /lang), set their language preference to one of the registered languages (the list is below). If they have no file yet, one will be created with a default language that you can set in your config file.\n\n### Plugin Logic\n\nThere is a container variable which is a volatile object (so it can be modified by multiple threads) that stores the list of players, the configs of the server, the active languages, the messages to send and the message queue to translate, when a player sends a message, a new value will be created in the messageQueue and the TranslateThread will create a new request to the LibreTranslate API, as it is right now, it will call the MESSAGE_BROADCAST constant. When this constant is put in the Translate method, it will look for all active languages and create one request for each one of them. When the requests are done, it will create new values in the messagesToSend array, a repeating task in the main thread will loop throughout this array and send the messages to the right targets and then delete the values. Every x amount of seconds, the main thread will also look for unused languages to flush, so there isn't any useless request made.\n\n### Translation Fail Handling\n\nIf a translation fails, there won't be any issue, the original message will be sent anyway (which means it won't be translated).\n\n### Command\n\nTo change a language, the player will have to **/language (language)**, if there is no argument, it will send a list of available languages and also tell them their current setting.\n  \n<p align=\"center\">\n<img src=\"https://github.com/CupidonSauce173/PigTranslate/blob/main/image_01.PNG\" />\n</p>\n\n### Plugin Configs\n\n```yml\n# Default language that the players will have when first joining the server.\ndefaultLanguage: \"en\"\n# IP address of your LibreTranslate instance.\nip: \"127.0.0.1/translate\"\n\n# Tasks field\n\n# How often do you want the active languages to be cleaned (in seconds)\nclean-languages: 60\n# How often do you want the TranslateThread to translate the messages ? (in seconds)\n# Note: 0.5 is what I think is the best for \"real-time\" translation, or else the delay will be too high.\ntranslate-thread: 0.5\n# How often do you want the messages to be sent to the players ? (in milliseconds)\nbroadcast-task: 10\n```\n\n### Available Languages\n\n| **Index** | **Name** |\n| ------------ | :---------- |\n| en | english |\n| ar | arabic |\n| zh | chinese |\n| nl | dutch |\n| fi | finish |\n| fr | french |\n| de | german |\n| hi | hindi |\n| hu | hungarian |\n| id | indonesian |\n| ga | irish |\n| it | italian |\n| ja | japanese |\n| ko | korean |\n| pl | polish |\n| pt | portuguese |\n| ru | russian |\n| es | spanish |\n| sw | swedish |\n| tr | turkish |\n| uk | ukrainian |\n| vi | vietnamese |",
+  "readme_source_url": "https://github.com/CupidonSauce173/PigTranslate",
+  "icon_url": "https://raw.githubusercontent.com/CupidonSauce173/PigTranslate/c0b23df3d4e689f24c6618a87e6a26a233911709/PigTranslateIcon.jpg",
+  "featured": false,
+  "repo": "https://github.com/CupidonSauce173/PigTranslate",
+  "archive_repo": null,
+  "approved_release_tag": "r-7754",
+  "stars": 4,
+  "total_downloads": 256,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.22.5-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "CupidonSauce173"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-7754",
+      "published_at": null,
+      "downloads": 256,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7754/pigtranslate-1.0.0-r7754.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7754",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7754/pigtranslate-1.0.0-r7754.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PigTranslate",
+    "stable_release_id": 7754
+  }
+}

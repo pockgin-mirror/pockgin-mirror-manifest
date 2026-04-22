@@ -1,0 +1,61 @@
+{
+  "id": "ding",
+  "name": "Ding",
+  "author": "sn3akrr",
+  "description": "Sound effect when any projectile damages another entity (PocketMine-MP)",
+  "readme_markdown": "# Ding\n\nSound effect when any projectile damages another entity (PocketMine-MP)",
+  "readme_source_url": "https://github.com/sn3akrr/Ding",
+  "icon_url": "https://raw.githubusercontent.com/sn3akrr/Ding/538ba6381e49bccc8108c49dbbdc4fc8b86b5416/icon.png",
+  "featured": false,
+  "repo": "https://github.com/sn3akrr/Ding",
+  "archive_repo": null,
+  "approved_release_tag": "r-7723",
+  "stars": 0,
+  "total_downloads": 360,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "sn3akrr"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/143259",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-7723",
+      "published_at": null,
+      "downloads": 360,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7723/ding-1.0.1-r7723.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7723",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7723/ding-1.0.1-r7723.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Ding",
+    "stable_release_id": 7723
+  }
+}

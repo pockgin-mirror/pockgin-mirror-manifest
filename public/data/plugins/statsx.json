@@ -1,0 +1,61 @@
+{
+  "id": "statsx",
+  "name": "StatsX",
+  "author": "vecnavium-pm-pl",
+  "description": "A Pocketmine-MP Plugin that allows you to keep track of your own and others statistcs",
+  "readme_markdown": "<p align=\"center\">\r\n    <a href=\"https://github.com/Vecnavium/StatsX\"><img src=\"https://github.com/Vecnavium/StatsX/blob/master/icon.png\"></img></a><br>\r\n    <b>A Pocketmine-MP Plugin that allows you to keep track of your own and others statistcs</b>\r\n</p>\r\n\r\n<p align=\"center\">\r\n    <img alt=\"GitHubrelease\" src=\"https://img.shields.io/github/v/release/Vecnavium/StatsX?label=release&sort=semver\">\r\n      <img alt=\"Stars\" src= \"https://img.shields.io/github/stars/Vecnavium/StatsX?style=for-the-badge\">\r\n    <a href=\"https://discord.gg/6M9tGyWPjr\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\r\n</p>\r\n\r\n\r\n# Features \r\n\r\n\r\n- Ability to get statistics on other players\r\n\r\n\r\n# Planned features\r\n\r\nNone really, yet I guess.\r\nIf you do have a suggestion let me know in the [Support Discord](https://discord.gg/jWFB56RqUN) or Create an [Issue](https://github.com/Vecnavium/SimpleStats/issues/new) about your suggestion.\r\n\r\n# Commands & Permissions \r\n\r\n|Command|Description|Permissions|\r\n|:--:|:--:|:--:|\r\n|/stats|Shows Player Statistics|`Everyone`|\r\n\r\n# BugReport\r\n\r\nYou found a bug or a plugin issue?\r\n\r\n- Contact support in the [Discord Server](https://discord.gg/jWFB56RqUN)\r\n\r\n- Create an [Issue](https://github.com/Vecnavium/StatsX/issues/new)\r\n\r\n- Write your bug & the issue you are having with all informations including the error so I can track the issue\r\n\r\n- Submit the issue and be patient for a response for a solution to your problem\r\n\r\n# Suggestions\r\n\r\nHave a suggestion?\r\n\r\nFeel free to contact me in the [Support Discord Server](https://discord.gg/jWFB56RqUN) and suggest the suggestion you have in mind for this plugin!",
+  "readme_source_url": "https://github.com/vecnavium-pm-pl/StatsX",
+  "icon_url": "https://raw.githubusercontent.com/Vecnavium/StatsX/ab4282dc33b2e768863be628fd42ac84106ba930/icon.png",
+  "featured": false,
+  "repo": "https://github.com/vecnavium-pm-pl/StatsX",
+  "archive_repo": null,
+  "approved_release_tag": "r-7708",
+  "stars": 0,
+  "total_downloads": 1889,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "vecnavium-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/148554",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-7708",
+      "published_at": null,
+      "downloads": 1889,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7708/statsx-1.0.1-r7708.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7708",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7708/statsx-1.0.1-r7708.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "StatsX",
+    "stable_release_id": 7708
+  }
+}

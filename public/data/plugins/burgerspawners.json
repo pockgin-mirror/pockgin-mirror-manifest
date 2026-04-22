@@ -1,0 +1,66 @@
+{
+  "id": "burgerspawners",
+  "name": "BurgerSpawners",
+  "author": "Heisenburger69",
+  "description": "Information",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.dl.total/BurgerSpawners)](https://poggit.pmmp.io/p/BurgerSpawners)\n\n# Information\nThis plugin adds a Stackable Spawner System to PMMP. When you place a Spawner, you can stack additional Spawners onto the same Spawner to increase it's spawn rate. This lets you conserve space and also prevents lag due to a large amount of Spawners.  \nFor example: A single Zombie Spawner spawns one Zombie every 40 seconds. Stacking another Zombie Spawner on it changes the spawn rate to 20 seconds.  \n# Features\n- Give Spawners to other players\n- Built in Mob Stacker\n- Stack Spawners onto each other to increase Spawn Rate\n- Get Spawners for any known entities\n- Ability to use Silk Touch on Spawners\n- UI to add more Spawners onto an existing Spawner\n- Entities registered within the plugin itself including Iron Golems, Bees and Foxes\n- AutoInv and AutoXP for mob drops\n- Configurable Options to modify XP drops, Spawner Rates, Mob and Spawner Stacking, Silk Touch and Entity Scale\n- Auto Stack Spawners\n- Ability to toggle Mob and Spawner stacking in specific worlds\n- API Methods to exempt entities like Bosses from stacking\n- Mobs spawned by the plugin can be either one-shot or have vanilla behavior\n- Ability to unstack any number of Spawners from a Stack\n- Customizable drops for spawners\n- Customizable nametag for stacked mobs\n- Toggle mob nametags on/off\n- Ability to set a max number of mobs in a stack\n# Planned Additions\n- [x] Register Mobs via the plugin itself\n- [ ] Allow custom entities to be used in the Spawner\n- [x] Allow removing of a specific number of Spawners from a Stacked Spawner\n- [x] Config to modify plugin messages\n- [x] Allow modifying base spawn rate for Spawners\n- [x] Configurable Mob Drops\n- [ ] Revamp Mob Stacker and make it cleaner\n- [x] Allow toggling XP Drops for Mobs\n- [ ] Spawner Shop with configurable prices\n- [x] Set Mob Experience drops correctly\n- [x] Implement Looting Enchantment\n- [x] Autostack spawners when placed near another spawner of the same type\n- [x] Allow changing of the entity scale within the Spawner\n# Note\n- This plugin uses https://github.com/jojoe77777/FormAPI to render forms\n- Pandas drop Sugarcane instead of Bamboo\n- Bats, Ocelots, Bees, Vex, Witches, Silverfish and Endermite have no drops\n- Sheep drop a random color of wool\n- Thanks to Muqsit for Bees and Foxes <3\n- Thanks to iZeaoGamer for implementing looting\n- Thanks to Unickorn for patching bug related to spawner stacking",
+  "readme_source_url": "https://github.com/Heisenburger69/BurgerSpawners",
+  "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerSpawners/4863a19469a5f57aae4ec3984ebef95b3d408faf/Spawner_JE3.png",
+  "featured": false,
+  "repo": "https://github.com/Heisenburger69/BurgerSpawners",
+  "archive_repo": null,
+  "approved_release_tag": "r-7873",
+  "stars": 4,
+  "total_downloads": 3254,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.21.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Heisenburger69"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/145540",
+  "versions": {
+    "stable": {
+      "version": "0.1.8",
+      "tag": "r-7873",
+      "published_at": null,
+      "downloads": 2695,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7873/burgerspawners-0.1.8-r7873.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7873",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7873/burgerspawners-0.1.8-r7873.phar"
+    },
+    {
+      "tag": "r-7734",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7734/burgerspawners-0.1.7-r7734.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BurgerSpawners",
+    "stable_release_id": 7873
+  }
+}

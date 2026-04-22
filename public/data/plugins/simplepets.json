@@ -1,0 +1,66 @@
+{
+  "id": "simplepets",
+  "name": "SimplePets",
+  "author": "brokiem",
+  "description": "An Ultimate Pets plugin made by broki for PocketMine-MP.",
+  "readme_markdown": "<h1>SimplePets<img src=\"https://github.com/brokiem/SimplePets/blob/master/assets/logo-min.png\" height=\"64\" width=\"64\" align=\"left\" alt=\"\"></h1><br>\n\n<b>An Ultimate Pets plugin made by broki for PocketMine-MP.</b><br>\n[![License](https://img.shields.io/github/license/brokiem/SimplePets)](https://github.com/brokiem/SimplePets)\n[![Star](https://img.shields.io/github/stars/brokiem/SimplePets)](https://github.com/brokiem/SimplePets/stargazers)\n[![Discord](https://img.shields.io/discord/830063409000087612?color=7389D8&label=discord)](https://discord.com/invite/jy6abSrjhQ)\n[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/brokiem)\n\n## ✨ Features\n\n- MySQL and SQLite database\n- Anti sql injection\n- Pets with inventory\n- Pets can be ridden\n- XUID data saving\n- Multi world support\n- Lightweight & Open Source ❤\n\n## 💬 Commands\n\n<b>For more command info, please look directly at ```/spet help```</b><br>\n\n| Command | Description | Permission | Default |\n| --- | --- | --- | --- |\n| ```/spet``` | ```SimplePets command list``` | ```none``` | ```true``` |\n| ```/spet petlist``` | ```Show all pet list``` | ```simplepets.petlist``` | ```op``` |\n| ```/spet spawn``` | ```Spawning a pet``` | ```simplepets.spawn``` | ```op``` |\n| ```/spet remove``` | ```Removing a pet``` | ```simplepets.remove``` | ```op``` |\n| ```/spet inv``` | ```View pet inventory``` | ```simplepets.inv``` | ```true``` |\n| ```/spet ride``` | ```Ride a pet``` | ```simplepets.ride``` | ```true``` |\n\n## 📝 Todo List\n\n- UI/Form to manage pets\n- Renaming pets\n\n## ❔ Issues\n\nDid you find a bug or error when using this plugin? feel free to open the\nissues [here](https://github.com/brokiem/SimplePets/issues/new)\n\n## 👑 Donation\n\nPaypal - https://www.paypal.me/brokiem <br>\nSaweria - https://saweria.co/brokiem",
+  "readme_source_url": "https://github.com/brokiem/SimplePets",
+  "icon_url": "https://raw.githubusercontent.com/brokiem/SimplePets/6e0f9a4177372c967b868be737c784bd46bb9ccc/assets/logo-min.png",
+  "featured": false,
+  "repo": "https://github.com/brokiem/SimplePets",
+  "archive_repo": null,
+  "approved_release_tag": "r-7863",
+  "stars": 5,
+  "total_downloads": 966,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.20.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "brokiem"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/145447",
+  "versions": {
+    "stable": {
+      "version": "1.0.4-beta",
+      "tag": "r-7863",
+      "published_at": null,
+      "downloads": 752,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7863/simplepets-1.0.4-beta-r7863.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7863",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7863/simplepets-1.0.4-beta-r7863.phar"
+    },
+    {
+      "tag": "r-7686",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7686/simplepets-1.0.3-beta-r7686.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimplePets",
+    "stable_release_id": 7863
+  }
+}

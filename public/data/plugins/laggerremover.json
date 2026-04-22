@@ -1,0 +1,61 @@
+{
+  "id": "laggerremover",
+  "name": "LaggerRemover",
+  "author": "Phqzing",
+  "description": "Lagger Remover",
+  "readme_markdown": "# Lagger Remover\nWith this plugin you can disallow players that have a certain ping from joining your server!\n\n# Config\n```\n---\n#if set to false the plugin will only check player ping when they join.\n#if set to true the plugin will constantly check for players that exceed the maximum allowed ping writen in \"max-ping\".\nalways-check: true\n\n#palyers that exceed the ammount of ping writen below will get kicked.\nmax-ping: 200\n\n#write here the message you want to sent the player when they get kicked.\n# {ping} = the players ping.\nkick-message: \"you have exceeded the maximum ammount of ping. Your ping: {ping}.\"\n\n#player names that are listed here will be immune to being kicked for exceeding the maximum allowed ping.\nwhitelisted-players:\n - \"examplePlayerName1\"\n - \"examplePlayerName2\"\n...\n```\n\n# Features\n- Customize the ammount of ping the player has to have for them to get kicked \n- Whitelist players that you don't want to get kicked even tho they exceed the maximum ping\n\n# Discord\ncontact me on discord Phqzing#1524 if you have any issues with the plugin or if you want me to fix / create a plugin for you.",
+  "readme_source_url": "https://github.com/Phqzing/LaggerRemover",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Phqzing/LaggerRemover",
+  "archive_repo": null,
+  "approved_release_tag": "r-7760",
+  "stars": 5,
+  "total_downloads": 501,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Phqzing"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-7760",
+      "published_at": null,
+      "downloads": 501,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7760/laggerremover-0.0.1-r7760.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7760",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7760/laggerremover-0.0.1-r7760.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LaggerRemover",
+    "stable_release_id": 7760
+  }
+}

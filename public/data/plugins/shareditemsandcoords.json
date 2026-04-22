@@ -1,0 +1,61 @@
+{
+  "id": "shareditemsandcoords",
+  "name": "SharedItemsAndCoords",
+  "author": "ItsRealNise",
+  "description": "General",
+  "readme_markdown": "# General\n\nNow you can share your Coordinates and Item with Prefix\n\n# Example\n\nif you type [i] in message, later it will be automatically replaced into the name of the item in your hand\n\nExample: hello pvp with me but using [i]\nResult: If in your hand Iron Sword Will Be, hello pvp with me but using Iron Sword\n\nif you type [coor] in message, later it will be automatically replaced into the Your coordinates\n\nExample: hello to coordinate [coor], let's go\nResult: hello to coordinate X: 178, Y: 90, Z: 167, let's go\n\nFormat and prefix can your change in Config\n\n# Config\n\n``` YAML\n\n---\n# use {name} to player name\n# use {item} to item name\n\nitem-msg: \"Name: {item} \"\n\n#use {name} to player name\n#use {x} to get player X\n#use {y} to get player Y\n#use {z} to get player Z\n\ncoor-msg: \"X: {x} Y: {y} Z: {z}\"\n\n#this is [i] message can be repace to item-msg\n#orginal is [i]\n# You can add Your custom\n\nitem-prefix: \n - \"[i]\"\n\n\n#this is [coor] message can be replace to coor-msg\n#original is [coor]\n# You can add Your Custom\n\ncoor-prefix: \n - \"[coor]\"\n...\n```\n\n# Additional Notes\n\n- If you find bugs or want to give suggestions, please visit [here](https://github.com/ItsRealNise/SharedItems-Coords/issues)",
+  "readme_source_url": "https://github.com/ItsRealNise/SharedItemsCoords",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/ItsRealNise/SharedItemsCoords",
+  "archive_repo": null,
+  "approved_release_tag": "r-7677",
+  "stars": 5,
+  "total_downloads": 79,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ItsRealNise"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-7677",
+      "published_at": null,
+      "downloads": 79,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7677/shareditemsandcoords-1.0.0-r7677.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7677",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7677/shareditemsandcoords-1.0.0-r7677.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SharedItemsAndCoords",
+    "stable_release_id": 7677
+  }
+}

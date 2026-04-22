@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12809",
   "stars": 4,
-  "total_downloads": 1590,
+  "total_downloads": 1709,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-7959",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7959/anti-interrupt-0.0.2-r7959.phar"
+    },
+    {
+      "tag": "r-7724",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7724/anti-interrupt-0.0.1-r7724.phar"
     }
   ],
   "comments": {

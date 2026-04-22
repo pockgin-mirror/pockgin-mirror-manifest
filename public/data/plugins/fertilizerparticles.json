@@ -1,0 +1,61 @@
+{
+  "id": "fertilizerparticles",
+  "name": "FertilizerParticles",
+  "author": "nhanaz-pm-pl",
+  "description": "General",
+  "readme_markdown": "# General\n**Play particle and sound when using bone meal on crops**\n\n![image](https://user-images.githubusercontent.com/60387689/178136951-db5c3b65-80c2-462b-b3cf-50b90992d7b5.png)\n\n# Contact\n[![Discord](https://img.shields.io/discord/986553214889517088?label=discord&color=7289DA&logo=discord)](https://discord.gg/j2X83ujT6c) [https://discord.gg/j2X83ujT6c] \\\nYou can contact me directly via Discord `NhanAZ` (Originally known as `NhanAZ#9115`)",
+  "readme_source_url": "https://github.com/nhanaz-pm-pl/CropGrowth",
+  "icon_url": "https://raw.githubusercontent.com/NhanAZ/FertilizerParticles/e33d2ed11653585aec7803d2d85f0eb2a7319f80/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nhanaz-pm-pl/CropGrowth",
+  "archive_repo": null,
+  "approved_release_tag": "r-7793",
+  "stars": 5,
+  "total_downloads": 204,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.23.1-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nhanaz-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-7793",
+      "published_at": null,
+      "downloads": 204,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7793/fertilizerparticles-0.0.1-r7793.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7793",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7793/fertilizerparticles-0.0.1-r7793.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FertilizerParticles",
+    "stable_release_id": 7793
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8031",
   "stars": 0,
-  "total_downloads": 131,
+  "total_downloads": 165,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.0.3-5",
       "tag": "r-8031",
       "published_at": null,
-      "downloads": 131,
+      "downloads": 132,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8031/ptimeui-1.0.3-5-r8031.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-8031",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8031/ptimeui-1.0.3-5-r8031.phar"
+    },
+    {
+      "tag": "r-7854",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7854/ptimeui-1.0.3-3-r7854.phar"
     }
   ],
   "comments": {

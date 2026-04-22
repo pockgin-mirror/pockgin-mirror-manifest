@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7896",
   "stars": 5,
-  "total_downloads": 1687,
+  "total_downloads": 2202,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.0.3",
       "tag": "r-7896",
       "published_at": null,
-      "downloads": 1687,
+      "downloads": 1688,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7896/emojis-1.0.3-r7896.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-7896",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7896/emojis-1.0.3-r7896.phar"
+    },
+    {
+      "tag": "r-7704",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7704/emojis-1.0.2-r7704.phar"
     }
   ],
   "comments": {
