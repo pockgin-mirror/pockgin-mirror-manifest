@@ -1,0 +1,61 @@
+{
+  "id": "staffmode",
+  "name": "StaffMode",
+  "author": "ItsMax123",
+  "description": "StaffMode is an all-in-one Pocketmine-MP (PMMP) moderation plugin made to simplify the life of staff members.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/StaffMode)](https://poggit.pmmp.io/p/StaffMode)\n[![](https://poggit.pmmp.io/shield.api/StaffMode)](https://poggit.pmmp.io/p/StaffMode)\n\n<img src=\"https://www.gstatic.com/images/branding/product/1x/admin_512dp.png\" width=\"120\" height=\"120\" align=\"left\"></img>\n\n# StaffMode\nStaffMode is an all-in-one Pocketmine-MP (PMMP) moderation plugin made to simplify the life of staff members.\n\n## Setup Guide\n1. To start using the plugin, download the StaffMode.phar file from [poggit](https://poggit.pmmp.io/p/StaffMode) and put it into your server's plugins folder. (IMPORTANT: If you do not know how to handle virions, do not download from github, the plugin will not work) \n2. Then, you have to do is set up your staff rank permissions. Look at the **Risk** tab in the following tables to decide which permissions is more suitable for which staff ranks to prevent possible abuse. It is recommended to give permissions with the *High* risk only to trusted staff members.\n3. The `staffmode.command.staffmode` or `staffmode.*` permission is necessary in order for staff to enter staff mode.\n\n| Permissions | Description | Default | Risk |\n| --- | --- | --- | --- |\n| `staffmode.*` | Allows usage of all staffmode features. | `op` | High |\n| `staffmode.command.staffmode` | Allows usage of the \"/staffmode\" command. | `op` | - |\n\n4. The folowing permissions are to access the tools within staffmode.\n\n| Permissions | Description | Default | Risk |\n| --- | --- | --- | --- |\n| `staffmode.staffchat` | Allows usage of the \"/staffchat\" command. | `op` | - |\n| `staffmode.silent` | Allows user to join and leave the server with no broadcasted message. | `op` | - |\n| `staffmode.tools.teleport` | Allows usage of the teleportation tool (compass) in staffmode. | `op` | Low |\n| `staffmode.tools.inventorymanager` | Allows usage of the InventoryManager tool (chest) in staffmode. | `op` | Medium |\n| `staffmode.tools.freeze` | Allows usage of the freezing tool (ice block) in staffmode. | `op` | Medium |\n| `staffmode.tools.kick` | Allows usage of the kicking tool (gold sword) in staffmode. | `op` | Medium |\n| `staffmode.tools.exit` | Allows usage of the exit tool (redstone torch) in staffmode. | `everyone` | - |\n\n5. After setting up everything, if done correctly staff members will be able to do the /staffmode command and access all their allowed tools. \n\n## Features\n- Features:\n  - [x] /staffmode command\n  - [x] /staffchat command\n  - [x] Teleportation tool\n  - [x] Inventory/EnderChest Spy & Clearing tool\n  - [x] Freeze tool\n  - [x] Hit to freeze\n  - [x] Unfreeze tool\n  - [x] Kick tool\n  - [x] Return to original location with the original inventory after exiting staffmode.\n  - [x] Silent Join & Leave (Editable in config)\n  - [x] Fake Join & Leave when entering/leaving StaffMode (Editable in config)\n  - [x] Remove player from server list when fake leaving\n  - [x] Night vision when in staffmode\n- Coming soon...\n  - [ ] More customization in config (Maybe make all messages configurable)\n  - [ ] Staff abuse prevention (Prevent staff from doing commands while in staffmode, prevent staff from banning other staff, etc.)\n  - [ ] Please suggest anything you want me to add\n\n## Support\nJoin the [discord server](https://discord.gg/YJZNhwhyMQ) for support.\nFor bugs or feature requests, create an issue on GitHub. Please follow the GitHub templates as best you can.",
+  "readme_source_url": "https://github.com/ItsMax123/StaffMode",
+  "icon_url": "https://raw.githubusercontent.com/ItsMax123/StaffMode/0e620334a8b31bf30a508cf10c565b892905a121/admintools.png",
+  "featured": false,
+  "repo": "https://github.com/ItsMax123/StaffMode",
+  "archive_repo": null,
+  "approved_release_tag": "r-7996",
+  "stars": 4,
+  "total_downloads": 2642,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ItsMax123"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/147738",
+  "versions": {
+    "stable": {
+      "version": "2.2.0",
+      "tag": "r-7996",
+      "published_at": null,
+      "downloads": 2642,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7996/staffmode-2.2.0-r7996.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7996",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7996/staffmode-2.2.0-r7996.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "StaffMode",
+    "stable_release_id": 7996
+  }
+}

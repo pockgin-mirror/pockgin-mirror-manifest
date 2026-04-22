@@ -1,0 +1,68 @@
+{
+  "id": "slapperrotation",
+  "name": "SlapperRotation",
+  "author": "vecnavium-pm-pl",
+  "description": "This plugin enables support for Slappers to rotate and look at you.",
+  "readme_markdown": "[![Discord](https://img.shields.io/discord/837701868649709568.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/jWFB56RqUN)\n\n## SlapperRotation\n\nThis plugin enables support for Slappers to rotate and look at you.\n\n\n# Features \n\n- Ability to configure the distance view of the Slappers.\n\n\n# BugReport\n\nYou found a bug or a plugin issue?\n\n- Contact support in the [Discord Server](https://discord.gg/jWFB56RqUN)\n\n- Create an [Issue](https://github.com/Vecnavium/SlapperRotation/issues/new)\n\n- Write your bug & the issue you are having with all informations including the error so I can track the issue\n\n- Submit the issue and be patient for a response for a solution to your problem\n\n# Suggestions\n\nHave a suggestion?\n\nFeel free to contact me in the [Support Discord Server](https://discord.gg/jWFB56RqUN) and suggest the suggestion you have in mind for this plugin!",
+  "readme_source_url": "https://github.com/vecnavium-pm-pl/SlapperRotation",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/vecnavium-pm-pl/SlapperRotation",
+  "archive_repo": null,
+  "approved_release_tag": "r-8027",
+  "stars": 3,
+  "total_downloads": 2632,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "Slapper"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "vecnavium-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/148587",
+  "versions": {
+    "stable": {
+      "version": "1.2.2",
+      "tag": "r-8027",
+      "published_at": null,
+      "downloads": 1740,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8027/slapperrotation-1.2.2-r8027.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8027",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8027/slapperrotation-1.2.2-r8027.phar"
+    },
+    {
+      "tag": "r-7981",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7981/slapperrotation-1.2.1-r7981.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SlapperRotation",
+    "stable_release_id": 8027
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "extendedblocks",
+  "name": "ExtendedBlocks",
+  "author": "JavierLeon9966",
+  "description": "This plugin adds the compatibility to add more blocks above the 255 ID in Pocketmine API 3.0.0+",
+  "readme_markdown": "# ExtendedBlocks [![Poggit-CI](https://poggit.pmmp.io/shield.dl/ExtendedBlocks)](https://poggit.pmmp.io/p/ExtendedBlocks)\nThis plugin adds the compatibility to add more blocks above the 255 ID in Pocketmine API 3.0.0+\n\n## Archived\nThis repository is archived because PM4 has just released so this plugin is completely pointless. If you wish to convert these blocks into PM4 blocks you should use [ExtendedBlocksConverter](https://github.com/JavierLeon9966/ExtendedBlocksConverter)\n\n## Important\n**Warning**: If you remove this plugin after some blocks has been placed it may transform into a Reserved6 block and can't be reversible.\nAlso this plugin is a temporary solution until PM 4 is fully released so don't except this to work or any updates.\n\n**Note**: This plugin may affect your server performance if too many blocks are in your world. Use this plugin at your own risk!\n\nTo update this plugin safely you must stop your server and install the updated version, then you can start the server again.\n\n## How the plugins works\nThis plugin uses a Tile Entity which saves the registered blocks from another plugin and a Placeholder block which replaces the Reserved6 that makes instance with the block you want that uses PlaceholderTrait and gives info to the server.\n\nIt checks when a LevelChunkPacket is sent and finds every tile within the chunk that is a Placeholder block and sends the block to the player.\n\n## How to use the plugin\nFor now you would need to use another plugin that register the blocks itself.\n\nFor the blocks to be able to register correctly you must add this trait in the block class:\n\n```php\nuse JavierLeon9966\\ExtendedBlocks\\block\\PlaceholderTrait;\n```\n\nSoon It'll be able to add new blocks in a configuration, but for now it's just like a API plugin.\n\nIt's recommended to use this methods when the plugin starts loading:\n\n```php\nuse pocketmine\\block\\BlockFactory;\nuse pocketmine\\item\\ItemBlock;\nuse pocketmine\\plugin\\PluginBase;\nuse JavierLeon9966\\ExtendedBlocks\\item\\ItemFactory;\nclass Plugin extends PluginBase{\n  public function onLoad(){\n    BlockFactory::registerBlock($block);\n    ItemFactory::addCreativeItem(ItemFactory::get(255 - $block->getId())); //Usually most blocks\n  }\n  ...\n}\n```\n\n## Format you must use\nThis is a example of how your class must look for it to work properly\n\n```php\nuse pocketmine\\block\\Block; //You can extend any class but be a Block\nuse JavierLeon9966\\ExtendedBlocks\\block\\PlaceholderTrait;\nclass Sample extends Block{\n  use PlaceholderTrait;\n  protected $id = 526; //The id of the block must be positive\n  public function __construct(int $meta = 0){ //Optional\n    $this->meta = $meta;\n  }\n  ...\n}\n```",
+  "readme_source_url": "https://github.com/JavierLeon9966/ExtendedBlocks",
+  "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/ExtendedBlocks/e7f3ff22612b64056ace79ca41638650d74bf971/icon.png",
+  "featured": false,
+  "repo": "https://github.com/JavierLeon9966/ExtendedBlocks",
+  "archive_repo": null,
+  "approved_release_tag": "r-8056",
+  "stars": 5,
+  "total_downloads": 2032,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.14.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JavierLeon9966"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/149053",
+  "versions": {
+    "stable": {
+      "version": "1.4.0",
+      "tag": "r-8056",
+      "published_at": null,
+      "downloads": 2032,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8056/extendedblocks-1.4.0-r8056.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8056",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8056/extendedblocks-1.4.0-r8056.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ExtendedBlocks",
+    "stable_release_id": 8056
+  }
+}

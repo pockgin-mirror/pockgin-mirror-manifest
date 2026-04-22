@@ -1,0 +1,68 @@
+{
+  "id": "slapback",
+  "name": "SlapBack",
+  "author": "vecnavium-pm-pl",
+  "description": "This plugin allows slappers to hit back at you.",
+  "readme_markdown": "[![Discord](https://img.shields.io/discord/837701868649709568.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/jWFB56RqUN)\n\n## SlapBack\n\nThis plugin allows slappers to hit back at you.\n\n\n# Features \n\n- Ability to configure the distance view of the Slappers.\n\n\n# BugReport\n\nYou found a bug or a plugin issue?\n\n- Contact support in the [Discord Server](https://discord.gg/jWFB56RqUN)\n\n- Create an [Issue](https://github.com/Vecnavium/Slapback/issues/new)\n\n- Write your bug & the issue you are having with all informations including the error so I can track the issue\n\n- Submit the issue and be patient for a response for a solution to your problem\n\n# Suggestions\n\nHave a suggestion?\n\nFeel free to contact me in the [Support Discord Server](https://discord.gg/jWFB56RqUN) and suggest the suggestion you have in mind for this plugin!",
+  "readme_source_url": "https://github.com/vecnavium-pm-pl/SlapBack",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/vecnavium-pm-pl/SlapBack",
+  "archive_repo": null,
+  "approved_release_tag": "r-8028",
+  "stars": 0,
+  "total_downloads": 1384,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "Slapper"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "vecnavium-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/148593",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-8028",
+      "published_at": null,
+      "downloads": 871,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8028/slapback-1.0.1-r8028.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8028",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8028/slapback-1.0.1-r8028.phar"
+    },
+    {
+      "tag": "r-7980",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7980/slapback-1.0.0-r7980.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SlapBack",
+    "stable_release_id": 8028
+  }
+}

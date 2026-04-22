@@ -1,0 +1,61 @@
+{
+  "id": "maxkoth",
+  "name": "MaxKOTH",
+  "author": "ItsMax123",
+  "description": "KOTH is an event popular on HCF and Faction servers. This plugin lets you add this minigame to you server.",
+  "readme_markdown": "<img src=\"https://www.giantbomb.com/a/uploads/original/8/87790/3092558-h1_koth.png\" width=\"120\" height=\"120\">\n<hr>\n\n# KOTH\nKOTH is an event popular on HCF and Faction servers. This plugin lets you add this minigame to you server.\n\n# Support\n* For questions, please join the [discord server](https://discord.gg/YJZNhwhyMQ)\n* For bug reports & suggestions, please create an issue on github. If I do not answer within a day or two, please Direct Message me at ItsMax123#6798 on discord. If you are reporting an issue with the plugin, be sure to include as many details as possible (Like the complete error report in your console) and steps to reproduce the issue.\n\n# Features\n- Features:\n  - [x] Custom KOTH zone (/koth setpos1, /koth setpos2)\n  - [x] Manual start and stop (/koth start, /koth stop)\n  - [x] BossBar\n  - [x] Discord Webhooks\n  - [x] ScoreHud support (koth.king & koth.time)\n  - [x] Customizable automatic starting\n  - [x] Customizable capture time\n  - [x] Customizable rewards\n- Coming soon...\n  - [ ] Support for multiple KOTH arenas at the same time",
+  "readme_source_url": "https://github.com/ItsMax123/KOTH",
+  "icon_url": "https://raw.githubusercontent.com/ItsMax123/KOTH/bdb13c148d438a15ca7971392a0c000771e7d0ae/koth.png",
+  "featured": false,
+  "repo": "https://github.com/ItsMax123/KOTH",
+  "archive_repo": null,
+  "approved_release_tag": "r-8000",
+  "stars": 0,
+  "total_downloads": 652,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ItsMax123"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/147772",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-8000",
+      "published_at": null,
+      "downloads": 652,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8000/maxkoth-1.0.1-r8000.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8000",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8000/maxkoth-1.0.1-r8000.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MaxKOTH",
+    "stable_release_id": 8000
+  }
+}

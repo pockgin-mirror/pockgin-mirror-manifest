@@ -5,18 +5,18 @@
   "description": "THIS PROJECT IS DISBANDED",
   "readme_markdown": "# WorldGuard [![Poggit-CI](https://poggit.pmmp.io/ci.badge/MihaiChirculete/WorldGuard/WorldGuard)](https://poggit.pmmp.io/ci/MihaiChirculete/WorldGuard/WorldGuard)\n\nTHIS PROJECT IS DISBANDED\nhttps://github.com/poggit-orphanage/office/issues/70",
   "readme_source_url": "https://github.com/MihaiChirculete/WorldGuard",
-  "icon_url": "https://raw.githubusercontent.com/MihaiChirculete/WorldGuard/2ee162691ff40489a2bd2ec20d53908639af9526/icon.png",
+  "icon_url": "https://raw.githubusercontent.com/MihaiChirculete/WorldGuard/9767eb7343d693791be6d6fa6270e3d2e6842924/icon.png",
   "featured": false,
   "repo": "https://github.com/MihaiChirculete/WorldGuard",
   "archive_repo": null,
-  "approved_release_tag": "r-10156",
-  "stars": 3,
-  "total_downloads": 9351,
+  "approved_release_tag": "r-8022",
+  "stars": 4,
+  "total_downloads": 14158,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
   "api_support": [
-    "4.0.0-4.21.1"
+    "3.0.0-3.25.6"
   ],
   "dependencies": {
     "required": [],
@@ -28,21 +28,21 @@
   "producers": [
     "MihaiChirculete"
   ],
-  "whats_new": "https://poggit.pmmp.io/r/184393",
+  "whats_new": "https://poggit.pmmp.io/r/148293",
   "versions": {
     "stable": {
+      "version": "1.2",
+      "tag": "r-8022",
+      "published_at": null,
+      "downloads": 4806,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8022/worldguard-1.2-r8022.phar"
+    },
+    "dev": {
       "version": "1.34-beta3",
       "tag": "r-10156",
       "published_at": null,
-      "downloads": 7827,
+      "downloads": 7828,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10156/worldguard-1.34-beta3-r10156.phar"
-    },
-    "dev": {
-      "version": "1.34-beta2",
-      "tag": "r-10121",
-      "published_at": null,
-      "downloads": 260,
-      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10121/worldguard-1.34-beta2-r10121.phar"
     }
   },
   "recent_builds": [
@@ -65,6 +65,11 @@
       "tag": "r-9718",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9718/worldguard-1.32-beta-r9718.phar"
+    },
+    {
+      "tag": "r-8022",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8022/worldguard-1.2-r8022.phar"
     }
   ],
   "comments": {
@@ -77,6 +82,6 @@
   "source": {
     "provider": "poggit",
     "plugin_name": "WorldGuard",
-    "stable_release_id": 10156
+    "stable_release_id": 8022
   }
 }

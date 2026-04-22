@@ -1,0 +1,61 @@
+{
+  "id": "vehicles",
+  "name": "Vehicles",
+  "author": "JaxkDev",
+  "description": "[WIP] A PocketMine-MP plugin that brings vehicles to your server, made by JaxkDev",
+  "readme_markdown": "# Vehicles\n[WIP] A [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) plugin that brings vehicles to your server, made by [JaxkDev](https://github.com/JaxkDev)\n\n#### Default Vehicles:\n- Basic-Car\n\n# NOTICE !\nThis is a experimental plugin and is not for performance and 100% not the best way to do such plugin but this is great experience for myself.\n\n\n# For Developers\nFeel free to add custom vehicle classes in another plugin to customise it even more (only so much you can do in a config) or implement your own system on top of the current logic.\n\nVehicle NBT Structure (not including base entity data):\n\n```\nCompoundTag EntityNBT\n - vehicle(int) (Vehicle Version)\n - VehicleData(CompundTag)\n   - type(int)\n   - name(string)\n   - design(string)\n   - gravity(float)\n   - scale(float)\n   - baseOffset(float)\n   - forwardSpeeed(float)\n   - backwardSpeed(float)\n   - leftSpeed(float)\n   - rightSpeed(float)\n   - bbox(ListTag)\n     - x(float)\n     - y(float)\n     - z(float)\n     - x2(float)\n     - y2(float)\n     - z2(float)\n   - driverSeat(ListTag)\n     - x(float)\n     - y(float)\n     - z(float)\n   - passengerSeats(ListTag)\n     - (ListTag) x How many seats there are\n       - x(float)\n       - y(float)\n       - z(float)\n```\n\nEvents will be added in the near future.\n\n# License:\nCode provided is licensed under the Open Software License (\"OSL\") v. 3.0\nThe default resource's license can be found in the resources folder.",
+  "readme_source_url": "https://github.com/JaxkDev/Vehicles",
+  "icon_url": "https://raw.githubusercontent.com/JaxkDev/Vehicles/ee38a7b0067e1cb01f7d9359f9e4edaa801b05b3/icon.png",
+  "featured": false,
+  "repo": "https://github.com/JaxkDev/Vehicles",
+  "archive_repo": null,
+  "approved_release_tag": "r-7902",
+  "stars": 4,
+  "total_downloads": 1991,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.14.1-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JaxkDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/145979",
+  "versions": {
+    "stable": {
+      "version": "0.1.15",
+      "tag": "r-7902",
+      "published_at": null,
+      "downloads": 1991,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7902/vehicles-0.1.15-r7902.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7902",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7902/vehicles-0.1.15-r7902.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Vehicles",
+    "stable_release_id": 7902
+  }
+}

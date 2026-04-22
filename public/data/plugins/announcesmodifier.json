@@ -1,0 +1,61 @@
+{
+  "id": "announcesmodifier",
+  "name": "AnnouncesModifier",
+  "author": "HiroshimaTeam",
+  "description": "⚔️ Edit your announces as you wish",
+  "readme_markdown": "# AnnouncesModifier\n⚔️ Edit your announces as you wish\n\nModify the texts that the basic commands send to make the texts of your server ads more attractive\n# Features\n- Change the default command messages (SAY and ME) which are both unchangeable from pocketmine.yml\n- Assign tags to the say command which will allow you to change the prefix of the message!\n# Configuration\n```YAML\n# Please do not move these numbers\nversion: \"1.0\"\n\ncommands:\n  me:\n    description: \"Send a message with your name\"\n    permission: \"pocketmine.command.me\"\n\n    # set permission: none for EVERYONE can use command\n    message: \"[ME] {SENDER}: {MESSAGE}\"\n  say:\n    description: \"Send a message\"\n    permission: \"pocketmine.command.say\"\n\n    message: \"[{PREFIX}] {MESSAGE}\"\n    types:\n      server: # This is the default tag, update the \"show\" if you want\n        show: \"SERVER\"\n      # The type argument modifies the word SERVER in front of the SAY message, if you want to create several prefixes define here\n      # Default: server (no type, just message /say blablablabla)\n      # Exemple: /say test MY CAT IS BEAUTIFUL\n      # Chat: [TESTT] MY CAT IS BEAUTIFUL\n      test:\n        show: \"TESTT\"\n```",
+  "readme_source_url": "https://github.com/HiroshimaTeam/AnnouncesModifier",
+  "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/AnnouncesModifier/7082fb76c9eb4b42376bcc140ed360475d6fa123/AnnouncesModifier.png",
+  "featured": false,
+  "repo": "https://github.com/HiroshimaTeam/AnnouncesModifier",
+  "archive_repo": null,
+  "approved_release_tag": "r-7994",
+  "stars": 0,
+  "total_downloads": 1477,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HiroshimaTeam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-7994",
+      "published_at": null,
+      "downloads": 1477,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7994/announcesmodifier-1.0.0-r7994.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7994",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7994/announcesmodifier-1.0.0-r7994.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AnnouncesModifier",
+    "stable_release_id": 7994
+  }
+}

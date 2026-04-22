@@ -1,0 +1,71 @@
+{
+  "id": "ratio",
+  "name": "Ratio",
+  "author": "xAliTura01",
+  "description": "Ratio plugin is a luck plugin. While digging cobblestone, you may aleatory earn diamonds, gold, iron or ghost tears you don't want!",
+  "readme_markdown": "<p align=\"center\">\n    <img src=\"https://github.com/xAliTura01/Ratio/blob/master/icon.png\" width=\"144\" height=\"144\" alt=\"Ratio\">\n</p>\n\n<h1 align=\"center\">Ratio</h1>\n<p align=\"center\">Ratio plugin is a luck plugin. While digging cobblestone, you may aleatory earn diamonds, gold, iron or ghost tears you don't want!</p>\n\n<br>\n<p align=\"center\">\n    <a href=\"https://poggit.pmmp.io/p/Ratio\">\n        <img src=\"https://poggit.pmmp.io/shield.state/Ratio\" alt=\"Plugin version\">\n    </a>\n    <a href=\"https://github.com/pmmp/PocketMine-MP\">\n        <img src=\"https://poggit.pmmp.io/shield.api/Ratio\" alt=\"API version\">\n    </a>\n    <a href=\"https://poggit.pmmp.io/p/Ratio\">\n        <img src=\"https://poggit.pmmp.io/shield.dl/Ratio\" alt=\"Downloads on Poggit\">\n    </a>\n    <a href=\"https://github.com/xAliTura01/Ratio/blob/master/LICENSE\">\n        <img src=\"https://img.shields.io/badge/License-GPLv3-blue.svg\" alt=\"License\">\n      </p>    \n\n## Features\n- When you break a block (Cobblestone), you may receive random diamonds, gold, iron or unwanted ghost tears!\n- Multi-Language System\n- Multi-Sound System\n\n## Support\nSince it's new, it's missing a lot, if you want to help, don't hesitate!\n\nYou can:\n- [open an issue](https://github.com/xAliTura01/Ratio/issues) (bug fix and feature requests etc.)\n- [create a pull request](https://github.com/xAliTura01/Ratio/pulls) (code contributions like fixed bugs, added features, new/update languages and new sounds)\n\n##### *NOTE:* In the ratio plugin when you break the cobblestone, something empty may come out by chance, don't worry, this is a luck plugin, and if you see something missing, please don't forget to report it.\n\n## Credits\nThanks for the icon from www.flaticon.com",
+  "readme_source_url": "https://github.com/xAliTura01/Ratio",
+  "icon_url": "https://raw.githubusercontent.com/xAliTura01/Ratio/529ecefd344c49fe3b0d2477347a7a7c5596446d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/xAliTura01/Ratio",
+  "archive_repo": null,
+  "approved_release_tag": "r-8023",
+  "stars": 0,
+  "total_downloads": 254,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "xAliTura01"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/148304",
+  "versions": {
+    "stable": {
+      "version": "0.3",
+      "tag": "r-8023",
+      "published_at": null,
+      "downloads": 196,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8023/ratio-0.3-r8023.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8023",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8023/ratio-0.3-r8023.phar"
+    },
+    {
+      "tag": "r-8007",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8007/ratio-0.2-r8007.phar"
+    },
+    {
+      "tag": "r-7991",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7991/ratio-0.1-r7991.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Ratio",
+    "stable_release_id": 8023
+  }
+}

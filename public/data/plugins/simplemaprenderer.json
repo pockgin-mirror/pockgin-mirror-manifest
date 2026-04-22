@@ -1,0 +1,61 @@
+{
+  "id": "simplemaprenderer",
+  "name": "SimpleMapRenderer",
+  "author": "alvin0319",
+  "description": "Simple Map Plugin for PocketMine-MP",
+  "readme_markdown": "# SimpleMapRenderer\nSimple Map Plugin for PocketMine-MP\n\n# How to use\nJust put the plugin on plugins folder and enjoy it!\n\n![](https://raw.githubusercontent.com/alvin0319/SimpleMapRenderer/master/map_info.png)\n\n# API\n\n##### Get MapFactory instance\n```php\n$factory = \\alvin0319\\SimpleMapRenderer\\MapFactory::getInstance();\n```\n\n##### Get `MapData` object\n\n```php\n$mapId = your_map_id;\n$mapData = $factory->getMapData($mapId);\n```\n\n##### Register Map info\n```php\n$mapId = your_custom_map_id; \n$colors = [];\n$center = new Vector3(0, 0, 0);\nfor($y = 0; $y < 128; $y++){\n    for($x = 0; $x < 128; $x++){\n        $colors[] = new \\pocketmine\\utils\\Color(mt_rand(0, 128), mt_rand(0, 128), mt_rand(0, 128));\n    }\n}\n$mapData = new \\alvin0319\\SimpleMapRenderer\\data\\MapData($mapId, $colors, false, $center);\n\n$factory->registerData($mapData);\n```\n##### Get block color\n```php\n$block = Level->getBlock($x, $y, $z);\n$color = \\alvin0319\\SimpleMapRenderer\\util\\MapUtil::getMapColorByBlock($block);\n```\n\n##### Save image file\n\n```php\n$filePath = path_to_your_png_file;\n$colors = [];\nfor($y = 0; $y < 128; $y++){\n    for($x = 0; $x < 128; $x++){\n        $colors[] = new \\pocketmine\\utils\\Color(mt_rand(0, 128), mt_rand(0, 128), mt_rand(0, 128));\n    }\n}\n\\alvin0319\\SimpleMapRenderer\\util\\ImageUtil::toPNG($filePath, $colors);\n```\n\n#### Note\n * `$mapId` cannot overlap with an existing ID.\n * The `$color` must be a two-dimensional array from 0 to 128. (ex: `[y][x] = Color`)\n \n# To-Do\n* Implement MapDecoration (tracking player, mob, etc...)",
+  "readme_source_url": "https://github.com/alvin0319/SimpleMapRenderer",
+  "icon_url": "https://raw.githubusercontent.com/alvin0319/SimpleMapRenderer/6aced732e432af504d0dd22869c27027fef7c8d5/icon.png",
+  "featured": false,
+  "repo": "https://github.com/alvin0319/SimpleMapRenderer",
+  "archive_repo": null,
+  "approved_release_tag": "r-7908",
+  "stars": 4,
+  "total_downloads": 372,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "alvin0319"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/146082",
+  "versions": {
+    "stable": {
+      "version": "1.0.4",
+      "tag": "r-7908",
+      "published_at": null,
+      "downloads": 372,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7908/simplemaprenderer-1.0.4-r7908.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7908",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7908/simplemaprenderer-1.0.4-r7908.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleMapRenderer",
+    "stable_release_id": 7908
+  }
+}

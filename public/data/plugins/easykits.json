@@ -1,0 +1,65 @@
+{
+  "id": "easykits",
+  "name": "EasyKits",
+  "author": "AndreasHGK",
+  "description": "A kit plugin for everyone",
+  "readme_markdown": "# EasyKits\n A kit plugin for everyone\n \n ![kit creation](media/kitcreation.gif)\n\n## Features\n- [x] **Easy:**\nYou can easily create kits with a simple form. All the items in your inventory will be added to the kit. No configs needed!\nAll the kits can also be edited ingame.\n\n- [x] **Customizable:**\nYou can change the claim behavior of each kit individually. Want to override the armor when claiming? It's all up to you!\n\n- [x] **Language file:**\nAll messages in the plugin can be changed within the lang.yml file. You can also change the colors.\n\n- [x] **Flexible:**\nWith all this customizability you can use it for tons of gamemodes from kitpvp to factions.\n\n- [x] **Easy conversion:** Already have another kit plugin fully set up? \nDon't worry! You can use the /ekimport command to import kits from KitUI, KitsPlus and AdvancedKits\n\n- [x] **Chestkits:** Each kit has the option to be a chestkit.\nThese kits will be a chest when claimed, and when you tap with them you will equip them.\n\n## Info\n\n### Permissions\n**Commands:**\n- easykits.command.kit *(permission for /kit)*\n- easykits.command.createkit *(permission for /createkit)*\n- easykits.command.deletekit *(permission for /deletekit)*\n- easykits.command.editkit *(permission for /editkit)*\n- easykits.command.ekimport *(permission for /ekimport)*\n- easykits.command.createcategory *(permission for /createcategory)*\n- easykits.command.deletecategory *(permission for /deletecategory)*\n\n**Kit perms:**\n- easykits.kit.[kitname] *(gives permission to claim a kit)*\n- easykits.free.[kitname] *(gives permission to claim a kit for free)*\n- easykits.instant.[kitname] *(gives permission to claim a kit without cooldown)*\n- easykits.category.[kitname] *(gives permission to view a category)*\n\n### Economy\nThe plugin currently supports 2 economy plugins: EconomyAPI and MultiEconomy.\nIt will automaticly detect which plugin is loaded.\nIf you use MultiEconomy, please change the currency you want to use in the config.\n\n### Suggestions\nIf you have any suggestion to add onto the plugin, feel free to open an issue on github giving a detailed explanation of what you want to get added.\nIf I feel like the suggestion is good for the plugin, I will add it.\n\n### Issues\nExperiencing issues with the plugin? If so please open an issue on Github (and not by reviewing on poggit).\nI will fix the issue as soon as possible.\n\n### Contributions\nYou are free to contribute to the project.\nIf you open a pull request, make sure you contribute to the **development** branch.\nYour code has to be readable, tested and bug-free.\n\n### Flags\n- **Locked:** The player requires permission (*easykits.kit.**kitname***) to claim the kit\n- **doOverride:** The kit will take up the exact inventory slots assigned to the items\n- **doOverrideArmor:** The kit will take up the exact armor slots assigned to the armor pieces\n- **alwaysClaim:** Claim the kit even if he player lacks inventory space\n- **emptyOnClaim:** Empty the player's inventory before claiming the kit\n- **chestKit:** Make it so the kit is a chestkit\n\n## Todo\n- [ ] **One-per-life:** Support the option of only being able to claim 1 kit per life\n- [ ] **Claim effects:** Add (optional)cosmetic effects when claiming kits\n- [ ] **Kit & category icons:** Support icons in the kit select form.",
+  "readme_source_url": "https://github.com/AndreasHGK/EasyKits",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/AndreasHGK/EasyKits",
+  "archive_repo": null,
+  "approved_release_tag": "r-8002",
+  "stars": 4,
+  "total_downloads": 4499,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.9.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "MultiEconomy",
+      "PiggyCustomEnchants"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AndreasHGK"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/147877",
+  "versions": {
+    "stable": {
+      "version": "1.1.6",
+      "tag": "r-8002",
+      "published_at": null,
+      "downloads": 4499,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8002/easykits-1.1.6-r8002.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8002",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8002/easykits-1.1.6-r8002.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EasyKits",
+    "stable_release_id": 8002
+  }
+}

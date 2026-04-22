@@ -1,0 +1,63 @@
+{
+  "id": "coinsflipui",
+  "name": "CoinsFlipUI",
+  "author": "MoonTeamsDevs",
+  "description": "Plugin made for Minecraft Bedrock Edition, using **Pocket-Mine MP software**.",
+  "readme_markdown": "# CoinsFlipUI\n\n- Plugin made for Minecraft Bedrock Edition, using **Pocket-Mine MP software**. \n- Plugin allowing to make money bets. 2 players bet the same amount, a player is randomly drawn between the 2 and this one will get back the double of his bet.\n\n# Command\n\n| Command        | Permission | Description                        | Alias |\n|--------------|------------|------------------------------------|-------|\n| `/coinsflip` | * (all)          | Allows you to create a coins flip. | /cf   |\n\n# Plugin required \n\n- The following plugins are necessary for the plugin to work at its best.\n- Les plugins ci-dessous sont nécessaire pour que le plugin puisse fonctionner au maximum.\n\n| Plugin Name  | Link                                                       |\n|--------------|------------------------------------------------------------|\n| `FormAPI`    | [Click Here](https://github.com/jojoe77777/FormAPI/tree/master) |\n| `EconomyAPI` | [Click Here](https://poggit.pmmp.io/p/EconomyAPI/5.7.2)         |\n\n# Vidéo\n\n[Click here to see the plugin in action.](https://youtu.be/Qb_h-MwkKN0)",
+  "readme_source_url": "https://github.com/MoonTeamsDevs/CoinsFlipUI",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/MoonTeamsDevs/CoinsFlipUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-8016",
+  "stars": 5,
+  "total_downloads": 402,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MoonTeamsDevs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-8016",
+      "published_at": null,
+      "downloads": 402,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8016/coinsflipui-1.0.2-r8016.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8016",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8016/coinsflipui-1.0.2-r8016.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CoinsFlipUI",
+    "stable_release_id": 8016
+  }
+}

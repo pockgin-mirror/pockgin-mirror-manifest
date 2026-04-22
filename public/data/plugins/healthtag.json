@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11626",
   "stars": 5,
-  "total_downloads": 2959,
+  "total_downloads": 8623,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11626",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11626/healthtag-3.0.0-r11626.phar"
+    },
+    {
+      "tag": "r-8099",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8099/healthtag-2.1.2-r8099.phar"
     }
   ],
   "comments": {

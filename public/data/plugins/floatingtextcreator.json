@@ -1,0 +1,61 @@
+{
+  "id": "floatingtextcreator",
+  "name": "FloatingTextCreator",
+  "author": "vecnavium-pm-pl",
+  "description": "This FloatingTextCreator plugin is completely different from the ones you see on Poggit while that much easier and constantly in active development.",
+  "readme_markdown": "<p align=\"center\">\n    <a href=\"https://github.com/Vecnavium/FloatingTextCreator\"><img src=\"https://github.com/Vecnavium/FloatingTextCreator/blob/master/icon.png\"></img></a><br>\n    <b>This FloatingTextCreator plugin is completely different from the ones you see on Poggit while that much easier and constantly in active development.</b>\n</p>\n\n<p align=\"center\">\n    <img alt=\"GitHubrelease\" src=\"https://img.shields.io/github/v/release/Vecnavium/FloatingTextCreator?label=release&sort=semver\">\n      <img alt=\"Stars\" src= \"https://img.shields.io/github/stars/Vecnavium/FloatingTextCreator?style=for-the-badge\">\n    <a href=\"https://discord.gg/6M9tGyWPjr\"><img src=\"https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord\" alt=\"Discord\" /></a>\n</p>\n\n\n# Features \n\n- Ability to create FloatingTexts with just one easy command with no need to type up a long paragraph in-game.\n\n\n# Planned features\n\nWe will not take any suggestions for FloatingTextCreator API 3.0.0 for the reason below.\n\nFloatingTextCreator on PocketMine API 3.0.0 is now on feature freeze and will only be doing plugin updates when it comes to bug fixes and protocol updates.\n\n# Commands & Permissions \n\n|Command|Description|Permissions|\n|:--:|:--:|:--:|\n|/ftc|Create A FloatingText|` ftc.command.adm`\n\n# HowToUse\n\nIt's fairly easy yet simple and easy to use and if you make any typo you can easily modify it without needing to rewrite a long paragraph.\n\n1. Go to plugin_data/FloatingTextCreator/config.yml and follow the pattern and configure the texts to your liking with the provided tags\n\n2. Restart your server and join your server\n\n3. Go to the position you wish to create your floating text and simply run /ftc create txt {TxtName}. {TxtName} is the name of your floatingtext you named from your config.yml texts\n\n4. And you should be fine from there and you will be provided with a 1-3 rarely 4 digit ID which will be easy for you to delete and recreate without needing to memorize the IDs when trying to delete it!\n\n# BugReport\n\nYou found a bug or a plugin issue?\n\n- Contact support in the [Discord Server](https://discord.gg/jWFB56RqUN)\n\n- Create an [Issue](https://github.com/Vecnavium/FloatingTextCreator/issues/new)\n\n- Write your bug & the issue you are having with all informations including the error so I can track the issue\n\n- Submit the issue and be patient for a response for a solution to your problem\n\nIf you are using a modified Pocketmine-MP build/version you will not get assisted.",
+  "readme_source_url": "https://github.com/vecnavium-pm-pl/FloatingTextCreator",
+  "icon_url": "https://raw.githubusercontent.com/Vecnavium/FloatingTextCreator/805d0b458bf5c1ae3a559d5069e267911426acda/icon.png",
+  "featured": false,
+  "repo": "https://github.com/vecnavium-pm-pl/FloatingTextCreator",
+  "archive_repo": null,
+  "approved_release_tag": "r-8033",
+  "stars": 0,
+  "total_downloads": 910,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "vecnavium-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/148705",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-8033",
+      "published_at": null,
+      "downloads": 910,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8033/floatingtextcreator-1.0.3-r8033.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8033",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8033/floatingtextcreator-1.0.3-r8033.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FloatingTextCreator",
+    "stable_release_id": 8033
+  }
+}

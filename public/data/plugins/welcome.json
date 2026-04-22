@@ -1,0 +1,61 @@
+{
+  "id": "welcome",
+  "name": "Welcome",
+  "author": "MoonTeamsDevs",
+  "description": "Plugin for Minecraft Bedrock Edition using . Welcome plugin, welcome the new player by typing the command **/welcome**! And give him a reward for his politeness!",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/Welcome)](https://poggit.pmmp.io/p/Welcome) [![](https://poggit.pmmp.io/shield.dl.total/Welcome)](https://poggit.pmmp.io/p/Welcome)\n\n# Welcome\n- Plugin for Minecraft Bedrock Edition using `PocketMine-MP software`. Welcome plugin, welcome the new player by typing the command **/welcome**! And give him a reward for his politeness!\n\n# Command\n\n| Command        | Permission | Description                        | Alias |\n|--------------|------------|------------------------------------|-------|\n| `/welcome` | * (all)          | Welcome the new player. | none   |\n# Vidéo\n\n[Click here to see the plugin in action.](https://youtu.be/U0xkpBJAZuE)",
+  "readme_source_url": "https://github.com/MoonTeamsDevs/Welcome",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/MoonTeamsDevs/Welcome",
+  "archive_repo": null,
+  "approved_release_tag": "r-8012",
+  "stars": 0,
+  "total_downloads": 525,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MoonTeamsDevs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-8012",
+      "published_at": null,
+      "downloads": 525,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8012/welcome-1.0.0-r8012.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8012",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8012/welcome-1.0.0-r8012.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Welcome",
+    "stable_release_id": 8012
+  }
+}

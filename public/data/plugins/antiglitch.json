@@ -1,0 +1,66 @@
+{
+  "id": "antiglitch",
+  "name": "AntiGlitch",
+  "author": "ItsMax123",
+  "description": "AntiGlitch is Archived and will no longer be updated!",
+  "readme_markdown": "## AntiGlitch is Archived and will no longer be updated!\n### If you need a plugin that prevents pearl glitching, consider using [BetterPearls](https://github.com/ItsMax123/BetterPearls).\n\n[![](https://poggit.pmmp.io/shield.state/AntiGlitch)](https://poggit.pmmp.io/p/AntiGlitch)\n[![](https://poggit.pmmp.io/shield.api/AntiGlitch)](https://poggit.pmmp.io/p/AntiGlitch)\n[![](https://poggit.pmmp.io/shield.dl.total/AntiGlitch)](https://poggit.pmmp.io/p/AntiGlitch)\n\n<img src=\"https://i.ibb.co/gdynDyp/Anti-Glitch-2.png\" width=\"120\" height=\"120\" align=\"left\"></img>\n\n# AntiGlitch\nAntiGlitch is an all-in-one Pocketmine-MP (PMMP) plugin made to prevent as many known glitches.\n\n# Setup Guide\n1. To start using the plugin, download the AntiGlitch.phar file from poggit and put it into your server's plugins folder. \n2. Then all you have to do is edit to your liking the config.yml file which can be found in the plugins_data/AntiGlitch folder.\n5. After that, all you have to do is start your server.\n\n# Support\nJoin the [discord server](https://discord.gg/YJZNhwhyMQ) for quick support, bug reports and feature requests.\nIf you do not have discord please create an issue on github. Please keep in mind that it will take longer for me to reply on github. If you are reporting an issue with the plugin, be sure to include as many details as possible and steps to reproduce the issue.\n\n# Features\n- Features:\n  - [x] Anti-Pearl Glitch (Enderpearling in certain areas in order to phase through blocks)\n  - [x] Anti-PlaceBlocks Glitch (Placing blocks very fast in areas not allowed in order to get somewhere normally not accessible)\n  - [x] Anti-BreakBlocks Glitch (Breaking blocks very fast in areas not allowed in order to get somewhere normally not accessible)\n  - [x] Anti-CommandSpace Glitch (Putting a space after the slash (and other glitched command formats) in a command in order to do commands when normally not allowed)\n  - [x] Anti-OpenDoor Glitch (Opening a door/fencegate/trapdoor very fast in areas not allowed in order to get somewhere normally not accessible)\n- Coming soon...\n  - [ ] Maybe more customization in config if requested.\n  - [ ] If you know any glitches please let me know and I will try to fix it.",
+  "readme_source_url": "https://github.com/ItsMax123/AntiGlitch",
+  "icon_url": "https://raw.githubusercontent.com/ItsMax123/AntiGlitch/46762f3c34e0e55c0b170ca7b3b8a32910e8a118/AntiGlitch.png",
+  "featured": false,
+  "repo": "https://github.com/ItsMax123/AntiGlitch",
+  "archive_repo": null,
+  "approved_release_tag": "r-8024",
+  "stars": 5,
+  "total_downloads": 3926,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ItsMax123"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/148369",
+  "versions": {
+    "stable": {
+      "version": "1.2",
+      "tag": "r-8024",
+      "published_at": null,
+      "downloads": 3817,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8024/antiglitch-1.2-r8024.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8024",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8024/antiglitch-1.2-r8024.phar"
+    },
+    {
+      "tag": "r-7998",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7998/antiglitch-1.1.4-r7998.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiGlitch",
+    "stable_release_id": 8024
+  }
+}

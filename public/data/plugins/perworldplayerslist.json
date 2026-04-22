@@ -1,0 +1,61 @@
+{
+  "id": "perworldplayerslist",
+  "name": "PerWorldPlayersList",
+  "author": "aminozomty",
+  "description": "End of Life Notice",
+  "readme_markdown": "# PerWorldPlayersList\n\n---\n\n## End of Life Notice\n\nThis plugin has reached its end of life date and is now discontinued because of some reasons. [See this issue](https://github.com/aminozomty/PerWorldPlayersList/issues/2) for more information.\n\n---\n\nA PocketMine-MP plugin that makes only shows players that are in the same world in the player list menu.\n\nDownload the latest version of the plugin on Poggit: https://poggit.pmmp.io/p/PerWorldPlayersList\n\n# How to Install\n\n1. Download the plugin (.phar)\n2. Put the .phar in the plugins folder\n3. Start or restart your server\n\n# Notes\n\nThis plugin was created by aminozomty. Thanks to KygekDev for helping me.\n\nIf you find any bug you can report it <a href=\"https://github.com/aminozomty/PerWorldPlayersList/issues\">here</a>.\n\n# Testers\n\n- aminozomty\n- KygekDev\n- Studiokikotv\n- Dmytro Dima",
+  "readme_source_url": "https://github.com/aminozomty/PerWorldPlayersList",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/aminozomty/PerWorldPlayersList",
+  "archive_repo": null,
+  "approved_release_tag": "r-8064",
+  "stars": 5,
+  "total_downloads": 248,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "aminozomty"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/164924",
+  "versions": {
+    "stable": {
+      "version": "1.0.9",
+      "tag": "r-8064",
+      "published_at": null,
+      "downloads": 248,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8064/perworldplayerslist-1.0.9-r8064.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8064",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8064/perworldplayerslist-1.0.9-r8064.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PerWorldPlayersList",
+    "stable_release_id": 8064
+  }
+}

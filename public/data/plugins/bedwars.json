@@ -1,0 +1,61 @@
+{
+  "id": "bedwars",
+  "name": "BedWars",
+  "author": "thebigsmileXD",
+  "description": "A new BedWars plugin by XenialDan",
+  "readme_markdown": "![BedWars wide banner!](https://github.com/thebigsmileXD/BedWars/blob/master/resources/xbedwars_icon.png)\n---\n# BedWars\n[![](https://poggit.pmmp.io/shield.state/BedWars)](https://poggit.pmmp.io/p/BedWars)\n[![](https://poggit.pmmp.io/shield.api/BedWars)](https://poggit.pmmp.io/p/BedWars)\n[![](https://poggit.pmmp.io/shield.dl.total/BedWars)](https://poggit.pmmp.io/p/BedWars)\n\nA new BedWars plugin by XenialDan\n## Setup\nSet up an arena:\nUse the command `/bw setup` to open an ui, where you can add, create and modify arenas.\n\nIt allows you to create item spawners, set team spawn points, build in the world and create villager shops.\n\nRemember to use `/bw endsetup` when you are done - it automatically saves and backs up the world.\n\nThere are `{arenaname}.json` files, where you can modify some settings like team damaging and breakable blocks.\n\n## Joining / Sign setup\nJoining is done by using signs, but you can add any event for joining that you'd like - in JoinEventListener.php\n\nSign setup:\n```\nL1: [BedWars]\nL2: mapname\nL3: \nL4: \n```\n\n## Rewards and win messages\nIf you want to give rewards to the winning player/team, you can either listen for the `WinEvent` in any plugin, or use [gamereward](https://github.com/thebigsmileXD/gamereward)\n\n## TODOs\n- [ ] Settings for villager shop (entity used, items)\n- [ ] Spectator mode\n- [ ] Scoreboard",
+  "readme_source_url": "https://github.com/thebigsmileXD/BedWars",
+  "icon_url": "https://raw.githubusercontent.com/thebigsmileXD/BedWars/43bb5ff3e50be5a99a1ccd831f915f206369ae05/resources/xbedwars_icon_square_small.png",
+  "featured": false,
+  "repo": "https://github.com/thebigsmileXD/BedWars",
+  "archive_repo": null,
+  "approved_release_tag": "r-7999",
+  "stars": 3,
+  "total_downloads": 19975,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.14.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigsmileXD"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/147760",
+  "versions": {
+    "stable": {
+      "version": "1.1.8",
+      "tag": "r-7999",
+      "published_at": null,
+      "downloads": 19975,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7999/bedwars-1.1.8-r7999.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7999",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7999/bedwars-1.1.8-r7999.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BedWars",
+    "stable_release_id": 7999
+  }
+}

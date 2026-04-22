@@ -1,0 +1,68 @@
+{
+  "id": "plothomes",
+  "name": "PlotHomes",
+  "author": "supercrafter333",
+  "description": "PlotHomes - V1.0.2",
+  "readme_markdown": "[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/ca6cWPpERp)\n# PlotHomes - V1.0.2   [![](https://poggit.pmmp.io/shield.state/PlotHomes)](https://poggit.pmmp.io/p/theSpawn) [![](https://poggit.pmmp.io/shield.dl.total/PlotHomes)](https://poggit.pmmp.io/p/PlotHomes)\n\n\n**With this simple plugin you can teleport you to a plot of a player or to your plots.**\n\nThis plugin only works with [MyPlot](https://poggit.pmmp.io/p/MyPlot) by [jasonwynn10](https://github.com/jasonwynn10)!\n\nPlease leave a star if you like PlotHomes. Have fun!\n\n### Features\n- teleport you to a plot of a player\n- teleport you to your plots\n- support for `/p h super 2` (super = supercrafter333 (autocomplete), only when player ist online)\n\n### Report Bug\nYou've found a Bug?\n- Go to [Issues](https://github.com/supercrafter333/PlotHomes/issues)\n- Click on [New Issue](https://github.com/supercrafter333/PlotHomes/issues/new/choose)\n- Write your bug with all Informations that you have down\n- Send Issue\n- Wait, I where answer you\n\n### Commands\n|**Command**|**Description**|\n|-----------|---------------|\n|`/p h <string: name / int: count> [int: count]`|Teleport you to a plot of a player or your plots (`/p h <int: count>` - Teleport you to your plots; `/p h <string: name> [int: count]` - Teleport you to a plot of a player)|\n\n### License:\nThis plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by supercrafter333!\n\n### Credits\n\nOwner: supercrafter333\n\nHelper: ---\n\nIcon: ---\n\nDiscord-Tag: `supercrafter333#4062`\n\n~ Made for [MyPlot](https://poggit.pmmp.io/p/MyPlot)!",
+  "readme_source_url": "https://github.com/supercrafter333/PlotHomes",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/supercrafter333/PlotHomes",
+  "archive_repo": null,
+  "approved_release_tag": "r-8074",
+  "stars": 5,
+  "total_downloads": 1293,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [
+      "MyPlot"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "supercrafter333"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/149276",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-8074",
+      "published_at": null,
+      "downloads": 1074,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8074/plothomes-1.1.1-r8074.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8074",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8074/plothomes-1.1.1-r8074.phar"
+    },
+    {
+      "tag": "r-7958",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7958/plothomes-1.1.0-r7958.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlotHomes",
+    "stable_release_id": 8074
+  }
+}

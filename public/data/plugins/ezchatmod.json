@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11434",
   "stars": 0,
-  "total_downloads": 1863,
+  "total_downloads": 2410,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "3.0.0",
       "tag": "r-11434",
       "published_at": null,
-      "downloads": 1593,
+      "downloads": 1594,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11434/ezchatmod-3.0.0-r11434.phar"
     },
     "dev": null
@@ -49,6 +49,11 @@
       "tag": "r-10989",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10989/ezchatmod-2.0.0-r10989.phar"
+    },
+    {
+      "tag": "r-7968",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7968/ezchatmod-1.0.0-r7968.phar"
     }
   ],
   "comments": {

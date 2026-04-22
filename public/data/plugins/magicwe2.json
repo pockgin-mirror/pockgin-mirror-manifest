@@ -1,0 +1,61 @@
+{
+  "id": "magicwe2",
+  "name": "MagicWE2",
+  "author": "inxomnyaa",
+  "description": "Lag free asynchronous world editor for PMMP",
+  "readme_markdown": "![MagicWE2's awesome wide banner!](https://github.com/thebigsmileXD/MagicWE2/blob/master/resources/magicwe_icon_wide.png)\n---\n# MagicWE2\nLag free asynchronous world editor for [PMMP](https://github.com/pmmp/PocketMine-MP)\n\nTry the new MagicWE, now way more powerful, with more support, more commands, new tools and more!\n\n[![Poggit-CI](https://poggit.pmmp.io/ci.badge/thebigsmileXD/MagicWE2/MagicWE2/master)](https://poggit.pmmp.io/ci/thebigsmileXD/MagicWE2)\n[![](https://poggit.pmmp.io/shield.state/MagicWE2)](https://poggit.pmmp.io/p/MagicWE2)\n[![](https://poggit.pmmp.io/shield.api/MagicWE2)](https://poggit.pmmp.io/p/MagicWE2)\n![PHPStan](https://github.com/thebigsmileXD/MagicWE2/workflows/PHPStan/badge.svg)\n## Why MagicWE2?\n_Rainbow sprinkles!_\n\nJokes aside, here is a list of pros:\n\n- Simple usage\n- Translations\n- Good performance and great speeds\n- Progress bars like on Windows 98!\n- Sessions\n- Clipboards\n- Optimized item / block parsing - you can place any block, by id, name, and item!\n- Alot more commands\n- Command auto-completion\n- Command flags (i.e. -p for relative copying/pasting, -h for hollow objects)\n- UI for brush setup and configuration\n- Fancy icon and optional startup ASCII art\n- Direct bug reporting to GitHub\n<!-- \n- schematic support\n- MyPlot support\n-->\n\n## Commands\n| Command | Alias | Description | Usage |\n| --- | --- | --- | --- |\n| `//pos1` | `//1` | `Select first position` | `//pos1` |\n| `//pos2` | `//2` | `Select second position` | `//pos2` |\n| `//set` | `//fill` | `Fill an area with the specified blocks` | `//set <blocks:string> [flags:text]` |\n| `//replace` | | `Replace blocks in an area with other blocks` | `//replace <findblocks:string> <replaceblocks:string> [flags:text]` |\n| `//copy` | | `Copy an area into a clipboard` | `//copy [flags:text]` |\n| `//paste` |  | `Paste your clipboard` | `//paste [flags:text]` |\n| `//wand` |  | `Gives you the selection wand` | `//wand` |\n| `//togglewand` |  | `Toggle the wand tool on/off` | `//togglewand` |\n| `//undo` |  | `Rolls back the last action` | `//undo` |\n| `//redo` |  | `Applies the last undo action again` | `//redo` |\n| `//debug` |  | `Gives you the debug stick, which gives information about the clicked block` | `//debug` |\n| `//toggledebug` |  | `Toggle the debug stick on/off` | `//toggledebug` |\n| `//cylinder` | `//cyl` | `Create a cylinder` | `//cylinder <blocks:string> <diameter:int> [height:int] [flags:text]` |\n| `//count` | `//analyze` | `Count blocks in selection` | `//count [blocks:string] [flags:text]` |\n| `//help` | `//?,//mwe,//wehelp` | `MagicWE help command` | `//help [command:string]` |\n| `//version` | `//ver` | `MagicWE version` | `//version` |\n| `//info` |  | `Information about MagicWE` | `//info` |\n| `//report` | `//bug,//github` | `Report a bug to GitHub` | `//report [title:text]` |\n| `//donate` | `//support,//paypal` | `Donate to support development of MagicWE!` | `//donate` |\n| `//brush` |  | `Opens the brush tool menu` | `//brush` |\n| `//flood` |  | `Opens the flood tool menu` | `//flood` |\n\n## Planned features\n- Saved sessions (saved brushes and clipboards)\n- More commands, a glimpse at the plugin.yml should give you a good look what is coming up\n- Command based flags, since they are currently in a global state\n- Schematic and structure block data support\n- Clipboard naming, exporting and switching\n- ScoreboardAPI integration\n- Better and more brushes. For now i suggest using [BlockSniper](https://github.com/BlockHorizons/BlockSniper) for brushes!\n- [MyPlot](https://github.com/jasonwynn10/MyPlot) integration\n\n## Fast updates\nYou have an urgent issue, your server is crashing or players mess with the world and start griefing?\n\nConsider using //report to create a pre-filled GitHub issue!\n\nFeel free to open issues, feature requests and criticism are welcome!\n\nIf you have an urgent issue, tag me on Twitter for faster response time: [@xenialdan](https://twitter.com/xenialdan)\n\n## Quotes\n- _\"MagicWE2 has a new fresh coating over the plugin, with rainbow colored sprinkle topping!\"_ ~ XenialDan, 2017\n\n### Foot notes\nLicense: GNU GENERAL PUBLIC LICENSE\n\nReadme last updated: 4th August 2019",
+  "readme_source_url": "https://github.com/inxomnyaa/MagicWE",
+  "icon_url": "https://raw.githubusercontent.com/thebigsmileXD/MagicWE2/409811fb7bea555b17fc264912ebf1b729e7e93e/resources/magicwe_icon_square_small.png",
+  "featured": false,
+  "repo": "https://github.com/inxomnyaa/MagicWE",
+  "archive_repo": null,
+  "approved_release_tag": "r-8094",
+  "stars": 5,
+  "total_downloads": 4751,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "inxomnyaa"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "10.2.0",
+      "tag": "r-8094",
+      "published_at": null,
+      "downloads": 4751,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8094/magicwe2-10.2.0-r8094.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8094",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8094/magicwe2-10.2.0-r8094.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MagicWE2",
+    "stable_release_id": 8094
+  }
+}

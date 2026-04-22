@@ -1,0 +1,61 @@
+{
+  "id": "vanillacoordinates",
+  "name": "VanillaCoordinates",
+  "author": "Shelly7w7",
+  "description": "Show coordinates in a server as your client does in vanilla minecraft!",
+  "readme_markdown": "# VanillaCoordinates\nShow coordinates in a server as your client does in vanilla minecraft!\n\n| HitCount | Poggit |\n|:--:|:--:|\n[![HitCount](http://hits.dwyl.io/Shelly7w7/VanillaCoordinates.svg)](http://hits.dwyl.io/Shelly7w7/VanillaCoordinates)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/Shelly7w7/VanillaCoordinates/VanillaCoordinates)](https://poggit.pmmp.io/ci/Shelly7w7/VanillaCoordinates/VanillaCoordinates)\n\n## Where to download a compiled version?\n\nYou can get the latest compiled version [here.](https://poggit.pmmp.io/ci/Shelly7w7/VanillaCoordinates)\n\n### How to install?\n\nAfter downloading the compiled version from poggit, simply put the file in your server directory (``/plugins``)\n\n### How does this work?\n\nThis plugin shows the coordinates on the upper left cornor same like in vanila minecraft!\nYou can customize commands and messages in the ```config.yml``` which can be found in ```plugins_data```.\n\n## Suggestions and Issues\n\nYou can simply open an issue if you want to suggest anything.\n\nYou can simply open an issue if you find any bugs and I'll try to fix it as soon as possible!",
+  "readme_source_url": "https://github.com/Shelly7w7/VanillaCoordinates",
+  "icon_url": "https://raw.githubusercontent.com/Shelly7w7/VanillaCoordinates/31d601e07535ac185c11850a249cb22bcc758dfd/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Shelly7w7/VanillaCoordinates",
+  "archive_repo": null,
+  "approved_release_tag": "r-8100",
+  "stars": 5,
+  "total_downloads": 7553,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "4.0.0-4.21.1"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Shelly7w7"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/153344",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-8100",
+      "published_at": null,
+      "downloads": 7553,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8100/vanillacoordinates-1.1.0-r8100.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8100",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8100/vanillacoordinates-1.1.0-r8100.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VanillaCoordinates",
+    "stable_release_id": 8100
+  }
+}

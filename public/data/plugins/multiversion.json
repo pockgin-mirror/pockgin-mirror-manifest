@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8123",
   "stars": 5,
-  "total_downloads": 6548,
+  "total_downloads": 12090,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "0.475.1",
       "tag": "r-8123",
       "published_at": null,
-      "downloads": 6548,
+      "downloads": 6549,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8123/multiversion-0.475.1-r8123.phar"
     },
     "dev": null
@@ -44,6 +44,26 @@
       "tag": "r-8123",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8123/multiversion-0.475.1-r8123.phar"
+    },
+    {
+      "tag": "r-7977",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7977/multiversion-0.471.4-r7977.phar"
+    },
+    {
+      "tag": "r-7936",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7936/multiversion-0.471.3-r7936.phar"
+    },
+    {
+      "tag": "r-7927",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7927/multiversion-0.471.2-r7927.phar"
+    },
+    {
+      "tag": "r-7925",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7925/multiversion-0.471.1-r7925.phar"
     }
   ],
   "comments": {

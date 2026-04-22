@@ -1,0 +1,61 @@
+{
+  "id": "spongebobmeme",
+  "name": "sPonGeBoBmEMe",
+  "author": "dktapps-pm-pl",
+  "description": "a pLugIn fOr pOckETMiNe-mP tO maKe aLL ChaT mEssAgeS lOoK liKe thIs",
+  "readme_markdown": "# sPonGeBoBmEMe\na pLugIn fOr pOckETMiNe-mP tO maKe aLL ChaT mEssAgeS lOoK liKe thIs",
+  "readme_source_url": "https://github.com/dktapps-pm-pl/sPonGeBoBmEMe",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/dktapps-pm-pl/sPonGeBoBmEMe",
+  "archive_repo": null,
+  "approved_release_tag": "r-7963",
+  "stars": 5,
+  "total_downloads": 111,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.25.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "dktapps-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/147125",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-7963",
+      "published_at": null,
+      "downloads": 111,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7963/spongebobmeme-1.0.3-r7963.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7963",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7963/spongebobmeme-1.0.3-r7963.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "sPonGeBoBmEMe",
+    "stable_release_id": 7963
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "ptimeui",
+  "name": "PTimeUI",
+  "author": "supercrafter333",
+  "description": "With this plugin players can set his own time!",
+  "readme_markdown": "[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/ca6cWPpERp)\n# PTimeUI   [![](https://poggit.pmmp.io/shield.state/PTimeUI)](https://poggit.pmmp.io/p/PTimeUI) <a href=\"https://poggit.pmmp.io/p/PTimeUI\"><img src=\"https://poggit.pmmp.io/shield.dl.total/PTimeUI\"></a>\n\nWith this plugin players can set his own time!\n\nI hope that this plugin is usefull :)\n\n### Features\n- Players can set his own Time in an easy UI\n- very customizable (you can edit a lot of this plugin in the `config.yml`)\n- Easy2Use\n\n### License\nThis plugin is Licensed under the [Apache 2.0 License](/LICENSE)! Plugin by supercrafter333!\n\n### TODOs\n|--------------------------|\n\n### Bugs\n- [ ] If you set your own time a second time, the time from before and now is lagging [The player where Kicked, when he reset the time, to avoid this bug]\n\n[ please post a bug if you found a bug [here](https://github.com/supercrafter333/PTimeUI/issues) ]\n\n### Downloads:\nPoggit: <a href=\"https://poggit.pmmp.io/p/PTimeUI\">Download</a> [soon]\n\n### Credits\nOwner: supercrafter333\n\nMain-Developer: supercrafter333\n\nIcon: No icon  --- Can anybody create an icon for this plugin?\n\nHelpers: |---|\n\n### final sentence\n**Do you have Questions, Feature requests or other things? Contact me on Discord: supercrafter333#4062  or  open an [issue](https://github.com/supercrafter333/PTimeUI/issues) on GitHub**",
+  "readme_source_url": "https://github.com/supercrafter333/PTimeUI",
+  "icon_url": "https://raw.githubusercontent.com/supercrafter333/PTimeUI/9d861f7aa3487e97640a60b7519edd1ff07046f9/icon.png",
+  "featured": false,
+  "repo": "https://github.com/supercrafter333/PTimeUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-8031",
+  "stars": 0,
+  "total_downloads": 131,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "supercrafter333"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/148675",
+  "versions": {
+    "stable": {
+      "version": "1.0.3-5",
+      "tag": "r-8031",
+      "published_at": null,
+      "downloads": 131,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8031/ptimeui-1.0.3-5-r8031.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-8031",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8031/ptimeui-1.0.3-5-r8031.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PTimeUI",
+    "stable_release_id": 8031
+  }
+}
