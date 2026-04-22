@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12131",
   "stars": 5,
-  "total_downloads": 1276,
+  "total_downloads": 1800,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,16 @@
       "tag": "r-8198",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8198/vouchers-1.0.2-r8198.phar"
+    },
+    {
+      "tag": "r-7167",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7167/vouchers-1.0.1-r7167.phar"
+    },
+    {
+      "tag": "r-7115",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7115/vouchers-1.0.0-r7115.phar"
     }
   ],
   "comments": {

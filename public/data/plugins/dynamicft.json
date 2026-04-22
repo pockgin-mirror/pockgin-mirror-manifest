@@ -1,0 +1,61 @@
+{
+  "id": "dynamicft",
+  "name": "DynamicFT",
+  "author": "OguzhanUmutlu",
+  "description": "A useful PocketMine-MP plugin that allow user to create customizable dynamic floating text easily!",
+  "readme_markdown": "<h1>\n<a id=\"user-content-dynamicft\" class=\"anchor\" href=\"#dynamicft\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>DynamicFT</h1>\n<p><a href=\"https://poggit.pmmp.io/p/DynamicFT\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/c68cc0c1a1a3e0c1a92980cf8166bcb60240ea2b1b8523d38a64e924ab0ca54d/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f44796e616d69634654\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.state/DynamicFT\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/DynamicFT\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/162655042525b60be4d9b3f6a73f087bf0bf4ce1e30da29b772b5c312be6a7da/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f44796e616d69634654\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.api/DynamicFT\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/DynamicFT\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/b4b3b4b9aed0f0932125d499b2274081365e6c6c94736b39280c09d277c5053e/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f44796e616d69634654\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/DynamicFT\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/DynamicFT\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/51f72763e4834425f761abfa88789b43b9ee313c37b544638db8c96fe6bb728f/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f44796e616d69634654\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl/DynamicFT\" style=\"max-width:100%;\"></a></p>\n<p>A useful PocketMine-MP plugin that allow user to create customizable dynamic floating text easily!</p>\n<h1>\n<a id=\"user-content-commands\" class=\"anchor\" href=\"#commands\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Commands</h1>\n<p>Main command: <code>/dynamicft</code> (Aliases: <code>dft</code>)\nSub commands:</p>\n<ul>\n<li>\n<code>create</code> - Creates floating text</li>\n<li>\n<code>edit</code> - Lets you edit selected floating text</li>\n<li>\n<code>remove</code> - Removes selected floating text</li>\n<li>\n<code>listids</code> - Shows all floating texts in a list</li>\n</ul>\n<h1>\n<a id=\"user-content-tags\" class=\"anchor\" href=\"#tags\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Tags</h1>\n<h2>\n<a id=\"user-content-general-tags\" class=\"anchor\" href=\"#general-tags\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>General tags</h2>\n<ul>\n<li><code>{player.name}</code></li>\n<li><code>{player.display_name}</code></li>\n<li><code>{server.online}</code></li>\n<li><code>{server.max_online}</code></li>\n<li><code>{player.item.name}</code></li>\n<li><code>{player.item.id}</code></li>\n<li><code>{player.item.meta}</code></li>\n<li><code>{player.item.count}</code></li>\n<li><code>{player.x}</code></li>\n<li><code>{player.y}</code></li>\n<li><code>{player.z}</code></li>\n<li><code>{player.level.name}</code></li>\n<li><code>{player.world.name}</code></li>\n<li><code>{player.level.folder_name}</code></li>\n<li><code>{player.world.folder_name}</code></li>\n<li><code>{player.level.player_count}</code></li>\n<li><code>{player.world.player_count}</code></li>\n<li><code>{player.ip}</code></li>\n<li><code>{player.ping}</code></li>\n<li><code>{time}</code></li>\n<li><code>{date}</code></li>\n<li><code>{line}</code></li>\n</ul>\n<h2>\n<a id=\"user-content-economyapi-extension\" class=\"anchor\" href=\"#economyapi-extension\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>EconomyAPI extension</h2>\n<ul>\n<li><code>{player.money}</code></li>\n</ul>\n<h2>\n<a id=\"user-content-factionspro-extension\" class=\"anchor\" href=\"#factionspro-extension\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>FactionsPro extension</h2>\n<ul>\n<li><code>{player.faction.name}</code></li>\n<li><code>{player.faction.power}</code></li>\n</ul>\n<h1>\n<a id=\"user-content-api\" class=\"anchor\" href=\"#api\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>API</h1>\n<h3>\n<a id=\"user-content-getting-the-plugin-main-class\" class=\"anchor\" href=\"#getting-the-plugin-main-class\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Getting the plugin main class</h3>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-k\">use</span> <span class=\"pl-v\">OguzhanUmutlu</span>\\<span class=\"pl-v\">DynamicFT</span>\\<span class=\"pl-v\">Main</span> <span class=\"pl-k\">as</span> <span class=\"pl-v\">DynamicFT</span>;</pre></div>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-s1\"><span class=\"pl-c1\">$</span>dynamicft</span> = <span class=\"pl-v\">DynamicFT</span>::<span class=\"pl-en\">getInstance</span>();</pre></div>\n<h4>\n<a id=\"user-content-floating-text-properties\" class=\"anchor\" href=\"#floating-text-properties\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Floating text properties</h4>\n<table>\n<thead>\n<tr>\n<th>Property name</th>\n<th>Data type</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>text</code></td>\n<td>string</td>\n</tr>\n<tr>\n<td><code>x</code></td>\n<td>float</td>\n</tr>\n<tr>\n<td><code>y</code></td>\n<td>float</td>\n</tr>\n<tr>\n<td><code>z</code></td>\n<td>float</td>\n</tr>\n<tr>\n<td><code>level</code></td>\n<td>string <em>(Level folder name)</em>\n</td>\n</tr>\n</tbody>\n</table>\n<h3>\n<a id=\"user-content-getting-floating-text-properties\" class=\"anchor\" href=\"#getting-floating-text-properties\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Getting floating text properties</h3>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-s1\"><span class=\"pl-c1\">$</span>dynamicft</span>-&gt;<span class=\"pl-c1\">fts</span>[<span class=\"pl-s1\"><span class=\"pl-c1\">$</span>id</span>];</pre></div>\n<p>This function returns all the properties of the floating text in array</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-s1\"><span class=\"pl-c1\">$</span>dynamicft</span>-&gt;<span class=\"pl-c1\">fts</span>;</pre></div>\n<p>This function returns all floating texts</p>\n<h3>\n<a id=\"user-content-spawn-floating-texts-to-client-player\" class=\"anchor\" href=\"#spawn-floating-texts-to-client-player\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Spawn floating texts to client (player)</h3>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-s1\"><span class=\"pl-c1\">$</span>idOfSpawnedFt</span> = <span class=\"pl-s1\"><span class=\"pl-c1\">$</span>dynamicft</span>-&gt;<span class=\"pl-en\">spawnFt</span>(<span class=\"pl-s1\"><span class=\"pl-c1\">$</span>id</span>, <span class=\"pl-s1\"><span class=\"pl-c1\">$</span>dynamicft</span>-&gt;<span class=\"pl-en\">getServer</span>()-&gt;<span class=\"pl-en\">getPlayer</span>(<span class=\"pl-s\">\"aPlayerName\"</span>));</pre></div>\n<p>This process will be run automatically when a player joins, when a floating text gets registered or gets updated</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-s1\"><span class=\"pl-c1\">$</span>dynamicft</span>-&gt;<span class=\"pl-c1\">ftEntities</span>[idOfSpawnedFt];</pre></div>\n<p>This returns the all the floating text particle instances detail of a floating text in array</p>\n<h4>\n<a id=\"user-content-result\" class=\"anchor\" href=\"#result\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Result</h4>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-c\">/*</span>\n<span class=\"pl-c\">[</span>\n<span class=\"pl-c\">\t\"player\" =&gt; \\pocketmine\\Player instance,</span>\n<span class=\"pl-c\">\t\"particle\" =&gt; \\pocketmine\\level\\particle\\FloatingTextParticle instance,</span>\n<span class=\"pl-c\">\t\"id\" =&gt; int</span>\n<span class=\"pl-c\">]</span>\n<span class=\"pl-c\">*/</span>\n<span class=\"pl-s1\"><span class=\"pl-c1\">$</span>idOfSpawnedFt</span> = <span class=\"pl-s1\"><span class=\"pl-c1\">$</span>spawnedFt</span>[<span class=\"pl-s\">\"id\"</span>];</pre></div>\n<p><strong>If you want to update the text of a floating text, update with the <code>$dynamicft-&gt;ftConfig-&gt;getAll()</code> and <code>$dynamicft-&gt;ftConfig-&gt;setAll()</code> functions instead of changing the text of the floating text particle instance as it will be overwritten every second</strong></p>\n<h1>\n<a id=\"user-content-reporting-bugs\" class=\"anchor\" href=\"#reporting-bugs\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Reporting bugs</h1>\n<p><strong>You may open an issue on the floating text GitHub repository for report bugs</strong>\n<a href=\"https://github.com/OguzhanUmutlu/DynamicFT/issues\">https://github.com/OguzhanUmutlu/DynamicFT/issues</a></p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/134869",
+  "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/DynamicFT/5559ac5034f8dddca857161db0b5d044a818c06d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/OguzhanUmutlu/DynamicFT",
+  "archive_repo": null,
+  "approved_release_tag": "r-7226",
+  "stars": 4,
+  "total_downloads": 5765,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OguzhanUmutlu"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/134871",
+  "versions": {
+    "stable": {
+      "version": "1.0.6",
+      "tag": "r-7226",
+      "published_at": null,
+      "downloads": 5765,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7226/dynamicft-1.0.6-r7226.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7226",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7226/dynamicft-1.0.6-r7226.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DynamicFT",
+    "stable_release_id": 7226
+  }
+}

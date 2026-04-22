@@ -1,0 +1,61 @@
+{
+  "id": "armoreffect",
+  "name": "ArmorEffect",
+  "author": "Refaltor77",
+  "description": "Welcome to the plugin ArmorEffect created by Refaltor.",
+  "readme_markdown": "## ArmorEffect\n\n- Welcome to the plugin ArmorEffect created by Refaltor.</br>\nIt is a plugin that allows to easily add effects when the player wears armor.\n  \n## How to install ?\n\n- Vous devez télécharger le plugin sur poggit puis le mettre dans le dossier </br>\n'plugins' sur votre serveur PocketMine-MP</br>\n  \n- https://poggit.pmmp.io/p/ArmorEffect/1.5.0\n\n## API\n\n- Pour get l'API de ArmorEffect:\n````PHP\n$api = $this->getServer()->getPluginManager()->getPlugin('ArmorEffect');\n````\n\n- Functions:\n````PHP\n$api = $this->getServer()->getPluginManager()->getPlugin('ArmorEffect');\n\n$array = $api->getAllArmors(); // array\n$armor = $api->getArmorFromString('317:0'); // array\n$effects = $api->getEffectByArmor('317:0'); // array\n````\n\n## Crédits\n\nCreator: Refaltor</br>\nGithub: https://github.com/Refaltor77 </br>\nYoutube: https://www.youtube.com/channel/UCN5uYUbzlozB9G5L5ph_eDw",
+  "readme_source_url": "https://github.com/Refaltor77/ArmorEffect",
+  "icon_url": "https://raw.githubusercontent.com/Refaltor77/ArmorEffect/5c922246a636a119af481b59a7818e0b41ec2498/image.png",
+  "featured": false,
+  "repo": "https://github.com/Refaltor77/ArmorEffect",
+  "archive_repo": null,
+  "approved_release_tag": "r-7144",
+  "stars": 0,
+  "total_downloads": 4031,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Refaltor77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/133536",
+  "versions": {
+    "stable": {
+      "version": "1.5.0",
+      "tag": "r-7144",
+      "published_at": null,
+      "downloads": 4031,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7144/armoreffect-1.5.0-r7144.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7144",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7144/armoreffect-1.5.0-r7144.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ArmorEffect",
+    "stable_release_id": 7144
+  }
+}

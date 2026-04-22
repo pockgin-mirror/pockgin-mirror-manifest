@@ -1,0 +1,61 @@
+{
+  "id": "mcpediscordrelay",
+  "name": "MCPEDiscordRelay",
+  "author": "nomadjimbob",
+  "description": "Connect your Minecraft PocketMine server chat and console to a Discord channel.",
+  "readme_markdown": "<img src=\"https://i.imgur.com/POnNBZX.png\" width=\"100%\">\n\n# MCPEDiscordRelay\n<a href=\"https://poggit.pmmp.io/p/MCPEDiscordRelay\"><img src=\"https://poggit.pmmp.io/shield.state/MCPEDiscordRelay\"></a>\n[![License](https://img.shields.io/github/license/nomadjimbob/MCPEDiscordRelay?color=green)](https://github.com/nomadjimbob/MCPEDiscordRelay/LICENSE)\n[![Downloads](https://poggit.pmmp.io/shield.dl.total/MCPEDiscordRelay)](https://poggit.pmmp.io/p/MCPEDiscordRelay)\n[![Version](https://img.shields.io/github/v/release/nomadjimbob/MCPEDIscordRelay)](https://github.com/nomadjimbob/MCPEDiscordRelay/releases/latest)\n\n### Connect your Minecraft PocketMine server chat and console to a Discord channel.\n\n* Outputs player chat and commands to a Discord channel\n* Option to output the console to the same Discord channel\n \n\n## Getting Started\n\n<img align=\"right\" src=\"https://i.imgur.com/3ijsHmh.png\" width=\"30%\">\n\nIt's is easy to get going...\n\n1. [Download the latest release](https://github.com/nomadjimbob/MCPEDiscordRelay/releases/latest/download/MCPEDiscordRelay.phar) and place it in your plugins folder\n2. Restart your Minecraft server. This will create a MCPEDiscordRelay folder containing the config.yml file in your plugins folder\n3. Open your Discord server and create or open a chat channel\n4. Click on the settings icon beside your chat channel name\n5. Click Webhooks and New\n6. Click \"Copy\" under the Webhook URL\n7. In the config.yml file, paste the Webhook URL in the discord_webhook_url option\n8. Restart your Minecraft server\n\nYou should now see your server outputting to your Discord channel.\n\n## Getting help\n\nIf you think you have found a problem, or would like to see a feature, please [open an issue](https://github.com/nomadjimbob/MCPEDiscordRelay/issues).\n\nFeatures for the next release can be found in the [next release TODO issue](https://github.com/nomadjimbob/MCPEDiscordRelay/issues/8).\n\nIf you are a coder, feel free to create a pull request, but please be detailed about your changes!\n\n## Detailed configuration\n* **enabled** (true|false) - If the plugin is to be loaded or not\n* **discord_webhook_url** (string) - The Discord Webhook URL to use when connecting to Discord\n* **discord_webhook_name** (string) - The username the plugin uses in Discord\n* **discord_webhook_refresh** (number) - The amount of seconds to wait before updating Discord. Setting this number too low may cause Discord to take spam action\n* **discord_webhook_override** (true|false) - The plugin verifies the Discord Webhook URL against its own internal checks. If the plugin thinks your Webhook URL is wrong, it will disable itself. If you know better, set this to true to override the check\n* **send_console** (true|false) - The default is to just send player chat and commands to Discord. If you would like to also send the servers console, set this to true\n* **show_player_events** (true|false) - Send when a player joins/leaves the server to Discord\n\n#### Discord Embed options\n\nThe following discord webhook embeds are not used by the official discord clients, but maybe used by others. These options maybe removed in the future when removed from the Discord API as they short be considered deprecated.\n\n* **discord_webhook_title** (string) - The embed title string to send to Discord\n* **discord_webhook_description** (string) - The embed description string to send to Discord\n* **discord_webhook_color** (hex color|number) - The embed color to send to Discord. Hex colors must start with a hashtag\n* **discord_webhook_footer** (string) - The embed footer to send to Discord\n\n## Known Issues\n\nThis plugin will not work on servers hosted on specific devices that do not have 'cURL' installed (eg android phone).\n\n## Final mention\n\n* Based off the plugins MCPEToDiscord by JaxkDev and DiscordMCPE by NiekertDev",
+  "readme_source_url": "https://github.com/nomadjimbob/MCPEDiscordRelay",
+  "icon_url": "https://raw.githubusercontent.com/nomadjimbob/MCPEDiscordRelay/bdb6927d922d94ee8acb67ba0592f83f9fd119f9/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nomadjimbob/MCPEDiscordRelay",
+  "archive_repo": null,
+  "approved_release_tag": "r-7327",
+  "stars": 5,
+  "total_downloads": 1832,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nomadjimbob"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/136519",
+  "versions": {
+    "stable": {
+      "version": "1.0.10",
+      "tag": "r-7327",
+      "published_at": null,
+      "downloads": 1832,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7327/mcpediscordrelay-1.0.10-r7327.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7327",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7327/mcpediscordrelay-1.0.10-r7327.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MCPEDiscordRelay",
+    "stable_release_id": 7327
+  }
+}

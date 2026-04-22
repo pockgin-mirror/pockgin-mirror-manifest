@@ -1,0 +1,61 @@
+{
+  "id": "customitem",
+  "name": "CustomItem",
+  "author": "Refaltor77",
+  "description": "Plugin to add items",
+  "readme_markdown": "# CustomItem\n\n## Plugin to add items\n\n- No more item limit 💫\n- Your imagnition the only barrier 💭\n- New id new items🔢\n\n## How to make texture for new item\n          \n### 1• Create folder items on your ressource pack\n<br></br>\n![alt text](https://github.com/Refaltor77/CustomItem/blob/main/images/tuto1.png)\n\n### 2• Create json file In folder items, you can rename this on your item name \n<br></br>\n![alt text](https://github.com/Refaltor77/CustomItem/blob/main/images/tuto2.png)\n\n### 3• Write this code and replace __YourItem__ whith your item name\n<br></br>\n![alt text](https://github.com/Refaltor77/CustomItem/blob/main/images/tuto3.png)\n\n### 4• You can go on folder textures/items and create YourItem.png\n<br></br>\n![alt text](https://github.com/Refaltor77/CustomItem/blob/main/images/tuto4.png)\n\n### 5• And you can go on file textures/item_texture.json then you write this \n<br></br>\n![alt text](https://github.com/Refaltor77/CustomItem/blob/main/images/tuto5.png)\n\n### 6• Finally go to you game, ist finish !\n\nFor exemple pack https://github.com/natof/GoldRush_Pack_faction-16x",
+  "readme_source_url": "https://github.com/Refaltor77/CustomItem",
+  "icon_url": "https://raw.githubusercontent.com/Refaltor77/CustomItem/a2500b50920499c73307a01379fbdc2ed6dc588b/logo.png",
+  "featured": false,
+  "repo": "https://github.com/Refaltor77/CustomItem",
+  "archive_repo": null,
+  "approved_release_tag": "r-7102",
+  "stars": 5,
+  "total_downloads": 1806,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Refaltor77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/132950",
+  "versions": {
+    "stable": {
+      "version": "2.0.0-beta",
+      "tag": "r-7102",
+      "published_at": null,
+      "downloads": 1806,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7102/customitem-2.0.0-beta-r7102.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7102",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7102/customitem-2.0.0-beta-r7102.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomItem",
+    "stable_release_id": 7102
+  }
+}

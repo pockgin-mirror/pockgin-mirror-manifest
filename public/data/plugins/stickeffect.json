@@ -1,0 +1,61 @@
+{
+  "id": "stickeffect",
+  "name": "StickEffect",
+  "author": "Refaltor77",
+  "description": "It is a plugin that allows to add effects by clicking on configure items",
+  "readme_markdown": "## StickEffect\n\n[![](https://poggit.pmmp.io/shield.state/StickEffect)](https://poggit.pmmp.io/p/StickEffect)\n[![](https://poggit.pmmp.io/shield.dl.total/StickEffect)](https://poggit.pmmp.io/p/StickEffect)\n\nIt is a plugin that allows to add effects by clicking on configure items\n\n\n## Config.yml\n\n````YAML\n---\n# DO NOT TOUCH !\nversion: 3.0\n\n# Welcome to StickEffect version 1.0.0\n# ---\n# the {time} notation in the \"message\" element allows you to take the time of the remaining cooldown\n# effect duration is for 20 = 1 second\n# the effect level is for 0 = 1 level so level 1 is finally equal to 2\n# the \"visible\" element allows to make appear or not the fantasy bubbles (true:false)\n# l'élement \"remove\" allows to remove the stick at each use\n\n\"369:0\":\n  cooldown: 60 # secondes \n  message: \"you have {time} seconds left to use the stick\"\n  remove: true\n  permission:\n    enable: false\n    perm: 'stick.use'\n    message_perm: \"§cYou don’t have permission !\"\n  effect:\n    1: # id effect (speed)\n      duration: 20 # ticks, 20 = 20 secondes\n      niveau: 1 = 1 lvl\n      visible: false\n\n\"336:0\":\n  cooldown: 60\n  message: \"you have {time} seconds left to use the stick\"\n  remove: true\n  permission:\n    enable: true\n    perm: 'stick2.use'\n    message_perm: \"§cYou don’t have permission !\"\n  effect:\n    3: # id haste\n      duration: 20\n      niveau: 2\n      visible: true\n...\n````\n\n## API\n\nThe plugin also allows you to have a small API available. </br>\n\nTo get the API: \n````PHP\n$api = $this->getServer()->getPluginManager()->getPlugin('StickEffect');\n````\n\nfunctions: \n````PHP\n$array = $api->getAllStick(); // array\n$stick = $api->getStickFromString('325:0'); // array\n$effects = $api->getAllEffectFromStick('325:0'); // array\n$perm = $api->hasPermInStick('325:0');  // bool\n$permission = $api->getPermissionInStick('325:0'); // string\n````",
+  "readme_source_url": "https://github.com/Refaltor77/StickEffect",
+  "icon_url": "https://raw.githubusercontent.com/Refaltor77/StickEffect/85e8df9036daf0ea3b95972580973a2cccd7b664/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Refaltor77/StickEffect",
+  "archive_repo": null,
+  "approved_release_tag": "r-7159",
+  "stars": 0,
+  "total_downloads": 1657,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Refaltor77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/133763",
+  "versions": {
+    "stable": {
+      "version": "4.0.0",
+      "tag": "r-7159",
+      "published_at": null,
+      "downloads": 1657,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7159/stickeffect-4.0.0-r7159.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7159",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7159/stickeffect-4.0.0-r7159.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "StickEffect",
+    "stable_release_id": 7159
+  }
+}

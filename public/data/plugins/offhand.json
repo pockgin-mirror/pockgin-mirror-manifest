@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8072",
   "stars": 0,
-  "total_downloads": 1410,
+  "total_downloads": 2031,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -54,6 +54,16 @@
       "tag": "r-7676",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7676/offhand-2.1.2-r7676.phar"
+    },
+    {
+      "tag": "r-7236",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7236/offhand-2.1.1-r7236.phar"
+    },
+    {
+      "tag": "r-7152",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7152/offhand-2.1.0-r7152.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "chatlevel",
+  "name": "ChatLevel",
+  "author": "OguzhanUmutlu",
+  "description": "A plugin that creates a level system linked to chatting for PocketMine-MP!",
+  "readme_markdown": "<h1>\n<a id=\"user-content-chatlevel\" class=\"anchor\" href=\"#chatlevel\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>ChatLevel<a href=\"https://github.com/OguzhanUmutlu/ChatLevel/blob/main/icon.png\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://github.com/OguzhanUmutlu/ChatLevel/raw/main/icon.png\" height=\"64\" width=\"64\" align=\"left\" alt=\"\" style=\"max-width:100%;\"></a>\n</h1><br>\n<p><b>A plugin that creates a level system linked to chatting for PocketMine-MP!</b><br>\n<a href=\"https://poggit.pmmp.io/p/ChatLevel\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/c4f0929ead0fe2f5e06913c4a1baad16a1c4590bf143ee8d5e83940b5cf4142a/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f436861744c6576656c\" alt=\"Poggit\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/ChatLevel\" style=\"max-width:100%;\"></a>\n<a href=\"https://github.com/OguzhanUmutlu/ChatLevel\"><img src=\"https://camo.githubusercontent.com/c21c8f80731080eb9ef6c5819fa7ab38080b13c64b3127d32d4cb29a27987724/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f4f67757a68616e556d75746c752f436861744c6576656c\" alt=\"License\" data-canonical-src=\"https://img.shields.io/github/license/OguzhanUmutlu/ChatLevel\" style=\"max-width:100%;\"></a>\n<a href=\"https://github.com/OguzhanUmutlu/ChatLevel/stargazers\"><img src=\"https://camo.githubusercontent.com/0b759c03c8ca6afc59989dbfb6b3cf23d119bda843c65136b7bb7986e99cb9a2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4f67757a68616e556d75746c752f436861744c6576656c\" alt=\"Star\" data-canonical-src=\"https://img.shields.io/github/stars/OguzhanUmutlu/ChatLevel\" style=\"max-width:100%;\"></a>\n<a href=\"https://discord.gg/uasZzZzH8v\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/ce257494de1dc90e9551e05f321c764c1055ff221f3b6e5122d1711b70be3ccc/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3836313934393439333433313530303831313f636f6c6f723d373338394438266c6162656c3d646973636f7264\" alt=\"Discord\" data-canonical-src=\"https://img.shields.io/discord/861949493431500811?color=7389D8&amp;label=discord\" style=\"max-width:100%;\"></a></p>\n<h2>\n<a id=\"user-content-issues\" class=\"anchor\" href=\"#issues\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Issues</h2>\n<ul>\n<li>You can report bugs by simply clicking <a href=\"https://github.com/OguzhanUmutlu/ChatLevel/issues\">me</a>!</li>\n</ul>\n<h2>\n<a id=\"user-content-support\" class=\"anchor\" href=\"#support\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Support</h2>\n<ul>\n<li>You can help me improving this project by clicking <a href=\"https://github.com/OguzhanUmutlu/ChatLevel/pulls\">me</a>!</li>\n</ul>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/135965",
+  "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/ChatLevel/73b862edb693221e860c099ed12eef3719f51a6d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/OguzhanUmutlu/ChatLevel",
+  "archive_repo": null,
+  "approved_release_tag": "r-7292",
+  "stars": 4,
+  "total_downloads": 1206,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OguzhanUmutlu"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-7292",
+      "published_at": null,
+      "downloads": 1206,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7292/chatlevel-1.0.0-r7292.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7292",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7292/chatlevel-1.0.0-r7292.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatLevel",
+    "stable_release_id": 7292
+  }
+}

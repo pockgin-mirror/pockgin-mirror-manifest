@@ -1,0 +1,61 @@
+{
+  "id": "orespawners",
+  "name": "OreSpawners",
+  "author": "RKAbdul",
+  "description": "A pocketmine plugin, for adding OreSpawners a.k.a OreGens to your server, that will create ores upon them when placed, and can be stacked for making them faster.",
+  "readme_markdown": "# OreSpawners\n[![](https://poggit.pmmp.io/shield.state/OreSpawners)](https://poggit.pmmp.io/p/OreSpawners)\n[![](http://hits.xenoservers.net:4000/RKAbdul/OreSpawners.svg)](http://hits.xenoservers.net:4000/RKAbdul/OreSpawners.svg)\n\nA pocketmine plugin, for adding OreSpawners a.k.a OreGens to your server, that will create ores upon them when placed, and can be stacked for making them faster.\n# Installation\nDownload the plugin from poggit release and/or poggit CI\nPut the .phar file, in your plugins folder and restart the server\n- You can configure most of the settings in `config.yml`\n# Commands\n| command | aliases | description | permission|\n|---------|---------|-------------|-----------|\n| `/orespawner [ore] [amount] [player]` | `os` | Gives ore spawner to a player | `orespawner.give` |\n# Stacking system\n- Right click on a OreSpawner with the same type of OreSpawner in your hand.\n- Stacking OreSpawners will reduce the time taken in ore spawning, we recommend keeping the `max` stack limit low\n- Upon breaking a stacked OreSpawner, u you will get the amount back\n# Issues & Suggestions\nIf you have any problem, questions or suggestions.\nPlease join my support server [here](https://discord.gg/M7FA5D3), or open an issue.",
+  "readme_source_url": "https://github.com/RKAbdul/OreSpawners",
+  "icon_url": "https://raw.githubusercontent.com/RKAbdul/OreSpawners/864425e5d841384c6104690ef7abcbf0afb97f21/icon.png",
+  "featured": false,
+  "repo": "https://github.com/RKAbdul/OreSpawners",
+  "archive_repo": null,
+  "approved_release_tag": "r-7298",
+  "stars": 5,
+  "total_downloads": 1082,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "RKAbdul"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/139000",
+  "versions": {
+    "stable": {
+      "version": "0.5.3",
+      "tag": "r-7298",
+      "published_at": null,
+      "downloads": 1082,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7298/orespawners-0.5.3-r7298.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7298",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7298/orespawners-0.5.3-r7298.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "OreSpawners",
+    "stable_release_id": 7298
+  }
+}

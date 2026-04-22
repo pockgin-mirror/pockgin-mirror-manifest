@@ -1,0 +1,66 @@
+{
+  "id": "foodeffect",
+  "name": "FoodEffect",
+  "author": "Refaltor77",
+  "description": "A plugin aimed at adding droles effect by eating food on mcpe",
+  "readme_markdown": "# FoodEffect\nA plugin aimed at adding droles effect by eating food on mcpe\n- [![](https://poggit.pmmp.io/shield.state/FoodEffect)](https://poggit.pmmp.io/p/FoodEffect)\n\n# Contact\nemail: elysiomartinspro@gmail.com",
+  "readme_source_url": "https://github.com/Refaltor77/FoodEffect",
+  "icon_url": "https://raw.githubusercontent.com/Refaltor77/FoodEffect/8ccebb4e9d81c687ee8e0e7d43f308db7774d64a/image.png",
+  "featured": false,
+  "repo": "https://github.com/Refaltor77/FoodEffect",
+  "archive_repo": null,
+  "approved_release_tag": "r-7344",
+  "stars": 0,
+  "total_downloads": 372,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Refaltor77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/136729",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-7344",
+      "published_at": null,
+      "downloads": 343,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7344/foodeffect-1.0.1-r7344.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7344",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7344/foodeffect-1.0.1-r7344.phar"
+    },
+    {
+      "tag": "r-7101",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7101/foodeffect-1.0.0-r7101.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FoodEffect",
+    "stable_release_id": 7344
+  }
+}

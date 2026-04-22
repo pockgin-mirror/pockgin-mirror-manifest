@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-10001",
   "stars": 0,
-  "total_downloads": 1303,
+  "total_downloads": 1668,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "2.0.1",
       "tag": "r-10001",
       "published_at": null,
-      "downloads": 681,
+      "downloads": 682,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10001/kygekpingtps-2.0.1-r10001.phar"
     },
     "dev": null
@@ -49,6 +49,11 @@
       "tag": "r-8382",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8382/kygekpingtps-2.0.0-r8382.phar"
+    },
+    {
+      "tag": "r-7246",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7246/kygekpingtps-1.0.1-r7246.phar"
     }
   ],
   "comments": {

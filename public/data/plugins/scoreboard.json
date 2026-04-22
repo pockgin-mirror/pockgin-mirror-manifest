@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7671",
   "stars": 5,
-  "total_downloads": 4533,
+  "total_downloads": 6195,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -57,7 +57,7 @@
       "version": "1.5.6",
       "tag": "r-7671",
       "published_at": null,
-      "downloads": 3610,
+      "downloads": 3611,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7671/scoreboard-1.5.6-r7671.phar"
     },
     "dev": null
@@ -77,6 +77,16 @@
       "tag": "r-7525",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7525/scoreboard-1.5.4-r7525.phar"
+    },
+    {
+      "tag": "r-7302",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7302/scoreboard-1.5.3-r7302.phar"
+    },
+    {
+      "tag": "r-7135",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7135/scoreboard-1.5.1-r7135.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "godmode",
+  "name": "Godmode",
+  "author": "VazziDE",
+  "description": "Pocketmine-MP API 3 Godmode is a Plugin which allows players to put themselves in Godmode.",
+  "readme_markdown": "<h1>\n<a id=\"user-content-godmode\" class=\"anchor\" href=\"#godmode\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Godmode</h1>\n<p>Pocketmine-MP API 3 Godmode is a Plugin which allows players to put themselves in Godmode.</p>\n<p>Players in Godmode are protected and invincible. Settings for the Godmode can be made in the Configuration file.</p>\n<p><a href=\"https://user-images.githubusercontent.com/45903049/128408907-a0491d84-1b70-47a1-b029-75910073c3c6.png\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://user-images.githubusercontent.com/45903049/128408907-a0491d84-1b70-47a1-b029-75910073c3c6.png\" alt=\"weapons\" style=\"max-width:100%;\"></a></p>\n<h3>\n<a id=\"user-content--how-to-use-it-\" class=\"anchor\" href=\"#-how-to-use-it-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a> How to use it? </h3>\n<p>Command: god / godmode <br>\nPermission: godmode.use<br></p>\n<h3>\n<a id=\"user-content--easy-configuration-\" class=\"anchor\" href=\"#-easy-configuration-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a> Easy Configuration </h3>\n<p><a href=\"https://user-images.githubusercontent.com/45903049/128409128-16545b32-3bd2-48e6-9ff8-acd3cd8c5c0c.png\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://user-images.githubusercontent.com/45903049/128409128-16545b32-3bd2-48e6-9ff8-acd3cd8c5c0c.png\" alt=\"image\" style=\"max-width:100%;\"></a></p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/135544",
+  "icon_url": "https://raw.githubusercontent.com/VazziDE/Godmode/a76297de22528d2c529b796ca3447081bad42852/icon.png",
+  "featured": false,
+  "repo": "https://github.com/VazziDE/Godmode",
+  "archive_repo": null,
+  "approved_release_tag": "r-7265",
+  "stars": 5,
+  "total_downloads": 1905,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.22.1-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "VazziDE"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-7265",
+      "published_at": null,
+      "downloads": 1905,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7265/godmode-1.0.0-r7265.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7265",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7265/godmode-1.0.0-r7265.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Godmode",
+    "stable_release_id": 7265
+  }
+}

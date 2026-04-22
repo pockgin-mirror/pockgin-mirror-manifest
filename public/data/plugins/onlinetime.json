@@ -1,0 +1,61 @@
+{
+  "id": "onlinetime",
+  "name": "OnlineTime",
+  "author": "Zedstar16",
+  "description": "OnlineTime 2.0",
+  "readme_markdown": "# OnlineTime 2.0\nMeasure how long players are spending on your server!\n<br>Yes this update was delayed by 6 years, but it is now release-ready!<br>\n[![](https://poggit.pmmp.io/shield.dl.total/OnlineTime)](https://poggit.pmmp.io/p/OnlineTime)\n[![](https://poggit.pmmp.io/shield.state/OnlineTime)](https://poggit.pmmp.io/p/OnlineTime)\n[![](https://poggit.pmmp.io/shield.api/OnlineTime)](https://poggit.pmmp.io/p/OnlineTime)\n\n## Features\n\n* MySQL and SQLite3 database support, designed for use on large networks. (Currently in use on zeqa.net)\n* Tracks active playtime only with (movement + rotation or chat), AFK time is ignored.\n* Add Floating text leaderboards with static or rotating display of time periods.\n* Tracking of individual session times, allowing for advanced insights\n* In-depth stats, retrieve time spent within last x days for a player & leaderboards for last x days for all players\n\n## Commands\n\n* `/ot <username>`\n  Shows Last 7d, Last 30d, and All-time. If the player is online, current session time is included.\n* `/ot top [<Nd>|all]`\n  Top 10 by time. Examples: `7d`, `30d`, `90d`, `all`. Any positive day count accepted.\n* `/ot <username> <dd/mm/yyyy> <dd/mm/yyyy>`\n  Time for a user between the two dates (inclusive). Example:\n  `/ot Zedstar16 1/7/2023 21/8/2023`\n\n## Admin Commands\n\n* `/ota lb set <period>`\n  Create a static leaderboard at your position. `<period>` is `Nd` or `all`.\n  Examples: `7d`, `30d`, `all`.\n* `/ota lb set <period1,period2,...>`\n  Create a rotating leaderboard. Examples: `7d,30d,all` or `90d,all`.\n* `/ota lb list`\n  List all leaderboards with IDs. Shows distance when you are in the same world.\n* `/ota lb remove <ID>`\n  Remove a leaderboard by ID.\n* `/ota reset <username>`\n  Delete that user’s stored records - Not possible if the user is online.\n\n## Leaderboards\n\n* Leaderboards are spawned at your position and saved in `leaderboards.yml`.\n* Rotation advances on each `leaderboard-update-interval`.\n\n## Install & Configuration\n* Obtain compiled version from [Releases](https://github.com/Zedstar16/OnlineTime/releases/)\n* After adding plugin to plugins folder, restart server\n* config.yml located at plugin_data/OnlineTime/config.yml should be modified to suit your use-case\n\n\n---",
+  "readme_source_url": "https://github.com/Zedstar16/OnlineTime",
+  "icon_url": "https://raw.githubusercontent.com/Zedstar16/OnlineTime/9eefc5891525e493d24307c7bec69b73bc8bd4f4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Zedstar16/OnlineTime",
+  "archive_repo": null,
+  "approved_release_tag": "r-7083",
+  "stars": 4,
+  "total_downloads": 1990,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Zedstar16"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/132761",
+  "versions": {
+    "stable": {
+      "version": "1.4",
+      "tag": "r-7083",
+      "published_at": null,
+      "downloads": 1990,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7083/onlinetime-1.4-r7083.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7083",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7083/onlinetime-1.4-r7083.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "OnlineTime",
+    "stable_release_id": 7083
+  }
+}

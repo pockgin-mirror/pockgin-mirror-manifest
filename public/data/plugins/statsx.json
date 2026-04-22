@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7708",
   "stars": 0,
-  "total_downloads": 1890,
+  "total_downloads": 2204,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-7708",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7708/statsx-1.0.1-r7708.phar"
+    },
+    {
+      "tag": "r-7263",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7263/statsx-1.0.0-r7263.phar"
     }
   ],
   "comments": {

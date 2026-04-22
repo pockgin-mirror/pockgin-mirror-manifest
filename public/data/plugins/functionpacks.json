@@ -1,0 +1,61 @@
+{
+  "id": "functionpacks",
+  "name": "FunctionPacks",
+  "author": "OguzhanUmutlu",
+  "description": "Adds function packs with argument feature to the PocketMine-MP",
+  "readme_markdown": "<h1>\n<a id=\"user-content-functionpacks\" class=\"anchor\" href=\"#functionpacks\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>FunctionPacks</h1>\n<p>Adds function packs with argument feature to the PocketMine-MP</p>\n<h1>\n<a id=\"user-content-what-it-does\" class=\"anchor\" href=\"#what-it-does\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>What it does?</h1>\n<ul>\n<li>It lets you run multiple commands with arguments!</li>\n</ul>\n<h1>\n<a id=\"user-content-usage\" class=\"anchor\" href=\"#usage\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Usage</h1>\n<p>Create file in <code>functions</code> directory in your server folder.</p>\n<p>Open it and type some commands!</p>\n<p>Example:</p>\n<pre><code>say Hi! I am %player and i typed %0 while using this command! Also i used %1 after that!\nsay If i repeat i used %0 and %1 and maybe more!\n</code></pre>\n<p>NOTE: If you don't type anything for arguments it will be still %0 so will not be changed to something!</p>\n<h1>\n<a id=\"user-content-todo\" class=\"anchor\" href=\"#todo\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>TODO</h1>\n<ul>\n<li>Maybe adding jsons to add settings for functions such as needed arguments / permissions etc.</li>\n</ul>\n<h1>\n<a id=\"user-content-helpsuggestionbug-report\" class=\"anchor\" href=\"#helpsuggestionbug-report\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Help/Suggestion/Bug Report</h1>\n<ul>\n<li>They can get help, suggest something or report some bugs here: <a href=\"https://github.com/OguzhanUmutlu/FunctionPacks/issues\">https://github.com/OguzhanUmutlu/FunctionPacks/issues</a>\n</li>\n<li>Also they can contact me on Discord: <code>Oğuzhan#6561</code>\n</li>\n</ul>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/133311",
+  "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/FunctionPacks/04ebab0c454b99a51bafec9ac161f2b756bc5ed9/icon.png",
+  "featured": false,
+  "repo": "https://github.com/OguzhanUmutlu/FunctionPacks",
+  "archive_repo": null,
+  "approved_release_tag": "r-7130",
+  "stars": 0,
+  "total_downloads": 2973,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OguzhanUmutlu"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-7130",
+      "published_at": null,
+      "downloads": 2973,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7130/functionpacks-1.0.1-r7130.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7130",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7130/functionpacks-1.0.1-r7130.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FunctionPacks",
+    "stable_release_id": 7130
+  }
+}

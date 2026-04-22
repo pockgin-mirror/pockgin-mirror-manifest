@@ -1,0 +1,66 @@
+{
+  "id": "basicscore",
+  "name": "BasicScore",
+  "author": "Ifera",
+  "description": "ScoreHudX",
+  "readme_markdown": "# ScoreHudX [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/urQt6ETgYu)\n\nA repository containing plugins implementing tags for ScoreHud.\n\n> BasicScore has been removed since it is now integrated within ScoreHud in v7+.\n\n## Plugin List\n\n| Plugin | Required Plugin | Download |\n|:--:|:--:|:--:|\n|EcoAPIScore|[EconomyAPI](https://github.com/poggit-orphanage/EconomyS/tree/master/EconomyAPI)|[Download](https://poggit.pmmp.io/ci/Ifera/ScoreHudX/EcoAPIScore)|\n|CombatScore|[CombatLogger](https://github.com/JackNoordhuis/PocketMine-Plugins/tree/master/CombatLogger)|[Download](https://poggit.pmmp.io/ci/Ifera/ScoreHudX/CombatScore)|\n|FactionsProScore|[FactionsPro](https://github.com/poggit-orphanage/FactionsPro)|[Download](https://poggit.pmmp.io/ci/Ifera/ScoreHudX/FactionsProScore)|\n|PurePermsScore|[PurePerms](https://github.com/poggit-orphanage/PurePerms)|[Download](https://poggit.pmmp.io/ci/Ifera/ScoreHudX/PurePermsScore)|\n\n## More plugins\n\nFor more plugins, please check out the [discussions](https://github.com/Ifera/ScoreHudX/discussions).\n\n## Showcase your plugin\n\nPlease read [this](https://github.com/Ifera/ScoreHudX/discussions/12).",
+  "readme_source_url": "https://github.com/Ifera/ScoreHudX",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Ifera/ScoreHudX",
+  "archive_repo": null,
+  "approved_release_tag": "r-7237",
+  "stars": 4,
+  "total_downloads": 6443,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Ifera"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/135047",
+  "versions": {
+    "stable": {
+      "version": "1.2.1",
+      "tag": "r-7237",
+      "published_at": null,
+      "downloads": 6143,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7237/basicscore-1.2.1-r7237.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7237",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7237/basicscore-1.2.1-r7237.phar"
+    },
+    {
+      "tag": "r-7216",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7216/basicscore-1.2.0-r7216.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BasicScore",
+    "stable_release_id": 7237
+  }
+}

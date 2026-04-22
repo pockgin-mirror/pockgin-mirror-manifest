@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7768",
   "stars": 5,
-  "total_downloads": 2066,
+  "total_downloads": 2880,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -46,6 +46,11 @@
       "tag": "r-7768",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7768/simplefaction-1.6.8-r7768.phar"
+    },
+    {
+      "tag": "r-7134",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7134/simplefaction-1.6.5-r7134.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "signtodiscord",
+  "name": "SignToDiscord",
+  "author": "OguzhanUmutlu",
+  "description": "This plugin sends all sign texts to your discord webhook!",
+  "readme_markdown": "<h1>\n<a id=\"user-content-signtodiscord\" class=\"anchor\" href=\"#signtodiscord\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>SignToDiscord<a href=\"https://github.com/OguzhanUmutlu/SignToDiscord/blob/main/icon.png\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://github.com/OguzhanUmutlu/SignToDiscord/raw/main/icon.png\" height=\"64\" width=\"64\" align=\"left\" alt=\"\" style=\"max-width:100%;\"></a>\n</h1><br>\n<p><b>This plugin sends all sign texts to your discord webhook!</b><br>\n<a href=\"https://poggit.pmmp.io/p/SignToDiscord\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/945f0cf8d0a6c9ea4474c00e90d786e5147c90b0a71b8f30d06061f96d9704be/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f5369676e546f446973636f7264\" alt=\"Poggit\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/SignToDiscord\" style=\"max-width:100%;\"></a>\n<a href=\"https://github.com/OguzhanUmutlu/SignToDiscord\"><img src=\"https://camo.githubusercontent.com/e6c475632344558193fb6ccbf441e3d34c03aabd4c3108188a002ab04b0f03dd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f4f67757a68616e556d75746c752f5369676e546f446973636f7264\" alt=\"License\" data-canonical-src=\"https://img.shields.io/github/license/OguzhanUmutlu/SignToDiscord\" style=\"max-width:100%;\"></a>\n<a href=\"https://github.com/OguzhanUmutlu/SignToDiscord/stargazers\"><img src=\"https://camo.githubusercontent.com/29eff01dbb36d91366efd4834a96049bc68e9f26034888d4896aca1de18e9772/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4f67757a68616e556d75746c752f5369676e546f446973636f7264\" alt=\"Star\" data-canonical-src=\"https://img.shields.io/github/stars/OguzhanUmutlu/SignToDiscord\" style=\"max-width:100%;\"></a>\n<a href=\"https://discord.gg/uasZzZzH8v\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/ce257494de1dc90e9551e05f321c764c1055ff221f3b6e5122d1711b70be3ccc/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3836313934393439333433313530303831313f636f6c6f723d373338394438266c6162656c3d646973636f7264\" alt=\"Discord\" data-canonical-src=\"https://img.shields.io/discord/861949493431500811?color=7389D8&amp;label=discord\" style=\"max-width:100%;\"></a></p>\n<h2>\n<a id=\"user-content-issues\" class=\"anchor\" href=\"#issues\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Issues</h2>\n<ul>\n<li>You can report bugs by simply clicking <a href=\"https://github.com/OguzhanUmutlu/SignToDiscord/issues\">me</a>!</li>\n</ul>\n<h2>\n<a id=\"user-content-support\" class=\"anchor\" href=\"#support\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Support</h2>\n<ul>\n<li>You can help me improving this project by clicking <a href=\"https://github.com/OguzhanUmutlu/SignToDiscord/pulls\">me</a>!</li>\n</ul>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/136201",
+  "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/SignToDiscord/a9600c46fb719733bb547008de053572aa144f5e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/OguzhanUmutlu/SignToDiscord",
+  "archive_repo": null,
+  "approved_release_tag": "r-7309",
+  "stars": 5,
+  "total_downloads": 807,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OguzhanUmutlu"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-7309",
+      "published_at": null,
+      "downloads": 807,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7309/signtodiscord-1.0.1-r7309.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7309",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7309/signtodiscord-1.0.1-r7309.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SignToDiscord",
+    "stable_release_id": 7309
+  }
+}

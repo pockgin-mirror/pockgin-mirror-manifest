@@ -1,0 +1,61 @@
+{
+  "id": "workersdemo",
+  "name": "WorkersDemo",
+  "author": "OguzhanUmutlu",
+  "description": "A plugin that adds worker entities to minecraft.",
+  "readme_markdown": "<h1>\n<a id=\"user-content-workersdemo\" class=\"anchor\" href=\"#workersdemo\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>WorkersDemo</h1>\n<p>A plugin that adds worker entities to minecraft.</p>\n<ul>\n<li>Workers does things that players does such as mining wood/stone etc.</li>\n</ul>\n<h1>\n<a id=\"user-content-how-to-use\" class=\"anchor\" href=\"#how-to-use\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How to use?</h1>\n<ul>\n<li>You can get them using /give</li>\n<li>Usage: /give spawn_egg:285 - 287</li>\n<li>285: Miner</li>\n<li>286: Item grabber</li>\n<li>287: Lumberjack</li>\n</ul>\n<h1>\n<a id=\"user-content-to-report-issues\" class=\"anchor\" href=\"#to-report-issues\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>To report issues</h1>\n<p><a href=\"https://github.com/OguzhanUmutlu/WorkersDemo/issues\">https://github.com/OguzhanUmutlu/WorkersDemo/issues</a></p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/132888",
+  "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/WorkersDemo/2b5a5920bcb549a4cc7ad5af05a2bdc5af2c006b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/OguzhanUmutlu/WorkersDemo",
+  "archive_repo": null,
+  "approved_release_tag": "r-7093",
+  "stars": 4,
+  "total_downloads": 1513,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OguzhanUmutlu"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/132890",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-7093",
+      "published_at": null,
+      "downloads": 1513,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7093/workersdemo-1.0.1-r7093.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7093",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7093/workersdemo-1.0.1-r7093.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorkersDemo",
+    "stable_release_id": 7093
+  }
+}

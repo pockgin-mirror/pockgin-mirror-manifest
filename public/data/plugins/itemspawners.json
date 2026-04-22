@@ -1,0 +1,63 @@
+{
+  "id": "itemspawners",
+  "name": "ItemSpawners",
+  "author": "OguzhanUmutlu",
+  "description": "This plugin lets you to get spawners that when you break them they regenerates themselves!",
+  "readme_markdown": "<h1>\n<a id=\"user-content-itemspawners\" class=\"anchor\" href=\"#itemspawners\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>ItemSpawners</h1>\n<p>This plugin lets you to get spawners that when you break them they regenerates themselves!</p>\n<h1>\n<a id=\"user-content-how-to-use\" class=\"anchor\" href=\"#how-to-use\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How to use?</h1>\n<p>For any information: <a href=\"https://github.com/OguzhanUmutlu/ItemSpawners/wiki\">https://github.com/OguzhanUmutlu/ItemSpawners/wiki</a></p>\n<h1>\n<a id=\"user-content-get-help\" class=\"anchor\" href=\"#get-help\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Get help</h1>\n<p>Create an issue there and ask your question: <a href=\"https://github.com/OguzhanUmutlu/ItemSpawners/milestone/1\">https://github.com/OguzhanUmutlu/ItemSpawners/milestone/1</a></p>\n<h1>\n<a id=\"user-content-reporting-bugs\" class=\"anchor\" href=\"#reporting-bugs\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Reporting bugs</h1>\n<p>Create an issue there and report your bug: <a href=\"https://github.com/OguzhanUmutlu/ItemSpawners/milestone/2\">https://github.com/OguzhanUmutlu/ItemSpawners/milestone/2</a></p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/133604",
+  "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/ItemSpawners/9eca0fa9d2af816c4d3007ab68741642099fdaba/icon.png",
+  "featured": false,
+  "repo": "https://github.com/OguzhanUmutlu/ItemSpawners",
+  "archive_repo": null,
+  "approved_release_tag": "r-7149",
+  "stars": 5,
+  "total_downloads": 1630,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OguzhanUmutlu"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/133606",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-7149",
+      "published_at": null,
+      "downloads": 1630,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7149/itemspawners-1.0.1-r7149.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7149",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7149/itemspawners-1.0.1-r7149.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemSpawners",
+    "stable_release_id": 7149
+  }
+}

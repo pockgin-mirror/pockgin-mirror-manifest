@@ -1,0 +1,61 @@
+{
+  "id": "touchlight",
+  "name": "TouchLight",
+  "author": "DANIHEX",
+  "description": "Turn redstone lamps on or off by touching them",
+  "readme_markdown": "[![Plugin Status](https://poggit.pmmp.io/shield.state/TouchLight)](https://poggit.pmmp.io/p/TouchLight) [![Plugin Version](https://poggit.pmmp.io/shield.api/TouchLight)](https://poggit.pmmp.io/p/TouchLight) [![Downloads](https://poggit.pmmp.io/shield.dl/TouchLight)](https://poggit.pmmp.io/p/TouchLight) [![Total Downloads](https://poggit.pmmp.io/shield.dl.total/TouchLight)](https://poggit.pmmp.io/p/TouchLight)\n\n# TouchLight\nTurn redstone lamps on or off by touching them\n\n# Usage\nJust place a redstone lamp and turn it on or off by touching or right clicking it\n\n# View\n![Image](https://github.com/DAV33N/TouchLight/blob/master/view.gif)\n\n# Versions\nVersion | Information | Date | Api\n------- | ----------- | ---- | ---\nv1.0.1 | Nothing important changed | 31 Jul 2021 | 3.0.0 -> 3.22.1\nv1.0.0 | First stable version | 30 Jul 2021 | 3.0.0 -> 3.22.1",
+  "readme_source_url": "https://github.com/DANIHEX/TouchLight",
+  "icon_url": "https://raw.githubusercontent.com/DANIHEX/TouchLight/1d05d551fc19b423726ffafa6db54e7b7e4f2bf7/icon.png",
+  "featured": false,
+  "repo": "https://github.com/DANIHEX/TouchLight",
+  "archive_repo": null,
+  "approved_release_tag": "r-7230",
+  "stars": 5,
+  "total_downloads": 1036,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DANIHEX"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-7230",
+      "published_at": null,
+      "downloads": 1036,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7230/touchlight-1.0.1-r7230.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7230",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7230/touchlight-1.0.1-r7230.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TouchLight",
+    "stable_release_id": 7230
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8637",
   "stars": 0,
-  "total_downloads": 1321,
+  "total_downloads": 2359,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-8637",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8637/blockcommands-1.0.1-r8637.phar"
+    },
+    {
+      "tag": "r-7111",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7111/blockcommands-1.0.0-r7111.phar"
     }
   ],
   "comments": {

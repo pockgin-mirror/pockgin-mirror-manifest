@@ -1,0 +1,61 @@
+{
+  "id": "tagmessages",
+  "name": "TagMessages",
+  "author": "Clarence2810",
+  "description": "Showing own player message below their name",
+  "readme_markdown": "# TagMessages\nShowing own player message below their name<br/>\n\nNote:<br/>\nIf you have any kind of plugin installed that have a text below the name Aka NameTag don't tell me that its bugging because its switching tags like player chat and then the name tag plugin you have because its fighting to run their functions LOL!\n\n# What if i got an error?\n**If you got a issue or error about this plugin follow this steps:**\n- First open this github repository\n- Then click **(!) Issues** next on **< > Code**\n- Next click **New issue**\n- After you type the issues and title click **Submit new issue** <br/>\nThere you go you submitted the issue no need to rate 3-0 star! <br/>\nIll make sure that im gonna try to fix it as much as i can",
+  "readme_source_url": "https://github.com/Clarence2810/TagMessages",
+  "icon_url": "https://raw.githubusercontent.com/Clarence2810/TagMessages/7145cf709ea3fc18ba4ebe1418afbc396e273b23/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Clarence2810/TagMessages",
+  "archive_repo": null,
+  "approved_release_tag": "r-7100",
+  "stars": 3,
+  "total_downloads": 450,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.15.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Clarence2810"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/132939",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-7100",
+      "published_at": null,
+      "downloads": 450,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7100/tagmessages-1.1.1-r7100.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7100",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7100/tagmessages-1.1.1-r7100.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TagMessages",
+    "stable_release_id": 7100
+  }
+}

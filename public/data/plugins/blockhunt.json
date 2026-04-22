@@ -1,0 +1,76 @@
+{
+  "id": "blockhunt",
+  "name": "BlockHunt",
+  "author": "OguzhanUmutlu",
+  "description": "Block Hunt minigame for PocketMine-MP!",
+  "readme_markdown": "<h1>\n<a id=\"user-content-blockhunt\" class=\"anchor\" href=\"#blockhunt\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>BlockHunt</h1>\n<p><a href=\"https://poggit.pmmp.io/p/BlockHunt\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/39c4345899f9332dc0023e98a31b21471741ec7d507cb09b9622602cfe28fd5a/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f426c6f636b48756e74\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.state/BlockHunt\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/BlockHunt\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/47116c6b81eeeff2970b61f3e7da4fd978565ea762810deaec64f5a24cb162dd/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f426c6f636b48756e74\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.api/BlockHunt\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/BlockHunt\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/15bd7795c6b5d98763bddf035bac8b61e244892a3bbd5e26ef9491f2d3a8a797/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f426c6f636b48756e74\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/BlockHunt\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/BlockHunt\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/f13f9670face8e141ce5108fbc003273bcdc42b1865ddd4a36433606836e7d2c/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f426c6f636b48756e74\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl/BlockHunt\" style=\"max-width:100%;\"></a></p>\n<p>Block Hunt minigame for PocketMine-MP!</p>\n<h1>\n<a id=\"user-content-what-is-this-minigame\" class=\"anchor\" href=\"#what-is-this-minigame\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>What is this minigame?</h1>\n<p>In this minigame there are two teams, Hunters and seekers.</p>\n<p>Seekers are trying to run from hunters.</p>\n<p>Seekers can transform into blocks.</p>\n<p>If a seeker dies it changes his team to hunter.</p>\n<p>If seeker(s) survives for maximum time of arena they win else hunters wins.</p>\n<h1>\n<a id=\"user-content-how-to-setup\" class=\"anchor\" href=\"#how-to-setup\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How to setup?</h1>\n<p>Just simply use <code>/blockhuntadmin setup</code> command and start setup session!</p>\n<h1>\n<a id=\"user-content-api\" class=\"anchor\" href=\"#api\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>API</h1>\n<p>Use plugin</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-k\">use</span> <span class=\"pl-v\">OguzhanUmutlu</span>\\<span class=\"pl-v\">BlockHunt</span>\\<span class=\"pl-v\">BlockHunt</span>;</pre></div>\n<p>Get player's arena:</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-v\">BlockHunt</span>::<span class=\"pl-en\">getInstance</span>()-&gt;<span class=\"pl-c1\">arenaManager</span>-&gt;<span class=\"pl-en\">getPlayerArena</span>(<span class=\"pl-s1\"><span class=\"pl-c1\">$</span>player</span>);</pre></div>\n<p>Events:</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-k\">use</span> <span class=\"pl-v\">OguzhanUmutlu</span>\\<span class=\"pl-v\">BlockHunt</span>\\events\\<span class=\"pl-v\">BlockHuntKillEvent</span>;\n<span class=\"pl-k\">use</span> <span class=\"pl-v\">OguzhanUmutlu</span>\\<span class=\"pl-v\">BlockHunt</span>\\events\\<span class=\"pl-v\">BlockHuntWinEvent</span>;\n<span class=\"pl-k\">use</span> <span class=\"pl-v\">OguzhanUmutlu</span>\\<span class=\"pl-v\">BlockHunt</span>\\events\\<span class=\"pl-v\">BlockHuntLoseEvent</span>;</pre></div>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-c\">/*** BlockHuntKillEvent|BlockHuntWinEvent|BlockHuntLoseEvent */</span>\n<span class=\"pl-s1\"><span class=\"pl-c1\">$</span>player</span> = <span class=\"pl-s1\"><span class=\"pl-c1\">$</span>event</span>-&gt;<span class=\"pl-en\">getPlayer</span>();\n<span class=\"pl-s1\"><span class=\"pl-c1\">$</span>arena</span> = <span class=\"pl-s1\"><span class=\"pl-c1\">$</span>event</span>-&gt;<span class=\"pl-en\">getArena</span>();\n\n<span class=\"pl-c\">/*** BlockHuntKillEvent */</span>\n<span class=\"pl-s1\"><span class=\"pl-c1\">$</span>killer</span> = <span class=\"pl-s1\"><span class=\"pl-c1\">$</span>event</span>-&gt;<span class=\"pl-en\">getKiller</span>();</pre></div>\n<h1>\n<a id=\"user-content-todo\" class=\"anchor\" href=\"#todo\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>TODO</h1>\n<ul>\n<li>idk</li>\n</ul>\n<h1>\n<a id=\"user-content-reporting-bugs\" class=\"anchor\" href=\"#reporting-bugs\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Reporting bugs</h1>\n<p><strong>You may open an issue on the BlockHunt GitHub repository for report bugs</strong>\n<a href=\"https://github.com/OguzhanUmutlu/BlockHunt/issues\">https://github.com/OguzhanUmutlu/BlockHunt/issues</a></p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/134071",
+  "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/BlockHunt/46cd7d7d828954e409b8abe73705fa4386b8a5f9/icon.png",
+  "featured": false,
+  "repo": "https://github.com/OguzhanUmutlu/BlockHunt",
+  "archive_repo": null,
+  "approved_release_tag": "r-7186",
+  "stars": 4,
+  "total_downloads": 4077,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OguzhanUmutlu"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/134073",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-7186",
+      "published_at": null,
+      "downloads": 3688,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7186/blockhunt-1.0.3-r7186.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7186",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7186/blockhunt-1.0.3-r7186.phar"
+    },
+    {
+      "tag": "r-7129",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7129/blockhunt-1.0.2-r7129.phar"
+    },
+    {
+      "tag": "r-7117",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7117/blockhunt-1.0.1-r7117.phar"
+    },
+    {
+      "tag": "r-7078",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7078/blockhunt-1.0.0-r7078.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockHunt",
+    "stable_release_id": 7186
+  }
+}

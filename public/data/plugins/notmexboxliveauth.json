@@ -1,0 +1,61 @@
+{
+  "id": "notmexboxliveauth",
+  "name": "NotMeXboxLiveAuth",
+  "author": "Johnmacrocraft",
+  "description": "Allow specified players to bypass Xbox Live authentication!",
+  "readme_markdown": "# NotMeXboxLiveAuth [![Poggit-CI](https://poggit.pmmp.io/ci.badge/Johnmacrocraft/NotMeXboxLiveAuth/~)](https://poggit.pmmp.io/ci/Johnmacrocraft/NotMeXboxLiveAuth) [![Poggit](https://poggit.pmmp.io/shield.state/NotMeXboxLiveAuth)](https://poggit.pmmp.io/p/NotMeXboxLiveAuth)\nAllow specified players to bypass Xbox Live authentication!\n\n## How to use\nUse the `xboxlist` command to manage the xboxlist (the list of players allowed to bypass Xbox Live authentication).\n\n## Warning\nAs this plugin allows specified players to bypass Xbox Live authentication, anyone can log in with any username on the xboxlist. Therefore, you need to install an additional authentication plugin on your server to prevent anyone from accessing those accounts.",
+  "readme_source_url": "https://github.com/Johnmacrocraft/NotMeXboxLiveAuth",
+  "icon_url": "https://raw.githubusercontent.com/Johnmacrocraft/NotMeXboxLiveAuth/55b81019ca40ff4e549c29ba27da0b4a08921b9c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Johnmacrocraft/NotMeXboxLiveAuth",
+  "archive_repo": null,
+  "approved_release_tag": "r-7207",
+  "stars": 0,
+  "total_downloads": 2148,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA11-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Johnmacrocraft"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/181901",
+  "versions": {
+    "stable": {
+      "version": "1.1.3",
+      "tag": "r-7207",
+      "published_at": null,
+      "downloads": 2148,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7207/notmexboxliveauth-1.1.3-r7207.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7207",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7207/notmexboxliveauth-1.1.3-r7207.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NotMeXboxLiveAuth",
+    "stable_release_id": 7207
+  }
+}

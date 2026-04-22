@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7996",
   "stars": 4,
-  "total_downloads": 2643,
+  "total_downloads": 4535,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-7996",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7996/staffmode-2.2.0-r7996.phar"
+    },
+    {
+      "tag": "r-7343",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7343/staffmode-2.1.1-r7343.phar"
     }
   ],
   "comments": {

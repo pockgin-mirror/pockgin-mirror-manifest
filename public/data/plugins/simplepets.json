@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7863",
   "stars": 5,
-  "total_downloads": 1355,
+  "total_downloads": 1700,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -54,6 +54,16 @@
       "tag": "r-7364",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7364/simplepets-1.0.2-beta-r7364.phar"
+    },
+    {
+      "tag": "r-7328",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7328/simplepets-1.0.1-beta-r7328.phar"
+    },
+    {
+      "tag": "r-7249",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7249/simplepets-1.0.0-beta-r7249.phar"
     }
   ],
   "comments": {

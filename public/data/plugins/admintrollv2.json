@@ -1,0 +1,61 @@
+{
+  "id": "admintrollv2",
+  "name": "AdminTrollV2",
+  "author": "Rushil13579",
+  "description": "A Pocketmine-MP plugin to Troll your Frenimies!",
+  "readme_markdown": "# AdminTrollV2\nA Pocketmine-MP plugin to Troll your Frenimies!\n\n- The **BEST** troll plugin for Pocketmine-MP!\n- Contains 39 unique trolls, with many more to come\n- All trolls have been extensively tested and shouldn't have any issues. Incase you find any issues please report them :)\n- If you have any suggestions/ideas/questions/bugs go [here](https://github.com/Rushil13579/AdminTrollV2/issues) or contact me on discord at **Rushil#2326**\n\n## Features\n\n- Command Permission: **admintrollv2.all**\n- Immune Permission: **admintrollv2.immune** (can be toggled in config)\n- No troll causes any terrain damage\n- Exception: Bolt troll causes the ground to catch fire which may spread and burn flammable blocks (fire can be disabled in config)\n\nCommands | Descriptions\n---------|-------------\n/troll alone (player) | Hides every player for the victim (toggleable)\n/troll badapple (player) | The doctor says never eat an apple if it has gone bad... what if you still do?\n/troll bolt (player) | The victim is really feeling the wrath of the God of lightning!\n/troll boom (player) | Blow up your frenemies!\n/troll burn (player) [seconds...] | BURN!!\n/troll chat (player) [message...] | Sends a chat message or run a command on behalf of the victim\n/troll clumsy (player) | Careful! The victim might just drop something\n/troll crash (player) | Kicks the play with a not so nice disconnected message\n/troll dropinv (player) | The victim fell and dropped his inventory (undoable)\n/troll drunk (player) | Drank too much... feeling nauseous\n/troll enderman (player) | The victim is teleporting all around?\n/troll fakeban (player) | Are you sure you got banned?\n/troll fakedeop (player) | Sends a deop message to the victim. They are not deopped...\n/troll fakelag (player) [seconds...] | Makes the victim experience fake lag! Doesn't affect the server (toggleable)\n/troll fakeop (player) | Sends an op message to the victim. They are not opped...\n/troll fakerestart | Awww... the server is restarting, OR IS IT?\n/troll flip (player) | Flip the victim 180 degrees\n/troll freefall | Damn! This hole is deep, I have been falling forever!\n/troll garble (player) | The victim's messages will stop making sense (toggleable)\n/troll haunt (player) | Spooky sounds O_O!\n/troll help | List of trolls and their usages\n/troll hurt (player) [damage...] | Ouch! That hurts...\n/troll launch (player) | 3... 2... 1... liftoff!\n/troll nomine (player) [seconds...] | Oh cant mine? Probably lag...\n/troll noob (player) | Make the victim realise that they are a noob\n/troll nopick (player) [seconds...] | Prevents the player from picking up items\n/troll noplace (player) [seconds...] | Oh cant place? Probably lag...\n/troll potatoinv (player) | Fills the victim's inventory with potatoes (undoable)\n/troll pumpkinhead (player) | Gotta hide from the endermen (undoable)\n/troll push (player) | An uncontrolled flight\n/troll shuffle (player) | Ugh! I don't even know what is where now... (undoable)\n/troll spam (player) | Spams the victim's chat in enchantment table language... see if you can decipher it\n/troll spin (player) [speed...] | Make your victim's dizzy!\n/troll starve (player) [amount...] | The victim's metabolism must be really fast\n/troll swap (player) | Swap positions with your victim\n/troll trap (player) [seconds...] | The victim does not deserve to be free\n/troll undo (player) | Undo's the blocks placed/broken by the victim. This ought to confuse em! (toggleable)\n/troll useless (player) | Rename all the items of the victim to 'useless'\n/troll void (player) | Journey to the center of the Earth, or in this case the void...\n/troll web (player) [seconds...] | Web em up!\n\n## Future Plans\n- Trickle (Drains the player's XP over time)\n- Abduct (The player has been taken to an alien ship and cannot escape)\n\n- If you have any more suggestions you can go [here](https://github.com/Rushil13579/AdminTrollV2/issues) or contact me on discord at **Rushil#2326**\n\n## Credits\n\n- Ideas taken from [TrollBoss](https://www.spigotmc.org/resources/trollboss.47423/), [TrollCommands++](https://dev.bukkit.org/projects/troll-commands-plus-plus), [AdminTroll](https://poggit.pmmp.io/p/admintroll) and [UglyTroll](https://github.com/skyzonemc/UglyTroll)",
+  "readme_source_url": "https://github.com/Rushil13579/AdminTrollV2",
+  "icon_url": "https://raw.githubusercontent.com/Rushil13579/AdminTrollV2/9f66ac59d5c39df8fd324d4aad559c04730fe793/logo.png",
+  "featured": false,
+  "repo": "https://github.com/Rushil13579/AdminTrollV2",
+  "archive_repo": null,
+  "approved_release_tag": "r-7272",
+  "stars": 4,
+  "total_downloads": 10473,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Rushil13579"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/135750",
+  "versions": {
+    "stable": {
+      "version": "1.2.1",
+      "tag": "r-7272",
+      "published_at": null,
+      "downloads": 10473,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7272/admintrollv2-1.2.1-r7272.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7272",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7272/admintrollv2-1.2.1-r7272.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdminTrollV2",
+    "stable_release_id": 7272
+  }
+}

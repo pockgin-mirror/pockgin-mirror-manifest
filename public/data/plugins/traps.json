@@ -1,0 +1,66 @@
+{
+  "id": "traps",
+  "name": "Traps",
+  "author": "Refaltor77",
+  "description": "Plugins to add traps",
+  "readme_markdown": "# Traps\nPlugins to add traps\n\n## Config\n\n```YAML\n---\n# Welcome to the plugin : Traps v1.0.0\n# Infinite configuration !\n\n# -------\n\n# messages types:\n# - tip\n# - message\n# - subtitle\n# - title\n# - popup\n\n# -------\n\n# all effects (PocketMine-MP):\n\n# SPEED = 1\n# SLOWNESS = 2\n# HASTE = 3\n# FATIGUE = 4\n# STRENGTH = 5\n# INSTANT HEALTH = 6\n# INSTANT DAMAGE = 7\n# JUMP BOOST = 8\n# NAUSEA = 9\n# REGENERATION = 10\n# RESISTANCE = 11\n# FIRE RESISTANCE = 12\n# WATER BREATHING = 13\n# INVISIBILITY = 14\n# BLINDNESS = 15\n# NIGHT VISION = 16\n# HUNGER = 17\n# WEAKNESS = 18\n# POISON = 19\n# WITHER = 20\n# HEALTH BOOST = 21\n# ABSORPTION = 22\n# SATURATION = 23\n# LEVITATION = 24\n# FATAL POISON = 25\n# CONDUIT POWER = 26\n\n\ntraps:\n  \"4:0\":\n    damages: 2\n    message:\n      type: popup # tip | popup | subtitle | title | message\n      enable: true\n      content: \"§6- §eYou were set up !\"\n    effects:\n      15:  # id effect\n        duration: 20 # 20 seconds\n        niveau: 1 # lvl 1\n        particles: false\n...\n```",
+  "readme_source_url": "https://github.com/Refaltor77/Traps",
+  "icon_url": "https://raw.githubusercontent.com/Refaltor77/Traps/22447b463c9febcf8fd1fcae2a68a630c513fdd0/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Refaltor77/Traps",
+  "archive_repo": null,
+  "approved_release_tag": "r-7196",
+  "stars": 0,
+  "total_downloads": 402,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Refaltor77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/134231",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-7196",
+      "published_at": null,
+      "downloads": 353,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7196/traps-1.0.1-r7196.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7196",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7196/traps-1.0.1-r7196.phar"
+    },
+    {
+      "tag": "r-7103",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7103/traps-1.0.0-r7103.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Traps",
+    "stable_release_id": 7196
+  }
+}
