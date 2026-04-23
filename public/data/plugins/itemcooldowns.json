@@ -1,0 +1,66 @@
+{
+  "id": "itemcooldowns",
+  "name": "ItemCooldowns",
+  "author": "Rushil13579",
+  "description": "A plugin for Pocketmine-MP 3.0.0 and above that allows administrators to set cool downs for consumables &amp; throwables!",
+  "readme_markdown": "# ItemCooldowns\nA plugin for Pocketmine-MP 3.0.0 and above that allows administrators to set cool downs for consumables &amp; throwables!\n\n- If you have any suggestions/ideas/questions feel free to contact me on discord at **Rushil#2326**\n- If you find any bugs you can report them [here](https://github.com/Rushil13579/ItemCooldowns/issues)\n\n## Features\n\n- Can set cooldowns for any and all consumables & throwables!\n- Eg: Ender Pearls, Golden Apples, Speed Potions, Snowballs etc\n- You can blacklist any number of levels where these cooldowns wont apply!\n- Permission to bypass these cooldowns!\n\n## Credits\n- [Rushil13579](https://github.com/Rushil13579)",
+  "readme_source_url": "https://github.com/Rushil13579/ItemCooldowns",
+  "icon_url": "https://raw.githubusercontent.com/Rushil13579/ItemCooldowns/6ebd099bd666a235857011ea72625777fb6e3a96/Logo.png",
+  "featured": false,
+  "repo": "https://github.com/Rushil13579/ItemCooldowns",
+  "archive_repo": null,
+  "approved_release_tag": "r-6153",
+  "stars": 5,
+  "total_downloads": 858,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Rushil13579"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/119168",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-6153",
+      "published_at": null,
+      "downloads": 787,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6153/itemcooldowns-1.1.0-r6153.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6153",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6153/itemcooldowns-1.1.0-r6153.phar"
+    },
+    {
+      "tag": "r-6064",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6064/itemcooldowns-1.0.0-r6064.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemCooldowns",
+    "stable_release_id": 6153
+  }
+}

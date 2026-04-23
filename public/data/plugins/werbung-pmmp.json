@@ -1,0 +1,63 @@
+{
+  "id": "werbung-pmmp",
+  "name": "Werbung-PMMP",
+  "author": "supercrafter333",
+  "description": "This is a plugin with which you can advertise or your players can advertise your shop, plot or other things on your server. Have fun with this plugin. A player can use to advert...",
+  "readme_markdown": "# Werbung-PMMP  [![](https://poggit.pmmp.io/shield.state/Werbung-PMMP)](https://poggit.pmmp.io/p/Werbung-PMMP) [![](https://poggit.pmmp.io/shield.dl/Werbung-PMMP)](https://poggit.pmmp.io/p/Werbung-PMMP)\nThis is a plugin with which you can advertise or your players can advertise your shop, plot or other things on your server. Have fun with this plugin. A player can use `/advertising <text>` to advertise his shop or other things. The messages and the cooldown minutes can be set in the config.yml. Also you can set EconomyAPI Support in condig.yml on true, then players must pay money to advertise.\n\nPoggit: <a href=\"https://poggit.pmmp.io/p/Werbung-PMMP\">Werbung-PMMP</a>\n\n\nThis Plugin is licensed by [Apache License 2.0](/LICENSE)!\n\n\n**Commands:**\n`/advertising <text>` - default command\n\n**Permissions:**\n\n`werbung-pmmp.advertising.bypass` - Bypass permission [Default: op]\n\n`werbung-pmmp.advertising.cmd` - Command permission [Default: true]\n\n`werbung-pmmp.advertising.nopay` - If EconomyAPI Support is activated, players with this permission don't pay money [Default: op]\n\n\n### Pictures\n<img src=\"https://github.com/supercrafter333/Werbung-PMMP/blob/master/werbung-pmmp-pic.png\"></img> <br>",
+  "readme_source_url": "https://github.com/supercrafter333/Werbung-PMMP",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/supercrafter333/Werbung-PMMP",
+  "archive_repo": null,
+  "approved_release_tag": "r-6031",
+  "stars": 5,
+  "total_downloads": 246,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "supercrafter333"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/116480",
+  "versions": {
+    "stable": {
+      "version": "1.5.0",
+      "tag": "r-6031",
+      "published_at": null,
+      "downloads": 246,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6031/werbung-pmmp-1.5.0-r6031.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6031",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6031/werbung-pmmp-1.5.0-r6031.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Werbung-PMMP",
+    "stable_release_id": 6031
+  }
+}

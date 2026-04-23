@@ -1,0 +1,61 @@
+{
+  "id": "pvptoggle",
+  "name": "PvPToggle",
+  "author": "brokiem-pm-pl",
+  "description": "PvPToggle is a plugin that allows players to use a simple command (/pvptoggle) to change their \"PvP status.\" When a player has PvP toggled off they won't be able to take damage...",
+  "readme_markdown": "# PvPToggle\nPvPToggle is a plugin that allows players to use a simple command (/pvptoggle) to change their \"PvP status.\" When a player has PvP toggled off they won't be able to take damage from other players or deal any damage to other players. Damage from mobs, explosions, lava, etc. will not be affected by your PvP status.",
+  "readme_source_url": "https://github.com/brokiem-pm-pl/PvPToggle",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/brokiem-pm-pl/PvPToggle",
+  "archive_repo": null,
+  "approved_release_tag": "r-6041",
+  "stars": 5,
+  "total_downloads": 683,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.10.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "brokiem-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-6041",
+      "published_at": null,
+      "downloads": 683,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6041/pvptoggle-1.0.0-r6041.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6041",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6041/pvptoggle-1.0.0-r6041.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PvPToggle",
+    "stable_release_id": 6041
+  }
+}

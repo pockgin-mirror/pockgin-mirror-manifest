@@ -1,0 +1,68 @@
+{
+  "id": "sellxp",
+  "name": "SellXp",
+  "author": "Rushil13579",
+  "description": "A PocketMine-MP plugin to sell XP for Money on your server!",
+  "readme_markdown": "# SellXp\nA PocketMine-MP plugin to sell XP for Money on your server!\n## How To Install\n1. Download the phar from poggit.\n2. Upload to your servers plugin directory.\n3. Restart your server.                                                                                                   \n## Future Plans\nNone for now. Suggest ideas at Rushil#2326\n## License\nhttps://github.com/Rushil13579/SellXp/blob/main/LICENSE\n## Bugs\nFound issues with the plugin? Report it at https://github.com/Rushil13579/SellXp/issues\n## Contact Me\nContact Me On Discord At Rushil#2326",
+  "readme_source_url": "https://github.com/Rushil13579/SellXp",
+  "icon_url": "https://raw.githubusercontent.com/Rushil13579/SellXp/36b237142bba223f1c1df4a82d6181afb0f6584c/Logo.png",
+  "featured": false,
+  "repo": "https://github.com/Rushil13579/SellXp",
+  "archive_repo": null,
+  "approved_release_tag": "r-6112",
+  "stars": 3,
+  "total_downloads": 862,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Rushil13579"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/117838",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-6112",
+      "published_at": null,
+      "downloads": 769,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6112/sellxp-1.2.0-r6112.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6112",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6112/sellxp-1.2.0-r6112.phar"
+    },
+    {
+      "tag": "r-6067",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6067/sellxp-1.1.0-r6067.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SellXp",
+    "stable_release_id": 6112
+  }
+}

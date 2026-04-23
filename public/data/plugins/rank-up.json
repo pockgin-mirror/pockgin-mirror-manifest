@@ -1,0 +1,63 @@
+{
+  "id": "rank-up",
+  "name": "Rank.Up",
+  "author": "TacoNoBurrito",
+  "description": "Rankup",
+  "readme_markdown": "# Rankup\n\nLet your community ascend through ranks with a easy to use configuration file!\n\n - This plugin uses EconomyAPI\n - Please report errors to the issues panel (if ur on poggit, this is in github)\n \n # API\n \n - First, import the API\n ```php\n use Taco\\RU\\API;\n ```\n \n - Second, get the api in a variable\n ```php \n $rankup = new API();\n ```\n \n - Third, use the api!\n```php\n$nextRankPrice = $rankup->getNextRankPrice($player);\n$currentrank = $rankup->getRank($player);\n$rankup->setRank($player, \"b\");\n$nextRank = $rankup->getNextRank($player);\n```\n\n- Enjoy, Made By Taco!",
+  "readme_source_url": "https://github.com/TacoNoBurrito/RankUp",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/TacoNoBurrito/RankUp",
+  "archive_repo": null,
+  "approved_release_tag": "r-6268",
+  "stars": 0,
+  "total_downloads": 1117,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TacoNoBurrito"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-6268",
+      "published_at": null,
+      "downloads": 1117,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6268/rank.up-1.0.0-r6268.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6268",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6268/rank.up-1.0.0-r6268.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Rank.Up",
+    "stable_release_id": 6268
+  }
+}

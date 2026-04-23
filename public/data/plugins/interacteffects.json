@@ -1,0 +1,61 @@
+{
+  "id": "interacteffects",
+  "name": "InteractEffects",
+  "author": "TacoNoBurrito",
+  "description": "Get Effects From Interacting With Items With A Easy-To-Use Configuration File!",
+  "readme_markdown": "# InteractEffects\n\nGet Effects From Interacting With Items With A Easy-To-Use Configuration File!\n\n```\n#Interact Effects Configuration File\n\n#You May Use The Tag {cooldown} For The Cooldown In Seconds\ncooldown-message: You are still on cooldown for {cooldown} seconds!\n\n#Example:\n1:0: #ID:META\n  cooldown: 5 #cooldown in seconds\n  effectid: 2 #effect id\n  length: 2 #length of effect in seconds\n  amplifier: 3 #amplifier of effect\n  ```\n  \n   - Enjoy, Made By Taco!",
+  "readme_source_url": "https://github.com/TacoNoBurrito/InteractEffects",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/TacoNoBurrito/InteractEffects",
+  "archive_repo": null,
+  "approved_release_tag": "r-6232",
+  "stars": 4,
+  "total_downloads": 238,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TacoNoBurrito"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-6232",
+      "published_at": null,
+      "downloads": 238,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6232/interacteffects-1.0.0-r6232.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6232",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6232/interacteffects-1.0.0-r6232.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "InteractEffects",
+    "stable_release_id": 6232
+  }
+}

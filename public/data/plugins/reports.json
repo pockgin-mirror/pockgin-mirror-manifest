@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9939",
   "stars": 5,
-  "total_downloads": 1653,
+  "total_downloads": 3725,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,16 @@
       "tag": "r-9939",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9939/reports-2.0.0-r9939.phar"
+    },
+    {
+      "tag": "r-6146",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6146/reports-1.1.0-r6146.phar"
+    },
+    {
+      "tag": "r-6002",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6002/reports-1.0.0-r6002.phar"
     }
   ],
   "comments": {

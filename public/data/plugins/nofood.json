@@ -1,0 +1,61 @@
+{
+  "id": "nofood",
+  "name": "NoFood",
+  "author": "DavyCraft648",
+  "description": "Don't eat! You are fasting!",
+  "readme_markdown": "# <img src=\"https://github.com/DavyCraft648/NoFood/blob/main/icon.png\" height=\"64\" width=\"64\"></img> NoFood\nDon't eat! You are fasting!\n\nThis plugin will **forbid** players to eat\n### Permission\n - nofood.bypass - Allow the player to eat - default: false\n \n### Config\n```yaml\n# NoFood plugin configuration file\n\n# No hungry feature: true|false\n# (NoFood feature is always on)\n#noHungry: false\nnoHungry: false\n\n# World folder name where the feature(s) is enabled\n# (case-sensitive)\n#worlds:\n#- worldName1\n#- worldName2\nworlds:\n- world\n- lobby\n\n# Consumable food\n# (or leave empty to make all food can't be eaten)\n#allowedFood:\n#- steak\n#- raw_chicken\n#- apple\nallowedFood: []\n```",
+  "readme_source_url": "https://github.com/DavyCraft648/NoFood",
+  "icon_url": "https://raw.githubusercontent.com/DavyCraft648/NoFood/e98248e2d4265924a792d6cde397d937424a85f5/icon.png",
+  "featured": false,
+  "repo": "https://github.com/DavyCraft648/NoFood",
+  "archive_repo": null,
+  "approved_release_tag": "r-6036",
+  "stars": 5,
+  "total_downloads": 379,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DavyCraft648"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-6036",
+      "published_at": null,
+      "downloads": 379,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6036/nofood-0.0.1-r6036.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6036",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6036/nofood-0.0.1-r6036.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NoFood",
+    "stable_release_id": 6036
+  }
+}

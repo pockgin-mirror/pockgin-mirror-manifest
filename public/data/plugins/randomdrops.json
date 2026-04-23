@@ -1,0 +1,61 @@
+{
+  "id": "randomdrops",
+  "name": "RandomDrops",
+  "author": "OguzhanUmutlu",
+  "description": "A plugin for PocketMine-MP.",
+  "readme_markdown": "<h1>\n<a id=\"user-content-randomdrops\" class=\"anchor\" href=\"#randomdrops\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>RandomDrops</h1>\n<p><a href=\"https://poggit.pmmp.io/p/RandomDrops\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/405b6dde9bf53c5d7d04b50d9a8b3b66f623e78e5596565f4407d643c04c6222/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f52616e646f6d44726f7073\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.state/RandomDrops\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/RandomDrops\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/bc93959295fd52ed144779af161e792727dc564f70ca3f57f3db9b3ae4e51dcf/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f52616e646f6d44726f7073\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.api/RandomDrops\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/RandomDrops\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/f89a0ce3cf2247af7ad00e73d633a876e81f31ee68bd7ca905f7c80336ad797f/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f52616e646f6d44726f7073\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/RandomDrops\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/RandomDrops\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/57c2e5ac4ad8697bb19bfcfcf4c49ec3cbefa971678327d9d0b5bd57a5ba3eca/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f52616e646f6d44726f7073\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl/RandomDrops\" style=\"max-width:100%;\"></a></p>\n<p>A plugin for PocketMine-MP.</p>\n<p>Now your blocks will drop random items and you can configure them!</p>\n<p>Easy and useful!</p>\n<h1>\n<a id=\"user-content-todo\" class=\"anchor\" href=\"#todo\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>TODO</h1>\n<p>Nothing for now. If you want an update comment.</p>\n<h1>\n<a id=\"user-content-reporting-bugs\" class=\"anchor\" href=\"#reporting-bugs\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Reporting Bugs</h1>\n<p>Enter this web site: <a href=\"https://github.com/OguzhanUmutlu/RandomDrops/issues\">https://github.com/OguzhanUmutlu/RandomDrops/issues</a></p>\n<h1>\n<a id=\"user-content-changelog\" class=\"anchor\" href=\"#changelog\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Changelog</h1>\n<p>v1.0.0 - Added main things.</p>\n<p>v1.0.1 - Added isCompatibleWithTool function</p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/115985",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/OguzhanUmutlu/RandomDrops",
+  "archive_repo": null,
+  "approved_release_tag": "r-5994",
+  "stars": 4,
+  "total_downloads": 1252,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OguzhanUmutlu"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/115987",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-5994",
+      "published_at": null,
+      "downloads": 1252,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5994/randomdrops-1.0.1-r5994.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5994",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5994/randomdrops-1.0.1-r5994.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RandomDrops",
+    "stable_release_id": 5994
+  }
+}

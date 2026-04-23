@@ -1,0 +1,63 @@
+{
+  "id": "autosell",
+  "name": "Autosell",
+  "author": "Rushil13579",
+  "description": "A plugin for PocketMine 3.0.0 and above which automatically sells a player's inventory",
+  "readme_markdown": "# Autosell\nA plugin for PocketMine 3.0.0 and above which automatically sells a player's inventory\n\n- If you have any suggestions/ideas/questions feel free to contact me on discord at **Rushil#2326**\n- If you find any bugs you can report them [here](https://github.com/Rushil13579/Autosell/issues)\n\n## Commands\nCommands | Permission | Description\n---------|---------|------------\n/autosell | autosell.command | Toggle autosell\n\n## Features\n\n- Can toggle autosell!\n- Sells a player's inventory when the inventory becomes full!\n- Configurable messages!\n- Works with [AutoInv](https://poggit.pmmp.io/p/AutoInv)\n\n## Credits\n- [Rushil13579](https://github.com/Rushil13579)",
+  "readme_source_url": "https://github.com/Rushil13579/Autosell",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Rushil13579/Autosell",
+  "archive_repo": null,
+  "approved_release_tag": "r-6048",
+  "stars": 5,
+  "total_downloads": 1903,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Rushil13579"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-6048",
+      "published_at": null,
+      "downloads": 1903,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6048/autosell-1.0.0-r6048.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6048",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6048/autosell-1.0.0-r6048.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Autosell",
+    "stable_release_id": 6048
+  }
+}

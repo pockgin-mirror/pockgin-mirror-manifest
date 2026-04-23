@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6399",
   "stars": 5,
-  "total_downloads": 7065,
+  "total_downloads": 7650,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.1.0",
       "tag": "r-6399",
       "published_at": null,
-      "downloads": 7065,
+      "downloads": 7066,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6399/graves-1.1.0-r6399.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-6399",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6399/graves-1.1.0-r6399.phar"
+    },
+    {
+      "tag": "r-6245",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6245/graves-1.0.0-r6245.phar"
     }
   ],
   "comments": {

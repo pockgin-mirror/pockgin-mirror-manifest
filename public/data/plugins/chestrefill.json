@@ -1,0 +1,61 @@
+{
+  "id": "chestrefill",
+  "name": "ChestRefill",
+  "author": "Zoumi-Dev",
+  "description": "ChestRefill** is a plugin developed entirely by **Clouds#0667**.",
+  "readme_markdown": "ChestRefill\r\n===========\r\n* **ChestRefill** is a plugin developed entirely by **Clouds#0667**.\r\n\r\nWhat is it for?\r\n==============\r\n* **ChestRefill** allows chests to be *regenerated automatically* when the time is up.\r\n\r\nConfig File\r\n===========\r\n* ChestRefill contains a configuration file for more possibilities!\r\n\r\n```yml\r\nchest:\r\n  # schéma x:y:z:worldName exemple\r\n  # - \"0.5:64:0.5:world\"\r\n\r\nitems:\r\n  # Items that may appear in the chests\r\n  # schéma id:meta:count:enchantId:echantLevel exemple\r\n  # with enchant - \"1:0:1:9:5\" without enchant - \"1:0:1:none:0\"\r\n\r\n# What is the minimum number of items per box?\r\nitem-min-per-chest: 1\r\n# What is the maximum number of items per box?\r\nitem-max-per-chest: 6\r\n# Message during the cooldown before the chestrefill {time} = time left\r\nbefore-the-chestrefill: \"The chest refill will take place in §e{time} §fsecond(s).\"\r\n# Sound during the cooldown of messages before the chestrefill.\r\nsound-before-the-chestrefill: \"note.harp\"\r\n# When should a message to warn of chestrefill time be sent (in second)\r\ntime-before-the-chestrefill: [60, 30, 15, 10, 5, 4, 3, 2, 1]\r\n# Message at the chestrefill.\r\nchestrefill-broadcast: \"The chests have been regenerated!\"\r\n# Sound in chest refill.\r\nsound-chestrefill: \"beacon.power\"\r\n# How often does a chestrefill take place? (in second)\r\ntime: 3600\r\n# Message when running the /chestrefill command.\r\ncommand-chestrefill-message: \"The chest refill will take place in §e{time} §fsecond(s).\"\r\n```\r\n\r\nSupport\r\n=======\r\n* If you have any **ideas** for additions or a **bug** to report, please join the server discord by clicking [here](https://discord.gg/kARpD3DsdU).",
+  "readme_source_url": "https://github.com/Zoumi-Dev/ChestRefill",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Zoumi-Dev/ChestRefill",
+  "archive_repo": null,
+  "approved_release_tag": "r-6191",
+  "stars": 0,
+  "total_downloads": 535,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Zoumi-Dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-6191",
+      "published_at": null,
+      "downloads": 535,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6191/chestrefill-1.0.0-r6191.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6191",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6191/chestrefill-1.0.0-r6191.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChestRefill",
+    "stable_release_id": 6191
+  }
+}

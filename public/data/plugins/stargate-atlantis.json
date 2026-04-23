@@ -1,0 +1,61 @@
+{
+  "id": "stargate-atlantis",
+  "name": "StarGate-Atlantis",
+  "author": "Alemiz112",
+  "description": "This is stable and fast plugin for pmmp that allows server connect to WaterDog plugin StarGate. It make easier communication between server. Includes API fur custom packets, tra...",
+  "readme_markdown": "# StarGate-Atlantis\n<a align=\"center\" href=\"https://discord.gg/VsHXm2M\"><img src=\"https://discordapp.com/api/guilds/574240965351571477/embed.png\" alt=\"Discord server\"/> [![](https://poggit.pmmp.io/shield.state/StarGate-Atlantis)](https://poggit.pmmp.io/p/StarGate-Atlantis)\n> This is stable and fast plugin for pmmp that allows server connect to WaterDog plugin StarGate. It make easier communication between server. Includes API fur custom packets, transferring players and more \n</br> Download [here](https://poggit.pmmp.io/ci/Alemiz112/StarGate-Atlantis/)!\n\n## 🎯Features:\n- Fast communication between servers\n- Custom packets\n- Moving players between servers (API)\n\nMore features will be added very soon\n\n## 🔧API\nYou can access StarGate-Atlantis by ``StarGateAtlantis::getInstance()``\n#### Avalibe Functions\n- ``RegisterPacket(StarGatePacket packet)`` Really simple method for registring Packet\n- ``putPacket(StarGatePacket packet, string $client)`` This allows you to send packet. Packet must be registered first\n- ``transferPlayer(Player player, string server, string $client)`` This we use to transfer Player between servers\n- ``kickPlayer(Player player, string reason, string $client)``  Kick player from any server connected to StarGate network\n- ``isOnline(Player player, string $client)`` Check if player is online. Sends back response 'true!server' or 'false'. Examples [here](https://github.com/Alemiz112/StarGate-Universe/tree/master/src/tests#playeronline-response).\n- ``forwardPacket(string $destClient, string $localClient, StarGatePacket $packet)`` Using ForwardPacket you can forward packet to other client/server\n- ``addServer(string $address, string $port, string $name, string $client)`` Add server to list and allows players to transfer\n- ``removeServer(string $name, string  $client)`` Remove server from server list\n\nClient variable in API is used to specify destination proxy (if more instances are used). It is not important to define it, if one one proxy is used.\n##### Example:\n```php\n$player = PLUGIN::getInstance()->getPlayer(\"alemiz003\");\n$server = \"lobby2\";\n\nStarGateAtlantis::getInstance()->transferPlayer($player, $server);\n```\nTo more examples look [here](https://github.com/Alemiz112/StarGate-Atlantis/tree/master/src/tests)!\n\n#### 📦Packet Handling\nReceived Packets are handled by ``CustomPacketEvent``. Official Packets are handled (if needed) automaticly</br></br>\nAccessing Packet from Event:</br>\n```php\npublic function getPacket() {\n  return $this->packet;\n}\n```\n#### 📞ResponseCheckTask\nResponse checking is useful when we want to get some data created by packet back to client.</br>\nPHP allows you to use simple closures to handle result:\n```php\n$closure = function ($response){\n    StarGateAtlantis::getInstance()->getLogger()->info(\"§a\".$response);\n};\nStarGateAtlantis::getInstance()->isOnline(\"alemiz0003\", $closure);\n``` \nFor more info please consider looking [here](https://github.com/Alemiz112/StarGate-Universe/tree/master/src/tests).\n\n#### ⚙️Creating Own Packets\nFor better understanding please read [StarGatePacket](https://github.com/Alemiz112/StarGate-Atlantis/blob/master/src/alemiz/sga/packets/StarGatePacket.php) and [WelcomePacket](https://github.com/Alemiz112/StarGate-Atlantis/blob/master/src/alemiz/sga/packets/WelcomePacket.php)\n#### Docker Implementation\nIf you have servers inside Docker container this is for you. StarGate allows you to create/remove/start/stop any container. Using `ServerManagePacket` you can set container exposed ports and env. variables too.\n Working example can be found [here](https://github.com/Alemiz112/StarGate-Universe/tree/master/src/tests#docker-implementation-example).\n#### Convertor\nConvertor is used for ``encoding`` and ``decoding`` packets. We can use it for static and nonstatic usage</br>\nFunctions:</br>\n- ``packetStringData(string packetString)`` Exports packetString to data array\n- ``putInt(int integer)`` Pushes Integer to array\n- ``putString(string string)`` Pushes String to array\n- ``getString(int key)`` Returns String from array by key value\n- ``getPacketString()`` Returns packetString from array data\n\n- ``static getInt(string string)`` Returns Integer from String\n- ``static getForcePacketString(array strings)`` Returns packetString from given array\n- ``static getPacketStringData(string packetString)`` Returns array data from given string\n\n##### Example (nonstatic):\n```php\n$convertor = new Convertor($this->getID());\n$convertor->putString($this->server);\n$convertor->putInt($this->tps);\n\n$this->encoded = $convertor->getPacketString();\n```\n##### Example (static):\n```php\n$data = Convertor::getPacketStringData($packetString);\n$packetId = (int) $data[0];\n```",
+  "readme_source_url": "https://github.com/Alemiz112/StarGate-Atlantis",
+  "icon_url": "https://raw.githubusercontent.com/Alemiz112/StarGate-Atlantis/9ad24143f0f14340e3e2745f143104aff2120678/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Alemiz112/StarGate-Atlantis",
+  "archive_repo": null,
+  "approved_release_tag": "r-6037",
+  "stars": 5,
+  "total_downloads": 3297,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Alemiz112"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/116632",
+  "versions": {
+    "stable": {
+      "version": "2.1.0",
+      "tag": "r-6037",
+      "published_at": null,
+      "downloads": 3297,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6037/stargate-atlantis-2.1.0-r6037.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6037",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6037/stargate-atlantis-2.1.0-r6037.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "StarGate-Atlantis",
+    "stable_release_id": 6037
+  }
+}

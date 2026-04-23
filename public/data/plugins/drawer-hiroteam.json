@@ -1,0 +1,61 @@
+{
+  "id": "drawer-hiroteam",
+  "name": "Drawer-HiroTeam",
+  "author": "HiroshimaTeam",
+  "description": "[ENG] This is a PocketMine-MP (or forks) plugin which allows you to add item storage box ! You can store as many items in a box as you want. You can configure everything so that...",
+  "readme_markdown": "# Drawer-HiroTeam [![](https://poggit.pmmp.io/shield.state/Drawer-HiroTeam)](https://poggit.pmmp.io/p/Drawer-HiroTeam) [![](https://poggit.pmmp.io/shield.api/Drawer-HiroTeam)](https://poggit.pmmp.io/p/Drawer-HiroTeam)\n![Drawer packing tape](https://user-images.githubusercontent.com/65712904/111918079-aba50680-8a83-11eb-8028-12129bf44eab.png)\n---\n### About\n[ENG] This is a [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) (or forks) plugin which allows you to add item storage box ! You can store as many items in a box as you want. You can configure everything so that it suits you :grin:<br/><br/>\n[FRA] C'est un [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) plugin qui ajoute des boxs de stockage ! Vous pouvez faire stocker dans une box autant d'item que vous voulez. Vous pouvez tout configurer pour que ca vous corresponde :grin:\n\n---\n### How to use\n[ENG] You place the chosen block in the config.yml and you can tap it with an item so that it is inside! To recover, put on a sneaker and hit the box !\n\n[FRA] Vous placer le bloc choisi dans la config.yml et vous pouvez taper dessus avec un item pour qu'il soit dedans ! Pour récuperer, mettez vous en sneak et tapez la box !\n\n##### Here is the video:\n- Drawer Pocketmine plugin in [Youtube](https://youtu.be/VDM0JrPeET0) !\n\n---\n### **This plugin was tested (and works) on:**\n\n- [x] **[PocketMine-MP](https://github.com/pmmp/PocketMine-MP)**\n---\n### **LordHosting Partner**\n\n- [ENG] Our team is in partnership with Lordhosting, Minecraft PE server Hosting, VPS hosting use reduction code __**HIROTEAM**__ 10% FREE </br>\n-> Website : https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/rRss47k </br>\n\n- [FRA] Notre équipe est en partenariat avec Lordhosting, hébergement de serveurs Minecraft PE, VPS utilise le code de réduction __**HIROTEAM**__ 10% DE REDUCTION </br>\n-> Site Web: https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/rRss47k </br>\n---\n### Contacts HiroTeam\n\n- **Discord Member:** WillyDuGang#6947 RomainSav#9558\n- **Discord Server:** :link:  https://discord.gg/WuwsuUA<br/>\n- **E-mail:** team.hiroshima.dev@gmail.com<br/>\n- **Our PocketMine Server** :link:  https://hirovote.eu<br/>\n\n> ![HiroTeam](https://www.zupimages.net/up/20/25/mb59.png) </br>\n> ![HiroTeam](https://cdn.discordapp.com/attachments/701520774598492220/723269120992215080/PicsArt_06-18-10.13.13.png)\n---\n### License\nThis plugin is licensed under the [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)\n\n>This program is free software: you can redistribute it and/or modify<br/>\n>it under the terms of the GNU General Public License as published by<br/>\n>the Free Software Foundation, either version 3 of the License, or<br/>\n>(at your option) any later version.<br/>\n>\n>This program is distributed in the hope that it will be useful,<br/>\n>but WITHOUT ANY WARRANTY; without even the implied warranty of<br/>\n>MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the<br/>\n>GNU General Public License for more details.<br/>\n>\n>You should have received a copy of the GNU General Public License<br/>\n>along with this program.  If not, see http://www.gnu.org/licenses/\n---\n### Author\n- **Discord:** WillyDuGang#6947",
+  "readme_source_url": "https://github.com/HiroshimaTeam/Drawer-HiroTeam",
+  "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/Drawer-HiroTeam/66c435729a7f64bc480da2b9b4bc827a4e6236da/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HiroshimaTeam/Drawer-HiroTeam",
+  "archive_repo": null,
+  "approved_release_tag": "r-6198",
+  "stars": 0,
+  "total_downloads": 555,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HiroshimaTeam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/119127",
+  "versions": {
+    "stable": {
+      "version": "4.0.0",
+      "tag": "r-6198",
+      "published_at": null,
+      "downloads": 555,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6198/drawer-hiroteam-4.0.0-r6198.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6198",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6198/drawer-hiroteam-4.0.0-r6198.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Drawer-HiroTeam",
+    "stable_release_id": 6198
+  }
+}

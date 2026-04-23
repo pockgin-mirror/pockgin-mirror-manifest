@@ -1,0 +1,61 @@
+{
+  "id": "recurring-message",
+  "name": "recurring-message",
+  "author": "Refaltor77",
+  "description": "This plugin allows to configure recurring messages to infinity!",
+  "readme_markdown": "# recurring-message\nThis plugin allows to configure recurring messages to infinity!",
+  "readme_source_url": "https://github.com/Refaltor77/recurring-message",
+  "icon_url": "https://raw.githubusercontent.com/Refaltor77/recurring-message/20195f0d2512051f4b352135def5323fa4f7034c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Refaltor77/recurring-message",
+  "archive_repo": null,
+  "approved_release_tag": "r-6248",
+  "stars": 4,
+  "total_downloads": 292,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Refaltor77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-6248",
+      "published_at": null,
+      "downloads": 292,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6248/recurring-message-1.0.0-r6248.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6248",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6248/recurring-message-1.0.0-r6248.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "recurring-message",
+    "stable_release_id": 6248
+  }
+}

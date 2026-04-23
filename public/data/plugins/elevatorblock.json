@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7044",
   "stars": 5,
-  "total_downloads": 2396,
+  "total_downloads": 2956,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,16 @@
       "tag": "r-6513",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6513/elevatorblock-1.2-r6513.phar"
+    },
+    {
+      "tag": "r-6287",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6287/elevatorblock-1.1.5-r6287.phar"
+    },
+    {
+      "tag": "r-6035",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6035/elevatorblock-1.1-r6035.phar"
     }
   ],
   "comments": {

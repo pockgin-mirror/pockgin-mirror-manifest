@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6363",
   "stars": 5,
-  "total_downloads": 5581,
+  "total_downloads": 6017,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.0.3",
       "tag": "r-6363",
       "published_at": null,
-      "downloads": 4009,
+      "downloads": 4010,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6363/disguise-1.0.3-r6363.phar"
     },
     "dev": null
@@ -49,6 +49,11 @@
       "tag": "r-6363",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6363/disguise-1.0.3-r6363.phar"
+    },
+    {
+      "tag": "r-6193",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6193/disguise-1.0.2-r6193.phar"
     }
   ],
   "comments": {

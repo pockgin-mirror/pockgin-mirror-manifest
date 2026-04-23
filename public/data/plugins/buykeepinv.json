@@ -1,0 +1,63 @@
+{
+  "id": "buykeepinv",
+  "name": "BuyKeepInv",
+  "author": "OguzhanUmutlu",
+  "description": "BuyKeepInventory",
+  "readme_markdown": "<h1>\n<a id=\"user-content-buykeepinventory\" class=\"anchor\" href=\"#buykeepinventory\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>BuyKeepInventory</h1>\n<p><a href=\"https://poggit.pmmp.io/p/BuyKeepInventory\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/51bad6f1d3fe2ffca0604fcf21457e041af6ad1c3de70f4cf81f9bc53d71997e/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f4275794b656570496e76656e746f7279\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.state/BuyKeepInventory\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/BuyKeepInventory\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/61979d28fe4a6636afbf8b1bb1af21a90b156f9eb69bf7769bc694007efbfb9a/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f4275794b656570496e76656e746f7279\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.api/BuyKeepInventory\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/BuyKeepInventory\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/170547dd0ee144e7b931d321721c185aff289a6414d17dbd15ad41277ff5cb32/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f4275794b656570496e76656e746f7279\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/BuyKeepInventory\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/BuyKeepInventory\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/b2fb0928a8694d819ef51272e229116e35a329bce509a398e1e93be669049620/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f4275794b656570496e76656e746f7279\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl/BuyKeepInventory\" style=\"max-width:100%;\"></a></p>\n<p>A plugin for PocketMine-MP.</p>\n<p>Now your players can keep their inventory when they dies with money!</p>\n<p>Easy and useful!</p>\n<h1>\n<a id=\"user-content-tutorial\" class=\"anchor\" href=\"#tutorial\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Tutorial</h1>\n<p>v1.0.0</p>\n<p><a href=\"https://www.youtube.com/watch?v=TjtpxlRXDys\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/a090c3bfc2e8347a61658ad00ecc6bb3cf6465082803365c36a35d46f23d17b7/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f546a7470786c52584479732f302e6a7067\" alt=\"Tutorial Video\" data-canonical-src=\"https://img.youtube.com/vi/TjtpxlRXDys/0.jpg\" style=\"max-width:100%;\"></a></p>\n<h1>\n<a id=\"user-content-commands\" class=\"anchor\" href=\"#commands\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Commands</h1>\n<p>Main command: /buyki</p>\n<p>Info command: /buykiinfo</p>\n<h1>\n<a id=\"user-content-todo\" class=\"anchor\" href=\"#todo\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>TODO</h1>\n<ul>\n<li>Maybe UI if they want.</li>\n</ul>\n<h1>\n<a id=\"user-content-reporting-bugs\" class=\"anchor\" href=\"#reporting-bugs\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Reporting Bugs</h1>\n<p>Enter this web site: <a href=\"https://github.com/OguzhanUmutlu/BuyKeepInventory/issues\">https://github.com/OguzhanUmutlu/BuyKeepInventory/issues</a></p>\n<h1>\n<a id=\"user-content-changelog\" class=\"anchor\" href=\"#changelog\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Changelog</h1>\n<p>v1.0.0 - Added main things.</p>\n<p>v1.0.1 - Added giving/adding/taking keep inventory and disabling buying keep inventory. Some bugfixes. (This was a big update but only 0.0.1 changed lol)</p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/120001",
+  "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/BuyKeepInventory/a7d7a0114336c0b4dd71b4449160e98b09e32ed4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/OguzhanUmutlu/BuyKeepInventory",
+  "archive_repo": null,
+  "approved_release_tag": "r-6263",
+  "stars": 5,
+  "total_downloads": 3705,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OguzhanUmutlu"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/120003",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-6263",
+      "published_at": null,
+      "downloads": 3705,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6263/buykeepinv-1.0.1-r6263.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6263",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6263/buykeepinv-1.0.1-r6263.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BuyKeepInv",
+    "stable_release_id": 6263
+  }
+}

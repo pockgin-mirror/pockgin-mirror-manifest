@@ -1,0 +1,68 @@
+{
+  "id": "giftpackage",
+  "name": "GiftPackage",
+  "author": "ByAlperenS",
+  "description": "Commands:**",
+  "readme_markdown": "# GiftPackage\n\n![icon](https://user-images.githubusercontent.com/49764317/98851005-ad701500-2466-11eb-8ac3-607c7bdfca18.png)\n\n<a href=\"https://poggit.pmmp.io/p/GiftPackage\"><img src=\"https://poggit.pmmp.io/shield.state/GiftPackage\"></a> <a href=\"https://poggit.pmmp.io/p/GiftPackage\"><img src=\"https://poggit.pmmp.io/shield.api/GiftPackage\"></a> <a href=\"https://poggit.pmmp.io/p/GiftPackage\"><img src=\"https://poggit.pmmp.io/shield.dl.total/GiftPackage\"></a> <a href=\"https://poggit.pmmp.io/p/GiftPackage\"><img src=\"https://poggit.pmmp.io/shield.dl/GiftPackage\"></a>\n\n**Commands:**\n- /giftpackage help\n- /gp help\n\n**Description:**\n\nThis plugin adds a custom looking gift package to your server.\n\n**Permissions:**\n * Only OP",
+  "readme_source_url": "https://github.com/ByAlperenS/GiftPackage",
+  "icon_url": "https://raw.githubusercontent.com/ByAlperenS/GiftPackage/0142a866dfc8bbced9bc729d0b1022fd7444d716/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ByAlperenS/GiftPackage",
+  "archive_repo": null,
+  "approved_release_tag": "r-6258",
+  "stars": 5,
+  "total_downloads": 1063,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.9.4-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ByAlperenS"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/119887",
+  "versions": {
+    "stable": {
+      "version": "1.1",
+      "tag": "r-6258",
+      "published_at": null,
+      "downloads": 878,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6258/giftpackage-1.1-r6258.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6258",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6258/giftpackage-1.1-r6258.phar"
+    },
+    {
+      "tag": "r-6018",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6018/giftpackage-1.0-r6018.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GiftPackage",
+    "stable_release_id": 6258
+  }
+}
