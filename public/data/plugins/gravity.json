@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6673",
   "stars": 0,
-  "total_downloads": 523,
+  "total_downloads": 717,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "3.1.0",
       "tag": "r-6673",
       "published_at": null,
-      "downloads": 523,
+      "downloads": 524,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6673/gravity-3.1.0-r6673.phar"
     },
     "dev": null
@@ -44,6 +44,21 @@
       "tag": "r-6673",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6673/gravity-3.1.0-r6673.phar"
+    },
+    {
+      "tag": "r-6489",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6489/gravity-3.0.0-r6489.phar"
+    },
+    {
+      "tag": "r-6480",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6480/gravity-2.0.0-r6480.phar"
+    },
+    {
+      "tag": "r-6462",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6462/gravity-1.0.0-r6462.phar"
     }
   ],
   "comments": {

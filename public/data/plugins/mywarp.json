@@ -1,0 +1,66 @@
+{
+  "id": "mywarp",
+  "name": "MyWarp",
+  "author": "lovetwice1012",
+  "description": "What is this plugin?",
+  "readme_markdown": "<h3>\n<a id=\"user-content-what-is-this-plugin\" class=\"anchor\" href=\"#what-is-this-plugin\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>What is this plugin?</h3>\n<p>This plugin can be stored without limitations of their own warp locations and when you like, add a warp point, or delete it.</p>\n<p>All operations can be done at GUI (form) and are designed to be easy to use for users.</p>\n<h3>\n<a id=\"user-content-how-to-use\" class=\"anchor\" href=\"#how-to-use\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How to use</h3>\n<p>/mywarp - hand out a form to operate the warp point.</p>\n<p>/myw - /mywarp shortened version.</p>\n<h3>\n<a id=\"user-content-how-to-customize-messages\" class=\"anchor\" href=\"#how-to-customize-messages\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How to customize messages</h3>\n<p>To change the message, change plugin_data/MyWarp/language.yml.</p>\n<p>You can customize the following items</p>\n<p>menudescription - A message to tell the user what to do in the menu of the operation list.</p>\n<p>menuwarpbutton - the message to be displayed on the button to bring up the warp menu in the operation list menu.</p>\n<p>menuaddbutton - the message displayed on the button to bring up the menu used to add a warp point in the Operation List menu.</p>\n<p>menudeletebutton - The message displayed on the button used to bring up the menu used to delete a warp point in the Operation List menu.</p>\n<p>warpmenudescription - The message to tell the user what to do in the warp point list menu.</p>\n<p>addmenudescription - The message to tell the user what to do in the menu to operate to add warp points.</p>\n<p>addtextinputbox - message to tell the user to enter a name for the new warp point to be created.</p>\n<p>deletemenudescription - a message to tell the user what to do in the menu that will be used to delete the warp point.</p>\n<p>addwarppointsuccessresponse - The message that is displayed when a warp point is successfully added.</p>\n<p>deletewarppointsuccessresponse - The message displayed when a warp point is successfully deleted.</p>\n<p>teleportsuccessresponse - The message displayed when a warp succeeds.</p>\n<h3>\n<a id=\"user-content-permissions\" class=\"anchor\" href=\"#permissions\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Permissions</h3>\n<p>mywarp.mywarp: Required to use the mywarp command. (Default is available to all).</p>\n<p>mywarp.myw: Required to use the myw command. (The default is available to all).</p>\n<p>mywarp.add: Required to create your own warp point. (By default, all users can use this)</p>\n<p>mywarp.delete: Required to delete your own warp point. (By default, all users can use this)</p>\n<p>mywarp.warp: Required to warp to a pre-defined warp point. (Available to all by default).</p>",
+  "readme_source_url": "https://poggit.pmmp.io/r/122161",
+  "icon_url": "https://raw.githubusercontent.com/lovetwice1012/MyWarp-en/06c8bf3f019f4b76ed04b3ecacf05f45223995a2/mywarp-en/E83B2EE0-6877-40E5-B26B-00A9A2F49452.png",
+  "featured": false,
+  "repo": "https://github.com/lovetwice1012/MyWarp-en",
+  "archive_repo": null,
+  "approved_release_tag": "r-6419",
+  "stars": 0,
+  "total_downloads": 928,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "lovetwice1012"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/122163",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-6419",
+      "published_at": null,
+      "downloads": 815,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6419/mywarp-1.1.0-r6419.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6419",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6419/mywarp-1.1.0-r6419.phar"
+    },
+    {
+      "tag": "r-6346",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6346/mywarp-1.0.0-r6346.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MyWarp",
+    "stable_release_id": 6419
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "simplebanner",
+  "name": "SimpleBanner",
+  "author": "Invy55",
+  "description": "A simple banner generator for Pocketmine-MP.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/SimpleBanner)](https://poggit.pmmp.io/p/SimpleBanner)\n[![](https://poggit.pmmp.io/shield.api/SimpleBanner)](https://poggit.pmmp.io/p/SimpleBanner)\n[![](https://poggit.pmmp.io/shield.dl.total/SimpleBanner)](https://poggit.pmmp.io/p/SimpleBanner)\n\n# SimpleBanner\nA simple banner generator for Pocketmine-MP.\n\nThis plugin allows you to generate custom banners with all the existing patterns and colors, using a simple user-friendly in game interface.\n\n## Commands\n - /banner _[color tag](https://github.com/Invy55/SimpleBanner#color-tags)_ -  Open a simple menu to create the banner\n \n   Permission: _simplebanner.command.banner_\n   \n## Config\nYou can edit the \"config.yml\" in plugin data folder:\n - _banner-number_ The number of given banners, 1 to 16 default: 16\n - _banner-timeout_ Time to pass between running of /banner **in seconds**, default 0. Add permission _simplebanner.command.notimeout_ to a user to bypass the limit.\n  - _banner-language_ Language of the plugin, default to english. File has to be in the plugin_data folder of SimpleBanner.\n  \n## Languages\nWant to add a new language or to improve an existing one? Just open an issue tagging the language author!\n| Language | Author |\n| :---: | :---: |\n| German | [@efor89](https://github.com/efor89) |\n| Russian | [@MaksPV](https://github.com/MaksPV) |\n| Spanish | [@64x2](https://github.com/64x2) |\n   \n## Color Tags\nAlso visible with _/banner_\n\n - black\n - dark_green\n - dark_aqua\n - dark_purple\n - orange\n - gray\n - dark_gray\n - blue\n - green\n - aqua\n - red\n - light_purple\n - yellow\n - white\n### Knowed issues\n - Received banner isn't rendered.",
+  "readme_source_url": "https://github.com/Invy55/SimpleBanner",
+  "icon_url": "https://raw.githubusercontent.com/Invy55/SimpleBanner/3320ed13551bafbb62f37b8254254fdb0af208cc/.logo.png",
+  "featured": false,
+  "repo": "https://github.com/Invy55/SimpleBanner",
+  "archive_repo": null,
+  "approved_release_tag": "r-6520",
+  "stars": 0,
+  "total_downloads": 797,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Invy55"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/123833",
+  "versions": {
+    "stable": {
+      "version": "0.1.1",
+      "tag": "r-6520",
+      "published_at": null,
+      "downloads": 797,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6520/simplebanner-0.1.1-r6520.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6520",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6520/simplebanner-0.1.1-r6520.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleBanner",
+    "stable_release_id": 6520
+  }
+}

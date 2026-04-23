@@ -1,0 +1,63 @@
+{
+  "id": "factionspe",
+  "name": "FactionsPE",
+  "author": "BlockHorizons",
+  "description": "Installing",
+  "readme_markdown": "![Factions - PE](https://raw.githubusercontent.com/BlockHorizons/FactionsPE/reborn/resources/logo.png \"FactionsPE Logo\")\n\n[![HitCount](http://hits.dwyl.io/BlockHorizons/FactionsPE.svg)](http://hits.dwyl.io/BlockHorizons/FactionsPE) [![](https://poggit.pmmp.io/shield.dl/FactionsPE)](https://poggit.pmmp.io/p/FactionsPE) [![](https://poggit.pmmp.io/shield.state/FactionsPE)](https://poggit.pmmp.io/p/FactionsPE)\n\n### Installing\nThis plugin has not yet been approved on Poggit.\n\nYour server must be running on PHP v7.4\n\n#### Running from Phar file\nGrab the latest .phar file from release section and insert into your server's plugin folder. After, restart the server. See more detailed instructions [at the wiki](https://github.com/BlockHorizons/FactionsPE/wiki/Installation) :+1:\n\nLatest builds are available [here](https://poggit.pmmp.io/ci/BlockHorizons/FactionsPE/FactionsPE).\n### Running from source\nClone this repository in your plugins folder, and make sure you have DevTools installed.\n\n### PureChat support\nThere is no official support for FactionsPE. However I've made [fork](https://github.com/Kris-Driv/PureChat) which does support this plugin. \n**NOTE**: ``force-chat-formatter`` must be set to false in order to allow PureChat format your chat instead.\n\n### ScoreHud support\nAddon is located in source files, exact path is `~/resources/FactionsPEAddon.php`. Copy and paste this file inside your\n`~/plugin_data/ScoreHud/addons` folder. This supports the default two variables `{faction}` and `{faction_power}`\n\n### For developers\nAPI methods and examples can be found [at the wiki](https://github.com/BlockHorizons/FactionsPE/wiki/API)\n\n### Third-party libraries\n+ [Localizer](https://github.com/Kris-Driv/Localizer)\n+ [Economizer](https://github.com/Kris-Driv/Economizer)\n+ [Dominate](https://github.com/Kris-Driv/Dominate)",
+  "readme_source_url": "https://github.com/BlockHorizons/FactionsPE",
+  "icon_url": "https://raw.githubusercontent.com/BlockHorizons/FactionsPE/ecf4306a6c47f65457ff359901c68b3585e36871/fpe-logo.png",
+  "featured": false,
+  "repo": "https://github.com/BlockHorizons/FactionsPE",
+  "archive_repo": null,
+  "approved_release_tag": "r-6451",
+  "stars": 0,
+  "total_downloads": 4830,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.17.2-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BlockHorizons"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/122659",
+  "versions": {
+    "stable": {
+      "version": "1.4.23",
+      "tag": "r-6451",
+      "published_at": null,
+      "downloads": 4830,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6451/factionspe-1.4.23-r6451.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6451",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6451/factionspe-1.4.23-r6451.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FactionsPE",
+    "stable_release_id": 6451
+  }
+}

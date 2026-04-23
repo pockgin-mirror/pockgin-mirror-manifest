@@ -5,18 +5,18 @@
   "description": "Disguise as other players with",
   "readme_markdown": "# Disguise\n\n![Disguise's Logo](assets/icon.png)\n\nDisguise as other players with `/disguise <player>`\n\nRemove your disguise with `/disguise`\n\nHave Fun!\n\n# Credits\n\n<a target=\"_blank\" href=\"https://icons8.com/icon/RL9XZXkzdHLz/cloak\">CLOAK</a> icon by <a target=\"_blank\" href=\"https://icons8.com\">Icons8</a>",
   "readme_source_url": "https://github.com/Swift-Strider/Disguise",
-  "icon_url": "https://raw.githubusercontent.com/Swift-Strider/Disguise/1c80366c41c3fc6904ae2a75caf5e5e885933dd4/assets/icon.png",
+  "icon_url": "https://raw.githubusercontent.com/MasApip/DisguisePlugin/6654d1799d2d9b0082ad72ed799bdfc895fdf2ad/icon.png",
   "featured": false,
   "repo": "https://github.com/Swift-Strider/Disguise",
   "archive_repo": null,
-  "approved_release_tag": "r-8749",
+  "approved_release_tag": "r-6363",
   "stars": 5,
-  "total_downloads": 1572,
+  "total_downloads": 5581,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
   "api_support": [
-    "4.0.0-4.21.1"
+    "3.0.0-3.25.6"
   ],
   "dependencies": {
     "required": [],
@@ -28,14 +28,14 @@
   "producers": [
     "Swift-Strider"
   ],
-  "whats_new": "https://poggit.pmmp.io/r/0",
+  "whats_new": "https://poggit.pmmp.io/r/121577",
   "versions": {
     "stable": {
-      "version": "1.0.0",
-      "tag": "r-8749",
+      "version": "1.0.3",
+      "tag": "r-6363",
       "published_at": null,
-      "downloads": 1572,
-      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8749/disguise-1.0.0-r8749.phar"
+      "downloads": 4009,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6363/disguise-1.0.3-r6363.phar"
     },
     "dev": null
   },
@@ -44,6 +44,11 @@
       "tag": "r-8749",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8749/disguise-1.0.0-r8749.phar"
+    },
+    {
+      "tag": "r-6363",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6363/disguise-1.0.3-r6363.phar"
     }
   ],
   "comments": {
@@ -56,6 +61,6 @@
   "source": {
     "provider": "poggit",
     "plugin_name": "Disguise",
-    "stable_release_id": 8749
+    "stable_release_id": 6363
   }
 }

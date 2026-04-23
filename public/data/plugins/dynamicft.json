@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7226",
   "stars": 4,
-  "total_downloads": 8405,
+  "total_downloads": 9413,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-6610",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6610/dynamicft-1.0.5-dev2-r6610.phar"
+    },
+    {
+      "tag": "r-6455",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6455/dynamicft-1.0.2-r6455.phar"
     }
   ],
   "comments": {

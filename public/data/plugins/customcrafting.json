@@ -1,0 +1,61 @@
+{
+  "id": "customcrafting",
+  "name": "CustomCrafting",
+  "author": "thurm64",
+  "description": "NOTICE: I have recieved reports this is not compatible with the 1.16.220 protocol changes. I will be fixing this ASAP. Thank you for your understanding.",
+  "readme_markdown": "# CustomCrafting\n## NOTICE: I have recieved reports this is not compatible with the 1.16.220 protocol changes. I will be fixing this ASAP. Thank you for your understanding.\n## What is it?\nThis plugin has a graphical interface for creating crafting recipes. \nYou will need to restart the server for new recipes to take effect.\nAlso, there are commands for modifying items to make them have different names, etc.\n## Commands\n```/customcrafts``` \n\nOpens custom craft GUI.\n### Item modification\nThese commands will modify the item in your hand.\n\n```/ccrename <name>```\n\nLets you set the name of an item.\n\n```/ccrrelore <name>```\n\nLets you set the lore of the item, {line} for line breaks.\n\n```/ccrecolor <r> <g> <b>```\n\nLets you set the color of leather armor. Values from 0-255.\n\n```/ccglowify```\n\nMakes item glow with enchant glint, without being enchanted.",
+  "readme_source_url": "https://github.com/thurm64/CustomCrafting",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/thurm64/CustomCrafting",
+  "archive_repo": null,
+  "approved_release_tag": "r-6374",
+  "stars": 1,
+  "total_downloads": 1482,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thurm64"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/121596",
+  "versions": {
+    "stable": {
+      "version": "1.0.1-Working",
+      "tag": "r-6374",
+      "published_at": null,
+      "downloads": 1482,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6374/customcrafting-1.0.1-working-r6374.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6374",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6374/customcrafting-1.0.1-working-r6374.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomCrafting",
+    "stable_release_id": 6374
+  }
+}

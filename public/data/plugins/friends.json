@@ -1,0 +1,61 @@
+{
+  "id": "friends",
+  "name": "Friends",
+  "author": "OguzhanUmutlu",
+  "description": "FriendSystem",
+  "readme_markdown": "<h1>\n<a id=\"user-content-friendsystem\" class=\"anchor\" href=\"#friendsystem\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>FriendSystem</h1>\n<p><a href=\"https://poggit.pmmp.io/p/Friends\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/7797fe8da8843a7e556a00d3f58eb5845d2c891da70df6e1d7fff50f71e5fee6/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f467269656e6473\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.state/Friends\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/Friends\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/708c9294c9a092ae653be6ca652ade2460b8c1ed0be36650c81e5be73b6f125e/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f467269656e6473\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.api/Friends\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/Friends\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/bd90dccea62e5e7698ebbd4a6f351227cfb67a4680856321fbeb2ed94e4942f3/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f467269656e6473\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/Friends\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/Friends\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/f2377aa3e2ce06b6a04e05db91b6957101502bfd2bc0d3e2a2385194aa00f019/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f467269656e6473\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl/Friends\" style=\"max-width:100%;\"></a></p>\n<p>A plugin for PocketMine-MP.</p>\n<p>Now your players can add they friend each other!</p>\n<p>Easy and useful!</p>\n<h1>\n<a id=\"user-content-commands\" class=\"anchor\" href=\"#commands\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Commands</h1>\n<p>Main command: /friend</p>\n<p>Aliases: fr</p>\n<p>Sub commands:</p>\n<p>invite - Send friend requests</p>\n<p>list - Your friend list</p>\n<p>remove - Removes friend</p>\n<p>accept - Accepts friend request</p>\n<p>deny - Refuses friend request</p>\n<p>chat - Sends private message to friends</p>\n<p>teleport - Lets you teleport friend (YOU NEED TO SET TRUE IN CONFIG.YML TO USE TELEPORT SUBCOMMAND)</p>\n<p>cancelinvite - Cancel your friend request</p>\n<p>invites - Shows your friend requests</p>\n<h1>\n<a id=\"user-content-api\" class=\"anchor\" href=\"#api\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>API</h1>\n<p>Using plugin:</p>\n<p><code>use OguzhanUmutlu\\Friends\\Main as FriendsMain;</code></p>\n<p>Current functions:</p>\n<p><code>FriendsMain::getInstance()-&gt;getFriends($player); FriendsMain::getInstance()-&gt;getFriendRequests($player);</code></p>\n<h1>\n<a id=\"user-content-todo\" class=\"anchor\" href=\"#todo\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>TODO</h1>\n<ul>\n<li>Bug: If someone sends friend request to other one. And if other one sends too and if someone accepts. There is still a request on first player.</li>\n</ul>\n<h1>\n<a id=\"user-content-helpsuggestionbug-report\" class=\"anchor\" href=\"#helpsuggestionbug-report\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Help/Suggestion/Bug Report</h1>\n<p>For help: <a href=\"https://github.com/OguzhanUmutlu/FriendSystem/milestone/4\">https://github.com/OguzhanUmutlu/FriendSystem/milestone/4</a></p>\n<p>For suggestions: <a href=\"https://github.com/OguzhanUmutlu/FriendSystem/milestone/2\">https://github.com/OguzhanUmutlu/FriendSystem/milestone/2</a></p>\n<p>For bugs: <a href=\"https://github.com/OguzhanUmutlu/FriendSystem/milestone/1\">https://github.com/OguzhanUmutlu/FriendSystem/milestone/1</a></p>\n<p>To connect me or suggest me some ideas: <a href=\"https://github.com/OguzhanUmutlu/OguzhanUmutlu/milestone/1\">https://github.com/OguzhanUmutlu/OguzhanUmutlu/milestone/1</a></p>\n<h1>\n<a id=\"user-content-changelog\" class=\"anchor\" href=\"#changelog\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Changelog</h1>\n<p>v1.0.0 - Added main things.</p>\n<p>v1.0.1 - Bugfix: There weren't not-online message</p>\n<p>v1.0.2 - Added form option ~ Requested by MineGuy112</p>\n<p>v1.0.3 - Bugfix: When someone teleports to him friend it were just teleporting to coordinates(not world)</p>\n<p>v1.0.4 - Bugfix: Some messages were wrong typed</p>\n<p>v1.0.5 - f aliase changed to fr because of Factions plugins</p>\n<p>v1.0.6 - Bugfix.</p>\n<p>v1.0.7 - New API!</p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/120457",
+  "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/FriendSystem/ea3e4cb06734a669e561df91e8ba7e13581dc39c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/OguzhanUmutlu/FriendSystem",
+  "archive_repo": null,
+  "approved_release_tag": "r-6304",
+  "stars": 4,
+  "total_downloads": 5819,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OguzhanUmutlu"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/120459",
+  "versions": {
+    "stable": {
+      "version": "1.0.7",
+      "tag": "r-6304",
+      "published_at": null,
+      "downloads": 5819,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6304/friends-1.0.7-r6304.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6304",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6304/friends-1.0.7-r6304.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Friends",
+    "stable_release_id": 6304
+  }
+}

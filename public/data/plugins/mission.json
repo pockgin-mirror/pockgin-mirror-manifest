@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6651",
   "stars": 4,
-  "total_downloads": 747,
+  "total_downloads": 1068,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,7 +37,7 @@
       "version": "1.8.1",
       "tag": "r-6651",
       "published_at": null,
-      "downloads": 664,
+      "downloads": 665,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6651/mission-1.8.1-r6651.phar"
     },
     "dev": null
@@ -52,6 +52,21 @@
       "tag": "r-6571",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6571/mission-1.8.0-r6571.phar"
+    },
+    {
+      "tag": "r-6510",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6510/mission-1.7.2-r6510.phar"
+    },
+    {
+      "tag": "r-6481",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6481/mission-1.7.1-r6481.phar"
+    },
+    {
+      "tag": "r-6438",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6438/mission-1.6.3-r6438.phar"
     }
   ],
   "comments": {

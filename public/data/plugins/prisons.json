@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6562",
   "stars": 4,
-  "total_downloads": 4872,
+  "total_downloads": 5145,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -41,7 +41,7 @@
       "version": "2.1.0",
       "tag": "r-6562",
       "published_at": null,
-      "downloads": 4872,
+      "downloads": 4873,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6562/prisons-2.1.0-r6562.phar"
     },
     "dev": null
@@ -51,6 +51,11 @@
       "tag": "r-6562",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6562/prisons-2.1.0-r6562.phar"
+    },
+    {
+      "tag": "r-6507",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6507/prisons-2.0.0-r6507.phar"
     }
   ],
   "comments": {

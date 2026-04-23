@@ -1,0 +1,61 @@
+{
+  "id": "easytp",
+  "name": "EasyTP",
+  "author": "Rushil13579",
+  "description": "A TP request plugin for PocketMine 3.0.0 and above",
+  "readme_markdown": "# EasyTP\nA TP request plugin for PocketMine 3.0.0 and above\n\n- If you have any suggestions/ideas/questions go [here](https://github.com/Rushil13579/EasyTP/issues) or contact me on discord at **Rushil#2326**\n- If you find any bugs you can report them [here](https://github.com/Rushil13579/EasyTP/issues)\n\n## Whats New?\n\n- Blacklisted worlds now work\n- Added new aliases for tpahere\n- Fully conifgurable messages\n- Added feature to allow blocking specific players/all players from sending a tp request\n- Added tpall & tphere\n- Added tpworld\n\n## Commands\nCommands | Aliases | Description\n---------|---------|------------\n/tpa | [/tpask] | Send a tp request to a fellow player\n/tpahere | [/tph] | Send a tphere request to a fellow player\n/tpaccept | [/tpyes, /tpok] | Accept a tp request from a player\n/tpdeny | [/tpno, /tpdecline] | Decline a tp request from a player\n/tpwithdraw | none | Allows you to withdraw your latest tp request!\n/tpopen | none | Turn on your tp requests!\n/tpclose | none | Turn off your tp requests!\n/tpblock | none | Block a player from sending a tp request!\n/tpunblock | none | Unblock a player from sending a tp request!\n/tphere | none | Force teleport a player to your position\n/tpall | none | Force teleport all online players to your position\n/tpworld | [/tpw] | Tp to a world! \n\n## Credits\n- [Rushil13579](https://github.com/Rushil13579)",
+  "readme_source_url": "https://github.com/Rushil13579/EasyTP",
+  "icon_url": "https://raw.githubusercontent.com/Rushil13579/EasyTP/c72e1e4e9687fb4e4b79684ff1a94b3fdf46bda2/EasyTP.png",
+  "featured": false,
+  "repo": "https://github.com/Rushil13579/EasyTP",
+  "archive_repo": null,
+  "approved_release_tag": "r-6320",
+  "stars": 5,
+  "total_downloads": 18878,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Rushil13579"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/120671",
+  "versions": {
+    "stable": {
+      "version": "1.3.0",
+      "tag": "r-6320",
+      "published_at": null,
+      "downloads": 18878,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6320/easytp-1.3.0-r6320.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6320",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6320/easytp-1.3.0-r6320.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EasyTP",
+    "stable_release_id": 6320
+  }
+}

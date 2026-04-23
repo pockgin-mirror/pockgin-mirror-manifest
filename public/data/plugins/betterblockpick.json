@@ -1,0 +1,61 @@
+{
+  "id": "betterblockpick",
+  "name": "BetterBlockPick",
+  "author": "Matze997",
+  "description": "Add the vanilla block pick system to your server! PocketMine-MP / Altay Plugin",
+  "readme_markdown": "<a href=\"https://poggit.pmmp.io/p/BetterBlockPick\"><img src=\"https://poggit.pmmp.io/shield.state/BetterBlockPick\"></a> <a href=\"https://poggit.pmmp.io/p/BetterBlockPick\"><img src=\"https://poggit.pmmp.io/shield.dl.total/BetterBlockPick\"></a>\n\n# BetterBlockPick\nAdd the vanilla block pick system to your server! | PocketMine-MP / Altay Plugin\n\n# **Features:**\n- Block pick system like in vanilla\n- Made for survival and creative mode\n\n# **Todo´s:**\n- Currently nothing. I´m open for ideas!\n\n# **Contact me:**\n - Discord: Matze#4310",
+  "readme_source_url": "https://github.com/Matze997/BetterBlockPick",
+  "icon_url": "https://raw.githubusercontent.com/Matze997/BetterBlockPick/2f4d4e185dd217ccbaa62ff158ea2b55181db1a9/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Matze997/BetterBlockPick",
+  "archive_repo": null,
+  "approved_release_tag": "r-6475",
+  "stars": 0,
+  "total_downloads": 1920,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Matze997"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/122975",
+  "versions": {
+    "stable": {
+      "version": "1.1",
+      "tag": "r-6475",
+      "published_at": null,
+      "downloads": 1920,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6475/betterblockpick-1.1-r6475.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6475",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6475/betterblockpick-1.1-r6475.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterBlockPick",
+    "stable_release_id": 6475
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "stoplag",
+  "name": "StopLag",
+  "author": "OguzhanUmutlu",
+  "description": "Stops all laggy things in world(s) that you specified.",
+  "readme_markdown": "<h1>\n<a id=\"user-content-stoplag\" class=\"anchor\" href=\"#stoplag\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>StopLag</h1>\n<p><a href=\"https://poggit.pmmp.io/p/StopLag\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/20d032537bd7e5662e38fd963f4df648ea30f3d0ee165a37c32e514d6dced89d/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f53746f704c6167\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.state/StopLag\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/StopLag\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/3ad226b6ac6721b1e4143243475e4bd4421e5dfee3534ea271fb10575b150a28/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f53746f704c6167\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.api/StopLag\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/StopLag\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/1376a9f87d7521b726af8f2cb71910aa32f96eb303a4efe9803812defa66f630/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f53746f704c6167\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/StopLag\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/StopLag\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/53b7ac597c33c9c327b8d4ee3bb89e4fb1d4c1bb43375537502553341f9b4dec/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f53746f704c6167\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl/StopLag\" style=\"max-width:100%;\"></a></p>\n<p>Stops all laggy things in world(s) that you specified.</p>\n<h1>\n<a id=\"user-content-commands\" class=\"anchor\" href=\"#commands\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Commands</h1>\n<p>Main command: <code>/stoplag</code></p>\n<p>List command: <code>/stoplaglist</code></p>\n<h1>\n<a id=\"user-content-todo\" class=\"anchor\" href=\"#todo\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>TODO</h1>\n<ul>\n<li>Stopping entity movement</li>\n</ul>\n<h1>\n<a id=\"user-content-reporting-bugs\" class=\"anchor\" href=\"#reporting-bugs\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Reporting bugs</h1>\n<p><strong>You may open an issue on the StopLag GitHub repository for report bugs</strong>\n<a href=\"https://github.com/OguzhanUmutlu/StopLag/issue\">https://github.com/OguzhanUmutlu/StopLag/issue</a></p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/123028",
+  "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/StopLag/34ef3147e744204ec1d0f331772f01315f8a030f/icon.png",
+  "featured": false,
+  "repo": "https://github.com/OguzhanUmutlu/StopLag",
+  "archive_repo": null,
+  "approved_release_tag": "r-6478",
+  "stars": 2,
+  "total_downloads": 4029,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OguzhanUmutlu"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-6478",
+      "published_at": null,
+      "downloads": 4029,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6478/stoplag-1.0.0-r6478.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6478",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6478/stoplag-1.0.0-r6478.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "StopLag",
+    "stable_release_id": 6478
+  }
+}

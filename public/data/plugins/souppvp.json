@@ -1,0 +1,61 @@
+{
+  "id": "souppvp",
+  "name": "SoupPvp",
+  "author": "Rushil13579",
+  "description": "Pocketmine-MP plugin for SoupPvp gamemode!",
+  "readme_markdown": "# SoupPvp\nPocketmine-MP plugin for SoupPvp gamemode!\n\n- If you have any suggestions/ideas/questions/bugs go [here](https://github.com/Rushil13579/SoupPvp/issues) or contact me on discord at **Rushil#2326**\n\n## Features\n\n- All messages are configurable\n- Configurable Soup item and soup heal\n- Refill Sign\n- Use [REFILL] on line one of the sign to create a soup refill sign\n\n## Commands\n\nCommands | Permissions\n---------|------------\n/refill | souppvp.refill\n\n- souppvp.refill.sign.create To create a refill sign\n- souppvp.refill.sign.use To use a refill sign\n\n## Credits\n- [Rushil13579](https://github.com/Rushil13579)",
+  "readme_source_url": "https://github.com/Rushil13579/SoupPvp",
+  "icon_url": "https://raw.githubusercontent.com/Rushil13579/SoupPvp/62fd04e472152128d8b2ab7f3a1a2665e98a1ec8/logo.png",
+  "featured": false,
+  "repo": "https://github.com/Rushil13579/SoupPvp",
+  "archive_repo": null,
+  "approved_release_tag": "r-6309",
+  "stars": 4,
+  "total_downloads": 960,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Rushil13579"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/120530",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-6309",
+      "published_at": null,
+      "downloads": 960,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6309/souppvp-1.1.0-r6309.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6309",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6309/souppvp-1.1.0-r6309.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SoupPvp",
+    "stable_release_id": 6309
+  }
+}

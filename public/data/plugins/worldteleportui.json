@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8405",
   "stars": 2,
-  "total_downloads": 1657,
+  "total_downloads": 2906,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-8405",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8405/worldteleportui-1.0.1-r8405.phar"
+    },
+    {
+      "tag": "r-6354",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6354/worldteleportui-1.0.0-r6354.phar"
     }
   ],
   "comments": {
