@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7071",
   "stars": 4,
-  "total_downloads": 4349,
+  "total_downloads": 5729,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.2.1",
       "tag": "r-7071",
       "published_at": null,
-      "downloads": 4349,
+      "downloads": 4350,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7071/playerban-1.2.1-r7071.phar"
     },
     "dev": null
@@ -44,6 +44,21 @@
       "tag": "r-7071",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7071/playerban-1.2.1-r7071.phar"
+    },
+    {
+      "tag": "r-6770",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6770/playerban-1.2.0-r6770.phar"
+    },
+    {
+      "tag": "r-6722",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6722/playerban-1.1.0-r6722.phar"
+    },
+    {
+      "tag": "r-6683",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6683/playerban-1.0.0-r6683.phar"
     }
   ],
   "comments": {

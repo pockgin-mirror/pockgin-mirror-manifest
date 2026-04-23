@@ -1,0 +1,61 @@
+{
+  "id": "joinskinsave",
+  "name": "joinskinsave",
+  "author": "TATCHAN0825",
+  "description": "JoinSaveSkin",
+  "readme_markdown": "# JoinSaveSkin\n\n[![](https://poggit.pmmp.io/shield.state/joinskinsave)](https://poggit.pmmp.io/p/joinskinsave)\n\n[![](https://poggit.pmmp.io/shield.api/joinskinsave)](https://poggit.pmmp.io/p/joinskinsave)\n\n![joinskinsavesetumei](https://user-images.githubusercontent.com/43107628/116814514-508f2500-ab94-11eb-82c3-d6a7d114b016.png)\n\nSelect language:\n[日本語](#日本語)\n[English](#English)\n\n## 日本語\n\n### Requirement\n* gd\n\n#### Enable GD Library\n`extension=php_gd.dll`のコメントアウトを解除します\nphp.ini\n```diff\n- ;extension=php_gd.dll\n+ extension=php_gd.dll\n```\n\n### Usage\n* pluginsフォルダにプラグインpharを入れます\n* サーバーに参加します\n* プレイヤーのスキンデータ(png)が保存されます！\n\n`plugin_data/joinskinsave/<プレイヤー名>/<Y-m-d-H-i-s>.png`\n \n### Author\n* tatchan\n\n### SpecialThanks\n* suinua\n* [参照したコード](https://gist.github.com/suinua/315d8239dce060615e184acf2264bbfe)\n\n## English\n\n### Requirement\n* gd\n\n#### Enable GD Library\nUncomment `extension=php_gd.dll`\nphp.ini\n```diff\n- ;extension=php_gd.dll\n+ extension=php_gd.dll\n```\n\n### Usage\n* Place the plugin phar in the plugins folder\n* Join the server\n* The player's skin data (png) will be saved!\n\n`plugin_data/joinskinsave/<player name>/<Y-m-d-H-i-s>.png`\n \n### Author\n* tatchan\n\n### SpecialThanks\n* suinua\n* [Referenced code](https://gist.github.com/suinua/315d8239dce060615e184acf2264bbfe)",
+  "readme_source_url": "https://github.com/TATCHAN0825/joinskinsave",
+  "icon_url": "https://raw.githubusercontent.com/TATCHAN0825/joinskinsave/07b911da9d2a9aba4481547968bea91a1afe90cc/icon.png",
+  "featured": false,
+  "repo": "https://github.com/TATCHAN0825/joinskinsave",
+  "archive_repo": null,
+  "approved_release_tag": "r-6572",
+  "stars": 5,
+  "total_downloads": 2114,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TATCHAN0825"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-6572",
+      "published_at": null,
+      "downloads": 2114,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6572/joinskinsave-1.1.0-r6572.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6572",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6572/joinskinsave-1.1.0-r6572.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "joinskinsave",
+    "stable_release_id": 6572
+  }
+}

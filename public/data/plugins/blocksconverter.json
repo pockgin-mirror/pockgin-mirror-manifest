@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7617",
   "stars": 5,
-  "total_downloads": 2107,
+  "total_downloads": 3612,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-7617",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7617/blocksconverter-2.2.3-r7617.phar"
+    },
+    {
+      "tag": "r-6669",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6669/blocksconverter-2.2.2-r6669.phar"
     }
   ],
   "comments": {

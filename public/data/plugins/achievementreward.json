@@ -1,0 +1,61 @@
+{
+  "id": "achievementreward",
+  "name": "AchievementReward",
+  "author": "Clarence2810",
+  "description": "Giving a special reward when you got an achievement",
+  "readme_markdown": "# AchievementReward\nGiving a special reward when you got an achievement\n\n# What if i got an error?\n**If you got a issue or error about this plugin follow this steps:**\n- First open this github repositories\n- Then click **(!) Issues** next on **< > Code**\n- Next click **New issue**\n- After you type the issues and title click **Submit new issue** <br/>\nThere you go you submited the issue no need to rate 3-0 star! <br/>\nI make sure that im gonna try to fix it as must i can \n\n# Feature\n- Giving player a reward when they got an achievement\n- More soon?... Give me suggestion on my discord Clarence1028#7952",
+  "readme_source_url": "https://github.com/Clarence2810/AchievementReward",
+  "icon_url": "https://raw.githubusercontent.com/Clarence2810/AchievementReward/3b1e617e5ac173cd496e819aef4c515959bda546/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Clarence2810/AchievementReward",
+  "archive_repo": null,
+  "approved_release_tag": "r-6725",
+  "stars": 5,
+  "total_downloads": 21789,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Clarence2810"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-6725",
+      "published_at": null,
+      "downloads": 21789,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6725/achievementreward-1.0.0-r6725.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6725",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6725/achievementreward-1.0.0-r6725.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AchievementReward",
+    "stable_release_id": 6725
+  }
+}

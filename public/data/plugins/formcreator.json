@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6877",
   "stars": 3,
-  "total_downloads": 703,
+  "total_downloads": 825,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.2.0",
       "tag": "r-6877",
       "published_at": null,
-      "downloads": 703,
+      "downloads": 704,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6877/formcreator-1.2.0-r6877.phar"
     },
     "dev": null
@@ -44,6 +44,16 @@
       "tag": "r-6877",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6877/formcreator-1.2.0-r6877.phar"
+    },
+    {
+      "tag": "r-6822",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6822/formcreator-1.1.0-r6822.phar"
+    },
+    {
+      "tag": "r-6796",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6796/formcreator-1.0.0-r6796.phar"
     }
   ],
   "comments": {

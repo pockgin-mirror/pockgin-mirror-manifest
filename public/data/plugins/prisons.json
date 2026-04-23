@@ -1,0 +1,68 @@
+{
+  "id": "prisons",
+  "name": "Prisons",
+  "author": "EPT8TPE",
+  "description": "A pocketmine plugin implementing the legacy prison rank up system in addition to a form of prestiging.",
+  "readme_markdown": "<a href=\"https://poggit.pmmp.io/p/Prisons\"><img src=\"https://poggit.pmmp.io/shield.dl.total/Prisons\"></a> <a href=\"https://poggit.pmmp.io/p/Prisons\"><img src=\"https://poggit.pmmp.io/shield.state/Prisons\"></a>\n\n# Prisons\nA pocketmine plugin implementing the legacy prison rank up system in addition to a form of prestiging.\n\n# How to install\n1. Download the phar [here](https://poggit.pmmp.io/p/Prisons).\n2. Add it to your servers 'plugins' directory.\n3. Restart your server.\n\n# Features\n- Custom events for prestiging and ranking up.\n- Add permissions, remove permissions and run commands when ranking up and prestiging via the config.\n- Chat formatting via purechat.\n- A scorehud addon for the new version of scorehud.\n- Written in libasyncsql in order to improve performance.\n- Compatible with both sqlite3 and mysql.\n\n# Commands \n```\n- /prestige - Reset your rank and multiply your rank up price by a specified amount.\n- /rankup - Rank up to the next rank.\n```\n\n# Permissions\n```\nprisons.*:\n    default: op\n    description: Allows access to all prison commands.\n    children:\n      prisons.rankup:\n        default: true\n        description: Allows user to use /rankup.\n      prisons.prestige:\n        default: true\n        description: Allows players to use /prestige.\n      prisons.nomine.bypass:\n        default: op\n        description: Allows players to mine/place blocks in areas that are not mine areas.  \n```\n\n# Addons/Dependencies \n- [Pureperms](https://poggit.pmmp.io/p/PurePerms) and [Minereset](https://poggit.pmmp.io/p/MineReset/3.2.0) are required for this plugin to operate.\n- [Scorehud](https://poggit.pmmp.io/p/ScoreHud) and [PrisonScore](https://poggit.pmmp.io/ci/TPEimperialPE/PrisonScorehud/PrisonScorehud/dev:3) and required if you wish to \nimplement scorehud tags.\n- [Purechat](https://poggit.pmmp.io/p/PureChat/1.4.11) is required if you wish to implement a players rank and prestige into your chat format, use {PRISON_RANK} for the players prison rank and {PRISON_PRESTIGE} for their prestige.\n\n# API\n- Version 2.0 of prisons has been written in a [libasyncsql](https://github.com/poggit/libasynql) in order to reduce lag and align with poggit standards\nhopefully reducing stress on the main thread.\n- Prisons now runs using custom player classes of some sort and also an event based system.\n\nHere's an example of me getting and setting the prestige and rank of a player.\n```php \n<?php\n\ndeclare(strict_types = 1);\n\nnamespace TPE\\Test;\n\nuse TPE\\Prisons\\Prisons;\nuse pocketmine\\Player;\nuse TPE\\Prisons\\PrisonPlayer;\n\nclass TestPlugin extends PluginBase {\n\n    public function onEnable() {\n        // enabled\n    }\n    \n    public function getPrisonPlayer(Player $player) : ?PrisonPlayer {\n        return Prisons::get()->getPlayerManager()->getPlayer($player) ?? null;\n    }\n    \n    public function getPrisonRank(PrisonPlayer $player) : ?string {\n        return $player->getPrisonRank() ?? null;\n        // returns the prison rank of a player e.g 'a'.\n    }\n    \n    public function setPrisonRank(PrisonPlayer $player, string $rank) : void {\n        $player->setPrisonRank($rank);\n        // sets the prison rank to whatever '$rank' is \n    }\n\n    public function getPrestige(PrisonPlayer $player) : ?int {\n        return $player->getPrestige() ?? null;\n        // returns the prestige of a player, by default this is 0.\n    }\n    \n    public function setPrestige(PrisonPlayer $player, int $prestige) : void {\n        $player->setPrestige($prestige);\n        // sets a players prestige to whatever '$prestige' is.\n    }\n}\n```\nKeep in mind that none of those functions are implemented into this plugin, you create them yourself.\n\n- In addition to that we have created some none cancellable events you can listen for when players rank up and prestige.\n```php\n<?php\n\ndeclare(strict_types = 1);\n\nnamespace TPE\\Test;\n\nuse pocketmine\\event\\Listener;\nuse TPE\\Prisons\\Listener\\PrisonListener\\PrisonRankUpEvent;\nuse TPE\\Prisons\\Listener\\PrisonListener\\PrisonPrestigeEvent;\n\nclass EventListener implements Listener {\n\n    public function onRankUp(PrisonRankUpEvent $event) : void {\n        $player = $event->getPlayer(); // returns a 'Player' instance, not a 'PrisonPlayer' instance.\n        $currentRank = $event->getCurrentRank(); // returns a string representing the current rank of a player.\n        $newRank = $event->getNewRank(); // returns a string representing what the players rank will be set to when the event executes.\n        $addedperms = $event->getAddedPermissions(); // returns a string array representing all added permissions for the specific rankup.\n        $removedperms = $event->getRemovedPermissions(); // returns a string array representing all removed permissions for the specific rankup.\n        $commands = $event->getCommands(); // returns a string array of all commands ran during rankup.\n        \n        $event->setAddedPermissions([\"prisons.*\"]); // sets the added permissions for that specific players rankup to 'prisons.*', you can specify multiple.\n        $event->setRemovedPermissions([\"prisons.prestige\"]); // sets the removed permissions for that specific players rankup to 'prisons.prestige'.\n        $event->setCommands([\"say {PLAYER} has ranked up to {$newRank!\"}]); // within all commands use {PLAYER} to represent the player in the event.\n    }\n    \n    public function onPrestige(PrisonPrestigeEvent $event) {\n        $player = $event->getPlayer(); // returns a 'Player' instance, not a 'PrisonPlayer' instance.\n        $currentPrestige = $event->getCurrentPrestige; // returns an int representing the current prestige of a player.\n        $newPrestige = $event->getNewPrestige(); // returns an int representing what the players prestige will be set to when the event executes.\n        $addedperms = $event->getAddedPermissions(); // returns a string array representing all added permissions for the specific prestige.\n        $removedperms = $event->getRemovedPermissions(); // returns a string array representing all removed permissions for the specific prestige.\n        $commands = $event->getCommands(); // returns a string array of all commands ran during prestige.\n        \n        $event->setAddedPermissions([\"prisons.*\"]); // sets the added permissions for that specific players prestige to 'prisons.*', you can specify multiple.\n        $event->setRemovedPermissions([\"prisons.prestige\"]); // sets the removed permissions for that specific players prestige to 'prisons.prestige'.\n        $event->setCommands([\"say {PLAYER} has prestiged to {$newPrestige!\"}]); // within all commands use {PLAYER} to represent the player in the event.\n    } \n\n}\n```\n\n# Support\nContact me on discord ```TPE#1061``` if you have any further queries related to this plugin.",
+  "readme_source_url": "https://github.com/EPT8TPE/Prisons",
+  "icon_url": "https://raw.githubusercontent.com/TPEimperialPE/Prisons/521591b6f20f4993726933f84a23915516c8e036/icon.png",
+  "featured": false,
+  "repo": "https://github.com/EPT8TPE/Prisons",
+  "archive_repo": null,
+  "approved_release_tag": "r-6562",
+  "stars": 4,
+  "total_downloads": 4872,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI",
+      "MineReset",
+      "PurePerms"
+    ],
+    "optional": [
+      "PureChat",
+      "ScoreHud"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "EPT8TPE"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/124520",
+  "versions": {
+    "stable": {
+      "version": "2.1.0",
+      "tag": "r-6562",
+      "published_at": null,
+      "downloads": 4872,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6562/prisons-2.1.0-r6562.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6562",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6562/prisons-2.1.0-r6562.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Prisons",
+    "stable_release_id": 6562
+  }
+}

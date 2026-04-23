@@ -1,0 +1,69 @@
+{
+  "id": "mission",
+  "name": "Mission",
+  "author": "PJZ9n",
+  "description": "Fork for Poggit Organization bugs",
+  "readme_markdown": "## Fork for Poggit Organization bugs\n\n# Mission\n\n[![](https://poggit.pmmp.io/shield.state/Mission)](https://poggit.pmmp.io/p/Mission)\n[![](https://poggit.pmmp.io/shield.dl.total/Mission)](https://poggit.pmmp.io/p/Mission)\n\nSelect language:\n[日本語](#日本語)\n[English](#English)\n\n## Select the plugin language\n\nBy default, the PM language (`pocketmine.yml` or `server.properties`) is used, but if it is not supported, it will be English.\n\n1. Open the `config.yml`\n2. Change language setting: `language: <language code>`\n\nA list of available languages can be found in `resources/locale/`\n\n(Remove the .ini extension)\n\ne.g. `resources/locale/eng.ini` => `eng`\n\n## 日本語\n\n### 動作例\n\n![mission](https://user-images.githubusercontent.com/38120936/96361660-91789c80-1162-11eb-9925-11e67d3056a2.png)\n\n### コマンド\n\n| コマンド名 | 説明 | 権限 | エイリアス | プレイヤーのみ |\n| --- | --- | --- | --- | --- |\n| mission | ミッションを表示する | mission.command.mission | mi | はい |\n\n`mission` コマンドでは、引数に名前、ID、短縮IDを指定することができます。\n引数を指定しなかった場合と指定したミッションが存在しない場合は全ミッションのリストが送信されます。\n\n#### サブコマンド (/mission)\n\n| サブコマンド名 | 説明 | 権限 | エイリアス | プレイヤーのみ |\n| --- | --- | --- | --- | --- |\n| edit | ミッションを編集する | mission.command.mission.edit | なし | はい |\n| setting | 設定 | mission.command.mission.setting | set, config | はい |\n| list | ミッションのリストを表示する | mission.command.mission.list | l | はい |\n| info | プラグインの情報を表示する | mission.command.mission.info | i | いいえ |\n\n`edit` サブコマンドでは、引数に名前、ID、短縮IDを指定することができます。\n引数を指定しなかった場合と指定したミッションが存在しない場合は全ミッションのリストが送信されます。\n\n`list` サブコマンドでは、引数にグループを指定することができます。\n引数を指定しなかった場合は全ミッションのリストが送信されます。\n\n### 権限\n\n| 権限名 | デフォルト |\n| --- | --- |\n| mission.command.mission | true \n| mission.command.mission.edit | op |\n| mission.command.mission.setting | op |\n| mission.command.mission.list | true |\n| mission.command.mission.info | op |\n\n### 使い方\n\n#### 項目の説明\n\n- 最大達成回数: ミッションを達成できる回数\n- 目標ステップ数: 目標のステップ数\n- ステップトリガー: ミッションのステップを増やすトリガー\n\n#### ミッションの作成例\n\n- ブロックを10回壊したら達成\n- 報酬はダイヤモンド10個\n- 1回まで達成できる\n\n1. `/mission edit` コマンドを実行\n2. 「ミッション追加」を選択\n3. 「最大達成回数」に1を、「目標ステップ数」に10を入力\n4. 作成したミッションを選択\n5. 「報酬の編集」を選択\n6. 「報酬追加」を選択\n7. 「報酬の種類」に「アイテム報酬」を指定\n8. 「id」に264(ダイヤモンドのID)を、「個数」に10を入力\n9. 「ステップトリガー編集」を選択\n10. 「ステップトリガー追加」を選択\n11. 「ステップトリガーの種類」に「イベント」を指定\n12. 「イベント」に「BlockBreakEvent」を指定\n\nこのようになっていれば成功です(フォントの乱れはMCBEの仕様です)\n\n![screenshot_20201014_033307](https://user-images.githubusercontent.com/38120936/95901266-08faa480-0dce-11eb-99b2-f1febc53bcad.png)\n\n### Mineflowとの連携\n\n#### レシピによる報酬を作成\n\n1. [ミッションの作成例](#ミッションの作成例) を参考に「Mineflow報酬」を追加する\n2. Mineflow側のトリガーで「ミッション報酬」を選択、対象の実績を指定する\n\n##### 例\n\n- レシピ\n\n![screenshot_20201014_042130](https://user-images.githubusercontent.com/38120936/95906249-df914700-0dd4-11eb-80c5-5f02f21d2ee6.png)\n\n- ミッション\n\n![screenshot_20201014_042154](https://user-images.githubusercontent.com/38120936/95906242-ddc78380-0dd4-11eb-8cff-6182f80a5c22.png)\n\n![screenshot_20201014_042202](https://user-images.githubusercontent.com/38120936/95906246-de601a00-0dd4-11eb-8c1b-ba268bc1b94e.png)\n\n![screenshot_20201014_042211](https://user-images.githubusercontent.com/38120936/95906247-def8b080-0dd4-11eb-9927-adb7a15d8201.png)\n\n##### Tips\n\n- ミッション報酬をトリガに指定したMineflowレシピでは、変数targetが使用できます\n- レシピによる報酬を複数作成したい場合でも、「Mineflow報酬」は1つまでにしてください\n- レシピによる報酬を複数作成する場合で、2つ目以降の報酬内容を表示したい場合「何もしない(文字表示のみ)」を使用することができます\n\n#### レシピをステップトリガーとして使う\n\n1. Mineflow側でアクション追加画面を開き「ミッション」、「ミッションのステップを増やす」を選択して追加する\n\n##### 例\n\n![screenshot_20201014_060403](https://user-images.githubusercontent.com/38120936/95916139-2ab25680-0de3-11eb-8ad8-ee7e03466a5a.png)\n\n##### Tips\n\n- ミッション側での設定は不要です\n- レシピ側で条件式などを組み合わせることによって、かなり柔軟な設定が可能になります\n\n### 外部プラグインとの連携(開発者向け)\n\n#### 前提条件\n\n- plugin.ymlのdependにこのプラグインを追加する\n\n#### 報酬の種類を追加する\n\n1. Rewardを継承したクラスを作成する(実装例は既存Rewardを参照)\n2. そのクラスをRewardsに追加\n\n```php\npjz9n\\mission\\reward\\Rewards::add(ExampleReward::class);\n```\n\n#### ステップトリガーの種類を追加する\n\n1. Executorを継承したクラスを作成する(実装例は既存Executorを参照)\n2. そのクラスをExecutorsに追加\n\n```php\npjz9n\\mission\\mission\\executor\\Executors::add(ExampleExecutor::class);\n```\n\n#### Missionを操作\n\n```php\npjz9n\\mission\\mission\\MissionList\n```\n\n#### Progressを操作\n\n```php\npjz9n\\mission\\mission\\progress\\ProgressList\n```\n\n#### イベントステップトリガーにイベントを追加する\n\n`PlayerEvent`のインスタンスもしくは`getPlayer`メソッドを持つイベントはデフォルトで追加されています。\nただし、あなたは`getDamager`メソッドを持つEntityDamageByEntityEvent`イベントを追加したいかもしれません。\nそのような場合にはこれを使います。\n\n```php\npjz9n\\mission\\mission\\executor\\EventList::addEvent(EntityDamageByEntityEvent::class, function (Event $event): ?Player {\n    /** @var EntityDamageByEntityEvent $event */\n    $damager = $event->getDamager();\n    return $damager instanceof Player ? $damager : null;\n});\n```\n\n詳しくはソースコードを参照してください\n\n※各操作のタイミングは問いません(基本的にはプラグイン有効化タイミングに行うのが望ましい)\n\n## English\n\n### Operation example\n\n![mission](https://user-images.githubusercontent.com/38120936/96361661-92a9c980-1162-11eb-9130-5f3dea81c203.png)\n\n### Command\n\n| command name | description | permission | alias | player only |\n| --- | --- | --- | --- | --- |\n| mission | Show mission | mission.command.mission | mi | Yes |\n\nThe `mission` command allows you to specify a name, ID, and Short ID as arguments.\nReturns a all missions list if no arguments are specified or the specified mission does not exist.\n\n#### Sub command (/mission)\n\n| sub command name | description | permission | alias | player only |\n| --- | --- | --- | --- | --- |\n| edit | Edit mission | mission.command.mission.edit | None | Yes |\n| setting | Settings | mission.command.mission.setting | set, config | Yes |\n| list | Show the missions list | mission.command.mission.list | l | Yes |\n| info | Show plugin information | mission.command.mission.info | i | No |\n\nThe `edit` subcommand allows you to specify a name, ID, and Short ID as arguments.\nReturns a all missions list if no arguments are specified or the specified mission does not exist.\n\nThe `list` subcommand allows you to specify a group name as arguments.\nReturns a all missions list if no arguments are specified.\n\n### Permission\n\n| permission name | default |\n| --- | --- |\n| mission.command.mission | true \n| mission.command.mission.edit | op |\n| mission.command.mission.setting | op |\n| mission.command.mission.list | true |\n| mission.command.mission.info | op |\n\n### Usage\n\n#### Item description\n\n- Maximum number of achievements: Number of times you can complete a mission\n- Target step: Target number of steps\n- Steptrigger: Trigger to increase mission steps\n\n#### Mission creation example\n\n- Achieved after breaking blocks 10 times\n- The reward is 10 diamonds\n- Can be achieved up to once\n\n1. Execute command: `/mission edit`\n2. Select \"Add mission\"\n3. Input the 1 to \"Maximum number of achievements\" and 10 to \"Target step\"\n4. Select the created mission\n5. Select \"Edit reward\"\n6. Select \"Add reward\"\n7. Specify \"Item reward\" for \"Reward type\"\n8. Input the 264(Diamond ID) to \"ID\" and 10 to \"Amount\"\n9. Select \"Edit steptrigger\"\n10. Select \"Add steptrigger\"\n11. Specify \"Event\" for \"Steptrigger type\"\n12. Specify \"BlockBreakEvent\" for \"Event\"\n\nIf it looks like this, it ’s a success.\n\n![screenshot_20201014_081717](https://user-images.githubusercontent.com/38120936/95926177-95b95880-0df6-11eb-8d9f-9fba8f28c170.png)\n\n### Cooperation with Mineflow plugin\n\n#### Create reward with recipe\n\n1. Add \"Mineflow reward\" by referring to [Mission creation example](#Mission creation example)\n2. Select \"MissionReward\" with the trigger on the Mineflow plugin side and specify the target mission\n\n##### Examples\n\n- Recipe\n\n![screenshot_20201014_081807](https://user-images.githubusercontent.com/38120936/95926212-b2ee2700-0df6-11eb-9eff-8cc81fb38c53.png)\n\n- Mission\n\n![screenshot_20201014_081952](https://user-images.githubusercontent.com/38120936/95926215-b41f5400-0df6-11eb-84c3-cc81d027e6a3.png)\n\n![screenshot_20201014_082017](https://user-images.githubusercontent.com/38120936/95926217-b41f5400-0df6-11eb-95b5-b73d30d4dd7f.png)\n\n![screenshot_20201014_082029](https://user-images.githubusercontent.com/38120936/95926219-b4b7ea80-0df6-11eb-9c9b-88fcab4d5f97.png)\n\n##### Tips\n\n- The variable \"target\" can be used in Mineflow recipes triggered by mission rewards\n- Even if you want to create multiple recipe rewards, please limit the number of \"Mineflow reward\" to one\n- If you want to create multiple rewards based on recipes and want to display the second and subsequent rewards, you can use \"Nothing (text show only)\"\n\n#### Use the recipe as a Steptrigger\n\n1. Open the action addition screen on the Mineflow plugin side and select \"Mission\", \"Increase the mission step\" to add\n\n##### Examples\n\n![screenshot_20201014_082129](https://user-images.githubusercontent.com/38120936/95926271-d1542280-0df6-11eb-9e26-8203aa272c0f.png)\n\n##### Tips\n\n- No setting is required on the mission side\n- By combining conditional expressions on the recipe side, it is possible to make fairly flexible settings\n\n### Cooperation with external plugins (for developers)\n\n#### Prerequisites\n\n- Add this plugin to depend in plugin.yml\n\n#### Add reward type\n\n1. Create a class that inherits Reward (see existing Reward for implementation example)\n2. Add that class to Reward\n\n```php\npjz9n\\mission\\reward\\Rewards::add(ExampleReward::class);\n```\n\n#### Add Steptrigger type\n\n1. Create a class that inherits Executor (see existing Executor for implementation example)\n2. Add that class to Executor\n\n```php\npjz9n\\mission\\mission\\executor\\Executors::add(ExampleExecutor::class);\n```\n\n#### Operate Mission\n\n```php\npjz9n\\mission\\mission\\MissionList\n```\n\n#### Operate Progress\n\n```php\npjz9n\\mission\\mission\\progress\\ProgressList\n```\n\n#### Add event to Event Steptrigger\n\nInstances of `PlayerEvent` or events with` getPlayer` methods are added by default.\nHowever, you may want to add an `EntityDamageByEntityEvent` event that has a `getDamager` method.\nIt can be used in such cases.\n\n```php\npjz9n\\mission\\mission\\executor\\EventList::addEvent(EntityDamageByEntityEvent::class, function (Event $event): ?Player {\n    /** @var EntityDamageByEntityEvent $event */\n    $damager = $event->getDamager();\n    return $damager instanceof Player ? $damager : null;\n});\n```\n\nSee the source code for details\n\n\\* The timing of each operation does not matter (basically, it is desirable to perform it at the plug-in activation timing)",
+  "readme_source_url": "https://github.com/PJZ9n/Mission",
+  "icon_url": "https://raw.githubusercontent.com/PJZ9n/Mission/32973a30d24e44fe76188affdfc96cef63f8bd38/icon.png",
+  "featured": false,
+  "repo": "https://github.com/PJZ9n/Mission",
+  "archive_repo": null,
+  "approved_release_tag": "r-6651",
+  "stars": 4,
+  "total_downloads": 747,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.4.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "ScoreHud",
+      "Mineflow"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "PJZ9n"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/125736",
+  "versions": {
+    "stable": {
+      "version": "1.8.1",
+      "tag": "r-6651",
+      "published_at": null,
+      "downloads": 664,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6651/mission-1.8.1-r6651.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6651",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6651/mission-1.8.1-r6651.phar"
+    },
+    {
+      "tag": "r-6571",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6571/mission-1.8.0-r6571.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Mission",
+    "stable_release_id": 6651
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "gravity",
+  "name": "gravity",
+  "author": "Refaltor77",
+  "description": "what is gravity?",
+  "readme_markdown": "# Gravity\n- what is gravity?\nGravity is an early development plugin designed to mimic gravity as well as any other factor on the moon.\nThe factors present in the plugin for the moment : \n- gravity\n- oxygen\n\n\n## présentation\n- Youtube : https://youtu.be/gxEh3ZR7N2Y\n\n## 3.0.0\n\n- adding a rocket, when you click on it, it opens a menu to teleport us to another world (which you will configure in config.yml)\n- adding commands /launch (spawn:remove) to spawn or remove a rocket (permission: \"gravity.spawn.launch\")\n<img src=\"img/rocket.png\" width=\"350\" title=\"rocket\">\n<img src=\"img/menu.png\" width=\"350\" title=\"rocket menu\">\n\n## 4.0.0 soon...\n- added configuration of all messages\n- code clean\n- possibility to set up zones, with a command /pos1 /pos2 /zone create <name>\n\n### contact \n- Email: elysiomartinspro@gmail.com\n- Discord: Refaltor#1000",
+  "readme_source_url": "https://github.com/Refaltor77/gravity",
+  "icon_url": "https://raw.githubusercontent.com/Refaltor77/gravity/18273bc2cac7971b3b89bb560795eca67500dec2/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Refaltor77/gravity",
+  "archive_repo": null,
+  "approved_release_tag": "r-6673",
+  "stars": 0,
+  "total_downloads": 523,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Refaltor77"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/126208",
+  "versions": {
+    "stable": {
+      "version": "3.1.0",
+      "tag": "r-6673",
+      "published_at": null,
+      "downloads": 523,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6673/gravity-3.1.0-r6673.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6673",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6673/gravity-3.1.0-r6673.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "gravity",
+    "stable_release_id": 6673
+  }
+}

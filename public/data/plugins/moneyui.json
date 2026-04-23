@@ -1,0 +1,63 @@
+{
+  "id": "moneyui",
+  "name": "MoneyUI",
+  "author": "OguzhanUmutlu",
+  "description": "A form system for EconomyAPI.",
+  "readme_markdown": "<h1>\n<a id=\"user-content-moneyui\" class=\"anchor\" href=\"#moneyui\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>MoneyUI</h1>\n<p><a href=\"https://poggit.pmmp.io/p/MoneyUI\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/7d9d30c457163c3a915d4f71506d05f10daf0e8c0f276aa4f69b9bdcd81a2c09/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f4d6f6e65795549\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.state/MoneyUI\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/MoneyUI\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/6581b9145495e3de537e1aab6e53b3e5bf112f80a1d5c6944d28e7d4e480ba3b/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f4d6f6e65795549\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.api/MoneyUI\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/MoneyUI\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/de70d2eda04cb63119b24fae4315f06cdbe6b85a3465ae7b2b7d167924d44206/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f4d6f6e65795549\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/MoneyUI\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/MoneyUI\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/73cfde122ae3df49b3e6535340e4bfe58fdb67f87128f78ee663d3e279a51e27/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f4d6f6e65795549\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl/MoneyUI\" style=\"max-width:100%;\"></a></p>\n<p>A form system for EconomyAPI.</p>\n<h1>\n<a id=\"user-content-commands\" class=\"anchor\" href=\"#commands\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Commands</h1>\n<p>Main command: <code>/moneyui</code></p>\n<ul>\n<li>Can be edited in messages.yml</li>\n</ul>\n<h1>\n<a id=\"user-content-todo\" class=\"anchor\" href=\"#todo\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>TODO</h1>\n<ul>\n<li>languagez</li>\n</ul>\n<h1>\n<a id=\"user-content-reporting-bugs\" class=\"anchor\" href=\"#reporting-bugs\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Reporting bugs</h1>\n<p><strong>You may open an issue on the MoneyUI GitHub repository for report bugs</strong>\n<a href=\"https://github.com/OguzhanUmutlu/MoneyUI/issues\">https://github.com/OguzhanUmutlu/MoneyUI/issues</a></p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/125673",
+  "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/MoneyUI/fd13cf11ab7c3aeb25148ace97af237b6b7d4b37/icon.png",
+  "featured": false,
+  "repo": "https://github.com/OguzhanUmutlu/MoneyUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-6645",
+  "stars": 3,
+  "total_downloads": 7682,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OguzhanUmutlu"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-6645",
+      "published_at": null,
+      "downloads": 7682,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6645/moneyui-1.0.0-r6645.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6645",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6645/moneyui-1.0.0-r6645.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MoneyUI",
+    "stable_release_id": 6645
+  }
+}

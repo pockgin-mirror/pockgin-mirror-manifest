@@ -1,0 +1,61 @@
+{
+  "id": "whitelistmessage",
+  "name": "WhitelistMessage",
+  "author": "Clarence2810",
+  "description": "Custom Whitelist Kick Message",
+  "readme_markdown": "# WhitelistMessage\nCustom Whitelist Kick Message\nPlugin Permission: whitelistmessage.notify </br>\nNote: CustomAlerts already have this type of feature but if you want just change the whitelist kick message only you can use this instead :D\n\n# What if i got an error?\n**If you got a issue or error about this plugin follow this steps:**\n- First open this github repositories\n- Then click **(!) Issues** next on **< > Code**\n- Next click **New issue**\n- After you type the issues and title click **Submit new issue** <br/>\nThere you go you submited the issue no need to rate 3-0 star! <br/>\nI make sure that im gonna try to fix it as must i can \n\n# Feature\n- A custom kick message when a non whitelisted player is trying to join in your the whitelisted server\n- Players that have this plugin permission or a player that is whitelisted will get notify when non whitelisted player is trying to join in your whitelisted server\n- More soon?... Give me suggestion on my discord Clarence1028#7952",
+  "readme_source_url": "https://github.com/Clarence2810/WhitelistMessage",
+  "icon_url": "https://raw.githubusercontent.com/Clarence2810/WhitelistMessage/cf3082941e3e9eddbfe7239b10a8211012916419/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Clarence2810/WhitelistMessage",
+  "archive_repo": null,
+  "approved_release_tag": "r-6752",
+  "stars": 0,
+  "total_downloads": 353,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Clarence2810"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-6752",
+      "published_at": null,
+      "downloads": 353,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6752/whitelistmessage-1.0.0-r6752.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6752",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6752/whitelistmessage-1.0.0-r6752.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WhitelistMessage",
+    "stable_release_id": 6752
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "scoreboardspe",
+  "name": "ScoreboardsPE",
+  "author": "MisteFr",
+  "description": "ScoreboardPE",
+  "readme_markdown": "# ScoreboardPE\n[![](https://poggit.pmmp.io/shield.state/ScoreboardsPE)](https://poggit.pmmp.io/p/ScoreboardsPE) [![](https://poggit.pmmp.io/shield.dl.total/ScoreboardsPE)](https://poggit.pmmp.io/p/ScoreboardsPE)  \nA PocketMine-MP plugin that let you easily send scoreboards by using commands on your server who comes with a rich API for developers for MCBE 1.7, 1.8 & 1.9.\n### API\n```\nuse Miste\\scoreboardspe\\API\\{\n\tScoreboard, ScoreboardDisplaySlot, ScoreboardSort, ScoreboardAction\n};\n\n/*\n    Create a scoreboard with the display name Miste\n    The id is created and saved linked with the display name internally\n    You can choose if you want your lines to be padded or not (by default there will be padded).\n*/    \n\n$scoreboard = new Scoreboard($this->getServer()->getPluginManager()->getPlugin(\"ScoreboardsPE\")->getPlugin(), \"Miste\", ScoreboardAction::CREATE);\n$scoreboard->create(ScoreboardDisplaySlot::SIDEBAR, ScoreboardSort::DESCENDING, true); //true for padding, false for no padding\n\n/*\n    If you want to get back the Scoreboard instance of one of your scoreboard do as you were creating on and add the ScoreboardAction::MODIFY at the end of the constructor.\n    Here you will get back the instance of the scoreboard we created above\n*/\n\n$scoreboard = new Scoreboard($this->getServer()->getPluginManager()->getPlugin(\"ScoreboardsPE\")->getPlugin(), \"Miste\", ScoreboardAction::MODIFY);\n\n/*\n    Send the scoreboard to the player (without any lines)\n*/\n\n$scoreboard->addDisplay($player);\n\n/*\n    Add lines to the scoreboard O\n    If you send line 1 then line 4 the plugin will automatically send two empty lines between.\n    The max number of lines is 15, send more than 15 can bring issues when removing some.\n    The lines are automatically sent to all the viewers of the scoreboard.\n*/\n\n$scoreboard->setLine(1, \"line1\");\n$scoreboard->setLine(2, \"line2\");\n$scoreboard->setLine(5, \"line5\");\n$scoreboard->setLine(8, \"line8\");\n$scoreboard->setLine(9, \"line9\");\n\n/*\n    Remove the line you choose from the scoreboard. This line will be removed from all the viewers.\n*/\n\n$scoreboard->removeLine(2);\n\n/*\n    Remove all the lines from the scoreboard. The lines will be removed from all the viewers.\n*/\n\n$scoreboard->removeLines();\n\n/*\n    Rename the scoreboard called Miste to Miste1 and re send it to all the viewers\n*/\n    \n$scoreboard->rename(\"Miste\", \"Miste1\");\n\n/*\n    Remove the scoreboard from the display of the player\n*/\n\n$scoreboard->removeDisplay($player);\n\n/*\n    Delete the scoreboard from the database (in order to save RAM)\n*/\n\n$scoreboard->delete();\n\n/*\n    Return an array with all the players that can view the scoreboards\n    **NB** Players are automatically removed from this array if the player quits the server or if you remove the scoreboard for this player\n*/\n\n$scoreboard->getViewers();\n\n\n```\n\n### Commands\n\nThe command to use the soreboards is ``scoreboard``, its aliases are ``sc`` and ``score``.\n\n* /scoreboard create < Name of the scoreboard > < displaySlot (sidebar/list/belowname) > < sortOrder (0->ascending/1->descending) >\n\n  - **DisplaySlot**  \n  It's where the scoreboard is displayed on your screen\n    - sidebar: the default scoreboard position (at the right of your screen).\n    - list: above the player list.\n    - belowname: below the name of the player (not implemented in 1.7.0.2 beta).\n  - **Sort Order**  \n  This is the order in which your entries are classified.\n    - 0: The score is from the smallest to the biggest\n    - 1: The score is from the biggest to the smallest\n    \nIt creates the scoreboard and save it.  \n\n* /scoreboard add < player / @all > < title >\n\nIt sends the scoreboard display.  \nFor example: ``/scoreboard add @all Miste\n`` display that:\n\n<img src=\"https://github.com/MisteFr/ScoreboardsPE/raw/master/img/exemple1.png\" width=\"100\">\n\n* /scoreboard setLine < player / @all > < Name of the scoreboard > < line > < message >\n\nIt adds the line you want with the text you want to the scoreboard.  \nThe player to which you are sending this setLine have to have received the scoreboard first.  \n**NB**: You can't add two lines with the same message. If you don't have any lines to your scoreboard and you add the line 4 it will add 3 empty lines too.  \nFor example: ``/scoreboard setLine Misteboss1 Miste 1 My name is Miste\n`` display that:\n\n<img src=\"https://github.com/MisteFr/ScoreboardsPE/raw/master/img/exemple2.png\" width=\"200\">  \n\n* /scoreboard rmLine < Name of the scoreboard > < line >\n\nIt removes the line you want of the scoreboard.  \nFor example: ``/scoreboard rmLine Miste 1 \n`` display that:\n\n<img src=\"https://github.com/MisteFr/ScoreboardsPE/raw/master/img/exemple1.png\" width=\"100\">\n\n* /scoreboard clearLines < Name of the scoreboard >\n\nIt removes all the lines from your scoreboard and resend it to all the viewers.\n\n* /scoreboard rename < old name > < new name >\n\nIt renames your scoreboard and re send it to all the viewers.\n\n* /scoreboard remove < player / @all > < Name of the scoreboard >\n\nIt removes the scoreboard from the player.  \nFor example: ``/scoreboard remove @all Miste`` will remove the scoreboard from all the online players.    \n\n* /scoreboard delete < Name of the scoreboard >\n\nIt removes the scoreboard from the database, that means that you wouldn't be able to use it in the future.  \n**NB**: Please note that this command doesn't remove the scoreboard from it's viewers  \nExample: ``/scoreboard delete Miste`` will remove the scoreboard.\n\n* /scoreboard help\n\nIt gives you the list of available commands and how to use them.",
+  "readme_source_url": "https://github.com/MisteFr/ScoreboardsPE",
+  "icon_url": "https://raw.githubusercontent.com/MisteFr/ScoreboardsPE/0a5857976bfb053ae4c8460a668091e2c0f000b4/img/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MisteFr/ScoreboardsPE",
+  "archive_repo": null,
+  "approved_release_tag": "r-6790",
+  "stars": 0,
+  "total_downloads": 26925,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MisteFr"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/128073",
+  "versions": {
+    "stable": {
+      "version": "2.0.2",
+      "tag": "r-6790",
+      "published_at": null,
+      "downloads": 26925,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6790/scoreboardspe-2.0.2-r6790.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6790",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6790/scoreboardspe-2.0.2-r6790.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ScoreboardsPE",
+    "stable_release_id": 6790
+  }
+}

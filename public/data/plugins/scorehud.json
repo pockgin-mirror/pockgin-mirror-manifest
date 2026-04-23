@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12550",
   "stars": 5,
-  "total_downloads": 61269,
+  "total_downloads": 69853,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "8.0.0",
       "tag": "r-12550",
       "published_at": null,
-      "downloads": 11979,
+      "downloads": 11980,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12550/scorehud-8.0.0-r12550.phar"
     },
     "dev": null
@@ -59,6 +59,11 @@
       "tag": "r-7108",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7108/scorehud-6.3.1-r7108.phar"
+    },
+    {
+      "tag": "r-6587",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6587/scorehud-6.3.0-r6587.phar"
     }
   ],
   "comments": {

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8031",
   "stars": 0,
-  "total_downloads": 269,
+  "total_downloads": 334,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-7010",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7010/ptimeui-1.0.3-1-r7010.phar"
+    },
+    {
+      "tag": "r-6793",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6793/ptimeui-1.0.3-r6793.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "pocketvote",
+  "name": "PocketVote",
+  "author": "ProjectInfinity",
+  "description": "PocketVote for PocketMine",
+  "readme_markdown": "# PocketVote for PocketMine\nThe best fast, extensible and scalable voting solution for PocketMine servers.\n\nPocketVote acts as a smart-funnel for voting. You can use as many voting sites as you want and your server will never communicate with more than PocketVote's servers.\n\nBecause PocketVote acts as a funnel we're also capable of turning off the stream of votes if your sever goes offline which means no votes are lost!\n\nAre you sold yet? If not here's a short list of some of our features:\n* Automated voting (no commands needed)\n* Your very own https://mcpe.guru vote link that can be managed in-game\n* Run **any** command when a vote is received\n    * Limit commands to users which certain permissions\n    * Choose whether to run command immediately or wait for the player to be online\n* Voting statistics\n* Third-party support through custom events and the PocketVote API\n\n\nStart voting today!\n\n# Table of Contents\n1. [Getting started](#getting-started)\n2. [Commands](COMMANDS.md)\n3. [Permissions](PERMISSIONS.md)\n4. [Configuration](#configuration)\n5. [Developers](DEVELOPERS.md)\n6. [Support (Discord)](https://discord.gg/B4WHSSq)\n7. [Plugins with PocketVote support](#third-party-plugins)\n\n#### Getting started\n1. Download the latest version of the plugin from https://poggit.pmmp.io/p/pocketvote\n2. Start your server once after putting the plugin into your plugins directory\n3. Sign up at https://pocketvote.io\n4. Add your server\n5. Click settings and then `show secrets`\n6. Take the information shown and enter it into your `config.yml`, place secret into secret field and identity/identifier in the identity field.\nSince **PocketVote v3.0** you can also do this via the GUI that shows up when a OP logs in while both secret and identity is not set.\n\n\n\nConfiguration\n=============\n\n| Key                         | Description                                                                                                                                                                                                                                                |\n|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| version                     | Used to track how the configuration should be altered in order to be completely up to date.                                                                                                                                                                |\n| identity                    | The identity given to you from [PocketVote.io](https://pocketvote.io) which is used to identify your server.                                                                                                                                               |\n| secret                      | The secret given to you from [PocketVote.io](https://pocketvote.io) which is given to voting sites.                                                                                                                                                        |\n| lock                        | If set to true, the commands to alter secret or identity is disabled.                                                                                                                                                                                      |\n| vote-expiration             | An amount of time to keep votes that have not been redeemed by a player, specified in **days**.                                                                                                                                                            |\n| onvote                      | A list of commands that are to be ran when a vote is retrieved. The following variables can be used in the commands: %player, %site, %ip.                                                                                                        |\n| votes                       | A list of votes waiting for players to log on. Please leave this alone.                                                                                                                                                                                    |\n\nThird party plugins\n===================\nMade a plugin that supports PocketVote? [Let me know! Open an issue on GitHub](https://github.com/ProjectInfinity/PocketVote-PocketMine/issues/new).\n\n* [PocketLotto](https://poggit.pmmp.io/p/PocketLotto) - A lottery plugin for PocketMine with support for PocketVote.\n* [TopVoter (as of next version)](https://poggit.pmmp.io/p/topvoter) - A plugin that lists top voters using FloatingTextParticles.",
+  "readme_source_url": "https://github.com/ProjectInfinity/PocketVote-PocketMine",
+  "icon_url": "https://raw.githubusercontent.com/ProjectInfinity/PocketVote-PocketMine/4889de232ad7c81c70452d0c28fd9000b316b7a5/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ProjectInfinity/PocketVote-PocketMine",
+  "archive_repo": null,
+  "approved_release_tag": "r-6643",
+  "stars": 3,
+  "total_downloads": 1832,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ProjectInfinity"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/126866",
+  "versions": {
+    "stable": {
+      "version": "3.0.3",
+      "tag": "r-6643",
+      "published_at": null,
+      "downloads": 1832,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6643/pocketvote-3.0.3-r6643.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6643",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6643/pocketvote-3.0.3-r6643.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PocketVote",
+    "stable_release_id": 6643
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "playertrade",
+  "name": "PlayerTrade",
+  "author": "alvin0319",
+  "description": "A PocketMine-MP plugin that implements trade like PC server!",
+  "readme_markdown": "# PlayerTrade\nA PocketMine-MP plugin that implements trade like PC server!\n\n# Features\n* User-modifiable message\n* Trade request expiration time can be set\n* Clear design\n* Developer API\n\n# Commands\n|command|description|\n|---|---|\n|/trade request <player>|Request a trade from the player.|\n|/trade accept <player>|Accept the player's trade request.|\n|/trade deny <player>|Decline the player's trade request.|\n\n# Developer Docs\n`\\alvin0319\\PlayerTrade\\event\\TradeStartEvent`: Called when player starts trade. (You can cancel this event)\n```php\npublic function onTradeStart(\\alvin0319\\PlayerTrade\\event\\TradeStartEvent $event) : void{\n    $sender = $event->getSender();\n    $receiver = $event->getReceiver();\n    if(some condition...){\n        $event->setCancelled(true);\n    }\n}\n```\n\n`\\alvin0319\\PlayerTrade\\event\\TradeEndEvent`: Called when player ends trade (You cannot cancel this event)\n```php\npublic function onTradeEnd(\\alvin0319\\PlayerTrade\\event\\TradeEndEvent $event) : void{\n    $sender = $event->getSender();\n    $receiver = $event->getReceiver();\n    switch($event->getReason()){\n        case \\alvin0319\\PlayerTrade\\event\\TradeEndEvent::REASON_RECEIVER_CANCEL:\n            // do something\n            break;\n        default:\n            // do something\n            break;\n    }\n}\n```",
+  "readme_source_url": "https://github.com/alvin0319/PlayerTrade",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/alvin0319/PlayerTrade",
+  "archive_repo": null,
+  "approved_release_tag": "r-6617",
+  "stars": 5,
+  "total_downloads": 1429,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "alvin0319"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/125358",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-6617",
+      "published_at": null,
+      "downloads": 1300,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6617/playertrade-1.0.1-r6617.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6617",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6617/playertrade-1.0.1-r6617.phar"
+    },
+    {
+      "tag": "r-6607",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6607/playertrade-1.0.0-r6607.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerTrade",
+    "stable_release_id": 6617
+  }
+}

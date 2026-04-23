@@ -1,0 +1,61 @@
+{
+  "id": "hammer",
+  "name": "Hammer",
+  "author": "DardrezFx",
+  "description": "A hammer for pmmp servers that break blocks 3x3",
+  "readme_markdown": "# Hammer\nA hammer for pmmp servers that break blocks 3x3",
+  "readme_source_url": "https://github.com/DardrezFx/Hammer",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/DardrezFx/Hammer",
+  "archive_repo": null,
+  "approved_release_tag": "r-6740",
+  "stars": 2,
+  "total_downloads": 1525,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.2.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DardrezFx"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-6740",
+      "published_at": null,
+      "downloads": 1525,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6740/hammer-1.0.0-r6740.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6740",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6740/hammer-1.0.0-r6740.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Hammer",
+    "stable_release_id": 6740
+  }
+}

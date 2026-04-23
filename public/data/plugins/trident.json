@@ -1,0 +1,61 @@
+{
+  "id": "trident",
+  "name": "Trident",
+  "author": "brokiem-pm-pl",
+  "description": "Implement Vanilla Trident to PocketMine-MP.",
+  "readme_markdown": "<h1>Trident<img src=\"https://github.com/brokiem-pm-pl/Trident/blob/master/assets/trident.png\" height=\"64\" width=\"64\" align=\"left\" alt=\"\"></h1><br>\n\n<b>Implement Vanilla Trident to PocketMine-MP.</b><br>\n[![License](https://img.shields.io/github/license/brokiem-pm-pl/Trident)](https://github.com/brokiem-pm-pl/Trident)\n[![Star](https://img.shields.io/github/stars/brokiem-pm-pl/Trident)](https://github.com/brokiem-pm-pl/Trident/stargazers)\n[![Discord](https://img.shields.io/discord/830063409000087612?color=7389D8&label=discord)](https://discord.com/invite/jy6abSrjhQ)\n[![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dbrokiem%26type%3Dpatrons&style=flat)](https://patreon.com/brokiem)\n\n### Note\nSome Trident enchantment cannot be implemented because PocketMine does not implement weather\n\n### Issues\nDid you find a bug or error when using this plugin? feel free to open the\nissues [here](https://github.com/brokiem-pm-pl/Trident/issues/new)\n\n### Donation\nPatreon - https://www.patreon.com/join/brokiem <br>\nSaweria - https://saweria.co/brokiem",
+  "readme_source_url": "https://github.com/brokiem-pm-pl/Trident",
+  "icon_url": "https://raw.githubusercontent.com/brokiem-pm-pl/Trident/1c1e0a9b3ef0d8f3e0506d9679212c37bf6cafb4/assets/trident.png",
+  "featured": false,
+  "repo": "https://github.com/brokiem-pm-pl/Trident",
+  "archive_repo": null,
+  "approved_release_tag": "r-6570",
+  "stars": 5,
+  "total_downloads": 992,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.15.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "brokiem-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-6570",
+      "published_at": null,
+      "downloads": 992,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6570/trident-1.0.0-r6570.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6570",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6570/trident-1.0.0-r6570.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Trident",
+    "stable_release_id": 6570
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "keepyourxp",
+  "name": "KeepYourXp",
+  "author": "MasApip",
+  "description": "Keep your xp when you died.",
+  "readme_markdown": "# KeepYourXp\nKeep your xp when you died.\n\n#Config\n```yml\n---\n#Do not edit this !\nconfig-version: 1.1\n\n#Set to false to disable\nkeepPlayerXp: true\n\n#Definition:\n#Type \"droppedXp\" it's mean xp dropped due to this player death\n#Type \"realXp\" it's mean real xp player (no xp reduction)\ntypeXp: \"droppedXp\"\n\n#Send a message when player is respawning\nplayerRespawnMessage: \"&aYour xp has been kept\"\n...\n```\n\n# Installation:\n1. Download the lastest plugin\n2. Put it to your server plugins folder\n3. Restart the server\n\n# Credit:\nIcon from: [here](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F647251777669705407%2F&psig=AOvVaw0Ws51-oFW9em6wM69CcrMz&ust=1614054577827000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiZ8YLU_O4CFQAAAAAdAAAAABAJ)",
+  "readme_source_url": "https://github.com/MasApip/KeepYourXp",
+  "icon_url": "https://raw.githubusercontent.com/MasApip/KeepYourXp/e99ac14fce79cb96ae1b801e78cce82f72e62dbd/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MasApip/KeepYourXp",
+  "archive_repo": null,
+  "approved_release_tag": "r-6555",
+  "stars": 0,
+  "total_downloads": 5544,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MasApip"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/124313",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-6555",
+      "published_at": null,
+      "downloads": 5544,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6555/keepyourxp-1.1.1-r6555.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6555",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6555/keepyourxp-1.1.1-r6555.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KeepYourXp",
+    "stable_release_id": 6555
+  }
+}
