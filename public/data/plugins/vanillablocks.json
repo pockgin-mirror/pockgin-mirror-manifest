@@ -1,0 +1,84 @@
+{
+  "id": "vanillablocks",
+  "name": "VanillaBlocks",
+  "author": "xSuperr",
+  "description": "Vanilla Blocks",
+  "readme_markdown": "# Vanilla Blocks\nA plugin to add more blocks with functionality to pocketmine!\nThis is the PM4 version, for the PM3 version check the 3.0 branch.\n\n\n## Current Blocks:\n\n- Starting tomorrow",
+  "readme_source_url": "https://github.com/xSuperr/VanillaBlocks",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/xSuperr/VanillaBlocks",
+  "archive_repo": null,
+  "approved_release_tag": "r-6977",
+  "stars": 4,
+  "total_downloads": 5677,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "ExtendedBlocks"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "xSuperr"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/131255",
+  "versions": {
+    "stable": {
+      "version": "1.0.7",
+      "tag": "r-6977",
+      "published_at": null,
+      "downloads": 4221,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6977/vanillablocks-1.0.7-r6977.phar"
+    },
+    "dev": {
+      "version": "1.0.3",
+      "tag": "r-6915",
+      "published_at": null,
+      "downloads": 187,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6915/vanillablocks-1.0.3-r6915.phar"
+    }
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6977",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6977/vanillablocks-1.0.7-r6977.phar"
+    },
+    {
+      "tag": "r-6950",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6950/vanillablocks-1.0.6-r6950.phar"
+    },
+    {
+      "tag": "r-6948",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6948/vanillablocks-1.0.5-r6948.phar"
+    },
+    {
+      "tag": "r-6915",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6915/vanillablocks-1.0.3-r6915.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VanillaBlocks",
+    "stable_release_id": 6977
+  }
+}

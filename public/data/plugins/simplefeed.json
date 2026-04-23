@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8130",
   "stars": 5,
-  "total_downloads": 941,
+  "total_downloads": 1462,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-8130",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8130/simplefeed-2.0.0-r8130.phar"
+    },
+    {
+      "tag": "r-6925",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6925/simplefeed-1.0.0-r6925.phar"
     }
   ],
   "comments": {

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7093",
   "stars": 4,
-  "total_downloads": 1513,
+  "total_downloads": 1605,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.0.1",
       "tag": "r-7093",
       "published_at": null,
-      "downloads": 1513,
+      "downloads": 1514,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7093/workersdemo-1.0.1-r7093.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-7093",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7093/workersdemo-1.0.1-r7093.phar"
+    },
+    {
+      "tag": "r-7053",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7053/workersdemo-1.0.0-r7053.phar"
     }
   ],
   "comments": {

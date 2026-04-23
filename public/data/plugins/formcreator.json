@@ -1,0 +1,61 @@
+{
+  "id": "formcreator",
+  "name": "FormCreator",
+  "author": "WolfDen133",
+  "description": "FormCreator (NEW)",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/FormCreator)](https://poggit.pmmp.io/p/FormCreator)\n# FormCreator (NEW)\nA simple plugin for creating simple forms through config\n\n## Info\n\nThis is a simple plugin to create simple forms using config, if you want to create forms easly then this is the plugin for you.\n\nThe way you use it is, you open config (You can also edit the system messages in there) and under `forms:` you can create your forms, there is already an example form in there.\n\nIf you find any bugs report them [here](https://github.com/WolfDen133/WFT/issues).\n\n## Example\n### Simple form \n```yaml \n  simple-example:\n\n    type: \"simple\"\n    \n    command:\n      label: \"opensimpleform\"\n      description: \"Opens the example ui\"\n      permission: \"formcreator.simpleeg.use\"\n      \n    title: \"&eHello world\"\n    content: \"&aHello {PLAYER}! :) {LINE} &bOnline players&7: &l&3{ONLINE_PLAYERS}&8/&3{MAX_PLAYERS} {LINE}{LINE} This plugin is cool :)\"\n\n    buttons:\n\n      \"&eButton 1{LINE}&eClick me!!\":\n\n        image-type: 0\n        image-path: \"textures/ui/MashupIcon\"\n\n        commands:\n          - label: \"title {player} title Welcome!\"\n            sender: \"console\"\n            \n          - label: \"say &bHello {player}!\"\n            sender: \"player\"\n\n\n      \"&cButton 2\":\n        commands:\n          - label: \"title {player} title Awesome!\"\n            sender: \"console\"\n\n          - label: \"say &bThis plugin is cool!\"\n            sender: \"player\" \n ```\n\n### Modal\n```yaml\n  modal-example:\n\n    type: \"modal\"\n\n    title: \"&aModal Form Example\"\n    content: \"&aHello {PLAYER}! :) {LINE} &bOnline players&7: &l&3{ONLINE_PLAYERS}&8/&3{MAX_PLAYERS} {LINE}{LINE} This plugin is cool :)\"\n\n    button1:\n      label: \"&aYes\"\n      commands :\n        - label: \"title {PLAYER} title Welcome!\"\n          sender: \"console\"\n        - label: \"say &bHello {PLAYER}!\"\n          sender: \"player\"\n\n    button2:\n      label: \"&cNo\"\n      commands:\n        - label: \"title {PLAYER} title Awesome!\"\n          sender: \"console\"\n\n        - label: \"say &bThis plugin is cool!\"\n          sender: \"player\"\n\n\n    command:\n      label: \"openmodalform\"\n      description: \"Opens the example modal form\"\n      permission: \"formcreator.modaleg.use\"\n```\n \n## Wild-Cards\n\n| WildCard | Description |\n| --- | --- |\n| `{LINE}` | Line break |\n| `{NAME}` | The Players name |\n| `{REAL_NAME}` | The Players name |\n| `{DISPLAY_NAME}` | The Players display name |\n| `{PING}` | Players ping |\n| `{ONLINE_PLAYERS}` | Online player count |\n| `{MAX_PLAYERS}` | Max players |\n| `{X}` | Player x pos |\n| `{Y}` | Player y pos |\n| `{Z}` | Player \\ pos |\n| `{REAL_TPS}` | Servers current tps |\n| `{TPS}` | Servers average tps |\n| `{REAL_LOAD}` | Servers current load |\n| `{LOAD}` | Servers average load |\n| `{LEVEL_NAME}` | Players level name |\n| `{LEVEL_FOLDER_NAME}` | Players level folder name |\n| `{LEVEL_PLAYERS}` | Players level player count |\n| `{CONNECTION_IP}` | Players connection ip |\n| `{SERVER_IP}` | Servers ip |\n| `{TIME}` | Time |\n| `{DATE}` | Date |\n\nAll of these values can be changed in the FormCreator class\n\n## TODO \n\n- Custom forms\n- Advanced output cases\n- Code cleanup\n\n## Thanks\n\nThis plugin was fully hand coded by WolfDen133, so come to me for help, my discord is [here](https://dsc.bio/WolfDen133).\n\nAll of the code is commented so feel free to look at the code.",
+  "readme_source_url": "https://github.com/WolfDen133/FormCreator",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/WolfDen133/FormCreator",
+  "archive_repo": null,
+  "approved_release_tag": "r-6877",
+  "stars": 3,
+  "total_downloads": 703,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.21.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "WolfDen133"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/131341",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-6877",
+      "published_at": null,
+      "downloads": 703,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6877/formcreator-1.2.0-r6877.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6877",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6877/formcreator-1.2.0-r6877.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FormCreator",
+    "stable_release_id": 6877
+  }
+}

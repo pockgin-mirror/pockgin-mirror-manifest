@@ -1,0 +1,61 @@
+{
+  "id": "playerban",
+  "name": "PlayerBan",
+  "author": "Tobias-2006",
+  "description": "General",
+  "readme_markdown": "<h1>\n<a id=\"user-content-general\" class=\"anchor\" href=\"#general\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>General</h1>\n<p align=\"center\"><a href=\"https://github.com/Tobias-2006/Tobias-2006/blob/main/pictures/l3cSyLi8Bf3.gif\" target=\"_blank\" rel=\"noopener noreferrer\"><img alt=\"Banned Player\" src=\"https://github.com/Tobias-2006/Tobias-2006/raw/main/pictures/l3cSyLi8Bf3.gif\" width=\"350px\" style=\"max-width:100%;\"></a></p>\n<p align=\"center\">PlayerBan is a plugin that allows to ban players from joining the server.</p>\n<p align=\"center\">\n<a href=\"https://poggit.pmmp.io/p/PlayerBan\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/061462b020ab7ee41a570ec7c63dc0c404dc026d72e45714f1db7fbd44fa6857/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f506c6179657242616e\" data-canonical-src=\"https://poggit.pmmp.io/shield.state/PlayerBan\" style=\"max-width:100%;\"></a> \n<a href=\"https://poggit.pmmp.io/p/PlayerBan\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/23f92a4447cdd3cccd9655d11deda0ca4934a3df67f07d0ead83032629fdccfc/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f506c6179657242616e\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/PlayerBan\" style=\"max-width:100%;\"></a>\n</p>\n<h1>\n<a id=\"user-content-features\" class=\"anchor\" href=\"#features\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Features</h1>\n<ul>\n<li>ban players and ip addresses</li>\n<li>define punishments\n<ul>\n<li>ban reason</li>\n<li>ban duration</li>\n</ul>\n</li>\n<li>forms</li>\n<li>MySQL and SQLite support</li>\n<li>different translations</li>\n<li>log of all modifications</li>\n<li>several configurations</li>\n<li>listing of all active bans</li>\n<li>see all bans of a single player</li>\n</ul>\n<h1>\n<a id=\"user-content-commands\" class=\"anchor\" href=\"#commands\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Commands</h1>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Command</th>\n<th align=\"center\">Description</th>\n<th align=\"center\">Permission</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">\n<code>/ban &lt;player¦ip&gt;</code> <code>&lt;punId&gt;</code>\n</td>\n<td align=\"center\">Ban a player/ip from the server</td>\n<td align=\"center\">\n<code>Op</code>, <code>playerban.command.ban</code>\n</td>\n</tr>\n<tr>\n<td align=\"center\"><code>/unban &lt;player¦ip&gt;</code></td>\n<td align=\"center\">Unban a player/ip from the server</td>\n<td align=\"center\">\n<code>Op</code>, <code>playerban.command.unban</code>\n</td>\n</tr>\n<tr>\n<td align=\"center\"><code>/banlist</code></td>\n<td align=\"center\">Shows a list of all banned players/ip's</td>\n<td align=\"center\">\n<code>Op</code>, <code>playerban.command.banlist</code>\n</td>\n</tr>\n<tr>\n<td align=\"center\"><code>/banlogs</code></td>\n<td align=\"center\">Shows a modification protocol</td>\n<td align=\"center\">\n<code>Op</code>, <code>playerban.command.banlogs</code>\n</td>\n</tr>\n<tr>\n<td align=\"center\"><code>/punishments</code></td>\n<td align=\"center\">Create or edit punishments</td>\n<td align=\"center\">\n<code>Op</code>, <code>playerban.command.punishments</code>\n</td>\n</tr>\n<tr>\n<td align=\"center\"><code>/punlist</code></td>\n<td align=\"center\">Shows a list of all punishments</td>\n<td align=\"center\">\n<code>Op</code>, <code>playerban.command.punlist</code>\n</td>\n</tr>\n<tr>\n<td align=\"center\"><code>/banhistory &lt;player¦ip&gt;</code></td>\n<td align=\"center\">Shows a list of all bans of a player/ip</td>\n<td align=\"center\">\n<code>Op</code>, <code>playerban.command.banhistory</code>\n</td>\n</tr>\n</tbody>\n</table>\n<h1>\n<a id=\"user-content-future-plans\" class=\"anchor\" href=\"#future-plans\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Future Plans</h1>\n<ul>\n<li>Discord Webhooks</li>\n<li>More translations</li>\n</ul>\n<h1>\n<a id=\"user-content-help\" class=\"anchor\" href=\"#help\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Help</h1>\n<h3>\n<a id=\"user-content-help-1\" class=\"anchor\" href=\"#help-1\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Help</h3>\n<ul>\n<li><a href=\"https://github.com/Tobias-2006/PlayerBan/wiki\">PlayerBan Wiki</a></li>\n<li><a href=\"https://github.com/Tobias-2006/PlayerBan/wiki/Frequently-asked-questions\">FAQ</a></li>\n</ul>\n<h3>\n<a id=\"user-content-for-developers\" class=\"anchor\" href=\"#for-developers\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>For developers</h3>\n<ul>\n<li><a href=\"https://github.com/Tobias-2006/PlayerBan/wiki/API-documentation\">API</a></li>\n</ul>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/132577",
+  "icon_url": "https://raw.githubusercontent.com/Tobias-2006/PlayerBan/2a7ff1b5bf35489d0a010b906453d28ed795b567/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Tobias-2006/PlayerBan",
+  "archive_repo": null,
+  "approved_release_tag": "r-7071",
+  "stars": 4,
+  "total_downloads": 4349,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Tobias-2006"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/132579",
+  "versions": {
+    "stable": {
+      "version": "1.2.1",
+      "tag": "r-7071",
+      "published_at": null,
+      "downloads": 4349,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7071/playerban-1.2.1-r7071.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7071",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7071/playerban-1.2.1-r7071.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerBan",
+    "stable_release_id": 7071
+  }
+}

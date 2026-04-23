@@ -1,0 +1,61 @@
+{
+  "id": "antixray",
+  "name": "AntiXray",
+  "author": "HimmelKreis4865",
+  "description": "A PocketMine-MP Plugin that disallows xray",
+  "readme_markdown": "# AntiXray\nA PocketMine-MP Plugin that disallows xray\n\n## Configuration\n```yaml\n# select a list with all ores the chunk should be filled with\nores: [14, 15, 21, 22, 41, 42, 56, 57, 73, 129, 133, 152]\n```\nHere you can select an some block ids with ores the chunk should be obfuscated with.\n\n## Features\nThis plugin is designed to effectivly disallow XRAY cheats in MinecraftPE.\n- [x] Update on Block Break\n- [x] Update on Explosions\n- [x] Managable ores\n- [ ] Update on WorldEdit change\n- [ ] Managable worlds\n\n## Suggestions / Bugs\nIf you got any suggestions or you found any bugs occurred, please open a new Issue",
+  "readme_source_url": "https://github.com/HimmelKreis4865/AntiXray",
+  "icon_url": "https://raw.githubusercontent.com/HimmelKreis4865/AntiXray/b9c8fadd9bfd163fb74824d76ae6b72f891f0371/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HimmelKreis4865/AntiXray",
+  "archive_repo": null,
+  "approved_release_tag": "r-6905",
+  "stars": 4,
+  "total_downloads": 10406,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HimmelKreis4865"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/130044",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-6905",
+      "published_at": null,
+      "downloads": 10406,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6905/antixray-1.0.2-r6905.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6905",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6905/antixray-1.0.2-r6905.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiXray",
+    "stable_release_id": 6905
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7902",
   "stars": 4,
-  "total_downloads": 2478,
+  "total_downloads": 4181,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -55,6 +55,16 @@
       "tag": "r-7688",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7688/vehicles-0.1.14-r7688.phar"
+    },
+    {
+      "tag": "r-7062",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7062/vehicles-0.1.13-r7062.phar"
+    },
+    {
+      "tag": "r-6875",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6875/vehicles-0.1.12-r6875.phar"
     }
   ],
   "comments": {

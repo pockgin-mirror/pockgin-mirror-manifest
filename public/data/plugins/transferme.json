@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12124",
   "stars": 0,
-  "total_downloads": 1438,
+  "total_downloads": 1772,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "3.0.0",
       "tag": "r-12124",
       "published_at": null,
-      "downloads": 535,
+      "downloads": 536,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12124/transferme-3.0.0-r12124.phar"
     },
     "dev": null
@@ -49,6 +49,11 @@
       "tag": "r-8135",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8135/transferme-2.0.0-r8135.phar"
+    },
+    {
+      "tag": "r-6872",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6872/transferme-1.0.0-r6872.phar"
     }
   ],
   "comments": {

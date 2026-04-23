@@ -1,0 +1,61 @@
+{
+  "id": "stairseat",
+  "name": "StairSeat",
+  "author": "korado531m7",
+  "description": "Sit on the stair block",
+  "readme_markdown": "<h1>\n<a id=\"user-content-stairseat\" class=\"anchor\" href=\"#stairseat\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>StairSeat</h1>\n<p><strong>Sit on the stair block</strong></p>\n<h2>\n<a id=\"user-content-feature\" class=\"anchor\" href=\"#feature\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Feature</h2>\n<p>You can sit on the stair block</p>\n<h2>\n<a id=\"user-content-how-to-use\" class=\"anchor\" href=\"#how-to-use\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How to use</h2>\n<p>Install this plugin and run your server.\nplace stair block and tap (or click) it.\nTo cancel, jump or sneak.</p>\n<h2>\n<a id=\"user-content-command\" class=\"anchor\" href=\"#command\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Command</h2>\n<p><code>/sit</code> - Toggle to sit on the stair block. To use this command, you must set <code>register-sit-command</code> in the config.yml to <code>true</code> (Permission: <code>stairseat.toggle</code>)</p>\n<h2>\n<a id=\"user-content-settings\" class=\"anchor\" href=\"#settings\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Settings</h2>\n<p>You can customize some settings.\nTo edit, open config.yml in plugin folder.</p>\n<ul>\n<li>\n<p><code>apply-worlds</code> - Enable to use stairs as seat for each worlds or all worlds.\nTo enable all worlds, set value to <code>true</code> , or if you want to enable specific worlds, type the worlds' name.\n(To set multiple worlds, separate with comma like <code>world1, world2</code>)</p>\n</li>\n<li>\n<p><code>allow-seat-high-height</code> - Allow player to sit on seat if its height is higher than player</p>\n</li>\n<li>\n<p><code>allow-seat-upsidedown</code> - Allow player to sit on upside-down stairs</p>\n</li>\n<li>\n<p><code>allow-seat-while-sneaking</code> - Allow to sit when player is sneaking</p>\n</li>\n<li>\n<p><code>stand-up-when-break-block</code> - Player who sit on their stairs will stand up when break</p>\n</li>\n<li>\n<p><code>disable-damage-when-sit</code> - While player is sitting on the stair, will not be damaged from all causes</p>\n</li>\n<li>\n<p><code>register-sit-command</code> - Register /sit command</p>\n</li>\n<li>\n<p><code>send-tip-when-sit</code> - This massage will be sent when player sit</p>\n<ul>\n<li>\n<code>@b</code> - block's name</li>\n<li>\n<code>@x</code> - x coordinates</li>\n<li>\n<code>@y</code> - y coordinates</li>\n<li>\n<code>@z</code> - z coordinates</li>\n</ul>\n</li>\n<li>\n<p><code>try-to-sit-already-inuse</code> - Send message when trying to seat on stair which is already used</p>\n<ul>\n<li>\n<code>@b</code> - block's name</li>\n<li>\n<code>@p</code> - sitting player's name</li>\n</ul>\n</li>\n</ul>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/128629",
+  "icon_url": "https://raw.githubusercontent.com/korado531m7/StairSeat/79d1f17d45505bafca9221e4506de53bbf9d27cd/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/korado531m7/StairSeat",
+  "archive_repo": null,
+  "approved_release_tag": "r-6827",
+  "stars": 0,
+  "total_downloads": 15169,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.14.1-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "korado531m7"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/128631",
+  "versions": {
+    "stable": {
+      "version": "1.5.10",
+      "tag": "r-6827",
+      "published_at": null,
+      "downloads": 15169,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6827/stairseat-1.5.10-r6827.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6827",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6827/stairseat-1.5.10-r6827.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "StairSeat",
+    "stable_release_id": 6827
+  }
+}

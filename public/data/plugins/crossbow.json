@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8889",
   "stars": 5,
-  "total_downloads": 761,
+  "total_downloads": 1526,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-8889",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8889/crossbow-2.0.0-r8889.phar"
+    },
+    {
+      "tag": "r-6903",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6903/crossbow-1.0.1-r6903.phar"
     }
   ],
   "comments": {

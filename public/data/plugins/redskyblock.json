@@ -1,0 +1,61 @@
+{
+  "id": "redskyblock",
+  "name": "RedSkyBlock",
+  "author": "RedCraftGH",
+  "description": "__*Quick Plugin Check:*__ Plugin Stability is untested. Use at your own risk.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/RedSkyBlock)](https://poggit.pmmp.io/p/RedSkyBlock)\n[![](https://poggit.pmmp.io/shield.api/RedSkyBlock)](https://poggit.pmmp.io/p/RedSkyBlock)\n[![](https://poggit.pmmp.io/shield.dl.total/RedSkyBlock)](https://poggit.pmmp.io/p/RedSkyBlock)\n\n> __*Quick Plugin Check:*__ Plugin Stability is untested. Use at your own risk.\n\n<img src=\"https://github.com/RedCraftGH/RedSkyBlock/blob/master/icon.png\" width=\"100\" height=\"100\" align=\"left\"></img>\n\n# RedSkyBlock\nRedSkyBlock aims to be a feature rich, user-friendly SkyBlock plugin. RedSkyBlock includes many useful, built-in features that can be edited in the config.yml and with the use of some commands in-game.\n\n# Discord\nJoin the [Red Development](https://discord.gg/ZZrUBkD) Discord for support and more.\n\n# Donations\nDonations are, of course, very appreciated! If you like RedSkyBlock please consider [donating](https://www.paypal.me/acidraincr).\n\n# Installation and Support\nInstalling this plugin on your server is super easy to do! Just download the RedSkyBlock.phar file from poggit and plop it into your server's plugins folder. Then adjust the settings in the config.yml to your liking and start the server.\n\nIf you wish to request features, or notify me about an issue, please, make an issue. I will be sure to read it and reply quickly and appropriately. If you are reporting an issue with the plugin, be sure to include as many details as possible and steps to reproduce the issue. If you wish to suggest something for the plugin PLEASE be sure to include \"suggestions\" or \"requests\" in the title of the issue; make sure to be descriptive when asking for a feature, so I can be sure to know how to implement it, if I choose to do so.\n\n# Features (completed and coming soon)\n- Main Features\n  - [x] SkyBlock World Creator and Island Generator\n  - [x] Magic SkyBlock cobblestone generator\n  - [x] Island teleportation\n  - [x] Island locking/unlocking\n  - [x] Island Area Protection.\n  - [x] Customization in config.yml (More coming soon...)\n  - [x] Island Members\n  - [x] Island Kick/Ban\n  - [x] Island Top\n  - [x] Island Limits\n  - [x] Island generation intervals (Customizable in the config.yml)\n  - [x] Starting SkyBlock items (Customizable in the config.yml)\n  - [x] Completely customizable island generation! You pick how you're islands look! (Updates coming later...)\n  - [x] SkyBlock admin commands (More coming soon...)\n  - [x] Admin bypass permissions\n  - [x] Personalized Islands\n- Additional Features\n  - [x] Island information and stats (More coming soon...)\n  - [x] Nether islands (many nether updates coming soon...)\n  - [ ] Lag fighter (Coming soon...)\n  - [x] Safe Void in SkyBlock world (Customizable in the config.yml)\n  - [x] Keep inventory (Customizable in the config.yml)\n  - [ ] Much more coming soon...",
+  "readme_source_url": "https://github.com/RedCraftGH/RedSkyBlock",
+  "icon_url": "https://raw.githubusercontent.com/RedCraftGH/RedSkyBlock/12810798f66f7bf4b37f073f275cf54a74af87ff/icon.png",
+  "featured": false,
+  "repo": "https://github.com/RedCraftGH/RedSkyBlock",
+  "archive_repo": null,
+  "approved_release_tag": "r-6911",
+  "stars": 3,
+  "total_downloads": 5701,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "RedCraftGH"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/130144",
+  "versions": {
+    "stable": {
+      "version": "5.0.1",
+      "tag": "r-6911",
+      "published_at": null,
+      "downloads": 5701,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6911/redskyblock-5.0.1-r6911.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6911",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6911/redskyblock-5.0.1-r6911.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RedSkyBlock",
+    "stable_release_id": 6911
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9965",
   "stars": 5,
-  "total_downloads": 603,
+  "total_downloads": 1644,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-9835",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9835/easywing-1.0.6-r9835.phar"
+    },
+    {
+      "tag": "r-6930",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6930/easywing-1.0.5-r6930.phar"
     }
   ],
   "comments": {

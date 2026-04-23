@@ -1,0 +1,61 @@
+{
+  "id": "elevatorblock",
+  "name": "ElevatorBlock",
+  "author": "AyzrixYTB",
+  "description": "Elevator",
+  "readme_markdown": "[![Discord](https://img.shields.io/discord/800828802921529355.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ruBKMD9a9J) [![](https://poggit.pmmp.io/shield.api/ElevatorBlock)](https://poggit.pmmp.io/p/ElevatorBlock) [![](https://poggit.pmmp.io/shield.dl.total/ElevatorBlock)](https://poggit.pmmp.io/p/ElevatorBlock)\n\n# Elevator\nA simple PocketMine-MP plugin that allows to create elevators on your server.\n\n## How to use\nYou just have to setup an id in the config.yml. Place 2 blocks aligned, jump to go up and sneak to go down.\n\n## Video\n[![Alt text](https://img.youtube.com/vi/9rcDk5-vRqc/0.jpg)](https://www.youtube.com/watch?v=9rcDk5-vRqc&ab_channel=Ayzrix)\n\n## Config\n```yaml\nprefix: \"§6[§fElevatorBlock§6]\"\n\n# Elevator ID & META (\"ID:META\")\nblock: \"155:0\"\n# EXAMPLE: If you are using the bone block, set to false to allow all rotations [Put anyway :0 on \"block\"]\nuse_meta: true\n# Enable or disable the distance system (true|false)\ndistance: true\n\n# Maximum distance between 2 elevators\nmax_distance: 5\n\nno_elevator_found: \"{prefix} §cNo elevator was found\"\ndistance_too_hight: \"{prefix} §cAn elevator has been found, but it's too far\"\n```",
+  "readme_source_url": "https://github.com/AyzrixYTB/Elevator",
+  "icon_url": "https://raw.githubusercontent.com/AyzrixYTB/Elevator/78f657cf6b0e25881a999fb0dab7a0ee961e62e6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AyzrixYTB/Elevator",
+  "archive_repo": null,
+  "approved_release_tag": "r-7044",
+  "stars": 5,
+  "total_downloads": 1957,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AyzrixYTB"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/132142",
+  "versions": {
+    "stable": {
+      "version": "1.2.1",
+      "tag": "r-7044",
+      "published_at": null,
+      "downloads": 1957,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7044/elevatorblock-1.2.1-r7044.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7044",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7044/elevatorblock-1.2.1-r7044.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ElevatorBlock",
+    "stable_release_id": 7044
+  }
+}

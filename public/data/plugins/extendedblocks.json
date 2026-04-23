@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8056",
   "stars": 5,
-  "total_downloads": 3534,
+  "total_downloads": 5587,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -54,6 +54,11 @@
       "tag": "r-7666",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7666/extendedblocks-1.2.0-r7666.phar"
+    },
+    {
+      "tag": "r-7016",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7016/extendedblocks-1.1.5-r7016.phar"
     }
   ],
   "comments": {

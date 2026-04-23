@@ -1,0 +1,63 @@
+{
+  "id": "deatheffect",
+  "name": "DeathEffect",
+  "author": "Pedhot-Dev",
+  "description": "DeathEffect Plugin for PocketMine",
+  "readme_markdown": "# DeathEffect\nDeathEffect Plugin for PocketMine\n\n# Concept\nSpawn effect on players when they die in game at their coordinates\n\n# Effect list\n| Name  | Cost | Description |\n| ------------- | ------------- | ------------- |\n| Default  | 0  | None effect\n| Lightning  | 100000  | Lightning strike |\n| More...  | More...  | More... |\n\n# Issue\nif found bug, [Click here](https://github.com/Pedhot-Dev/DeathEffect/issues/) to report issue!\n\n# Depend\n- [EconomyAPI](https://poggit.pmmp.io/p/EconomyAPI/)\n\n# Todo\n- Add more effect\n- Add custom message\n- Add config settings",
+  "readme_source_url": "https://github.com/Pedhot-Dev/DeathEffect",
+  "icon_url": "https://raw.githubusercontent.com/Pedhot-Dev/DeathEffect/8d4b04ea23550e00187a51c5b5c6fce95de8c905/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Pedhot-Dev/DeathEffect",
+  "archive_repo": null,
+  "approved_release_tag": "r-6846",
+  "stars": 3,
+  "total_downloads": 681,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Pedhot-Dev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-6846",
+      "published_at": null,
+      "downloads": 681,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6846/deatheffect-1.0-r6846.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6846",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6846/deatheffect-1.0-r6846.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DeathEffect",
+    "stable_release_id": 6846
+  }
+}

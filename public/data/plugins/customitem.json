@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7102",
   "stars": 5,
-  "total_downloads": 1806,
+  "total_downloads": 2154,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,16 +34,27 @@
       "version": "2.0.0-beta",
       "tag": "r-7102",
       "published_at": null,
-      "downloads": 1806,
+      "downloads": 1807,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7102/customitem-2.0.0-beta-r7102.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "1.0.0-beta",
+      "tag": "r-6913",
+      "published_at": null,
+      "downloads": 347,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6913/customitem-1.0.0-beta-r6913.phar"
+    }
   },
   "recent_builds": [
     {
       "tag": "r-7102",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7102/customitem-2.0.0-beta-r7102.phar"
+    },
+    {
+      "tag": "r-6913",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6913/customitem-1.0.0-beta-r6913.phar"
     }
   ],
   "comments": {

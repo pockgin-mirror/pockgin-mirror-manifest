@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8521",
   "stars": 5,
-  "total_downloads": 788,
+  "total_downloads": 1161,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-7623",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7623/pignotify-3.0.0-r7623.phar"
+    },
+    {
+      "tag": "r-6959",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6959/pignotify-2.0.0-r6959.phar"
     }
   ],
   "comments": {

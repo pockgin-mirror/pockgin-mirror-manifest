@@ -1,0 +1,61 @@
+{
+  "id": "minerafurnace",
+  "name": "MineraFurnace",
+  "author": "HannesTheDev",
+  "description": "Are you tired of farming coal or needing an oven to smelt, cook, dry or anything else? Then this plugin is just right. Cook, smelt, drie or bake with a simple command.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.dl.total/MineraFurnace)](https://poggit.pmmp.io/p/MineraFurnace) [![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/HVvQv2TxWs)\r\n\r\n# MineraFurnace \r\nAre you tired of farming coal or needing an oven to smelt, cook, dry or anything else? Then this plugin is just right. Cook, smelt, drie or bake with a simple command.\r\n\r\n## Commands\r\nCommands | Description | Default | Aliases | Permissions\r\n--------- | ------------------- | ------- | ---------- | -----------\r\n``/furnace`` | ``Cook, smelt, drie or bake an item in your hand`` | ``op`` | ``none`` | ``minerafurnace.furnace.cmd``\r\n\r\n## License\r\nThis Plugin is Licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](\\LICENSE) License!\r\n\r\n## Supported Items\r\n- Cobblestone\r\n- Sponge\r\n- Sand\r\n- Cactus\r\n- Iron Ore\r\n- Gold Ore\r\n- Diamond Ore\r\n- Redstone Ore\r\n- Lapis Lazuli Ore\r\n- Emerald Ore\r\n- Quartz Ore\r\n- Coal Ore\r\n- Oak Wood\r\n- Spruce Wood\r\n- Birch Wood\r\n- Jungle Wood\r\n- Acacoa Wood\r\n- Dark Oak Wood\r\n- Raw Beef\r\n- Raw Chicken\r\n- Raw Fish\r\n- Raw Mutton\r\n- Raw Porkshop\r\n- Raw Salmon\r\n- Potatoe\r\n- Kelp\r\n- Clay Ball\r\n\r\n## Languages\r\nThe Messages can be edit in the config.\r\n\r\n## Others\r\nThis Plugin only based on my idea. If you copy it or you give at as yours, you'll punished!\r\nIf you had any questions, an error or an spelling mistake you can conntact me on my [discord](https://discord.gg/HVvQv2TxWs).\r\n\r\nDiscord Tag: HannesTheDev#2941",
+  "readme_source_url": "https://github.com/HannesTheDev/MineraFurnace",
+  "icon_url": "https://raw.githubusercontent.com/HannesTheDev/MineraFurnace/b764145e993a46ceeb8021a15ceaad93d71539f8/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HannesTheDev/MineraFurnace",
+  "archive_repo": null,
+  "approved_release_tag": "r-6834",
+  "stars": 2,
+  "total_downloads": 824,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HannesTheDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/129818",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-6834",
+      "published_at": null,
+      "downloads": 824,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6834/minerafurnace-2.0.0-r6834.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6834",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6834/minerafurnace-2.0.0-r6834.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MineraFurnace",
+    "stable_release_id": 6834
+  }
+}

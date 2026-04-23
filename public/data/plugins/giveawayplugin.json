@@ -1,0 +1,61 @@
+{
+  "id": "giveawayplugin",
+  "name": "GiveawayPlugin",
+  "author": "EmangGek",
+  "description": "Giveaway Plugin",
+  "readme_markdown": "<h1>\n<a id=\"user-content-giveaway-plugin\" class=\"anchor\" href=\"#giveaway-plugin\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Giveaway Plugin</h1>\n<p>Create a giveaway on your server</p>\n<h2>\n<a id=\"user-content-command-list\" class=\"anchor\" href=\"#command-list\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Command List</h2>\n<pre><code>/glist\n</code></pre>\n<p>This command is for showing all giveaways to the player\nPermission: giveawayplugin.list</p>\n<pre><code>/gcreate\n</code></pre>\n<p>This command is for creating a giveaway\nPermission: giveawayplugin.create</p>\n<pre><code>/gend\n</code></pre>\n<p>This command is for ending a giveaway\nPermission: giveawayplugin.end</p>\n<h2>\n<a id=\"user-content-permissions\" class=\"anchor\" href=\"#permissions\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Permissions</h2>\n<table>\n<thead>\n<tr>\n<th>Permission</th>\n<th>Default</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>giveawayplugin.list</td>\n<td>player</td>\n</tr>\n<tr>\n<td>giveawayplugin.create</td>\n<td>op</td>\n</tr>\n<tr>\n<td>giveawayplugin.end</td>\n<td>op</td>\n</tr>\n</tbody>\n</table>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/129130",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/EmangGek/GiveawayPlugin",
+  "archive_repo": null,
+  "approved_release_tag": "r-6848",
+  "stars": 5,
+  "total_downloads": 763,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.5.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "EmangGek"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-6848",
+      "published_at": null,
+      "downloads": 763,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6848/giveawayplugin-1.0-r6848.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6848",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6848/giveawayplugin-1.0-r6848.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GiveawayPlugin",
+    "stable_release_id": 6848
+  }
+}

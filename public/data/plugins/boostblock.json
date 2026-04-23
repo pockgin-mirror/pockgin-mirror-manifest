@@ -1,0 +1,61 @@
+{
+  "id": "boostblock",
+  "name": "BoostBlock",
+  "author": "OguzhanUmutlu",
+  "description": "Adds boost blocks to PocketMine-MP.",
+  "readme_markdown": "<h1>\n<a id=\"user-content-boostblock\" class=\"anchor\" href=\"#boostblock\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>BoostBlock</h1>\n<p>Adds boost blocks to PocketMine-MP.</p>\n<p>These boost blocks can be defined to a block or a position.</p>\n<p>You can configure the boost amount in the config.yml.</p>\n<h1>\n<a id=\"user-content-command\" class=\"anchor\" href=\"#command\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Command</h1>\n<p>/boostblock - Manage boost blocks with a single command!</p>\n<h1>\n<a id=\"user-content-api\" class=\"anchor\" href=\"#api\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>API</h1>\n<p>use OguzhanUmutlu\\BoostBlock\\BoostBlock;</p>\n<p>BoostBlock::setBoostBlock($player, new AngryVillagerParticle($player));</p>\n<p>BoostBlock::unsetBoostBlock($player);</p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/130094",
+  "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/BoostBlock/62f8acd9b941c39d00b3e7e0042f1fea7eb02abe/icon.png",
+  "featured": false,
+  "repo": "https://github.com/OguzhanUmutlu/BoostBlock",
+  "archive_repo": null,
+  "approved_release_tag": "r-6910",
+  "stars": 4,
+  "total_downloads": 1072,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OguzhanUmutlu"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-6910",
+      "published_at": null,
+      "downloads": 1072,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6910/boostblock-1.0.0-r6910.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6910",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6910/boostblock-1.0.0-r6910.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BoostBlock",
+    "stable_release_id": 6910
+  }
+}

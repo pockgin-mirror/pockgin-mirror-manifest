@@ -1,0 +1,61 @@
+{
+  "id": "pm-beacons",
+  "name": "PM-Beacons",
+  "author": "jasonw4331",
+  "description": "Add beacons to your PocketMine server which work exactly like they do on Vanilla!",
+  "readme_markdown": "# PM-Beacons\n[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/R7kdetE)\n[![Poggit-Ci](https://poggit.pmmp.io/ci.shield/jasonwynn10/PM-Beacons/PM-Beacons)](https://poggit.pmmp.io/ci/jasonwynn10/PM-Beacons/PM-Beacons)\n[![Download count](https://poggit.pmmp.io/shield.dl.total/PM-Beacons)](https://poggit.pmmp.io/p/PM-Beacons)\n\n#Intro\nAdd beacons to your PocketMine server which work exactly like they do on Vanilla!\n\n#Features\n* Adds Functional Beacons\n\n#Future Additions\n* none planned. Leave requests in the reviews.\n\n# About\nThis plugin was released because some asshole kept pestering me to update it from ALPHA11. I hope you're happy @zorrafox",
+  "readme_source_url": "https://github.com/jasonw4331/PM-Beacons",
+  "icon_url": "https://raw.githubusercontent.com/jasonwynn10/PM-Beacons/3f0ae04e3be689e722643b97d1fe322c5805ef59/icon.png",
+  "featured": false,
+  "repo": "https://github.com/jasonw4331/PM-Beacons",
+  "archive_repo": null,
+  "approved_release_tag": "r-7059",
+  "stars": 3,
+  "total_downloads": 1449,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "jasonw4331"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/132333",
+  "versions": {
+    "stable": {
+      "version": "2.0.2",
+      "tag": "r-7059",
+      "published_at": null,
+      "downloads": 1449,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7059/pm-beacons-2.0.2-r7059.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-7059",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7059/pm-beacons-2.0.2-r7059.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PM-Beacons",
+    "stable_release_id": 7059
+  }
+}

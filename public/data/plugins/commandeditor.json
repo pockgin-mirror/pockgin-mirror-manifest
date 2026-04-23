@@ -1,0 +1,61 @@
+{
+  "id": "commandeditor",
+  "name": "CommandEditor",
+  "author": "OguzhanUmutlu",
+  "description": "This plugin lets you manage commands.",
+  "readme_markdown": "<h1>\n<a id=\"user-content-commandeditor\" class=\"anchor\" href=\"#commandeditor\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>CommandEditor</h1>\n<p><a href=\"https://poggit.pmmp.io/p/CommandEditor\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/f8cf969b94d5837b6a882cc454cc7444e97d7999e5d47905e39028304e5080ab/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f436f6d6d616e64456469746f72\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.state/CommandEditor\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/CommandEditor\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/3eff75ee3f575038151bad6f93d697c978142c1032b6aad0acc2cc3ce119fcff/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f436f6d6d616e64456469746f72\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.api/CommandEditor\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/CommandEditor\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/a23dda2d4ed62fad3b3d13fb48ef5f429c069d74d0088634e0a5179d1ce17aad/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f436f6d6d616e64456469746f72\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/CommandEditor\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/CommandEditor\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/b154df5d87231aba86d84179a98ab1ec94fc6e5bc76a7b03797b90b7e29db14d/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f436f6d6d616e64456469746f72\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl/CommandEditor\" style=\"max-width:100%;\"></a></p>\n<p>This plugin lets you manage commands.</p>\n<h1>\n<a id=\"user-content-commands\" class=\"anchor\" href=\"#commands\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Commands</h1>\n<p>Main command: <code>/commandeditor</code></p>\n<h1>\n<a id=\"user-content-todo\" class=\"anchor\" href=\"#todo\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>TODO</h1>\n<ul>\n<li>idk</li>\n</ul>\n<h1>\n<a id=\"user-content-reporting-bugs\" class=\"anchor\" href=\"#reporting-bugs\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Reporting bugs</h1>\n<p><strong>You may open an issue on the CommandEditor GitHub repository for report bugs</strong>\n<a href=\"https://github.com/OguzhanUmutlu/CommandEditor/issues\">https://github.com/OguzhanUmutlu/CommandEditor/issues</a></p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/131031",
+  "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/CommandEditor/981b79da61242130bf5a28336348956b7a03a9b4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/OguzhanUmutlu/CommandEditor",
+  "archive_repo": null,
+  "approved_release_tag": "r-6966",
+  "stars": 4,
+  "total_downloads": 5237,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "OguzhanUmutlu"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/131033",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-6966",
+      "published_at": null,
+      "downloads": 5237,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6966/commandeditor-1.0.2-r6966.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-6966",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6966/commandeditor-1.0.2-r6966.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CommandEditor",
+    "stable_release_id": 6966
+  }
+}

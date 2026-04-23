@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8195",
   "stars": 5,
-  "total_downloads": 1096,
+  "total_downloads": 1685,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-8195",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8195/simpleheal-2.0.0-r8195.phar"
+    },
+    {
+      "tag": "r-6926",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6926/simpleheal-1.0.0-r6926.phar"
     }
   ],
   "comments": {
