@@ -1,0 +1,61 @@
+{
+  "id": "effectblock-hiroteam",
+  "name": "EffectBlock-HiroTeam",
+  "author": "HiroshimaTeam",
+  "description": "[ENG] This is a PocketMine-MP (or forks) Very useful to make your friends fall into traps ! FULL CONFIG :grin:",
+  "readme_markdown": "# EffectBlock-HiroTeam\n![EffectBlock](https://zupimages.net/up/20/24/4988.png)\n---\n### About\n[ENG] This is a [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) (or forks) Very useful to make your friends fall into traps ! FULL CONFIG :grin:<br/><br/>\n[FRA] C'est un [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) Très utile pour faire tomber vos amis dans des pièges ! FULL CONFIG :grin:\n\n---\n### How to use\n[ENG] Configure the block and the effect you want to apply to it in config.yml! You can add as many as you want !</br>\n\n[FRA] Configurer dans le config.yml le bloc et l'effet que vous souhaitez lui appliquer ! Vous avez la possibilité d'en ajouter autant que vous le souhaitez !</br>\n\n##### Here is the video:\n- BlockEffect Pocketmine plugin in [Youtube](https://www.youtube.com/watch?v=3ZpKVyi6JRw) !\n---\n### **This plugin was tested (and works) on:**\n\n- [x] **[PocketMine-MP](https://github.com/pmmp/PocketMine-MP)**\n---\n### **LordHosting Partner**\n\n- [ENG] Our team is in partnership with Lordhosting, Minecraft PE server Hosting, VPS hosting use reduction code __**HIROTEAM**__ 10% FREE </br>\n-> Website : https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/rRss47k </br>\n\n- [FRA] Notre équipe est en partenariat avec Lordhosting, hébergement de serveurs Minecraft PE, VPS utilise le code de réduction __**HIROTEAM**__ 10% DE REDUCTION </br>\n-> Site Web: https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/rRss47k </br>\n---\n### Contacts HiroTeam\n\n- **Discord Member:** WillyDuGang#6947 RomainSav#9558\n- **Discord Server:** :link:  https://discord.gg/WuwsuUA<br/>\n- **E-mail:** team.hiroshima.dev@gmail.com<br/>\n- **Our PocketMine Server** :link:  https://hirovote.eu<br/>\n\n> ![HiroTeam](https://zupimages.net/up/20/25/mb59.png) </br>\n> ![HiroTeam](https://cdn.discordapp.com/attachments/701520774598492220/723269120992215080/PicsArt_06-18-10.13.13.png)\n---\n### License\nHiroshimaTeam/EffectBlock-HiroTeam is licensed under the\n\n> Apache License 2.0\n>A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express > grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\n---\n### Author\n- **Discord:** RomainSav#9558",
+  "readme_source_url": "https://github.com/HiroshimaTeam/EffectBlock-HiroTeam",
+  "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/EffectBlock-HiroTeam/56357acb32ca5e567a39da45a01f2a6d3c431076/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HiroshimaTeam/EffectBlock-HiroTeam",
+  "archive_repo": null,
+  "approved_release_tag": "r-4732",
+  "stars": 5,
+  "total_downloads": 810,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HiroshimaTeam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-4732",
+      "published_at": null,
+      "downloads": 810,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4732/effectblock-hiroteam-1.0.0-r4732.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4732",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4732/effectblock-hiroteam-1.0.0-r4732.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EffectBlock-HiroTeam",
+    "stable_release_id": 4732
+  }
+}

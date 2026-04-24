@@ -1,0 +1,66 @@
+{
+  "id": "bin",
+  "name": "Bin",
+  "author": "EzMinh",
+  "description": "Bin 1.0.4",
+  "readme_markdown": "[![HitCount](http://hits.dwyl.com/EzMinh/Bin.svg)](http://hits.dwyl.com/EzMinh/Bin)\n![GitHub All Releases](https://img.shields.io/github/downloads/EzMinh/Bin/total)\n![GitHub](https://img.shields.io/github/license/EzMinh/Bin)\n[![PoggitCI](https://poggit.pmmp.io/shield.state/Bin)](https://poggit.pmmp.io/p/Bin)\n# Bin 1.0.4\n**Remove items in your inventory**\n# How to use\n- Use /bin help\n# Permission\n| Permission |        Description        | Default |\n|:----------:|:-------------------------:|:-------:|\n|   bin.cmd  | Allows player to use /bin |   True  |\n# Installation\nStep 1. Make sure you installed Sheep plugin <br/>\nStep 2. Run ```install Bin``` in console <br/>\nStep 3. Enjoy this plugin\n# License and Copyright\n[LGPL-3.0](https://github.com/EzMinh/Bin/blob/1.0.0/LICENSE) <br/>\n© 2020 EzMinh",
+  "readme_source_url": "https://github.com/EzMinh/Bin",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/EzMinh/Bin",
+  "archive_repo": null,
+  "approved_release_tag": "r-4796",
+  "stars": 0,
+  "total_downloads": 966,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.14.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "EzMinh"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/94155",
+  "versions": {
+    "stable": {
+      "version": "1.0.4",
+      "tag": "r-4796",
+      "published_at": null,
+      "downloads": 898,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4796/bin-1.0.4-r4796.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4796",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4796/bin-1.0.4-r4796.phar"
+    },
+    {
+      "tag": "r-4617",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4617/bin-1.0.2-r4617.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Bin",
+    "stable_release_id": 4796
+  }
+}

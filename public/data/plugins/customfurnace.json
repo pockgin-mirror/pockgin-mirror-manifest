@@ -1,0 +1,66 @@
+{
+  "id": "customfurnace",
+  "name": "CustomFurnace",
+  "author": "HiroshimaTeam",
+  "description": "CustomFurnace-HiroTeam",
+  "readme_markdown": "# CustomFurnace-HiroTeam\n![CustomFurnace](https://zupimages.net/up/20/24/4988.png)\n---\n### About\n[ENG] This is a [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) (or forks) plugin that allows you to customize and add unlimited oven recipes. Very useful for melting items that we could not ! FULL CONFIG :grin:<br/><br/>\n[FRA] C'est un [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) plugin qui vous permet de personnaliser et d'ajouter illimite des recettes de fours. Tres utile pour faire fondre des items qu'on ne pouvait pas ! FULL CONFIG :grin:\n\n---\n### How to use\n[ENG] Configure in config.yml what you want to Furnace with what will come out as a result! Then make Furnace the desired item and the Wanted Result will come out!</br>\n\n[FRA] Configurer dans le config.yml ce dont vous voulez faire cuire avec ce qui en sortira comme resultat ! Ensuite faite Cuire l'item voulu et le Resultat Voulu en sortira !</br>\n\n##### Here is the video:\n- Custom Furnace Pocketmine plugin in [Youtube](https://www.youtube.com/watch?v=0a-AddTlKqQ) !\n---\n### **This plugin was tested (and works) on:**\n\n- [x] **[PocketMine-MP](https://github.com/pmmp/PocketMine-MP)**\n---\n### **LordHosting Partner**\n\n- [ENG] Our team is in partnership with Lordhosting, Minecraft PE server Hosting, VPS hosting use reduction code __**HIROTEAM**__ 10% FREE </br>\n-> Website : https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/rRss47k </br>\n\n- [FRA] Notre équipe est en partenariat avec Lordhosting, hébergement de serveurs Minecraft PE, VPS utilise le code de réduction __**HIROTEAM**__ 10% DE REDUCTION </br>\n-> Site Web: https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/rRss47k </br>\n---\n### Contacts HiroTeam\n\n- **Discord Member:** WillyDuGang#6947 RomainSav#9558\n- **Discord Server:** :link:  https://discord.gg/WuwsuUA<br/>\n- **E-mail:** team.hiroshima.dev@gmail.com<br/>\n- **Our PocketMine Server** :link:  https://hirovote.eu<br/>\n\n> ![HiroTeam](https://www.zupimages.net/up/20/25/mb59.png) </br>\n> ![HiroTeam](https://cdn.discordapp.com/attachments/701520774598492220/723269120992215080/PicsArt_06-18-10.13.13.png)\n\n---\n### License\nHiroshimaTeam/CustomFurnace-HiroTeam is licensed under the\n\n> Apache License 2.0\n>A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express > grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\n---\n### Author\n- **Discord:** WillyDuGang#6947",
+  "readme_source_url": "https://github.com/HiroshimaTeam/CustomFurnace-HiroTeam",
+  "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/CustomFurnace-HiroTeam/c1e1db2f984b36996523429ed552cc185e7a551c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HiroshimaTeam/CustomFurnace-HiroTeam",
+  "archive_repo": null,
+  "approved_release_tag": "r-4730",
+  "stars": 5,
+  "total_downloads": 1842,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HiroshimaTeam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/93420",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-4730",
+      "published_at": null,
+      "downloads": 1693,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4730/customfurnace-1.0.2-r4730.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4730",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4730/customfurnace-1.0.2-r4730.phar"
+    },
+    {
+      "tag": "r-4663",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4663/customfurnace-1.0.1-r4663.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomFurnace",
+    "stable_release_id": 4730
+  }
+}

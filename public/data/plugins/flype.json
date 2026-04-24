@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-5806",
   "stars": 5,
-  "total_downloads": 6469,
+  "total_downloads": 11379,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,16 @@
       "tag": "r-5708",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5708/flype-3.3.3-r5708.phar"
+    },
+    {
+      "tag": "r-4764",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4764/flype-2.0.3-r4764.phar"
+    },
+    {
+      "tag": "r-4736",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4736/flype-2.0.2-r4736.phar"
     }
   ],
   "comments": {

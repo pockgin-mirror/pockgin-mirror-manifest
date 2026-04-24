@@ -1,0 +1,68 @@
+{
+  "id": "blockitemframe-hiroteam",
+  "name": "BlockItemFrame-HiroTeam",
+  "author": "HiroshimaTeam",
+  "description": "WorldGuard Extension: Block Item Frame Plugin Plugin qui permet de bloquer les cadres",
+  "readme_markdown": "# BlockItemFrame-HiroTeam\nWorldGuard Extension: Block Item Frame Plugin | Plugin qui permet de bloquer les cadres\n![BlockItemFrame](https://zupimages.net/up/20/24/4988.png)\n---\n### About\n[ENG] This is a [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) (or forks) plugin to allows you to block items frames in areas because WorldGuard does not allow it :grin:<br/><br/>\n[FRA] C'est un [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) plugin qui permet de bloquer les cadres dans les zones parce que WorldGuard ne le permet pas :grin:\n\n---\n### How to use\n[ENG] You must have WorldGuard and when you have put BlockItemFrame, players will no longer be able to interact with the Frames in the areas of WorldGuard</br>\n\n[FRA] Il faut avoir WorldGuard et quand vous aurez mit BlockItemFrame, les joueurs ne pourront plus interagir avec les Cadres des areas de WorldGuard</br>\n\n##### Here is the video:\n- BlockItemFrame Pocketmine plugin in __Youtube__ ! __no video yet__\n###### Have you made a video? Contact me to put it [here](https://discord.gg/WuwsuUA):exclamation:\n---\n### **This plugin was tested (and works) on:**\n\n- [x] **[PocketMine-MP](https://github.com/pmmp/PocketMine-MP)**\n---\n### **LordHosting Partner**\n\n- [ENG] Our team is in partnership with Lordhosting, Minecraft PE server Hosting, VPS hosting use reduction code __**HIROTEAM**__ 10% FREE </br>\n-> Website : https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/ySDydtx </br>\n\n- [FRA] Notre équipe est en partenariat avec Lordhosting, hébergement de serveurs Minecraft PE, VPS utilise le code de réduction __**HIROTEAM**__ 10% DE REDUCTION </br>\n-> Site Web: https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/rRss47k </br>\n---\n### Contacts HiroTeam\n\n- **Discord Member:** WillyDuGang#6947 RomainSav#9558\n- **Discord Server:** :link:  https://discord.gg/WuwsuUA<br/>\n- **E-mail:** team.hiroshima.dev@gmail.com<br/>\n- **Our PocketMine Server** :link:  https://hirovote.eu<br/>\n\n> ![HiroTeam](https://www.zupimages.net/up/20/25/mb59.png) </br>\n> ![HiroTeam](https://cdn.discordapp.com/attachments/701520774598492220/723269120992215080/PicsArt_06-18-10.13.13.png)\n---\n### License\nHiroshimaTeam/Exchange-HiroTeam is licensed under the\n\n> Apache License 2.0\n>A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express > grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\n---\n### Author\n- **Discord:** WillyDuGang#6947",
+  "readme_source_url": "https://github.com/HiroshimaTeam/BlockItemFrame-HiroTeam",
+  "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/BlockItemFrame-HiroTeam/d9607a1535ae020ed3a559f02bcbaaefa61d3b0b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HiroshimaTeam/BlockItemFrame-HiroTeam",
+  "archive_repo": null,
+  "approved_release_tag": "r-4727",
+  "stars": 0,
+  "total_downloads": 2165,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "WorldGuard"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HiroshimaTeam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/93437",
+  "versions": {
+    "stable": {
+      "version": "2.0.2",
+      "tag": "r-4727",
+      "published_at": null,
+      "downloads": 2043,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4727/blockitemframe-hiroteam-2.0.2-r4727.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4727",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4727/blockitemframe-hiroteam-2.0.2-r4727.phar"
+    },
+    {
+      "tag": "r-4662",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4662/blockitemframe-hiroteam-2.0.1-r4662.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockItemFrame-HiroTeam",
+    "stable_release_id": 4727
+  }
+}

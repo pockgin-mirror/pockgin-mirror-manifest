@@ -1,0 +1,61 @@
+{
+  "id": "resourcepacktoolsplugin",
+  "name": "ResourcePackToolsPlugin",
+  "author": "PJZ9n",
+  "description": "ResourcePackTools",
+  "readme_markdown": "# ResourcePackTools\n\n[![release](https://img.shields.io/github/release/PJZ9n/ResourcePackTools.svg)](https://github.com/PJZ9n/ResourcePackTools/releases)\n[![license](https://img.shields.io/badge/License-GPL--v3-green)](https://github.com/PJZ9n/ResourcePackTools/blob/master/LICENSE)\n\n|Virion Library|API Plugin|Example Plugin|\n|---|---|---|\n|[![](https://poggit.pmmp.io/ci.shield/PJZ9n/ResourcePackTools/ResourcePackTools)](https://poggit.pmmp.io/ci/PJZ9n/ResourcePackTools/ResourcePackTools)|[![](https://poggit.pmmp.io/ci.shield/PJZ9n/ResourcePackTools/ResourcePackToolsPlugin)](https://poggit.pmmp.io/ci/PJZ9n/ResourcePackTools/ResourcePackToolsPlugin)|[![](https://poggit.pmmp.io/ci.shield/PJZ9n/ResourcePackTools/ResourceExample)](https://poggit.pmmp.io/ci/PJZ9n/ResourcePackTools/ResourceExample)\n\n- [日本語](#日本語)\n- [English](#English)\n\n## 日本語\n\n## 概要\nプラグインから簡単にリソースパックを扱うためのツール(ライブラリ)\n\n## 使用方法\n- Virionライブラリとして使用する\n- APIプラグインとして使用する\n\n## コード例\n\n### プラグインの製作例\n- [ResourceExample](https://github.com/PJZ9n/ResourcePackTools/tree/master/examples/resourceexample)\n\n### ディレクトリ構成\n```\nplugin.phar(Plugin)/\n   ├ resources/\n   │   ├ info.png\n   │   └ test/\n   │       └ server.png\n   └ src/\n       └ ...\ntest1.zip(ResourcePack)/\n   ├ server.png\n   ├ manifest.json\n   └ pack_icon.png\n```\n\n### リソースパックの生成\n```php\n$pack = new SimpleResourcePack($this, new Version(1, 0, 0));\n$pack->setPackIcon(\"info.png\");\n$pack->addFile(\"test/server.png\", \"server.png\");\n$pack->generate($this->getDataFolder() . \"test1.zip\");\n```\n\n### リソースパックの登録\n```php\nResourcePack::register($this->getDataFolder() . \"test1.zip\");\n```\n\n### リソースパックのアップデート\nリソースパックの中身を変える時は、リソースパックのバージョンを上げてください。\n\n例えば`new Version(1, 1, 0);`\n\nこれは、一般的なリソースパック開発と同様です。\n\n一度ダウンロードされたリソースパックはキャッシュされますが、バージョンを上げることによって再ダウンロードされます。\n\n## プラグイン\n\n### コマンド\n|コマンド名|説明|パラメータ|権限|エイリアス|プレイヤーのみ|\n|---|---|---|---|---|---|\n|resourcepack|リソースパックを管理する|---|resourcepacktools.command.resourcepack|rp|いいえ|\n|resourcepack register|リソースパックを登録する|\\<ファイル名\\>|---|r|いいえ|\n|resourcepack unregisterbyindex|リソースパックをindexから登録解除する|\\<index\\>|---|urbi|いいえ|\n|resourcepack unregisterbyuuid|リソースパックをuuidから登録解除する|\\<uuid\\>|---|urbu|いいえ|\n|resourcepack list|リソースパックのリストを表示する|pack(p):uuid(u)|---|l|いいえ|\n\n## English\n\n## Overview\nTool (library) for easy use of resource packs from plugins\n\n## How to use\n- Use as Virion library\n- Use as API Plugin\n\n## Code examples\n\n### Example of plugin\n- [ResourceExample](https://github.com/PJZ9n/ResourcePackTools/tree/master/examples/resourceexample)\n\n### Directory structure\n```\nplugin.phar(Plugin)/\n   ├ resources/\n   │   ├ info.png\n   │   └ test/\n   │       └ server.png\n   └ src/\n       └ ...\ntest1.zip(ResourcePack)/\n   ├ server.png\n   ├ manifest.json\n   └ pack_icon.png\n```\n\n### Generate ResourcePack\n```php\n$pack = new SimpleResourcePack($this, new Version(1, 0, 0));\n$pack->setPackIcon(\"info.png\");\n$pack->addFile(\"test/server.png\", \"server.png\");\n$pack->generate($this->getDataFolder() . \"test1.zip\");\n```\n\n### Register ResourcePack\n```php\nResourcePack::register($this->getDataFolder() . \"test1.zip\");\n```\n\n### Update ResourcePack\nWhen changing the contents of the ResourcePack, please change the version of the ResourcePack.\n\ne.g.`new Version(1, 1, 0);`\n\nThis is similar to general ResourcePack development.\n\nResourcePack that have been downloaded once will be cached, but will be re-downloaded by increasing the version.\n\n## Plugin\n\n### Command\n|command name|description|parameter|permission|alias|only player|\n|---|---|---|---|---|---|\n|resourcepack|Manage ResourcePack|---|resourcepacktools.command.resourcepack|rp|no|\n|resourcepack register|Register the ResourcePack|\\<filename\\>|---|r|no|\n|resourcepack unregisterbyindex|Unregister the ResourcePack by index|\\<index\\>|---|urbi|no|\n|resourcepack unregisterbyuuid|Unregister the ResourcePack by uuid|\\<uuid\\>|---|urbu|no|\n|resourcepack list|Show the ResourcePack list|pack(p):uuid(u)|---|l|no|",
+  "readme_source_url": "https://github.com/PJZ9n/ResourcePackTools",
+  "icon_url": "https://raw.githubusercontent.com/PJZ9n/ResourcePackTools/113ef4dbc98b7cf0362cc8f35304b950192110a2/icon.png",
+  "featured": false,
+  "repo": "https://github.com/PJZ9n/ResourcePackTools",
+  "archive_repo": null,
+  "approved_release_tag": "r-4786",
+  "stars": 5,
+  "total_downloads": 3936,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "PJZ9n"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.2.0",
+      "tag": "r-4786",
+      "published_at": null,
+      "downloads": 3936,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4786/resourcepacktoolsplugin-2.2.0-r4786.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4786",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4786/resourcepacktoolsplugin-2.2.0-r4786.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ResourcePackToolsPlugin",
+    "stable_release_id": 4786
+  }
+}

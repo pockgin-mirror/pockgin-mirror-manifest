@@ -1,0 +1,61 @@
+{
+  "id": "burgertimezones",
+  "name": "BurgerTimezones",
+  "author": "Heisenburger69",
+  "description": "Ever had players be confused as to when an event on your server occurs due to differences in Timezones? This plugin solves that issue and many more! This plugin acts as a univer...",
+  "readme_markdown": "# BurgerTimezones\nEver had players be confused as to when an event on your server occurs due to differences in Timezones? This plugin solves that issue and many more! This plugin acts as a universal clock and lets players check what the current time is, in any Timezone! Simply do `/currenttime <timezone>` and see the current time at that Timezone!\n### Timezone Abbreviations:\nA list of Timezone abbreviations can be found at https://en.wikipedia.org/wiki/List_of_time_zone_abbreviations\n### Commands:\nThere is only one command /currenttime with the aliases /ct and /servertime\n### Permissions:\nPlayers can be given the permission node \"burgertimezones.command\" to be able to use /currenttime",
+  "readme_source_url": "https://github.com/Heisenburger69/BurgerTimezones",
+  "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerTimezones/451e36480153df8b75493d628fdad7e03af8ab51/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Heisenburger69/BurgerTimezones",
+  "archive_repo": null,
+  "approved_release_tag": "r-4819",
+  "stars": 5,
+  "total_downloads": 1629,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Heisenburger69"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-4819",
+      "published_at": null,
+      "downloads": 1629,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4819/burgertimezones-1.0.0-r4819.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4819",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4819/burgertimezones-1.0.0-r4819.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BurgerTimezones",
+    "stable_release_id": 4819
+  }
+}

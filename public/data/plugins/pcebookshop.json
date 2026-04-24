@@ -1,0 +1,66 @@
+{
+  "id": "pcebookshop",
+  "name": "PCEBookShop",
+  "author": "Aericio",
+  "description": "PCEBookShop is an extension to the PiggyCustomEnchants plugin which adds a custom enchants book shop.",
+  "readme_markdown": "# PCEBookShop [![Poggit-CI](https://poggit.pmmp.io/shield.dl/PCEBookShop)](https://poggit.pmmp.io/p/PCEBookShop) [![Discord](https://img.shields.io/discord/330850307607363585?logo=discord)](https://discord.gg/qmnDsSD)\n\nPCEBookShop is an extension to the [PiggyCustomEnchants](https://github.com/DaPigGuy/PiggyCustomEnchants/) plugin which adds a custom enchants book shop.\n\n### Quick Tip for Players\n* You can validate the authenticity of a custom enchants book (which has not been activated yet) by running `/ce nbt`.\n    * Normal players are able to run this command by default.\n    * Near the bottom, you might find a line that looks similar to this: `pocketmine\\nbt\\tag\\IntTag: name='pcebookshop', value='1'`.\n        * Value 1 = Mythic\n        * Value 2 = Rare\n        * Value 5 = Uncommon\n        * Value 10 = Common\n    * Optionally, you can just look at the item lore.    \n    * You won't be able to find this tag once the item has been activated, but rather a tag created by PiggyCustomEnchants.\n\n## Supported Economy Types\n  * [EconomyAPI](https://github.com/onebone/EconomyS/tree/3.x/EconomyAPI) by onebone\n  * [MultiEconomy](https://github.com/TwistedAsylumMC/MultiEconomy) by TwistedAsylumMC\n  * PMMP Player EXP\n\n## Commands\n| Command | Description | Permissions | Aliases |\n| --- | --- | --- | --- |\n| `/pcebookshop` | Opens the PCEBookShop Menu | `pcebookshop.command.bookshop` | `/bookshop, /bs` |\n\n## Permissions\n| Permissions | Description | Default |\n| --- | --- | --- |\n| `pcebookshop` | Allows usage of all PCEBookShop features | `op` |\n| `pcebookshop.command` | Allow usage of all PCEBookShop commands | `op` |\n| `pcebookshop.command.bookshop` | Allow usage of the /pcebookshop command | `true` |\n\n## License\n```\n    PCEBookShop for PiggyCustomEnchants.\n    Copyright (C) 2020  Aericio\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation, either version 3 of the License, or\n    (at your option) any later version.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n```",
+  "readme_source_url": "https://github.com/Aericio/PCEBookShop",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Aericio/PCEBookShop",
+  "archive_repo": null,
+  "approved_release_tag": "r-4707",
+  "stars": 3,
+  "total_downloads": 1727,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.11.2-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "PiggyCustomEnchants"
+    ],
+    "optional": [
+      "EconomyAPI",
+      "MultiEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Aericio"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/92579",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-4707",
+      "published_at": null,
+      "downloads": 1727,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4707/pcebookshop-1.0.3-r4707.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4707",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4707/pcebookshop-1.0.3-r4707.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PCEBookShop",
+    "stable_release_id": 4707
+  }
+}

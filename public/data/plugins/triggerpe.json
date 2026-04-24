@@ -1,0 +1,61 @@
+{
+  "id": "triggerpe",
+  "name": "TriggerPE",
+  "author": "alvin0319",
+  "description": "A Trigger plugin for PocketMine-MP ported from VariableTriggers",
+  "readme_markdown": "# TriggerPE\nA Trigger plugin for PocketMine-MP ported from [VariableTriggers](https://github.com/lyokofirelyte/VariableTriggers)\n\n# Functions\n\n* [x] ClickTrigger\n* [x] CommandTrigger\n* [x] AreaTrigger\n\n# Commands\n\n|command|description|permission|\n|---|---|---|\n|/vtc|click trigger command|triggerpe.command.vtc|\n|/vta|area trigger command|triggerpe.command.vta|\n|/vtcmd|command trigger command|triggerpe.command.vtcmd|\n\n|args|usage|\n|---|---|\n|add|/&lt;command&gt; add &lt;name&gt; &lt;actionType&gt; &lt;action&gt;|\n|remove|/&lt;command&gt; remove &lt;name&gt;\n\n|ActionType|description|\n|---|---|\n|msg|send message to player|\n|broadcast|broadcast message|\n|cmd|execute the command|\n|cmdop|execute the command as op|\n\n\n# Permissions\n|name|permission|\n|---|---|\n|triggerpe.command.vtc|op|\n|triggerpe.command.vta|op|\n|triggerpe.command.vtcmd|op|\n\n# API\n\n* Get plugin instance\n```php\n$plugin = \\alvin0319\\TriggerPE\\TriggerPE::getInstance();\n```\n\n* Add custom trigger (not supported yet)\n```php\n$triggerClass = class CustomTrigger extends \\alvin0319\\TriggerPE\\triggers\\Trigger{\n    public function execute(\\pocketmine\\Player $player, array $extraData = []) : bool{\n        // return true if succeed or false on failed\n        return false;\n    }\n\n    public static function jsonDeserialize(array $data) : CustomTrigger{\n        return new CustomTrigger(...$data);\n    }\n};\n$plugin->getTriggerFactory()->registerTrigger(CustomTrigger::class);\n\n$plugin->getTriggerFactory()->addTrigger($triggerClass);\n```\n\n* Get trigger\n\n```php\n$trigger = $plugin->getTriggerFactory()->getTrigger(\"trigger name\");\n```\n\n# You can use Target selector!\n\nYou can use @r, @p, @s inside action fields...\n\nor\n\nYou can add your custom selector.\n\n```php\n\\alvin0319\\TriggerPE\\selector\\SelectorFactory::registerSelector(new class extends \\alvin0319\\TriggerPE\\selector\\Selector{\n                                                                    \n    public function getSymbol() : string{\n        return \"b\";\n    }\n                                                                    \n    public function find(\\pocketmine\\Player $player) : ?\\pocketmine\\Player{\n        return $player;\n    }\n});\n```\n\n# License\n\n~~I love GPL~~\n\n[GPL (GNU General Public License)](https://github.com/alvin0319/TriggerPE/blob/master/LICENSE)",
+  "readme_source_url": "https://github.com/alvin0319/TriggerPE",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/alvin0319/TriggerPE",
+  "archive_repo": null,
+  "approved_release_tag": "r-4788",
+  "stars": 0,
+  "total_downloads": 812,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "alvin0319"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-4788",
+      "published_at": null,
+      "downloads": 812,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4788/triggerpe-1.0.0-r4788.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4788",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4788/triggerpe-1.0.0-r4788.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TriggerPE",
+    "stable_release_id": 4788
+  }
+}

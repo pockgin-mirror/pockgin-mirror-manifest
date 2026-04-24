@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8625",
   "stars": 5,
-  "total_downloads": 483,
+  "total_downloads": 1115,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-8598",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8598/pingkick-1.2-r8598.phar"
+    },
+    {
+      "tag": "r-4646",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4646/pingkick-1.0-r4646.phar"
     }
   ],
   "comments": {

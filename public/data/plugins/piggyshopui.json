@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11346",
   "stars": 3,
-  "total_downloads": 6753,
+  "total_downloads": 14249,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -62,6 +62,11 @@
       "tag": "r-9062",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9062/piggyshopui-3.0.0-r9062.phar"
+    },
+    {
+      "tag": "r-4706",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4706/piggyshopui-2.1.1-r4706.phar"
     }
   ],
   "comments": {

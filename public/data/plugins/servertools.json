@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12240",
   "stars": 0,
-  "total_downloads": 7883,
+  "total_downloads": 17316,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -65,6 +65,11 @@
       "tag": "r-7284",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7284/servertools-0.3.2-r7284.phar"
+    },
+    {
+      "tag": "r-4818",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4818/servertools-0.3.1-r4818.phar"
     }
   ],
   "comments": {

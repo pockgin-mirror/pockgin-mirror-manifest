@@ -1,0 +1,68 @@
+{
+  "id": "worldplayercount",
+  "name": "WorldPlayerCount",
+  "author": "xXKHaLeD098Xx",
+  "description": "A simple PocketMine addon plugin for Slapper which allows you to create a slapper counting the players of a world(s) on its name tag.",
+  "readme_markdown": "# WorldPlayerCount [![Poggit-CI](https://poggit.pmmp.io/ci.badge/xXKHaLeD098Xx/WorldPlayerCount/WorldPlayerCount)](https://poggit.pmmp.io/ci/xXKHaLeD098Xx/WorldPlayerCount/WorldPlayerCount)\n\n[![](https://poggit.pmmp.io/shield.dl.total/WorldPlayerCount)](https://poggit.pmmp.io/p/WorldPlayerCount)\n[![](https://poggit.pmmp.io/shield.state/WorldPlayerCount)](https://poggit.pmmp.io/p/WorldPlayerCount)\n[![Poggit](https://poggit.pmmp.io/ci.shield/xXKHaLeD098Xx/WorldPlayerCount/WorldPlayerCount?style=flat-square)](https://poggit.pmmp.io/ci/xXKHaLeD098Xx/WorldPlayerCount/WorldPlayerCount)\n<br>\nA simple PocketMine addon plugin for Slapper which allows you to create a slapper counting the players of a world(s) on its name tag.<br>\n## Versions\n- v1.0-beta\n  - First version\n\n- v2.0-beta\n  - Added combined world player count support!\n  - Added customizable count-check interval, see the config\n## Usage for single world\n__Note: This is used when creating a slapper counting the players of 1 world only__\n- First thing we add after the entity type (human) is the nametag we want, followed by a {line} tag then adding \"count WORLDNAME\"<br><br>\n- __Example : /slapper spawn human Hub{line}count Hub<br>__<br>\n- Congrats!, you spawned an entity counting the players of the world \"Hub\"\n## Usage for combined worlds\n__Note: This is used when creating a slapper counting the players of more than 1 world__\n- First thing we add after the entity type (human) is the nametag we want, followed by a {line} tag then adding \"combinedcounts World1&World2\" and so on with the \"&\" symbol<br><br>\n- __Example : /slapper spawn human SkyWars{line}combinedcounts SK-1&SK-2&SK-3__<br><br>\n- Congrats!, you spawned an entity counting the players of the worlds \"SK-1\", \"SK-2\" and \"SK-3\" at the same time\n## Config\n- In the config you can customize the name tag of the slapper, it is set to \"{number} Playing\" by default<br>\n- The count \"check\" interval is also customizable and it is set to 1 second by default\n## Contacts\nIn case you are confused about the usage or found a bug please contact me on my discord __@кнαℓє∂#7787__",
+  "readme_source_url": "https://github.com/xXKHaLeD098Xx/WorldPlayerCount",
+  "icon_url": "https://raw.githubusercontent.com/xXKHaLeD098Xx/WorldPlayerCount/1afa6b59b3f7853edbb8b55900c50686321fa9e4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/xXKHaLeD098Xx/WorldPlayerCount",
+  "archive_repo": null,
+  "approved_release_tag": "r-4624",
+  "stars": 3,
+  "total_downloads": 18312,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "Slapper"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "xXKHaLeD098Xx"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/91377",
+  "versions": {
+    "stable": {
+      "version": "2.0-beta",
+      "tag": "r-4624",
+      "published_at": null,
+      "downloads": 17896,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4624/worldplayercount-2.0-beta-r4624.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4624",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4624/worldplayercount-2.0-beta-r4624.phar"
+    },
+    {
+      "tag": "r-4619",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4619/worldplayercount-1.0-beta-r4619.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorldPlayerCount",
+    "stable_release_id": 4624
+  }
+}

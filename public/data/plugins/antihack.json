@@ -1,0 +1,66 @@
+{
+  "id": "antihack",
+  "name": "AntiHack",
+  "author": "alvin0319",
+  "description": "A PocketMine-MP Plugin AntiHack",
+  "readme_markdown": "# AntiHack\nA PocketMine-MP Plugin | AntiHack\n\n## Description\n\nThis plugin detects hack use within the server and cancels the operation.\n\n[![](https://poggit.pmmp.io/shield.state/AntiHack)](https://poggit.pmmp.io/p/AntiHack)\n\n[![](https://poggit.pmmp.io/shield.dl/AntiHack)](https://poggit.pmmp.io/p/AntiHack)\n\n## Feature\n\n- [x] Distance Hack\n- [x] Mining Hack\n- [x] CPS Hack\n- [x] Hack client join warn\n- [ ] ToolBox (Not now, but will be soon)\n\n## Used Library\n- [Damage](https://minecraft.gamepedia.com/Damage)\n\n## Notes on use\nThis does not completely block the hack.\n\nThe plugin is also heavily affected by the player's network speed.\n\nPlease use the plugin in consideration of these precautions.",
+  "readme_source_url": "https://github.com/alvin0319/AntiHack",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/alvin0319/AntiHack",
+  "archive_repo": null,
+  "approved_release_tag": "r-4585",
+  "stars": 2,
+  "total_downloads": 23295,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "alvin0319"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/90287",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-4585",
+      "published_at": null,
+      "downloads": 21879,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4585/antihack-1.0.1-r4585.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4585",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4585/antihack-1.0.1-r4585.phar"
+    },
+    {
+      "tag": "r-4560",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4560/antihack-1.0.0-r4560.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiHack",
+    "stable_release_id": 4585
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-5178",
   "stars": 3,
-  "total_downloads": 7582,
+  "total_downloads": 8227,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.2",
       "tag": "r-5178",
       "published_at": null,
-      "downloads": 6665,
+      "downloads": 6666,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5178/bravoclan-1.2-r5178.phar"
     },
     "dev": null
@@ -54,6 +54,16 @@
       "tag": "r-4850",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4850/bravoclan-1.0-r4850.phar"
+    },
+    {
+      "tag": "r-4804",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4804/bravoclan-0.8-r4804.phar"
+    },
+    {
+      "tag": "r-4693",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4693/bravoclan-0.7-r4693.phar"
     }
   ],
   "comments": {

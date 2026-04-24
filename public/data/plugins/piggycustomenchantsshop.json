@@ -1,0 +1,66 @@
+{
+  "id": "piggycustomenchantsshop",
+  "name": "PiggyCustomEnchantsShop",
+  "author": "DaPigGuy",
+  "description": "PiggyCustomEnchantsShop is an add-on the the PiggyCustomEnchants plugin, adding shops.",
+  "readme_markdown": "# PiggyCustomEnchantsShop [![Poggit-CI](https://poggit.pmmp.io/shield.dl/PiggyCustomEnchantsShop)](https://poggit.pmmp.io/p/PiggyCustomEnchantsShop) [![Discord](https://img.shields.io/discord/330850307607363585?logo=discord)](https://discord.gg/qmnDsSD)\n\nPiggyCustomEnchantsShop is an add-on the the PiggyCustomEnchants plugin, adding shops.\n\n## Prerequisites\n* Basic knowledge on how to install plugins from Poggit Releases and/or Poggit CI\n* PMMP 3.2.0 or greater\n* Economy type supported by libPiggyEconomy:\n  * [EconomyAPI](https://github.com/onebone/EconomyS/tree/3.x/EconomyAPI) by onebone\n  * [MultiEconomy](https://github.com/TwistedAsylumMC/MultiEconomy) by TwistedAsylumMC\n  * PMMP Player EXP\n\n## Installation & Setup\n1. Install the plugin from Poggit.\n2. (Optional) Setup your economy provider. If using EconomyAPI, this step can be skipped. Otherwise, change `economy.provider` to the name of the economy plugin being used, or `xp` for PMMP Player EXP. If using MultiEconomy, create `economy.multieconomy-currency` with the value being your preferred currency type.\n3. (Optional) Configure formatting of your sign shops under `shop-types.sign.format`\n4. Start your server.\n5. **Sign Shops**: Place a sign down & create a sign shop with the following format:\n\n    ![SignShopFormat](https://piggydocs.aericio.net/assets/img/piggycustomenchantsshop/pces-ss_visual.png)\n\n   **UI Shops**: Use `/ceshop add` and enter requested information.\n6. You're done!\n\n## Commands\n| Command | Description | Permissions | Aliases |\n| --- | --- | --- | --- |\n| `/customenchantshop` | Opens enchantment shop menu | `piggycustomenchantsshop.command.ceshop.use` |  `/ceshop` |\n| `/customenchantshop add` | Opens enchantment shop configuration menu | `piggycustomenchantsshop.command.ceshop.add` | `/ceshop add` |\n\n## Permissions\n| Permissions | Description | Default |\n| --- | --- | --- |\n| `piggycustomenchantsshop` | Allows usage of all PiggyCustomEnchantsShop features | `op` |\n| `piggycustomenchantsshop.command` | Allow usage of all PiggyCustomEnchantsShop commands | `op` |\n| `piggycustomenchantsshop.command.ceshop` | Allow usage of both /ceshop & /ceshop add| `op` |\n| `piggycustomenchantsshop.command.ceshop.add` | Allow usage of /ceshop add| `op` |\n| `piggycustomenchantsshop.command.ceshop.use` | Allow usage of /ceshop| `true` |\n| `piggycustomenchantsshop.sign` | Allows usage of all sign shop features | `op` |\n| `piggycustomenchantsshop.sign.break` | Allows breaking of sign shops | `op` |\n| `piggycustomenchantsshop.sign.create` | Allows creation of sign shops | `op` |\n| `piggycustomenchantsshop.sign.use` | Allows usage of sign shops | `true` |\n\n## Issue Reporting\n* If you experience an unexpected non-crash behavior with PiggyCustomEnchantsShop, click [here](https://github.com/DaPigGuy/PiggyCustomEnchantsShop/issues/new?assignees=DaPigGuy&labels=bug&template=bug_report.md&title=).\n* If you experience a crash in PiggyCustomEnchantsShop, click [here](https://github.com/DaPigGuy/PiggyCustomEnchantsShop/issues/new?assignees=DaPigGuy&labels=bug&template=crash.md&title=).\n* If you would like to suggest a feature to be added to PiggyCustomEnchantsShop, click [here](https://github.com/DaPigGuy/PiggyCustomEnchantsShop/issues/new?assignees=DaPigGuy&labels=suggestion&template=suggestion.md&title=).\n* If you require support, please join our discord server [here](https://discord.gg/qmnDsSD).\n* Do not file any issues related to outdated API version; we will resolve such issues as soon as possible.\n* We do not support any spoons of PocketMine-MP. Anything to do with spoons (Issues or PRs) will be ignored.\n  * This includes plugins that modify PocketMine-MP's behavior directly, such as TeaSpoon.\n\n## Additional Information\n* We do not support any spoons. Anything to do with spoons (Issues or PRs) will be ignored.\n* We are using [Commando](https://github.com/CortexPE/Commando), [libFormAPI](https://github.com/jojoe77777/FormAPI), [libPiggyEconomy](https://github.com/DaPigGuy/libPiggyEconomy) virions.\n    * **Unless you know what you are doing, use the pre-compiled phar from [Poggit-CI](https://poggit.pmmp.io/ci/DaPigGuy/PiggyCustomEnchantsShop/~) and not GitHub.**\n    * If you wish to run it via source, check out [DEVirion](https://github.com/poggit/devirion).\n* Detailed Installation Guide available at [PiggyDocs.](https://piggydocs.aericio.net/PiggyCustomEnchantsShop.html)\n* Check out our [Discord Server](https://discord.gg/qmnDsSD) for additional plugin support.",
+  "readme_source_url": "https://github.com/DaPigGuy/PiggyCustomEnchantsShop",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/DaPigGuy/PiggyCustomEnchantsShop",
+  "archive_repo": null,
+  "approved_release_tag": "r-4705",
+  "stars": 4,
+  "total_downloads": 4395,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.2.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "PiggyCustomEnchants"
+    ],
+    "optional": [
+      "EconomyAPI",
+      "MultiEconomy"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaPigGuy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/92569",
+  "versions": {
+    "stable": {
+      "version": "1.3.5",
+      "tag": "r-4705",
+      "published_at": null,
+      "downloads": 4395,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4705/piggycustomenchantsshop-1.3.5-r4705.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4705",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4705/piggycustomenchantsshop-1.3.5-r4705.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PiggyCustomEnchantsShop",
+    "stable_release_id": 4705
+  }
+}

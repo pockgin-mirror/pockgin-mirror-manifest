@@ -1,0 +1,73 @@
+{
+  "id": "slapperplayercount",
+  "name": "SlapperPlayerCount",
+  "author": "ethaniccc",
+  "description": "Get the amount of players on a world or on a server with SlapperPlayerCount!",
+  "readme_markdown": "# SlapperPlayerCount\nGet the amount of players on a world or on a server with SlapperPlayerCount!\n\n## Updates\n### 3.1.0\n- Fix server player count NPC's not updating their name tag.\n- Cleanup the server query task code.\n\n**Important:** 3.0.0 brings support for [PocketMine-MP API 4](https://github.com/pmmp/PocketMine-MP/releases/tag/4.0.0), dropping API 3 support. Check out the plugin by clicking [here](http://poggit.pmmp.io/p/WorldPlayerCount/)\n### 3.0.0\n- PocketMine-MP API v4 support (drops API 3).\n- Rewrites a large amount of code to de-bloat the main plugin class by keeping all data loading/saving in a separate utility class.\n- Removes automatic Slapper plugin installation.\n\n**Important:** 2.1.2 brings support for WPC support, which you can either choose to enable or disable in the config. WPC has more features for world querying, check out the plugin by clicking [here](http://poggit.pmmp.io/p/WorldPlayerCount/)\n### 2.1.2\n- Add WorldPlayerCount support because it's unfair not giving people options.\n- Add version to config\n### 2.1.1\n- ~~Disable WorldPlayerCount if installed and enabled on the server.~~\n\n**This version has been nulled**\n### 2.1\n- Add config\n- Add configurable nametags\n- Add support for showing amount of players in a world\n### 2.0\n- Inital release\n## Configuring Messages\nIf you go to the `plugin_data` folder for SlapperPlayerCount, you will see a config. You can change what the nametag will show for each event with the config.\n## Usage\nIf you are confused, this is the place where you can go for answers. I will show how to use this plugin for getting the amount of players in a world, and the amount of players on a server.\n### World Usage\nWhen you have this plugin installed, go in-game and get your hands ready:\n(**Note: The arguments must be on the second line of the plugin!**)\nType up the command to create a normal slapper like normal, with a name and everything:\n\n`/slapper create human MiniGames`\n\nFrom here, you want to seperate the amount of players from the name, so you would seperate it with the `{line}` tag.\n\n`/slapper create human MiniGames{line}`\n\nNow, since you want to get the amount of players on a world, you want to type in `world` and then the world name, spereated by a `:`.\n\nExample: `/slapper create human MiniGames{line}world:minigames`\n![WorldCommandExample](create_world_slapper.png)\n\nThen you get the amount of players on the world:\n![WorldResult](world_slapper_result.png)\n\nHope this helped :D\n\n~ ethaniccc\n\n### Server Query Usage\nWhen you have this plugin installed, go in-game and get your hands ready:\n(**Note: The arguments must be on the second line of the plugin!**)\nType up the command to create a normal slapper like normal, with a name and everything:\n\n`/slapper create human Versai`\n\nFrom here, you want to seperate the amount of players from the name, so you would seperate it with the `{line}` tag.\n\n`/slapper create human Versai{line}`\n\nNow, since you want to get the amount of players on a server, you want to type in `server`, server ip, and the server port, spereated by a `:`.\n\nExample: `/slapper create human Versai{line}server:versai.pro:19132`\n\n![ServerCreateExample](create_server_slapper.png)\n\nThen you get the amount of players on the server:\n\n![ServerResult](server_slapper_result.png)\n\nHope this helped :D\n\n~ ethaniccc",
+  "readme_source_url": "https://github.com/ethaniccc/SlapperPlayerCount",
+  "icon_url": "https://raw.githubusercontent.com/ethaniccc/SlapperPlayerCount/3a97f90f20950ee58d9e1e8bffdb4cbc1dda5141/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ethaniccc/SlapperPlayerCount",
+  "archive_repo": null,
+  "approved_release_tag": "r-4751",
+  "stars": 4,
+  "total_downloads": 23460,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.12.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "Slapper"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ethaniccc"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/93251",
+  "versions": {
+    "stable": {
+      "version": "2.1.3",
+      "tag": "r-4751",
+      "published_at": null,
+      "downloads": 21102,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4751/slapperplayercount-2.1.3-r4751.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4751",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4751/slapperplayercount-2.1.3-r4751.phar"
+    },
+    {
+      "tag": "r-4681",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4681/slapperplayercount-2.1.2-r4681.phar"
+    },
+    {
+      "tag": "r-4584",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4584/slapperplayercount-2.1.0-r4584.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SlapperPlayerCount",
+    "stable_release_id": 4751
+  }
+}

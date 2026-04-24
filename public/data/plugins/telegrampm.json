@@ -1,0 +1,66 @@
+{
+  "id": "telegrampm",
+  "name": "TelegramPM",
+  "author": "alvin0319",
+  "description": "A PocketMine-MP Plugin that connect PM Server Telegram",
+  "readme_markdown": "# TelegramPM\nA PocketMine-MP Plugin that connect PM Server <-> Telegram\n\n## Setting\n\nSee [Step by setup](https://github.com/alvin0319/TelegramPM/blob/master/step-by-setup.md)\n\n## API\n> send message\n>\n> `\\alvin0319\\TelegramBot\\TelegramBot::getInstance()->sendMessage(\"your message\", \"chat id\")`\n\n> Event\n>\n> `\\alvin0319\\TelegramBot\\event\\MessageReceiveEvent`\n> \n> `\\alvin0319\\TelegramBot\\event\\MessageSendEvent`\n\n## Note on use\n\nAfter restarting the server and before running commands on the bot, you must log in with `/login <password>`.\n\n> Welcome, username\n\nIf you see this, you are successfully logged in.\n\nCommand can be used as `/execute <command>`.\n\n## Warning\nYOU SHOULD NOT LEAK YOUR BOT'S TOKEN OR NAME. PASSWORD ENTRY IS REQUIRED, BUT THIS IS NOT SAFE.\n\n## Test\n\n![](https://raw.githubusercontent.com/alvin0319/TelegramPM/master/images/image.PNG)",
+  "readme_source_url": "https://github.com/alvin0319/TelegramPM",
+  "icon_url": "https://raw.githubusercontent.com/alvin0319/TelegramPM/f4af5f5209d20bc4301dcf9f191b488622d84800/Telegram.PNG",
+  "featured": false,
+  "repo": "https://github.com/alvin0319/TelegramPM",
+  "archive_repo": null,
+  "approved_release_tag": "r-4645",
+  "stars": 0,
+  "total_downloads": 1145,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "alvin0319"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/91615",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-4645",
+      "published_at": null,
+      "downloads": 1101,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4645/telegrampm-1.0.1-r4645.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4645",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4645/telegrampm-1.0.1-r4645.phar"
+    },
+    {
+      "tag": "r-4613",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4613/telegrampm-1.0.0-r4613.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TelegramPM",
+    "stable_release_id": 4645
+  }
+}
