@@ -1,0 +1,61 @@
+{
+  "id": "blocksounds",
+  "name": "BlockSounds",
+  "author": "Xenophilicy",
+  "description": "I have frozen my personal support for public plugins. The plugins will remain public on GitHub (though archived) for anyone that would like to keep them updated. This my final d...",
+  "readme_markdown": "> # I have frozen my personal support for public plugins. The plugins will remain public on GitHub (though archived) for anyone that would like to keep them updated.  This my final decision on the matter. No support will be provided - you will be ignored - regardless of private or public inquiry.\n\n# BlockSounds\n[![Poggit BlockSounds](https://poggit.pmmp.io/shield.state/BlockSounds)](https://poggit.pmmp.io/p/BlockSounds)\n[![HitCount](http://hits.xenoservers.net:4000/Xenophilicy/BlockSounds.svg)](http://hits.xenoservers.net:4000/)\n[![Discord Chat](https://img.shields.io/discord/490677165289897995.svg)](https://discord.xenoservers.net)\n\n## Information\nWith this plugin you can add sounds to blocks so that when that block is hit or interacted with, it will play your selected sound. You can also provide a pitch for the sound in the command string. All data is saved to a JSON file on plugin disable and read back into memory on plugin enable, for reference.\n\n### [Click here to download BlockSounds from Poggit](https://poggit.pmmp.io/p/BlockSounds/)\n\n***\n\n## Dependencies\n**DevTools → https://github.com/pmmp/PocketMine-DevTools** *(If you're running the plugin from source)*\n\n## Credits\n* [Xenophilicy](https://github.com/Xenophilicy/)",
+  "readme_source_url": "https://github.com/Xenophilicy/BlockSounds",
+  "icon_url": "https://raw.githubusercontent.com/Xenophilicy/BlockSounds/39545b2424f803e087d7fb05c4a47cef1268d3df/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Xenophilicy/BlockSounds",
+  "archive_repo": null,
+  "approved_release_tag": "r-5086",
+  "stars": 5,
+  "total_downloads": 2261,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Xenophilicy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-5086",
+      "published_at": null,
+      "downloads": 2261,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5086/blocksounds-1.0.0-r5086.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5086",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5086/blocksounds-1.0.0-r5086.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockSounds",
+    "stable_release_id": 5086
+  }
+}

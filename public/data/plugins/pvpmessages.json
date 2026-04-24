@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-5485",
   "stars": 5,
-  "total_downloads": 1141,
+  "total_downloads": 1301,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.7.0",
       "tag": "r-5485",
       "published_at": null,
-      "downloads": 1141,
+      "downloads": 1142,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5485/pvpmessages-1.7.0-r5485.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-5485",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5485/pvpmessages-1.7.0-r5485.phar"
+    },
+    {
+      "tag": "r-5131",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5131/pvpmessages-1.6.9-r5131.phar"
     }
   ],
   "comments": {

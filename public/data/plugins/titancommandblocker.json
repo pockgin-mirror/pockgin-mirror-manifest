@@ -1,0 +1,61 @@
+{
+  "id": "titancommandblocker",
+  "name": "TitanCommandBlocker",
+  "author": "TitaniumLB6571",
+  "description": "How to use?",
+  "readme_markdown": "# TitanCommandBlocker\n#### How to use?\nSimple, just add the plugin to your server and restart it.\n\n# Features?\n \n- Adds a logs file/folder to see who tried to use the blocked command.\n- Decide whether you want blocked commands from console.\n- Decide whether you want blocked commands RCON.\n- You can choose which commands to block.\n- Notifies console when someone tries to execute the command.",
+  "readme_source_url": "https://github.com/TitaniumLB6571/TitanCommandBlocker",
+  "icon_url": "https://raw.githubusercontent.com/TitaniumLB6571/TitanCommandBlocker/1ed95b1480a7dc6a131b6e4f483be015b5462d7d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/TitaniumLB6571/TitanCommandBlocker",
+  "archive_repo": null,
+  "approved_release_tag": "r-5071",
+  "stars": 3,
+  "total_downloads": 953,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TitaniumLB6571"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-5071",
+      "published_at": null,
+      "downloads": 953,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5071/titancommandblocker-1.0.1-r5071.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5071",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5071/titancommandblocker-1.0.1-r5071.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TitanCommandBlocker",
+    "stable_release_id": 5071
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "emotes",
+  "name": "Emotes",
+  "author": "AndreasHGK",
+  "description": "Emote support for pocketmine",
+  "readme_markdown": "# Emotes\n Emote support for pocketmine\n\nThis plugin adds emotes into pocketmine so that everyone can see the emotes that you are doing!\n\n**Why is this useful?**\n\nBy default pocketmine does not have support for emotes.\nThis means that you can see yourself perform an emote, but other players can not see you performing them.\nThis plugin fixes this problem and also adds a few extra features.\n\n**Permission**\n\nPlayers require a permission `emotes.perform` to perform an emote.\nIf they do not have this permission, others will not see the emote and the player will get a message telling them they do not have the permission.\nYou can change the permission message in the plugin configuration.\n\n**Cooldowns**\n\nYou can set an emote cooldown for players in the plugin configuration.\nBy default this is set to 2 seconds, but you can change this to anything you want or even just disabe it.\nWhen the cooldown is active, it prevents other players from being able to see the emotes that you do and you will get a message telling you that you currently have an active emote cooldown.\nThis message is also configurable in `config.yml`.\n\n## API\n\nThe plugin also has an API to make it easy for developers to use emotes in plugins. \n\n### Emote event\n\nWhenever a player performs an emote, an event will be called for this emote.\nThis event is `AndreasHGK\\Emotes\\event\\EmoteEvent`.\nYou are able to cancel the event and also change the flags and emote ID.\nIn the event you can also control who sees the emote, using `$event->setViewers([])`.\nThis function accept an array of players as first argument.\n\n### Sending emotes\nWith this plugin, you can also easily make a player (or any entity that extends the Human class, so even human slappers) perform an emote!\nHere is how you can do it.\n\nFirst of all, you need to import the correct classes. If you just want to be able to send an emote, you will only need these 2 classes. The `Emote` class is the class that allows you to send emotes and the `EmoteIds` class contains some emote IDs.\n```php\nuse AndreasHGK\\Emotes\\emote\\Emote;\nuse AndreasHGK\\Emotes\\emote\\EmoteIds;\n```\n\nTo actually send the emote, all you need to do is this.\nThis example shows you how to send the \"over there\" emote, but you can of course change it to any of the emotes in the EmoteIds class or use the id of another emote you have.\nIt is very simple, you first create an Emote object and you then call the `broadcast()` function on it, which will display the emote to everyone who can see the performer.\nThe performer can be any entity that extends the Human class.\n```php\nEmote::create($performer, EmoteIds::OVER_THERE, Emote::FLAG_SERVER)->broadcast();\n```\n\nThe `broadcast()` function has 2 optional arguments.\nThe first is an array of the players that you want to broadcast the emote to.\nLeave it empty to broadcast to everyone who can see the entity.\nThe second argument is by default false and it controls whether or not an event will be called for the emote.\nIf you don't want an event to be called be sure to change this to false.\n\n### Changing the cooldown time per player\n\nYou can also change the cooldown time per player, allowing you to do things such as giving certain people a lower cooldown time.\nFirst of all, you'll need to import this class.\n```php\nuse AndreasHGK\\Emotes\\session\\SessionManager;\n```\n\nThen all you need to do is get the session for a player and change its cooldown time.\nIn the following example the cooldown time for the player is changed to 5 seconds.\nBe sure to make this variable a float.\n```php\nSessionManager::getInstance()->getSession($player)->setCooldownTime(5.0);\n```",
+  "readme_source_url": "https://github.com/AndreasHGK/Emotes",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/AndreasHGK/Emotes",
+  "archive_repo": null,
+  "approved_release_tag": "r-4950",
+  "stars": 3,
+  "total_downloads": 2892,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.14.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AndreasHGK"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-4950",
+      "published_at": null,
+      "downloads": 2892,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4950/emotes-1.0.0-r4950.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4950",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4950/emotes-1.0.0-r4950.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Emotes",
+    "stable_release_id": 4950
+  }
+}

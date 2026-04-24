@@ -1,0 +1,68 @@
+{
+  "id": "bettervoting",
+  "name": "BetterVoting",
+  "author": "TwistedAsylumMC",
+  "description": "BetterVoting is a PocketMine-MP plugin for letting players claim their rewards from voting for your server.",
+  "readme_markdown": "<h1>\n<a id=\"user-content-bettervoting\" class=\"anchor\" href=\"#bettervoting\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>BetterVoting</h1>\n<p><a href=\"assets/logo.png\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"assets/logo.png\" alt=\"\" style=\"max-width:100%;\"></a></p>\n<p>BetterVoting is a PocketMine-MP plugin for letting players claim their rewards from voting for your server.</p>\n<p><a href=\"https://poggit.pmmp.io/p/BetterVoting\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/c4976dcdc9188cee6cf63cd2ec529d3af2c20264/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f426574746572566f74696e67\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.state/BetterVoting\" style=\"max-width:100%;\"></a> <a href=\"https://poggit.pmmp.io/p/BetterVoting\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/2e262cad27f944c54c67a24ad45b147e3f572011/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f426574746572566f74696e67\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/BetterVoting\" style=\"max-width:100%;\"></a></p>\n<h2>\n<a id=\"user-content-whats-new-in-20\" class=\"anchor\" href=\"#whats-new-in-20\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>What's new in 2.0?</h2>\n<ul>\n<li>All vote requests use a separate thread instead of async tasks, boosting performance</li>\n<li>Complete rewrite &amp; overall performance boost</li>\n<li>'/vote info' has been added, it shows the server's last cached information</li>\n<li>'/vote top' now uses locally cached data, making it faster to respond</li>\n<li>All messages are now editable in the config</li>\n<li>Automatic vote claiming, when a player joins or the cache is updated, online players with unclaimed votes will have their vote automatically claimed</li>\n<li>PlayerVoteEvent has been added for plugin developers</li>\n</ul>\n<blockquote>\n<p>Note: Data is cached &amp; reupdated every 3 minutes due to cache time on MinecraftPocket-Server's API</p>\n</blockquote>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/98606",
+  "icon_url": "https://raw.githubusercontent.com/TwistedAsylumMC/BetterVoting/0b7bd8b0679ffc993e11c35d3cfa09ae78c6a626/assets/logo.png",
+  "featured": false,
+  "repo": "https://github.com/TwistedAsylumMC/BetterVoting",
+  "archive_repo": null,
+  "approved_release_tag": "r-5033",
+  "stars": 4,
+  "total_downloads": 5808,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "PiggyCustomEnchants"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TwistedAsylumMC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/98608",
+  "versions": {
+    "stable": {
+      "version": "2.0.2",
+      "tag": "r-5033",
+      "published_at": null,
+      "downloads": 5533,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5033/bettervoting-2.0.2-r5033.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5033",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5033/bettervoting-2.0.2-r5033.phar"
+    },
+    {
+      "tag": "r-5015",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5015/bettervoting-2.0.1-r5015.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BetterVoting",
+    "stable_release_id": 5033
+  }
+}

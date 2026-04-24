@@ -1,0 +1,61 @@
+{
+  "id": "footjob",
+  "name": "FootJob",
+  "author": "TungstenVn",
+  "description": "What is this plugin for",
+  "readme_markdown": "# FootJob\n[![](https://poggit.pmmp.io/shield.state/FootJob)](https://poggit.pmmp.io/p/FootJob)\n[![](https://poggit.pmmp.io/shield.dl.total/FootJob)](https://poggit.pmmp.io/p/FootJob)\n[![Discord](https://img.shields.io/badge/chat-on+discord-7289da.svg)](https://discord.gg/5CpFadd)\n<a href=\"https://discord.gg/5CpFadd\"><img src=\"https://discordapp.com/api/guilds/472786873492832256/embed.png\" alt=\"Discord server\"/></a>\n ### What is this plugin for\n  - With this plugin,you can **create** a **invisible portal** that will **execute command** as **player** and **console** when someone **colliding it**\n ### How does this work\n  - The portal is just a coordination,you can place any block there or leave it empty (air)\n  - And when someone collide this coordination, they will trigger the portal to excute commands\n ### How to create portals\n  - Use `/fj aa` to create portal\n  - Use `/fj ra` to remove the portal (with all the settings)\n  - How to add commands,and mores, go to [Commands](#commands)\n  - There is also a video you can watch in the [Instroduce](#introduce)\n ### Why is it named footjob\n  - Because you need to walk into the portal to help the plugin work\n  - And you walk on foot\n<a align=\"center\"><img src=\"https://raw.githubusercontent.com/TungstenVn/FootJob/master/icon2.png\"></a>\n## Permisson\n  - Who has **footjob.permission** permission can use the commands only\n## Commands\n ### Type ``/fj help`` to see lists of commands\n ### SubCommands:\n  - ``/fj list`` to see lists of area\n  \n  **-`(name)` under is stand for area name.-**\n  - `/fj aa (name)` (aka /fj addarea) to create a area by breaking 2 block,and area will have a name you named\n  - `/fj acc (name) (text)` (/fj addconsolecommand) to add a command that'll be executed by console\n    > use exactly this word `{name}` as player name when the command excuted\n    \n\t> Ex: /fj acc randomAreaName give {name} apple 1\n  - `/fj apc (name) (text)` (/fj addplayercommand) to add a command that'll be executed by the player walked in the portal\n    > Ex: /fj apc randomAreaName hub\n  - `/fj ra (name)` (/fj removearea) to delete an area\n## Config.yml\n  - Go to config.yml to see all the area,commands on its area, easy editting her\n## Features\n  - [x] Create a portal that execute command as console and player when someone walks in\n  - [x] Simple sound effect\n  - [x] Update checker\n  - [ ] Particle\n  - [x] 100% perfect\n## Introduce\n - A video about the plugin:\n   \n   [![Youtube Introduce](https://img.youtube.com/vi/PN9MyWWC1Dg/0.jpg)](https://www.youtube.com/watch?v=PN9MyWWC1Dg)",
+  "readme_source_url": "https://github.com/TungstenVn/FootJob",
+  "icon_url": "https://raw.githubusercontent.com/TungstenVn/FootJob/95ee9bee38e3a30418df7131914ed14dadf6f873/icon.png",
+  "featured": false,
+  "repo": "https://github.com/TungstenVn/FootJob",
+  "archive_repo": null,
+  "approved_release_tag": "r-4914",
+  "stars": 3,
+  "total_downloads": 1275,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TungstenVn"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "20.5.30",
+      "tag": "r-4914",
+      "published_at": null,
+      "downloads": 1275,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4914/footjob-20.5.30-r4914.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4914",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4914/footjob-20.5.30-r4914.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FootJob",
+    "stable_release_id": 4914
+  }
+}

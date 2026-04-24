@@ -1,0 +1,82 @@
+{
+  "id": "jobui",
+  "name": "JobUI",
+  "author": "hamid0740",
+  "description": "__!!! IMPORTANT !!! if you have installed this plugin before, remove the folder then the new Yaml files will be created.__",
+  "readme_markdown": "# JobUI\n[![Plugin Status](https://poggit.pmmp.io/shield.state/JobUI)](https://poggit.pmmp.io/p/JobUI) [![Plugin Version](https://poggit.pmmp.io/shield.api/JobUI)](https://poggit.pmmp.io/p/JobUI) [![Downloads](https://poggit.pmmp.io/shield.dl/JobUI)](https://poggit.pmmp.io/p/JobUI) [![Total Downloads](https://poggit.pmmp.io/shield.dl.total/JobUI)](https://poggit.pmmp.io/p/JobUI)\n* __!!! IMPORTANT !!! if you have installed this plugin before, remove the `plugin_data/JobUI` folder then the new Yaml files will be created.__\n* __Simple Mode & Goal Mode Jobs are supported. By joining SimpleMode Jobs when you do 1 mission you will earn the specified money. By joining GoalMode Jobs when you complete the Goal you will earn the specified salary. You can change the Modes of jobs in `plugin_data/JobUI/jobs.yml`__\n* __Customisable and Infinite Jobs are supported. You can edit or add jobs in `plugin_data/JobUI/jobs.yml`.__\n* __Customisable Messages are supported. You can change them in `plugin_data/JobUI/messages.yml`__\n* I changed the default permissions to \"op\" to prevent earning money in a \"Build and Mine Protected World\" like Lobby.\n* You will learn how to let players Join Jobs and Earn Money only in a specified world, but before you need to install the PurePerms plugin.\n* Thanks to [@H3xmor](https://github.com/h3xmor) to help me on the line 486\n### Default Jobs\n* __Tree-Cutter:__ By joining this job, when you break any kind of logs with any directions you will earn 25$.\n* __Miner:__ By joining this job, when you break Stone you will earn 25$, when you break Coal Ore you will earn 30$ and when you break Iron Ore you will earn 35$.\n* __Hunter:__ By joining this job, when you kill a Mob(Animal or Monster) you will earn 30$.\n* __Murderer:__ By joining this job, when you kill a Player you will earn 50$.\n* __Tree-Cutter-Goal:__ By joining this job, when you break 20 Blocks of any kind of logs with any directions you will earn 500$.\n* __Miner-Goal:__ By joining this job, when you break 20 Blocks of Stone, Coal ore or Iron ore you will earn 600$.\n* __Hunter-Goal:__ By joining this job, when you kill 20 Mobs(Animal or Monster) you will earn 600$.\n* __Murderer-Goal:__ By joining this job, when you kill 20 Players you will earn 1000$.\n### Dependencies:\n* [EconomyAPI by onebone](https://poggit.pmmp.io/p/EconomyAPI/) [[Download]](https://poggit.pmmp.io/r/34531/EconomyAPI.phar) [[GitHub]](https://github.com/poggit-orphanage/EconomyS/) __(Required)__\n* [PurePerms by 64FF00](https://poggit.pmmp.io/p/PurePerms/) [[Download]](https://poggit.pmmp.io/r/70018/PurePerms.phar) [[GitHub]](https://github.com/poggit-orphanage/PurePerms/) (Optional)\n* [MineReset by falkirks](https://poggit.pmmp.io/p/MineReset/) [[Download]](https://poggit.pmmp.io/r/40667/MineReset.phar) [[GitHub]](https://github.com/falkirks/MineReset/) (Optional)\n* [PureEntitiesX by RevivalPMMP](https://poggit.pmmp.io/p/PureEntitiesX/) [[Download]](https://poggit.pmmp.io/r/93487/PureEntitiesX.phar) [[GitHub]](https://github.com/RevivalPMMP/PureEntitiesX/) (Optional)\n### How to let players Join Jobs and Earn Money only in a specified world?\n* As I said you need to install the PurePerms plugin.\n* __*Before completing the next steps, make sure that `enable-multiworld-perms` has been set to `true` in `plugin_data/PurePerms/config.yml`.*__\n* Open this file path `plugin_data/PurePerms/groups.yml`. Then the only thing that you should do is to add the world and permissions to the Group you want. I will give an example below:\n```yaml\n---\nGuest:\n  alias: gst\n  isDefault: true\n  inheritance: []\n  permissions:\n  worlds:\n    Mine:\n      isDefault: true\n      permissions:\n      - jobui.job.tree-cutter\n      - jobui.job.miner\n      - jobui.job.tree-cutter-goal\n      - jobui.job.miner-goal\n      - jobui.earn.break\n      - jobui.progress.break\n    Survival:\n      isDefault: true\n      permissions:\n      - jobui.job.hunter\n      - jobui.job.hunter-goal\n      - jobui.earn.hunter\n      - jobui.progress.hunter\n    PvP: \n      isDefault: true\n      permissions:\n      - jobui.job.murderer\n      - jobui.job.murderer-goal\n      - jobui.earn.murderer\n      - jobui.progress.murderer\n    \n...\n```\n* If a player is in the Guest group, he will be able to join \"Tree-Cutter\" & \"Miner\" & \"Tree-Cutter-Goal\" & \"Miner-Goal\" job only in the \"Mine\" world\n* If a player is in the Guest group, he will be able to join \"Hunter\" & \"Hunter-Goal\" job only in the \"Survival\" world\n* If a player is in the Guest group, he will be able to join \"Murderer\" & \"Murderer-Goal\" job only in the \"PvP\" world\n* Also, he will be able to earn money or increase the progress of a job by a \"Breaking\" MissionType only in the \"Mine\" world\n* Also, he will be able to earn money or increase the progress of a job by a \"Hunter\" MissionType only in the \"Survival\" world\n* Also, he will be able to earn money or increase the progress of a job by a \"Murderer\" MissionType only in the \"PvP\" world\n### Image\n![Image](http://www.mediafire.com/convkey/c57e/26ld17819ayjny3zg.jpg)\n### Video\n[![Video](https://img.youtube.com/vi/kkwxWiDJZ2k/0.jpg)](https://www.youtube.com/watch?v=kkwxWiDJZ2k)\n### To-Do list\n* [X] Adding Customizable feature for jobs, so that you will be able to add more jobs\n* [X] Adding Customizable feature for texts of the UI and every messages\n* [X] Adding Customizable feature for Button names and Images for JobJoinUI\n* [X] Adding \"Hunter\" & \"Murderer\" MissionType\n* [X] Adding Job Modes(Simple Mode and Goal Mode)\n### Permissions and Commands:\nPermission | Command | Default | About\n---------- | ------- | ------- | -----\njobui.* | - | op | Able to use all commands, all earning ways and join all of the jobs of JobUI plugin\njobui.job.* | - | op | Able to join all of the jobs\njobui.command.job | /job | true | Able to see the UI of the Jobs\njobui.command.retire | /retire | true | Able to be retired \njobui.earn.break | - | op | Able to earn money by a Breaking Job\njobui.earn.place | - | op | Able to earn money by a Placing Job\njobui.earn.hunter | - | op | Able to earn money by a Killing Mobs Job\njobui.earn.murderer | - | op | Able to increase the progress of a job by a Killing Players Job\njobui.progress.break | - | op | Able to increase the progress of a job by a Breaking Job\njobui.progress.place | - | op | Able to increase the progress of a job by a Placing Job\njobui.progress.hunter | - | op | Able to increase the progress of a job by a Killing Mobs Job\njobui.progress.murderer | - | op | Able to increase the progress of a job by a Killing Players Job\n* You can edit each Job permission in `plugin_data/JobUI/jobs.yml`",
+  "readme_source_url": "https://github.com/hamid0740/JobUI",
+  "icon_url": "https://raw.githubusercontent.com/hamid0740/JobUI/f731816ed57b1f703b4a898f2870f0075305b273/icon.png",
+  "featured": false,
+  "repo": "https://github.com/hamid0740/JobUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-5144",
+  "stars": 4,
+  "total_downloads": 12266,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.9.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": [
+      "MineReset",
+      "PurePerms",
+      "PureEntitiesX"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "hamid0740"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/100423",
+  "versions": {
+    "stable": {
+      "version": "2.3.6",
+      "tag": "r-5144",
+      "published_at": null,
+      "downloads": 11216,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5144/jobui-2.3.6-r5144.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5144",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5144/jobui-2.3.6-r5144.phar"
+    },
+    {
+      "tag": "r-5136",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5136/jobui-2.3.5-r5136.phar"
+    },
+    {
+      "tag": "r-5128",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5128/jobui-2.2.0-r5128.phar"
+    },
+    {
+      "tag": "r-5095",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5095/jobui-2.1.2-r5095.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "JobUI",
+    "stable_release_id": 5144
+  }
+}

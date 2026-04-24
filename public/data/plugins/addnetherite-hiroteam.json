@@ -1,0 +1,61 @@
+{
+  "id": "addnetherite-hiroteam",
+  "name": "AddNetherite-HiroTeam",
+  "author": "HiroshimaTeam",
+  "description": "[ENG] This is a PocketMine-MP (or forks) plugin which allows you to add netherite armor and tools on your server ! :grin:",
+  "readme_markdown": "# AddNetherite-HiroTeam\n![AddNetherite](https://zupimages.net/up/20/24/4988.png)\n---\n### About\n[ENG] This is a [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) (or forks) plugin which allows you to add netherite armor and tools on your server ! :grin:<br/><br/>\n[FRA] C'est un [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) plugin qui permet d'ajouter l'armure et les outils en netherite sur votre serveur ! :grin:\n\n---\n### How to use\n[ENG] Put the plugin in the plugin folder of your server and restart !\n\n[FRA] Mettre le plugin dans le dossier plugin de votre serveur et redémarrer !\n\n##### Here is the video:\n- AddNetherite Pocketmine plugin in [Youtube](https://youtu.be/Dc5FFznTi8I) !\n\n---\n### **This plugin was tested (and works) on:**\n\n- [x] **[PocketMine-MP](https://github.com/pmmp/PocketMine-MP)**\n---\n### **LordHosting Partner**\n\n- [ENG] Our team is in partnership with Lordhosting, Minecraft PE server Hosting, VPS hosting use reduction code __**HIROTEAM**__ 10% FREE </br>\n-> Website : https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/rRss47k </br>\n\n- [FRA] Notre équipe est en partenariat avec Lordhosting, hébergement de serveurs Minecraft PE, VPS utilise le code de réduction __**HIROTEAM**__ 10% DE REDUCTION </br>\n-> Site Web: https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/rRss47k </br>\n---\n### Contacts HiroTeam\n\n- **Discord Member:** WillyDuGang#6947 RomainSav#9558\n- **Discord Server:** :link:  https://discord.gg/WuwsuUA<br/>\n- **E-mail:** team.hiroshima.dev@gmail.com<br/>\n- **Our PocketMine Server** :link:  https://hirovote.eu<br/>\n\n> ![HiroTeam](https://www.zupimages.net/up/20/25/mb59.png) </br>\n> ![HiroTeam](https://cdn.discordapp.com/attachments/701520774598492220/723269120992215080/PicsArt_06-18-10.13.13.png)\n---\n### License\nThis plugin is licensed under the [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)\n\n>This program is free software: you can redistribute it and/or modify<br/>\n>it under the terms of the GNU General Public License as published by<br/>\n>the Free Software Foundation, either version 3 of the License, or<br/>\n>(at your option) any later version.<br/>\n>\n>This program is distributed in the hope that it will be useful,<br/>\n>but WITHOUT ANY WARRANTY; without even the implied warranty of<br/>\n>MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the<br/>\n>GNU General Public License for more details.<br/>\n>\n>You should have received a copy of the GNU General Public License<br/>\n>along with this program.  If not, see http://www.gnu.org/licenses/\n---\n### Author\n- **Discord:** Mentagess#2058",
+  "readme_source_url": "https://github.com/HiroshimaTeam/AddNetherite-HiroTeam",
+  "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/AddNetherite-HiroTeam/da19226b8601abb48668555ae8a74aff8170e342/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HiroshimaTeam/AddNetherite-HiroTeam",
+  "archive_repo": null,
+  "approved_release_tag": "r-5017",
+  "stars": 4,
+  "total_downloads": 12444,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HiroshimaTeam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-5017",
+      "published_at": null,
+      "downloads": 12444,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5017/addnetherite-hiroteam-2.0.0-r5017.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5017",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5017/addnetherite-hiroteam-2.0.0-r5017.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AddNetherite-HiroTeam",
+    "stable_release_id": 5017
+  }
+}

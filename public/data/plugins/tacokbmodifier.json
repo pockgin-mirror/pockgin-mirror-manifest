@@ -1,0 +1,66 @@
+{
+  "id": "tacokbmodifier",
+  "name": "TacoKbModifier",
+  "author": "TWRRR",
+  "description": "Edit The Knockback Players Take When PvPing On Your Server",
+  "readme_markdown": "<p><a href=\"https://poggit.pmmp.io/p/TacoKbModifier\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/32ac5454b3db99277a600c76e5032029d2621eb6/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f5461636f4b624d6f646966696572\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.state/TacoKbModifier\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/TacoKbModifier\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/7a9fdb32dec273b2631950bbcd3cbf352eb6fb46/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f5461636f4b624d6f646966696572\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/TacoKbModifier\" style=\"max-width:100%;\"></a></p>\n<h1>\n<a id=\"user-content-tacokbmodifier\" class=\"anchor\" href=\"#tacokbmodifier\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>TacoKbModifier</h1>\n<p>Edit The Knockback Players Take When PvPing On Your Server</p>\n<p>Comes with Config file</p>\n<p>Doesnt Cause Lag</p>\n<p>UPDATE: 1.0.0 -&gt; 1.0.1</p>\n<ul>\n<li>Per-World Support</li>\n</ul>",
+  "readme_source_url": "https://poggit.pmmp.io/r/99537",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/TWRRR/TacoKbModifier",
+  "archive_repo": null,
+  "approved_release_tag": "r-5090",
+  "stars": 5,
+  "total_downloads": 853,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TWRRR"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/99539",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-5090",
+      "published_at": null,
+      "downloads": 739,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5090/tacokbmodifier-1.0.1-r5090.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5090",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5090/tacokbmodifier-1.0.1-r5090.phar"
+    },
+    {
+      "tag": "r-5050",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5050/tacokbmodifier-1.0.0-r5050.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TacoKbModifier",
+    "stable_release_id": 5090
+  }
+}

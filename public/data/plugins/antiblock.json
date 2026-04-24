@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11265",
   "stars": 0,
-  "total_downloads": 745,
+  "total_downloads": 2595,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-11265",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11265/antiblock-1.0.1-r11265.phar"
+    },
+    {
+      "tag": "r-5057",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5057/antiblock-1.0.0-r5057.phar"
     }
   ],
   "comments": {

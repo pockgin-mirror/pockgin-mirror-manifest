@@ -1,0 +1,61 @@
+{
+  "id": "xgtantixray",
+  "name": "XGTAntiXRay",
+  "author": "XGDavid",
+  "description": "Description",
+  "readme_markdown": "# XGTAntiXRay\n\n## Description\n\n\nThis is a PocketMine Plugin.\n\nThis plugin notifies the staff when someone breaks an ore\n\n## How to install\n\n1. Install plugin\n\n2. Stop/start server\n\n3. Edit config\n\n4. Restart server\n\n5. Have FUN!\n\n\n## Features\n- [X] Config\n\n- [X] Costom Warnings(Place/Break)\n\n\n## Permissions\n\nBreak\n\n  xgtantixray.break\n\nPlace\n\n  xgtantixray.place\n\n## Other\n\n[![Discord](https://img.shields.io/discord/689211475537297411?logo=discord)](https://discord.gg/h8uTKFh)\n\n[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/XGDavid)\n\n\n## Config\n\n```\n# 0 = false\n# 1 = true\n\n# Event | Select when to send a warning\nBreak: 1 \nPlace: 0\n\n# Ores | Select the type of ore to send a warning\nIronOre: 0\nCoalOre: 0\nGoldOre: 0\nRedstoneOre: 0\nLapisOre: 1\nEmeraldOre: 0\nDiamondOre: 1\n```",
+  "readme_source_url": "https://github.com/XGDavid/XGTAntiXRay",
+  "icon_url": "https://raw.githubusercontent.com/XGDavid/XGTAntiXRay/87d98835b59b147492d777c2db1bf655713363db/xgtantixray.png",
+  "featured": false,
+  "repo": "https://github.com/XGDavid/XGTAntiXRay",
+  "archive_repo": null,
+  "approved_release_tag": "r-4898",
+  "stars": 3,
+  "total_downloads": 1812,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.14.1-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "XGDavid"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-4898",
+      "published_at": null,
+      "downloads": 1812,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4898/xgtantixray-1.0.0-r4898.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4898",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4898/xgtantixray-1.0.0-r4898.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "XGTAntiXRay",
+    "stable_release_id": 4898
+  }
+}

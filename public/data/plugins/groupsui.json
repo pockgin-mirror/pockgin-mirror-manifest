@@ -1,0 +1,69 @@
+{
+  "id": "groupsui",
+  "name": "GroupsUI",
+  "author": "ChampOfGames",
+  "description": "What you can do:",
+  "readme_markdown": "# GroupsUI\n<a href=\"https://poggit.pmmp.io/p/GroupsUI\"><img src=\"https://poggit.pmmp.io/shield.state/GroupsUI\"></a>\n<a href=\"https://poggit.pmmp.io/p/GroupsUI\"><img src=\"https://poggit.pmmp.io/shield.api/GroupsUI\"></a>\n<a href=\"https://poggit.pmmp.io/p/GroupsUI\"><img src=\"https://poggit.pmmp.io/shield.dl.total/GroupsUI\"></a>\n<a href=\"https://poggit.pmmp.io/p/GroupsUI\"><img src=\"https://poggit.pmmp.io/shield.dl/GroupsUI\"></a>\n\n\n## What you can do:\n - Create/Remove Groups\n - Change the nametag or the format of a group\n - Add/Remove Permission from a group\n - Change the group of an online player\n\n## Permissions\n - gropsui.use (Allows to use /groupsui)\n - Every feature in the UI depends on the permissions of PurePerms/PureChat.\n\n## Want to report something or you have an idea?\n\nJust open an [issue](https://github.com/ChampOfGames/GroupsUI/issues) or contact me on Discord ChampOfGames#8712.\n\n## Dependencies\n - PurePerms\n - PureChat\n - FormAPI\n\n## Picture\n\n![GroupsUI](https://github.com/ChampOfGames/GroupsUI/blob/master/GroupsUI.png \"GroupsUI\")",
+  "readme_source_url": "https://github.com/ChampOfGames/GroupsUI",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/ChampOfGames/GroupsUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-5129",
+  "stars": 3,
+  "total_downloads": 5690,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "PureChat",
+      "PurePerms"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ChampOfGames"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/100055",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-5129",
+      "published_at": null,
+      "downloads": 5168,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5129/groupsui-1.2.0-r5129.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5129",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5129/groupsui-1.2.0-r5129.phar"
+    },
+    {
+      "tag": "r-4960",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4960/groupsui-1.1.0-r4960.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GroupsUI",
+    "stable_release_id": 5129
+  }
+}

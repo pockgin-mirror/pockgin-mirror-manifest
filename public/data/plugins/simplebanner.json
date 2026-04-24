@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6520",
   "stars": 0,
-  "total_downloads": 798,
+  "total_downloads": 1487,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-6520",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6520/simplebanner-0.1.1-r6520.phar"
+    },
+    {
+      "tag": "r-4969",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4969/simplebanner-0.1.0-r4969.phar"
     }
   ],
   "comments": {

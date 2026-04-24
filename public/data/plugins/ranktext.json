@@ -1,0 +1,63 @@
+{
+  "id": "ranktext",
+  "name": "RankText",
+  "author": "alvin0319",
+  "description": "A PocketMine-MP Plugin - RankText",
+  "readme_markdown": "# RankText\nA PocketMine-MP Plugin - RankText\n\n# Usage\n\n|command|permission|usage|description\n|---|---|---|---|\n|/ranktext|ranktext.command.use|/ranktext|Create a ranktext|\n\n# License\nThis plugin uses onebone's EconomyAPI, so This plugin is affected by GPL v3.0\n\n# Picture\n![image](https://raw.githubusercontent.com/alvin0319/RankText/master/icon.gif)",
+  "readme_source_url": "https://github.com/alvin0319/RankText",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/alvin0319/RankText",
+  "archive_repo": null,
+  "approved_release_tag": "r-4872",
+  "stars": 3,
+  "total_downloads": 6828,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "alvin0319"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-4872",
+      "published_at": null,
+      "downloads": 6828,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4872/ranktext-1.0.0-r4872.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4872",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4872/ranktext-1.0.0-r4872.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RankText",
+    "stable_release_id": 4872
+  }
+}

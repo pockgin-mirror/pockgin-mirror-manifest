@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6825",
   "stars": 3,
-  "total_downloads": 1002,
+  "total_downloads": 1673,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-6551",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6551/commandfix-1.0.1-r6551.phar"
+    },
+    {
+      "tag": "r-5203",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5203/commandfix-1.0.0-r5203.phar"
     }
   ],
   "comments": {

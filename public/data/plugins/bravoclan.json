@@ -1,0 +1,71 @@
+{
+  "id": "bravoclan",
+  "name": "BravoClan",
+  "author": "Itzdvbravo",
+  "description": "This is a simple clan plugin, it was made because there is very few (or no) working clan plugin without claims, just simple grouping system with levels.",
+  "readme_markdown": "<p>This is a simple clan plugin, it was made because there is very few (or no) working clan plugin without claims, just simple grouping system with levels.</p>\n<h3>\n<a id=\"user-content-features\" class=\"anchor\" href=\"#features\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Features</h3>\n<ul>\n<li>[x] Pvp-wise the clan plugin will work only in the worlds given in config.yml</li>\n<li>[x] <a href=\"https://github.com/JackMD/ScoreHud-Addons\">Scorehud compatible</a>\n</li>\n<li>[x] Clan system, obviously.</li>\n<li>[x] Earn XP on kill, Lose XP on death</li>\n<li>[x] Level up after you reach a certian XP <a href=\"https://github.com/Itzdvbravo/BravoClan/blob/master/README.md#clan-system\">Click Here for how the system works</a>\n</li>\n<li>[x] Get more space for clan members as you level up</li>\n<li>[x] Get clan info, clan member info.</li>\n<li>[x] Clan chat</li>\n</ul>\n<h3>\n<a id=\"user-content-clan-system\" class=\"anchor\" href=\"#clan-system\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Clan System</h3>\n<ul>\n<li>\n<strong>Level System</strong><br>\nThe clan level system is quite simple, you kill to get xp, to level up and die to lose xp and level down, now when you gain xp and level up, after every 5 level you can unlock certain amount of gang member space in the gang.</li>\n</ul>\n<p>When a clan is just made, it needs certain amount of starting xp to level up, and after they reach level two you can basically set the amount of xp needed to levelup to the next level. The clan starts off with a certain amount of member limit.</p>\n<ul>\n<li>\n<strong>Rank System</strong><br>\nThere are only two ranks in the clan, leader and members.</li>\n</ul>\n<h3>\n<a id=\"user-content-commands\" class=\"anchor\" href=\"#commands\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Commands</h3>\n<table>\n<thead>\n<tr>\n<th>Command</th>\n<th>Description</th>\n<th>Leader Only</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>/clan create</code></td>\n<td>Create a clan if you aren't already in a clan</td>\n<td><code>No</code></td>\n</tr>\n<tr>\n<td><code>/clan invite</code></td>\n<td>Invite members to your clan</td>\n<td><code>Yes</code></td>\n</tr>\n<tr>\n<td><code>/clan accept</code></td>\n<td>Accept an invitation from a clan</td>\n<td><code> No</code></td>\n</tr>\n<tr>\n<td><code>/clan chat</code></td>\n<td>Join your clan chat</td>\n<td><code>No</code></td>\n</tr>\n<tr>\n<td><code>/clan info</code></td>\n<td>Get your or others clan info</td>\n<td><code>No</code></td>\n</tr>\n<tr>\n<td><code>/clan members</code></td>\n<td>Get member info of your or others clan.</td>\n<td><code>No</code></td>\n</tr>\n<tr>\n<td><code>/clan kick</code></td>\n<td>Invite members to your clan</td>\n<td><code>Yes</code></td>\n</tr>\n<tr>\n<td><code>/clan delete</code></td>\n<td>Delete your clan</td>\n<td><code>Yes</code></td>\n</tr>\n<tr>\n<td><code>/clan leave</code></td>\n<td>Leave your clan</td>\n<td><code>Member Only</code></td>\n</tr>\n<tr>\n<td><code>/clan top</code></td>\n<td>Get top 10 clans</td>\n<td><code>No</code></td>\n</tr>\n</tbody>\n</table>\n<h3>\n<a id=\"user-content-upcoming-projects\" class=\"anchor\" href=\"#upcoming-projects\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Upcoming Projects</h3>\n<ul>\n<li>[x] More configurable</li>\n<li>[x] More efficient member limit system</li>\n<li>[] Uh idk XD</li>\n</ul>",
+  "readme_source_url": "https://poggit.pmmp.io/r/100801",
+  "icon_url": "https://raw.githubusercontent.com/Itzdvbravo/BravoClan/85a057cf12da2462b5cf9e54c5f493e16315b23d/new.png",
+  "featured": false,
+  "repo": "https://github.com/Itzdvbravo/BravoClan",
+  "archive_repo": null,
+  "approved_release_tag": "r-5178",
+  "stars": 3,
+  "total_downloads": 7582,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.14.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Itzdvbravo"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/100803",
+  "versions": {
+    "stable": {
+      "version": "1.2",
+      "tag": "r-5178",
+      "published_at": null,
+      "downloads": 6665,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5178/bravoclan-1.2-r5178.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5178",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5178/bravoclan-1.2-r5178.phar"
+    },
+    {
+      "tag": "r-4931",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4931/bravoclan-1.1-r4931.phar"
+    },
+    {
+      "tag": "r-4850",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4850/bravoclan-1.0-r4850.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BravoClan",
+    "stable_release_id": 5178
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "status",
+  "name": "status",
+  "author": "Arcoz0308",
+  "description": "⚠️ ARCHIVED ⚠️",
+  "readme_markdown": "# ⚠️ ARCHIVED ⚠️\n\nthis repo is no longer maintained\n\n# pmmp-status\n\n[![](https://poggit.pmmp.io/shield.state/Status)](https://poggit.pmmp.io/p/Status) [![](https://poggit.pmmp.io/shield.dl/status)](https://poggit.pmmp.io/p/status)\n\n## general\nthis plugin adds status to your server for more fun like discord status\n\n## table of contents\n* [setup](#setup)\n* [commands](#commands)\n* [permissions](#permissions)\n* [scorehud addon](https://github.com/arclegrandroi/status-ScoreHud-adddon)\n* [developer](#developer)\n  * [list of functions](#list-of-functions)\n\n\n## setup\n1. download the plugin\n2. put the plugin in your server\n3. start your server\n4. enjoy\n\n## commands \n| command | description | permissions | aliases(soon) |\n| --- | --- | --- | --- |\n| `/mystatus` | get your status | `status.mystatus.cmd` |\n| `/setstatus` | get your status | `status.setstatus.cmd` |\n| `/getstatus` | get a status of a player | `status.getstatus.cmd` |\n| `/adminsetstatus` | set the status of a player | `status.adminsetstatus.cmd` |\n\n## permissions\n| permission | description | default |\n| --- | --- | --- |\n| `status.all` | all feature of the plugin | **op** |\n| `status.mystatus.cmd` | allow to use `/mystatus` | **true** |\n| `status.setstatus.cmd` | allow to use `/setstatus` | **true** |\n| `status.getstatus.cmd` | allow to use `/getstatus` | **true** |\n| `status.adminsetstatus.cmd` | allow to use `/adminsetstatus` | **op** |\n\n## developer\n you can have access to status whit `Status::getInstance();`\n\n* example\n```php\n Status::getInstance()->getStatus($player);\n ```\n ### list of functions\n * `setStatus($player, $status)` set a status to $player\n * `delStatus($player)` remove the status of a player\n * `getStatus($player)` get the status of $player",
+  "readme_source_url": "https://github.com/Arcoz0308/pmmp-status",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Arcoz0308/pmmp-status",
+  "archive_repo": null,
+  "approved_release_tag": "r-4886",
+  "stars": 4,
+  "total_downloads": 2529,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Arcoz0308"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-4886",
+      "published_at": null,
+      "downloads": 2529,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4886/status-1.0.0-r4886.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4886",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4886/status-1.0.0-r4886.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "status",
+    "stable_release_id": 4886
+  }
+}

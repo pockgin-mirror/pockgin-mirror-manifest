@@ -1,0 +1,61 @@
+{
+  "id": "hubdelay",
+  "name": "HubDelay",
+  "author": "sProDev",
+  "description": "Teleport to the hub with a delay.",
+  "readme_markdown": "# HubDelay\nTeleport to the hub with a delay.\n\nthis is the PocketMine-MP Plugin to teleport player to a hub with a delay.\n\n## Requirements\nPocketMine-MP API 3.0.0\n\n## How does this work?\nBasically the `/hub` command will teleport the player to the default world and the default spawn.\nSo, you only need to change the contents of the **level-name** variable in the _server.properties_ file to be the name of your world lobby. and execute the `/setworldspawn` command on your world lobby server.\n\n## Command\n- `/hub` - Back to hub with a delay.\n\n## Future Additions\n- [X] Creating config files\n- [X] Customize the time to delay to the hub\n- [X] Cooldown for command execution (custom delay + 5)\n- [ ] Added `/sethub` command to make it easier to set the position / location of the hub / lobby\n- [ ] Add custom aliases that can be set in the config file",
+  "readme_source_url": "https://github.com/sProDev/HubDelay",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/sProDev/HubDelay",
+  "archive_repo": null,
+  "approved_release_tag": "r-5010",
+  "stars": 3,
+  "total_downloads": 5868,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "sProDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-5010",
+      "published_at": null,
+      "downloads": 5868,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5010/hubdelay-1.0.0-r5010.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5010",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5010/hubdelay-1.0.0-r5010.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HubDelay",
+    "stable_release_id": 5010
+  }
+}

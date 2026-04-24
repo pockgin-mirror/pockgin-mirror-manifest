@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8226",
   "stars": 5,
-  "total_downloads": 2344,
+  "total_downloads": 3862,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -64,6 +64,11 @@
       "tag": "r-7373",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7373/playertags-1.1.0-r7373.phar"
+    },
+    {
+      "tag": "r-4936",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4936/playertags-1.0.9-r4936.phar"
     }
   ],
   "comments": {
