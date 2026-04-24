@@ -1,0 +1,61 @@
+{
+  "id": "simplesleep",
+  "name": "SimpleSleep",
+  "author": "brokiem",
+  "description": "Description",
+  "readme_markdown": "<h1>SimpleSleep<img src=\"https://github.com/brokiem/SimpleSleep/blob/master/assets/logo.PNG\" height=\"64\" width=\"64\" align=\"left\" alt=\"\"></h1><br>\n\n[![License](https://img.shields.io/github/license/brokiem/SimpleSleep)](https://github.com/brokiem/SimpleSleep)\n[![Poggit](https://poggit.pmmp.io/shield.state/SimpleSleep)](https://poggit.pmmp.io/p/SimpleSleep)\n[![Poggit](https://poggit.pmmp.io/shield.dl.total/SimpleSleep)](https://poggit.pmmp.io/p/SimpleSleep)\n[![Star](https://img.shields.io/github/stars/brokiem/SimpleSleep)](https://github.com/brokiem/SimpleSleep/stargazers) <br>\n\n### Description\nThis plugin aims to improve sleeping in multiplayer by only having a certain percentage of players sleep.\n\n### Features\n- Set minimum players to sleep so that the time is morning\n- Custom messages, sleep duration, and minimal players to sleep\n- Fully maintained\n\n### Commands\n| Command | Description | Permission | Default |\n| --- | --- | --- | --- |\n| ```/simplesleep reload``` | ```Reload SimpleSleep config``` | ```simplesleep.command``` | op |\n\n### Issues\nIf you find issues, please create issues [here](https://github.com/brokiem/SimpleSleep/issues/new)\n\n### Config\n```yaml\n######## SimpleSleep Configuration File ########\n# Enabled world for sleep to trigger event\nenable-all-worlds: true\n# If \"enable-all-worlds\" is false, set your folder world name below\nenabled-worlds:\n  - \"world\"\n  - \"world2\"\n# Sleep duration in tick (20 ticks = 1 second)\nsleep-duration: 100 # mean 5 seconds\n# Minimum players to change time\nminimal-players: 1\n# Message type (Value: \"message\", \"actionbar\")\nmessage-type: \"actionbar\"\n# Sleep Messages\non-enter-bed-message: \"{player} is sleeping!\"\n```",
+  "readme_source_url": "https://github.com/brokiem/SimpleSleep",
+  "icon_url": "https://raw.githubusercontent.com/brokiem/SimpleSleep/d3c50979f9283fe79556350574e594b4b5cfb8d3/assets/logo.PNG",
+  "featured": false,
+  "repo": "https://github.com/brokiem/SimpleSleep",
+  "archive_repo": null,
+  "approved_release_tag": "r-5970",
+  "stars": 5,
+  "total_downloads": 1256,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.14.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "brokiem"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-5970",
+      "published_at": null,
+      "downloads": 1256,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5970/simplesleep-1.0.0-r5970.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5970",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5970/simplesleep-1.0.0-r5970.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleSleep",
+    "stable_release_id": 5970
+  }
+}

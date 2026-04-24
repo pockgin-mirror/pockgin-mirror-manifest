@@ -1,0 +1,61 @@
+{
+  "id": "nichiwikipmmp",
+  "name": "NichiWikiPMMP",
+  "author": "MadeAja",
+  "description": "This simple plugin can search for information on wikipedia on minecraft",
+  "readme_markdown": "# NichiWikiPMMP\n  \nThis simple plugin can search for information on wikipedia on minecraft\n\n\n\n# Commands:\n- /wiki : Open Form Search",
+  "readme_source_url": "https://github.com/MadeAja/NichiWikiPMMP",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/MadeAja/NichiWikiPMMP",
+  "archive_repo": null,
+  "approved_release_tag": "r-5993",
+  "stars": 5,
+  "total_downloads": 171,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MadeAja"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-5993",
+      "published_at": null,
+      "downloads": 171,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5993/nichiwikipmmp-1.0-r5993.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5993",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5993/nichiwikipmmp-1.0-r5993.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NichiWikiPMMP",
+    "stable_release_id": 5993
+  }
+}

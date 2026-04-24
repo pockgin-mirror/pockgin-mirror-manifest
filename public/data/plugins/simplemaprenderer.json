@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7908",
   "stars": 4,
-  "total_downloads": 373,
+  "total_downloads": 904,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-7908",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7908/simplemaprenderer-1.0.4-r7908.phar"
+    },
+    {
+      "tag": "r-5802",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5802/simplemaprenderer-1.0.1-r5802.phar"
     }
   ],
   "comments": {

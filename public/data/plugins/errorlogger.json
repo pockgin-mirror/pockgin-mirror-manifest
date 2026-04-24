@@ -1,0 +1,61 @@
+{
+  "id": "errorlogger",
+  "name": "ErrorLogger",
+  "author": "VixikHD",
+  "description": "Simple plugin that logs internal server errrors",
+  "readme_markdown": "# ErrorLogger\n Simple plugin that logs internal server errrors\n\n## Commands:\n- /err list : Shows all the logged errors\n- /err show : Shows information about error\n- /err save : Saves all the logged errors to disk\n- /err remove : Marks error as fixed\n- /err cause : Causes test error",
+  "readme_source_url": "https://github.com/VixikHD/ErrorLogger",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/VixikHD/ErrorLogger",
+  "archive_repo": null,
+  "approved_release_tag": "r-5971",
+  "stars": 5,
+  "total_downloads": 1585,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.16.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "VixikHD"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-5971",
+      "published_at": null,
+      "downloads": 1585,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5971/errorlogger-1.0-r5971.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5971",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5971/errorlogger-1.0-r5971.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ErrorLogger",
+    "stable_release_id": 5971
+  }
+}

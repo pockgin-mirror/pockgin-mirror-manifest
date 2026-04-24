@@ -1,0 +1,61 @@
+{
+  "id": "vanillapickblock",
+  "name": "VanillaPickBlock",
+  "author": "presentkim-pm",
+  "description": "Make PickBlock work the same as vanilla.",
+  "readme_markdown": "# VanillaPickBlock\nMake PickBlock work the same as vanilla.\n<div align=\"center\">  \n  <img src=\"assets/title.svg\"><br>  \n  <h1><img src=\"https://views.whatilearened.today/views/github/PresentKim/VanillaPickBlock.svg?style=for-the-badge\" height=\"24\" align=\"right\"></h1><br>  \n  <br>  \n  <img src=\"https://img.shields.io/github/stars/PresentKim/VanillaPickBlock?style=for-the-badge\" height=\"24\">  \n  <img src=\"https://img.shields.io/github/license/PresentKim/VanillaPickBlock.svg?style=for-the-badge\" height=\"24\">  \n  <h1><strong> Make PickBlock work the same as vanilla. </strong></h1><br>  \n</div>  \n\n# Deprecated\nPocketMine-MP has been modified to work like this\nSo you no longer need this plugin.",
+  "readme_source_url": "https://github.com/presentkim-pm/VanillaPickBlock",
+  "icon_url": "https://raw.githubusercontent.com/PresentKim/VanillaPickBlock/1e31cbf67c4e27a7ea40223d3c0e7fa4c651c31e/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/presentkim-pm/VanillaPickBlock",
+  "archive_repo": null,
+  "approved_release_tag": "r-5747",
+  "stars": 4,
+  "total_downloads": 1060,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "presentkim-pm"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-5747",
+      "published_at": null,
+      "downloads": 1060,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5747/vanillapickblock-1.1.0-r5747.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5747",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5747/vanillapickblock-1.1.0-r5747.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VanillaPickBlock",
+    "stable_release_id": 5747
+  }
+}

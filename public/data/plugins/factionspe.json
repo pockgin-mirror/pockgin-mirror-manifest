@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6451",
   "stars": 0,
-  "total_downloads": 4831,
+  "total_downloads": 6830,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -39,13 +39,34 @@
       "downloads": 4831,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6451/factionspe-1.4.23-r6451.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "1.4.22",
+      "tag": "r-5838",
+      "published_at": null,
+      "downloads": 1555,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5838/factionspe-1.4.22-r5838.phar"
+    }
   },
   "recent_builds": [
     {
       "tag": "r-6451",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6451/factionspe-1.4.23-r6451.phar"
+    },
+    {
+      "tag": "r-5838",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5838/factionspe-1.4.22-r5838.phar"
+    },
+    {
+      "tag": "r-5832",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5832/factionspe-1.4.2-r5832.phar"
+    },
+    {
+      "tag": "r-5794",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5794/factionspe-1.4.1-r5794.phar"
     }
   ],
   "comments": {

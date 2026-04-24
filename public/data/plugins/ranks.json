@@ -1,0 +1,63 @@
+{
+  "id": "ranks",
+  "name": "Ranks",
+  "author": "IvanCraft623",
+  "description": "Download",
+  "readme_markdown": "# Ranks\n[![](https://poggit.pmmp.io/shield.state/Ranks)](https://poggit.pmmp.io/p/Ranks)\n[![](https://poggit.pmmp.io/shield.api/Ranks)](https://poggit.pmmp.io/p/Ranks)\n[![](https://poggit.pmmp.io/shield.dl.total/Ranks)](https://poggit.pmmp.io/p/Ranks)\n\n[Download](https://poggit.pmmp.io/r/112465/Ranks.phar)\n\nRanks by IvanCraft623 is a plugin that with conjunction of [PurePerms](https://github.com/poggit-orphanage/PurePerms/) allow set Temporal Ranks to players.\nIt is necessary have the [PurePerms](https://github.com/poggit-orphanage/PurePerms/) plugin!\n\n# Commands\nCommand | Description | Permission\n--- | --- | ---\n`/ranks settemprank <player> <rank> <time in days>` | Set a TempRank to a player. | ranks.cmd.settemprank\n`/ranks createcode <code> <rank> <max uses> <time in days>` | Create a code to claim a rank. | ranks.cmd.createcode\n`/ranks deletecode <code>` | Delete a code. | ranks.cmd.deletecode\n`/ranks manage` | Open an UI to manage. | ranks.cmd.manage\n`/ranks claim` | Open an UI to claim a code | None\n\n# Config\n\n``` YAML\n\n#Ranks by IvanCraft623 (Twitter: @IvanCraft623)\n\n#Do not edit this value, only internal use\nConfig Version: 1.0.0\n\n#Behaviour when a rank expires\n# - setdefaultrank: When a rank expires the player will be set to the default rank\n# - setlastrank: When a rank expires the player will be given the rank he had previously\nmode: setlastrank\n\n#Custom messages coming soon... :D\n```\n\n# Features\n\n- You can set Temporal Ranks to players!\n- You can add codes to claim temporal ranks!\n- If when you are creating a code you set code \"random\" a random code will be generated",
+  "readme_source_url": "https://github.com/IvanCraft623/Ranks",
+  "icon_url": "https://raw.githubusercontent.com/IvanCraft623/Ranks/08b9f80772a1a54aadd9bd5949ec1e30c253e667/icon.png",
+  "featured": false,
+  "repo": "https://github.com/IvanCraft623/Ranks",
+  "archive_repo": null,
+  "approved_release_tag": "r-5797",
+  "stars": 5,
+  "total_downloads": 3908,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "PurePerms"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "IvanCraft623"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-5797",
+      "published_at": null,
+      "downloads": 3908,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5797/ranks-1.0.3-r5797.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5797",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5797/ranks-1.0.3-r5797.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Ranks",
+    "stable_release_id": 5797
+  }
+}

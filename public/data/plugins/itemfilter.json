@@ -1,0 +1,61 @@
+{
+  "id": "itemfilter",
+  "name": "ItemFilter",
+  "author": "Shelly7w7",
+  "description": "Item filteration by Shelly!",
+  "readme_markdown": "# ItemFilter\r\nItem filteration by Shelly!\r\n\r\n| HitCount | Poggit |\r\n|:--:|:--:|\r\n[![HitCount](http://hits.dwyl.io/Shelly7w7/ItemFilter.svg)](http://hits.dwyl.io/Shelly7w7/ItemFilter)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/Shelly7w7/ItemFilter/ItemFilter)](https://poggit.pmmp.io/ci/Shelly7w7/ItemFilter/ItemFilter)\r\n\r\n## Where to download a compiled version?\r\n\r\nYou can get the latest compiled version [here.](https://poggit.pmmp.io/ci/Shelly7w7/ItemFilter)\r\n\r\n### How to install?\r\n\r\nAfter downloading the compiled version from poggit, simply put the file in your server directory (``/plugins``)\r\n\r\n### How does this work?\r\n\r\nPlayers can decide if they want to pickup items or not by simply typing a command ``/itemfilter``\r\n\r\nThis requires permission ``itemfilter.use``\r\n\r\n### How to configure?\r\n\r\nNot much configuration, server operator can decide if pop-ups should appear when player decides to pickup items whilst item filter being enabled.\r\n\r\n## Suggestions and Issues\r\n\r\nYou can simply open an issue if you want to suggest anything.\r\n\r\nYou can simply open an issue if you find any bugs and I'll try to fix it as soon as possible!",
+  "readme_source_url": "https://github.com/Shelly7w7/ItemFilter",
+  "icon_url": "https://raw.githubusercontent.com/Shelly7w7/ItemFilter/d5ce875c2a296b49143317d55fb838faefe899ad/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Shelly7w7/ItemFilter",
+  "archive_repo": null,
+  "approved_release_tag": "r-5805",
+  "stars": 4,
+  "total_downloads": 292,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Shelly7w7"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-5805",
+      "published_at": null,
+      "downloads": 292,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5805/itemfilter-1.0.0-r5805.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5805",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5805/itemfilter-1.0.0-r5805.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemFilter",
+    "stable_release_id": 5805
+  }
+}

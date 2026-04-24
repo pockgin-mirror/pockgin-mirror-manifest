@@ -1,0 +1,61 @@
+{
+  "id": "simplecape",
+  "name": "SimpleCape",
+  "author": "padreon",
+  "description": "Cape Plugin for PMMP",
+  "readme_markdown": "# SimpleCape\nCape Plugin for PMMP\n\n\n![](icon.png)\n### How To Use?\n1. enable gd lib\n2. add cape file (png) to directory plugin_data/SimpleCape\n\n## Commands\n1. command for player /cape [name_of_cape | remove]\n2. use command for admin /cape [name_of_cape | remove] [target user]\n\n### Permissions\n1. simplecape.admin = set or remove cape for another player (admin)\n2. simplecape.name.(NameOfCape) = permission player per cape [Example: simplecape.name.diamond]\n\n### QnA\nQ: How to enable GD?\\\nA: Read this [Windows](https://forums.pmmp.io/threads/gd-on-php.6532/) or [Linux](https://forums.pmmp.io/threads/how-to-install-gd-lib-in-php-binary.4372/)",
+  "readme_source_url": "https://github.com/padreon/SimpleCape",
+  "icon_url": "https://raw.githubusercontent.com/padreon/SimpleCape/364b1f456c77a6b4bce3c9bc8eb26a53a3d2e804/icon.png",
+  "featured": false,
+  "repo": "https://github.com/padreon/SimpleCape",
+  "archive_repo": null,
+  "approved_release_tag": "r-5961",
+  "stars": 4,
+  "total_downloads": 4120,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "padreon"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-5961",
+      "published_at": null,
+      "downloads": 4120,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5961/simplecape-1.0.0-r5961.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5961",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5961/simplecape-1.0.0-r5961.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleCape",
+    "stable_release_id": 5961
+  }
+}

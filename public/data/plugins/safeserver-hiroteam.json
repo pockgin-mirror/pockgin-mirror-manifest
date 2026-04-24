@@ -1,0 +1,61 @@
+{
+  "id": "safeserver-hiroteam",
+  "name": "SafeServer-HiroTeam",
+  "author": "HiroshimaTeam",
+  "description": "secure your server by registering xuids",
+  "readme_markdown": "# SafeServer-HiroTeam\n->secure your server by registering xuids\n---\n### About\n[ENG] This is a [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) (or forks) plugin to secure your server by registering xuids ! :grin:<br/>\nThis plugin records the unique xuid of an xbox account and associates it with the nickname. Thus, an another xbox account cannot connect to the account of an existing nickname ! <br/>\n<br/>\n[FRA] C'est un [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) plugin qui sécurise ton serveur en enregistrant les xuids ! :grin: <br/>\nCe plugin enregistre le xuid unique d'un compte xbox et l'associe a un pseudo. Ainsi, un autre compte xbox ne peut pas se connecter sur le compte d'un pseudo existant !\n\n---\n### How to use\n[ENG] Configure in config.yml your better database (mysql or sqlite3) and custom the kick message</br>\n\n[FRA] Configurer dans le config.yml votre base de donnée (mysql ou sqlite3) préféré et customise le message de kick</br>\n\n---\n### Command: \n```/safedelete <player>``` | Delete the xuid associated with a player | permission: safedelete.use\n\n---\n### **This plugin was tested (and works) on:**\n\n- [x] **[PocketMine-MP](https://github.com/pmmp/PocketMine-MP)**\n---\n### **LordHosting Partner**\n\n- [ENG] Our team is in partnership with Lordhosting, Minecraft PE server Hosting, VPS hosting use reduction code __**HiroTeam**__ 10% FREE </br>\n-> Website : https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/BVyF2D4ESt </br>\n\n- [FRA] Notre équipe est en partenariat avec Lordhosting, hébergement de serveurs Minecraft PE, VPS utilise le code de réduction __**HiroTeam**__ 10% DE REDUCTION </br>\n-> Site Web: https://clients.lordhosting.fr </br>\n-> Discord : https://discord.gg/BVyF2D4ESt </br>\n---\n### Contacts HiroTeam\n\n- **Discord Member:** WillyDuGang#6947 RomainSav#9558\n- **Discord Server:** :link:  https://discord.gg/WuwsuUA<br/>\n- **E-mail:** team.hiroshima.dev@gmail.com<br/>\n\n> ![HiroTeam](https://www.zupimages.net/up/20/25/mb59.png) </br>\n> ![HiroTeam](https://cdn.discordapp.com/attachments/701520774598492220/723269120992215080/PicsArt_06-18-10.13.13.png)\n\n---\n### License\nThis plugin is licensed under the [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)\n\n>This program is free software: you can redistribute it and/or modify<br/>\n>it under the terms of the GNU General Public License as published by<br/>\n>the Free Software Foundation, either version 3 of the License, or<br/>\n>(at your option) any later version.<br/>\n>\n>This program is distributed in the hope that it will be useful,<br/>\n>but WITHOUT ANY WARRANTY; without even the implied warranty of<br/>\n>MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the<br/>\n>GNU General Public License for more details.<br/>\n>\n>You should have received a copy of the GNU General Public License<br/>\n>along with this program.  If not, see http://www.gnu.org/licenses/\n---\n### Author\n- **Discord:** WillyDuGang#6947",
+  "readme_source_url": "https://github.com/HiroshimaTeam/SafeServer-HiroTeam",
+  "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/SafeServer-HiroTeam/4f4526b09e8737024ee1152b96581410d4715a51/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HiroshimaTeam/SafeServer-HiroTeam",
+  "archive_repo": null,
+  "approved_release_tag": "r-5907",
+  "stars": 5,
+  "total_downloads": 1186,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HiroshimaTeam"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.5.0",
+      "tag": "r-5907",
+      "published_at": null,
+      "downloads": 1186,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5907/safeserver-hiroteam-1.5.0-r5907.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5907",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5907/safeserver-hiroteam-1.5.0-r5907.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SafeServer-HiroTeam",
+    "stable_release_id": 5907
+  }
+}

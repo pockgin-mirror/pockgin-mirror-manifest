@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12770",
   "stars": 5,
-  "total_downloads": 1392,
+  "total_downloads": 2182,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,16 @@
       "tag": "r-9849",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9849/chatthin-1.5.0-r9849.phar"
+    },
+    {
+      "tag": "r-5680",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5680/chatthin-1.4.1-r5680.phar"
+    },
+    {
+      "tag": "r-5637",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5637/chatthin-1.4.0-r5637.phar"
     }
   ],
   "comments": {

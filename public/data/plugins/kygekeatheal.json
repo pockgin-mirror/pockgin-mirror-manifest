@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7507",
   "stars": 0,
-  "total_downloads": 367,
+  "total_downloads": 785,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -51,6 +51,11 @@
       "tag": "r-6954",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6954/kygekeatheal-1.1.0-r6954.phar"
+    },
+    {
+      "tag": "r-5757",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5757/kygekeatheal-1.0.0-r5757.phar"
     }
   ],
   "comments": {

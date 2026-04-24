@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6899",
   "stars": 3,
-  "total_downloads": 12838,
+  "total_downloads": 16164,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-6192",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6192/atenchants-1.1.0-r6192.phar"
+    },
+    {
+      "tag": "r-5711",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5711/atenchants-1.0.0-r5711.phar"
     }
   ],
   "comments": {

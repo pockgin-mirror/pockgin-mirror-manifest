@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6834",
   "stars": 2,
-  "total_downloads": 825,
+  "total_downloads": 1415,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-6834",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6834/minerafurnace-2.0.0-r6834.phar"
+    },
+    {
+      "tag": "r-5943",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5943/minerafurnace-1.0.0-r5943.phar"
     }
   ],
   "comments": {

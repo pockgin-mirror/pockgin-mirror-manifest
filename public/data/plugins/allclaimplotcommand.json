@@ -1,0 +1,63 @@
+{
+  "id": "allclaimplotcommand",
+  "name": "AllClaimPlotCommand",
+  "author": "supercrafter333",
+  "description": "With this plugin you can instantly automatically give a plot to all online players on your server! This plugin only works with the plugin MyPlot by jasonwhynn10 !",
+  "readme_markdown": "# AllClaimPlotCommand   [![](https://poggit.pmmp.io/shield.state/AllClaimPlotCommand)](https://poggit.pmmp.io/p/AllClaimPlotCommand) [![](https://poggit.pmmp.io/shield.dl.total/AllClaimPlotCommand)](https://poggit.pmmp.io/p/AllClaimPlotCommand)\nWith this plugin you can instantly automatically give a plot to all online players on your server! This plugin only works with the plugin <a href=\"https://github.com/jasonwynn10/MyPlot\">MyPlot</a> by <a href=\"https://github.com/jasonwynn10\">jasonwhynn10</a>!\n\n\n### Commands + Permissions\n``/allclaimplot   |   allclaimplotcommand.allclaimplot.cmd``\n\nBypass permission: ``allclaimplot.admin``\n\n### License\nThis plugin is Licensed by supercrafter333 with the [Apache 2.0 License](/LICENSE)! The owner and developer of this plugin is supercrafter333, idea by DerEchteBuilder!\n\n### Downloads\nPoggit: <a href=\"https://poggit.pmmp.io/ci/supercrafter333/AllClaimPlotCommand\" target=\"_blank\">AllClaimPlotCommand</a>",
+  "readme_source_url": "https://github.com/supercrafter333/AllClaimPlotCommand",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/supercrafter333/AllClaimPlotCommand",
+  "archive_repo": null,
+  "approved_release_tag": "r-5707",
+  "stars": 5,
+  "total_downloads": 2622,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "MyPlot"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "supercrafter333"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-5707",
+      "published_at": null,
+      "downloads": 2622,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5707/allclaimplotcommand-1.0.0-r5707.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5707",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5707/allclaimplotcommand-1.0.0-r5707.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AllClaimPlotCommand",
+    "stable_release_id": 5707
+  }
+}

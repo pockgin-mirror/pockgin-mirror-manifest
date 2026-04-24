@@ -1,0 +1,63 @@
+{
+  "id": "masks",
+  "name": "Masks",
+  "author": "cosmicnebula200",
+  "description": "A simple Masks plugin for PocketMine-MP",
+  "readme_markdown": "# Masks\nA simple Masks plugin for PocketMine-MP\n\n# How to install\n\n1. Download the phar [here].\n2. Upload it to your server's plugin directory.\n3. Restart your server.\n\n# Commands\nmask: \n 1. usage: /mask (mask player) (list)\n 2. permission: mask.command\n  \n# Permissions\nmask.command:\n - default: op\n - desrciption: permission to give masks\n  \n# Support\ncontact CosmicNebula#2508 on Discord if you want help or have any suggestions for new masks\n\n# Masks and uses\n- Husk - Gives Hunger effect to the player you hit while wearing this mask \n- Wither - Gives Wither effect to the player you hit while wearing this mask\n- Rabbit - Gives Jump Boost when u jump\n- Miner - Gives Haste effect while you mine\n- Grinder - Gives Money for Mob/Player hits or Block place or Block break\n- wants some more? feel free to suggest something you want to be added to this",
+  "readme_source_url": "https://github.com/cosmicnebula200/Masks",
+  "icon_url": "https://raw.githubusercontent.com/cosmicnebula200/Masks/32f97b93a0efe28cfe5dbbb451e406abb1c25f31/OIP.png",
+  "featured": false,
+  "repo": "https://github.com/cosmicnebula200/Masks",
+  "archive_repo": null,
+  "approved_release_tag": "r-5974",
+  "stars": 4,
+  "total_downloads": 8608,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "cosmicnebula200"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-5974",
+      "published_at": null,
+      "downloads": 8608,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5974/masks-1.0.0-r5974.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5974",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5974/masks-1.0.0-r5974.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Masks",
+    "stable_release_id": 5974
+  }
+}

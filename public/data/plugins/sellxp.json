@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6112",
   "stars": 3,
-  "total_downloads": 862,
+  "total_downloads": 1013,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -36,7 +36,7 @@
       "version": "1.2.0",
       "tag": "r-6112",
       "published_at": null,
-      "downloads": 769,
+      "downloads": 770,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6112/sellxp-1.2.0-r6112.phar"
     },
     "dev": null
@@ -51,6 +51,11 @@
       "tag": "r-6067",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6067/sellxp-1.1.0-r6067.phar"
+    },
+    {
+      "tag": "r-5730",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5730/sellxp-1.0.0-r5730.phar"
     }
   ],
   "comments": {

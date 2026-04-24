@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7100",
   "stars": 3,
-  "total_downloads": 451,
+  "total_downloads": 1071,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-7100",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7100/tagmessages-1.1.1-r7100.phar"
+    },
+    {
+      "tag": "r-5697",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5697/tagmessages-1.1.0-r5697.phar"
     }
   ],
   "comments": {

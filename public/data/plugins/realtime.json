@@ -1,0 +1,61 @@
+{
+  "id": "realtime",
+  "name": "RealTime",
+  "author": "photoncodes",
+  "description": "Description",
+  "readme_markdown": "# RealTime\n\n<p align=\"center\">\n    <img src=\"icon.png\" width=\"150px\" height=\"150px\">\n</p>\n\n[![](https://poggit.pmmp.io/shield.state/RealTime)](https://poggit.pmmp.io/p/RealTime)\n[![](https://poggit.pmmp.io/shield.api/RealTime)](https://poggit.pmmp.io/p/RealTime)\n\n[![](https://poggit.pmmp.io/shield.dl.total/RealTime)](https://poggit.pmmp.io/p/RealTime)\n[![](https://poggit.pmmp.io/shield.dl/RealTime)](https://poggit.pmmp.io/p/RealTime)\n\n\n## Description\nA PMMP plugin that cycles in-game time according to real-life factors.\n\n## Configuration\n`version` \t\t<i>NEVER CHANGE THIS VALUE</i>\n\n`enable_time_sync` \t<i>[true,false]</i> If true, vanilla time will run with respect to real-life factors\n\n`worlds` \t\t<i>[\"myworld\",\"broken_nether\",\"TheLOLlevel\"]</i> The worlds you would like the plugin to do its job on. Separate the world names with a comma. Leave the brackets empty to include all the worlds\n\n`location_dependant` \tIf true, vanilla day will cycle as a real day somewhere on earth. Enter your location details in location.yml\n\n`auto_locate` \t\tIf true, the server will verify the location details everytime it starts up using geoPlugin.com\n\n`noon_time` \t\tThe time the sun is at its peak. Used if `location_dependant` is set to false. Don't remove the double quotes \"hh:mm:ss\". Example: \"12:05\"\n\n`broadcast_interval` \tTime interval in minutes at which a message with the time is broadcasted\n\n`broadcast_mode` \t<i>[message,tip,popup,title]</i> The way players will receive the message\n\n## Commands\n`/realtime` Alias: (`/rt`)\n\n`/realtime current` \treturns the current time. '/realtime' alone could be used instead.\n\n`/realtime disable` \tdisables game time from synchronising with real-life factors.\n\n`/realtime enable` \tenables game time synchronising with real-life factors.\n\n`/realtime help` \tprovides a list of available commands.\n\n`/realtime reload`\tupdates the settings to correspond to the files.\n\n`/realtime status` \treturns status about the sun position and current day.\n\n## Additional information\n- If you're facing timezone issues (the time on your machine is not the same as your terminal). Open up SERVER DIRECTORY/bin/php/php.ini . Add, on a new line, the following setting `date.timezone= \"YOUR TIMEZONE\"`. A list of all supported timezone shall be found here: www.php.net/manual/en/timezones.php . In my case `date.timezone= \"Africa/Cairo\"`\n- The results you going to observe are NOT completely accurate. This is to decline bad impact on the overall performance. We'll work on better accuracy, with performance into consideration, on the next updates.\n\n## Credits\nIcon by: Aleksandr Reva (https://www.iconfinder.com/icons/1034355/day_night_date_moon_sun_icon)\n\n## Contribution\nHave ideas or found an issue? Feel free to contribute with us.\nLinks:\n\n- [Open an issue or leave a suggestion](https://github.com/photoncodes/RealTime/issues)\n- [Add something new or fix a bug](https://github.com/photoncodes/RealTime/pulls)\n\n## Licensing information\n\tThis program is free software: you can redistribute it and/or modify\n\tit under the terms of the GNU Lesser General Public License as published by\n\tthe Free Software Foundation, either version 3 of the License, or\n\t(at your option) any later version.\n\n\tThis program is distributed in the hope that it will be useful,\n\tbut WITHOUT ANY WARRANTY; without even the implied warranty of\n\tMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n\tGNU Lesser General Public License for more details.\n\n\tYou should have received a copy of the GNU Lesser General Public License\n\talong with this program.  If not, see <http://www.gnu.org/licenses/>.",
+  "readme_source_url": "https://github.com/photoncodes/RealTime",
+  "icon_url": "https://raw.githubusercontent.com/photoncodes/RealTime/4d920a2b44ad71360a927dccad2b4001f5ee50a2/icon.png",
+  "featured": false,
+  "repo": "https://github.com/photoncodes/RealTime",
+  "archive_repo": null,
+  "approved_release_tag": "r-5737",
+  "stars": 5,
+  "total_downloads": 6892,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "photoncodes"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/138324",
+  "versions": {
+    "stable": {
+      "version": "1.2.1",
+      "tag": "r-5737",
+      "published_at": null,
+      "downloads": 6892,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5737/realtime-1.2.1-r5737.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5737",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5737/realtime-1.2.1-r5737.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RealTime",
+    "stable_release_id": 5737
+  }
+}

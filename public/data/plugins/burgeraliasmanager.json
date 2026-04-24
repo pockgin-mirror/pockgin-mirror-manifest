@@ -1,0 +1,61 @@
+{
+  "id": "burgeraliasmanager",
+  "name": "BurgerAliasManager",
+  "author": "Heisenburger69",
+  "description": "Allow players to register their own custom command aliases!",
+  "readme_markdown": "# BurgerAliasManager\n Allow players to register their own custom command aliases!\n\n## Description\nWith this plugin players can create their own command shortcuts or aliases.\nFor example, if a player frequently runs a command called /sell all, and the\nplayer wanted to shorten it to /sa, he could do so for himself. A different player\ncould keep his shortcut as /s instead of /sa. In this way, it allows multiple\nplayers to create their own command shortcuts thereby enhancing the overall\ngameplay experience from a QOL point of view.\n\n## Features\n- Per-Player command aliases so each player can have different command shortcuts.\n- Supports command arguments, so /tp 100 100 100 can be shortened to something like /tp100.\n- Players can create their own command aliases however they want.\n- All the aliases can be easily viewed using /commandalias list.\n- Pagination in the command alias list for easier viewing.\n- Command aliases can be easily removed if the player wants to.\n- Server admins can set a maximum number of aliases each player can create.\n- Built-in safety checks to prevent players from registering existing commands as aliases.\n\n## Commands\n- /commandalias list {page}: View all the command aliases you created\n- /commandalias create {alias} {command}: Create a command alias called {alias} for the {command} Command\n- /commandalias remove {alias}: Remove the command alias called {alias}\n\n## Permissions\n- burgeraliasmanager.use: Allows a player to register their own command aliases. Given to all players by default.\n- burgeraliasmanager.op: Allows a player to bypass the max alias limit. Given only to OP's by default.\n\n## Future Updates:\nFeel free to open an issue and suggest any further ideas. PR's are also welcome.\n- [ ] Support for alias descriptions and argument autofilling(Someone pls PR this sounds like a pain to implement)  \n- [ ] Maybe support setting server-wide command alia to make this a more \"All in One\" plugin   \n\n### Note:\nSomeone pls for the love of god find a better icon",
+  "readme_source_url": "https://github.com/Heisenburger69/BurgerAliasManager",
+  "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerAliasManager/dd431eddb0ede73c4b0fa122a739a13bbb03c62c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Heisenburger69/BurgerAliasManager",
+  "archive_repo": null,
+  "approved_release_tag": "r-5775",
+  "stars": 5,
+  "total_downloads": 1303,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Heisenburger69"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-5775",
+      "published_at": null,
+      "downloads": 1303,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5775/burgeraliasmanager-1.0.0-r5775.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5775",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5775/burgeraliasmanager-1.0.0-r5775.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BurgerAliasManager",
+    "stable_release_id": 5775
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "captcha",
+  "name": "Captcha",
+  "author": "xXWaterFrogzX",
+  "description": "A PMMP plugin that adds Captchas to Minecraft!",
+  "readme_markdown": "# Captcha\nA PMMP plugin that adds Captchas to Minecraft!\n\n## Description\nWant to stop players from afk cheating? Well this is your plugin!\n\nThis plugin sends a Captcha to a player every X amount of time and if they fail to do the Captcha well they get kicked!\n\nPlayers with permission to use /captcha (player) are able to send Captchas to other players\n\n## Permissions & Commands\n\n/captcha (player) - captcha.command",
+  "readme_source_url": "https://github.com/xXWaterFrogzX/Captcha",
+  "icon_url": "https://raw.githubusercontent.com/xXWaterFrogzX/Captcha/8b3f4e4366905e2ce65b9fefbd277e79a5051df8/icon.png",
+  "featured": false,
+  "repo": "https://github.com/xXWaterFrogzX/Captcha",
+  "archive_repo": null,
+  "approved_release_tag": "r-5901",
+  "stars": 2,
+  "total_downloads": 4365,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "xXWaterFrogzX"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-5901",
+      "published_at": null,
+      "downloads": 4365,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5901/captcha-1.0.0-r5901.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5901",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5901/captcha-1.0.0-r5901.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Captcha",
+    "stable_release_id": 5901
+  }
+}
