@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9247",
   "stars": 5,
-  "total_downloads": 1909,
+  "total_downloads": 3958,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-9247",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9247/totemjoin-1.0.1-r9247.phar"
+    },
+    {
+      "tag": "r-5265",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5265/totemjoin-1.0.0-r5265.phar"
     }
   ],
   "comments": {

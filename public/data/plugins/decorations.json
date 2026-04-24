@@ -1,0 +1,68 @@
+{
+  "id": "decorations",
+  "name": "Decorations",
+  "author": "Xenophilicy",
+  "description": "I have frozen my personal support for public plugins. The plugins will remain public on GitHub (though archived) for anyone that would like to keep them updated. This my final d...",
+  "readme_markdown": "> # I have frozen my personal support for public plugins. The plugins will remain public on GitHub (though archived) for anyone that would like to keep them updated.  This my final decision on the matter. No support will be provided - you will be ignored - regardless of private or public inquiry.\n\n# Decorations\n[![Poggit Decorations](https://poggit.pmmp.io/shield.state/Decorations)](https://poggit.pmmp.io/p/Decorations)\n[![HitCount](http://hits.xenoservers.net:4000/Xenophilicy/Decorations.svg)](http://hits.xenoservers.net:4000)\n[![Discord Chat](https://img.shields.io/discord/490677165289897995.svg)](https://discord.xenoservers.net)\n\n# [![Xenophilicy](http://file.xenoservers.net/Resources/GitHub-Resources/decorations/screenshot.png)]()\n\n## Information\nWith this plugin you can allow your players to purchase and spawn in custom geometry entities using the Decorations shop UI! Everything is configurable in the `decorations.json` config file including price, spawn limits, entity scale, and more!\n\n### [Click here to download Decorations from Poggit](https://poggit.pmmp.io/p/Decorations/)\n\n### Enhancments or feature requests\nPlease see the current [TODO list](https://github.com/Xenophilicy/Decorations#TODO) for some things that are currently being fixed or added before requesting something be added so there aren't any duplicate or invalid issues being created.\n\n***\n\n## Usage\nUse `/deco` to access the main interface. From there you can enter the shop or view your `archived decorations`. By selecting an item in your `archive`, you have the option to sell or spawn the decoration. In the shop, you can select what category you'd like to browse. Once you pick a category, choose an item to purchase and proceed to the pre-purchase form. The pre-purchase form is where you can choose how many to buy, but also choose where you'd like the item to be exported to once you purchase it (inventory or `decoration archive`). Once bought, you can spawn it by tapping the item on the block of where you want it to be. You have the ability, as the decoration owner, to view the decoration options by hitting it. This screen allows you to sell, `archive`, and pick up the decoration for easier transport or movement adjustments. You can also edit the entity's yaw and pitch along with fine tune the XYZ coodinates using sliders!\n\n***\n\n## Adding models\nThis plugin allows users like YOU to add your very own custom models and texures simply by dragging your files into the directory found at `/plugin_data/Decorations/decorations` and adding an entry into a category in the `decorations.json` file! The two files required to create an entity are the geometry JSON file, and the texture PNG file. Once you have acquired both of those and copied them to the correct directory, you can add them into the Decoration configuration file with the instructions below!\n\n### JSON Configuration\nPlease see the default JSON file [here](https://github.com/Xenophilicy/Decorations/blob/master/resources/decorations.json) for a more detailed example of how categories and entries should be entered.\nHere is the JSON file broken down into separate parts. \n\nCategory name\n```json\n\"dishes\": {\n```\n\nCategory format\n```json\n\"format\": \"§dDishes\",\n```\n\nEntity list\n```json\n\"entities\": [\n```\n\nEntry ID\n```json\n\"id\": \"mug\",\n```\n\nGeometry file name            \n```json\n\"geometry\": \"mug.geo.json\",\n```\n\nGeometry identifier\n```json\n\"identifier\": \"geometry.mug\",\n```\n\nEntity texture\n```json\n\"texture\": \"mug.png\"\n```\n\nEntity rotation\n```json\n\"rotation\": {\n  \"yaw\": 30,\n  \"pitch\": 0\n},\n```\n\nEntity size\n```json\n\"scale\": 0.4,\n```\n\nAllowed size\n```json\n\"scale-range\": {\n  \"min\": 0.1,\n  \"max\": 2\n},\n```\n\nEntry format\n```json\n\"format\": \"§6Coffee mug\",\n```\n\nEntity buy price\n```json\n\"price\": 20,\n```\n\nEntity spawn limit\n```json\n\"limit\": 3,\n```\n\nEntity name tag            \n```json\n\"nametag\": \"§aDrink me!\"\n```\n\n***\n\nThe following table is used to determine a key's optionality.\n\n|      Key      | Optionality |  Default  |\n|:-------------:|:-----------:|:---------:|\n| Category name |   required  |     -     |\n| Category name |   required  |     -     |\n|  Entity list  |   required  |     -     |\n|    Entry ID   |   required  |     -     |\n|   File name   |   required  |     -     |\n|   Identifier  |   required  |     -     |\n|    Texture    |   requried  |     -     |\n|    Rotation   |   optional  |  Player's |\n|      Size     |   optional  |     1     |\n|  Allowed size |   optional  |    None   |\n|     Format    |   optional  |  Entry ID |\n|     Price     |   optional  |  Free (0) |\n|     Limit     |   optional  | Unlimited |\n|    Nametag    |   optional  |    None   |\n\n***\n\nIn the end, your JSON entry will look something like this:\n```json\n{\n  \"dishes\": {\n    \"format\": \"§dDishes\",\n    \"entities\": [\n      {\n        \"id\": \"mug\",\n        \"model\": {\n          \"geometry\": \"mug.geo.json\",\n          \"identifier\": \"geometry.mug\",\n          \"texture\": \"mug.png\"\n        },\n        \"rotation\": {\n          \"yaw\": 30,\n          \"pitch\": 0\n        },\n        \"scale\": 0.4,\n        \"scale-range\": {\n          \"min\": 0.1,\n          \"max\": 2\n        },\n        \"format\": \"§6Coffee mug\",\n        \"price\": 20,\n        \"limit\": 3,\n        \"nametag\": \"§aDrink me!\"\n      }\n    ]\n  }\n}\n```\n\n***\n\n### TODO\nThese are things that are planned or in-progress\n- [ ] Fine tuning\n    - [X] Add yaw/pitch control using the Deco UI\n    - [X] Add default rotation to configuration\n    - [ ] Allow for live yaw and pitch control using player attachment\n    - [X] Enable vector tuning using the Deco UI (XYZ)\n    - [X] Add a scale range in the configuration to allow players to customize entity size\n- [ ] Glitches\n    - [ ] Fix issues with owner spawning in models\n- [ ] Allow commands to be executed when interacting with foreign decorations\n- [ ] UXP\n    - [X] Catch errors thrown by removed deocorations (from the decorations.json file)\n    - [ ] Allow deocrations to be mass despawned for moderation (by type, ID, owner, etc.)\n\n## Credits\n* [FiberglassCivic](https://github.com/95CivicSi/) (Helped with example custom geometry)\n* [Xenophilicy](https://github.com/Xenophilicy/)",
+  "readme_source_url": "https://github.com/Xenophilicy/Decorations",
+  "icon_url": "https://raw.githubusercontent.com/Xenophilicy/Decorations/cf79baf2c6674ca1e2954b3dca7a063d5f66b656/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Xenophilicy/Decorations",
+  "archive_repo": null,
+  "approved_release_tag": "r-5446",
+  "stars": 5,
+  "total_downloads": 4118,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Xenophilicy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/105863",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-5446",
+      "published_at": null,
+      "downloads": 3949,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5446/decorations-1.1.0-r5446.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5446",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5446/decorations-1.1.0-r5446.phar"
+    },
+    {
+      "tag": "r-5292",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5292/decorations-1.0.0-r5292.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Decorations",
+    "stable_release_id": 5446
+  }
+}

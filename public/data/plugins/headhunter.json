@@ -1,0 +1,68 @@
+{
+  "id": "headhunter",
+  "name": "HeadHunter",
+  "author": "RKAbdul",
+  "description": "A pocketmine plugin, that will let players get head by killing players and redeem rewards from the head",
+  "readme_markdown": "# HeadHunter\n[![Discord Chat](https://img.shields.io/discord/490677165289897995.svg)](https://discord.gg/M7FA5D3)\n[![](https://poggit.pmmp.io/shield.state/HeadHunter)](https://poggit.pmmp.io/p/HeadHunter)\n\nA pocketmine plugin, that will let players get head by killing players and redeem rewards from the head\n# Configuration\nYou can mostly setup everything in the config.yml file\n# Guide\nThe rewards will work according to the opponent money, that will be calculated by a percentage you can edit in config `money-percent` option to setup the percentage you want.\nYou can change `reduce-money` from config to rather enable or disable reducing money from the opponent who's head you are redeeming\n\n# Credits\nThanks to @Xenophilicy and @HyperFlareMC for helping me",
+  "readme_source_url": "https://github.com/RKAbdul/HeadHunter",
+  "icon_url": "https://raw.githubusercontent.com/RKAbdul/HeadHunter/295b3818b5f95520639d0db877dfb32902ebbf31/icon.png",
+  "featured": false,
+  "repo": "https://github.com/RKAbdul/HeadHunter",
+  "archive_repo": null,
+  "approved_release_tag": "r-5582",
+  "stars": 4,
+  "total_downloads": 2974,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "RKAbdul"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/108588",
+  "versions": {
+    "stable": {
+      "version": "0.2",
+      "tag": "r-5582",
+      "published_at": null,
+      "downloads": 2498,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5582/headhunter-0.2-r5582.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5582",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5582/headhunter-0.2-r5582.phar"
+    },
+    {
+      "tag": "r-5297",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5297/headhunter-0.1-r5297.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HeadHunter",
+    "stable_release_id": 5582
+  }
+}

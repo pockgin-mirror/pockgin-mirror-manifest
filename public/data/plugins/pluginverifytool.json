@@ -1,0 +1,61 @@
+{
+  "id": "pluginverifytool",
+  "name": "PluginVerifyTool",
+  "author": "P1ggyDev",
+  "description": "Plugin Verify Tool",
+  "readme_markdown": "![GitHub](https://img.shields.io/github/license/P1ggyDev/PluginVerifyTool?style=flat-square)\n![GitHub Repo stars](https://img.shields.io/github/stars/P1ggyDev/PluginVerifyTool?style=flat-square)\n![PoggitCI](https://poggit.pmmp.io/ci.badge/P1ggyDev/PluginVerifyTool/PluginVerifyTool?build=12)\n# Plugin Verify Tool\n**PocketMine's plugin verification tool using SHA256 hash**\n\n## Usage\n- To verify plugin\n```verifyplugin <plugin name> <plugin hash>```  \nEx: ```verifyplugin Sheep 5bce5fc181f786a27efdb907d0975540e843739a7117edb53dabc1e350ba9735```  \nIf it returns ```valid!``` you are holding the official file.",
+  "readme_source_url": "https://github.com/P1ggyDev/PluginVerifyTool",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/P1ggyDev/PluginVerifyTool",
+  "archive_repo": null,
+  "approved_release_tag": "r-5618",
+  "stars": 4,
+  "total_downloads": 1929,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.16.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "P1ggyDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-5618",
+      "published_at": null,
+      "downloads": 1929,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5618/pluginverifytool-1.0.3-r5618.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5618",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5618/pluginverifytool-1.0.3-r5618.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PluginVerifyTool",
+    "stable_release_id": 5618
+  }
+}

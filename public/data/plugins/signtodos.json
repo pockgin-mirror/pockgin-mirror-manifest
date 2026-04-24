@@ -1,0 +1,66 @@
+{
+  "id": "signtodos",
+  "name": "SignTodos",
+  "author": "Wertzui123",
+  "description": "A new way to make todo-lists in minecraft!",
+  "readme_markdown": "# SignTodos\nA new way to make todo-lists in minecraft!\n<br>You can download the .phar from <a href=\"https://poggit.pmmp.io/p/SignTodos\">poggit</a>.\n\nSignTodos is a new approach to todo-lists for minecraft buildings.\n<br>It lets you create them inside the game just using a sign.\n<br>You can later view all your todos and teleport to the signs using a command.\n\n# How to use?\n1. Place a sign\n2. Write something like \"//TODO: Finish this\" on it (see [Todo pattern](#Todo pattern))\n3. You can now view all your todo-signs with /todos\n\n# Todo pattern\nThe pattern for todos is this:\n\n```/^\\/\\/ *todo: */i```\n\nYou probably have no idea what that means, so let's take a look at this example:\n\n<b>// todo: example todo</b> (any amount of space between `//`, `todo` and after the `:` is valid)\n<br>Also, whether the word \"todo\" is uppercase or lowercase doesn't matter.\n\n## Example todo-signs\n//todo: download the plugin\n<br>// todo: add it to the server\n<br>// TODO: Restart the server\n\n# Bugs\nPlease open an <a href=\"https://github.com/Wertzui123/SignTodos/issues\">issue</a> or join my <a href=\"https://discord.gg/dmWPEYq\">discord server</a>.\n\n# Commands\n| Command | Description          | Usage  | Aliases | Permission              |\n|---------|----------------------|--------|---------|-------------------------|\n| todos   | Shows all your todos | /todos | /       | signtodos.command.todos |\n\n# Credits\nSignTodos was made by Wertzui123.",
+  "readme_source_url": "https://github.com/Wertzui123/SignTodos",
+  "icon_url": "https://raw.githubusercontent.com/Wertzui123/SignTodos/0bf473689bae34b708540d36e997736aa38d970d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Wertzui123/SignTodos",
+  "archive_repo": null,
+  "approved_release_tag": "r-5537",
+  "stars": 3,
+  "total_downloads": 1887,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Wertzui123"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/107737",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-5537",
+      "published_at": null,
+      "downloads": 1756,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5537/signtodos-1.1.1-r5537.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5537",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5537/signtodos-1.1.1-r5537.phar"
+    },
+    {
+      "tag": "r-5405",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5405/signtodos-1.1-r5405.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SignTodos",
+    "stable_release_id": 5537
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "falloutinventoryclear",
+  "name": "FallOutInventoryClear",
+  "author": "str0nixofficial",
+  "description": "FallOutClearInventory",
+  "readme_markdown": "# FallOutClearInventory\nThis is a plugin which clears your inventory and instantly drop back you to the server’s spawn if you fell out from the world.",
+  "readme_source_url": "https://github.com/str0nixofficial/FallOutClearInventory",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/str0nixofficial/FallOutClearInventory",
+  "archive_repo": null,
+  "approved_release_tag": "r-5458",
+  "stars": 5,
+  "total_downloads": 817,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.15.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "str0nixofficial"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/106103",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-5458",
+      "published_at": null,
+      "downloads": 747,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5458/falloutinventoryclear-1.1.1-r5458.phar"
+    },
+    "dev": {
+      "version": "1.0",
+      "tag": "r-5389",
+      "published_at": null,
+      "downloads": 70,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5389/falloutinventoryclear-1.0-r5389.phar"
+    }
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5458",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5458/falloutinventoryclear-1.1.1-r5458.phar"
+    },
+    {
+      "tag": "r-5389",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5389/falloutinventoryclear-1.0-r5389.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FallOutInventoryClear",
+    "stable_release_id": 5458
+  }
+}

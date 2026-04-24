@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6031",
   "stars": 5,
-  "total_downloads": 247,
+  "total_downloads": 401,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -46,6 +46,11 @@
       "tag": "r-6031",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6031/werbung-pmmp-1.5.0-r6031.phar"
+    },
+    {
+      "tag": "r-5529",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5529/werbung-pmmp-1.4.0-r5529.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,68 @@
+{
+  "id": "minion",
+  "name": "Minion",
+  "author": "CLADevs",
+  "description": "Phar Discord HitCount",
+  "readme_markdown": "| Phar | Discord | HitCount |\r\n| :---: | :---: | :---: |\r\n [![Download](https://img.shields.io/badge/download-latest-blue.svg)](https://poggit.pmmp.io/ci/CLADevs/Minion) | [![Discord](https://camo.githubusercontent.com/455152269a0ed38255ed15e375084d4dd08e0c98/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636861742d6f6e253230646973636f72642d3732383944412e737667)](https://discord.gg/f7yGTzE) | [![HitCount](http://hits.dwyl.io/CLADevs/Minion.svg)](http://hits.dwyl.io/CLADevs/Minion)\r\n\r\n### This plugin allows minion in your server which mines for the player.\r\n#### Minions:\r\n- Farmer\r\n- Miner\r\n\r\n#### Commands:\r\n- /minion (type) - Give urself a minion.\r\n- /minion (type) (player) - gives minion to other players.\r\n- /minion (remove|rm|forceremove) - this allows to enter remove mode for minion.\r\n\r\n#### Installation\r\n-  [poggit](https://poggit.pmmp.io/ci/CLADevs/Minion/Minion) or [github](https://github.com/CLADevs/Minion)\r\n\r\n#### Crashs\r\n- [InvCrashFix](https://github.com/Muqsit/InvCrashFix) this will fix inventory crashs.\r\n- [EconomyAPI](https://poggit.pmmp.io/p/EconomyAPI) this is the minion upgrade economy system for now.\r\n\r\n## Need Help?\r\n  Open an Issue [here](https://github.com/CLADevs/Minion/issues/new).",
+  "readme_source_url": "https://github.com/CLADevs/Minion",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/CLADevs/Minion",
+  "archive_repo": null,
+  "approved_release_tag": "r-5269",
+  "stars": 4,
+  "total_downloads": 4215,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "CLADevs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/102526",
+  "versions": {
+    "stable": {
+      "version": "1.9.5",
+      "tag": "r-5269",
+      "published_at": null,
+      "downloads": 3895,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5269/minion-1.9.5-r5269.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5269",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5269/minion-1.9.5-r5269.phar"
+    },
+    {
+      "tag": "r-5239",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5239/minion-1.9.1-r5239.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Minion",
+    "stable_release_id": 5269
+  }
+}

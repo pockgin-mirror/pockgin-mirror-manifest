@@ -1,0 +1,61 @@
+{
+  "id": "bloodfx",
+  "name": "BloodFX",
+  "author": "Vale914",
+  "description": "A pocketmine plugin that make fights more realistic with blood effect when you hit the other one!",
+  "readme_markdown": "[![HitCount](http://hits.dwyl.io/Vale914/https://githubcom/Vale914/BloodFX.svg)](http://hits.dwyl.io/Vale914/https://githubcom/Vale914/BloodFX)\n[![](https://poggit.pmmp.io/shield.state/BloodFX)](https://poggit.pmmp.io/p/BloodFX)\n[![](https://poggit.pmmp.io/shield.dl.total/BloodFX)](https://poggit.pmmp.io/p/BloodFX)\n\n# BloodFX\nA pocketmine plugin that make fights more realistic with blood effect when you hit the other one!\n\nLatest release: https://poggit.pmmp.io/p/BloodFX/1.0.1 \n\nLatest development phars:https://poggit.pmmp.io/ci/Vale914/BloodFX/BloodFX/4",
+  "readme_source_url": "https://github.com/Vale914/BloodFX",
+  "icon_url": "https://raw.githubusercontent.com/Vale914/BloodFX/9af5b73d1fc852446fe29cb7a37f7e73c9ecb00f/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Vale914/BloodFX",
+  "archive_repo": null,
+  "approved_release_tag": "r-5610",
+  "stars": 4,
+  "total_downloads": 5650,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Vale914"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/109035",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-5610",
+      "published_at": null,
+      "downloads": 5650,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5610/bloodfx-1.0.3-r5610.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5610",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5610/bloodfx-1.0.3-r5610.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BloodFX",
+    "stable_release_id": 5610
+  }
+}

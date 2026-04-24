@@ -1,0 +1,61 @@
+{
+  "id": "pingsystem",
+  "name": "PingSystem",
+  "author": "Clarence2810",
+  "description": "Advanced and Cool stuffs about player pings",
+  "readme_markdown": "# PingSystem\nAdvanced and Cool stuffs about player pings\n\n# What if i got an error?\n**If you got a issue or error about this plugin follow this steps:**\n- First open this github repositories\n- Then click **(!) Issues** next on **< > Code**\n- Next click **New issue**\n- After you type the issues and title click **Submit new issue** <br/>\nThere you go you submited the issue no need to rate 3-0 star! <br/>\nI make sure that im gonna try to fix it as must i can \n\n# Feature\n- Show player ping below name (OPTIONAL AT CONFIG)\n- Remind or Kick player if got high ping (OPTIONAL AT CONFIG)\n- Set the number of ping when gonna trigger the Remind or Kick function\n- Set the Great, Stable, Bad ping color and numbers (SET AT CONFIG)\n- Command /ping to see players ping\n- Can fully customized at config\n- More Soon...  Just Give me Suggestion down below",
+  "readme_source_url": "https://github.com/Clarence2810/PingSystem",
+  "icon_url": "https://raw.githubusercontent.com/Clarence2810/PingSystem/6e5e832ce30426f504ddc4fe80c1b59e1c80c029/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Clarence2810/PingSystem",
+  "archive_repo": null,
+  "approved_release_tag": "r-5349",
+  "stars": 5,
+  "total_downloads": 1049,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Clarence2810"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-5349",
+      "published_at": null,
+      "downloads": 1049,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5349/pingsystem-1.0.0-r5349.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5349",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5349/pingsystem-1.0.0-r5349.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PingSystem",
+    "stable_release_id": 5349
+  }
+}

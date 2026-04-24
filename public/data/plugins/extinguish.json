@@ -1,0 +1,61 @@
+{
+  "id": "extinguish",
+  "name": "Extinguish",
+  "author": "Clarence2810",
+  "description": "How to install?",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/Extinguish)](https://poggit.pmmp.io/p/Extinguish)\n<a href=\"https://poggit.pmmp.io/p/Extinguish\"><img src=\"https://poggit.pmmp.io/shield.state/Extinguish\"></a>\n[![](https://poggit.pmmp.io/shield.api/Extinguish)](https://poggit.pmmp.io/p/Extinguish)\n<a href=\"https://poggit.pmmp.io/p/Extinguish\"><img src=\"https://poggit.pmmp.io/shield.api/Extinguish\"></a>\n\n# How to install?\n##### How to install?<br/>\n- `Download` This Plugin<br/>\n- Put `Extinguish.phar` in plugin folder<br/>\n- `Restart` your server or do `/reload` and you can now use extinguish<br/>\n\n **If theres error or issue please open your github then open issue then say the error**<br/>\n# Plugin Information\n- **Im gonna rescue you from burning!**\n## How its working? Read or Watch This\n- If you are burning or on fire you can do /extinguish to remove the fire\n- Also if you are not on fire it will tell that you're not even on fire or burning\n- You can also do /extinguish [player] it will extinguish player no need for sudo<br/>\n**Example:** /extinguish Steve<br/>\n\n[![Youtube Video Preview](https://media.discordapp.net/attachments/742376986072055929/752555011929669674/fire-extinguishers-firefighting-conflagration-fire-4e48d466134b3144b32996839d8d57c0.png?width=406&height=406)](https://www.youtube.com/watch?v=XWZarkl4oPw)\n\n**Command:** `/extinguish`<br/>\n**Usage:** `/extinguish [player]` [ ] Optional<br/>\n**Aliases:** `ext`<br/>\n**Permissions:** <br/>\n  `extinguish.command` - **You can extinguish your self** <br/>\n  `extinguish.command.other` - **You can extinguish other player** <br/>\n# Config\n### Config.yml\n\n############################## GENERAL MESSAGES ##############################\n\n#If player sent extinguish command but dont have permission<br/>\n`no-permission: §cYou dont have permission to run extinguish command!`<br/>\n\n#If sender dont have permission on extinguishing other player:<br/>\n`other-no-permission: §cYou dont have permission to extinguish other player!`<br/>\n\n############################## EXTINGUISHING YOUR SELF ##############################\n\n#If player sent extinguish command but not on fire<br/>\n`not-on-fire: §cYou're not even on fire how im gonna extinguish you?`<br/>\n\n#Success Sending Extinguish Command<br/>\n`extinguished-success: §aYou've been extinguished COOL!`<br/>\n\n############################## EXTINGUISHING OTHER PLAYER ##############################\n\n#When player is offline or not extist<br/>\n`player-not-found: §c[RADAR] I can't find that player please specify it!`<br/>\n\n#If player is not on fire | Variable: {player} - who is the player you want to get extinguished<br/>\n`other-not-on-fire: §c{player} is not even on fire dont trick me`<br/>\n\n#Success extinguished player<br/>\n#Variable: {sender} - Who run the command to extinguish other player<br/>\n`player-extinguished-success: §aYou've been extinguished by {sender} COOL RIGHT!`<br/>\n#Variable: {player} - who get extinguished<br/>\n`sender-extinguish-success: §aYou extinguished {player} nice!`<br/>\n\n############################## COOLDOWN SYSTEM ##############################\n\n#If you wanted to have cooldown to run extinguish command | True = theres cooldown and Anything you type = theres no cooldown<br/>\n`command-cooldown: true`<br/>\n#If you setted command-cooldown in true type a second how long that player can run again the extinguish command<br/>\n`extinguish-cooldown: 10`<br/>\n\n#When sender is on cooldown | Variable: {remaining} - How long can run again the extinguish<br/>\n`on-cooldown: §cYou are currently at {remaining}seconds(s) cooldown!`<br/>\n\n#When player is in cooldown this will be sended to sender if the player is specified to get extinguish<br/>\n#Variable: {remaining} - How long can run again the extinguish<br/>\n#Variable: {player} - The player specified on sender comman<br/>\n`other-on-cooldown: §c{player} is currently at {remaining}second(s) cooldown!`\n\n# Updates\n - Adding optional cooldown `v2.0`\n - Adding optional specify player `v1.2`\n - Cleaning codes `v1.0`\n - Created plugin `v1.0`",
+  "readme_source_url": "https://github.com/Clarence2810/Extinguish",
+  "icon_url": "https://raw.githubusercontent.com/Clarence2810/Extinguish/03c3dc8d729f20cfe5e55b993c327cb7dc2205ed/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Clarence2810/Extinguish",
+  "archive_repo": null,
+  "approved_release_tag": "r-5263",
+  "stars": 5,
+  "total_downloads": 461,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Clarence2810"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0",
+      "tag": "r-5263",
+      "published_at": null,
+      "downloads": 461,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5263/extinguish-2.0-r5263.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5263",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5263/extinguish-2.0-r5263.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Extinguish",
+    "stable_release_id": 5263
+  }
+}

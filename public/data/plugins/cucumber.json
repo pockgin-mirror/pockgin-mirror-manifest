@@ -1,0 +1,61 @@
+{
+  "id": "cucumber",
+  "name": "cucumber",
+  "author": "adeynes",
+  "description": "Current stable version: 3.0.0",
+  "readme_markdown": "# cucumber\n\n[![](https://poggit.pmmp.io/shield.state/cucumber)](https://poggit.pmmp.io/p/cucumber)\n[![](https://poggit.pmmp.io/ci.shield/adeynes/cucumber/cucumber)](https://poggit.pmmp.io/p/cucumber)\n[![](https://poggit.pmmp.io/shield.dl.total/cucumber)](https://poggit.pmmp.io/p/cucumber)\n\n### Current stable version: 3.0.0\n\n**cucumber** is a complete moderation plugin for PocketMine-MP which features ban/mute management and logging of various significant events.\n\nIf you are upgrading from **v1.6.2**, just update the cucumber `.phar`. Do not delete configuration files, they will automatically be updated and save your settings :-)\n\n### Punishment Management\ncucumber enables banning of players and IPs, muting and warning.\n\n| **Command**  | **Description**                                     | **Usage**                                                                 | **Notes**                                                                                                                                                                                                        |\n|--------------|-----------------------------------------------------|---------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| `/ban`        | Ban a player by name                                | `/ban <player> <duration>\\|inf [reason]`                                  | See below for the format of the `duration` argument                                                                                                                                                             |\n| `/banlist`    | See the list of bans                                | `/banlist [-all\\|-a]`                                                     | The `-all` flag specifies that all bans should be displayed, including those that have expired                                                                                                                  |\n| `/pardon`     | Pardon a player                                     | `/pardon <player>`                                                        | This removes the ban from the player's punishment history and from `/banlist -all`                                                                                                                              |\n| `/ipban`      | Ban an IP                                           | `/ipban <player>\\|<ip> <duration>\\|inf [reason]`                          | You can enter either a player or an IP as the first argument, the plugin will infer which was entered and act accordingly. See below for the format of the `duration` argumment                                 |\n| `/ipbanlist`  | See the list of IP bans                             | `/ipbanlist [-all\\|-a]`                                                   | The `-all` flag specifies that all IP bans should be displayed, including those that have expired                                                                                                               |\n| `/ippardon`   | Pardon an IP                                        | `/ippardon <ip>`                                                          | This removes the IP ban from the player's punishment history and from `/ipbanlist -all`                                                                                                                         |\n| `/uban`       | Ban any player that joins using an IP. Irreversible | `/uban <player>\\|<ip> [reason]`                                           | Ubans are **permanent** and *cannot be undone*, hence they have no duration argument. You can enter either a player or an IP as the first argument, the plugin will infer which was entered and act accordingly |\n| `/mute`       | Mute a player                                       | `/mute <player> <duration>\\|inf [reason]`                                 | See below for the format of the `duration` argument                                                                                                                                                             |\n| `/mutelist`   | See the list of mutes                               | `/mutelist [-all\\|-a]`                                                    | The `-all` flag specifies that all mutes should be displayed, including those that have expired                                                                                                                 |\n| `/unmute`     | Unmute a player                                     | `/unmute <player>`                                                        | This removes the mute from the player's punishment history and from `/mutelist -all`                                                                                                                            |\n| `/warn`       | Warn a player                                       | `/warn <player> <duration>\\|inf [reason]`                                 | See below for the format of the `duration` argument                                                                                                                                                             |\n| `/warnings`   | See a player's warnings                             | `/warnings <player> [-all\\|-a]`                                           | The `-all` flag specifies that all of the player's warnings should be displayed, including those that have expired                                                                                              |\n| `/mywarnings` | See your warnings                                   | `/mywarnings [-all\\|-a]`                                                  | The `-all` flag specifies that all of the sender's warnings should be displayed, including those that have expired                                                                                              |\n| `/delwarn`    | Delete a specific warning                           | `/delwarn <id>`                                                           | Warnings are identified with an ID that should be displayed in `/warnings` and upon the creation of the warning                                                                                                 |\n| `/history`    | See a player's punishment history                   | `/history <player>`                                                       | This includes expired punishments. It also includes IP bans pertaining to the player's IP. The player's first join and last join dates are also displayed                                                       |\n\n#### Duration\nIn a duration argument:\n* `y`: year\n* `M`: month\n* `w`: week\n* `d`: day\n* `h`: hour\n* `m`: minute\n\nFor instance, `1y3M` means one year and three months (this is the same as `15M`). `1w2d12h` means one week, two days, and twelve hours (this is the same as `9d12h`).\n\nFor an infinite duration (a punishment that never expires), you can enter one of the following: `inf`, `infinite`, `perm`, `permanent`, `-1`.\n\n### Logging\ncucumber logs various events¹ to a path specified in `config.yml`. Several loggers (including custom ones) can also be defined in `config.yml`. (By default, a `BaseLogger` exists that logs everything to `log_out.txt`.) Messages are written to the file every 10 seconds asynchronously.\n\n¹ cucumber logs the following: join, join attempt (if a player attempts to join while banned), quit, chat, chat attempt (if a player attempts to chat while muted), command\n\n### Miscellaneous\ncucumber also has miscellaneous moderation commands that are not related to punishment management.\n\n| **Command** | **Description**                                         | **Usage**                                                                  | **Notes**                                                                                                       |\n|-------------|---------------------------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|\n| `/rawtell`  | Send a raw message to a player                          | `/rawtell <player> <message> [-nomessage\\|-nom] [-popup\\|-p] [-title\\|-t]` | `-nomessage` does not send a chat message<br>`-popup` sends a popup<br>`-title`sends a title                    |\n| `/log`      | Log a message                                           | `/log <message> [-severity\\|-s <severity>]`                                | `-severity` specifies the severity at which to log the message. See below for more informaiton about severities |\n| `/alert`    | Broadcast a message to the server                       | `/alert <message> [-nomessage\\|-nom] [-popup\\|-p] [-title\\|-t]`            | `-nomessage` does not send a chat message<br>`-popup` sends a popup<br>`-title` sends a title                   |\n| `/ip`       | Get a player's IP and their alt accounts                | `/ip <player>`                                                             | This shows every account that has the same IP as the player                                                     |\n| `/vanish`   | Vanish from other players' sight                        | `/vanish`                                                                  |                                                                                                                 |\n\n#### Severity\nIn a severity tag:\n* `log`: Normal, ordinary events\n* `notice`: Normal but interesting events\n* `important`: Significant events\n* `alert`: Exceptional events that likely require monitoring\n\nIf a message is logged at the `important` severity, for instance, loggers that listen to higher severities (ex. `alert`) will not pick it up. This is useful if you want to have an `alert` logger that sends you a Discord notification, for example.",
+  "readme_source_url": "https://github.com/adeynes/cucumber",
+  "icon_url": "https://raw.githubusercontent.com/adeynes/cucumber/43c71b952fdfd92a321d1eea790ff501cbaaf8d5/icon.png",
+  "featured": false,
+  "repo": "https://github.com/adeynes/cucumber",
+  "archive_repo": null,
+  "approved_release_tag": "r-5338",
+  "stars": 4,
+  "total_downloads": 3865,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.2.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "adeynes"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/103652",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-5338",
+      "published_at": null,
+      "downloads": 3865,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5338/cucumber-2.0.0-r5338.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5338",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5338/cucumber-2.0.0-r5338.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "cucumber",
+    "stable_release_id": 5338
+  }
+}

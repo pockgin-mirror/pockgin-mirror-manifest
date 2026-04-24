@@ -1,0 +1,61 @@
+{
+  "id": "backupme",
+  "name": "BackupMe",
+  "author": "zjfc-pm-pl",
+  "description": "Implements the \"Pterodactyl backup system\" but can also backup your server without restarting it and mainly made for those who don't use Pterodactyl to use",
+  "readme_markdown": "# BackupMe\n<a href=\"https://github.com/Endermanbugzjfc/BackupMe/\"><img src=\"https://raw.githubusercontent.com/Endermanbugzjfc/BackupMe/main/icon.png\" height=\"128\" width=\"128\" align=\"left\"></img></a><a href=\"https://poggit.pmmp.io/ci/Endermanbugzjfc/BackupMe/BackupMe/\"><img src=\"https://poggit.pmmp.io/ci.shield/Endermanbugzjfc/BackupMe/~\" align=\"left\"></img></a><a href=\"https://github.com/Endermanbugzjfc/BackupMe/releases/latest/\"><img src=\"https://img.shields.io/github/downloads/Endermanbugzjfc/BackupMe/total\" align=\"left\"></img></a><a href=\"https://github.com/Endermanbugzjfc/BackupMe/issues/\"><img src=\"https://img.shields.io/github/issues/Endermanbugzjfc/BackupMe\"></img></a></br>\nImplements the \"Pterodactyl backup system\" but can also backup your server without restarting it and mainly made for those who don't use Pterodactyl to use\n**This plugin implements a backup system that works like the \"Pterodactyl backup system\"**\n# Configuration\n## Options\n| Option | Description |\n| ------ | ----------- |\n| `enable-plugin` | The plugin power switch. **If this option is false, the plugin will disable on load.** |\n| `archiver-format` | The **archiver format** that will be use |\n| `backup-name` | The name format that the backup archive file will be used, please see the available name format tag list! |\n| `file-checker-interval` | The interval in seconds between every time the file checker checks if a `backup.me` is created. |\n| `ignore-disk-space` | Continue to do a server backup **even if the server disk is not having enough space.** |\n| `check-for-file` | File name for the file checker to check _(Default `backup.me`)_ |\n| `operation-log` | Will a debug log message be send when a file is added or ignored ***(This might cause a console spam!)*** |\n## Available archiver formats\n| ID | **Format** |\n| -- | ------ |\n| `0` | **Zip** |\n| `1` | **Gz** |\n| `2` | **Bzip2** |\n## Name format tags\n| Tag | Replacement |\n| --- | ----------- |\n| `{y}` | **Current year** represented by a two-digit number |\n| `{m}` | **Current month** represented by a two-digit number |\n| `{d}` | **Current date** represented by a two-digit number |\n| `{h}` | **Current hour** represented by a two-digit number |\n| `{i}` | **Current minute** represented by a two-digit number |\n| `{s}` | **Current second** represented by a two-digit number |\n| `{format}` | The chosen backup archiver format ***(`zip` / `tar`)*** |\n| `{uuid}` | A **universal unique identifier** of the current backup archive task |\n### Examples formats:\n- `backup-{y}-{m}-{d} {h}-{i}-{s}.{format}`\n- `backup_my_server_{uuid}.{format}`\n- `backup {y}-{m}-{d} ({uuid}).{format}`\n## backupignore.gitignore\n**Backup ignore is only available on Linux servers at the moment!**\nYou can input certain rules to prevent the backup archiver from adding that file to the backup archive file.\n\n**This file is using the [GitIgnore](https://git-scm.com/docs/gitignore) syntax**\n***(I will replace this with another file pattern regex system since this thing requires an additional [GitIgnoreChecker](https://github.com/inmarelibero/gitignore-checker/) library and causes many issues when this plugin is running on other OS such as Windows)***\n### Example rules *(For people who have never used the GitIgnore syntax before)*\n| Rules | What this rule means |\n| ----- | -------------------- |\n| `/plugins/` | The `plugins` directory at the backup source directory |\n| `plugins/` | All the `plugins` directory no matter where it is |\n| `/plugin.phar` | The `plugin.phar` file at the backup source directory |\n| `plugin.phar` | The `plugin.phar` file at anywhere |\n| `plugin.*` | The `plugin` file but any file extension names will match this rule |\n| `*.phar` | Any .phar files |\n| `!worlds/*` | None of all in any of the `worlds` directory |\n\n# Start backup\nCreate a file name `backup.me` at the server root directory or use the [`/backupme` command]() from console or in-game. When the file checker finds it, a server backup will be started.\n\n**Please do not turn off the server during the backup**\n\nIf a message with the backup task used time, the total amount of added files and ignored files popup. It means that the backup task is **completed**, you can do whatever you want at that time. The backup archive file will be generated at the server root directory *(Where you create the `backup.me` file)*\n\n# Permissions\n| Permission | Command |\n| ---------- | ------- |\n| `backupme.cmd.backup` | `/backupme` |\n\n# API\n## Custom backup requests\n\n### Event\n\n**Other plugins can manually start a server backup by calling a `\\Endermanbugzjfc\\BackupMe\\events\\BackupRequestEvent` event**\n\n### Customize\n\n| Member function name | Action |\n| --------------- | ------ |\n| `setBackupIgnoreContent(string $content)` | Overwrite the original backup ignore file contents |\n| `setName(string $name)` | Overwrite the original backup archive file name |\n| `setFormat(int $format)` | Overwrite the original backup archiver format |\n\n**Available archiver formats (All in `\\Endermanbugzjfc\\BackupMe\\BackupRequestListener`):**\n- `BackupRequestListener::ZIP`\n- `BackupRequestListener::TARGZ`\n- `BackupRequestListener::TARBZ2`",
+  "readme_source_url": "https://github.com/zjfc-pm-pl/BackupMe",
+  "icon_url": "https://raw.githubusercontent.com/Endermanbugzjfc/BackupMe/e2bba82edc4332f8f2bb251b84b578924e6b313d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/zjfc-pm-pl/BackupMe",
+  "archive_repo": null,
+  "approved_release_tag": "r-5539",
+  "stars": 4,
+  "total_downloads": 2440,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "zjfc-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-5539",
+      "published_at": null,
+      "downloads": 2440,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5539/backupme-1.0.3-r5539.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5539",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5539/backupme-1.0.3-r5539.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BackupMe",
+    "stable_release_id": 5539
+  }
+}

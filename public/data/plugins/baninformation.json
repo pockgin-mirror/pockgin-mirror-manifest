@@ -1,0 +1,66 @@
+{
+  "id": "baninformation",
+  "name": "BanInformation",
+  "author": "CTMCentral",
+  "description": "See more info on your player ban records!",
+  "readme_markdown": "# Intro\n[![Discord](https://img.shields.io/badge/chat-on+discord-7289da.svg)](https://discord.gg/R7kdetE)\n\nSee more info on your player ban records!\n\n# Features\n\n* Displays a complete list of ban records for a selected player \n\n# Future Additions\n\n* Support for plugin moderator systems\n\n# About\n\nThis plugin was released as a proof of concept about the existing API PocketMine provides. I fully recommend developers look into PocketMine's codebase for use in your own projects when you can.",
+  "readme_source_url": "https://github.com/CTMCentral/BanInformation",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/CTMCentral/BanInformation",
+  "archive_repo": null,
+  "approved_release_tag": "r-5569",
+  "stars": 4,
+  "total_downloads": 6121,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "CTMCentral"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/108280",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-5569",
+      "published_at": null,
+      "downloads": 6044,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5569/baninformation-1.0.1-r5569.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5569",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5569/baninformation-1.0.1-r5569.phar"
+    },
+    {
+      "tag": "r-5563",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5563/baninformation-1.0.0-r5563.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BanInformation",
+    "stable_release_id": 5569
+  }
+}

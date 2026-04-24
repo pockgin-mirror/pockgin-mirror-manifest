@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12223",
   "stars": 0,
-  "total_downloads": 2876,
+  "total_downloads": 6778,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-8383",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8383/kygekrulesui-2.0.0-r8383.phar"
+    },
+    {
+      "tag": "r-5534",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5534/kygekrulesui-1.2.0-r5534.phar"
     }
   ],
   "comments": {

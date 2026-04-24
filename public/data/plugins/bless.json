@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8679",
   "stars": 0,
-  "total_downloads": 640,
+  "total_downloads": 1592,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-8679",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8679/bless-1.1.0-r8679.phar"
+    },
+    {
+      "tag": "r-5489",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5489/bless-1.0.0-r5489.phar"
     }
   ],
   "comments": {

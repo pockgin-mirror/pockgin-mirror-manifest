@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-5967",
   "stars": 4,
-  "total_downloads": 2453,
+  "total_downloads": 3158,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,14 +34,14 @@
       "version": "2.5",
       "tag": "r-5967",
       "published_at": null,
-      "downloads": 1227,
+      "downloads": 1228,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5967/mockingbird-2.5-r5967.phar"
     },
     "dev": {
       "version": "2.4.0",
       "tag": "r-5749",
       "published_at": null,
-      "downloads": 836,
+      "downloads": 837,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5749/mockingbird-2.4.0-r5749.phar"
     }
   },
@@ -60,6 +60,16 @@
       "tag": "r-5626",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5626/mockingbird-2.3.0-r5626.phar"
+    },
+    {
+      "tag": "r-5552",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5552/mockingbird-2.2.0-r5552.phar"
+    },
+    {
+      "tag": "r-5528",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5528/mockingbird-2.1.0-r5528.phar"
     }
   ],
   "comments": {

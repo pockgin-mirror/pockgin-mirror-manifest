@@ -1,0 +1,61 @@
+{
+  "id": "block-generators",
+  "name": "Block-Generators",
+  "author": "Kirkham05",
+  "description": "Block Generators",
+  "readme_markdown": "## Block Generators\n\nThis is a plugin that will allow players to place a Block Generator that will spawn a block of your choice above it.\n\nWhat is a Block Generator?\nA Block Generator is a block that spawns other optional blocks above it.\n\n### Configuration\n|Option|Description|\n|------|-----------|\n|max_stack|Determines the max amount of Generators you can have in 1 block|\n|gen_rate|This changes the time between each block generated|\n|gen_rate_decrease|This changes the amount the time will be decreased for each Generator in the stack|\n|generators|This is an array of all the Generators that are setup|",
+  "readme_source_url": "https://github.com/Kirkham05/Block-Generators",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Kirkham05/Block-Generators",
+  "archive_repo": null,
+  "approved_release_tag": "r-5515",
+  "stars": 5,
+  "total_downloads": 1795,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Kirkham05"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-5515",
+      "published_at": null,
+      "downloads": 1795,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5515/block-generators-0.0.1-r5515.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-5515",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5515/block-generators-0.0.1-r5515.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Block-Generators",
+    "stable_release_id": 5515
+  }
+}
