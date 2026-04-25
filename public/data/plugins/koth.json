@@ -1,0 +1,61 @@
+{
+  "id": "koth",
+  "name": "KOTH",
+  "author": "JaxkDev",
+  "description": "K.O.T.H",
+  "readme_markdown": "<a href=\"https://tiny.cc/JaxksDC\"><img src=\"https://discordapp.com/api/guilds/554059221847638040/embed.png\" alt=\"Discord server\"/></a>\n<a href=\"https://poggit.pmmp.io/p/KOTH\"><img src=\"https://poggit.pmmp.io/shield.state/KOTH\"></a>\n\n# K.O.T.H\nKing Of The Hill mini-game, Pocketmine-MP Plugin by JaxkDev.\n\n## NOTICE'S\n *Just because it's the only plugin released, doesn't mean it's the best one.*\n\n *Please feel free to create a PR to modify/add new help files for different languages !*\n \n \n## Features\n### Implemented\n - Console has its own commands.\n - Enable/Disable arena's !\n - Much more events for other developers to be able to customise the game EVEN MORE !\n - Check for updates on server start !   - won't work on android (CURL)\n - Messages are customisable.\n - Multiple Arena's.\n - Custom spawn & hill points.\n - Supports Arena's in different worlds.\n - Custom player amount, and game time.\n - Block break/place disabled during in-game (optional).\n - Changing gamemode during a game is cancelled (optional).\n - Rewards given to king at end of game.\n - Leave a arena.\n - 'King' is displayed above player name. (nametag, optional)\n - Some values are in config.yml including a help file.\n - On death keep inventory.\n\n### Upcoming\n - Change of game layout (different types will be extensions) - (check the extensions [repo](https://github.com/JaxkDev/Koth-Extensions) for more info)\n - Something extra for when winner is announced *wink*\n\n### Permissions:\n```yaml\nkoth.command:\n  description: \"Allows player to use /koth\"\n  default: true\nkoth.command.delete:\n  description: \"Allows player to delete an arena.\"\n  default: op\nkoth.command.create:\n  description: \"Allows player to create and setup an arena.\"\n  default: op\nkoth.command.enable:\n  description: \"Allows player to enable an arena.\"\n  default: op\nkoth.command.disable:\n  description: \"Allows player to disable an arena.\"\n  default: op\nkoth.command.rewards:\n  description: \"Allows player to modify the reward of an arena.\"\n  default: op\nkoth.command.info:\n  description: \"Allows player to see more details about an arena.\"\n  default: true\nkoth.command.list:\n  description: \"Allows player to see the Arena's and their current status.\"\n  default: true\nkoth.command.join:\n  description: \"Allows player to join a game.\"\n  default: true\nkoth.command.leave:\n  description: \"Allows player to chicken out of a game.\"\n  default: true\nkoth.command.start:\n  description: \"Allows player to start an arena.\"\n  default: true\nkoth.command.forcestart:\n  description: \"Allows player to force start an arena.\"\n  default: op\n```\n## About the game\n### KOTH\nKing.Of.The.Hill\n\nKing of the hill is a mini-game most players will be familiar with, either through minecraft or by playing pretty much any other strategy game. \n\nThe aim of king of the hill is to conquer the castle, fort or anything else in the middle of the arena, the arena is usually a large map of some sort with surrounding walls.\nThe top point usually on a hill with a height advantage is the throne, castle, fort whatever you call it.\n\nplayers all spawn into the one map/arena, and then using the equipment/items on them, they take on position of king.\nThey remain king for as long as they stay in the specified area/fort/castle if they die, another player in the area takes place as king or next person who goes there.\n\nThe winner is announced at the end of the game (When a timer runs out), the king currently in power or the previous king will be winner.\n\nAt the end the winner is given rewards and a *celebration* occurs (shortly).\n(This is not yet implemented - as of beta4)\n\n### Joining a game\nTo join a game/arena the arena must meet some criteria,\n1. The arena cannot be full or not ready (you can check using `/koth list`)\n2. The arena world must exist, cannot be deleted or re-named (if so you will have to reset the arena positions)\n3. The arena must have spawn points.\n\nIf the arena meets all the above you can join using `/koth join <arena name>`\n\n### Starting a game\nThe game will start the pregame counter when the minimum amount of players has joined.\nor if auto-start is disabled in config you can type `/koth forcestart` or `/koth start`\nthe only difference is forcestart does not check the arena status whereas ^^^ only starts if status is `Ready`\n\n### Leaving a game\nYou can leave a game by using the command `/koth leave` or quiting the game.\n\n### Winning a game\n**NOTICE: There is plans for different types of ways of winning a game, targeted for beta 4/5**\n\nThe game runs on a timer, during which anyone can move, attack and kill the king.\nHowever, when the timer runs out the last standing king, or the previous king will be crowned.\n(And in future rewards and *other* things will be added)\n\n(Notice, players are frozen during 'presentations of the king')\n\n## Setting up\n### Creating/Removing arena(s)\nTo create a new arena use the command `/koth create <arena name>` (No spaces are allowed in arena, for now)\nTo remove an arena use the command `/koth delete <arena name>` (The arena cannot be in use when deleting)\n\nTo check arena status type `/koth list` or `/koth info <arena name>`\n### Setting positions/Values\n 1. `/koth setpos1 <arena name>`\n   (Make sure you are standing on one corner of the throne/hill.)\n 2. `/koth setpos2 <arena name>`\n   (Now stand on the opposite corner of the throne/hill.)\n 3. `/koth setspawn <arena name>`\n   (This command can be used as many times as you like, again be standing on the spawn location you want to set.)\n 4. `/koth addreward <arena name> <command>`\n   example: `/koth addreward arena1 give {PLAYER} 20 1` <- this would give the winner 1 web.\n### Editing Values\nIf your provider is yaml feel free to edit the data file but any damaged caused is directly your fault.\n\nYou can use commands to modify some but not all data (as of beta3) check /koth help\n- `/koth setpos1/2` (Can be re-used to overwrite old positions)\n- `/koth setspawn` (Can be used multiple times, `/koth remspawn` is in Beta4)\n\n### Config:\nWhen the plugin is first run it will make a file in plugin_data/koth/ named config.yml\nin the file you will find a series of values feel free to change any of them except version\n\nFor more info see the help file found in the same directory.\n\n## Extensions:\n - <https://github.com/JaxkDev/koth-extensions>\n To install extensions place the phar from the releases section into the plugins directory of your server and reboot server.\n Any issues should be reported in that repository if the extension crashes.\n\n## Known Bugs:\n - Floating Text Particles will appear in every world but at same position, disable floating_text_particles if this is an issue for your server setup.\n\nTo report bugs please make an issue over on [GitHub](https://github.com/JaxkDev/koth/issues/new) and please *follow the template!*\n\n## Credits:\n_Developer:_ JaxkDev\n\n_Icon Creator:_ WowAssasin (WowAssasin#6608)\n\n_Requested Originally By:_ GOLDVAGE (GOLDVAGE#2712) (My Idea generator, hehe)",
+  "readme_source_url": "https://github.com/JaxkDev/koth",
+  "icon_url": "https://raw.githubusercontent.com/JaxkDev/koth/7c065063dc5b5bb000b36446840cecbb8a480d6a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/JaxkDev/koth",
+  "archive_repo": null,
+  "approved_release_tag": "r-3397",
+  "stars": 4,
+  "total_downloads": 6706,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.9.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JaxkDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/147713",
+  "versions": {
+    "stable": {
+      "version": "1.0.0-Beta4",
+      "tag": "r-3397",
+      "published_at": null,
+      "downloads": 6706,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3397/koth-1.0.0-beta4-r3397.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3397",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3397/koth-1.0.0-beta4-r3397.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KOTH",
+    "stable_release_id": 3397
+  }
+}

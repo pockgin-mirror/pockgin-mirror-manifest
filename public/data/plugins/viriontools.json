@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9173",
   "stars": 5,
-  "total_downloads": 714,
+  "total_downloads": 2905,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-9123",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9123/viriontools-4.0.0-r9123.phar"
+    },
+    {
+      "tag": "r-3223",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3223/viriontools-3.3.0-r3223.phar"
     }
   ],
   "comments": {

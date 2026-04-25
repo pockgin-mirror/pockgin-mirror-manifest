@@ -1,0 +1,66 @@
+{
+  "id": "lockmystuff",
+  "name": "LockMyStuff",
+  "author": "Mohagames205",
+  "description": "This plugin will be rewritten!",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/LockMyStuff)](https://poggit.pmmp.io/p/LockMyStuff) [![](https://poggit.pmmp.io/shield.dl.total/LockMyStuff)](https://poggit.pmmp.io/p/LockMyStuff)\n\n# This plugin will be rewritten!\n\n# LockMyStuff\nThis plugin let's you lock your trapdoors, doors and chests\n\n### How to use this plugin?\n* Place an iron door and execute the command /lock <name>, then you will have to touch the door you wanted to lock.\n* If you want to unlock a door you will have to execute /unlock and then touch the door. You can also use /unlock <name> so you don't have to touch the door.\n* Doors can only be unlocked by people with OP. This plugin was made for roleplay purposes, so a normal player will not be able to /unlock a door. The play can however open a door with a key or break the door if the player has the key.\n\n### Commands\n\n| Command | Description | Permission |\n| --- | --- | --- |\n| * | Access to all commands | lms |\n| /lockedinfo | Shows information about a locked block | lms.lockedinfo |\n| /unlock [name] | Unlocks a block completely (anyone can open and close it without key) | lms.unlock |\n| /lock <name> | Locks a block and gives you a key to interact with the locked block | lms.lock |\n| /makekey <name> | Makes a key for an existing locked block | lms.makekey |\n\n### Permissions\n\n| Permission | Description |\n| --- | --- |\n| lms | Access to all commands |\n| lms.bypass | With this permission the player can open every locked door |\n| lms.unlock | Allows the user to use the /unlock command |\n| lms.lock | Allows the user to use the /lock command |\n| lms.makekey | Allows the user to use the /makekey command |\n| lms.break | Allows the user to break a locked door |\n| lms.lockedinfo | Allows the user to use the /lockedinfo command |\n\n### Suggestions or need help?\nPlease open an issue on Github with your suggestion/question.\n\n[![](https://img.shields.io/github/issues/mohagames205/LockMyStuff?style=for-the-badge)](https://github.com/mohagames205/LockMyStuff/issues)",
+  "readme_source_url": "https://github.com/Mohagames205/LockMyStuff",
+  "icon_url": "https://raw.githubusercontent.com/Mohagames205/LockMyStuff/2d0edf305db67bd361bbcbc163e6cb7eed45cf59/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Mohagames205/LockMyStuff",
+  "archive_repo": null,
+  "approved_release_tag": "r-3398",
+  "stars": 0,
+  "total_downloads": 12746,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Mohagames205"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/66863",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-3398",
+      "published_at": null,
+      "downloads": 12581,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3398/lockmystuff-1.1.0-r3398.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3398",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3398/lockmystuff-1.1.0-r3398.phar"
+    },
+    {
+      "tag": "r-3388",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3388/lockmystuff-1.0.0-r3388.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LockMyStuff",
+    "stable_release_id": 3398
+  }
+}

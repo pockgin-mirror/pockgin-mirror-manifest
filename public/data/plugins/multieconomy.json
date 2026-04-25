@@ -1,0 +1,61 @@
+{
+  "id": "multieconomy",
+  "name": "MultiEconomy",
+  "author": "TwistedAsylumMC",
+  "description": "MultiEconomy is an Economy system with multiple currencies!",
+  "readme_markdown": "<p><a href=\"https://poggit.pmmp.io/p/MultiEconomy\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/b2473967a3c597fe3a93e8d1004773aa6c5e8f76/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f4d756c746945636f6e6f6d79\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.state/MultiEconomy\" style=\"max-width:100%;\"></a> <a href=\"https://poggit.pmmp.io/p/MultiEconomy\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/c2c25c39210f677741eaf1b06974a90524ef311b/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f4d756c746945636f6e6f6d79\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.api/MultiEconomy\" style=\"max-width:100%;\"></a> <a href=\"https://poggit.pmmp.io/p/MultiEconomy\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/b03b679e688d2e310a79752f1ffb092e087f179d/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f4d756c746945636f6e6f6d79\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/MultiEconomy\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/MultiEconomy\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/eb1cc629f6e3b864200c0bb7742e050a910f425e/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f4d756c746945636f6e6f6d79\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl/MultiEconomy\" style=\"max-width:100%;\"></a></p>\n<h1>\n<a id=\"user-content-multieconomy\" class=\"anchor\" href=\"#multieconomy\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>MultiEconomy</h1>\n<p><strong>MultiEconomy is an Economy system with multiple currencies!</strong></p>\n<h2>\n<a id=\"user-content-documentation\" class=\"anchor\" href=\"#documentation\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Documentation</h2>\n<p>Head over to the <a href=\"https://github.com/TwistedAsylumMC/MultiEconomy/wiki\">wiki</a> to see a full documentation.</p>",
+  "readme_source_url": "https://poggit.pmmp.io/r/69373",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/TwistedAsylumMC/MultiEconomy",
+  "archive_repo": null,
+  "approved_release_tag": "r-3510",
+  "stars": 4,
+  "total_downloads": 10457,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TwistedAsylumMC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/69375",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-3510",
+      "published_at": null,
+      "downloads": 10457,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3510/multieconomy-2.0.0-r3510.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3510",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3510/multieconomy-2.0.0-r3510.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MultiEconomy",
+    "stable_release_id": 3510
+  }
+}

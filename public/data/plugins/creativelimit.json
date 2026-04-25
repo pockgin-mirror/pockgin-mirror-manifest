@@ -1,0 +1,61 @@
+{
+  "id": "creativelimit",
+  "name": "CreativeLimit",
+  "author": "padreon",
+  "description": "Limit creative for player",
+  "readme_markdown": "# CreativeLimit\nLimit creative for player\n\n[![](https://poggit.pmmp.io/shield.state/CreativeLimit)](https://poggit.pmmp.io/p/CreativeLimit)\n\n__Feature on Player on gamemode creative__\n- [x] Player can't open Chest, furnace, and etc\n- [x] Player can't hit/kill another player\n- [x] Player can't place item on ItemFrame\n- [x] Player can't drop an item\n- [x] when the player changes the gamemode, the inventory will be clear \n- [x] If player death the inventory not drop\n\n__ToDo__\n- [ ] config\n- [ ] request pls",
+  "readme_source_url": "https://github.com/padreon/CreativeLimit",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/padreon/CreativeLimit",
+  "archive_repo": null,
+  "approved_release_tag": "r-3157",
+  "stars": 4,
+  "total_downloads": 2036,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "padreon"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.2",
+      "tag": "r-3157",
+      "published_at": null,
+      "downloads": 2036,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3157/creativelimit-1.2-r3157.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3157",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3157/creativelimit-1.2-r3157.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CreativeLimit",
+    "stable_release_id": 3157
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11459",
   "stars": 0,
-  "total_downloads": 423,
+  "total_downloads": 1285,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-7970",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7970/simplereplies-2.0-r7970.phar"
+    },
+    {
+      "tag": "r-3426",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3426/simplereplies-1.0.2-1-r3426.phar"
     }
   ],
   "comments": {

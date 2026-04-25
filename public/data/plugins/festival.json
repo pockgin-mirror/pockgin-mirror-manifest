@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-3775",
   "stars": 4,
-  "total_downloads": 3784,
+  "total_downloads": 4946,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "2.1.2",
       "tag": "r-3775",
       "published_at": null,
-      "downloads": 3784,
+      "downloads": 3785,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3775/festival-2.1.2-r3775.phar"
     },
     "dev": null
@@ -44,6 +44,21 @@
       "tag": "r-3775",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3775/festival-2.1.2-r3775.phar"
+    },
+    {
+      "tag": "r-3525",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3525/festival-2.1.1-r3525.phar"
+    },
+    {
+      "tag": "r-3315",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3315/festival-2.1.0-r3315.phar"
+    },
+    {
+      "tag": "r-3217",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3217/festival-2.0.0-r3217.phar"
     }
   ],
   "comments": {

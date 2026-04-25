@@ -1,0 +1,61 @@
+{
+  "id": "pocketdockconsole",
+  "name": "PocketDockConsole",
+  "author": "PocketDock",
+  "description": "PocketDockConsole - *Because RCON was so retro*",
+  "readme_markdown": "PocketDockConsole - *Because RCON was so retro*\n=================\n\nAbilities\n---------\n\n- Allows server admins to have a quick and easy way to administer their servers without the need for RCON\n- Gives admins the ability to manage their server from a familiar interface that they can access with ANY web browser (at least ones that have WebSockets)\n- Remove the need for other administration tools (you can see everything)\n- Give admins a way to have trusted users administer the server as if they were sitting at the console\n\nPocketDockConsole is a plugin for PocketMine-MP with the following initiatives\n------------------------------------------------------------------------------\n\n- [x] Allow people to manage their servers quickly and easily\n- [x] Show the power of both PocketMine (and PHP)\n- [ ] Get people to make more awesome plugins\n- [x] Have some fun\n\nHow to use this plugin\n----------------------\n\n1. Download the Phar file from either GitHub releases or the PocketMine Forums\n2. Drop it into your plugins/ folder\n3. Restart the server\n4. Edit the password and port in the config (password is important, the port can be left the same)\n5. Have fun!\n\nTechnologies used in this project\n---------------------------------\n\n1. WebSockets\n2. Term.js - By: Christopher Jeffrey [https://github.com/chjj/term.js/] (now [xtermjs](https://xtermjs.org))\n3. Some guidance from PHP-Push-WebSocket [https://github.com/srchea/PHP-Push-WebSocket/]\n4. Wrench - By: @nicokaiser, @lemmingzshadow, and @mazhack [https://github.com/varspool/Wrench/]",
+  "readme_source_url": "https://github.com/PocketDock/PocketDockConsole",
+  "icon_url": "https://raw.githubusercontent.com/PocketDock/PocketDockConsole/e1a17fac776a9bbfb2d74ff0bfff00e3246deee2/icon.png",
+  "featured": false,
+  "repo": "https://github.com/PocketDock/PocketDockConsole",
+  "archive_repo": null,
+  "approved_release_tag": "r-3177",
+  "stars": 4,
+  "total_downloads": 3103,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.4.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "PocketDock"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.15",
+      "tag": "r-3177",
+      "published_at": null,
+      "downloads": 3103,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3177/pocketdockconsole-0.0.15-r3177.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3177",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3177/pocketdockconsole-0.0.15-r3177.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PocketDockConsole",
+    "stable_release_id": 3177
+  }
+}

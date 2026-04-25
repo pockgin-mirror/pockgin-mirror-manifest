@@ -1,0 +1,63 @@
+{
+  "id": "gungame",
+  "name": "GunGame",
+  "author": "tim03we",
+  "description": "GunGame is a nice MiniGame that hasn't been seen often in the Minecraft Bedrock Edition scene before. That's why I want to give you one. This MiniGame also includes a self-confi...",
+  "readme_markdown": "<h1>GunGame<img src=\"http://imgur.com/tCTL2QD.png\" height=\"64\" width=\"64\" align=\"left\"></img></h1>\r\n<br />\r\n\r\nGunGame is a nice MiniGame that hasn't been seen often in the Minecraft Bedrock Edition scene before. That's why I want to give you one. This MiniGame also includes a self-configurable Config that allows you to customize the game to your needs.\r\n\r\n# Features\r\n- Edit the game news\r\n- Activate or deactivate certain events\r\n- Change the chat format, as well as your nametag in the game\r\n- Multi World Support\r\n# Setup\r\n- Download the plugin as Phar or folder\r\n- Pack the plugin into the plugins folder\r\n- Set the game mode in server.properties to Adventure (value: 2)\r\n- Start / restart the server\r\n- You can play with your friends now\r\n\r\n# Config\r\n```\r\n# Please do not change this!\r\nversion: 1.0.0\r\n\r\n# At which level should you no longer be able to receive kits?\r\nMaximum-Level: 3\r\n\r\n# Specify a percentage of the chance that you will lose many levels.\r\n# Default = 0.60\r\nChance: 0.60\r\n\r\n# Which events should be activated and which should be deactivated?\r\n# Default = @all \"false\"\r\nevents:\r\n    hunger: false\r\n    place: false\r\n    break: false\r\n    inv-move: false\r\n    drop: false\r\n    \r\nformat:\r\n    chat: \"§8[§c{level}§8] §7{player} §8> §f{msg}\"\r\n    nametag: \"§8[§c{level}§8] §7{player}\"\r\n    \r\n    \r\n# Here you can change the messages.\r\n# {player} = The player is you\r\n# {level} = Your current level\r\n# {msg} = Your message\r\n# {killer} = Who killed you\r\nmessages:\r\n    join: \"{player} has entered the GunGame server.\"\r\n    quit: \"{player} has left the GunGame server.\"\r\n    death: \"{player} died!\"\r\n    kill: \"{player} was killed by {killer}.\"\r\n    reload: \"Your levels were reset by a server reload.\"\r\n    max: \"You have already reached the maximum level. Keep it up!\"\r\n```\r\n----------------\r\n\r\nIf problems arise, create an issue or write us on Discord.\r\n\r\n| Discord |\r\n| :---: |\r\n[![Discord](https://img.shields.io/discord/427472879072968714.svg?style=flat-square&label=discord&colorB=7289da)](https://discord.gg/Ce2aY25) |",
+  "readme_source_url": "https://github.com/tim03we/GunGame",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/tim03we/GunGame",
+  "archive_repo": null,
+  "approved_release_tag": "r-3184",
+  "stars": 3,
+  "total_downloads": 7872,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "KDR"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "tim03we"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/62608",
+  "versions": {
+    "stable": {
+      "version": "1.3",
+      "tag": "r-3184",
+      "published_at": null,
+      "downloads": 7872,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3184/gungame-1.3-r3184.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3184",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3184/gungame-1.3-r3184.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GunGame",
+    "stable_release_id": 3184
+  }
+}

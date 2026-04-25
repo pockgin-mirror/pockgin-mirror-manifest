@@ -1,0 +1,63 @@
+{
+  "id": "filterx",
+  "name": "FilterX",
+  "author": "artulloss",
+  "description": "The next generation chat filter!",
+  "readme_markdown": "# FilterX\n[![](https://poggit.pmmp.io/shield.state/FilterX)](https://poggit.pmmp.io/p/FilterX)\n\nThe next generation chat filter!\n# Features\n- Invisible filtering - By default the plugin will not make it apparent to players that things they say in chat are filtered, this is to encourage cleanliness in chat as most people won't know what they're saying is censored so they won't try to bypass the filter.\n- IPv4 address filtering\n- Soft mute system - This plugin has a configurable infraction system where infractions in a message result in soft mutes that are stored in a database.\n- [StaffChat](https://github.com/ThunderDoesPlugins/StaffChat) support\n- Configurability - Everything is configurable and the configuration is validated with  [this](https://github.com/lezhnev74/pasvl) fabulous library\n- Support for SQLite and MySQL via [libasynql](https://github.com/poggit/libasynql)\n- Support for custom filter types\n# Installation\n\n1. Download the latest build from here https://poggit.pmmp.io/ci/artulloss/FilterX/\n2. Configure the plugin to your liking. For the database SQLite will work great for 1 server and MySQL will work for multiple servers. If you want to test the filter out I recommend switching the invisible options off then back on when you're ready to use it, or use a separate device to confirm if the messages are blocked.\n3. If you run into any issues with the plugin open an issue and I'll try to get back to you within several hours.\n\n**Made with ❤️ by Adam**",
+  "readme_source_url": "https://github.com/artulloss/FilterX",
+  "icon_url": "https://raw.githubusercontent.com/artulloss/FilterX/8cfa7ea8f17d38ab4dacb74a69779323d14353c6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/artulloss/FilterX",
+  "archive_repo": null,
+  "approved_release_tag": "r-3254",
+  "stars": 4,
+  "total_downloads": 847,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "StaffChat"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "artulloss"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-3254",
+      "published_at": null,
+      "downloads": 847,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3254/filterx-1.0.0-r3254.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3254",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3254/filterx-1.0.0-r3254.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FilterX",
+    "stable_release_id": 3254
+  }
+}

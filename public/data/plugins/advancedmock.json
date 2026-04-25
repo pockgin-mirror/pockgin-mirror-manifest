@@ -1,0 +1,61 @@
+{
+  "id": "advancedmock",
+  "name": "aDvaNceDmOcK",
+  "author": "Heisenburger69",
+  "description": "PlugIn USED To mocK MEssAgeS sENT on the seRVEr. iT STORes THe LAST SEnT MeSsage Of A PlAyeR So As tO ALLOw oThER PLaYEr's To MocK tHE LAst seNt MEssAGE OF tHE REquEstED plaYer.",
+  "readme_markdown": "PlugIn USED To mocK MEssAgeS sENT on the seRVEr. iT STORes THe LAST SEnT MeSsage Of A PlAyeR So As tO ALLOw oThER PLaYEr's To MocK tHE LAst seNt MEssAGE OF tHE REquEstED plaYer. \n\niN ADdition, a gLoBAl tOGglE is PRESENt, ALLOWING ADMinS To mAkE ALl SERVEr messAges lOok Like thIS. PLAyERS CaN alSO SEt AlL THEiR oWn PErSoNAl meSSages tO LOOk LIke ThIs TOo.\n\ncoMmandS:\n\n mOcK-\n  desCripTiON: \"MOCk AnOTHeR PLAYERS MESsAgE\"\n  pErMISSiON: MOcK.pLAYER\n  \n moCKAll-\n    descripTIon: \"SET alL cHAT mEssAgeS bY aNy PlaYeR To LooK like thIS\"\n    PermIsSiOn: mOcK.AlL\n    \n mOcKiNG-\n    DESCRiPTion: \"maKe aLL yoUr cHAt meSSAGES LoOk liKe THis\"\n    PeRMiSSion: MoCK.TOGGle\n    \n moCKMe-\n    DeSCRIpTiOn: \"MAKE THE texT AFter ThE comMand looK LikE thIs\"\n    PermiSsiON: mOck.SeLF\n\n adMINs caN BE mADE iMmunE To mocKIng wiTh THe permisSION \"mOCK.iMmUne\"",
+  "readme_source_url": "https://github.com/Heisenburger69/aDvaNceDmOcK",
+  "icon_url": "https://raw.githubusercontent.com/Heisenburger69/aDvaNceDmOcK/bd9996becfcc4418364225e0b8cfc7ae39207d5d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Heisenburger69/aDvaNceDmOcK",
+  "archive_repo": null,
+  "approved_release_tag": "r-3485",
+  "stars": 5,
+  "total_downloads": 2196,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.9.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Heisenburger69"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-3485",
+      "published_at": null,
+      "downloads": 2196,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3485/advancedmock-0.0.1-r3485.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3485",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3485/advancedmock-0.0.1-r3485.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "aDvaNceDmOcK",
+    "stable_release_id": 3485
+  }
+}

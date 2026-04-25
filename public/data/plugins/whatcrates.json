@@ -1,0 +1,72 @@
+{
+  "id": "whatcrates",
+  "name": "WhatCrates",
+  "author": "SchdowNVIDIA",
+  "description": "Thanks to ZAP-Hosting & JetBrains!",
+  "readme_markdown": "# Thanks to ZAP-Hosting & JetBrains!\nThis project wouldn't be possible without the help of ZAP-Hosting & JetBrains!\n***\n### ZAP-Hosting\nZap-Hosting is a VPS, Rootserver, (Lifetime) Gameserver, Domain & TeamSpeak 3/5 hosting company. They offer **good quality** servers **at a low price**. This project was also tested on a ZAP-Hosting Server. So if you need a **cheap** vps/gameserver/rootserver/teamspeak3/etc. hoster, ZAP-Hosting is the best choice.\n\nGet your own **VPS** today here: [Click me](https://zap-hosting.com/schdowvps)\n\nOr your own **Rootserver**: [Click me](https://zap-hosting.com/schdowrootserver)\n\nSpecial offer:\nCurrently, you can get a **50%** discount by using the Code `BLACK2019-50OFF`. So why not try it out?\n***\n### JetBrains\nThis project was made with the help of JetBrains amazing tools. You can visit JetBrains [here](https://www.jetbrains.com/).\n***\n\n[![](https://poggit.pmmp.io/shield.state/WhatCrates)](https://poggit.pmmp.io/p/WhatCrates)\n[![](https://poggit.pmmp.io/shield.api/WhatCrates)](https://poggit.pmmp.io/p/WhatCrates)\n[![](https://img.shields.io/discord/323953253458903040.svg)](https://discord.gg/ekUFD8z)\n\nWhatCrates is a plugin that allows you to make any block you want as a \"WhatCrate\".\nOpen Crates and win prizes!\n\n# Setup\n1. Put the WhatCrates.phar in your /plugins folder.\n2. Start your server.\n3. Go into your /plugin_data folder.\n4. If you want you can change now the raffle-speed and spinning-times in the config.yml\n5. Go into your WhatCrates.yml\n6. Setup your WhatCrates there.\n7. Restart your server.\n8. Have fun!\n\n# Commands\n/whatcrates key give [player] [type] [amount]\n/whatcrates ui\n\n# Permissions\nwhatcrates - gives permission to all whatcrates commands.",
+  "readme_source_url": "https://github.com/SchdowNVIDIA/WhatCrates",
+  "icon_url": "https://raw.githubusercontent.com/SchdowNVIDIA/WhatCrates/ec03a6941ee2a6ff2b05a3ef0160fedc0f8cf2aa/icon.png",
+  "featured": false,
+  "repo": "https://github.com/SchdowNVIDIA/WhatCrates",
+  "archive_repo": null,
+  "approved_release_tag": "r-3203",
+  "stars": 4,
+  "total_downloads": 2385,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SchdowNVIDIA"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/63077",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-3203",
+      "published_at": null,
+      "downloads": 2287,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3203/whatcrates-2.0.0-r3203.phar"
+    },
+    "dev": {
+      "version": "1.2.1-pre",
+      "tag": "r-3196",
+      "published_at": null,
+      "downloads": 98,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3196/whatcrates-1.2.1-pre-r3196.phar"
+    }
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3203",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3203/whatcrates-2.0.0-r3203.phar"
+    },
+    {
+      "tag": "r-3196",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3196/whatcrates-1.2.1-pre-r3196.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WhatCrates",
+    "stable_release_id": 3203
+  }
+}

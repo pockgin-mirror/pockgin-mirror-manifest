@@ -1,0 +1,63 @@
+{
+  "id": "skywars-reward",
+  "name": "SkyWars-Reward",
+  "author": "GamakCZ",
+  "description": "SWReward",
+  "readme_markdown": "# SWReward",
+  "readme_source_url": "https://github.com/GamakCZ/SWReward",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/GamakCZ/SWReward",
+  "archive_repo": null,
+  "approved_release_tag": "r-3255",
+  "stars": 4,
+  "total_downloads": 5064,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "GamakCZ"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.2",
+      "tag": "r-3255",
+      "published_at": null,
+      "downloads": 5064,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3255/skywars-reward-1.1.2-r3255.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3255",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3255/skywars-reward-1.1.2-r3255.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SkyWars-Reward",
+    "stable_release_id": 3255
+  }
+}

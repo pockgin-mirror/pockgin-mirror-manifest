@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12383",
   "stars": 0,
-  "total_downloads": 76907,
+  "total_downloads": 87430,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "4.0.2",
       "tag": "r-12383",
       "published_at": null,
-      "downloads": 3383,
+      "downloads": 3384,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12383/skyblock-4.0.2-r12383.phar"
     },
     "dev": null
@@ -59,6 +59,11 @@
       "tag": "r-4084",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4084/skyblock-3.0.0-r4084.phar"
+    },
+    {
+      "tag": "r-3263",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3263/skyblock-2.3.3-r3263.phar"
     }
   ],
   "comments": {

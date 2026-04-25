@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11902",
   "stars": 5,
-  "total_downloads": 2559,
+  "total_downloads": 6671,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -62,6 +62,11 @@
       "tag": "r-8261",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8261/groupjoin-1.0.0-r8261.phar"
+    },
+    {
+      "tag": "r-3331",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3331/groupjoin-0.0.1-r3331.phar"
     }
   ],
   "comments": {

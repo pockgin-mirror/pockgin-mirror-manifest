@@ -1,0 +1,61 @@
+{
+  "id": "kitui",
+  "name": "KitUI",
+  "author": "Infernus101",
+  "description": "Kit UI",
+  "readme_markdown": "# Kit UI<img src=\"http://planetkidonline.com/wp-content/uploads/2015/04/first-aid-kit-icon-512x512-300x300.png\" height=\"64\" width=\"64\" align=\"left\"></img>\n[![HitCount](http://hits.dwyl.io/Infernus101/KitUI.svg)](http://hits.dwyl.io/Infernus101/KitUI)\n[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/Infernus101/KitUI.svg)](http://isitmaintained.com/project/Infernus101/KitUI \"Average time to resolve an issue\")\n[![license](https://img.shields.io/github/license/Infernus101/KitUI.svg)](http://github.com/Infernus101/KitUI/blob/master/LICENSE \"License\")\n[![Percentage of issues still open](http://isitmaintained.com/badge/open/Infernus101/KitUI.svg)](http://isitmaintained.com/project/Infernus101/KitUI \"Percentage of issues still open\")\n-------------\nSelect kits from a form! Just do /kit and get kits info and select it if available! For MCBE! PMMP support only!\n(No Plugin library or Virion required! Easy as pie!)\n\n[![Poggit-CI](https://poggit.pmmp.io/ci.shield/Infernus101/KitUI/KitUI)](https://poggit.pmmp.io/ci/Infernus101/KitUI/KitUI)\n[![](https://poggit.pmmp.io/shield.dl.total/KitUI)](https://poggit.pmmp.io/p/KitUI)\n\n[Get the latest KitUI artifacts (PHAR file) here](https://poggit.pmmp.io/ci/Infernus101/KitUI/KitUI)\n\n## Usage\n- /kit - List of kits fetched from kits.yml on a form!\n\n## Permissions\n- kit.command - Permission to use /kit\n- kit.sign - Permission to make kit sign.\n- Custom Kit permissions - You can edit kits.yml to change permission for every kit, default is kit.(kitname).\n- kit.freepass - Permission to free pass any kit cooldown and one-kit-per-life check.\n\n## Features\n- Easy config\n- Image for each kit\n- Enchantments in kit. [List of Enchantments](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/item/enchantment/Enchantment.php#L29)\n- Custom Enchantments (PiggyCustomEnchants) support. [List of Custom Enchantments](https://github.com/DaPigGuy/PiggyCustomEnchants/wiki/Enchantments)\n- Effects in kit\n- Commands for kit\n- Cooldown for kit\n- Custom Names for items in kit\n- Economy\n- Unlimited Kits\n- Kit UI sign\n\n## About\n- Made by @Infernus101\n- Github - http://github.com/Infernus101\n- Twitter - http://twitter.com/Infernus101\n- Discord - @Infernus#9511\n- Email - infernusmcpe@gmail.com\n- Server - Fallentech.tk 19132 | Countertech.tk 19132",
+  "readme_source_url": "https://github.com/Infernus101/KitUI",
+  "icon_url": "https://raw.githubusercontent.com/Infernus101/KitUI/2dbe3e623fcae3404a578f3426ccfe82ea033f16/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Infernus101/KitUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-3207",
+  "stars": 3,
+  "total_downloads": 14140,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.4.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Infernus101"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/63083",
+  "versions": {
+    "stable": {
+      "version": "1.3.6",
+      "tag": "r-3207",
+      "published_at": null,
+      "downloads": 14140,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3207/kitui-1.3.6-r3207.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3207",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3207/kitui-1.3.6-r3207.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KitUI",
+    "stable_release_id": 3207
+  }
+}

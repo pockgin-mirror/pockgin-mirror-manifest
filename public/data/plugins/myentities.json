@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-4384",
   "stars": 5,
-  "total_downloads": 2571,
+  "total_downloads": 3224,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,13 +37,24 @@
       "downloads": 2571,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4384/myentities-0.1.2-r4384.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "0.1",
+      "tag": "r-3345",
+      "published_at": null,
+      "downloads": 653,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3345/myentities-0.1-r3345.phar"
+    }
   },
   "recent_builds": [
     {
       "tag": "r-4384",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4384/myentities-0.1.2-r4384.phar"
+    },
+    {
+      "tag": "r-3345",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3345/myentities-0.1-r3345.phar"
     }
   ],
   "comments": {

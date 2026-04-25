@@ -1,0 +1,61 @@
+{
+  "id": "globalmute",
+  "name": "GlobalMute",
+  "author": "Shelly7w7",
+  "description": "Ever wanted to mute the chat for every player? Well here it is!",
+  "readme_markdown": "# GlobalMute\nEver wanted to mute the chat for every player? Well here it is!\n\n[![HitCount](http://hits.dwyl.io/Shelly7w7/GlobalMute.svg)](http://hits.dwyl.io/Shelly7w7/GlobalMute) [![Poggit-CI](https://poggit.pmmp.io/ci.shield/Shelly7w7/GlobalMute/GlobalMute)](https://poggit.pmmp.io/ci/Shelly7w7/GlobalMute/GlobalMute)\n\n## Where to download a compiled version?\nYou can get the latest compiled version [here](https://poggit.pmmp.io/ci/Shelly7w7/GlobalMute).\n\n### How to install?\nAfter downloading the compiled version from poggit, simply put the file in your server directory (``/plugins``)\n\n### Permission(s)?\nThere are currently two permissions.\n\nPermission to use the command: ``global.mute``.\nPermission to chat even if global mute is toggled on: ``global.mute.chat``.\n\n### How does this work?\nType ``/globalmute <on|off>`` to toggle it on/off. After the global mute is toggled on, only the players with permission ``global.mute.chat`` can chat otherwise everyone else have to wait till it's toggled off.\n\n## Suggestions and Issues\nYou can simply open an issue if you want to suggest anything.\n\nYou can simply open an issue if you find any bugs and I'll try to fix it as soon as possible!",
+  "readme_source_url": "https://github.com/Shelly7w7/GlobalMute",
+  "icon_url": "https://raw.githubusercontent.com/Shelly7w7/GlobalMute/a9eb89b2c9bfc948e38c5db17f15d4c52850e849/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Shelly7w7/GlobalMute",
+  "archive_repo": null,
+  "approved_release_tag": "r-3393",
+  "stars": 5,
+  "total_downloads": 4578,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Shelly7w7"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/66752",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-3393",
+      "published_at": null,
+      "downloads": 4578,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3393/globalmute-1.0.1-r3393.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3393",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3393/globalmute-1.0.1-r3393.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GlobalMute",
+    "stable_release_id": 3393
+  }
+}

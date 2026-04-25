@@ -1,0 +1,63 @@
+{
+  "id": "tempranks",
+  "name": "TempRanks",
+  "author": "Heisenburger69",
+  "description": "Give Ranks temporarily to players",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.dl.total/TempRanks)](https://poggit.pmmp.io/p/TempRanks)\n\n\n# TempRanks\n Give Ranks temporarily to players",
+  "readme_source_url": "https://github.com/Heisenburger69/TempRanks",
+  "icon_url": "https://raw.githubusercontent.com/Heisenburger69/TempRanks/dfc687135f52450cdb9a1b215c825ef4c60a630f/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Heisenburger69/TempRanks",
+  "archive_repo": null,
+  "approved_release_tag": "r-3523",
+  "stars": 4,
+  "total_downloads": 4841,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.9.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "PurePerms"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Heisenburger69"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.6.9",
+      "tag": "r-3523",
+      "published_at": null,
+      "downloads": 4841,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3523/tempranks-0.6.9-r3523.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3523",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3523/tempranks-0.6.9-r3523.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TempRanks",
+    "stable_release_id": 3523
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "enderpearlcooldown",
+  "name": "EnderPearlCooldown",
+  "author": "AdminConfirmed",
+  "description": "A fully customizable Ender pearl cooldown.",
+  "readme_markdown": "# EnderPearlCooldown\nA fully customizable Ender pearl cooldown.\n\n# Usage:\n\n# To change cooldown timer\nYou can either use /pearlcooldown to change the cooldown or\nyou can edit in the config.yml file\n\n# To change cooldown message\nYou can change it in the config.yml file and use {cooldown} to\nget the cooldown timer",
+  "readme_source_url": "https://github.com/AdminConfirmed/EnderPearlCooldown",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/AdminConfirmed/EnderPearlCooldown",
+  "archive_repo": null,
+  "approved_release_tag": "r-3211",
+  "stars": 3,
+  "total_downloads": 2550,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.8.2-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AdminConfirmed"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/63184",
+  "versions": {
+    "stable": {
+      "version": "0.0.2",
+      "tag": "r-3211",
+      "published_at": null,
+      "downloads": 2550,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3211/enderpearlcooldown-0.0.2-r3211.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3211",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3211/enderpearlcooldown-0.0.2-r3211.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EnderPearlCooldown",
+    "stable_release_id": 3211
+  }
+}
