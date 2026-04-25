@@ -1,0 +1,61 @@
+{
+  "id": "multiservercounter",
+  "name": "MultiServerCounter",
+  "author": "luca28pet",
+  "description": "A PocketMine-MP plugin that combines online players counts of multiple servers.",
+  "readme_markdown": "# MultiServerCounter\nA PocketMine-MP plugin that combines online players counts of multiple servers.\n\n*Latest development phars: https://poggit.pmmp.io/ci/luca28pet/MultiServerCounter/MultiServerCounter*\n\nThis is useful e.g. when you have a lobby server and other gamemodes on different servers, and you want the lobby server to display  the number of players of all the servers, combined, when queried from a server list or the menu in the MCBE client.\n\n**How to use:**\n- Drop the phar in the plugins folder\n- Restart the server\n- Edit the config.yml found in plugins_data/MultiServerCounter and add the server you want to query\n- Save the file and restart the server\n\n**config.yml**\n\n```\n---\n#Time in seconds\nupdate-players-interval: 30\n\n#Format: \"ip:port\"\nservers-to-query:\n- \"127.0.0.1:19133\"\n- \"127.0.0.1:19134\"\n...\n```",
+  "readme_source_url": "https://github.com/luca28pet/MultiServerCounter",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/luca28pet/MultiServerCounter",
+  "archive_repo": null,
+  "approved_release_tag": "r-3653",
+  "stars": 4,
+  "total_downloads": 1638,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "luca28pet"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-3653",
+      "published_at": null,
+      "downloads": 1638,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3653/multiservercounter-0.0.1-r3653.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3653",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3653/multiservercounter-0.0.1-r3653.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MultiServerCounter",
+    "stable_release_id": 3653
+  }
+}

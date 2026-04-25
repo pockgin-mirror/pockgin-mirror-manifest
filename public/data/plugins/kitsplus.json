@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-4097",
   "stars": 3,
-  "total_downloads": 10698,
+  "total_downloads": 11459,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -38,7 +38,7 @@
       "version": "1.0.7",
       "tag": "r-4097",
       "published_at": null,
-      "downloads": 10698,
+      "downloads": 10699,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4097/kitsplus-1.0.7-r4097.phar"
     },
     "dev": null
@@ -48,6 +48,11 @@
       "tag": "r-4097",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4097/kitsplus-1.0.7-r4097.phar"
+    },
+    {
+      "tag": "r-3703",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3703/kitsplus-1.0.6-r3703.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "autoexp",
+  "name": "AutoEXP",
+  "author": "RubyTemple",
+  "description": "A simple plugin that reduces server lag removing xp orbs",
+  "readme_markdown": "# AutoEXP\n[![Poggit](https://poggit.pmmp.io/ci.shield/RubyTemple/AutoEXP/~)](https://poggit.pmmp.io/ci/RubyTemple/AutoEXP/~) [![HitCount](http://hits.dwyl.io/RubyTemple/AutoEXP.svg)](http://hits.dwyl.io/RubyTemple/AutoEXP) [![](https://poggit.pmmp.io/shield.state/AutoEXP)](https://poggit.pmmp.io/p/AutoEXP) [![](https://poggit.pmmp.io/shield.dl.total/AutoEXP)](https://poggit.pmmp.io/p/AutoEXP)\n### A simple plugin that reduces server lag removing xp orbs \n### Features:\n - Completely customizable\n - You can decide the worlds affected by the plugin\n - Automatically transfers all the xp in your xp bar without spawning xp orbs\n - Allows you to override xp bottle",
+  "readme_source_url": "https://github.com/RubyTemple/AutoEXP",
+  "icon_url": "https://raw.githubusercontent.com/RubyTemple/AutoEXP/e05853999565e6d206dd7837a4abe6dae67c4dd0/icon.png",
+  "featured": false,
+  "repo": "https://github.com/RubyTemple/AutoEXP",
+  "archive_repo": null,
+  "approved_release_tag": "r-3614",
+  "stars": 5,
+  "total_downloads": 5830,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "RubyTemple"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-3614",
+      "published_at": null,
+      "downloads": 5830,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3614/autoexp-0.0.1-r3614.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3614",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3614/autoexp-0.0.1-r3614.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AutoEXP",
+    "stable_release_id": 3614
+  }
+}

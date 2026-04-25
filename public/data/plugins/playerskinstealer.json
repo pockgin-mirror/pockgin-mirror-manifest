@@ -1,0 +1,61 @@
+{
+  "id": "playerskinstealer",
+  "name": "PlayerSkinStealer",
+  "author": "mote166",
+  "description": "SkinStealer",
+  "readme_markdown": "<h1>\n<a id=\"user-content-skinstealer\" class=\"anchor\" href=\"#skinstealer\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>SkinStealer</h1>\n<p>this plugin is pretty simple, it allows you to steal other player skin, all you have to do is /skin (player) and tada, you got his skin now!</p>\n<h5>\n<a id=\"user-content-command-skin-player\" class=\"anchor\" href=\"#command-skin-player\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Command: /skin (player)</h5>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/74317",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/mote166/SkinStealer",
+  "archive_repo": null,
+  "approved_release_tag": "r-3740",
+  "stars": 4,
+  "total_downloads": 6342,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "mote166"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-3740",
+      "published_at": null,
+      "downloads": 6342,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3740/playerskinstealer-1.0.0-r3740.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3740",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3740/playerskinstealer-1.0.0-r3740.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerSkinStealer",
+    "stable_release_id": 3740
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-7999",
   "stars": 3,
-  "total_downloads": 98341,
+  "total_downloads": 100184,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-3993",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3993/bedwars-1.1.5-r3993.phar"
+    },
+    {
+      "tag": "r-3770",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3770/bedwars-1.1.4-r3770.phar"
     }
   ],
   "comments": {

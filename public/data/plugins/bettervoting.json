@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-5033",
   "stars": 4,
-  "total_downloads": 7960,
+  "total_downloads": 8878,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -56,6 +56,16 @@
       "tag": "r-4008",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4008/bettervoting-2.0.0-r4008.phar"
+    },
+    {
+      "tag": "r-3800",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3800/bettervoting-1.7-r3800.phar"
+    },
+    {
+      "tag": "r-3567",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3567/bettervoting-1.6-r3567.phar"
     }
   ],
   "comments": {

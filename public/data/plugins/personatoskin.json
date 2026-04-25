@@ -1,0 +1,61 @@
+{
+  "id": "personatoskin",
+  "name": "PersonaToSkin",
+  "author": "thebigsmileXD",
+  "description": "Annoyed of pmmp spawning colored skins for persona skins?",
+  "readme_markdown": "# PersonaToSkin\nAnnoyed of pmmp spawning colored skins for persona skins?\n\nHere is a fix!\n## Options\nYou can choose a custom set of skins in the plugin's skin folder.\nThe supported geometry is the wide default geometry\n\nIf you put several skins in the folder, the skins are randomly applied\n\nIf you disable the option or have no skins installed, the plugin will apply Steve\n## Common issues & fixes\n\"gd not found\" - gd must be in the PHP binaries and enabled! \n\n## Idea and help\nThanks alot to @provsalt for requesting the plugin! It was a cool and refreshing task!\nThanks to @DenielWorld for helping by looking up the functions!",
+  "readme_source_url": "https://github.com/thebigsmileXD/PersonaToSkin",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/thebigsmileXD/PersonaToSkin",
+  "archive_repo": null,
+  "approved_release_tag": "r-3589",
+  "stars": 4,
+  "total_downloads": 2862,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.11.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigsmileXD"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-3589",
+      "published_at": null,
+      "downloads": 2862,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3589/personatoskin-0.0.1-r3589.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3589",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3589/personatoskin-0.0.1-r3589.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PersonaToSkin",
+    "stable_release_id": 3589
+  }
+}

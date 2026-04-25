@@ -1,0 +1,61 @@
+{
+  "id": "inventorysynchronizer",
+  "name": "InventorySynchronizer",
+  "author": "Seyz123",
+  "description": "A simple plugin for synchronize the inventory of players between different servers",
+  "readme_markdown": "# InventorySynchronizer [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f44a2a52ca694d5eabd97b733b24f111)](https://www.codacy.com/manual/Seyz123/InventorySynchronizer?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Seyz123/InventorySynchronizer&amp;utm_campaign=Badge_Grade) [![](https://poggit.pmmp.io/shield.state/InventorySynchronizer)](https://poggit.pmmp.io/p/InventorySynchronizer) [![](https://poggit.pmmp.io/shield.dl/InventorySynchronizer)](https://poggit.pmmp.io/p/InventorySynchronizer)\nA simple plugin for synchronize the inventory of players between different servers",
+  "readme_source_url": "https://github.com/Seyz123/InventorySynchronizer",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Seyz123/InventorySynchronizer",
+  "archive_repo": null,
+  "approved_release_tag": "r-3601",
+  "stars": 4,
+  "total_downloads": 1467,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Seyz123"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/71818",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-3601",
+      "published_at": null,
+      "downloads": 1467,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3601/inventorysynchronizer-1.0.1-r3601.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3601",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3601/inventorysynchronizer-1.0.1-r3601.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "InventorySynchronizer",
+    "stable_release_id": 3601
+  }
+}

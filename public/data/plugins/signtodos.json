@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-5537",
   "stars": 3,
-  "total_downloads": 1889,
+  "total_downloads": 2145,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-5405",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5405/signtodos-1.1-r5405.phar"
+    },
+    {
+      "tag": "r-3634",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3634/signtodos-1.0-r3634.phar"
     }
   ],
   "comments": {

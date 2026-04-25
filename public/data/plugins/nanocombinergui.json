@@ -1,0 +1,68 @@
+{
+  "id": "nanocombinergui",
+  "name": "NanoCombinerGUI",
+  "author": "ItsGabry",
+  "description": "NanoCombiner",
+  "readme_markdown": "# NanoCombiner\n[![](https://poggit.pmmp.io/shield.api/NanoCombinerGUI)](https://poggit.pmmp.io/p/NanoCombinerGUI)\n\nWith this plugin you can combine the enchantments of two items together!\n\nFeatures:\n- If two enchantments are the same, their levels will be added together.\n- If two custom enchants are not compatible with each other, you will not be able to combine the two items.\n- Special menu.\n- Custom enchants (PiggyCustomEnchants) support.\n- EconomyAPI support.",
+  "readme_source_url": "https://github.com/ItsGabry/NanoCombiner",
+  "icon_url": "https://raw.githubusercontent.com/ItsGabry/NanoCombiner/23a6c1e3e3eb4552c079065219d749019562b833/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ItsGabry/NanoCombiner",
+  "archive_repo": null,
+  "approved_release_tag": "r-3628",
+  "stars": 4,
+  "total_downloads": 1555,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ItsGabry"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/72252",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-3628",
+      "published_at": null,
+      "downloads": 1451,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3628/nanocombinergui-1.0.1-r3628.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3628",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3628/nanocombinergui-1.0.1-r3628.phar"
+    },
+    {
+      "tag": "r-3618",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3618/nanocombinergui-1.0.0-r3618.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NanoCombinerGUI",
+    "stable_release_id": 3628
+  }
+}

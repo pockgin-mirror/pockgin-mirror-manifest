@@ -1,0 +1,63 @@
+{
+  "id": "advancedkits",
+  "name": "AdvancedKits",
+  "author": "luca28pet",
+  "description": "A PocketMine-MP plugin that adds kits to your server with many features and support for UIs (FormAPI plugin) and custom enchantments (PiggyCustomEnchants)",
+  "readme_markdown": "AdvancedKits\n============\n\nA PocketMine-MP plugin that adds kits to your server with many features and support for UIs (FormAPI plugin) and custom enchantments (PiggyCustomEnchants)\n\n*Latest release: https://poggit.pmmp.io/p/AdvancedKits/*\n\n*Latest development phars: https://poggit.pmmp.io/ci/luca28pet/AdvancedKits/AdvancedKits*\n\nThis plugin only supports PocketMine-MP. It might work on other forks as well, but please Do NOT open issues if you have problems with AdvancedKits and you are using a fork.\n\n**Features overview:**\n\n- Highly configurable\n- UI (user interface) support using libFormAPI (already included in the phars)\n- Custom enchantments support using PiggyCustomEnchants plugin\n- Custom permissions support\n- Built in permissions system if you don't want to use any permissions manager (see kits.yml)\n- Economy support: pay to get a kit. Support for EconomyS, PocketMoney and MassiveEconomy\n- Sign support: write a sign to let users get a kit\n- Time limit (cooldown) for kits\n- Option for one kit per life (see config.yml)\n- Execute commands with kits\n- Easy translation system\n\n**Commands:**\nThe main command: /kit\nAlias for /kit: /ak, /advancedkits .\n\n- /kit [kitname] - Selects a kit. If no argument is kit name, opens the UI if possible or display a list of available kits.\n- /akreload - reloads kits.yml (when edited while the server is running)\n\n\n\n**Signs:**\nTo let users get a kit through a sign, you can create one like this: (capitals don't matter)\n\nLine 1: [AdvancedKits]\n\nLine 2: kitname\n\nLine 3 & 4: Whatever you like\n\n\nThe default kit is: testkit.\nYou can add kits editing kits.yml (see \"Kit settings\").\n\n**UI support:**\nYou don't need to install the plugin FormAPI as it is already included in the latest phars from poggit.\nTo let users select a kit using a UI, enable 'show-form-no-args' in the config.yml\nThen, to open the UI, use /kit\nIf you run this plugin in folder format, you will have to use DEVirion and manually install FormAPI, or disable 'show-form-no-args' in the config.yml\n\n**Permissions:**\nIf 'permissions-mode' in the config.yml is true: with the permission advancedkits.kitname, a player will be able to get the kit named \"kitname\".\nNote: in the permission, the kit name HAS to be ALL in lowercase letters.\nIf 'permissions-mode' in the config.yml is false, you can specify in the kits.yml which users (and in which worlds) can get a kit. (see kit settings)\n\n**Kit Settings:**\n\nIn order to add a kit you will need to edit the config kits.yml .\nIf you open that file with bloc notes, you will be not able to edit because it will be all in one line, so open it with WordPad, Notepad ++, ...\nYou can add lots of kits, but remember to keep this format:\n\n```\ntestkit:\n  # ITEM FORMAT: \"id:damage:count:name:ench_name:ench_level\"\n  # NO enchantments and NO custom name: \"id:damage:count\"\n\n  # ONLY custom name: \"id:damage:count:custom name\"\n\n  # ONLY enchantments: \"id:damage:count:DEFAULT:enchantment1:level\"\n  # (Put DEFAULT in the name field if you do not want a custom name)\n  # You can put as many enchantments as you want like this: \"id:damage:count:DEFAULT:enchantment1:level:enchantment2:level\" etc.\n\n  # Enchantments AND custom name: \"id:damage:count:custom name:enchantment1:level\"\n  # You can put as many enchantments as you want like this: \"id:damage:count:custom name:enchantment1:level:enchantment2:level\" etc.\n\n  # You can write both numeric or string IDs\n  items:\n  - \"260:0:10\"\n  - \"267:0:1:Sword Name\"\n  helmet: \"diamond_helmet:0:1\"\n  chestplate: \"diamond_chestplate:0:1:DEFAULT:protection:1\"\n  leggings: \"diamond_leggings:0:1:Leggings Name\"\n  boots: \"diamond_boots:0:1\"\n\n  # Set items for specific slots, will override existing items. Only use if you want to assign items to specific slots, otherwise delete this.\n  slots:\n    9: \"golden_apple:0:5\"\n    12: \"bow:0:1\"\n\n  commands:\n  - \"tell {player} you got an awesome kit thanks to AdvancedKits plugin!\"\n\n  cooldown:\n    hours: 24\n    minutes: 30\n\n  # EFFECT FORMAT: \"name:seconds:amplifier\"\n  effects:\n  - \"speed:120:2\"\n\n  # Add a cost for the kit. Compatible with EconomyAPI, PocketMoney and MassiveEconomy\n  # Put 0 if you want the kit to be free\n  money: 50\n\n  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used\n  # Leave blank to let use the kit in all worlds\n  worlds:\n  - \"kitpvp\"\n\n  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit\n  # Leave blank to let all the players use this kit\n  users:\n  - \"luca28pet\"\n  - \"dioconsole\"\n\n  # FormAPI users:\n  # Img type: 'url' or 'path'\n  img-type: ''\n  # Put here the image URL/path\n  img-data: ''\n  # How the kit is displayed on the form\n  form-name: 'Test Kit: 50$'\n```\n\nYou can find a list of available enchantments in the file Enchantment.php in the pmmp source code: https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/item/enchantment/Enchantment.php\n\nIf you don't specify users or world, then the kit will be available to all users or in all worlds.\nIf 'permissions-mode' in the config.yml is true, these parameters will be ignored\n\n\n**Translations:**\n\nYou can easily translate plugin messages by editing the lang.properties file inside the plugin folder. Remember to don't change the \"lang-version\" parameter, as it is used for internal proposes.\n\n**Config:**\n```\n---\n# Users are able to get only one kit per life\none-kit-per-life: true\n\n# Users are able to get a kit if they log out even if they did not die (only works if one-kit-per-life: true)\nreset-on-logout: true\n\n# Use built in permission system even if using PurePerms\nforce-builtin-permissions: false\n\n# Sign text (capitals and color codes don't matter)\nsign-text: \"[AdvancedKits]\"\n...\n```",
+  "readme_source_url": "https://github.com/luca28pet/AdvancedKits",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/luca28pet/AdvancedKits",
+  "archive_repo": null,
+  "approved_release_tag": "r-3607",
+  "stars": 3,
+  "total_downloads": 16140,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "PiggyCustomEnchants"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "luca28pet"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/72589",
+  "versions": {
+    "stable": {
+      "version": "5.3.0",
+      "tag": "r-3607",
+      "published_at": null,
+      "downloads": 16140,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3607/advancedkits-5.3.0-r3607.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3607",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3607/advancedkits-5.3.0-r3607.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdvancedKits",
+    "stable_release_id": 3607
+  }
+}

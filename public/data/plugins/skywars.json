@@ -1,0 +1,66 @@
+{
+  "id": "skywars",
+  "name": "SkyWars",
+  "author": "GamakCZ",
+  "description": "✔️ Simple setup",
+  "readme_markdown": "<a align=\"center\"><img src=\"https://image.ibb.co/m90xoy/sw.png\"></img></a>\n\n<div align=\"center\">\n\t<a href=\"https://discord.gg/uwBf2jS\">\n        <img src=\"https://img.shields.io/badge/chat-on%20discord-7289da.svg\" alt=\"discord\">\n    </a>\n    <a href=\"https://github.com/GamakCZ/SkyWars/blob/master/LICENSE\">\n        <img src=\"https://img.shields.io/badge/license-Apache%20License%202.0-yellowgreen.svg\" alt=\"license\">\n    </a>\n    <a href=\"https://poggit.pmmp.io/ci/GamakCZ/SkyWars/SkyWars\">\n        <img src=\"https://poggit.pmmp.io/ci.shield/GamakCZ/SkyWars/SkyWars\" alt=\"poggit-ci\">\n    </a>\n    <br><br>\n    ✔️ Simple setup\n    <br>\n    ✔️Multi arena support\n    <br>\n    ✔️ Fast, without lags\n    <br>\n    ✔️ Last PocketMine API support\n    <br>\n    ✔️ Map reset\n    <br>\n    ✔️ Chest refill\n    <br>\n    \n</div>\n\n### Releases:\n\n| Version | Zip Download | Phar Download |\n| --- | --- | --- |\n| 1.1.1 | [GitHub](https://github.com/GamakCZ/SkyWars/archive/1.1.1.zip) | [Poggit](https://poggit.pmmp.io/p/SkyWars/1.1.1) |\n| 1.1.0 | [GitHub](https://github.com/GamakCZ/SkyWars/archive/1.1.0.zip) | [GitHub](https://github.com/GamakCZ/SkyWars/releases/download/1.1.0/SkyWars_v1.1.0.phar) |\n| 1.0.0 | [GitHub](https://github.com/GamakCZ/SkyWars/archive/1.0.0.zip) | [GitHub](https://github.com/GamakCZ/SkyWars/releases/download/1.0.0/SkyWars_v1.0.0.phar) |\n<br>\n\n- **Other released versions [here](https://github.com/GamakCZ/SkyWars/releases)**\n- **All developement builds on poggit [here](https://poggit.pmmp.io/ci/GamakCZ/SkyWars/SkyWars)**\n\n<div align=\"center\">\n\t<h2>How to setup?</h2>\n</div>\n\n - <h3>Installation:</h3>\n 1. Download latest release or sucess. build\n 2. Upload it to your server folder /plugins/\n 3. Restart the server\n\n-  <h3>Create and setup an arena:</h3>\n1. Create an arena using `/sw create <arenaName>`\n2. Join the setup mode (command `/sw set <arenaName>`)\n3. There are setup commands (they are without `/`), you can use them to set the arena\n\n- <h3>Video:</h3>\n\n<a align=\"center\" href=\"https://www.youtube.com/watch?v=3tbhWPUFe1c\"><img src=\"http://img.youtube.com/vi/3tbhWPUFe1c/0.jpg\"></a>\n\n- _Setup commands_:\n\n| Command | Description |\n| --- | --- |\n| help | Displays all setup commands |\n| done | Is used to exit setup mode |\n| slots `<slots>` | Sets arena slots |\n| level `<levelName>` | Sets arena game level |\n| spawn `<spawnNum.>` | Sets arena spawn position |\n| joinsign | Update joinsign |\n| enable | Enable the arena |\n| savelevel | Saves level to 'levelName.zip' |\n\n<div align=\"center\">\n\t<h2>Commands:</h2>\n</div>\n<br>\n\n<p align=\"center\">  \n\n```yaml\nCommands:\n    /sw help:\n        Description: Displays all SkyWars commands\n        Permission: sw.cmd.help (OP)\n    /sw create:\n        Description: Create new arena\n        Permission: sw.cmd.create (OP)\n        Usage: /sw set <arenaName>\n    /sw remove:\n        Description: Remove arena\n        Permission: sw.cmd.remove (OP)\n        Usage: /sw remove <arenaName>\n        Note: Changes will be after restart\n    /sw set:\n        Description: Command allows setup arena\n        Permission: sw.cmd.set (OP)\n        Usage: /sw set <arenaName>\n        Note: This command can be used only in-game\n    /sw arenas:\n        Description: Displays list of all arenas\n        Permission: sw.cmd.arenas (OP)\n```\n</p>\n\n<div align=\"center\">\n\t<h2>Permissions</h2>\n</div>\n<br>\n\n<p align=\"center\">\n\n```yaml\nsw.cmd:  \n    description: Permissions for all skywars commands\n    default: op  \n    children:  \n        sw.cmd.help:\n            description: Permission for /sw help  \n            default: op  \n        sw.cmd.create:  \n            description: Permission for /sw create  \n            default: op\n        sw.cmd.remove:\n            description: Permission for /sw remove\n            default: op\n        sw.cmd.set:  \n            description: Permission for /sw set  \n            default: op  \n        sw.cmd.arenas:  \n            description: Permission for /sw arenas  \n            default: op    \n\t\t\t\n```\n</p>\n\n<div align=\"center\">\n\t<h2>API</h2>\n</div>\n<br>\n\n<h3>Events:</h3>\n\n- [PlayerArenaWinEvent](https://github.com/GamakCZ/SkyWars/blob/master/SkyWars/src/skywars/event/PlayerArenaWinEvent.php)\n\n```php\n/**  \n * Arena constructor.\n * @param Server $server  \n * @param Plugin $plugin  \n */\n public function __construct(Server $server, Plugin $plugin) {  \n    $server->getPluginManager()->registerEvents($this, $plugin);  \n }  \n  \n/**  \n * @param PlayerArenaWinEvent $event  \n */\n public function onWin(PlayerArenaWinEvent $event) {  \n    $player = $event->getPlayer();  \n    $this->addCoins($player, 100);  \n    $player->sendMessage(\"§a> You won 100 coins!\");  \n }  \n\t\t\n/**  \n * @param Player $player  \n * @param int $coins  \n */\n public function addCoins(Player $player, int $coins) {}\n```\n\n<div align=\"center\">\n    <h2>SkyWars Pro</h2>\n</div>\n\n**SkyWars Pro is better version of this plugin with lots of new functions:**\n\n- Custom chest refill with enchants\n- Opening cages\n- MySQL, Json, SQLite and YAML data providers\n- Custom messages\n- Kits with EconomyAPI support\n- Spectator mode\n- More commands and permissions\n- Portals to join\n- Lucky blocks\n- More setup commands\n\n**You can buy it [here](https://store.vixik.gq)**\n\n\n\n<div align=\"center\">\n    <h2>Credits</h2>\n</div>\n\n<div align=\"center\">\n    - Icon made by <a href=\"http://www.freepik.com\" title=\"Freepik\">Freepik</a> from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a> is licensed by <a href=\"http://creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a>\n</div>",
+  "readme_source_url": "https://github.com/GamakCZ/SkyWars",
+  "icon_url": "https://raw.githubusercontent.com/GamakCZ/SkyWars/8f8de3c45ee558a75bdae11beef401460c25ad28/SkyWars/icon.png",
+  "featured": false,
+  "repo": "https://github.com/GamakCZ/SkyWars",
+  "archive_repo": null,
+  "approved_release_tag": "r-3687",
+  "stars": 3,
+  "total_downloads": 42015,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "GamakCZ"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/123549",
+  "versions": {
+    "stable": {
+      "version": "1.2.1",
+      "tag": "r-3687",
+      "published_at": null,
+      "downloads": 41361,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3687/skywars-1.2.1-r3687.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3687",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3687/skywars-1.2.1-r3687.phar"
+    },
+    {
+      "tag": "r-3660",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3660/skywars-1.2.0-r3660.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SkyWars",
+    "stable_release_id": 3687
+  }
+}
