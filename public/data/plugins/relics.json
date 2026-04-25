@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-11655",
   "stars": 0,
-  "total_downloads": 1374,
+  "total_downloads": 2850,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-8406",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8406/relics-2.0.0-r8406.phar"
+    },
+    {
+      "tag": "r-4301",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4301/relics-1.1.2-r4301.phar"
     }
   ],
   "comments": {

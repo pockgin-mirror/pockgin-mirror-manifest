@@ -1,0 +1,61 @@
+{
+  "id": "blazinjoin",
+  "name": "BlazinJoin",
+  "author": "iiFlamiinBlaze",
+  "description": "License",
+  "readme_markdown": "# [![BlazeTheDev](https://i.imgur.com/fgVMXSe.png?1)]()\n\n## License\n| License |\n| :---: |\n| [![BlazinJoin License](https://img.shields.io/github/license/iiFlamiinBlaze/BlazinJoin.svg?label=License)](LICENSE) |\n\nMake sure to read all of the license as it could change at anytime.\n\n## Information\n| Download | View Count | Discord |\n| :---: | :---: | :---: |\n <a href=\"https://poggit.pmmp.io/p/BlazinJoin\"><img src=\"https://poggit.pmmp.io/shield.state/BlazinJoin\"></a> | [![View Count](http://hits.dwyl.io/iiFlamiinBlaze/BlazinJoin.svg)](http://hits.dwyl.io/iiFlamiinBlaze/BlazinJoin) | <a href=\"https://discord.gg/znEsFsG\"><img src=\"https://discordapp.com/api/guilds/425712766687510528/embed.png\" alt=\"Discord server\"/></a> |\n \nThis plugin allows you to add many enhancements to a player when they join the server through configs. This plugin is for anyone to use.\nIf you have any issues with the plugin, please make an issue [here](https://github.com/iiFlamiinBlaze/BlazinJoin/issues/new).\n* Credits: [BlazeTheDev](https://github.com/iiFlamiinBlaze)\n\n## How to use\nFor more info about how to use the plugin go to the [BlazinJoin Wiki](https://iiflamiinblaze.github.io/projects/blazinjoin/).",
+  "readme_source_url": "https://github.com/iiFlamiinBlaze/BlazinJoin",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/iiFlamiinBlaze/BlazinJoin",
+  "archive_repo": null,
+  "approved_release_tag": "r-4258",
+  "stars": 5,
+  "total_downloads": 3548,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "iiFlamiinBlaze"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/83820",
+  "versions": {
+    "stable": {
+      "version": "1.1.6",
+      "tag": "r-4258",
+      "published_at": null,
+      "downloads": 3548,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4258/blazinjoin-1.1.6-r4258.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4258",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4258/blazinjoin-1.1.6-r4258.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlazinJoin",
+    "stable_release_id": 4258
+  }
+}

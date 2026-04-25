@@ -1,0 +1,63 @@
+{
+  "id": "easyhomesteleportwarmup",
+  "name": "EasyHomesTeleportWarmup",
+  "author": "AntiCores",
+  "description": "HitCount License Poggit Release",
+  "readme_markdown": "# EasyHomesTeleportWarmup\n\n| HitCount | License | Poggit | Release |\n|:--:|:--:|:--:|:--:|\n|[![HitCount](http://hits.dwyl.io/AntiCores/EasyHomesTeleportWarmup.svg)](http://hits.dwyl.io/AntiCores/EasyHomesTeleportWarmup)|[![GitHub license](https://img.shields.io/github/license/AntiCores/EasyHomesTeleportWarmup.svg)](https://github.com/AntiCores/EasyHomesTeleportWarmup/blob/master/LICENSE)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/AntiCores/EasyHomesTeleportWarmup/EasyHomesTeleportWarmup)](https://poggit.pmmp.io/ci/AntiCores/EasyHomesTeleportWarmup/EasyHomesTeleportWarmup)|[![](https://poggit.pmmp.io/shield.state/EasyHomesTeleportWarmup)](https://poggit.pmmp.io/p/EasyHomesTeleportWarmup)|\n\nAdd warm-up timer to EasyHomes whereby players need to wait for a certain time period before they get teleported.\n\nUse `eh_warmup.bypass` permission to bypass the warmup timer. <br />\nAdditional settings can be found in config.yml.",
+  "readme_source_url": "https://github.com/AntiCores/EasyHomesTeleportWarmup",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/AntiCores/EasyHomesTeleportWarmup",
+  "archive_repo": null,
+  "approved_release_tag": "r-4318",
+  "stars": 0,
+  "total_downloads": 1846,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EasyHomes"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AntiCores"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-4318",
+      "published_at": null,
+      "downloads": 1846,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4318/easyhomesteleportwarmup-1.0.0-r4318.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4318",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4318/easyhomesteleportwarmup-1.0.0-r4318.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EasyHomesTeleportWarmup",
+    "stable_release_id": 4318
+  }
+}

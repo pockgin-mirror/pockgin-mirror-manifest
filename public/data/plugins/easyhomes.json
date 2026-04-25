@@ -1,0 +1,61 @@
+{
+  "id": "easyhomes",
+  "name": "EasyHomes",
+  "author": "AntiCores",
+  "description": "HitCount License Poggit Release",
+  "readme_markdown": "![EasyHomes Banner](https://github.com/AntiCores/EasyHomes/blob/master/meta/EasyHomes.png)\n# EasyHomes\n\n| HitCount | License | Poggit | Release |\n|:--:|:--:|:--:|:--:|\n|[![HitCount](http://hits.dwyl.io/AntiCores/EasyHomes.svg)](http://hits.dwyl.io/AntiCores/EasyHomes)|[![GitHub license](https://img.shields.io/github/license/AntiCores/EasyHomes.svg)](https://github.com/AntiCores/EasyHomes/blob/master/LICENSE)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/AntiCores/EasyHomes/EasyHomes)](https://poggit.pmmp.io/ci/AntiCores/EasyHomes/EasyHomes)|[![](https://poggit.pmmp.io/shield.state/EasyHomes)](https://poggit.pmmp.io/p/EasyHomes)|\n\n### A highly customizable and easy-to-use Homes plugin which supports both commands and forms for your Minecraft Bedrock Server running on PocketMine-MP. \n\n### Features\n\n- Allows you to **create homes** on your server.\n- Easy configuration and setup.\n- You can change the language by editing the `lang.yml` file.\n- Default commands and messages shown to the player can be changed via `lang.yml`.\n- You can **set a limit to the maximum homes** that a player can set. Edit the default limit in `config.yml` to suit your needs.\n- Two **storage** ways available: `Yaml` and `SQLite3` which can be set via `config.yml`.\n- Neat **API** for developers looking for making addons or including this plugin into their own plugin.\n- Support commands as well as **forms**. Both of which can work in conjunction.\n- Support for **Admin Commands**.\n- **Admins** can easily **monitor player homes** even when a player is **offline**.\n\n### How to setup?\n\n- Get the [.phar](https://poggit.pmmp.io/ci/AntiCores/EasyHomes/EasyHomes) of this plugin from [poggit](https://poggit.pmmp.io/ci/AntiCores/EasyHomes/EasyHomes)\n- Put into your plugins folder.\n- Restart the server.\n- Enjoy...\n\n### Commands and Permissions\n\n- Normal Player Commands:\n\n|Description|Command|Permission|Default|\n|:--:|:--:|:--:|:--:|\n|Home form|`/home`|`eh.command`|`true`|\n|Home command|`/home [string:home]`|`eh.command.tp`|`true`|\n|Teleport to home|`/home teleport [string:home]`|`eh.command.tp`|`true`|\n|Delete a home|`/home delete [string:home]`|`eh.command.del`|`true`|\n|Help command|`/home help`|`eh.command.help`|`true`|\n|List homes|`/home list`|`eh.command.list`|`true`|\n|Set a home|`/home set [string:home]`|`eh.command.set`|`true`|\n\n- Admin Player Commands:\n\n|Description|Command|Permission|Default|\n|:--:|:--:|:--:|:--:|\n|Admin form|`/homeadmin`|`eh.command.admin`|`op`|\n|Delete a player home|`/homeadmin delete [string:player] [string:home]`|`eh.command.admin.del`|`op`|\n|Get player's home limit|`/homeadmin getlimit [string:player]`|`eh.command.admin.limit.get`|`op`|\n|Set player's home limit|`/homeadmin setlimit [string:player] [int:count]`|`eh.command.admin.limit.set`|`op`|\n|Increase player's home limit|`/homeadmin ilimit [string:player] [int:count]`|`eh.command.admin.limit.increase`|`op`|\n|Help command|`/homeadmin help`|`eh.command.admin.help`|`op`|\n|List player's homes|`/homeadmin list [string:player]`|`eh.command.admin.list`|`op`|\n|Set player's home|`/homeadmin set [string:player] [string:home]`|`eh.command.admin.set`|`op`|\n|Teleport to player's home|`/homeadmin teleport [string:player] [string:home]`|`eh.command.admin.tp`|`op`|\n\n**_Note: Alias for every command exists. You can find detail in `lang.yml`._** \n\n### API\n\nEasyHomes provides a simple API for developers wishing to use this plugin in theirs or make addons for it.<br />\n- First you need to get hold of the plugin. You can do so by:<br />\n```php\n$easyHomes = Server::getInstance()->getPluginManager()->getPlugin(\"EasyHomes\");\nif($easyHomes instanceof \\JackMD\\EasyHomes\\Main){\n    //do whatever\n}\n```\n- Then you need to get hold of the provider via:<br />\n```php\n$provider = $easyhomes->getProvider();\n```\n- Now you take a look at [ProviderInterface](https://github.com/AntiCores/EasyHomes/blob/master/src/JackMD/EasyHomes/provider/ProviderInterface.php) for the things you can access.\n- Everything in it is easy and straight forward.",
+  "readme_source_url": "https://github.com/AntiCores/EasyHomes",
+  "icon_url": "https://raw.githubusercontent.com/AntiCores/EasyHomes/ea4f41fb87316393a958bf3057f8caecb5f5290c/meta/EasyHomes.png",
+  "featured": false,
+  "repo": "https://github.com/AntiCores/EasyHomes",
+  "archive_repo": null,
+  "approved_release_tag": "r-4330",
+  "stars": 5,
+  "total_downloads": 8850,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AntiCores"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/85380",
+  "versions": {
+    "stable": {
+      "version": "3.0.0",
+      "tag": "r-4330",
+      "published_at": null,
+      "downloads": 8850,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4330/easyhomes-3.0.0-r4330.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4330",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4330/easyhomes-3.0.0-r4330.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EasyHomes",
+    "stable_release_id": 4330
+  }
+}

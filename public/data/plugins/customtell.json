@@ -1,0 +1,61 @@
+{
+  "id": "customtell",
+  "name": "CustomTell",
+  "author": "ItsGabry",
+  "description": "With this plugin you can change the format of /tell, which is used to send private messages to a player.",
+  "readme_markdown": "# CustomTell\nWith this plugin you can change the format of /tell, which is used to send private messages to a player. \n\n![Screenshot (491)](https://user-images.githubusercontent.com/35745567/82828045-8de13200-9eb0-11ea-8652-1055263127d8.png)\n\n# Features:\n- You can change the color of the message or some parts \n- You can change the \"[]\" that are on the edges\n- You can change the separator \"->\"\n- You will not have to set any permissions as the plugin uses the default pocketmine permission\n- Config in plugin_data\n\n# Config:\n\n![photo_2020-05-25_18-08-41](https://user-images.githubusercontent.com/35745567/82829120-cb46bf00-9eb2-11ea-9a38-5af55d8d5139.jpg)\n\nThe SenderMessage is the message that is sent to the player who does /tell, while the RecipientMessage is the message that is sent to the recipient of the private message.\n\n[![](https://poggit.pmmp.io/shield.state/CustomTell)](https://poggit.pmmp.io/p/CustomTell)",
+  "readme_source_url": "https://github.com/ItsGabry/CustomTell",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/ItsGabry/CustomTell",
+  "archive_repo": null,
+  "approved_release_tag": "r-4508",
+  "stars": 5,
+  "total_downloads": 1426,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ItsGabry"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-4508",
+      "published_at": null,
+      "downloads": 1426,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4508/customtell-1.0.0-r4508.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4508",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4508/customtell-1.0.0-r4508.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomTell",
+    "stable_release_id": 4508
+  }
+}

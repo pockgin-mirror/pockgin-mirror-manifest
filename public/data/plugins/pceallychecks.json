@@ -1,0 +1,68 @@
+{
+  "id": "pceallychecks",
+  "name": "PCEAllyChecks",
+  "author": "Aericio",
+  "description": "PCEAllyChecks is an extension to the PiggyCustomEnchants plugin which utilizes the AllyChecks feature introduced in v2.1.0.",
+  "readme_markdown": "# PCEAllyChecks [![Poggit-CI](https://poggit.pmmp.io/shield.dl/PCEAllyChecks)](https://poggit.pmmp.io/p/PCEAllyChecks) [![Discord](https://img.shields.io/discord/330850307607363585?logo=discord)](https://discord.gg/qmnDsSD)\n\nPCEAllyChecks is an extension to the [PiggyCustomEnchants](https://github.com/DaPigGuy/PiggyCustomEnchants/) plugin which utilizes the AllyChecks feature introduced in [v2.1.0](https://github.com/DaPigGuy/PiggyCustomEnchants/pull/257).\n\nCurrently, the following plugins are supported:\n* [FactionsPE](https://github.com/BlockHorizons/FactionsPE)\n* [FactionsPro](https://github.com/poggit-orphanage/FactionsPro)\n* [Slapper](https://github.com/jojoe77777/Slapper)\n* [WorldGuard](https://github.com/Chalapa13/WorldGuard)\n\nPCEAllyChecks will prevent certain custom enchants from affecting your faction members/allies:\n* AutoAim\n* Blaze\n* Cactus\n* Forcefield\n* Homing Arrows\n* Lightning\n* Poisonous Cloud\n* Wither Skull\n\nIt will also prevent custom enchantments from affecting [Slappers](https://github.com/jojoe77777/Slapper) + areas protected by [WorldGuard](https://github.com/Chalapa13/WorldGuard).\n\n### Requests\nIf you would like to request a plugin to be supported by PCEAllyChecks, please create an issue.\n\nDenied Requests\n* [Festival](https://github.com/genboy/Festival): Horrible API. Horrible, as in none at all.\n\n### License\n```\n    Implements AllyChecks feature for PiggyCustomEnchants.\n    Copyright (C) 2020  Aericio\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation, either version 3 of the License, or\n    (at your option) any later version.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n```",
+  "readme_source_url": "https://github.com/Aericio/PCEAllyChecks",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Aericio/PCEAllyChecks",
+  "archive_repo": null,
+  "approved_release_tag": "r-4239",
+  "stars": 5,
+  "total_downloads": 479,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.11.2-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "PiggyCustomEnchants"
+    ],
+    "optional": [
+      "FactionsPE",
+      "FactionsPro",
+      "Slapper",
+      "WorldGuard"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Aericio"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/83392",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-4239",
+      "published_at": null,
+      "downloads": 479,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4239/pceallychecks-1.0.2-r4239.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4239",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4239/pceallychecks-1.0.2-r4239.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PCEAllyChecks",
+    "stable_release_id": 4239
+  }
+}

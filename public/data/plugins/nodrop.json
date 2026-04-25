@@ -1,0 +1,61 @@
+{
+  "id": "nodrop",
+  "name": "NoDrop",
+  "author": "Inaayat04",
+  "description": "A pocketmine plugin NoDrop wont allow player to Drop item and when they die it wont drop item.",
+  "readme_markdown": "# NoDrop\n\n* A pocketmine plugin NoDrop wont allow player to Drop item and when they die it wont drop item.\n* only OP's player will bypass.\n\n## How to Install?\n* Put the plugin to you're /plugins folder.\n* Restart you're server.\n* and done Enjoy.\n\n## New Update:\n* Rewrite everything.\n* Clean Code.\n* added Config.\n\n### This plugin was made with 💓 by Inaayat.",
+  "readme_source_url": "https://github.com/Inaayat04/NoDrop",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Inaayat04/NoDrop",
+  "archive_repo": null,
+  "approved_release_tag": "r-4531",
+  "stars": 3,
+  "total_downloads": 619,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Inaayat04"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-4531",
+      "published_at": null,
+      "downloads": 619,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4531/nodrop-1.0.0-r4531.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4531",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4531/nodrop-1.0.0-r4531.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NoDrop",
+    "stable_release_id": 4531
+  }
+}

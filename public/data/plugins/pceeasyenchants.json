@@ -1,0 +1,63 @@
+{
+  "id": "pceeasyenchants",
+  "name": "PCEEasyEnchants",
+  "author": "Aericio",
+  "description": "PCEEasyEnchants is an extension to the PiggyCustomEnchants plugin which allows server owners to easily create custom enchantments without any coding knowledge.",
+  "readme_markdown": "# PCEEasyEnchants [![Poggit-CI](https://poggit.pmmp.io/shield.dl/PCEEasyEnchants)](https://poggit.pmmp.io/p/PCEEasyEnchants) [![Discord](https://img.shields.io/discord/330850307607363585?logo=discord)](https://discord.gg/qmnDsSD)\n\nPCEEasyEnchants is an extension to the [PiggyCustomEnchants](https://github.com/DaPigGuy/PiggyCustomEnchants/) plugin which allows server owners to easily create custom enchantments without any coding knowledge.\n\n## Installation & Setup\n1. Install [PiggyCustomEnchants](https://poggit.pmmp.io/p/PiggyCustomEnchants) and [PCEEasyEnchants](https://poggit.pmmp.io/p/PCEEasyEnchants) from Poggit.\n2. Configure PCEEasyEnchants.\n    * Basic Configuration\n    \n        ```yaml\n        # \"id\" refers to the enchantment ID that will be registered to PMMP.\n        # \"id\" should increment from 1000, using any ids below 1000 is highly discouraged.\n        - id: 1000\n          name: \"starve\"\n          effects:\n            # \"effects.id\" accepts effect names and ids.\n            - id: \"hunger\"\n              # Amplifier is calculated as (amplifier.base + amplifier.multiplier * level).\n              amplifier:\n                base: 0\n                multiplier: 1\n              # Duration is calculated as (duration.base + duration.multiplier * level).\n              # \"duration.base\" and \"duration.multiplier\" are in ticks (20 ticks = 1 second).\n              duration:\n                base: 60\n                multiplier: 1\n        ```\n3. (OPTIONAL) Further configuration in PiggyCustomEnchants. \n    * We recommend further modification to be done via PiggyCustomEnchants after initial setup.\n    * Only `effects` should continue to be modified in PCEEasyEnchants rather than in `extra_data.json`\n    * `descriptions.json`: Allows you to modify description of the enchantment.\n    \n        ```json\n        {\n          \"starve\": \"Inflicts Hunger on enemies.\"\n        }\n        ```\n    * `display_names.json`: Allows you to modify the display name of the enchantment.\n    \n        ```json\n        {\n          \"starve\": \"Hungry Piggy\"\n        }\n        ```\n    * `rarity.json`: Allows you to modify rarity of the enchantment.\n        \n        ```json\n        {\n          \"starve\": \"Rare\"\n        }\n        ```\n    * `max_levels.json`: Allows you to modify the maximum level of the enchantment.\n        \n        ```json\n        {\n          \"starve\": 5\n        }\n        ```\n    \n4. You're done! Start your server.\n\n## License\n```\n    PCEEasyEnchants for PiggyCustomEnchants.\n    Copyright (C) 2020  Aericio\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation, either version 3 of the License, or\n    (at your option) any later version.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n```",
+  "readme_source_url": "https://github.com/Aericio/PCEEasyEnchants",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Aericio/PCEEasyEnchants",
+  "archive_repo": null,
+  "approved_release_tag": "r-4240",
+  "stars": 5,
+  "total_downloads": 1067,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.11.2-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "PiggyCustomEnchants"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Aericio"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/83498",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-4240",
+      "published_at": null,
+      "downloads": 1067,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4240/pceeasyenchants-1.0.1-r4240.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4240",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4240/pceeasyenchants-1.0.1-r4240.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PCEEasyEnchants",
+    "stable_release_id": 4240
+  }
+}

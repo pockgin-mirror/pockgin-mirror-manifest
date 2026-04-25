@@ -1,0 +1,71 @@
+{
+  "id": "scoretag",
+  "name": "ScoreTag",
+  "author": "Inaayat04",
+  "description": "Shows a Tag below player nametag.",
+  "readme_markdown": "# ScoreTag\n\n* Shows a Tag below player nametag.\n* [![](https://poggit.pmmp.io/shield.state/ScoreTag)](https://poggit.pmmp.io/p/ScoreTag)\n\n# How to Install?\n\n* Put the plugin to you're /plugins folder.\n* Restart you're server.\n* and done Enjoy.\n\n### Warning:\n\n* This plugin is beta.\n* Report errors in issue.\n\n# ScoreTag List:\n\n#{name} - show player name.\n\n#{tps} - show server TickPerSecond.\n\n#{online} - shows the count of how much player is online.\n\n#{max_online} - get server max online.\n\n#{x}/{y}/{z} - get player position position xyz.\n\n#{level} - shows world name.\n\n#{id}:{ids} - Shows what item ID holding.\n\n#{item} - shows the player holding item name.\n\n#{usage} - Shows the server TickUsage.\n\n#{ping} - shows the player ping.\n\n#{cps} - shows the player CPS.\n\n#{money} - shows the player Money. (must have Economyapi plugin)\n\n#{hp} - shows the player health.\n\n#{max_hp} - shows the player max health.\n\n#{line} - go to another line.\n\n#{rank} - shows player rank. (must have PurePerms plugin)\n\n#{prefix} - shows player prefix. (must have PurePerms plugin)\n\n#{suffix} - shows player suffix. (must have PurePerms plugin)\n\n#{faction} - shows player faction.  (must have FactionPro plugin)\n\n#{fpower} - shows player faction player. (must have FactionPro plugin)\n\n#{combatlogger} - shows player combat log. (must have CombatLogger plugin)\n\n#{island_name} - shows player island name. (must have RedSkyblock plugin)\n\n#{island_rank} - shows player island rank. (must have RedSkyblock plugin)\n\n#{island_value} - shows rank island value. (must have RedSkyblock plugin)\n\n#{faction_name} - shows player faction name. (must have PiggyFactions plugin)\n\n#{faction_power} - shows player faction power. (must have PiggyFactions plugin)\n\n#{faction_rank} - shows the player faction rank. (must have PiggyFactions plugin)\n\n#{device} - shows the player device. (Must have SeeDevice plugin by Palente)\n\n#{os} - shows the player OS. (must have SeeDevice plugin by Palante)\n\n# Image:\n\n\n![](icon.png)",
+  "readme_source_url": "https://github.com/Inaayat04/ScoreTag",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Inaayat04/ScoreTag",
+  "archive_repo": null,
+  "approved_release_tag": "r-4401",
+  "stars": 4,
+  "total_downloads": 2224,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Inaayat04"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/86980",
+  "versions": {
+    "stable": {
+      "version": "1.0.3",
+      "tag": "r-4401",
+      "published_at": null,
+      "downloads": 1564,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4401/scoretag-1.0.3-r4401.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4401",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4401/scoretag-1.0.3-r4401.phar"
+    },
+    {
+      "tag": "r-4343",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4343/scoretag-1.0.2-r4343.phar"
+    },
+    {
+      "tag": "r-4292",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4292/scoretag-1.0.0-r4292.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ScoreTag",
+    "stable_release_id": 4401
+  }
+}

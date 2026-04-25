@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8223",
   "stars": 5,
-  "total_downloads": 3368,
+  "total_downloads": 9997,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,16 @@
       "tag": "r-8223",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8223/oregen-2.0.0-r8223.phar"
+    },
+    {
+      "tag": "r-4538",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4538/oregen-1.2.5-r4538.phar"
+    },
+    {
+      "tag": "r-4433",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4433/oregen-1.2.4-r4433.phar"
     }
   ],
   "comments": {

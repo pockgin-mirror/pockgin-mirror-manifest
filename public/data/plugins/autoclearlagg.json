@@ -1,0 +1,61 @@
+{
+  "id": "autoclearlagg",
+  "name": "AutoClearLagg",
+  "author": "TwistedAsylumMC",
+  "description": "The plugin you need to keep your server lagg free!",
+  "readme_markdown": "<p>The plugin you need to keep your server lagg free!</p>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Phar</th>\n<th align=\"center\">View Count</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"https://poggit.pmmp.io/ci/TwistedAsylumMC/AutoClearLagg/~\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/299fd6651a7d4fa851c29763d8124744f65fe81d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f776e6c6f61642d6c61746573742d626c75652e737667\" alt=\"Download\" data-canonical-src=\"https://img.shields.io/badge/download-latest-blue.svg\" style=\"max-width:100%;\"></a></td>\n<td align=\"center\"> <a href=\"http://hits.dwyl.io/TwistedAsylumMC/AutoClearLagg\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/95b4cf6ec46547fb7451812c3338e0c2832c4ba5/687474703a2f2f686974732e6477796c2e696f2f547769737465644173796c756d4d432f4175746f436c6561724c6167672e737667\" alt=\"View Count\" data-canonical-src=\"http://hits.dwyl.io/TwistedAsylumMC/AutoClearLagg.svg\" style=\"max-width:100%;\"></a>\n</td>\n</tr>\n</tbody>\n</table>\n<h1>\n<a id=\"user-content-features\" class=\"anchor\" href=\"#features\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Features</h1>\n<ul>\n<li>[x] Enable/Disable Mobs &amp; Items clearing</li>\n<li>[x] NEW: Exempt entities from clearing</li>\n<li>[x] Configurable Timer</li>\n<li>[x] Editabe Messages</li>\n</ul>\n<h1>\n<a id=\"user-content-configyml\" class=\"anchor\" href=\"#configyml\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>config.yml</h1>\n<pre lang=\"---\"><code># AutoClearLagg (ACL) Config\n\n# Seconds between each clear lagg\nseconds: 300\n\n# Entities to clear\nclear:\n  items: true\n  mobs: true\n  exempt: # Array of entities not to clear\n    - Zombie\n    - Pig\n\nmessages:\n  time-left: \"§cEntities will clear in {SECONDS} seconds\"\n  entities-cleared: \"§cCleared a total of {COUNT} entities\"\n\n# Countdown times\ntimes: [60, 30, 15, 10, 5, 4, 3, 2, 1]\n...```\n\n</code></pre>",
+  "readme_source_url": "https://poggit.pmmp.io/r/87406",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/TwistedAsylumMC/AutoClearLagg",
+  "archive_repo": null,
+  "approved_release_tag": "r-4423",
+  "stars": 3,
+  "total_downloads": 46217,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TwistedAsylumMC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/87408",
+  "versions": {
+    "stable": {
+      "version": "3.1.0",
+      "tag": "r-4423",
+      "published_at": null,
+      "downloads": 46217,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4423/autoclearlagg-3.1.0-r4423.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4423",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4423/autoclearlagg-3.1.0-r4423.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AutoClearLagg",
+    "stable_release_id": 4423
+  }
+}

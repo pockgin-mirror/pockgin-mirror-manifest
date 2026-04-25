@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-4728",
   "stars": 0,
-  "total_downloads": 1465,
+  "total_downloads": 1490,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -36,7 +36,7 @@
       "version": "1.0.2",
       "tag": "r-4728",
       "published_at": null,
-      "downloads": 1429,
+      "downloads": 1430,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4728/exchange-hiroteam-1.0.2-r4728.phar"
     },
     "dev": null
@@ -51,6 +51,11 @@
       "tag": "r-4660",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4660/exchange-hiroteam-1.0.1-r4660.phar"
+    },
+    {
+      "tag": "r-4534",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4534/exchange-hiroteam-1.0.0-r4534.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "gomoku",
+  "name": "Gomoku",
+  "author": "TungstenVn",
+  "description": "New Minecraft PE Minigame",
+  "readme_markdown": "# Gomoku\r\n[![](https://poggit.pmmp.io/shield.state/Gomoku)](https://poggit.pmmp.io/p/Gomoku)\r\n[![](https://poggit.pmmp.io/shield.dl/Gomoku)](https://poggit.pmmp.io/p/Gomoku)\r\n[![Discord](https://img.shields.io/badge/chat-on+discord-7289da.svg)](https://discord.gg/5CpFadd)\r\n<a href=\"https://discord.gg/5CpFadd\"><img src=\"https://discordapp.com/api/guilds/472786873492832256/embed.png\" alt=\"Discord server\"/></a>\r\n### New Minecraft PE Minigame\r\n**What's is gomoku**\r\n- It's something like tictactoe but better\r\n- Go to the Rule page for more rules for this plugin\r\n- Go to the Introduce page for the short video\r\n- Go to the Gomoku wikipedia page to know more about this game.\r\n\r\n**Note:**\r\n- Download this plugin from poggit if you are not dev\r\n## **Rules**\r\n**Beside of the 3x3 game,other map will apply these rules:**\r\n1. Forming an unbroken chain of 5 stones horizontally, vertically, or diagonally to be the winner.\r\n2. If your chain being blocked by enemy stone in both ends, you dont win.\r\n3. More than 5 stones chain dont win\r\n\r\n## **Commands**\r\n - Type \"/gom\" or \"/gom help\" to see helps\r\n - Type \"/gom (name)\" to invite a player to play with you\r\n## **Config.yml**\r\n - Change the timePerTurn to change the time for each turn\r\n - Enable/disable the message after a win/lose match with enableWinLoseMSG\r\n - Enable/disable the message of a match that ended due to player's quitting or closing the chest with enableForceLoseMSG\r\n## **Future addition**\r\n - [] Claim a draw feature\r\n - [] Play with bot(better with AI)\r\n## **Introduce**\r\n[![Youtube Introduce](https://img.youtube.com/vi/F2UFtRGNSv4/0.jpg)](https://www.youtube.com/watch?v=F2UFtRGNSv4)",
+  "readme_source_url": "https://github.com/TungstenVn/Gomoku",
+  "icon_url": "https://raw.githubusercontent.com/TungstenVn/Gomoku/1b4fd892083a4cd73aa858da0c0e00f1dd2c7437/icon.gif",
+  "featured": false,
+  "repo": "https://github.com/TungstenVn/Gomoku",
+  "archive_repo": null,
+  "approved_release_tag": "r-4271",
+  "stars": 4,
+  "total_downloads": 3118,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TungstenVn"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/84558",
+  "versions": {
+    "stable": {
+      "version": "0.7.0",
+      "tag": "r-4271",
+      "published_at": null,
+      "downloads": 3118,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4271/gomoku-0.7.0-r4271.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4271",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4271/gomoku-0.7.0-r4271.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Gomoku",
+    "stable_release_id": 4271
+  }
+}

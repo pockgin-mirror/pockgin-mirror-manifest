@@ -1,0 +1,61 @@
+{
+  "id": "myentities",
+  "name": "MyEntities",
+  "author": "benda95280",
+  "description": "About it",
+  "readme_markdown": "# About it\nIf you use this plugin, please consider to share (By opening an issue) your entities, skins or model.\nIt will encourage me to continue and try to put new functionalities.\n* *Main use for the plugin was for my child* , i continue only for **you**\nIf you wanna help me, you will find on what i'm stuck at the bottom of the page\n\n\n**Main idea and code - Thanks to Enes5519**\n\nhttps://github.com/Enes5519/PlayerHead/\n\n-----------------\n\n# MyEntities\n[![HitCount](http://hits.dwyl.io/benda95280/MyEntities.svg)](http://hits.dwyl.io/benda95280/MyEntities)\nDownload: https://poggit.pmmp.io/ci/benda95280/MyEntities\n\nDo you need to add entity and manage it easily , and add more blocks/items to your server ?\nWant a life dispenser ? A small flower pot ? Or just some popcorn ?\n\n## Features:\n* !! Some examples included !!\n* Can be run from console\n* Automatic creation of entity in config file when Skin in folder and not exist (I'm so lazy ...)\n* Items/entities can be given to players\n* You can place entities with custom head texture EASILY\n* You can place custom entities, with geometry\n* Powerful automatic verification of your config file (See Screenshot) -> Change 'log-level' in config file for more informations\n* Custom parameters for entity:\n  * Health\n  * Unbreakable\n  * 3 Sizes (Head Entity): Small / Normal / Block\n  * Entity can be 'usable'\n    * Max time usable\n    * Actions (Infinite - Array): Message / Teleport / Heal / Effects / Give items\n    * One random action from all actions possible\n      * Support set of action (Set 1: Message + item / Set2: Message + item + effect ...) when random action enabled\n    * Change skin when no more usable\n    * Auto destruction when no more usable\n    * Auto destruction message\n    * Show message when used\n    * Show message when empty\n\n* Item to help :\n  * Remover (To remove unbreakable entity)\n  * Rotator (Change orientation of entity: 45° or 90°)\n  \n# Commands\n- **/mye entity [SkinName] {PlayerName} : Give player headObj**\n- **/mye item remover {PlayerName} : Give item Remover**\n- **/mye item rotator {PlayerName} : Give item Rotator**\n\n(PlayerName is optional)\n\n# Config extract :\n```\nskins:\n  book_1:\n    type: 'head'\n    name: 'Nice Book'\n    param:\n      size: 'small'\n      health: 1\n      unbreakable: 1\n      usable:\n        #Number usable time\n        time: 3\n        #New Skin when empty ? (Skin name must be '*_empty.png')\n        skinchange: 1\n        #Automatic Reload in second ? 0 = Never / Max 300 (5min)\n        reload: 0\n        #Destruction when empty ? 0 = No\n        destruction: 0\n        #Message when using (Empty/remaining ...)?\n        use_msg: 1\n        #Custom message when descruction happen\n        destruction_msg: \"Oups, sorry ...\"\n        #When used, what it does ?\n\t\t# Heal 1 = Half Hearth\n\t\t# Effects: EFFECT/Amplifier/Duration   |   Items: ID/meta/count\n        # action: '{\"heal\": 1, \"teleport\": \"1;2;3\", \"effect\": \"1/1/30;2/1/60;3/1/80\", \"item\": \"1/1/30;2/1/60;3/1/20\", \"msg\": \"May the force be with you ...\"}'\n        # action: '{\"Set1\":{\"heal\": 4, \"item\": \"1/1/30;2/1/60;3/1/80\"}, \"Set2\":{\"heal\":8,\"msg\":\"Big Heal;Dude;You like that ?\" }}'\n\t\taction: '{\"heal\": 1, \"effect\": \"1/1/30;2/1/60;3/1/80\", \"msg\": \"May the force be with you ...\"}'\n        #choose one random action ?\n        action_random: 1\n```\n  \n# Screenshot \n<img height=200 src=\"https://i.ibb.co/9wq4s7R/playerheadobj-V1.png\" />\n<img height=200 src=\"https://i.ibb.co/wgQZ0m9/playerheadobj-V2.png\" /><img height=200 src=\"https://i.ibb.co/dtpjQ8h/playerheadobj-V2-usable.png\" />\n<img height=200 src=\"https://i.ibb.co/kmLfxqn/playerheadobj-Log-Example.png\" />\n(Inspired from ... HalfLife, please send me a new model/skin if you can ...)\n\n<img height=200 src=\"https://i.ibb.co/jyVrWBy/Life-Dispenser-4.gif\" />\n\n\n\n# Skins Credits\nSource / credits of the skin: https://minecraft-heads.com/\n\nbook: https://minecraft-heads.com/custom-heads/decoration/30771-old-book\n\nbowl_pasta: https://minecraft-heads.com/custom-heads/food%20&%20drinks/30178-bowl-of-pasta-with-tomato-sauce\n\ncalice: https://minecraft-heads.com/custom-heads/decoration/883-golden-chalice\n\ncrate_locked: https://minecraft-heads.com/custom-heads/decoration/31223-locked-crate-gray\n\nbible: https://minecraft-heads.com/custom-heads/decoration/603-bible\n\n-----------------\n\n# Thanks to\n\nA big thanks to :\n\n- HimbeersaftLP\n- Kenn Fatt\n- XenialDan (Major ReWrite)\n\n-----------------\n\n# Working On\n\n## I'm working on:\n- [ ] Control what's dropped when entity is killed\n- [ ] New actions : item/block dropping - Money (Later)\n- [ ] Prevent spam of the entity (per player) - (Thinking to use Tick number + Array NBT)\n- [ ] Prevent spam of the entity (per Entity) - (Thinking to use Tick number)\n- [ ] Looking how to add custom sound on use and empty (I like HalfLife sound :) )\n\n\n## I'm stuck on (Help needed):\n- [x] Looking for information about: Entity act as a Block (Collision, breaking ...)\n- [ ] Collision seems very strange, it's like knocback when you touch it\n- [ ] Prevent placing entity over existing entity (Like flower)\n- [ ] Is it possible to added floating effect to the entity ? (Like a cloud)\n- [ ] Looking for help for the reload function in the entity. I've to use a Task, but i want a task that check ALL of my entity that need to be updated, and not a task per entity\n- [x] Looking to the right way to have the file CheckIn.php loaded\n\n\n## Known BUG\n- Wait issue",
+  "readme_source_url": "https://github.com/benda95280/MyEntities",
+  "icon_url": "https://raw.githubusercontent.com/benda95280/MyEntities/a1d6de9cda4ff139b69e13c742c8997567e8e999/MyEntities.png",
+  "featured": false,
+  "repo": "https://github.com/benda95280/MyEntities",
+  "archive_repo": null,
+  "approved_release_tag": "r-4384",
+  "stars": 5,
+  "total_downloads": 2570,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.12.1-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "benda95280"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/86694",
+  "versions": {
+    "stable": {
+      "version": "0.1.2",
+      "tag": "r-4384",
+      "published_at": null,
+      "downloads": 2570,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4384/myentities-0.1.2-r4384.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4384",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4384/myentities-0.1.2-r4384.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MyEntities",
+    "stable_release_id": 4384
+  }
+}

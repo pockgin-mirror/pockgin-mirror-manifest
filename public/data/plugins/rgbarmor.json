@@ -1,0 +1,61 @@
+{
+  "id": "rgbarmor",
+  "name": "RGBArmor",
+  "author": "Mohagames205",
+  "description": "Customise your armor like never before!",
+  "readme_markdown": "# RGBArmor\n### Customise your armor like never before!\n\n## Commands\n| Command | Description | Permission | default |\n|---|---|---|---|\n| makearmor | Permission to use the command | makearmor.use | OP |",
+  "readme_source_url": "https://github.com/Mohagames205/RGBArmor",
+  "icon_url": "https://raw.githubusercontent.com/Mohagames205/RGBArmor/ba42a7aa9e070494fb2d5fc1a965695cd3810db0/RGBArmor.png",
+  "featured": false,
+  "repo": "https://github.com/Mohagames205/RGBArmor",
+  "archive_repo": null,
+  "approved_release_tag": "r-4305",
+  "stars": 4,
+  "total_downloads": 1903,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Mohagames205"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-4305",
+      "published_at": null,
+      "downloads": 1903,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4305/rgbarmor-1.0.0-r4305.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4305",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4305/rgbarmor-1.0.0-r4305.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RGBArmor",
+    "stable_release_id": 4305
+  }
+}

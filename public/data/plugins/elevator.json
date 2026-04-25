@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9109",
   "stars": 0,
-  "total_downloads": 6499,
+  "total_downloads": 7640,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-4839",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4839/elevator-1.0.1-r4839.phar"
+    },
+    {
+      "tag": "r-4296",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4296/elevator-1.0.0-r4296.phar"
     }
   ],
   "comments": {

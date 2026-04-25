@@ -1,0 +1,61 @@
+{
+  "id": "cpstag",
+  "name": "CPSTag",
+  "author": "Inaayat04",
+  "description": "shows the player CPS below their nametag.",
+  "readme_markdown": "# CPSTag\n\n* shows the player CPS below their nametag.\n\n# How to install?\n\n* Put the plugin to you're /plugins folder.\n* Restart you're server.\n* and done Enjoy.\n\n# Image: \n\n\n![](icon.png)",
+  "readme_source_url": "https://github.com/Inaayat04/CPSTag",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Inaayat04/CPSTag",
+  "archive_repo": null,
+  "approved_release_tag": "r-4282",
+  "stars": 5,
+  "total_downloads": 3511,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Inaayat04"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-4282",
+      "published_at": null,
+      "downloads": 3511,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4282/cpstag-1.0.0-r4282.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4282",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4282/cpstag-1.0.0-r4282.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CPSTag",
+    "stable_release_id": 4282
+  }
+}

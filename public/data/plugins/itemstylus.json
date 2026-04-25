@@ -1,0 +1,61 @@
+{
+  "id": "itemstylus",
+  "name": "ItemStylus",
+  "author": "thebigsmileXD",
+  "description": "Easily rename items and modify the item lore!***",
+  "readme_markdown": "# <!--img alt=\"image\" src=\"https://github.com/thebigsmileXD/ItemStylus/blob/master/resources/github/image.png\" height=\"100px\" width=\"auto\"//--> ItemStylus\n[![Poggit-CI](https://poggit.pmmp.io/ci.badge/thebigsmileXD/ItemStylus/ItemStylus/master)](https://poggit.pmmp.io/ci/thebigsmileXD/ItemStylus) [![](https://poggit.pmmp.io/shield.state/ItemStylus)](https://poggit.pmmp.io/p/ItemStylus) [![](https://poggit.pmmp.io/shield.api/ItemStylus)](https://poggit.pmmp.io/p/ItemStylus)\n***Easily rename items and modify the item lore!***\n\n## Features\n- 👨🏻‍💻 Simple to use commands - [`/itemstylus`](#Commands)\n- ✅ Quick editing of an item's name\n- 📖 Edit the item lore by writing text in a book\n- 🌈 Supports color codes\n\n## Commands\n| Command | Description | Permission |\n|---|---|---|\n| `/itemstylus` | `Sends the help message` | `itemStylus.command` |\n| `/itemstylus rename <name>` | `Rename an item` | `itemStylus.command.rename` |\n| `/itemstylus lore` | `Gives an book where you can change the lore` | `itemStylus.command.lore` |\n| `/itemstylus cancel` | `Aborts editing the lore` | `itemStylus.command.cancel` |\n\n### Using the `/itemstylus rename` command\n- Simply enter the desired name as argument\n### Using the `/itemstylus lore` command\n- When you use the command you receive a book\n- The book contains the current lore\n- Every line equals a new line of the lore\n- Drop the book when you are done editing the lore to apply the changes\n\n## Credits\nA plugin by XenialDan, 2020\n\nMany thanks to [@Muqsit](https://github.com/Muqsit) for the request",
+  "readme_source_url": "https://github.com/thebigsmileXD/ItemStylus",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/thebigsmileXD/ItemStylus",
+  "archive_repo": null,
+  "approved_release_tag": "r-4237",
+  "stars": 0,
+  "total_downloads": 1792,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.11.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigsmileXD"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.3",
+      "tag": "r-4237",
+      "published_at": null,
+      "downloads": 1792,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4237/itemstylus-0.0.3-r4237.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4237",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4237/itemstylus-0.0.3-r4237.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemStylus",
+    "stable_release_id": 4237
+  }
+}

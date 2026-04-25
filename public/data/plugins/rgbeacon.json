@@ -1,0 +1,61 @@
+{
+  "id": "rgbeacon",
+  "name": "RGBeacon",
+  "author": "Xenophilicy",
+  "description": "I have frozen my personal support for public plugins. The plugins will remain public on GitHub (though archived) for anyone that would like to keep them updated. This my final d...",
+  "readme_markdown": "> # I have frozen my personal support for public plugins. The plugins will remain public on GitHub (though archived) for anyone that would like to keep them updated.  This my final decision on the matter. No support will be provided - you will be ignored - regardless of private or public inquiry.\n\n# RGBeacon\n[![](https://poggit.pmmp.io/shield.state/RGBeacon)](https://poggit.pmmp.io/p/RGBeacon)\n[![HitCount](http://hits.dwyl.io/Xenophilicy/RGBeacon.svg)](http://hits.dwyl.io/Xenophilicy/RGBeacon)\n[![Discord Chat](https://img.shields.io/discord/490677165289897995.svg)](https://discord.gg/hNVehXe)\n\n# [![RGBeacon](http://file.xenoservers.net/Resources/GitHub-Resources/rgbeacon/rgbeacon.gif)]()\n\n## Information\nThis plugin allows you to spawn in beacons that change colors according to what you throw in the plugin's config! You are able to change the color of the beacon, order of colors, and speed of the colors in the *config.yml* file! To spawn a new RGBeacon, simple execute the command `/beacon new` and the plugin will spawn a new beacon under your feet! Beacons can be removed with their corresponding ID that can be found when both creating the beacon and looking at the beacon list in the config file!\n\n### [Click here to download RGBeacon from Poggit](https://poggit.pmmp.io/p/RGBeacon/)\n\n*You can find a video example on YouTube → https://www.youtube.com/watch?v=i5C-QT9w4W0*\n\n[![Xenophilicy](https://img.youtube.com/vi/i5C-QT9w4W0/0.jpg)](https://www.youtube.com/watch?v=i5C-QT9w4W0)\n\nCommand List:\n```\n/beacon new → Creates a new beacon under the player\n/beacon remove <id> → Removes a selected beacon from the world\n/beacon pause <id> → Pause a beacon's color cycle\n/beacon resume <id> → Resume a beacon's color cycle if it is currently paused\n/beacon hide <id> → Temporarily disables a beacon's beam\n/beacon show <id> → Enables a beacon's beam if it's currently hidden\n/beacon set <id> <delay|colors> <setting> → Set the color order of a specified beacon\n/beacon reload → Reload the plugin's config and reset all beacons\n/beacon list <world/all> → Show beacons in the current world or all registered beacons on the server\n```\n\nThe beacon colors that are implemented are:\n- White\n- Red\n- Orange\n- Pink\n- Yellow\n- Lime\n- Green\n- Light Blue\n- Cyan\n- Blue\n- Magenta\n- Purple\n- Brown\n- Gray\n- Light Gray\n- Black\n\n### Known issues\nThe beacon beams will not be activated when chunks are unloaded and then reloaded\n* An optional repeating task is supplied to update the beacon every X ticks in config\n***\n\n## RGBeacon Details\n* **API:** 3.0.0+\n* **Version:** 1.0.0\n* **Basic Description:** Spawn multicolored beacons in your worlds!\n* *Extensive yet easy-to-edit config.yml file*\n* *Simple code for editing and debugging*\n***\n\n## Dependencies\n**DevTools → https://github.com/pmmp/PocketMine-DevTools** *(If you're running the plugin from source)*\n\n## Credits\n* [Xenophilicy](https://github.com/Xenophilicy/)",
+  "readme_source_url": "https://github.com/Xenophilicy/RGBeacon",
+  "icon_url": "https://raw.githubusercontent.com/Xenophilicy/RGBeacon/01fb6e61ad7966c762abc31002aa2b5e16a11a0d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Xenophilicy/RGBeacon",
+  "archive_repo": null,
+  "approved_release_tag": "r-4322",
+  "stars": 4,
+  "total_downloads": 8246,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Xenophilicy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-4322",
+      "published_at": null,
+      "downloads": 8246,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4322/rgbeacon-1.0.0-r4322.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4322",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4322/rgbeacon-1.0.0-r4322.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RGBeacon",
+    "stable_release_id": 4322
+  }
+}

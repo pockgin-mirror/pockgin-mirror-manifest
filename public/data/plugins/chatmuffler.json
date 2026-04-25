@@ -1,0 +1,61 @@
+{
+  "id": "chatmuffler",
+  "name": "ChatMuffler",
+  "author": "AntiCores",
+  "description": "Chat Muffler",
+  "readme_markdown": "# Chat Muffler\n[<img src=\"https://img.shields.io/badge/Poggit-view-brightgreen.svg\" width=\"110\" height=\"30\"/>](https://poggit.pmmp.io/ci/AntiCores/ChatMuffler/ChatMuffler)\n[<img src=\"https://img.shields.io/badge/Discord-join-697EC4.svg\" width=\"110\" height=\"30\"/>](https://discord.gg/uBghvNp)\n\nA Simple Plugin For Managing Mutes\n\n## Features\n- Bloat free\n- Mutes players\n- Mutes chat\n- Data saves past reboots\n- Advanced mute time parser\n\n## Commands\n| Command    \t| Description     \t| Usage                     \t    | Aliases               \t|\n|------------\t|-----------------\t|---------------------------\t    |-----------------------\t|\n| muffle     \t| muffle someone  \t| /muffle <username> <time> \t    | mute, silence         \t|\n| unmuffle     \t| unmuffle someone \t| /muffle <username> <time> \t    | mute, silence         \t|\n| mufflechat \t| muffle the chat \t| /mufflechat <time>        \t    | mutechat, silencechat \t|\n| muffleinfo \t| muffle info     \t| /muffleinfo [username]            | muteinfo              \t|\n| mufflelist \t| list muffled users| /mufflelist                       | mufflelist              \t|\n\n## Permission\n\n| Permission Node              \t| Description                              \t| Default \t|\n|------------------------------\t|------------------------------------------\t|---------\t|\n| chatmuffler.bypass           \t| Bypass All Muffled Restriction           \t| OP      \t|\n| chatmuffler.bypass.chat      \t| Bypass Muffled Chat Restriction          \t| OP      \t|\n| chatmuffler.bypass.user      \t| Bypass User Muffled Restriction          \t| OP      \t|\n| chatmuffler.muffleuser       \t| Allow Muting Other Users                 \t| OP      \t|\n| chatmuffler.mufflechat       \t| Allow Muting Chat                        \t| OP      \t|\n| chatmuffler.muffleinfo       \t| Allow Using Muffle Info                  \t| OP      \t|\n| chatmuffler.mufflelist      \t| Allow Listing Muffled users             \t| OP  \t    |\n\n## Time parser supports\n\\<time\\> can be second which is assumed by default, or a time formatted input\n\nLegend: (y)ear, (m)onth, (w)eek, (d)ay, (h)our, m(i)nute, (s)econd\n\n/mute bob `12h30i50s` will mute bob for `12 hours, 30 minutes, 50 seconds`\n\nmuting using `0` or `unmute` will unmute, and `-1` or `forever` will mute forever \n\n## API\nAPI functions are located in `MufflerTracker` which can be accessed via `Muffler::getMuffleTracker` when the plugin is enabled\n\nThe details of the functions can be accessed in `MufflerTracker` which is documented with PHP doc and all you need\n\n\n## Maybe?\n- mute ui for more advanced/easy operations",
+  "readme_source_url": "https://github.com/AntiCores/ChatMuffler",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/AntiCores/ChatMuffler",
+  "archive_repo": null,
+  "approved_release_tag": "r-4210",
+  "stars": 5,
+  "total_downloads": 2090,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AntiCores"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/82927",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-4210",
+      "published_at": null,
+      "downloads": 2090,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4210/chatmuffler-1.1.0-r4210.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4210",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4210/chatmuffler-1.1.0-r4210.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatMuffler",
+    "stable_release_id": 4210
+  }
+}

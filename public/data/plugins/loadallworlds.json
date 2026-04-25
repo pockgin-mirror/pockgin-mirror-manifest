@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9490",
   "stars": 0,
-  "total_downloads": 12564,
+  "total_downloads": 14622,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-5215",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5215/loadallworlds-1.1.0-r5215.phar"
+    },
+    {
+      "tag": "r-4485",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4485/loadallworlds-1.0.1-r4485.phar"
     }
   ],
   "comments": {

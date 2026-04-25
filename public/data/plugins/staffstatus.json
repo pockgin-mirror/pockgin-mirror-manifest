@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-5264",
   "stars": 5,
-  "total_downloads": 854,
+  "total_downloads": 1617,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-5264",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5264/staffstatus-1.0.1-r5264.phar"
+    },
+    {
+      "tag": "r-4259",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4259/staffstatus-1.0.0-r4259.phar"
     }
   ],
   "comments": {

@@ -91,7 +91,7 @@
     "icon_url": "https://raw.githubusercontent.com/FrostCheatMC/ActionHouse/879ce502e9badd2b5d12ee3af02b13c17af0962c/icon.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 397,
+    "total_downloads": 398,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14070/actionhouse-1.0.0-r14070.phar"
   },
@@ -264,6 +264,18 @@
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9824/advanceditem-1.0.0-r9824.phar"
   },
   {
+    "id": "advancedjobs",
+    "name": "AdvancedJobs",
+    "author": "LousWiteMC",
+    "description": "AdvancedJobs LousWiteMC",
+    "icon_url": "https://raw.githubusercontent.com/LousWiteMC/AdvancedJobs/6d76e9d9b2374cd51f55983bb27cc13f7dcd6417/icon.png",
+    "featured": false,
+    "stable_version": "0.2",
+    "total_downloads": 16755,
+    "stars": 4,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4266/advancedjobs-0.2-r4266.phar"
+  },
+  {
     "id": "advancedrules",
     "name": "AdvancedRules",
     "author": "nhanaz-pm-pl",
@@ -355,7 +367,7 @@
     "icon_url": "https://raw.githubusercontent.com/survanetwork/AllSigns/1504e144fe909ad41e034cce6339d8778d83de39/icon.png",
     "featured": false,
     "stable_version": "2.0.8",
-    "total_downloads": 8743,
+    "total_downloads": 8744,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14298/allsigns-2.0.8-r14298.phar"
   },
@@ -643,7 +655,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.0.1",
-    "total_downloads": 23295,
+    "total_downloads": 23297,
     "stars": 2,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4585/antihack-1.0.1-r4585.phar"
   },
@@ -799,7 +811,7 @@
     "icon_url": "https://raw.githubusercontent.com/HimmelKreis4865/AntiXray/b9c8fadd9bfd163fb74824d76ae6b72f891f0371/icon.png",
     "featured": false,
     "stable_version": "1.0.2",
-    "total_downloads": 13955,
+    "total_downloads": 13956,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6905/antixray-1.0.2-r6905.phar"
   },
@@ -900,6 +912,18 @@
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7577/armorvalue-1.3.0-r7577.phar"
   },
   {
+    "id": "arrowtrails",
+    "name": "ArrowTrails",
+    "author": "dim-pm-plugins",
+    "description": "ProjectileTrails",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "1.2.0",
+    "total_downloads": 3439,
+    "stars": 4,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4298/arrowtrails-1.2.0-r4298.phar"
+  },
+  {
     "id": "askyblock",
     "name": "ASkyBlock",
     "author": "BeeAZ-pm-pl",
@@ -955,7 +979,7 @@
     "icon_url": "https://raw.githubusercontent.com/Shock95/AuctionHouse/a97d71506438682843d1c66d858f33ccffec3c6b/icon.png",
     "featured": false,
     "stable_version": "2.1.0",
-    "total_downloads": 54559,
+    "total_downloads": 54561,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12992/auctionhouse-2.1.0-r12992.phar"
   },
@@ -1018,6 +1042,18 @@
     "total_downloads": 9904,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14101/autoclearchunk-3.0.2-r14101.phar"
+  },
+  {
+    "id": "autoclearlagg",
+    "name": "AutoClearLagg",
+    "author": "TwistedAsylumMC",
+    "description": "The plugin you need to keep your server lagg free!",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "3.1.0",
+    "total_downloads": 46217,
+    "stars": 3,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4423/autoclearlagg-3.1.0-r4423.phar"
   },
   {
     "id": "autodisableworlds",
@@ -1423,7 +1459,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.2.4",
-    "total_downloads": 16749,
+    "total_downloads": 17405,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12589/bedcoreprotect-1.2.4-r12589.phar"
   },
@@ -1447,7 +1483,7 @@
     "icon_url": "https://raw.githubusercontent.com/cooldogepm/BedrockEconomy/59d264933dc0928c9b349e0ab5eb841c437b5f50/icon.png",
     "featured": false,
     "stable_version": "4.0.4",
-    "total_downloads": 31139,
+    "total_downloads": 31140,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12923/bedrockeconomy-4.0.4-r12923.phar"
   },
@@ -1459,7 +1495,7 @@
     "icon_url": "https://raw.githubusercontent.com/thebigsmileXD/BedWars/43bb5ff3e50be5a99a1ccd831f915f206369ae05/resources/xbedwars_icon_square_small.png",
     "featured": false,
     "stable_version": "1.1.8",
-    "total_downloads": 92242,
+    "total_downloads": 92244,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7999/bedwars-1.1.8-r7999.phar"
   },
@@ -1471,7 +1507,7 @@
     "icon_url": "https://raw.githubusercontent.com/Sergittos/BedWars/d413274a2e16881fb63504060849df46bafcd14d/assets/icon.png",
     "featured": false,
     "stable_version": "1.1.0",
-    "total_downloads": 2649,
+    "total_downloads": 2650,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14390/bedwarspm-1.1.0-r14390.phar"
   },
@@ -1747,7 +1783,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.0.4",
-    "total_downloads": 966,
+    "total_downloads": 1110,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4796/bin-1.0.4-r4796.phar"
   },
@@ -1774,6 +1810,18 @@
     "total_downloads": 3873,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12812/blazinfly-1.10.0-r12812.phar"
+  },
+  {
+    "id": "blazinjoin",
+    "name": "BlazinJoin",
+    "author": "iiFlamiinBlaze",
+    "description": "License",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "1.1.6",
+    "total_downloads": 3548,
+    "stars": 5,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4258/blazinjoin-1.1.6-r4258.phar"
   },
   {
     "id": "blazinjump",
@@ -1915,7 +1963,7 @@
     "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/BlockItemFrame-HiroTeam/d9607a1535ae020ed3a559f02bcbaaefa61d3b0b/icon.png",
     "featured": false,
     "stable_version": "2.0.2",
-    "total_downloads": 2165,
+    "total_downloads": 2307,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4727/blockitemframe-hiroteam-2.0.2-r4727.phar"
   },
@@ -1975,7 +2023,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "2.2.3",
-    "total_downloads": 6681,
+    "total_downloads": 6860,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7617/blocksconverter-2.2.3-r7617.phar"
   },
@@ -2143,7 +2191,7 @@
     "icon_url": "https://raw.githubusercontent.com/Itzdvbravo/BravoClan/85a057cf12da2462b5cf9e54c5f493e16315b23d/new.png",
     "featured": false,
     "stable_version": "1.2",
-    "total_downloads": 8227,
+    "total_downloads": 8525,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5178/bravoclan-1.2-r5178.phar"
   },
@@ -2215,7 +2263,7 @@
     "icon_url": "https://raw.githubusercontent.com/cooldogedev/BuildBattle/8d37cad3c0e8faa0899c8526699a33b97477abfc/assets/icon.png",
     "featured": false,
     "stable_version": "0.0.3",
-    "total_downloads": 1307,
+    "total_downloads": 1308,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10589/buildbattle-0.0.3-r10589.phar"
   },
@@ -2227,7 +2275,7 @@
     "icon_url": "https://raw.githubusercontent.com/CzechPMDevs/BuilderTools/c318aadb3496b8ef80accf19505c7781380079c5/icon.png",
     "featured": false,
     "stable_version": "1.3.1",
-    "total_downloads": 81464,
+    "total_downloads": 81466,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8388/buildertools-1.3.1-r8388.phar"
   },
@@ -2275,7 +2323,7 @@
     "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerCustomArmor/75037a21b1821a42fb31c35c51eccb42b0ac2108/icon.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 2324,
+    "total_downloads": 6741,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7456/burgercustomarmor-1.0.0-r7456.phar"
   },
@@ -2299,7 +2347,7 @@
     "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerSpawners/4863a19469a5f57aae4ec3984ebef95b3d408faf/Spawner_JE3.png",
     "featured": false,
     "stable_version": "0.1.8",
-    "total_downloads": 13476,
+    "total_downloads": 14802,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7873/burgerspawners-0.1.8-r7873.phar"
   },
@@ -2311,7 +2359,7 @@
     "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerTimezones/451e36480153df8b75493d628fdad7e03af8ab51/icon.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 1629,
+    "total_downloads": 1630,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4819/burgertimezones-1.0.0-r4819.phar"
   },
@@ -2371,7 +2419,7 @@
     "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/C4-HiroTeam/5d341d583db3755d3d43ed3ebfef1cb590a97ca7/icon.png",
     "featured": false,
     "stable_version": "1.0.1",
-    "total_downloads": 1657,
+    "total_downloads": 1659,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4661/c4-hiroteam-1.0.1-r4661.phar"
   },
@@ -2443,7 +2491,7 @@
     "icon_url": "https://raw.githubusercontent.com/SOF3/Capital/c29e11ecf4fb7534a8746b6f37d3e0e3c5e101f3/icon.png",
     "featured": false,
     "stable_version": "0.1.2",
-    "total_downloads": 4188,
+    "total_downloads": 4189,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9198/capital-0.1.2-r9198.phar"
   },
@@ -2652,6 +2700,18 @@
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13259/chatmath-1.0.0-r13259.phar"
   },
   {
+    "id": "chatmuffler",
+    "name": "ChatMuffler",
+    "author": "AntiCores",
+    "description": "Chat Muffler",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "1.1.0",
+    "total_downloads": 2090,
+    "stars": 5,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4210/chatmuffler-1.1.0-r4210.phar"
+  },
+  {
     "id": "chatperms",
     "name": "ChatPerms",
     "author": "MilkAndCookiz",
@@ -2827,7 +2887,7 @@
     "icon_url": "https://raw.githubusercontent.com/fadijalal07/ChunkBorders/7281b9fc603d941b531679189e2a703f020295dd/icon.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 2328,
+    "total_downloads": 2329,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13906/chunkborders-1.0.0-r13906.phar"
   },
@@ -2899,7 +2959,7 @@
     "icon_url": "https://raw.githubusercontent.com/ClousClouds/ClearLagg/46c4dd99a593813406d8bc075f5fe0646771d2b9/icon.png",
     "featured": false,
     "stable_version": "2.0.0",
-    "total_downloads": 3716,
+    "total_downloads": 3718,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14279/clearlagg-2.0.0-r14279.phar"
   },
@@ -2947,7 +3007,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "0.0.2",
-    "total_downloads": 1841,
+    "total_downloads": 1842,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4709/coinflip-0.0.2-r4709.phar"
   },
@@ -2986,6 +3046,18 @@
     "total_downloads": 34,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14082/collisionboxesdrawer-1-r14082.phar"
+  },
+  {
+    "id": "colormessage",
+    "name": "ColorMessage",
+    "author": "EzMinh",
+    "description": "ColorMessage 1.0.4",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "1.0.1",
+    "total_downloads": 2712,
+    "stars": 5,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4469/colormessage-1.0.1-r4469.phar"
   },
   {
     "id": "colorparticle",
@@ -3103,7 +3175,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.1.2",
-    "total_downloads": 5722,
+    "total_downloads": 5724,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9652/commandlogger-1.1.2-r9652.phar"
   },
@@ -3151,7 +3223,7 @@
     "icon_url": "https://raw.githubusercontent.com/TitaniumLB6571/TitanCommandSpy/5b8e3bb9545f2325e353f90ab284c2f4644b2396/icon.png",
     "featured": false,
     "stable_version": "1.0.5",
-    "total_downloads": 3523,
+    "total_downloads": 3524,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12682/commandspy-1.0.5-r12682.phar"
   },
@@ -3187,7 +3259,7 @@
     "icon_url": "https://raw.githubusercontent.com/ComplexityEU/ComplexUpgradeUI/b2d4492456b939ff4b0adc072509c395cb6f674b/resources/image/book.gif",
     "featured": false,
     "stable_version": "2.1.5",
-    "total_downloads": 2634,
+    "total_downloads": 2948,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12252/complexupgradeui-2.1.5-r12252.phar"
   },
@@ -3250,6 +3322,30 @@
     "total_downloads": 10069,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9734/cps-2.1-r9734.phar"
+  },
+  {
+    "id": "cpspopup",
+    "name": "CPSPopup",
+    "author": "Inaayat04",
+    "description": "A pocketmine plugin shows the cps on their popup/tip",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "1.0.0",
+    "total_downloads": 2151,
+    "stars": 3,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4406/cpspopup-1.0.0-r4406.phar"
+  },
+  {
+    "id": "cpstag",
+    "name": "CPSTag",
+    "author": "Inaayat04",
+    "description": "shows the player CPS below their nametag.",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "1.0.0",
+    "total_downloads": 3511,
+    "stars": 5,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4282/cpstag-1.0.0-r4282.phar"
   },
   {
     "id": "craft-remover",
@@ -3331,7 +3427,7 @@
     "icon_url": "https://raw.githubusercontent.com/Xenophilicy/CrashTransfer/b5def4f77aa7038e20abdfb78b6b12bfbffbeae3/icon.png",
     "featured": false,
     "stable_version": "1.0.2",
-    "total_downloads": 3123,
+    "total_downloads": 3124,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8224/crashtransfer-1.0.2-r8224.phar"
   },
@@ -3583,7 +3679,7 @@
     "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/CustomFurnace-HiroTeam/c1e1db2f984b36996523429ed552cc185e7a551c/icon.png",
     "featured": false,
     "stable_version": "1.0.2",
-    "total_downloads": 1842,
+    "total_downloads": 1916,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4730/customfurnace-1.0.2-r4730.phar"
   },
@@ -3703,7 +3799,7 @@
     "icon_url": "https://raw.githubusercontent.com/SVega9848/CustomLevelKB/4a357a0bc167122d9d34a375ce222e5840205961/logo.png",
     "featured": false,
     "stable_version": "0.2.0",
-    "total_downloads": 1196,
+    "total_downloads": 1197,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10994/customlevelkb-0.2.0-r10994.phar"
   },
@@ -3763,7 +3859,7 @@
     "icon_url": "https://raw.githubusercontent.com/Joshet18/CustomScore/c1eef7650bfc89565fbcfde01dc6adcf67026887/icon.png",
     "featured": false,
     "stable_version": "1.0.1",
-    "total_downloads": 6954,
+    "total_downloads": 6955,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12189/customscore-1.0.1-r12189.phar"
   },
@@ -3787,9 +3883,21 @@
     "icon_url": "https://raw.githubusercontent.com/AlexPads/ShopUI-FormAPI-Working/6e55658f9686f8e60dd2a83f8c2be413c70c490f/icon.png",
     "featured": false,
     "stable_version": "5.0.5",
-    "total_downloads": 13813,
+    "total_downloads": 13814,
     "stars": 2,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11804/customshopui-5.0.5-r11804.phar"
+  },
+  {
+    "id": "customtell",
+    "name": "CustomTell",
+    "author": "ItsGabry",
+    "description": "With this plugin you can change the format of /tell, which is used to send private messages to a player.",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "1.0.0",
+    "total_downloads": 1426,
+    "stars": 5,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4508/customtell-1.0.0-r4508.phar"
   },
   {
     "id": "customtools",
@@ -4063,7 +4171,7 @@
     "icon_url": "https://raw.githubusercontent.com/FrostCheat/DeluxeVeinMiner/c169bc1b10825e224ff08f44c0de8c8e450f6edc/icon.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 344,
+    "total_downloads": 345,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14079/deluxeveinminer-1.0.0-r14079.phar"
   },
@@ -4123,7 +4231,7 @@
     "icon_url": "https://raw.githubusercontent.com/pmmp/DevTools/3bdc91b5962d9395a1ee27bcbea9da0f3d89f8f3/devtools.png",
     "featured": false,
     "stable_version": "1.17.2",
-    "total_downloads": 63831,
+    "total_downloads": 63833,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13827/devtools-1.17.2-r13827.phar"
   },
@@ -4207,7 +4315,7 @@
     "icon_url": "https://raw.githubusercontent.com/alvin0319/DoEmote/cdca0f5a9a7795e94d9a31336e0e4ad2d1d19948/icon.PNG",
     "featured": false,
     "stable_version": "1.0.2",
-    "total_downloads": 16057,
+    "total_downloads": 16058,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5786/doemote-1.0.2-r5786.phar"
   },
@@ -4231,7 +4339,7 @@
     "icon_url": "https://raw.githubusercontent.com/TheDataLioness/Doorbell/d078374a2ee50554d880e52c00e76239d74fbf04/icon.png",
     "featured": false,
     "stable_version": "1.1.2",
-    "total_downloads": 2302,
+    "total_downloads": 9679,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12616/doorbell-1.1.2-r12616.phar"
   },
@@ -4243,7 +4351,7 @@
     "icon_url": "https://raw.githubusercontent.com/SoyDavs/DoubleDoors/6e3e316e0811bb66127b9167418be47b64438f94/icon.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 187,
+    "total_downloads": 188,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13730/doubledoors-1.0.0-r13730.phar"
   },
@@ -4284,6 +4392,18 @@
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13618/doubleslabs-0.0.1-r13618.phar"
   },
   {
+    "id": "dragons",
+    "name": "Dragons",
+    "author": "GamakCZ",
+    "description": "✔ Simple setup",
+    "icon_url": "https://raw.githubusercontent.com/GamakCZ/Dragons/8af396d3d3c3215b26a3e761dd791d6352b2e099/Dragons/icon.png",
+    "featured": false,
+    "stable_version": "1.0.0",
+    "total_downloads": 11787,
+    "stars": 3,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4432/dragons-1.0.0-r4432.phar"
+  },
+  {
     "id": "drawer-hiroteam",
     "name": "Drawer-HiroTeam",
     "author": "HiroshimaTeam",
@@ -4291,7 +4411,7 @@
     "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/Drawer-HiroTeam/66c435729a7f64bc480da2b9b4bc827a4e6236da/icon.png",
     "featured": false,
     "stable_version": "4.0.0",
-    "total_downloads": 1379,
+    "total_downloads": 1381,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6198/drawer-hiroteam-4.0.0-r6198.phar"
   },
@@ -4423,7 +4543,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "3.1.1",
-    "total_downloads": 49929,
+    "total_downloads": 53822,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12844/easycommandautofill-3.1.1-r12844.phar"
   },
@@ -4447,9 +4567,33 @@
     "icon_url": "https://raw.githubusercontent.com/platz1de/EasyEdit/bb1f4850c4246cd05bec500ede0e208415f84d25/icon.png",
     "featured": false,
     "stable_version": "3.1.0",
-    "total_downloads": 59913,
+    "total_downloads": 59916,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12928/easyedit-3.1.0-r12928.phar"
+  },
+  {
+    "id": "easyhomes",
+    "name": "EasyHomes",
+    "author": "AntiCores",
+    "description": "HitCount License Poggit Release",
+    "icon_url": "https://raw.githubusercontent.com/AntiCores/EasyHomes/ea4f41fb87316393a958bf3057f8caecb5f5290c/meta/EasyHomes.png",
+    "featured": false,
+    "stable_version": "3.0.0",
+    "total_downloads": 8850,
+    "stars": 5,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4330/easyhomes-3.0.0-r4330.phar"
+  },
+  {
+    "id": "easyhomesteleportwarmup",
+    "name": "EasyHomesTeleportWarmup",
+    "author": "AntiCores",
+    "description": "HitCount License Poggit Release",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "1.0.0",
+    "total_downloads": 1846,
+    "stars": 0,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4318/easyhomesteleportwarmup-1.0.0-r4318.phar"
   },
   {
     "id": "easykits",
@@ -4459,7 +4603,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.1.6",
-    "total_downloads": 15180,
+    "total_downloads": 15181,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8002/easykits-1.1.6-r8002.phar"
   },
@@ -4543,7 +4687,7 @@
     "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/EconomyS/98333a83f2f4648e07a50b9b0d5780dc02e6a5d6/EconomyAPI/icon.png",
     "featured": false,
     "stable_version": "5.7.3-PM4",
-    "total_downloads": 28929,
+    "total_downloads": 28930,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8365/economyapi-5.7.3-pm4-r8365.phar"
   },
@@ -4591,7 +4735,7 @@
     "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/EffectBlock-HiroTeam/56357acb32ca5e567a39da45a01f2a6d3c431076/icon.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 810,
+    "total_downloads": 811,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4732/effectblock-hiroteam-1.0.0-r4732.phar"
   },
@@ -4627,7 +4771,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.1.0",
-    "total_downloads": 6499,
+    "total_downloads": 7640,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9109/elevator-1.1.0-r9109.phar"
   },
@@ -4764,6 +4908,18 @@
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13414/emptychunkremover-1.0-r13414.phar"
   },
   {
+    "id": "enchantui",
+    "name": "EnchantUI",
+    "author": "UnknownOre",
+    "description": "EnchantShopUI",
+    "icon_url": "https://raw.githubusercontent.com/UnknownOre/EnchantShopUI/8423137b464b83da468ce2f1ad90d8613db955d7/logo.png",
+    "featured": false,
+    "stable_version": "0.6",
+    "total_downloads": 22300,
+    "stars": 3,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4290/enchantui-0.6-r4290.phar"
+  },
+  {
     "id": "enderchest",
     "name": "EnderChest",
     "author": "fernanACM",
@@ -4783,7 +4939,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.0.3",
-    "total_downloads": 2158,
+    "total_downloads": 2159,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4576/enderchestslots-1.0.3-r4576.phar"
   },
@@ -4879,7 +5035,7 @@
     "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/Exchange-HiroTeam/d030bc498c5eb713523a9ec298473e833770c01f/icon.png",
     "featured": false,
     "stable_version": "1.0.2",
-    "total_downloads": 1465,
+    "total_downloads": 1490,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4728/exchange-hiroteam-1.0.2-r4728.phar"
   },
@@ -4915,7 +5071,7 @@
     "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/ExtendedBlocksConverter/2dc72ead386718971c95816f7cdcce9b6cf246b0/icon.png",
     "featured": false,
     "stable_version": "1.1.0",
-    "total_downloads": 3135,
+    "total_downloads": 3136,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11441/extendedblocksconverter-1.1.0-r11441.phar"
   },
@@ -5035,7 +5191,7 @@
     "icon_url": "https://raw.githubusercontent.com/Prim69/FakePlayers/8f445d136512fa1617fad0ad80d81edd1f974d83/meta/icon.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 7818,
+    "total_downloads": 7819,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5755/fakeplayers-1.0.0-r5755.phar"
   },
@@ -5095,7 +5251,7 @@
     "icon_url": "https://raw.githubusercontent.com/Joestarfish/FarmChest/0673752d28ce2093933a77a5b577ae6e5bb74353/icon.png",
     "featured": false,
     "stable_version": "1.0.2",
-    "total_downloads": 470,
+    "total_downloads": 471,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12474/farmchest-1.0.2-r12474.phar"
   },
@@ -5275,7 +5431,7 @@
     "icon_url": "https://raw.githubusercontent.com/Vecnavium/FloatingTextCreator/805d0b458bf5c1ae3a559d5069e267911426acda/icon.png",
     "featured": false,
     "stable_version": "1.0.3",
-    "total_downloads": 2976,
+    "total_downloads": 2977,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8033/floatingtextcreator-1.0.3-r8033.phar"
   },
@@ -5287,7 +5443,7 @@
     "icon_url": "https://raw.githubusercontent.com/t-starks/Fly/48526fc7692c9daf4dd85d7bb035272fbb9b8509/icon.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 1206,
+    "total_downloads": 1207,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13189/fly-1.0.0-r13189.phar"
   },
@@ -5299,7 +5455,7 @@
     "icon_url": "https://raw.githubusercontent.com/AGTHARN/FlyPE/3e0dc2715139f402f4cd06d017927a482809fd48/icon.png",
     "featured": false,
     "stable_version": "3.8.3",
-    "total_downloads": 11379,
+    "total_downloads": 11384,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5806/flype-3.8.3-r5806.phar"
   },
@@ -5335,7 +5491,7 @@
     "icon_url": "https://raw.githubusercontent.com/Xenophilicy/FoodEffects/1115c9c50da5da5b1ed1d6db317b62a32c145653/icon.png",
     "featured": false,
     "stable_version": "1.2.0",
-    "total_downloads": 2221,
+    "total_downloads": 2222,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4810/foodeffects-1.2.0-r4810.phar"
   },
@@ -5575,7 +5731,7 @@
     "icon_url": "https://raw.githubusercontent.com/FlynnKunz/GamemodeUI/be7ba29ea2f4de861cadfeda024bbfc39242e0a5/icon-gm.png",
     "featured": false,
     "stable_version": "2.0.0",
-    "total_downloads": 6704,
+    "total_downloads": 6705,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11816/gamemodeui-2.0.0-r11816.phar"
   },
@@ -5760,6 +5916,30 @@
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12407/goldenapplecooldown-1.0.1-r12407.phar"
   },
   {
+    "id": "gomoku",
+    "name": "Gomoku",
+    "author": "TungstenVn",
+    "description": "New Minecraft PE Minigame",
+    "icon_url": "https://raw.githubusercontent.com/TungstenVn/Gomoku/1b4fd892083a4cd73aa858da0c0e00f1dd2c7437/icon.gif",
+    "featured": false,
+    "stable_version": "0.7.0",
+    "total_downloads": 3118,
+    "stars": 4,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4271/gomoku-0.7.0-r4271.phar"
+  },
+  {
+    "id": "gotifynotifications",
+    "name": "GotifyNotifications",
+    "author": "kdurrance",
+    "description": "Pocketmine plugin to send Pocketmine events to a Gotify notifications server",
+    "icon_url": "https://raw.githubusercontent.com/kdurrance/GotifyNotifications/bd203fdea06c44bb9034fa1760520e47c118c6df/icon.png",
+    "featured": false,
+    "stable_version": "0.0.12",
+    "total_downloads": 528,
+    "stars": 4,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4329/gotifynotifications-0.0.12-r4329.phar"
+  },
+  {
     "id": "grantgui",
     "name": "GrantGUI",
     "author": "NorixDevelopment",
@@ -5815,7 +5995,7 @@
     "icon_url": "https://raw.githubusercontent.com/HimbeersaftLP/GroupJoin/0a1fa1a37e2360b19e966b39f60127a33b3f9e9c/icon.png",
     "featured": false,
     "stable_version": "2.0.0",
-    "total_downloads": 2558,
+    "total_downloads": 2559,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11902/groupjoin-2.0.0-r11902.phar"
   },
@@ -6043,7 +6223,7 @@
     "icon_url": "https://raw.githubusercontent.com/HimbeersaftLP/HideCommands/b21b60724abfe99de1ec75d98cf805fd9f8ed3c4/icon.png",
     "featured": false,
     "stable_version": "3.0.16",
-    "total_downloads": 9786,
+    "total_downloads": 10730,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14169/hidecommands-3.0.16-r14169.phar"
   },
@@ -6391,7 +6571,7 @@
     "icon_url": "https://raw.githubusercontent.com/BlockHorizons/InvSee/86ea96a53b27a03cf2ec82bde46dfb3c39e07491/icon.png",
     "featured": false,
     "stable_version": "2.4.3",
-    "total_downloads": 20576,
+    "total_downloads": 20579,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14173/invsee-2.4.3-r14173.phar"
   },
@@ -6427,7 +6607,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.4.1",
-    "total_downloads": 1264,
+    "total_downloads": 1266,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9522/itembrag-1.4.1-r9522.phar"
   },
@@ -6600,6 +6780,18 @@
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13934/itemstacker-1.0.3-r13934.phar"
   },
   {
+    "id": "itemstylus",
+    "name": "ItemStylus",
+    "author": "thebigsmileXD",
+    "description": "Easily rename items and modify the item lore!***",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "0.0.3",
+    "total_downloads": 1792,
+    "stars": 0,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4237/itemstylus-0.0.3-r4237.phar"
+  },
+  {
     "id": "itemutils",
     "name": "ItemUtils",
     "author": "OiranCage",
@@ -6727,7 +6919,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "0.1.0",
-    "total_downloads": 603,
+    "total_downloads": 604,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12839/kbeditor-0.1.0-r12839.phar"
   },
@@ -6835,7 +7027,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.2.1",
-    "total_downloads": 6225,
+    "total_downloads": 7770,
     "stars": 1,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5330/kickall-1.2.1-r5330.phar"
   },
@@ -6864,6 +7056,18 @@
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12767/killentity-0.0.2-r12767.phar"
   },
   {
+    "id": "killstreak",
+    "name": "KillStreak",
+    "author": "Inaayat04",
+    "description": "KillSteak plugin for pocketmine.",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "1.0.0",
+    "total_downloads": 1095,
+    "stars": 4,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4542/killstreak-1.0.0-r4542.phar"
+  },
+  {
     "id": "kingofthehill",
     "name": "KingOfTheHill",
     "author": "ItsMax123",
@@ -6883,7 +7087,7 @@
     "icon_url": "https://raw.githubusercontent.com/Jorgebyte/KitSystem/f1f28863af81890405e375073837c8c34e3d4ed2/Icon.png",
     "featured": false,
     "stable_version": "1.0.4",
-    "total_downloads": 1044,
+    "total_downloads": 1045,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14015/kitsystem-1.0.4-r14015.phar"
   },
@@ -7195,7 +7399,7 @@
     "icon_url": "https://raw.githubusercontent.com/provsalt/LightningDeath/4783b80034c73450f1866ecb4165676152030c61/icon.png",
     "featured": false,
     "stable_version": "1.3.6",
-    "total_downloads": 10724,
+    "total_downloads": 11777,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11980/lightningdeath-1.3.6-r11980.phar"
   },
@@ -7243,7 +7447,7 @@
     "icon_url": "https://raw.githubusercontent.com/koningcool/LoadAllWorlds/03bf7f96fe4a94aa36275c9e34acf15b1886921d/icon.png",
     "featured": false,
     "stable_version": "1.1.3",
-    "total_downloads": 12564,
+    "total_downloads": 14622,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9490/loadallworlds-1.1.3-r9490.phar"
   },
@@ -7327,7 +7531,7 @@
     "icon_url": "https://raw.githubusercontent.com/thebigcrafter/LuckyPlayer/1080fedd3b84926f42f96aff0261fda8f88f76c4/icon.png",
     "featured": false,
     "stable_version": "2.1.0",
-    "total_downloads": 1744,
+    "total_downloads": 1745,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12238/luckyplayer-2.1.0-r12238.phar"
   },
@@ -7495,7 +7699,7 @@
     "icon_url": "https://raw.githubusercontent.com/FresherGAMING/ManaStats/5b9604db6f48c13d15fb592781b08d2cfe698117/icon.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 979,
+    "total_downloads": 980,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12981/manastats-1.0.0-r12981.phar"
   },
@@ -7591,7 +7795,7 @@
     "icon_url": "https://raw.githubusercontent.com/Xenophilicy/MaxEnchants/4f1e912d3db3f08cd2204556a494191790e8a3c2/icon.png",
     "featured": false,
     "stable_version": "1.2.5",
-    "total_downloads": 18921,
+    "total_downloads": 44787,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11841/maxenchants-1.2.5-r11841.phar"
   },
@@ -7615,7 +7819,7 @@
     "icon_url": "https://raw.githubusercontent.com/nomadjimbob/MCPEDiscordRelay/bdb6927d922d94ee8acb67ba0592f83f9fd119f9/icon.png",
     "featured": false,
     "stable_version": "1.0.10",
-    "total_downloads": 5573,
+    "total_downloads": 5797,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7327/mcpediscordrelay-1.0.10-r7327.phar"
   },
@@ -7723,7 +7927,7 @@
     "icon_url": "https://raw.githubusercontent.com/aieuo/Mineflow/dec011a46d701912f851d45406349e615621c69a/icon.png",
     "featured": false,
     "stable_version": "3.3.0",
-    "total_downloads": 8474,
+    "total_downloads": 8753,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11675/mineflow-3.3.0-r11675.phar"
   },
@@ -7795,7 +7999,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.0.0-beta4",
-    "total_downloads": 714,
+    "total_downloads": 715,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12662/minerware-1.0.0-beta4-r12662.phar"
   },
@@ -7963,7 +8167,7 @@
     "icon_url": "https://raw.githubusercontent.com/AkmalFairuz/MultiVersion/21683bd6c4a08fd02d52073fdf43d32b84b5da5b/resources/icon.png",
     "featured": false,
     "stable_version": "0.475.1",
-    "total_downloads": 12102,
+    "total_downloads": 12103,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8123/multiversion-0.475.1-r8123.phar"
   },
@@ -7975,7 +8179,7 @@
     "icon_url": "https://raw.githubusercontent.com/CzechPMDevs/MultiWorld/f2618730b9fe92fc9acf962734cff4524b82a5d0/icon.png",
     "featured": false,
     "stable_version": "2.1.2",
-    "total_downloads": 100501,
+    "total_downloads": 100504,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14252/multiworld-2.1.2-r14252.phar"
   },
@@ -8002,6 +8206,18 @@
     "total_downloads": 380,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12961/muteallplugin-0.0.1-r12961.phar"
+  },
+  {
+    "id": "myentities",
+    "name": "MyEntities",
+    "author": "benda95280",
+    "description": "About it",
+    "icon_url": "https://raw.githubusercontent.com/benda95280/MyEntities/a1d6de9cda4ff139b69e13c742c8997567e8e999/MyEntities.png",
+    "featured": false,
+    "stable_version": "0.1.2",
+    "total_downloads": 2570,
+    "stars": 5,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4384/myentities-0.1.2-r4384.phar"
   },
   {
     "id": "myitem",
@@ -8035,9 +8251,21 @@
     "icon_url": "https://raw.githubusercontent.com/jasonwynn10/MyPlot/cc5b2f81817166c89bd62a5761daaf9f480ececf/icon.png",
     "featured": false,
     "stable_version": "2.1.3",
-    "total_downloads": 47492,
+    "total_downloads": 47493,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10739/myplot-2.1.3-r10739.phar"
+  },
+  {
+    "id": "mysterycrate",
+    "name": "MysteryCrate",
+    "author": "JackMD",
+    "description": "PLUGIN ARCHIVED",
+    "icon_url": "https://raw.githubusercontent.com/JackMD/MysteryCrate/f82981bfc6bebd4ff6ad845f3aed60265e1b9c1a/meta/MysteryCrate.png",
+    "featured": false,
+    "stable_version": "9.2.0",
+    "total_downloads": 15052,
+    "stars": 3,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4238/mysterycrate-9.2.0-r4238.phar"
   },
   {
     "id": "mytime",
@@ -8095,7 +8323,7 @@
     "icon_url": "https://raw.githubusercontent.com/Xenophilicy/NaviCompass/eade12fe964509928158fde9b013273342cb3006/icon.png",
     "featured": false,
     "stable_version": "3.0.5",
-    "total_downloads": 14724,
+    "total_downloads": 15638,
     "stars": 1,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11976/navicompass-3.0.5-r11976.phar"
   },
@@ -8239,7 +8467,7 @@
     "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/NightVision/06e4347c013640086c0b235e5b9dc3793e26dc84/icon.png",
     "featured": false,
     "stable_version": "1.0.6",
-    "total_downloads": 3331,
+    "total_downloads": 3332,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11383/nightvision-1.0.6-r11383.phar"
   },
@@ -8338,6 +8566,18 @@
     "total_downloads": 208,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11400/nocraftitem-0.0.2-r11400.phar"
+  },
+  {
+    "id": "nodrop",
+    "name": "NoDrop",
+    "author": "Inaayat04",
+    "description": "A pocketmine plugin NoDrop wont allow player to Drop item and when they die it wont drop item.",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "1.0.0",
+    "total_downloads": 619,
+    "stars": 3,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4531/nodrop-1.0.0-r4531.phar"
   },
   {
     "id": "nodrops",
@@ -8527,7 +8767,7 @@
     "icon_url": "https://raw.githubusercontent.com/ChampOfGames/NotesUI/f1f8ce2a0524a377a7274dff4f199ee783dcaf16/icon.png",
     "featured": false,
     "stable_version": "1.1.0",
-    "total_downloads": 1568,
+    "total_downloads": 1569,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4841/notesui-1.1.0-r4841.phar"
   },
@@ -8554,6 +8794,18 @@
     "total_downloads": 1884,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12126/novoid-2.0.0-r12126.phar"
+  },
+  {
+    "id": "novpn",
+    "name": "NoVPN",
+    "author": "Cosmoverse",
+    "description": "A PocketMine-MP plugin that disallows players from joining your server through VPNs.",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "0.1.4",
+    "total_downloads": 1090,
+    "stars": 1,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4254/novpn-0.1.4-r4254.phar"
   },
   {
     "id": "nuke",
@@ -8755,7 +9007,7 @@
     "icon_url": "https://raw.githubusercontent.com/Xenophilicy/OreGen/dbf1254dc2b197e2e63e91e4ab5b74aa0cf224ef/icon.png",
     "featured": false,
     "stable_version": "2.0.0",
-    "total_downloads": 3368,
+    "total_downloads": 9997,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8223/oregen-2.0.0-r8223.phar"
   },
@@ -8880,6 +9132,18 @@
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6512/payall-1.0.0-r6512.phar"
   },
   {
+    "id": "pceallychecks",
+    "name": "PCEAllyChecks",
+    "author": "Aericio",
+    "description": "PCEAllyChecks is an extension to the PiggyCustomEnchants plugin which utilizes the AllyChecks feature introduced in v2.1.0.",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "1.0.2",
+    "total_downloads": 479,
+    "stars": 5,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4239/pceallychecks-1.0.2-r4239.phar"
+  },
+  {
     "id": "pcebookshop",
     "name": "PCEBookShop",
     "author": "Aericio",
@@ -8887,9 +9151,21 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.0.3",
-    "total_downloads": 1727,
+    "total_downloads": 2474,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4707/pcebookshop-1.0.3-r4707.phar"
+  },
+  {
+    "id": "pceeasyenchants",
+    "name": "PCEEasyEnchants",
+    "author": "Aericio",
+    "description": "PCEEasyEnchants is an extension to the PiggyCustomEnchants plugin which allows server owners to easily create custom enchantments without any coding knowledge.",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "1.0.1",
+    "total_downloads": 1067,
+    "stars": 5,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4240/pceeasyenchants-1.0.1-r4240.phar"
   },
   {
     "id": "pcfly",
@@ -9055,7 +9331,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "0.4.7",
-    "total_downloads": 5659,
+    "total_downloads": 6585,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11404/perworldplayer-0.4.7-r11404.phar"
   },
@@ -9079,7 +9355,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "0.0.3",
-    "total_downloads": 349,
+    "total_downloads": 350,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13409/perworldviewdistance-0.0.3-r13409.phar"
   },
@@ -9127,7 +9403,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "2.0.2",
-    "total_downloads": 4829,
+    "total_downloads": 5161,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10872/piggyauctions-2.0.2-r10872.phar"
   },
@@ -9139,7 +9415,7 @@
     "icon_url": "https://raw.githubusercontent.com/DaPigGuy/PiggyCrates/f44e13f081915532decc770562c961a73297a98d/resources/img/PiggyCrates.gif",
     "featured": false,
     "stable_version": "3.0.4",
-    "total_downloads": 13346,
+    "total_downloads": 15294,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10873/piggycrates-3.0.4-r10873.phar"
   },
@@ -9151,7 +9427,7 @@
     "icon_url": "https://raw.githubusercontent.com/DaPigGuy/PiggyCustomEnchants/85111abcb0c5f908ee7ae2e7e58aeb3ee95c1516/resources/PCE_Icon.png",
     "featured": false,
     "stable_version": "3.0.12",
-    "total_downloads": 35870,
+    "total_downloads": 39576,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11347/piggycustomenchants-3.0.12-r11347.phar"
   },
@@ -9163,7 +9439,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.3.5",
-    "total_downloads": 4395,
+    "total_downloads": 4396,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4705/piggycustomenchantsshop-1.3.5-r4705.phar"
   },
@@ -9175,7 +9451,7 @@
     "icon_url": "https://raw.githubusercontent.com/DaPigGuy/PiggyFactions/ca5ebb3ed2cd559e0007172e957b0b7b3a443d36/resources/PiggyFactions-icon.png",
     "featured": false,
     "stable_version": "2.1.0",
-    "total_downloads": 15230,
+    "total_downloads": 18262,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11971/piggyfactions-2.1.0-r11971.phar"
   },
@@ -9199,7 +9475,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "3.0.3",
-    "total_downloads": 14249,
+    "total_downloads": 15301,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11346/piggyshopui-3.0.3-r11346.phar"
   },
@@ -9235,7 +9511,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.3",
-    "total_downloads": 1115,
+    "total_downloads": 1116,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8625/pingkick-1.3-r8625.phar"
   },
@@ -9271,7 +9547,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 652,
+    "total_downloads": 654,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12622/pingview-1.0.0-r12622.phar"
   },
@@ -9343,7 +9619,7 @@
     "icon_url": "https://raw.githubusercontent.com/Tobias-2006/PlayerBan/2a7ff1b5bf35489d0a010b906453d28ed795b567/icon.png",
     "featured": false,
     "stable_version": "1.2.1",
-    "total_downloads": 5732,
+    "total_downloads": 5733,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7071/playerban-1.2.1-r7071.phar"
   },
@@ -9463,7 +9739,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "2.0.0",
-    "total_downloads": 4937,
+    "total_downloads": 4939,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8226/playertags-2.0.0-r8226.phar"
   },
@@ -9499,7 +9775,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "3.5.3",
-    "total_downloads": 9364,
+    "total_downloads": 9366,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12029/playervaults-3.5.3-r12029.phar"
   },
@@ -9607,7 +9883,7 @@
     "icon_url": "https://raw.githubusercontent.com/jasonwynn10/PM-Beacons/3f0ae04e3be689e722643b97d1fe322c5805ef59/icon.png",
     "featured": false,
     "stable_version": "2.0.2",
-    "total_downloads": 7464,
+    "total_downloads": 9570,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7059/pm-beacons-2.0.2-r7059.phar"
   },
@@ -9943,7 +10219,7 @@
     "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/PureChat/471a019c718d72f43bc8eae360dee237f96f0d0d/863.png",
     "featured": false,
     "stable_version": "2.0.2",
-    "total_downloads": 25790,
+    "total_downloads": 25791,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11147/purechat-2.0.2-r11147.phar"
   },
@@ -9955,7 +10231,7 @@
     "icon_url": "https://raw.githubusercontent.com/RevivalPMMP/PureEntitiesX/5a7b9f9e775ac626300c05ab79f1a84ae1c52826/icon.png",
     "featured": false,
     "stable_version": "0.7.0",
-    "total_downloads": 56167,
+    "total_downloads": 56170,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6429/pureentitiesx-0.7.0-r6429.phar"
   },
@@ -9967,7 +10243,7 @@
     "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/PurePerms/5959ed7860524400b991820bfb6017b73ab62df9/icon128.png",
     "featured": false,
     "stable_version": "2.0.2",
-    "total_downloads": 36214,
+    "total_downloads": 36215,
     "stars": 2,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9210/pureperms-2.0.2-r9210.phar"
   },
@@ -10123,7 +10399,7 @@
     "icon_url": "https://raw.githubusercontent.com/CraftCamp1/RandomTP/1599880bbf4fae1a385f09c70d26e64c7bcad2be/icon.png",
     "featured": false,
     "stable_version": "1.0.1",
-    "total_downloads": 2970,
+    "total_downloads": 2971,
     "stars": 1,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10209/randomtp-1.0.1-r10209.phar"
   },
@@ -10183,7 +10459,7 @@
     "icon_url": "https://raw.githubusercontent.com/IvanCraft623/RankSystem/34333320ccfaddc8b588a79a38ef58c565071ea6/icon.png",
     "featured": false,
     "stable_version": "1.1.4",
-    "total_downloads": 20616,
+    "total_downloads": 20617,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14297/ranksystem-1.1.4-r14297.phar"
   },
@@ -10363,7 +10639,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "3.0.0",
-    "total_downloads": 1374,
+    "total_downloads": 2850,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11655/relics-3.0.0-r11655.phar"
   },
@@ -10399,7 +10675,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "3.2",
-    "total_downloads": 7862,
+    "total_downloads": 7863,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11483/renameitems-3.2-r11483.phar"
   },
@@ -10495,7 +10771,7 @@
     "icon_url": "https://raw.githubusercontent.com/PJZ9n/ResourcePackTools/113ef4dbc98b7cf0362cc8f35304b950192110a2/icon.png",
     "featured": false,
     "stable_version": "2.2.0",
-    "total_downloads": 3936,
+    "total_downloads": 3937,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4786/resourcepacktoolsplugin-2.2.0-r4786.phar"
   },
@@ -10531,7 +10807,7 @@
     "icon_url": "https://raw.githubusercontent.com/Wertzui123/Rewards/7b93fe6e2ecb74bf65a9cf25dfd662e355ff2c09/Rewards-Plugin.png",
     "featured": false,
     "stable_version": "5.2.1",
-    "total_downloads": 5362,
+    "total_downloads": 9006,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11485/rewards-5.2.1-r11485.phar"
   },
@@ -10546,6 +10822,30 @@
     "total_downloads": 916,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8631/rgb-1.0-r8631.phar"
+  },
+  {
+    "id": "rgbarmor",
+    "name": "RGBArmor",
+    "author": "Mohagames205",
+    "description": "Customise your armor like never before!",
+    "icon_url": "https://raw.githubusercontent.com/Mohagames205/RGBArmor/ba42a7aa9e070494fb2d5fc1a965695cd3810db0/RGBArmor.png",
+    "featured": false,
+    "stable_version": "1.0.0",
+    "total_downloads": 1903,
+    "stars": 4,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4305/rgbarmor-1.0.0-r4305.phar"
+  },
+  {
+    "id": "rgbeacon",
+    "name": "RGBeacon",
+    "author": "Xenophilicy",
+    "description": "I have frozen my personal support for public plugins. The plugins will remain public on GitHub (though archived) for anyone that would like to keep them updated. This my final d...",
+    "icon_url": "https://raw.githubusercontent.com/Xenophilicy/RGBeacon/01fb6e61ad7966c762abc31002aa2b5e16a11a0d/icon.png",
+    "featured": false,
+    "stable_version": "1.0.0",
+    "total_downloads": 8246,
+    "stars": 4,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4322/rgbeacon-1.0.0-r4322.phar"
   },
   {
     "id": "robotverification",
@@ -10663,7 +10963,7 @@
     "icon_url": "https://raw.githubusercontent.com/DayKoala/SakuraSpawners/a56f0e9684e8e209929cfd5a6065c70be2ffe305/icon.png",
     "featured": false,
     "stable_version": "2.0.0",
-    "total_downloads": 2610,
+    "total_downloads": 2611,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11795/sakuraspawners-2.0.0-r11795.phar"
   },
@@ -10723,9 +11023,21 @@
     "icon_url": "https://raw.githubusercontent.com/Ifera/ScoreHud/3f5b13b3daef0de3d2f5f81ad899dbbcc9eaf52f/meta/ScoreHud.PNG",
     "featured": false,
     "stable_version": "8.0.0",
-    "total_downloads": 75542,
+    "total_downloads": 115213,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12550/scorehud-8.0.0-r12550.phar"
+  },
+  {
+    "id": "scoretag",
+    "name": "ScoreTag",
+    "author": "Inaayat04",
+    "description": "Shows a Tag below player nametag.",
+    "icon_url": "happy_ghast.png",
+    "featured": false,
+    "stable_version": "1.0.3",
+    "total_downloads": 2224,
+    "stars": 4,
+    "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4401/scoretag-1.0.3-r4401.phar"
   },
   {
     "id": "seasonshop",
@@ -10831,7 +11143,7 @@
     "icon_url": "https://raw.githubusercontent.com/matcracker/ServerTools/defb68a7b7a2b49fa35eae76a96de28688371294/resources/servertools_logo.png",
     "featured": false,
     "stable_version": "0.5.2",
-    "total_downloads": 17316,
+    "total_downloads": 17318,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12240/servertools-0.5.2-r12240.phar"
   },
@@ -10855,7 +11167,7 @@
     "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/Shield/2363a4a428daac84e9cad18b9d692e77d561da2d/icon.png",
     "featured": false,
     "stable_version": "1.25.0",
-    "total_downloads": 19871,
+    "total_downloads": 19872,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12985/shield-1.25.0-r12985.phar"
   },
@@ -11035,7 +11347,7 @@
     "icon_url": "https://raw.githubusercontent.com/NhanAZ-Plugins/SimpleEconomy/032047330388bb8fabcd8b0c6b7130576da3a08e/icon.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 71,
+    "total_downloads": 72,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14387/simpleeconomy-1.0.0-r14387.phar"
   },
@@ -11107,7 +11419,7 @@
     "icon_url": "https://raw.githubusercontent.com/CzechPMDevs/SmallPlugins/5273a4133bc609ad8b84c58e13a4f39c0b0e7f7a/SimpleHome/icon.png",
     "featured": false,
     "stable_version": "1.1.0",
-    "total_downloads": 13645,
+    "total_downloads": 13646,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8143/simplehome-1.1.0-r8143.phar"
   },
@@ -11131,7 +11443,7 @@
     "icon_url": "https://raw.githubusercontent.com/DaDevGuy/SimpleJoinMessage/0031653164c45eda49eb884ea2bbfafd7c0d9e6c/icon.png",
     "featured": false,
     "stable_version": "1.0.2",
-    "total_downloads": 1331,
+    "total_downloads": 1332,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9830/simplejoinmessage-1.0.2-r9830.phar"
   },
@@ -11359,7 +11671,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "4.0.2",
-    "total_downloads": 6882,
+    "total_downloads": 6883,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12383/skyblock-4.0.2-r12383.phar"
   },
@@ -11419,7 +11731,7 @@
     "icon_url": "https://raw.githubusercontent.com/vecnavium-pm-pl/Slapper/e03fe648a88a846ab38e29ee78d03dd377a1332a/icon.png",
     "featured": false,
     "stable_version": "3.0.0",
-    "total_downloads": 78105,
+    "total_downloads": 86165,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11843/slapper-3.0.0-r11843.phar"
   },
@@ -11491,7 +11803,7 @@
     "icon_url": "https://raw.githubusercontent.com/ethaniccc/SlapperPlayerCount/3a97f90f20950ee58d9e1e8bffdb4cbc1dda5141/icon.png",
     "featured": false,
     "stable_version": "2.1.3",
-    "total_downloads": 23460,
+    "total_downloads": 25431,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4751/slapperplayercount-2.1.3-r4751.phar"
   },
@@ -11623,7 +11935,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "3.0.0",
-    "total_downloads": 3094,
+    "total_downloads": 3095,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11579/socialspy-3.0.0-r11579.phar"
   },
@@ -11671,7 +11983,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.2",
-    "total_downloads": 2122,
+    "total_downloads": 2123,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5518/spawncmd-1.2-r5518.phar"
   },
@@ -11731,7 +12043,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.0",
-    "total_downloads": 1419,
+    "total_downloads": 1420,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4823/spinningcoin-1.0-r4823.phar"
   },
@@ -11791,7 +12103,7 @@
     "icon_url": "https://raw.githubusercontent.com/Ree-jp-minecraft/StackStrage/03c88db8962d8dbf23cd77431443c5137518e460/icon.png",
     "featured": false,
     "stable_version": "2.0.1",
-    "total_downloads": 4821,
+    "total_downloads": 6179,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11940/stackstorage-2.0.1-r11940.phar"
   },
@@ -11815,7 +12127,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.0.1",
-    "total_downloads": 854,
+    "total_downloads": 1617,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-5264/staffstatus-1.0.1-r5264.phar"
   },
@@ -11827,7 +12139,7 @@
     "icon_url": "https://raw.githubusercontent.com/korado531m7/StairSeat/79d1f17d45505bafca9221e4506de53bbf9d27cd/assets/icon.png",
     "featured": false,
     "stable_version": "1.5.10",
-    "total_downloads": 46081,
+    "total_downloads": 46083,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6827/stairseat-1.5.10-r6827.phar"
   },
@@ -11839,7 +12151,7 @@
     "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/Stalker/121faba421be05fa379dfaecda1c4474db6e04d6/icon.png",
     "featured": false,
     "stable_version": "2.1.1",
-    "total_downloads": 273,
+    "total_downloads": 274,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11623/stalker-2.1.1-r11623.phar"
   },
@@ -11863,7 +12175,7 @@
     "icon_url": "https://raw.githubusercontent.com/Alemiz112/StarGate-Atlantis/9ad24143f0f14340e3e2745f143104aff2120678/icon.png",
     "featured": false,
     "stable_version": "2.1.0",
-    "total_downloads": 5065,
+    "total_downloads": 5253,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6037/stargate-atlantis-2.1.0-r6037.phar"
   },
@@ -11875,7 +12187,7 @@
     "icon_url": "https://raw.githubusercontent.com/note3crafter/StarterKit/d972e014b4728b48583b55baf2775f49ad8899c3/icon.png",
     "featured": false,
     "stable_version": "4.0.1",
-    "total_downloads": 23604,
+    "total_downloads": 37154,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11553/starterkit-4.0.1-r11553.phar"
   },
@@ -11983,7 +12295,7 @@
     "icon_url": "https://raw.githubusercontent.com/middle1/SuperArmor/9603993560ad410bcb3e75aedd1a0e8344464275/icon.png",
     "featured": false,
     "stable_version": "3.2.5",
-    "total_downloads": 436,
+    "total_downloads": 437,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12226/superarmor-3.2.5-r12226.phar"
   },
@@ -12127,7 +12439,7 @@
     "icon_url": "https://raw.githubusercontent.com/alvin0319/TelegramPM/f4af5f5209d20bc4301dcf9f191b488622d84800/Telegram.PNG",
     "featured": false,
     "stable_version": "1.0.1",
-    "total_downloads": 1145,
+    "total_downloads": 1147,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4645/telegrampm-1.0.1-r4645.phar"
   },
@@ -12175,7 +12487,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "4.3.3",
-    "total_downloads": 23022,
+    "total_downloads": 26864,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14302/texter-4.3.3-r14302.phar"
   },
@@ -12415,7 +12727,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "3.3.0",
-    "total_downloads": 416,
+    "total_downloads": 417,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12217/topvoter-3.3.0-r12217.phar"
   },
@@ -12631,7 +12943,7 @@
     "icon_url": "https://raw.githubusercontent.com/Ro4koHD/TreeChopper/840566bb3255e5867e379c6d62d33fe342240953/icon.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 1611,
+    "total_downloads": 1612,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7086/treechopper-1.0.0-r7086.phar"
   },
@@ -12679,7 +12991,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 812,
+    "total_downloads": 813,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4788/triggerpe-1.0.0-r4788.phar"
   },
@@ -12811,7 +13123,7 @@
     "icon_url": "https://raw.githubusercontent.com/JuustMarwan/UnicodesAPI/7c4b09f6eeb2bf5c511f6e3f8d819006aa08580a/icon.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 181,
+    "total_downloads": 182,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-13830/unicodesapi-1.0.0-r13830.phar"
   },
@@ -12895,7 +13207,7 @@
     "icon_url": "https://raw.githubusercontent.com/ColinHDev/VanillaHopper/526412dbae564d1395debfd032763b4aadb4d904/icon.png",
     "featured": false,
     "stable_version": "2.2.2",
-    "total_downloads": 6456,
+    "total_downloads": 6458,
     "stars": 5,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11835/vanillahopper-2.2.2-r11835.phar"
   },
@@ -12955,7 +13267,7 @@
     "icon_url": "https://raw.githubusercontent.com/sqrrrrl/VanishV2/85499a050307e90bd5109326f5aaeb18856650b7/icon.png",
     "featured": false,
     "stable_version": "4.0.4",
-    "total_downloads": 64269,
+    "total_downloads": 70637,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14006/vanishv2-4.0.4-r14006.phar"
   },
@@ -13051,7 +13363,7 @@
     "icon_url": "https://raw.githubusercontent.com/JaxkDev/Vehicles/ee38a7b0067e1cb01f7d9359f9e4edaa801b05b3/icon.png",
     "featured": false,
     "stable_version": "0.1.15",
-    "total_downloads": 11912,
+    "total_downloads": 11914,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-7902/vehicles-0.1.15-r7902.phar"
   },
@@ -13147,7 +13459,7 @@
     "icon_url": "https://raw.githubusercontent.com/LuciaDX/VoiceCraftPM/6d42b3f1f783cb248156b6c44e5943db9c47c62e/icon.png",
     "featured": false,
     "stable_version": "1.0.0",
-    "total_downloads": 3315,
+    "total_downloads": 3316,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11900/voicecraft-1.0.0-r11900.phar"
   },
@@ -13327,7 +13639,7 @@
     "icon_url": "https://raw.githubusercontent.com/Cosmoverse/Waypoint/be593877904036d6757c47057b0bcf556a86495e/icon.png",
     "featured": false,
     "stable_version": "0.0.2",
-    "total_downloads": 274,
+    "total_downloads": 275,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14180/waypoint-0.0.2-r14180.phar"
   },
@@ -13531,7 +13843,7 @@
     "icon_url": "https://raw.githubusercontent.com/MihaiChirculete/WorldGuard/9767eb7343d693791be6d6fa6270e3d2e6842924/icon.png",
     "featured": false,
     "stable_version": "1.2",
-    "total_downloads": 36725,
+    "total_downloads": 36727,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8022/worldguard-1.2-r8022.phar"
   },
@@ -13603,7 +13915,7 @@
     "icon_url": "https://raw.githubusercontent.com/xXKHaLeD098Xx/WorldPlayerCount/1afa6b59b3f7853edbb8b55900c50686321fa9e4/icon.png",
     "featured": false,
     "stable_version": "2.0-beta",
-    "total_downloads": 18312,
+    "total_downloads": 18314,
     "stars": 3,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4624/worldplayercount-2.0-beta-r4624.phar"
   },
@@ -13627,7 +13939,7 @@
     "icon_url": "https://raw.githubusercontent.com/survanetwork/Worlds/ebfebb35cd6e94e64812aedae4761fe184d2f15d/icon.png",
     "featured": false,
     "stable_version": "4.0.9",
-    "total_downloads": 29025,
+    "total_downloads": 29028,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14382/worlds-4.0.9-r14382.phar"
   },
@@ -13783,7 +14095,7 @@
     "icon_url": "https://raw.githubusercontent.com/XGDavid/XGTShowPlayerHP/565d23be14a68ef984fbf0df91c4c9067b104178/xgt.gif",
     "featured": false,
     "stable_version": "2.0.0",
-    "total_downloads": 26519,
+    "total_downloads": 26945,
     "stars": 0,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14311/xgtshowplayerhp-2.0.0-r14311.phar"
   },
@@ -13819,7 +14131,7 @@
     "icon_url": "happy_ghast.png",
     "featured": false,
     "stable_version": "1.1",
-    "total_downloads": 1110,
+    "total_downloads": 1111,
     "stars": 4,
     "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4595/xp-1.1-r4595.phar"
   },

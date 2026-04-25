@@ -1,0 +1,63 @@
+{
+  "id": "advancedjobs",
+  "name": "AdvancedJobs",
+  "author": "LousWiteMC",
+  "description": "AdvancedJobs LousWiteMC",
+  "readme_markdown": "# AdvancedJobs | LousWiteMC\n![](https://poggit.pmmp.io/shield.state/AdvancedJobs) ![](https://poggit.pmmp.io/shield.dl.total/AdvancedJobs)\n\n\nAdvanced Jobs | PocketMine-MP Plugin - MCBE 1.16.200\n\n# Commands\n- /job - Open Jobs Manager\n\n# How to use?\n- Open Jobs Manager by use command: /jobs then if you have a job you can see a manager form of your job. Or if you don't have any jobs, you can see a introduce form for choosing a job. When you done an Progress of your job, you will earn salary! (Money)\n\n# Images\n![2020-04-12-7.png](https://s1.uphinh.org/2020/04/12/2020-04-12-7.png)",
+  "readme_source_url": "https://github.com/LousWiteMC/AdvancedJobs",
+  "icon_url": "https://raw.githubusercontent.com/LousWiteMC/AdvancedJobs/6d76e9d9b2374cd51f55983bb27cc13f7dcd6417/icon.png",
+  "featured": false,
+  "repo": "https://github.com/LousWiteMC/AdvancedJobs",
+  "archive_repo": null,
+  "approved_release_tag": "r-4266",
+  "stars": 4,
+  "total_downloads": 16755,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.11.4-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "LousWiteMC"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.2",
+      "tag": "r-4266",
+      "published_at": null,
+      "downloads": 16755,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4266/advancedjobs-0.2-r4266.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4266",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4266/advancedjobs-0.2-r4266.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdvancedJobs",
+    "stable_release_id": 4266
+  }
+}
