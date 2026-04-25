@@ -1,0 +1,74 @@
+{
+  "id": "bossplugin",
+  "name": "BossPlugin",
+  "author": "HmmHmmmm",
+  "description": "download BossPlugin.phar version dev",
+  "readme_markdown": "## BossPlugin\n[![](https://poggit.pmmp.io/shield.dl.total/BossPlugin)](https://poggit.pmmp.io/p/BossPlugin)\n\ndownload BossPlugin.phar version dev https://poggit.pmmp.io/ci/HmmHmmmm/BossPlugin/BossPlugin\n\n[Language English](#english)\n\n\nCreate boss has unlimited And can create many forms\n\n\n![1](https://github.com/HmmHmmmm/BossPlugin/blob/master/images/3.20/1.jpg)\n\n\nserver of you will not lag if you `false` in `plugin_data\\PureEntitiesX\\config.yml`\n```\ntasks:\n  spawn: false\n  async: false\n  looking: false\n```\n\n•••••Bug•••••••••\nIf you install the plugin TeaSpoon please `false` in\n`plugin_data\\TeaSpoon\\config.yml`\n```\nentities:\r\n register: false\n```\n••••••••••••••••••\n\n# English\n\n```diff\nYou must install the plugin\n- Slapper\n- PureEntitiesX\nthis plugin will work\n```\n\n**Features of plugin**<br>\n- Is a plugin to create boss using [EntityType](#entitytype)\n- And this plugin will fix some bugs of PureEntitiesX [List](#fixbugpureentitiesx)\n- Support database Yaml and SQLite\n- Have language thai and english (You can edit the language you don't like at, `plugin_data/BossPlugin/language`)\n\n\n**How to use**<br>\n- https://youtu.be/wr5IPWTfFdQ\n\n\n**Command**<br>\n- `/boss` : open ui\n\n# EntityType\n- Blaze `TODO`\n- Ghast\n- Vex\n- MagmaCube `TODO`\n- Slime `TODO`\n- ElderGuardian\n- Guardian `TODO`\n- CaveSpider \n- Creeper\n- Enderman\n- Endermite\n- Evoker\n- Husk\n- PolarBear\n- IronGolem\n- SnowGolem `TODO`\n- PigZombie\n- Shulker\n- Silverfish\n- Skeleton\n- Spider\n- Stray\n- Vindicator\n- Witch\n- WitherSkeleton\n- Wolf\n- Zombie\n- ZombiePigman\n- ZombieVillager\n\n# Features of Boss\n- respawn\n- death_respawn\n- health\n- speed\n- scale\n- min_damage\n- max_damage\n- message_drop\n- command_drop\n\n# FixBugPureEntitiesX\n- List fix bug of PureEntitiesX 0.6.3\n- pocketmine\\entity\\Living::getArmorInventory() null\n- getContents() null\n- When Ghast shot Fireball will not see.\n- Skeleton and Stray don't shot players.\n\n\n# Config\n```\n#thai=ภาษาไทยนะจ้ะ\n#english=English language\n#You can edit in plugin_data/BossPlugin/language\nlanguage: english\n\n#yml=Yaml, Information will be in plugin_data/BossPlugin/boss.yml\n#sqlite=SQLite3, Information will be in plugin_data/BossPlugin/boss.sqlite3\nbossdata-database: sqlite\n\nslapper-update: 5\n\nslapper-type: Human\n\n#It is now not unusable.\n#MySQL-Info:\n  #Host: 127.0.0.1\n  #User: Admin\n  #Password: Admin\n  #Database: BossPlugin\n  #Port: 3306\n```\n  \n\n# Permissions\n```\nbossplugin.command.boss:\r\n  default: op\n```",
+  "readme_source_url": "https://github.com/HmmHmmmm/BossPlugin",
+  "icon_url": "https://raw.githubusercontent.com/HmmHmmmm/BossPlugin/21222b9db10cc802908ca91eb1fdd71f521805dc/images/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HmmHmmmm/BossPlugin",
+  "archive_repo": null,
+  "approved_release_tag": "r-4049",
+  "stars": 3,
+  "total_downloads": 13942,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.11.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "PureEntitiesX",
+      "Slapper"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HmmHmmmm"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/79578",
+  "versions": {
+    "stable": {
+      "version": "3.21",
+      "tag": "r-4049",
+      "published_at": null,
+      "downloads": 13063,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4049/bossplugin-3.21-r4049.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4049",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4049/bossplugin-3.21-r4049.phar"
+    },
+    {
+      "tag": "r-4025",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4025/bossplugin-3.11-r4025.phar"
+    },
+    {
+      "tag": "r-4016",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4016/bossplugin-3.6-r4016.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BossPlugin",
+    "stable_release_id": 4049
+  }
+}

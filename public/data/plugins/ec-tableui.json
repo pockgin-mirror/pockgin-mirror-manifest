@@ -1,0 +1,61 @@
+{
+  "id": "ec-tableui",
+  "name": "EC-TableUI",
+  "author": "ProxmaDev",
+  "description": "Thanks to ZAP-Hosting & JetBrains!",
+  "readme_markdown": "# Thanks to ZAP-Hosting & JetBrains!\nThis project wouldn't be possible without the help of ZAP-Hosting & JetBrains!\n***\n### ZAP-Hosting\nZap-Hosting is a VPS, Rootserver, (Lifetime) Gameserver, Domain & TeamSpeak 3/5 hosting company. They offer **good quality** servers **at a low price**. This project was also tested on a ZAP-Hosting Server. So if you need a **cheap** vps/gameserver/rootserver/teamspeak3/etc. hoster, ZAP-Hosting is the best choice.\n\nGet your own **VPS** today here: [Click me](https://zap-hosting.com/schdowvps)\n\nOr your own **Rootserver**: [Click me](https://zap-hosting.com/schdowrootserver)\n\nSpecial offer:\nCurrently, you can get a **50%** discount by using the Code `BLACK2019-50OFF`. So why not try it out?\n***\n### JetBrains\nThis project was made with the help of JetBrains amazing tools. You can visit JetBrains [here](https://www.jetbrains.com/).\n***\n\n[![](https://poggit.pmmp.io/shield.state/EC-TableUI)](https://poggit.pmmp.io/p/EC-TableUI)\n[![](https://poggit.pmmp.io/shield.api/EC-TableUI)](https://poggit.pmmp.io/p/EC-TableUI)\n[![](https://img.shields.io/discord/323953253458903040.svg)](https://discord.gg/ekUFD8z)\n# EC-TableUI\nAn Enchantmenttable made with FormAPI.\n\n# How to use\n1. Own an enchantmenttable.\n2. Hold an item in hand.\n3. Tap the enchantmenttable with your item in hand.\n4. Select your enchantment.\n5. Enjoy!\n\n# ToDo\n- [X] Better level system (Enchantmenttable with bookshelfs)\n- [ ] Recode of EC-TableUI\n- [ ] Level System with lapis support (Comes with Recode)\n- [ ] More vanilla-like (Planned with Recode)\n\n# Additional Information\nEC-TableUI only works with PocketMine-MP. There is no support for any forks.",
+  "readme_source_url": "https://github.com/ProxmaDev/EC-TableUI",
+  "icon_url": "https://raw.githubusercontent.com/ProxmaDev/EC-TableUI/54f0fe2dd285e8ac6592fd0c86f305d3ee742cde/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ProxmaDev/EC-TableUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-4109",
+  "stars": 4,
+  "total_downloads": 21408,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ProxmaDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/101098",
+  "versions": {
+    "stable": {
+      "version": "1.1.2-pre",
+      "tag": "r-4109",
+      "published_at": null,
+      "downloads": 21408,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4109/ec-tableui-1.1.2-pre-r4109.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4109",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4109/ec-tableui-1.1.2-pre-r4109.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EC-TableUI",
+    "stable_release_id": 4109
+  }
+}

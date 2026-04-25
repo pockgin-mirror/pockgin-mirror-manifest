@@ -1,0 +1,61 @@
+{
+  "id": "vaultchest",
+  "name": "VaultChest",
+  "author": "nikoskon2003",
+  "description": "ChestVault",
+  "readme_markdown": "# ChestVault\n\nA simple Vault plugin.\nPlace a chest above a bedrock block, or the block set in the config, and... your are done!!!\nIf you have many worlds on your server, you can choose if you would like the VaultChest to be global, or per-world",
+  "readme_source_url": "https://github.com/nikoskon2003/ChestVault",
+  "icon_url": "https://raw.githubusercontent.com/nikoskon2003/ChestVault/4dbda19ab35839a49ee74a82cd3df9fc583073a3/icon.png",
+  "featured": false,
+  "repo": "https://github.com/nikoskon2003/ChestVault",
+  "archive_repo": null,
+  "approved_release_tag": "r-3905",
+  "stars": 5,
+  "total_downloads": 4715,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nikoskon2003"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/77335",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-3905",
+      "published_at": null,
+      "downloads": 4715,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3905/vaultchest-1.1.0-r3905.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3905",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3905/vaultchest-1.1.0-r3905.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VaultChest",
+    "stable_release_id": 3905
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "warpui",
+  "name": "WarpUI",
+  "author": "thebigsmileXD",
+  "description": "A warp and world teleport plugin that supports rotation and pitch.",
+  "readme_markdown": "# WarpUI\nA warp and world teleport plugin that supports rotation and pitch.\n## Features\n- Warps and Worlds can be listed in an UI, and players can teleport to them by clicking the buttons.\n- Colored warp names are supported\n- Rotation of the player (yaw + pitch) is saved for warps\n- There is a command to teleport to warps: `/warpui teleport <warpname>`\n- Clickable items that can open the warp & world ui\n- You can choose what items to use, rename them & disable them \n## Permissions\nSince Version 3.2.0 permissions for warps have been added. Those are in the following style: `warpui.warp.` + lowercase warp name, without colors. Same goes for worlds: `warpui.world.` + lowercase folder name without color codes\n- Warp `Spawn`: `warpui.warp.spawn`\n- World `Plots`: `warpui.world.plots`\nCommand permissions:\n- WarpUI command: `warpui.command.warpui`\n- WorldUI command: `warpui.command.world`\nCheck plugin.yml for further permission information\n## Changes\n- Version 3.3.0: Permissions are now logically nested. If you used the plugin with an earlier version, you might have to fix your permission sets!",
+  "readme_source_url": "https://github.com/thebigsmileXD/WarpUI",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/thebigsmileXD/WarpUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-3877",
+  "stars": 3,
+  "total_downloads": 19304,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.11.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigsmileXD"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "3.3.1",
+      "tag": "r-3877",
+      "published_at": null,
+      "downloads": 19304,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3877/warpui-3.3.1-r3877.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3877",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3877/warpui-3.3.1-r3877.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WarpUI",
+    "stable_release_id": 3877
+  }
+}

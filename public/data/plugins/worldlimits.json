@@ -1,0 +1,83 @@
+{
+  "id": "worldlimits",
+  "name": "WorldLimits",
+  "author": "iZeaoGamer",
+  "description": "World Border",
+  "readme_markdown": "# World Border\nA Pocketmine plugin, allowing you to edit the limits of a world. Hence why it's called a world border.\n\n## Why is this plugin useful?\nWe offer the many features that most world border plugins do not have, such as: \n- More options = more customization. \n- New setting names such as range, instead of other options that didn't quite fit the name.\n- Teleportation feature; Allowing you to teleport to the safest location once you've reached the world borders. Other world border plugins simply don't have this feature.\n- Forms built-in!\n- Configure how you want World Borders to work directly in-game! Just by using /worldborder or /wb.\n- Customise how world border commands should open, either by: Forms, Commands, or both. No WorldBorder plugins out there publicly have this feature.\n- Adds API methods that most WorldBorder plugins simply do not have!\n\n## Is there more planned features?\nWe do plan to implement more features in the future.",
+  "readme_source_url": "https://github.com/iZeaoGamer/WorldBorder",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/iZeaoGamer/WorldBorder",
+  "archive_repo": null,
+  "approved_release_tag": "r-4123",
+  "stars": 0,
+  "total_downloads": 2064,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "MultiWorld"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "iZeaoGamer"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/81411",
+  "versions": {
+    "stable": {
+      "version": "1.2.1",
+      "tag": "r-4123",
+      "published_at": null,
+      "downloads": 1243,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4123/worldlimits-1.2.1-r4123.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4123",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4123/worldlimits-1.2.1-r4123.phar"
+    },
+    {
+      "tag": "r-4051",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4051/worldlimits-1.2.0-r4051.phar"
+    },
+    {
+      "tag": "r-4015",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4015/worldlimits-1.1.2-r4015.phar"
+    },
+    {
+      "tag": "r-3991",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3991/worldlimits-1.1.1-r3991.phar"
+    },
+    {
+      "tag": "r-3955",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3955/worldlimits-1.1.0-r3955.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorldLimits",
+    "stable_release_id": 4123
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "playerinfo",
+  "name": "PlayerInfo",
+  "author": "Matthww",
+  "description": "Shows information about a certain player!",
+  "readme_markdown": "# PlayerInfo\nShows information about a certain player!\n\n#### Command Usage:\n`/playerinfo <player>`\n\nWe also have a shorter command:\\\n`/pinfo <player>`\n\n#### Permission:\n`playerinfo.use` - Allows the user/player to use the command `/playerinfo`\n\n#### Example:\n\nName: Steve\\\nModel: iPhone\\\nOS: iOS\\\nIP: 127.0.0.1\\\nPort: 37379\\\nPing: 46ms\\\nUI: Classic UI\\\nGUI Scale: Maximum\\\nControls: Touch\\\nUUID: a4b63016-7243-3010-8cf7-22915a4b77d5\\\nHealth: 19 HP\\\nPosition: X: 132, Y: 78, Z: -963",
+  "readme_source_url": "https://github.com/Matthww/PlayerInfo",
+  "icon_url": "https://raw.githubusercontent.com/Matthww/PlayerInfo/f3c9a9febb9d27fdcd46e04f4e830bc7e9bcda40/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Matthww/PlayerInfo",
+  "archive_repo": null,
+  "approved_release_tag": "r-3937",
+  "stars": 5,
+  "total_downloads": 13987,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Matthww"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/78203",
+  "versions": {
+    "stable": {
+      "version": "2.1.4",
+      "tag": "r-3937",
+      "published_at": null,
+      "downloads": 13987,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3937/playerinfo-2.1.4-r3937.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3937",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3937/playerinfo-2.1.4-r3937.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerInfo",
+    "stable_release_id": 3937
+  }
+}

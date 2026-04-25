@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8872",
   "stars": 0,
-  "total_downloads": 1303,
+  "total_downloads": 1957,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-6522",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6522/pecollide-1.2-r6522.phar"
+    },
+    {
+      "tag": "r-4104",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4104/pecollide-1.1-r4104.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "admintroll",
+  "name": "AdminTroll",
+  "author": "Swourire",
+  "description": "AdminTroll-a-plugin-for-PocketMine-MP",
+  "readme_markdown": "<h1>\n<a id=\"user-content-admintroll-a-plugin-for-pocketmine-mp\" class=\"anchor\" href=\"#admintroll-a-plugin-for-pocketmine-mp\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>AdminTroll-a-plugin-for-PocketMine-MP</h1>\n<p>In this plugin you have many trolls features !\nMany updates like setting your own items, or updates will be added.</p>\n<h2>\n<a id=\"user-content-real-smite--fake-smite-\" class=\"anchor\" href=\"#real-smite--fake-smite-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Real smite / Fake Smite :</h2>\n<p>Real Smite let's you hit people whereas Fake Smite doesn't.</p>\n<h2>\n<a id=\"user-content-trapper-\" class=\"anchor\" href=\"#trapper-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Trapper :</h2>\n<p>It lets you trap the player you hit for 10s (soon release where this will be configurable)!</p>\n<h2>\n<a id=\"user-content-360-\" class=\"anchor\" href=\"#360-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>360° :</h2>\n<p>It makes the player you hit do a 360°.</p>\n<h2>\n<a id=\"user-content-freezer-\" class=\"anchor\" href=\"#freezer-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Freezer :</h2>\n<p>It lets you freeze the player you hit, hit 1 one time, it freezes the players, hit him again and he is unfrozen !</p>\n<h2>\n<a id=\"user-content-slower-\" class=\"anchor\" href=\"#slower-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Slower :</h2>\n<p>It lets you slow the player you hit !</p>\n<h2>\n<a id=\"user-content-jumper-\" class=\"anchor\" href=\"#jumper-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Jumper :</h2>\n<p>Hit the player you want, wait for him to jump and watch him go over the clouds !</p>\n<h2>\n<a id=\"user-content-fake-op-\" class=\"anchor\" href=\"#fake-op-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Fake OP :</h2>\n<p>Hit the player you want to troll, it'll send him a fake OP message.</p>\n<h2>\n<a id=\"user-content-perfect-vanisher-\" class=\"anchor\" href=\"#perfect-vanisher-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Perfect Vanisher :</h2>\n<p>Become totally invisible by right clicking.</p>\n<h2>\n<a id=\"user-content-pumpkiner-\" class=\"anchor\" href=\"#pumpkiner-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Pumpkiner :</h2>\n<p>It'll put a pumpkin head on whoever you hit with Pumpkiner item.</p>\n<h2>\n<a id=\"user-content-puncher-\" class=\"anchor\" href=\"#puncher-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Puncher :</h2>\n<p>It'll blow in the air whoever you touch !</p>\n<h2>\n<a id=\"user-content-switcher-\" class=\"anchor\" href=\"#switcher-\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Switcher :</h2>\n<p>Throw the snowball and switch with whoever you touch.</p>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/82904",
+  "icon_url": "https://raw.githubusercontent.com/Swourire/AdminTroll-a-plugin-PocketMine-MP-/c6eb583c3922b99693729823b29d1fc804614174/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Swourire/AdminTroll-a-plugin-PocketMine-MP-",
+  "archive_repo": null,
+  "approved_release_tag": "r-4209",
+  "stars": 4,
+  "total_downloads": 37833,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.9.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Swourire"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/82906",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-4209",
+      "published_at": null,
+      "downloads": 37833,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4209/admintroll-1.2.0-r4209.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4209",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4209/admintroll-1.2.0-r4209.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AdminTroll",
+    "stable_release_id": 4209
+  }
+}

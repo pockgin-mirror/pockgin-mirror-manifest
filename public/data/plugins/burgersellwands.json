@@ -1,0 +1,68 @@
+{
+  "id": "burgersellwands",
+  "name": "BurgerSellWands",
+  "author": "Heisenburger69",
+  "description": "Pocketmine Plugin adding Sell Wands to the game. A Sell Wand allows players to quickly sell items inside a chest with just one click!",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.dl.total/BurgerSellWands)](https://poggit.pmmp.io/p/BurgerSellWands)\n\n# BurgerSellWands\nPocketmine Plugin adding Sell Wands to the game. A Sell Wand allows players to quickly sell items inside a chest with just one click!\n### Features:\n * Sell the contents of a chest by just tapping it\n * Fully customizable item name, lore and ID\n * Integrates seamlessly with plugins like Skyblock or Factions\n * All Sell prices are customizable\n * Sell Wands can be set to have a maximum amount of uses\n * All plugin messages are customizable\n### Commands:\n/sellwand {player} {uses} : Gives {player} a Sell Wand with a max of {uses} uses \n### Permissions:\nsellwand.command: Lets a player run /sellwand  \nsellwand.use: Lets a player use Sell Wands",
+  "readme_source_url": "https://github.com/Heisenburger69/BurgerSellWands",
+  "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerSellWands/c4081e78f251aaebf96b10e35aed82f665324479/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Heisenburger69/BurgerSellWands",
+  "archive_repo": null,
+  "approved_release_tag": "r-4062",
+  "stars": 0,
+  "total_downloads": 2597,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Heisenburger69"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/79768",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-4062",
+      "published_at": null,
+      "downloads": 2164,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4062/burgersellwands-1.0.1-r4062.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4062",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4062/burgersellwands-1.0.1-r4062.phar"
+    },
+    {
+      "tag": "r-3932",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3932/burgersellwands-1.0.0-r3932.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BurgerSellWands",
+    "stable_release_id": 4062
+  }
+}

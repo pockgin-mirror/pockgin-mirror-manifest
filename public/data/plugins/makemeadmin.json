@@ -1,0 +1,63 @@
+{
+  "id": "makemeadmin",
+  "name": "MakeMeAdmin",
+  "author": "Xenophilicy",
+  "description": "I have frozen my personal support for public plugins. The plugins will remain public on GitHub (though archived) for anyone that would like to keep them updated. This my final d...",
+  "readme_markdown": "> # I have frozen my personal support for public plugins. The plugins will remain public on GitHub (though archived) for anyone that would like to keep them updated.  This my final decision on the matter. No support will be provided - you will be ignored - regardless of private or public inquiry.\n\n# MakeMeAdmin\n[![](https://poggit.pmmp.io/shield.state/MakeMeAdmin)](https://poggit.pmmp.io/p/MakeMeAdmin)\n[![HitCount](http://hits.dwyl.io/Xenophilicy/MakeMeAdmin.svg)](http://hits.dwyl.io/Xenophilicy/MakeMeAdmin)\n[![Discord Chat](https://img.shields.io/discord/490677165289897995.svg)](https://discord.gg/hNVehXe)\n\n# [![Xenophilicy](http://file.xenoservers.net/Resources/GitHub-Resources/makemeadmin/screenshot.png)]()\n\n## Information\nWith this plugin, you can very easily switch your **PurePerms** group with a simple command that pops a UI onto your screen thanks to integration of **FormAPI**! All you do from there is select which group you want to switch to, and voila! This plugin also uses permission nodes to determine which groups should popup for which players, depending on which nodes are added to your group or player file. The ones not available, show as \"Locked\" and are grayed out in the UI. Each rank has an assigned permission node that can be edited in the config.yml. The command used to access the UI is also customizable in the config.yml along with a bunch of other cool features and settings!\n\n### [Click here to download MakeMeAdmin from Poggit](https://poggit.pmmp.io/p/MakeMeAdmin/)\n\n*You can find a video example on YouTube → https://www.youtube.com/watch?v=3O9LJUtYLi8*\n\n[![Xenophilicy](https://img.youtube.com/vi/3O9LJUtYLi8/0.jpg)](https://www.youtube.com/watch?v=3O9LJUtYLi8)\n\n***\n\n## MakeMeAdmin Details\n* **API:** 3.0.0+\n* **Version:** 1.6.0\n* **Basic Description:** Easily switch ranks with a simple command and a click of the mouse!\n* *Easy to edit config.yml file*\n* *Simple code for editing and debugging*\n***\n\n## Dependencies\n**PurePerms → https://github.com/PurePlugins/PurePerms**\t\n\n**DevTools → https://github.com/pmmp/PocketMine-DevTools** *(If you're running the plugin from source)*\n\n## Credits\n* [Xenophilicy](https://github.com/Xenophilicy/)",
+  "readme_source_url": "https://github.com/Xenophilicy/MakeMeAdmin",
+  "icon_url": "https://raw.githubusercontent.com/Xenophilicy/MakeMeAdmin/08cf62b47e2da721fe4e776c9f6c9a42839aaf9a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Xenophilicy/MakeMeAdmin",
+  "archive_repo": null,
+  "approved_release_tag": "r-3855",
+  "stars": 4,
+  "total_downloads": 11304,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "PurePerms"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Xenophilicy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/76741",
+  "versions": {
+    "stable": {
+      "version": "1.6.0",
+      "tag": "r-3855",
+      "published_at": null,
+      "downloads": 11304,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3855/makemeadmin-1.6.0-r3855.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3855",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3855/makemeadmin-1.6.0-r3855.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MakeMeAdmin",
+    "stable_release_id": 3855
+  }
+}

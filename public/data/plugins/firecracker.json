@@ -1,0 +1,61 @@
+{
+  "id": "firecracker",
+  "name": "Firecracker",
+  "author": "thebigsmileXD",
+  "description": "This plugin adds brick items to the player inventory, which behave like firecrackers when thrown!",
+  "readme_markdown": "# Firecracker\nThis plugin adds brick items to the player inventory, which behave like firecrackers when thrown!\n\nThey will show flame particles and emit a fizzing sound, and after 3 seconds they will explode!\n\nThey will not hurt entities, and not damage the environment (Unlike real ones!)\n\n## Config\nThere are 2 config options:\n- give-items-after: How many seconds should pass until the player receives a new firecracker\n- translation: How the firecrackers should be named. Color codes like `§c` are supported\n\n## Download\nHead to Poggit to grab a pre-built `.phar`\n\n## Information\nThis was one of the first plugins i ever wrote. Now, some years later (Silvester 2019/20) i stumbled upon it and thought: _\"Hey, it is silvester, this plugin was quite fun, why not update it?_, so i recoded it.\n\nBe safe! **And remember: Firecrackers are no toys. Real firecrackers can harm you and other people! Use them carefully!**",
+  "readme_source_url": "https://github.com/thebigsmileXD/Firecracker",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/thebigsmileXD/Firecracker",
+  "archive_repo": null,
+  "approved_release_tag": "r-3882",
+  "stars": 5,
+  "total_downloads": 1079,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.11.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigsmileXD"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-3882",
+      "published_at": null,
+      "downloads": 1079,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3882/firecracker-1.0.0-r3882.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3882",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3882/firecracker-1.0.0-r3882.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Firecracker",
+    "stable_release_id": 3882
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-4271",
   "stars": 4,
-  "total_downloads": 3118,
+  "total_downloads": 3256,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "0.7.0",
       "tag": "r-4271",
       "published_at": null,
-      "downloads": 3118,
+      "downloads": 3119,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4271/gomoku-0.7.0-r4271.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-4271",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4271/gomoku-0.7.0-r4271.phar"
+    },
+    {
+      "tag": "r-4158",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4158/gomoku-0.6.9-r4158.phar"
     }
   ],
   "comments": {

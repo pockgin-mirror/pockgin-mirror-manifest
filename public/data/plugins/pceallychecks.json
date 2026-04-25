@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-4239",
   "stars": 5,
-  "total_downloads": 479,
+  "total_downloads": 641,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -41,7 +41,7 @@
       "version": "1.0.2",
       "tag": "r-4239",
       "published_at": null,
-      "downloads": 479,
+      "downloads": 480,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4239/pceallychecks-1.0.2-r4239.phar"
     },
     "dev": null
@@ -51,6 +51,16 @@
       "tag": "r-4239",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4239/pceallychecks-1.0.2-r4239.phar"
+    },
+    {
+      "tag": "r-4101",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4101/pceallychecks-1.0.1-r4101.phar"
+    },
+    {
+      "tag": "r-3854",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3854/pceallychecks-1.0.0-r3854.phar"
     }
   ],
   "comments": {

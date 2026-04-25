@@ -1,0 +1,65 @@
+{
+  "id": "kitsplus",
+  "name": "KitsPlus",
+  "author": "AlexPads",
+  "description": "A Simple and Cutomizeable Plugin by WitherXTeam that Uses LibFormAPI and Supports PiggyCustomEnchants! All from The same Team to bring you CustomShopUI!",
+  "readme_markdown": "A Simple and Cutomizeable Plugin by WitherXTeam that Uses LibFormAPI and Supports PiggyCustomEnchants! <br><br>All from The same Team to bring you CustomShopUI!\n[![](https://poggit.pmmp.io/shield.state/KitsPlus)](https://poggit.pmmp.io/p/KitsPlus)\n<a href=\"https://poggit.pmmp.io/p/KitsPlus\"><img src=\"https://poggit.pmmp.io/shield.state/KitsPlus\"></a>\n\n## Includes\nThis Plugin Includes:<br>\n* Chest Kits\n* Custom Messages\n* Custom EVERYTHING\n* List and UI type Displays\n* Body and Invetory Giving Schemes\n* Suports PiggyCustomEnchants!\n* Price Per Kit!\n\n## Permissions\nIn the Config for Every Kit there is a permission you must add that permission to every player that needs the kit.\nEx.. kit.starter is the default permission for the starter kit.\n\n\n## Configuration\nThe In Config Notes and Premade Features Show what to do on a Greater Scale!\n```\nPrefix: \"§l§f[§r§l§aKits§ePlus!§f]§r \"\nType: \"Chest\"\nListType: \"UI\"\nGiveType: \"INV\"\nExitButton: true\nExitButtonText: \"§l§cEXIT\"\nExitMessage: true\nExitMessageCustom: \"Thank You for Checking Out our Kits!\"\nYouDontOwn: \"§r§cYou Don't Have This Kit!\"\nNoPermission: \"ou dont have Permission to use that Kit!\"\nOnCooldown: \"§r§cThis Kit is on CoolDown!\"\nOnCooldown2: \"§r§cThis kit has {timeleft} seconds left on CoolDown!\"\nKitNotExist: \"That Kit does not Exits! Please Pick another Kit or Make sure that you have spelled it correctly!\"\nTopRowList: \"------- {pluginprefix}-------\"\nListNumbers: true\nListNumberColor: \"§b\"\nBottomRowList: \"------- {pluginprefix}-------\"\nKits:\n  Starter:\n    Permission: \"kit.starter\"\n    KitFormName: \"Starter\"\n    KitChestName: \"§l§f[§aStarter§f]§r\"\n    Helmet: \"310:0:1:default:0,5:2,1\"\n    Chestplate: \"311:0:1:default:0:2\"\n    Leggings: \"312:0:1:default:0:2\"\n    Boots: \"313:0:1:default:0:2\"\n    CooldownTime: 25\n    Items:\n      - \"267:0:1:default:9:2\"\n      - \"257:0:1:default:9:2\"\n  Iron:\n    Permission: \"kit.iron\"\n    KitFormName: \"Iron\"\n    KitChestName: \"§l§f[§aIron§f]§r\"\n    Helmet: \"\"\n    Chestplate: \"\"\n    Leggings: \"\"\n    Boots: \"\"\n    CooldownTime: 25\n    Items:\n      - \"\"\n      - \"\"\n      - \"\"\n```\n\n## About\nIf you need anything or Have a Question Make and Issue on the GitHub!!<br>\nIf you would Like a Great Time and Good Hosting Join <br>\nUse Our Live chat or Join our Discord or Make and Issue on the GitHub for Help!<br>\nhttps://witherhosting.com<br>\nwe offer Hosting of Many games and Our Own server! (play.wither.fun)",
+  "readme_source_url": "https://github.com/AlexPads/KitsPlus",
+  "icon_url": "https://raw.githubusercontent.com/AlexPads/KitsPlus/d4e7ffcb27bb35931912754f46f8b15f85d92412/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AlexPads/KitsPlus",
+  "archive_repo": null,
+  "approved_release_tag": "r-4097",
+  "stars": 3,
+  "total_downloads": 10698,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI",
+      "PiggyCustomEnchants",
+      "PurePerms"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AlexPads"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/138996",
+  "versions": {
+    "stable": {
+      "version": "1.0.7",
+      "tag": "r-4097",
+      "published_at": null,
+      "downloads": 10698,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4097/kitsplus-1.0.7-r4097.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-4097",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4097/kitsplus-1.0.7-r4097.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KitsPlus",
+    "stable_release_id": 4097
+  }
+}

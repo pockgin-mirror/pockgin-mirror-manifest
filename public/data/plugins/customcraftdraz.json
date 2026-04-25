@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8815",
   "stars": 5,
-  "total_downloads": 565,
+  "total_downloads": 2450,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,13 +37,29 @@
       "downloads": 565,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8815/customcraftdraz-1.0.4-r8815.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "1.0.3",
+      "tag": "r-4010",
+      "published_at": null,
+      "downloads": 1701,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4010/customcraftdraz-1.0.3-r4010.phar"
+    }
   },
   "recent_builds": [
     {
       "tag": "r-8815",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8815/customcraftdraz-1.0.4-r8815.phar"
+    },
+    {
+      "tag": "r-4010",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4010/customcraftdraz-1.0.3-r4010.phar"
+    },
+    {
+      "tag": "r-3917",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3917/customcraftdraz-1.0.1-r3917.phar"
     }
   ],
   "comments": {

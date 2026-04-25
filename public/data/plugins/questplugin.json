@@ -1,0 +1,63 @@
+{
+  "id": "questplugin",
+  "name": "QuestPlugin",
+  "author": "HmmHmmmm",
+  "description": "Language English",
+  "readme_markdown": "## QuestPlugin\n\n\n[Language English](#english)\n\n\nUltimate quest plugin, create quest has unlimited And can create many forms\n\n\ndownload QuestPlugin.phar dev https://poggit.pmmp.io/ci/HmmHmmmm/QuestPlugin/QuestPlugin\n\n![1](https://github.com/HmmHmmmm/QuestPlugin/blob/master/images/3.1/1.jpg)\n\n# English\n\n```diff\nYou must install the plugin\n- Slapper\nthis plugin will work\n```\n\nDownload the plugin Slapper [Click here](https://poggit.pmmp.io/p/slapper)\n\n**Features of plugin**<br>\n- Is a plugin to create quests using [Event](#event)\n- support database Yaml and SQLite\n- Have language thai and english (You can edit the language you don't like at, `plugin_data/QuestPlugin/language`)\n\n\n**How to use**<br>\n- https://youtu.be/jw8HKls-H4w\n\n\n**Command**<br>\n- `/quest` : open gui form\n\n# Event\n- breakblock (Break Block)\n- placeblock (Place Block)\n- kill_entity (Kill living things)\n- kill_player (Kill players)\n- trading (Trading#Please hold item.)\n- online (Online)\n\n\n# Config\n```\n#thai=ภาษาไทยนะจ้ะ\n#english=English language\n#You can edit in plugin_data/QuestPlugin/language\nlanguage: english\n\n#yml=Yaml, Information will be in plugin_data/QuestPlugin/quest.yml\n#sqlite=SQLite3, Information will be in plugin_data/QuestPlugin/quest.sqlite3\nquestdata-database: sqlite\n\n#yml=Yaml, Information will be in plugin_data/QuestPlugin/account\n#sqlite=SQLite3, Information will be in plugin_data/QuestPlugin/players.sqlite3\nplayerdata-database: yml\n\nslapper-update: 10\n\nslapper-type: Human\n\n#It is now not unusable.\n#MySQL-Info:\n  #Host: 127.0.0.1\n  #User: Admin\n  #Password: Admin\n  #Database: QuestPlugin\n  #Port: 3306\n```\n  \n\n# Permissions\n```\n/*\n*\n* Command /quest it can be typed by everyone.\n*\n*/\nquest.command.info:\r\n  default: op\nquest.command.list:\r\n  default: true\nquest.command.remove:\r\n  default: true\nquest.command.add:\r\n  default: op\nquest.command.data:\r\n  default: false\r\nquest.command.data.gui:\r\n  default: op\nquest.command.data.event:\r\n  default: op\rquest.command.data.create:\r\n  default: op\r\nquest.command.data.remove:\r\n  default: op\nquest.command.data.list:\r\n  default: op\nquest.command.data.setlimit:\r\n  default: op\nquest.command.data.addlimit:\r\n  default: op\nquest.command.data.slapperget:\r\n  default: op\n```",
+  "readme_source_url": "https://github.com/HmmHmmmm/QuestPlugin",
+  "icon_url": "https://raw.githubusercontent.com/HmmHmmmm/QuestPlugin/9df826892caf0d2f9bfd306400f55f598316bb11/images/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HmmHmmmm/QuestPlugin",
+  "archive_repo": null,
+  "approved_release_tag": "r-3990",
+  "stars": 3,
+  "total_downloads": 5549,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.11.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "Slapper"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HmmHmmmm"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "3.1",
+      "tag": "r-3990",
+      "published_at": null,
+      "downloads": 5549,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3990/questplugin-3.1-r3990.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3990",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3990/questplugin-3.1-r3990.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "QuestPlugin",
+    "stable_release_id": 3990
+  }
+}

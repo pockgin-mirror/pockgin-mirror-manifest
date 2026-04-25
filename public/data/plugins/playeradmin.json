@@ -1,0 +1,61 @@
+{
+  "id": "playeradmin",
+  "name": "PlayerAdmin",
+  "author": "alvin0319",
+  "description": "A PocketMine-MP Plugin PlayerAdmin",
+  "readme_markdown": "## PlayerAdmin\n\nA PocketMine-MP Plugin | PlayerAdmin\n\n\nFeature\n------\n\n* Warn system\n* Instantly ban or ip-ban\n* Can see player's address and DeviceOS, DeviceModel\n\n## Usage\n|command|description|\n|---|---|\n|/playeradmin|PlayerAdmin's main command.|\n|/pa|aliases of /playeradmin|\n\nYou can warn player or ban player in Manage ui.\n\n1. type /pa or /playeradmin command.\n\n2. select the type you want to manage player.\n\n3. select or input player name.\n\n4. you can see player's address, device model, device os, total warn.\n\n## Warn system\n\nIf the player's warn count exceeds the value stored in the data, the player cannot connect with message \"You are banned. Warn count: [warn]\".\n\nThe default value is 5.\n\n## Future Plan\n\n* Mute system\n* clientId, clientUUID, device ban\n* and more\n\n## Config\nPlayerData config\n```yaml\n---\nalvin0319:\n  device: Windows10\n  model: SAMSUNG ELECTRONICS CO., LTD. 700A7K\n  address: 127.0.0.1\n...\n```\n\nWarnData config\n```yaml\n---\nban-count: 5 ## this is limit of warn\nplayer:\n  alvin0319: 1 ## this is total warn\n...\n```\n\n## Pictures\n\n![](https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/1.PNG)\n![](https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/2.PNG)\n![](https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/3.PNG)\n![](https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/4.PNG)\n![](https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/5.PNG)\n![](https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/6.PNG)",
+  "readme_source_url": "https://github.com/alvin0319/PlayerAdmin",
+  "icon_url": "https://raw.githubusercontent.com/alvin0319/PlayerAdmin/1fdddd0040a0e42fddd39c370984af7782f95028/icon.png",
+  "featured": false,
+  "repo": "https://github.com/alvin0319/PlayerAdmin",
+  "archive_repo": null,
+  "approved_release_tag": "r-3940",
+  "stars": 4,
+  "total_downloads": 26794,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.11.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "alvin0319"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-3940",
+      "published_at": null,
+      "downloads": 26794,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3940/playeradmin-1.0.0-r3940.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3940",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3940/playeradmin-1.0.0-r3940.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerAdmin",
+    "stable_release_id": 3940
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-4707",
   "stars": 3,
-  "total_downloads": 2474,
+  "total_downloads": 2672,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-4217",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4217/pcebookshop-1.0.1-r4217.phar"
+    },
+    {
+      "tag": "r-4205",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4205/pcebookshop-1.0.0-r4205.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,63 @@
+{
+  "id": "gameeventplugin",
+  "name": "GameEventPlugin",
+  "author": "HmmHmmmm",
+  "description": "Language English",
+  "readme_markdown": "## GameEventPlugin\n\n[![](https://poggit.pmmp.io/shield.state/GameEventPlugin)](https://poggit.pmmp.io/p/GameEventPlugin) [![](https://poggit.pmmp.io/shield.api/GameEventPlugin)](https://poggit.pmmp.io/p/GameEventPlugin) [![](https://poggit.pmmp.io/shield.dl.total/GameEventPlugin)](https://poggit.pmmp.io/p/GameEventPlugin)\n\n\n[Language English](#english)\n\n[Language Thai](#thai)\n\n\nThis plugin uses Libraries `CustomUI` No need to install that plugin\nJust load this plugin as .phar\n\n\n# English\n\n```diff\nYou must install the plugin\n- Slapper\nthis plugin will work\n```\n\nDownload the plugin Slapper [Click here](https://poggit.pmmp.io/p/slapper)\n\n\n**Features of plugin**<br>\n- This plugin can create many forms of event. Depends on `command start`\n- RunEvent() Will run the present event count down the end, And the event will reset all players who have previously performed this event, And set a new time\n- PresentEvent() Is the present event that needs to be run\n- NextEvent() Will start a new event after the present event runs to completion (If you set it)\n- PlayerStartEvent() Players start the event\n- PlayerAwardEvent() Players receive event rewards\n- have gui form\n- Have language thai and english (You can edit the language you don't like at, `/resources/language`)\n\n\n**How to use**<br>\n- Example of event creation Parkour and BreakBlock https://youtu.be/d6lGZsFmefs\n\n**Command**<br>\n- `/gameevent` : open gui form\r\n- `/gameevent create <NameTheEvent> <Time> <DescriptionText> <AwardMessage>` : Create an Event\n- `/gameevent list` : See a list of all event.\r\n- `/gameevent remove <EventName>` : Delete event\n- `/gameevent settime <EventName> <Time>` : Set event times\n- `/gameevent setpresent <EventName>`: Set is the present event\r\n- `/gameevent setnext <EventName>` : Set is the next event\r\n- `/gameevent enabled <EventName> on|off` : Enabled/Disable of event\n- `/gameevent start <PlayerName> <EventName>` : Have players start the event\r\n- `/gameevent award <PlayerName> <EventName>` : Add players to receive event rewards.\r\n- `/gameevent sign_start <EventName>` : Create a sign to start an event\n- `/gameevent sign_award <EventName>` : Create a sign to award event\n- `/gameevent slapper_start <EventName>` : Create a slapper to start an event\n- `/gameevent slapper_award <EventName>` : Create a slapper to award event\n- `/gameevent welcome <EventName>` : Enabled/Disable Message welcome of event\n\n\n**Images**<br>\n![1](https://github.com/HmmHmmmm/GameEventPlugin/blob/master/images/3.1/1en.jpg)\n\n![2](https://github.com/HmmHmmmm/GameEventPlugin/blob/master/images/3.1/2en.jpg)\n\n\n# Thai\n\n```diff\nคุณต้องลงปลั๊กอิน\n- Slapper\nถึงปลั๊กอินนี้จะทำงาน\n```\n\nดาวโหลดปลั๊กอิน Slapper [Click here](https://poggit.pmmp.io/p/slapper)\n\n\n**คุณสมบัติของปลั๊กอิน**<br>\n- ปลั๊กอินนี้สามารถสร้างกิจกรรมได้หลายรูปแบบ ขึ้นอยู่กับคำสั่งสตาร์ทตอนที่สร้างกิจกรรม\n- RunEvent() จะรันกิจกรรมปัจจุบันถอยหลังจนจบ และกิจกรรมจะทำการ reset ผู้เล่นที่เคยทำกิจกรรมนี้ทั้งหมด และตั้งเวลาใหม่\n- PresentEvent() คือกิจกรรมปัจุบันที่ต้องการให้รัน\n- NextEvent() จะเป็นการเริ่มกิจกรรมใหม่จากกิจกรรมปัจุบันที่รันจนจบ (ถ้าคุณเซ็ตไว้)\n- PlayerStartEvent() ผู้เล่นเริ่มทำกิจกรรม\n- PlayerAwardEvent() ผู้เล่นรับรางวัลกิจกรรม\n- มี gui form\n- มีภาษา thai english (สามารถแก้ไขภาษาที่คุณไม่ชอบได้ที่ `/resources/language`)\n\n\n**วิธีใช้งาน**<br>\n- ตัวอย่างการสร้างกิจกรรม Parkour และ BreakBlock https://youtu.be/d6lGZsFmefs\n\n**Command**<br>\n- `/gameevent` : เปิด gui form\r\n- `/gameevent create <ชื่อกิจกรรม> <เวลา> <ข้อความอธิบาย> <ข้อความรางวัล>` : สร้างกิจกรรม\n- `/gameevent list` : ดูรายชื่อกิจกรรม\r\n- `/gameevent remove <ชื่อกิจกรรม>` : ลบกิจกรรม\n- `/gameevent settime <ชื่อกิจกรรม> <เวลา>` : เช็ตเวลากิจกรรม\n- `/gameevent setpresent <ชื่อกิจกรรม>` : เช็ตเป็นกิจกรรมปัจจุบัน\r\n- `/gameevent setnext <ชื่อกิจกรรม>` : เช็ตเป็นกิจกรรมถัดไป\r\n- `/gameevent enabled <ชื่อกิจกรรม> on|off` : เปิด/ปิดกิจกรรม\n- `/gameevent start <ชื่อผู้เล่น> <ชื่อกิจกรรม>` : ให้ผู้เล่นเริ่มทำกิจกรรม\r\n- `/gameevent award <ชื่อผู้เล่น> <ชื่อกิจกรรม>` : เพิ่มผู้เล่นรับรางวัลกิจกรรม\r\n- `/gameevent sign_start <ชื่อกิจกรรม>` : สร้างป้ายเริ่มกิจกรรม\n- `/gameevent sign_award <ชื่อกิจกรรม>` : สร้างป้ายรับรางวัลกิจกรรม\n- `/gameevent slapper_start <ชื่อกิจกรรม>` : สร้างหุ่นเริ่มกิจกรรม\n- `/gameevent slapper_award <ชื่อกิจกรรม>` : สร้างหุ่นกิจกรรมรับรางวัล\n- `/gameevent welcome <ชื่อกิจกรรม>` : เปิด/ปิด ข้อความต้อนรับ\n\n\n**Images**<br>\n![1](https://github.com/HmmHmmmm/GameEventPlugin/blob/master/images/3.1/1th.jpg)\n\n![2](https://github.com/HmmHmmmm/GameEventPlugin/blob/master/images/3.1/2th.jpg)\n\n\n\n# Config\n```\n#Language\n#thai=ภาษาไทย\n#english=English language\nlanguage: english\n```\n  \n\n# Permissions\n```\ngameevent.command:\r\n  default: op\n```",
+  "readme_source_url": "https://github.com/HmmHmmmm/GameEventPlugin",
+  "icon_url": "https://raw.githubusercontent.com/HmmHmmmm/GameEventPlugin/0914b2438fc59fe600ce695f4acee90109bc063e/images/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HmmHmmmm/GameEventPlugin",
+  "archive_repo": null,
+  "approved_release_tag": "r-3901",
+  "stars": 4,
+  "total_downloads": 4715,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.11.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "Slapper"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HmmHmmmm"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "3.2",
+      "tag": "r-3901",
+      "published_at": null,
+      "downloads": 4715,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3901/gameeventplugin-3.2-r3901.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3901",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3901/gameeventplugin-3.2-r3901.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GameEventPlugin",
+    "stable_release_id": 3901
+  }
+}

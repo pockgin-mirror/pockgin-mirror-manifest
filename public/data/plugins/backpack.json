@@ -1,0 +1,61 @@
+{
+  "id": "backpack",
+  "name": "Backpack",
+  "author": "thebigsmileXD",
+  "description": "Get wearable backpacks for your PocketMine-MP server! Supports custom models and textures!***",
+  "readme_markdown": "# <img alt=\"Backpack with camouflage pattern\" src=\"https://github.com/thebigsmileXD/Backpack/blob/master/resources/github/backpack.png\" height=\"100px\" width=\"auto\"> Backpack\n[![Poggit-CI](https://poggit.pmmp.io/ci.badge/thebigsmileXD/Backpack/Backpack/master)](https://poggit.pmmp.io/ci/thebigsmileXD/Backpack) [![](https://poggit.pmmp.io/shield.state/Backpack)](https://poggit.pmmp.io/p/Backpack) [![](https://poggit.pmmp.io/shield.api/Backpack)](https://poggit.pmmp.io/p/Backpack)\n***Get wearable backpacks for your PocketMine-MP server! Supports custom models and textures!***\n\n## Features\n- ✅ Supports custom geometry and skin files, for example made in [BlockBench](https://www.blockbench.net/)\n- ⚔ Does not interfere with PvP and additionally stops the use of KillAura [_\\[¹\\]_](#Notes)\n- 💻 Easily modifiable and configurable\n- ⚖ Permission sets for every available design\n- 💾 Minimal disk space usage due to savefiles in NBT format [_\\[²\\]_](#Notes)\n- 📏 Automatically updates scale in relation to the player's scale. You have baby sized players on your server? No problem!\n- 👻 Hidden when the player is invisible or dead\n- 💎 27 extra slots to fill up with your precious goods\n- 👨🏻‍💻 Simple to use commands - [`/backpack`](#Commands) Puts down the backpack to make it's contents accessible\n- 💼 Can be opened by hitting the backpack entity\n- 🔐 Only accessible by the owner of the backpack\n- 🦸‍♂️ Immune to any impacts, as fire, explosions and player damage\n- 👪 Easy way to add roleplaying and survival fun\n\n## Screenshots\n| | | |\n|:---:|:---:|:---:|\n|![Front screenshot](https://github.com/thebigsmileXD/Backpack/blob/master/resources/github/front.png)|![Back screenshot](https://github.com/thebigsmileXD/Backpack/blob/master/resources/github/back.png)|![Inventory screenshot](https://github.com/thebigsmileXD/Backpack/blob/master/resources/github/inventory.png)|\n\n## Commands\n| Command | Description | Permission |\n|---|---|---|\n| `/backpack` | `Toggle between wearing and accessing the backpack` | `backpack.command` |\n| `/backpack create [design]` | `Creates a backpack for the sender` | `backpack.command` |\n| `/backpack design <design>` | `Switches to another design` | `backpack.command` |\n| `/backpack get` | `Gives an item that when dropped puts on the backpack` | `backpack.command` |\n\n## Special permissions\nBy setting up permissions in the style of `backpack.type.FILENAME` you can make cool and exclusive designs available to specific users and groups.\n\nExample for permissions:\n * For the file `default.json` the permission would result in `backpack.type.default`\n * By giving the `backpack.type` permission _all_ designs will be accessible\n\n## Creating new models and textures\nFor creating the entities i suggest using [BlockBench](https://www.blockbench.net/), a free modeling program for Minecraft with included painting tools. It can also be ran in the browser and is mobile/touch friendly.\n\n***Some things must be given attention to when creating those models:***\n- I suggest importing a player model to have a visual preview of where you actually are putting the cubes at. You can toggle the visibility of the bones at any time, making it easy to tweak the positioning of cubes.\n- **Only** the `body` bone/group **may** be used, since it is able to automatically align the backpack correctly, even when sneaking, swimming or elytra-flying. Cubes put into the `body` group to archive the best results.\n- The pivot of the `body` bone/group must be at `[0, 24, 0]` to make sure the cubes align properly when sneaking\n- Textures must be 64 * 32, 64 * 64 or 128 * 128 size. Other sizes won't render properly. Those are [supported dimensions of a player skin](https://github.com/pmmp/PocketMine-MP/blob/3.9.4/src/pocketmine/entity/Skin.php#L33-L37) (as of October 2019)\n- BlockBench supports generating texture templates, which is a great time and headache savior, since it can also try to \"compress\" the texture file by putting smaller cube textures in the unused areas of bigger cubes.\n- The geometry name must be `geometry.backpack.FILENAME`. The geometry file must be named `FILENAME.json`. The PNG texture file must be named `FILENAME.png`.\n\n## Planned features\n- [ ] Database support for cross server backpack saving\n- [ ] Optional UI for choosing the design of the backpack (alongside the `/backpack design` command)\n- [ ] Translations\n- [ ] Restrictions for allowing the use only in a set of worlds\n- [ ] Colored messages\n\n## Notes\n- To be able to run this plugin the `gd` extension must be installed and enabled. See [this link 🖥](https://forums.pmmp.io/threads/gd-on-php.6532/) or [this link 🐧](https://forums.pmmp.io/threads/how-to-install-gd-lib-in-php-binary.4372/) for information on how to enable it.\n- This plugin utilizes the [InvMenu](https://github.com/Muqsit/InvMenu/) virion, which must be installed alongside [DEVirion](https://github.com/poggit/devirion/) when running from source\n- Feel free to modify the plugin and contribute to the development (_as long as you give credit 😉_)! Pull requests are most welcome ☺\n\n- _[¹]_ Simple KillAura hacks can be disturbed by this plugin if poorly coded. The hack client will have a hard time figuring out if it is actually targeting a Player or a Human entity (which are used in this plugin), and probably will attack the backpacks instead 👍🏻\n- _[²]_ You can edit the NBT files via [NBTExplorer](https://github.com/jaquadro/NBTExplorer), [UniversalMinecraftEditor](https://www.universalminecrafteditor.com/) or similar programs with ease\n\n## Credits\nA plugin by XenialDan, 2019\n\nMany thanks to @Muqsit for helping with the data saving and to @CortexPE for his amazing Commando virion",
+  "readme_source_url": "https://github.com/thebigsmileXD/Backpack",
+  "icon_url": "https://raw.githubusercontent.com/thebigsmileXD/Backpack/2d76456ed0e5238697cf6a78bd3a9bbf6801f9e6/resources/github/backpack.png",
+  "featured": false,
+  "repo": "https://github.com/thebigsmileXD/Backpack",
+  "archive_repo": null,
+  "approved_release_tag": "r-3881",
+  "stars": 3,
+  "total_downloads": 57909,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.9.3-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigsmileXD"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/77005",
+  "versions": {
+    "stable": {
+      "version": "0.2.1",
+      "tag": "r-3881",
+      "published_at": null,
+      "downloads": 57909,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3881/backpack-0.2.1-r3881.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3881",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3881/backpack-0.2.1-r3881.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Backpack",
+    "stable_release_id": 3881
+  }
+}

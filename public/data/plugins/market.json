@@ -1,0 +1,63 @@
+{
+  "id": "market",
+  "name": "Market",
+  "author": "HmmHmmmm",
+  "description": "Language English",
+  "readme_markdown": "## Market\n\n\n[Language English](#english)\n\nThis plugin uses Libraries `CustomUI` and `InvMenu` No need to install that plugin\nJust load this plugin as .phar\n\ndownload Market.phar dev https://poggit.pmmp.io/ci/HmmHmmmm/Market/Market\n\n\n# English\n\n```diff\nYou must install the plugin\n- EconomyAPI\nthis plugin will work\n```\n\nDownload the plugin EconomyAPI [Click here](https://poggit.pmmp.io/p/economyapi)\n\n\n**Features of plugin**<br>\n- Is a plugin create shop in market\n- have gui chest\n- have gui form\n- Have language thai and english (You can edit the language you don't like at, `/resources/language`)\n\n\n**How to use**<br>\n- https://youtu.be/xWnYEI-nwxc\n\n\n**Command**<br>\n- `/market` : open gui chest\n- `/market addshop <Price> <Description>` : Create shop\n- `/market removeshop <ShopId>` : Delete shop\n- `/market settext <ShopId> <Description>` : Set shop description\n- `/market setprice <ShopId> <Price>` : Set price of shop\n\n\n**Images**<br>\n![1](https://github.com/HmmHmmmm/Market/blob/master/images/1.1/1.jpg)\n\n\n# Config\n```\n\n#Language\n#thai=ภาษาไทย\n#english=English language\nlanguage: english\n\ndatabase: yml\n\n```\n  \n\n# Permissions\n```\n/*\n*\n* Command /market it can be typed by everyone.\n*\n*/\nmarket.command.info:\r\n  default: op\nmarket.command.addshop:\r\n  default: true\nmarket.command.removeshop:\r\n  default: true\nmarket.command.settext:\r\n  default: true\nmarket.command.setprice:\r\n  default: true\n```",
+  "readme_source_url": "https://github.com/HmmHmmmm/Market",
+  "icon_url": "https://raw.githubusercontent.com/HmmHmmmm/Market/627e816836824b63c1b116dd277806077fcd4b24/images/icon.png",
+  "featured": false,
+  "repo": "https://github.com/HmmHmmmm/Market",
+  "archive_repo": null,
+  "approved_release_tag": "r-3920",
+  "stars": 3,
+  "total_downloads": 7117,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.11.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HmmHmmmm"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.2",
+      "tag": "r-3920",
+      "published_at": null,
+      "downloads": 7117,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3920/market-1.2-r3920.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3920",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3920/market-1.2-r3920.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Market",
+    "stable_release_id": 3920
+  }
+}

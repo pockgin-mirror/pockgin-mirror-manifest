@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-4841",
   "stars": 5,
-  "total_downloads": 1569,
+  "total_downloads": 4087,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-4841",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4841/notesui-1.1.0-r4841.phar"
+    },
+    {
+      "tag": "r-4075",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4075/notesui-1.0.0-r4075.phar"
     }
   ],
   "comments": {
