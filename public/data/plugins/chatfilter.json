@@ -1,0 +1,61 @@
+{
+  "id": "chatfilter",
+  "name": "ChatFilter",
+  "author": "InspectorGadget",
+  "description": "This Chat Filters packs with the Powerful CapsLimit Featur, Profane Replacement and also verifying the Profane itself. If a Player is swearing on your Server, here's your best bet.",
+  "readme_markdown": "# ChatFilter\n- This Chat Filters packs with the Powerful CapsLimit Featur, Profane Replacement and also verifying the Profane itself. If a Player is swearing on your Server, here's your best bet.",
+  "readme_source_url": "https://github.com/InspectorGadget/ChatFilter",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/InspectorGadget/ChatFilter",
+  "archive_repo": null,
+  "approved_release_tag": "r-2291",
+  "stars": 0,
+  "total_downloads": 1748,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "InspectorGadget"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/49083",
+  "versions": {
+    "stable": {
+      "version": "3.0.0",
+      "tag": "r-2291",
+      "published_at": null,
+      "downloads": 1748,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2291/chatfilter-3.0.0-r2291.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2291",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2291/chatfilter-3.0.0-r2291.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatFilter",
+    "stable_release_id": 2291
+  }
+}

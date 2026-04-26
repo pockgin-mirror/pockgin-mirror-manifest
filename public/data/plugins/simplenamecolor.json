@@ -1,0 +1,61 @@
+{
+  "id": "simplenamecolor",
+  "name": "SimpleNameColor",
+  "author": "IanSzot",
+  "description": "SimpleNameColor-PMMP",
+  "readme_markdown": "# SimpleNameColor-PMMP\n\n[![](https://poggit.pmmp.io/shield.state/SimpleNameColor)](https://poggit.pmmp.io/p/SimpleNameColor)\n\n[![](https://poggit.pmmp.io/shield.api/SimpleNameColor)](https://poggit.pmmp.io/p/SimpleNameColor)\n\n\n\n\nSimpleNameColor-PMMP is a port from a plugin that I created in 2014 for Bukkit ([link here](https://dev.bukkit.org/projects/inamecolor)) .\nIt's a simple, straight to the point, no bullshit plugin. All you need is to add the permission to the player/group and they will have custom colored name in chat.\n\nThis plugin **IS NOT** aimed towards people who want to customize everything in the chat. Its intended purpose is to keep Minecraft's original chatting style but with colors (got this idea from MCPVP back in the days).\n\nIt also probably conflicts with other plugins that change the format of player chat, so be careful.\n\n---\n### Permissions\n|  Permission       |  Function         |\n|-------------------|-------------------|\n| simplenamecolor.aqua          | Aqua              |\n| simplenamecolor.black         | Black             |\n| simplenamecolor.blue          | Blue              |\n| simplenamecolor.bold          | **Bold**          |\n| simplenamecolor.darkaqua      | Dark aqua         |\n| simplenamecolor.darkblue      | Dark blue         |\n| simplenamecolor.darkgray      | Dark gray         |\n| simplenamecolor.darkgreen     | Dark green        |\n| simplenamecolor.darkpurple    | Dark purple       |\n| simplenamecolor.darkred       | Dark red          |\n| simplenamecolor.gold          | Gold              |\n| simplenamecolor.gray          | Gray              |\n| simplenamecolor.green         | Green             |\n| simplenamecolor.italic        | *Italic*          |\n| simplenamecolor.lightpurple   | Light purple      |\n| simplenamecolor.obfuscated    | Obfuscated        |\n| simplenamecolor.red           | Red               |\n| simplenamecolor.strikethrough | ~~Strikethrough~~ |\n| simplenamecolor.underline     | Underline         |\n| simplenamecolor.yellow        | Yellow            |\n| simplenamecolor.white         | White             |\n\n\n---\n\n#### Known issues:\n- Strikethrough and underline doesn't seem to work. Perhaps it's a limitation from the game itself.\n\n---\n\n> I'd like once again to thank Pluto1099, MrZombie_II and Shockwave317 (wherever they are) for helping me in the original plugin, without them the original plugin would never have been released.",
+  "readme_source_url": "https://github.com/IanSzot/SimpleNameColor-PMMP",
+  "icon_url": "https://raw.githubusercontent.com/IanSzot/SimpleNameColor-PMMP/9ee18064b09301db56ca93e1f5bc3286cd492e0d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/IanSzot/SimpleNameColor-PMMP",
+  "archive_repo": null,
+  "approved_release_tag": "r-2219",
+  "stars": 5,
+  "total_downloads": 8268,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "IanSzot"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-2219",
+      "published_at": null,
+      "downloads": 8268,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2219/simplenamecolor-1.0-r2219.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2219",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2219/simplenamecolor-1.0-r2219.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleNameColor",
+    "stable_release_id": 2219
+  }
+}

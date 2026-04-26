@@ -1,0 +1,61 @@
+{
+  "id": "autoxp",
+  "name": "AutoXP",
+  "author": "JackMD",
+  "description": "HitCount License Poggit Release",
+  "readme_markdown": "<img src=\"https://github.com/JackMD/AutoXP/blob/master/meta/AutoXP.png\">\n\n# AutoXP\n\n| HitCount | License | Poggit | Release |\n|:--:|:--:|:--:|:--:|\n|[![HitCount](http://hits.dwyl.io/JackMD/AutoXP.svg)](http://hits.dwyl.io/JackMD/AutoXP)|[![GitHub license](https://img.shields.io/github/license/JackMD/AutoXP.svg)](https://github.com/JackMD/AutoXP/blob/master/LICENSE)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/JackMD/AutoXP/AutoXP)](https://poggit.pmmp.io/ci/JackMD/AutoXP/AutoXP)|[![](https://poggit.pmmp.io/shield.state/AutoXP)](https://poggit.pmmp.io/p/AutoXP)|\n\n### A AutoXP plugin for PocketMine-MP\n### Features:\n - AutoXP automatically transfers all the xp to your experience bar without dropping any.\n - Great way to reduce lag caused by Experience Orbs.\n### How to setup?\n - Get the [.phar](https://poggit.pmmp.io/ci/JackMD/AutoXP/AutoXP) and drop the into your `plugins` folder.\n - Start the server.\n - Start mining blocks.\n### Info:\n  - Make sure to subscribe to be updated for when i release more stuff on my [YT](https://youtu.be/x_mc-ocrdDU) channel.\n  - Support is appreciated.\n  - Please don't hesitate to ask questions or report bug report in issues section.\n### Disclaimer:\n\n```\nThis software is licensed under \"GNU General Public License v3.0\".\nThis license allows you to use it and/or modify it but you are not at\nall allowed to sell this plugin at any cost. If found doing so the\nnecessary action required would be taken. Further removal of the License and or\nauthors name from this software is strictly prohibited.\n```",
+  "readme_source_url": "https://github.com/JackMD/AutoXP",
+  "icon_url": "https://raw.githubusercontent.com/JackMD/AutoXP/6a2a8e7ff5755316f3b6d6685e5885021afeba15/meta/AutoXP.png",
+  "featured": false,
+  "repo": "https://github.com/JackMD/AutoXP",
+  "archive_repo": null,
+  "approved_release_tag": "r-2165",
+  "stars": 5,
+  "total_downloads": 4785,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JackMD"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/47358",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-2165",
+      "published_at": null,
+      "downloads": 4785,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2165/autoxp-1.1.0-r2165.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2165",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2165/autoxp-1.1.0-r2165.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AutoXP",
+    "stable_release_id": 2165
+  }
+}

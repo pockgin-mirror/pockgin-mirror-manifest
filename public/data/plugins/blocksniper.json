@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9534",
   "stars": 4,
-  "total_downloads": 3878,
+  "total_downloads": 28876,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -36,7 +36,7 @@
       "version": "4.0.0",
       "tag": "r-9534",
       "published_at": null,
-      "downloads": 3878,
+      "downloads": 3879,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9534/blocksniper-4.0.0-r9534.phar"
     },
     "dev": null
@@ -46,6 +46,16 @@
       "tag": "r-9534",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-9534/blocksniper-4.0.0-r9534.phar"
+    },
+    {
+      "tag": "r-2248",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2248/blocksniper-3.2.3-r2248.phar"
+    },
+    {
+      "tag": "r-2241",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2241/blocksniper-3.2.2-r2241.phar"
     }
   ],
   "comments": {

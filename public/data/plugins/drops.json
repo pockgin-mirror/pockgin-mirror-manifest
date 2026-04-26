@@ -1,0 +1,61 @@
+{
+  "id": "drops",
+  "name": "Drops",
+  "author": "iShabzz102",
+  "description": "Simple pocketmine plugin to disable drops on death.",
+  "readme_markdown": "# Drops\nSimple pocketmine plugin to disable drops on death.\n### Commands:\n*drops:*\n- alias: dr\n- description: Set drops true/false\n## How To Use:\n#### 1. Simply add the plugin to your server.\n####  2. open config and set true or false.\n\n[![HitCount](http://hits.dwyl.io/iShabzz102/Drops.svg)](http://hits.dwyl.io/iShabzz102/Drops)",
+  "readme_source_url": "https://github.com/iShabzz102/Drops",
+  "icon_url": "https://raw.githubusercontent.com/iShabzz102/Drops/450779e0ffb8a0be57426c28c35a783046dce243/icon.png",
+  "featured": false,
+  "repo": "https://github.com/iShabzz102/Drops",
+  "archive_repo": null,
+  "approved_release_tag": "r-2119",
+  "stars": 3,
+  "total_downloads": 1740,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "iShabzz102"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-2119",
+      "published_at": null,
+      "downloads": 1740,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2119/drops-1.0.0-r2119.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2119",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2119/drops-1.0.0-r2119.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Drops",
+    "stable_release_id": 2119
+  }
+}

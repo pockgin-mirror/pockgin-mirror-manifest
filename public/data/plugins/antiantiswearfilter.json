@@ -1,0 +1,61 @@
+{
+  "id": "antiantiswearfilter",
+  "name": "AntiAntiSwearFilter",
+  "author": "dktapps-pm-pl",
+  "description": "Uncensor",
+  "readme_markdown": "# Uncensor\n\nA plugin for PocketMine-MP to automatically bypass client-sided profanity filtering.\n\n## How to use\n\n- Drop the plugin into your plugins folder\n- Acquire the game's current `profanity_filter.wlist` and place it in the plugin's data folder\n- Profit!\n\n## Where do I get `profanity_filter.wlist` from?\n\nYou can extract it from any current version of the game. It is not included with the files for this plugin due to potential licensing issues.\n\n## How does it work?\n\nVery simple. It simply inserts an ASCII file-separator character (ASCII code 28, 0x1c) after the first letter of the filtered word. This ensures that it does not match client-sided filtering.\n\n## Will it interfere with any swear-filter plugins I already have?\n\nThis plugin operates directly on TextPacket as it is sent. Most swear-filter plugins will already have redacted bad words by the time the message reaches this plugin. It is therefore unlikely to interfere with existing plugins, however this has not been tested.",
+  "readme_source_url": "https://github.com/dktapps-pm-pl/Uncensor",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/dktapps-pm-pl/Uncensor",
+  "archive_repo": null,
+  "approved_release_tag": "r-2142",
+  "stars": 4,
+  "total_downloads": 2036,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "dktapps-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.1.0",
+      "tag": "r-2142",
+      "published_at": null,
+      "downloads": 2036,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2142/antiantiswearfilter-0.1.0-r2142.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2142",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2142/antiantiswearfilter-0.1.0-r2142.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiAntiSwearFilter",
+    "stable_release_id": 2142
+  }
+}

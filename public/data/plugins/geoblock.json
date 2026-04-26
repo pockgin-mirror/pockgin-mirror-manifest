@@ -1,0 +1,61 @@
+{
+  "id": "geoblock",
+  "name": "GeoBlock",
+  "author": "IanSzot",
+  "description": "GeoBlock-PMMP",
+  "readme_markdown": "# GeoBlock-PMMP\n\nGeoBlock is a very simple Geo Blocking plugin for PocketMine-MP\n\n\n## How does it work?\n\nEverytime a player join your server his IP will be checked against external APIs so we can get his country of origin and block or allow his login\n\n## APIs used and limits\nThis plugin uses two APIs. One main API (ip-api.com) and another for failover (extreme-ip-lookup.com).\nip-api.com has a hard limit of 150 requests per minute and extreme-ip-lookup.com has a limit of 50 request per limit. This means that you have 200 requests per minute avaliable for you.\n\nNote: ip-api.com WILL block your IP if you send more than 150 requests per minute and you will need to unban your IP [here](http://ip-api.com/docs/unban) or that will leave you with only 50 requests per minute from extreme-ip-lookup.com.\n\n**One request = one player logging in on the server**. If have a big server (more than 150 players logging in per minute) please consider actually paying for some GeoIP API and edit the code to suit your new paid API\n\n## Permissions\n\n|Permission|Description  |\n|--|--|\n| geoblock.bypass |Players with this permission will bypass Geo Block  |\n\n\n## config.yml\n\nConfiguration is pretty straightforward.\n\n| Setting   | Description                                                                  |\n|-----------|------------------------------------------------------------------------------|\n| **kickMsg**   |                           Message for kicked player                          |\n| **action**    | deny or allow                                                                |\n|           | allow = only players from “countries” will be able to join                   |\n|           | deny = every player will join except players from “countries”                |\n| **countries** | Countries to allow/deny on the server. Uppsercase comma separated            |\n|           | Example: [BR, NZ, CN, RU, US]                                                |\n| **fail**      | deny or allow. What to do if all APIs fail to return a country?              |\n|           | allow = players with invalid country code will be able to join the server    |\n|           | deny = players with invalid country code WILL NOT be able to join the server |\n| **failMsg**   | Message to show players kicked due to API fail                               |\n\n\n## IMPORTANT\nAgain, I'd like to remind that if you get many (over 150) players logging in per minute it's VERY recommended that you pay for a good unlimited GeoIP API, there are many on Google, search for one that best suit your needs and budget. You will also have to edit the code to suit your new API.\n\n\n*What happens if all APIs go offline or my IP gets blacklisted?*\n\nGood question. I don't know. I guess players will be stuck in the logging in screen for a while...\n\n*Does this detect VPNs?*\n\nNo. Players with a proxy or VPN can easily bypass this plugin",
+  "readme_source_url": "https://github.com/IanSzot/GeoBlock-PMMP",
+  "icon_url": "https://raw.githubusercontent.com/IanSzot/GeoBlock-PMMP/44caaad95b78f4c42509fa5ad90607df09cb8803/icon.png",
+  "featured": false,
+  "repo": "https://github.com/IanSzot/GeoBlock-PMMP",
+  "archive_repo": null,
+  "approved_release_tag": "r-2247",
+  "stars": 5,
+  "total_downloads": 856,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "IanSzot"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0-beta",
+      "tag": "r-2247",
+      "published_at": null,
+      "downloads": 856,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2247/geoblock-1.0-beta-r2247.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2247",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2247/geoblock-1.0-beta-r2247.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GeoBlock",
+    "stable_release_id": 2247
+  }
+}

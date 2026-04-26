@@ -1,0 +1,70 @@
+{
+  "id": "informationx",
+  "name": "InformationX",
+  "author": "Shelly7w7",
+  "description": "A customizable Profile/Information plugin by Shelly7w7!",
+  "readme_markdown": "# InformationX\nA customizable Profile/Information plugin by Shelly7w7!\n\n| HitCount | Poggit |\n|:--:|:--:|\n[![HitCount](http://hits.dwyl.io/Shelly7w7/InformationX.svg)](http://hits.dwyl.io/Shelly7w7/InformationX)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/Shelly7w7/InformationX/InformationX)](https://poggit.pmmp.io/ci/Shelly7w7/InformationX/InformationX)\n\n## Where to download a compiled version?\n\nYou can get the latest compiled version [here.](https://poggit.pmmp.io/ci/Shelly7w7/HealthTag)\n\nThe plugin doesnt requires any required dependencies except for optional ones to show your required information on the UI.\n### How to install?\n\nAfter downloading the compiled version from poggit, simply put the file in your server directory (``/plugins``)\n\n### How does this work?\n\nThis plugin shows you your and servers information/profile in a Form!\nYou can customize it through the config.yml (Higly customizable)\n\n## Suggestions and Issues\n\nYou can simply open an issue if you want to suggest anything.\n\nYou can simply open an issue if you find any bugs and I'll try to fix it as soon as possible!\n\n## Credits\n\nSpecial thanks to JackMD for letting me use scorehud data, Check him out [here.](https://github.com/JackMD)",
+  "readme_source_url": "https://github.com/Shelly7w7/InformationX",
+  "icon_url": "https://raw.githubusercontent.com/Shelly7w7/InformationX/d1f7ea22cd75046dd8bbda7d876ba64ff78ec7b2/iconx.png",
+  "featured": false,
+  "repo": "https://github.com/Shelly7w7/InformationX",
+  "archive_repo": null,
+  "approved_release_tag": "r-2388",
+  "stars": 4,
+  "total_downloads": 2735,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "RankUp"
+    ],
+    "optional": [
+      "PureChat",
+      "FactionsPro",
+      "EconomyAPI",
+      "KDR",
+      "PurePerms",
+      "SkyBlock"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Shelly7w7"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-2388",
+      "published_at": null,
+      "downloads": 2735,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2388/informationx-1.1.0-r2388.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2388",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2388/informationx-1.1.0-r2388.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "InformationX",
+    "stable_release_id": 2388
+  }
+}

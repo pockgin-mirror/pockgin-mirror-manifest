@@ -1,0 +1,68 @@
+{
+  "id": "newspaper",
+  "name": "Newspaper",
+  "author": "Johnmacrocraft",
+  "description": "Add newspapers to your server!",
+  "readme_markdown": "# Newspaper [![Poggit-CI](https://poggit.pmmp.io/ci.badge/Johnmacrocraft/Newspaper/~)](https://poggit.pmmp.io/ci/Johnmacrocraft/Newspaper) [![Poggit](https://poggit.pmmp.io/shield.state/Newspaper)](https://poggit.pmmp.io/p/Newspaper)\nAdd newspapers to your server!\n\n## Translations\nNewspaper has multi-language support.<br />\nCurrently, Newspaper supports the following languages:\n- English\n- Korean (한국어)\n- Japanese (日本語)\n- German (Deutsch)\n\nIf you want to add your languages, you can submit a pull request.<br />\nWhen you translate, remember the following rules:\n- NEVER add words and punctuation marks that do not exist in the original. By _adding these_, we mean something like this:<br />\nOriginal: An error has occurred<br />\nBad translation: An error has occurred. Please report this problem to the issue tracker.<br />\nThere is no need to translate like that; it is not what the translators are supposed to do. By doing so, you are ignoring what we intended to say.\n- NEVER translate if you DO NOT know how to translate, especially with machine translators.\n- Translate liberally if it makes the translation sound better in your language, but do not abuse it. If there is something that should be translated liberally, please ask me before doing it.<br />\n- Translate with your language's grammar rules followed and consistency.",
+  "readme_source_url": "https://github.com/Johnmacrocraft/Newspaper",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Johnmacrocraft/Newspaper",
+  "archive_repo": null,
+  "approved_release_tag": "r-2226",
+  "stars": 4,
+  "total_downloads": 1743,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.3.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Johnmacrocraft"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/92623",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-2226",
+      "published_at": null,
+      "downloads": 1650,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2226/newspaper-1.0.1-r2226.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2226",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2226/newspaper-1.0.1-r2226.phar"
+    },
+    {
+      "tag": "r-2215",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2215/newspaper-1.0.0-r2215.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Newspaper",
+    "stable_release_id": 2226
+  }
+}

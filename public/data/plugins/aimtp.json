@@ -1,0 +1,61 @@
+{
+  "id": "aimtp",
+  "name": "AimTP",
+  "author": "dktapps-pm-pl",
+  "description": "Teleport in PocketMine-MP by aiming and clicking",
+  "readme_markdown": "# AimTP\nTeleport in PocketMine-MP by aiming and clicking\n\n## Why?\nFlying is too slow, teleporting using commands is tedious (and requires memorizing coordinates), and ender pearls have limited range.\nPresenting: the easiest way to hop around without needing to stop and think about it.\n\n## Usage\n1. Get a teleport stick using `/give <player> tpstick`, and hold it in the main hand\n2. Look where you want to go\n3. Right click (or click & hold on mobile)\n4. Profit!\n\n## Permissions\n- `aimtp.use`: Controls the ability to use teleporter stick items. Defaults to op only.\n\n## Gotchas\n- You can't teleport into the sky or the void, only between 0-255 Y coordinates\n- You can't teleport further than 256 blocks in one jump (safety restriction)\n\n## License\nMIT",
+  "readme_source_url": "https://github.com/dktapps-pm-pl/AimTP",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/dktapps-pm-pl/AimTP",
+  "archive_repo": null,
+  "approved_release_tag": "r-2350",
+  "stars": 4,
+  "total_downloads": 2674,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.2.4-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "dktapps-pm-pl"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-2350",
+      "published_at": null,
+      "downloads": 2674,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2350/aimtp-0.0.1-r2350.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2350",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2350/aimtp-0.0.1-r2350.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AimTP",
+    "stable_release_id": 2350
+  }
+}

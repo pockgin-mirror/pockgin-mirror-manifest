@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8143",
   "stars": 0,
-  "total_downloads": 13646,
+  "total_downloads": 42049,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-8143",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8143/simplehome-1.1.0-r8143.phar"
+    },
+    {
+      "tag": "r-2259",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2259/simplehome-1.0.3-r2259.phar"
     }
   ],
   "comments": {

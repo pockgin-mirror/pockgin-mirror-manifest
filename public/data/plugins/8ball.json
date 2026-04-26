@@ -1,0 +1,61 @@
+{
+  "id": "8ball",
+  "name": "8ball",
+  "author": "Zedstar16",
+  "description": "The 8ball fortune teller for MCPE!,",
+  "readme_markdown": "# 8ball\nThe 8ball fortune teller for MCPE!,\n\nYou can use 8ball by typing a chat message containing the bot prefix\n\n[![](https://poggit.pmmp.io/shield.state/8ball)](https://poggit.pmmp.io/p/8ball)\n<a href=\"https://poggit.pmmp.io/p/8ball\"><img src=\"https://poggit.pmmp.io/shield.state/8ball\"></a>\n[![HitCount](http://hits.dwyl.io/Zedstar16/8ball.svg)](http://hits.dwyl.io/Zedstar16/8ball)\n\n# Changes:\n\n- Cooldown for bot making predictions\n\n- Custom prefix for bot\n\n- Config\n\n- Much more customisable\n\n\n# Config:\nYou can change the prefix, by default it is \"8ball, \"\n\nYou can change the message the bot sends\n\nYou can change the cooldown of the rate players can use it at\n\nYou can choose for the response to be a message to the player, or broadcast so everyone can see it\n\n8ball, By Zedstar16",
+  "readme_source_url": "https://github.com/Zedstar16/8ball",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Zedstar16/8ball",
+  "archive_repo": null,
+  "approved_release_tag": "r-2357",
+  "stars": 4,
+  "total_downloads": 3244,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Zedstar16"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-2357",
+      "published_at": null,
+      "downloads": 3244,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2357/8ball-1.0-r2357.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2357",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2357/8ball-1.0-r2357.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "8ball",
+    "stable_release_id": 2357
+  }
+}

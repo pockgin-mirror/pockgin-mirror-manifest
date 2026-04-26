@@ -1,0 +1,61 @@
+{
+  "id": "seedevice",
+  "name": "SeeDevice",
+  "author": "Palente",
+  "description": "A pmmp plugin for Minecraft(W10,BE) [PHP]",
+  "readme_markdown": "# SeeDevice\nA pmmp plugin for Minecraft(W10,BE) [PHP]\n[![](https://poggit.pmmp.io/shield.dl.total/SeeDevice)](https://poggit.pmmp.io/p/SeeDevice)\n## Some Information\nThis is an \"API\" plugin to get more easily user's Device<br>\n\n### The Famous \"API\"\n*This is not really an API btw*<br>\n**How to Get the Os of a Player with SeeDevice**<br>\nIt's easy: ``` $userOs =SeeDevice::getInstance()->getPlayerOs($player);```<br>\n**How to Get the Device of a Player with SeeDevice**<br>\nA bit more difficult than before: ```$userDevice = SeeDevice::getInstance()->getPlayerDevice($player);```\n*Be sure to have the class in your use statement and that Player is an instance of Player*<br>\n*Don't forget to check if the plugin is online*\n## LAST UPDATES\n**What happened in the last update?**<br>\n*(1.1.0)* Now all Commands can be managed(2 commands). You can now See the Real Device of the player from /seedevice.<br>\n*(1.0.0)* Nothing particular (*Lot of things*), just a remake of the plugin, because you and me, changed and it was the time to fix bugs.<br>\nYou can Now customize the format of the Score Tag to show or not the Os and what do you want.<br>\nYou can now disable the FakeOs Command..\n#### Commands\n**How to see user's (device, os):** */seedevice [player]*<br>\n**How to Edit user's os:** */fakeos <playername-self> <name_of_device>* (Only if it's enabled.)\n\n#### Permission\nTo have access to the two commands, the player has to get the permission \"SeeDevice.command.\\*\"\n## Future Release\n- [x] Create the Plugin<br>\n- [x] Do the Readme <br>\n- [x] Possibility to change the name of the OS<br>\n- [x] Create a command to get the Device Name of the user<br>\n- [x] Config has more control! Enable or Disable the command<br>\n- [ ] Get a serious list of Os <br>\n- [ ] Re-Make the Config <br>\n*Don't be afraid by opening an issue or a pull request*",
+  "readme_source_url": "https://github.com/Palente/SeeDevice",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Palente/SeeDevice",
+  "archive_repo": null,
+  "approved_release_tag": "r-2087",
+  "stars": 4,
+  "total_downloads": 6385,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Palente"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/46398",
+  "versions": {
+    "stable": {
+      "version": "0.0.7",
+      "tag": "r-2087",
+      "published_at": null,
+      "downloads": 6385,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2087/seedevice-0.0.7-r2087.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2087",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2087/seedevice-0.0.7-r2087.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SeeDevice",
+    "stable_release_id": 2087
+  }
+}

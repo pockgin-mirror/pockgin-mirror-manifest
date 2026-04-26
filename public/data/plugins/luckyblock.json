@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-2610",
   "stars": 4,
-  "total_downloads": 11448,
+  "total_downloads": 12465,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,7 +37,7 @@
       "version": "0.0.3",
       "tag": "r-2610",
       "published_at": null,
-      "downloads": 11448,
+      "downloads": 11449,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2610/luckyblock-0.0.3-r2610.phar"
     },
     "dev": null
@@ -47,6 +47,11 @@
       "tag": "r-2610",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2610/luckyblock-0.0.3-r2610.phar"
+    },
+    {
+      "tag": "r-2127",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2127/luckyblock-0.0.2-r2127.phar"
     }
   ],
   "comments": {

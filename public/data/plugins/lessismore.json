@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8151",
   "stars": 5,
-  "total_downloads": 2260,
+  "total_downloads": 2551,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-2680",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2680/lessismore-1.1.0-r2680.phar"
+    },
+    {
+      "tag": "r-2066",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2066/lessismore-1.0.2-r2066.phar"
     }
   ],
   "comments": {

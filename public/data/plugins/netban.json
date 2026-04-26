@@ -1,0 +1,66 @@
+{
+  "id": "netban",
+  "name": "NetBan",
+  "author": "InspectorGadget",
+  "description": "Add this plugin in all your servers!",
+  "readme_markdown": "# NetBan [![Poggit-CI](https://poggit.pmmp.io/ci.shield/InspectorGadget/NetBan/NetBan)](https://poggit.pmmp.io/ci/InspectorGadget/NetBan/NetBan)\nAdd this plugin in all your servers!\n\n# Status\n-> Can be deployed",
+  "readme_source_url": "https://github.com/InspectorGadget/NetBan",
+  "icon_url": "https://raw.githubusercontent.com/InspectorGadget/NetBan/8151f39cbf5aa0d5578e3684cf46773d0eeb0b84/img/netban.png",
+  "featured": false,
+  "repo": "https://github.com/InspectorGadget/NetBan",
+  "archive_repo": null,
+  "approved_release_tag": "r-2307",
+  "stars": 4,
+  "total_downloads": 3067,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "InspectorGadget"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/49537",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-2307",
+      "published_at": null,
+      "downloads": 2836,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2307/netban-1.0.1-r2307.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2307",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2307/netban-1.0.1-r2307.phar"
+    },
+    {
+      "tag": "r-2290",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2290/netban-1.0.0-r2290.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NetBan",
+    "stable_release_id": 2307
+  }
+}
