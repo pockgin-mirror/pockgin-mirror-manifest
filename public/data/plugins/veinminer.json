@@ -1,0 +1,61 @@
+{
+  "id": "veinminer",
+  "name": "VeinMiner",
+  "author": "jasonw4331",
+  "description": "VeinMiner is a plugin based on the Java Minecraft VeinMiner mod. Much of the code is also based on @2008Choco's VeinMiner plugin for Bukkit and Fabric.",
+  "readme_markdown": "# VeinMiner\n[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/R7kdetE)\n[![Poggit-Ci](https://poggit.pmmp.io/ci.shield/jasonwynn10/VeinMiner/VeinMiner)](https://poggit.pmmp.io/ci/jasonwynn10/VeinMiner/VeinMiner)\n[![Download count](https://poggit.pmmp.io/shield.dl.total/VeinMiner)](https://poggit.pmmp.io/p/VeinMiner)\n\n# Intro\nVeinMiner is a plugin based on the Java Minecraft [VeinMiner](https://github.com/portablejim/VeinMiner) mod. Much of the code is also based on @2008Choco's [VeinMiner](https://www.spigotmc.org/resources/veinminer.12038/) plugin for Bukkit and Fabric.\n\n# Features\n* Vein Mining!\n* Economy support!\n* Hunger management!\n* __**Full customisation!**__\n\n# Future Additions\n* No others planned. Leave requests in the reviews on [Poggit](https://poggit.pmmp.io/p/VeinMiner).\n\n# About\nThis is an updated version of the original VeinMiner plugin I created 3 years ago. We don't speak of that ugly garbage though.",
+  "readme_source_url": "https://github.com/jasonw4331/VeinMiner",
+  "icon_url": "https://raw.githubusercontent.com/jasonwynn10/VeinMiner/ed6e76db57743086a5936e2e5187be880648a611/icon.png",
+  "featured": false,
+  "repo": "https://github.com/jasonw4331/VeinMiner",
+  "archive_repo": null,
+  "approved_release_tag": "r-3020",
+  "stars": 3,
+  "total_downloads": 15693,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "jasonw4331"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.1.0",
+      "tag": "r-3020",
+      "published_at": null,
+      "downloads": 15693,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3020/veinminer-0.1.0-r3020.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3020",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3020/veinminer-0.1.0-r3020.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VeinMiner",
+    "stable_release_id": 3020
+  }
+}

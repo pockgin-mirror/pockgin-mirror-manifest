@@ -1,0 +1,61 @@
+{
+  "id": "worldreset",
+  "name": "WorldReset",
+  "author": "tim03we",
+  "description": "With WorldReset you can reset certain worlds completely lying at your choice in a certain time interval.",
+  "readme_markdown": "# WorldReset\r\n\r\nWith WorldReset you can reset certain worlds completely lying at your choice in a certain time interval.\r\n# Setup\r\n\r\n- Convert your worlds folder into a ZIP archive.\r\n- Pack the ZIP archive into the \"worldreset\" folder. You will find this folder in the server directory where the \"server.properties\" are located.\r\n- Make sure that the ZIP archive has the same name as the Worlds folder and the Worlds name.\r\n- Now restart the server.\r\n\r\n# Config\r\n```\r\n# Set after how many minutes the world should be reset.\r\ntime: 60\r\n\r\n# Please list the worlds in a list. Example:\r\n# worlds:\r\n#   - \"world1\"\r\n#   - \"world2\"\r\n# or\r\n# worlds: [\"world1\", \"world2\"]\r\n# Important: Make sure you use upper and lower case.\r\nworlds: []\r\n\r\n# Decide if a message should be sent when resetting the worlds.\r\n# Use \"true\" or \"false\"\r\nreset-message: true\r\n\r\n# Set the worlds reset message.\r\n# The message is only sent if \"reset-message\" is set to \"true\".\r\nmessage: \"The worlds have been reset.\"\r\n```\r\n\r\n----------------\r\n\r\nIf problems arise, create an issue or write us on Discord.\r\n\r\n| Discord |\r\n| :---: |\r\n[![Discord](https://img.shields.io/discord/427472879072968714.svg?style=flat-square&label=discord&colorB=7289da)](https://discord.gg/Ce2aY25) |",
+  "readme_source_url": "https://github.com/tim03we/WorldReset",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/tim03we/WorldReset",
+  "archive_repo": null,
+  "approved_release_tag": "r-2916",
+  "stars": 2,
+  "total_downloads": 3990,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "tim03we"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-2916",
+      "published_at": null,
+      "downloads": 3990,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2916/worldreset-1.0.0-r2916.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2916",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2916/worldreset-1.0.0-r2916.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorldReset",
+    "stable_release_id": 2916
+  }
+}

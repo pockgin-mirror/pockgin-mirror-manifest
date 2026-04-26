@@ -1,0 +1,61 @@
+{
+  "id": "sizeplayer",
+  "name": "SizePlayer",
+  "author": "YassenTrick",
+  "description": "PLUGIN HAS BEEN ARCHIVED/DEPRECATED.",
+  "readme_markdown": "# PLUGIN HAS BEEN ARCHIVED/DEPRECATED.\n#### Seek alternatives.\n\n\n\n\n# SizePlayerPMMP\nA PocketMine-MP plugin that allows players to change their size.\n\n# [ Commands ]\n+ /size <number>\n+ /size help\n+ /size reset\n  \n# [ What's New ]\n+ [x] Decreased a maximum sizes from 20 to 15.\n+ [x] Added an icon.\n+ [x] api 3.0.0 support.",
+  "readme_source_url": "https://github.com/YassenTrick/SizePlayerPMMP",
+  "icon_url": "https://raw.githubusercontent.com/YassenTrick/SizePlayerPMMP/2956f06614c862fcbb52e3d0e9c68a9d9bf6de8a/Logo.png",
+  "featured": false,
+  "repo": "https://github.com/YassenTrick/SizePlayerPMMP",
+  "archive_repo": null,
+  "approved_release_tag": "r-2847",
+  "stars": 4,
+  "total_downloads": 35616,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "YassenTrick"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/116657",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-2847",
+      "published_at": null,
+      "downloads": 35616,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2847/sizeplayer-1.1.0-r2847.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2847",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2847/sizeplayer-1.1.0-r2847.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SizePlayer",
+    "stable_release_id": 2847
+  }
+}

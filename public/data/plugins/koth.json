@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-3397",
   "stars": 4,
-  "total_downloads": 6706,
+  "total_downloads": 7605,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,16 +34,32 @@
       "version": "1.0.0-Beta4",
       "tag": "r-3397",
       "published_at": null,
-      "downloads": 6706,
+      "downloads": 6707,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3397/koth-1.0.0-beta4-r3397.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "1.0.0-Beta3",
+      "tag": "r-3097",
+      "published_at": null,
+      "downloads": 444,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3097/koth-1.0.0-beta3-r3097.phar"
+    }
   },
   "recent_builds": [
     {
       "tag": "r-3397",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3397/koth-1.0.0-beta4-r3397.phar"
+    },
+    {
+      "tag": "r-3097",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3097/koth-1.0.0-beta3-r3097.phar"
+    },
+    {
+      "tag": "r-2782",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2782/koth-1.0.0-beta2-r2782.phar"
     }
   ],
   "comments": {

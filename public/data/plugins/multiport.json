@@ -1,0 +1,61 @@
+{
+  "id": "multiport",
+  "name": "MultiPort",
+  "author": "AndreasHGK",
+  "description": "Open multiple ports for your server",
+  "readme_markdown": "# MultiPort\nOpen multiple ports for your server\n\nAll you need to do to open a port is add the port to your config so it looks a little like this:\n```YAML\nports:\n - 19131\n - 19132\n - 19133\n - 25565\n```\nYou can add as many ports as you like. If you try to add the default port, the plugin will do nothing for that port.",
+  "readme_source_url": "https://github.com/AndreasHGK/MultiPort",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/AndreasHGK/MultiPort",
+  "archive_repo": null,
+  "approved_release_tag": "r-2851",
+  "stars": 4,
+  "total_downloads": 2398,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.7.3-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AndreasHGK"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-2851",
+      "published_at": null,
+      "downloads": 2398,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2851/multiport-1.0.0-r2851.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2851",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2851/multiport-1.0.0-r2851.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MultiPort",
+    "stable_release_id": 2851
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "gapplecooldown",
+  "name": "GappleCooldown",
+  "author": "CaptainDuck",
+  "description": "GappleCooldown V2.0.0!",
+  "readme_markdown": "# GappleCooldown V2.0.0!\nGappleCooldown for PocketMine (MCPE) Servers, support for latest PMMP API\n\n[![HitCount](http://hits.dwyl.io/CaptainDuck/GappleCooldown.svg)](http://hits.dwyl.io/CaptainDuck/GappleCooldown)\n\n# What's New?\n- Configurable cooldown messages! With variables like {TIME} & {NAME}!\n- Added easy-to-use API for developers\n- Rework & rewrite the plugin..\n\n# Features\n- Configurable cooldowns! (Support for Enchanted & Normal Golden Apples)\n- Frequently updated :P\n\n# Download\n\n[![Poggit](https://poggit.pmmp.io/ci.badge/CaptainDuck/GappleCooldown/GappleCooldown/master)](https://poggit.pmmp.io/ci/CaptainDuck/GappleCooldown)\n\n# Issues or Suggestions\n\nFeel free to create an issue [here](https://github.com/CaptainDuck/GappleCooldown/issues) if you have any problems or questions about this plugin.\n\n# API for Developers\n```php\nuse captainduck\\GappleCooldown\\GappleCooldown; // add GappleCooldown\n\n$gapplecooldown = GappleCooldown::getInstance(); // get the instance of GappleCooldown\n```\nCheck the rest of the API in my code. :)",
+  "readme_source_url": "https://github.com/CaptainDuck/GappleCooldown",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/CaptainDuck/GappleCooldown",
+  "archive_repo": null,
+  "approved_release_tag": "r-3007",
+  "stars": 5,
+  "total_downloads": 2154,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "CaptainDuck"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/59761",
+  "versions": {
+    "stable": {
+      "version": "2.1.0",
+      "tag": "r-3007",
+      "published_at": null,
+      "downloads": 2154,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3007/gapplecooldown-2.1.0-r3007.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3007",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3007/gapplecooldown-2.1.0-r3007.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GappleCooldown",
+    "stable_release_id": 3007
+  }
+}

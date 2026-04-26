@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-4109",
   "stars": 4,
-  "total_downloads": 26426,
+  "total_downloads": 27858,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -41,7 +41,7 @@
       "version": "1.1.1-pre",
       "tag": "r-3195",
       "published_at": null,
-      "downloads": 5017,
+      "downloads": 5018,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3195/ec-tableui-1.1.1-pre-r3195.phar"
     }
   },
@@ -55,6 +55,16 @@
       "tag": "r-3195",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3195/ec-tableui-1.1.1-pre-r3195.phar"
+    },
+    {
+      "tag": "r-3002",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3002/ec-tableui-1.1.0-pre-r3002.phar"
+    },
+    {
+      "tag": "r-2963",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2963/ec-tableui-1.0.0-pre-r2963.phar"
     }
   ],
   "comments": {

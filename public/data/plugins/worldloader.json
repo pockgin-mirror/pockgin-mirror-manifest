@@ -1,0 +1,61 @@
+{
+  "id": "worldloader",
+  "name": "WorldLoader",
+  "author": "JackMD",
+  "description": "HitCount License Poggit Release",
+  "readme_markdown": "# WorldLoader\n\n| HitCount | License | Poggit | Release |\n|:--:|:--:|:--:|:--:|\n|[![HitCount](http://hits.dwyl.io/JackMD/WorldLoader.svg)](http://hits.dwyl.io/JackMD/WorldLoader)|[![GitHub license](https://img.shields.io/github/license/JackMD/WorldLoader.svg)](https://github.com/JackMD/WorldLoader/blob/master/LICENSE)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/JackMD/WorldLoader/WorldLoader)](https://poggit.pmmp.io/ci/JackMD/WorldLoader/WorldLoader)|[![](https://poggit.pmmp.io/shield.state/WorldLoader)](https://poggit.pmmp.io/p/WorldLoader)|\n\n\n### A simple PocketMine-MP plugin which loads all the worlds on your server without any command.\n\n# YouTube\n\nThis making, uploading and working of this plugin is shown in this video uploaded on to my channel. \nPlease do subscribe :)\n\n[![YouTube](https://img.youtube.com/vi/F1ewbZeg-CY/0.jpg)](https://youtu.be/F1ewbZeg-CY)",
+  "readme_source_url": "https://github.com/JackMD/WorldLoader",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/JackMD/WorldLoader",
+  "archive_repo": null,
+  "approved_release_tag": "r-3035",
+  "stars": 4,
+  "total_downloads": 2375,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JackMD"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-3035",
+      "published_at": null,
+      "downloads": 2375,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3035/worldloader-1.0.0-r3035.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3035",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3035/worldloader-1.0.0-r3035.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorldLoader",
+    "stable_release_id": 3035
+  }
+}

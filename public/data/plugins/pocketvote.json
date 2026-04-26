@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6643",
   "stars": 3,
-  "total_downloads": 8262,
+  "total_downloads": 9192,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-3230",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3230/pocketvote-3.0.1-r3230.phar"
+    },
+    {
+      "tag": "r-3025",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3025/pocketvote-3.0.0-r3025.phar"
     }
   ],
   "comments": {

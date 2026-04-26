@@ -1,0 +1,66 @@
+{
+  "id": "warpspro",
+  "name": "WarpsPro",
+  "author": "nikoskon2003",
+  "description": "A simple warp plugin for PocketMine-MP",
+  "readme_markdown": "[![WarpsPro](https://i.imgur.com/K3jomxC.jpg)](https://github.com/nikoskon2003/WarpsPro/)\n# WarpsPro\nA simple warp plugin for PocketMine-MP\n\n# FEAUTURES\n  - /warp\n\t* Main command. Displays server warps\n\t* Permission: `warpspro.command.warp`, default\n  - /warp add <warp name>\n\t* Registers new warp for the server\n\t* Permission: `warpspro.command.setwarp`, op\n  - /warp del <warp name>\n\t* Removes warp from the server\n\t* Permission: `warpspro.command.delwarp`, op\n  - /warp edit <warp name> <open, pos, name> \\[state\\]\n\t* Edit warp information\n\t* open: \n\t  * Sets open status of warp\n\t  * state: true, false (or none to return current status)\n\t* pos:\n\t  * Updates position of warp to player position\n\t  * No state is needed\n\t* name:\n\t  * Updates name of warp\n\t  * state: New warp name\n    * Permission: `warpspro.command.edit`, op\n\t\nIf a warp is closed, players with permission: `warpspro.command.warp.<warp name>` will be able to warp to it. \nNote that `<warp name>` is the name of the warp and it is case sensitive",
+  "readme_source_url": "https://github.com/nikoskon2003/WarpsPro",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/nikoskon2003/WarpsPro",
+  "archive_repo": null,
+  "approved_release_tag": "r-3027",
+  "stars": 3,
+  "total_downloads": 18762,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "nikoskon2003"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/60198",
+  "versions": {
+    "stable": {
+      "version": "1.3.0",
+      "tag": "r-3027",
+      "published_at": null,
+      "downloads": 18128,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3027/warpspro-1.3.0-r3027.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3027",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3027/warpspro-1.3.0-r3027.phar"
+    },
+    {
+      "tag": "r-2868",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2868/warpspro-1.2.1-r2868.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WarpsPro",
+    "stable_release_id": 3027
+  }
+}

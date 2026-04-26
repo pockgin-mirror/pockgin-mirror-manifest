@@ -1,0 +1,68 @@
+{
+  "id": "floatinghotbar",
+  "name": "FloatingHotbar",
+  "author": "artulloss",
+  "description": "Make your Hotbar float! The items float in front of the player and can magically track the player using the Hotbar, or they can just stay where they were when they selected it.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/FloatingHotbar)](https://poggit.pmmp.io/p/FloatingHotbar)\n# FloatingHotbar\nMake your Hotbar float! The items float in front of the player and can magically track the player using the Hotbar, or they can just stay where they were when they selected it.\n\n### Video Demo\n\n[![Demo - Click here](https://i.imgur.com/7P57mZf.png)](https://www.youtube.com/watch?v=HNzEYHRqSKA \"Demo\")\n\n**This plugin depends on [Hotbar](https://github.com/artulloss/Hotbar)**",
+  "readme_source_url": "https://github.com/artulloss/FloatingHotbar",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/artulloss/FloatingHotbar",
+  "archive_repo": null,
+  "approved_release_tag": "r-2918",
+  "stars": 3,
+  "total_downloads": 889,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "Hotbar"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "artulloss"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/58530",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-2918",
+      "published_at": null,
+      "downloads": 809,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2918/floatinghotbar-1.0.1-r2918.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2918",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2918/floatinghotbar-1.0.1-r2918.phar"
+    },
+    {
+      "tag": "r-2898",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2898/floatinghotbar-1.0.0-r2898.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FloatingHotbar",
+    "stable_release_id": 2918
+  }
+}

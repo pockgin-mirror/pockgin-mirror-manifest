@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12812",
   "stars": 0,
-  "total_downloads": 3873,
+  "total_downloads": 21599,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-8856",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8856/blazinfly-1.9.0-r8856.phar"
+    },
+    {
+      "tag": "r-3121",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3121/blazinfly-1.8.7-r3121.phar"
     }
   ],
   "comments": {

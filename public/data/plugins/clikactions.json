@@ -1,0 +1,61 @@
+{
+  "id": "clikactions",
+  "name": "ClikActions",
+  "author": "JaxkDev",
+  "description": "ARCHIVED",
+  "readme_markdown": "# ARCHIVED\nExpect *NO* updates.\n\n\n---\n\n\n\n\n\n<a href=\"https://tiny.cc/JaxksDC\"><img src=\"https://discordapp.com/api/guilds/554059221847638040/embed.png\" alt=\"Discord server\"/></a>\n\n# Clik'Actions\nClik'Actions a plugin to place actions(/commands) on blocks, Pocketmine-MP Plugin by Jackthehack21.\n\n## NOTICE\n **This plugin is in BETA (Pre-Release), so *please* dont spam out comments/issues with broken things or things that you expect there and are not.**\n \n## Features\n### Implemented\n - Multiple world support.\n - Run commands/actions as console, op, or normal.\n - Multiple commands/actions per block.\n\n### Upcoming\n - Messages to be in config.\n - FactionsPro, FactionsPM, Pure perms, economyAPI support.\n\n## Known Bugs:\n - N/A\n\nTo report bugs please make a issue over on [github](https://github.com/jackthehack21/ClikActions/issues/new) and please follow the guidelines.\n\n## Credits:\n_Developer:_ JaxkDev\n\n_Other:_ CortexPE & 'Clik' (both who gave ideas for plugin name)\n\n\n### License:\n    Clik'Actions\n    Copyright (C) 2019 JaxkDev (Jack Honour)\n    \n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation, either version 3 of the License, or\n    any later version.\n    \n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n    \n    You should have received a copy of the GNU General Public License\n    along with this program.  If not, see <https://www.gnu.org/licenses/>.\n    \n    Twitter :: @JaxkDev\n    Discord :: JaxkDev#2698\n    Email   :: JaxkDev@gmail.com",
+  "readme_source_url": "https://github.com/JaxkDev/ClikActions",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/JaxkDev/ClikActions",
+  "archive_repo": null,
+  "approved_release_tag": "r-2846",
+  "stars": 4,
+  "total_downloads": 1636,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JaxkDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0-Beta1",
+      "tag": "r-2846",
+      "published_at": null,
+      "downloads": 1636,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2846/clikactions-1.0.0-beta1-r2846.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2846",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2846/clikactions-1.0.0-beta1-r2846.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ClikActions",
+    "stable_release_id": 2846
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "slashskin",
+  "name": "SlashSkin",
+  "author": "tim03we",
+  "description": "Change your skin according to your choice. Note the configurations for now.",
+  "readme_markdown": "# SlashSkin\r\n\r\nChange your skin according to your choice. Note the configurations for now.\r\n\r\n# Commands\r\nCommand | Alias | Permission | Default\r\n------- | ----- | ---------- | --------\r\n/slashskin | skin | slashskin.use | op\r\n# Config\r\n```\r\n### IMPORTANT ###\r\n#\r\n#  Please note that you do not use Minecraft skins from \r\n#  https://de.namemc.com, they will be displayed incorrectly in the game.\r\n#\r\n#  Use skins from https://minecraftskins.com instead.\r\n#\r\n### IMPORTANT ###\r\n\r\n# Please list all skins here. Pay attention to your spelling.\r\nskins:\r\n- GommeHD\r\n- AbgegrieftHD\r\n\r\n# Edit the news here.\r\nmessages:\r\n    skin-success: \"You just took the skin {name}.\"\r\n    skin-reset: \"You just reset your skin.\"\r\n    skin-not-exist: \"This skin doesn't exist.\"\r\n    forms:\r\n        main-form:\r\n            title: \"SlashSkin\"\r\n            description: \"Choose what you want.\"\r\n            button-1: \"Skin List\"\r\n            button-2: \"Reset your Skin\"\r\n        skin-list-form:\r\n            title: \"SlashSkin\"\r\n            description: \"Choose your skin.\"\r\n```\r\n\r\n------------\r\n# Discord\r\nIf problems arise, create an issue or write us on Discord.\r\n\r\n| Join now |\r\n| :---: |\r\n[![Discord](https://img.shields.io/discord/427472879072968714.svg?style=flat-square&label=discord&colorB=7289da)](https://discord.gg/Ce2aY25) |",
+  "readme_source_url": "https://github.com/tim03we/SlashSkin",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/tim03we/SlashSkin",
+  "archive_repo": null,
+  "approved_release_tag": "r-2972",
+  "stars": 5,
+  "total_downloads": 2687,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "tim03we"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-2972",
+      "published_at": null,
+      "downloads": 2687,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2972/slashskin-1.0.0-r2972.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2972",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2972/slashskin-1.0.0-r2972.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SlashSkin",
+    "stable_release_id": 2972
+  }
+}

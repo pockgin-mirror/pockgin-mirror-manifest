@@ -1,0 +1,59 @@
+{
+  "id": "iprotector",
+  "name": "iProtector",
+  "author": "poggit-orphanage",
+  "description": "iProtector is a simple area protection plugin for server owners and admins to protect their builds and/or minigames.",
+  "readme_markdown": "<p>iProtector is a simple area protection plugin for server owners and admins to protect their builds and/or minigames.</p>\n<p>Please Note: This plugin is not intended to be used by players to protect their own houses.</p>\n<p>Great thanks to @MegaSamNinja for making this awesome tutorial!</p>\n<p><a href=\"https://www.youtube.com/embed/ZUr2zrx7ZY8\" rel=\"nofollow\">Youtube Video Demo</a></p>\n<p>Commands\nCode:\n/area &lt;pos1/pos2/create/flag/list/tp/delete&gt;</p>",
+  "readme_source_url": "https://poggit.pmmp.io/r/56466",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/iProtector/017da5ba9373a3780abc7b3928cbd43e3cfae28b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/iProtector",
+  "archive_repo": null,
+  "approved_release_tag": "r-2787",
+  "stars": 3,
+  "total_downloads": 4684,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/56468",
+  "versions": {
+    "stable": {
+      "version": "3.1.1",
+      "tag": "r-2787",
+      "published_at": null,
+      "downloads": 4684,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2787/iprotector-3.1.1-r2787.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2787",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2787/iprotector-3.1.1-r2787.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "iProtector",
+    "stable_release_id": 2787
+  }
+}

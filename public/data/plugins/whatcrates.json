@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-3203",
   "stars": 4,
-  "total_downloads": 2385,
+  "total_downloads": 2867,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,14 +34,14 @@
       "version": "2.0.0",
       "tag": "r-3203",
       "published_at": null,
-      "downloads": 2287,
+      "downloads": 2288,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3203/whatcrates-2.0.0-r3203.phar"
     },
     "dev": {
       "version": "1.2.1-pre",
       "tag": "r-3196",
       "published_at": null,
-      "downloads": 98,
+      "downloads": 99,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3196/whatcrates-1.2.1-pre-r3196.phar"
     }
   },
@@ -55,6 +55,21 @@
       "tag": "r-3196",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3196/whatcrates-1.2.1-pre-r3196.phar"
+    },
+    {
+      "tag": "r-3024",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3024/whatcrates-1.2.0-pre-r3024.phar"
+    },
+    {
+      "tag": "r-3016",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3016/whatcrates-1.1.0-pre-r3016.phar"
+    },
+    {
+      "tag": "r-3013",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3013/whatcrates-1.0.0-pre-r3013.phar"
     }
   ],
   "comments": {

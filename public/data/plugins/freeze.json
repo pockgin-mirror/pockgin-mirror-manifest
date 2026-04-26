@@ -1,0 +1,61 @@
+{
+  "id": "freeze",
+  "name": "freeze",
+  "author": "Bavfalcon9",
+  "description": "A plugin for PMMP **4.0.0+** that allows staff to freeze players.",
+  "readme_markdown": "# freeze\nA plugin for PMMP **4.0.0+** that allows staff to freeze players. [![](https://poggit.pmmp.io/shield.api/freeze)](https://poggit.pmmp.io/p/freeze)\n\n## Permissions\n - `freeze` Allows all permission for the plugin.\n - `freeze.command` Allows usage of `/freeze`, `/thaw` and `/unfreeze`.\n - `freeze.immune` Disallows usage of `/freeze` with any player that has this permission.\n \n## Commands\n - `/freeze <player>` - Freeze a player\n - `/thaw <player>` - Thaw or unfreeze a player\n - `/unfreeze <player>` - Thaw or unfreeze a player\n\n## Config Explanations (See config for more details)\n - `autoban` - Auto bans players if they leave while frozen \n - `autoban-msg` - The message that displays in chat when autobanned.\n - `format` - What you would like the freeze format to look like\n - `commands-frozen` - Allows players to use commands while frozen\n - `attack-frozen` - Allows the frozen player to be attacked.\n - `attacked-frozen` - Allow frozen player to be attacked.\n - `dms-frozen` - Allows frozen player to use dms while frozen.\n - `frozen-tag` - The tag that displays above a frozen player.\n - `frozen-msg` - Enable a message in chat when a player is frozen.\n - `format-tag` - The tag that displays above a player when frozen.\n - `title-msg` - The title that shows when a frozen player tries to move.\n - `action-msg` - The message above the hotbar when a frozen player tries to move.",
+  "readme_source_url": "https://github.com/Bavfalcon9/PMMP-Freeze",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Bavfalcon9/PMMP-Freeze",
+  "archive_repo": null,
+  "approved_release_tag": "r-2858",
+  "stars": 4,
+  "total_downloads": 13559,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Bavfalcon9"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.1.0",
+      "tag": "r-2858",
+      "published_at": null,
+      "downloads": 13559,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2858/freeze-2.1.0-r2858.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2858",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2858/freeze-2.1.0-r2858.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "freeze",
+    "stable_release_id": 2858
+  }
+}

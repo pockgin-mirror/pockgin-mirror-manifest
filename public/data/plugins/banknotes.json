@@ -1,0 +1,63 @@
+{
+  "id": "banknotes",
+  "name": "BankNotes",
+  "author": "AndreasHGK",
+  "description": "General info",
+  "readme_markdown": "# BankNotes\n\n## General info\n[![](https://poggit.pmmp.io/shield.state/BankNotes)](https://poggit.pmmp.io/p/BankNotes)\n[![](https://poggit.pmmp.io/shield.api/BankNotes)](https://poggit.pmmp.io/p/BankNotes)\n\n\nTurn your EconomyAPI money into items to trade them!\n**Right-Click** to deposit a note and type **/note {amount}** to get a note.\nYou can change the lore/name/ID of the banknotes in v1.1.0 and up and you can change all the messages in V1.2.0 and up.\n\nYou will need EconomyAPI for this to work!\n\nThis is just a simple, but fun plugin.\n\nAll notes from v1.0.0 won't be recognized in v1.1.0 or later!\nThis plugin is now v2.0.0 and is complete. I've now added everything planned and more and i have no more ideas for the plugin so i can now truely call it complete.\nIf you do have a good idea feel free to suggest it. If there are any bugs, please report them and i will fix them as soon as possible.\n\n## Setup\nThis plugin doesn't require a setup, as it works when you install it, but there now is a config where you can change some visual stuff if you want to.\n\nThe first section contains settings for the notes. You can change the ID, custom name and custom lore for the note item.\n\nThe second section allows you to change most of the messages of the plugin. This is usefull if you want to translate the plugin ur even just change the looks of the messages.\n\nThe third section contains advanced settings, currently allowing you to reset economy by changing the economyid.\nAlso, enabled by default, the compatibility setting makes sure banknotes from v1.1.0 still work.\n\n## For developers\nRecently, i've added some API related stuff to make life easier should you want to make a plugin that works with banknotes.\n\nFirstly, make sure you added `use AndreasHGK\\BankNotes\\BankNotes;` to be able to acces BankNotes.\n\nHere are some functions you can call:\n```php\n$bn = BankNotes::getInstance();\n\n/**\n* @return int $version\n*/\n$bn->getVersion();\n\n/**\n* @return int $noteVersion\n*/\n$bn->getNoteVersion();\n\n/**\n* @return int[] $compatibleVersions\n*/\n$bn->getCompatibleVersions();\n\n/**\n* @param item $note\n*\n* @return bool $isValid\n*/\n$bn->checkValidity($note);\n\n/**\n* @param int $value\n*\n* @return item $noteItem\n*/\n$bn->noteItem($value);\n```\n\nTo see all functions, i recommend checking out BankNotes.php",
+  "readme_source_url": "https://github.com/AndreasHGK/BankNotes",
+  "icon_url": "https://raw.githubusercontent.com/AndreasHGK/BankNotes/eca6998755c78a1e02091f5972dfe9911e334c9b/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AndreasHGK/BankNotes",
+  "archive_repo": null,
+  "approved_release_tag": "r-2786",
+  "stars": 3,
+  "total_downloads": 14378,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.7.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AndreasHGK"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/56446",
+  "versions": {
+    "stable": {
+      "version": "2.0.3",
+      "tag": "r-2786",
+      "published_at": null,
+      "downloads": 14378,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2786/banknotes-2.0.3-r2786.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2786",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2786/banknotes-2.0.3-r2786.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BankNotes",
+    "stable_release_id": 2786
+  }
+}

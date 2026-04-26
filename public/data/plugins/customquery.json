@@ -1,0 +1,87 @@
+{
+  "id": "customquery",
+  "name": "CustomQuery",
+  "author": "iZeaoGamer",
+  "description": "Custom Query, is one of the most customizable query plugins for MCPE that you'll ever find publicly and that is free for the MCPE Community.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/CustomQuery)](https://poggit.pmmp.io/p/CustomQuery)\r\n\r\nCustom Query, is one of the most customizable query plugins for MCPE that you'll ever find publicly and that is free for the MCPE Community.\r\nCustom Query aims for servers to make themselves more better, and allow people to recognize the customisable server.\r\nWe at Custom Query, are a benefical to the MCPE Community, and dedicate our time to make this system work.\r\nHere with Custom Query, you can do the following:\r\nFake player slots, set a list of plugins that can be displayable for your players, server name - Change your server name right from config! How great is that?, customize min-max fake player count/slots, infinity slots, enable/disable each option! Right from config.yml, so you can enable/disable the things you do or don't want.\r\n\r\n\r\n\r\n### PLANNED / FINISHED UPDATES\r\n\r\n- [x] Infinity slots.\r\n- [x] Fake your player slots.\r\n- [x] Set which plugins other players can see.\r\n- [x] Enable/disable options to suit your needs.\r\n- [x] set min-max player slots (fake query system)\r\n- [x] Added color coding support for server names.\r\n- [x] Set variables for server names.\r\n- [x] Customizable server list MOTD (When posting your server) (Untested)\r\n- [x] Add a task class. (Untested)\r\n- [x] Add commands to edit the query settings.\r\n- [x] Add /customquery reload to reload the configurations without the need of a server restart.\r\n- [x] Add /customquery help for a list of main commands you can use.\r\n- [x] Add an option to enable/disable query commands use in game to set your settings.\r\n- [x] Configure permission nodes from config.yml.\r\n- [x] Completely revamp the ideas of commands, and putting it onto a seperate file (CustomQueryCommand class).\r\n- [x] Register the command without the need of using plugin.yml to do it for you.\r\n- [x] Register the permission without the need of using plugin.yml to do it for you - We'll do more relating to this soon to support it even better.\r\n- [x] Notify you on any releases with this plugin from poggit to console. \r\n- [x] Add config versioning.\r\n- [x] Fix dependency issue.\r\n- [x] Add virions section in plugin.yml, allowing the server to know what virions are in this plugin.\r\n- [x] Add more requirements for virions in poggit.yml\r\n- [x] Move all utils related to Utils class. This is so we can keep the updaters seperated with the main class file. Things such as: Virions check, check for config updaters, and Update notifier will be in the Utils class.\r\n- [x] Release out of the ALPHA stages.\r\n- [x] Added SpoonDetector compatibility.\r\n- [x] Allow spaces for each messages. At the moment, you can use: \"\" for spaces in the message/value section after the name of the option. We'll see if we can add such support soon.\r\n- [x] Fix onEnable() state errors + Move isPhar() to Main class.\r\n- [x] Add online support with Server MOTD.\r\n- [ ] Make messages configurable.\r\n- [ ] Add formsapi support - not confirmed.\r\n- [ ] Add an option whether to add support for formsapi or use command arguments instead.\r\n\r\n\r\n### NOTE\r\n## This plugin is currently in the BETA stages, If you find any errors or issues, please open a new issue with the error log.\r\n\r\n\r\n\r\n### HOW TO INSTALL\r\n1. Simply download this plugin either from https://poggit.pmmp.io/p/CustomQuery/ (More stable.) or from one of the dev builds (Bleeding edge builds), which you can get fom this link: https://poggit.pmmp.io/ci/iZeaoGamer/CustomQuery/CustomQuery\r\n2. Once installed, drop the plugin into plugins folder.\r\n3. Start/restart your server from console or terminal.\r\n4. Done. If any errors display, please open a new issue containing the error log.\r\nIf you want to know about how to setup the plugin (IN GAME), then please go to HOW TO SETUP section.\r\n\r\n### HOW TO SETUP\r\n1. If the plugin is successfully installed, and working on your server, then go to plugin_data.\r\n2. Then go to where it says CustomQuery folder, the config should be available to you.\r\n3. Go to the config.yml file.\r\n4. Now, here's where all of the config options should be available to you. Now, this tutorial is mainly discussing about setting up your settings in game.\r\n5. So once you're on your config.yml file, copy one of the options (that you would like to add / setup) to in game. We'll use fake-slots as an example.\r\n6. Then, use /customquery fake-slots true, which would set up the fake slots option to true. You can use the option as false as well if you prefer not to use such options.\r\n\r\nWant to setup min-max player slots of your fake querying? Then great! Here's how:\r\n1. Go to the config.yml file (as instructed above from before.)\r\n2. Copy the option: min-slots and use /customquery min-slots 10, which will set up 10 as the minimum slots as lowest player slots you can go to.\r\n3. Then copy the option: max-slots and use /customquery max-slots 1000, which will set up 1,000 as the maximum slots as highest player slots you can go up to.\r\n\r\nThese are just examples of how to setup your config options.\r\nTo know more about setting up as more examples, please head over to OPTIONS EXPLAINATION section.\r\n\r\n\r\n### OPTIONS EXPLAINATION\r\nThe usages to the settings system, is: /query <settings> <value>\r\n  The alias to the Query command is /cq.\r\n  <settings> is the setting specified and provided to you from config.yml, and value is the value of the option. It could be: true or false if it's enabling a option or feature.\r\n    If you're setting a message such as server list motd message, then that'd be a string, leading to a message for that option.\r\n    If you're setting a numeric option such as: min-slots - 10 or max-slots 1000, then that'd be a int, which is a number-type option.\r\n    If you're setting a array option (Arrays, meaning [] which you'd have to enter such as: set-plugins, then that'd be an array, which allows you to set multiple plugins as to what the server will display/show.\r\n    boolean is true/false or a return type. So if you're setting a option that allows you to enable/disable a option / feature, which would either be: true, or false, then that's a boolean. If you're still having issues with setting up, then please open an issue regarding so. I'll make it easier soon by displaying all command usages (including settings which are validable from the /customquery help command.",
+  "readme_source_url": "https://github.com/iZeaoGamer/CustomQuery",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/iZeaoGamer/CustomQuery",
+  "archive_repo": null,
+  "approved_release_tag": "r-2831",
+  "stars": 0,
+  "total_downloads": 1327,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "iZeaoGamer"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0-ALPHA",
+      "tag": "r-2831",
+      "published_at": null,
+      "downloads": 29,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2831/customquery-1.0.0-alpha-r2831.phar"
+    },
+    "dev": {
+      "version": "1.1.3-BETA",
+      "tag": "r-3032",
+      "published_at": null,
+      "downloads": 971,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3032/customquery-1.1.3-beta-r3032.phar"
+    }
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3032",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3032/customquery-1.1.3-beta-r3032.phar"
+    },
+    {
+      "tag": "r-3022",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3022/customquery-1.1.2-beta-r3022.phar"
+    },
+    {
+      "tag": "r-2983",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2983/customquery-1.1.1-beta-r2983.phar"
+    },
+    {
+      "tag": "r-2880",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2880/customquery-1.1.0-beta-r2880.phar"
+    },
+    {
+      "tag": "r-2841",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2841/customquery-1.0.2-alpha-r2841.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomQuery",
+    "stable_release_id": 2831
+  }
+}

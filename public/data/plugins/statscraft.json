@@ -1,0 +1,61 @@
+{
+  "id": "statscraft",
+  "name": "Statscraft",
+  "author": "Muqsit",
+  "description": "PocketMine-MP plugin that integrates your server with Statscraft.",
+  "readme_markdown": "# Statscraft\nPocketMine-MP plugin that integrates your server with [Statscraft](https://www.statscraft.net).\n\nStatscraft is an analytics website that keeps track of your server status and players. Use `/statscraft verify <secret>` to integrate statscraft with your PocketMine-MP server.",
+  "readme_source_url": "https://github.com/Muqsit/Statscraft",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Muqsit/Statscraft",
+  "archive_repo": null,
+  "approved_release_tag": "r-3009",
+  "stars": 1,
+  "total_downloads": 434,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Muqsit"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-3009",
+      "published_at": null,
+      "downloads": 434,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3009/statscraft-1.2.0-r3009.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-3009",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3009/statscraft-1.2.0-r3009.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Statscraft",
+    "stable_release_id": 3009
+  }
+}
