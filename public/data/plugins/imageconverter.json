@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-2715",
   "stars": 3,
-  "total_downloads": 4718,
+  "total_downloads": 5413,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,16 @@
       "tag": "r-2669",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2669/imageconverter-2.2.0-r2669.phar"
+    },
+    {
+      "tag": "r-2028",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2028/imageconverter-1.1.0-r2028.phar"
+    },
+    {
+      "tag": "r-1974",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1974/imageconverter-1.0.0-r1974.phar"
     }
   ],
   "comments": {

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-2730",
   "stars": 4,
-  "total_downloads": 3353,
+  "total_downloads": 4433,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-2730",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2730/buycraftpm-2.0.1-r2730.phar"
+    },
+    {
+      "tag": "r-1736",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1736/buycraftpm-0.5.2-r1736.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,66 @@
+{
+  "id": "everybodythonk",
+  "name": "EverybodyThonk",
+  "author": "supermaxalex",
+  "description": "Plugin for PocketMine. Add it to your server and all players will thonk all the time!**",
+  "readme_markdown": "# EverybodyThonk\n\n[![](https://poggit.pmmp.io/shield.state/EverybodyThonk)](https://poggit.pmmp.io/p/EverybodyThonk) [![](https://poggit.pmmp.io/shield.api/EverybodyThonk)](https://poggit.pmmp.io/p/EverybodyThonk)\n\n**Plugin for PocketMine. Add it to your server and all players will thonk all the time!**\n\nWhen a player joins the server or changes his skin, EverybodyThonk replaces his original head by a new one : **a thonking head**. ![](https://camo.githubusercontent.com/eb4b157b06ba5c20f34699455d507c1334ec543e/68747470733a2f2f696d6167652e6e6f656c736861636b2e636f6d2f66696368696572732f323031382f33312f352f313533333330343230312d636170747572652d642d656372616e2d323031382d30382d30332d612d31352d34392d34312e706e67)\n\n### What's *thonking*?\nWell, it's the *thinking emoji*, but *thonking* is the meme of it. I can't be more specific. Google is your friend.\n\n### What's possible with this plugin?\nYou can use: \n- `ThonkHead::modifySkin([Skin skin])`: Apply the thonk's head to a skin\n- `ThonkHead::applyTo([Player: player], [optional param:[Skin skin]])`: Apply the thonk's head to a player\n- `ThonkHead::removeFrom([Player: player])`: Remove the thonk's head from a player\n\nSoon, I'll add more options in a *config* like the possibility to : \n- change the thonking head's skin\n- exclude a player from having the skin\n- And many more!",
+  "readme_source_url": "https://github.com/supermaxalex/EverybodyThonk",
+  "icon_url": "https://raw.githubusercontent.com/supermaxalex/EverybodyThonk/39f799077ebe3b0554dc22ea5bff793e1deda8fc/icon.png",
+  "featured": false,
+  "repo": "https://github.com/supermaxalex/EverybodyThonk",
+  "archive_repo": null,
+  "approved_release_tag": "r-1776",
+  "stars": 5,
+  "total_downloads": 1810,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "supermaxalex"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/39238",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-1776",
+      "published_at": null,
+      "downloads": 1788,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1776/everybodythonk-1.0.1-r1776.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1776",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1776/everybodythonk-1.0.1-r1776.phar"
+    },
+    {
+      "tag": "r-1765",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1765/everybodythonk-1.0-r1765.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EverybodyThonk",
+    "stable_release_id": 1776
+  }
+}

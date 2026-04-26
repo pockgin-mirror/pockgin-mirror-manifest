@@ -1,0 +1,61 @@
+{
+  "id": "playerhead",
+  "name": "PlayerHead",
+  "author": "HUYDGD",
+  "description": "Important, you have to read",
+  "readme_markdown": "# Important, you have to read\n- Outdated plugin, for reference only. Do not attach to the server\n- I will update the plugin in my free time, thanks for reading :)\n\n# QuestPMMP:\n+ Plugin manager of the player's head\n\n# Commands:\n+ /playerhead <**player Name**>: Take the player's head.\n\n# Permissions:\n+ playerhead.give:\n   - Allows players to use commands.\n\n+ playerhead.spawn:\n   - Allows the player to place the head.\n\n+ playerhead.attack: \n   - Allows the player to destroy the head.\n \n# NOTE\n+ This plugin belongs to Enes5519. I'm just the plugin fixer for pmmp 3.2.3.\n\n<a align=\"center\"><img src=\"https://media3.giphy.com/media/aNpbQki3SRQXe/source.gif\"></a>",
+  "readme_source_url": "https://github.com/HUYDGD/PlayerHead",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/HUYDGD/PlayerHead",
+  "archive_repo": null,
+  "approved_release_tag": "r-1898",
+  "stars": 4,
+  "total_downloads": 14586,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA12-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HUYDGD"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-1898",
+      "published_at": null,
+      "downloads": 14586,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1898/playerhead-1.0-r1898.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1898",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1898/playerhead-1.0-r1898.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerHead",
+    "stable_release_id": 1898
+  }
+}

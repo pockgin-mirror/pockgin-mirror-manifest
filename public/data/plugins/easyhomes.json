@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-4330",
   "stars": 5,
-  "total_downloads": 12871,
+  "total_downloads": 13158,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-2081",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2081/easyhomes-1.0.2-r2081.phar"
+    },
+    {
+      "tag": "r-2031",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2031/easyhomes-1.0.1-r2031.phar"
     }
   ],
   "comments": {

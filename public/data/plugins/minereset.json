@@ -1,0 +1,61 @@
+{
+  "id": "minereset",
+  "name": "MineReset",
+  "author": "falkirks",
+  "description": "MineReset is a fancy tool which allows you to create resettable mines the right way. It has been entirely rewritten in version 3.0.",
+  "readme_markdown": "MineReset\n=========\nMineReset is a fancy tool which allows you to create resettable mines the right way. It has been entirely rewritten in version 3.0.\n\n\n## Commands\n\n### /mine create \\<name>\n**minereset.command.create**\n\nThis command must be run in game. It will start the creation wizard to create a mine with the specified name. This will require you to tap two points to be the corner blocks of the mine. Upon tapping the second block, the mine will be created and saved.\n\n\n### /mine set \\<name> \\<data>\n**minereset.command.set**\n\nIn order for MineReset to reset a mine, it needs to know what blocks to put in it and what how often each block should occur. You must specify this in the form `<ID> <PERCENT>`. So if I wanted mine A to have 50% stone and 50% air, I would run `/mine set A 1 50 0 50`. MineReset can handle metadata for blocks in the form `<ID>:<METADATA> <PERCENT>`. \n\n\n### /mine reset \\<name>\n**minereset.command.reset**\n\nThis command wil trigger a manual reset if there is not already one ongoing. Mines are reset in the following way\n1. Chunks in the mine are collected and turned into raw data.\n2. These chunks are loaded and modfied in a seperate task (PocketMine can keep running at the same time).\n3. The chunks are transferred back to PocketMine and set in bulk.\n\nThis means that any changes you make to the chunks while the mine is resetting will have no effect and MineReset will attempt to block you.\n\n### /mine reset-all\n**minereset.command.resetall**\n\nThis command will dispatch a reset for each mine.\n\n### /mine destroy <name> \\[code]\n**minereset.command.destroy**\n\nThis command will irreversible delete a mine. When running this command you will be asked to confirm your action by re-running the command with a confirmation code. If you would like to avoid confirming, you should edit the `mines.yml` file directly.\n\n### /mine list\n**minereset.command.list**\n\nThis command will list out all existing mines.\n\n### /mine about\n**minereset.command.about**\n\nThis command will display a little info blurb downloaded from the web.",
+  "readme_source_url": "https://github.com/falkirks/MineReset",
+  "icon_url": "https://raw.githubusercontent.com/Falkirks/MineReset/34dce7cf2b2bd817c1f007a7ea16f682a4639497/meta/minereset.png",
+  "featured": false,
+  "repo": "https://github.com/falkirks/MineReset",
+  "archive_repo": null,
+  "approved_release_tag": "r-1821",
+  "stars": 3,
+  "total_downloads": 32075,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "falkirks"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/40666",
+  "versions": {
+    "stable": {
+      "version": "3.2.0",
+      "tag": "r-1821",
+      "published_at": null,
+      "downloads": 32075,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1821/minereset-3.2.0-r1821.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1821",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1821/minereset-3.2.0-r1821.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MineReset",
+    "stable_release_id": 1821
+  }
+}

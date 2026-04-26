@@ -1,0 +1,74 @@
+{
+  "id": "shadowanticheat",
+  "name": "ShadowAntiCheat",
+  "author": "DarkWav",
+  "description": "SAC (ShadowAntiCheat)",
+  "readme_markdown": "# SAC (ShadowAntiCheat) [![](https://poggit.pmmp.io/shield.state/ShadowAntiCheat)](https://poggit.pmmp.io/p/ShadowAntiCheat) [![](https://poggit.pmmp.io/ci.shield/DarkWav/SAC/ShadowAntiCheat)](https://poggit.pmmp.io/ci/DarkWav/SAC/ShadowAntiCheat) [![](https://img.shields.io/github/license/DarkWav/SAC.svg?label=License)](https://github.com/DarkWav/SAC/blob/master/LICENSE)\n\n## Status: Discontinued Indefinitely. Mojang has unfortunately decided that they want to enforce their EULA in a way I do not consider acceptable, hence I am unwilling to provide any content for their game at the moment: https://www.minecraft.net/en-us/usage-guidelines https://www.youtube.com/watch?v=sZj06sd-Wmg</br>If Mojang changes their stance on EULA enforement, I am willing to reconsider this decision.\n### SAC used to be powerfull AntiCheat software made to detect unfair gamplay advantages.<br>A re-write of this Plugin was planned to solve problems resulting from very poor software architecture in the mainline versions. The re-write progress can be seen in the following repository: https://github.com/DarkWav/SAC-rewrite.\n## Current Release: 3.6.6<br>Supported PMMP-API Versions: 3.X.X\n\n## An AntiCheat plugin for [PocketMine-MP](https://github.com/pmmp/pocketmine-mp) and [Altay](https://github.com/TuranicTeam/Altay).<br>Compatible with [CENSORED] 1.X.X.\n\n## Find The Wiki and Phar Downloads [Here](https://github.com/DarkWav/ShadowAntiCheat/wiki).<br>[FAQ](https://github.com/DarkWav/SAC/wiki/FAQ)\n\n## For Developers: [Developer API](https://github.com/DarkWav/SAC/wiki/Developer-API)\n\n## [Issues / Help / Support / Bug Report](https://github.com/DarkWav/SAC/issues)\n\n# Features:<br>\n## - AntiKillAura<br>- AntiReach<br>- AntiFly<br>- AntiSpider (W.I.P)<br>- AntiSpeed<br>- AntiGlide<br>- AntiNoClip (BETA)<br>- AntiRegen<br>- AntiFastClick<br>- AntiFastBow<br>- AutoBanSytem<br>  Read more about Block Hacks [Here](https://github.com/DarkWav/SAC/wiki/About-Block-Hack-Detection).\n\n## Requirements:\n### - Latest PocketMine-MP release (forks and dev builds might work, but not guaranteed)\n### - Especially important: Very high Computing Power\n### - At least 4GB of RAM\n### - PHP 7.2 or higher\n\n### Read the [License](https://github.com/DarkWav/ShadowAntiCheat/blob/master/LICENSE) before downloading this Software.\n### By downloading this Software you AGREE to the [License](https://github.com/DarkWav/ShadowAntiCheat/blob/master/LICENSE)!",
+  "readme_source_url": "https://github.com/DarkWav/SAC",
+  "icon_url": "https://raw.githubusercontent.com/DarkWav/SAC/e1f74a4c28cd2792bb9decd6cadd15d2dd33078f/meta/poggit-icon.png",
+  "featured": false,
+  "repo": "https://github.com/DarkWav/SAC",
+  "archive_repo": null,
+  "approved_release_tag": "r-1978",
+  "stars": 3,
+  "total_downloads": 16995,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "AntiInstaBreak"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DarkWav"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/70275",
+  "versions": {
+    "stable": {
+      "version": "3.6.5",
+      "tag": "r-1978",
+      "published_at": null,
+      "downloads": 15059,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1978/shadowanticheat-3.6.5-r1978.phar"
+    },
+    "dev": {
+      "version": "3.6.3",
+      "tag": "r-1965",
+      "published_at": null,
+      "downloads": 1936,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1965/shadowanticheat-3.6.3-r1965.phar"
+    }
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1978",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1978/shadowanticheat-3.6.5-r1978.phar"
+    },
+    {
+      "tag": "r-1965",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1965/shadowanticheat-3.6.3-r1965.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ShadowAntiCheat",
+    "stable_release_id": 1978
+  }
+}

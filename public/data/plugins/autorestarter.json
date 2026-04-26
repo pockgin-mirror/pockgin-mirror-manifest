@@ -1,0 +1,61 @@
+{
+  "id": "autorestarter",
+  "name": "AutoRestarter",
+  "author": "MisteFr",
+  "description": "A PocketMine-MP plugin that automatically restart your server once the chosen time is up and who transfers your players to the IP and PORT chosen just before restarting !",
+  "readme_markdown": "# AutoRestarter\n\n[![](https://poggit.pmmp.io/shield.api/AutoRestarter)](https://poggit.pmmp.io/p/AutoRestarter)\n[![](https://poggit.pmmp.io/shield.dl.total/AutoRestarter)](https://poggit.pmmp.io/p/AutoRestarter)\n\nA PocketMine-MP plugin that automatically restart your server once the chosen time is up and who transfers your players to the IP and PORT chosen just before restarting !\n\n### Config\n\nYou can choose in the config the delay between each restart in minutes, the message if you want one to be broadcasted every 10 mins if the time to reboot is > 5 mins and to what IP and PORT are the players transferred just before the restart.\n\nSomething that you can do is transfer them to the server that is going to be restarted by leaving \"default\" to serverIp and serverPort in the config. \n\n### Events\nThis plugin is calling the following events:\n- `PreRestartEvent`: Called when the time is up and the server is going to restart, you can cancel this event and set a new delay in mins\n```\nuse miste\\autorestarter\\event\\PreRestartEvent;\n\n/*\n  To cancel server reboot and re schedule it 30 mins after\n  NB: If you forget to setDelay() the event will be called the next min\n*/\n\npublic function onPreRestartEvent(PreRestartEvent $ev){\n        $ev->setDelay(30);\n        $ev->setCancelled(true); \n}\n```\n- `MidRestartEvent`: Called once all the players have just been transferred and before the plugins are disabled. It can be very useful to deal with configs to save your players data. You can get all the transferred players by doing getTransferredPlayers()\n```\nuse miste\\autorestarter\\event\\MidRestartEvent;\n\npublic function onMidRestartEvent(MidRestartEvent $ev){\n        foreach ($ev->getTransferredPlayers() as $playerName){\n          //your code here\n        }\n}\n```\n\n### API\nIf you want to reboot the server at any time you can call the method `AutoRestarter::restart(Server $server, ?string $serverIp = \"default\", ?int $serverPort = 19132);`\n```\n/*\n  This will restart the server and transfer all the players online to play.lbsg.net:19132.\n*/\nuse miste\\autorestarter\\AutoRestarter;\n\nAutoRestarter::restart($this->getServer(), \"play.lbsg.net\", 19132);\n\n/*\n  This will restart the server and transfer all the players online the IP and port provided in the config.\n*/\nuse miste\\autorestarter\\AutoRestarter;\n\nAutoRestarter::restart($this->getServer());\n```\n\n**NB**: You need pcntl extension to be enabled and compiled with PHP (by default on PM Linux binaries but not on Windows one).",
+  "readme_source_url": "https://github.com/MisteFr/AutoRestarter",
+  "icon_url": "https://raw.githubusercontent.com/MisteFr/AutoRestarter/85f4a643628042be18c5ad85d42d877066533911/icon.png",
+  "featured": false,
+  "repo": "https://github.com/MisteFr/AutoRestarter",
+  "archive_repo": null,
+  "approved_release_tag": "r-1785",
+  "stars": 4,
+  "total_downloads": 12251,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MisteFr"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-1785",
+      "published_at": null,
+      "downloads": 12251,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1785/autorestarter-1.0.0-r1785.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1785",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1785/autorestarter-1.0.0-r1785.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AutoRestarter",
+    "stable_release_id": 1785
+  }
+}

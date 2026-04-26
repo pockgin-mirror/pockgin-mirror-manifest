@@ -1,0 +1,61 @@
+{
+  "id": "staffchat",
+  "name": "StaffChat",
+  "author": "ThunderDoesPlugins",
+  "description": "Staff Chat",
+  "readme_markdown": "# Staff Chat\n[<img src=\"https://img.shields.io/badge/Poggit-view-brightgreen.svg\" width=\"100\" height=\"25\" />](https://poggit.pmmp.io/ci/ThunderDoesPlugins/StaffChat/StaffChat)\n[<img src=\"https://img.shields.io/badge/Discord-join-697EC4.svg\" width=\"100\" height=\"25\" />](https://discord.gg/uBghvNp)\n\n<!--\n  Title: Staff Chat\n  Description: An Advanced staff chat plugins for your staff members\n  Author: Thunder33345\n  -->\n<meta name='keywords' content='staffchat, staff chat, plugin, pocketmine, mcpe'>\n<meta name='description' content='An Advanced staff chat plugins for your staff members'>\n\nAdvance private chat plugins for your staff members\n\nAllows you to create a staff chat between staff members with permissions and chat prefix\n\nIf you want to make a video of it, please link back to this repo in your description, you may request your videos to be featured here if it meet reasonable quality\n\n## How to install and use\n\nTo download compiled PHAR, please click the poggit view button above then scroll down selecting the latest by clicking on Direct for latest version, or you can click on latest release \"Direct Download\"\n\nPut this in your Plugins, start the server to generate a config file, you may edit the config to suit your needs, scroll down for more info on configuration files\n\nTo chat into staff chat type your prefix followed by your message, no spaces are required\nFor example prefix is . so typing \".this message will be sent to staff chat\" will sent that message to staff chat letting all online staff to know\n\nTo chat into staff chat without prefix or commands use \"/sc on\" this will put all of your message into staff chat for convenience if you wish to have long conversations \"/sc off\" when you are done\n\nTo chat into staff chat as console type \"/sc say <message here>\"\n\nConsole can also choose to receive staff chat or not by \"/sc attach on/off\"\n\n## Intended Usage\n\nThis plugin was created to allow servers with multiple staff members to cooperate together while chatting silently between each other without /tell and with ease of use!\n\n## Commands:\n\nCommands start with /staffchat alias is /sc\n\n| Command             | Info                                                      |\n|---------------------|-----------------------------------------------------------|\n| say                 | Send a message to staff channel (this is for the console) |\n| on/off/toggle       | Switch current chat mode (chats directly into staff chat) |\n| reload              | Reloads configs and flushes internal data                 |\n| attach <true/false> | Attach console into/out of staff chat                     |\n| check [player]      | Checks player staff chat status and permissions           |\n| list                | List player with staff chat permissions and is chatting   |\n\n## Configs:\n\n| Config Value  | Info                                                                                                           |\n|---------------|----------------------------------------------------------------------------------------------------------------|\n| prefix        | Used to send a message directly into staff chat Example: \".hello staff\" you may set it to any value you prefer |\n| auto-attach   | Automatically make console listen to staff chat on start?                                                      |\n| console-prefix| Console logging prefix for Staff Chat                                                                          |\n| player-format | Staff chat formatting example: \"![bold]StaffChat![reset]%sender%>%msg%\"                                        |\n| plugin-format | Staff chat formatting for plugins                                                                              |\n| functions     | (BETA) Enable functions See #functions section below for more                                                  |\n| joinleave     | Enable join leave announce message to staff                                                                    |\n| join/leave    | Join leave format                                                                                              |\n\nThere's also references inside config file\n\n## Functions:\n\nYou can use function by typing \"$name\" in staff chat and will be replaced with appropriate text(buggy might not work)\n\n|Function Name            | Usage                                                                                      |\n|-------------------------|--------------------------------------------------------------------------------------------|\n| $pos                    | Replaces it with your level,x,y,z                                                          |\n| $ping                   | Replaces $ping with bolded green and play Enderman teleport+Anvil fall sound to all staff  |\n| $near(distance number)$ | Replaces it with \"Near Me(count):\" and Playername(GM:mode Dist:number)                     |\n\n## Permissions:\n\n| permission node  | Info                                                   |\n|------------------|--------------------------------------------------------|\n| staffchat.read   | Allow players to read chat                             |\n| staffchat.chat   | Allow players to chat into chat                        |\n| staffchat.attach | Allow players to attach or detach console from chat    |\n| staffchat.check  | Allow players to check other player's staff chat status|\n| staffchat.list   | Allow players to list players staff chat status        |\n\nBy default all permission nodes are granted for operators.\n\n## Video\n[Tutorial by JJ Birdman](https://www.youtube.com/watch?v=wdwaLXjw9Xs)",
+  "readme_source_url": "https://github.com/ThunderDoesPlugins/StaffChat",
+  "icon_url": "https://raw.githubusercontent.com/ThunderDoesPlugins/StaffChat/62a97a0d23bed248b1109038a6f726cc994861bf/icon.png",
+  "featured": false,
+  "repo": "https://github.com/ThunderDoesPlugins/StaffChat",
+  "archive_repo": null,
+  "approved_release_tag": "r-1812",
+  "stars": 4,
+  "total_downloads": 19350,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ThunderDoesPlugins"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/40380",
+  "versions": {
+    "stable": {
+      "version": "1.1.4",
+      "tag": "r-1812",
+      "published_at": null,
+      "downloads": 19350,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1812/staffchat-1.1.4-r1812.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1812",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1812/staffchat-1.1.4-r1812.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "StaffChat",
+    "stable_release_id": 1812
+  }
+}

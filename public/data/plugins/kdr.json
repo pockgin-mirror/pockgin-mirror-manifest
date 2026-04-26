@@ -1,0 +1,61 @@
+{
+  "id": "kdr",
+  "name": "KDR",
+  "author": "ifera-mc",
+  "description": "HitCount License Poggit Release",
+  "readme_markdown": "![KDR Banner](https://github.com/JackMD/KDR/blob/master/meta/KDR.png)\n# KDR\n\n| HitCount | License | Poggit | Release |\n|:--:|:--:|:--:|:--:|\n|[![HitCount](http://hits.dwyl.io/JackMD/KDR.svg)](http://hits.dwyl.io/JackMD/KDR)|[![GitHub license](https://img.shields.io/github/license/JackMD/KDR.svg)](https://github.com/JackMD/KDR/blob/master/LICENSE)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/JackMD/KDR/KDR)](https://poggit.pmmp.io/ci/JackMD/KDR/KDR)|[![](https://poggit.pmmp.io/shield.state/KDR)](https://poggit.pmmp.io/p/KDR)|\n\n### A KDR, Kill Death Ratio  plugin for your Minecraft Bedrock Server. Allows you to keep track of players kills, deaths and kill to death ratio.\n\n### Features\n - Keep track of players kills.\n - Keep track of players deaths.\n - Keep track of players kill to death ratio.\n - Two storage ways are supported:\n        - Yaml\n        - SQLite3\n - Simple and neat api for developers.\n\n### How to setup?\n - Put the plugin in your plugins folder.\n - Start and then stop the server.\n - Edit the `config.yml` to suit your needs.\n - Restart and enjoy...\n \n### API\n\nKDR provides a simple way api for the developers.<br />\n\nFirst of all you need to get the `KDR` Instance. \n```php\nKDR::getInstance();\n```\n\n- To get the kill count of a player:\n```php\nKDR::getInstance()->getProvider()->getPlayerKillPoints($player);\n```\n\n- To get the death count of a player:\n```php\nKDR::getInstance()->getProvider()->getPlayerDeathPoints($player);\n```\n\n- To get the kill to death ratio of a player:\n```php\nKDR::getInstance()->getProvider()->getKillToDeathRatio($player);\n```\n\nAnd thats about it. Let me know if I missed out on something.",
+  "readme_source_url": "https://github.com/ifera-mc/KDR",
+  "icon_url": "https://raw.githubusercontent.com/JackMD/KDR/bc646159291bcc608d4f50cb4337dd9de8399d0a/meta/KDR.png",
+  "featured": false,
+  "repo": "https://github.com/ifera-mc/KDR",
+  "archive_repo": null,
+  "approved_release_tag": "r-1984",
+  "stars": 4,
+  "total_downloads": 8826,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ifera-mc"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-1984",
+      "published_at": null,
+      "downloads": 8826,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1984/kdr-1.0.0-r1984.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1984",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1984/kdr-1.0.0-r1984.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KDR",
+    "stable_release_id": 1984
+  }
+}

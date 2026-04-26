@@ -1,0 +1,61 @@
+{
+  "id": "hungergames",
+  "name": "HungerGames",
+  "author": "InfinityGamers",
+  "description": "BIG NOTE",
+  "readme_markdown": "# HungerGames\n=============\n\n[![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/uctHyRD)\n\nBIG NOTE\n---------\nCOMPILING IT WITH pmt.mcpe.me WILL MAKE THE PLUGIN CORRUPTED. DOWNLOAD FROM _RELEASES_ [HERE](https://github.com/InfinityGamers/HungerGames-UPDATED/releases/latest)\n\nA HungerGames plugin for PocketMine-MP developed by xBeastMode\n--------------------------------------------------------------\n\n#New Features? \nYes, of course. You can choose between SkyWars or HungerGames!\nHow? You can make a game with the following command: /hg add <game name>\n\nWatch my YouTube video showing bow to setup a game arena:\n[![MCPE - HG plugin tutorial updated](http://img.youtube.com/vi/0Jtt696xak4/0.jpg)](http://www.youtube.com/watch?v=0Jtt696xak4)\n<h3> \nWhen you join a game the plugin will automatically backup the map.\n</h3>\n\n- Other features: Scripts have been added. I did not make any scripts for it yet, maybe in the future.\n\n#How to setup a join sign?\n\non the first line set the line to \"hg\" and on the second line set the line to the name of your game.\nThe sign should now refresh automatically and you'll be able to join.\n\nor... join a game by simply typing: `/hg join <game>`\n\n#Future updates? \nI am planning to adding many more features to this plugin, if you wish me to add one, please say it in issues, thank you.\n\n- For Devs:\n\nThis plugin comes with a script loader api. You can use this to access game functions, like when player joins, quits, wins, etc. You do not need to enable it, as it loads itself.\n\n<h3><div style=\"font-family: verdana, sans-serif;\">If you wish to create one here's an example code:</div><h3>\n<details>\n<summary>Click here to view example:</summary>\n\n```PHP\n//Example script:\n\n\n<?php\nclass ExampleScript extends \\hungergames\\api\\scripts\\HGAPIScript{\n    public function __construct(){\n        parent::__construct(\"Script names here\", \"Versions here 1.0\", \"Authors here xBeastMode\");\n    }\n    public function onLoad(){\n        $this->sendConsoleMessage(\"Test script loaded!\");\n    }\n}\n\n\n//All function from this script api are:\n\n/**\n     * Creates script config\n     *\n     * @param $name\n     * @param array $values\n     * @return Config\n     */\n    public void function createConfig($name, array $values)\n    /**\n     * Gets script config\n     *\n     * @return Config\n     */\n    public Config function getConfig()\n    /**\n     * Gets the name of the script\n     *\n     * @return string\n     */\n    public string function getName()\n    /**\n     * Gets the name of the script\n     *\n     * @return string\n     */\n    public string function getVersion()\n    /**\n     * Gets the author of the script\n     *\n     * @return string\n     */\n    public string function getAuthor()\n    /**\n     * disables script\n     */\n    public void function setDisabled()\n    /**\n     * enables script\n     */\n    public void function setEnabled();\n    /**\n     * returns whether script is enabled or not\n     *\n     * @return bool\n     */\n    public bool function isEnabled()\n    /**\n     * Sends console message\n     *\n     * @param $message\n     */\n    public void function sendConsoleMessage($message)\n    /**\n     * Called when script is loaded\n     */\n    public function onLoad(){\n    //your code here\n    }\n    /**\n     * called when player joins game\n     *\n     * @param Player $p\n     * @param HungerGames $game\n     */\n    public function onPlayerJoinGame(Player $p, HungerGames $game){\n    //your code here\n    }\n    /**\n     * called when player quits game\n     *\n     * @param Player $p\n     * @param HungerGames $game\n     */\n    public function onPlayerQuitGame(Player $p, HungerGames $game){\n    //your code here\n    }\n    /**\n     * Called when player fails to join full game\n     *\n     * @param Player $p\n     * @param HungerGames $game\n     */\n    public function gameIsFull(Player $p, HungerGames $game){\n    //your code here\n    }\n\n    /**\n     * Called when player is waiting for players\n     *\n     * @param array $players\n     * @param HungerGames $game\n     */\n    public function whileWaitingForPlayers(array $players, HungerGames $game){\n    //your code here\n    }\n    /**\n     * Called when player is waiting for players\n     *\n     * @param array $players\n     * @param HungerGames $game\n     */\n    public function whileWaitingToStart(array $players, HungerGames $game){\n    //your code here\n    }\n    /**\n     * Called when game starts\n     *\n     * @param array $players\n     * @param HungerGames $game\n     */\n    public function onGameStart(array $players, HungerGames $game){\n    //your code here\n    }\n    /**\n     * Called when death match starts\n     *\n     * @param array $players\n     * @param HungerGames $game\n     */\n    public function onDeathMatchStart(array $players, HungerGames $game){\n    //your code here\n    }\n    /**\n     * Called when players wins a game\n     *\n     * @param Player $p\n     * @param HungerGames $game\n     */\n    public function onPlayerWinGame(Player $p, HungerGames $game){\n    //your code here\n    }information\n```\n</details>\n\nCommands:\n\n* /hg add <game> : adds a new game\n  * OP perm: hg.command.add\n    \n* /hg del <game> : deletes a game\n  * OP perm: hg.command.del\n  \n* /hg min <game> <number> : changes the number of minimum players required to start a game\n  * OP perm: hg.command.min\n  \n* /hg max <game> <number> : changes number of maximum players that can enter a game\n  * OP perm: hg.command.max\n\n* /hg level <game> <level name> : changes level of game where players are gonna go\n  * OP perm: hg.command.level\n\n* /hg ws <game> <number> : sets amount of seconds to wait before game starts  \n  * OP perm: hg.command.ws\n\n* /hg gs <game> <number> : sets amount of second to pass before death match starts\n  * OP perm: hg.command.gs\n\n* /hg addslot <game> <name> : adds new slot to game (positions sets where you are standing)\n  * OP perm: hg.command.slot.add\n\n* /hg delslot <game> <name> : deletes slot from game by name\n  * OP perm: hg.command.slot.del\n\n* /hg lobby <game> : sets the lobby position of a game where you're standing\n  * OP perm: hg.command.lobby\n  \n* /hg dm <game> : sets the death match position of a game where you're standing\n  * OP perm: hg.command.dm\n\n* /hg leave : leaves game that you are playing\n  * OP perm: none\n  \n* /hg join <game> : join a new game\n  * OP perm: none",
+  "readme_source_url": "https://github.com/InfinityGamers/HungerGames-UPDATED",
+  "icon_url": "https://raw.githubusercontent.com/InfinityGamers/HungerGames-UPDATED/e7f55e96524261bedb1befd7ab4023cbc436b679/icon.png",
+  "featured": false,
+  "repo": "https://github.com/InfinityGamers/HungerGames-UPDATED",
+  "archive_repo": null,
+  "approved_release_tag": "r-1711",
+  "stars": 3,
+  "total_downloads": 9620,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "InfinityGamers"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/37783",
+  "versions": {
+    "stable": {
+      "version": "19.3",
+      "tag": "r-1711",
+      "published_at": null,
+      "downloads": 9620,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1711/hungergames-19.3-r1711.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1711",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1711/hungergames-19.3-r1711.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "HungerGames",
+    "stable_release_id": 1711
+  }
+}

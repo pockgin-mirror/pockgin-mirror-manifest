@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-3905",
   "stars": 5,
-  "total_downloads": 4716,
+  "total_downloads": 6652,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-3905",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3905/vaultchest-1.1.0-r3905.phar"
+    },
+    {
+      "tag": "r-1820",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1820/vaultchest-1.0.3-r1820.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "treasurechest",
+  "name": "TreasureChest",
+  "author": "Awzaw",
+  "description": "Idea by 17bhata, Inspired by Falkirk's \"ChestRefill\"",
+  "readme_markdown": "TreasureChest\n===========\n\nIdea by 17bhata, Inspired by Falkirk's \"ChestRefill\"\n\nDefine chests which auto-refill according to the config.\n\nDefine \"chestmodes\" in treasture.yml with an Item, MaxAmount and Probability for each of the 27 slots, and TreasureChest will refill according to that chestmode every x seconds, defined in config.txt\n\n\n/tchest list : list all configured treasure chestmodes\n\n/tchest common : start using the 'common' setting\n\n/tchest {chestmode} and start tapping chests...\n\n/tchest off to stop making Treasure Chests\n\nDefine the refill rate in seconds in the config.txt file\n\nInstall the .phar file, restart, then define your own \"chestmodes\" in treasure.yml (three are predefined to get you started: common, uncommon and rare), restart again and you are ready to go.\n\nTap chests to enable automatic refill according to the chosen chestmode. The format for each chestmode slot must be ID:AMOUNT:PROBABILITY, for example:\n\n```\n---\ncommon:\n - \"17:64:100\"\n - \"5:20:80\"\n - \"100:1:80\"\n - \"2:64:80\"\n - \"5:20:90\"\n - \"100:1:80\"\nuncommon:\n - \"104:1:50\"\n - \"5:20:30\"\n - \"100:1:40\"\nrare:\n - \"64:64:1\"\n - \"276:1:10\"\n - \"264:1:10\"\n - \"19:1:10\"\n - \"25:20:10\"\n - \"43:1:5\"\ndiamond:\n - \"264:64:5\"\n...\n```\n\nRandomizeAmount Setting:\n\nIn prefs.yml you can define whether the AMOUNT of an item (the second number) is a fixed amount to be added to chests, or a random number between 1 and the amount.\n\nIn the last chestmode example, /tchest diamond would make treasure chests that have a 5% chance of containing a random number of diamonds between 1 and 64, unless RandomizeAmount was set to false... in which case there would be a 5% chance that 'diamond' treasure chests would be refilled with (always) 64 Diamonds.\n\nYou can define up to 27 slots for each chestmode",
+  "readme_source_url": "https://github.com/Awzaw/TreasureChest",
+  "icon_url": "https://raw.githubusercontent.com/Awzaw/TreasureChest/4b16a1a47a043d696475f4700f00a051f81faf33/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Awzaw/TreasureChest",
+  "archive_repo": null,
+  "approved_release_tag": "r-1804",
+  "stars": 5,
+  "total_downloads": 5586,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Awzaw"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/40117",
+  "versions": {
+    "stable": {
+      "version": "1.2.3",
+      "tag": "r-1804",
+      "published_at": null,
+      "downloads": 5586,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1804/treasurechest-1.2.3-r1804.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1804",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1804/treasurechest-1.2.3-r1804.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TreasureChest",
+    "stable_release_id": 1804
+  }
+}

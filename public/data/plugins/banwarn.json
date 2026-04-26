@@ -1,0 +1,61 @@
+{
+  "id": "banwarn",
+  "name": "BanWarn",
+  "author": "robske110",
+  "description": "TravisCI**",
+  "readme_markdown": "# BanWarn\n\n**TravisCI** [![TravisCI](https://api.travis-ci.org/robske110/BanWarn.svg?branch=master)](https://travis-ci.org/robske110/BanWarn)\n\n#### Version `1.2.3` is **stable** for production and recommended for all BanWarn users! [**RELEASE**](https://github.com/robske110/BanWarn/releases/tag/1.2.3)\n[![](https://poggit.pmmp.io/shield.api/BanWarn)](https://poggit.pmmp.io/p/BanWarn)\n\n#### 2.0.0 is in the very early devlopment process, no Alphas are available yet. [Branch](https://github.com/robske110/BanWarn/tree/2.0.0) [PlannedChanges](https://github.com/robske110/BanWarn/issues/1)\n\n##### The issue https://github.com/robske110/BanWarn/issues/1 is used for feature requests and for Changelogs for 1.1.0, 1.2.0 and 2.0.0.\n\n## About the Plugin:\n\n### Commands:\n##### /warn:\n\n Warns a player\n \n Usage: `/warn <PlayerName> <Reason> [Points]`\n\n Permission: BanWarn.command.warn\n \n \n##### /warninfo:\n\n Outputs info about the warnings a player has\n\n Usage: `/warninfo <PlayerName>`\n\n Permission: BanWarn.command.warninfo\n\n Alias: /wi /warni\n  \n \n##### /warnpardon: (1.2.0 and above only)\n\n Pardons a player or removes warns\n\n Usage: `/warnpardon <PlayerName>`\n\n Permission: BanWarn.command.warnpardon\n\n Alias: /wp /warnp",
+  "readme_source_url": "https://github.com/robske110/BanWarn",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/robske110/BanWarn",
+  "archive_repo": null,
+  "approved_release_tag": "r-1792",
+  "stars": 4,
+  "total_downloads": 9515,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "robske110"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/39807",
+  "versions": {
+    "stable": {
+      "version": "1.2.3",
+      "tag": "r-1792",
+      "published_at": null,
+      "downloads": 9515,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1792/banwarn-1.2.3-r1792.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1792",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1792/banwarn-1.2.3-r1792.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BanWarn",
+    "stable_release_id": 1792
+  }
+}

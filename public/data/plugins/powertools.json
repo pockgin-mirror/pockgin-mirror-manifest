@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-2445",
   "stars": 4,
-  "total_downloads": 5423,
+  "total_downloads": 6276,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,13 +37,24 @@
       "downloads": 5423,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2445/powertools-1.0.0-r2445.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "1.0.0-PRE",
+      "tag": "r-1870",
+      "published_at": null,
+      "downloads": 853,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1870/powertools-1.0.0-pre-r1870.phar"
+    }
   },
   "recent_builds": [
     {
       "tag": "r-2445",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2445/powertools-1.0.0-r2445.phar"
+    },
+    {
+      "tag": "r-1870",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1870/powertools-1.0.0-pre-r1870.phar"
     }
   ],
   "comments": {

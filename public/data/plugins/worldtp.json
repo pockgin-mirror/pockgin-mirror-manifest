@@ -1,0 +1,71 @@
+{
+  "id": "worldtp",
+  "name": "WorldTP",
+  "author": "ThunderDoesPlugins",
+  "description": "World TP",
+  "readme_markdown": "# World TP\n## Teleport between worlds with ease\n[<img src=\"https://img.shields.io/badge/Poggit-view-brightgreen.svg\" width=\"100\" height=\"25\" />](https://poggit.pmmp.io/p/WorldTP/)\n[<img src=\"https://img.shields.io/badge/Discord-join-697EC4.svg\" width=\"100\" height=\"25\" />](https://discord.gg/uBghvNp)\n\nWorld teleporting plugin without all the bulky unneeded features!\n\nIf you want a simple plugin that can teleport between worlds, this is all you need!\n\n## Commands\n### WorldTP\nTeleport you to the selected world, attempts to load it, if it's not found\n\nAlias: `wtp`\n\nPermission: `worldtp.tp`\n\nUsage: `/worldtp <worldname>`\n\n### WorldTPPlayer\n\nTeleport selected player to the selected world, attempts to load it, if it's not found\n\nAlias: `wtpp`\n\nPermission: `worldtp.tpp`\n\nUsage: `/worldtpplayer <player> <worldname>`\n\n### WorldList\nList all your worlds\n\nAlias: `wls`\n\nPermission: `worldtp.list`\n\n##### Legends\n\n\\+(indicator in color) folder name =\\> world name\n\nGreen + = world loaded\n\nRed + = world not loaded\n\nGold X = world you are in\n\n### WorldLoad\nLoads a specified world\n\nAlias: `wld`\n\nPermission: `worldtp.load`\n\nUsage: `/worldload <world>`\n\n### WorldUnload\nUnloads a specified world\n\nAlias: `wul`\n\nPermission: `worldtp.unload`\n\nUsage: `/worldunload <world>\n`\n#### Note:\nAll commands do not have capitalization,\n\nthis plugin works with worlds that have spaces in their name\n\nWorlds displayed by list command may not be correct and empty/invalid folders can be shown as a not loaded world",
+  "readme_source_url": "https://github.com/ThunderDoesPlugins/WorldTP",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/ThunderDoesPlugins/WorldTP",
+  "archive_repo": null,
+  "approved_release_tag": "r-1814",
+  "stars": 4,
+  "total_downloads": 8386,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "ThunderDoesPlugins"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/40404",
+  "versions": {
+    "stable": {
+      "version": "1.2.1",
+      "tag": "r-1814",
+      "published_at": null,
+      "downloads": 8046,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1814/worldtp-1.2.1-r1814.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1814",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1814/worldtp-1.2.1-r1814.phar"
+    },
+    {
+      "tag": "r-1813",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1813/worldtp-1.2.0-r1813.phar"
+    },
+    {
+      "tag": "r-1740",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1740/worldtp-1.1.0-r1740.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorldTP",
+    "stable_release_id": 1814
+  }
+}
