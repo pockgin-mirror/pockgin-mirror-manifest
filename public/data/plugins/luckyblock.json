@@ -1,0 +1,64 @@
+{
+  "id": "luckyblock",
+  "name": "LuckyBlock",
+  "author": "Palente",
+  "description": "Description",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/LuckyBlock)](https://poggit.pmmp.io/p/LuckyBlock)\n[![](https://poggit.pmmp.io/shield.dl.total/LuckyBlock)](https://poggit.pmmp.io/p/LuckyBlock)\n\n# LuckyBlock\n## Description\nIt allows to define a block that will have various actions when broken as: custom drop (compatible with the enchantment of [PiggyCustomEnchants](https://poggit.pmmp.io/p/PiggyCustomEnchants)), given money (depends on [EconomyAPI](https://poggit.pmmp.io/p/EconomyAPI) or [BedrockEconomy](https://poggit.pmmp.io/p/BedrockEconomy)), command execution from the player or server, replaced the broken block by another block.\n\n## Installation\nYou can download the latest version of the plugin in the [releases](https://github.com/Palente/LuckyBlock/releases) tab of this repository, or via the [Poggit](https://poggit.pmmp.io/p/LuckyBlock) website.\n\n## Updates\n### Releases\nYou can find all official update in the tab [releases](https://github.com/Palente/LuckyBlock/releases), here are the last releases:<br>\n- [LuckyBlock 1.2](https://github.com/Palente/LuckyBlock/releases/tag/1.2)\n- [LuckyBlock 1.1](https://github.com/Palente/LuckyBlock/releases/tag/1.1)\n- [LuckyBlock 1.0](https://github.com/Palente/LuckyBlock/releases/tag/1.0)\n### Future updates\n- [ ] Custom all message and prefix.\n- [ ] Automatic remove of invalid loot type.\n- [ ] Add effect loot type.\n- [ ] Create cool particle effect when the LuckyBlock is broken.\n- [ ] Notification on the console on plugin release.\n- [ ] Better Plugin?\n\n## Error or suggestion\nYou can open an issue in this repository.\n\n## Credit\nDevelopers:\n- Bluzzi [GitHub](https://github.com/Bluzzi), [Twitter](https://twitter.com/Bluzzi_)\n- Palente [GitHub](https://github.com/Palente), [Twitter](https://twitter.com/Adel_Palente)",
+  "readme_source_url": "https://github.com/Palente/LuckyBlock",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Palente/LuckyBlock",
+  "archive_repo": null,
+  "approved_release_tag": "r-2610",
+  "stars": 4,
+  "total_downloads": 11448,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "EconomyAPI",
+      "PiggyCustomEnchants"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Palente"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/57354",
+  "versions": {
+    "stable": {
+      "version": "0.0.3",
+      "tag": "r-2610",
+      "published_at": null,
+      "downloads": 11448,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2610/luckyblock-0.0.3-r2610.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2610",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2610/luckyblock-0.0.3-r2610.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LuckyBlock",
+    "stable_release_id": 2610
+  }
+}

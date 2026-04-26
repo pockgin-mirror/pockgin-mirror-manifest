@@ -1,0 +1,63 @@
+{
+  "id": "playerwarps",
+  "name": "PlayerWarps",
+  "author": "SchdowNVIDIA",
+  "description": "Description",
+  "readme_markdown": "<h3>\n<a id=\"user-content-description\" class=\"anchor\" href=\"#description\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Description</h3>\n<p>PlayerWarps, let players create their own warps for money.</p>\n<p><a href=\"https://poggit.pmmp.io/p/PlayerWarps\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/5d08bab82f9eaf925b84e2c720283f7a8e6b7a26/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f506c617965725761727073\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.state/PlayerWarps\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/PlayerWarps\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/62cdfeae9452a03ba113a6c8a7504971d7f1cfd0/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f506c617965725761727073\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.api/PlayerWarps\" style=\"max-width:100%;\"></a>\n<a href=\"https://poggit.pmmp.io/p/PlayerWarps\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/66770974a86957a18c28c42c0bed6cfe1afbb6c2/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f506c617965725761727073\" alt=\"\" data-canonical-src=\"https://poggit.pmmp.io/shield.dl.total/PlayerWarps\" style=\"max-width:100%;\"></a>\n<a href=\"https://discord.gg/bjS2UXD\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/5f7fb262020a86cffc7f781750486cdffed25d6d/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3332333935333235333435383930333034302e737667\" alt=\"\" data-canonical-src=\"https://img.shields.io/discord/323953253458903040.svg\" style=\"max-width:100%;\"></a></p>\n<h5>\n<a id=\"user-content-commands\" class=\"anchor\" href=\"#commands\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Commands</h5>\n<p>/pwarp  - teleport to an pwarp</p>\n<p>/pwarp price §7- shows alls prices of an pwarp</p>\n<p>/pwarp create  - create an pwarp</p>\n<p>/pwarp delete  - delete an pwarp</p>\n<p>/pwarp newpos  - change position of an pwarp</p>\n<p>/pwarp info  - get info of an pwarp</p>\n<p>/pwarp list - get a list of all pwarps</p>\n<h5>\n<a id=\"user-content-config\" class=\"anchor\" href=\"#config\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Config</h5>\n<p>In the config you can adjust the prices for deleting, newposing and creating a warp</p>",
+  "readme_source_url": "https://poggit.pmmp.io/r/57801",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/SchdowNVIDIA/PlayerWarps",
+  "archive_repo": null,
+  "approved_release_tag": "r-2571",
+  "stars": 4,
+  "total_downloads": 4821,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SchdowNVIDIA"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0-BETA",
+      "tag": "r-2571",
+      "published_at": null,
+      "downloads": 4821,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2571/playerwarps-1.0.0-beta-r2571.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2571",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2571/playerwarps-1.0.0-beta-r2571.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PlayerWarps",
+    "stable_release_id": 2571
+  }
+}

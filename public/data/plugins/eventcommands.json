@@ -1,0 +1,66 @@
+{
+  "id": "eventcommands",
+  "name": "EventCommands",
+  "author": "Zedstar16",
+  "description": "This is a plugin that allows you to setup commands to run when certain ingame events occur",
+  "readme_markdown": "# EventCommands\n[![](https://poggit.pmmp.io/shield.state/EventCommands)](https://poggit.pmmp.io/p/EventCommands)\n[![](https://poggit.pmmp.io/shield.api/EventCommands)](https://poggit.pmmp.io/p/EventCommands)\n[![](https://poggit.pmmp.io/shield.dl.total/EventCommands)](https://poggit.pmmp.io/p/EventCommands)\n[![HitCount](http://hits.dwyl.io/Zedstar16/EventCommands.svg)](http://hits.dwyl.io/Zedstar16/EventCommands)\n\nThis is a plugin that allows you to setup commands to run when certain ingame events occur\n\nThe commands must be configured in the config.yml, which will appear in the plugins folder when the server is restarted after the plugin is added.\n\nYou can configure commands for:\n- Player Fall in Void\n- Player Join\n- Player Quit\n- Player Death\n- Player Gamemode Change\n- Player Level Change (world)\n- Player Respawn\n- Player Exhaust (run out of food)\n\n\n# Command Tags & executors\n\n You can execute the command as:\n\n- @p (the player without special priveledges)\n- @op (runs command like the player is op)\n- @console (runs command as console\n\n You can use these tags in the command:\n\n- {player} (the players name)\n- {x}, {y}, {z} (the players X, Y and Z coordinates\n- {tag} (the players tag, nickname/display name)\n- {level} (the world the player is currently in)\n \n# Enhancements\n\nIf there are any problems or you would like anything additional to be added to the plugin such as more events, or more command tags, \nsimply create an issue",
+  "readme_source_url": "https://github.com/Zedstar16/EventCommands",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Zedstar16/EventCommands",
+  "archive_repo": null,
+  "approved_release_tag": "r-2716",
+  "stars": 0,
+  "total_downloads": 2350,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Zedstar16"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/56458",
+  "versions": {
+    "stable": {
+      "version": "1.1",
+      "tag": "r-2716",
+      "published_at": null,
+      "downloads": 2228,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2716/eventcommands-1.1-r2716.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2716",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2716/eventcommands-1.1-r2716.phar"
+    },
+    {
+      "tag": "r-2698",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2698/eventcommands-1.0-r2698.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EventCommands",
+    "stable_release_id": 2716
+  }
+}

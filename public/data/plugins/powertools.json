@@ -1,0 +1,61 @@
+{
+  "id": "powertools",
+  "name": "Powertools",
+  "author": "AndreasHGK",
+  "description": "Assign commands to specific items",
+  "readme_markdown": "# Powertools\nAssign commands to specific items\n\n[![](https://poggit.pmmp.io/shield.state/Powertools)](https://poggit.pmmp.io/p/Powertools)\n[![](https://poggit.pmmp.io/shield.api/Powertools)](https://poggit.pmmp.io/p/Powertools)\n\nThere are 2 base permissions: `powertools.use` and `powertools.command`.\nYou need the first permission to use powertools and the second one to assign/unassign powertools. It's that simple!\n\nPowertools work a little different in this plugin than they do in java edition. You assign commands to **SPECIFIC** items and not the id. This way you can share powertools to people to other people (who might only have the permission to run powertools).\n\n## API\nIf, for instance, you want to make this plugin compatible with your plugin (maybe a kit plugin or something) you can do that by making sure you use Powertools with `use AndreasHGK\\Powertools\\Powertools;` and then call it by doing this:\n\n```php\n$pt = Powertools::getInstance();\n\n/**\n* @param item $item\n* @param string $command\n*\n* @return item $item\n*/\n$pt->enablePowertool($item, $command);\n```\n\nIf the item is an existing item, be sure to also add a `$sender->getInventory()->setItemInHand($item)`",
+  "readme_source_url": "https://github.com/AndreasHGK/Powertools",
+  "icon_url": "https://raw.githubusercontent.com/AndreasHGK/Powertools/f5d85cf00ebd1d2bf519b2e4ffd5b227c808d966/icon.png",
+  "featured": false,
+  "repo": "https://github.com/AndreasHGK/Powertools",
+  "archive_repo": null,
+  "approved_release_tag": "r-2445",
+  "stars": 4,
+  "total_downloads": 5422,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AndreasHGK"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/51540",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-2445",
+      "published_at": null,
+      "downloads": 5422,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2445/powertools-1.0.0-r2445.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2445",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2445/powertools-1.0.0-r2445.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Powertools",
+    "stable_release_id": 2445
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "chestfinder",
+  "name": "ChestFinder",
+  "author": "Symphonia-Team",
+  "description": "Description",
+  "readme_markdown": "# ChestFinder\n[![](https://poggit.pmmp.io/shield.state/ChestFinder)](https://poggit.pmmp.io/p/ChestFinder)\n[![](https://poggit.pmmp.io/shield.dl.total/ChestFinder)](https://poggit.pmmp.io/p/ChestFinder)\n\n## Description\nAllows you to define a special item that displays the distance between you and the nearest chest, as well as the number of chests within the defined radius.\n\nAll this with a simple and complete configuration.\n\n## Installation\n- [GitHub releases](https://github.com/Bluzzi/ChestFinder/releases)\n- [Poggit](https://poggit.pmmp.io/p/ChestFinder)\n\n## Configuration\n### Base\n| Property         | Description                                                                              | Default |\n| ---------------- | ---------------------------------------------------------------------------------------- | ------- |\n| id               | The id and meta of the item                                                              | 455:0   |\n| message-position | Message position (popup, tip or title)                                                   | popup   |\n| radius           | The radius of detection                                                                  | 70      |\n| detection        | The blocks can be detected (chest, trapped_chest, ender_chest, hopper, barrel, shulker)  | chest   |\n| repeat           | The time between each search in seconds (the lower it is, the more risk there is of lag) | 2       |\n\n### Messages\nTags:\n- ``{chestCount}`` to indicate the number of vaults around the player.\n- ``{chestDistance}`` to indicate the distance between player and the chest.\n- ``{lineBreak}`` to make a line break.\n \n| Property       | Content                                                                                                           |\n| -------------- | ----------------------------------------------------------------------------------------------------------------- |\n| no-chest       | No chest around you                                                                                               |\n| chest-detected | There are {chestCount} chest(s) near you...{lineBreak}The closest chest near you is at {chestDistance} block(s) ! |\n\n## Contribution\nYou can open a issue or a pull request.",
+  "readme_source_url": "https://github.com/Symphonia-Team/ChestFinder",
+  "icon_url": "https://raw.githubusercontent.com/Bluzzi/ChestFinder/2d25f96f2b9009513647cf510abaab41b0f2927d/icon-cf.png",
+  "featured": false,
+  "repo": "https://github.com/Symphonia-Team/ChestFinder",
+  "archive_repo": null,
+  "approved_release_tag": "r-2747",
+  "stars": 4,
+  "total_downloads": 5911,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.6.4-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Symphonia-Team"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/55858",
+  "versions": {
+    "stable": {
+      "version": "1.3",
+      "tag": "r-2747",
+      "published_at": null,
+      "downloads": 5394,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2747/chestfinder-1.3-r2747.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2747",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2747/chestfinder-1.3-r2747.phar"
+    },
+    {
+      "tag": "r-2722",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2722/chestfinder-1.2-r2722.phar"
+    },
+    {
+      "tag": "r-2622",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2622/chestfinder-1.1-r2622.phar"
+    },
+    {
+      "tag": "r-2608",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2608/chestfinder-1.0-r2608.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChestFinder",
+    "stable_release_id": 2747
+  }
+}

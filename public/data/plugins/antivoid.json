@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8276",
   "stars": 5,
-  "total_downloads": 13733,
+  "total_downloads": 14554,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-2932",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2932/antivoid-1.1.0-r2932.phar"
+    },
+    {
+      "tag": "r-2642",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2642/antivoid-1.0.0-r2642.phar"
     }
   ],
   "comments": {

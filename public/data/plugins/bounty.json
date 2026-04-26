@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-3200",
   "stars": 4,
-  "total_downloads": 3405,
+  "total_downloads": 3739,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -51,6 +51,16 @@
       "tag": "r-2757",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2757/bounty-1.1.1-r2757.phar"
+    },
+    {
+      "tag": "r-2672",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2672/bounty-1.1.0-r2672.phar"
+    },
+    {
+      "tag": "r-2645",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2645/bounty-1.0.3-r2645.phar"
     }
   ],
   "comments": {

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-4209",
   "stars": 4,
-  "total_downloads": 47966,
+  "total_downloads": 48956,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.2.0",
       "tag": "r-4209",
       "published_at": null,
-      "downloads": 37834,
+      "downloads": 37835,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4209/admintroll-1.2.0-r4209.phar"
     },
     "dev": null
@@ -49,6 +49,11 @@
       "tag": "r-2754",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2754/admintroll-1.1.0-r2754.phar"
+    },
+    {
+      "tag": "r-2737",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2737/admintroll-1.0.0-r2737.phar"
     }
   ],
   "comments": {

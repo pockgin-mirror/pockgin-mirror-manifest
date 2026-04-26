@@ -1,0 +1,63 @@
+{
+  "id": "sellall",
+  "name": "SellAll",
+  "author": "AndreasHGK",
+  "description": "Sell all items in your hand or all items in your inventory with the same type as in your hand",
+  "readme_markdown": "# SellAll\r\nSell all items in your hand or all items in your inventory with the same type as in your hand\r\nIt's really simple: just type **/sell all** if you want to send every block in your inventory that is of the same type as in your hand. type **/sell hand** if you just want to sell the stack if items in your hand. Do **/sell inventory** to sell all sellable items in your inventory!\r\n\r\nIf you want to add a group of items to sell at once, like /sell ores to sell all the ores in your inventory, you can do this by adding a new group in the config.\r\nYou just have to list all the item IDs. The item names will work too but it's not recommended as they need to be exact.\r\n\r\nThe plugin will base the prices on what you put in **config.yml**. just add the id and then the price you want to sell it for. Example: `100: 10`\r\nIf you changed the config while the server is running you can do /sell reload. If you don't have perms it will look like the subcommand doesn't exist.\r\n\r\nThe plugin will do the rest! Players need the `sellall.command` permission to use the /sell command.\r\n\r\nfrom 1.3.0:\r\nYou can also sell items with specific meta. For instance, if you want to sell lapis for $7 you need to add `'351:4':7`. The '' is very important!",
+  "readme_source_url": "https://github.com/AndreasHGK/SellAll",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/AndreasHGK/SellAll",
+  "archive_repo": null,
+  "approved_release_tag": "r-2566",
+  "stars": 3,
+  "total_downloads": 18638,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AndreasHGK"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/53154",
+  "versions": {
+    "stable": {
+      "version": "1.3.0",
+      "tag": "r-2566",
+      "published_at": null,
+      "downloads": 18638,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2566/sellall-1.3.0-r2566.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2566",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2566/sellall-1.3.0-r2566.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SellAll",
+    "stable_release_id": 2566
+  }
+}

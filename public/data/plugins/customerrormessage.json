@@ -1,0 +1,61 @@
+{
+  "id": "customerrormessage",
+  "name": "CustomErrorMessage",
+  "author": "cawloft",
+  "description": "A PocketMine plugin that shows customized message when a player is kicked because of an **internal server error**(caused by the server or plugins).",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.api/CustomErrorMessage)](https://poggit.pmmp.io/p/CustomErrorMessage)\n[![](https://poggit.pmmp.io/shield.dl.total/CustomErrorMessage)](https://poggit.pmmp.io/p/CustomErrorMessage)\n\n# CustomErrorMessage\n\nA PocketMine plugin that shows customized message when a player is kicked because of an **internal server error**(caused by the server or plugins).\n\n## Usage:\n\n - Install the plugin.\n - Edit config.yml located in plugin_data/CustomErrorMessage to change the message.\n - Reload/Restart your server.",
+  "readme_source_url": "https://github.com/cawloft/CustomErrorMessage",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/cawloft/CustomErrorMessage",
+  "archive_repo": null,
+  "approved_release_tag": "r-2577",
+  "stars": 5,
+  "total_downloads": 1760,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "cawloft"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-2577",
+      "published_at": null,
+      "downloads": 1760,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2577/customerrormessage-1.0.0-r2577.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2577",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2577/customerrormessage-1.0.0-r2577.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomErrorMessage",
+    "stable_release_id": 2577
+  }
+}

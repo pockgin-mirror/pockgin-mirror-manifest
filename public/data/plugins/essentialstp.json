@@ -1,0 +1,61 @@
+{
+  "id": "essentialstp",
+  "name": "essentialsTP",
+  "author": "poggit-orphanage",
+  "description": "EssentialsTP by ServerKart_Rod",
+  "readme_markdown": "# essentialsTP\nEssentialsTP by ServerKart_Rod",
+  "readme_source_url": "https://github.com/poggit-orphanage/essentialsTP",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/essentialsTP/e68cb72a59426247192b1ef2fcaa458aa468afe2/essentialstp.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/essentialsTP",
+  "archive_repo": null,
+  "approved_release_tag": "r-2729",
+  "stars": 3,
+  "total_downloads": 57385,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/55618",
+  "versions": {
+    "stable": {
+      "version": "1.2.2",
+      "tag": "r-2729",
+      "published_at": null,
+      "downloads": 57385,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2729/essentialstp-1.2.2-r2729.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2729",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2729/essentialstp-1.2.2-r2729.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "essentialsTP",
+    "stable_release_id": 2729
+  }
+}

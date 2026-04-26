@@ -1,0 +1,83 @@
+{
+  "id": "oreearn",
+  "name": "OreEarn",
+  "author": "SchdowNVIDIA",
+  "description": "OreEarn plugin, earn money easily by mining ores and stone.",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/OreEarn)](https://poggit.pmmp.io/p/OreEarn)\n[![](https://poggit.pmmp.io/shield.api/OreEarn)](https://poggit.pmmp.io/p/OreEarn)\n[![](https://poggit.pmmp.io/shield.dl.total/OreEarn)](https://poggit.pmmp.io/p/OreEarn)\n[![](https://img.shields.io/discord/323953253458903040.svg)](https://discord.gg/ekUFD8z)\n# OreEarn\nOreEarn plugin, earn money easily by mining ores and stone.\n\n# Download(s)\nOreEarn for PocketMine-MP Servers: https://poggit.pmmp.io/p/OreEarn/1.8.1\n\nOreEarn for NukkitX Servers: https://nukkitx.com/resources/oreearn.239/\n\nOreEarn for Spigot Servers (Ported by Mundschutziii): https://www.spigotmc.org/resources/oreearn.66859/\n\n## Wiki\nIf you need some help with setting up the plugin visit the wiki: https://github.com/SchdowNVIDIA/OreEarn/wiki but\nif you still need help join our [discord!](https://discord.gg/5kGgUbt)\n\n## Config\nWhat you can edit:\n* every earning per ore\n* every popup message\n\nmore settings:\n\n| name           | description                                                                                 | settings   | default |\n|----------------|---------------------------------------------------------------------------------------------|------------|---------|\n| ignoredWorlds | With this setting, you can disable OreEarn in worlds | [\"world\"] | [] |\n| ignoredDropWorlds | With this setting, you can ignore ore drops in worlds (good for mines or smth. like that) | [\"world\"] | [] |\n| fortuneFix | Disable or enable the built-in fortuneFix | true/false | true |\n| fortuneBonus      | Disable or enable the money bonus when you break an ore with a fortune enchantment.         | true/false | true   |\n| ignoreSilktouch | With this setting, you can disable or enable the bonus for silktouch tools                  | true/false | true    |\n| enablePopup    | Show a popup when a player is mining an ore. (you can edit every message in messages.yml)   | true/false | true    |\n\n## Fortune Fix\nThis Plugin includes a (not perfect) fix for fortune pickaxes\n\n## Plugins required:\n* EconomyAPI \n# Thanks to Zap-Hosting & JetBrains!\n## Zap-Hosting\nZap-Hosting.com is company hosting Gameservers, VPS, Rootservers and much more!\n\nThey gave me a Server for testing my open source projects!\n\nYou still need a cheap & good VPS or a strong Rootserver? Then follow the links below:\n\n(You can also use my code: Schdow-4273 to get a 10% discount for every product for EVER.)\n\n[VPS](https://zap-hosting.com/schdowvserver)\n\n[Rootserver](https://zap-hosting.com/schdowroot)\n## JetBrains\nThis plugin was made with JetBrains Software.",
+  "readme_source_url": "https://github.com/SchdowNVIDIA/OreEarn",
+  "icon_url": "https://raw.githubusercontent.com/SchdowNVIDIA/OreEarn/5bf3072393e68c947c7dda5f083b379856acd052/icon.png",
+  "featured": false,
+  "repo": "https://github.com/SchdowNVIDIA/OreEarn",
+  "archive_repo": null,
+  "approved_release_tag": "r-2607",
+  "stars": 5,
+  "total_downloads": 15596,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SchdowNVIDIA"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/56138",
+  "versions": {
+    "stable": {
+      "version": "1.8.1",
+      "tag": "r-2607",
+      "published_at": null,
+      "downloads": 14800,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2607/oreearn-1.8.1-r2607.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2607",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2607/oreearn-1.8.1-r2607.phar"
+    },
+    {
+      "tag": "r-2562",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2562/oreearn-1.8.0-r2562.phar"
+    },
+    {
+      "tag": "r-2532",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2532/oreearn-1.7.0-r2532.phar"
+    },
+    {
+      "tag": "r-2476",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2476/oreearn-1.6.0-r2476.phar"
+    },
+    {
+      "tag": "r-2459",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2459/oreearn-1.5.0-r2459.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "OreEarn",
+    "stable_release_id": 2607
+  }
+}

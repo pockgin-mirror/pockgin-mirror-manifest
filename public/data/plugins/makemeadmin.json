@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-3855",
   "stars": 4,
-  "total_downloads": 11305,
+  "total_downloads": 15987,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -46,6 +46,16 @@
       "tag": "r-3855",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-3855/makemeadmin-1.6.0-r3855.phar"
+    },
+    {
+      "tag": "r-2695",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2695/makemeadmin-1.5.2-r2695.phar"
+    },
+    {
+      "tag": "r-2425",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2425/makemeadmin-1.5.1-r2425.phar"
     }
   ],
   "comments": {

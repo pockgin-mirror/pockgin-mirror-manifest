@@ -1,0 +1,61 @@
+{
+  "id": "jukebox",
+  "name": "JukeBox",
+  "author": "JaxkDev",
+  "description": "JukeBox-pmmp",
+  "readme_markdown": "[![HitCount](http://hits.dwyl.io/Jackthehack21/JukeBox-pmmp.svg)]\n<a href=\"https://tiny.cc/JaxksDC\"><img src=\"https://discordapp.com/api/guilds/554059221847638040/embed.png\" alt=\"Discord server\"/></a>\n\n# JukeBox-pmmp\n\nA small plugin that implements the Jukebox and Records untill its in the core of pmmp !\n\n#### IMPORTANT INFO:\n>**For this plugin to function as intended, all mobile device users must download the 90mb DLC 'Music' free from the store in game (It is a one time download).**\n>*(Please do not make issues saying theres no sound, there is but you have to have the dlc)*\n\n## Special Thanks:\n_Thanks to the below for helping me testing in private, your help was massively appreciated._\n\n- Kevin ([@kevinishawesome](https://github.com/kevinishawesome))\n- DragonBlitz ([@DragonBlitz10](https://github.com/Dragonblitz10))\n\n- minecraft.gamepedia.com (For JukeBox icon)\n\n## Notice:\n___This is a freelance project and will not be constantly worked on, i do accept PR's and Feature requests though.___",
+  "readme_source_url": "https://github.com/JaxkDev/JukeBox-pmmp",
+  "icon_url": "https://raw.githubusercontent.com/jackthehack21/JukeBox-pmmp/c8f0b6047e8a2b1794d7552612ef97e1eeff1f8a/Jukebox.png",
+  "featured": false,
+  "repo": "https://github.com/JaxkDev/JukeBox-pmmp",
+  "archive_repo": null,
+  "approved_release_tag": "r-2603",
+  "stars": 4,
+  "total_downloads": 2917,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JaxkDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-2603",
+      "published_at": null,
+      "downloads": 2917,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2603/jukebox-1.0.1-r2603.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2603",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2603/jukebox-1.0.1-r2603.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "JukeBox",
+    "stable_release_id": 2603
+  }
+}

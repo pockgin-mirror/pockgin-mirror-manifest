@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6911",
   "stars": 3,
-  "total_downloads": 19737,
+  "total_downloads": 20182,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-2775",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2775/redskyblock-3.0.3-r2775.phar"
+    },
+    {
+      "tag": "r-2723",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2723/redskyblock-2.0.3-alpha-r2723.phar"
     }
   ],
   "comments": {

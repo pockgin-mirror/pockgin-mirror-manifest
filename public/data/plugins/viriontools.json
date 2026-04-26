@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9173",
   "stars": 5,
-  "total_downloads": 3042,
+  "total_downloads": 3188,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-2935",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2935/viriontools-3.2.0-r2935.phar"
+    },
+    {
+      "tag": "r-2660",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2660/viriontools-3.1.0-r2660.phar"
     }
   ],
   "comments": {

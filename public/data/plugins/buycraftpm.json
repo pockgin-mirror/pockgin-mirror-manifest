@@ -1,0 +1,61 @@
+{
+  "id": "buycraftpm",
+  "name": "BuycraftPM",
+  "author": "poggit-orphanage",
+  "description": "BuycraftPM is the official port of the Buycraft plugin to PocketMine-MP. BuycraftPM closely follows BuycraftX in both",
+  "readme_markdown": "# BuycraftPM\n\nBuycraftPM is the official port of the Buycraft plugin to PocketMine-MP. BuycraftPM closely follows BuycraftX in both\nfunctionality and behavior as much as possible.\n\n## Contributing\n\nWe welcome contributions from the community. Please refer to the CONTRIBUTING.md file for more details. By submitting code to us, you agree to the \nterms set out in the CONTRIBUTING.md file\n\n\n## Compatibility\n\nWe are committed to making sure that BuycraftPM works on as many PocketMine-MP forks as reasonably possible. The Buycraft\nteam tests and ensures that full functionality for BuycraftPM is available on **PocketMine-MP**, **ClearSky** and **Genisys**.\n\nOther forks may work, but are not tested by Buycraft and you may be unable to obtain support for issues that arise.\n\n## Building the plugin\n\nTo build the plugin, run `./build-plugin.sh` on any *nix host (OS X and Linux are tested by us).\n\n## Support\nIf you are a Buycraft customer and you need any assistance with this plugin, please contact our support team through your Buycraft account.",
+  "readme_source_url": "https://github.com/poggit-orphanage/BuycraftPM",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/BuycraftPM/d9f2525f0a5021b536c11cab5509bb8ccd57dd11/icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/BuycraftPM",
+  "archive_repo": null,
+  "approved_release_tag": "r-2730",
+  "stars": 4,
+  "total_downloads": 3352,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/55624",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-2730",
+      "published_at": null,
+      "downloads": 3352,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2730/buycraftpm-2.0.1-r2730.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-2730",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2730/buycraftpm-2.0.1-r2730.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BuycraftPM",
+    "stable_release_id": 2730
+  }
+}
