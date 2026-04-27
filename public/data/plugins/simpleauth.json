@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1380",
   "stars": 2,
-  "total_downloads": 7725,
+  "total_downloads": 8827,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -36,7 +36,7 @@
       "version": "2.1.2-7",
       "tag": "r-1380",
       "published_at": null,
-      "downloads": 7725,
+      "downloads": 7726,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1380/simpleauth-2.1.2-7-r1380.phar"
     },
     "dev": null
@@ -46,6 +46,11 @@
       "tag": "r-1380",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1380/simpleauth-2.1.2-7-r1380.phar"
+    },
+    {
+      "tag": "r-1070",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1070/simpleauth-2.1.2-6-r1070.phar"
     }
   ],
   "comments": {

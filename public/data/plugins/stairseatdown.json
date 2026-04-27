@@ -1,0 +1,61 @@
+{
+  "id": "stairseatdown",
+  "name": "StairSeatDown",
+  "author": "gamesukimanIRS",
+  "description": "It is a plug-in that will allow you to sit downstairs with a double tap on the stairs.",
+  "readme_markdown": "<p>It is a plug-in that will allow you to sit downstairs with a double tap on the stairs.<br>\nI can not sit except when I do not have anything in my hand so as not to hinder the building.<br>\nYou can change the message when sitting from message.yml.<br>\nIt is a derived plug-in of PmChair.</p>",
+  "readme_source_url": "https://poggit.pmmp.io/r/21085",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/gamesukimanIRS/StairSeatDown",
+  "archive_repo": null,
+  "approved_release_tag": "r-1005",
+  "stars": 5,
+  "total_downloads": 1699,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA9-3.0.0-ALPHA9"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "gamesukimanIRS"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-1005",
+      "published_at": null,
+      "downloads": 1699,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1005/stairseatdown-1.0.0-r1005.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1005",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1005/stairseatdown-1.0.0-r1005.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "StairSeatDown",
+    "stable_release_id": 1005
+  }
+}

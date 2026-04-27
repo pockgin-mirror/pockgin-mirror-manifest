@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1619",
   "stars": 4,
-  "total_downloads": 12128,
+  "total_downloads": 12810,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,16 @@
       "tag": "r-1417",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1417/sheep-5.2.2-r1417.phar"
+    },
+    {
+      "tag": "r-1197",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1197/sheep-5.2.1-r1197.phar"
+    },
+    {
+      "tag": "r-1001",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1001/sheep-5.1.0-r1001.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "mie-converter",
+  "name": "MIE_Converter",
+  "author": "FaigerSYS",
+  "description": "This repository contains some plugins:",
+  "readme_markdown": "### This repository contains some plugins:\n\nPlugin|Description\n------|-----------\n[MapImageEngine](https://github.com/FaigerSYS/MapImageEngine/tree/master/MapImageEngine)|Image engine for MCPE\nMIE_Animations|Animated images (not soon)\n[MIE_Protector](https://github.com/FaigerSYS/MapImageEngine/tree/master/MIE_Protector)|Addon for MapImageEngine to protect the image (frame) from rotation and destruction\n[MIE_Converter](https://github.com/FaigerSYS/MapImageEngine/tree/master/MIE_Converter)|Addon for MapImageEngine to convert images to .mie format\n\nI can not translate the plugin into all languages. I can also have grammatical mistakes in English, so any \"language\" contribution is welcomed :)\n\n## Best users\n|#|User|Shox's|\n|---|---|---|\n|1|Encritary|500|\n|2|Yexeed|125|",
+  "readme_source_url": "https://github.com/FaigerSYS/MapImageEngine",
+  "icon_url": "https://raw.githubusercontent.com/FaigerSYS/MapImageEngine/36dd8f4dbecad41c392978c0748bd07840d0ec53/MIE_Converter/icon.png",
+  "featured": false,
+  "repo": "https://github.com/FaigerSYS/MapImageEngine",
+  "archive_repo": null,
+  "approved_release_tag": "r-1213",
+  "stars": 3,
+  "total_downloads": 907,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA7-3.0.0-ALPHA11"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "FaigerSYS"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-1213",
+      "published_at": null,
+      "downloads": 907,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1213/mie_converter-1.0.2-r1213.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1213",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1213/mie_converter-1.0.2-r1213.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MIE_Converter",
+    "stable_release_id": 1213
+  }
+}

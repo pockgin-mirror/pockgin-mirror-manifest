@@ -1,0 +1,61 @@
+{
+  "id": "pexprotection",
+  "name": "PEXProtection",
+  "author": "RevivalPMMP",
+  "description": "An addon plugin for the PureEntitiesX plugin.",
+  "readme_markdown": "[![Poggit-CI](https://poggit.pmmp.io/ci.badge/RevivalPMMP/PEXProtection/PEXProtection)](https://poggit.pmmp.io/ci/RevivalPMMP/PEXProtection/PEXProtection)\n# PEXProtection\nAn addon plugin for the PureEntitiesX plugin.\nGet the latest official release here: https://github.com/RevivalPMMP/PEXProtection/releases\n\n## What is this plugin?\nThis plugin adds a way for Operators to change the way monsters are spawning automatically. Monsters can be blocked from spawning on certain places by adding a center and giving it a radius to block monster spawning within. This can be modified, removed and added using the centers.yml file.\n\n## How does it work?\nTo start, you can use the command /pexprotection, or using the alias /pexp. To make a valid center protection block you need to follow this format when typing the command:     \n\n    /pexprotection add <name> <radius>\n    \n    To disable spawning in a whole world, you can use:\n    \n    /pexprotection disableworld <world>\n    \nAfter using this command, the plugin will tell you to select a block. You can select a block by tapping it, which will then be selected as the center block for the protection radius. When you've done that... You're done! Have fun!\n\n## Support\nYou can get support on our [Forums](http://revivalpmmpforums.gq), please make sure you are following the guidelines and rules while posting \n\n## What are the permissions and commands?\n\n    Commands:\n\n    pexprotection:\n        description: PEXProtection command\n        usage: /pexprotection <add/del/disableworld>\n        aliases: [pexp]\n        permission: pexprotection.command\n\n    Permissions:      \n    \n    pexprotection.command:\n        default: op\n        description: Permission to use all PexProtection commands",
+  "readme_source_url": "https://github.com/RevivalPMMP/PEXProtection",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/RevivalPMMP/PEXProtection",
+  "archive_repo": null,
+  "approved_release_tag": "r-1051",
+  "stars": 0,
+  "total_downloads": 294,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA9-3.0.0-ALPHA11"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "RevivalPMMP"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/22785",
+  "versions": {
+    "stable": {
+      "version": "0.1.2",
+      "tag": "r-1051",
+      "published_at": null,
+      "downloads": 294,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1051/pexprotection-0.1.2-r1051.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1051",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1051/pexprotection-0.1.2-r1051.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PEXProtection",
+    "stable_release_id": 1051
+  }
+}

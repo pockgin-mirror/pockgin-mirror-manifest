@@ -1,0 +1,63 @@
+{
+  "id": "autominereset",
+  "name": "AutoMineReset",
+  "author": "AndreasHGK",
+  "description": "A timed reset for the MineReset plugin on PocketMine-MP!",
+  "readme_markdown": "# AutoMineReset\nA timed reset for the MineReset plugin on PocketMine-MP!\n\n[![](https://poggit.pmmp.io/shield.state/AutoMineReset)](https://poggit.pmmp.io/p/AutoMineReset)\n[![](https://poggit.pmmp.io/shield.api/AutoMineReset)](https://poggit.pmmp.io/p/AutoMineReset)\n[![](https://poggit.pmmp.io/shield.dl.total/AutoMineReset)](https://poggit.pmmp.io/p/AutoMineReset)\n\nThank you for the support!\n\n## Dependecies\nFor this to work, you need to have **MineReset** installed!\n\n## Commands\nDo **/mr** as shortcut for /mine reset-all\nUses the same permission as in MineReset. (**minereset.command.resetall**)\nDo **/autoreset** to enable/disable automatic resetting of mines.\nUses the permission: **amr.autoreset**\n\n## Config\nYou can set your preferred autoreset time in the config.\nYou can also stop the plugin from resetting if there are no players on in the config.\n\nMore features will be added in the future!\n\n### Plans for the future\nI'm planning to add a few more things for now:\nI will make /mr reset all mines but when you do /mr [minename] it will reset that mine!\nI will make it so that a mine automaticly resets when it has 100% air or a specified percentage in the config.\n\n## Credits\nDeveloped by: **Andreashgk**\n\nMineReset by: **Falkirks**",
+  "readme_source_url": "https://github.com/AndreasHGK/AutoMineReset",
+  "icon_url": "https://raw.githubusercontent.com/AndreasHGK/AutoMineReset/defed34973f0d2cd799b6456f1628922c90e6ba0/minecraft_excellence_icon_by_go0rum-d8j29u3.png",
+  "featured": false,
+  "repo": "https://github.com/AndreasHGK/AutoMineReset",
+  "archive_repo": null,
+  "approved_release_tag": "r-1158",
+  "stars": 2,
+  "total_downloads": 8698,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA7-3.0.0-ALPHA10"
+  ],
+  "dependencies": {
+    "required": [
+      "MineReset"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AndreasHGK"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/24287",
+  "versions": {
+    "stable": {
+      "version": "0.2.4",
+      "tag": "r-1158",
+      "published_at": null,
+      "downloads": 8698,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1158/autominereset-0.2.4-r1158.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1158",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1158/autominereset-0.2.4-r1158.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AutoMineReset",
+    "stable_release_id": 1158
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1821",
   "stars": 3,
-  "total_downloads": 32076,
+  "total_downloads": 33303,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-1821",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1821/minereset-3.2.0-r1821.phar"
+    },
+    {
+      "tag": "r-1189",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1189/minereset-3.1.0-r1189.phar"
     }
   ],
   "comments": {

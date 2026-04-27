@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1628",
   "stars": 4,
-  "total_downloads": 11730,
+  "total_downloads": 12010,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-1249",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1249/nohunger-1.0.1-r1249.phar"
+    },
+    {
+      "tag": "r-1065",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1065/nohunger-1.0.0-r1065.phar"
     }
   ],
   "comments": {

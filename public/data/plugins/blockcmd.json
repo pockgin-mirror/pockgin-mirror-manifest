@@ -1,0 +1,61 @@
+{
+  "id": "blockcmd",
+  "name": "BlockCMD",
+  "author": "kenygamer",
+  "description": "A PocketMine-MP plugin to block certain commands from being used by players in your server.",
+  "readme_markdown": "<h1>\n<a id=\"user-content-blockcmd\" class=\"anchor\" href=\"#blockcmd\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>BlockCMD</h1>\n<p><a href=\"https://camo.githubusercontent.com/8ed09a9983090b953171e49846060ae26dda6296/687474703a2f2f697369746d61696e7461696e65642e636f6d2f62616467652f7265736f6c7574696f6e2f6b656e7967616d65722f426c6f636b434d442e737667\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/8ed09a9983090b953171e49846060ae26dda6296/687474703a2f2f697369746d61696e7461696e65642e636f6d2f62616467652f7265736f6c7574696f6e2f6b656e7967616d65722f426c6f636b434d442e737667\" alt=\"\" data-canonical-src=\"http://isitmaintained.com/badge/resolution/kenygamer/BlockCMD.svg\" style=\"max-width:100%;\"></a>\n<a href=\"https://camo.githubusercontent.com/608916ef7ce15a12d07172e8fac0b77de413edf8/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f6b656e7967616d65722f426c6f636b434d442f616c6c2e737667\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/608916ef7ce15a12d07172e8fac0b77de413edf8/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f6b656e7967616d65722f426c6f636b434d442f616c6c2e737667\" alt=\"\" data-canonical-src=\"https://img.shields.io/github/release/kenygamer/BlockCMD/all.svg\" style=\"max-width:100%;\"></a>\n<a href=\"https://camo.githubusercontent.com/2ed45e81bbdc5a3c99fcd8d301cd44735b1c62ed/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f6b656e7967616d65722f426c6f636b434d442f746f74616c2e737667\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/2ed45e81bbdc5a3c99fcd8d301cd44735b1c62ed/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f6b656e7967616d65722f426c6f636b434d442f746f74616c2e737667\" alt=\"\" data-canonical-src=\"https://img.shields.io/github/downloads/kenygamer/BlockCMD/total.svg\" style=\"max-width:100%;\"></a></p>\n<p>A PocketMine-MP plugin to block certain commands from being used by players in your server.</p>\n<h3>\n<a id=\"user-content-how-to-authorize-players-to-use-blocked-commands\" class=\"anchor\" href=\"#how-to-authorize-players-to-use-blocked-commands\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How to authorize players to use blocked commands?</h3>\n<p>An operator blocked the /example command. Only players with the <code>blockcmd.access</code> or <code>blockcmd.access.example</code> permission node will be able to use it.</p>\n<h2>\n<a id=\"user-content-commands\" class=\"anchor\" href=\"#commands\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Commands</h2>\n<table>\n<thead>\n<tr>\n<th>Command</th>\n<th>Usage</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>/blockcmd</code></td>\n<td><code>/blockcmd &lt;add|list|remove&gt;</code></td>\n<td>Allows you to manage blocked commands.</td>\n</tr>\n</tbody>\n</table>\n<h2>\n<a id=\"user-content-permissions\" class=\"anchor\" href=\"#permissions\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Permissions</h2>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-ent\">blockcmd</span>:\n <span class=\"pl-ent\">description</span>: <span class=\"pl-s\">Allows access to all BlockCMD features.</span>\n <span class=\"pl-ent\">default</span>: <span class=\"pl-c1\">false</span>\n <span class=\"pl-ent\">children</span>:\n  <span class=\"pl-ent\">blockcmd.access</span>:\n   <span class=\"pl-ent\">description</span>: <span class=\"pl-s\">Allows access to use all blocked commands.</span>\n   <span class=\"pl-ent\">default</span>: <span class=\"pl-c1\">false</span>\n  <span class=\"pl-ent\">blockcmd.command</span>:\n   <span class=\"pl-ent\">description</span>: <span class=\"pl-s\">Allows access to all BlockCMD commands.</span>\n   <span class=\"pl-ent\">default</span>: <span class=\"pl-s\">op</span>\n   <span class=\"pl-ent\">children</span>:\n    <span class=\"pl-ent\">blockcmd.command.blockcmd</span>:\n     <span class=\"pl-ent\">description</span>: <span class=\"pl-s\">Allows access to the blockcmd command.</span>\n     <span class=\"pl-ent\">default</span>: <span class=\"pl-s\">op</span>\n     <span class=\"pl-ent\">children</span>:\n      <span class=\"pl-ent\">blockcmd.command.blockcmd.add</span>:\n       <span class=\"pl-ent\">description</span>: <span class=\"pl-s\">Allows access to the BlockCMD add subcommand.</span>\n       <span class=\"pl-ent\">default</span>: <span class=\"pl-s\">op</span>\n      <span class=\"pl-ent\">blockcmd.command.blockcmd.list</span>:\n       <span class=\"pl-ent\">description</span>: <span class=\"pl-s\">Allows access to the BlockCMD list subcommand.</span>\n       <span class=\"pl-ent\">default</span>: <span class=\"pl-s\">op</span>\n      <span class=\"pl-ent\">blockcmd.command.blockcmd.remove</span>:\n       <span class=\"pl-ent\">description</span>: <span class=\"pl-s\">Allows access to the BlockCMD remove subcommand.</span>\n       <span class=\"pl-ent\">default</span>: <span class=\"pl-s\">op</span></pre></div>\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/22883",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/kenygamer/BlockCMD",
+  "archive_repo": null,
+  "approved_release_tag": "r-1058",
+  "stars": 5,
+  "total_downloads": 4034,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA10-3.0.0-ALPHA11"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "kenygamer"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0-beta",
+      "tag": "r-1058",
+      "published_at": null,
+      "downloads": 4034,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1058/blockcmd-1.0.0-beta-r1058.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1058",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1058/blockcmd-1.0.0-beta-r1058.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BlockCMD",
+    "stable_release_id": 1058
+  }
+}

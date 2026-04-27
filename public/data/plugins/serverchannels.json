@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1655",
   "stars": 5,
-  "total_downloads": 2381,
+  "total_downloads": 2513,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-1319",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1319/serverchannels-2.2-r1319.phar"
+    },
+    {
+      "tag": "r-1145",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1145/serverchannels-2.1-r1145.phar"
     }
   ],
   "comments": {

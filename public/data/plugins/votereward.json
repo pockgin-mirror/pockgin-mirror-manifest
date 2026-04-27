@@ -1,0 +1,61 @@
+{
+  "id": "votereward",
+  "name": "VoteReward",
+  "author": "poggit-orphanage",
+  "description": "The Original Voting plugin by LDX",
+  "readme_markdown": "The Original Voting plugin by LDX\n---------------------------------\n\nVoteReward is the original voting plugin for PocketMine-MP servers.\nWith the latest update, the plugin now works with any server lists which choose to comply\nwith VoteReward's API standards. You can now use multiple server lists at the same time.\n\nTake a look at the official VoteReward certified server list repository to find some lists\nto register your server on. The more lists you register your server on and configure VoteReward to use,\nthe more players you'll get! Simply register your server on any certified lists you choose,\nfind and download their custom generated VRC files for your server,\ndrop them in your VoteReward/Lists/ folder, type /vote reload,\nand watch the players start flooding in!\n\nCommands\n--------\n\n/vote - Checks to see if you've voted on any lists, and if you have, rewards you for them.\n\n/vote reload - Reloads your configuration file and rescans your Lists folder.\n\nVersion 3.0\n-----------\n\nIt's finally here! After a long wait, and many, many hours of hard work, VoteReward 3.0 is ready to roll! Head to your favorite server list now and see if they've added a VRC file download. When you find a VRC file, simply drop it in your VoteReward/Lists/ folder, and execute the command /vote reload to watch your players start getting rewarded for voting for your server! You can visit the official VoteReward website here (http://votereward.mcpe.me/), you can find a list of certified...",
+  "readme_source_url": "https://github.com/poggit-orphanage/VoteReward",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/VoteReward/bd9876dd786546919ece18d5e9bb8b8c80557e19/icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/VoteReward",
+  "archive_repo": null,
+  "approved_release_tag": "r-1079",
+  "stars": 3,
+  "total_downloads": 5043,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA7-3.0.0-ALPHA11"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/23134",
+  "versions": {
+    "stable": {
+      "version": "3.0.2-5",
+      "tag": "r-1079",
+      "published_at": null,
+      "downloads": 5043,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1079/votereward-3.0.2-5-r1079.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1079",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1079/votereward-3.0.2-5-r1079.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VoteReward",
+    "stable_release_id": 1079
+  }
+}

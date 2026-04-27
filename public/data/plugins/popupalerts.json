@@ -1,0 +1,63 @@
+{
+  "id": "popupalerts",
+  "name": "PopupAlerts",
+  "author": "poggit-orphanage",
+  "description": "A PocketMine-MP plugin to show alerts in popups using CustomAlertsAPI",
+  "readme_markdown": "![start2](https://cloud.githubusercontent.com/assets/10303538/6315586/9463fa5c-ba06-11e4-8f30-ce7d8219c27d.png)\n\n# PopupAlerts\nA PocketMine-MP plugin to show alerts in popups using CustomAlertsAPI\n\n## Category\n\nPocketMine-MP plugins\n\n## Requirements\n\nPocketMine-MP Alpha_1.5 API 1.12.0<br>\n**Dependency Plugins:** CustomAlerts v1.6 API 1.2\n\n## Overview\n\n**PopupAlerts** is a CustomAlerts extension which allows you to show alerts (like join/leave messages, etc...) in popups!\n\n**EvolSoft Website:** http://www.evolsoft.tk\n\n\n***This Plugin uses PocketMine 1.5 API. You can't install it on old versions of PocketMine and this plugin works only with MCPE v0.11.0 and later.***<br>\n***This Plugin is a CustomAlerts extension and uses CustomAlerts API 1.2. THIS MEANS THAT YOU NEED TO INSTALL CustomAlerts v1.6 PLUGIN TO USE PopupAlerts***\n\nMessages can be configured simply from default CustomAlerts config.yml<br>\nPlease read the documentation to see how to configure PopupAlerts\n\n## Documentation \n\n**Configuration (config.yml):**\n\n```yaml\n---\n#Message text must be configured from default CustomAlerts config.yml file\n#Join messages\nJoin:\n  #The duration of popup\n  duration: 3\n  #Show join messages in popups\n  show-popup: true\n  #Hide default join messages (they won't be displayed in chat but only on popups)\n  hide-default: true\n#Quit messages\nQuit:\n  #The duration of popup\n  duration: 3\n  #Show quit messages in popups\n  show-popup: true\n  #Hide default quit messages (they won't be displayed in chat but only on popups)\n  hide-default: true\n#World Change messages (they are displayed only if they are enabled in CustomAlerts configuration)\nWorldChange:\n  #The duration of popup\n  duration: 3\n  #Show world change messages in popups\n  show-popup: true\n  #Hide default world change messages (they won't be displayed in chat but only on popups)\n  hide-default: true\n#Death messages\nDeath:\n  #The duration of popup\n  duration: 3\n  #Show death messages in popups (Remember that they can't be displayed from the victim)\n  show-popup: true\n  #Hide default death messages (they won't be displayed in chat but only on popups)\n  hide-default: true\n...\n```",
+  "readme_source_url": "https://github.com/poggit-orphanage/PopupAlerts",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/PopupAlerts/9d4b2edbaf3a9cbf3fc75b09aab52b3107783364/icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/PopupAlerts",
+  "archive_repo": null,
+  "approved_release_tag": "r-1086",
+  "stars": 0,
+  "total_downloads": 299,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA7-3.0.0-ALPHA11"
+  ],
+  "dependencies": {
+    "required": [
+      "CustomAlerts"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/23169",
+  "versions": {
+    "stable": {
+      "version": "1.4.1-2",
+      "tag": "r-1086",
+      "published_at": null,
+      "downloads": 299,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1086/popupalerts-1.4.1-2-r1086.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1086",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1086/popupalerts-1.4.1-2-r1086.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PopupAlerts",
+    "stable_release_id": 1086
+  }
+}

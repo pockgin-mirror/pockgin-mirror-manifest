@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1688",
   "stars": 4,
-  "total_downloads": 17300,
+  "total_downloads": 18323,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,16 @@
       "tag": "r-1688",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1688/signserverstats-1.1.1-r1688.phar"
+    },
+    {
+      "tag": "r-1031",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1031/signserverstats-1.1.0-0.alpha11-r1031.phar"
+    },
+    {
+      "tag": "r-1023",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1023/signserverstats-1.1.0-0.alpha10-r1023.phar"
     }
   ],
   "comments": {

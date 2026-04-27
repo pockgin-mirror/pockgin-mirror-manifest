@@ -1,0 +1,61 @@
+{
+  "id": "xyz",
+  "name": "XYZ",
+  "author": "poggit-orphanage",
+  "description": "Here is just a very basic coordinates plugin for the new API.",
+  "readme_markdown": "XYZ\n\nHere is just a very basic coordinates plugin for the new API.\n\ngoing through the process of learning PHP and the new API, so I figured I'd grab the lowest hanging fruit ;)\n\nIf anyone wants to view it the source is available on the documentation page.\n\n\n\nI may implement some other features such as:\n\nLog/Recall 10 Coordinates:\n\n`/xyz save <0-9> - store current coordinates`\n\n`/xyz <0-9> - recall stored coordinates`\n\nDeath Coordinates:\n\n`/xyz death - will recall coordinates where you last died`\n\nGet User Coords for Ops:\n\n`/xyz get <username>`\n\nNeed to learn yml or sqlite save/read functions first and more about permission structures and how to tie in methods.\n\nHope you enjoy.\n\ncheers, -u.",
+  "readme_source_url": "https://github.com/poggit-orphanage/XYZ",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/XYZ/0a003140f1ddf4d2363e8d7621fcee2ca2c29d85/icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/XYZ",
+  "archive_repo": null,
+  "approved_release_tag": "r-1077",
+  "stars": 0,
+  "total_downloads": 5936,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA7-3.0.0-ALPHA11"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/23123",
+  "versions": {
+    "stable": {
+      "version": "1.0.6",
+      "tag": "r-1077",
+      "published_at": null,
+      "downloads": 5936,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1077/xyz-1.0.6-r1077.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1077",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1077/xyz-1.0.6-r1077.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "XYZ",
+    "stable_release_id": 1077
+  }
+}

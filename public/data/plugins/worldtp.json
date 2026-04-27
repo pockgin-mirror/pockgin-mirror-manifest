@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1814",
   "stars": 4,
-  "total_downloads": 8389,
+  "total_downloads": 9013,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -54,6 +54,16 @@
       "tag": "r-1740",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1740/worldtp-1.1.0-r1740.phar"
+    },
+    {
+      "tag": "r-1182",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1182/worldtp-1.0.2-r1182.phar"
+    },
+    {
+      "tag": "r-1000",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1000/worldtp-1.0.1-r1000.phar"
     }
   ],
   "comments": {

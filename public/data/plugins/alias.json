@@ -1,0 +1,63 @@
+{
+  "id": "alias",
+  "name": "Alias",
+  "author": "poggit-orphanage",
+  "description": "Plugin for PocketMine that keeps track of all the usernames a player uses",
+  "readme_markdown": "Alias\n=====\n\nPlugin for PocketMine that keeps track of all the usernames a player uses",
+  "readme_source_url": "https://github.com/poggit-orphanage/Alias",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/Alias/627863b3fbbe205744d1d1393d671f3c85cd47e4/icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/Alias",
+  "archive_repo": null,
+  "approved_release_tag": "r-1073",
+  "stars": 1,
+  "total_downloads": 3384,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA7-3.0.0-ALPHA11"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "SimpleAuth"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/23103",
+  "versions": {
+    "stable": {
+      "version": "1.2.1",
+      "tag": "r-1073",
+      "published_at": null,
+      "downloads": 3384,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1073/alias-1.2.1-r1073.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1073",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1073/alias-1.2.1-r1073.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Alias",
+    "stable_release_id": 1073
+  }
+}

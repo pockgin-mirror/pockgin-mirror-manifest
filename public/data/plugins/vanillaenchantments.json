@@ -1,0 +1,61 @@
+{
+  "id": "vanillaenchantments",
+  "name": "VanillaEnchantments",
+  "author": "TheAz928",
+  "description": "VanillaEnchants",
+  "readme_markdown": "# VanillaEnchants\nEver wanted to have working Enchants on your PocketMine-MP server? Well now you can!\n\n# How to install\nDrop the phar file into plugins folder as usual, then just reload server\n\n# Implemented Enchantments\n\n- [x] Protection\n- [x] Fire protection\n- [x] Feather falling\n- [x] Blast protection\n- [x] Projectile protection\n- [x] Thorns\n- [x] Respiration\n- [x] Depth strider\n- [x] Aqua affinity\n- [x] Sharpness\n- [x] Smite\n- [x] Bane of athropods\n- [x] Knockback\n- [x] Fire aspect\n- [x] Looting\n- [x] Efficiency\n- [x] Silk touch\n- [x] Unbreaking\n- [x] Fortune\n- [x] Power\n- [x] Punch\n- [x] Flame\n- [x] Infinity\n- [ ] Luck of the sea\n- [ ] Lure\n- [ ] Frost walker\n- [x] Mending\n\n# For support\nTwitter: @TheAz928",
+  "readme_source_url": "https://github.com/TheAz928/VanillaEnchantments",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/TheAz928/VanillaEnchantments",
+  "archive_repo": null,
+  "approved_release_tag": "r-1063",
+  "stars": 3,
+  "total_downloads": 1788,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA9-3.0.0-ALPHA11"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TheAz928"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/22985",
+  "versions": {
+    "stable": {
+      "version": "3.0.0-ALPHA11",
+      "tag": "r-1063",
+      "published_at": null,
+      "downloads": 1788,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1063/vanillaenchantments-3.0.0-alpha11-r1063.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1063",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1063/vanillaenchantments-3.0.0-alpha11-r1063.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VanillaEnchantments",
+    "stable_release_id": 1063
+  }
+}

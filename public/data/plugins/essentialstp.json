@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-2729",
   "stars": 3,
-  "total_downloads": 65778,
+  "total_downloads": 66450,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.2.2",
       "tag": "r-2729",
       "published_at": null,
-      "downloads": 57388,
+      "downloads": 57389,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2729/essentialstp-1.2.2-r2729.phar"
     },
     "dev": null
@@ -54,6 +54,11 @@
       "tag": "r-1425",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1425/essentialstp-1.2.0-8-r1425.phar"
+    },
+    {
+      "tag": "r-1072",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1072/essentialstp-1.2.0-6-r1072.phar"
     }
   ],
   "comments": {

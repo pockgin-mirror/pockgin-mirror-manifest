@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1401",
   "stars": 0,
-  "total_downloads": 3844,
+  "total_downloads": 4021,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -36,7 +36,7 @@
       "version": "1.0.3-1",
       "tag": "r-1401",
       "published_at": null,
-      "downloads": 3844,
+      "downloads": 3845,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1401/translate-1.0.3-1-r1401.phar"
     },
     "dev": null
@@ -46,6 +46,11 @@
       "tag": "r-1401",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1401/translate-1.0.3-1-r1401.phar"
+    },
+    {
+      "tag": "r-1106",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1106/translate-1.0.3-r1106.phar"
     }
   ],
   "comments": {

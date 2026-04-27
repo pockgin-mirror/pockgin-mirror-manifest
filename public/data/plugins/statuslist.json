@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1690",
   "stars": 0,
-  "total_downloads": 2250,
+  "total_downloads": 2437,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -46,6 +46,11 @@
       "tag": "r-1690",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1690/statuslist-1.1.1-r1690.phar"
+    },
+    {
+      "tag": "r-1032",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1032/statuslist-1.1.0-0.alpha11-r1032.phar"
     }
   ],
   "comments": {

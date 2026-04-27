@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-8212",
   "stars": 5,
-  "total_downloads": 10155,
+  "total_downloads": 10257,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-1279",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1279/devirion-1.2.5-alpha12-r1279.phar"
+    },
+    {
+      "tag": "r-1177",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1177/devirion-1.2.4-r1177.phar"
     }
   ],
   "comments": {

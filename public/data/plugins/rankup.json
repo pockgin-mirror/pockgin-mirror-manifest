@@ -1,0 +1,64 @@
+{
+  "id": "rankup",
+  "name": "RankUp",
+  "author": "Falkirks",
+  "description": "RankUp is a comically full-featured prison ranking plugin. It allows players upgrade their ranking using a certain amount of money. To manage ranks, RankUp comes with a built in...",
+  "readme_markdown": "RankUp\n========\nRankUp is a comically full-featured prison ranking plugin. It allows players upgrade their ranking using a certain amount of money. To manage ranks, RankUp comes with a built in group manager called DoesGroups. You can also use PurePerms to manage ranks. RankUp comes with support for both EconomyS and PocketMoney for a currency.\n\n## Permissions\n* **rankup.rankup** allows a player to use /rankup.\n* **rankup.admin** does nothing now but will be used in a future release.\n* **rankup.groups** do **NOT** do anything to it.\n\n## Developed by\n* @Falkirks\n* @Bamuel\n* @Darunia18",
+  "readme_source_url": "https://github.com/Falkirks/RankUp",
+  "icon_url": "https://raw.githubusercontent.com/Falkirks/RankUp/7c943c6ec3cc1566167efe88e90443ccbce59d78/meta/rankup.png",
+  "featured": false,
+  "repo": "https://github.com/Falkirks/RankUp",
+  "archive_repo": null,
+  "approved_release_tag": "r-1187",
+  "stars": 1,
+  "total_downloads": 11454,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA11-3.0.0-ALPHA11"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "PurePerms",
+      "EconomyAPI"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Falkirks"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.4.0",
+      "tag": "r-1187",
+      "published_at": null,
+      "downloads": 11454,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1187/rankup-0.4.0-r1187.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1187",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1187/rankup-0.4.0-r1187.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RankUp",
+    "stable_release_id": 1187
+  }
+}
