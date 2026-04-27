@@ -1,0 +1,61 @@
+{
+  "id": "gears",
+  "name": "Gears",
+  "author": "InfinityGamers",
+  "description": "Tired of same old boring kits? try this!",
+  "readme_markdown": "## Gears\n[![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/uctHyRD)<br>\nTired of same old boring kits? try this!<br/><br/>\n\n### How to use:\n\nEvery kit has it's own ability, which you can do by doing certain things like right clicking<br/>\nan item in hand or hitting another player, these are called \"modes\".<br/>\nEach kit can also be configured to a custom cooldown, items, effects, commands, etc...<br/>\nAll kits that come with this plugin require a special configurable item to activate the ability, except for iceman.<br/><br/>\n\n### Special Kits List:\n+ Acrobat:\n  + Mode: left/right click\n  + Custom Cooldown: yes\n  + Custom Deactivate Time: no \n  + Description: Jump high in the air, being able to escape from enemies. Takes no fall damage.\n+ Bartender:\n  + Mode: damage player\n  + Custom Cooldown: yes\n  + Custom Deactivate Time: yes\n  + Description: Gives target nausea effect to custom amount of seconds.\n+ Berserker:\n  + Mode: right click\n  + Custom Cooldown: yes\n  + Custom Deactivate Time: yes\n  + Description: Grows player 2 times their own size and the damage is doubled.\n+ Iceman:\n  + Mode: move\n  + Custom Cooldown: no\n  + Custom Deactivate Time: no\n  + Description: Creates a 3x1x3 ice path when player walks on water.\n+ Magneto:\n  + Mode: right click\n  + Custom Cooldown: yes\n  + Custom Deactivate Time: no\n  + Description: Pulls all players within 20 blocks and launches them into the air causing fall damage.\n+ Scorpio:\n  + Mode: right click\n  + Custom Cooldown: yes\n  + Custom Deactivate Time: yes\n  + Description: Launches special item and the player that picks it up will be \n  teleported to the player who launched it. The item will disappear after a custom amount of seconds.\n+ Spider:\n  + Mode: right click\n  + Custom Cooldown: yes\n  + Custom Deactivate Time: yes\n  + Description: Spawn a 10x2x10 cob web trap in the block the player is looking at. \n  All players in it will get a poison effect with a custom amount of seconds. While the ability is active the\n  player can also climb walls and glide like a spider. \n  The cob web trap will slowly disappear after a custom amount of seconds and all blocks will return to normality.\n+ Swapper:\n  + Mode: right click\n  + Custom Cooldown: yes\n  + Custom Deactivate Time: no\n  + Description: Point at a player with the special item and you\n+ Thor:\n  + Mode: move\n  + Custom Cooldown: no\n  + Custom Deactivate Time: no\n  + Description: Spawn a 10x1x10 fire layer on top of a 10x1x10 netherrack layer \n  in the block the player is looking at. \n  Lighting will summon and all players in it will be set on fire for a custom amount of seconds. \n  Both layers will slowly disappear after a custom amount of seconds and all blocks will return to normality.\n<br/><br/>\n\n### Permissions\n\nAll kit permissions are set to `gear.<the kits name all lowercase>`\n<br/><br/>\n\n### Commands:\n\n+ `/gear <kit name>`\n+ aliases: gears\n+ If you just type `/gear` it will show all kits available to the sender.\n+ To unload a kit: `/gear reset`\n<br/><br/>\n\n### Configuration\n\nExample:\n```yaml\nability_item: 288:0:1:&bAcrobat &a| Click with this to use ability\ncooldown: 10s\ndeactivate_time: -1s\nhelmet: \"298:0:1:default\"\nchest: 299:0:1:default:protection:1\nlegs: \"300:0:1:default\"\nitems:\n- 268:0:1:default:sharpness:1\ncommands:\n- tell @player &5You equipped the @kit kit.\neffects:\n- strength:1:30\n```\n\n### Format:\n+ Items:\n  + ```id:damage:amount:display name:enchanments...```\n  \n  + example (Diamond sword with sharpness & unbreaking): ```276:0:1:default:sharpness:4:unbreaking:3``` \n  + other: if display name is set to `default` the item display name will be set to it's default minecraft name.\n  + The enchantments are optional.\n+ Commands:\n  + It's exactly like any console command, but the player name is replace with `@player` and the kit name with `@kit`\n+ Effects:\n  + `effect name:amplifier:duration in seconds`\n  + example (Strength 1 with 30 second duration): `strength:1:30`\n+ Cooldown & Deactivate Time:\n  + `integer(s) followed by the letter(s) for each time frame.`\n    + Year = `y`\n    + Week = `w`\n    + Day = `d`\n    + Month = `mo`\n    + Hour = `h`\n    + Minute = `m`\n    + Second = `s`\n  + example (1 minute and 30 seconds): `1m30s`\n  + example (1 week and 3 days): `1w3d`\n  + example (1 year and 3 months): `1y3mo`\n  + Cooldown: time it takes to be able to use kit again.\n  + Deactivate Time: time it takes for the ability and it's effect **while using it** to completely deactivate.\n<br/><br/>\n\n### Create Your Own Kits:\n\nFirst create a class which extends the `InfinityGamers\\Gears\\Kit\\Kit` class:\n```php\nnamespace mykitsplugin;\nuse InfinityGamers\\Gears\\Kit\\Kit;\nclass MyCustomKit extends Kit{\n}\n```\n\nin the class constructor call the parent constructor with your kit configuration:\n```php\nnamespace mykitsplugin;\nuse pocketmine\\item\\Item;\nuse InfinityGamers\\Gears\\Kit\\Kit;\nclass RandomTeleportKit extends Kit{\n        public function __construct(){\n            $kitName = \"RandomTeleportKit\";\n            $specialItem = Item::get(345, 0, 1); //compass\n            $items = [\n                Item::get(276, 0, 1) // diamond sword\n            ]; // generic items\n            $clickMode = Kit::ALL_CLICK_MODE; // check all click modes in the Kit class\n            $coolDown = 30; // in seconds\n            $deactivateTime = -1; // in seconds, not needed in this case\n            \n            parent::__construct($kitName, $specialItem, $items, $clickMode, $coolDown, $deactivateTime);\n        }\n}\n```\nNow add the `onUseSpecialItem` function:\n```php\nnamespace mykitsplugin;\nuse pocketmine\\item\\Item;\nuse InfinityGamers\\Gears\\Kit\\Kit;\nclass RandomTeleportKit extends Kit{\n        public function __construct(){\n            $kitName = \"RandomTeleportKit\";\n            $specialItem = Item::get(345, 0, 1); //compass\n            $items = [\n                Item::get(276, 0, 1) // diamond sword\n            ]; // generic items\n            $clickMode = Kit::ALL_CLICK_MODE; // check all click modes in the Kit class\n            $coolDown = 30; // in seconds\n            $deactivateTime = -1; // in seconds, not needed in this case\n            \n            parent::__construct($kitName, $specialItem, $items, $clickMode, $coolDown, $deactivateTime);\n        }\n        \n        public function onUseSpecialItem(array $data){      \n        }\n}\n```\n\nThe `$data` argument is different for each mode, check the plugin kits for examples.\nNow make sure the string tag named `kit_name` from the special item is equal to your kits name, \ncheck the cooldown, then you can make things work your way.<br/>\nYou can also use `$this->getGearsInstance()` to get the instance of the plugin's base.\n```php\nnamespace mykitsplugin;\nuse pocketmine\\item\\Item;\nuse pocketmine\\math\\Vector3;\nuse pocketmine\\nbt\\tag\\CompoundTag;\nuse pocketmine\\Player;\nuse InfinityGamers\\Gears\\Kit\\Kit;\nclass RandomTeleportKit extends Kit{\n        public function __construct(){\n                $kitName = \"RandomTeleportKit\";\n                $specialItem = Item::get(345, 0, 1); //compass\n                $items = [\n                    Item::get(276, 0, 1) // diamond sword\n                ]; // generic items\n                $clickMode = Kit::ALL_CLICK_MODE; // check all click modes in the Kit class\n                $coolDown = 30; // in seconds\n                $deactivateTime = -1; // in seconds, not needed in this case\n\n                parent::__construct($kitName, $specialItem, $items, $clickMode, $coolDown, $deactivateTime);\n        }\n\n        public function onUseSpecialItem(array $data){\n                $player = $data['Player'];\n                $item = $data['Item'];\n\n                if(($player instanceof Player) and ($item instanceof Item)){\n                        if(!$item->hasCustomBlockData()) return false;\n\n                        /** @var CompoundTag $data */\n                        $data = $item->getCustomBlockData();\n\n                        if(!$data->hasTag(\"kit_name\")) return false;\n                        if(strtolower($data->getString(\"kit_name\")) === \"randomteleportkit\"){\n                                if($this->checkCoolDown($player)){\n                                    $randomX = mt_rand(0, 1000);\n                                    $randomY = mt_rand(0, 256);\n                                    $randomZ = mt_rand(0, 1000);\n    \n                                    $v3 = new Vector3($randomX, $randomY, $randomZ);\n    \n                                    $safeSpawn = $player->level->getSafeSpawn($v3);\n    \n                                    $player->teleport($safeSpawn);\n                                }\n                        }\n                }\n\n                return true;\n        }\n}\n```\nFinally register the kit to the kit manager from your plugin, make sure to have the server instance.\n\n```php\n$randomTeleportKit = new RandomTeleportKit();\n$plugin = $server->getPluginManager()->getPlugin('Gears');\nif($plugin !== null){\n    $plugin->getKitManager()->registerKit($randomTeleportKit);\n}\n```\n\nYou can also optionally add the following functions to your custom kit: \n+ `onLoad()` called when player loads the kit. \n+ `onUnload()` called when player unloads the kit. \n+ `onDeath()` called when player dies.\n+ `onQuit()` called when player quits the server.",
+  "readme_source_url": "https://github.com/InfinityGamers/Gears",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/InfinityGamers/Gears",
+  "archive_repo": null,
+  "approved_release_tag": "r-1661",
+  "stars": 4,
+  "total_downloads": 2545,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "InfinityGamers"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.2-beta",
+      "tag": "r-1661",
+      "published_at": null,
+      "downloads": 2545,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1661/gears-1.2-beta-r1661.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1661",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1661/gears-1.2-beta-r1661.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Gears",
+    "stable_release_id": 1661
+  }
+}

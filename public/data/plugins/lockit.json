@@ -1,0 +1,61 @@
+{
+  "id": "lockit",
+  "name": "LockIt",
+  "author": "Awzaw",
+  "description": "Idea by 17bhata",
+  "readme_markdown": "# LockIt\n\n===========\n\nIdea by 17bhata\n\nKeys for Iron Doors\n\n/lockit 388 - start locking Iron Doors with an Emerald Key.",
+  "readme_source_url": "https://github.com/Awzaw/LockIt",
+  "icon_url": "https://raw.githubusercontent.com/Awzaw/LockIt/bb768e65402c5f657894189457401dfed567232a/lockit.png",
+  "featured": false,
+  "repo": "https://github.com/Awzaw/LockIt",
+  "archive_repo": null,
+  "approved_release_tag": "r-1577",
+  "stars": 5,
+  "total_downloads": 7800,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Awzaw"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/34599",
+  "versions": {
+    "stable": {
+      "version": "1.3.5",
+      "tag": "r-1577",
+      "published_at": null,
+      "downloads": 7800,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1577/lockit-1.3.5-r1577.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1577",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1577/lockit-1.3.5-r1577.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LockIt",
+    "stable_release_id": 1577
+  }
+}

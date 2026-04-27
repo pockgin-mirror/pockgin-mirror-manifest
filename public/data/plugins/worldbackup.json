@@ -1,0 +1,61 @@
+{
+  "id": "worldbackup",
+  "name": "WorldBackup",
+  "author": "jhelom",
+  "description": "World Backup",
+  "readme_markdown": "# World Backup\n\n[![PoggitCI Badge](https://poggit.pmmp.io/ci.badge/jhelom/WorldBackup-plugin-pocketmine/WorldBackup)](https://poggit.pmmp.io/ci/jhelom/WorldBackup-plugin-pocketmine/WorldBackup)\n\n---\n\nSelect Language: [English](#eng), [日本語](#jpn)\n\n---\n\n![console](https://github.com/jhelom/WorldBackup-plugin-pocketmine/blob/develop/assets/console.png)\n\n---\n\n<a id=\"eng\" name=\"eng\"></a>\n# English\n\nThis is PocketMine-MP Plugin. \n\nManagement backup and restore of world data.\n\nAutomatic backup with customizable schedule. Every day, weekly, monthly etc.\n\nBackup History Rotated and archived.\n\n## Commands\n\nCommands can only be run from the server console.\n\n## Show List of Backups.\n\n```\nwbackup list\n```\n\n## Backup\n\n```\nwbackup backup [world]\n```\n\n## Restore\n\n```\nwbackup restore [world] [yyyy-mm-dd]\n```\n\nRestart the server using the STOP command to perform the restore.\n\nThis is because restoring will be incomplete if you change the world's file while the server is running.\n\nIf you want to cancel the restore, please use the \"**wbackup clear**\" command before restarting the server.\n## Show Settings\n\n```\nwbackup set\n```\n\n## Set History Limit\n\n```\nwbackup set limit [int]\n```\n\nThe default value is 10.\n\nThe history limit can be set in a range from at least 3 to a maximum of 30.\n\nIf the number of histories backed up exceeds the upper limit, it will be deleted from the oldest history.\n\n\n## Set Backup Cycle Days\n\n```\nwbackup set days [int]\n```\n\nexsamples)\n\nBackup at 1 day interval 30 history (about 1 month)\n\n```\nwbackup set days 1\nwbackup set limit 30\n```\n\n\nBackup at weekly interval 15 histories (about 3 months)\n\n```\nwbackup set days 7\nwbackup set limit 15\n```\n\n---\n\n\n<a id=jpn\" name=\"jpn\"></a>\n# 日本語\n\nワールドのバックアップと復元ができる PocketMine-MP のプラグインです。\n\n全ワールドを自動でバックアップします。\n\nバックアップする間隔と世代数は任意に設定できます。\n\n\n\n## コマンド\n\nコマンドはサーバーコンソールからのみ実行できます。\n\n## バックアップの一覧を見る\n\n```\nwbackup list\n```\n\n## バックアップする\n\n```\nwbackup backup [world]\n```\n\n## 復元する\n\n```\nwbackup restore [world] [yyyy-mm-dd]\n```\n\n**復元コマンド実行後にサーバーを再起動してください。**\n\n*stopコマンドを使います*\n\n次回サーバー起動時にワールドの復元処理が実行されます。\n\nこれは、サーバーが動作中時にワールドのファイルを書き換えると復元が不完全になるためです。\n\n復元をキャンセルするには、サーバーを再起動する前に、次のコマンドを使います。\n\n```\nwbackup clear\n```\n\n## バックアップ設定を見る\n\n```\nwbackup set\n```\n\n## バックアップ履歴の上限数を設定する\n\n```\nwbackup set limit [int]\n```\n\n規定値は 10 です。\n\n最低 3、最大 30 までの範囲で指定可能です。\n\nバックアップされた履歴の世代数が上限を超えた場合、一番古い世代から削除されます。\n\n\n## バックアップ周期の日数を設定する\n\n```\nwbackup set days [int]\n```\n\n設定例）\n\n1日毎で30世代の場合（約1か月分）\n```\nwbackup set days 1\nwbackup set limit 30\n```\n\n1週間毎で15世代の場合（約3か月分）\n```\nwbackup set days 7\nwbackup set limit 15\n```\n\n# 構成\n\n\nバックアップされたワールドのファイルはプラグインフォルダの backups 配下に保存されます。\n\n\n```\nplugins\n   |\n   +--- WorldBackup\n           |\n           +--- backups\n                   |\n                   +--- world\n                          |\n                          +--- yyyy-mm-dd\n                          +--- yyyy-mm-dd\n                          +--- yyyy-mm-dd\n```",
+  "readme_source_url": "https://github.com/jhelom/WorldBackup-plugin-pocketmine",
+  "icon_url": "https://raw.githubusercontent.com/jhelom/WorldBackup-plugin-pocketmine/fb37d3a9db776da6671ea7519419b7321d1c3904/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/jhelom/WorldBackup-plugin-pocketmine",
+  "archive_repo": null,
+  "approved_release_tag": "r-1537",
+  "stars": 4,
+  "total_downloads": 9313,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA12-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "jhelom"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-1537",
+      "published_at": null,
+      "downloads": 9313,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1537/worldbackup-1.0-r1537.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1537",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1537/worldbackup-1.0-r1537.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorldBackup",
+    "stable_release_id": 1537
+  }
+}

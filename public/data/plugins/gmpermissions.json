@@ -1,0 +1,61 @@
+{
+  "id": "gmpermissions",
+  "name": "GMPermissions",
+  "author": "Awzaw",
+  "description": "Credit and thanks to WolfDale for writing the first version of this plugin",
+  "readme_markdown": "# GMPermissions\n###### Credit and thanks to WolfDale for writing the first version of this plugin\n\n\nGMPermissions is a simple PocketMine plugin that adds permissions to limit access to gamemode commands.\n\n**PERMISSIONS:**\n\ngmchange.others (allows a player to change other players' gamemode\n\ngmchange.spectator (allows a player to use /gamemode spectator)\n\ngmchange.creative (allows a player to be given Creative mode)\n\ngmchange.nogm (allows a player to use the /nogm command)\n\n\nGive the gmchange.nogm permission to allow players to use the /nogm command, which prevents anyone from changing your gamemode\n\nUse the normal pocketmine.command.gamemode permission to give players the ability to change their own gamemode.\n\nGive the gmchange.others permission to allow players to change anyone's gamemode\n\nGive the gmchange.spectator permission to allow players to use spectator mode\n\nGive the gmchange.creative permission to allow players to be be given creative mode (when 'restrictcmode' option is true)",
+  "readme_source_url": "https://github.com/Awzaw/GMPermissions",
+  "icon_url": "https://raw.githubusercontent.com/Awzaw/GMPermissions/5d8305bd0dde0c75baf6757b64efcb99165beaf5/gmpermissions.png",
+  "featured": false,
+  "repo": "https://github.com/Awzaw/GMPermissions",
+  "archive_repo": null,
+  "approved_release_tag": "r-1573",
+  "stars": 2,
+  "total_downloads": 11630,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Awzaw"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/34579",
+  "versions": {
+    "stable": {
+      "version": "1.2.6",
+      "tag": "r-1573",
+      "published_at": null,
+      "downloads": 11630,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1573/gmpermissions-1.2.6-r1573.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1573",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1573/gmpermissions-1.2.6-r1573.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GMPermissions",
+    "stable_release_id": 1573
+  }
+}

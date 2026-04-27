@@ -1,0 +1,68 @@
+{
+  "id": "simpleauthhelper",
+  "name": "SimpleAuthHelper",
+  "author": "poggit-orphanage",
+  "description": "Summary: Simplifies the way people authenticate to servers",
+  "readme_markdown": "<img src=\"https://raw.githubusercontent.com/Muirfield/SimpleAuthHelper/master/media/helper.alt-icon.png\" style=\"width:64px;height:64px\" width=\"64\" height=\"64\"/>\n\n# SimpleAuthHelper\n\n- Summary: Simplifies the way people authenticate to servers\n- PocketMine-MP version: 1.6.2dev and 1.7dev (API:3.0.0-ALPHA7/8/9)\n- DependencyPlugins: SimpleAuth\n- Categories: Admin Tools\n- Plugin Access: Commands, Other Plugins, Manages Permissions\n\n## Overview\n\nA plugin that simplifies the login process. Instead of\nasking for commands, users simply chat away.\n\nI also provides for a number of tweaks that can improve the usability of\n[SimpleAuth](https://poggit.pmmp.io/p/SimpleAuth).\n\n#### Register process\n\nPlayer connects for the first time.  They are prompted to enter a\n_NEW_ password.  They enter their password directly, without having to\nenter **/register**.\n\nThey are asked for the password again to confirm.  They re-enter their\npassword (again without **/register**).\n\n#### Login process\n\nPlayer connects again.  They are prompted to enter their login\npassword.  They type their login password directly (without\n**/login**).  And they are in.\n\n## Documentation\n\n### Commands\n\n* *chpwd* _&lt;old-pwd&gt;_\n  * Used by players to change their passwords.\n* *resetpwd* _&lt;player&gt;_\n  * Used by ops to reset a players password.  This actually unregisters\n    the password.\n* *preregister* _&lt;player&gt;_  _&lt;passwd&gt;_\n  * Used by ops to pre-register players.\n* *logout*\n  * De-authenticates a player.\n\n### Player pre-registration\n\nIt is possible to implement a web based pre-registration system with this\nplugin.\n\n1. *rcon* must be enabled on the PocketMine server.\n2. web server must be able to send *rcon* commands to PocketMine.\n3. Enable the *whitelist* functionality in PocketMine.\n4. Install *SimpleAuth* and *SimpleAuthHelper*.\n5. **Optionally** install *PurePerms* and disable\n   `simpleauthhelper.command.chpwd` permission.  You probably want\n   users to change passwords from the web site.\n6. Whenever a user registers in web site, the web site script uses *rcon*\n   to send the follwoing:\n   - whitelist add _player_\n   - preregister _player_ _passwd_\n7. Whenever a user changes password in web site, we use *rcon* with:\n   - resetpwd _player_\n   - preregister _player_ _passwd_\n\n### Database Monitor\n\nThis module is responsible for monitoring the SimpleAuth data provider\nto make sure that it is up and running and disable logins if it is not\navailable.\n\nIt kicks off a background task that will poll the SimpleAuth data provider\nby trying to retrieve the data from the \"canary-account\".  It is important\nthat you have configured and have working SimpleAuth provider the first\ntime you enable the database monitor.  This is because the \"canary-account\"\nneeds to be created (if it doesn't exist already).\n\nOn a regular interval, the SimpleAuth\ndata provider is checked.  If it is not running, all unauthenticated players\nare kicked and any new joins are not allowed.\n\n<!-- php:$h=3; -->\n<!-- template: gd2/permissions.md -->\n\n### Permission Nodes\n\n* simpleauthhelper.command.chpwd: Allow users to change passwords\n* simpleauthhelper.command.logout: Allow users to logout\n* simpleauthhelper.command.resetpwd (op): Allow ops to reset other's passwords\n* simpleauthhelper.command.prereg (op): Allow ops to pre-register users\n\n<!-- end-include -->\n\n### Configuration\n\nConfiguration is through the **config.yml** file.\n<!-- php:$h=4; -->\n<!-- template: gd2/cfg.md -->\n#### main\n\n*  max-attemps: kick player after this many login attempts.  NOTE: This conflicts with SimpleAuth's blockAfterFail setting\n*  login-timeout: must authenticate within this number of seconds\n*  leet-mode: lets players use also /login and /register\n*  chat-protect: prevent player to display their password in chat\n*  hide-unauth: EXPERIMENTAL, hide unauthenticated players\n*  event-fixer: EXPERIMENTAL, cancels additional events for unauthenticated players\n*  hack-login-perms: EXPERIMENTAL, overrides login permisions to make sure players can login\n*  hack-register-perms: EXPERIMENTAL, overrides register permisions to make sure players can register\n*  db-monitor: EXPERIMENTAL, enable database server monitoring\n*  monitor-settings: Configure database monitor settings\n\n#### monitor-settings\n\n*  canary-account: account to query this account is tested to check database proper operations\n*  check-interval: how to often to check database (seconds)\n\n\n<!-- end-include -->\n\n<!-- template: gd2/mctxt.md -->\n\n## Translations\n\nThis plugin will honour the server language configuration.  The\nlanguages currently available are:\n\n* English\n* German\n* Spanish\n* 中文\n\n\nYou can provide your own message file by creating a file called\n**messages.ini** in the plugin config directory.\n\n### Issues\n\n* Event Fixer: Crafting canceling doesn't work\n\n## Changes\n\n* 2.0.4: event-fixer\n  - Disabled the craftItem event in event-fixer.\n* 2.0.3: Password disclosure work-around\n  - Works around bugs in SimleAuth that makes users' passwords visible.\n* 2.0.2: Added translation\n  - Added a zho.ini (中文) message file. (Contributed by @edwinyoo44, closes #23)\n  - Added a deu.ini (German) message file. (Contributed by @thebigsmileXD)\n  - Documentation and library updates.\n* 2.0.1: language defaults\n  - make sure that languages default to English (reported by @minebuilder0110)\n* 2.0.0: Major upgrade\n  - uses now a common translation library\n  - Removed little used feature: nest-egg\n  - leet-mode also works for /register.\n  - Removed auto-ban.  It is now done in SimpleAuth.\n  - Added support for hiding unauthenticated players (Suggested by @CaptainKenji17)\n  - Added pre-register and logout command\n  - forces permissions to be set\n  - Added a task to monitor database server status\n  - Thanks @rvachvg for helping debug this.\n* 1.2.3: Security improvements\n  - prevent user from chatting away their password\n  - add option so that players can also use \"/login\" to login.\n* 1.2.2: Auto-Ban\n  - Too many login attempts will cause the player to be banned.\n* 1.2.1: CallbackTask deprecation\n  * Removed CallbackTask deprecation warnings\n* 1.2.0: max-logins\n  * Suggestion from @MCPEPIG\n    - kick user out after `max-attempts`.\n    - Added a chpwd command.\n  * Kick user out if not authenticated after `timeout` seconds.\n  * Added resetpwd command for ops\n* 1.1.0: Small update\n  * Added `nest-egg`\n  * Messages can be configured.\n* 1.0.0: First release\n\n<!-- php:$copyright=\"2015\"; -->\n<!-- template: gd2/gpl2.md -->\n# Copyright\n\n    SimpleAuthHelper\n    Copyright (C) 2015 Alejandro Liu\n    All Rights Reserved.\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation, either version 2 of the License, or\n    (at your option) any later version.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program.  If not, see <http://www.gnu.org/licenses/>.\n\n<!-- end-include -->",
+  "readme_source_url": "https://github.com/poggit-orphanage/SimpleAuthHelper",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/SimpleAuthHelper/3603539be7bad65537dc83d72899b88fcfa69881/media/helper.alt-icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/SimpleAuthHelper",
+  "archive_repo": null,
+  "approved_release_tag": "r-1648",
+  "stars": 0,
+  "total_downloads": 8580,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "SimpleAuth"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/36171",
+  "versions": {
+    "stable": {
+      "version": "2.0.8",
+      "tag": "r-1648",
+      "published_at": null,
+      "downloads": 7503,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1648/simpleauthhelper-2.0.8-r1648.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1648",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1648/simpleauthhelper-2.0.8-r1648.phar"
+    },
+    {
+      "tag": "r-1555",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1555/simpleauthhelper-2.0.7-r1555.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleAuthHelper",
+    "stable_release_id": 1648
+  }
+}

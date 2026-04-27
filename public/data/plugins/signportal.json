@@ -1,0 +1,61 @@
+{
+  "id": "signportal",
+  "name": "SignPortal",
+  "author": "poggit-orphanage",
+  "description": "SignPortal is used to create portals to other worlds using signs.",
+  "readme_markdown": "SignPortal\n==========\n\nSignPortal is used to create portals to other worlds using signs.\n\nPocketMine-MP multiworld sign portal\nSupports PocketMine 1.6.2dev\n\n## Configuration\nNo Configuration as of this update\n\n## Usage\nCreate a sign with the format below\n\n```\n[WORLD]\n<worldname>\n ```\n \n An example for teleporting the the world 'testworld' would be:\n ```\n [WORLD]\n testworld\n ```\n \nThe rest of the sign can be whatever desired\n\n##Features:\n\nsignportal.create permission to create world signs\n\nsignportal.command.generate permission to use /generate\n\nChecks for existing world on teleport attempt to prevent crashes\n\nLoads world on teleport attempt\n\nSimple portal creation without need for config or database files\n\n/generate command for world generation\n\nWorld existence test - fixes most crashes\n\n##Installation:\n\nDrop the plugin into the plugins/ folder\nRestart the server",
+  "readme_source_url": "https://github.com/poggit-orphanage/SignPortal",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/SignPortal/e83709ca9f47b15b3a858f055243f71278fdbdb0/signportal.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/SignPortal",
+  "archive_repo": null,
+  "approved_release_tag": "r-1570",
+  "stars": 5,
+  "total_downloads": 22247,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.4",
+      "tag": "r-1570",
+      "published_at": null,
+      "downloads": 22247,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1570/signportal-1.1.4-r1570.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1570",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1570/signportal-1.1.4-r1570.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SignPortal",
+    "stable_release_id": 1570
+  }
+}

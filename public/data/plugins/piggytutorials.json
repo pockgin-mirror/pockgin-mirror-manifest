@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-2070",
   "stars": 3,
-  "total_downloads": 440,
+  "total_downloads": 530,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-2070",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2070/piggytutorials-1.1.0-r2070.phar"
+    },
+    {
+      "tag": "r-1542",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1542/piggytutorials-1.0.2-r1542.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "repair",
+  "name": "Repair",
+  "author": "AntiCores",
+  "description": "HitCount License Poggit Release",
+  "readme_markdown": "<img src=\"https://github.com/AntiCores/Repair/blob/master/meta/Repair.png\" width=\"150\" height= \"150\">\n\n# Repair\n\n| HitCount | License | Poggit | Release |\n|:--:|:--:|:--:|:--:|\n|[![HitCount](http://hits.dwyl.io/AntiCores/Repair.svg)](http://hits.dwyl.io/AntiCores/Repair)|[![GitHub license](https://img.shields.io/github/license/AntiCores/Repair.svg)](https://github.com/AntiCores/Repair/blob/master/LICENSE)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/AntiCores/Repair/Repair)](https://poggit.pmmp.io/ci/AntiCores/Repair/Repair)|[![](https://poggit.pmmp.io/shield.state/Repair)](https://poggit.pmmp.io/p/Repair)|\n\n### A Repair plugin for PocketMine-MP\n### Features:\n - Repair the items in your hand.\n - Repair all the items in your inventory.\n - Repair items using commands.\n - Repair items using signs as well.\n### How to setup?\n - Get the [.phar](https://poggit.pmmp.io/ci/AntiCores/Repair/Repair) and drop the into your `plugins` folder.\n - Start the server.\n - You can either use commands or signs to repair your items.\n### FAQs:\n**Q: What is the command to repair the item?**<br />\nA: Use `/repair hand` to repair the item in your hand.<br /><br />\n**Q: Can I repair multiple items at once?**<br />\nA: Yes you can. Simply use `/repair all` to repair all the items in your inventory.<br /><br />\n**Q: I found a issue in the plugin what do I do?**<br />\nA: Please open an issue [here](https://github.com/AntiCores/Repair/issues) and give as much detail as possible.<br /><br />\n**Q: How to use repair signs?**<br />\nA: Place down a sign and write `[repair]` in first line and write `hand` or `all` in the second line. Remember `hand` will repair the item in your hand whereas `all` will repair the all the items in your inventory.\n### Commands and Permissions:\n|Description|Command|Permission|Default|\n|:--:|:--:|:--:|:--:|\n|Repair|`/repair`|`repair.command.use`|`op`|\n|Repair Hand|`/repair hand`|`repair.command.use.hand`|`op`|\n|Repair All|`/repair all`|`repair.command.use.all`|`op`|\n|Repair Hand Sign|`~`|`repair.sign.use.hand`|`op`|\n|Repair All Sign|`~`|`repair.sign.use.all`|`op`|\n|Place a Sign|`~`|`repair.sign.place`|`op`|\n|Create a Sign|`~`|`repair.sign.create`|`op`|\n|Break a Sign|`~`|`repair.sign.break`|`op`|\n\n### Info:\n  - Make sure to subscribe to be updated for when i release more stuff on my [YT](https://youtu.be/x_mc-ocrdDU) channel.\n  - Support is appreciated.\n  - Please don't hesitate to ask questions or report bug report in issues section.\n### Disclaimer:\n```\nThis software is licensed under \"GNU General Public License v3.0\".\nThis license allows you to use it and/or modify it but you are not at\nall allowed to sell this plugin at any cost. If found doing so the\nnecessary action required would be taken. Further removal of the License and or\nauthors name from this software is strictly prohibited.\n```",
+  "readme_source_url": "https://github.com/AntiCores/Repair",
+  "icon_url": "https://raw.githubusercontent.com/JackMD/Repair/b58dec3707c35e0f70e75a9c017a7249e671a4e9/meta/Repair.png",
+  "featured": false,
+  "repo": "https://github.com/AntiCores/Repair",
+  "archive_repo": null,
+  "approved_release_tag": "r-1580",
+  "stars": 4,
+  "total_downloads": 9420,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "AntiCores"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/34646",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-1580",
+      "published_at": null,
+      "downloads": 9420,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1580/repair-1.0.1-r1580.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1580",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1580/repair-1.0.1-r1580.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Repair",
+    "stable_release_id": 1580
+  }
+}

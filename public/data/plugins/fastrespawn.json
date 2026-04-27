@@ -1,0 +1,61 @@
+{
+  "id": "fastrespawn",
+  "name": "FastRespawn",
+  "author": "xkhhv",
+  "description": "Plugin for PocketMine that will respawn you automatically when you die without show you the red screen.",
+  "readme_markdown": "# FastRespawn\n\nPlugin for PocketMine that will respawn you automatically when you die without show you the red screen.<br>\n\n### Installation\nIt is easy you can download it from github in .zip format and extract it and put plugin folder in the plugins folder.\n> Note: you should install DevTools plugin in your server you can find it in Poggit.\n\n### Translation\nINDEV\n\n### Features\n- Easy to use (if you don't know how to use it i think you are spoon and you should see this video(Arabic Dub): https://www.youtube.com/watch?v=FS83qD2LVEg\n- No permissions and commands.\n- Config File.\n- Messages you can edit in config file.\n- Money when you kill if you want (True/False) and you should to install (EconomyAPI).\n\n### Commands and Permissions\nNo commands and permissions in this plugin but if you want to put permission you can but you should know how :)\n\n### Feedback\nI'd like to keep my issue tracker as clean as possible, so please take the following in consideration when opening a new issue in the issue tracker:\n- If you have an issue with the plugin, check if the issue exists in the Issue tracker, and report it if not.\n- If you'd like support or have a question about the plugin, please click the Gitter button under the title.\n- If you have a great idea for a new feature or enhancement, please create a new issue in the Issue tracker.\n- If you just want to have a talk, please click the Gitter button below the title.\n\n### About Me\nIf you want to know more about me you can follow me:\n>Instagram: @khavmc<br/>\n>YouTube: xkhhv<br/>\n>PMMP: KHAV",
+  "readme_source_url": "https://github.com/xkhhv/FastRespawn",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/xkhhv/FastRespawn",
+  "archive_repo": null,
+  "approved_release_tag": "r-1528",
+  "stars": 2,
+  "total_downloads": 4530,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA12-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "xkhhv"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.0",
+      "tag": "r-1528",
+      "published_at": null,
+      "downloads": 4530,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1528/fastrespawn-2.0.0-r1528.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1528",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1528/fastrespawn-2.0.0-r1528.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FastRespawn",
+    "stable_release_id": 1528
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-14135",
   "stars": 0,
-  "total_downloads": 3858,
+  "total_downloads": 10812,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-8645",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-8645/motdshuffle-1.2.0-r8645.phar"
+    },
+    {
+      "tag": "r-1618",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1618/motdshuffle-1.1.6-r1618.phar"
     }
   ],
   "comments": {

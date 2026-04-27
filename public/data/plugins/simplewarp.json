@@ -1,0 +1,66 @@
+{
+  "id": "simplewarp",
+  "name": "SimpleWarp",
+  "author": "Falkirks",
+  "description": "SimpleWarp is the original warp plugin for PocketMine-MP. It allows players to move from point **A** to **B** with ease. At the core of SimpleWarp is simplicity and extensibilit...",
+  "readme_markdown": "![SimpleWarp](/meta/simplewarp-2.png)\n\n![Poggit](https://poggit.pmmp.io/ci.shield/Falkirks/SimpleWarp/SimpleWarp)\n[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/Falkirks/SimpleWarp.svg)](http://isitmaintained.com/project/Falkirks/SimpleWarp \"Average time to resolve an issue\")\n![Total downloads](https://img.shields.io/github/downloads/Falkirks/SimpleWarp/total.svg)\n\nSimpleWarp is the original warp plugin for PocketMine-MP. It allows players to move from point **A** to **B** with ease. At the core of SimpleWarp is simplicity and extensibility. Although very easy on the end user, it exposes a powerful backend for developers to hack around with.\n \n**SimpleWarp 2.0 is not compatible with older SimpleWarp and PocketMine versions.**\n\n## Commands\n| Command | Usage | Description | \n| ------- | ----- | ----------- |\n| `/warp` | `/warp <name> [player]` | Warps you or another player to a specified warp. |\n| `/addwarp` | `/addwarp <name> [<ip> <port>\\|<x> <y> <z> <level>\\|<player>]` | Creates a new warp at a set location. |\n| `/delwarp` | `/delwarp <name>` | Deletes specified warp. |\n| `/listwarps` | `/listwarps` | Prints out list of warps. |\n| `/openwarp` | `/openwarp <name>` | Allows any player to access specified warp. |\n| `/closewarp` | `/closewarp <name>` | Restricts specfied so that only players with correct permission node can use it |\n| `/warpreport` | `/warpreport [title]` | Run from console to generate a new GitHub issue for SimpleWarp |\n\n## Permissions\n```yaml\n simplewarp:\n  default: op\n  children:\n   simplewarp.command:\n    default: op\n    children:\n     simplewarp.command.list:\n      default: true\n      children:\n       simplewarp.command.list.xyz:\n        default: op\n       simplewarp.command.list.visual:\n        default: op\n     simplewarp.command.addwarp:\n      default: op\n     simplewarp.command.delwarp:\n      default: op\n     simplewarp.command.warp:\n      default: true\n      children:\n        simplewarp.command.warp.other:\n         default: op\n     simplewarp.command.openwarp:\n      default: op\n     simplewarp.command.closewarp:\n       default: op\n     simplewarp.command.closewarp:\n       default: op\n   simplewarp.essentials.notice:\n    default: op\n    description: Recieve messages when their is warp conflict in Essentials\n   simplewarp.warp:\n    default: op\n    description: Allows usage of all warps\n```\n\n## API\nWhat good is a plugin without an API? SimpleWarp has an API which is used by it's own core components. \n\n### Getting access\nMake sure to add the following to your `plugin.yml`\n\n```yaml\ndepend: [\"SimpleWarp\"]\n```\n**Note:** If you use `softdepend` you will need to check if SimpleWarp is installed.\n\nNow you can a copy of the API in your `onEnable` method\n\n```php\n$api = SimpleWarpAPI::getInstance($this); // This only works inside a PluginBase\n```\n\nIf you want to get the instance outside your main class, you can do\n\n```php\n$api = $server->getPluginManager()->getPlugin(\"SimpleWarp\")->getApi(); // $server is an instance of \\pocketmine\\Server\n```",
+  "readme_source_url": "https://github.com/Falkirks/SimpleWarp",
+  "icon_url": "https://raw.githubusercontent.com/Falkirks/SimpleWarp/eb2f34abb0a055936f3edc1b4f994ed3e771e999/meta/simplewarp.png",
+  "featured": false,
+  "repo": "https://github.com/Falkirks/SimpleWarp",
+  "archive_repo": null,
+  "approved_release_tag": "r-1670",
+  "stars": 4,
+  "total_downloads": 80455,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Falkirks"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/36672",
+  "versions": {
+    "stable": {
+      "version": "4.0.1",
+      "tag": "r-1670",
+      "published_at": null,
+      "downloads": 76258,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1670/simplewarp-4.0.1-r1670.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1670",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1670/simplewarp-4.0.1-r1670.phar"
+    },
+    {
+      "tag": "r-1669",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1669/simplewarp-4.0.0-r1669.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleWarp",
+    "stable_release_id": 1670
+  }
+}

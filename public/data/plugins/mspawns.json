@@ -1,0 +1,61 @@
+{
+  "id": "mspawns",
+  "name": "MSpawns",
+  "author": "EvolSoft",
+  "description": "Multiple spawns plugin for PocketMine-MP",
+  "readme_markdown": "![start2](https://cloud.githubusercontent.com/assets/10303538/6315586/9463fa5c-ba06-11e4-8f30-ce7d8219c27d.png)\n\n# MSpawns\n\nMultiple spawns plugin for PocketMine-MP\n\n[![Download!](https://user-images.githubusercontent.com/10297075/101246002-cb046780-3710-11eb-950f-ba06934b8138.png)](http://gestyy.com/er3sj4)\n\n## Category\n\nPocketMine-MP plugins\n\n## Requirements\n\nPocketMine-MP API 3.0.0\n\n## Overview\n\n**MSpawns** let you set multiple spawns on your PocketMine-MP server.\n\n**EvolSoft Website:** https://www.evolsoft.tk\n\n***This Plugin uses the New API. You can't install it on old versions of PocketMine.***\n\n***MultiWorld Bugs (for eg. Invisible chunks...) aren't related to plugin or PocketMine but to Minecraft PE.***\n\nYou can set a global spawn (hub/lobby) and a spawn for each world.\nYou can also customize spawn settings, spawn messages... and you can also set aliases! (read documentation)\n\n## Donate\n\nPlease support the development of this plugin with a small donation by clicking [:dollar: here](http://paypal.me/Flavius12). \nYour small donation will help me paying web hosting, domains, buying programs (such as IDEs, debuggers, etc...) and new hardware to improve software development. Thank you :smile:\n\n## Documentation\n\n**Configuration (config.yml):**\n\n```yaml\n---\n# Available Tags for messages:\n#  - {PLAYER}: Show current player name\n#  - {PREFIX}: Show plugin prefix\n#  - {WORLD}: Show current world name\n# Show hub-message or spawn-message when a player joins\nshow-messages-onjoin: true\n# Force teleportation to hub when a player joins\nforce-hub: false\n# Show message when a player teleports to hub\nenable-hub-message: true\n# Force teleportation to spawn when a player joins (obviously if you enable force-hub, force-spawn won't work)\nforce-spawn: false\n# Show message when a player teleports to spawn\nenable-spawn-message: true\n# Enable aliases usage\nenable-aliases: true\n# Teleport a player to the spawn/hub when they die\n# 1 = Teleport to spawn 2 = Teleport to Hub\nteleport-on-death: 1\n# External hub server \nhub-server:\n # Enable external hub server\n enabled: false\n # Name of the hub server\n name: \"External Server\"\n # Hostname of the hub server\n host: 127.0.0.1\n # Port of the hub server (default 19132)\n port: 19132\n```\n\n**Messages (messages.yml):**\n\n```yaml\n---\n#Hub message\nhub-message: \"{PREFIX} &bWelcome to Hub, &a{PLAYER}\"\n#No hub message\nno-hub: \"{PREFIX} &cNo hub set\"\n#Spawn message\nspawn-message: \"{PREFIX} &bTeleported to &e{WORLD}&b Spawn\"\n#No spawn message\nno-spawn: \"{PREFIX} &cNo spawn found in this world\"\n#Invalid world\ninvalid-world: \"{PREFIX} &cWorld not found\"\n#Spawn aliases disabled\naliases-disabled: \"{PREFIX} &cSpawn aliases are disabled on this server\"\n...\n```\n\n**Commands:**\n\n***/mspawns*** *- MSpawns commands (aliases: [ms])*<br>\n***/sethub*** *- Set hub (aliases: [setlobby])*<br>\n***/delhub*** *- Delete hub (aliases: [dellobby])*<br>\n***/hub*** *- Teleport to hub (aliases: [lobby])*<br>\n***/setspawn*** *- Set world spawn*<br>\n***/delspawn*** *- Delete world spawn*<br>\n***/spawn*** *- Teleport to world spawn*<br>\n***/setalias*** *- Set alias <name> <target>*<br>\n***/delalias*** *- Delete alias <name>*<br>\n\n**Aliases:**\n\nWith aliases you can create commands that teleport players.<br>\nYou can manually edit them in aliases.yml file.<br>\nIf you want to create an alias you must specify the name and the target world (remember that the target world must have a spawn set)<br>\n*Example usage:*\nImagine that you have a world called \"pvpworld\" and you want to set an alias called \"pvp\".<br>\n1. Set spawn in world \"pvpworld\" with /setspawn<br>\n2. Do /setalias pvp pvpworld<br>\nTo use the alias you must simply do /pvp and you will be teleported to \"pvpworld\" spawn<br>\n\n*Remember that you can use aliases only if you set to true the value of \"enable-aliases\" in config.yml*\n\n**Permissions:**\n\n- <dd><i><b>mspawns.*</b> - MSpawns permissions tree.</i></dd>\n- <dd><i><b>mspawns.info</b> - Let player read info about MSpawns.</i></dd>\n- <dd><i><b>mspawns.reload</b> - Let player reload MSpawns.</i></dd>\n- <dd><i><b>mspawns.delhub</b> - Let player delete hub.</i></dd>\n- <dd><i><b>mspawns.sethub</b> - Let player set hub.</i></dd>\n- <dd><i><b>mspawns.hub</b> - Let player teleport to hub.</i></dd>\n- <dd><i><b>mspawns.delalias</b> - Let player delete alias.</i></dd>\n- <dd><i><b>mspawns.setalias</b> - Let player set alias.</i></dd>\n- <dd><i><b>mspawns.delspawn</b> - Let player delete world spawn.</i></dd>\n- <dd><i><b>mspawns.setspawn</b> - Let player set world spawn.</i></dd>\n- <dd><i><b>mspawns.spawn</b> - Let player teleport to world spawn.</i></dd>",
+  "readme_source_url": "https://github.com/EvolSoft/MSpawns",
+  "icon_url": "https://raw.githubusercontent.com/EvolSoft/MSpawns/fb77df11b8368d7d6d2deebcd73a2a4fe8caffad/icon.png",
+  "featured": false,
+  "repo": "https://github.com/EvolSoft/MSpawns",
+  "archive_repo": null,
+  "approved_release_tag": "r-1658",
+  "stars": 3,
+  "total_downloads": 41957,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "EvolSoft"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/124359",
+  "versions": {
+    "stable": {
+      "version": "2.2",
+      "tag": "r-1658",
+      "published_at": null,
+      "downloads": 41957,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1658/mspawns-2.2-r1658.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1658",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1658/mspawns-2.2-r1658.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MSpawns",
+    "stable_release_id": 1658
+  }
+}

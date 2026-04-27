@@ -1,0 +1,61 @@
+{
+  "id": "perworldchat",
+  "name": "PerWorldChat",
+  "author": "EvolSoft",
+  "description": "Per World Chat plugin for PocketMine-MP",
+  "readme_markdown": "![start2](https://cloud.githubusercontent.com/assets/10303538/6315586/9463fa5c-ba06-11e4-8f30-ce7d8219c27d.png)\n\n# PerWorldChat\n\nPer World Chat plugin for PocketMine-MP\n\n[![Download!](https://user-images.githubusercontent.com/10297075/101246002-cb046780-3710-11eb-950f-ba06934b8138.png)](http://gestyy.com/er3dza)\n\n## Category\n\nPocketMine-MP plugins\n\n## Requirements\n\nPocketMine-MP API 3.0.0\n\n## Overview\n\n**PerWorldChat** is a simple PocketMine-MP plugin which implements a separate chat for each world and also let you disable chat in other worlds. (read documentation)\n\n**EvolSoft Website:** https://www.evolsoft.tk\n\n***This Plugin uses the New API. You can't install it on old versions of PocketMine.***\n\n## Donate\n\nPlease support the development of this plugin with a small donation by clicking [:dollar: here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=flavius.c.1999@gmail.com&lc=US&item_name=www.evolsoft.tk&no_note=0&cn=&curency_code=EUR&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted). \nYour small donation will help me paying web hosting, domains, buying programs (such as IDEs, debuggers, etc...) and new hardware to improve software development. Thank you :smile:\n\n## Documentation \n\n**Configuration (config.yml):**\n\n```yaml\n---\n#Log to player when chat is disabled in world\nlog-chat-disabled: true\n#World list where chat is disabled\ndisabled-in-worlds: []\n...\n```",
+  "readme_source_url": "https://github.com/EvolSoft/PerWorldChat",
+  "icon_url": "https://raw.githubusercontent.com/EvolSoft/PerWorldChat/7f99efce61a2bbcae35e8ad9098e75d53cc91f84/icon.png",
+  "featured": false,
+  "repo": "https://github.com/EvolSoft/PerWorldChat",
+  "archive_repo": null,
+  "approved_release_tag": "r-1652",
+  "stars": 4,
+  "total_downloads": 3912,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "EvolSoft"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.8",
+      "tag": "r-1652",
+      "published_at": null,
+      "downloads": 3912,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1652/perworldchat-1.8-r1652.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1652",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1652/perworldchat-1.8-r1652.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PerWorldChat",
+    "stable_release_id": 1652
+  }
+}

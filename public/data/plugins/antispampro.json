@@ -1,0 +1,61 @@
+{
+  "id": "antispampro",
+  "name": "AntiSpamPro",
+  "author": "Awzaw",
+  "description": "General",
+  "readme_markdown": "### General\n\n[![Poggit Release](https://poggit.pmmp.io/shield.approved/AntiSpamPro)](https://poggit.pmmp.io/p/AntiSpamPro)\n\nAntispam plugin with configurable delay, profanity filter (block swear words), automatic actions (kick, ban) and commands to change settings on the fly in console or in game.\n\nAlso detects command spam.\n\n### Commands\n\n`/asp` - display the current AntiSpamPro settings\n\n`/asp kick` - kick spammers\n\n`/asp ban` - ban spammers\n\n`/asp banip` - banip and ban spammers\n\n`/asp bancid` - ban, banip and bancid spammers (if available)\n\n`asp set {1, 2 or 3}` - change the allowed delay between chat to 1, 2 or 3 seconds\n\n### Permissions\nYou need the permission `asp` to use any of the commands. There is no spam bypass permission.\nThe delay setting in config.yml can be set freely.\n\n### API\nTo configure other plugins to use the AntiSpamPro profanity filter, use this is onEnable():\n\n```\n$this->antispampro = $this>getServer()->getPluginManager()->getPlugin(\"AntiSpamPro\");\n  if (!$this->antispampro) {\n     $this->getLogger()->info(\"Unable to find AntiSpamPro\");\n}\n```\n\nthen use this to check for swear words:\n\n```\nif ($this->antispampro && $this->antispampro->getProfanityFilter()->hasProfanity($wordtocheck)) {...Do THIS....}\n```\n\n### Credits\n\nKudos and thanks to:\n\nhttps://github.com/mofodojodino/ProfanityFilter\n\nand\n\nhttps://github.com/fastwebmedia/Profanity-Filter",
+  "readme_source_url": "https://github.com/Awzaw/AntiSpamPro",
+  "icon_url": "https://raw.githubusercontent.com/Awzaw/AntiSpamPro/20fd4f8030c4ece02b474b158563b0a91236dcd3/asp.png",
+  "featured": false,
+  "repo": "https://github.com/Awzaw/AntiSpamPro",
+  "archive_repo": null,
+  "approved_release_tag": "r-1549",
+  "stars": 5,
+  "total_downloads": 33175,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Awzaw"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/34441",
+  "versions": {
+    "stable": {
+      "version": "1.4.1",
+      "tag": "r-1549",
+      "published_at": null,
+      "downloads": 33175,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1549/antispampro-1.4.1-r1549.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1549",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1549/antispampro-1.4.1-r1549.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiSpamPro",
+    "stable_release_id": 1549
+  }
+}

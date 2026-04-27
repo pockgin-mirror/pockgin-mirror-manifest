@@ -1,0 +1,61 @@
+{
+  "id": "itemcloud",
+  "name": "ItemCloud",
+  "author": "poggit-orphanage",
+  "description": "Hi, I will introduce my new plugin : ItemCloud",
+  "readme_markdown": "Hi, I will introduce my new plugin : ItemCloud\n\n#### What is ItemCloud?\n\nItemCloud is a separated plugin from EconomyPShop, and will be used as library for EconomyPShop in future.\nThis plugin provides similar functionality to DropBox or Box and etc. It is just for items. You can upload and download unlimited items. It is useful when your inventory is lacking slots, or storing important items.\n\nFirst you must register: `/itemcloud register`\n\nThen upload items: `/itemcloud upload <item ID[:item damage]>`\n\n\n#### Aliases\n\n`/itmc`\n\n`/itmc up 276 5`\n\n`/itmc down 276 5`\n\n\n#### Features\n\n- Upload and download your items infinitely\n- API system\n- Data auto save\n\n\n#### Commands\n\n`/itemcloud register or reg`: You MUST use this command before using the service.\n\n`/itemcloud upload or up <item ID[:item damage]> <count>` : Upload items to your account.\n\n`/itemcloud download or down <item ID[:item damage]> <count>` : Download items from your account.\n\n`/itemcloud list` : List all the items in your account.\n\n`/itemcloud count <item id>` : Display the item count of a specific item.\n\n\n#### Permissions\n\n`itemcloud.*`\n\n`itemcloud.command.*`\n\n`itemcloud.command.register`\n\n`itemcloud.command.upload`\n\n`itemcloud.command.download`\n\n`itemcloud.command.list`\n\n`itemcloud.command.count`\n\n\n#### By Onebone",
+  "readme_source_url": "https://github.com/poggit-orphanage/ItemCloud",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/ItemCloud/291ba2cacdba0ec9a6a4b168389aba4ee0a8c80a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/ItemCloud",
+  "archive_repo": null,
+  "approved_release_tag": "r-1569",
+  "stars": 4,
+  "total_downloads": 6766,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/34554",
+  "versions": {
+    "stable": {
+      "version": "1.3.1",
+      "tag": "r-1569",
+      "published_at": null,
+      "downloads": 6766,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1569/itemcloud-1.3.1-r1569.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1569",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1569/itemcloud-1.3.1-r1569.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ItemCloud",
+    "stable_release_id": 1569
+  }
+}

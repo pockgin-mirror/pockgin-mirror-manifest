@@ -1,0 +1,61 @@
+{
+  "id": "capslimit",
+  "name": "CapsLimit",
+  "author": "poggit-orphanage",
+  "description": "Developers",
+  "readme_markdown": "# CapsLimit\n![alt tag](http://s22.postimg.org/sdb8cdo29/Caps_Limit_Cover.png)\n### Developers\n* deot\n* Gamecrafter\n* Artide\n* PEMapModder",
+  "readme_source_url": "https://github.com/poggit-orphanage/CapsLimit",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/CapsLimit/1e81c5f6742dfdaef2764e05a55d5200388e53b8/CapsLimit.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/CapsLimit",
+  "archive_repo": null,
+  "approved_release_tag": "r-1677",
+  "stars": 5,
+  "total_downloads": 3551,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-1677",
+      "published_at": null,
+      "downloads": 3551,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1677/capslimit-1.1.1-r1677.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1677",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1677/capslimit-1.1.1-r1677.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CapsLimit",
+    "stable_release_id": 1677
+  }
+}

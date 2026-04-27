@@ -1,0 +1,61 @@
+{
+  "id": "banitem",
+  "name": "BanItem",
+  "author": "poggit-orphanage",
+  "description": "General",
+  "readme_markdown": "### General\n\n[![Poggit Release](https://poggit.pmmp.io/shield.approved/BanItem)](https://poggit.pmmp.io/p/BanItem)\n\nBanItem is a PocketMine plugin designed to ban items on a server-wide basis.\n\n### Features\n\nThis is fork of LDX's BanItem plugin: the original code was preserved, and the following added:\n \nLogs information to Console for any players trying to use banned items, and where it happened.\n\nReport use of banned items to staff in the game\n\nLog items being banned/unbanned.\n\n### Commands\n\nAll commands default to OP only:\n\n```\n/banitem add 57 - ban diamond block\n/banitem unban 57 - unban diamond block\n/banitem list - list all banned blocks\n/banitem report - toggles in-game banned item reporting\n```\n\n### Credits\n\nWritten by LDX",
+  "readme_source_url": "https://github.com/poggit-orphanage/BanItem",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/BanItem/47c1b7d694022d5c7448c07006790ccb41de2622/banitem.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/BanItem",
+  "archive_repo": null,
+  "approved_release_tag": "r-1561",
+  "stars": 4,
+  "total_downloads": 23154,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/34510",
+  "versions": {
+    "stable": {
+      "version": "2.3.3",
+      "tag": "r-1561",
+      "published_at": null,
+      "downloads": 23154,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1561/banitem-2.3.3-r1561.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1561",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1561/banitem-2.3.3-r1561.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BanItem",
+    "stable_release_id": 1561
+  }
+}

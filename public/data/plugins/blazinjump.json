@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-12813",
   "stars": 0,
-  "total_downloads": 456,
+  "total_downloads": 2469,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-10583",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-10583/blazinjump-1.1.0-r10583.phar"
+    },
+    {
+      "tag": "r-1587",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1587/blazinjump-1.0.3-r1587.phar"
     }
   ],
   "comments": {

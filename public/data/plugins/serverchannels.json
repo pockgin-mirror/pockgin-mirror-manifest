@@ -1,0 +1,61 @@
+{
+  "id": "serverchannels",
+  "name": "ServerChannels",
+  "author": "EvolSoft",
+  "description": "A powerful chat channelling plugin for PocketMine-MP",
+  "readme_markdown": "![start2](https://cloud.githubusercontent.com/assets/10303538/6315586/9463fa5c-ba06-11e4-8f30-ce7d8219c27d.png)\n\n# ServerChannels\n\nA powerful chat channelling plugin for PocketMine-MP\n\n[![Download!](https://user-images.githubusercontent.com/10297075/101246002-cb046780-3710-11eb-950f-ba06934b8138.png)](http://gestyy.com/er3s9W)\n\n## Category\n\nPocketMine-MP plugins\n\n## Requirements\n\nPocketMine-MP API 3.0.0\n\n## Overview\n\n**ServerChannels** is a powerful chat channelling plugin for PocketMine-MP.\nYou can create highly customizable chat channels on your MC:PE server thanks to this plugin.\n\n***Features:***\n\n- *Custom format:* customize the channel format with colors and tags\n- *Hidden/Unhidden channels:* customize channel visibility (hidden channels messages will be seen only by players who joined that channels, unhidden channels messages will be seen by all players)\n- *Custom channels authentication:* create whitelisted channels, protect them with a password or leave them accessible by all players\n\n**EvolSoft Website:** https://www.evolsoft.tk\n\n***This Plugin uses the New API. You can't install it on old versions of PocketMine.***\n\n## Donate\n\nPlease support the development of this plugin with a small donation by clicking [:dollar: here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=flavius.c.1999@gmail.com&lc=US&item_name=www.evolsoft.tk&no_note=0&cn=&curency_code=EUR&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted). \nYour small donation will help me paying web hosting, domains, buying programs (such as IDEs, debuggers, etc...) and new hardware to improve software development. Thank you :smile:\n\n## Documentation\n\n**Text format (Available on PocketMine console and on MCPE v0.11.0 and later):**\n\n**Colors:**\n\nBlack (\"&0\");<br>\nDark Blue (\"&1\");<br>\nDark Green (\"&2\");<br>\nDark Aqua (\"&3\");<br>\nDark Red (\"&4\");<br>\nDark Purple (\"&5\");<br>\nGold (\"&6\");<br>\nGray (\"&7\");<br>\nDark Gray (\"&8\");<br>\nBlue (\"&9\");<br>\nGreen (\"&a\");<br>\nAqua (\"&b\");<br>\nRed (\"&c\");<br>\nLight Purple (\"&d\");<br>\nYellow (\"&e\");<br>\nWhite (\"&f\");<br>\n\n**Special:**\n\nObfuscated (\"&k\");<br>\nBold (\"&l\");<br>\nStrikethrough (\"&m\");<br>\nUnderline (\"&n\");<br>\nItalic (\"&o\");<br>\nReset (\"&r\");<br>\n\n**Create and configure a channel:**\n\n*Remember that you must have the \"serverchannels.channels.&lt;channel&gt;\" permission to join the channel*\n\n1. Run the command \"/sch create &lt;channel&gt;\"<br>\n2. Open \"channels.yml\" file inside plugin configuration folder and open it<br>\nThis is a channel config file entry:\n\n```yaml\n# Channel name\nchannel_name:\n  # Channel prefix\n  prefix: \"&7[&bExampleChannel&7]\"\n  # Channel suffix\n  suffix: \"\"\n  # Channel format\n  # Available Tags:\n  #  - {MESSAGE}: Show message\n  #  - {PLAYER}: Show player name\n  #  - {PREFIX}: Show prefix\n  #  - {SUFFIX}: Show suffix\n  #  - {TIME}: Show current time\n  #  - {WORLD}: Show world name\n  format: \"{PREFIX} &7{PLAYER}: &f{MESSAGE}\"\n  # Channel visiblity (true if you want that channel messages will be seen by players in the channel only, false if you want that channel messages will be seen by all players)\n  hidden: false\n  # Channel authentication (0 or \"none\" = no authentication, 1 or \"password\" = password authentication, 2 or \"whitelist\" = whitelisted channel)\n  auth: \"none\"\n  # Channel password (this field is ignored unless auth is set to 1 or \"password\")\n  password: \"\"\n  # Channel whitelisted players array (this field is ignored unless auth is set to 2 or \"whitelist\")\n  whitelist: []\n```\n\n**Configuration (config.yml):**\n\n```yaml\n---\n# Date\\Time format (replaced in {TIME}). For format codes read http://php.net/manual/en/datetime.formats.php\ndatetime-format: \"H:i:s\"\n# Log channel messages on console\nlog-on-console: true\n# Default channel settings\ndefault-channel:\n  # Enable default (join) channel\n  enabled: false\n  # Default (join) channel\n  channel: \"users\"\n...\n```\n\n**Commands:**\n\n***/serverchannels*** *- ServerChannels commands (aliases: [serverch, sch])*<br>\n***/sch info*** *- Show info about this plugin*<br>\n***/sch help*** *- Show help about this plugin*<br>\n***/sch reload*** *- Reload the config*<br>\n***/sch create &lt;channel&gt;*** *- Create a new channel*<br>\n***/sch join &lt;channel&gt; [password]*** *- Join a channel*<br>\n***/sch leave*** *- Leave the current channel*<br>\n***/sch list*** *- Show the list of all channels*<br>\n\n**Permissions:**\n\n- <dd><i><b>serverchannels.*</b> - ServerChannels permissions.</i></dd>\n- <dd><i><b>serverchannels.channels.*</b> - ServerChannels channels permissions.</i></dd>\n- <dd><i><b>serverchannels.commands.*</b> - ServerChannels commands permissions.</i></dd>\n- <dd><i><b>serverchannels.commands.help</b> - ServerChannels command Help permission.</i></dd>\n- <dd><i><b>serverchannels.commands.info</b> - ServerChannels command Info permission.</i></dd>\n- <dd><i><b>serverchannels.commands.reload</b> - ServerChannels command Reload permission.</i></dd>\n- <dd><i><b>serverchannels.commands.create</b> - ServerChannels command New permission.</i></dd>\n- <dd><i><b>serverchannels.commands.join</b> - ServerChannels command Join permission.</i></dd>\n- <dd><i><b>serverchannels.commands.leave</b> - ServerChannels command Leave permission.</i></dd>\n- <dd><i><b>serverchannels.commands.list</b> - ServerChannels command List permission.</i></dd>\n\n## API\n\nAlmost all our plugins have API access to widely extend their features.\n\nTo access ServerChannels API:<br>\n*1. Define the plugin dependency in plugin.yml (you can check if ServerChannels is installed in different ways):*\n\n```yaml\ndepend: [ServerChannels]\n```\n\n*2. Include ServerChannels API in your plugin code:*\n\n```php\n//ServerChannels API\nuse ServerChannels\\ServerChannels;\n```\n\n*3. Access the API by doing:*\n\n```php\nServerChannels::getAPI()\n```",
+  "readme_source_url": "https://github.com/EvolSoft/ServerChannels",
+  "icon_url": "https://raw.githubusercontent.com/EvolSoft/ServerChannels/5aa3a83df2effb78fed3ff15c400dce9d02f6702/icon.png",
+  "featured": false,
+  "repo": "https://github.com/EvolSoft/ServerChannels",
+  "archive_repo": null,
+  "approved_release_tag": "r-1655",
+  "stars": 5,
+  "total_downloads": 2244,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "EvolSoft"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/124377",
+  "versions": {
+    "stable": {
+      "version": "2.3",
+      "tag": "r-1655",
+      "published_at": null,
+      "downloads": 2244,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1655/serverchannels-2.3-r1655.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1655",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1655/serverchannels-2.3-r1655.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ServerChannels",
+    "stable_release_id": 1655
+  }
+}

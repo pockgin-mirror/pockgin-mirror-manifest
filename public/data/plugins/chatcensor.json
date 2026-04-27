@@ -1,0 +1,61 @@
+{
+  "id": "chatcensor",
+  "name": "ChatCensor",
+  "author": "EvolSoft",
+  "description": "A powerful chat censoring plugin for PocketMine-MP",
+  "readme_markdown": "![start2](https://cloud.githubusercontent.com/assets/10303538/6315586/9463fa5c-ba06-11e4-8f30-ce7d8219c27d.png)\n\n# ChatCensor\n\nA powerful chat censoring plugin for PocketMine-MP\n\n[![Download!](https://user-images.githubusercontent.com/10297075/101246002-cb046780-3710-11eb-950f-ba06934b8138.png)](http://gestyy.com/er3sBt)\n\n## Category\n\nPocketMine-MP plugins\n\n## Requirements\n\nPocketMine-MP API 3.0.0\n\n## Overview\n\n**ChatCensor** let you block censored words, IP addresses, websites, spam, caps, set allowed and unallowed characters and mute/unmute players in chat.\nYou can also easily customize actions for each censored word.\n\n***Features:***\n\n- *Word censor:* block censored words on chat or even on commands!\n- *URL/IP censor:* prevent players from sending IP addresses or URLs on chat\n- *Anti-caps:* remove caps from messages or block them\n- *Anti-spam:* advanced anti-spam check which will prevent players from sending the same message twice or spamming on chat\n- *Mute/Unmute players:* temporarily or permanently mute players on chat\n- *Maximum message length:* prevent players from sending long messages\n- *Allowed/Unallowed characters:* limit allowed characters on messages\n- Customizable user-side messages\n\n**EvolSoft Website:** https://www.evolsoft.tk\n\n***This Plugin uses the New API. You can't install it on old versions of PocketMine.***\n\n## Donate\n\nPlease support the development of this plugin with a small donation by clicking [:dollar: here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=flavius.c.1999@gmail.com&lc=US&item_name=www.evolsoft.tk&no_note=0&cn=&curency_code=EUR&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted). \nYour small donation will help me paying web hosting, domains, buying programs (such as IDEs, debuggers, etc...) and new hardware to improve software development. Thank you :smile:\n\n## Documentation\n\n**Configuration (config.yml):**\n\n```yaml\n---\n# Censor settings\ncensor:\n # Enable censor\n enabled: true\n # Let players with chatcensor.bypass.censor permission bypass this restriction\n allow-bypassing: false\n # Check bad words inside words (may slightly slow down your server)\n advanced-mode: false\n # Check commands\n check-commands: false\n # Log message to player\n log-to-player: true\n # Block messages containing URLs (a message will be sent to the player if log-to-player is enabled)\n block-urls: true\n # Block messages containing IP addresses (a message will be sent to the player if log-to-player is enabled)\n block-ips: true\n# Anti-caps settings\nanti-caps:\n # Enable anti-caps\n enabled: true\n # Let players with chatcensor.bypass.anti-caps permission bypass this restriction\n allow-bypassing: false\n # Log message to player\n log-to-player: true\n # Block the message (if block-message is disabled, the message will be converted to lower case)\n block-message: true\n# Anti-spam settings\nanti-spam:\n # Enable anti-spam\n enabled: true\n # Let players with chatcensor.bypass.anti-spam permission bypass this restriction\n allow-bypassing: false\n # Log message to player\n log-to-player: true\n # Spam checking mode (0 = the same message can't be repeated, 1 = delayed spam checking, 2 = both)\n mode: 1\n # Delay (in seconds)\n delay: 5\n# Mute/Unmute settings\nmute:\n # Log the mute message to the player\n log-mute: true\n # Log the unmute message to the player\n log-unmute: true\n # Log message to player\n log-to-player: true\n # Default mute time\n time: \"30m\"\n# Characters/Message checking settings\nchar-check:\n # Enable characters/message checking\n enabled: true\n # Let players with chatcensor.bypass.char-check permission bypass this restriction\n allow-bypassing: false\n # Log message to player\n log-to-player: true\n # Maximum message length (set to 0 to disable this feature)\n max-length: 0\n # Allow backslash in messages\n allow-backslash: false\n # Allowed characters in messages (set to \"\" to disable this feature)\n allowed-chars: \"QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890.:,;-_|!/?\"\n # Unallowed characters in messages (set to \"\" to disable this feature)\n unallowed-chars: \"\"\n...\n```\n\n**Messages (messages.yml):**\n\n```yaml\n---\n# No URLs message\nno-urls: \"{PREFIX} &cYou can't send URLs on messages!\"\n# No IP addresses message\nno-ips: \"{PREFIX} &cYou can't send IP addresses on messages!\"\n# No swearing message\nno-swearing: \"{PREFIX} &cPlease don't swear!\"\n# No caps message\nno-caps: \"{PREFIX} &cUppercase characters are not allowed on messages\"\n# Invalid/Unallowed characters message\ninvalid: \"{PREFIX} &cYou can't send this message because it contains invalid characters\"\n# Message too long message\ntoo-long: \"{PREFIX} &cYou can't send this message because it's too long\"\n# No spam message\nno-spam: \"{PREFIX} &cPlease don't spam\"\n# Spam delay message\nspam-delay: \"{PREFIX} &cPlease wait &e{DELAY} seconds&c before sending another message\"\n# Muted message (when the muted player tries to send a message)\nmuted-error: \"{PREFIX} &cYou can't send message because you are muted\"\n# Muted message\nmuted: \"{PREFIX} &cYou have been muted for &e{DURATION}&c by &e{PLAYER}&c!\"\n# Unmuted message\nunmuted: \"{PREFIX} &cYou have been unmuted by &e{PLAYER}&c!\"\n...\n```\n\n**Add and configure a denied word:**\n\n1. Run the command \"/addword &lt;word&gt;\"<br>\n2. Go to ChatCensor plugin directory and open \"words.yml\" file<br>\n3. Find the world in the list and customize its settings\n\nThese are the censored word settings:\n\n```yaml\n---\n# Delete the message containing the word\ndelete-message: false\n# Replace the censored word\nenable-replace: true\n# The text which will replace the censored word\nreplace-word: \"****\"\n# List of commands to execute\n# Available tags:\n#  - {PLAYER}: Player name of the player who sent the message containing the censored word\n# Example:\n#  commands:\n#  - \"tell {PLAYER} Do not swear please!\"\n#  - \"ban {PLAYER}\"\ncommands: []\n...\n```\n\n**Commands:**\n\n<dd><i><b>/chatcensor</b> - ChatCensor commands (aliases: [cc, chatc, censor])</i></dd>\n<dd><i><b>/addword &lt;word&gt;</b> - Add a censored word</i></dd>\n<dd><i><b>/removeword &lt;word&gt;</b> - Remove a censored word</i></dd>\n<dd><i><b>/mute &lt;player&gt;</b> - Mute player</i></dd>\n<dd><i><b>/unmute &lt;player&gt;</b> - Unmute player</i></dd>\n<dd><i><b>/listmuted</b> - Get the list of muted players</i></dd>\n<br>\n\n**Permissions:**\n\n- <dd><i><b>chatcensor.*</b> - ChatCensor permission tree.</i></dd>\n- <dd><i><b>chatcensor.bypass.*</b> - Bypass ChatCensor features.</i></dd>\n- <dd><i><b>chatcensor.bypass.censor</b> - Bypass ChatCensor word censor feature.</i></dd>\n- <dd><i><b>chatcensor.bypass.anti-caps</b> - Bypass ChatCensor anti-caps feature.</i></dd>\n- <dd><i><b>chatcensor.bypass.char-check</b> - Bypass ChatCensor char-check feature.</i></dd>\n- <dd><i><b>chatcensor.bypass.anti-spam</b> - Bypass ChatCensor spam-check feature.</i></dd>\n- <dd><i><b>chatcensor.commands.*</b> - ChatCensor commands permission tree.</i></dd>\n- <dd><i><b>chatcensor.commands.help</b> - Let player read ChatCensor commands help.</i></dd>\n- <dd><i><b>chatcensor.commands.info</b> - Let player read info about ChatCensor.</i></dd>\n- <dd><i><b>chatcensor.commands.reload</b> - Let player reload ChatCensor configuration.</i></dd>\n- <dd><i><b>chatcensor.commands.addword</b> - Let player add a censored word.</i></dd>\n- <dd><i><b>chatcensor.commands.removeword</b> - Let player remove a censored word.</i></dd>\n- <dd><i><b>chatcensor.commands.mute</b> - Let player mute a player.</i></dd>\n- <dd><i><b>chatcensor.commands.unmute</b> - Let player unmute a player.</i></dd>\n- <dd><i><b>chatcensor.commands.listmuted</b> - Let player show the list of muted players.</i></dd>\n\n## API\n\nAlmost all our plugins have API access to widely extend their features.\n\nTo access ChatCensor API:<br>\n*1. Define the plugin dependency in plugin.yml (you can check if ChatCensor is installed in different ways):*\n\n```yaml\ndepend: [ChatCensor]\n```\n\n*2. Include ChatCensor API in your plugin code:*\n\n```php\n//ChatCensor API\nuse ChatCensor\\ChatCensor;\n```\n\n*3. Access the API by doing:*\n\n```php\nChatCensor::getAPI()\n```",
+  "readme_source_url": "https://github.com/EvolSoft/ChatCensor",
+  "icon_url": "https://raw.githubusercontent.com/EvolSoft/ChatCensor/9db0018e8f917a954d2c16489c6829b007356c33/icon.png",
+  "featured": false,
+  "repo": "https://github.com/EvolSoft/ChatCensor",
+  "archive_repo": null,
+  "approved_release_tag": "r-1657",
+  "stars": 4,
+  "total_downloads": 4853,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "EvolSoft"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/124371",
+  "versions": {
+    "stable": {
+      "version": "2.3",
+      "tag": "r-1657",
+      "published_at": null,
+      "downloads": 4853,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1657/chatcensor-2.3-r1657.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1657",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1657/chatcensor-2.3-r1657.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatCensor",
+    "stable_release_id": 1657
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "rankpoints",
+  "name": "RankPoints",
+  "author": "Awzaw",
+  "description": "RankPoints keeps track of points that are awarded to players using plugins such as VoteReward which allow you to run commands (or on console). PurePerms ranks are set automatica...",
+  "readme_markdown": "#RankPoints\n\nRankPoints keeps track of points that are awarded to players using plugins such as VoteReward which allow you to run commands (or on console).  PurePerms ranks are set automatically according to the config.\n\nThis plugin ONLY supports PurePerms.\n\nIn-Game Commands:\n\n/rankpoints - displays your own rank points\n/rankpoints player - displays rank points for a player\n\nConsole or Plugin Commands:\n\nrankpoints player points\n\nwhere player is a player's IGN, and points is an integer.\n\nFor example: put the following lines at the end of VoteReward\n\n```\nCommands:\n  - \"rankpoints {USERNAME} 1\"\n```\n\nRunning the command \"rankpoints awzaw 1\" on console, will add 1 point to the player awzaw's current rank points total, then check the config.yml which must be configured in this format, for example:\n\n```\nRanks:\n- Guest\n- Member\n- VIP\nPoints:\n- 0\n- 10\n- 50\n```\n\nYou MUST have PurePerms installed, and the Ranks in RankPoints config.yml MUST all be existing PurePerms groups.\n\nIMPORTANT:\nThe first rank MUST be the default PurePerms group, with the points needed set to to zero.  Players with higher ranks, or ranks not in the Ranks config will not be deranked.\n\nQ: Why doesn't it work?\n\nA: You MUST have PurePerms installed, the Ranks in RankPoints config.yml MUST all be existing PurePerms groups. Also the first rank MUST be the default PurePerms group, with points set to to zero. If that doesn't help, check you are using a recent version of PurePerms.\n\nQ: Will players who get rank points ever be deranked when earning points?\n\nA: Players with a rank not listed in the RankPoints config.yml file, or above the target rank (ie who already have a higher rank in the RankPoints config) will not be deranked.\n\nQ: What can I use this plugin for?\n\nA: RankPoints is designed to give players ranks automatically according to the number of votes (with VoteReward), but can be used with any plugin that allows you to run the command \"rankpoints {USERNAME} {POINTS}\" where {USERNAME} is the players IGN, and {POINTS} is an integer.\n\nTODO:\nPermissions, give rank points to all online players, add error checking for missing ranks, bad config etc, Configurable rankpoints help command and \"Success\" message when players are ranked etc",
+  "readme_source_url": "https://github.com/Awzaw/RankPoints",
+  "icon_url": "https://raw.githubusercontent.com/Awzaw/RankPoints/36261cc8a653fca2c8b16ad3e176f97e09083b4e/rplogo.png",
+  "featured": false,
+  "repo": "https://github.com/Awzaw/RankPoints",
+  "archive_repo": null,
+  "approved_release_tag": "r-1576",
+  "stars": 5,
+  "total_downloads": 12257,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "PurePerms"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Awzaw"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/34594",
+  "versions": {
+    "stable": {
+      "version": "1.5.3",
+      "tag": "r-1576",
+      "published_at": null,
+      "downloads": 12257,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1576/rankpoints-1.5.3-r1576.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1576",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1576/rankpoints-1.5.3-r1576.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "RankPoints",
+    "stable_release_id": 1576
+  }
+}

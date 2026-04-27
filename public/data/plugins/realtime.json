@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-5737",
   "stars": 5,
-  "total_downloads": 10854,
+  "total_downloads": 11429,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-2085",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2085/realtime-1.1.0-r2085.phar"
+    },
+    {
+      "tag": "r-1645",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1645/realtime-1.0.0-r1645.phar"
     }
   ],
   "comments": {

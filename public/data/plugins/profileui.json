@@ -1,0 +1,66 @@
+{
+  "id": "profileui",
+  "name": "ProfileUI",
+  "author": "Infernus101",
+  "description": "(No Plugin library or Virion required! Easy as pie!)",
+  "readme_markdown": "# ProfileUI<img src=\"https://raw.githubusercontent.com/Infernus101/ProfileUI/0690f5e61a9f7af02c30342d4d6414a630de47fc/icon.png\" height=\"64\" width=\"64\" align=\"left\"></img>\n(No Plugin library or Virion required! Easy as pie!)\nGet any player's profile on a Modal Form! MCPE v1.2! PMMP support only!\n\n[![HitCount](http://hits.dwyl.io/Infernus101/ProfileUI.svg)](http://hits.dwyl.io/Infernus101/ProfileUI)\n[![Poggit-CI](https://poggit.pmmp.io/ci.shield/Infernus101/ProfileUI/ProfileUI)](https://poggit.pmmp.io/ci/Infernus101/ProfileUI/ProfileUI)\n[![](https://poggit.pmmp.io/shield.dl.total/ProfileUI)](https://poggit.pmmp.io/p/ProfileUI)\n\n[Get the latest ProfileUI artifacts (PHAR file) here](https://poggit.pmmp.io/ci/Infernus101/ProfileUI/ProfileUI)\n\n## Ideas\n- Submit your ideas in issues or pr it!\n\n## Usage\n- /profile <player>\n\n## Features\n- Shows player Name\n- Shows player Rank\n- Shows player Money\n- Shows player blocks broken\n- Shows player total kills\n- Shows player total deaths\n- Shows player K/D ratio\n- Shows player Faction if there\n- Shows player online/offline status\n- Shows player first joined date with time\n- Shows player Last seen if player is offline\n\n## About\n- Made by @Infernus101\n- Github - http://github.com/Infernus101\n- Twitter - http://twitter.com/Infernus101\n- Email - infernusmcpe@gmail.com\n- Server - Fallentech.tk 19132 | Countertech.tk 19132",
+  "readme_source_url": "https://github.com/Infernus101/ProfileUI",
+  "icon_url": "https://raw.githubusercontent.com/Infernus101/ProfileUI/c62f1ba2cf9692ddd69018dfd1eeae49f8f0bf2e/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Infernus101/ProfileUI",
+  "archive_repo": null,
+  "approved_release_tag": "r-1686",
+  "stars": 4,
+  "total_downloads": 13610,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Infernus101"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/37088",
+  "versions": {
+    "stable": {
+      "version": "4.2.1",
+      "tag": "r-1686",
+      "published_at": null,
+      "downloads": 13437,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1686/profileui-4.2.1-r1686.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1686",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1686/profileui-4.2.1-r1686.phar"
+    },
+    {
+      "tag": "r-1676",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1676/profileui-4.2.0-r1676.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ProfileUI",
+    "stable_release_id": 1686
+  }
+}

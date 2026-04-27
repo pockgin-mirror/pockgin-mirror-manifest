@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-2165",
   "stars": 5,
-  "total_downloads": 5617,
+  "total_downloads": 5930,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-1831",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1831/autoxp-1.0.1-r1831.phar"
+    },
+    {
+      "tag": "r-1589",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1589/autoxp-1.0.0-r1589.phar"
     }
   ],
   "comments": {

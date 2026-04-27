@@ -1,0 +1,61 @@
+{
+  "id": "broadcaster",
+  "name": "Broadcaster",
+  "author": "EvolSoft",
+  "description": "Advanced Broadcasting plugin for PocketMine-MP",
+  "readme_markdown": "![start2](https://cloud.githubusercontent.com/assets/10303538/6315586/9463fa5c-ba06-11e4-8f30-ce7d8219c27d.png)\n\n# Broadcaster\n\nAdvanced Broadcasting plugin for PocketMine-MP\n\n[![Download!](https://user-images.githubusercontent.com/10297075/101246002-cb046780-3710-11eb-950f-ba06934b8138.png)](http://gestyy.com/er3dEU)\n\n## Category\n\nPocketMine-MP plugins\n\n## Requirements\n\nPocketMine-MP API 3.0.0\n\n## Overview\n\n**Broadcaster** is an advanced Broadcasting plugin for PocketMine-MP.<br>\nWith Broadcaster you can set custom message, popup and title broadcasts. You can also send messages with /sm, popups with /sp and titles with /st commands.<br>\nThis plugin let you also customize colors (you can use the & sign instead of § for text format), prefixes, suffixes and intervals.\n\n**EvolSoft Website:** https://www.evolsoft.tk\n\n***This Plugin uses the New API. You can't install it on old versions of PocketMine.***\n\n## Donate\n\nPlease support the development of this plugin with a small donation by clicking [:dollar: here](https://paypal.me/Flavius12). \nYour small donation will help me paying web hosting, domains, buying programs (such as IDEs, debuggers, etc...) and new hardware to improve software development. Thank you :smile:\n\n## Documentation\n\n**Configuration (config.yml):**\n\n```yaml\n---\n# Available tags for broadcast messages, popups and titles:\n# - {MAXPLAYERS}: Show the maximum number of players supported by the server\n# - {TOTALPLAYERS}: Show the number of all online players\n# - {PREFIX}: Show prefix\n# - {SUFFIX}: Show suffix\n# - {TIME}: Show current time\n# Available tags for /sendmessage, /sendpopup and /sendtitle format:\n# - {MESSAGE}: Show message\n# - {MAXPLAYERS}: Show the maximum number of players supported by the server\n# - {TOTALPLAYERS}: Show the number of all online players\n# - {PREFIX}: Show prefix\n# - {PLAYER}: Message receiver\n# - {SENDER}: Show sender name\n# - {SUFFIX}: Show suffix\n# - {TIME}: Show current time\n# Extra tag for titles:\n# - {SUBTITLE}: Add subtitle (the text after this tag will be the content of the subtitle) \n# Prefix\nprefix: \"&9[&eBroadcaster&9]\"\n# Suffix\nsuffix: \"[A]\"\n# Date\\Time format (replaced in {TIME}). For format codes read http://php.net/manual/en/datetime.formats.php\ndatetime-format: \"H:i:s\"\n# Message broadcast\nmessage-broadcast:\n # Enable message broadcast\n enabled: true\n # Broadcast interval (in seconds)\n time: 15\n # Command /sendmessage format\n command-format: \"&e[{TIME}] {PREFIX} {SUFFIX} &a{SENDER}&e>&f {MESSAGE}\"\n # Broadcast messages\n messages:\n  - \"&e[{TIME}] {PREFIX}&f 1st message\"\n  - \"&e[{TIME}] {PREFIX}&f 2nd message\"\n  - \"&e[{TIME}] {PREFIX}&f 3rd message\"\n# Popup broadcast\npopup-broadcast:\n # Enable popup broadcast\n enabled: true\n # Popup broadcast interval (in seconds)\n time: 15\n # Popup duration (in seconds)\n duration: 5\n # Command /sendpopup format\n command-format: \"&a{SENDER}&e>>&f {MESSAGE}\"\n # Popup broadcast messages\n messages:\n  - \"&aWelcome to your server\"\n  - \"&d{TOTALPLAYERS} &eof &d{MAXPLAYERS} &eonline\"\n  - \"&bCurrent Time: &a{TIME}\"\n# Title broadcast\ntitle-broadcast:\n # Enable title broadcast\n enabled: true\n # Title broadcast interval\n time: 30\n # Command /sendtitle format\n command-format: \"&d{MESSAGE}\"\n # Title broadcast messages\n messages:\n  - \"&aWelcome to your server!{SUBTITLE}&bGood game!\"\n  - \"&eHello player!\"\n...\n```\n\n**Commands:**\n\n<dd><b><i>/broadcaster</b> - Broadcaster commands (aliases: [bc, broadcast])</i></dd>\n<dd><i><b>/sendmessage &lt;player (* for all players)&gt; &lt;message&gt;</b> - Send message to player(s) (aliases: [sm, smsg])</i></dd>\n<dd><i><b>/sendpopup &lt;player (* for all players)&gt; &lt;message&gt;</b> - Send popup to player(s) (aliases: [sp, spop])</i></dd>\n<dd><i><b>/sendtitle &lt;player (* for all players)&gt; &lt;message&gt;</b> - Send title to player(s) (aliases: [st, stl])</i></dd><br>\n\n**Permissions:**\n\n- <dd><i><b>broadcaster.*</b> - Broadcaster permissions tree.</i>\n- <dd><i><b>broadcaster.info</b> - Let player read info about Broadcaster.</i>\n- <dd><i><b>broadcaster.reload</b> - Let player reload Broadcaster.</i>\n- <dd><i><b>broadcaster.sendmessage</b> - Let player send messages to players with /sendmessage command.</i>\n- <dd><i><b>broadcaster.sendpopup</b> - Let player send popups to players with /sendpopup command.</i>\n- <dd><i><b>broadcaster.sendpopup</b> - Let player send titles to players with /sendtitle command.</i>\n\n## API\n\nAlmost all our plugins have API access to widely extend their features.\n\nTo access Broadcaster API:<br>\n*1. Define the plugin dependency in plugin.yml (you can check if Broadcaster is installed in different ways):*\n\n```yaml\ndepend: [Broadcaster]\n```\n\n*2. Include Broadcaster API in your plugin code:*\n\n```php\n//Broadcaster API\nuse Broadcaster\\Broadcaster;\n```\n\n*3. Access the API by doing:*\n\n```php\nBroadcaster::getAPI()\n```",
+  "readme_source_url": "https://github.com/EvolSoft/Broadcaster",
+  "icon_url": "https://raw.githubusercontent.com/EvolSoft/Broadcaster/0c7b53f63b1e3f23ef8d6e31b29d45ae305af93d/icon.png",
+  "featured": false,
+  "repo": "https://github.com/EvolSoft/Broadcaster",
+  "archive_repo": null,
+  "approved_release_tag": "r-1651",
+  "stars": 4,
+  "total_downloads": 16007,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "EvolSoft"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/124363",
+  "versions": {
+    "stable": {
+      "version": "1.5",
+      "tag": "r-1651",
+      "published_at": null,
+      "downloads": 16007,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1651/broadcaster-1.5-r1651.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1651",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1651/broadcaster-1.5-r1651.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Broadcaster",
+    "stable_release_id": 1651
+  }
+}

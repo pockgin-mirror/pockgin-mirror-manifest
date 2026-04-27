@@ -1,0 +1,61 @@
+{
+  "id": "notp",
+  "name": "NoTP",
+  "author": "Awzaw",
+  "description": "Simple PocketMine plugin to prevent players teleporting to you, and teleporting you",
+  "readme_markdown": "# NoTP\n\nSimple PocketMine plugin to prevent players teleporting to you, and teleporting you",
+  "readme_source_url": "https://github.com/Awzaw/NoTP",
+  "icon_url": "https://raw.githubusercontent.com/Awzaw/NoTP/8b62d19cc9d69326e5b95a61ab0acbecbc1f57a0/notp.png",
+  "featured": false,
+  "repo": "https://github.com/Awzaw/NoTP",
+  "archive_repo": null,
+  "approved_release_tag": "r-1574",
+  "stars": 4,
+  "total_downloads": 5210,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Awzaw"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/34584",
+  "versions": {
+    "stable": {
+      "version": "1.0.7",
+      "tag": "r-1574",
+      "published_at": null,
+      "downloads": 5210,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1574/notp-1.0.7-r1574.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1574",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1574/notp-1.0.7-r1574.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "NoTP",
+    "stable_release_id": 1574
+  }
+}

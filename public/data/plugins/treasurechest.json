@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1804",
   "stars": 5,
-  "total_downloads": 5586,
+  "total_downloads": 5796,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.2.3",
       "tag": "r-1804",
       "published_at": null,
-      "downloads": 5586,
+      "downloads": 5587,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1804/treasurechest-1.2.3-r1804.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-1804",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1804/treasurechest-1.2.3-r1804.phar"
+    },
+    {
+      "tag": "r-1572",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1572/treasurechest-1.2.2-r1572.phar"
     }
   ],
   "comments": {

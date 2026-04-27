@@ -1,0 +1,61 @@
+{
+  "id": "limitheight",
+  "name": "LimitHeight",
+  "author": "EvolSoft",
+  "description": "A simple PocketMine-MP plugin to limit the build height on your server.",
+  "readme_markdown": "![start2](https://cloud.githubusercontent.com/assets/10303538/6315586/9463fa5c-ba06-11e4-8f30-ce7d8219c27d.png)\n\n# LimitHeight\n\nA simple PocketMine-MP plugin to limit the build height on your server.\n\n[![Download!](https://user-images.githubusercontent.com/10297075/101246002-cb046780-3710-11eb-950f-ba06934b8138.png)](http://gestyy.com/er3dp9)\n\n## Category\n\nPocketMine-MP plugins\n\n## Requirements\n\nPocketMine-MP API 3.0.0\n\n## Overview\n\n**LimitHeight** is a simple plugin that let you limit the build height on your server.\n\n**EvolSoft Website:** https://www.evolsoft.tk\n\n**This Plugin uses the New API. You can't install it on old versions of PocketMine.**\n\n## Donate\n\nPlease support the development of this plugin with a small donation by clicking [:dollar: here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=flavius.c.1999@gmail.com&lc=US&item_name=www.evolsoft.tk&no_note=0&cn=&curency_code=EUR&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted). \nYour small donation will help me paying web hosting, domains, buying programs (such as IDEs, debuggers, etc...) and new hardware to improve software development. Thank you :smile:\n\n## Documentation\n\n**Configuration (config.yml):**\n\n```yaml\n---\n#Height limit (by default ops have limitheight.bypass permission set and they can bypass the limit)\nheight-limit: 64\n#Show message on limit reached\nshow-message: true\n#Show plugin prefix on message\nshow-prefix: true\n#Message\nmessage: \"&cYou can't build over the height of {LIMIT} blocks!\"\n#World list where limit is disabled\n#For example:\n#disabled-in-worlds:\n# - world\n# - world2\ndisabled-in-worlds: []\n...\n```\n\n**Permissions:**\n\n- <dd><i><b>limitheight.*</b> - LimitHeight permissions tree.</i></dd>\n- <dd><i><b>limitheight.bypass</b> - Let players bypass the height limit.</i></dd>",
+  "readme_source_url": "https://github.com/EvolSoft/LimitHeight",
+  "icon_url": "https://raw.githubusercontent.com/EvolSoft/LimitHeight/6bfe27475c6d0d39a704f8443eed763226eb4dc2/icon.png",
+  "featured": false,
+  "repo": "https://github.com/EvolSoft/LimitHeight",
+  "archive_repo": null,
+  "approved_release_tag": "r-1653",
+  "stars": 4,
+  "total_downloads": 1396,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "EvolSoft"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.6",
+      "tag": "r-1653",
+      "published_at": null,
+      "downloads": 1396,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1653/limitheight-1.6-r1653.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1653",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1653/limitheight-1.6-r1653.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "LimitHeight",
+    "stable_release_id": 1653
+  }
+}

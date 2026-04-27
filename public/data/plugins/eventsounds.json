@@ -1,0 +1,72 @@
+{
+  "id": "eventsounds",
+  "name": "EventSounds",
+  "author": "photoncodes",
+  "description": "Description",
+  "readme_markdown": "# EventSounds\n<p align=\"center\">\n    <img src=\"icon.png\" width=\"150px\" height=\"150px\">\n</p>\n\n[![](https://poggit.pmmp.io/shield.state/EventSounds)](https://poggit.pmmp.io/p/EventSounds)\n[![](https://poggit.pmmp.io/shield.api/EventSounds)](https://poggit.pmmp.io/p/EventSounds)\n\n[![](https://poggit.pmmp.io/shield.dl.total/EventSounds)](https://poggit.pmmp.io/p/EventSounds)\n[![](https://poggit.pmmp.io/shield.dl/EventSounds)](https://poggit.pmmp.io/p/EventSounds)\n\n## Description\nA Pocketmine-MP plugin which plays a sound when calling an event.\n\n## Configuration\nA configuration file (config.yml) and a helpful file with the available ids (Until now) will be created automatically when your server enables the plugin. Default settings will be used unless you change them in config.yml\n\n`configVersion: 2` Don't make any changes here\n\nSounds IDs can be found in soundsIDs.txt. or [here](https://github.com/killer549/EventSounds/wiki/Sounds)\n\nFor more information about sounds and events, see the [wiki](https://github.com/killer549/EventSounds/wiki)\n\n## TODO\n- Add more sounds\n- Start working on external sounds and music\n\n## Contribution:\nFeel free to contribute if you have ideas or found an issue.\nLinks:\n\n- [Open an issue or request](https://github.com/killer549/EventSounds/issues)\n- [Add something new or fix a bug](https://github.com/killer549/EventSounds/pulls)\n\n## Licensing information\n\tThis program is free software: you can redistribute it and/or modify\n\tit under the terms of the GNU Lesser General Public License as published by\n\tthe Free Software Foundation, either version 3 of the License, or\n\t(at your option) any later version.\n\n\tThis program is distributed in the hope that it will be useful,\n\tbut WITHOUT ANY WARRANTY; without even the implied warranty of\n\tMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n\tGNU Lesser General Public License for more details.\n\n\tYou should have received a copy of the GNU Lesser General Public License\n\talong with this program.  If not, see <http://www.gnu.org/licenses/>.",
+  "readme_source_url": "https://github.com/photoncodes/EventSounds",
+  "icon_url": "https://raw.githubusercontent.com/killer549/EventSounds/ffaa5289617139b9cb222af05054ce7ce2b4071c/icon.png",
+  "featured": false,
+  "repo": "https://github.com/photoncodes/EventSounds",
+  "archive_repo": null,
+  "approved_release_tag": "r-1632",
+  "stars": 0,
+  "total_downloads": 2926,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "photoncodes"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/42772",
+  "versions": {
+    "stable": {
+      "version": "0.4.2",
+      "tag": "r-1632",
+      "published_at": null,
+      "downloads": 2791,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1632/eventsounds-0.4.2-r1632.phar"
+    },
+    "dev": {
+      "version": "0.4.1",
+      "tag": "r-1596",
+      "published_at": null,
+      "downloads": 135,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1596/eventsounds-0.4.1-r1596.phar"
+    }
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1632",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1632/eventsounds-0.4.2-r1632.phar"
+    },
+    {
+      "tag": "r-1596",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1596/eventsounds-0.4.1-r1596.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "EventSounds",
+    "stable_release_id": 1632
+  }
+}

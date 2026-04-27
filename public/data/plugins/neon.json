@@ -1,0 +1,61 @@
+{
+  "id": "neon",
+  "name": "Neon",
+  "author": "Awzaw",
+  "description": "General",
+  "readme_markdown": "### General\nNEON is a PocketMine-MP plugin for colouring signs. Fast. Make your own presets or use a built-in scheme such as `/neon rnd` to start painting signs in one click.\n### Commands\n`/neon` - displays the help for Neon\n\n`/neon list` - displays a list of all neon themes from neon.yml\n\n`/neon [name of theme]` - activates a theme ready for sign coloring\n\n`/neon set test color1 color2 color3 color4` - make a new theme called test, and activate it\n\n`/neon del test` - delete the theme called test\n\n`/neon rnd` - start coloring with random colors\n\n`/neon color1 color2 color3 color4` - start coloring with these colors\n\n`/neon off` - turn off Neon sign coloring\n\n### Examples\n`/neon set random RND RND RND RND` to make a new \"RANDOM\" theme with random colours for every letter on each line\n\n`/neon set fancy RND GOLD RND GREEN` to make a new 'fancy' theme, 1st line random colours, 2nd Gold, 3rd Random colours, 4th line green\n\n`/neon RND RED RED RED` to start colouring signs with 1st line random colours, 2nd, 3rd and 4th all RED\n\n### Important\nplease note that colours can be in upper or lower case, but RND as a colour at the start of the pattern must be upper case to avoid confusion with `/neon rnd`\n\n### Permissions\n\nThe `neon' permission defaults to OP only.\n\n`neon` - players can use all neon commands\n\nAll players can use Neon in whitelisted worlds regardless of permissions - see config.yml\n\n### Available Colours\n<p>RND - use this to make every letter of the line a random colour.</p>\n<p>BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE</p>",
+  "readme_source_url": "https://github.com/Awzaw/Neon",
+  "icon_url": "https://raw.githubusercontent.com/Awzaw/Neon/e84bd45b6e52293c8be4ca53c570aa5b77a531f7/neonlogo.png",
+  "featured": false,
+  "repo": "https://github.com/Awzaw/Neon",
+  "archive_repo": null,
+  "approved_release_tag": "r-1563",
+  "stars": 0,
+  "total_downloads": 2939,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Awzaw"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/34518",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-1563",
+      "published_at": null,
+      "downloads": 2939,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1563/neon-1.1.1-r1563.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1563",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1563/neon-1.1.1-r1563.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Neon",
+    "stable_release_id": 1563
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-3937",
   "stars": 5,
-  "total_downloads": 17381,
+  "total_downloads": 18560,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-2621",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2621/playerinfo-2.1.0-r2621.phar"
+    },
+    {
+      "tag": "r-1620",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1620/playerinfo-2.0.3-r1620.phar"
     }
   ],
   "comments": {

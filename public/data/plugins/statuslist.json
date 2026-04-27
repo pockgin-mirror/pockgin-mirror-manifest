@@ -1,0 +1,63 @@
+{
+  "id": "statuslist",
+  "name": "StatusList",
+  "author": "robske110",
+  "description": "SignServerStats",
+  "readme_markdown": "# SignServerStats\nA PocketMine plugin which can display player count and MODT on a sign from any server with query enabled.\n\n[![](https://poggit.pmmp.io/shield.api/SignServerStats)](https://poggit.pmmp.io/p/SignServerStats)\n\n## Usage:\nAnyone with the permission `SSS.signs` can create a sign with the following content:\n```\n[SSS]\nserverIP/Hostname (can go over two lines with a - at the end of the first line)\nserverPort\n```\n\nThe plugin will recognize that sign and fill it with colorful stats!\nPlayers who tap the sign and have the permission `SSS.servertransfer` will be transferred to the Server the sign is displaying.\n\n*Note: Due to 1.1+ not telling the server when the sign is finished, you now need to tap the sign once to activate it after setting it up.*\n\n## API:\n**This plugin can also be used as a query API. You might want to look into SignServerStats.php, because all the API functions are in there.**\n\nExample plugins are provided in /examples/:\n- DumpInfo.php - Dumps all available info about a server.\n\nBecause the following two examples may also be useful for users, they are also provided as phars in every release:\n- StatusList/ - Lists online status and player count of multiple servers in a List. [![](https://poggit.pmmp.io/shield.api/StatusList)](https://poggit.pmmp.io/p/StatusList)\n- WarnOffline/ - Warns if a server has gone offline. Depends on StatusList. [![](https://poggit.pmmp.io/shield.api/WarnOffline)](https://poggit.pmmp.io/p/WarnOffline)\n- LinkPlayerCount/ - Links the player count of multiple servers. [![](https://poggit.pmmp.io/shield.api/LinkPlayerCount)](https://poggit.pmmp.io/p/LinkPlayerCount)\n\n_You should always check if your plugin is compatible with the version of SignServerStats present on the current server with the help of the isCompatible function_\n\nExample:\n```php\n/** @var robske_110\\SSS\\SignServerStats $signServerStats */\nif(!$signServerStats->isCompatible(\"1.1.0\")){\n   \t$this->getLogger()->critical(\"Your version of SignServerStats is not compatible with this plugin.\");\n\t$this->getServer()->getPluginManager()->disablePlugin($this);\n\treturn;\n}\n```\n\n#### If you prefer just a quick introduction, here is one for getting the the online status of the server `example.com:1234`:\n\nInitial, for example onEnable:\n```php\n/** @var $sss robske_110\\SSS\\SignServerStats */\n$sss->addServer(\"example.com\", 1234);\n```\nThis tells SSS that it should query that server in its next query.\n\n**IMPORTANT: The info might not be available in the next SSSasyncUpdateEvent!**\n\nTo check if the server is online simply listen to the SSSasyncUpdateEvent and check the array:\n```php\npublic function onSSSasyncUpdate(robske_110\\SSS\\event\\SSSasyncUpdateEvent $event){\n\t$serverOnlineArray = $event->getPlugin()->getServerOnline();\n\tif(isset($serverOnlineArray[\"example.com\".\"@\".1234])){\n\t\t$isOnline = $serverOnlineArray[\"example.com\".\"@\".1234];\n\t    //isOnline is now a bool (true/false) that reflects the online state of the server (if the server is online and this says false, it probably doesn't have query enabled.)\n\t    //You can now also get additional data with getMODTs() and getPlayerData() in the same way.\n\t    //There is also the function getFullData() with which you can get allthedata a server sent over the query. Do a var_dump on it for a headstart.\n\t}else{\n\t    //The information is going to be here in the next event!\n\t}\n}\n```\n\n## TODO:\n\n- [ ] FTPs? NCPs?\n\n- [x] Multi-line server hostnames\n\n- [x] Create custom event onAsyncUpdate for easier API use\n\n- [x] API should be able to also get other data (playernamelist, pluginlist)\n\n- [x] Sign style config\n\n- [x] Tap sign to transfer",
+  "readme_source_url": "https://github.com/robske110/SignServerStats",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/robske110/SignServerStats",
+  "archive_repo": null,
+  "approved_release_tag": "r-1690",
+  "stars": 0,
+  "total_downloads": 2249,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "SignServerStats"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "robske110"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/131618",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-1690",
+      "published_at": null,
+      "downloads": 2249,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1690/statuslist-1.1.1-r1690.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1690",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1690/statuslist-1.1.1-r1690.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "StatusList",
+    "stable_release_id": 1690
+  }
+}

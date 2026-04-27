@@ -1,0 +1,61 @@
+{
+  "id": "compassxyz",
+  "name": "CompassXYZ",
+  "author": "jhelom",
+  "description": "This is PocketMine-MP Plugin.",
+  "readme_markdown": "# CompassXYZ\n\n[![](https://poggit.pmmp.io/shield.state/CompassXYZ)](https://poggit.pmmp.io/p/CompassXYZ)\n\n[![](https://poggit.pmmp.io/shield.api/CompassXYZ)](https://poggit.pmmp.io/p/CompassXYZ)\n\nThis is PocketMine-MP Plugin.\n\nShow Player Coordinates.\n\n![console](https://github.com/jhelom/CompassXYZ-plugin-pocketmine/blob/develop/assets/xyz.png)\n\n# Commands\n\n```\n/xyz [on|off]\n```\n\n## Show Coordinates\n\nHold compass, or \"/xyz on\" command.\n\n\n## Hide Coordinates\n\nRemove the compass from the hand, or \"/xyz off\" command.\n\n\n---\n\n# 日本語\n\nプレイヤーの座標を表示するPocketMine-MPのプラグインです。\n\n## 座標を表示する\n\nコンパスを手に持つか、\"/xyz on\" コマンドを実行します。\n\n\n## 座標の表示をやめる\n\nコンパスを手から外すか、\"/xyz off\" コマンドを実行します。",
+  "readme_source_url": "https://github.com/jhelom/CompassXYZ-plugin-pocketmine",
+  "icon_url": "https://raw.githubusercontent.com/jhelom/CompassXYZ-plugin-pocketmine/c7a0da031387b3964aba875c0193a2b9f47fa418/assets/icon.png",
+  "featured": false,
+  "repo": "https://github.com/jhelom/CompassXYZ-plugin-pocketmine",
+  "archive_repo": null,
+  "approved_release_tag": "r-1562",
+  "stars": 5,
+  "total_downloads": 8878,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA12-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "jhelom"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-1562",
+      "published_at": null,
+      "downloads": 8878,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1562/compassxyz-1.0-r1562.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1562",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1562/compassxyz-1.0-r1562.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CompassXYZ",
+    "stable_release_id": 1562
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "timeranks",
+  "name": "TimeRanks",
+  "author": "luca28pet",
+  "description": "A PocketMine - MP plugin that lets you easily create configurable ranks for your server. Ranks are time-based, so TimeRanks is ideal to give players a rank based on their time s...",
+  "readme_markdown": "TimeRanks\n=========\n\nA PocketMine - MP plugin that lets you easily create configurable ranks for your server. Ranks are time-based, so TimeRanks is ideal to give players a rank based on their time spent online.\n\n*Latest release: https://poggit.pmmp.io/p/TimeRanks/*\n\n*Latest development phars: https://poggit.pmmp.io/ci/luca28pet/TimeRanks/TimeRanks*\n\n**Ranks Configuration**\n\nRanks configuration is done inside _ranks.yml_.\nTimeRanks requires a *default* rank, which is the one assigned to new players.\nThis is how you add a default rank:\n```\n- name: \"DefaultRank\"\n  default: true\n```\nNote: we do not specify the 'minutes' parameter.\nIt has not to be called DefaultRank, you can give it any name you want.\n\nOther ranks have to be written in the _ranks.yml_ file, under the default rank, like this:\n```\n- name: \"ExampleRank\"\n  minutes: 20\n  message: \"You are now rank ExampleRank\"\n  commands:\n  - \"tell \\\"{%player}\\\" You ranked up!\"\n```\nWe must specify a 'minutes' parameter (after how many minutes spent online a player will get that rank).\nOptionally you can add a 'message', which is sent to the player, and 'commands' that get executed when the player ranks up to that rank.\n\nAn example of a complete _ranks.yml_ is:\n```\nranks:\n  - name: \"Beginner\"\n    default: true\n    message: \"Your rank has been set to Beginner\"\n    commands:\n    - \"setgroup \\\"{%player}\\\" Beginner\"\n\n  - name: \"Intermediate\"\n    minutes: 120\n    message: \"You have ranked up to Intermediate\"\n    commands:\n    - \"setgroup \\\"{%player}\\\" Intermediate\"\n\n  - name: \"Veteran\"\n    minutes: 600\n    message: \"You have ranked up to Veteran\"\n    commands:\n    - \"setgroup \\\"{%player}\\\" Veteran\"\n```\nAs shown above, the 'commands' parameter can be used to integrate TimeRanks with your permissions manager plugin of choice (e.g. PurePerms).\n\n**General Configuration**\n\nIn the _config.yml_ file you can manage other settings like how data is saved.\nThe default option for data storage is SQLite, which does not require additional configuration on your part. Currently, only SQLite and MySQL are supported.\n```\n---\ndatabase:\n  # The database type. \"sqlite\" and \"mysql\" are supported.\n  type: sqlite\n\n  # Edit these settings only if you choose \"sqlite\".\n  sqlite:\n    # The file name of the database in the plugin data folder.\n    # You can also put an absolute path here.\n    file: data.sqlite\n  # Edit these settings only if you choose \"mysql\".\n  mysql:\n    host: 127.0.0.1\n    # Avoid using the \"root\" user for security reasons.\n    username: root\n    password: \"\"\n    schema: your_schema\n  # The maximum number of simultaneous SQL queries\n  # Recommended: 1 for sqlite, 2 for MySQL. You may want to further increase this value if your MySQL connection is very slow.\n  worker-limit: 1\n...\n\n```\n\n**Translations**\n\nYou can translate all the messages, /tr command description and usage from the _lang.yml_ file\n\n**Permissions**\n\n```\npermissions:\n  timeranks.command.rank.self:\n    description: \"Allows to execute /rank command and check play time\"\n    default: \"true\"\n  timeranks.command.rank.others:\n    description: \"Allows to show the minutes another player has played\"\n    default: \"op\"\n  timeranks.command.timeranks:\n    description: \"Allows to execute the /timeranks command\"\n    default: \"true\"\n  timeranks.command.timeranksadmin:\n    description: \"Allows to execute the /tradm command\"\n    default: \"op\"\n  timeranks.exempt:\n    description: \"Exempt a player from rankup\"\n    default: \"op\"\n```",
+  "readme_source_url": "https://github.com/luca28pet/TimeRanks",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/luca28pet/TimeRanks",
+  "archive_repo": null,
+  "approved_release_tag": "r-1612",
+  "stars": 3,
+  "total_downloads": 4494,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [
+      "PurePerms"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "luca28pet"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.1.1",
+      "tag": "r-1612",
+      "published_at": null,
+      "downloads": 4494,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1612/timeranks-2.1.1-r1612.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1612",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1612/timeranks-2.1.1-r1612.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TimeRanks",
+    "stable_release_id": 1612
+  }
+}

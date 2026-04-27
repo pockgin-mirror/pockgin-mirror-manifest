@@ -1,0 +1,61 @@
+{
+  "id": "portalspe",
+  "name": "PortalsPE",
+  "author": "luca28pet",
+  "description": "A PocketMine-MP portal plugin.",
+  "readme_markdown": "# PortalsPE\nA PocketMine-MP portal plugin.\n\nLatest release: https://poggit.pmmp.io/p/PortalsPE/\n\nLatest development phars: https://poggit.pmmp.io/ci/luca28pet/PortalsPE/PortalsPE\n\n**How to create a portal:**\n- _/portal pos1_, then break the first position\n- _/portal pos2_, then break the second position\n- Go to where you want the destination of the portal to be, and do _/portal create portalName_\n\n**Flags:**\nEvery portal has a set of flag which can modify its behaviour.\nCurrent list of implemented flags:\n- _teleport_: true/false. If false, the portal will not teleport the player to the destination, but will still execute commands (useful e.g. when you want to transfer player to another server)\n- _permissionMode:_ true/false. If true, the players must have the permission _portalspe.portal.portalname_ to use the portal\n- _autoload_: true/false. If true, the plugin will try to automatically load the destination world\n- _commands_: the list of commands that will be executed when the player enters the portal. You can use {portal} and {player} variables which will be the portal name and the player name\n\nSee Commands section belows to see how to edit flags.\n\n**Commands:**\n- _/portal pos1_\n- _/portal pos2_\n- _/portal create <portal name>_\n- _/portal list_: see the name of the created portals\n- _/portal delete <portal name>_: deletes a portal\n- _/portal flag teleport <true|false>_: enables/disables flag teleport\n- _/portal flag permissionMode <true|false>_: enables/disables permission mode\n- _/portal flag autoload <true|false>_: enables/disables world auto loading\n- _/portal flag addcommand <a command>_: adds a command to the portal\n- _/portal flag rmcommand <a command>_: removes a command from the portal\n- _/portal flag listcommands_: list the commands\n\n**Permissions:**\n- portalspe.command.portal: access the main command\n- portalspe.portal.portalName: access to portalName\n\n**Config:**\n\n```\n---\n#Do not edit this\nversion: 1\n\n#Choose how the plugin detects players movement: use \"event\" to use PlayerMoveEvent or \"task\" to use a repeating task\n#Best choice may be \"task\"\nmovement-detection: \"task\"\n\n#Task time in seconds (only matters when \"task\" is selected in the previous field)\ntask-time: 3\n\n#Language for players messages. You can use {player} and {portal} variables\nlang:\n  error: \"The destination of this portal is in a world that does not exist or is not loaded\"\n  no-perm: \"You do not have permission to use this portal\"\n  success: \"You have entered the portal\"\n...\n```",
+  "readme_source_url": "https://github.com/luca28pet/PortalsPE",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/luca28pet/PortalsPE",
+  "archive_repo": null,
+  "approved_release_tag": "r-1614",
+  "stars": 4,
+  "total_downloads": 16069,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "luca28pet"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-1614",
+      "published_at": null,
+      "downloads": 16069,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1614/portalspe-1.1.1-r1614.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1614",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1614/portalspe-1.1.1-r1614.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PortalsPE",
+    "stable_release_id": 1614
+  }
+}

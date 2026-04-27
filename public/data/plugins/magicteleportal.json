@@ -1,0 +1,61 @@
+{
+  "id": "magicteleportal",
+  "name": "MagicTelePortal",
+  "author": "poggit-orphanage",
+  "description": "Summary: Easy to use Portal plugin",
+  "readme_markdown": "<img src=\"https://raw.githubusercontent.com/Muirfield/MagicTelePortal/master/media/portal-icon.jpg\" style=\"width:64px;height:64px\" width=\"64\" height=\"64\"/>\n\n# MagicTelePortal\n\n* Summary: Easy to use Portal plugin\n* Dependency Plugins: N/A\n* PocketMine-MP version: 1.4 - API 1.10.0\n* DependencyPlugins: -\n* Categories: Fun\n* Plugin Access: Commands, Data Saving, World Editing\n\n## Overview\n\n**DO NOT POST QUESTION/BUG-REPORTS/REQUESTS IN THE REVIEWS**\n\nIt is difficult to carry a conversation in the reviews.  If you have a\nquestion/bug-report/request please use the\n[Thread](http://forums.pocketmine.net/threads/magicteleportal.8053/) for\nthat.  You are more likely to get a response and help that way.\n\nPlease go to\n[github](https://github.com/alejandroliu/pocketmine-plugins/tree/master/MagicTelePortal)\nfor the most up-to-date documentation.\n\nSimple plugin to make creation of portals easy.\n\nDocumentation\n-------------\n\n### Commands\n\nYou use one command:\n\n    [CODE]\n    /mtp [world|server:port] [x y z]\n    [/CODE]\n\nExamples:\n\n* Portal to another world:\n  * /mtp minigames\n* Portal to another location in the same world:\n  * /mtp 128 70 128\n* Portal to an specific location in another world:\n  * /mtp minigames 392 70 939\n* FastTransfer portal\n  * /mtp example.com:19132\n\n### Configuration\n\n```YAML\n[CODE]\n# How far can the portals be created\nmax-dist: 8\n# Block-id of the border block (defaults to Nether Bricks)\nborder: 112\n# Block-id of the center block (defaults to Still Water)\ncenter: 9\n# Block-id of the corners (defaults to Nether Brick Stairs)\ncorner: 114\n[/CODE]\n```\n\n### Permission Nodes\n\n* mtp.cmd.mtp: Permission to create portals\n* mtp.destroy: Permission to destroy portals\n\n## FAQ\n\n\n* Q: How do I prevent people from breaking my portal?\n* A: Use an anti-grief plugin or the `mtp.destroy` permission.\n\n## Changes\n\n* 1.3.2 : Bug-fix\n  * Fixed a very DUMB bug!\n* 1.3.1 : More fixes\n  * Fixed the double teleport issue.\n* 1.3.0 : Bug-fix\n  * Removed `manyworld` dependancy\n  * Added a base to the portal (so water won't leak)\n  * Translations: Spanish\n  * Fixed so that when people Transfer, they do not enter in the\n    location of the portal.\n* 1.2.0 : Simple update\n  * Renamed to MagicTelePortal.  \n    **YOU MUST UPDATE CONFIG FILES**\n  * Added `mtp.destroy` permission\n* 1.1.0 : Next release\n  * Support for FastTransfer\n  * Some configuration options\n* 1.0.0 : First submission\n\n## Copyright\n\n    MagicTelePortal\n    Copyright (C) 2015 Alejandro Liu\n    All Rights Reserved.\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation, either version 2 of the License, or\n    (at your option) any later version.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program.  If not, see <http://www.gnu.org/licenses/>.",
+  "readme_source_url": "https://github.com/poggit-orphanage/MagicTelePortal",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/MagicTelePortal/eb83344e75aec346543e1966c84e7f1118f93eda/portal-icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/MagicTelePortal",
+  "archive_repo": null,
+  "approved_release_tag": "r-1649",
+  "stars": 4,
+  "total_downloads": 12924,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.3.4",
+      "tag": "r-1649",
+      "published_at": null,
+      "downloads": 12924,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1649/magicteleportal-1.3.4-r1649.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1649",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1649/magicteleportal-1.3.4-r1649.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MagicTelePortal",
+    "stable_release_id": 1649
+  }
+}

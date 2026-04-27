@@ -1,0 +1,61 @@
+{
+  "id": "cameraman",
+  "name": "Cameraman",
+  "author": "poggit-orphanage",
+  "description": "General",
+  "readme_markdown": "## General\r\n\r\n[![Poggit Release](https://poggit.pmmp.io/shield.approved/CameraMan)](https://poggit.pmmp.io/p/CameraMan)\r\n\r\nCameraman is an automatic motion control plugin for PocketMine-MP, which allows you to create a path to automatically follow.\r\n\r\n## Permissions\r\n- **cameraman.use** allows a player to use all features of Cameraman\r\n\r\n## Commands\r\n| Command | Parameters | Description | Shortcut |\r\n| :-------: | :-------: | :-------: | :-------: |\r\n| `/cam p` | `[index]` | Adds a waypoint at the current position\r\n| `/cam start` | `<slowness>` | Travels the path in the given slowness | |\r\n| `/cam stop` | | Interrupts travelling | |\r\n| `/cam info` | `[index]` | Shows the information of current waypoints | |\r\n| `/cam goto` | `<index>` | Teleports to the specified waypoint | |\r\n| `/cam clear` | `[index]` | Removes all or specific waypoints | |\r\n| `/cam help` | `[command]` | Shows the help menu of commands | |\r\n| `/cam about` | | Shows the information of this plugin | |\r\n\r\n## License\r\n```\r\nCameraman, an automatic motion control plugin for PocketMine-MP\r\nCopyright (C) 2015  ChalkPE\r\n\r\nThis program is free software: you can redistribute it and/or modify\r\nit under the terms of the GNU Affero General Public License as published\r\nby the Free Software Foundation, either version 3 of the License, or\r\n(at your option) any later version.\r\n\r\nThis program is distributed in the hope that it will be useful,\r\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\r\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\r\nGNU Affero General Public License for more details.\r\n\r\nYou should have received a copy of the GNU Affero General Public License\r\nalong with this program.  If not, see <http://www.gnu.org/licenses/>.\r\n```\r\nUpdated by robske110 (https://github.com/robske110)",
+  "readme_source_url": "https://github.com/poggit-orphanage/Cameraman",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/Cameraman/cd989a947323652cbdc5df2df395361f239ba89f/icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/Cameraman",
+  "archive_repo": null,
+  "approved_release_tag": "r-1559",
+  "stars": 5,
+  "total_downloads": 7239,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/34499",
+  "versions": {
+    "stable": {
+      "version": "1.1.1",
+      "tag": "r-1559",
+      "published_at": null,
+      "downloads": 7239,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1559/cameraman-1.1.1-r1559.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1559",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1559/cameraman-1.1.1-r1559.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Cameraman",
+    "stable_release_id": 1559
+  }
+}

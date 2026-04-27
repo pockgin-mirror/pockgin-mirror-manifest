@@ -1,0 +1,66 @@
+{
+  "id": "basichud",
+  "name": "BasicHUD",
+  "author": "poggit-orphanage",
+  "description": "Summary: A configurable heads up display",
+  "readme_markdown": "BasicHUD\n========\n\n* Summary: A configurable heads up display\n* Dependency Plugins: n/a\n* PocketMine-MP version: 1.5 (API:1.12.0)\n* DependencyPlugins: -\n* OptionalPlugins: -\n* Categories: Informational\n* Plugin Access: Other Plugins\n* WebSite: https://github.com/alejandroliu/pocketmine-plugins/tree/master/BasicHUD\n\n## Overview\n\nThis plugin lets you configure a basic Heads-Up Display (HUD) for\nplayers.\n\n## Basic Usage\n\n* **/hud** _[on|off|format]_\n  * If none specified, will show the current mode info.\n  * If _on_ is specified, HUD will be turned on.\n  * If _off_ is specified, HUD will be turned off.\n  * If _format_ is specified, that needs to be configured in\n    `config.yml` and that format will be used.\n\n### Configuration\n\nConfiguration is through the `config.yml` file.\nThe following sections are defined:\n\n#### main\n\n*  ticks: How often to refresh the popup\n*  format: Display format\n\n\n### Permission Nodes\n\n* basichud.user : Allow players to have an HUD\n* basichud.cmd : Allow players to access HUD command\n* basichud.cmd.toggle : Allow players to toggle HUD on/off\n* basichud.cmd.switch : Allow players to switch formats\n  (Defaults to Op)\n\n\n## Configured Formats\n\nThe displayed text can be:\n\n* A fixed string.\n* A string containing {variables}\n* A string containing <?php and <?=.  This allows you to embed\n  arbitrary PHP code in the format.  This is similar to how web pages\n  are done.\n\nThe default variables are:\n\n* {BasicHUD}\n* {MOTD}\n* {tps}\n* {player}\n* {world}\n* {x}\n* {y}\n* {z}\n* {yaw}\n* {pitch}\n* {bearing}\n* {10SPACE}\n* {20SPACE}\n* {30SPACE}\n* {40SPACE}\n* {50SPACE}\n* {NL}\n* {BLACK}\n* {DARK_BLUE}\n* {DARK_GREEN}\n* {DARK_AQUA}\n* {DARK_RED}\n* {DARK_PURPLE}\n* {GOLD}\n* {GRAY}\n* {DARK_GRAY}\n* {BLUE}\n* {GREEN}\n* {AQUA}\n* {RED}\n* {LIGHT_PURPLE}\n* {YELLOW}\n* {WHITE}\n* {OBFUSCATED}\n* {BOLD}\n* {STRIKETHROUGH}\n* {UNDERLINE}\n* {ITALIC}\n* {RESET}\n\nYou can add more variables by creating a `vars.php` in the plugin\ndirectory.  For your convenience, there is `vars-example.php`\navailable that you can use as a starting point.  Copy this file to\n`vars.php`.\n\nThe example `vars.php` will create a `{score}` and `{money}` variable\nif you have the relevant plugins.\n\nBy default, if you have `SimpleAuth` installed, the HUD will be\ninactive until you log-in.  If you are using something other than\n`SimpleAuth` you can copy the `message-example.php` to `message.php`\nand do whatever checks you need to do.\n\n## Multi-Format options\n\nBasicHUD supports multiple formats.  These can be configured through\nthe `config.yml`.  So instead of **format** only having **one** format\nconfigured, you can configure multiple, like this example:\n\n````YAML\n[CODE]\nformat:\n lv3: '{GREEN}{BasicHUD} {YELLOW}Lv3 {WHITE}{world} ({x},{y},{z}) {bearing} {RED}EUR:{money} Pts:{score}'\n lv2: '{GREEN}{BasicHUD} {GREEN}Lv2 {WHITE}{world} ({x},{y},{z}) {bearing} {RED}EUR:{money} Pts:{score}'\n lv1: '{GREEN}{BasicHUD} {BLUE}Lv1 {WHITE}{world} ({x},{y},{z}) {bearing} {RED}EUR:{money} Pts:{score}'\n lv0: '{GREEN}{BasicHUD} {GRAY}Lv0 {WHITE}{world} ({x},{y},{z}) {bearing} {RED}EUR:{money} Pts:{score}'\n[/CODE]\n````\n\nIn this example, four formats are defined.  To select the format,\n**BasicHUD** will test permissions in order until the player has the\npermission:\n\n* basichud.rank.selector\n\nSo if the player wants to use format _lv2_, permission\n_basichud.rank.lv2_ is required.  For multiple matches, the first\nmatch is used.  If none matches, the last format is used.\n\nSwitching formats is not saved.  So on join the player always gets the\ndefault format.  If you want HUD format choices to be saved you need a\npermissions plugin.\n\n# API\n\nSince **BasicHUD** takes over the built-in _sendPopup_ functionality,\nit provides a replacement function for it.  To use it you need this\nfragment of code:\n\n````PHP\n[PHP]\nif (($hud = $this->getServer()->getPluginManager()->getPlugin(\"BasicHUD\")) !== null) {\n  $hud->sendPopup($player,$msg);\n} else {\n  $player->sendPopup($msg);\n}\n[/PHP]\n\n````\n\n# Changes\n\n* 1.0.6-2\n  * Updated for recent PocketMine API changes\n* 1.0.6:\n  * Fixed vars-example (money issues thanks @vertx)\n  * Display item selected onItemHeld (incomplete)\n* 1.0.5: Performance tweaks\n  * Cache permissions for selecting formats\n  * An empty vars.php yields an empty function (saving a comparison)\n  * Constant vars are calculated once.\n  * Fixed bug around permissions (to change formats)\n  * Added translation (but not for bearing to avoid the translation overhead)\n  * New {vars}:\n    * {tps}\n    * {NL}\n    * {10SPACE}, {20SPACE}, {30SPACE}, {40SPACE}, {50SPACE}\n* 1.0.3: First public release\n  * Added a \"use\" permission.\n  * More correct use of permission\n* 1.0.2: added features\n  * command to turn on|off|change HUD\n  * supports multiple HUD formats which can be selected based on\n    permissions.\n* 1.0.1: minor update\n  * Added additional variables\n  * Improved examples\n  * changed defaults\n  * Added API\n* 1.0.0: First release\n\n# Copyright\n\n    BasicHUD\n    Copyright (C) 2015-2017 Alejandro Liu\n    All Rights Reserved.\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation, either version 2 of the License, or\n    (at your option) any later version.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program.  If not, see <http://www.gnu.org/licenses/>.",
+  "readme_source_url": "https://github.com/poggit-orphanage/BasicHUD",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/BasicHUD/f6ab6cdb7530faa1f631341d0f957779d91e5933/icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/BasicHUD",
+  "archive_repo": null,
+  "approved_release_tag": "r-1646",
+  "stars": 3,
+  "total_downloads": 6424,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/36161",
+  "versions": {
+    "stable": {
+      "version": "1.0.8",
+      "tag": "r-1646",
+      "published_at": null,
+      "downloads": 6184,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1646/basichud-1.0.8-r1646.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1646",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1646/basichud-1.0.8-r1646.phar"
+    },
+    {
+      "tag": "r-1558",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1558/basichud-1.0.7-r1558.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "BasicHUD",
+    "stable_release_id": 1646
+  }
+}

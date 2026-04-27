@@ -1,0 +1,61 @@
+{
+  "id": "firework",
+  "name": "Firework",
+  "author": "BlockHorizons",
+  "description": "Fireworks",
+  "readme_markdown": "# Fireworks\nAdds fireworks to your PocketMine server<br>\n\n> [!NOTE]\n> This repo is no longer required as Fireworks are [now implemented in PMMP](https://github.com/pmmp/PocketMine-MP/pull/5455).\n\nDownload the compiled `.phar` format of Fireworks from the [Poggit CI](https://poggit.pmmp.io/ci/BlockHorizons/Fireworks).\n## API\n### Adding firework items to a player's inventory\nGiving players fireworks is easy as pie. Here are some examples (where `$player` is a `\\pocketmine\\Player` object):\n- **Base firework**\n```php\n/** @var Fireworks $fw */\n$fw = ItemFactory::get(Item::FIREWORKS);\n$player->getInventory()->addItem($fw);\n```\n- **Sphere firework with color fade from blue to cyan**\n```php\n/** @var Fireworks $fw */\n$fw = ItemFactory::get(Item::FIREWORKS);\n\n// addExplosion Parameters:\n// int $type: Type of explosion, 0 - 4, see Fireworks::TYPE_* constants\n// string $color: Color of explosion, see Fireworks::COLOR_* constants\n// string $fade = \"\": Color to fade to, none if an empty string is passed\n// bool $flicker = false: If the particles should flicker\n// bool $trail = false: If the particles leave a trail behind\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_BLUE, Fireworks::COLOR_DARK_AQUA, false, false);\n\n$player->getInventory()->addItem($fw);\n```\n- **Green creeper firework, flying higher**\n```php\n/** @var Fireworks $fw */\n$fw = ItemFactory::get(Item::FIREWORKS);\n$fw->addExplosion(Fireworks::TYPE_CREEPER_HEAD, Fireworks::COLOR_GREEN, \"\", false, false);\n$fw->setFlightDuration(2);\n$player->getInventory()->addItem($fw);\n```\n- **High flying flashing star firework with trail**\n```php\n/** @var Fireworks $fw */\n$fw = ItemFactory::get(Item::FIREWORKS);\n$fw->addExplosion(Fireworks::TYPE_STAR, Fireworks::COLOR_YELLOW, \"\", true, true);\n$fw->setFlightDuration(3);\n$player->getInventory()->addItem($fw);\n```\n- **All-colored sphere firework with trail**\n```php\n/** @var Fireworks $fw */\n$fw = ItemFactory::get(Item::FIREWORKS);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_BLACK, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_RED, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_DARK_GREEN, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_BROWN, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_BLUE, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_DARK_PURPLE, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_DARK_AQUA, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_GRAY, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_DARK_GRAY, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_PINK, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_GREEN, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_YELLOW, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_LIGHT_AQUA, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_DARK_PINK, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_GOLD, \"\", false, true);\n$fw->addExplosion(Fireworks::TYPE_SMALL_SPHERE, Fireworks::COLOR_WHITE, \"\", false, true);\n$player->getInventory()->addItem($fw);\n```\n### Launching fireworks\nFireworks can be launched after you created the firework item.\nThis example spawns a green creeper firework at the default world's spawn\n```php\n// Create the type of firework item to be launched\n/** @var Fireworks $fw */\n$fw = ItemFactory::get(Item::FIREWORKS);\n$fw->addExplosion(Fireworks::TYPE_CREEPER_HEAD, Fireworks::COLOR_GREEN, \"\", false, false);\n$fw->setFlightDuration(2);\n\n// Use whatever level you'd like here. Must be loaded\n$level = Server::getInstance()->getDefaultLevel();\n// Choose some coordinates\n$vector3 = $level->getSpawnLocation()->add(0.5, 1, 0.5);\n// Create the NBT data\n$nbt = FireworksRocket::createBaseNBT($vector3, new Vector3(0.001, 0.05, 0.001), lcg_value() * 360, 90);\n// Construct and spawn\n$entity = FireworksRocket::createEntity(\"FireworksRocket\", $level, $nbt, $fw);\nif ($entity instanceof FireworksRocket) {\n    $entity->spawnToAll();\n}\n```",
+  "readme_source_url": "https://github.com/BlockHorizons/Fireworks",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/BlockHorizons/Fireworks",
+  "archive_repo": null,
+  "approved_release_tag": "r-1588",
+  "stars": 3,
+  "total_downloads": 4897,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-3.25.6"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BlockHorizons"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-1588",
+      "published_at": null,
+      "downloads": 4897,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1588/firework-0.0.1-r1588.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1588",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1588/firework-0.0.1-r1588.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Firework",
+    "stable_release_id": 1588
+  }
+}
