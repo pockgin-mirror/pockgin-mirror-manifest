@@ -1,0 +1,61 @@
+{
+  "id": "fireworks",
+  "name": "fireworks",
+  "author": "thebigsmileXD",
+  "description": "Deprecated",
+  "readme_markdown": "# Deprecated\nCheck out https://github.com/BlockHorizons/Fireworks/ for an up to date firework plugin, including a simple API!\n\n![plugin icon](https://github.com/thebigsmileXD/fireworks/blob/master/resources/fireworks_icon.png)\n\n# fireworks [![](https://poggit.pmmp.io/shield.state/fireworks)](https://poggit.pmmp.io/p/fireworks)\nAdds Fireworks to Pocketmine\n\nIts simply adding firework items and entities into PocketMine-MP servers.\n\nYou can launch any firework from the creative inventory AND custom ones - just like in vanilla MCPE.\n\n# How to get a firework\nEither, give a firework via gamemode 1, or /give command.\nFor generating the /give command i suggest using: https://mcstacker.bimbimma.com/mcstacker1.10.php and modifying the command to work with PocketMine-MP. This is not easy. No need to explain further.\n\nThe easier way is to use the code to create custom fireworks. See [Create a custom firework](#create-a-custom-firework) for that.\n\n# Create a custom firework\nThis is sample code to explain the \"API\"-alike part of the plugin, giving 2 custom fireworks:\n\nWithout special explosions:\n```\n\t\t$data = new FireworksData();\n\t\t$data->flight = 2;//flight time. default is 1\n\t\t$firework = new Fireworks();\n\t\t$nbt = Fireworks::ToNbt($data);//create the compound tag\n\t\t$firework->setNamedTag($nbt);//modify the item's compound tag\n\t\t$event->getPlayer()->getInventory()->addItem($firework);//give the item to a player (this case: PlayerJoinEvent $event)\n```\n\nWith special explosions\n```\n\t\t$explosion = new FireworksExplosion();//init an explosion\n\t\t$explosion->fireworkColor = [4, 4, 4];//set the color to custom colors\n\t\t$explosion->fireworkFade = [5, 5, 5];//set the fade color to custom colors\n\t\t$explosion->fireworkFlicker = true;//enable the flickering\n\t\t$explosion->fireworkTrail = false;//enable the trail\n\t\t$explosion->fireworkType = 4;//set the shape/type of the firework\n\t\t$data = new FireworksData();//create the generic data\n\t\t$data->flight = 2;\n\t\t$data->explosions[] = $explosion;//add the explosion\n\t\t$firework = new Fireworks();\n\t\t$nbt = Fireworks::ToNbt($data);\n\t\t$firework->setNamedTag($nbt);\n\t\t$event->getPlayer()->getInventory()->addItem($firework);\n```",
+  "readme_source_url": "https://github.com/thebigsmileXD/fireworks",
+  "icon_url": "https://raw.githubusercontent.com/thebigsmileXD/fireworks/68d9233a1af99494c47ced20049e9b3a7d20c391/resources/fireworks_icon.png",
+  "featured": false,
+  "repo": "https://github.com/thebigsmileXD/fireworks",
+  "archive_repo": null,
+  "approved_release_tag": "r-957",
+  "stars": 4,
+  "total_downloads": 5453,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA10-3.0.0-ALPHA10"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "thebigsmileXD"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.2",
+      "tag": "r-957",
+      "published_at": null,
+      "downloads": 5453,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-957/fireworks-1.0.2-r957.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-957",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-957/fireworks-1.0.2-r957.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "fireworks",
+    "stable_release_id": 957
+  }
+}

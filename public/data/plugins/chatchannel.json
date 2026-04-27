@@ -1,0 +1,61 @@
+{
+  "id": "chatchannel",
+  "name": "ChatChannel",
+  "author": "famima65536",
+  "description": "Chat Channel",
+  "readme_markdown": "# Chat Channel  \nThis is a plugin for PocketMine-MP.  \nYou can make 'CHAT CHANNEL' on the server.  \n\nconfig.yml\n```yaml:config.yml\n# You can change lang to ja(Japanese)\nlang: \"en\"\n\n# You can change menu item\nmenu-item:\n  id: 353\n  damage: 0\n```",
+  "readme_source_url": "https://github.com/famima65536/ChatChannel",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/famima65536/ChatChannel",
+  "archive_repo": null,
+  "approved_release_tag": "r-722",
+  "stars": 4,
+  "total_downloads": 891,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA7-3.0.0-ALPHA9"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "famima65536"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "2.0.1",
+      "tag": "r-722",
+      "published_at": null,
+      "downloads": 891,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-722/chatchannel-2.0.1-r722.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-722",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-722/chatchannel-2.0.1-r722.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ChatChannel",
+    "stable_release_id": 722
+  }
+}

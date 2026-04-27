@@ -1,0 +1,61 @@
+{
+  "id": "spooky",
+  "name": "Spooky",
+  "author": "Ad5001",
+  "description": "This repository was moved to git.ad5001.eu",
+  "readme_markdown": "## This repository was moved to [git.ad5001.eu](https://git.ad5001.eu/Ad5001/Spooky)\n# Spooky\nHalloween plugin.    \nA new bossfight's waiting for you and your players. <b>The Ghost is <i>here</i></b>.     \nBuild a structure like this one: (be sure to place the pumpkin in last!)    \n<img src=\"https://download.ad5001.eu/other/Spooky/struct.jpeg\"></img>\n\n\nAfterwards let the boss fight go!    \n    \nMusic used here: NIVIRO - The Return    \nTrack's link: https://soundcloud.com/djniviro/thereturn    \nNiviro's website: https://www.djniviro.com",
+  "readme_source_url": "https://github.com/Ad5001/Spooky",
+  "icon_url": "https://raw.githubusercontent.com/Ad5001/Spooky/0203f6e9a0e3a190b834db69573d48f66b4f83de/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Ad5001/Spooky",
+  "archive_repo": null,
+  "approved_release_tag": "r-937",
+  "stars": 0,
+  "total_downloads": 1257,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA9-3.0.0-ALPHA9"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Ad5001"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/18752",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-937",
+      "published_at": null,
+      "downloads": 1257,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-937/spooky-1.0.1-r937.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-937",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-937/spooky-1.0.1-r937.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Spooky",
+    "stable_release_id": 937
+  }
+}

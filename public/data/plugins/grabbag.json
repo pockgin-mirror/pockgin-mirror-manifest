@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1650",
   "stars": 4,
-  "total_downloads": 6150,
+  "total_downloads": 6657,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-1090",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1090/grabbag-2.4.0-6-r1090.phar"
+    },
+    {
+      "tag": "r-860",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-860/grabbag-2.4.0-4-r860.phar"
     }
   ],
   "comments": {

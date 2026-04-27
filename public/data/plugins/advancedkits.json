@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-3607",
   "stars": 3,
-  "total_downloads": 17997,
+  "total_downloads": 21988,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -56,6 +56,16 @@
       "tag": "r-1304",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1304/advancedkits-5.2.1-r1304.phar"
+    },
+    {
+      "tag": "r-854",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-854/advancedkits-5.1.0-9-r854.phar"
+    },
+    {
+      "tag": "r-811",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-811/advancedkits-5.1.0-7-r811.phar"
     }
   ],
   "comments": {

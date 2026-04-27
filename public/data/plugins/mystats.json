@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1332",
   "stars": 0,
-  "total_downloads": 293,
+  "total_downloads": 842,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-1332",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1332/mystats-1.4.11-r1332.phar"
+    },
+    {
+      "tag": "r-899",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-899/mystats-1.4.5-r899.phar"
     }
   ],
   "comments": {

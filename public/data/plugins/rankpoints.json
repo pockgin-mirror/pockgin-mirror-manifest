@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1576",
   "stars": 5,
-  "total_downloads": 12947,
+  "total_downloads": 13235,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -56,6 +56,11 @@
       "tag": "r-1100",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1100/rankpoints-1.5.2-4-r1100.phar"
+    },
+    {
+      "tag": "r-892",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-892/rankpoints-1.5.2-3-r892.phar"
     }
   ],
   "comments": {

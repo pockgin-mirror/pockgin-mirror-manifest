@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1063",
   "stars": 3,
-  "total_downloads": 1788,
+  "total_downloads": 3530,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "3.0.0-ALPHA11",
       "tag": "r-1063",
       "published_at": null,
-      "downloads": 1788,
+      "downloads": 1789,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1063/vanillaenchantments-3.0.0-alpha11-r1063.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-1063",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1063/vanillaenchantments-3.0.0-alpha11-r1063.phar"
+    },
+    {
+      "tag": "r-721",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-721/vanillaenchantments-2.0.0-dev-r721.phar"
     }
   ],
   "comments": {

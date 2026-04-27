@@ -1,0 +1,61 @@
+{
+  "id": "turrets",
+  "name": "Turrets",
+  "author": "IOTADevs",
+  "description": "A Portals 2 Inspired Turret plugin for PMMP!",
+  "readme_markdown": "# Turrets [![Poggit](https://poggit.pmmp.io/ci.shield/IOTADevs/Turrets/~)](https://poggit.pmmp.io/ci/IOTADevs/Turrets/~)\nA Portals 2 Inspired Turret plugin for PMMP!\n\nMost of the code here is by @CortexPE :joy:\n\nUsage:\n - In Standalone Mode\n   1. Place a Glowing Obsidian Block (/give <player> glowing_obsidian)\n   2. Tap / click it with Nether Star\n - In API Mode\n   <br />// Friends refer to Player Names the Turret will ignore \n   - Without \"friend-ed\" player(s) \n    ```php\n    \\iOTADevs\\Turrets\\Main::spawnTurret($Vector3Position, $levelObject, []);\n    ```\n   - With \"friend-ed\" player(s) \n    ```php\n    \\iOTADevs\\Turrets\\Main::spawnTurret($Vector3Position, $levelObject, [\"CortexPE\",\"Steve\"]);\n    ```",
+  "readme_source_url": "https://github.com/IOTADevs/Turrets",
+  "icon_url": "https://raw.githubusercontent.com/IOTADevs/Turrets/8615eae2c6f1d67475819f7ddd4a601708131866/icon.png",
+  "featured": false,
+  "repo": "https://github.com/IOTADevs/Turrets",
+  "archive_repo": null,
+  "approved_release_tag": "r-904",
+  "stars": 0,
+  "total_downloads": 2419,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA9-3.0.0-ALPHA10"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "IOTADevs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-904",
+      "published_at": null,
+      "downloads": 2419,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-904/turrets-1.0.0-r904.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-904",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-904/turrets-1.0.0-r904.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Turrets",
+    "stable_release_id": 904
+  }
+}

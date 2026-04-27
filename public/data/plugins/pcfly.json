@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6351",
   "stars": 1,
-  "total_downloads": 6605,
+  "total_downloads": 7013,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-1156",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1156/pcfly-2.1.0-r1156.phar"
+    },
+    {
+      "tag": "r-961",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-961/pcfly-1.0.0-r961.phar"
     }
   ],
   "comments": {

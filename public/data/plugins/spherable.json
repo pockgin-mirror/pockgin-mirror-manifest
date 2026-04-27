@@ -1,0 +1,61 @@
+{
+  "id": "spherable",
+  "name": "Spherable",
+  "author": "Ad5001",
+  "description": "This repository was moved to git.ad5001.eu",
+  "readme_markdown": "## This repository was moved to [git.ad5001.eu](https://git.ad5001.eu/Ad5001/Spherable)\n# Spherable - [![](https://poggit.pmmp.io/shield.approved/Spherable)](https://poggit.pmmp.io/p/Spherable)\nA spheres world generator. A new survival challenge.\n    \n    \n    \nDiscove the new challenge of Spherable, a new challenge for every player around the world.\n<img src=\"https://github.com/Ad5001/Spherable/blob/master/brand.png\">\n\n## Commands:\n/sphgen cw &lt;world name>     \nGenerates a new spheres challenge world.\n    \n/sphgen j &lt;world name>     \nTeleport to a challenge world",
+  "readme_source_url": "https://github.com/Ad5001/Spherable",
+  "icon_url": "https://raw.githubusercontent.com/Ad5001/Spherable/63a0e204ad1ea3f3891b75f9d9cd9baf4c82ea9a/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Ad5001/Spherable",
+  "archive_repo": null,
+  "approved_release_tag": "r-733",
+  "stars": 0,
+  "total_downloads": 5403,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA9-3.0.0-ALPHA9"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Ad5001"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/14902",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-733",
+      "published_at": null,
+      "downloads": 5403,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-733/spherable-1.0.1-r733.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-733",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-733/spherable-1.0.1-r733.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Spherable",
+    "stable_release_id": 733
+  }
+}

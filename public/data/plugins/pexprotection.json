@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1051",
   "stars": 0,
-  "total_downloads": 294,
+  "total_downloads": 414,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "0.1.2",
       "tag": "r-1051",
       "published_at": null,
-      "downloads": 294,
+      "downloads": 295,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1051/pexprotection-0.1.2-r1051.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-1051",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1051/pexprotection-0.1.2-r1051.phar"
+    },
+    {
+      "tag": "r-953",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-953/pexprotection-0.1.1-r953.phar"
     }
   ],
   "comments": {

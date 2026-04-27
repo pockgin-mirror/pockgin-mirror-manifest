@@ -1,0 +1,61 @@
+{
+  "id": "ultravaults",
+  "name": "UltraVaults",
+  "author": "IOTADevs",
+  "description": "UltraVaults - Vaults in ultra way",
+  "readme_markdown": "# UltraVaults - Vaults in ultra way\n[![Poggit](https://poggit.pmmp.io/ci.shield/IOTADevs/UltraVaults/~)](https://poggit.pmmp.io/ci/IOTADevs/UltraVaults/~)\n\nUltraVaults is a private vaults / locker plugin which allows players to have their own private locker / vault,\nThe plugin is also very customizeable (I think) for server owners\n\n# Installation\nDrop the phar downloaded from poggit or compiled zip downloaded from github to plugins folder.\nReload or restart server and done!\n\n# Configuration\nI've felt that plugins with fixed or hard coded prefixes suck!\nThey cannot maintain server prefixes/names! So first of all,\ngo to config.yml and change prefix to your server's name!\n\n# Permission Configuration\nDefault free vault is 2, however, you can edit it or give permission to x\nvault by giving ***vault.(The Vault ID Here)*** permission to the player.\n\n***I highly recommend leaving permission nodes as it is on config.yml\nunless you know what you're doing***\n\n# Admin Advantages\nThis plugin allows to sneak in throught players vault!\nAdmins with the perm ***vault.administration*** can\ndelete and see vaults of other players, by default ops\nhave the permission.\n\n# Command Usage\n> Aliases: /v, /pv, /uv, /vault\n\n> /vault (ID) - Opens vault with ID for the player who executed the command\n\n> /vault seevault [name] [ID] - Allows admins to see [name]'s vault with [ID]\n\n> /vault delvault [namr] [ID] - Allows admins to delete [name]'s vault with [ID] completely with its contents\n\n# Support and more info\nIf you have any issue about this plugin, feel free to open an issue on github\nor tweet/dm me on twitter!\n\n> ***Twitter***: @TheAz928\n\nThanks! Have a nice night :D [Since I wrote this at 12:16 AM]",
+  "readme_source_url": "https://github.com/IOTADevs/UltraVaults",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/IOTADevs/UltraVaults",
+  "archive_repo": null,
+  "approved_release_tag": "r-896",
+  "stars": 0,
+  "total_downloads": 1150,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA8-3.0.0-ALPHA10"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "IOTADevs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-896",
+      "published_at": null,
+      "downloads": 1150,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-896/ultravaults-1.0.0-r896.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-896",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-896/ultravaults-1.0.0-r896.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "UltraVaults",
+    "stable_release_id": 896
+  }
+}

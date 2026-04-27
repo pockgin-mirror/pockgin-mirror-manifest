@@ -1,0 +1,61 @@
+{
+  "id": "xbl-playerlist",
+  "name": "XBL_PlayerList",
+  "author": "linuzo",
+  "description": "Pocketmine Plugin that updated the PlayerList with Xbox Live Account.",
+  "readme_markdown": "<a href=\"https://poggit.pmmp.io/p/XBL_PlayerList\"><img src=\"https://poggit.pmmp.io/shield.state/XBL_PlayerList\"></a>\n<a href=\"https://poggit.pmmp.io/p/XBL_PlayerList\"><img src=\"https://poggit.pmmp.io/shield.api/XBL_PlayerList\"></a>\n\n# XBL_PlayerList\n\nPocketmine Plugin that updated the PlayerList with Xbox Live Account. \n\nINSTALL\n\ndrop the phar into your plugin folder, reboot and connect! \n\nCheck Pause Menu and all players that connect will have XBOX Live Enabled on your server!",
+  "readme_source_url": "https://github.com/linuzo/XBL_PlayerList",
+  "icon_url": "https://raw.githubusercontent.com/linuzo/XBL_PlayerList/f92ead7d8c3f9660e60e9d89a3cd6c01175ae005/icon.png",
+  "featured": false,
+  "repo": "https://github.com/linuzo/XBL_PlayerList",
+  "archive_repo": null,
+  "approved_release_tag": "r-902",
+  "stars": 5,
+  "total_downloads": 655,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA9-3.0.0-ALPHA10"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "linuzo"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/17957",
+  "versions": {
+    "stable": {
+      "version": "1.1",
+      "tag": "r-902",
+      "published_at": null,
+      "downloads": 655,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-902/xbl_playerlist-1.1-r902.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-902",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-902/xbl_playerlist-1.1-r902.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "XBL_PlayerList",
+    "stable_release_id": 902
+  }
+}

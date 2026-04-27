@@ -1,0 +1,69 @@
+{
+  "id": "custombar",
+  "name": "CustomBar",
+  "author": "SuperKali",
+  "description": "Custom Bar Plugin for PMMP and ALTAY",
+  "readme_markdown": "# Custom Bar Plugin for PMMP and ALTAY\n\n[![](https://poggit.pmmp.io/shield.dl.total/CustomBar)](https://poggit.pmmp.io/p/CustomBar)\n[![](https://poggit.pmmp.io/shield.api/CustomBar)](https://poggit.pmmp.io/p/CustomBar)\n[![](https://poggit.pmmp.io/shield.state/CustomBar)](https://poggit.pmmp.io/p/CustomBar)\n[![Download](https://img.shields.io/badge/download-latest-blue.svg)](https://poggit.pmmp.io/r/17283/CustomBar.phar)\n[![HitCount](http://hits.dwyl.io/{username}/{project}.svg)](http://hits.dwyl.io/SuperKali/CustomBar)\n\n## how does it work?\n\n* This plugin allows you to have a customizable HUD on your server!\n* You can add options to show players in the game!\n* In the future new updates!\n\n## Format HUD List\n\n* {name}\n* {tps} \n* {load}\n* {time}\n* {MOTD}\n* {players}\n* {max_players}\n* {x} {y} {z}\n* {line}\n* {ping}\n* {faction} FactionsPro necessary!\n* {coins} EconomyAPI necessary!\n* {kills} KillChat necessary!\n* {deaths} KillChat necessary!\n* {group} PurePerms necessary!\n* & and §\n* also another!\n\n## Is the plugin working?\n\n* Yes, But the plugin is not completely finished yet!\n\n## Commands\n* /hud for switch off or on the hud\n\n## Which version is compatible?\n\nThis plugin is compatible with:\n- [x] **[PMMP]**\n- [x] **[PMMP-ALTAY]**",
+  "readme_source_url": "https://github.com/SuperKali/CustomBar",
+  "icon_url": "https://raw.githubusercontent.com/SuperKali/CustomBar/62ce75df3d0ac0fa11f4224ad7a79b964d281aa5/icon.png",
+  "featured": false,
+  "repo": "https://github.com/SuperKali/CustomBar",
+  "archive_repo": null,
+  "approved_release_tag": "r-843",
+  "stars": 5,
+  "total_downloads": 3843,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA9-3.0.0-ALPHA9"
+  ],
+  "dependencies": {
+    "required": [
+      "EconomyAPI",
+      "FactionsPro"
+    ],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SuperKali"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/17480",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-843",
+      "published_at": null,
+      "downloads": 3689,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-843/custombar-1.0-r843.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-843",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-843/custombar-1.0-r843.phar"
+    },
+    {
+      "tag": "r-762",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-762/custombar-0.9-r762.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CustomBar",
+    "stable_release_id": 843
+  }
+}

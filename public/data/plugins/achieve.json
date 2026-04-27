@@ -1,0 +1,61 @@
+{
+  "id": "achieve",
+  "name": "Achieve",
+  "author": "osum4est",
+  "description": "PMMP has support for player achievements, but no way to see what achievements you have earned! This plugin adds two simple commands for listing your achievements. NOTE: There is...",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/Achieve)](https://poggit.pmmp.io/p/Achieve)\n\nPMMP has support for player achievements, but no way to see what achievements you have earned! This plugin adds two simple commands for listing your achievements. NOTE: There is already a list for XBox achievements, but those are unobtainable on a PMMP server. This plugin allows you to list your PMMP specific achievements.\n\n* /achieve - lists your achievements\n* /achieve \\<player\\> - lists a players achievements\n\nThe list will show an overall count (ex: 2/11 achievements) as well as a list of every achievement available in a certain color. The color breakdown is as follows:\n\n* green - You have completed this achievement\n* white - You can complete this achievement now\n* gray - You must complete a different achievement (shown next to achievement name) before completing this achievement\n\n---\n\nPMMP only has 11 achievements at the moment, so I will probably continue to update this plugin with the missing achievements (\"Taking Inventory\", \"The End?\", etc.) to match the XBox/Java lists",
+  "readme_source_url": "https://github.com/osum4est/achieve",
+  "icon_url": "https://raw.githubusercontent.com/osum4est/achieve/4b671e74acd5313a6ff044ed33b0b888731942d3/icon.png",
+  "featured": false,
+  "repo": "https://github.com/osum4est/achieve",
+  "archive_repo": null,
+  "approved_release_tag": "r-950",
+  "stars": 0,
+  "total_downloads": 25672,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA10-3.0.0-ALPHA10"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "osum4est"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-950",
+      "published_at": null,
+      "downloads": 25672,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-950/achieve-1.0.0-r950.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-950",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-950/achieve-1.0.0-r950.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "Achieve",
+    "stable_release_id": 950
+  }
+}

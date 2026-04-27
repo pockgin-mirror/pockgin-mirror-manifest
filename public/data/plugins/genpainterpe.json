@@ -1,0 +1,61 @@
+{
+  "id": "genpainterpe",
+  "name": "GenPainterPE",
+  "author": "Ad5001",
+  "description": "This repository was moved to git.ad5001.eu",
+  "readme_markdown": "## This repository was moved to [git.ad5001.eu](https://git.ad5001.eu/Ad5001/GenPainterPE)\n# GenPainterPE - [![](https://poggit.pmmp.io/shield.approved/GenPainterPE)](https://poggit.pmmp.io/p/GenPainterPE)\nPocketmine Generator for Earth and heightmap based generation.\n\n## What is GenPainterPE?\nGenPainterPE is a PocketMine plugin which allows you to generate minecraft maps just with an heightmap.\n\n## How to use GenPainterPE?\nFirst, look at [the installation part](#installation).     \nCreating a world would take the default config.yml settings, and then apply them to map creation (note: changing theses settings afterwards won't change them for the map. You should regenerate one another to change settings).    \nTo create a world, you can go to your pocketmine.yml, and at the end of the file, add a new world with the generator \"genpainter\".\n\n## Customizing GenPainterPE\nYou can customize GenPainterPE's generation by modifing some values in the config.yml.    \n<a id=\"add-heightmap\"></a>    \nYou can also <b>add your own heightmap</b>. [What is an heightmap?](https://en.wikipedia.org/wiki/Heightmap)    \nHow to do that? \n1. Get your heightmap in a png form (.png)\n2. Put it into the GenPainterPE/heightmaps folder\n3. Change the \"heightmap_name\" in the config.yml to the name of your heightmap (WITHOUT THE .png AT THE END)\n4. Create a new world with the genpainter generator     \n\n(note: you can modify your config afterwards and remove the .png as the world heightmap and data has been saved to your generated map)\n\n\n## Installation\nNote: This section is only for *nix users (Linux, MacOS, Unix, FreeBSD). PMMP's windows' prebuilt binaries includes GD by default.    \nTo support all the features including your own heightmap creation, you may need to install the PHP GD extension.    \nDon't have it and don't know how to install it?\n- For PocketMine Server Manager users, check if the plugin is working, if not, just delete the folder located in &lt;YOUR\\_OWN\\_FOLDER&gt;/.pocketmine/php and restart PocketMine Server Manager.\n- For regular pocketmine user, you can get <a href=\"https://psm.mcpe.fun/download/PHP/compile.sh\">the following script to install a PHP with GD included </a>.\n\nYou may also need to install https://sourceforge.net/projects/libpng/.",
+  "readme_source_url": "https://github.com/Ad5001/GenPainterPE",
+  "icon_url": "https://raw.githubusercontent.com/Ad5001/GenPainterPE/1f76f1eefd062a2377c37bff0fc4ad44e120e391/icon.png",
+  "featured": false,
+  "repo": "https://github.com/Ad5001/GenPainterPE",
+  "archive_repo": null,
+  "approved_release_tag": "r-799",
+  "stars": 0,
+  "total_downloads": 9135,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA9-3.0.0-ALPHA9"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Ad5001"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/16038",
+  "versions": {
+    "stable": {
+      "version": "1.0.1",
+      "tag": "r-799",
+      "published_at": null,
+      "downloads": 9135,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-799/genpainterpe-1.0.1-r799.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-799",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-799/genpainterpe-1.0.1-r799.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "GenPainterPE",
+    "stable_release_id": 799
+  }
+}

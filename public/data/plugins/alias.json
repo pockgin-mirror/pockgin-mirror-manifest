@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1073",
   "stars": 1,
-  "total_downloads": 3384,
+  "total_downloads": 4075,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -36,7 +36,7 @@
       "version": "1.2.1",
       "tag": "r-1073",
       "published_at": null,
-      "downloads": 3384,
+      "downloads": 3385,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1073/alias-1.2.1-r1073.phar"
     },
     "dev": null
@@ -46,6 +46,11 @@
       "tag": "r-1073",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1073/alias-1.2.1-r1073.phar"
+    },
+    {
+      "tag": "r-913",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-913/alias-1.2.0-r913.phar"
     }
   ],
   "comments": {
