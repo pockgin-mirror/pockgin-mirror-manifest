@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1576",
   "stars": 5,
-  "total_downloads": 12257,
+  "total_downloads": 12543,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -36,7 +36,7 @@
       "version": "1.5.3",
       "tag": "r-1576",
       "published_at": null,
-      "downloads": 12257,
+      "downloads": 12258,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1576/rankpoints-1.5.3-r1576.phar"
     },
     "dev": null
@@ -46,6 +46,11 @@
       "tag": "r-1576",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1576/rankpoints-1.5.3-r1576.phar"
+    },
+    {
+      "tag": "r-1400",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1400/rankpoints-1.5.2-5-r1400.phar"
     }
   ],
   "comments": {

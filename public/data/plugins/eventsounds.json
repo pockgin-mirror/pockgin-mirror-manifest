@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1632",
   "stars": 0,
-  "total_downloads": 2926,
+  "total_downloads": 3123,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,14 +34,14 @@
       "version": "0.4.2",
       "tag": "r-1632",
       "published_at": null,
-      "downloads": 2791,
+      "downloads": 2792,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1632/eventsounds-0.4.2-r1632.phar"
     },
     "dev": {
       "version": "0.4.1",
       "tag": "r-1596",
       "published_at": null,
-      "downloads": 135,
+      "downloads": 136,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1596/eventsounds-0.4.1-r1596.phar"
     }
   },
@@ -55,6 +55,16 @@
       "tag": "r-1596",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1596/eventsounds-0.4.1-r1596.phar"
+    },
+    {
+      "tag": "r-1484",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1484/eventsounds-0.4.0-r1484.phar"
+    },
+    {
+      "tag": "r-1353",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1353/eventsounds-0.2.0-r1353.phar"
     }
   ],
   "comments": {

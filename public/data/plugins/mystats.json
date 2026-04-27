@@ -1,0 +1,66 @@
+{
+  "id": "mystats",
+  "name": "MyStats",
+  "author": "CzechPMDevs",
+  "description": "✔️ Supports Economy, Factions and PurePerms",
+  "readme_markdown": "<h1 align=\"center\">MyStats</h1>\n\n<p align=\"center\">\n\t<a href=\"https://poggit.pmmp.io/ci/CzechPMDevs/MyStats/MyStats\">\n\t\t<img src=\"https://poggit.pmmp.io/ci.shield/CzechPMDevs/MyStats/MyStats?style=flat-square\">\n\t</a>\n\t<a href=\"https://discord.gg/uwBf2jS\">\n\t\t<img src=\"https://img.shields.io/discord/365202594932719616.svg?style=flat-square\">\n\t</a>\n\t<a href=\"https://github.com/CzechPMDevs/MyStats/releases\">\n\t\t<img src=\"https://img.shields.io/github/release/CzechPMDevs/MyStats.svg?style=flat-square\">\n\t</a>\n\t<a href=\"https://github.com/CzechPMDevs/BuilderTools/releases\">\n\t\t<img src=\"https://img.shields.io/github/downloads/CzechPMDevs/MyStats/total.svg?style=flat-square\">\n\t</a>\n\t<a href=\"https://github.com/CzechPMDevs/MyStats/blob/master/LICENSE\">\n\t\t<img src=\"https://img.shields.io/github/license/CzechPMDevs/MyStats.svg?style=flat-square\">\n\t</a>\n<br><br>\n\t✔️ Supports Economy, Factions and PurePerms\n    <br>\n    ✔️ New scoreboarding functions with API\n    <br>\n    ✔️ Includes /stats command\n    <br>\n    ✔️ Supports last pocketmine api version\n    <br>\n    ✔️ HUD functions\n    <br><br>\n</p>\n\n\n## 👍 1.5 Update:\n> - Plugin cleanup\n> - Updated /stats command - now can be displayed stats of other players ``/stats [player]``\n> - Plugin now supports only 3.3.0+ api versions\n> - Added scoreboarding functions + api\n> - New config updater\n\n\n\n## ⬇️ Downloads:\n\n| Version | Phar Download | Zip Download | API | Stable | Pre release |\n| --- | --- | --- | --- | --- | --- |\n| 1.5.0 | [GitHub](https://github.com/CzechPMDevs/MyStats/releases/download/1.5.0/MyStats_v1.5.0.phar) | [GitHub](https://github.com/CzechPMDevs/MyStats/archive/1.5.0.zip) | 3.3.0 | ✔️ | ❌|\n| 1.4.6 | [Poggit DEV builds](https://poggit.pmmp.io/r/20031/MyStats_dev-95.phar) | [GitHub](https://github.com/CzechPMDevs/MyStats/archive/1.4.6.zip) | 3.0.0-ALPHA7-3.0.0-ALPHA11 | ✔️ | ❌|\n| 1.4.2 | [GitHub](https://github.com/CzechPMDevs/MyStats/releases/download/1.4.2/MyStats_1.4.2.phar) | [GitHub](https://github.com/CzechPMDevs/MyStats/archive/1.4.2.zip) | 3.0.0-ALPHA7-3.0.0-ALPHA10 | ✔️ | ❌|\n| 1.4.1 | [GitHub](https://github.com/CzechPMDevs/MyStats/releases/download/1.4.1/MyStats_1.4.1.phar) | [GitHub](https://github.com/CzechPMDevs/MyStats/archive/1.4.1.zip) | 3.0.0-ALPHA7 | ✔️ | ❌|\n| 1.4.0 | [GitHub](https://github.com/CzechPMDevs/MyStats/releases/download/1.4.0/MyStats.phar) | [GitHub](https://github.com/CzechPMDevs/MyStats/archive/1.4.0.zip) | 3.0.0-ALPHA7 | ✔️ | ❌|\n| 1.2.0 | [GitHub](https://github.com/CzechPMDevs/MyStats/releases/download/1.2.0/MyStats.v1.2.0.phar) | [GitHub](https://github.com/CzechPMDevs/MyStats/archive/1.2.0.zip) | 1.0.0-3.0.0-ALPHA6 | ❌ | ❌|\n\n<br>\n\n> **Download latest version [here](https://poggit.pmmp.io/p/MyStats/)**\n\n> **All released versions [here](https://github.com/CzechPMDevs/MyStats/releases)**\n> **Other plugins by CzechPMDevs [here](https://poggit.pmmp.io/plugins/by/CzechPMDevs)**\n\n<br>\n\n## 📁 Supported software:\n\n**This plugin works only on PocketMine-MP v3.3.0.**\n\n\n## 🔧 How to install MyStats?\n\n1) [Download](https://poggit.pmmp.io/p/MyStats/) latest stable version from poggit\n2) Move dowloaded file to your server **/plugins/** folder\n3) Restart the server\n\n## 🏋️ MyStats commands:\n\n- Stats command:\n\t- usage: ``/stats [player]``\n\t- description: Displays player's stats\n\t- permission: ms.cmd.stats (default)\n\n\n## 💰 Credits\n\n- Icon made by [Freepik](http://www.freepik.com/ \"Freepik\") from [www.flaticon.com](https://www.flaticon.com/ \"Flaticon\") is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/ \"Creative Commons BY 3.0\")\n\n## 🕹️ Config setup:\n\n- default config:\n\n```yaml\n\n---\n\nconfig-version: '1.5.0'\n\nprefix: '&5&l[ &r&2MyStats &l&5]'\n\neconomy: 'false'\n\nfactions: 'false'\n\nranks: 'false'\n\nmainFormat:\n  - '&5-- == &6[&eMyStats&6] &5== ---'\n  - '&3Welcome: &b%name'\n  - '&3You are playing on &b%level'\n  - '&9- &3Kills: %kills'\n  - '&9- &3Deaths: %deaths'\n\ncmdFormat:\n  - '&5--- == &6[&eMyStats&6] &5== ---'\n  - '&9- &3Name: &b%name'\n  - '&9- &3K/D: &b%kills / %deaths'\n  - '&9- &3Broken Blocks: &b%broken'\n  - '&9- &3Placed Blocks: &b%placed'\n  - '&9- &3Joins: &b%joins'\n\nfilter: 'false'\n\ndefaultFormat: '1'\n\npopupWorlds:\n  - Spawn\n  - PlotMe\n\ntipWorlds:\n  - world\n  - Hub\n\nscoreboardWorlds:\n  - Lobby\n...\n\n```\n\n### Enabling economy:\n\n```yaml\n# ---------------------------------------------------------------------------- #\n\n##\n### Economy\n##\n\n# Economy types: EconomyAPI\n# To enable economy type Economy type\neconomy: 'EconomyAPI'\n\n# ---------------------------------------------------------------------------- #\n```\n\n- If the EconomyAPI plugin is not found, the value of the money is set to 0.\n\n\n### Enabling ranks (PurePerms):\n\n```yaml\n# ---------------------------------------------------------------------------- #\n\n\n##\n### PurePerms\n##\n\n# Enable pureperms\nranks: 'true'\n\n# ---------------------------------------------------------------------------- #\n```\n\n- If the PurePerms plugin is not found, the value of the rank is set to ' '.\n\n### Enabling factions:\n\n- Supported Factions plugins:\n    - FactionsPro\n    - FactionsProBeta\n\n```yaml\n# ---------------------------------------------------------------------------- #\n\n##\n### Factions\n##\n\n# Enable faction\nfactions: 'true'\n\n# ---------------------------------------------------------------------------- #\n```\n\n- If the factions plugin is not found, the value of the fanction is set to ' '.\n\n##  💡 License\n\n```\nCopyright (C) 2018  CzechPMDevs\n  \nThis program is free software: you can redistribute it and/or modify  \nit under the terms of the GNU General Public License as published by  \nthe Free Software Foundation, either version 3 of the License, or  \n(at your option) any later version.  \n  \nThis program is distributed in the hope that it will be useful,  \nbut WITHOUT ANY WARRANTY; without even the implied warranty of  \nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the  \nGNU General Public License for more details.  \n  \nYou should have received a copy of the GNU General Public License  \nalong with this program.  If not, see <http://www.gnu.org/licenses/>.\n```\n\nFull license [here](https://github.com/CzechPMDevs/MyStats/blob/master/LICENSE).",
+  "readme_source_url": "https://github.com/CzechPMDevs/MyStats",
+  "icon_url": "https://raw.githubusercontent.com/CzechPMDevs/MyStats/e1897b6d56cdab9f4dedff4b6f74820f176f6bae/MyStats/icon.png",
+  "featured": false,
+  "repo": "https://github.com/CzechPMDevs/MyStats",
+  "archive_repo": null,
+  "approved_release_tag": "r-1332",
+  "stars": 0,
+  "total_downloads": 292,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA7-3.0.0-ALPHA12"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "PurePerms",
+      "FactionsPro",
+      "FactionsProBeta",
+      "EconomyAPI"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "CzechPMDevs"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/28952",
+  "versions": {
+    "stable": {
+      "version": "1.4.11",
+      "tag": "r-1332",
+      "published_at": null,
+      "downloads": 292,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1332/mystats-1.4.11-r1332.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1332",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1332/mystats-1.4.11-r1332.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MyStats",
+    "stable_release_id": 1332
+  }
+}

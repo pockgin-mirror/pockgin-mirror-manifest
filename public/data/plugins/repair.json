@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1580",
   "stars": 4,
-  "total_downloads": 9420,
+  "total_downloads": 9621,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.0.1",
       "tag": "r-1580",
       "published_at": null,
-      "downloads": 9420,
+      "downloads": 9421,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1580/repair-1.0.1-r1580.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-1580",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1580/repair-1.0.1-r1580.phar"
+    },
+    {
+      "tag": "r-1472",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1472/repair-1.0.0-r1472.phar"
     }
   ],
   "comments": {

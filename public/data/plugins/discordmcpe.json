@@ -1,0 +1,61 @@
+{
+  "id": "discordmcpe",
+  "name": "DiscordMCPE",
+  "author": "NiekertDev",
+  "description": "Discord-MCPE",
+  "readme_markdown": "# Discord-MCPE\n\n#####\n\n![Discord-MCPE Logo](logo.png)\n\n[<img src=\"https://poggit.pmmp.io/ci.shield/NiekertDev/Discord-MCPE/~\" width=\"100\" height=\"25\" />](https://poggit.pmmp.io/ci/niekmussche/Discord-MCPE/Discord-MCPE)\n\nConnect your PocketMine server with Discord&trade;!\n\n## Installing:\n1. Download phar from [Poggit&trade;](https://poggit.pmmp.io/ci/NiekertDev/Discord-MCPE)\n2. Put it in /plugins folder\n3. Start server\n4. Edit config\n5. Reload server\n\n## Config:\nwebhook_url: Your discord webhook url.\n\nchat_url: Webhook url for the /discord command and when somebody chats. Set to 0 to use default.\n\nusername: The username the plugin uses in discord.\n\nchat_username: The username of the plugin for /discord and when someone chats. Set to 0 to use default.\n\nchat_format: Format in discord that the plugin uses when sending a message. {player} and {message} can be used.\n\nstart_message: Message sent when server starts.\n\nshutdown_message: Message sent when server stops.\n\njoin_message: Message sent when player joins. {player} can be used.\n\nquit_message: Message sent when player leaves. {player} can be used.\n\ndeath_message: Message sent when player get killed. {player} can be used.\n\ncommand: Enable/disable \"/discord\"\n\nchat_prefix: Prefix for chat. When \"!\" and someone says !Hello, Hello is send to Discord\n\nchat: Send everything to Discord. Recommended to keep this disabled, but it can be used.\n\npureperms: Support for PurePerms rank names. PurePerms ranks use the prefix {rank}. If not enabled, {rank} tags will show as \"{rank}\".\n\ndebug: Show error messages.\n\n## Making a Discord&trade; webhook:\n1. Open Discord\n2. Go to your server\n3. Make a new chat channel / Open one\n4. Click on the settings icon beside your chat channel name\n5. Click Webhooks => New\n6. Click \"Copy\" under Webhook URL\n7. Paste it in the config\n8. No more!",
+  "readme_source_url": "https://github.com/NiekertDev/Discord-MCPE",
+  "icon_url": "https://raw.githubusercontent.com/NiekertDev/Discord-MCPE/1fda967d15d9e78d3227a565fd3000d76b44e231/logo.png",
+  "featured": false,
+  "repo": "https://github.com/NiekertDev/Discord-MCPE",
+  "archive_repo": null,
+  "approved_release_tag": "r-1471",
+  "stars": 5,
+  "total_downloads": 5972,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA10-3.0.0-ALPHA12"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "NiekertDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/32850",
+  "versions": {
+    "stable": {
+      "version": "1.0.5",
+      "tag": "r-1471",
+      "published_at": null,
+      "downloads": 5972,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1471/discordmcpe-1.0.5-r1471.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1471",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1471/discordmcpe-1.0.5-r1471.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "DiscordMCPE",
+    "stable_release_id": 1471
+  }
+}

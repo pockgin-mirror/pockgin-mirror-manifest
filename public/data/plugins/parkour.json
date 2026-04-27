@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1571",
   "stars": 3,
-  "total_downloads": 18661,
+  "total_downloads": 18825,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -36,7 +36,7 @@
       "version": "1.5.7",
       "tag": "r-1571",
       "published_at": null,
-      "downloads": 18661,
+      "downloads": 18662,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1571/parkour-1.5.7-r1571.phar"
     },
     "dev": null
@@ -46,6 +46,11 @@
       "tag": "r-1571",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1571/parkour-1.5.7-r1571.phar"
+    },
+    {
+      "tag": "r-1393",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1393/parkour-1.5.6-6-r1393.phar"
     }
   ],
   "comments": {

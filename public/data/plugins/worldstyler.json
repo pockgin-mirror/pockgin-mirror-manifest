@@ -1,0 +1,59 @@
+{
+  "id": "worldstyler",
+  "name": "WorldStyler",
+  "author": "Muqsit",
+  "description": "Yet another World Editor plugin for PocketMine... except it's actually pretty fast!",
+  "readme_markdown": "# WorldStyler\nYet another World Editor plugin for PocketMine... except it's actually pretty fast!\n\n## Installation\n[![](https://poggit.pmmp.io/shield.state/WorldStyler)](https://poggit.pmmp.io/p/WorldStyler)<br>\nClick the badge above to redirect to WorldStyler's Poggit page where you can get the latest compiled `.phar` format of WorldStyler.\n\n## Wiki\nRefer to the [WorldStyler Wiki](https://github.com/Muqsit/WorldStyler/wiki) to get help with commands and everything else.",
+  "readme_source_url": "https://github.com/Muqsit/WorldStyler",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Muqsit/WorldStyler",
+  "archive_repo": null,
+  "approved_release_tag": "r-1509",
+  "stars": 5,
+  "total_downloads": 3764,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Muqsit"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-1509",
+      "published_at": null,
+      "downloads": 3764,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1509/worldstyler-1.0-r1509.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1509",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1509/worldstyler-1.0-r1509.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "WorldStyler",
+    "stable_release_id": 1509
+  }
+}

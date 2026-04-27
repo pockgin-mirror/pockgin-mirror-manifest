@@ -1,0 +1,63 @@
+{
+  "id": "simpleauth",
+  "name": "SimpleAuth",
+  "author": "poggit-orphanage",
+  "description": "SimpleAuth 2.x",
+  "readme_markdown": "# SimpleAuth 2.x\n\nBy @Shoghicp\n\n[![Poggit Release](https://poggit.pmmp.io/shield.approved/SimpleAuth)](https://poggit.pmmp.io/p/SimpleAuth)\n\n#### IMPORTANT\nYou no longer need to set \"hack login\" and \"hack register\" perms with SimpleAuthHelper.\n\nTo use account linking you must also update the database if you use MySQL or SQLite:\n\nMySQL:\n\n* `ALTER TABLE simpleauth.simpleauth_players ADD linkedign VARCHAR(16);`\n\nSQLITE:\n\n* `ALTER TABLE simpleauth.simpleauth_players ADD linkedign TEXT;`\n\n\nPlugin for PocketMine-MP that prevents people from impersonating an account, requiring registration and login when connecting.\n\n\t SimpleAuth plugin for PocketMine-MP\n     Copyright (C) 2014 PocketMine Team <https://github.com/PocketMine/SimpleAuth>\n\n     This program is free software: you can redistribute it and/or modify\n     it under the terms of the GNU Lesser General Public License as published by\n     the Free Software Foundation, either version 3 of the License, or\n     (at your option) any later version.\n\n     This program is distributed in the hope that it will be useful,\n     but WITHOUT ANY WARRANTY; without even the implied warranty of\n     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n     GNU General Public License for more details.\n\n\n## What's New?\n\nThis version of SimpleAuth adds automatic account linking to SimpleAuth, and removes the obselete antihack protection.\n\nSimpleAuth2 is compatible with SimpleAuthHelper, and works with these providers: MySQL, YAML and SQLITE\n\n## Commands\n\n\n* `/login <password>`\n* `/register <password>`\n* `/unregister <password>` (TODO)\n* `/link <otherIGN> <otherpassword>`\n* `/unlink`\n* For Console: `/unlink <playerIGN>`\n* For OPs: `/simpleauth <command: help|unregister> [parameters...]` (TODO)\n\n## Configuration\n\nYou can modify the _SimpleAuth/config.yml_ file on the _plugins_ directory once the plugin has been run at least once.\n\n| Configuration | Type | Default | Description |\n| :---: | :---: | :---: | :--- |\n| timeout | integer | 60 | Unauthenticated players will be kicked after this period of time. Set it to 0 to disable. (TODO) |\n| forceSingleSession | boolean | true | New players won't kick an authenticated player if using the same name. |\n| minPasswordLength | integer | 6 | Minimum length of the register password. |\n| blockAfterFail | integer | 6 | Block clients after several failed attempts |\n| authenticateByLastUniqueId | boolean | false | Enables authentication by last unique id. |\n| dataProvider | string | yaml | Selects the provider to get the data from (yaml, sqlite3, mysql, none) |\n| dataProviderSettings | array | Sets the settings for the chosen dataProvider |\n| disableRegister | boolean | false | Will set all the permissions for simleauth.command.register to false |\n| disableLogin | boolean | false | Will set all the permissions for simleauth.command.login to false |\n| allowLinking | boolean | false | Allow users to /link and /unlink accounts (update MySQL/SQLITE DB)|\n\n## Permissions\n\n| Permission | Default | Description |\n| :---: | :---: | :--- |\n| simpleauth.chat | false | Allows using the chat while not being authenticated |\n| simpleauth.move | false | Allows moving while not being authenticated |\n| simpleauth.lastip | true | Allows authenticating using the lastIP when enabled in the config |\n| simpleauth.command.register | true | Allows registering an account |\n| simpleauth.command.login | true | Allows logging into an account |\n| simpleauth.command.link | true | Allows linking an account |\n| simpleauth.command.unlink | true | Allows unlinking an account |\n\n## For developers\n\n### Events\n\n* SimpleAuth\\event\\PlayerAuthenticateEvent\n* SimpleAuth\\event\\PlayerDeauthenticateEvent\n* SimpleAuth\\event\\PlayerRegisterEvent\n* SimpleAuth\\event\\PlayerUnregisterEvent\n\n### Plugin API methods\n\nAll methods are available through the main plugin object\n\n* bool isPlayerAuthenticated(pocketmine\\Player $player)\n* bool isPlayerRegistered(pocketmine\\IPlayer $player\n* bool authenticatePlayer(pocketmine\\Player $player)\n* bool deauthenticatePlayer(pocketmine\\Player $player)\n* bool registerPlayer(pocketmine\\IPlayer $player, $password)\n* bool unregisterPlayer(pocketmine\\IPlayer $player)\n* void setDataProvider(SimpleAuth\\provider\\DataProvider $provider)\n* SimpleAuth\\provider\\DataProvider getDataProvider(void)\n\n### Implementing your own DataProvider\n\nYou can register an instantiated object that implements SimpleAuth\\provider\\DataProvider to the plugin using the _setDataProvider()_ method",
+  "readme_source_url": "https://github.com/poggit-orphanage/SimpleAuth",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/SimpleAuth/0c0abd0e72691a21925f61f8958c5bfc0a04ed1a/sa.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/SimpleAuth",
+  "archive_repo": null,
+  "approved_release_tag": "r-1380",
+  "stars": 2,
+  "total_downloads": 7725,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA11-3.0.0-ALPHA12"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "SimpleAuthHelper"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/30451",
+  "versions": {
+    "stable": {
+      "version": "2.1.2-7",
+      "tag": "r-1380",
+      "published_at": null,
+      "downloads": 7725,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1380/simpleauth-2.1.2-7-r1380.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1380",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1380/simpleauth-2.1.2-7-r1380.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleAuth",
+    "stable_release_id": 1380
+  }
+}

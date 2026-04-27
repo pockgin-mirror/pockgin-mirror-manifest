@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-6429",
   "stars": 3,
-  "total_downloads": 86029,
+  "total_downloads": 88095,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,7 +37,13 @@
       "downloads": 29186,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-6429/pureentitiesx-0.7.0-r6429.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "0.4.1",
+      "tag": "r-1322",
+      "published_at": null,
+      "downloads": 2066,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1322/pureentitiesx-0.4.1-r1322.phar"
+    }
   },
   "recent_builds": [
     {

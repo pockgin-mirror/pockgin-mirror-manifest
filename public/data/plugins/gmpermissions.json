@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1573",
   "stars": 2,
-  "total_downloads": 11630,
+  "total_downloads": 11853,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.2.6",
       "tag": "r-1573",
       "published_at": null,
-      "downloads": 11630,
+      "downloads": 11631,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1573/gmpermissions-1.2.6-r1573.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-1573",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1573/gmpermissions-1.2.6-r1573.phar"
+    },
+    {
+      "tag": "r-1396",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1396/gmpermissions-1.2.5-5-r1396.phar"
     }
   ],
   "comments": {

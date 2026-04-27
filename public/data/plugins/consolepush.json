@@ -1,0 +1,61 @@
+{
+  "id": "consolepush",
+  "name": "ConsolePush",
+  "author": "SOF3",
+  "description": "simple-plugins",
+  "readme_markdown": "# simple-plugins\nSimple pocketmine plugins for immediate use\n\n## EvalPlugin [![Poggit-CI](https://poggit.pmmp.io/ci.badge/SOF3/simple-plugins/EvalPlugin)](https://poggit.pmmp.io/ci/SOF3/simple-plugins/EvalPlugin)\n\n## DailyReward [![Poggit-CI](https://poggit.pmmp.io/ci.badge/SOF3/simple-plugins/DailyReward)](https://poggit.pmmp.io/ci/SOF3/simple-plugins/DailyReward)\n\n## SessionsExample [![Poggit-CI](https://poggit.pmmp.io/ci.badge/SOF3/simple-plugins/SessionsExample)](https://poggit.pmmp.io/ci/SOF3/simple-plugins/SessionsExample)\n\n## SimplePermissions [![Poggit-CI](https://poggit.pmmp.io/ci.badge/SOF3/simple-plugins/SimplePermissions)](https://poggit.pmmp.io/ci/SOF3/simple-plugins/SimplePermissions)\n\n## JoinDisplays [![Poggit-CI](https://poggit.pmmp.io/ci.badge/SOF3/simple-plugins/JoinDisplays)](https://poggit.pmmp.io/ci/SOF3/simple-plugins/JoinDisplays)\n\n## ConfigSalad [![Poggit-CI](https://poggit.pmmp.io/ci.badge/SOF3/simple-plugins/ConfigSalad)](https://poggit.pmmp.io/ci/SOF3/simple-plugins/ConfigSalad)\nA salad of different information-related features. Simple to setup, kills many plugin requests.\n\n## MentionPings [![Poggit-CI](https://poggit.pmmp.io/ci.badge/SOF3/simple-plugins/MentionPings)](https://poggit.pmmp.io/ci/SOF3/simple-plugins/MentionPings)\nHighlight and play sound when player is mentioned in chat\n\n## ConsolePush [![Poggit-CI](https://poggit.pmmp.io/ci.badge/SOF3/simple-plugins/ConsolePush)](https://poggit.pmmp.io/ci/SOF3/simple-plugins/ConsolePush) [![](https://poggit.pmmp.io/shield.approved/ConsolePush)](https://poggit.pmmp.io/p/ConsolePush) [![](https://poggit.pmmp.io/shield.spoon/ConsolePush)](https://poggit.pmmp.io/p/ConsolePush) [![](https://poggit.pmmp.io/shield.dl.total/ConsolePush)](https://poggit.pmmp.io/p/ConsolePush)\nImprove console input experience with escape keys\n\n## DelayedForms [![Poggit-CI](https://poggit.pmmp.io/ci.badge/SOF3/simple-plugins/DelayedForms)](https://poggit.pmmp.io/ci/SOF3/simple-plugins/DelayedForms)\nDisplay a warning before showing a form. preventing accidentally submitting/closing the form.\n\n## LessIsMore [![Poggit-CI](https://poggit.pmmp.io/ci.badge/SOF3/simple-plugins/LessIsMore)](https://poggit.pmmp.io/ci/SOF3/simple-plugins/LessIsMore) [![](https://poggit.pmmp.io/shield.approved/LessIsMore)](https://poggit.pmmp.io/p/LessIsMore) [![](https://poggit.pmmp.io/shield.spoon/LessIsMore)](https://poggit.pmmp.io/p/LessIsMore) [![](https://poggit.pmmp.io/shield.dl.total/LessIsMore)](https://poggit.pmmp.io/p/LessIsMore)\nCreate custom informational commands\n\n## DeadlyFlight [![Poggit-CI](https://poggit.pmmp.io/ci.badge/SOF3/simple-plugins/DeadlyFlight)](https://poggit.pmmp.io/ci/SOF3/simple-plugins/DeadlyFlight)\nWhen you are in air too long, you take damage. [Idea from gurun](http://mcpedevs.pocketmine.net/quotes/#505).",
+  "readme_source_url": "https://github.com/SOF3/simple-plugins",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/SOF3/simple-plugins",
+  "archive_repo": null,
+  "approved_release_tag": "r-1278",
+  "stars": 5,
+  "total_downloads": 2939,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "2.0.0-3.0.0-ALPHA12"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SOF3"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/27785",
+  "versions": {
+    "stable": {
+      "version": "1.1.1-ALPHA12",
+      "tag": "r-1278",
+      "published_at": null,
+      "downloads": 2939,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1278/consolepush-1.1.1-alpha12-r1278.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1278",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1278/consolepush-1.1.1-alpha12-r1278.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ConsolePush",
+    "stable_release_id": 1278
+  }
+}

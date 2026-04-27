@@ -1,0 +1,61 @@
+{
+  "id": "replaysystem",
+  "name": "ReplaySystem",
+  "author": "McpeBooster",
+  "description": "Explanations",
+  "readme_markdown": "<h1>\n<a id=\"user-content-explanations\" class=\"anchor\" href=\"#explanations\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Explanations</h1>\n<p>The ReplaySystem is a plugin for Pocketmine where you can record players. You can play this sequence later, you can also set the speed when playing!</p>\n<ul>\n<li>\n<p>Record and play the game behavior</p>\n</li>\n<li>\n<p>manually entering the speed of the sequence</p>\n</li>\n<li>\n<p>Sequence also available after server restart</p>\n</li>\n</ul>\n<h1>\n<a id=\"user-content-how-to-use\" class=\"anchor\" href=\"#how-to-use\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How to use:</h1>\n<table>\n<thead>\n<tr>\n<th>Step</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>start a recording with \"/replay start\"</td>\n</tr>\n<tr>\n<td>2</td>\n<td>stop a recording with \"/replay stop\"</td>\n</tr>\n<tr>\n<td>3</td>\n<td>play a recording with \"/replay play [speed:1]\"</td>\n</tr>\n<tr>\n<td>4</td>\n<td>save your current recording with \"/replay save [name]\"</td>\n</tr>\n<tr>\n<td>5</td>\n<td>play a saved recording with \"/replay playsave [name] [speed:1]\"</td>\n</tr>\n<tr>\n<td>6</td>\n<td>if you want, delete your saved recording with \"/replay deleteysave [name]\"</td>\n</tr>\n<tr>\n<td>7</td>\n<td>list all saved recording with \"/replay listsave\"</td>\n</tr>\n</tbody>\n</table>\n<h1>\n<a id=\"user-content-commands\" class=\"anchor\" href=\"#commands\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Commands:</h1>\n<table>\n<thead>\n<tr>\n<th>Command</th>\n<th>Description</th>\n<th>Permission</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>/replay start</td>\n<td>start a recording</td>\n<td>replay.command</td>\n</tr>\n<tr>\n<td>/replay stop</td>\n<td>stop a recording</td>\n<td>replay.command</td>\n</tr>\n<tr>\n<td>/replay play [speed:1]</td>\n<td>play a recording</td>\n<td>replay.command</td>\n</tr>\n<tr>\n<td>/replay save [name]</td>\n<td>save your current recording</td>\n<td>replay.command</td>\n</tr>\n<tr>\n<td>/replay playsave [name] [speed:1]</td>\n<td>play a saved recording</td>\n<td>replay.command</td>\n</tr>\n<tr>\n<td>/replay deletesave [name]</td>\n<td>delete a saved recording</td>\n<td>replay.command</td>\n</tr>\n<tr>\n<td>/replay play [speed:1]</td>\n<td>list all saved recording</td>\n<td>replay.command</td>\n</tr>\n</tbody>\n</table>\n<h1>\n<a id=\"user-content-youtube-video\" class=\"anchor\" href=\"#youtube-video\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>YouTube Video:</h1>\n<p><a href=\"https://www.youtube.com/watch?v=SKJHoVs0MLY\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/cdb31298fca730a2813e851701daadf9e56ae477/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f534b4a486f5673304d4c592f302e6a7067\" alt=\"Alt text\" data-canonical-src=\"https://img.youtube.com/vi/SKJHoVs0MLY/0.jpg\" style=\"max-width:100%;\"></a></p>\n<p>Preview by @McpeBooster: <a href=\"https://youtu.be/SKJHoVs0MLY\" rel=\"nofollow\">https://youtu.be/SKJHoVs0MLY</a></p>\n<p><a href=\"https://www.youtube.com/watch?v=_mak8Gg1PzU\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/f16f0baf9fc2aaa60bc9f88e6abcee359d6402e4/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f5f6d616b38476731507a552f302e6a7067\" alt=\"Alt text\" data-canonical-src=\"https://img.youtube.com/vi/_mak8Gg1PzU/0.jpg\" style=\"max-width:100%;\"></a></p>\n<p>Tutorial (German) by @iTzFreeHD: <a href=\"https://youtu.be/_mak8Gg1PzU\" rel=\"nofollow\">https://youtu.be/_mak8Gg1PzU</a></p>\n<h1>\n<a id=\"user-content-contact-details\" class=\"anchor\" href=\"#contact-details\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>Contact details:</h1>\n<p>Twitter: <a href=\"https://twitter.com/McpeBooster\" rel=\"nofollow\">https://twitter.com/McpeBooster</a></p>\n<p>YouTube: <a href=\"https://youtube.com/McpeBooster\" rel=\"nofollow\">https://youtube.com/McpeBooster</a></p>\n<p>GitHub: <a href=\"https://github.com/McpeBooster\">https://github.com/McpeBooster</a></p>\n<p>Website: <a href=\"http://McpeBooster.tk\" rel=\"nofollow\">http://McpeBooster.tk</a></p>\n<p>E-Mail: <a href=\"/cdn-cgi/l/email-protection#2d404e5d484f42425e59485f6d4a404c4441034e4240\"><span class=\"__cf_email__\" data-cfemail=\"127f716277707d7d6166776052757f737b7e3c717d7f\">[email&#160;protected]</span></a></p>\n<script data-cfasync=\"false\" src=\"/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\"></script><script defer src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"508eb1d242ef46b690a0886422106e77\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}' crossorigin=\"anonymous\"></script>",
+  "readme_source_url": "https://poggit.pmmp.io/r/25966",
+  "icon_url": "https://raw.githubusercontent.com/McpeBooster/ReplaySystem-McpeBooster/ba7ce59caa18765a77de6fab44c4480daca727e6/icon.png",
+  "featured": false,
+  "repo": "https://github.com/McpeBooster/ReplaySystem-McpeBooster",
+  "archive_repo": null,
+  "approved_release_tag": "r-1234",
+  "stars": 0,
+  "total_downloads": 629,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA11-3.0.0-ALPHA11"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "McpeBooster"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/25968",
+  "versions": {
+    "stable": {
+      "version": "1.2.0",
+      "tag": "r-1234",
+      "published_at": null,
+      "downloads": 629,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1234/replaysystem-1.2.0-r1234.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1234",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1234/replaysystem-1.2.0-r1234.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ReplaySystem",
+    "stable_release_id": 1234
+  }
+}

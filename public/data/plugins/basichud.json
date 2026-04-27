@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1646",
   "stars": 3,
-  "total_downloads": 6424,
+  "total_downloads": 6722,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.0.8",
       "tag": "r-1646",
       "published_at": null,
-      "downloads": 6184,
+      "downloads": 6185,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1646/basichud-1.0.8-r1646.phar"
     },
     "dev": null
@@ -49,6 +49,11 @@
       "tag": "r-1558",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1558/basichud-1.0.7-r1558.phar"
+    },
+    {
+      "tag": "r-1377",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1377/basichud-1.0.6-5-r1377.phar"
     }
   ],
   "comments": {

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1561",
   "stars": 4,
-  "total_downloads": 23154,
+  "total_downloads": 23426,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "2.3.3",
       "tag": "r-1561",
       "published_at": null,
-      "downloads": 23154,
+      "downloads": 23155,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1561/banitem-2.3.3-r1561.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-1561",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1561/banitem-2.3.3-r1561.phar"
+    },
+    {
+      "tag": "r-1376",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1376/banitem-2.3.2-6-r1376.phar"
     }
   ],
   "comments": {

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-9367",
   "stars": 4,
-  "total_downloads": 11344,
+  "total_downloads": 12653,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,16 @@
       "tag": "r-2222",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2222/combatlogger-0.0.6-r2222.phar"
+    },
+    {
+      "tag": "r-1409",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1409/combatlogger-0.0.5-r1409.phar"
+    },
+    {
+      "tag": "r-1230",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1230/combatlogger-0.0.4-r1230.phar"
     }
   ],
   "comments": {

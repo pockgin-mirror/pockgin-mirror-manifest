@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1657",
   "stars": 4,
-  "total_downloads": 4853,
+  "total_downloads": 5106,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "2.3",
       "tag": "r-1657",
       "published_at": null,
-      "downloads": 4853,
+      "downloads": 4854,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1657/chatcensor-2.3-r1657.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-1657",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1657/chatcensor-2.3-r1657.phar"
+    },
+    {
+      "tag": "r-1317",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1317/chatcensor-2.2-r1317.phar"
     }
   ],
   "comments": {

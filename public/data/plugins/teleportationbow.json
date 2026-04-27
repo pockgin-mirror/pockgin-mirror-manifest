@@ -1,0 +1,61 @@
+{
+  "id": "teleportationbow",
+  "name": "TeleportationBow",
+  "author": "Muqsit",
+  "description": "Teleportation bows are essentially a lobby item, yet another means of transport for huge lobbies. A teleportation bow teleports a player wherever the arrow fired from the bow la...",
+  "readme_markdown": "# TeleportationBow\n[![](https://poggit.pmmp.io/shield.state/TeleportationBow)](https://poggit.pmmp.io/p/TeleportationBow)\n\nTeleportation bows are essentially a lobby item, yet another means of transport for huge lobbies. A teleportation bow teleports a player wherever the arrow fired from the bow lands. This does not conflict with the behaviour of vanilla bows.\n\nVisit the poggit website by clicking the badge above and get the latest `.phar` format of __TeleportationBow__.",
+  "readme_source_url": "https://github.com/Muqsit/TeleportationBow",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Muqsit/TeleportationBow",
+  "archive_repo": null,
+  "approved_release_tag": "r-1495",
+  "stars": 5,
+  "total_downloads": 1172,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA12-3.0.0-ALPHA12"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Muqsit"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.1",
+      "tag": "r-1495",
+      "published_at": null,
+      "downloads": 1172,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1495/teleportationbow-0.0.1-r1495.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1495",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1495/teleportationbow-0.0.1-r1495.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TeleportationBow",
+    "stable_release_id": 1495
+  }
+}

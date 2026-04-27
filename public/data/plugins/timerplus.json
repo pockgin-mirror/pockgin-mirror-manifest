@@ -1,0 +1,72 @@
+{
+  "id": "timerplus",
+  "name": "TimerPlus",
+  "author": "photoncodes",
+  "description": "TimerPlus Plugin",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.state/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)\n[![](https://poggit.pmmp.io/shield.api/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)\n\n[![](https://poggit.pmmp.io/shield.dl.total/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)\n[![](https://poggit.pmmp.io/shield.dl/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)\n\n# TimerPlus Plugin\nA plugin which starts a timer using command\n\n## Description\n\nNow you can notify online players about something that will happen after a specific time period using command which will start an automatic timer.\n\n## Commands\n\n`/stimer help` => Gives a list of all the commands available.\n`/stimer set [seconds] [reason]`=> Sets and start the timer. Giving a reason is optional.\n`/stimer cancel` => Cancels the current timer\n`/stimer cmd [command]` => executes command when timer finish counting (The activator only can use this)].\n\n## TODO\n- Command to tell the player the reason of starting the timer again (As the only way to know the reason for now is when the executes).\n\n- More features.\n\n## Contribution:\nFeel free to contribute if you have ideas or found an issue.\nLinks:\n\n- [Open an issue](https://github.com/killer549/TimerPlus/issues)\n- [Add something new or fix a bug](https://github.com/killer549/TimerPlus/pulls)\n\n## Licensing information\n\n\tThis program is free software: you can redistribute it and/or modify\n\tit under the terms of the GNU Lesser General Public License as published by\n\tthe Free Software Foundation, either version 3 of the License, or\n\t(at your option) any later version.\n\n\tThis program is distributed in the hope that it will be useful,\n\tbut WITHOUT ANY WARRANTY; without even the implied warranty of\n\tMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n\tGNU Lesser General Public License for more details.\n\n\tYou should have received a copy of the GNU Lesser General Public License\n\talong with this program.  If not, see <http://www.gnu.org/licenses/>.",
+  "readme_source_url": "https://github.com/photoncodes/TimerPlus",
+  "icon_url": "https://raw.githubusercontent.com/killer549/TimerPlus/d407ce566d87b6769bb9c402a9e52dbc0d845809/icon.png",
+  "featured": false,
+  "repo": "https://github.com/photoncodes/TimerPlus",
+  "archive_repo": null,
+  "approved_release_tag": "r-1354",
+  "stars": 1,
+  "total_downloads": 933,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA12-3.0.0-ALPHA12"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "photoncodes"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/29765",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-1354",
+      "published_at": null,
+      "downloads": 853,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1354/timerplus-1.1.0-r1354.phar"
+    },
+    "dev": {
+      "version": "1.0.0-beta",
+      "tag": "r-1315",
+      "published_at": null,
+      "downloads": 80,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1315/timerplus-1.0.0-beta-r1315.phar"
+    }
+  },
+  "recent_builds": [
+    {
+      "tag": "r-1354",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1354/timerplus-1.1.0-r1354.phar"
+    },
+    {
+      "tag": "r-1315",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1315/timerplus-1.0.0-beta-r1315.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "TimerPlus",
+    "stable_release_id": 1354
+  }
+}

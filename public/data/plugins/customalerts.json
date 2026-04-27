@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1787",
   "stars": 4,
-  "total_downloads": 11309,
+  "total_downloads": 11895,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,11 @@
       "tag": "r-1656",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1656/customalerts-2.0-r1656.phar"
+    },
+    {
+      "tag": "r-1329",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1329/customalerts-1.9-r1329.phar"
     }
   ],
   "comments": {

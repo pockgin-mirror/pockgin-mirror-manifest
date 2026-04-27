@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1901",
   "stars": 5,
-  "total_downloads": 13343,
+  "total_downloads": 14119,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "0.0.10",
       "tag": "r-1901",
       "published_at": null,
-      "downloads": 13343,
+      "downloads": 13344,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1901/autoinv-0.0.10-r1901.phar"
     },
     "dev": null
@@ -44,6 +44,16 @@
       "tag": "r-1901",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1901/autoinv-0.0.10-r1901.phar"
+    },
+    {
+      "tag": "r-1410",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1410/autoinv-0.0.9-r1410.phar"
+    },
+    {
+      "tag": "r-1229",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1229/autoinv-0.0.8-r1229.phar"
     }
   ],
   "comments": {

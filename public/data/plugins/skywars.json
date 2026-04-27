@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-3687",
   "stars": 3,
-  "total_downloads": 53127,
+  "total_downloads": 55744,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-1752",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1752/skywars-1.1.0-r1752.phar"
+    },
+    {
+      "tag": "r-1360",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1360/skywars-1.0.0-r1360.phar"
     }
   ],
   "comments": {

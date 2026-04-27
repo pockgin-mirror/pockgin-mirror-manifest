@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-4258",
   "stars": 5,
-  "total_downloads": 6161,
+  "total_downloads": 6327,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -54,6 +54,11 @@
       "tag": "r-1585",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1585/blazinjoin-1.1.4-r1585.phar"
+    },
+    {
+      "tag": "r-1335",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1335/blazinjoin-1.1.3-r1335.phar"
     }
   ],
   "comments": {

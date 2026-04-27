@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1651",
   "stars": 4,
-  "total_downloads": 16007,
+  "total_downloads": 16626,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.5",
       "tag": "r-1651",
       "published_at": null,
-      "downloads": 16007,
+      "downloads": 16008,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1651/broadcaster-1.5-r1651.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-1651",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1651/broadcaster-1.5-r1651.phar"
+    },
+    {
+      "tag": "r-1316",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1316/broadcaster-1.4-r1316.phar"
     }
   ],
   "comments": {
