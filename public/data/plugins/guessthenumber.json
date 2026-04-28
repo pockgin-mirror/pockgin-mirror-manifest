@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1968",
   "stars": 5,
-  "total_downloads": 1531,
+  "total_downloads": 1928,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,16 @@
       "tag": "r-1968",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1968/guessthenumber-3.1.0-r1968.phar"
+    },
+    {
+      "tag": "r-622",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-622/guessthenumber-3.0.2-r622.phar"
+    },
+    {
+      "tag": "r-483",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-483/guessthenumber-3.0.1-r483.phar"
     }
   ],
   "comments": {

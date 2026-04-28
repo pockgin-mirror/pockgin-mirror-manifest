@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1380",
   "stars": 2,
-  "total_downloads": 9853,
+  "total_downloads": 13317,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -56,6 +56,16 @@
       "tag": "r-903",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-903/simpleauth-2.1.2-5-r903.phar"
+    },
+    {
+      "tag": "r-669",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-669/simpleauth-2.1.2-2-r669.phar"
+    },
+    {
+      "tag": "r-599",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-599/simpleauth-2.0.0-2.alpha8-r599.phar"
     }
   ],
   "comments": {

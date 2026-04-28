@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-2787",
   "stars": 3,
-  "total_downloads": 7714,
+  "total_downloads": 8156,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -52,6 +52,11 @@
       "tag": "r-912",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-912/iprotector-3.1.0-8-r912.phar"
+    },
+    {
+      "tag": "r-675",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-675/iprotector-3.1.0-3-r675.phar"
     }
   ],
   "comments": {

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-2097",
   "stars": 5,
-  "total_downloads": 2824,
+  "total_downloads": 3051,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -52,6 +52,11 @@
       "tag": "r-1964",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1964/pocketlotto-1.1.0-r1964.phar"
+    },
+    {
+      "tag": "r-536",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-536/pocketlotto-1.0.0-r536.phar"
     }
   ],
   "comments": {

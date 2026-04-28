@@ -1,0 +1,61 @@
+{
+  "id": "vipslots",
+  "name": "VIPSlots",
+  "author": "poggit-orphanage",
+  "description": "Enable VIP players to join full servers.",
+  "readme_markdown": "VIPSlots\n========\n\nEnable VIP players to join full servers.",
+  "readme_source_url": "https://github.com/poggit-orphanage/VIPSlots",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/VIPSlots/e86c257a2b6c318b00afcd295bacd20af57d70c7/icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/VIPSlots",
+  "archive_repo": null,
+  "approved_release_tag": "r-630",
+  "stars": 4,
+  "total_downloads": 757,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA7-3.0.0-ALPHA9"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "0.0.5",
+      "tag": "r-630",
+      "published_at": null,
+      "downloads": 757,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-630/vipslots-0.0.5-r630.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-630",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-630/vipslots-0.0.5-r630.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VIPSlots",
+    "stable_release_id": 630
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1077",
   "stars": 0,
-  "total_downloads": 6194,
+  "total_downloads": 6443,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,16 @@
       "tag": "r-893",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-893/xyz-1.0.5-r893.phar"
+    },
+    {
+      "tag": "r-642",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-642/xyz-1.0.4-r642.phar"
+    },
+    {
+      "tag": "r-466",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-466/xyz-1.0.3-r466.phar"
     }
   ],
   "comments": {

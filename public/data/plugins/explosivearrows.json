@@ -1,0 +1,61 @@
+{
+  "id": "explosivearrows",
+  "name": "ExplosiveArrows",
+  "author": "JackNoordhuis",
+  "description": "",
+  "readme_markdown": "[![](https://poggit.pmmp.io/shield.api/CombatLogger)](https://poggit.pmmp.io/p/CombatLogger) [![](https://poggit.pmmp.io/shield.api/ExplosiveArrows)](https://poggit.pmmp.io/p/ExplosiveArrows)",
+  "readme_source_url": "https://github.com/JackNoordhuis/PocketMine-Plugins",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/JackNoordhuis/PocketMine-Plugins",
+  "archive_repo": null,
+  "approved_release_tag": "r-553",
+  "stars": 0,
+  "total_downloads": 1746,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA6-3.0.0-ALPHA7"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "JackNoordhuis"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/11855",
+  "versions": {
+    "stable": {
+      "version": "0.0.3-ALPHA",
+      "tag": "r-553",
+      "published_at": null,
+      "downloads": 1746,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-553/explosivearrows-0.0.3-alpha-r553.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-553",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-553/explosivearrows-0.0.3-alpha-r553.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "ExplosiveArrows",
+    "stable_release_id": 553
+  }
+}

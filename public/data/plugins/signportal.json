@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1570",
   "stars": 5,
-  "total_downloads": 23045,
+  "total_downloads": 23430,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -54,6 +54,16 @@
       "tag": "r-872",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-872/signportal-1.1.3-3-r872.phar"
+    },
+    {
+      "tag": "r-641",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-641/signportal-1.1.3-2-r641.phar"
+    },
+    {
+      "tag": "r-576",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-576/signportal-1.1.3-1.alpha8-r576.phar"
     }
   ],
   "comments": {

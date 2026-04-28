@@ -1,0 +1,61 @@
+{
+  "id": "packetlogger-po",
+  "name": "PacketLogger-PO",
+  "author": "poggit-orphanage",
+  "description": "PacketLogger",
+  "readme_markdown": "# PacketLogger\nLog network packets as you want.\n\n## Usage\n- Download the latest version for your API from [releases](https://github.com/PocketMine/PacketLogger/releases).\n- Place the .phar in the plugins directory\n- Start and stop the server to generate the default config file\n- Edit the ```config.yml``` ([validate yaml](http://codebeautify.org/yaml-validator]))\n- Start the server and connect. The logs are located in the `plugins/PacketLogger/` directory.\n\n## Example config\nBelow a example ``config.yml`` that logs packets for the player with name `steve` and exclude some packets to reduce the size of the log.\n```\n#Configuration file for PacketLogger\n\n#variables available: {name}, {clientId}, {ip}, {time}\nlogName: \"{name}_{clientId}-{time}.log\"\n\n#These selectors will match when ANY of the conditions is met\nselectors:\n mode: match #When match, it will allow when a selector is matched. When refuse, it'll log when there is no match\n name: #case insensitive\n  - steve\n\n clientId:\n  #- 123456\n\n ip:\n  #- 192.168.0.1\n\n#These filters decide what packets will be logged\nfilters:\n packetId: #Filter by the packet id (faster)\n  default: true #Default value of the packets not specified here. true will log it, false will not\n  #Available packet ID's can be found in https://github.com/PocketMine/PocketMine-MP/blob/master/src/pocketmine/network/protocol/Info.php\n  0x8f: false # LoginPacket\n  0x92: false # BatchPacket\n  0x95: false # StartGamePacket\n  0xba: false # CraftingDataPacket\n  0xbf: false # FullChunkDataPacket\n  0xc3: false # PlayerListPacket\n```",
+  "readme_source_url": "https://github.com/poggit-orphanage/PacketLogger",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/PacketLogger/34a4f186c971616b9a6898dcc0df7969c0929f4e/packetlogger.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/PacketLogger",
+  "archive_repo": null,
+  "approved_release_tag": "r-674",
+  "stars": 3,
+  "total_downloads": 1869,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA7-3.0.0-ALPHA9"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/13783",
+  "versions": {
+    "stable": {
+      "version": "1.2.1-1",
+      "tag": "r-674",
+      "published_at": null,
+      "downloads": 1869,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-674/packetlogger-po-1.2.1-1-r674.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-674",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-674/packetlogger-po-1.2.1-1-r674.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PacketLogger-PO",
+    "stable_release_id": 674
+  }
+}

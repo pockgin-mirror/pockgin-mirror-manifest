@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1079",
   "stars": 3,
-  "total_downloads": 6070,
+  "total_downloads": 6462,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -49,6 +49,16 @@
       "tag": "r-874",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-874/votereward-3.0.2-4-r874.phar"
+    },
+    {
+      "tag": "r-639",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-639/votereward-3.0.2-2-r639.phar"
+    },
+    {
+      "tag": "r-578",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-578/votereward-3.0.2-1.alpha8-r578.phar"
     }
   ],
   "comments": {

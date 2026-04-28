@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-843",
   "stars": 5,
-  "total_downloads": 3843,
+  "total_downloads": 3985,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,7 +37,7 @@
       "version": "1.0",
       "tag": "r-843",
       "published_at": null,
-      "downloads": 3689,
+      "downloads": 3690,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-843/custombar-1.0-r843.phar"
     },
     "dev": null
@@ -52,6 +52,11 @@
       "tag": "r-762",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-762/custombar-0.9-r762.phar"
+    },
+    {
+      "tag": "r-524",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-524/custombar-0.8-r524.phar"
     }
   ],
   "comments": {

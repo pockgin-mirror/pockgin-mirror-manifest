@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-745",
   "stars": 3,
-  "total_downloads": 11194,
+  "total_downloads": 11663,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -37,7 +37,7 @@
       "version": "1.2.1",
       "tag": "r-745",
       "published_at": null,
-      "downloads": 11194,
+      "downloads": 11195,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-745/jail-1.2.1-r745.phar"
     },
     "dev": null
@@ -47,6 +47,11 @@
       "tag": "r-745",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-745/jail-1.2.1-r745.phar"
+    },
+    {
+      "tag": "r-500",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-500/jail-1.2.0-r500.phar"
     }
   ],
   "comments": {

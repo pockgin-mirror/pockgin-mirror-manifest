@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1549",
   "stars": 5,
-  "total_downloads": 34660,
+  "total_downloads": 35282,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.4.1",
       "tag": "r-1549",
       "published_at": null,
-      "downloads": 33176,
+      "downloads": 33177,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-1549/antispampro-1.4.1-r1549.phar"
     },
     "dev": null
@@ -59,6 +59,11 @@
       "tag": "r-857",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-857/antispampro-1.4.0-3-r857.phar"
+    },
+    {
+      "tag": "r-651",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-651/antispampro-1.4.0-2-r651.phar"
     }
   ],
   "comments": {

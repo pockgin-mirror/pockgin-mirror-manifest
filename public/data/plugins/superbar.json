@@ -1,0 +1,61 @@
+{
+  "id": "superbar",
+  "name": "superBAR",
+  "author": "poggit-orphanage",
+  "description": "SUPERBAR by FaigerSYS",
+  "readme_markdown": "### SUPERBAR by FaigerSYS\n***\n# superBAR\n\nTo download, visit [Poggit]()http://poggit.pmmp.io)\n\nFor setup instructions please see config.yml\n\n## License\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.  \nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.  \nYou should have received a copy of the GNU General Public License along with this program. [If not, click here.](http://www.gnu.org/licenses/)",
+  "readme_source_url": "https://github.com/poggit-orphanage/superBAR",
+  "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/superBAR/a430d8937ab4256e9ba0589eb46e6258d2027a33/icon.png",
+  "featured": false,
+  "repo": "https://github.com/poggit-orphanage/superBAR",
+  "archive_repo": null,
+  "approved_release_tag": "r-653",
+  "stars": 0,
+  "total_downloads": 1464,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA8-3.0.0-ALPHA9"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "poggit-orphanage"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/13586",
+  "versions": {
+    "stable": {
+      "version": "1.6.5-1",
+      "tag": "r-653",
+      "published_at": null,
+      "downloads": 1464,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-653/superbar-1.6.5-1-r653.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-653",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-653/superbar-1.6.5-1-r653.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "superBAR",
+    "stable_release_id": 653
+  }
+}
