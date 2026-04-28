@@ -1,0 +1,61 @@
+{
+  "id": "fasttravel",
+  "name": "FastTravel",
+  "author": "Ad5001",
+  "description": "This repository was moved to git.ad5001.eu",
+  "readme_markdown": "## This repository was moved to [git.ad5001.eu](https://git.ad5001.eu/Ad5001/FastTravel)\r\n# FastTravel\r\nTravel in MCPE faster and easier than you ever tought !\r\n\r\nDiscover brand new way of traveling that this plugin brings:\r\n- Elevators\r\n- BoostBlocks\r\n- FlyBlocks\r\n\r\n### Elevators\r\nElevators are blocks that allows you to change floors by sneaking to go down / jumping to go up.    \r\nCreate a floor by adding an elevator block (defined in the config, noteblock by default) and then create some another ones by adding an other elevator block at different height.     \r\nProTip: Try making squares of 2x2 to make sure the user get tp when sneaking/jumping.\r\n\r\n### BoostBlocks\r\nBoostBlocks are blocks that allows you to go super fast for 2 seconds after steping on them.    \r\nJust place one (defined in the config, ice by default) on the ground and step on it to see how fast can you go and regulate the amplifier in the config (10 by default).     \r\n\r\n### FlyBlocks (aka JumpBlocks)\r\nFlyBlocks throws you in the air which allows you a great start for your elytras or to jump to high platforms.   \r\nPlace one (defined in the config, hay bale by default) on the ground and step on it to see how high can you go and regulate the amplifier in the config (2 by default).",
+  "readme_source_url": "https://github.com/Ad5001/FastTravel",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Ad5001/FastTravel",
+  "archive_repo": null,
+  "approved_release_tag": "r-75",
+  "stars": 3,
+  "total_downloads": 1167,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "2.0.0-3.0.0-ALPHA3"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Ad5001"
+  ],
+  "whats_new": "",
+  "versions": {
+    "stable": {
+      "version": "1.0",
+      "tag": "r-75",
+      "published_at": null,
+      "downloads": 1167,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-75/fasttravel-1.0-r75.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-75",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-75/fasttravel-1.0-r75.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FastTravel",
+    "stable_release_id": 75
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-97",
   "stars": 5,
-  "total_downloads": 1897,
+  "total_downloads": 2161,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,7 +34,7 @@
       "version": "1.2.1-new",
       "tag": "r-97",
       "published_at": null,
-      "downloads": 1897,
+      "downloads": 1898,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-97/functions-1.2.1-new-r97.phar"
     },
     "dev": null
@@ -44,6 +44,11 @@
       "tag": "r-97",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-97/functions-1.2.1-new-r97.phar"
+    },
+    {
+      "tag": "r-70",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-70/functions-1.2.1-r70.phar"
     }
   ],
   "comments": {

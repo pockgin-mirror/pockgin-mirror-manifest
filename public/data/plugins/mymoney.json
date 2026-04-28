@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-124",
   "stars": 0,
-  "total_downloads": 7815,
+  "total_downloads": 8009,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -34,16 +34,27 @@
       "version": "empty-version",
       "tag": "r-124",
       "published_at": null,
-      "downloads": 7815,
+      "downloads": 7816,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-124/mymoney-empty-version-r124.phar"
     },
-    "dev": null
+    "dev": {
+      "version": "0.1.0-alpha",
+      "tag": "r-4",
+      "published_at": null,
+      "downloads": 193,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4/mymoney-0.1.0-alpha-r4.phar"
+    }
   },
   "recent_builds": [
     {
       "tag": "r-124",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-124/mymoney-empty-version-r124.phar"
+    },
+    {
+      "tag": "r-4",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-4/mymoney-0.1.0-alpha-r4.phar"
     }
   ],
   "comments": {
