@@ -1,0 +1,61 @@
+{
+  "id": "piggyanticheats",
+  "name": "PiggyAntiCheats",
+  "author": "DaPigGuy",
+  "description": "Get rid of those pesky hackers!",
+  "readme_markdown": "# PiggyAntiCheats [![Poggit-CI](https://poggit.pmmp.io/ci.badge/DaPigGuy/PiggyAntiCheats/PiggyAntiCheats/master)](https://poggit.pmmp.io/ci/DaPigGuy/PiggyAntiCheats)\nGet rid of those pesky hackers!\n\n# Changelog\n\n### v1.0.0 REBOOT\n* First release\n\n# Mods Prevented\n* Fly\n* No clip",
+  "readme_source_url": "https://github.com/DaPigGuy/PiggyAntiCheats",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/DaPigGuy/PiggyAntiCheats",
+  "archive_repo": null,
+  "approved_release_tag": "r-184",
+  "stars": 4,
+  "total_downloads": 2324,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "2.0.0-3.0.0-ALPHA4"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaPigGuy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-184",
+      "published_at": null,
+      "downloads": 2324,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-184/piggyanticheats-1.0.0-r184.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-184",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-184/piggyanticheats-1.0.0-r184.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PiggyAntiCheats",
+    "stable_release_id": 184
+  }
+}

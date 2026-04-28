@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1711",
   "stars": 3,
-  "total_downloads": 10364,
+  "total_downloads": 11461,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-955",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-955/hungergames-17.1-r955.phar"
+    },
+    {
+      "tag": "r-253",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-253/hungergames-16.3-r253.phar"
     }
   ],
   "comments": {

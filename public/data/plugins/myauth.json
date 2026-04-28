@@ -1,0 +1,61 @@
+{
+  "id": "myauth",
+  "name": "MyAuth",
+  "author": "SuperPuperSteve",
+  "description": "MyAuth is simple authentication plugin.",
+  "readme_markdown": "# MyAuth\nMyAuth is simple authentication plugin.\n\n## Last update: v1.2.1 (March 3rd, 2017)\n* Some database improvements\n\n## Permissions:\n- `myauth` - top permission of plugin, allows using everything\n\n- `myauth.myadmin` - allows using command `/myadmin`\n \n## Commands: \n- `/login <password>` - log in into an account\n- `/register <password>` - register an account\n\n- `/unregister <password> <password confirmation>` - unregister an account\n- `/chp <password> <password confirmation>` - change account's password\n- `/logout` - log out of an acccount\n\n- `/myadmin` - plugin administrating\n\n  - `/myadmin info <nickname>` - get info about an account\n  - `/myadmin chp <nickname> <password>` - change password for an account\n\n## Configuration:\n| Variable | Values | Description |\n|   ---    |  ---   |     ---     |\n| `type` | `mysql`, `yml`, `json`, `sqlite`| Database type |\n| `ip` | IP | Connection IP (MySQL) |\n| `username` | string | MySQL DB username |\n| `password` | string | `username`'s password |\n| `database` | string | Database/Folder name |\n| `table_prefix` | string | Database/Folder prefix |\n| `language` | `en`, `ru` | Plugin language |\n| `time_format` | date string | for more see https://php.net/manual/function.date.php |\n| `enable_autologin` | boolean | Enables/Disables autologin (using IP and CID) |\n| `hide_players` | boolean | Enables/Disables hiding players if they aren't logged in|\n| `cancel_block` | boolean | Cancel actions with blocks if player is not logged in |\n| `cancel_drop` | boolean | Cancel dropping items if player is not logged in |\n| `cancel_interacting` | boolean | Cancel interaction with objects if player is not logged in |\n| `cancel_buckets` | boolean | Cancel using buckets if player is not logged in |\n| `cancel_moving` | boolean | Cancel moving if player is not logged in |\n| `cancel_eating` | boolean | Cancel eating if player is not logged in |",
+  "readme_source_url": "https://github.com/SuperPuperSteve/MyAuth",
+  "icon_url": "https://raw.githubusercontent.com/SuperPuperSteve/MyAuth/759c38441092464b0c15f0fdc3732dca47c1d849/icon.png",
+  "featured": false,
+  "repo": "https://github.com/SuperPuperSteve/MyAuth",
+  "archive_repo": null,
+  "approved_release_tag": "r-147",
+  "stars": 0,
+  "total_downloads": 557,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA1-3.0.0-ALPHA4"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "SuperPuperSteve"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/2537",
+  "versions": {
+    "stable": {
+      "version": "v1.2.1",
+      "tag": "r-147",
+      "published_at": null,
+      "downloads": 557,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-147/myauth-1.2.1-r147.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-147",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-147/myauth-1.2.1-r147.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MyAuth",
+    "stable_release_id": 147
+  }
+}

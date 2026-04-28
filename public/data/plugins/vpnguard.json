@@ -1,0 +1,61 @@
+{
+  "id": "vpnguard",
+  "name": "VPNGuard",
+  "author": "HiddenMotives",
+  "description": "PocketMine-MP Plugin: VPNGuard will prevent players from joining your server behind any type of anonymizer.",
+  "readme_markdown": "# VPNGuard\nPocketMine-MP Plugin: VPNGuard will prevent players from joining your server behind any type of anonymizer.\n\nVPNGuard will prevent players from joining your server behind any type of anonymizer (whether it be a VPN or a Proxy). This will effectively help reduce spammers/bots and Miscellaneous individuals from joining your server by kicking them if they have an IP address which belongs to a hosting organization.\n\nVPNGuard uses a privately managed blocking list which is updated almost daily to Combat new threats\nEasy installation requires almost no configuration, simply download and install.\n\n\nUpdated for: **3.0.0 + / 4.0.0 +**\n\nLatest Plugin Release: **VPNGuard v1.0.7-patch1 for API 3.0.0 / VPNGuard v1.0.8-patch1 for API 4.0.0**\n\n### Commands\n| Command   | Description |\n| :-------- | :---------- |\n|  vpnguard  | **The main command for VPNGuard.** |\n|  vpnguard clearcache | **Deletes all locally saved cache files** |\n|  vpnguard clearip {ip}  | **Deletes the locally saved cache file for the specified IP address** |\n|  vpnguard lookup {ip/player}  | **Allows you to search any IP address or online player in-game and view IP details** |\n|  vpnguard subnet {ban/unban} {ip/subnet block} | **Allows you to ban or unban a IP address subnet** |\n|  vpnguard country {add/remove} {cc} | **Allows you to add or remove a country from your blacklist or whitelist** |\n|  vpnguard about  | **Information about the plugin** |\n\n### Permissions\n| Node  | Default | Description |\n| :-------- | :---------- | :---------- |\n| vpnguard.command.vpnguard | true | Allows you to use the **/vpnguard** command |\n| vpnguard.command.clearcache | op | Allows you to use the **/vpnguard clearcache** command |\n| vpnguard.command.clearip | op | Allows you to use the **/vpnguard clearip** command |\n| vpnguard.command.lookup | op | Allows you to use the **/vpnguard lookup** command |\n| vpnguard.command.subnet | op | Allows you to use the **/vpnguard subnet** command |\n| vpnguard.command.country | op | Allows you to use the **/vpnguard country** command |\n| vpnguard.command.about | true | Allows you to use the **/vpnguard about** command |\n\n### Frequently Asked Questions\n**Q**. The plugin API is outdated when will you make an update?\n\nA. Please update/bump the API version in the plugin.yml, the plugin should still work. If not please open a Github Issue and let me know.\n\n**Q**. How many players can the plugin look information up for?\n\nA. At the time of writing this the backend API provider has a 500 monthly request limit. Which means if you enable api-cache within config.yml you can get 500 monthly unique players and lookup information regarding them with no problem!\n\n**Q**. What happens when the API monthly limit is reached?\n\nA. The API server will no longer provide information regarding additional/new users who attempt to join your server, from there those users would be either allowed to join your server without any sort of checking or they would be kicked, this is based on the value specified in the config.yml under bypass-check.\n\n**Q**. I have a server and more than 500 new users join per month is it possible I can get more monthly requests?\n\nA. Yes you can you would need to purchase an API key, at the time of writing this its only $5/mo\n\n**Q**. I have more than one server can I use the API key on more than one server at a time?\n\nA. Yes you can use a single API key on as many servers as you wish, that you own.\n\n**Q**. Why can't this be completely free for unlimited requests?\n\nA. It costs money to maintain and upkeep such a service. You are not paying for the plugin but are paying for the service to use the API if you choose to do so.\n\n**Q**. Where can I view details/purchase the API that is being used?\n\nA. You can visit the homepage by the API provider located at: http://bit.ly/host-blocker\n\n**Q**. Right after I installed the plugin it says \"Monthly Limit Reached\" but this is the first time im running it what do I do?\n\nA. You most likely are on shared hosting and chances are someone already has used up the 500 Free Monthly Request Limit for the IP Address. You would need to either test the plugin locally on your computer, on a different server or purchase a API Key.\n\n**Q**. I just installed the plugin I need help configuring command section in the config.\n\nA. Configuring the plugin commands is super simple! Take a look at the config file: https://github.com/HiddenMotives/VPNGuard/blob/master/resources/config.yml it is pretty straight forward, the command section is a list of commands to run when a user joins with a VPN. %p represents the player name connecting and gets replaced automatically.\n\n~~~~\ncommand:\n- kick %p You seem to be using a VPN or Proxy\n~~~~\nThe above command to run would kick the player trying to connect with a VPN with the message \"You seem to be using a VPN or Proxy\". Or you could specify more than one command by adding another line like:\n~~~~\ncommand:\n- kick %p You seem to be using a VPN or Proxy\n- say %p is a naughty crafter.\n~~~~\nWhich would both kick the player trying to connect to the server and broadcast \"playerName is a naughty crafter\"\n\n**Q**. I found a IP from a VPN organization not blocked what do I do?\n\nA. Contact the API provider\n\n**Q**. My question is not listed here\n\nA. Contact me with your Question!",
+  "readme_source_url": "https://github.com/HiddenMotives/VPNGuard",
+  "icon_url": "https://raw.githubusercontent.com/HiddenMotives/VPNGuard/4541c76a4f16151d1856d38aeb6b414faf1bf083/vg.png",
+  "featured": false,
+  "repo": "https://github.com/HiddenMotives/VPNGuard",
+  "archive_repo": null,
+  "approved_release_tag": "r-456",
+  "stars": 4,
+  "total_downloads": 6405,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "3.0.0-ALPHA7-3.0.0-ALPHA7"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "HiddenMotives"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.6",
+      "tag": "r-456",
+      "published_at": null,
+      "downloads": 6405,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-456/vpnguard-1.0.6-r456.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-456",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-456/vpnguard-1.0.6-r456.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "VPNGuard",
+    "stable_release_id": 456
+  }
+}

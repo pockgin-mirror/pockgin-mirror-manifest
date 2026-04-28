@@ -1,0 +1,63 @@
+{
+  "id": "piggyauth",
+  "name": "PiggyAuth",
+  "author": "DaPigGuy",
+  "description": "PROJECT HAS BEEN DISCONTINUED! As of v1.2, xbox auth has been implemented into pmmp; therefore, this plugin will no longer be maintained as there is no need for authentication p...",
+  "readme_markdown": "# PiggyAuth <!--[![Poggit-CI](https://poggit.pmmp.io/ci.badge/DaPigGuy/PiggyAuth/PiggyAuth/master)](https://poggit.pmmp.io/ci/DaPigGuy/PiggyAuth)-->\n\n### PROJECT HAS BEEN DISCONTINUED! As of v1.2, xbox auth has been implemented into pmmp; therefore, this plugin will no longer be maintained as there is no need for authentication plugins.\nIf an individual feature within this plugin is wanted, make a request to @DaPigGuy. He might do it... or you can do it yourself.\n\n<!--\n## Information\n - The many features of this plugin can be found [here.](https://github.com/MCPEPIG/PiggyAuth/wiki/Features)\n - The changelog of this plugin can be found [here.](https://github.com/MCPEPIG/PiggyAuth/wiki/Changelog)\n - The installation guide can be found [here.](https://github.com/MCPEPIG/PiggyAuth/wiki/Installation)\n - The converting guide can be found [here.](https://github.com/MCPEPIG/PiggyAuth/wiki/Converting)\n - The MailGun setup guide can be found [here.](https://github.com/MCPEPIG/PiggyAuth/wiki/MailGun)\n - You can suggest features and report bugs [here.](https://github.com/MCPEPIG/PiggyAuth/issues/39)\n-->\n<!--\n## Credits\n* @thebigsmileXD for fake attributes.\n* @lolmanz0 for czech translations.\n* @SleepSpace9 for german translations.\n* @SuperAdam47 for turkish translations\n* @miguel456 for portuguese translations.\n* @Thunder33345, mojlna, & @TBNRShadowDev for chinese translations.\n-->",
+  "readme_source_url": "https://github.com/DaPigGuy/PiggyAuth",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/DaPigGuy/PiggyAuth",
+  "archive_repo": null,
+  "approved_release_tag": "r-258",
+  "stars": 5,
+  "total_downloads": 578,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "2.0.0-3.0.0-ALPHA5"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": [
+      "PurePerms"
+    ]
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "DaPigGuy"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/4351",
+  "versions": {
+    "stable": {
+      "version": "3.0.0.19",
+      "tag": "r-258",
+      "published_at": null,
+      "downloads": 578,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-258/piggyauth-3.0.0.19-r258.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-258",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-258/piggyauth-3.0.0.19-r258.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "PiggyAuth",
+    "stable_release_id": 258
+  }
+}

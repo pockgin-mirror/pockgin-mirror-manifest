@@ -1,0 +1,62 @@
+{
+  "id": "simplemacros",
+  "name": "SimpleMacros",
+  "author": "PEMapModder",
+  "description": "Small-ZC-Plugins",
+  "readme_markdown": "Small-ZC-Plugins\n================\n\nA collection of PEMapModder's small ZekkouCake plugins.\n\nIf a file or folder does not have copyright info, they are licensed under the GPL v2 license.\n\n\n[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/PEMapModder/small-zc-plugins/trend.png)](https://bitdeli.com/free \"Bitdeli Badge\")",
+  "readme_source_url": "https://github.com/PEMapModder/Small-ZC-Plugins",
+  "icon_url": "https://github.com/PEMapModder/Small-ZC-Plugins/raw/master/SimpleMacros/icon.png",
+  "featured": false,
+  "repo": "https://github.com/PEMapModder/Small-ZC-Plugins",
+  "archive_repo": null,
+  "approved_release_tag": "r-175",
+  "stars": 0,
+  "total_downloads": 821,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "2.0.0-2.0.0",
+    "3.0.0-ALPHA1-3.0.0-ALPHA4"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "PEMapModder"
+  ],
+  "whats_new": "",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-175",
+      "published_at": null,
+      "downloads": 821,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-175/simplemacros-1.1.0-r175.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-175",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-175/simplemacros-1.1.0-r175.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "SimpleMacros",
+    "stable_release_id": 175
+  }
+}

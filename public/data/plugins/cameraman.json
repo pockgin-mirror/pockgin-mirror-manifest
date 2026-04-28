@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1559",
   "stars": 5,
-  "total_downloads": 7666,
+  "total_downloads": 7796,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -59,6 +59,11 @@
       "tag": "r-686",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-686/cameraman-1.1.0-3-r686.phar"
+    },
+    {
+      "tag": "r-386",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-386/cameraman-1.1.0-dev1-r386.phar"
     }
   ],
   "comments": {

@@ -1,0 +1,61 @@
+{
+  "id": "mymoney",
+  "name": "MyMoney",
+  "author": "MyMoney-PMMP",
+  "description": "Poggit:",
+  "readme_markdown": "# MyMoney\n## Poggit: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/MyMoney-PMMP/MyMoney/MyMoney)](https://poggit.pmmp.io/ci/MyMoney-PMMP/MyMoney/MyMoney)\n## Travis: [![Build Status](https://travis-ci.org/MyMoney-PMMP/MyMoney.svg?branch=master)](https://travis-ci.org/MyMoney-PMMP/MyMoney)\n## StyleCI: [![StyleCI](https://styleci.io/repos/75541380/shield?style=flat)](https://styleci.io/repos/75541380)\nA simple economy plugin for PMMP.",
+  "readme_source_url": "https://github.com/MyMoney-PMMP/MyMoney",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/MyMoney-PMMP/MyMoney",
+  "archive_repo": null,
+  "approved_release_tag": "r-124",
+  "stars": 0,
+  "total_downloads": 7815,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "2.0.0-3.0.0-ALPHA3"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "MyMoney-PMMP"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/2253",
+  "versions": {
+    "stable": {
+      "version": "empty-version",
+      "tag": "r-124",
+      "published_at": null,
+      "downloads": 7815,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-124/mymoney-empty-version-r124.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-124",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-124/mymoney-empty-version-r124.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "MyMoney",
+    "stable_release_id": 124
+  }
+}

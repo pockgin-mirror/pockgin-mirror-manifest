@@ -1,0 +1,61 @@
+{
+  "id": "killcounter",
+  "name": "KillCounter",
+  "author": "BlockHorizons",
+  "description": "A Plugin for PocketMine-MP, aiming to give a better and more fun PvP experience.",
+  "readme_markdown": "# KillCounter\nA Plugin for PocketMine-MP, aiming to give a better and more fun PvP experience.\n<br><br>\nAnother plugin that keeps track of kills?! There are already plenty! Why would I choose this plugin above other plugins like KillRate, that provider me with the same kind of features?\n\n### Features\nKillCounter has a more advanced kill tracking system than other kill tracking plugins on several points.\n- [x] Kill tracking when the actual damage cause was not a player, but something else, using the last player attacker.\n- [x] Lots of configuration allowing you to modify the plugin in whichever way you want, such as point amounts.\n- [x] Economy support, requiring the Economizer library by @Chris-Prime.\n- [x] Killing sprees, which will give you increasingly higher points for each kills, and shut downs.\n- [x] Assists feature, giving points to every player that assisted in killing a player.\n- [x] Custom PvP achievements, which can be created in the configuration.\n\n... I'm convinced. How do I download this?\n\n### Installation\nIt is mostly recommended to use released versions of the plugin, which can be found in the released version on Poggit. (once there is one)<br>\nIf you do decide you want the latest version of the plugin, it is recommended you fetch a pre-compiled phar file from Poggit-CI, which can be found below.\n<br><br>\n[![Poggit-CI](https://poggit.pmmp.io/ci.shield/BlockHorizons/KillCounter/KillCounter)](https://poggit.pmmp.io/ci/BlockHorizons/KillCounter/KillCounter)\n\n### Support\nI found an issue in the plugin which I would like to be fixed quickly! What do I do?<br>\n> It's very much appreciated you report any bugs found in the plugin in the Issues tab from the repository in GitHub. Issues can be easily managed here.\n\n<br>\nI want something to be added to the plugin. Where can I ask if this can be made?<br>\n\n> This too is most easily managed in the Issues tab. Not every feature is guaranteed to be added, but everything will be taken in consideration.",
+  "readme_source_url": "https://github.com/BlockHorizons/KillCounter",
+  "icon_url": "https://raw.githubusercontent.com/BlockHorizons/KillCounter/20e7279e14c67e3e3e056b16d8e37d88b06119cc/resources/KillCounterLogo.png",
+  "featured": false,
+  "repo": "https://github.com/BlockHorizons/KillCounter",
+  "archive_repo": null,
+  "approved_release_tag": "r-319",
+  "stars": 4,
+  "total_downloads": 792,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "2.0.0-3.0.0-ALPHA5"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "BlockHorizons"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/5738",
+  "versions": {
+    "stable": {
+      "version": "0.1.1",
+      "tag": "r-319",
+      "published_at": null,
+      "downloads": 792,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-319/killcounter-0.1.1-r319.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-319",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-319/killcounter-0.1.1-r319.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "KillCounter",
+    "stable_release_id": 319
+  }
+}

@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1575",
   "stars": 0,
-  "total_downloads": 1563,
+  "total_downloads": 1631,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -54,6 +54,11 @@
       "tag": "r-888",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-888/notell-1.1.2-3-r888.phar"
+    },
+    {
+      "tag": "r-102",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-102/notell-1.1.0-r102.phar"
     }
   ],
   "comments": {

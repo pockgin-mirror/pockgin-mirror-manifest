@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-2291",
   "stars": 0,
-  "total_downloads": 1750,
+  "total_downloads": 2171,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -44,6 +44,11 @@
       "tag": "r-2291",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-2291/chatfilter-3.0.0-r2291.phar"
+    },
+    {
+      "tag": "r-96",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-96/chatfilter-1.0.0-r96.phar"
     }
   ],
   "comments": {

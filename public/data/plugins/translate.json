@@ -11,7 +11,7 @@
   "archive_repo": null,
   "approved_release_tag": "r-1401",
   "stars": 0,
-  "total_downloads": 4135,
+  "total_downloads": 4262,
   "last_commit_at": null,
   "last_updated_at": null,
   "license": null,
@@ -56,6 +56,11 @@
       "tag": "r-876",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-876/translate-1.0.2-40-r876.phar"
+    },
+    {
+      "tag": "r-193",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-193/translate-1.0.2-r193.phar"
     }
   ],
   "comments": {
