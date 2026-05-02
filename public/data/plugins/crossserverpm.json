@@ -1,0 +1,61 @@
+{
+  "id": "crossserverpm",
+  "name": "CrossServerPM",
+  "author": "TitaniumLB6571",
+  "description": "CrossServerPM lets players send private messages between linked PocketMine-MP",
+  "readme_markdown": "# CrossServerPM\n\n<p align=\"center\">\n  <img src=\"icon.png\" alt=\"CrossServerPM logo\" width=\"220\">\n</p>\n\nCrossServerPM lets players send private messages between linked PocketMine-MP\nservers.\n\nExample:\n\n```text\n/msg Carl hi\n```\n\nIf Carl is on another linked server, Carl can receive:\n\n```text\n[Titan Server] Player -> Me: hi\n```\n\nThe formats are configurable in `config.yml`.\n\n## Description\n\n- Send private messages to players on the same server or another linked server.\n- Reply to the last private message with `/reply` or `/r`.\n- Link only the servers you own by using the same network id and secret.\n- Choose between `mysql`, `relay`, `redis`, or `file` transport.\n- Customize message prefixes and formats.\n- Check linked status, connected servers, and configured offline servers in-game.\n\n## How to use?\n\n1. Add the plugin to every PocketMine-MP server you want linked.\n2. Restart each server once so `config.yml` is created.\n3. Pick one transport in `config.yml`: `mysql`, `relay`, `redis`, or `file`.\n4. Copy the matching example from `resources/examples/` if you want a full starting point.\n5. Run `/xmsg key generate` on one server.\n6. Copy the generated `network.secret` to every linked server.\n7. Use the same `network.id` and transport settings on every linked server.\n8. Give every server a unique `server.id`.\n9. Set `enabled: true`.\n10. Restart the servers or run `/xmsg reload`.\n\n## Requirements\n\n- PocketMine-MP API 5.\n- PHP `pdo_mysql` extension for `transport: mysql`.\n- PHP `curl` extension for `transport: relay` and Poggit update checks.\n- Redis/Valkey server access for `transport: redis`. The PHP Redis extension is not required.\n- A shared folder available to every linked server for `transport: file`.\n- Node.js 18 or newer only if you run the optional reference relay app from this source repository.\n\n## Example configs\n\nUse only one transport at a time. Pick one file from `resources/examples/`,\ncopy it into `plugin_data/CrossServerPM/config.yml`, then edit it.\n\n- `resources/examples/mysql.yml` - Use one shared MySQL/MariaDB database.\n- `resources/examples/relay.yml` - Use the included HTTP relay app.\n- `resources/examples/redis.yml` - Use Redis/Valkey, including Redis Cloud.\n- `resources/examples/file.yml` - Use one shared folder for same-machine servers.\n\nOn every linked server, keep these the same:\n\n- `transport`\n- `network.id`\n- `network.secret`\n- `network.servers`\n- The settings for the selected transport\n\nOn each linked server, change these:\n\n- `server.id`\n- `server.display-name`\n\n## Transport options\n\n### MySQL\n\nUse `transport: mysql` if you want the easiest public-plugin setup.\n\nAll linked servers connect to the same MySQL/MariaDB database. You do not need\nto run a separate relay app or configure a relay URL.\n\nUse the same values on every linked server:\n\n```yaml\ntransport: mysql\nnetwork:\n  id: \"titan-network\"\n  secret: \"same-secret-on-every-linked-server\"\n  servers:\n    survival: \"Titan Survival\"\n    skyblock: \"Titan Skyblock\"\nmysql:\n  host: \"mysql.example.net\"\n  port: 3306\n  database: \"titan_crossserverpm\"\n  username: \"titan_crossserverpm\"\n  password: \"fake-password-change-this\"\n```\n\nOnly change this per server:\n\n```yaml\nserver:\n  id: \"survival\"\n  display-name: \"Titan Survival\"\n```\n\nFor the second server, use something like:\n\n```yaml\nserver:\n  id: \"skyblock\"\n  display-name: \"Titan Skyblock\"\n```\n\n### Relay\n\nUse `transport: relay` if you want servers to talk to a relay service instead\nof a database.\n\nThe URL is the address of the relay service. It can be on your domain, but only\nif that domain is actually hosting the relay. Your normal Minecraft address is\nnot enough unless the relay is also running there.\n\nExample:\n\n```yaml\ntransport: relay\nrelay:\n  url: \"https://relay.titan-network.example\"\n```\n\nA small reference relay is available in this source repository at `relay/server.js`:\n\n```text\ncd relay\nnode server.js\n```\n\nYou can also start it with:\n\n```text\ncd relay\nnpm start\n```\n\nIf the relay is protected with `RELAY_ACCESS_KEY`, put the same value in\n`relay.access-key`:\n\n```yaml\ntransport: relay\nrelay:\n  url: \"https://relay.titan-network.example\"\n  access-key: \"change-this\"\n```\n\nFor public internet use, put the relay behind HTTPS with a reverse proxy.\n\n### Redis / Valkey\n\nUse `transport: redis` if your host provides Redis/Valkey or you already run it\nfor your network.\n\n```yaml\ntransport: redis\nredis:\n  host: \"redis.example.com\"\n  port: 6379\n  username: \"\"\n  password: \"change-this\"\n  database: 0\n  key-prefix: \"cspm\"\n```\n\nThe plugin talks to Redis directly over TCP, so it does not need the PHP Redis\nextension.\n\n### File\n\nUse `transport: file` only when every linked server can access the same folder.\nThis is useful when multiple servers run on one machine.\n\n```yaml\ntransport: file\nfile:\n  path: \"/home/minecraft/shared-crossserverpm\"\n```\n\nDo not use file transport for unrelated servers on different machines unless\nyou know the folder is a reliable shared mount.\n\n## In-game commands\n\n- `/msg <player> <message>` - Send a private message.\n- `/tell <player> <message>` - Alias for `/msg`.\n- `/w <player> <message>` - Alias for `/msg`.\n- `/reply <message>` - Reply to the last private message.\n- `/r <message>` - Alias for `/reply`.\n- Console can use `/msg` and `/reply` when `runtime.allow-console-messaging` is `true`.\n- `/xmsg status` - Show transport, network, and readiness status.\n- `/xmsg servers` - List connected servers and configured servers that are not connected.\n- `/xmsg update` - Check Poggit for a newer CrossServerPM release.\n- `/xmsg reload` - Reload config.\n- `/xmsg key generate` - Generate a shared network secret. (this gets put in your config automatically when running the commmand)\n\n## Server list command\n\n`/xmsg servers` always shows the local server. It also shows remote servers\nthat are currently sending heartbeats through the selected transport.\n\nTo show servers that are not connected, list the expected servers in\n`network.servers` on every linked server:\n\n```yaml\nnetwork:\n  servers:\n    survival: \"Titan Survival\"\n    skyblock: \"Titan Skyblock\"\n    factions: \"Titan Factions\"\n```\n\nIf `skyblock` is not sending heartbeats, `/xmsg servers` will show it as\n`NOT CONNECTED`.\n\n## Poggit update checks\n\nCrossServerPM can check Poggit for newer approved releases. This only notifies\nconsole and admins; it does not download or replace files automatically.\n\n```yaml\nupdater:\n  enabled: true\n  plugin-name: \"CrossServerPM\"\n  current-version: \"\"\n  notify-console: true\n  notify-ops: true\n  check-interval-hours: 12\n  include-prereleases: false\n  verify-tls: false\n```\n\nLeave `updater.current-version` empty unless you are running a custom build.\nWhen it is empty, CrossServerPM uses the version in `plugin.yml`.\n\n`verify-tls` is disabled by default because many bundled PocketMine PHP builds on\nWindows do not ship with a configured CA bundle. The updater only reads public\nPoggit metadata and does not auto-install files.\n\nAdmins can force a check with `/xmsg update`.\n\n## Implemented Features\n\n- [x] Cross-server `/msg`.\n- [x] Cross-server `/reply`.\n- [x] Local private messaging fallback.\n- [x] MySQL transport.\n- [x] HTTP relay transport.\n- [x] Redis/Valkey transport.\n- [x] Shared-folder file transport.\n- [x] Configurable server names.\n- [x] Configurable message formats.\n- [x] Private server groups using `network.id` and `network.secret`.\n- [x] Message length limit.\n- [x] Command cooldown.\n- [x] Stale player cleanup.\n- [x] Optional console `/msg` and `/reply`.\n- [x] Admin status command.\n- [x] Connected/offline server list command.\n- [x] Poggit update notifications with `/xmsg update`.\n\n## Future Features\n\n- [ ] SocialSpy for private messages only.\n- [ ] Ignore system with `/ignore`, `/unignore`, and `/ignore list`.\n- [ ] Toggle private messages with `/pmtoggle`.\n- [ ] Staff bypass permissions for ignore, PM toggle, and cooldown checks.\n- [ ] Configurable incoming message sounds.\n- [ ] Cross-server staff chat with `/staffchat` and `/sc`.\n- [ ] Admin cross-server broadcasts.\n- [ ] Offline mail for players who are not currently online.\n- [ ] Public API for other plugins.\n- [ ] Custom PocketMine events for private messages, staff chat, broadcasts, offline mail, and presence updates.\n- [ ] Better transport diagnostics, including last heartbeat, last poll, and recent error details.\n- [ ] Cleanup command for stale backend data.\n- [ ] More message formatting options for staff spy, offline mail, console messages, and blocked messages.\n\n## Permissions\n\n- `crossserverpm.msg` - Use `/msg`, `/tell`, `/w`, `/reply`, and `/r`.\n- `crossserverpm.admin` - Use `/xmsg status`, `/xmsg servers`,\n  `/xmsg update`, `/xmsg reload`, and `/xmsg key generate`.\n\n## Notes\n\n- Keep `network.secret` private.\n- The same `network.secret` must be copied to every linked server.\n- Every linked server must have a different `server.id`.\n- Restart after editing config, or run `/xmsg reload`.\n- If remote players do not show up, check `/xmsg status` first.\n- The plugin stores a hash of `network.id + network.secret` in transport data,\n  not the raw secret.\n- There is no central CrossServerPM service. MySQL, Redis, file, and relay\n  transports only use the backend that you configure.\n- The relay transport sends HTTP requests only to your configured relay URL and\n  does not execute remote code.",
+  "readme_source_url": "https://github.com/TitaniumLB6571/CrossServerPM",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/TitaniumLB6571/CrossServerPM",
+  "archive_repo": null,
+  "approved_release_tag": "r-14433",
+  "stars": 0,
+  "total_downloads": 2,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "TitaniumLB6571"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-14433",
+      "published_at": null,
+      "downloads": 2,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14433/crossserverpm-1.0.0-r14433.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14433",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14433/crossserverpm-1.0.0-r14433.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "CrossServerPM",
+    "stable_release_id": 14433
+  }
+}
