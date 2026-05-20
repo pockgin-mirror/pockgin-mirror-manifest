@@ -1,0 +1,61 @@
+{
+  "id": "antibugping",
+  "name": "AntiBugPing",
+  "author": "Jorgebyte",
+  "description": "Advanced network heuristic and desync mitigation engine for PocketMine-MP 5.",
+  "readme_markdown": "<div align=\"center\">\r\n<h1>AntiBugPing</h1>\r\n<p><strong>Advanced network heuristic and desync mitigation engine for PocketMine-MP 5.</strong></p>\r\n\r\n<img src=\"https://img.shields.io/badge/PocketMine--MP-5.0+-000000?style=for-the-badge&logo=php&logoColor=white\" alt=\"PMMP 5\">\r\n<img src=\"https://img.shields.io/badge/PHP-8.1+-777BB4?style=for-the-badge&logo=php&logoColor=white\" alt=\"PHP Version\">\r\n</div>\r\n\r\n<br>\r\n\r\n## ⯈ Core Functionality\r\n\r\nAntiBugPing implements real-time connection profiling to detect and mitigate lag-switch style abuse, artificial desynchronization, and erratic network behavior.\r\n\r\n- **Heuristic Profiling:** Continuously tracks median ping, connection jitter, and packet transmission silence on a per-player basis.\r\n- **Dynamic Risk Scoring:** Translates network anomalies into a short-lived risk score, utilizing an automatic heuristic decay algorithm to prevent false positives during brief network spikes.\r\n- **Progressive Mitigation Engine:** Automatically executes escalating penalties based on desync severity:\r\n  - Restricts unauthorized combat and interaction actions.\r\n  - Triggers safe setback teleportation.\r\n  - Applies temporary movement freezing.\r\n  - Disconnects clients experiencing chronic high-risk network states (configurable).\r\n  - Initiates watchdog quarantine for clients failing to broadcast packets within the expected tick threshold.\r\n\r\n## ⯈ Architecture & Efficiency\r\n\r\nDesigned for high-concurrency production environments, ensuring zero impact on the main server thread.\r\n\r\n- **Memory Safety:** Leverages `WeakMap` for automated per-player state lifecycle management, entirely eliminating memory leaks and the need for manual garbage collection arrays.\r\n- **Zero-Allocation Buffers:** Utilizes fixed-size, in-memory circular buffers for sampling. Requires zero database I/O.\r\n- **Event-Driven Execution:** Mitigation logic is strictly bound to relevant inbound network packets and critical gameplay events, bypassing arbitrary repetitive tasks.\r\n\r\n## ⯈ Configuration Tuning\r\n\r\nThe system initializes with a `balanced` profile. Administrators must fine-tune `resources/config.yml` according to the infrastructure's routing topology.\r\n\r\n| Parameter | Recommended Adjustment |\r\n| :--- | :--- |\r\n| `thresholds.high-ping-ms` | Increase if the server infrastructure is heavily reliant on cross-continental routing. |\r\n| `thresholds.high-jitter-ms` | Increase if the primary player base utilizes cellular or highly volatile mobile connections. |\r\n| `min-ping-samples` | Increase to demand a larger statistical sample size prior to mitigation execution. |\r\n| `thresholds.action-score-cooldown-ticks` | Increase to dampen false-positive risk spikes during dense PvP interactions. |\r\n| `watchdog.quarantine-after-silent-multiplier` | Calibrate to govern the strictness of the silent-connection quarantine trigger. |\r\n| `mitigation.kick-enabled` | Keep set to `false` during initial deployment until network telemetry is validated. |\r\n\r\n## ⯈ Access Control\r\n\r\n| Node | Description | Default Status |\r\n| :--- | :--- | :--- |\r\n| `antibugping.bypass` | Grants absolute immunity to heuristic checks and mitigation penalties. | `op` |\r\n| `antibugping.notify` | Subscribes the user to real-time administrative telemetry and mitigation alerts. | `op` |\r\n\r\n## ⯈ Continuous Integration & Testing\r\n\r\nThis repository provides a lightweight test harness designed to assert configuration parser invariants (`AntiBugPingSettings::fromArray`) and validate the heuristic scoring engine (`DesyncDetector::onSuspiciousAction`).\r\n\r\nExecute the test suite via native CLI:\r\n\r\n```bash\r\nphp tests/run.php\r\n```\r\n<br> <div align=\"center\"> <h3>Developer Profile</h3> <a href=\"https://github.com/Jorgebyte\"> <img src=\"https://github-readme-stats.vercel.app/api?username=Jorgebyte&show_icons=true&theme=transparent&hide_border=true&title_color=2ea44f&icon_color=2ea44f&text_color=a3a3a3\" alt=\"Jorgebyte's GitHub Telemetry\" width=\"400\"/> </a> </div> <br> <div align=\"center\"> <h3>Network Status</h3> <a href=\"https://discord.com/users/1165097093480853634\"> <img src=\"https://lanyard.cnrad.dev/api/1165097093480853634?theme=dark&bg=0d1117&animated=true&hideDiscrim=true&borderRadius=10px\" alt=\"Discord Telemetry\"/> </a> </div>",
+  "readme_source_url": "https://github.com/Jorgebyte/AntiBugPing",
+  "icon_url": "happy_ghast.png",
+  "featured": false,
+  "repo": "https://github.com/Jorgebyte/AntiBugPing",
+  "archive_repo": null,
+  "approved_release_tag": "r-14446",
+  "stars": 0,
+  "total_downloads": 1,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "Jorgebyte"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.1.0",
+      "tag": "r-14446",
+      "published_at": null,
+      "downloads": 1,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14446/antibugping-1.1.0-r14446.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14446",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14446/antibugping-1.1.0-r14446.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "AntiBugPing",
+    "stable_release_id": 14446
+  }
+}
