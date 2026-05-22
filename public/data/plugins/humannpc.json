@@ -5,12 +5,12 @@
   "description": "A simple npc plugin for PocketMine!",
   "readme_markdown": "# HumanNPC\n<center><img src='icon.png' width=150 height=150</img></center>\nA simple npc plugin for PocketMine!\n\n# Notice\nThe plugin only supports getting skins from players!\n\n# Example Commands\n/hnpc spawn/create <name> -> Spawn a NPC\n/hnpc delete/remove -> Enter NPC delete mode\n/hnpc id -> Enter NPC check id mode\n/hnpc edit <id> <setcmd|rename|settool>",
   "readme_source_url": "https://github.com/BeeAZ-pm-pl/HumanNPC",
-  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/HumanNPC/35ab014e028ddc791af1630c0b7074d7c112991d/icon.png",
+  "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/HumanNPC/4109b3aea9bb30b5c583aa73930afef5a6288871/icon.png",
   "featured": false,
   "repo": "https://github.com/BeeAZ-pm-pl/HumanNPC",
   "archive_repo": null,
-  "approved_release_tag": "r-12766",
-  "stars": 5,
+  "approved_release_tag": "r-14456",
+  "stars": 0,
   "total_downloads": 5560,
   "last_commit_at": null,
   "last_updated_at": null,
@@ -28,18 +28,23 @@
   "producers": [
     "BeeAZ-pm-pl"
   ],
-  "whats_new": "https://poggit.pmmp.io/r/231788",
+  "whats_new": "https://poggit.pmmp.io/r/264541",
   "versions": {
     "stable": {
-      "version": "0.1.1",
-      "tag": "r-12766",
+      "version": "0.1.2",
+      "tag": "r-14456",
       "published_at": null,
-      "downloads": 3217,
-      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12766/humannpc-0.1.1-r12766.phar"
+      "downloads": 0,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14456/humannpc-0.1.2-r14456.phar"
     },
     "dev": null
   },
   "recent_builds": [
+    {
+      "tag": "r-14456",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14456/humannpc-0.1.2-r14456.phar"
+    },
     {
       "tag": "r-12766",
       "published_at": null,
@@ -59,11 +64,6 @@
       "tag": "r-11840",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11840/humannpc-0.0.4-r11840.phar"
-    },
-    {
-      "tag": "r-11522",
-      "published_at": null,
-      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-11522/humannpc-0.0.3-r11522.phar"
     }
   ],
   "comments": {
@@ -76,6 +76,6 @@
   "source": {
     "provider": "poggit",
     "plugin_name": "HumanNPC",
-    "stable_release_id": 12766
+    "stable_release_id": 14456
   }
 }

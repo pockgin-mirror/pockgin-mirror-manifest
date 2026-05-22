@@ -1,8 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-05-22T15:25:56.031Z",
-  "source_total_releases": 5020,
+  "generated_at": "2026-05-22T20:12:55.986Z",
+  "source_total_releases": 5022,
   "source_total_plugins": 1431,
-  "mirror_index_size": 5020,
-  "newly_mirrored_releases": []
+  "mirror_index_size": 5022,
+  "newly_mirrored_releases": [
+    14456,
+    14449
+  ]
 }

@@ -5,11 +5,11 @@
   "description": "A lightweight plugin that brings vanilla-like weather mechanics (clear, rain, thunder) with configurable behavior per",
   "readme_markdown": "# VanillaWeather\n\n[![](https://poggit.pmmp.io/shield.api/VanillaWeather)](https://poggit.pmmp.io/p/VanillaWeather) [![](https://poggit.pmmp.io/shield.dl.total/VanillaWeather)](https://poggit.pmmp.io/p/VanillaWeather) [![](https://poggit.pmmp.io/shield.state/VanillaWeather)](https://poggit.pmmp.io/p/VanillaWeather)\n\nA lightweight plugin that brings vanilla-like weather mechanics (clear, rain, thunder) with configurable behavior per\nworld, lightning control and snow layer creation.\n\n<div style=\"text-align:center\">\n  <img src=\"https://github.com/WeaVerseStudio/VanillaWeather/blob/master/resources/image0.png?raw=true\" alt=\"screenshot0\" width=\"320\" style=\"margin-right:8px;\"/>\n  <img src=\"https://github.com/WeaVerseStudio/VanillaWeather/blob/master/resources/image1.png?raw=true\" alt=\"screenshot1\" width=\"320\" style=\"margin-right:8px;\"/>\n  <img src=\"https://github.com/WeaVerseStudio/VanillaWeather/blob/master/resources/image2.png?raw=true\" alt=\"screenshot2\" width=\"320\"/>\n</div>\n\n---\n\n## Features\n\n- Change weather to clear, rain or thunder via command or API.\n- Control lightning spawning and its side-effects (fire, damage).\n- Create snow layers when snow falls.\n- Per-world configuration.\n- Events for plugin integration and extension.\n\n## Commands\n\n- `/weather <clear|rain|thunder> [duration]`\n  - Change the current world's weather. `duration` is in seconds.\n  - Use `0` or a negative number to prevent automatic weather changes in that world.\n  - Examples:\n    - `/weather rain 120` — rain for 2 minutes\n    - `/weather clear` — make the weather clear\n\n## Permissions\n\n- `vanillaweather.weather.command` — Allows use of the `/weather` command.\n\n## Configuration\n\nSettings are stored per world in `plugin_data/VanillaWeather/config.yml`. The `default` section provides fallback\nvalues.\n\nExample `config.yml`:\n\n```yaml\n---\ndefault:\n  weatherChange: true        # Allow automatic weather changes\n  createLightning: true      # Allow lightning to spawn\n  lightningFire: false       # Lightning can set blocks on fire\n  damageFromLightning: false # Lightning deals damage to players\n  createSnowLayers: true     # Create snow layers during snow\n\nworld_nether:\n  weatherChange: false\n```\n\n---\n\n## Contributing\n\nContributions are welcome — fork the repo, make your changes and open a pull request. For bug reports and feature\nrequests please use the [repository Issues](https://github.com/WeaVerseStudio/VanillaWeather/issues)\n\n## Contact\n\nIf you need help or want to report a bug, open an Issue on the repository or join\nour [Discord](https://discord.gg/BBtZ4nh8Rc)",
   "readme_source_url": "https://github.com/WeaVerseStudio/VanillaWeather",
-  "icon_url": "https://raw.githubusercontent.com/WeaVerseStudio/VanillaWeather/0ea22039fb47d831876fd27e6a73a70abba07677/image.png",
+  "icon_url": "https://raw.githubusercontent.com/WeaVerseStudio/VanillaWeather/b41f717278519fe4abfab3d1196a18b8fd6f4186/image.png",
   "featured": false,
   "repo": "https://github.com/WeaVerseStudio/VanillaWeather",
   "archive_repo": null,
-  "approved_release_tag": "r-14371",
+  "approved_release_tag": "r-14449",
   "stars": 0,
   "total_downloads": 1347,
   "last_commit_at": null,
@@ -28,18 +28,23 @@
   "producers": [
     "WeaVerseStudio"
   ],
-  "whats_new": "https://poggit.pmmp.io/r/262512",
+  "whats_new": "https://poggit.pmmp.io/r/264415",
   "versions": {
     "stable": {
-      "version": "1.2.2",
-      "tag": "r-14371",
+      "version": "1.2.3",
+      "tag": "r-14449",
       "published_at": null,
-      "downloads": 57,
-      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14371/vanillaweather-1.2.2-r14371.phar"
+      "downloads": 0,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14449/vanillaweather-1.2.3-r14449.phar"
     },
     "dev": null
   },
   "recent_builds": [
+    {
+      "tag": "r-14449",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14449/vanillaweather-1.2.3-r14449.phar"
+    },
     {
       "tag": "r-14371",
       "published_at": null,
@@ -59,11 +64,6 @@
       "tag": "r-12641",
       "published_at": null,
       "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12641/vanillaweather-1.0.6-r12641.phar"
-    },
-    {
-      "tag": "r-12618",
-      "published_at": null,
-      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-12618/vanillaweather-1.0.5-r12618.phar"
     }
   ],
   "comments": {
@@ -76,6 +76,6 @@
   "source": {
     "provider": "poggit",
     "plugin_name": "VanillaWeather",
-    "stable_release_id": 14371
+    "stable_release_id": 14449
   }
 }

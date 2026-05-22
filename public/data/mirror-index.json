@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-05-22T15:25:56.032Z",
+  "generated_at": "2026-05-22T20:12:55.987Z",
   "releases": {
     "4": {
       "release_id": 4,
@@ -115461,6 +115461,52 @@
       "size_bytes": 50045,
       "sha256": "8f73d40fd7b90caeb33c5d3551f8487bcf4061bc7529b4fdb318c60feffe9773",
       "mirrored_at": "2026-05-20T15:59:05.486Z"
+    },
+    "14449": {
+      "release_id": 14449,
+      "plugin_name": "VanillaWeather",
+      "version": "1.2.3",
+      "author_owner": "WeaVerseStudio",
+      "source_repo": "WeaVerseStudio/VanillaWeather",
+      "source_repo_url": "https://github.com/WeaVerseStudio/VanillaWeather",
+      "source_project_url": "https://poggit.pmmp.io/p/VanillaWeather/1.2.3",
+      "source_description_url": "https://poggit.pmmp.io/r/264413",
+      "source_changelog_url": "https://poggit.pmmp.io/r/264415",
+      "downloads": 0,
+      "score": 0,
+      "is_pre_release": false,
+      "api_range": "5.0.0 -> 5.36.0",
+      "dependencies_count": 0,
+      "tag": "r-14449",
+      "asset_name": "vanillaweather-1.2.3-r14449.phar",
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14449/vanillaweather-1.2.3-r14449.phar",
+      "source_artifact_url": "https://poggit.pmmp.io/r/264411",
+      "size_bytes": 42516,
+      "sha256": "49849b6777220f4482d40cb31a31f5c9c6d3cef6aab1715c2e64884832eecf2b",
+      "mirrored_at": "2026-05-22T20:12:55.914Z"
+    },
+    "14456": {
+      "release_id": 14456,
+      "plugin_name": "HumanNPC",
+      "version": "0.1.2",
+      "author_owner": "BeeAZ-pm-pl",
+      "source_repo": "BeeAZ-pm-pl/HumanNPC",
+      "source_repo_url": "https://github.com/BeeAZ-pm-pl/HumanNPC",
+      "source_project_url": "https://poggit.pmmp.io/p/HumanNPC/0.1.2",
+      "source_description_url": "https://poggit.pmmp.io/r/264539",
+      "source_changelog_url": "https://poggit.pmmp.io/r/264541",
+      "downloads": 0,
+      "score": 0,
+      "is_pre_release": false,
+      "api_range": "5.0.0 -> 5.36.0",
+      "dependencies_count": 0,
+      "tag": "r-14456",
+      "asset_name": "humannpc-0.1.2-r14456.phar",
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14456/humannpc-0.1.2-r14456.phar",
+      "source_artifact_url": "https://poggit.pmmp.io/r/264529",
+      "size_bytes": 44112,
+      "sha256": "bc6bc7c180fe44c377fb99dec3c3da1b7b8dcb494800e4b6b363b009ec24082c",
+      "mirrored_at": "2026-05-22T20:12:54.208Z"
     }
   },
   "plugins": {
