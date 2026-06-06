@@ -1,0 +1,61 @@
+{
+  "id": "floatingtext",
+  "name": "FloatingText",
+  "author": "EliTheDev",
+  "description": "A premium, lightweight, and customizable floating text plugin for PocketMine-MP servers, featuring a state-of-the-art Bedrock Script API styled UI with dividers, labels, and sub...",
+  "readme_markdown": "# FloatingText\n\nA premium, lightweight, and customizable floating text plugin for PocketMine-MP servers, featuring a state-of-the-art Bedrock Script API styled UI with dividers, labels, and submenus.\n\n## Features\n- **Dynamic Placeholders**: Supports placeholders like `{player}`, `{online}`, and `{max_online}` which update in real-time.\n- **In-Game Forms UI**: Navigate through beautiful custom menus with dividers and clean color styling to manage all text entities.\n- **Hybrid Commands**: Run commands directly with arguments (with tab-completion enum support) or use the interactive UI if no arguments are provided.\n- **Persistent Storage**: Saves floating texts automatically in JSON format.\n- **Multi-world Support**: Seamlessly teleports and displays floating texts across different worlds.\n\n## Commands\nAll commands require the `floatingtext.command` permission (granted to OPs by default).\n- `/floatingtext` (or `/ft`) - Opens the help menu.\n- `/ft create` - Opens the form to create a new floating text.\n- `/ft delete [id]` - Deletes the specified text, or opens the deletion form.\n- `/ft edit [id]` - Edits the text message or position, or opens the selection form.\n- `/ft tp [id]` - Teleports to the specified text, or opens a teleport menu.\n\n## Installation\n1. Download the plugin and place it into the `plugins/` directory of your server.\n2. Restart the server.\n3. Edit configurations inside `plugin_data/FloatingText/texts.yml` if you wish to change language settings or command prefixes.\n\n## Shaded Libraries\n* This plugin includes a shaded version of [PMServerUI](https://github.com/DavyCraft648/PMServerUI) to render user interface components.\n* This plugin includes a shaded version of [SimplePacketHandler](https://github.com/Muqsit/SimplePacketHandler) to allow reading and handling of packets.\n* This plugin includes a shaded version of [Commando](https://github.com/Paroxity/Commando) to allow the usage & creation of hybrid commands.\n\n## License\nLicensed under the [MIT License](LICENSE).",
+  "readme_source_url": "https://github.com/EliTheDev/FloatingText",
+  "icon_url": "https://raw.githubusercontent.com/EliTheDev/FloatingText/937380325dca32ab5e98fe4fccf312ee13032c8f/image.png",
+  "featured": false,
+  "repo": "https://github.com/EliTheDev/FloatingText",
+  "archive_repo": null,
+  "approved_release_tag": "r-14475",
+  "stars": 0,
+  "total_downloads": 2,
+  "last_commit_at": null,
+  "last_updated_at": null,
+  "license": null,
+  "api_support": [
+    "5.0.0-5.36.0"
+  ],
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "tags": [
+    "poggit-import"
+  ],
+  "producers": [
+    "EliTheDev"
+  ],
+  "whats_new": "https://poggit.pmmp.io/r/0",
+  "versions": {
+    "stable": {
+      "version": "1.0.0",
+      "tag": "r-14475",
+      "published_at": null,
+      "downloads": 2,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14475/floatingtext-1.0.0-r14475.phar"
+    },
+    "dev": null
+  },
+  "recent_builds": [
+    {
+      "tag": "r-14475",
+      "published_at": null,
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14475/floatingtext-1.0.0-r14475.phar"
+    }
+  ],
+  "comments": {
+    "enabled": false
+  },
+  "build": {
+    "provider": "mirror-import",
+    "include_prerelease": true
+  },
+  "source": {
+    "provider": "poggit",
+    "plugin_name": "FloatingText",
+    "stable_release_id": 14475
+  }
+}

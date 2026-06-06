@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-06T14:10:49.553Z",
+  "generated_at": "2026-06-06T19:48:26.678Z",
   "releases": {
     "4": {
       "release_id": 4,
@@ -115507,6 +115507,29 @@
       "size_bytes": 44112,
       "sha256": "bc6bc7c180fe44c377fb99dec3c3da1b7b8dcb494800e4b6b363b009ec24082c",
       "mirrored_at": "2026-05-22T20:12:54.208Z"
+    },
+    "14475": {
+      "release_id": 14475,
+      "plugin_name": "FloatingText",
+      "version": "1.0.0",
+      "author_owner": "EliTheDev",
+      "source_repo": "EliTheDev/FloatingText",
+      "source_repo_url": "https://github.com/EliTheDev/FloatingText",
+      "source_project_url": "https://poggit.pmmp.io/p/FloatingText/1.0.0",
+      "source_description_url": "https://poggit.pmmp.io/r/264786",
+      "source_changelog_url": "https://poggit.pmmp.io/r/0",
+      "downloads": 2,
+      "score": 0,
+      "is_pre_release": false,
+      "api_range": "5.0.0 -> 5.36.0",
+      "dependencies_count": 0,
+      "tag": "r-14475",
+      "asset_name": "floatingtext-1.0.0-r14475.phar",
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14475/floatingtext-1.0.0-r14475.phar",
+      "source_artifact_url": "https://poggit.pmmp.io/r/264787",
+      "size_bytes": 60517,
+      "sha256": "6fa940fbd1a262fe35d0817b5d2c248dd83aff1a18c420169f295830d37eaacb",
+      "mirrored_at": "2026-06-06T19:48:26.479Z"
     }
   },
   "plugins": {
@@ -128388,6 +128411,15 @@
       "readme_markdown": "<div align=\"center\">\r\n<h1>AntiBugPing</h1>\r\n<p><strong>Advanced network heuristic and desync mitigation engine for PocketMine-MP 5.</strong></p>\r\n\r\n<img src=\"https://img.shields.io/badge/PocketMine--MP-5.0+-000000?style=for-the-badge&logo=php&logoColor=white\" alt=\"PMMP 5\">\r\n<img src=\"https://img.shields.io/badge/PHP-8.1+-777BB4?style=for-the-badge&logo=php&logoColor=white\" alt=\"PHP Version\">\r\n</div>\r\n\r\n<br>\r\n\r\n## ⯈ Core Functionality\r\n\r\nAntiBugPing implements real-time connection profiling to detect and mitigate lag-switch style abuse, artificial desynchronization, and erratic network behavior.\r\n\r\n- **Heuristic Profiling:** Continuously tracks median ping, connection jitter, and packet transmission silence on a per-player basis.\r\n- **Dynamic Risk Scoring:** Translates network anomalies into a short-lived risk score, utilizing an automatic heuristic decay algorithm to prevent false positives during brief network spikes.\r\n- **Progressive Mitigation Engine:** Automatically executes escalating penalties based on desync severity:\r\n  - Restricts unauthorized combat and interaction actions.\r\n  - Triggers safe setback teleportation.\r\n  - Applies temporary movement freezing.\r\n  - Disconnects clients experiencing chronic high-risk network states (configurable).\r\n  - Initiates watchdog quarantine for clients failing to broadcast packets within the expected tick threshold.\r\n\r\n## ⯈ Architecture & Efficiency\r\n\r\nDesigned for high-concurrency production environments, ensuring zero impact on the main server thread.\r\n\r\n- **Memory Safety:** Leverages `WeakMap` for automated per-player state lifecycle management, entirely eliminating memory leaks and the need for manual garbage collection arrays.\r\n- **Zero-Allocation Buffers:** Utilizes fixed-size, in-memory circular buffers for sampling. Requires zero database I/O.\r\n- **Event-Driven Execution:** Mitigation logic is strictly bound to relevant inbound network packets and critical gameplay events, bypassing arbitrary repetitive tasks.\r\n\r\n## ⯈ Configuration Tuning\r\n\r\nThe system initializes with a `balanced` profile. Administrators must fine-tune `resources/config.yml` according to the infrastructure's routing topology.\r\n\r\n| Parameter | Recommended Adjustment |\r\n| :--- | :--- |\r\n| `thresholds.high-ping-ms` | Increase if the server infrastructure is heavily reliant on cross-continental routing. |\r\n| `thresholds.high-jitter-ms` | Increase if the primary player base utilizes cellular or highly volatile mobile connections. |\r\n| `min-ping-samples` | Increase to demand a larger statistical sample size prior to mitigation execution. |\r\n| `thresholds.action-score-cooldown-ticks` | Increase to dampen false-positive risk spikes during dense PvP interactions. |\r\n| `watchdog.quarantine-after-silent-multiplier` | Calibrate to govern the strictness of the silent-connection quarantine trigger. |\r\n| `mitigation.kick-enabled` | Keep set to `false` during initial deployment until network telemetry is validated. |\r\n\r\n## ⯈ Access Control\r\n\r\n| Node | Description | Default Status |\r\n| :--- | :--- | :--- |\r\n| `antibugping.bypass` | Grants absolute immunity to heuristic checks and mitigation penalties. | `op` |\r\n| `antibugping.notify` | Subscribes the user to real-time administrative telemetry and mitigation alerts. | `op` |\r\n\r\n## ⯈ Continuous Integration & Testing\r\n\r\nThis repository provides a lightweight test harness designed to assert configuration parser invariants (`AntiBugPingSettings::fromArray`) and validate the heuristic scoring engine (`DesyncDetector::onSuspiciousAction`).\r\n\r\nExecute the test suite via native CLI:\r\n\r\n```bash\r\nphp tests/run.php\r\n```\r\n<br> <div align=\"center\"> <h3>Developer Profile</h3> <a href=\"https://github.com/Jorgebyte\"> <img src=\"https://github-readme-stats.vercel.app/api?username=Jorgebyte&show_icons=true&theme=transparent&hide_border=true&title_color=2ea44f&icon_color=2ea44f&text_color=a3a3a3\" alt=\"Jorgebyte's GitHub Telemetry\" width=\"400\"/> </a> </div> <br> <div align=\"center\"> <h3>Network Status</h3> <a href=\"https://discord.com/users/1165097093480853634\"> <img src=\"https://lanyard.cnrad.dev/api/1165097093480853634?theme=dark&bg=0d1117&animated=true&hideDiscrim=true&borderRadius=10px\" alt=\"Discord Telemetry\"/> </a> </div>\r\n",
       "readme_source_url": "https://github.com/Jorgebyte/AntiBugPing",
       "updated_at": "2026-05-20T15:59:05.771Z"
+    },
+    "floatingtext": {
+      "plugin_name": "FloatingText",
+      "repo_name": "EliTheDev/FloatingText",
+      "author_owner": "EliTheDev",
+      "description": "",
+      "readme_markdown": "# FloatingText\n\nA premium, lightweight, and customizable floating text plugin for PocketMine-MP servers, featuring a state-of-the-art Bedrock Script API styled UI with dividers, labels, and submenus.\n\n## Features\n- **Dynamic Placeholders**: Supports placeholders like `{player}`, `{online}`, and `{max_online}` which update in real-time.\n- **In-Game Forms UI**: Navigate through beautiful custom menus with dividers and clean color styling to manage all text entities.\n- **Hybrid Commands**: Run commands directly with arguments (with tab-completion enum support) or use the interactive UI if no arguments are provided.\n- **Persistent Storage**: Saves floating texts automatically in JSON format.\n- **Multi-world Support**: Seamlessly teleports and displays floating texts across different worlds.\n\n## Commands\nAll commands require the `floatingtext.command` permission (granted to OPs by default).\n- `/floatingtext` (or `/ft`) - Opens the help menu.\n- `/ft create` - Opens the form to create a new floating text.\n- `/ft delete [id]` - Deletes the specified text, or opens the deletion form.\n- `/ft edit [id]` - Edits the text message or position, or opens the selection form.\n- `/ft tp [id]` - Teleports to the specified text, or opens a teleport menu.\n\n## Installation\n1. Download the plugin and place it into the `plugins/` directory of your server.\n2. Restart the server.\n3. Edit configurations inside `plugin_data/FloatingText/texts.yml` if you wish to change language settings or command prefixes.\n\n## Shaded Libraries\n* This plugin includes a shaded version of [PMServerUI](https://github.com/DavyCraft648/PMServerUI) to render user interface components.\n* This plugin includes a shaded version of [SimplePacketHandler](https://github.com/Muqsit/SimplePacketHandler) to allow reading and handling of packets.\n* This plugin includes a shaded version of [Commando](https://github.com/Paroxity/Commando) to allow the usage & creation of hybrid commands.\n\n## License\nLicensed under the [MIT License](LICENSE).\n",
+      "readme_source_url": "https://github.com/EliTheDev/FloatingText",
+      "updated_at": "2026-06-06T19:48:26.587Z"
     }
   }
 }
