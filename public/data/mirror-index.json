@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-11T20:37:57.674Z",
+  "generated_at": "2026-06-12T05:07:01.006Z",
   "releases": {
     "4": {
       "release_id": 4,
@@ -115507,6 +115507,29 @@
       "size_bytes": 44112,
       "sha256": "bc6bc7c180fe44c377fb99dec3c3da1b7b8dcb494800e4b6b363b009ec24082c",
       "mirrored_at": "2026-05-22T20:12:54.208Z"
+    },
+    "14474": {
+      "release_id": 14474,
+      "plugin_name": "KitSystem",
+      "version": "1.0.5",
+      "author_owner": "Jorgebyte",
+      "source_repo": "Jorgebyte/KitSystem",
+      "source_repo_url": "https://github.com/Jorgebyte/KitSystem",
+      "source_project_url": "https://poggit.pmmp.io/p/KitSystem/1.0.5",
+      "source_description_url": "https://poggit.pmmp.io/r/264755",
+      "source_changelog_url": "https://poggit.pmmp.io/r/264757",
+      "downloads": 1,
+      "score": 0,
+      "is_pre_release": false,
+      "api_range": "5.36.0 -> 5.36.0",
+      "dependencies_count": 0,
+      "tag": "r-14474",
+      "asset_name": "kitsystem-1.0.5-r14474.phar",
+      "download_url": "https://github.com/pockgin-mirror/pockgin-mirror-phars/releases/download/r-14474/kitsystem-1.0.5-r14474.phar",
+      "source_artifact_url": "https://poggit.pmmp.io/r/264758",
+      "size_bytes": 277339,
+      "sha256": "9415a16e4372395306005a17e1a3f594c3e9528534fe40361368730a54b302ba",
+      "mirrored_at": "2026-06-12T05:07:00.923Z"
     },
     "14475": {
       "release_id": 14475,
